@@ -1,0 +1,10 @@
+netmod
+
+
+andy@netconfcentral.com
+lhotka@cesnet.cz
+phil@juniper.net
+j.schoenwaelder@jacobs-university.de
+balazs.lengyel@ericsson.com
+dromasca@avaya.com
+andyb@iwl.com

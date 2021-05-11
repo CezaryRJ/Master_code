@@ -1,0 +1,10 @@
+netconf
+
+
+andy@netconfcentral.com
+j.schoenwaelder@jacobs-university.de
+balazs.lengyel@ericsson.com
+phil@juniper.net
+markscot@nortel.com
+badra@isima.fr
+kwatsen@juniper.net

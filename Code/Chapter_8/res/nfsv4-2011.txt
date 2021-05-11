@@ -1,0 +1,14 @@
+nfsv4
+
+
+thomas@netapp.com
+nico@cryptonector.com
+sshepler@microsoft.com
+david.black@emc.com
+sfaibish@emc.com
+dpquigl@davequigley.com
+bhalevy@tonian.com
+chuck.lever@oracle.com
+bhalevy@panasas.com
+mre-ietf@eisler.com
+jarrett.lu@oracle.com

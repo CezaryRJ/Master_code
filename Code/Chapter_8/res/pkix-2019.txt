@@ -1,0 +1,11 @@
+pkix
+
+
+pgut001@cs.auckland.ac.nz
+housley@vigilsec.com
+stefan@aaa-sec.com
+ietf@augustcellars.com
+sean@sn3rd.com
+david.cooper@nist.gov
+phill@hallambaker.com
+danibrown@blackberry.com

@@ -1,0 +1,11 @@
+nemo
+
+
+pthubert@cisco.com
+ernst@sfc.wide.ad.jp
+vijayd@iprg.nokia.com
+cwng@psl.com.sg
+ryuji@sfc.wide.ad.jp
+fanzhao@ucdavis.edu
+marcelo@it.uc3m.es
+watari@sfc.wide.ad.jp

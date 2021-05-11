@@ -1,0 +1,13 @@
+ipfix
+
+
+muenz@net.in.tum.de
+trammell@tik.ee.ethz.ch
+n.brownlee@auckland.ac.nz
+akoba@nttv6.net
+paitken@cisco.com
+andrjohn@cisco.com
+kashima@nttv6.net
+quittek@neclab.eu
+quittek@nw.neclab.eu
+gowri@cisco.com

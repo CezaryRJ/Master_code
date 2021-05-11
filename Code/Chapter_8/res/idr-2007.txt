@@ -1,0 +1,14 @@
+idr
+
+
+tli@cisco.com
+curtis@occnc.com
+yakov@juniper.net
+jhaas@pfrc.org
+raszuk@juniper.net
+gih@apnic.net
+jgs@bgp.nu
+danny@tcb.net
+pekkas@netcore.fi
+enkechen@cisco.com
+skh@nexthop.com

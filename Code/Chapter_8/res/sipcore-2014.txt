@@ -1,0 +1,15 @@
+sipcore
+
+
+rifaat.ietf@gmail.com
+christer.holmberg@ericsson.com
+worley@ariadne.com
+rjsparks@nostrum.com
+ivo.sedlacek@ericsson.com
+oej@edvina.net
+ibc@aliax.net
+adam@nostrum.com
+mary.ietf.barnes@gmail.com
+hadriel.kaplan@oracle.com
+jon.peterson@neustar.biz
+gsalguei@cisco.com

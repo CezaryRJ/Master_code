@@ -1,0 +1,12 @@
+gsmp
+
+
+avri@nortelnetworks.com
+geku@nortelnetworks.com
+ksundell@nortelnetworks.com
+hans@ipunplugged.com
+todd.a.anderson@intel.com
+fsb@thefsb.org
+hormuzd.m.khosravi@intel.com
+jonathan.sadler@tellabs.com
+avri@acm.org

@@ -1,0 +1,10 @@
+lmap
+
+
+philip.eardley@bt.com
+j.schoenwaelder@jacobs-university.de
+acmorton@att.com
+trevor.burbridge@bt.com
+paitken@cisco.com
+marcelo@it.uc3m.es
+mlinsner@cisco.com

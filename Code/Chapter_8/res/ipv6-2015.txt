@@ -1,0 +1,8 @@
+ipv6
+
+
+brian.e.carpenter@gmail.com
+bob.hinden@gmail.com
+nordmark@acm.org
+brian@innovationslab.net
+suresh.krishnan@ericsson.com

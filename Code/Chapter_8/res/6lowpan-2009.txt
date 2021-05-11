@@ -1,0 +1,7 @@
+6lowpan
+
+
+cabo@tzi.org
+zach@sensinode.com
+pthubert@cisco.com
+dokaspar.ietf@gmail.com

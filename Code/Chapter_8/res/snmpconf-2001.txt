@@ -1,0 +1,9 @@
+snmpconf
+
+
+saperia@jdscons.com
+waldbusser@nextbeacon.com
+david.partain@ericsson.com
+wayne@goldwiretech.com
+mrm@riverstonenet.com
+harrie@covalent.net

@@ -1,0 +1,14 @@
+dnsext
+
+
+edlewis@arin.net
+paul@vix.com
+aboba@internaut.com
+olaf@ripe.net
+scottr@nist.gov
+sra+namedroppers@hactrn.net
+ogud@ogud.com
+weiler@tislabs.com
+gson@nominum.com
+randy@psg.com
+roy@logmess.com

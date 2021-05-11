@@ -1,0 +1,12 @@
+v6ops
+
+
+pekkas@netcore.fi
+itojun@iijlab.net
+alain.durand@sun.com
+ftemplin@iprg.nokia.com
+osprey67@yahoo.com
+juha.wiljakka@nokia.com
+erik.nordmark@sun.com
+sra+v6ops@hactrn.net
+huitema@windows.microsoft.com

@@ -1,0 +1,16 @@
+roll
+
+
+jpv@cisco.com
+pthubert@cisco.com
+pal@cs.stanford.edu
+mukul@uwm.edu
+mcr@sandelman.ca
+richard.kelsey@ember.com
+abr@sdesigns.dk
+gnawali@cs.stanford.edu
+robert.cragie@gridmerge.com
+jgko@cs.jhu.edu
+jerald.p.martocci@jci.com
+roger.alexander@ekasystems.com
+wintert@acm.org

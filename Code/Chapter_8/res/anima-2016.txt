@@ -1,0 +1,9 @@
+anima
+
+
+mcr+ietf@sandelman.ca
+mbehring@cisco.com
+eckert@cisco.com
+pritikin@cisco.com
+tte@cs.fau.de
+tte+ietf@cs.fau.de

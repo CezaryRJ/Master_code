@@ -1,0 +1,14 @@
+geopriv
+
+
+hgs@cs.columbia.edu
+hannes.tschofenig@siemens.com
+br@brianrosen.net
+jmpolk@cisco.com
+jschnizl@cisco.com
+winterb@nortel.com
+mlinsner@cisco.com
+martin.thomson@nortel.com
+aboba@internaut.com
+hardie@qualcomm.com
+jdrosen@cisco.com

@@ -1,0 +1,10 @@
+pkix
+
+
+housley@vigilsec.com
+carl@redhoundsoftware.com
+pgut001@cs.auckland.ac.nz
+sean@sn3rd.com
+philliph@comodo.com
+david.cooper@nist.gov
+kathleen.moriarty.ietf@gmail.com

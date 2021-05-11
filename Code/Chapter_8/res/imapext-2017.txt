@@ -1,0 +1,9 @@
+imapext
+
+
+alexey.melnikov@isode.com
+aamelnikov@fastmail.fm
+arnt@gulbrandsen.priv.no
+barryleiba@computer.org
+chris.newman@oracle.com
+cyrus@daboo.name

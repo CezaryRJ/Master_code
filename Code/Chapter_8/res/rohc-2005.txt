@@ -1,0 +1,13 @@
+rohc
+
+
+lars-erik.jonsson@ericsson.com
+robert.finking@roke.co.uk
+abigail.surtees@roke.co.uk
+ghyslain.pelletier@ericsson.com
+cabo@tzi.org
+kristofer.sandlund@effnet.com
+mark.a.west@roke.co.uk
+kristofer.sandlund@ericsson.com
+larsman@home.se
+adam@nostrum.com

@@ -1,0 +1,11 @@
+nfsv4
+
+
+davenoveck@gmail.com
+chuck.lever@oracle.com
+sshepler@microsoft.com
+hch@lst.de
+spencer.shepler@gmail.com
+david.black@emc.com
+thomas.haynes@primarydata.com
+eshel@us.ibm.com

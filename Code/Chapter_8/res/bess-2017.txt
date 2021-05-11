@@ -1,0 +1,15 @@
+bess
+
+
+sajassi@cisco.com
+jorge.rabadan@nokia.com
+thomas.morin@orange.com
+sboutros@vmware.com
+tsuno@m.ieice.org
+jefftant.ietf@gmail.com
+erosen@juniper.net
+jdrake@juniper.net
+zzhang@juniper.net
+andrew.dolganow@nokia.com
+robert@raszuk.net
+boutros.sami@gmail.com

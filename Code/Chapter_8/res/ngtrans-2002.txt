@@ -1,0 +1,9 @@
+ngtrans
+
+
+itojun@iijlab.net
+huitema@windows.microsoft.com
+ftemplin@iprg.nokia.com
+moore@cs.utk.edu
+erik.nordmark@sun.com
+alain.durand@sun.com

@@ -1,0 +1,9 @@
+xcon
+
+
+oscar.novo@ericsson.com
+gonzalo.camarillo@ericsson.com
+mary.barnes@nortel.com
+lorenzo.miniero@unina.it
+spromano@unina.it
+jari.urpalainen@nokia.com

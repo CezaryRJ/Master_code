@@ -1,0 +1,10 @@
+ipsec
+
+
+karn@qualcomm.com
+kent@bbn.com
+ho@earth.hpc.org
+naganand@ftp.com
+smb@research.att.com
+ho@cs.arizona.edu
+housley@spyrus.com

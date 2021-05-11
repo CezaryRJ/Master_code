@@ -1,0 +1,9 @@
+krb-wg
+
+
+hartmans@mit.edu
+lzhu@windows.microsoft.com
+brian@isi.edu
+raeburn@mit.edu
+paulle@windows.microsoft.com
+bcn@isi.edu

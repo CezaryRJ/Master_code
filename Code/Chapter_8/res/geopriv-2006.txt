@@ -1,0 +1,13 @@
+geopriv
+
+
+hgs@cs.columbia.edu
+hannes.tschofenig@gmx.net
+br@brianrosen.net
+jmpolk@cisco.com
+mlinsner@cisco.com
+brian.rosen@neustar.biz
+jschnizl@cisco.com
+hannes.tschofenig@siemens.com
+hardie@qualcomm.com
+rohan.mahy@gmail.com

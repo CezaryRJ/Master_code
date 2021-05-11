@@ -1,0 +1,9 @@
+rmt
+
+
+rkermode@arc.corp.mot.com
+lorenzo@cisco.com
+luigi@labinfo.iet.unipi.it
+whetten@talarian.com
+luby@dfountain.com
+luigi@info.iet.unipi.it

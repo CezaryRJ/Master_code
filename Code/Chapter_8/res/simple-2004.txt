@@ -1,0 +1,16 @@
+simple
+
+
+jdrosen@dynamicsoft.com
+hisham.khartabil@nokia.com
+pkyzivat@cisco.com
+hgs@cs.columbia.edu
+bcampbell@dynamicsoft.com
+aki.niemi@nokia.com
+markus.isomaki@nokia.com
+mikko.lonnfors@nokia.com
+ben@nostrum.com
+fluffy@cisco.com
+jari.urpalainen@nokia.com
+adam@dynamicsoft.com
+eburger@brooktrout.com

@@ -1,0 +1,8 @@
+openpgp
+
+
+hal@finney.org
+jon@callas.org
+roessler@guug.de
+roessler@does-not-exist.org
+rodney@tillerman.to

@@ -1,0 +1,16 @@
+sidr
+
+
+sandy@sparta.com
+randy@psg.com
+kent@bbn.com
+gih@apnic.net
+terry.manderson@icann.org
+terry@terrym.net
+sra@isc.org
+robert@ripe.net
+ggm@apnic.net
+weiler@watson.org
+weiler+lists.sidr@watson.org
+ggm+ietf@apnic.net
+robertl@apnic.net

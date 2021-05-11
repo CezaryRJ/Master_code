@@ -1,0 +1,5 @@
+manet
+
+
+idc@cs.ucsb.edu
+philippe.jacquet@inria.fr

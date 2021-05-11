@@ -1,0 +1,11 @@
+pkix
+
+
+housley@vigilsec.com
+pgut001@cs.auckland.ac.nz
+stephen.farrell@cs.tcd.ie
+kent@bbn.com
+phill@hallambaker.com
+pritikin@cisco.com
+turners@ieca.com
+paul.hoffman@vpnc.org

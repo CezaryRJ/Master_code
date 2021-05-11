@@ -1,0 +1,11 @@
+v6ops
+
+
+lorenzo@google.com
+alexandru.petrescu@gmail.com
+fred@cisco.com
+brian.e.carpenter@gmail.com
+joelja@bogus.com
+cb.list6@gmail.com
+ales.vizdal@t-mobile.cz
+nick@inex.ie

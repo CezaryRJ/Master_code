@@ -1,0 +1,9 @@
+dnsext
+
+
+lewis@tislabs.com
+randy@psg.com
+roy@nlnetlabs.nl
+gson@nominum.com
+vixie@mibh.net
+bmanning@isi.edu

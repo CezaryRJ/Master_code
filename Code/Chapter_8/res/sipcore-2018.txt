@@ -1,0 +1,12 @@
+sipcore
+
+
+christer.holmberg@ericsson.com
+worley@ariadne.com
+br@brianrosen.net
+eburger@standardstrack.com
+rjsparks@nostrum.com
+roland.jesske@web.de
+rifaat.ietf@gmail.com
+michael.arnold@metaswitch.com
+hgs@cs.columbia.edu

@@ -1,0 +1,13 @@
+sidrops
+
+
+randy@psg.com
+tim@nlnetlabs.nl
+tim@ripe.net
+keyur@arrcus.com
+sean@sn3rd.com
+jheitz@cisco.com
+ggm@algebras.org
+madi@rpstir.net
+oleg@ripe.net
+oliver.borchert@nist.gov

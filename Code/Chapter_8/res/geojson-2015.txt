@@ -1,0 +1,8 @@
+geojson
+
+
+sean.gillies@gmail.com
+adoyle@intl-interfaces.com
+martin.daly@cadcorp.com
+howard@hobu.co
+tim.schaub@gmail.com

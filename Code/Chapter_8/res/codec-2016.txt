@@ -1,0 +1,10 @@
+codec
+
+
+tterribe@xiph.org
+jmvalin@jmvalin.ca
+ron@debian.org
+mgraczyk@google.com
+jmvalin@mozilla.com
+tterriberry@mozilla.com
+giles@thaumas.net

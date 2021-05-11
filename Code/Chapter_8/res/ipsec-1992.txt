@@ -1,0 +1,8 @@
+ipsec
+
+
+kent@bbn.com
+atkinson@tengwar.itd.nrl.navy.mil
+karn@qualcomm.com
+smb@research.att.com
+ho@cs.arizona.edu

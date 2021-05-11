@@ -1,0 +1,14 @@
+simple
+
+
+jdrosen@dynamicsoft.com
+bcampbell@dynamicsoft.com
+hisham.khartabil@nokia.com
+hgs@cs.columbia.edu
+pkyzivat@cisco.com
+adam@dynamicsoft.com
+aki.niemi@nokia.com
+fluffy@cisco.com
+markus.isomaki@nokia.com
+vkg@lucent.com
+miguel.a.garcia@ericsson.com

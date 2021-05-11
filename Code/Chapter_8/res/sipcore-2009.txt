@@ -1,0 +1,15 @@
+sipcore
+
+
+christer.holmberg@ericsson.com
+audet@nortel.com
+dean.willis@softarmor.com
+ietf.hanserik@gmail.com
+mary.barnes@nortel.com
+gonzalo.camarillo@ericsson.com
+adam@nostrum.com
+hkaplan@acmepacket.com
+jmpolk@cisco.com
+dworley@nortel.com
+gao.yang2@zte.com.cn
+rjsparks@nostrum.com

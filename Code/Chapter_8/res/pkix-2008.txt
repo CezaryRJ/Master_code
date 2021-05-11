@@ -1,0 +1,17 @@
+pkix
+
+
+schokhani@cygnacom.com
+kent@bbn.com
+stefans@microsoft.com
+housley@vigilsec.com
+paul.hoffman@vpnc.org
+turners@ieca.com
+dpkemp@missi.ncsc.mil
+denis.pinkas@bull.net
+pgut001@cs.auckland.ac.nz
+david.cooper@nist.gov
+peter.sylvester@edelweb.fr
+tgindin@us.ibm.com
+stephen.farrell@cs.tcd.ie
+pbaker@verisign.com

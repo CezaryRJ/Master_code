@@ -1,0 +1,11 @@
+rohc
+
+
+kristofer.sandlund@ericsson.com
+ghyslain.pelletier@ericsson.com
+gonzalo.camarillo@ericsson.com
+mark.a.west@roke.co.uk
+cabo@tzi.org
+pelle@cdt.luth.se
+larsman@home.se
+amarkwest@googlemail.com

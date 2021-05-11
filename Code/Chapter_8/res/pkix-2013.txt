@@ -1,0 +1,13 @@
+pkix
+
+
+stefan@aaa-sec.com
+denis.pinkas@bull.net
+kent@bbn.com
+pgut001@cs.auckland.ac.nz
+turners@ieca.com
+schokhani@cygnacom.com
+ietf@augustcellars.com
+carl@redhoundsoftware.com
+paul.hoffman@vpnc.org
+peter.sylvester@edelweb.fr

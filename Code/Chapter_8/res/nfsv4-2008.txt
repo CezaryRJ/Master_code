@@ -1,0 +1,10 @@
+nfsv4
+
+
+mre-ietf@eisler.com
+bhalevy@panasas.com
+email2mre-ietf@yahoo.com
+spencer.shepler@sun.com
+jlentini@netapp.com
+robert.thurlow@sun.com
+shepler@storspeed.com

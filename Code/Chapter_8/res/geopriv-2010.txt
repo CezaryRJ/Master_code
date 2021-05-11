@@ -1,0 +1,15 @@
+geopriv
+
+
+rbarnes@bbn.com
+br@brianrosen.net
+jmpolk@cisco.com
+acooper@cdt.org
+bernard_aboba@hotmail.com
+mlinsner@cisco.com
+hannes.tschofenig@gmx.net
+hannes.tschofenig@nsn.com
+hgs@cs.columbia.edu
+jrcuellarj@googlemail.com
+ted.ietf@gmail.com
+alexander.mayrhofer@nic.at

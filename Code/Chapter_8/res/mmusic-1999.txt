@@ -1,0 +1,12 @@
+mmusic
+
+
+jdrosen@dnrc.bell-labs.com
+hgs@cs.columbia.edu
+adam.roach@ericsson.com
+schulzrinne@cs.columbia.edu
+eussean@exu.ericsson.se
+c.perkins@cs.ucl.ac.uk
+gonzalo.camarillo@ericsson.com
+jdrosen@bell-labs.com
+anrao@cisco.com

@@ -1,0 +1,13 @@
+core
+
+
+cabo@tzi.org
+zach@sensinode.com
+hartke@tzi.org
+esko.dijk@philips.com
+tho@koanlogic.com
+angelo@castellani.net
+fluffy@iii.ca
+salvatore.loreto@ericsson.com
+fluffy@cisco.com
+jari.arkko@piuha.net

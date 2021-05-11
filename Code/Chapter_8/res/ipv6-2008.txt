@@ -1,0 +1,10 @@
+ipv6
+
+
+brian.e.carpenter@gmail.com
+narten@us.ibm.com
+john.loughney@nokia.com
+suresh.krishnan@ericsson.com
+pekkas@netcore.fi
+brian@innovationslab.net
+bob.hinden@nokia.com

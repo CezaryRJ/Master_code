@@ -1,0 +1,9 @@
+dnsext
+
+
+vixie@isc.org
+bmanning@vacation.karoshi.com
+ed.lewis@neustar.biz
+paul.hoffman@vpnc.org
+ogud@ogud.com
+drc@virtualized.org

@@ -1,0 +1,13 @@
+tsvwg
+
+
+david.black@emc.com
+gorry@erg.abdn.ac.uk
+david.black@dell.com
+ietf@bobbriscoe.net
+lucy.yong@huawei.com
+mallman@icir.org
+tom@herbertland.com
+fred@cisco.com
+roland.bless@kit.edu
+magnus.westerlund@ericsson.com

@@ -1,0 +1,16 @@
+mpls
+
+
+adrian@olddog.co.uk
+loa@pi.nu
+vishwas.ietf@gmail.com
+loa@pi.se
+stbryant@cisco.com
+swallow@cisco.com
+italo.busi@alcatel-lucent.it
+shane@castlepoint.net
+tnadeau@lucidvision.com
+nitinb@juniper.net
+benjamin.niven-jenkins@bt.com
+eric.gray@ericsson.com
+zali@cisco.com

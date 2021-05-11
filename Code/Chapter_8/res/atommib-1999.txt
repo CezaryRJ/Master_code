@@ -1,0 +1,8 @@
+atommib
+
+
+kaj@research.telcordia.com
+kaj@research.bellcore.com
+kzm@cisco.com
+jeff@redback.com
+kaj@bellcore.com

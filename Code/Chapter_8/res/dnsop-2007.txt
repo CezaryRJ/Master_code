@@ -1,0 +1,9 @@
+dnsop
+
+
+andrew@ca.afilias.info
+jabley@ca.afilias.info
+pk@denic.de
+briand@ca.afilias.info
+paul@xelerance.com
+ted.lemon@nominum.com

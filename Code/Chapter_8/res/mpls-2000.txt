@@ -1,0 +1,14 @@
+mpls
+
+
+tnadeau@cisco.com
+curtis@avici.com
+kireeti@juniper.net
+akyol@pluris.com
+lberger@labn.net
+swallow@cisco.com
+erosen@cisco.com
+curtis@workhorse.fictitious.org
+yakov@cisco.com
+jlawrenc@cisco.com
+petera@nortelnetworks.com

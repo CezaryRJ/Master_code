@@ -1,0 +1,14 @@
+pkix
+
+
+denis.pinkas@bull.net
+rhousley@rsasecurity.com
+pgut001@cs.auckland.ac.nz
+peter.sylvester@edelweb.fr
+myers@coastside.net
+kent@bbn.com
+tgindin@us.ibm.com
+chokhani@orionsec.com
+ambarish@valicert.com
+stephen.farrell@baltimore.ie
+trevorf@windows.microsoft.com

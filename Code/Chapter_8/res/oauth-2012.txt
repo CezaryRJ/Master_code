@@ -1,0 +1,11 @@
+oauth
+
+
+ve7jtb@ve7jtb.com
+jricher@mitre.org
+hannes.tschofenig@gmx.net
+torsten@lodderstedt.net
+bcampbell@pingidentity.com
+phil.hunt@oracle.com
+sakimura@gmail.com
+dick.hardt@gmail.com

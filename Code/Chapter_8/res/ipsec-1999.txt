@@ -1,0 +1,9 @@
+ipsec
+
+
+dharkins@network-alchemy.com
+skelly@redcreek.com
+kivinen@ssh.fi
+kent@bbn.com
+paul.hoffman@vpnc.org
+smb@research.att.com

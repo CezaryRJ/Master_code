@@ -1,0 +1,11 @@
+ipngwg
+
+
+itojun@iijlab.net
+seamus@bit-net.com
+alh-ietf@tndh.net
+aconta@txc.com
+hinden@iprg.nokia.com
+crawdad@fnal.gov
+richdr@microsoft.com
+deering@cisco.com

@@ -1,0 +1,13 @@
+mmusic
+
+
+miguel.a.garcia@ericsson.com
+pkyzivat@alum.mit.edu
+christer.holmberg@ericsson.com
+fandreas@cisco.com
+emcho@jitsi.org
+magnus.westerlund@ericsson.com
+hkaplan@acmepacket.com
+dwing@cisco.com
+jonathan@vidyo.com
+jmpolk@cisco.com

@@ -1,0 +1,12 @@
+dccp
+
+
+kohler@cs.ucla.edu
+arjuna.sathiaseelan@gmail.com
+gorry@erg.abdn.ac.uk
+sallyfloyd@mac.com
+tphelan@sonusnet.com
+csp@csperkins.org
+floyd@icir.org
+gerrit@erg.abdn.ac.uk
+m.handley@cs.ucl.ac.uk

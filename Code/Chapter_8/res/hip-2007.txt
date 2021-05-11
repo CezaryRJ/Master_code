@@ -1,0 +1,12 @@
+hip
+
+
+miika@iki.fi
+gonzalo.camarillo@ericsson.com
+pekka.nikander@nomadiclab.com
+hannes.tschofenig@gmx.net
+julien.ietf@laposte.net
+heer@cs.rwth-aachen.de
+christian.vogt@nomadiclab.com
+jari.arkko@piuha.net
+lars.eggert@nokia.com

@@ -1,0 +1,12 @@
+tsvwg
+
+
+gorry@erg.abdn.ac.uk
+david.black@emc.com
+bob.briscoe@bt.com
+fred@cisco.com
+lucy.yong@huawei.com
+jmpolk@cisco.com
+karen.nielsen@tieto.com
+karagian@cs.utwente.nl
+nishida@sfc.wide.ad.jp

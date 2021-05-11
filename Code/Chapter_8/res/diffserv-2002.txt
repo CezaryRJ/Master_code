@@ -1,0 +1,8 @@
+diffserv
+
+
+dan@dma.isg.mot.com
+khchan@nortelnetworks.com
+fred@cisco.com
+ah_smith@acm.org
+nichols@packetdesign.com

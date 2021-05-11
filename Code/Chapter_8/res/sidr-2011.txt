@@ -1,0 +1,12 @@
+sidr
+
+
+randy@psg.com
+sandra.murphy@sparta.com
+kent@bbn.com
+terry.manderson@icann.org
+russ@cisco.com
+gih@apnic.net
+russw@riw.us
+rogaglia@cisco.com
+hannes@juniper.net

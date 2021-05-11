@@ -1,0 +1,13 @@
+mpls
+
+
+loa@pi.se
+adrian@olddog.co.uk
+swallow@cisco.com
+tnadeau@cisco.com
+dallan@nortel.com
+jeanlouis.leroux@francetelecom.com
+yasukawa.seisho@lab.ntt.co.jp
+aatlas@avici.com
+kireeti@juniper.net
+benjamin.niven-jenkins@bt.com

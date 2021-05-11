@@ -1,0 +1,10 @@
+ipsec
+
+
+kent@bbn.com
+smb@research.att.com
+skelly@redcreek.com
+ari.huttunen@f-secure.com
+dharkins@cips.nokia.com
+kivinen@ssh.fi
+paul.hoffman@vpnc.org

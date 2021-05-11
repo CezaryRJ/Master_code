@@ -1,0 +1,14 @@
+dnsop
+
+
+marka@isc.org
+paul.hoffman@vpnc.org
+jabley@hopcount.ca
+ajs@anvilwalrusden.com
+warren@kumari.net
+ted.lemon@nominum.com
+drc@virtualized.org
+ogud@ogud.com
+paul@nohats.ca
+suzworldwide@gmail.com
+each@isc.org

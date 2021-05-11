@@ -1,0 +1,9 @@
+nfsv4
+
+
+mre@eng.sun.com
+shepler@eng.sun.com
+brent@eng.sun.com
+beame@mail1.eircom.net
+david.robinson@eng.sun.com
+beame@mail1.tinet.ie

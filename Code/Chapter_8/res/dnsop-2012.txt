@@ -1,0 +1,14 @@
+dnsop
+
+
+matthijs@nlnetlabs.nl
+joe.abley@icann.org
+marka@isc.org
+drc@virtualized.org
+jason_livingood@cable.comcast.com
+paul.hoffman@vpnc.org
+paul@cypherpunks.ca
+ted.lemon@nominum.com
+fredrik@kirei.se
+pk@denic.de
+sa.morris7@googlemail.com

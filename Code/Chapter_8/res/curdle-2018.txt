@@ -1,0 +1,12 @@
+curdle
+
+
+denisbider.ietf@gmail.com
+mdb@juniper.net
+housley@vigilsec.com
+ietf@augustcellars.com
+simo@redhat.com
+kaduk@mit.edu
+hkario@redhat.com
+ssorce@redhat.com
+logan@hackers.mu

@@ -1,0 +1,11 @@
+webdav
+
+
+julian.reschke@gmx.de
+lisa@osafoundation.org
+geoffrey.clemm@us.ibm.com
+ejw@cs.ucsc.edu
+briank@xythos.com
+lisa@xythos.com
+ejw@cse.ucsc.edu
+eric.sedlar@oracle.com

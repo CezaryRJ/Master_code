@@ -1,0 +1,13 @@
+ipfix
+
+
+akoba@nttv6.net
+n.brownlee@auckland.ac.nz
+paitken@cisco.com
+muenz@informatik.uni-tuebingen.de
+trammell@tik.ee.ethz.ch
+bht@cert.org
+muenz@net.in.tum.de
+quittek@nw.neclab.eu
+elisa.boschi@hitachi-eu.com
+nevil@auckland.ac.nz

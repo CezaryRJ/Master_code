@@ -1,0 +1,11 @@
+smime
+
+
+blake@brutesquadlabs.com
+housley@vigilsec.com
+jimsch@nwlink.com
+pgut001@cs.auckland.ac.nz
+bonattic@ieca.com
+turners@ieca.com
+phoffman@imc.org
+denis.pinkas@bull.net

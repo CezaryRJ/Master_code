@@ -1,0 +1,12 @@
+opsec
+
+
+warren@kumari.net
+fgont@si6networks.com
+cpignata@cisco.com
+joelja@bogus.com
+mbehring@cisco.com
+merike@doubleshotsecurity.com
+jerduran@cisco.com
+rja.lists@gmail.com
+evyncke@cisco.com

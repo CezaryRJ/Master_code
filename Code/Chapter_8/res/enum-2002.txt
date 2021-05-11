@@ -1,0 +1,11 @@
+enum
+
+
+rich.shockey@neustar.com
+lwc@roke.co.uk
+michael@neonym.net
+rshockey@ix.netcom.com
+richard.stastny@oefeg.at
+james.yu@neustar.biz
+jon.peterson@neustar.biz
+shollenbeck@verisign.com

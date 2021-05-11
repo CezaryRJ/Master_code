@@ -1,0 +1,16 @@
+nsis
+
+
+karagian@cs.utwente.nl
+stiemerling@netlab.nec.de
+jmanner@cs.helsinki.fi
+john.loughney@nokia.com
+bless@tm.uka.de
+robert.hancock@roke.co.uk
+hannes.tschofenig@gmx.net
+andrew.mcdonald@roke.co.uk
+mail@christian-dickmann.de
+oran@cisco.com
+lars.westberg@ericsson.com
+sanda.takako@jp.panasonic.com
+fu@cs.uni-goettingen.de

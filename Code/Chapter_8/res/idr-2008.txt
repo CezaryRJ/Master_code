@@ -1,0 +1,12 @@
+idr
+
+
+jhaas@pfrc.org
+yakov@juniper.net
+danny@tcb.net
+jgs@juniper.net
+raszuk@juniper.net
+gih@apnic.net
+enkechen@cisco.com
+jgs@bgp.nu
+dward@cisco.com

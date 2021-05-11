@@ -1,0 +1,11 @@
+dnsind
+
+
+kre@munnari.oz.au
+mohta@necom830.hpcl.titech.ac.jp
+vixie@mibh.net
+randy@psg.com
+crawdad@fnal.gov
+bound@zk3.dec.com
+marka@isc.org
+paul@vix.com

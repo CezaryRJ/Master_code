@@ -1,0 +1,12 @@
+l2vpn
+
+
+sajassi@cisco.com
+marc@riverstonenet.com
+hshah@ciena.com
+tnadeau@cisco.com
+vach.kompella@alcatel.com
+y.kamite@ntt.com
+bsd@cisco.com
+yetik_serbest@labs.sbc.com
+kireeti@juniper.net

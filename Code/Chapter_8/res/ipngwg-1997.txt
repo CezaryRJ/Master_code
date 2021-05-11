@@ -1,0 +1,8 @@
+ipngwg
+
+
+bound@zk3.dec.com
+huitema@bellcore.com
+mo@uu.net
+crawdad@fnal.gov
+dhaskin@baynetworks.com

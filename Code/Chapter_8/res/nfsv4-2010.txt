@@ -1,0 +1,13 @@
+nfsv4
+
+
+jlentini@netapp.com
+sfaibish@emc.com
+bhalevy@panasas.com
+thomas@netapp.com
+sshepler@microsoft.com
+chuck.lever@oracle.com
+spencer.shepler@gmail.com
+david.black@emc.com
+mre-ietf@eisler.com
+dpquigl@tycho.nsa.gov

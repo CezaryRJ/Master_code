@@ -1,0 +1,11 @@
+ipngwg
+
+
+hinden@iprg.nokia.com
+bound@zk3.dec.com
+crawdad@fnal.gov
+deering@cisco.com
+richdr@microsoft.com
+ignatios@theory.cs.uni-bonn.de
+bound@wasted.zk3.dec.com
+narten@raleigh.ibm.com

@@ -1,0 +1,16 @@
+mpls
+
+
+curtis@fictitious.org
+tnadeau@cisco.com
+loa@pi.se
+dallan@nortelnetworks.com
+kireeti@juniper.net
+swallow@cisco.com
+curtis@workhorse.fictitious.org
+dimitri.papadimitriou@alcatel.be
+afarrel@movaz.com
+adrian@olddog.co.uk
+erosen@cisco.com
+nurit.sprecher@seabridgenetworks.com
+jdrake@calient.net

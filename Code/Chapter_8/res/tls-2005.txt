@@ -1,0 +1,16 @@
+tls
+
+
+ekr@rtfm.com
+bmoeller@acm.org
+ekr@networkresonance.com
+pasi.eronen@nokia.com
+jsalowey@cisco.com
+sblakewilson@bcisse.com
+arimed@windows.microsoft.com
+david.nospam.hopwood@blueyonder.co.uk
+nelson@bolyard.com
+pgut001@cs.auckland.ac.nz
+housley@vigilsec.com
+nmav@gnutls.org
+badra@enst.fr

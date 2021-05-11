@@ -1,0 +1,8 @@
+smime
+
+
+paul.hoffman@vpnc.org
+housley@vigilsec.com
+ietf@augustcellars.com
+turners@ieca.com
+stephen.farrell@cs.tcd.ie

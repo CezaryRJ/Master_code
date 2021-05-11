@@ -1,0 +1,16 @@
+dnsext
+
+
+paul@vix.com
+ben@algroup.co.uk
+roy@dnss.ec
+edlewis@arin.net
+olaf@ripe.net
+jas@extundo.com
+davidb@verisignlabs.com
+scottr@nist.gov
+weiler@tislabs.com
+bmanning@vacation.karoshi.com
+ogud@ogud.com
+sra@isc.org
+geoff@nominet.org.uk

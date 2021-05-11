@@ -1,0 +1,12 @@
+kitten
+
+
+simon@josefsson.org
+hartmans-ietf@mit.edu
+alexey.melnikov@isode.com
+shawn.emery@oracle.com
+klaas@cisco.com
+lear@cisco.com
+hannes.tschofenig@gmx.net
+leifj@mnt.se
+hannes.tschofenig@nsn.com

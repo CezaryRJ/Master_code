@@ -1,0 +1,15 @@
+dnsop
+
+
+mellon@fugue.com
+marka@isc.org
+warren@kumari.net
+jabley@hopcount.ca
+paul.hoffman@vpnc.org
+dhc@dcrocker.net
+paul@nohats.ca
+ray@bellis.me.uk
+pusateri@bangj.com
+each@isc.org
+dwessels@verisign.com
+paul.hoffman@icann.org

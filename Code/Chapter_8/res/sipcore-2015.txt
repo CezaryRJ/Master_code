@@ -1,0 +1,13 @@
+sipcore
+
+
+christer.holmberg@ericsson.com
+rjsparks@nostrum.com
+ivo.sedlacek@ericsson.com
+adam@nostrum.com
+worley@ariadne.com
+oej@edvina.net
+fluffy@iii.ca
+gsalguei@cisco.com
+ibc@aliax.net
+mary.ietf.barnes@gmail.com

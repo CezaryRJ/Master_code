@@ -1,0 +1,8 @@
+opsec
+
+
+evyncke@cisco.com
+merike@doubleshotsecurity.com
+warren@kumari.net
+jhaas@juniper.net
+tim.chown@jisc.ac.uk

@@ -1,0 +1,10 @@
+tsvwg
+
+
+david.black@dell.com
+gorry@erg.abdn.ac.uk
+ietf@bobbriscoe.net
+tom@herbertland.com
+tuexen@fh-muenster.de
+szigeti@cisco.com
+roland.bless@kit.edu

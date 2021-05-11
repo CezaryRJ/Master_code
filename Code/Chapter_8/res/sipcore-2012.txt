@@ -1,0 +1,14 @@
+sipcore
+
+
+christer.holmberg@ericsson.com
+ibc@aliax.net
+adam@nostrum.com
+shida@ntt-at.com
+worley@ariadne.com
+dworley@avaya.com
+ivo.sedlacek@ericsson.com
+hkaplan@acmepacket.com
+oej@edvina.net
+salvatore.loreto@ericsson.com
+rjsparks@nostrum.com

@@ -1,0 +1,9 @@
+ipsec
+
+
+kent@bbn.com
+karn@qualcomm.com
+housley@spyrus.com
+smb@research.att.com
+ho@cs.arizona.edu
+karn@unix.ka9q.ampr.org

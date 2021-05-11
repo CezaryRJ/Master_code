@@ -1,0 +1,11 @@
+midcom
+
+
+mshore@cisco.com
+sbrim@cisco.com
+swb@employees.org
+amolitor@visi.com
+huitema@windows.microsoft.com
+srisuresh@yahoo.com
+jdrosen@dynamicsoft.com
+kuthan@fokus.gmd.de

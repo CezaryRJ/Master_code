@@ -1,0 +1,7 @@
+openpgp
+
+
+dshaw@jabberwocky.com
+jon@callas.org
+hal@finney.org
+roessler@does-not-exist.org

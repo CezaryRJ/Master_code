@@ -1,0 +1,8 @@
+iptel
+
+
+jdrosen@cisco.com
+richard.stastny@oefeg.at
+vkg@lucent.com
+fluffy@cisco.com
+james.yu@neustar.biz

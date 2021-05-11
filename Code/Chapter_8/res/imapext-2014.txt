@@ -1,0 +1,8 @@
+imapext
+
+
+arnt@gulbrandsen.priv.no
+alexey.melnikov@isode.com
+cyrus@daboo.name
+barryleiba@computer.org
+chris.newman@oracle.com

@@ -1,0 +1,10 @@
+lisp
+
+
+farinacci@gmail.com
+ggx@gigix.net
+asmirnov@cisco.com
+vermagan@cisco.com
+mohamed.boucadair@orange.com
+luigi.iannone@telecom-paristech.fr
+fcoras.lists@gmail.com

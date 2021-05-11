@@ -1,0 +1,13 @@
+geopriv
+
+
+hgs@cs.columbia.edu
+hannes.tschofenig@siemens.com
+jmpolk@cisco.com
+aboba@internaut.com
+farid.adrangi@intel.com
+rohan@ekabal.com
+hardie@qualcomm.com
+jschnizl@cisco.com
+avi@bridgewatersystems.com
+jdrosen@cisco.com

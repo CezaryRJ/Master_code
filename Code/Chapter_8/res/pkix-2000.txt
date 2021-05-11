@@ -1,0 +1,14 @@
+pkix
+
+
+kent@bbn.com
+denis.pinkas@bull.net
+peter.sylvester@edelweb.fr
+mzolotarev@baltimore.com
+tgindin@us.ibm.com
+dpkemp@missi.ncsc.mil
+ambarish@valicert.com
+housley@spyrus.com
+mmyers@verisign.com
+carlisle.adams@entrust.com
+stephen.farrell@baltimore.ie

@@ -1,0 +1,8 @@
+dmarc
+
+
+johnl@taugh.com
+superuser@gmail.com
+seth@valimail.com
+kboth@drkurt.com
+blong@google.com

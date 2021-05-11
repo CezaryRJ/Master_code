@@ -1,0 +1,11 @@
+opsec
+
+
+fgont@si6networks.com
+joelja@bogus.com
+evyncke@cisco.com
+fernando@gont.com.ar
+mbehring@cisco.com
+jerduran@cisco.com
+cpignata@cisco.com
+gert@space.net

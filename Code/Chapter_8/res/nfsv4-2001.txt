@@ -1,0 +1,7 @@
+nfsv4
+
+
+shepler@eng.sun.com
+brent@eng.sun.com
+mike@eisler.com
+robert.thurlow@eng.sun.com

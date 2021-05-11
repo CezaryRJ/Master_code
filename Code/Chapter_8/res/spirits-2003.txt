@@ -1,0 +1,7 @@
+spirits
+
+
+vkg@lucent.com
+abrusilovsky@ieee.org
+faynberg@bell-labs.com
+abrusilovsky@lucent.com

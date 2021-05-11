@@ -1,0 +1,14 @@
+sipcore
+
+
+christer.holmberg@ericsson.com
+dworley@avaya.com
+ibc@aliax.net
+adam@nostrum.com
+hkaplan@acmepacket.com
+shida@ntt-at.com
+jmpolk@cisco.com
+marianne.mohali@orange-ftgroup.com
+mary.ietf.barnes@gmail.com
+oej@edvina.net
+rjsparks@nostrum.com

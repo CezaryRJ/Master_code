@@ -1,0 +1,14 @@
+ipfix
+
+
+paitken@cisco.com
+quittek@netlab.nec.de
+bht@cert.org
+andrjohn@cisco.com
+lutz.mark@fokus.fraunhofer.de
+muenz@informatik.uni-tuebingen.de
+nevil@auckland.ac.nz
+carsten.schmoll@fokus.fraunhofer.de
+akoba@nttv6.net
+elisa.boschi@hitachi-eu.com
+boschi@fokus.fraunhofer.de

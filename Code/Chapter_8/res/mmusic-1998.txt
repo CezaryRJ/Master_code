@@ -1,0 +1,11 @@
+mmusic
+
+
+mjh@isi.edu
+schulzrinne@cs.columbia.edu
+jdrosen@dnrc.bell-labs.com
+hgs@cs.columbia.edu
+huitema@bellcore.com
+schooler@cs.caltech.edu
+anrao@cisco.com
+c.perkins@cs.ucl.ac.uk

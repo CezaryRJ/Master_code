@@ -1,0 +1,11 @@
+mip6
+
+
+vijayd@iprg.nokia.com
+kempf@docomolabs-usa.com
+tracker-mip6@mip4.org
+basavaraj.patil@nokia.com
+jari.arkko@kolumbus.fi
+alper.yegin@samsung.com
+charliep@iprg.nokia.com
+alpesh@cisco.com

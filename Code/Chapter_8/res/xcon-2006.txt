@@ -1,0 +1,11 @@
+xcon
+
+
+oscar.novo@ericsson.com
+cboulton@ubiquity.net
+hgs@cs.columbia.edu
+mary.barnes@nortel.com
+gonzalo.camarillo@ericsson.com
+srivats@microsoft.com
+spromano@unina.it
+oritl@microsoft.com

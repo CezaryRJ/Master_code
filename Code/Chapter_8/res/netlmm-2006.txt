@@ -1,0 +1,11 @@
+netlmm
+
+
+kempf@docomolabs-usa.com
+julien.ietf@laposte.net
+sgundave@cisco.com
+chvogt@tm.uka.de
+vijay.devarapalli@azairenet.com
+kleung@cisco.com
+mkhalil@nortel.com
+amuhanna@nortel.com

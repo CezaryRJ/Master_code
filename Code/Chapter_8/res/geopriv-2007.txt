@@ -1,0 +1,11 @@
+geopriv
+
+
+hannes.tschofenig@gmx.net
+br@brianrosen.net
+hgs@cs.columbia.edu
+mlinsner@cisco.com
+rbarnes@bbn.com
+jmpolk@cisco.com
+hardie@qualcomm.com
+mary.barnes@nortel.com

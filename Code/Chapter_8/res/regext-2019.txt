@@ -1,0 +1,10 @@
+regext
+
+
+jgould@verisign.com
+shollenbeck@verisign.com
+rcarney@godaddy.com
+ietf@antoin.nl
+andy@hxr.us
+gavin.brown@centralnic.com
+yaojk@cnnic.cn

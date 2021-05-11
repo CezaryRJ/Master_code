@@ -1,0 +1,7 @@
+ipngwg
+
+
+alh-ietf@tndh.net
+brc@zurich.ibm.com
+hinden@iprg.nokia.com
+erik.nordmark@sun.com

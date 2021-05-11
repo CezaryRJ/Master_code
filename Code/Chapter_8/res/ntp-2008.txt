@@ -1,0 +1,11 @@
+ntp
+
+
+mills@udel.edu
+mayer@ntp.isc.org
+brian@innovationslab.net
+mayer@ntp.org
+stenn@ntp.org
+mayer@gis.net
+rgayraud@cisco.com
+heiko.gerstung@meinberg.de

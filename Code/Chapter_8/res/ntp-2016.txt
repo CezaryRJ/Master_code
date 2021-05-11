@@ -1,0 +1,13 @@
+ntp
+
+
+stenn@ntp.org
+goldbe@cs.bu.edu
+mayer@ntp.org
+kristof.teichel@ptb.de
+dieter.sibold@ptb.de
+stenn@nwtime.org
+dfoxfranke@gmail.com
+mayer@pdmconsulting.net
+denis.reilly@spectracom.orolia.com
+talmi@marvell.com

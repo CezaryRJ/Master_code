@@ -1,0 +1,12 @@
+v6ops
+
+
+fred@cisco.com
+brian.e.carpenter@gmail.com
+jhw@apple.com
+cb.list6@gmail.com
+joelja@bogus.com
+ot@cisco.com
+shemant@cisco.com
+fred.l.templin@boeing.com
+fernando@gont.com.ar

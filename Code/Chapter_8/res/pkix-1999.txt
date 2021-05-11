@@ -1,0 +1,14 @@
+pkix
+
+
+kent@bbn.com
+stefan@accurata.se
+kent@po1.bbn.com
+denis.pinkas@bull.net
+dpkemp@missi.ncsc.mil
+housley@spyrus.com
+tgindin@us.ibm.com
+pgut001@cs.auckland.ac.nz
+ambarish@valicert.com
+phoffman@imc.org
+robert.zuccherato@entrust.com

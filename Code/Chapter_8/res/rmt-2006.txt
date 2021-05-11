@@ -1,0 +1,10 @@
+rmt
+
+
+rod.walsh@nokia.com
+lorenzo@cisco.com
+mark@digitalfountain.com
+vincent.roca@inrialpes.fr
+adamson@itd.nrl.navy.mil
+toni.paila@nokia.com
+m.handley@cs.ucl.ac.uk

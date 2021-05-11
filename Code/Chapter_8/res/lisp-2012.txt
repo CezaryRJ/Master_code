@@ -1,0 +1,12 @@
+lisp
+
+
+damien.saucez@gmail.com
+farinacci@gmail.com
+ggx@gigix.net
+darlewis@cisco.com
+dino@cisco.com
+vaf@cisco.com
+ljakab@ac.upc.edu
+fcoras@ac.upc.edu
+luigi.iannone@telecom-paristech.fr

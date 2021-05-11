@@ -1,0 +1,9 @@
+internet-drafts@ietf.org
+notifications@github.com
+noreply@github.com
+iesg-secretary@ietf.org
+ietf-secretariat-reply@ietf.org
+rfc-editor@rfc-editor.org
+noreply@ietf.org
+trac@tools.ietf.org
+feedback@oneoffice.jp

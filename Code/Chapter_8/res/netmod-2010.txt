@@ -1,0 +1,10 @@
+netmod
+
+
+j.schoenwaelder@jacobs-university.de
+andyb@iwl.com
+dromasca@avaya.com
+lhotka@cesnet.cz
+phil@juniper.net
+ietf@andybierman.com
+kwatsen@juniper.net

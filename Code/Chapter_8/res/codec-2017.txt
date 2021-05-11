@@ -1,0 +1,8 @@
+codec
+
+
+jmvalin@jmvalin.ca
+jks@google.com
+jmvalin@mozilla.com
+tterribe@xiph.org
+giles@thaumas.net

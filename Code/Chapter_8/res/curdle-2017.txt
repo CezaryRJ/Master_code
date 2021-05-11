@@ -1,0 +1,11 @@
+curdle
+
+
+housley@vigilsec.com
+mdb@juniper.net
+denisbider.ietf@gmail.com
+ietf@augustcellars.com
+kaduk@mit.edu
+hkario@redhat.com
+logan@hackers.mu
+ietf-ssh3@denisbider.com

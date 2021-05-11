@@ -1,0 +1,13 @@
+sipcore
+
+
+worley@ariadne.com
+oej@edvina.net
+christer.holmberg@ericsson.com
+rifaat.ietf@gmail.com
+jon.peterson@neustar.biz
+adam@nostrum.com
+rjsparks@nostrum.com
+gsalguei@cisco.com
+ivo.sedlacek@ericsson.com
+br@salsgiver.com

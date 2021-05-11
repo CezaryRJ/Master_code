@@ -1,0 +1,16 @@
+smime
+
+
+rhousley@rsasecurity.com
+jimsch@nwlink.com
+jimsch5@home.com
+blaker@tumbleweed.com
+pgut001@cs.auckland.ac.nz
+phoffman@imc.org
+housley@spyrus.com
+bonattic@ieca.com
+w.ottaway@eris.dera.gov.uk
+turners@ieca.com
+stephen.farrell@baltimore.ie
+sblakewilson@certicom.com
+anders.eggen@ffi.no

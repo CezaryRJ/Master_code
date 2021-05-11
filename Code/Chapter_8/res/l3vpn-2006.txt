@@ -1,0 +1,13 @@
+l3vpn
+
+
+rbonica@juniper.net
+thomas.morin@rd.francetelecom.com
+benjamin.niven-jenkins@bt.com
+yakov@juniper.net
+roque@juniper.net
+ycai@cisco.com
+rahul@juniper.net
+y.kamite@ntt.com
+erosen@cisco.com
+ke-kumaki@kddi.com

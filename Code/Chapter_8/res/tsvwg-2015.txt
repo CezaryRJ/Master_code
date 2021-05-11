@@ -1,0 +1,12 @@
+tsvwg
+
+
+david.black@emc.com
+gorry@erg.abdn.ac.uk
+karen.nielsen@tieto.com
+tuexen@fh-muenster.de
+tom@herbertland.com
+ietf@bobbriscoe.net
+ka-cheong.poon@oracle.com
+lucy.yong@huawei.com
+fred@cisco.com

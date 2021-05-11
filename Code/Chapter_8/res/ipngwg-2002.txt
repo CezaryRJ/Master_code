@@ -1,0 +1,9 @@
+ipngwg
+
+
+itojun@iijlab.net
+alh-ietf@tndh.net
+hinden@iprg.nokia.com
+bkhabs@nc.rr.com
+narten@us.ibm.com
+richdr@microsoft.com

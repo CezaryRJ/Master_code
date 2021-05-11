@@ -1,0 +1,14 @@
+nsis
+
+
+john.loughney@nokia.com
+robert.hancock@roke.co.uk
+karagian@cs.utwente.nl
+hgs@cs.columbia.edu
+fu@cs.uni-goettingen.de
+brunner@ccrle.nec.de
+hannes.tschofenig@siemens.com
+jmanner@cs.helsinki.fi
+sven.van_den_bosch@alcatel.be
+bless@tm.uka.de
+starsu@sait.samsung.co.kr

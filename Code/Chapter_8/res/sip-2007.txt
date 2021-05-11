@@ -1,0 +1,15 @@
+sip
+
+
+dean.willis@softarmor.com
+pkyzivat@cisco.com
+audet@nortel.com
+jdrosen@cisco.com
+dwing@cisco.com
+rjsparks@nostrum.com
+eburger@bea.com
+vkg@alcatel-lucent.com
+adam@nostrum.com
+john.elwell@siemens.com
+jmpolk@cisco.com
+fluffy@cisco.com

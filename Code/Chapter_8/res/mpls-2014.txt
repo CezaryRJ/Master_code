@@ -1,0 +1,17 @@
+mpls
+
+
+loa@pi.nu
+curtis@ipv6.occnc.com
+mach.chen@huawei.com
+adrian@olddog.co.uk
+stbryant@cisco.com
+xuxiaohu@huawei.com
+aldrin.ietf@gmail.com
+huaimo.chen@huawei.com
+cpignata@cisco.com
+ryoo@etri.re.kr
+agmalis@gmail.com
+rcallon@juniper.net
+lizho.jin@gmail.com
+davari@broadcom.com

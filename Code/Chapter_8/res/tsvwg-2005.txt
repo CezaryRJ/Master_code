@@ -1,0 +1,14 @@
+tsvwg
+
+
+randall@stewart.chicago.il.us
+floyd@icir.org
+fred@cisco.com
+jmpolk@cisco.com
+vladislav.yasevich@hp.com
+karagian@cs.utwente.nl
+mallman@icir.org
+babiarz@nortel.com
+gorry@erg.abdn.ac.uk
+rbriscoe@jungle.bt.co.uk
+kacheong.poon@sun.com

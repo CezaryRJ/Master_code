@@ -1,0 +1,12 @@
+nfsv4
+
+
+nico@cryptonector.com
+sshepler@microsoft.com
+chuck.lever@oracle.com
+hch@lst.de
+eshel@us.ibm.com
+androsadamson@gmail.com
+bhalevy@primarydata.com
+bhalevy@tonian.com
+jarrett.lu@oracle.com

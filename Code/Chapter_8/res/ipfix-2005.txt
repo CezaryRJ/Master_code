@@ -1,0 +1,11 @@
+ipfix
+
+
+quittek@netlab.nec.de
+nevil@auckland.ac.nz
+paitken@cisco.com
+stbryant@cisco.com
+mark@fokus.fraunhofer.de
+szander@swin.edu.au
+bht@cert.org
+boschi@fokus.fraunhofer.de

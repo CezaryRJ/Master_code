@@ -1,0 +1,9 @@
+nfsv4
+
+
+eshel@almaden.ibm.com
+email2mre-ietf@yahoo.com
+spencer.shepler@sun.com
+bhalevy@panasas.com
+welch@panasas.com
+craigev@us.ibm.com

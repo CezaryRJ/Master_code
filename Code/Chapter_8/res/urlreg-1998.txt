@@ -1,0 +1,6 @@
+urlreg
+
+
+masinter@parc.xerox.com
+iking@microsoft.com
+rpetke@wcom.net

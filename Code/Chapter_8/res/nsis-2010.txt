@@ -1,0 +1,15 @@
+nsis
+
+
+jukka.manner@tkk.fi
+karagian@cs.utwente.nl
+roland.bless@kit.edu
+fu@cs.uni-goettingen.de
+gash5107@yahoo.com
+martin.stiemerling@neclab.eu
+acmorton@att.com
+charles@cs.columbia.edu
+sanda.takako@jp.panasonic.com
+hannes.tschofenig@gmx.net
+elwynd@dial.pipex.com
+hannes.tschofenig@nsn.com

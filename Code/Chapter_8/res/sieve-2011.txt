@@ -1,0 +1,10 @@
+sieve
+
+
+barryleiba@computer.org
+cyrus@daboo.name
+aaron@serendipity.cx
+alexey.melnikov@isode.com
+likepeng@huawei.com
+stpeter@stpeter.im
+guenther+mtafilters@sendmail.com

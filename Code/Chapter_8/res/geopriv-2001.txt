@@ -1,0 +1,6 @@
+geopriv
+
+
+hgs@cs.columbia.edu
+jmorris@cdt.org
+jmpolk@cisco.com

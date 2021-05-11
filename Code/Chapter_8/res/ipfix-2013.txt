@@ -1,0 +1,10 @@
+ipfix
+
+
+trammell@tik.ee.ethz.ch
+paitken@cisco.com
+n.brownlee@auckland.ac.nz
+muenz@net.in.tum.de
+salvatore.dantonio@uniparthenope.it
+akoba@orange.plala.or.jp
+quittek@neclab.eu

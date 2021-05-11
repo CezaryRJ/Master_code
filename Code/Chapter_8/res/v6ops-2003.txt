@@ -1,0 +1,13 @@
+v6ops
+
+
+pekkas@netcore.fi
+erik.nordmark@sun.com
+jordi.palet@consulintel.es
+juha.wiljakka@nokia.com
+ftemplin@iprg.nokia.com
+tjc@ecs.soton.ac.uk
+alain.durand@sun.com
+huitema@windows.microsoft.com
+itojun@iijlab.net
+osprey67@yahoo.com

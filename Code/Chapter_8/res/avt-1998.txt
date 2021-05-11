@@ -1,0 +1,12 @@
+avt
+
+
+jdrosen@dnrc.bell-labs.com
+c.perkins@cs.ucl.ac.uk
+schulzrinne@cs.columbia.edu
+mjh@east.isi.edu
+hgs@cs.columbia.edu
+casner@precept.com
+casner@cisco.com
+singer@apple.com
+o.hodson@cs.ucl.ac.uk

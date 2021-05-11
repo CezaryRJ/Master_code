@@ -1,0 +1,14 @@
+sip
+
+
+dean.willis@softarmor.com
+pkyzivat@cisco.com
+jdrosen@cisco.com
+fluffy@cisco.com
+audet@nortel.com
+john.elwell@siemens.com
+vkg@lucent.com
+jmpolk@cisco.com
+ekr@networkresonance.com
+hannes.tschofenig@gmx.net
+hgs@cs.columbia.edu

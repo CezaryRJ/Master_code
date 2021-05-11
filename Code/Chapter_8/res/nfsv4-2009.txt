@@ -1,0 +1,11 @@
+nfsv4
+
+
+jlentini@netapp.com
+mre-ietf@eisler.com
+shepler@storspeed.com
+bhalevy@panasas.com
+androsadamson@gmail.com
+sfaibish@emc.com
+dpquigl@tycho.nsa.gov
+ellard@gmail.com

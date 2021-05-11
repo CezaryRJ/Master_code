@@ -1,0 +1,7 @@
+openpgp
+
+
+dshaw@jabberwocky.com
+jon@callas.org
+lutz@iks-jena.de
+hal@finney.org

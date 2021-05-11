@@ -1,0 +1,11 @@
+core
+
+
+cabo@tzi.org
+thomas.fossati@arm.com
+mohamed.boucadair@orange.com
+esko.dijk@iotconsultancy.nl
+supjps-ietf@jpshallow.com
+hartke@projectcool.de
+goran.selander@ericsson.com
+klaus.hartke@ericsson.com

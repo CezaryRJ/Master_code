@@ -1,0 +1,11 @@
+roll
+
+
+pthubert@cisco.com
+mcr+ietf@sandelman.ca
+cabo@tzi.org
+pal@cs.stanford.edu
+yusuke.doi@toshiba.co.jp
+robert.cragie@gridmerge.com
+daniel.popa@itron.com
+matthew.gillmore@itron.com

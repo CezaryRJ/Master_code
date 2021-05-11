@@ -1,0 +1,14 @@
+pkix
+
+
+kent@bbn.com
+pgut001@cs.auckland.ac.nz
+denis.pinkas@bull.net
+mmyers@fastq.com
+chokhani@orionsec.com
+rmh@windows.microsoft.com
+housley@vigilsec.com
+peter.sylvester@edelweb.fr
+jimsch@nwlink.com
+ambarish@malpani.biz
+pbaker@verisign.com

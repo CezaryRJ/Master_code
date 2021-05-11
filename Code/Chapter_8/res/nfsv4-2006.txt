@@ -1,0 +1,9 @@
+nfsv4
+
+
+spencer.shepler@sun.com
+email2mre-ietf@yahoo.com
+bhalevy@panasas.com
+agruen@suse.de
+eshel@almaden.ibm.com
+fridella_stephen@emc.com

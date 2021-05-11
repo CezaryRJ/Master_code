@@ -1,0 +1,15 @@
+tsvwg
+
+
+randall@lakerest.net
+ka-cheong.poon@oracle.com
+gorry@erg.abdn.ac.uk
+jmpolk@cisco.com
+dwing@cisco.com
+tuexen@fh-muenster.de
+fernando@gont.com.ar
+lars.eggert@nokia.com
+nishida@sfc.wide.ad.jp
+bob.briscoe@bt.com
+magnus.westerlund@ericsson.com
+karen.nielsen@tieto.com

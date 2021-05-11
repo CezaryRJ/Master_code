@@ -1,0 +1,14 @@
+tls
+
+
+ekr@networkresonance.com
+pasi.eronen@nokia.com
+bmoeller@acm.org
+pgut001@cs.auckland.ac.nz
+housley@vigilsec.com
+stefans@microsoft.com
+david.nospam.hopwood@blueyonder.co.uk
+nmav@gnutls.org
+vipul.gupta@sun.com
+badra@isima.fr
+jas@extundo.com

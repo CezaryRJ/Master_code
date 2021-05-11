@@ -1,0 +1,10 @@
+rmt
+
+
+rod.walsh@nokia.com
+lorenzo@cisco.com
+luby@digitalfountain.com
+sami.peltotalo@tut.fi
+m.handley@cs.ucl.ac.uk
+christoph.neumann@inrialpes.fr
+vincent.roca@inrialpes.fr

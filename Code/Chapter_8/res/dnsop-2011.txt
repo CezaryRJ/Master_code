@@ -1,0 +1,14 @@
+dnsop
+
+
+matthijs@nlnetlabs.nl
+ted.lemon@nominum.com
+jabley@hopcount.ca
+pk@denic.de
+marka@isc.org
+sa.morris7@googlemail.com
+paul@xelerance.com
+george.barwood@blueyonder.co.uk
+fredrik@kirei.se
+ogud@ogud.com
+ajs@shinkuro.com

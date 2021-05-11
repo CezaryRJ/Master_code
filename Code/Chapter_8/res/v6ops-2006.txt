@@ -1,0 +1,14 @@
+v6ops
+
+
+fred@cisco.com
+brc@zurich.ibm.com
+jordi.palet@consulintel.es
+pekkas@netcore.fi
+tjc@ecs.soton.ac.uk
+alh-ietf@tndh.net
+alain_durand@cable.comcast.com
+narten@us.ibm.com
+elwynd@dial.pipex.com
+ericlklein@softhome.net
+cpopovic@cisco.com

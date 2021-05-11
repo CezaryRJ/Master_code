@@ -1,0 +1,11 @@
+core
+
+
+cabo@tzi.org
+goran.selander@ericsson.com
+hannes.tschofenig@gmx.net
+brian.raymor@microsoft.com
+hartke@tzi.org
+esko.dijk@philips.com
+ari.keranen@ericsson.com
+hartke@projectcool.de

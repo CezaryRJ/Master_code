@@ -1,0 +1,8 @@
+ldapbis
+
+
+jimse@novell.com
+rharrison@novell.com
+steven.legg@eb2bcom.com
+andrew.sciberras@eb2bcom.com
+rlmorgan@washington.edu

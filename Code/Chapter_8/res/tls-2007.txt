@@ -1,0 +1,12 @@
+tls
+
+
+ekr@networkresonance.com
+pasi.eronen@nokia.com
+simon@josefsson.org
+bmoeller@acm.org
+pgut001@cs.auckland.ac.nz
+stefans@microsoft.com
+housley@vigilsec.com
+nelson@bolyard.com
+ynir@checkpoint.com

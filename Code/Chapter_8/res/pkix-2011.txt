@@ -1,0 +1,15 @@
+pkix
+
+
+kent@bbn.com
+pgut001@cs.auckland.ac.nz
+hallam@gmail.com
+schokhani@cygnacom.com
+stefan@aaa-sec.com
+paul.hoffman@vpnc.org
+dpkemp@missi.ncsc.mil
+tgindin@us.ibm.com
+pritikin@cisco.com
+david.cooper@nist.gov
+denis.pinkas@bull.net
+rob.stradling@comodo.com

@@ -1,0 +1,10 @@
+ipfix
+
+
+paitken@cisco.com
+ietf@trammell.ch
+trammell@tik.ee.ethz.ch
+quittek@neclab.eu
+n.brownlee@auckland.ac.nz
+stbryant@cisco.com
+paitken@brocade.com

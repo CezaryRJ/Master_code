@@ -1,0 +1,13 @@
+v6ops
+
+
+lorenzo@google.com
+alexandre.petrescu@gmail.com
+jordi.palet@consulintel.es
+brian.e.carpenter@gmail.com
+fredbaker.ietf@gmail.com
+fred.l.templin@boeing.com
+fgont@si6networks.com
+tim.chown@jisc.ac.uk
+jhw@google.com
+bs7652@att.com

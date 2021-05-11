@@ -1,0 +1,14 @@
+nfsv4
+
+
+thomas.haynes@primarydata.com
+hch@lst.de
+nico@cryptonector.com
+davenoveck@gmail.com
+sshepler@microsoft.com
+bhalevy@primarydata.com
+andros@netapp.com
+eshel@us.ibm.com
+mnaik@us.ibm.com
+david.black@emc.com
+chuck.lever@oracle.com

@@ -1,0 +1,10 @@
+midcom
+
+
+mshore@cisco.com
+jdrosen@dynamicsoft.com
+taylor@nortelnetworks.com
+mbarnes@nortelnetworks.com
+quittek@ccrle.nec.de
+huitema@windows.microsoft.com
+swb@employees.org

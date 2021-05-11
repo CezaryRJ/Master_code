@@ -1,0 +1,9 @@
+smime
+
+
+housley@vigilsec.com
+ietf@augustcellars.com
+paul.hoffman@vpnc.org
+turners@ieca.com
+stephen.farrell@cs.tcd.ie
+wjottaway@qinetiq.com

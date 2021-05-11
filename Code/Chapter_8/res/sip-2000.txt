@@ -1,0 +1,11 @@
+sip
+
+
+jdrosen@dynamicsoft.com
+schulzrinne@cs.columbia.edu
+hgs@cs.columbia.edu
+rohan@cisco.com
+vkg@lucent.com
+adam.roach@ericsson.com
+brett@broadsoft.com
+dean.willis@wcom.com

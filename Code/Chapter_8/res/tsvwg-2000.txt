@@ -1,0 +1,11 @@
+tsvwg
+
+
+mallman@grc.nasa.gov
+eblanton@cs.ohiou.edu
+floyd@aciri.org
+vern@ee.lbl.gov
+mahdavi@novell.com
+kacheong.poon@eng.sun.com
+gurtov@cs.helsinki.fi
+hari@lcs.mit.edu

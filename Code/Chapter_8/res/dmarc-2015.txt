@@ -1,0 +1,9 @@
+dmarc
+
+
+superuser@gmail.com
+johnl@taugh.com
+franck@peachymango.org
+kboth@drkurt.com
+tim@eudaemon.net
+kurta@drkurt.com

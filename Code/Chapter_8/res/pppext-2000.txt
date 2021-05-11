@@ -1,0 +1,13 @@
+pppext
+
+
+james.d.carlson@east.sun.com
+vjs@calcite.rhyolite.com
+carlson@workingcode.com
+carlson@ironbridgenetworks.com
+brucet@cisco.com
+fred@cisco.com
+fia225@email.mot.com
+cabo@informatik.uni-bremen.de
+mitsuru.higashiyama@yy.anritsu.co.jp
+gwz@cisco.com

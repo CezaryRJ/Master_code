@@ -1,0 +1,10 @@
+ipsec
+
+
+kent@bbn.com
+paul.hoffman@vpnc.org
+dharkins@tibernian.com
+rhousley@rsasecurity.com
+charlie_kaufman@notesdev.ibm.com
+kivinen@ssh.fi
+hugo@ee.technion.ac.il

@@ -1,0 +1,14 @@
+pkix
+
+
+kent@bbn.com
+stefan@accurata.se
+pbaker@verisign.com
+denis.pinkas@bull.net
+housley@spyrus.com
+chokhani@cygnacom.com
+pgut001@cs.auckland.ac.nz
+phoffman@imc.org
+peter.sylvester@edelweb.fr
+sharon.boeyen@entrust.com
+carlisle.adams@entrust.com

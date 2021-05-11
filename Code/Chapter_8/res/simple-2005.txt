@@ -1,0 +1,17 @@
+simple
+
+
+pkyzivat@cisco.com
+jdrosen@cisco.com
+hgs@cs.columbia.edu
+hisham.khartabil@telio.no
+fluffy@cisco.com
+aki.niemi@nokia.com
+jari.urpalainen@nokia.com
+rohan@ekabal.com
+eburger@brooktrout.com
+ben@nostrum.com
+adam@nostrum.com
+markus.isomaki@nokia.com
+ben@estacado.net
+vkg@lucent.com

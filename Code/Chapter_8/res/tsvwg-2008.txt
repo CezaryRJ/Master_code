@@ -1,0 +1,15 @@
+tsvwg
+
+
+magnus.westerlund@ericsson.com
+lars.eggert@nokia.com
+fernando@gont.com.ar
+jmpolk@cisco.com
+rbriscoe@jungle.bt.co.uk
+adrian@olddog.co.uk
+vladislav.yasevich@hp.com
+randall@lakerest.net
+fred@cisco.com
+mallman@icir.org
+jmanner@cs.helsinki.fi
+bdavie@cisco.com

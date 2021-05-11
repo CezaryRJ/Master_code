@@ -1,0 +1,14 @@
+mmusic
+
+
+magnus.westerlund@ericsson.com
+csp@csperkins.org
+rod.walsh@nokia.com
+jdrosen@dynamicsoft.com
+pkyzivat@cisco.com
+mbaugher@cisco.com
+gonzalo.camarillo@ericsson.com
+fandreas@cisco.com
+mats.naslund@ericsson.com
+jdrosen@cisco.com
+jo@tzi.uni-bremen.de

@@ -1,0 +1,8 @@
+nsis
+
+
+john.loughney@nokia.com
+brunner@ccrle.nec.de
+fu@ee.tu-berlin.de
+jmanner@cs.helsinki.fi
+hemant.chaskar@nokia.com

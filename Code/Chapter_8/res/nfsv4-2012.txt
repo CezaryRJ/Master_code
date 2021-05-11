@@ -1,0 +1,11 @@
+nfsv4
+
+
+chuck.lever@oracle.com
+sshepler@microsoft.com
+bhalevy@tonian.com
+thomas@netapp.com
+david.black@emc.com
+nico@cryptonector.com
+dpquigl@davequigley.com
+eshel@almaden.ibm.com

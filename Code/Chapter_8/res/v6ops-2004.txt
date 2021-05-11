@@ -1,0 +1,15 @@
+v6ops
+
+
+pekkas@netcore.fi
+jordi.palet@consulintel.es
+tjc@ecs.soton.ac.uk
+alain.durand@sun.com
+brc@zurich.ibm.com
+ftemplin@iprg.nokia.com
+erik.nordmark@sun.com
+huitema@windows.microsoft.com
+jonne.soininen@nokia.com
+ericlklein@softhome.net
+osprey67@yahoo.com
+alh-ietf@tndh.net

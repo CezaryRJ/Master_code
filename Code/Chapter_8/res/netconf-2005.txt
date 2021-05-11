@@ -1,0 +1,11 @@
+netconf
+
+
+ietf@andybierman.com
+rpe@juniper.net
+schishol@nortel.com
+lear@cisco.com
+phil@juniper.net
+htrevino@cisco.com
+balazs.lengyel@ericsson.com
+ted.goddard@icesoft.com

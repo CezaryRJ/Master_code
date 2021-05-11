@@ -1,0 +1,13 @@
+ntp
+
+
+stenn@nwtime.org
+dfoxfranke@gmail.com
+dsibold.ietf@gmail.com
+kristof.teichel@ptb.de
+denis.reilly@orolia.com
+tal.mizrahi.phd@gmail.com
+dieter.sibold@ptb.de
+marcus@dansarie.se
+brian@innovationslab.net
+mayer@ntp.org

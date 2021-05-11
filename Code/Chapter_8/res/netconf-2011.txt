@@ -1,0 +1,10 @@
+netconf
+
+
+j.schoenwaelder@jacobs-university.de
+kwatsen@juniper.net
+ietf@andybierman.com
+mbadra@gmail.com
+phil@juniper.net
+luchuk@snmp.com
+andy@netconfcentral.org

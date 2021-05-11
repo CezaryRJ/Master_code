@@ -1,0 +1,7 @@
+ldapext
+
+
+d.w.chadwick@salford.ac.uk
+bgreenblatt@directory-applications.com
+harald@alvestrand.no
+stokes@austin.ibm.com

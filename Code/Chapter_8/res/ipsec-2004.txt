@@ -1,0 +1,10 @@
+ipsec
+
+
+kent@bbn.com
+kivinen@iki.fi
+paul.hoffman@vpnc.org
+charliek@microsoft.com
+kseo@bbn.com
+ietf-wd@v6security.com
+housley@vigilsec.com

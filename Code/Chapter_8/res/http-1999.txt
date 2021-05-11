@@ -1,0 +1,8 @@
+http
+
+
+masinter@parc.xerox.com
+lawrence@agranat.com
+jg@pa.dec.com
+koen@win.tue.nl
+mogul@pa.dec.com

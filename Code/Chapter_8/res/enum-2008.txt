@@ -1,0 +1,7 @@
+enum
+
+
+richard@shockey.us
+lconroy@insensate.co.uk
+lendl@nic.at
+bernie.hoeneisen@switch.ch

@@ -1,0 +1,11 @@
+hip
+
+
+pekka.nikander@nomadiclab.com
+julien.laganier@sun.com
+miika@iki.fi
+lars.eggert@netlab.nec.de
+petri.jokela@nomadiclab.com
+jari.arkko@piuha.net
+gonzalo.camarillo@ericsson.com
+jan.melen@nomadiclab.com

@@ -1,0 +1,16 @@
+ccamp
+
+
+lberger@labn.net
+zhangfatai@huawei.com
+jdrake@juniper.net
+daniele.ceccarelli@ericsson.com
+leeyoung@huawei.com
+adrian@olddog.co.uk
+db3546@att.com
+giomarti@cisco.com
+gregb@grotto-networking.com
+huawei.danli@huawei.com
+julien.meuric@orange.com
+ma-miyazawa@kddilabs.jp
+zali@cisco.com

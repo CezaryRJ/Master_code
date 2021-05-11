@@ -1,0 +1,15 @@
+kitten
+
+
+kaduk@mit.edu
+nico@cryptonector.com
+ghudson@mit.edu
+wmills_92105@yahoo.com
+npmccallum@redhat.com
+simo@redhat.com
+simon@josefsson.org
+michikos@microsoft.com
+alexey.melnikov@isode.com
+weijun.wang@oracle.com
+hartmans-ietf@mit.edu
+tlyu@mit.edu

@@ -1,0 +1,11 @@
+enum
+
+
+richard@shockey.us
+bernie@ietf.hoeneisen.ch
+lconroy@insensate.co.uk
+dtroshynski@acmepacket.com
+alexander.mayrhofer@enum.at
+jason_livingood@cable.comcast.com
+alexander.mayrhofer@nic.at
+lendl@nic.at

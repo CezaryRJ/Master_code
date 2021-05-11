@@ -1,0 +1,11 @@
+geopriv
+
+
+hgs@cs.columbia.edu
+jmpolk@cisco.com
+jmorris@cdt.org
+jdrosen@dynamicsoft.com
+mlinsner@cisco.com
+jschnizl@cisco.com
+hannes.tschofenig@siemens.com
+hardie@qualcomm.com

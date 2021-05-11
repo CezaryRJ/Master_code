@@ -1,0 +1,7 @@
+sasl
+
+
+simon@josefsson.org
+alexey.melnikov@isode.com
+ams@oryx.com
+kurt.zeilenga@isode.com

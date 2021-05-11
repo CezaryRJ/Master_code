@@ -1,0 +1,10 @@
+oauth
+
+
+torsten@lodderstedt.net
+phil.hunt@oracle.com
+jricher@mitre.org
+mscurtescu@google.com
+bcampbell@pingidentity.com
+tonynad@microsoft.com
+hannes.tschofenig@gmx.net

@@ -1,0 +1,16 @@
+mpls
+
+
+gregimirsky@gmail.com
+loa@pi.nu
+cpignata@cisco.com
+stewart.bryant@gmail.com
+adrian@olddog.co.uk
+jdrake@juniper.net
+mach.chen@huawei.com
+tsaad@cisco.com
+xuxiaohu@huawei.com
+jefftant.ietf@gmail.com
+uma.chunduri@huawei.com
+yshen@juniper.net
+erosen@juniper.net

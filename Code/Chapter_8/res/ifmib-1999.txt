@@ -1,0 +1,7 @@
+ifmib
+
+
+kzm@cisco.com
+dthaler@dthaler.microsoft.com
+kaj@bellcore.com
+kaj@research.telcordia.com

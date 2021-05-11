@@ -1,0 +1,8 @@
+enum
+
+
+bernie@ietf.hoeneisen.ch
+richard@shockey.us
+lconroy@insensate.co.uk
+jon.peterson@neustar.biz
+alexander.mayrhofer@enum.at

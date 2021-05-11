@@ -1,0 +1,7 @@
+dnsop
+
+
+olaf@ripe.net
+pekkas@netcore.fi
+david.conrad@nominum.com
+fujiwara@jprs.co.jp

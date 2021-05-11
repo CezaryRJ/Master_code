@@ -1,0 +1,14 @@
+dnsext
+
+
+ed.lewis@neustar.biz
+ogud@ogud.com
+paul@vix.com
+roy@nominet.org.uk
+olaf@nlnetlabs.nl
+scottr@nist.gov
+weiler@tislabs.com
+mstjohns@comcast.net
+pk@denic.de
+bmanning@karoshi.com
+gson@araneus.fi

@@ -1,0 +1,15 @@
+diffserv
+
+
+andrew@extremenetworks.com
+fred@cisco.com
+acharny@cisco.com
+gja@dnrc.bell-labs.com
+nichols@packetdesign.com
+dan@dma.isg.mot.com
+jcrb@riverdelta.com
+bkumar@ennovatenetworks.com
+andrew@allegronetworks.com
+kmn@cisco.com
+jh@lohi.eng.telia.fi
+jschnizl@cisco.com

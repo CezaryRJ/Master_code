@@ -1,0 +1,6 @@
+vcarddav
+
+
+cyrus@daboo.name
+leiba@watson.ibm.com
+simon.perreault@viagenie.ca

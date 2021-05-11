@@ -1,0 +1,10 @@
+krb-wg
+
+
+lzhu@windows.microsoft.com
+jas@extundo.com
+hartmans-ietf@mit.edu
+grichards@rsasecurity.com
+raeburn@mit.edu
+brian@isi.edu
+hartmans@mit.edu

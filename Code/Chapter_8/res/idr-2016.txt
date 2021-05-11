@@ -1,0 +1,16 @@
+idr
+
+
+robert@raszuk.net
+jheitz@cisco.com
+jhaas@pfrc.org
+shares@ndzh.com
+jgs@juniper.net
+job@ntt.net
+nick@foobar.org
+randy@psg.com
+acee@cisco.com
+jared@puck.nether.net
+job@instituut.net
+aretana@cisco.com
+gih@apnic.net

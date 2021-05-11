@@ -1,0 +1,11 @@
+core
+
+
+cabo@tzi.org
+hartke@projectcool.de
+thomas.fossati@arm.com
+ari.keranen@ericsson.com
+mohamed.boucadair@orange.com
+francesca.palombini@ericsson.com
+hannes.tschofenig@arm.com
+esko.dijk@iotconsultancy.nl

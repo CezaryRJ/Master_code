@@ -1,0 +1,16 @@
+pkix
+
+
+stefans@microsoft.com
+housley@vigilsec.com
+chokhani@orionsec.com
+denis.pinkas@bull.net
+peter.sylvester@edelweb.fr
+kent@bbn.com
+david.cooper@nist.gov
+pgut001@cs.auckland.ac.nz
+tgindin@us.ibm.com
+tim.polk@nist.gov
+stephen.farrell@cs.tcd.ie
+wpolk@nist.gov
+paul.hoffman@vpnc.org

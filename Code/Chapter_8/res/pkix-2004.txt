@@ -1,0 +1,15 @@
+pkix
+
+
+chokhani@orionsec.com
+denis.pinkas@bull.net
+kent@bbn.com
+peter.sylvester@edelweb.fr
+stefans@microsoft.com
+trevorf@exchange.microsoft.com
+pgut001@cs.auckland.ac.nz
+housley@vigilsec.com
+mmyers@fastq.com
+david.cooper@nist.gov
+tgindin@us.ibm.com
+tim.polk@nist.gov

@@ -1,0 +1,11 @@
+dnsop
+
+
+marka@isc.org
+ajs@shinkuro.com
+paul@xelerance.com
+paul.hoffman@vpnc.org
+drc@virtualized.org
+jabley@hopcount.ca
+jason_livingood@cable.comcast.com
+pk@denic.de

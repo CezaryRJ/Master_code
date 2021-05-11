@@ -1,0 +1,10 @@
+rmt
+
+
+lorenzo@cisco.com
+luby@digitalfountain.com
+rkermode@arc.corp.mot.com
+luigi@info.iet.unipi.it
+adamson@itd.nrl.navy.mil
+vincent.roca@inrialpes.fr
+cabo@tzi.org

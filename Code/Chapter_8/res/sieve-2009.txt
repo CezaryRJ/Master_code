@@ -1,0 +1,10 @@
+sieve
+
+
+alexey.melnikov@isode.com
+ned.freed@mrochek.com
+barryleiba.mailing.lists@gmail.com
+aaron@serendipity.cx
+cyrus@daboo.name
+guenther+mtafilters@sendmail.com
+kjetilho@ifi.uio.no

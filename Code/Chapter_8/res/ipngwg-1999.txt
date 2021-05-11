@@ -1,0 +1,10 @@
+ipngwg
+
+
+bound@zk3.dec.com
+richdr@microsoft.com
+itojun@iijlab.net
+deering@cisco.com
+hinden@iprg.nokia.com
+crawdad@fnal.gov
+narten@raleigh.ibm.com

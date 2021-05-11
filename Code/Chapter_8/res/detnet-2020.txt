@@ -1,0 +1,5 @@
+detnet
+
+
+balazs.a.varga@ericsson.com
+janos.farkas@ericsson.com

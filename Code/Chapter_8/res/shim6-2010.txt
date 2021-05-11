@@ -1,0 +1,10 @@
+shim6
+
+
+shinta@sfc.wide.ad.jp
+mkomu@cs.hut.fi
+jari.arkko@piuha.net
+shinta.sugimoto@ericsson.com
+erik.nordmark@oracle.com
+marcelo@it.uc3m.es
+miika.komu@hiit.fi

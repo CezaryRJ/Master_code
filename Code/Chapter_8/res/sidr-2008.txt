@@ -1,0 +1,17 @@
+sidr
+
+
+gih@apnic.net
+sandy@sparta.com
+kent@bbn.com
+randy@psg.com
+robertl@apnic.net
+terry@terrym.net
+ggm@apnic.net
+sandy@tislabs.com
+sra@isc.org
+andy@arin.net
+mlepinski@bbn.com
+rgaglian@fing.edu.uy
+robert@ripe.net
+terry@apnic.net

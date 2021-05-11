@@ -1,0 +1,12 @@
+dmarc
+
+
+superuser@gmail.com
+kboth@drkurt.com
+johnl@taugh.com
+blong@google.com
+seth@sethblank.com
+seth@valimail.com
+blong@fiction.net
+kurta@drkurt.com
+tim@eudaemon.net

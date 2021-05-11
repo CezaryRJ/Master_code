@@ -1,0 +1,7 @@
+ngtrans
+
+
+moore@cs.utk.edu
+itojun@iijlab.net
+huitema@windows.microsoft.com
+alain.durand@sun.com

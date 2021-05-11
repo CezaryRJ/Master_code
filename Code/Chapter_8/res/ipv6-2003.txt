@@ -1,0 +1,13 @@
+ipv6
+
+
+pekkas@netcore.fi
+john.loughney@nokia.com
+brc@zurich.ibm.com
+brian@innovationslab.net
+erik.nordmark@sun.com
+huitema@windows.microsoft.com
+jinmei@isl.rdc.toshiba.co.jp
+narten@us.ibm.com
+bob.hinden@nokia.com
+rdroms@cisco.com

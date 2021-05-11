@@ -1,0 +1,11 @@
+sipcore
+
+
+christer.holmberg@ericsson.com
+rifaat.ietf@gmail.com
+oej@edvina.net
+adam@nostrum.com
+eburger@standardstrack.com
+worley@ariadne.com
+br@brianrosen.net
+ibc@aliax.net

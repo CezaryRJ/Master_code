@@ -1,0 +1,12 @@
+netconf
+
+
+kent+ietf@watsen.net
+evoit@cisco.com
+andy@yumaworks.com
+j.schoenwaelder@jacobs-university.de
+kent@watsen.net
+rwilton@cisco.com
+balazs.lengyel@ericsson.com
+rrahman@cisco.com
+kwatsen@juniper.net

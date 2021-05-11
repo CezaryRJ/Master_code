@@ -1,0 +1,11 @@
+dmarc
+
+
+kboth@drkurt.com
+johnl@taugh.com
+superuser@gmail.com
+seth@sethblank.com
+kurta@drkurt.com
+blong@google.com
+johnl@iecc.com
+seth@valimail.com

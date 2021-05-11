@@ -1,0 +1,12 @@
+dnsop
+
+
+jabley@hopcount.ca
+ajs@shinkuro.com
+marka@isc.org
+george.barwood@blueyonder.co.uk
+olaf@nlnetlabs.nl
+paul@xelerance.com
+paul.hoffman@vpnc.org
+pk@denic.de
+sa.morris7@googlemail.com

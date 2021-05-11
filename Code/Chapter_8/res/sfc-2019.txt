@@ -1,0 +1,8 @@
+sfc
+
+
+jmh@joelhalpern.com
+cpignata@cisco.com
+mohamed.boucadair@orange.com
+shunsuke.homma.fp@hco.ntt.co.jp
+diego.r.lopez@telefonica.com

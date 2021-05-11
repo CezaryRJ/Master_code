@@ -1,0 +1,9 @@
+iptel
+
+
+jdrosen@dnrc.bell-labs.com
+msquire@nortelnetworks.com
+hsalama@cisco.com
+jdrosen@dynamicsoft.com
+hgs@cs.columbia.edu
+james.yu@neustar.com

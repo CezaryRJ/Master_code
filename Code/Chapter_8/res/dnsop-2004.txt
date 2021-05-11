@@ -1,0 +1,7 @@
+dnsop
+
+
+pekkas@netcore.fi
+jinmei@isl.rdc.toshiba.co.jp
+rdroms@cisco.com
+olaf@ripe.net

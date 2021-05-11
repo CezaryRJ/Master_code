@@ -1,0 +1,14 @@
+dnsext
+
+
+paul@vix.com
+edlewis@arin.net
+randy@psg.com
+ogud@ogud.com
+warlord@mit.edu
+sra+namedroppers@hactrn.net
+ted.lemon@nominum.com
+brian.wellington@nominum.com
+david.conrad@nominum.com
+olaf@ripe.net
+derek@ihtfp.com

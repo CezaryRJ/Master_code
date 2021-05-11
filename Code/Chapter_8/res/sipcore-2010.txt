@@ -1,0 +1,16 @@
+sipcore
+
+
+christer.holmberg@ericsson.com
+gao.yang2@zte.com.cn
+hkaplan@acmepacket.com
+adam@nostrum.com
+dworley@avaya.com
+mary.ietf.barnes@gmail.com
+dean.willis@softarmor.com
+gonzalo.camarillo@ericsson.com
+jmpolk@cisco.com
+rjsparks@nostrum.com
+shida@ntt-at.com
+ietf.hanserik@gmail.com
+fluffy@cisco.com

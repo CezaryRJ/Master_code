@@ -1,0 +1,17 @@
+sidr
+
+
+sandy@tislabs.com
+kent@bbn.com
+randy@psg.com
+david@mandelberg.org
+sra@hactrn.net
+tim@ripe.net
+gih@apnic.net
+turners@ieca.com
+sean@sn3rd.com
+mlepinski.ietf@gmail.com
+gih902@gmail.com
+madi@zdns.cn
+oliver.borchert@nist.gov
+carlosm3011@gmail.com

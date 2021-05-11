@@ -1,0 +1,13 @@
+mboned
+
+
+tte@cs.fau.de
+lenny@juniper.net
+swmike@swm.pp.se
+tim.chown@jisc.ac.uk
+pt5947@att.com
+asaeda@ieee.org
+stig@venaas.com
+tte+ietf@cs.fau.de
+gjshep@gmail.com
+farinacci@gmail.com

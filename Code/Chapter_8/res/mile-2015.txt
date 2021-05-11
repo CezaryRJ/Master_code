@@ -1,0 +1,15 @@
+mile
+
+
+takeshi_takahashi@nict.go.jp
+rdd@cert.org
+kathleen.moriarty.ietf@gmail.com
+daisu-mi@nc.u-tokyo.ac.jp
+pkampana@cisco.com
+david.waltermire@nist.gov
+jfield@pivotal.io
+adam.w.montville@gmail.com
+david.black@emc.com
+inacio@cert.org
+tt2@rc5.so-net.ne.jp
+mio@nict.go.jp

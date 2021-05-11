@@ -1,0 +1,11 @@
+netmod
+
+
+lhotka@nic.cz
+j.schoenwaelder@jacobs-university.de
+andy@yumaworks.com
+andy@netconfcentral.org
+phil@juniper.net
+yihuan@cisco.com
+dromasca@avaya.com
+kwatsen@juniper.net

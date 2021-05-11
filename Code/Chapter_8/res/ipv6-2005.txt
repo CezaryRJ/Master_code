@@ -1,0 +1,11 @@
+ipv6
+
+
+jinmei@isl.rdc.toshiba.co.jp
+bob.hinden@nokia.com
+brian@innovationslab.net
+pekkas@netcore.fi
+erik.nordmark@sun.com
+brc@zurich.ibm.com
+rdroms@cisco.com
+narten@us.ibm.com

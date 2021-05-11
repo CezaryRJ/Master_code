@@ -1,0 +1,14 @@
+netmod
+
+
+j.schoenwaelder@jacobs-university.de
+rwilton@cisco.com
+kent+ietf@watsen.net
+bill.wu@huawei.com
+andy@yumaworks.com
+mbj+ietf@4668.se
+balazs.lengyel@ericsson.com
+ladislav.lhotka@nic.cz
+lberger@labn.net
+kent@watsen.net
+acee@cisco.com

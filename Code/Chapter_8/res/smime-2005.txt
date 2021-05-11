@@ -1,0 +1,10 @@
+smime
+
+
+housley@vigilsec.com
+blake@sendmail.com
+ietf@augustcellars.com
+stefans@microsoft.com
+turners@ieca.com
+pgut001@cs.auckland.ac.nz
+bonattic@ieca.com

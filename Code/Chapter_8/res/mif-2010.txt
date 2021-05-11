@@ -1,0 +1,6 @@
+mif
+
+
+teemu.savolainen@nokia.com
+ted.lemon@nominum.com
+marc.blanchet@viagenie.ca

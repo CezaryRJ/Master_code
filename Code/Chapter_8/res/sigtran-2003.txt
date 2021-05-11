@@ -1,0 +1,8 @@
+sigtran
+
+
+bidulock@openss7.org
+tom.george@alcatel.com
+kmorneau@cisco.com
+j.javier.pastor@ericsson.com
+john.loughney@nokia.com

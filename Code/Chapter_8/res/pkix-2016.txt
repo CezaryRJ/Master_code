@@ -1,0 +1,11 @@
+pkix
+
+
+stephen.farrell@cs.tcd.ie
+housley@vigilsec.com
+carl@redhoundsoftware.com
+david.cooper@nist.gov
+ietf@augustcellars.com
+kent@bbn.com
+rob.stradling@comodo.com
+santosh.chokhani@gmail.com

@@ -1,0 +1,9 @@
+6lowpan
+
+
+pthubert@cisco.com
+cabo@tzi.org
+zach@sensinode.com
+erik.nordmark@oracle.com
+samitac@ipinfusion.com
+jpv@cisco.com

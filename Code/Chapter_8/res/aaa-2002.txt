@@ -1,0 +1,12 @@
+aaa
+
+
+john.loughney@nokia.com
+aboba@internaut.com
+tony.johansson@ericsson.com
+jari.arkko@kolumbus.fi
+pcalhoun@bstormnetworks.com
+gwz@cisco.com
+marco.stura@nokia.com
+mccap@lucent.com
+jari.arkko@lmf.ericsson.se

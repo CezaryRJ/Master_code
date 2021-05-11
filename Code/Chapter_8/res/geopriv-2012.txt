@@ -1,0 +1,10 @@
+geopriv
+
+
+martin.thomson@gmail.com
+acooper@cdt.org
+rbarnes@bbn.com
+jmpolk@cisco.com
+brian.rosen@neustar.biz
+hannes.tschofenig@gmx.net
+br@brianrosen.net

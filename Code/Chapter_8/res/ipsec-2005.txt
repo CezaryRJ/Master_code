@@ -1,0 +1,9 @@
+ipsec
+
+
+kivinen@iki.fi
+kent@bbn.com
+paul.hoffman@vpnc.org
+ghuang@cisco.com
+housley@vigilsec.com
+geoff@soe.ucsc.edu

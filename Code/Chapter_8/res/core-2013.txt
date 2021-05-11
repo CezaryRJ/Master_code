@@ -1,0 +1,9 @@
+core
+
+
+cabo@tzi.org
+esko.dijk@philips.com
+hartke@tzi.org
+zach@sensinode.com
+tho@koanlogic.com
+ludwig@sics.se

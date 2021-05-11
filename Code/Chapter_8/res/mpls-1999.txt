@@ -1,0 +1,15 @@
+mpls
+
+
+ewgray@lucent.com
+petera@nortelnetworks.com
+tnadeau@cisco.com
+erosen@cisco.com
+swallow@cisco.com
+lberger@labn.net
+rhthomas@cisco.com
+jh@lohi.eng.telia.fi
+jamoussi@nortelnetworks.com
+joan@ibnets.com
+akyol@pluris.com
+rbonica@mci.net

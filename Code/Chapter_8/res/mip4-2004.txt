@@ -1,0 +1,11 @@
+mip4
+
+
+henrik@levkowetz.com
+charliep@iprg.nokia.com
+kleung@cisco.com
+jayshree@nortelnetworks.com
+alpesh@cisco.com
+sgundave@cisco.com
+sami.vaarala@iki.fi
+tracker-mip4@mip4.org

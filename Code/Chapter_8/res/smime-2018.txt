@@ -1,0 +1,8 @@
+smime
+
+
+housley@vigilsec.com
+ietf@augustcellars.com
+pgut001@cs.auckland.ac.nz
+paul.hoffman@vpnc.org
+sean@sn3rd.com

@@ -1,0 +1,10 @@
+kitten
+
+
+kaduk@mit.edu
+ghudson@mit.edu
+weijun.wang@oracle.com
+simo@redhat.com
+npmccallum@redhat.com
+nico@cryptonector.com
+alexey.melnikov@isode.com

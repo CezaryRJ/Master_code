@@ -1,0 +1,11 @@
+core
+
+
+cabo@tzi.org
+hartke@projectcool.de
+ari.keranen@ericsson.com
+goran.selander@ericsson.com
+hannes.tschofenig@arm.com
+mohamed.boucadair@orange.com
+francesca.palombini@ericsson.com
+klaus.hartke@ericsson.com

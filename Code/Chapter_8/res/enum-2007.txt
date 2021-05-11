@@ -1,0 +1,12 @@
+enum
+
+
+richard@shockey.us
+richard.stastny@oefeg.at
+lconroy@insensate.co.uk
+lendl@nic.at
+jason_livingood@cable.comcast.com
+ppfautz@att.com
+andy@hxr.us
+alexander.mayrhofer@enum.at
+bhoeneis@switch.ch

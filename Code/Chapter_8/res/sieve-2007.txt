@@ -1,0 +1,12 @@
+sieve
+
+
+alexey.melnikov@isode.com
+ned.freed@mrochek.com
+aaron@serendipity.cx
+kjetilho@ifi.uio.no
+guenther+mtafilters@sendmail.com
+michael.haardt@freenet.ag
+cyrus@daboo.name
+michael@freenet-ag.de
+stpeter@stpeter.im

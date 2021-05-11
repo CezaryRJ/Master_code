@@ -1,0 +1,12 @@
+dnsop
+
+
+marka@isc.org
+mellon@fugue.com
+paul.hoffman@vpnc.org
+warren@kumari.net
+paul@nohats.ca
+ggm@algebras.org
+ray@bellis.me.uk
+suzworldwide@gmail.com
+ted.lemon@nominum.com

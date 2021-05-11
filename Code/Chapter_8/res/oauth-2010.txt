@@ -1,0 +1,11 @@
+oauth
+
+
+torsten@lodderstedt.net
+mscurtescu@google.com
+dick.hardt@gmail.com
+jricher@mitre.org
+bcampbell@pingidentity.com
+yarong@microsoft.com
+cmortimore@salesforce.com
+sakimura@gmail.com

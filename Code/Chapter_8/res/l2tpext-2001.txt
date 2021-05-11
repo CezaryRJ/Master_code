@@ -1,0 +1,13 @@
+l2tpext
+
+
+townsley@cisco.com
+james.d.carlson@east.sun.com
+vipin@nortelnetworks.com
+igoyret@lucent.com
+danny@ambernetworks.com
+gwz@cisco.com
+evan@occamnetworks.com
+ebooth@cisco.com
+aboba@internaut.com
+ron@aol.net

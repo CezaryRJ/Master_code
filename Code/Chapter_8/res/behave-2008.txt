@@ -1,0 +1,13 @@
+behave
+
+
+philip_matthews@magma.ca
+dwing@cisco.com
+remi.denis-courmont@nokia.com
+iljitsch@muada.com
+petithug@acm.org
+fluffy@cisco.com
+marcelo@it.uc3m.es
+jdrosen@cisco.com
+simon.perreault@viagenie.ca
+lowekamp@sipeerior.com

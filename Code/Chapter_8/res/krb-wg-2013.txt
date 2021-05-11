@@ -1,0 +1,6 @@
+krb-wg
+
+
+leifj@mnt.se
+simon@josefsson.org
+hartmans-ietf@mit.edu

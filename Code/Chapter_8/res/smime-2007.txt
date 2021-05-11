@@ -1,0 +1,11 @@
+smime
+
+
+housley@vigilsec.com
+turners@ieca.com
+pgut001@cs.auckland.ac.nz
+ietf@augustcellars.com
+denis.pinkas@bull.net
+blake@sendmail.com
+paul.hoffman@vpnc.org
+phoffman@imc.org

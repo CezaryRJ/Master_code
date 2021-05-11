@@ -1,0 +1,17 @@
+rtgwg
+
+
+stephane.litkowski@orange.com
+stbryant@cisco.com
+uma.chunduri@ericsson.com
+akatlas@gmail.com
+jeff.tantsura@ericsson.com
+bruno.decraene@orange.com
+psarkar@juniper.net
+acee@cisco.com
+curtis@ipv6.occnc.com
+hannes@juniper.net
+cbowers@juniper.net
+fred@cisco.com
+ice@cisco.com
+lberger@labn.net

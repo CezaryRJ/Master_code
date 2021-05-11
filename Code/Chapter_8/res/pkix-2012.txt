@@ -1,0 +1,15 @@
+pkix
+
+
+hallam@gmail.com
+schokhani@cygnacom.com
+stefan@aaa-sec.com
+kent@bbn.com
+denis.pinkas@bull.net
+paul.hoffman@vpnc.org
+david.cooper@nist.gov
+dpkemp@missi.ncsc.mil
+turners@ieca.com
+housley@vigilsec.com
+tgindin@us.ibm.com
+rob.stradling@comodo.com

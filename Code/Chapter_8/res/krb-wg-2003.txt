@@ -1,0 +1,10 @@
+krb-wg
+
+
+hartmans@mit.edu
+raeburn@mit.edu
+lzhu@windows.microsoft.com
+jas@extundo.com
+paulle@windows.microsoft.com
+tlyu@mit.edu
+bcn@isi.edu

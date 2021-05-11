@@ -1,0 +1,15 @@
+nsis
+
+
+john.loughney@nokia.com
+karagian@cs.utwente.nl
+bless@tm.uka.de
+jmanner@cs.helsinki.fi
+robert.hancock@roke.co.uk
+hannes.tschofenig@gmx.net
+stiemerling@netlab.nec.de
+andrew.mcdonald@roke.co.uk
+hannes.tschofenig@siemens.com
+oran@cisco.com
+fu@cs.uni-goettingen.de
+lars.westberg@ericsson.com

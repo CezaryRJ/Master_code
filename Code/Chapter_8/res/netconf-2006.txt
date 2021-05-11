@@ -1,0 +1,11 @@
+netconf
+
+
+ietf@andybierman.com
+balazs.lengyel@ericsson.com
+schishol@nortel.com
+phil@juniper.net
+lear@cisco.com
+htrevino@cisco.com
+kwatsen@juniper.net
+rpe@juniper.net

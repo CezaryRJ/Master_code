@@ -1,0 +1,10 @@
+core
+
+
+cabo@tzi.org
+hannes.tschofenig@gmx.net
+ari.keranen@ericsson.com
+esko.dijk@philips.com
+simon.lemay@gmail.com
+bilhanan.silverajan@tut.fi
+goran.selander@ericsson.com

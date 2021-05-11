@@ -1,0 +1,12 @@
+netmod
+
+
+lhotka@nic.cz
+j.schoenwaelder@jacobs-university.de
+andy@yumaworks.com
+rwilton@cisco.com
+kwatsen@juniper.net
+lberger@labn.net
+acee@cisco.com
+balazs.lengyel@ericsson.com
+mjethanandani@gmail.com

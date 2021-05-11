@@ -1,0 +1,13 @@
+emu
+
+
+jsalowey@cisco.com
+bernard_aboba@hotmail.com
+ryan.hurst@microsoft.com
+clancy@cs.umd.edu
+hartmans-ietf@mit.edu
+hannes.tschofenig@gmx.net
+hzhou@cisco.com
+hannes.tschofenig@nsn.com
+shanna@juniper.net
+ncamwing@cisco.com

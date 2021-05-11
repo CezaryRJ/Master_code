@@ -1,0 +1,11 @@
+nemo
+
+
+marcelo@it.uc3m.es
+pthubert@cisco.com
+thierry.ernst@inria.fr
+vijay.devarapalli@azairenet.com
+chanwah.ng@sg.panasonic.com
+ryuji@sfc.wide.ad.jp
+watari@kddilabs.jp
+ryuji.wakikawa@gmail.com

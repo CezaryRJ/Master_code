@@ -1,0 +1,14 @@
+tls
+
+
+marsh@extendedsubset.com
+ekr@networkresonance.com
+pasi.eronen@nokia.com
+stefan@aaa-sec.com
+nelson@bolyard.me
+simon@josefsson.org
+uri@ll.mit.edu
+jsalowey@cisco.com
+ynir@checkpoint.com
+bmoeller@acm.org
+badra@isima.fr

@@ -1,0 +1,14 @@
+geopriv
+
+
+martin.thomson@gmail.com
+brian.rosen@neustar.biz
+a.james.winterbottom@gmail.com
+br@brianrosen.net
+mlinsner@cisco.com
+acooper@cdt.org
+rlb@ipv.sx
+jmpolk@cisco.com
+hannes.tschofenig@gmx.net
+ted.ietf@gmail.com
+hgs@cs.columbia.edu

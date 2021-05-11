@@ -1,0 +1,15 @@
+bmwg
+
+
+acmorton@att.com
+fcalabri@cisco.com
+janovak@cisco.com
+cpignata@cisco.com
+dnewman@networktest.com
+vishwas.ietf@gmail.com
+ilya.varlashkin@de.easynet.net
+rajiva@cisco.com
+rbonica@juniper.net
+sporetsky@allot.com
+ilya@nobulus.com
+kmichiel@cisco.com

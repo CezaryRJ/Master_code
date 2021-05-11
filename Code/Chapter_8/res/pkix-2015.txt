@@ -1,0 +1,11 @@
+pkix
+
+
+kent@bbn.com
+pgut001@cs.auckland.ac.nz
+stephen.farrell@cs.tcd.ie
+carl@redhoundsoftware.com
+santosh.chokhani@gmail.com
+schokhani@cygnacom.com
+housley@vigilsec.com
+paul.hoffman@vpnc.org

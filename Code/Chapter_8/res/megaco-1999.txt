@@ -1,0 +1,12 @@
+megaco
+
+
+brosen@eng.fore.com
+taylor@nortelnetworks.com
+christian.groves@ericsson.com
+ngreene@nortelnetworks.com
+arayhan@nortelnetworks.com
+jsegers@lucent.com
+huitema@research.telcordia.com
+blather@nortelnetworks.com
+cuervo@nortelnetworks.com

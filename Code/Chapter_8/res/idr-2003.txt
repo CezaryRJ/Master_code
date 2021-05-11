@@ -1,0 +1,11 @@
+idr
+
+
+shares@nexthop.com
+jhaas@nexthop.com
+yakov@juniper.net
+curtis@fictitious.org
+pekkas@netcore.fi
+danny@tcb.net
+roque@juniper.net
+curtis@workhorse.fictitious.org

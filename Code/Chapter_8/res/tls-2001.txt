@@ -1,0 +1,12 @@
+tls
+
+
+ekr@speedy.rtfm.com
+moeller@cdc.informatik.tu-darmstadt.de
+rhousley@rsasecurity.com
+david.hopwood@zetnet.co.uk
+sblakewilson@certicom.com
+hopwood@zetnet.co.uk
+dajt@bigpond.com
+dtaylo11@bigpond.net.au
+pgut001@cs.auckland.ac.nz

@@ -1,0 +1,10 @@
+enum
+
+
+richard@shockey.us
+richard.stastny@oefeg.at
+lwc@roke.co.uk
+fujiwara@jprs.co.jp
+jon.peterson@neustar.biz
+lendl@nic.at
+jason_livingood@cable.comcast.com

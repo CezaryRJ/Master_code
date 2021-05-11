@@ -1,0 +1,15 @@
+sipping
+
+
+pkyzivat@cisco.com
+jdrosen@cisco.com
+gonzalo.camarillo@ericsson.com
+john.elwell@siemens.com
+hsinnrei@adobe.com
+dean.willis@softarmor.com
+eburger@bea.com
+adam@nostrum.com
+volkerh@bell-labs.com
+fluffy@cisco.com
+vkg@alcatel-lucent.com
+hgs@cs.columbia.edu

@@ -1,0 +1,13 @@
+tsvwg
+
+
+gorry@erg.abdn.ac.uk
+jmpolk@cisco.com
+lars.eggert@nokia.com
+randall@lakerest.net
+fernando@gont.com.ar
+rbriscoe@jungle.bt.co.uk
+magnus.westerlund@ericsson.com
+nishida@sfc.wide.ad.jp
+jukka.manner@tkk.fi
+dwing@cisco.com

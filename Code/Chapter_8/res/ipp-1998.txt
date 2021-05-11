@@ -1,0 +1,14 @@
+ipp
+
+
+cmanros@cp10.es.xerox.com
+hastings@cp10.es.xerox.com
+kugler@us.ibm.com
+rturner@sharplabs.com
+jkm@underscore.com
+paulmo@microsoft.com
+don@lexmark.com
+manros@cp10.es.xerox.com
+harryl@us.ibm.com
+carl@manros.com
+peter.zehler@usa.xerox.com

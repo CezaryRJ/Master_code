@@ -1,0 +1,13 @@
+bess
+
+
+thomas.morin@orange.com
+sajassi@cisco.com
+zzhang@juniper.net
+erosen@juniper.net
+jorge.rabadan@nokia.com
+jdrake@juniper.net
+wim.henderickx@nokia.com
+jefftant.ietf@gmail.com
+sboutros@vmware.com
+boutros.sami@gmail.com

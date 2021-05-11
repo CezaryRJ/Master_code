@@ -1,0 +1,9 @@
+nsis
+
+
+martin.stiemerling@neclab.eu
+karagian@cs.utwente.nl
+jukka.manner@tkk.fi
+charles@cs.columbia.edu
+fu@cs.uni-goettingen.de
+roland.bless@kit.edu

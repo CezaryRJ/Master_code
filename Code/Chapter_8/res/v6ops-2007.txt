@@ -1,0 +1,15 @@
+v6ops
+
+
+jhw@apple.com
+brian.e.carpenter@gmail.com
+fred@cisco.com
+fred.l.templin@boeing.com
+brc@zurich.ibm.com
+tjc@ecs.soton.ac.uk
+huitema@windows.microsoft.com
+alh-ietf@tndh.net
+arifumi@nttv6.net
+jordi.palet@consulintel.es
+marc.blanchet@viagenie.ca
+pekkas@netcore.fi

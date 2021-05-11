@@ -1,0 +1,9 @@
+ipfix
+
+
+quittek@ccrle.nec.de
+gsadasiv@cisco.com
+n.brownlee@auckland.ac.nz
+jeffm@cup.hp.com
+zander@fokus.gmd.de
+zseby@fokus.gmd.de

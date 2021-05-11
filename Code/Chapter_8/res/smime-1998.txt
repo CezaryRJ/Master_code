@@ -1,0 +1,12 @@
+smime
+
+
+housley@spyrus.com
+ekr@rtfm.com
+pgut001@cs.auckland.ac.nz
+phoffman@imc.org
+jsp@jgvandyke.com
+ross@jgross.demon.co.uk
+denis.pinkas@bull.net
+robert.zuccherato@entrust.com
+w.ottaway@eris.dera.gov.uk

@@ -1,0 +1,11 @@
+dnsop
+
+
+drc@virtualized.org
+ajs@commandprompt.com
+ted.lemon@nominum.com
+pk@denic.de
+paul@xelerance.com
+paul.hoffman@vpnc.org
+briand@ca.afilias.info
+jabley@ca.afilias.info

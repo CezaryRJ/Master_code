@@ -1,0 +1,13 @@
+idr
+
+
+curtis@brookfield.ans.net
+tli@juniper.net
+dhaskin@baynetworks.com
+pst@juniper.net
+qv@3com.com
+ahh@cisco.com
+roque@cisco.com
+enkechen@cisco.com
+randy@psg.com
+skh@merit.edu

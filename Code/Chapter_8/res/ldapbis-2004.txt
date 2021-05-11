@@ -1,0 +1,9 @@
+ldapbis
+
+
+jimse@novell.com
+steven.legg@eb2bcom.com
+mcs@pearlcrescent.com
+steven.legg@adacel.com.au
+rharrison@novell.com
+rlmorgan@washington.edu

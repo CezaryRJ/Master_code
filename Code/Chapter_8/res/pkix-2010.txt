@@ -1,0 +1,13 @@
+pkix
+
+
+stefan@aaa-sec.com
+schokhani@cygnacom.com
+kent@bbn.com
+pgut001@cs.auckland.ac.nz
+david.cooper@nist.gov
+denis.pinkas@bull.net
+dpkemp@missi.ncsc.mil
+tgindin@us.ibm.com
+turners@ieca.com
+hallam@gmail.com

@@ -1,0 +1,11 @@
+dnsext
+
+
+ogud@ogud.com
+randy@psg.com
+lewis@tislabs.com
+aboba@internaut.com
+brian.wellington@nominum.com
+vixie@mfnx.net
+gson@nominum.com
+vixie@vix.com

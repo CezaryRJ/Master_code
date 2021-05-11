@@ -1,0 +1,16 @@
+ospf
+
+
+acee.lindem@ericsson.com
+manav.bhatia@alcatel-lucent.com
+ogier@earthlink.net
+mjbarnes@cisco.com
+acee@lindem.com
+vishwas.ietf@gmail.com
+akr@cisco.com
+jdrake@juniper.net
+russ@cisco.com
+zzhang@juniper.net
+lberger@labn.net
+michael_barnes@usa.net
+aretana@cisco.com

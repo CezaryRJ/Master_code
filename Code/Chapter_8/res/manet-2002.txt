@@ -1,0 +1,10 @@
+manet
+
+
+ogier@erg.sri.com
+charliep@iprg.nokia.com
+macker@itd.nrl.navy.mil
+philippe.jacquet@inria.fr
+corson@flarion.com
+idc@engineering.ucsb.edu
+t.clausen@computer.org

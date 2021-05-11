@@ -1,0 +1,8 @@
+sidr
+
+
+gih@apnic.net
+sandy@tislabs.com
+kent@bbn.com
+robert@ripe.net
+robertl@apnic.net

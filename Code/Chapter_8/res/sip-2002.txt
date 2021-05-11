@@ -1,0 +1,15 @@
+sip
+
+
+jdrosen@dynamicsoft.com
+dean.willis@softarmor.com
+rsparks@dynamicsoft.com
+adam@dynamicsoft.com
+jon.peterson@neustar.biz
+rohan@cisco.com
+mwatson@nortelnetworks.com
+hgs@cs.columbia.edu
+hisham.khartabil@nokia.com
+wtm@research.att.com
+bcampbell@dynamicsoft.com
+vkg@lucent.com

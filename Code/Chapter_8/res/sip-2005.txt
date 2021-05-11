@@ -1,0 +1,15 @@
+sip
+
+
+pkyzivat@cisco.com
+dean.willis@softarmor.com
+jdrosen@cisco.com
+fluffy@cisco.com
+hgs@cs.columbia.edu
+jon.peterson@neustar.biz
+jmpolk@cisco.com
+rjsparks@nostrum.com
+audet@nortel.com
+john.elwell@siemens.com
+brett@broadsoft.com
+gonzalo.camarillo@ericsson.com

@@ -1,0 +1,13 @@
+ipfix
+
+
+stbryant@cisco.com
+quittek@ccrle.nec.de
+inetpix@msn.com
+zander@fokus.fraunhofer.de
+simon@limmat.switch.ch
+gsadasiv@cisco.com
+n.brownlee@auckland.ac.nz
+quittek@netlab.nec.de
+szander@swin.edu.au
+mark@fokus.fraunhofer.de

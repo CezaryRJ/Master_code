@@ -1,0 +1,9 @@
+ngtrans
+
+
+alain.durand@imag.fr
+moore@cs.utk.edu
+itojun@iijlab.net
+kazu@iijlab.net
+tsuchi@ebina.hitachi.co.jp
+suresh@livingston.com

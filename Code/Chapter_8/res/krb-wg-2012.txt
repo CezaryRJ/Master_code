@@ -1,0 +1,10 @@
+krb-wg
+
+
+hartmans-ietf@mit.edu
+nico@cryptonector.com
+tlyu@mit.edu
+leifj@mnt.se
+ghudson@mit.edu
+simon@josefsson.org
+leifj@sunet.se

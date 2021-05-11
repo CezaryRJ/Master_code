@@ -1,0 +1,12 @@
+iptel
+
+
+fluffy@cisco.com
+jdrosen@dynamicsoft.com
+vkg@lucent.com
+jdrosen@cisco.com
+hgs@cs.columbia.edu
+james.yu@neustar.biz
+richard.stastny@oefeg.at
+lwc@roke.co.uk
+manjax@cisco.com

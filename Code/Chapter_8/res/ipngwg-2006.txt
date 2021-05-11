@@ -1,0 +1,7 @@
+ipngwg
+
+
+bob.hinden@nokia.com
+brian@innovationslab.net
+narten@us.ibm.com
+erik.nordmark@sun.com

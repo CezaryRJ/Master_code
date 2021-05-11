@@ -1,0 +1,12 @@
+diffserv
+
+
+fred@cisco.com
+khchan@nortelnetworks.com
+nichols@packetdesign.com
+andrew@allegronetworks.com
+wweiss@ellacoya.com
+ah_smith@pacbell.net
+dan@dma.isg.mot.com
+slblake@torrentnet.com
+jh@lohi.eng.telia.fi

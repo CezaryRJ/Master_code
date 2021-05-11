@@ -1,0 +1,9 @@
+ipv6
+
+
+brian.e.carpenter@gmail.com
+narten@us.ibm.com
+bob.hinden@gmail.com
+brian@innovationslab.net
+suresh.krishnan@ericsson.com
+jari.arkko@piuha.net

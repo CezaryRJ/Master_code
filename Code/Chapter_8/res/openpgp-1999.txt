@@ -1,0 +1,9 @@
+openpgp
+
+
+hal@rain.org
+jon@callas.org
+jcallas@nai.com
+roessler@guug.de
+jon@pgp.com
+michael_elkins@nai.com

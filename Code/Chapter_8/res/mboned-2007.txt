@@ -1,0 +1,15 @@
+mboned
+
+
+tme@multicasttech.com
+pekkas@netcore.fi
+stig.venaas@uninett.no
+eckert@cisco.com
+lenny@juniper.net
+asaeda@sfc.wide.ad.jp
+dthaler@windows.microsoft.com
+tjc@ecs.soton.ac.uk
+brian@innovationslab.net
+dino@cisco.com
+gjshep@gmail.com
+jmeylor@cisco.com

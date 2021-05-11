@@ -1,0 +1,14 @@
+nsis
+
+
+robert.hancock@roke.co.uk
+hannes.tschofenig@siemens.com
+john.loughney@nokia.com
+sven.van_den_bosch@alcatel.be
+karagian@cs.utwente.nl
+andrew.mcdonald@roke.co.uk
+oran@cisco.com
+fu@cs.uni-goettingen.de
+jmanner@cs.helsinki.fi
+sanda.takako@jp.panasonic.com
+brunner@ccrle.nec.de

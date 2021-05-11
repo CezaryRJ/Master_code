@@ -1,0 +1,8 @@
+dmarc
+
+
+superuser@gmail.com
+johnl@taugh.com
+franck@peachymango.org
+tim@eudaemon.net
+blong@google.com

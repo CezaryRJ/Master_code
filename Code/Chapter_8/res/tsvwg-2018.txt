@@ -1,0 +1,12 @@
+tsvwg
+
+
+touch@strayalpha.com
+tom@herbertland.com
+gorry@erg.abdn.ac.uk
+david.black@dell.com
+ietf@bobbriscoe.net
+vincent.roca@inria.fr
+roland.bless@kit.edu
+tuexen@fh-muenster.de
+tom@erg.abdn.ac.uk

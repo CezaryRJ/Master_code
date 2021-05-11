@@ -1,0 +1,10 @@
+netconf
+
+
+andy@yumaworks.com
+j.schoenwaelder@jacobs-university.de
+andy@netconfcentral.org
+kwatsen@juniper.net
+phil@juniper.net
+mbadra@gmail.com
+luchuk@snmp.com

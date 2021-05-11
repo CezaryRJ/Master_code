@@ -1,0 +1,12 @@
+l2vpn
+
+
+hshah@ciena.com
+loa@pi.se
+sajassi@cisco.com
+vach.kompella@alcatel.com
+y.kamite@ntt.com
+yakov@juniper.net
+bsd@cisco.com
+kireeti@juniper.net
+balus@nortel.com

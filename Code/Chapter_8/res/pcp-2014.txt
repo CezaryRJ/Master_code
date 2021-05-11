@@ -1,0 +1,12 @@
+pcp
+
+
+mohamed.boucadair@orange.com
+dwing@cisco.com
+repenno@cisco.com
+simon.perreault@viagenie.ca
+zhangdacheng@huawei.com
+praspati@cisco.com
+ietf-pcp@skiesel.de
+sperreault@jive.com
+zhang_dacheng@hotmail.com

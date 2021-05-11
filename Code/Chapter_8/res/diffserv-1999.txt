@@ -1,0 +1,11 @@
+diffserv
+
+
+kmn@cisco.com
+gja@dnrc.bell-labs.com
+jh@lohi.eng.telia.fi
+dan@dma.isg.mot.com
+andrew@extremenetworks.com
+yoramb@exchange.microsoft.com
+swb@newbridge.com
+slblake@torrentnet.com

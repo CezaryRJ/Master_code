@@ -1,0 +1,12 @@
+enum
+
+
+richard.stastny@oefeg.at
+richard@shockey.us
+ppfautz@att.com
+lconroy@insensate.co.uk
+jason_livingood@cable.comcast.com
+klaus.mailinglists@pernau.at
+alexander.mayrhofer@enum.at
+lendl@nic.at
+mah@inode.at

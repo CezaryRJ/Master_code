@@ -1,0 +1,9 @@
+spirits
+
+
+abrusilovsky@lucent.com
+faynberg@bell-labs.com
+huilanlu@lucent.com
+soren.m.nyckelgard@telia.se
+jkhwang@kt.co.kr
+jvoelker@lucent.com

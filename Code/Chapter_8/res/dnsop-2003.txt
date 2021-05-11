@@ -1,0 +1,9 @@
+dnsop
+
+
+pekkas@netcore.fi
+randy@psg.com
+alain.durand@sun.com
+jinmei@isl.rdc.toshiba.co.jp
+rdroms@cisco.com
+david.conrad@nominum.com

@@ -1,0 +1,12 @@
+rmt
+
+
+rod.walsh@nokia.com
+lorenzo@cisco.com
+mark@digitalfountain.com
+luby@digitalfountain.com
+vincent.roca@inrialpes.fr
+toni.paila@nokia.com
+adamson@itd.nrl.navy.mil
+christoph.neumann@inrialpes.fr
+jani.peltotalo@tut.fi

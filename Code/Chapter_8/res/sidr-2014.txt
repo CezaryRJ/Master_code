@@ -1,0 +1,17 @@
+sidr
+
+
+sandy@tislabs.com
+randy@psg.com
+kent@bbn.com
+sandra.murphy@parsons.com
+turners@ieca.com
+tim@ripe.net
+gih@apnic.net
+sra@hactrn.net
+carlosm3011@gmail.com
+rogaglia@cisco.com
+mlepinski.ietf@gmail.com
+andy@arin.net
+waehlisch@ieee.org
+gih902@gmail.com

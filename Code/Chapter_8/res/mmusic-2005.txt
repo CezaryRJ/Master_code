@@ -1,0 +1,14 @@
+mmusic
+
+
+magnus.westerlund@ericsson.com
+csp@csperkins.org
+jdrosen@cisco.com
+pkyzivat@cisco.com
+gonzalo.camarillo@ericsson.com
+fandreas@cisco.com
+mbaugher@cisco.com
+hgs@cs.columbia.edu
+jo@netlab.hut.fi
+rod.walsh@nokia.com
+christer.holmberg@ericsson.com

@@ -1,0 +1,11 @@
+ntp
+
+
+mayer@ntp.org
+stenn@ntp.org
+stenn@nwtime.org
+dieter.sibold@ptb.de
+kristof.teichel@ptb.de
+brian@innovationslab.net
+talmi@marvell.com
+mayer@pdmconsulting.net

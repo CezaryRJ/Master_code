@@ -1,0 +1,12 @@
+v6ops
+
+
+brian.e.carpenter@gmail.com
+fred@cisco.com
+lorenzo@google.com
+fred.l.templin@boeing.com
+nick@foobar.org
+alexandru.petrescu@gmail.com
+tore@fud.no
+joelja@bogus.com
+fgont@si6networks.com

@@ -1,0 +1,10 @@
+nsis
+
+
+john.loughney@nokia.com
+robert.hancock@roke.co.uk
+brunner@ccrle.nec.de
+sven.van_den_bosch@alcatel.be
+hannes.tschofenig@siemens.com
+bless@tm.uka.de
+hemant.chaskar@nokia.com

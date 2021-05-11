@@ -1,0 +1,9 @@
+iptel
+
+
+jdrosen@dynamicsoft.com
+lennox@cs.columbia.edu
+james.yu@neustar.com
+hsalama@cisco.com
+schulzrinne@cs.columbia.edu
+hgs@cs.columbia.edu

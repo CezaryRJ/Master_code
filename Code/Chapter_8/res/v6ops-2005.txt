@@ -1,0 +1,15 @@
+v6ops
+
+
+fred@cisco.com
+pekkas@netcore.fi
+tjc@ecs.soton.ac.uk
+jordi.palet@consulintel.es
+elwynd@dial.pipex.com
+fred.l.templin@boeing.com
+alain@tycool.net
+ericlklein@softhome.net
+brc@zurich.ibm.com
+stig.venaas@uninett.no
+jonne.soininen@nokia.com
+mohacsi@niif.hu

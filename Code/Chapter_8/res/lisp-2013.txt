@@ -1,0 +1,10 @@
+lisp
+
+
+farinacci@gmail.com
+ggx@gigix.net
+damien.saucez@gmail.com
+ljakab@ac.upc.edu
+darlewis@cisco.com
+drc@virtualized.org
+gih@apnic.net

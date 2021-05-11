@@ -1,0 +1,9 @@
+netconf
+
+
+andyb@iwl.com
+j.schoenwaelder@jacobs-university.de
+ietf@andybierman.com
+phil@juniper.net
+kwatsen@juniper.net
+mark.scott@ericsson.com

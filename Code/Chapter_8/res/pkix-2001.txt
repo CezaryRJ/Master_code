@@ -1,0 +1,16 @@
+pkix
+
+
+kent@bbn.com
+rhousley@rsasecurity.com
+denis.pinkas@bull.net
+pgut001@cs.auckland.ac.nz
+chokhani@cygnacom.com
+dpkemp@missi.ncsc.mil
+myers@coastside.net
+tgindin@us.ibm.com
+ambarish@valicert.com
+david.cooper@nist.gov
+sharon.boeyen@entrust.com
+peter.sylvester@edelweb.fr
+tim.polk@nist.gov

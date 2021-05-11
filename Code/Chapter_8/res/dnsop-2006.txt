@@ -1,0 +1,11 @@
+dnsop
+
+
+pk@denic.de
+jabley@ca.afilias.info
+andrew@ca.afilias.info
+pekkas@netcore.fi
+olaf@nlnetlabs.nl
+david.conrad@icann.org
+dhc2@dcrocker.net
+paul@xelerance.com

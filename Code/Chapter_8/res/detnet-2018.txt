@@ -1,0 +1,7 @@
+detnet
+
+
+pthubert@cisco.com
+janos.farkas@ericsson.com
+balazs.a.varga@ericsson.com
+norman.finn@mail01.huawei.com

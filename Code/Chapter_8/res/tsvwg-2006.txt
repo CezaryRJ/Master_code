@@ -1,0 +1,14 @@
+tsvwg
+
+
+jmpolk@cisco.com
+randall@lakerest.net
+lars.eggert@netlab.nec.de
+magnus.westerlund@ericsson.com
+rbriscoe@jungle.bt.co.uk
+rrs@cisco.com
+floyd@icir.org
+mathis@psc.edu
+mallman@icir.org
+randall@stewart.chicago.il.us
+carlberg@g11.org.uk

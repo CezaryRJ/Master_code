@@ -1,0 +1,10 @@
+krb-wg
+
+
+hartmans-ietf@mit.edu
+ghudson@mit.edu
+tlyu@mit.edu
+sakane@tanu.org
+leifj@mnt.se
+lzhu@exchange.microsoft.com
+simon@josefsson.org

@@ -1,0 +1,12 @@
+lisp
+
+
+darlewis@cisco.com
+dino@cisco.com
+luigi@net.t-labs.tu-berlin.de
+vaf@cisco.com
+damien.saucez@uclouvain.be
+ljakab@ac.upc.edu
+jzwiebel@cisco.com
+dmm@1-4-5.net
+job@instituut.net

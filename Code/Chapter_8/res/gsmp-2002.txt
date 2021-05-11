@@ -1,0 +1,11 @@
+gsmp
+
+
+avri@sm.luth.se
+ksundell@nortelnetworks.com
+todd.a.anderson@intel.com
+avri@acm.org
+geku@nortelnetworks.com
+jonathan.sadler@tellabs.com
+fsb@thefsb.org
+sdshew@nortelnetworks.com

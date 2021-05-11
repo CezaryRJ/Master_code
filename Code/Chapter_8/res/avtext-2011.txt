@@ -1,0 +1,13 @@
+avtext
+
+
+magnus.westerlund@ericsson.com
+xiajinwei@huawei.com
+csp@csperkins.org
+emcho@jitsi.org
+even.roni@huawei.com
+jonathan@vidyo.com
+petithug@acm.org
+kevin.gross@avanw.com
+stewe@stewe.org
+efriedri@cisco.com

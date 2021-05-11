@@ -1,0 +1,13 @@
+oauth
+
+
+ve7jtb@ve7jtb.com
+jricher@mit.edu
+bcampbell@pingidentity.com
+hannes.tschofenig@gmx.net
+phil.hunt@oracle.com
+sakimura@gmail.com
+wdenniss@google.com
+torsten@lodderstedt.net
+tonynad@microsoft.com
+n-sakimura@nri.co.jp

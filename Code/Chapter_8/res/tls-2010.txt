@@ -1,0 +1,13 @@
+tls
+
+
+marsh@extendedsubset.com
+stefan@aaa-sec.com
+pgut001@cs.auckland.ac.nz
+agl@google.com
+jsalowey@cisco.com
+simon@josefsson.org
+nmav@gnutls.org
+uri@ll.mit.edu
+turners@ieca.com
+ynir@checkpoint.com

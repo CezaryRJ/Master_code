@@ -1,0 +1,13 @@
+v6ops
+
+
+fred@cisco.com
+brian.e.carpenter@gmail.com
+cb.list6@gmail.com
+lorenzo@google.com
+joelja@bogus.com
+shemant@cisco.com
+fred.l.templin@boeing.com
+phdgang@gmail.com
+fgont@si6networks.com
+nick@inex.ie

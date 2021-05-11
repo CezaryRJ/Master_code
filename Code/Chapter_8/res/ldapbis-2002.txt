@@ -1,0 +1,8 @@
+ldapbis
+
+
+steven.legg@adacel.com.au
+jimse@novell.com
+mcs@netscape.com
+rlmorgan@washington.edu
+rharrison@novell.com

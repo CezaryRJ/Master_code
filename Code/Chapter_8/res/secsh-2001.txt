@@ -1,0 +1,10 @@
+secsh
+
+
+galb-list@vandyke.com
+markus.friedl@informatik.uni-erlangen.de
+markus@openbsd.org
+ylo@ssh.com
+sjl@iki.fi
+sjl@ssh.com
+jhutz@cmu.edu

@@ -1,0 +1,13 @@
+avtext
+
+
+bo.burman@ericsson.com
+jonathan@vidyo.com
+emcho@jitsi.org
+csp@csperkins.org
+ron.even.tlv@gmail.com
+rachel.huang@huawei.com
+stewe@stewe.org
+xiajinwei@huawei.com
+magnus.westerlund@ericsson.com
+mzanaty@cisco.com

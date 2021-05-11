@@ -1,0 +1,13 @@
+sidr
+
+
+sandy@tislabs.com
+gih@apnic.net
+kent@bbn.com
+mlepinski@bbn.com
+robert@ripe.net
+robertl@apnic.net
+sra@isc.org
+ggm@apnic.net
+riw@cisco.com
+turners@ieca.com
