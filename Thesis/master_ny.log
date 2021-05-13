@@ -1,0 +1,3170 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.6)  13 MAY 2021 19:12
+entering extended mode
+**./master_ny.tex
+(master_ny.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/06/10 3.45 The Babel package
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/06/10 3.45 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+\l@babelnohyphens=\language79
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count177
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.
+ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+)) (duomasterforside.sty
+Package: duomasterforside 2017/03/22 v1.05 UiO document class
+ (duoforside.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/xifthen\xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count178
+\calc@Bcount=\count179
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count180
+\calc@Cskip=\skip51
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/type1cm\type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/cm-super\type1ec.sty
+Package: type1ec 2002/09/07 v1.1 Type1 EC font definitions (for CM-Super fonts)
+
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmr.fd
+File: t1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@duo@cur@year=\count181
+\c@duo@cur@month=\count182
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count183
+\lst@gtempboxa=\box45
+\lst@token=\toks18
+\lst@length=\count184
+\lst@currlwidth=\dimen140
+\lst@column=\count185
+\lst@pos=\count186
+\lst@lostspace=\dimen141
+\lst@width=\dimen142
+\lst@newlines=\count187
+\lst@lineno=\count188
+\lst@maxwidth=\dimen143
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count189
+\lst@skipnumbers=\count190
+\lst@framebox=\box46
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
+.sty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.s
+ty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen144
+\pgfutil@tempdimb=\dimen145
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common-lists.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-latex.def
+\pgfutil@abb=\box47
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs
+.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex
+)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore
+.sty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys
+.sty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+sfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen146
+\pgf@y=\dimen147
+\pgf@xa=\dimen148
+\pgf@ya=\dimen149
+\pgf@xb=\dimen150
+\pgf@yb=\dimen151
+\pgf@xc=\dimen152
+\pgf@yc=\dimen153
+\pgf@xd=\dimen154
+\pgf@yd=\dimen155
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count191
+\c@pgf@countb=\count192
+\c@pgf@countc=\count193
+\c@pgf@countd=\count194
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count195
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.
+cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+yssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count196
+\pgfsyssoftpath@bigbuffer@items=\count197
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+re.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc
+.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil
+.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpars
+er.code.tex
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count198
+\pgfmath@box=\box48
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.basic.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.trigonometric.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.random.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.comparison.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.base.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.round.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.misc.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.integerarithmetics.code.tex)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloa
+t.code.tex
+\c@pgfmathroundto@lastzeros=\count199
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code
+.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count266
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+regraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen175
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+requick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen179
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen180
+\pgf@sys@shading@range@num=\count267
+\pgf@shadingcount=\count268
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box52
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+relayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box53
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen181
+\pgf@nodesepend=\dimen182
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.s
+ty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.
+sty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
+.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex)
+\pgffor@iter=\dimen183
+\pgffor@skip=\dimen184
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz\tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count269
+\pgfplotmarksize=\dimen185
+)
+\tikz@lastx=\dimen186
+\tikz@lasty=\dimen187
+\tikz@lastxsaved=\dimen188
+\tikz@lastysaved=\dimen189
+\tikz@lastmovetox=\dimen190
+\tikz@lastmovetoy=\dimen191
+\tikzleveldistance=\dimen192
+\tikzsiblingdistance=\dimen193
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count270
+\tikznumberofchildren=\count271
+\tikznumberofcurrentchild=\count272
+\tikz@fig@count=\count273
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count274
+\pgfmatrixcurrentcolumn=\count275
+\pgf@matrix@numberofcolumns=\count276
+)
+\tikz@expandcount=\count277
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.re
+vision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.co
+de.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscor
+e.code.tex
+\t@pgfplots@toka=\toks31
+\t@pgfplots@tokb=\toks32
+\t@pgfplots@tokc=\toks33
+\pgfplots@tmpa=\dimen194
+\c@pgfplots@coordindex=\count278
+\c@pgfplots@scanlineindex=\count279
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplot
+ssysgeneric.code.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplo
+tslibrary.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompa
+tib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryfpu.code.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructure.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructureext.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count280
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsmatrix.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pg
+fplotstableshared.code.tex
+\c@pgfplotstable@counta=\count281
+\t@pgfplotstable@a=\toks34
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsdeque.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.data.code.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.verb.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflib
+rarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count282
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibr
+arypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolormap.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolor.code.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotssta
+ckedplots.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplo
+thandlers.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplothandler.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplotimage.code.tex)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sc
+aling.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoo
+rdprocessing.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.er
+rorbars.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.ma
+rkers.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstic
+ks.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pa
+ths.code.tex)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+edecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen195
+\pgfdecoratedremainingdistance=\dimen196
+\pgfdecoratedinputsegmentcompleteddistance=\dimen197
+\pgfdecoratedinputsegmentremainingdistance=\dimen198
+\pgf@decorate@distancetomove=\dimen199
+\pgf@decorate@repeatstate=\count283
+\pgfdecorationsegmentamplitude=\dimen256
+\pgfdecorationsegmentlength=\dimen257
+)
+\tikz@lib@dec@box=\box58
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count284
+\pgfplots@xmin@reg=\dimen258
+\pgfplots@xmax@reg=\dimen259
+\pgfplots@ymin@reg=\dimen260
+\pgfplots@ymax@reg=\dimen261
+\pgfplots@zmin@reg=\dimen262
+\pgfplots@zmax@reg=\dimen263
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/pgf-pie\pgf-pie.sty
+Package: pgf-pie 2020/05/27 v0.3 Some LaTeX macros for pie chart by using PGF/T
+ikz package.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+\pgfpie@angleEnd=\skip52
+\c@pgfpie@explodeLength=\count285
+\c@pgfpie@colorLength=\count286
+\c@pgfpie@sliceLength=\count287
+) (C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks35
+\float@box=\box59
+\@float@everytoks=\toks36
+\@floatcapt=\box60
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+\csq@reset=\count290
+\csq@gtype=\count291
+\csq@glevel=\count292
+\csq@qlevel=\count293
+\csq@maxlvl=\count294
+\csq@tshold=\count295
+\csq@ltx@everypar=\toks37
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen264
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen265
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count296
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count297
+\leftroot@=\count298
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count299
+\DOTSCASE@=\count300
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box61
+\strutbox@=\box62
+\big@size=\dimen266
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count301
+\c@MaxMatrixCols=\count302
+\dotsspace@=\muskip17
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
+\tag@help=\toks39
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
+\andhelp@=\toks40
+\eqnshift@=\dimen267
+\alignsep@=\dimen268
+\tagshift@=\dimen269
+\tagwidth@=\dimen270
+\totwidth@=\dimen271
+\lineht@=\dimen272
+\@envbody=\toks41
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen273
+\captionmargin@=\dimen274
+\captionwidth=\dimen275
+\caption@tempdima=\dimen276
+\caption@indent=\dimen277
+\caption@parindent=\dimen278
+\caption@hangindent=\dimen279
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count308
+\c@continuedfloat=\count309
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzli
+brarypgfplots.fillbetween.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\
+tikzlibraryfillbetween.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryintersections.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryintersections.code.tex
+\pgf@intersect@solutions=\count310
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\
+tikzlibrarydecorations.softclip.code.tex
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\
+pgflibraryfillbetween.code.tex)))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzli
+brarypgfplots.decorations.softclip.code.tex))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.
+sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count311
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count312
+\c@listtotal=\count313
+\c@listcount=\count314
+\c@liststart=\count315
+\c@liststop=\count316
+\c@citecount=\count317
+\c@citetotal=\count318
+\c@multicitecount=\count319
+\c@multicitetotal=\count320
+\c@instcount=\count321
+\c@maxnames=\count322
+\c@minnames=\count323
+\c@maxitems=\count324
+\c@minitems=\count325
+\c@citecounter=\count326
+\c@maxcitecounter=\count327
+\c@savedcitecounter=\count328
+\c@uniquelist=\count329
+\c@uniquename=\count330
+\c@refsection=\count331
+\c@refsegment=\count332
+\c@maxextratitle=\count333
+\c@maxextratitleyear=\count334
+\c@maxextraname=\count335
+\c@maxextradate=\count336
+\c@maxextraalpha=\count337
+\c@abbrvpenalty=\count338
+\c@highnamepenalty=\count339
+\c@lownamepenalty=\count340
+\c@maxparens=\count341
+\c@parenlevel=\count342
+\blx@tempcnta=\count343
+\blx@tempcntb=\count344
+\blx@tempcntc=\count345
+\blx@maxsection=\count346
+\blx@maxsegment@0=\count347
+\blx@notetype=\count348
+\blx@parenlevel@text=\count349
+\blx@parenlevel@foot=\count350
+\blx@sectionciteorder@0=\count351
+\blx@entrysetcounter=\count352
+\labelnumberwidth=\skip56
+\labelalphawidth=\skip57
+\biblabelsep=\skip58
+\bibitemsep=\skip59
+\bibnamesep=\skip60
+\bibinitsep=\skip61
+\bibparsep=\skip62
+\bibhang=\skip63
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language80
+\c@mincomprange=\count353
+\c@maxcomprange=\count354
+\c@mincompwidth=\count355
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count356
+\c@savedafterword=\count357
+\c@annotator=\count358
+\c@savedannotator=\count359
+\c@author=\count360
+\c@savedauthor=\count361
+\c@bookauthor=\count362
+\c@savedbookauthor=\count363
+\c@commentator=\count364
+\c@savedcommentator=\count365
+\c@editor=\count366
+\c@savededitor=\count367
+\c@editora=\count368
+\c@savededitora=\count369
+\c@editorb=\count370
+\c@savededitorb=\count371
+\c@editorc=\count372
+\c@savededitorc=\count373
+\c@foreword=\count374
+\c@savedforeword=\count375
+\c@holder=\count376
+\c@savedholder=\count377
+\c@introduction=\count378
+\c@savedintroduction=\count379
+\c@namea=\count380
+\c@savednamea=\count381
+\c@nameb=\count382
+\c@savednameb=\count383
+\c@namec=\count384
+\c@savednamec=\count385
+\c@translator=\count386
+\c@savedtranslator=\count387
+\c@shortauthor=\count388
+\c@savedshortauthor=\count389
+\c@shorteditor=\count390
+\c@savedshorteditor=\count391
+\c@labelname=\count392
+\c@savedlabelname=\count393
+\c@institution=\count394
+\c@savedinstitution=\count395
+\c@lista=\count396
+\c@savedlista=\count397
+\c@listb=\count398
+\c@savedlistb=\count399
+\c@listc=\count400
+\c@savedlistc=\count401
+\c@listd=\count402
+\c@savedlistd=\count403
+\c@liste=\count404
+\c@savedliste=\count405
+\c@listf=\count406
+\c@savedlistf=\count407
+\c@location=\count408
+\c@savedlocation=\count409
+\c@organization=\count410
+\c@savedorganization=\count411
+\c@origlocation=\count412
+\c@savedoriglocation=\count413
+\c@origpublisher=\count414
+\c@savedorigpublisher=\count415
+\c@publisher=\count416
+\c@savedpublisher=\count417
+\c@language=\count418
+\c@savedlanguage=\count419
+\c@origlanguage=\count420
+\c@savedoriglanguage=\count421
+\c@pageref=\count422
+\c@savedpageref=\count423
+\shorthandwidth=\skip64
+\shortjournalwidth=\skip65
+\shortserieswidth=\skip66
+\shorttitlewidth=\skip67
+\shortauthorwidth=\skip68
+\shorteditorwidth=\skip69
+\locallabelnumberwidth=\skip70
+\locallabelalphawidth=\skip71
+\localshorthandwidth=\skip72
+\localshortjournalwidth=\skip73
+\localshortserieswidth=\skip74
+\localshorttitlewidth=\skip75
+\localshortauthorwidth=\skip76
+\localshorteditorwidth=\skip77
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.de
+f
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count424
+\c@textcitetotal=\count425
+\c@textcitemaxnames=\count426
+\c@biburlbigbreakpenalty=\count427
+\c@biburlbreakpenalty=\count428
+\c@biburlnumpenalty=\count429
+\c@biburlucpenalty=\count430
+\c@biburllcpenalty=\count431
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count432
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\alphabeti
+c.bbx
+File: alphabetic.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.
+bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count433
+\c@bbx:relatedtotal=\count434
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\alphabeti
+c.cbx
+File: alphabetic.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+fmode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count435
+\l__pdf_internal_box=\box63
+) (master_ny.aux)
+\openout1 = `master_ny.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count436
+\scratchdimen=\dimen280
+\scratchbox=\box64
+\nofMPsegments=\count437
+\nofMParguments=\count438
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count439
+\MPscratchDim=\dimen281
+\MPnumerator=\count440
+\makeMPintoPDFobject=\count441
+\everyMPtoPDFconversion=\toks44
+)
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+\c@lstlisting=\count442
+ ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
+your preamble.
+ on input line 38.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.l
+bx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `master_ny.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'master_ny.bbl' found.
+ (master_ny.bbl)
+Package biblatex Info: Reference section=0 on input line 38.
+Package biblatex Info: Reference segment=0 on input line 38.
+LaTeX Font Info:    Trying to load font information for T1+ua1 on input line 46
+.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/arial\t1ua1.fd
+File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
+)
+LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <20> not available
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 46.
+<DUO_UiO_segl.png, id=4, 142.3719pt x 142.3719pt>
+File: DUO_UiO_segl.png Graphic file (type png)
+<use DUO_UiO_segl.png>
+Package pdftex.def Info: DUO_UiO_segl.png  used on input line 46.
+(pdftex.def)             Requested size: 170.71652pt x 170.73027pt.
+
+[1
+
+{C:/Users/Cezary/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./DUO_UiO_segl
+.png>] [1] [1]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
+6.
+
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+[2] (master_ny.toc [3
+
+] [4])
+\tf@toc=\write5
+\openout5 = `master_ny.toc'.
+
+ [5]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+[7]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Overfull \hbox (1.16925pt too wide) in paragraph at lines 155--156
+[]$\T1/cmtt/m/n/10 https : / / www . rfc-[]editor . org / search / rfc _ search
+ _ detail . php ? stream _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+[8
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 213--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--305
+
+ []
+
+[13]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--344
+
+ []
+
+[14
+
+] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 494--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--517
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 519--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 560--563
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--571
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--585
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--585
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+[22] [23]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--749
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--749
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--756
+
+ []
+
+[24
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 759--760
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 789--790
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 789--790
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 801--802
+
+ []
+
+[26]
+(C:\Users\Cezary\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (mailparser.py
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 834--837
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--837
+
+ []
+
+(mailparser.py
+consecutive:
+) [27] (mailparser.py
+consecutive:
+) (mailparser.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
+
+ []
+
+[28] (mailparser.py
+consecutive:
+) [29] (mailparser.py
+consecutive:
+) (mailparser.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 945--946
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 957--958
+
+ []
+
+(mailparser_new.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 965--966
+
+ []
+
+(mailparser_new.py
+consecutive:
+) [31] (mailparser_new.py
+consecutive:
+) (mailparser_new.py
+consecutive:
+) (mailparser_new.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+
+ []
+
+[32] (mailparser_new.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1025
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1039
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1073
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1083
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+
+ []
+
+(cleanarch.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
+
+ []
+
+(cleanarch.py
+consecutive:
+) (cleanarch.py
+consecutive:
+) (cleanarch.py
+consecutive:
+) (cleanarch.py
+consecutive:
+[35]) (cleanarch.py
+consecutive:
+) (cleanarch.py
+consecutive:
+) (cleanarch.py
+consecutive:
+) [36]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+
+ []
+
+[37
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1230
+
+ []
+
+<gui1.png, id=155, 279.29344pt x 57.21375pt>
+File: gui1.png Graphic file (type png)
+<use gui1.png>
+Package pdftex.def Info: gui1.png  used on input line 1243.
+(pdftex.def)             Requested size: 279.29276pt x 57.2136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1254
+
+ []
+
+[39 <./gui1.png>] (search1.py)
+<gui2.png, id=161, 272.51813pt x 121.95563pt>
+File: gui2.png Graphic file (type png)
+<use gui2.png>
+Package pdftex.def Info: gui2.png  used on input line 1265.
+(pdftex.def)             Requested size: 272.51746pt x 121.9553pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1271--1272
+
+ []
+
+[40 <./gui2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1299--1302
+
+ []
+
+
+Overfull \hbox (18.16156pt too wide) in paragraph at lines 1306--1307
+\T1/cmtt/m/n/10 https : / / lucene . apache . org / solr / guide / 8 _ 6 / comm
+on-[]query-[]parameters . html$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1310--1312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1313--1314
+
+ []
+
+<gui3.png, id=166, 335.00156pt x 205.5178pt>
+File: gui3.png Graphic file (type png)
+<use gui3.png>
+Package pdftex.def Info: gui3.png  used on input line 1316.
+(pdftex.def)             Requested size: 335.00073pt x 205.5173pt.
+
+Overfull \hbox (5.00073pt too wide) in paragraph at lines 1316--1317
+[][] 
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1339
+
+ []
+
+(search2.py) [42 <./gui3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
+
+ []
+
+<gui4.png, id=174, 289.08pt x 318.43968pt>
+File: gui4.png Graphic file (type png)
+<use gui4.png>
+Package pdftex.def Info: gui4.png  used on input line 1348.
+(pdftex.def)             Requested size: 289.07928pt x 318.4389pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1356
+
+ []
+
+[43 <./gui4.png>]
+<date2.png, id=179, 99.37125pt x 10.53937pt>
+File: date2.png Graphic file (type png)
+<use date2.png>
+Package pdftex.def Info: date2.png  used on input line 1357.
+(pdftex.def)             Requested size: 99.371pt x 10.53932pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1362
+
+ []
+
+<date1.png, id=180, 156.585pt x 15.05624pt>
+File: date1.png Graphic file (type png)
+<use date1.png>
+Package pdftex.def Info: date1.png  used on input line 1364.
+(pdftex.def)             Requested size: 156.58461pt x 15.0562pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1399
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
+
+ []
+
+[44 <./date2.png> <./date1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
+
+ []
+
+[45]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
+
+ []
+
+[46
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1458--1459
+
+ []
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1492--1495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1492--1495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1501
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1518
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1518
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
+[]\T1/cmr/m/n/10 From
+ []
+
+
+Overfull \hbox (2.09032pt too wide) in paragraph at lines 1524--1524
+[]\T1/cmr/m/n/10 Destination
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
+[]\T1/cmr/m/n/10 Total
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
+\T1/cmr/m/n/10 mes-sages
+ []
+
+
+Overfull \hbox (4.14615pt too wide) in paragraph at lines 1522--1610
+[][] 
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1617--1619
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1620--1623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1641--1644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1641--1644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1670
+
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 1689--1691
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1695--1697
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1704--1706
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1709
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1709
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1742
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1742
+
+ []
+
+[53] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 1887--1889
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1890--1894
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1890--1894
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1921--1923
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1924--1930
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1936
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1936
+
+ []
+
+[55]
+Overfull \hbox (4.62366pt too wide) in paragraph at lines 1982--1983
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1987--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
+
+ []
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 2023--2025
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2026--2027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2028--2031
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2034--2035
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2036--2037
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 2038--2039
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2040--2041
+
+ []
+
+
+Overfull \hbox (3.80844pt too wide) in paragraph at lines 2047--2077
+ []|  [] 
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 2140--2141
+
+ []
+
+[59] [60]
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2352--2353
+
+ []
+
+[61]
+Package pgfplots info on input line 2403: fill between: activating layered grap
+hics
+\pgf@layerbox@axis background=\box65
+\pgf@layerboxsaved@axis background=\box66
+\pgf@layerbox@axis grid=\box67
+\pgf@layerboxsaved@axis grid=\box68
+\pgf@layerbox@axis ticks=\box69
+\pgf@layerboxsaved@axis ticks=\box70
+\pgf@layerbox@axis lines=\box71
+\pgf@layerboxsaved@axis lines=\box72
+\pgf@layerbox@axis tick labels=\box73
+\pgf@layerboxsaved@axis tick labels=\box74
+\pgf@layerbox@pre main=\box75
+\pgf@layerboxsaved@pre main=\box76
+\pgf@layerbox@axis descriptions=\box77
+\pgf@layerboxsaved@axis descriptions=\box78
+\pgf@layerbox@axis foreground=\box79
+\pgf@layerboxsaved@axis foreground=\box80
+Package pgfplots info on input line 2403: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+
+Overfull \hbox (3.80875pt too wide) in paragraph at lines 2367--2405
+ []|  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2410--2412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2410--2412
+
+ []
+
+
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 2431.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+
+ []
+
+[63]
+
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 2517.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2540--2543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2540--2543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2544--2545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2546--2547
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2548--2549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2550--2551
+
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 2553--2554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2553--2554
+
+ []
+
+Package pgfplots info on input line 2612: fill between: activating layered grap
+hics
+Package pgfplots info on input line 2612: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+
+Overfull \hbox (0.96373pt too wide) in paragraph at lines 2558--2614
+ []|  [] 
+ []
+
+[65]
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2625--2627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2631--2633
+
+ []
+
+
+Overfull \hbox (8.36072pt too wide) in paragraph at lines 2634--2635
+[]\T1/cmr/m/n/10 The most re-cent RFC defin-ing these fields and their in-ner w
+ork-ings is RFC 5322
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2634--2635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2634--2635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2640--2648
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2649--2652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2653--2660
+
+ []
+
+[66
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2661--2671
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2691--2692
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2696--2698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2701--2702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2701--2702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2705--2706
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2705--2706
+
+ []
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 2709--2710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2709--2710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2712--2713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2712--2713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2714--2715
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2720--2723
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2720--2723
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2732--2734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2735--2736
+
+ []
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 2737--2739
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2740--2741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2746--2747
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2748--2750
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2761--2762
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2761--2762
+
+ []
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 2764--2765
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2766--2767
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2772--2773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2774--2775
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2776--2777
+
+ []
+
+(start_v3.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2787--2788
+
+ []
+
+(start_v3.py
+consecutive:
+) (start_v3.py
+consecutive:
+[70]) (start_v3.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2822--2825
+
+ []
+
+[71] (start_v3.py
+consecutive:
+) (start_v3.py
+consecutive:
+) [72] (start_v3.py
+consecutive:
+) (start_v3.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2868--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2875--2878
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2875--2878
+
+ []
+
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 2879--2880
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2884--2885
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2886--2887
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2888--2889
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2891
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2892--2893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2894--2895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2896--2897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2905--2924
+
+ []
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 2927--2928
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2934--2935
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2936--2937
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2939--2940
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2942--2943
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2950--2951
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2960
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2964--2965
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2966--2969
+
+ []
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 2992--2993
+
+ []
+
+[76]
+
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 3068.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 3132--3135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3154--3155
+
+ []
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 3156--3158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3159--3160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3161--3162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3166--3167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3168--3170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3171--3172
+
+ []
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 3206--3207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3214--3215
+
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 3224--3229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3224--3229
+
+ []
+
+
+Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
+log. on input line 3250.
+
+ [warning /pgfplots/warning/illegal user argument in log axis]
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 3314--3316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3314--3316
+
+ []
+
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 3324--3327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3324--3327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3330--3349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3330--3349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3330--3349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3352--3353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3352--3353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3362--3364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3368--3369
+
+ []
+
+
+Overfull \hbox (14.05048pt too wide) in paragraph at lines 3370--3371
+[]\T1/cmr/m/it/10 http://www.ietf.org/rfcdiff?url2=3Ddraft-ietf-dhc-triggered-r
+econfigure-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3370--3371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3370--3371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3379--3380
+
+ []
+
+Package pgfplots info on input line 3501: fill between: activating layered grap
+hics
+Package pgfplots info on input line 3501: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+[83] [84]
+Underfull \hbox (badness 10000) in paragraph at lines 3566--3568
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3569--3570
+
+ []
+
+[85]
+Chapter 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3585--3588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3589--3590
+
+ []
+
+[86
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3605--3606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3607--3608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3610--3612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3610--3612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3613--3615
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3625--3628
+
+ []
+
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 3642--3645
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3648--3649
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3650--3652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3660--3662
+
+ []
+
+[88] [89]
+Underfull \hbox (badness 10000) in paragraph at lines 3798--3800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3825--3826
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3828--3829
+
+ []
+
+[90] (rfc_bib.bib)
+Underfull \hbox (badness 10000) in paragraph at lines 3920--3921
+
+ []
+
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 3922--3923
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3924--3926
+
+ []
+
+(parser.py
+consecutive:
+) (parser.py
+consecutive:
+[92]) (parser.py
+consecutive:
+) (parser.py
+consecutive:
+) [93] (parser.py
+consecutive:
+) (parser.py
+consecutive:
+) (parser.py
+consecutive:
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3963--3964
+
+ []
+
+(parser.py
+consecutive:
+) (parser.py
+consecutive:
+) [94] (parser.py
+consecutive:
+) (web_crawler_v2.py
+consecutive:
+) (parser.py
+consecutive:
+[95])
+Underfull \hbox (badness 10000) in paragraph at lines 4000--4001
+
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 4117--4118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4117--4118
+
+ []
+
+[97]
+Package pgfplots info on input line 4203: fill between: activating layered grap
+hics
+Package pgfplots info on input line 4203: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+ [98]
+Underfull \hbox (badness 10000) in paragraph at lines 4281--4283
+
+ []
+
+Package pgfplots info on input line 4414: fill between: activating layered grap
+hics
+Package pgfplots info on input line 4414: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+[99]
+Package pgfplots info on input line 4547: fill between: activating layered grap
+hics
+Package pgfplots info on input line 4547: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+ [100] [101] [102]
+Chapter 9.
+[103
+
+] [104]
+Chapter 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4608--4609
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4613--4622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4623--4626
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4627--4632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4627--4632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4633--4634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4637--4638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4639--4640
+
+ []
+
+[105
+
+] [106] [107] [108
+
+] [109] (master_ny.aux)
+Package logreq Info: Writing requests to 'master_ny.run.xml'.
+\openout1 = `master_ny.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 36700 strings out of 480790
+ 858905 string characters out of 2896833
+ 1586294 words of memory out of 3000000
+ 52040 multiletter control sequences out of 15000+200000
+ 575814 words of font info for 72 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,17n,107p,10437b,2110s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-su
+per-t1.enc}{C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-su
+per/cm-super-ts1.enc}{C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/enc/d
+vips/base/8r.enc}<C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cezary/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Cezary/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Cezary/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cezary/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
+s/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbi1000.pfb
+><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfb
+x1000.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-
+super/sfbx1200.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/cm-super/sfbx1440.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/font
+s/type1/public/cm-super/sfbx2074.pfb><C:/Users/Cezary/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/Cezary/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/cm-super/sfcc1000.pfb><C:/Users/Cezary/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfit1000.pfb><C:/Users/Cezar
+y/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Us
+ers/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.p
+fb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
+fsl1728.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
+m-super/sfti1000.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cm-super/sftt1000.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/arial/ua1r8a.pfb><C:/Users/Cezary/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/arial/ua1ri8a.pfb>
+Output written on master_ny.pdf (113 pages, 729519 bytes).
+PDF statistics:
+ 472 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+

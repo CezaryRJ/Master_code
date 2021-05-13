@@ -1,0 +1,491 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{RFC0001}{report}{}
+      \name{author}{1}{}{%
+        {{hash=9ae7c3f15e09d8c8945f31bc623eb79b}{%
+           family={Crocker},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{9ae7c3f15e09d8c8945f31bc623eb79b}
+      \strng{fullhash}{9ae7c3f15e09d8c8945f31bc623eb79b}
+      \strng{bibnamehash}{9ae7c3f15e09d8c8945f31bc623eb79b}
+      \strng{authorbibnamehash}{9ae7c3f15e09d8c8945f31bc623eb79b}
+      \strng{authornamehash}{9ae7c3f15e09d8c8945f31bc623eb79b}
+      \strng{authorfullhash}{9ae7c3f15e09d8c8945f31bc623eb79b}
+      \field{extraname}{1}
+      \field{labelalpha}{Cro69}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{{Host Software}}
+      \field{type}{RFC}
+      \field{year}{1969}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc0001.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc0001.txt
+      \endverb
+    \endentry
+    \entry{RFC0561}{report}{}
+      \name{author}{4}{}{%
+        {{hash=84bb6edb359bbbff2d46e6e1b785986d}{%
+           family={Bhushan},
+           familyi={B\bibinitperiod},
+           given={A.K.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0f198b1cdaa8c6bd97e64584659f579f}{%
+           family={Pogran},
+           familyi={P\bibinitperiod},
+           given={K.T.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0fc3872944c03a5049515ff89d07a7af}{%
+           family={Tomlinson},
+           familyi={T\bibinitperiod},
+           given={R.S.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2b1554bb0703c9468f8ca8c7e9fba4a6}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={J.E.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{c3c4f2e2c32666b87cf53114de58d06f}
+      \strng{fullhash}{de68ec04f7a739b4784e565000fc309e}
+      \strng{bibnamehash}{c3c4f2e2c32666b87cf53114de58d06f}
+      \strng{authorbibnamehash}{c3c4f2e2c32666b87cf53114de58d06f}
+      \strng{authornamehash}{c3c4f2e2c32666b87cf53114de58d06f}
+      \strng{authorfullhash}{de68ec04f7a739b4784e565000fc309e}
+      \field{labelalpha}{Bhu+73}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{number}{561}
+      \field{title}{{Standardizing Network Mail Headers}}
+      \field{type}{RFC}
+      \field{year}{1973}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc0561.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc0561.txt
+      \endverb
+    \endentry
+    \entry{RFC0822}{report}{}
+      \name{author}{1}{}{%
+        {{hash=a5dce9562b52405751f517a372adcdc5}{%
+           family={Crocker},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{a5dce9562b52405751f517a372adcdc5}
+      \strng{fullhash}{a5dce9562b52405751f517a372adcdc5}
+      \strng{bibnamehash}{a5dce9562b52405751f517a372adcdc5}
+      \strng{authorbibnamehash}{a5dce9562b52405751f517a372adcdc5}
+      \strng{authornamehash}{a5dce9562b52405751f517a372adcdc5}
+      \strng{authorfullhash}{a5dce9562b52405751f517a372adcdc5}
+      \field{extraname}{2}
+      \field{labelalpha}{Cro82}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{number}{822}
+      \field{title}{{STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES}}
+      \field{type}{RFC}
+      \field{year}{1982}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc0822.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc0822.txt
+      \endverb
+    \endentry
+    \entry{RFC2045}{report}{}
+      \name{author}{2}{}{%
+        {{hash=c577f2f6b942928459a1a66bf012f813}{%
+           family={Freed},
+           familyi={F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e614af73ef2303af7d285e39fb0b6378}{%
+           family={Borenstein},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{fullhash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{bibnamehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{authorbibnamehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{authornamehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{authorfullhash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \field{extraname}{1}
+      \field{labelalpha}{FB96}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{2045}
+      \field{title}{{Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies}}
+      \field{type}{RFC}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc2045.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc2045.txt
+      \endverb
+    \endentry
+    \entry{RFC2046}{report}{}
+      \name{author}{2}{}{%
+        {{hash=c577f2f6b942928459a1a66bf012f813}{%
+           family={Freed},
+           familyi={F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e614af73ef2303af7d285e39fb0b6378}{%
+           family={Borenstein},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{fullhash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{bibnamehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{authorbibnamehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{authornamehash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \strng{authorfullhash}{24f978a4c8b84f8fd939ff2a624421e1}
+      \field{extraname}{2}
+      \field{labelalpha}{FB96}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{2046}
+      \field{title}{{Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types}}
+      \field{type}{RFC}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc2046.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc2046.txt
+      \endverb
+    \endentry
+    \entry{RFC2047}{report}{}
+      \name{author}{1}{}{%
+        {{hash=a18fb12c3377bcd20ab993d9e8b93b98}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{a18fb12c3377bcd20ab993d9e8b93b98}
+      \strng{fullhash}{a18fb12c3377bcd20ab993d9e8b93b98}
+      \strng{bibnamehash}{a18fb12c3377bcd20ab993d9e8b93b98}
+      \strng{authorbibnamehash}{a18fb12c3377bcd20ab993d9e8b93b98}
+      \strng{authornamehash}{a18fb12c3377bcd20ab993d9e8b93b98}
+      \strng{authorfullhash}{a18fb12c3377bcd20ab993d9e8b93b98}
+      \field{labelalpha}{Moo96}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{2047}
+      \field{title}{{MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text}}
+      \field{type}{RFC}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc2047.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc2047.txt
+      \endverb
+    \endentry
+    \entry{RFC2231}{report}{}
+      \name{author}{2}{}{%
+        {{hash=c577f2f6b942928459a1a66bf012f813}{%
+           family={Freed},
+           familyi={F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a18fb12c3377bcd20ab993d9e8b93b98}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{a3a7f68ad73ca6939791ae2a1eee37dd}
+      \strng{fullhash}{a3a7f68ad73ca6939791ae2a1eee37dd}
+      \strng{bibnamehash}{a3a7f68ad73ca6939791ae2a1eee37dd}
+      \strng{authorbibnamehash}{a3a7f68ad73ca6939791ae2a1eee37dd}
+      \strng{authornamehash}{a3a7f68ad73ca6939791ae2a1eee37dd}
+      \strng{authorfullhash}{a3a7f68ad73ca6939791ae2a1eee37dd}
+      \field{labelalpha}{FM97}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{2231}
+      \field{title}{{MIME Parameter Value and Encoded Word Extensions: Character Sets, Languages, and Continuations}}
+      \field{type}{RFC}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc2231.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc2231.txt
+      \endverb
+    \endentry
+    \entry{RFC2183}{report}{}
+      \name{author}{3}{}{%
+        {{hash=d1dcd0e403bc12657c5c22b3bc8aa912}{%
+           family={Troost},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2302c0f86ddd0288f2b9e32205a54581}{%
+           family={Dorner},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a18fb12c3377bcd20ab993d9e8b93b98}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{c5ad17e7e0587cf3a3ae99846004cadc}
+      \strng{fullhash}{c5ad17e7e0587cf3a3ae99846004cadc}
+      \strng{bibnamehash}{c5ad17e7e0587cf3a3ae99846004cadc}
+      \strng{authorbibnamehash}{c5ad17e7e0587cf3a3ae99846004cadc}
+      \strng{authornamehash}{c5ad17e7e0587cf3a3ae99846004cadc}
+      \strng{authorfullhash}{c5ad17e7e0587cf3a3ae99846004cadc}
+      \field{labelalpha}{TDM97}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{number}{2183}
+      \field{title}{{Communicating Presentation Information in Internet Messages: The Content-Disposition Header Field}}
+      \field{type}{RFC}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc2183.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc2183.txt
+      \endverb
+    \endentry
+    \entry{RFC2822}{report}{}
+      \name{author}{1}{}{%
+        {{hash=958ea74293edf1542ca72b8d9a320597}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{fullhash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{bibnamehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{authorbibnamehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{authornamehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{authorfullhash}{958ea74293edf1542ca72b8d9a320597}
+      \field{extraname}{1}
+      \field{labelalpha}{Res01}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{number}{2822}
+      \field{title}{{Internet Message Format}}
+      \field{type}{RFC}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc2822.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc2822.txt
+      \endverb
+    \endentry
+    \entry{RFC5322}{report}{}
+      \name{author}{1}{}{%
+        {{hash=958ea74293edf1542ca72b8d9a320597}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{fullhash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{bibnamehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{authorbibnamehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{authornamehash}{958ea74293edf1542ca72b8d9a320597}
+      \strng{authorfullhash}{958ea74293edf1542ca72b8d9a320597}
+      \field{extraname}{2}
+      \field{labelalpha}{Res08}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{number}{5322}
+      \field{title}{{Internet Message Format}}
+      \field{type}{RFC}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc5322.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc5322.txt
+      \endverb
+    \endentry
+    \entry{RFC6532}{report}{}
+      \name{author}{3}{}{%
+        {{hash=c93fd05548c2f81a4fbdcbb879741797}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5ce8fb3d7ea6183bc34587ce58228668}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c577f2f6b942928459a1a66bf012f813}{%
+           family={Freed},
+           familyi={F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{09652445e9deeca8df0d7aaf389a3f30}
+      \strng{fullhash}{09652445e9deeca8df0d7aaf389a3f30}
+      \strng{bibnamehash}{09652445e9deeca8df0d7aaf389a3f30}
+      \strng{authorbibnamehash}{09652445e9deeca8df0d7aaf389a3f30}
+      \strng{authornamehash}{09652445e9deeca8df0d7aaf389a3f30}
+      \strng{authorfullhash}{09652445e9deeca8df0d7aaf389a3f30}
+      \field{labelalpha}{YSF12}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{number}{6532}
+      \field{title}{{Internationalized Email Headers}}
+      \field{type}{RFC}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc6532.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc6532.txt
+      \endverb
+    \endentry
+    \entry{RFC6854}{report}{}
+      \name{author}{1}{}{%
+        {{hash=3f77bffd9277119d69afc5917387d647}{%
+           family={Leiba},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{3f77bffd9277119d69afc5917387d647}
+      \strng{fullhash}{3f77bffd9277119d69afc5917387d647}
+      \strng{bibnamehash}{3f77bffd9277119d69afc5917387d647}
+      \strng{authorbibnamehash}{3f77bffd9277119d69afc5917387d647}
+      \strng{authornamehash}{3f77bffd9277119d69afc5917387d647}
+      \strng{authorfullhash}{3f77bffd9277119d69afc5917387d647}
+      \field{labelalpha}{Lei13}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{6854}
+      \field{title}{{Update to Internet Message Format to Allow Group Syntax in the "From:" and "Sender:" Header Fields}}
+      \field{type}{RFC}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb http://tools.ietf.org/rfc/rfc6854.txt
+      \endverb
+      \verb{url}
+      \verb http://tools.ietf.org/rfc/rfc6854.txt
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

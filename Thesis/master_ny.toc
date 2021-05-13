@@ -1,0 +1,282 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Background: the IETF}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}RFCs}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}The lifecycle of an internet draft}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Groups and committees}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Internet engineering steering group}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Internet research task force}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Tools team}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Internet Architecture Board}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Directorates}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}The IETF email archives}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Mailing-lists}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{General IETF discussion list}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Announcement Lists}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Working Group Lists}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Non-Working Group Lists}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}The mbox format}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Data and database preparations}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}wget}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Assumptions}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Tools}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Parser outline}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Designing a full text database}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Setting up Solr}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Designing a Solr Schema}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}The Document format}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Date}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}From}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Sender}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.4}Reply-to}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.5}To}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.6}CC and Bcc}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.7}In-Reply-To}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.8}Message-id}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.9}References}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.10}Subject}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.11}Comments}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.12}Payload}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Tokenizers}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}From}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}From-name}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.3}From-address}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.4}Message-id}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.5}References and In-Reply-To}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.6}Subject, Comments and Payload}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.7}The final document template}{23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Parsing}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Tools}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Python modules}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}email}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}mailbox}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.4}pysolr}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Can the Python mailbox module be used?}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Older standards}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}The parser code}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}parseDate() and getTimezone()}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}addAddressField(name,mail,msg)}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}addMultiIdField()}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Handling multipart messages}{33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Common errors and fixes}{33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Encoding errors}{33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Cleanarch}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}The insertion symbol }{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}The code}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Using the Database}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Connecting to Solr}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Querying Solr}{38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}The Query Format}{38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{How to write queries in the graphical user interface}{38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}How to write queries in PySolr}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Solr response format}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Response Dictionary}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Faceting}{42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Date queries}{43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Calculating statistics}{46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Error rate}{46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}File statistics}{47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Choosing a starting point}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Error report}{49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}The effects of Cleanarch}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}A closer look at category 2}{52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Cleaning category 2 }{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.4}Error rate over time }{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Final error rate}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Implementing some aggregation functions}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}General statistics}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.1}Top 20 contributors}{59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.2}Top 10 mailing lists}{60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.3}Top mailing list per year}{61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Crosstalk}{61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.1}The results}{62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.2}Calculating cross talk}{64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Tracking threads}{66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Motivation}{66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Definitions}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Node}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}Parent}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.3}Child}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.4}Stub}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Extrapolating edges}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Implementing the thread tracker}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.1}Representing the results}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.2}The thread tracking program}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.3}The code, phase 1}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.4}get\_parent()}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.5}get\_child()}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.6}Removing stubs}{73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.7}The save format}{73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.8}Solr cores}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Returning a subgraph }{78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.1}Linking queries to conversation graphs}{79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.2}Feature requirements}{79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.3}The conversation tracking program}{80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.4}Ordering a graph}{80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.5}The results}{81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Connecting RFC authors to the email archives}{86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}IETF Datatracker}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}The web scraper}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.2}Further data extraction}{88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.3}The code}{91}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Part 1, parsing the .bib file}{92}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Part 2, scraping the IETF datatracker}{93}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Part 3, further data extraction}{95}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.4}Statistics}{96}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.5}Search strategy}{101}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusion}{103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Spam detection}{103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Machine learning}{103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Improving the parsing process}{103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Restoring and parsing the attachments}{104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{A better idea of a person}{104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Establishing linear time}{104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Appendix}{105}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Known issues and fixes}{105}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}List of Solr cores}{106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{author}{106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{rfc}{106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{graphs}{106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{nodes}{106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{ietf-archive-final-v2}{107}%
