@@ -214,24 +214,24 @@ def parsefile(fileinn,mailing_list) :
 		mail["File-location"] = fileinn
 
 
-		if not msg.is_multipart() : #This means that we are dealing with a regular text mail, no fancy parsing
-			#print(box.get_message(key).get_payload())
+if not msg.is_multipart() : #This means that we are dealing with a regular text mail
 
 
-			mail["Content"] = box.get_message(key).get_payload()
 
-			#print(mail["Content"])
-			out.append(mail)
-			#print("---------------STR MSG---------------")
+	mail["Content"] = box.get_message(key).get_payload()
 
-		else : #probably MIME mail parsing
 
-			mail["Content"] = ""
-			for part in msg.walk():
-				if part.get_content_type() == "text/plain":
-					mail["Content"] += part.get_payload()
-			#print(mime_mail["Content"])
-			out.append(mail)
+	out.append(mail)
+
+
+else : #MIME mail parsing
+
+	mail["Content"] = ""
+	for part in msg.walk():
+		if part.get_content_type() == "text/plain":
+			mail["Content"] += part.get_payload()
+
+	out.append(mail)
 			#print("---------------MIME MSG---------------")
 		#=============================================================================
 

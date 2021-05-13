@@ -41,8 +41,8 @@ sorting=ynt
 
 
 
-\duoforside[dept={Institutt for informatikk},
-program={Informatikk: Programmering og Systemarkitektur},
+\duoforside[dept={Department of Informatics},
+program={Informatics: Programming and System Architecture},
 long]
 
 
@@ -58,9 +58,10 @@ long]
 
 Internet standards are vital for ensuring that the modern global network functions smoothly and efficiently. Yet, the process that leads to the creation of these standards is not frequently undergoing a systematic analysis. The high-level goal of this project is to develop methods and tools that will allow us to analyze the arguments and decision-making contained within the Internet Engineering Task Force email archives. By doing this we hope to gain a better understanding of the design process underlying both modern and old internet protocols.\\
 
-In order to accomplish this, the IETF email archives were parsed from their raw state and uploaded to a text database program called “Solr” . This made it possible to calculate various statistics that are showcased in the thesis. It also allowed for an attempt at conversation tracking to be made. The program used to track threads was developed from scratch, and has proved itself effective at tracking conversations based on the email headers.\\
+In order to accomplish this, the IETF email archives were parsed from their raw state and ingested into a customized, semi-structured, full-text database building on the open-source Apache Solr framework. This made it possible to define and calculate various statistics that are showcased in the thesis. It also allowed for an attempt at conversation tracking to be made. The program used to track threads was developed from scratch, and has proved itself effective at tracking conversations based on the email headers.\\
 
 While the results from this endeavor are promising, they only constitute a first step towards the automatic detection of arguments. The next step, the textual analysis of the actual email content, can now be taken using this database without having to spend time on error detection and correction, email header parsing, and so forth.
+
 
 
 
@@ -147,7 +148,7 @@ ADs are members of the “Internet Engineering Steering Group” (IESG).
 \section{RFCs}
 RFC stands for “Request for comments” and is a type of publication used by the IETF containing documents, comments and discussions concerning internet protocols, procedures, programs, concepts and more. The IETF has put in place a search engine for easy access to these publications which can be found at\\
 
-\url{t https://www.rfc-editor.org/search/rfc_search.php}\\
+\url{https://www.rfc-editor.org/search/rfc_search.php}\\
 
 Alternatively, the entire RFC stream can be found at the following link:\\
 
@@ -200,7 +201,7 @@ The Postconfirm system employs a variety of verification methods to discard unwa
 \\\textbf{Mail archive tool}\\
 The Mail Archive tool provides advanced, easy-to-use archive searches for all IETF lists, past and present. This tool is under active development, with many new features planned.\\
 \\\textbf{Mailman}\\
-Mailman is a mail manager used by the IETF to archive communication done by email, as well as manage the various mailing lists.\\
+Mailman is a general-purpose mailing list management framework used by the IETF to archive communication done by email, as well as manage the various mailing lists.\\
 \\\textbf{Xml2rfc}\\
 A tool widely used by the IETF community to write internet drafts \\
 \\\textbf{RFCdiff}\\
@@ -302,9 +303,11 @@ In the original mbox format, all of the messages are stored in a single file, wi
 This means that if a given message contains this pattern in any other place than the envelope, the message will be split in two, with each part being treated as an individual message. This will cause at least one of the parts to lack its headers, and most likely make no sense on its own.
 The alternative formats can be summed up as various ways to avoid this from happening, usually by adding a “>” in front of any other occurrences of the word “From” in the message.\\
 
-The IETF mbox files are of the original mbox format. In order to solve the issue of boundaries they have developed a script called cleanarch. This script automatically adds a “>” in front of any line starting with “From “, like the formats described above. While this script was developed to be used in conjunction with the IETFs email client called “Mailman”, it is written in Python, meaning it can be modified and adjusted to work without the mailman program.
+The IETF mbox files are of the original mbox format. In order to solve the issue of boundaries they have developed a script called cleanarch. This script automatically adds a “>” in front of any line starting with “From “, like the formats described above. While this script was developed to be used in conjunction with the “Mailman” framework, it is written in Python, meaning it can be modified and adjusted to work without it.
 
 For the purpose of this project this script has been modified to run on its own, and add a “|” sign, instead of a ''>'', as this sign is often used to represent quotation, and there would be no way of distinguishing a corrected line from a quoted one should this sign be used.
+
+
 
 
 
@@ -339,7 +342,7 @@ With\\\\
   \url{ https://ietf.org/mail-archive/text/}\\\\
  beeing the url of the IETF text archives.\\
 
-As of the time of downloading this archive contains 77224 mbox files. This number is expected to increase in the future.
+As of the time of downloading (10. October 2020) this archive contains 77224 mbox files. This number is expected to increase in the future.
 
 
 
@@ -996,6 +999,19 @@ Finally the method adds two new fields, one being a raw version of the extracted
 
 If this process does not yield any results, the default value “Null” is assigned instead. 
 
+\subsection{Handling multipart messages}
+
+In order to distinguish MIME multipart messages from their regular counterparts, a check is made to see if the message is a multipart message. The “is\_multipart() “ is used for this purpose.\\
+
+If this method returns false, the content field is extracted as one part, and added to the document representation like all the other fields.
+If the method returns true, each part of the message is checked for its content type. All parts with the “text/plain” content type are then appended onto each other, and the resulting string is added to the document. 
+It is important to note here that the act of connecting various pieces of a MIME messages together is done by the mailbox module automatically.
+
+\begin{center}
+
+\lstinputlisting[language=Python,firstline=217, lastline=234]{mailparser_new.py}
+
+\end{center}
 
 \section{Common errors and fixes}
 
@@ -1023,8 +1039,8 @@ Nevertheless adding the line above completely solved the issue of unicode encodi
 
 \subsection{Cleanarch}
 
-As previously discussed, the mbox format has some inherent problems with the way it stores messages. In order to solve this problem the IETF has developed the cleanarch script to be used in conjunction with their mailman program. Mailman is the email client used and developed by the IETF.
-This script is written in Python, meaning it is possible to modify it to run outside of mailman, and this is exactly what has been done.\\
+As previously discussed, the mbox format has some inherent problems with the way it stores messages. In order to solve this problem the developers of the “Mailman” framework have created the cleanarch script. This script is written in Python, meaning it is possible to modify it to run outside of mailman, and this is exactly what has been done.\\
+
 
 The script consists of 2 methods, \url{escape_line} and, \url{clean}.\
 
