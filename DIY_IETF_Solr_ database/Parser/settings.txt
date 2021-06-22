@@ -1,0 +1,9 @@
+host = localhost
+port = 8983
+core = test-core
+filetype = .mailcl
+archive_location = D:\3gv6
+solr_location = D:\solr
+user =
+password =
+
