@@ -1,0 +1,14 @@
+2000 TO 2010
+-------#####------->    off-path-bof
+francis@cs.cornell.edu 8
+saikat@cs.cornell.edu 5
+koponen@ICSI.Berkeley.EDU 3
+swb@employees.org 3
+falk@ISI.EDU 2
+mailman-owner@ietf.org 2
+mshore@cisco.com 2
+weiqikun@huawei.com 2
+Hannes.Tschofenig@gmx.net 1
+berrybatch@rpmcommunication.com 1
+hsinnrei@adobe.com 1
+robert.hancock@roke.co.uk 1

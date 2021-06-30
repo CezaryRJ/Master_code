@@ -1,0 +1,22 @@
+2000 TO 2010
+-------#####------->    port-srv-reg
+touch@ISI.EDU 109
+lars.eggert@nokia.com 55
+michelle.cotton@icann.org 49
+cheshire@apple.com 45
+magnus.westerlund@ericsson.com 42
+gorry@erg.abdn.ac.uk 17
+tphelan@sonusnet.com 13
+narten@us.ibm.com 10
+alexey.melnikov@isode.com 9
+ah@TR-Sys.de 8
+fernando@gont.com.ar 6
+fenner@fenron.com 3
+mankin@psg.com 3
+pk@DENIC.DE 3
+ogud@ogud.com 2
+cyrus@daboo.name 1
+dwing@cisco.com 1
+faber@ISI.EDU 1
+iljitsch@muada.com 1
+lear@cisco.com 1

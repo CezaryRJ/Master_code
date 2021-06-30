@@ -1,0 +1,55 @@
+Date : ['2002-09-01T08:36:15Z']
+Timezone : -0400
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['sip-admin@ietf.org']
+Sender-name : Null
+Sender-address :  sip-admin@ietf.org
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : hubmib-archive@ietf.org
+To-name : Null
+To-address : [' hubmib-archive@ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <20020901123615.1916.94903.Mailman@www1.ietf.org>
+References : Null
+Comments : ['Null']
+Subject : ['ietf.org mailing list memberships reminder']
+Mailing-list : hubmib
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/hubmib/2002-09.mailcl']
+id : e56857d4-0bcc-4d45-99c1-cb93212c6566
+_version_ : 1675134408232796161
+
+Content : 
+
+This is a reminder, sent out once a month, about your ietf.org mailing
+list memberships.  It includes your subscription info and how to use
+it to change it or unsubscribe from a list.
+
+You can visit the URLs to change your membership status or
+configuration, including unsubscribing, setting digest-style delivery
+or disabling delivery altogether (e.g., for a vacation), and so on.
+
+In addition to the URL interfaces, you can also use email to make such
+changes.  For more info, send a message to the '-request' address of
+the list (for example, hubmib-request@ietf.org) containing just the
+word 'help' in the message body, and an email message will be sent to
+you with instructions.
+
+If you have questions, problems, comments, etc, send them to
+mailman-owner@.  Thanks!
+
+Passwords for hubmib-archive@lists.ietf.org:
+
+List                                     Password // URL
+----                                     --------  
+hubmib@ietf.org                          XUKx      
+https://www1.ietf.org/mailman/options/hubmib/hubmib-archive%40lists.ietf.org
+

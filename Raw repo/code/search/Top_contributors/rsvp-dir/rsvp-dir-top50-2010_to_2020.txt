@@ -1,0 +1,16 @@
+2010 TO 2020
+-------#####------->    rsvp-dir
+bdavie@cisco.com 16
+gorry@erg.abdn.ac.uk 12
+bob.briscoe@bt.com 10
+lberger@labn.net 9
+adrian@olddog.co.uk 6
+ietfdbh@comcast.net 5
+jmpolk@cisco.com 5
+lars.eggert@nokia.com 4
+lixia@cs.ucla.edu 4
+rbriscoe@jungle.bt.co.uk 3
+Adrian.Farrel@huawei.com 2
+flefauch@cisco.com 2
+db3546@att.com 1
+turners@ieca.com 1

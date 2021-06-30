@@ -1,0 +1,109 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : 929fb07b-c95b-47bb-b96a-27f9eb1ffe58
+_version_ : 1675131693033324544
+
+Content : 
+
+
+
+--------------030403030400070209040401
+Content-Type: text/plain;
+ name="file:///C|/DOCUME%7E1/ADMINI%7E1/LOCALS%7E1/TEMP/nsmail.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline;
+ filename="file:///C|/DOCUME%7E1/ADMINI%7E1/LOCALS%7E1/TEMP/nsmail.txt"
+
+_______________________________________________
+I-D-Announce mailing list
+I-D-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/i-d-announce
+
+
+--------------030403030400070209040401--
+>From soohong.park@samsung.com Mon Feb 27 19:24:20 2006
+Received: from mailout1.samsung.com (mailout1.samsung.com [203.254.224.24])
+	by eeca16.sogang.ac.kr (8.12.8/8.12.8) with ESMTP id k1RAOKIB009703
+	for <16ng@eeca16.sogang.ac.kr>; Mon, 27 Feb 2006 19:24:20 +0900
+Received: from ep_mmp1 (mailout1.samsung.com [203.254.224.24])
+ by mailout1.samsung.com
+ (iPlanet Messaging Server 5.2 Patch 2 (built Jul 14 2004))
+ with ESMTP id <0IVC00BQGB4EXU@mailout1.samsung.com> for
+ 16ng@eeca16.sogang.ac.kr; Mon, 27 Feb 2006 18:45:50 +0900 (KST)
+Received: from daniellaptop ([168.219.198.109])14 2004))
+	16ng@eeca16.sogang.ac.kr; Mon, 27 Feb 2006 18:45:50 +0900 (KST)
+Date: Mon, 27 Feb 2006 18:46:00 +0900
+From: Soohong Daniel Park <soohong.park@samsung.com>
+To: 16ng@eeca16.sogang.ac.kr
+Message-id: <027f01c63b82$9db35240$6dc6dba8@daniellaptop>
+MIME-version: 1.0
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+Content-type: text/plain; charset=ks_c_5601-1987
+Content-transfer-encoding: 7BIT
+X-Priority: 3
+X-MSMail-priority: Normal
+cc: INT AD <townsley@cisco.com>
+Subject: [16ng] Problem Statements for the WG discussion at Dallas
+X-BeenThere: 16ng@eeca16.sogang.ac.kr
+X-Mailman-Version: 2.1
+Precedence: list
+List-Id: IPv6 over IEEE 802.16(e) Networks <16ng.eeca16.sogang.ac.kr>
+List-Unsubscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=unsubscribe>
+List-Archive: <http://eeca16.sogang.ac.kr/pipermail/16ng>
+List-Post: <mailto:16ng@eeca16.sogang.ac.kr>
+List-Help: <mailto:16ng-request@eeca16.sogang.ac.kr?subject=help>
+List-Subscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=subscribe>
+X-List-Received-Date: Mon, 27 Feb 2006 10:24:21 -0000
+
+16ng folks - here is a 16ng PS document and it will be
+used for the WG discussion at Dallas. Based on the
+1st BOF consensus, both IPv4 and IPv6 are included
+in the PS document as well.
+
+Before IETF repository, you can use the following link;
+http://daniel.vsix.net/16ng/draft-jee-16ng-ps-goals-00.txt
+
+On behalf of 16ng BOF, I appreciate Junghoon, Syam,
+Jeff and Maximillian for your all efforts on the PS stuff.
+
+Thanks, 
+
+Gabriel & Daniel
+16ng BOF, co-chair
+
+
+
+
+--------report 
+line 5395
+
+line 5389 has "From"  that is not "treated"
+I am unshure of why exactly the message is the way it is but it is malformed
+line 1490 is treated, when it should not be

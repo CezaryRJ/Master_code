@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    resolverless-dns
+sy@informatik.uni-hamburg.de 34
+paul@redbarn.org 18
+ietf-dane@dukhovni.org 12
+henck@google.com 10
+johnl@taugh.com 8
+mellon@fugue.com 8
+tale@dd.org 8
+jabley@hopcount.ca 5
+ted.ietf@gmail.com 5
+vittorio.bertola@open-xchange.com 5
+bemasc@google.com 4
+dns@fl1ger.de 4
+lists@osterweil.net 4
+anne@encs.concordia.ca 3
+ericorth@google.com 3
+chantr4@gmail.com 2
+nusenu-lists@riseup.net 2
+steffen@sdaoden.eu 2
+bortzmeyer@nic.fr 1
+fredbaker.ietf@gmail.com 1
+ietf-secretariat@ietf.org 1
+jim@rfc1035.com 1
+petr.spacek@nic.cz 1
+rharolde@umich.edu 1

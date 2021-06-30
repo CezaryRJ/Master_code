@@ -1,0 +1,58 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['netlmm-bounces@ietf.org']
+Sender-name : Null
+Sender-address :  netlmm-bounces@ietf.org
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : netlmm
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/netlmm/2007-05.mailcl']
+id : 93bdfd46-8e22-43ee-a6de-b3a3f5006835
+_version_ : 1675129938479415296
+
+Content : 
+
+#164: MAG-to-LMA Tunnel Selection
+-----------------------------------------+----------------------------------
+ Reporter:  chvogt@tm.uka.de             |       Owner:  Sri Gundavelli <sgundave@cisco.com>, netlmm@ietf.org
+     Type:  technical                    |      Status:  new                                                 
+ Priority:  normal                       |   Milestone:  PMIPv6 base specification                           
+Component:  draft-ietf-netlmm-proxymip6  |    Keywords:                                                      
+-----------------------------------------+----------------------------------
+ The decision of which MAG-to-LMA tunnel a MAG should choose for a packet
+ sent by a mobile node could be based on various parameters of the packet:
+ IP source address (HoA), MAC source address, MAG's ingress interface
+ identifier (for Pt2Pt links), etc.
+
+ The PMIPv6 specification should leave it up to the MAG implementation
+ which information is actually used for selecting the MAG-to-LMA tunnel.
+
+ This issue was raised by Alexandru Petrescu on 2007/05/20.  See also email
+ by Christian Vogt from 2007/05/22.
+
+-- 
+Ticket URL: <http://www3.tools.ietf.org/wg/netlmm/trac/ticket/164>
+NetLMM <http://tools.ietf.org/wg/netlmm/>
+
+_______________________________________________
+netlmm mailing list
+netlmm@ietf.org
+https://www1.ietf.org/mailman/listinfo/netlmm
+

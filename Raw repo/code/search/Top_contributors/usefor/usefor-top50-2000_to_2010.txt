@@ -1,0 +1,52 @@
+2000 TO 2010
+-------#####------->    usefor
+chl@clerew.man.ac.uk 1247
+nobody@xyzzy.claranet.de 736
+rra@stanford.edu 677
+harald@alvestrand.no 560
+usefor-archive@ietf.org 404
+usefor-archive@lists.ietf.org 299
+blilly@erols.com 244
+stanley@peak.org 226
+henry@spsystems.net 103
+richard@highwayman.com 94
+forrest@mibsoftware.com 86
+julien@trigofacile.com 86
+alexey.melnikov-usefor@isode.com 72
+sethb@panix.com 70
+mibsoft@mibsoftware.com 60
+murch@andrew.cmu.edu 43
+rbabel@babylon.pfm-mainz.de 31
+Internet-Drafts@ietf.org 28
+Daily@core3.amsl.com 25
+Health@core3.amsl.com 25
+Men's@core3.amsl.com 25
+nntp@nntpserver.com 24
+rvtol@isolution.nl 23
+ned.freed@mrochek.com 19
+thorfinn@tertius.net.au 18
+kaih@khms.westfalen.de 16
+"Dose <usefor-archive"@ietf.org 15
+ken@oceana.com 12
+schlitt@world.std.com 11
+usenet05@drabble.me.uk 11
+"Dose <usefor-archive"@lists.ietf.org 10
+rfc-editor@rfc-editor.org 9
+dan@dankohn.com 8
+davidsen@tmr.com 8
+eivindt@multinet.no 8
+no-reply@irs.gov 7
+McQuilWP@pobox.com 6
+iesg-secretary@ietf.org 6
+mail@sebastian-brocks.de 6
+mibsoft@epix.net 6
+graham.drabble@lineone.net 5
+lisa@osafoundation.org 5
+tony@att.com 4
+"Site <usefor-archive"@ietf.org 3
+Mailer-Daemon@mistral.net 3
+VIAGRA.Official@core3.amsl.com 3
+aamelnikov@gmail.com 3
+antti-juhani@kaijanaho.fi 3
+sah@428cobrajet.net 3
+sm@resistor.net 3

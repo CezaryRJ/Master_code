@@ -1,0 +1,88 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-03.mailcl']
+id : 96b74d45-39c3-4b8e-858f-c881f79ca442
+_version_ : 1675132967752564736
+
+Content : 
+
+>> This transmission (including any attachments) may contain confidential
+>> information, privileged material (including material protected by the
+>> solicitor-client or other applicable privileges), or constitute
+>> non-public information. Any use of this information by anyone other than
+>> the intended recipient is prohibited. If you have received this
+>> transmission in error, please immediately reply to the sender and delete
+>> this information from your system. Use, dissemination, distribution, or
+>> reproduction of this transmission by unintended recipients is not
+>> authorized and may be unlawful.
+>> 
+>> _______________________________________________
+>> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+>> This list is for NEW development of the application of SIP
+>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>> Use sip@ietf.org for new developments of core SIP
+>> 
+>> 
+>> 
+>> ---------------------------------------------------------------------
+>> This transmission (including any attachments) may contain confidential
+>> information, privileged material (including material protected by the
+>> solicitor-client or other applicable privileges), or constitute non-public
+>> information. Any use of this information by anyone other than the intended
+>> recipient is prohibited. If you have received this transmission in error,
+>> please immediately reply to the sender and delete this information from your
+>> system. Use, dissemination, distribution, or reproduction of this
+>> transmission by unintended recipients is not authorized and may be unlawful.
+>> 
+>> _______________________________________________
+>> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+>> This list is for NEW development of the application of SIP
+>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>> Use sip@ietf.org for new developments of core SIP
+>> 
+> 
+> _______________________________________________
+> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+> This list is for NEW development of the application of SIP
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sip@ietf.org for new developments of core SIP
+
+_______________________________________________________________________
+Notice:  This email message, together with any attachments, may contain
+information  of  BEA Systems,  Inc.,  its subsidiaries  and  affiliated
+entities,  that may be confidential,  proprietary,  copyrighted  and/or
+legally privileged, and is intended solely for the use of the individual
+or entity named in this message. If you are not the intended recipient,
+and have received this message in error, please immediately return this
+by email and then delete it.
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+

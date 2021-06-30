@@ -1,0 +1,5 @@
+Year = 1982
+Adr count = 0
+Removed 0
+Sum 0
+Avarage = 0

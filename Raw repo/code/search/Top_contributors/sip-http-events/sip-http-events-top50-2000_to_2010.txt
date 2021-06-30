@@ -1,0 +1,13 @@
+2000 TO 2010
+-------#####------->    sip-http-events
+adam@nostrum.com 11
+john.elwell@siemens-enterprise.com 3
+scott.lawrence@nortel.com 3
+Martin.Thomson@andrew.com 2
+shida@ntt-at.com 2
+andrew.hutton@siemens-enterprise.com 1
+rifatyu@nortel.com 1
+salvatore.loreto@ericsson.com 1
+scottlawrenc@avaya.com 1
+stevey@amsl.com 1
+theo@crazygreek.co.uk 1

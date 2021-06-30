@@ -1,0 +1,13 @@
+2010 TO 2020
+-------#####------->    udp35
+ietf@trammell.ch 24
+michawe@ifi.uio.no 17
+spencerdawkins.ietf@gmail.com 10
+jri@google.com 7
+gorry@erg.abdn.ac.uk 3
+jhildebr@cisco.com 3
+lear@cisco.com 3
+mary.ietf.barnes@gmail.com 3
+barryleiba@computer.org 2
+calvert@netlab.uky.edu 1
+marc.blanchet@viagenie.ca 1

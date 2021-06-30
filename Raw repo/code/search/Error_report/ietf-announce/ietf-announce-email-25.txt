@@ -1,0 +1,109 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf-announce
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf-announce/2006-10.mailcl']
+id : c319cb38-fd34-4a28-974f-2a01b8edeccf
+_version_ : 1675130035684507648
+
+Content : 
+
+Receiverly identify the scenarios that 
+are being addressed; this lack of clarity often makes it difficult to 
+agree on whether the proposed optimizations offer real value. To 
+avoid this situation, the Problem Statement must clearly describe the 
+scenarios that are being addressed, and the assumptions about the 
+handover environment associated with that scenario.
+
+2) A specification of an EMSK-based key hierarchy topology. The 
+specification will include a requirements, one or more key derivation 
+function (KDF), and parameters. This is follow-on work EAP (RFC 
+3748) and EAP keying framework that was developed in the EAP WG.
+
+3) A specification for the derivation of root keys, such as the 
+handover root key (HRK), to support re-authentication and handover 
+key management. The HOKEY WG can base these keys on either the MSK 
+or the EMSK produced by EAP (pick one). If the consensus is to use 
+the EMSK, then the HRK forms one branch in the EMSK-based key 
+hierarchy. This specification will describe the properties of each 
+key that is specified, and the topics must include caching, naming, 
+scope, binding, storage, and key lifetime.
+
+4) A protocol specification for media-independent, low-latency 
+re-authentication. The EAP re-authentication mechanism must support 
+handovers between EAP authenticators. This protocol specification is 
+expected to employ a re-authentication branch in the key hierarchy.
+
+5) A protocol specification for secure and timely distribution of 
+cryptographic keys to support roaming and handover. Use of AAA 
+protocols is preferred, and if used, should leverage existing work if 
+possible (such as RADEXT WG work on RFC 3576bis and RADIUS 
+cryptographic algorithm agility). However, if AAA protocols cannot 
+meet the objectives, other protocols for reactive or proactive 
+distribution or retrieval of keys by the proper entities is permitted.
+
+6) A specification for inter-domain roaming solutions based on use of 
+either trust relationships or pre-authentication methods or both.
+
+MILESTONES
+==========
+
+Dec 06 First draft with a problem statement on EAP re-authentication and
+key management
+
+Dec 06 First draft on EMSK-based Keying Hierarchy
+
+Feb 07 First draft on EAP Re-authentication and Handover Keying
+Hierarchy
+
+Feb 07 First draft on EAP Re-authentication Protocol
+
+Mar 07 First draft on Protocol and Keying Hierarchy for Visited Domain
+Handovers and Re-authentication
+
+Mar 07 Submit the problem statement draft to IESG
+
+Mar 07 Submit EMSK-based Keying Hierarchy draft to IESG
+
+Jun 07 First draft on Handover Key Distribution Protocol
+
+Aug 07 Submit EAP Re-authentication and Handover Keying Hierarchy draft
+to IESG
+
+Aug 07 Submit EAP Re-authentication Protocol draft to IESG
+
+Sep 07 Submit Protocol and Keying Hierarchy for Visited Domain Handovers
+and Re-authentication draft to IESG
+
+Sep 07 First draft on EAP Pre-authentication Specification for
+inter-technology and inter-domain handoffs
+
+Mar 08 Submit EAP Pre-authentication Specification to IESG
+
+Mar 08 Re-charter or shut down WG
+
+_______________________________________________
+IETF-Announce mailing list
+IETF-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf-announce

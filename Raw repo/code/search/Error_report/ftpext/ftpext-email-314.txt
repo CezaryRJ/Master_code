@@ -1,0 +1,40 @@
+Date : ['2004-02-18T01:13:19Z']
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['ftp-wg-owner <ftp-wg-owner@hethmon.com>']
+Sender-name :  ftp-wg-owner
+Sender-address :  ftp-wg-owner@hethmon.com
+Reply-to : ['FTPEXT Working Group <ftp-wg@hethmon.com>']
+Reply-to-name :  FTPEXT_Working_Group
+Reply-to-address :  ftp-wg@hethmon.com
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <C[20
+References : Null
+Comments : ['Null']
+Subject : ['Ftp-WG: ']
+Mailing-list : ftpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ftpext/2004-02.mailcl']
+id : b232e92a-7a87-43bc-8da5-2cebf5593835
+_version_ : 1675133275011547136
+
+Content : 
+
+
+
+
+
+
+
+
+
+
+

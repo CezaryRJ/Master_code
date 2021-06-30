@@ -1,0 +1,125 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ipngwg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipngwg/2006-06.mailcl']
+id : 88af83ef-40ce-4e37-ad85-1e349c635e06
+_version_ : 1675130563185344512
+
+Content : 
+
+Making STBs to support this option seems fine, perhaps you don't
+need standardization though.
+For PCs, address selection rule is defined in RFC3484. If you
+change the existing address selection rules, I wondered what
+kind of the changes will be made.
+
+Kindest regards,
+
+Arifumi Matusmoto
+
+>=20
+> Best regards,
+>=20
+> Haibo
+>=20
+>=20
+>> -----Original Message-----
+>> From: Arifumi Matsumoto [mailto:a@arifumi.net]
+>> Sent: 2006=E5=B9=B46=E6=9C=889=E6=97=A5 19:12
+>> To: ipv6@ietf.org
+>> Subject: Re: questions about draft-wen-ipv6-rsra-opt-multihoming-00
+>>
+>>
+>> Hi Wen,
+>>
+>> Maybe, we are working on similar problems.
+>> Let me comment on a few things about your proposal.
+>>
+>> - I think Routing Header is an interesting method
+>>   to implement policy routing at gateway. The problem
+>>   is which router has to support Routing Header.
+>>   Is it correct that L3 CPE and also ISP's edge router
+>>   has to support Routing Header in scenario2 ?
+>>   When you see the deployment status of IPv4 source
+>>   routing, it is clear that ISP routers won't possibly
+>>   support Routing Header for security reason or other,
+>>   it may be possible to make CPE vendors to implement
+>>   Routing Header support though.
+>>
+>> - Even if ISP edge routers implement Routing Header support,
+>>   how do the CPEs know ISP edge routers' IPv6 global-scope
+>>   address ?
+>>   If I remember correctly, in the Routing Header if you
+>>   put a link-local-address, the packet's final destination
+>>   must be a host on the same link.
+>>   So, end hosts have to know a global address of L3 CPE
+>>   and ISP edge routers.
+>>   As RA and DHCPv6 are delivered by link-local addresses,
+>>   there is no means to inform a global address of a ISP edge
+>>   router or a L3 CPE.
+>>
+>> - At the last e-mail sent to IPv6 ML, you mentioned that
+>>   Host chooses an address given by an ISP that the host want
+>>   to connect. IMO, however, your proposal doesn't have any
+>>   effects on address selection at hosts, but have effects
+>>   on routing after address selection. After address selection
+>>   is completed, your mechcanism selects an appropriate next
+>>   or next-next hop depending on the selected source address.
+>>
+>>   We are now working on the address selection aspects of
+>>   the similar environment considered here.
+>>   http://www.nttv6.net/dass/draft-arifumi-ipv6-policy-dist-00.txt
+>>   http://www.nttv6.net/dass/
+>>
+>>   Now I'm revising this draft and also writing a problem statement
+>>   document of default address selection in multi-prefix environment.
+>>
+>> Best regards.
+>>
+>>
+>>
+>>
+>> --------------------------------------------------------------------
+>> IETF IPv6 working group mailing list
+>> ipv6@ietf.org
+>> Administrative Requests: https://www1.ietf.org/mailman/listinfo/ipv6
+>> --------------------------------------------------------------------
+>>
+>>
+>> ----------------------------------------------------------------------=
+--
+>>
+>> --------------------------------------------------------------------
+>> IETF IPv6 working group mailing list
+>> ipv6@ietf.org
+>> Administrative Requests: https://www1.ietf.org/mailman/listinfo/ipv6
+>> --------------------------------------------------------------------
+
+
+--------------------------------------------------------------------
+IETF IPv6 working group mailing list
+ipv6@ietf.org
+Administrative Requests: https://www1.ietf.org/mailman/listinfo/ipv6
+--------------------------------------------------------------------

@@ -1,0 +1,50 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : rescap
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/rescap/2008-01.mailcl']
+id : a4590b51-719d-49e1-9694-90396246fca9
+_version_ : 1675134422273228803
+
+Content : 
+
+000004050003070602060500
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Tue, 8 Jan 2008 20:09:07 +0100
+To: rescap-archive@ietf.org
+From: "Oddur Hershey" <OddurHershey@KADROV-NET.ru>
+Subject: uuyig
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+
+There are few things worse than a small pecker - and few things better than V.P.X.L!
+
+http://Dontbesmallever.com/
+
+uvidenhe vaalip{{ uxcenter
+uweeltje uvakumpe uvi
+uuysias uwaehlen uzrelger
+uullek vaatnuus uusak
+
+

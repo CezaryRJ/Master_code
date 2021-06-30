@@ -1,0 +1,5 @@
+2000 TO 2010
+-------#####------->    collation
+derhoermi@gmx.net 4
+mailman-owner@ietf.org 2
+arnt@oryx.com 1

@@ -1,0 +1,15 @@
+2010 TO 2020
+-------#####------->    core-parameters
+JMudge@omaorg.org 5
+bs7652@att.com 4
+cabo@tzi.org 4
+esko.dijk@philips.com 3
+hartke@projectcool.de 3
+jaime@iki.fi 3
+stokcons@xs4all.nl 3
+dthaler@microsoft.com 2
+m.trayer@samsung.com 2
+richard.a.bardini@intel.com 2
+Christian.Groves@nteczone.com 1
+esko.dijk@signify.com 1
+wovander@cisco.com 1

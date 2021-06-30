@@ -1,0 +1,21 @@
+2010 TO 2020
+-------#####------->    time
+bill.wu@huawei.com 61
+gregory.mirsky@ericsson.com 14
+tom.taylor.stds@gmail.com 8
+aldrin.ietf@gmail.com 7
+huubatwork@gmail.com 6
+bclaise@cisco.com 5
+tsenevir@cisco.com 4
+karagian@cs.utwente.nl 3
+tochio@jp.fujitsu.com 3
+daniel@olddog.co.uk 2
+melinda.shore@gmail.com 2
+dromasca@avaya.com 1
+ietf-secretariat@ietf.org 1
+janl@tail-f.com 1
+jouni.nospam@gmail.com 1
+loa@pi.nu 1
+luismiguel.contrerasmurillo@telefonica.com 1
+mishael.wexler@huawei.com 1
+nobo@cisco.com 1

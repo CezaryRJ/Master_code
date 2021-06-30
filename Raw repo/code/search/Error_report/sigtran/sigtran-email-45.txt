@@ -1,0 +1,94 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : 150d130b-e455-4030-ad43-0b688560a55f
+_version_ : 1675129467493679105
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id MAA25258;
+	Thu, 12 Apr 2001 12:36:58 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id MAA25229
+	for <tsvwg@ns.ietf.org>; Thu, 12 Apr 2001 12:36:56 -0400 (EDT)
+Received: from shared1-mail.whowhere.com (shared1-batch.whowhere.com
+[209.185.123.82])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id MAA04228
+	for <tsvwg@ietf.org>; Thu, 12 Apr 2001 12:36:56 -0400 (EDT)
+Received: from Unknown/Local ([?.?.?.?]) by shared1-mail.whowhere.com; Thu
+Apr 12 09:36:15 2001
+To: "sigtran" <sigtran@lyris.nortelnetworks.com>,
+        sigtran@standards.nortelnetworks.com
+Date: Thu, 12 Apr 2001 09:36:15 -0700
+From: "Lyndon Ong" <lyndon_ong@eudoramail.com>
+Message-ID: <LBIAPCLPPFPMKAAA@shared1-mail.whowhere.com>
+Mime-Version: 1.0
+Cc: tsvwg@ietf.org
+X-Sent-Mail: off
+Reply-To: lyndon_ong@eudoramail.com
+X-Mailer: MailCity Service
+X-Sender-Ip: 63.96.78.20
+Organization: QUALCOMM Eudora Web-Mail  (http://www.eudoramail.com:80) 
+Content-Type: text/plain; charset=us-ascii
+Content-Language: en
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Subject: [Tsvwg] Re: SCTP checksum problems
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+Content-Transfer-Encoding: 7bit
+
+Chip,
+
+To be precise, then, the issue is not that the checksum is "wrong" in the
+sense that it causes errors, it's that the checksum does not do a great job
+of error detection, esp. in short messages.  
+
+Probably would be helpful to get any kind of quantitative handle on this.
+
+Cheers,
+
+Lyndon
+
+
+
+
+
+
+Join 18 million Eudora users by signing up for a free Eudora Web-Mail
+account at http://www.eudoramail.com
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

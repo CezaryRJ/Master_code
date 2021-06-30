@@ -1,0 +1,49 @@
+Date : ['2002-08-16T01:07:11Z']
+Timezone : -0500
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['ftp-wg-owner <ftp-wg-owner@hethmon.com>']
+Sender-name :  ftp-wg-owner
+Sender-address :  ftp-wg-owner@hethmon.com
+Reply-to : ['FTPEXT Working Group <ftp-wg@hethmon.com>']
+Reply-to-name :  FTPEXT_Working_Group
+Reply-to-address :  ftp-wg@hethmon.com
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <20020816010710-60695-9@mail.hethmon.com>
+References : Null
+Comments : ['Null']
+Subject : ['Ftp-WG: ']
+Mailing-list : ftpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ftpext/2002-08.mailcl']
+id : 5d8df48b-0fb6-48c1-9d94-f80ba5914550
+_version_ : 1675133276007694337
+
+Content : 
+
+From: "T. Gibson" <t_gibson2121@msn.com>
+
+Subject: ADD THREE INCHES TO YOUR PENIS
+
+Content-Type: text/html; charset="iso-8859-1"
+
+
+
+<p>YOU CAN HAVE REALISTIC GAINS IN JUST A FEW WEEKS.</p>
+
+<p>Over 100,000 Satisfied Customers! Complete PENIS Enlargement System! Laboratory Tested, Doctor Approved! Do you want a bigger PENIS? Do you want to pleasure your partner every time? Do you want your PENIS to be HARD as a ROCK all the time? If you are serious about ENLARGING, strengthening and developing your PENIS, then you have finally found what you are looking for. With over 35 years of research behind our product, we can guarantee results.</p>
+
+<p><a href="http://17.betahost.net/?WM_ID=6967">http://17.betahost.net/?WM_ID=6967</a></p>
+
+Message-Id: <200208152257266.SM00407@msn.com>
+
+
+

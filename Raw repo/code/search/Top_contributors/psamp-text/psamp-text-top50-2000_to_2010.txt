@@ -1,0 +1,27 @@
+2000 TO 2010
+-------#####------->    psamp-text
+bclaise@cisco.com 22
+Internet-Drafts@ietf.org 20
+paitken@cisco.com 18
+Tanja.Zseby@fokus.fraunhofer.de 16
+Quittek@nw.neclab.eu 14
+muenz@informatik.uni-tuebingen.de 13
+dromasca@avaya.com 11
+Thomas.Dietz@nw.neclab.eu 9
+andrjohn@cisco.com 9
+iesg-secretary@ietf.org 9
+quittek@netlab.nec.de 9
+Carsten.Schmoll@fokus.fraunhofer.de 3
+nwnetworks@dial.pipex.com 3
+Quittek@netlab.nec.de 2
+bht@cert.org 2
+mailman-owner@ietf.org 2
+muenz@net.in.tum.de 2
+quittek@nw.neclab.eu 2
+Sven.Anderson@CS.Uni-Goettingen.DE 1
+Thomas.Dietz@netlab.nec.de 1
+akoba@nttv6.net 1
+bwijnen@lucent.com 1
+duffield@research.att.com 1
+emile.stephan@orange-ftgroup.com 1
+idsubmission@ietf.org 1

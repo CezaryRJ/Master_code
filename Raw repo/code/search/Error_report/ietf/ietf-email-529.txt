@@ -1,0 +1,111 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2006-05.mailcl']
+id : 4f2e705d-b8ff-417e-b0b6-db68e5721929
+_version_ : 1675130413967736832
+
+Content : 
+
+publishes.<br><br>
+The RFC series just happens to be the current (and historical) channel
+for getting internet standards published.&nbsp; If the IAB decided to go
+another direction (e.g. new organization for hire) it's unclear the RFC
+name would follow the internet standards to the new
+organization.<br><br>
+The document should be re-written to take the above into
+account.<br><br>
+The RFC series is and always has been wider than just what the IETF (IAB,
+IESG, IRTF etc) has in mind.&nbsp; It's independence from those bodies
+has been key to avoid some pretty large misteps in the past and has been
+key to getting the broader community involved.&nbsp; It's hubris (and
+somewhat of a landgrab) to declare after all this time that &quot;<br>
+<pre>Consistent with the rest of the streams, there needs to be a
+&nbsp;&nbsp; community consensus document to define that [independent
+submission] process.&nbsp; The IAB will
+&nbsp;&nbsp; establish a community forum for defining a community
+consensus based
+&nbsp;&nbsp; document to define the approval process for this
+stream.&nbsp; The IAB
+&nbsp;&nbsp; will be responsible for gauging consensus on that document,
+as well
+&nbsp;&nbsp; as providing the forum for any needed future revisions of
+the
+&nbsp;&nbsp; document.&quot;
+
+</pre>I believe the RFC editor continues to be well equipped to handle
+independent submissions and to set their own process consistent with  the
+best interests of the community.&nbsp; <br><br>
+E.g. the IAB should keep its hands off the independent submission process
+at least with this &quot;channel&quot;<br><br>
+Mike<br><br>
+<br>
+At 11:35 AM 5/30/2006, Eliot Lear wrote:<br>
+<blockquote type=cite class=cite cite="">Sam,<br><br>
+&gt; However there needs to be a way for a member of this<br>
+&gt; community--whatever it is--to make a proposal, to get enough
+support,<br>
+&gt; and to have that proposal be adopted.<br>
+&gt;<br>
+&gt; I.E. it is fine if the IAB of whomever can do a lot of things on
+their<br>
+&gt; own.&nbsp; However the community needs the ability to either guide
+the IAB<br>
+&gt; or override the IAB if there is disagreement.<br>
+&gt;&nbsp;&nbsp; <br><br>
+I disagree.&nbsp; Just as I expect you to use your judgment on the IESG
+I<br>
+expect the IAB to use their judgment.&nbsp; Community oversight comes in
+the<br>
+form of the NOMCOM.&nbsp; If you believe that oversight is not
+effective,<br>
+then let's discuss that instead.<br><br>
+Eliot<br><br>
+_______________________________________________<br>
+Ietf mailing list<br>
+Ietf@ietf.org<br>
+<a href="https://www1.ietf.org/mailman/listinfo/ietf" eudora="autourl">
+https://www1.ietf.org/mailman/listinfo/ietf</a></blockquote></body>
+<br>
+</html>
+
+--=====================_1101884926==.ALT--
+
+
+
+--===============0114024198==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+--===============0114024198==--
+
+

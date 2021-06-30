@@ -1,0 +1,23 @@
+2000 TO 2010
+-------#####------->    storm
+Black_David@emc.com 21
+Michael@huaweisymantec.com 10
+cbm@chadalapaka.com 8
+Internet-Drafts@ietf.org 6
+Frederick.Knight@netapp.com 4
+ietfdbh@comcast.net 4
+Paul_Koning@Dell.com 3
+julian.satran@gmail.com 3
+roweber@ieee.org 3
+arkady.kanevsky@gmail.com 2
+felix@chelsio.com 2
+iesg-secretary@ietf.org 2
+lars.eggert@nokia.com 2
+ttalpey@microsoft.com 2
+George.Penokie@lsi.com 1
+cb_mallikarjun@yahoo.com 1
+dcuddihy@attotech.com 1
+dpeterso@Brocade.COM 1
+pthaler@broadcom.com 1
+rdr@iol.unh.edu 1
+sumorgan@microsoft.com 1

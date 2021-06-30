@@ -1,0 +1,146 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : netlmm
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/netlmm/2007-09.mailcl']
+id : f95c4da1-1faf-4884-ab56-13a86fe59c7c
+_version_ : 1675129931122606080
+
+Content : 
+
+>    IPv6 datagrams to be encapsulated as a payload of another 
+> IPv6 packet
+>    and to be routed between the local mobility anchor and the mobile
+> access
+> 
+>    Any
+>    packet that is routed over this interface, get 
+> encapsulated with the
+> Should be:
+>    Any
+>    packet that is routed over this interface gets 
+> encapsulated with the
+> 
+> 
+> 6.10.4.  Local Routing
+> 
+>    If there is data traffic between a visiting mobile node and a
+>    corresponding node that is locally attached to an access link
+> Should be:
+>    If there is data traffic between a visiting mobile node and a
+>    correspondent node that is locally attached to an access link
+> 
+>    This decision of path optimization SHOULD be based on the 
+> configured
+>    policy configured on the mobile access gateway, but enforced by the
+> Should be:
+>    This decision of path optimization SHOULD be based on the
+>    policy configured on the mobile access gateway, but enforced by the
+> 
+>    The specific details on how
+>    this is achieved is beyond of the scope of this document.
+> Should be:
+>    The specific details on how
+>    this is achieved are beyond of the scope of this document.
+> 
+> 
+> 6.10.5.  Tunnel Management
+> 
+>    All the considerations mentioned in Section 5.5.1, for the tunnel
+>    management on the local mobility anchor apply for the mobile access
+>    gateway as well.
+> Should be:
+>    All the considerations mentioned in Section 5.5.1 for the tunnel
+>    management on the local mobility anchor apply for the mobile access
+>    gateway as well.
+> 
+> 
+> 6.10.6.  Forwarding Rules
+> 
+>    For reporting an error in such
+>       scenario, 
+> Should be:
+>    For reporting an error in such a
+>       scenario, 
+> 
+>    in the form of ICMP control message,
+> Should be:
+>    in the form of an ICMP control message,
+> 
+>    o  On receiving a packet from a corresponding node that is locally
+>       connected, to the mobile node that is on the access link, the
+> Should be:
+>    o  On receiving a packet from a correspondent node that is locally
+>       connected and which is destined to a mobile node that is on 
+>       another locally connected access link, the
+> 
+> 
+> 6.12.  Home Network Prefix Renumbering
+> 
+>    However, the specific details on how the local mobility anchor
+>    notifies the mobile access gateway about the mobile node's home
+>    network prefix renumbering is outside the scope of this document.
+> Should be:
+>    However, the specific details on how the local mobility anchor
+>    notifies the mobile access gateway about the mobile node's home
+>    network prefix renumbering are outside the scope of this document.
+> 
+> 
+> 6.14.  Allowing network access to other IPv6 nodes
+> 
+>    This essentially ensures, the mobile access gateway
+> Should be:
+>    This essentially ensures that the mobile access gateway
+> 
+> 
+> 9.  Protocol Configuration Variables
+> 
+>       allowed to enable local routing of the traffic 
+> exchanged between a
+>       visiting mobile node and a corresponding node that is locally
+> Should be:
+>       allowed to enable local routing of the traffic 
+> exchanged between a
+>       visiting mobile node and a correspondent node that is locally
+> 
+> 
+> 11.  Security Considerations
+> 
+>    to hijack a mobile node's session or may do a denial-of-service
+>    attacks. 
+> Should be:
+>    to hijack a mobile node's session or may carry out a
+> denial-of-service
+>    attack. 
+> 
+> 
+> _______________________________________________
+> netlmm mailing list
+> netlmm@ietf.org
+> https://www1.ietf.org/mailman/listinfo/netlmm
+
+_______________________________________________
+netlmm mailing list
+netlmm@ietf.org
+https://www1.ietf.org/mailman/listinfo/netlmm

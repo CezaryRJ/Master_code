@@ -1,0 +1,9 @@
+2010 TO 2020
+-------#####------->    http-devops
+miclai@microsoft.com 4
+mnot@mnot.net 2
+robby.simpson@ge.com 2
+tatsuhiro.t@gmail.com 2
+aelanche@akamai.com 1
+gabor.molnar@sch.bme.hu 1
+ietf-secretariat@ietf.org 1

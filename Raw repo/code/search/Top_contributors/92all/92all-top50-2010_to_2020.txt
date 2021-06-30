@@ -1,0 +1,15 @@
+2010 TO 2020
+-------#####------->    92all
+ietf-secretariat@ietf.org 10
+chair@ietf.org 4
+rpelletier@isoc.org 4
+amorris@amsl.com 3
+chelliot@pobox.com 2
+jrmii@isc.org 2
+anuragb@cisco.com 1
+brian.e.carpenter@gmail.com 1
+cmorgan@amsl.com 1
+iesg-secretary@ietf.org 1
+mbeaulieu@amsl.com 1
+mlarson@amsl.com 1
+york@isoc.org 1

@@ -1,0 +1,52 @@
+2000 TO 2010
+-------#####------->    web
+web-archive@ietf.org 386
+web-archive@megatron.ietf.org 352
+smime-archive@megatron.ietf.org 48
+vpim-request@ietf.org 34
+Daily@core3.amsl.com 24
+Health@core3.amsl.com 24
+Men's@core3.amsl.com 24
+vpn-dir@ietf.org 20
+vpim@ietf.org 19
+vrrp-bounces@ietf.org 18
+multi6-archive@megatron.ietf.org 16
+no-reply@irs.gov 15
+"Dose <web-archive"@ietf.org 14
+ipp-archive@megatron.ietf.org 13
+provreg-archive@megatron.ietf.org 11
+"Dose <web-archive"@megatron.ietf.org 10
+aaa-web-archive@optimus.ietf.org 10
+eap-archive@megatron.ietf.org 10
+uri-review@ietf.org 10
+mailman-owner@www1.ietf.org 9
+v6ops-archive@megatron.ietf.org 8
+vrrp-web-archive@ietf.org 7
+xcon-admin@ietf.org 6
+vrrp-owner@ietf.org 5
+vrrp@ietf.org 5
+ssm-bounces@ietf.org 4
+techspec@megatron.ietf.org 4
+"Site <web-archive"@megatron.ietf.org 3
+VIAGRA.Official@core3.amsl.com 3
+calsch-archive@megatron.ietf.org 3
+info@qsv18.com 3
+n21102008@gmail.com 3
+vrrp-request@ietf.org 3
+wgchairs-bounces@ietf.org 3
+yaoli@com-eye.com 3
+2008colo2011@gmail.com 2
+MAILER-DAEMON@mx01.off.interq.net 2
+a20092008@gmail.com 2
+com-eye@com-eye.com 2
+discuss-web-archive@optimus.ietf.org 2
+gcunning@foretec.com 2
+idn-archive@megatron.ietf.org 2
+info@qsv16.com 2
+info@qsv17.com 2
+notice@azfcu.org 2
+send-archive@megatron.ietf.org 2
+snmpconf-archive@megatron.ietf.org 2
+trade-archive@megatron.ietf.org 2
+vpim-bounces@ietf.org 2
+"<web-archive"@megatron.ietf.org 1

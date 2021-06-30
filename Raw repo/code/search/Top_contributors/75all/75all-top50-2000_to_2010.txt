@@ -1,0 +1,12 @@
+2000 TO 2010
+-------#####------->    75all
+amorris@amsl.com 6
+cmorgan@amsl.com 5
+mbeaulieu@amsl.com 4
+rpelletier@isoc.org 4
+ietf-secretariat@ietf.org 3
+agenda@ietf.org 2
+wlo@amsl.com 2
+housley@vigilsec.com 1
+iab-chair@ietf.org 1
+nweis@verilan.com 1

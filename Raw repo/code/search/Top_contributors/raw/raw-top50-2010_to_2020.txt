@@ -1,0 +1,17 @@
+2010 TO 2020
+-------#####------->    raw
+pthubert@cisco.com 29
+cjbc@it.uc3m.es 5
+corinna.schmitt@unibw.de 3
+dave.cavalcanti@intel.com 3
+eagros@dolby.com 3
+Janos.Farkas@ericsson.com 2
+georgios.papadopoulos@imt-atlantique.fr 2
+lberger@labn.net 2
+theoleyre@unistra.fr 2
+xvilajosana@uoc.edu 2
+charles.perkins@earthlink.net 1
+diego.dujovne@mail.udp.cl 1
+helbakou@futurewei.com 1
+martin.vigoureux@nokia.com 1
+pascal.thubert@gmail.com 1

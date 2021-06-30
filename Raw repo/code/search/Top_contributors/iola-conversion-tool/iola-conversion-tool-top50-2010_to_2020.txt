@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    iola-conversion-tool
+henrik@levkowetz.com 59
+olau@iola.dk 55
+rjsparks@nostrum.com 26
+cmorgan@amsl.com 16
+housley@vigilsec.com 13
+adam@nostrum.com 7
+amorris@amsl.com 5
+avezza@amsl.com 3
+marc.blanchet@viagenie.ca 3
+rcross@amsl.com 3
+hongyu.lihongyu@huawei.com 2
+jimsch@augustcellars.com 2
+john@jlc.net 2
+lars@netapp.com 2
+paul.hoffman@vpnc.org 2
+smccammon@amsl.com 2
+ah@TR-Sys.de 1
+eckelcu@cisco.com 1
+ietf-action@ietf.org 1
+presnick@qualcomm.com 1
+rbonica@juniper.net 1
+turners@ieca.com 1
+yaacov.weingarten@nsn.com 1

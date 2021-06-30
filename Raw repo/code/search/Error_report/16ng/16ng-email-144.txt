@@ -1,0 +1,46 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : 8574ba3f-c00f-46a6-a58d-5ec00a688039
+_version_ : 1675131693061636096
+
+Content : 
+
+
+------=_NextPart_000_0B2E_01C6437C.2FE21830
+Content-Type: text/plain;
+	name="ATT01730.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename="ATT01730.txt"
+
+_______________________________________________
+I-D-Announce mailing list
+I-D-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/i-d-announce
+
+------=_NextPart_000_0B2E_01C6437C.2FE21830--
+

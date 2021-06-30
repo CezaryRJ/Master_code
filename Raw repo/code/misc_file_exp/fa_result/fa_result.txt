@@ -1,0 +1,10 @@
+File count = 131546
+Definetly mbox = 65773
+Maybe mbox = 0
+Definetly not mbox = 0
+
+Size in bytes
+Total size = 57456683526
+Def mbox = 28728330317 49.999980078905885%
+Maybe mbox = 0 0.0%
+Not mbox = 0 0.0%

@@ -1,0 +1,111 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ngo
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ngo/2006-12.mailcl']
+id : b6e8ff8f-646a-4383-b357-b3d42956362d
+_version_ : 1675133838407237633
+
+Content : 
+
+RFrom ngo-bounces@ietf.org Tue Dec 05 07:01:30 2006
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1GrYyv-0004T4-22; Tue, 05 Dec 2006 07:01:05 -0500
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1GrYyt-0004PK-EP
+	for ngo@ietf.org; Tue, 05 Dec 2006 07:01:03 -0500
+Received: from ihemail3.lucent.com ([135.245.0.37])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1GrYyt-0008Qx-7C
+	for ngo@ietf.org; Tue, 05 Dec 2006 07:01:03 -0500
+Received: from nl0006exch001h.wins.lucent.com (h135-85-76-62.lucent.com
+	[135.85.76.62])
+	by ihemail3.lucent.com (8.13.8/IER-o) with ESMTP id kB5C10G3016648;
+	Tue, 5 Dec 2006 06:01:01 -0600 (CST)
+Received: by nl0006exch001h.nl.lucent.com with Internet Mail Service
+	(5.5.2657.72) id <XLQM9XYK>; Tue, 5 Dec 2006 13:00:59 +0100
+Message-ID: <7D5D48D2CAA3D84C813F5B154F43B1550AF800EE@nl0006exch001u.nl.lucent.com>
+From: "Wijnen, Bert (Bert)" <bwijnen@alcatel-lucent.com>
+To: j.schoenwaelder@iu-bremen.de, David Harrington <ietfdbh@comcast.net>
+Subject: RE: [NGO] MIB Access using Netconf RPCs
+Date: Tue, 5 Dec 2006 13:00:57 +0100 
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2657.72)
+Content-Type: text/plain
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.37
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: b19722fc8d3865b147c75ae2495625f2
+Cc: ngo@ietf.org
+X-BeenThere: ngo@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: NETCONF Goes On - discussions on future work and extensions to
+	NETCONF <ngo.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ngo>,
+	<mailto:ngo-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/ngo>
+List-Post: <mailto:ngo@ietf.org>
+List-Help: <mailto:ngo-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ngo>,
+	<mailto:ngo-request@ietf.org?subject=subscribe>
+Errors-To: ngo-bounces@ietf.org
+
+> > > I believe we should follow Dave Perkin's suggestion and define a
+> > > "this" contextEngineID constant which always means use the local
+> > > engineID as the contextEngineID. This would solve the problem for
+> > > the non-proxy case for both ISMS and NETCONF or any other
+> > > interfaces.
+> > 
+> > I agree this might work, but we need to determine how to change the
+> > existing elements of procedure to support this.
+> 
+> Section 4.2.2.1. or RFC 3412 says:
+> 
+>    1) The combination of contextEngineID and pduType is used to
+>       determine which application has registered for this request or
+>       notification.
+> 
+> What about this:
+> 
+> a) We define a "localEngineID" contextEngineID value.
+> 
+> b) We suggest that the applications handling pduTypes that are "local"
+>    to the snmp engine register under this "localEngineID" value (in
+>    addition to the usual registration under the contextEngineID).
+> 
+> Once that has happened, things should just work without any further
+> modifications of the elements of procedure. Note that RFC 3412 already
+> allows multiple registrations for different engineIDs. Am I missing
+> something?
+> 
+
+Without having re-read all of the RFC341x related text, I think the above 
+may indeed work and be doable.
+
+Bert
+
+_______________________________________________
+NGO mailing list
+NGO@ietf.org
+https://www1.ietf.org/mailman/listinfo/ngo

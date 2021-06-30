@@ -1,0 +1,17 @@
+2000 TO 2010
+-------#####------->    hiprg
+thomas.r.henderson@boeing.com 8
+jeffrey.m.ahrenholz@boeing.com 7
+heer@cs.rwth-aachen.de 6
+pascal.urien@gmail.com 6
+gurtov@hiit.fi 4
+gurtov@cs.helsinki.fi 3
+miika.komu@hiit.fi 2
+rimey@hiit.fi 2
+xuxh@huawei.com 2
+fabrice.hobaya@tesa.prd.fr 1
+falk@bbn.com 1
+gmlee@icu.ac.kr 1
+samu.varjonen@helsinki.fi 1
+shengjiang@huawei.com 1
+thomas.r.henderson 1

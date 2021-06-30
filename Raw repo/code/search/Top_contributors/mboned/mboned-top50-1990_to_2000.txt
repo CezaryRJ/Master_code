@@ -1,0 +1,10 @@
+1990 TO 2000
+-------#####------->    mboned
+Internet-Drafts@ns.ietf.org 6
+ryu@isl.hrl.hac.com 6
+Internet-Drafts@ietf.org 5
+iesg-secretary@ietf.org 4
+Harald.Alvestrand@maxware.no 2
+dmm@cisco.com 2
+vern@ee.lbl.gov 2
+ygz@isl.hrl.hac.com 2

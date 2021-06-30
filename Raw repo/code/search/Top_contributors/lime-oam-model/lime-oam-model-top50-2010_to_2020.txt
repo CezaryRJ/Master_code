@@ -1,0 +1,16 @@
+2010 TO 2020
+-------#####------->    lime-oam-model
+bill.wu@huawei.com 32
+gregory.mirsky@ericsson.com 30
+rbonica@juniper.net 16
+tom.taylor.stds@gmail.com 15
+nobo@cisco.com 8
+dekumar@cisco.com 6
+cpignata@cisco.com 4
+bclaise@cisco.com 3
+adrian@olddog.co.uk 2
+gih@apnic.net 2
+gih902@gmail.com 1
+ietf-secretariat@ietf.org 1
+shares@ndzh.com 1
+tsenevir@cisco.com 1

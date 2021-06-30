@@ -1,0 +1,96 @@
+Date : ['2006-11-08T07:50:24Z']
+Timezone : -0800
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<00D42150952F70458C66072322F7FE250B0BF8@saturn2.Aculab.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  00D42150952F70458C66072322F7FE250B0BF8@saturn2.Aculab.com
+Message-ID : <76431CABEC5EED489807DB8AEBCCA0BC4B91E0@sea02-mxc01.citel.com>
+References : Null
+Comments : ['Null']
+Subject : ['RE: [Sip] RFC 3261 Ambiguous SIP URI table in 19.1.1']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2006-11.mailcl']
+id : 537353ce-9234-4d0d-a7ce-a66a0e012d1d
+_version_ : 1675128727928832002
+
+Content : 
+
+X-MS-TNEF-CorreFrom sip-bounces@ietf.org Wed Nov 08 11:08:34 2006
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1Ghpvd-0005ZO-B1; Wed, 08 Nov 2006 11:05:29 -0500
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1Ghpvb-0005ZJ-VC
+	for sip@ietf.org; Wed, 08 Nov 2006 11:05:27 -0500
+Received: from mx0.aculab.com ([213.249.233.131])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1Ghpva-00016r-Mm
+	for sip@ietf.org; Wed, 08 Nov 2006 11:05:27 -0500
+Received: from saturn2.Aculab.com (saturn [10.202.163.6])
+	by mx0.aculab.com (Postfix) with ESMTP id E6A4187353
+	for <sip@ietf.org>; Wed,  8 Nov 2006 16:05:11 +0000 (GMT)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Subject: RE: [Sip] RFC 3261 Ambiguous SIP URI table in 19.1.1
+Date: Wed, 8 Nov 2006 16:05:12 -0000
+Message-ID: <00D42150952F70458C66072322F7FE250B0BF9@saturn2.Aculab.com>
+In-Reply-To: <76431CABEC5EED489807DB8AEBCCA0BC4B91E0@sea02-mxc01.citel.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] RFC 3261 Ambiguous SIP URI table in 19.1.1
+thread-index: AccCcYwQjJLSkV+4Ru6icp7NuyYIZgAKXOxQABvSlRAABWvb4AAKVuuwAAB7QGAAAOIfIA==
+From: "Matthew Gardiner" <Matthew.Gardiner@ACULAB.COM>
+To: "Michael Procter" <michael.procter@citel.com>,
+	"Sanjay Sinha (sanjsinh)" <sanjsinh@cisco.com>, <sip@ietf.org>
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 1ac7cc0a4cd376402b85bc1961a86ac2
+Cc: 
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=subscribe>
+Errors-To: sip-bounces@ietf.org
+
+> As a general rule, URIs should not be 'adjusted' as you work with =
+them.
+
+Maybe not, but their presentation to the outside world, should be in =
+certain contexts. That was my reason for visiting this table in the =
+first place. Case in point, the port and transport parameters being =
+disallowed in the To: and From: headers as mandated by this table. =
+(Still not sure why these parameters are disallowed here?).
+
+I visited this table in attempt to clarify some code in our stack, but =
+the result was further confusion!
+
+thanks
+Matt
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip

@@ -1,0 +1,18 @@
+2010 TO 2020
+-------#####------->    nvo3-dt-encap
+sboutros@vmware.com 29
+tom@herbertland.com 15
+ilango.s.ganga@intel.com 14
+ipankajg@gmail.com 12
+nordmark@sonic.net 12
+touch@isi.edu 12
+aldrin.ietf@gmail.com 8
+nordmark@arista.com 8
+rajeev.manur@broadcom.com 8
+pankajg@microsoft.com 7
+davidm@mellanox.com 6
+michsmit@cisco.com 2
+talmi@marvell.com 2
+gregimirsky@gmail.com 1
+ibagdona.ietf@gmail.com 1
+matt.bocci@gmail.com 1

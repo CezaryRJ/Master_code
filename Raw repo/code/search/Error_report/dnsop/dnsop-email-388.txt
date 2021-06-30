@@ -1,0 +1,42 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : dnsop
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/dnsop/2007-07.mailcl']
+id : 3f56db7e-b472-4274-8532-6e8e21b2fb06
+_version_ : 1675133593515458562
+
+Content : 
+
+RSET
+                                                                                                                                                                                                                                                                                                                                                                                          RSET
+                                                                                                                                                                                                                                                                                                                                                                                          Message-ID: <99499056662244.7690879407@L4AUKI5>
+From: " Dnsop-archive" <cherish6ni@hotmail.com >
+To: <dnsop-archive@ietf.org>
+Subject: RE:
+Date: Tue, 17 Jul 2007 03:52:05 +0200
+MIME-Version: 1.0
+X-Mailer: Microso
+
+

@@ -1,0 +1,757 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : nsis
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nsis/2006-10.mailcl']
+id : 36e663ff-b7b5-4981-9757-b2854e13f450
+_version_ : 1675129165649543169
+
+Content : 
+
+</head>
+<body text="#000000" bgcolor="#ffffff">
+Once again, you are making the same statement. A service defintion can
+not be future proof. there are no such definitions. <br>
+We seen during 15 years of experience from ATM,FR, Int.serv. and MEF
+and 3GPP-Qos that different definition has come and go. <br>
+<br>
+<br>
+<br>
+<a class="moz-txt-link-abbreviated" href="mailto:john.loughney@nokia.com">john.loughney@nokia.com</a> wrote:<br>
+<blockquote type="cite"
+ cite="midBAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com">
+  <title></title>
+  <meta content="MSHTML 6.00.2900.2963" name="GENERATOR">
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">Georgios,</font></span></div>
+  <div dir="ltr" align="left">&nbsp;</div>
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">About having the QoS Models
+specifying manditory parameters - could you explain how we would get
+interoperability between two different QoS models that have different
+sets of manditory parameters?</font></span></div>
+  <div dir="ltr" align="left">&nbsp;</div>
+</blockquote>
+<blockquote type="cite"
+ cite="midBAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com">
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">I think we need to have a
+baseline QSPEC with manditory parameters to ensure interoperability -
+we should have the lowest common denominator between the QoS models to
+ensure some way of being able to signal across multiple QoS model
+deployments.</font></span></div>
+  <div dir="ltr" align="left">&nbsp;</div>
+</blockquote>
+Why should we have NSIS when we have RSVP ? <br>
+RSVP specifies two service types and we hard-coded only one service
+type in the basic-specification of NSIS ????????? <br>
+The bearer service definition was separately specified in a separate
+working group. <br>
+In NSIS we integrate everything in one spec.<br>
+<br>
+I get more and more confused....<br>
+<br>
+<br>
+<blockquote type="cite"
+ cite="midBAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com">
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">John</font></span></div>
+  <br>
+  <blockquote dir="ltr"
+ style="border-left: 2px solid rgb(0, 0, 255); padding-left: 5px; margin-left: 5px; margin-right: 0px;">
+    <div class="OutlookMessageHeader" lang="en-us" dir="ltr"
+ align="left">
+    <hr tabindex="-1"> <font face="Tahoma" size="2"><b>From:</b> ext
+Georgios Karagiannis [<a class="moz-txt-link-freetext" href="mailto:karagian@cs.utwente.nl">mailto:karagian@cs.utwente.nl</a>] <br>
+    <b>Sent:</b> 17 October, 2006 01:40<br>
+    <b>To:</b> 'Lars Westberg'<br>
+    <b>Cc:</b> <a class="moz-txt-link-abbreviated" href="mailto:gash@att.com">gash@att.com</a>; <a class="moz-txt-link-abbreviated" href="mailto:nsis@ietf.org">nsis@ietf.org</a><br>
+    <b>Subject:</b> RE: [NSIS] I-D ACTION:draft-ietf-nsis-qspec-12.txt<br>
+    </font><br>
+    </div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Hi Lars</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">I think that I agree with you!</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-17102006"><font face="Arial" color="#0000ff" size="2">However,
+we may just need one QSPEC parameter, say Traffic (Tocken Bucket and
+Bandwidth) </font></span></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-17102006"><font face="Arial" color="#0000ff" size="2">that
+can be mandatory. In this way we will provide the required
+interoperability between the </font></span></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-171020]) by
+	esealmw128.eemea.ericsson.se with Microsoft SMTPSVC(6.0.3790.1830); 
+	Tue, 17 Oct 2006 16:52:41 +0200
+Received: from ericsson.com ([147.214.26.58]) by esealmw126.eemea.ericsson.se
+	with Microsoft SMTPSVC(6.0.3790.1830); 
+	Tue, 17 Oct 2006 16:52:40 +0200
+Message-ID: <4534EE39.60703@ericsson.com>
+Date: Tue, 17 Oct 2006 16:52:41 +0200
+From: Lars Westberg <Lars.westberg@ericsson.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US;
+	rv:1.4) Gecko/20030624 Netscape/7.1 (ax)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: john.loughney@nokia.com
+Subject: Re: [NSIS] I-D ACTION:draft-ietf-nsis-qspec-12.txt
+References: <BAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com>
+In-Reply-To: <BAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com>
+X-OriginalArrivalTime: 17 Oct 2006 14:52:40.0843 (UTC)
+	FILETIME=[E50B0DB0:01C6F1FB]
+X-Brightmail-Tracker: AAAAAA==
+X-Spam-Score: 0.1 (/)
+X-Scan-Signature: 9e1884bf469cda400682762c3e8d96c9
+Cc: gash@att.com, karagian@cs.utwente.nl, nsis@ietf.org
+X-BeenThere: nsis@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Next Steps in Signaling <nsis.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/nsis>,
+	<mailto:nsis-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:nsis@ietf.org>
+List-Help: <mailto:nsis-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/nsis>,
+	<mailto:nsis-request@ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============2108465015=="
+Errors-To: nsis-bounces@ietf.org
+
+
+This is a multi-part message in MIME format.
+--===============2108465015==
+Content-Type: multipart/alternative;
+	boundary="------------040101030909020406090807"
+
+
+This is a multi-part message in MIME format.
+--------------040101030909020406090807
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Once again, you are making the same statement. A service defintion can 
+not be future proof. there are no such definitions.
+We seen during 15 years of experience from ATM,FR, Int.serv. and MEF and 
+3GPP-Qos that different definition has come and go.
+
+
+
+john.loughney@nokia.com wrote:
+
+> Georgios,
+>  
+> About having the QoS Models specifying manditory parameters - could 
+> you explain how we would get interoperability between two different 
+> QoS models that have different sets of manditory parameters?
+>  
+
+> I think we need to have a baseline QSPEC with manditory parameters to 
+> ensure interoperability - we should have the lowest common denominator 
+> between the QoS models to ensure some way of being able to signal 
+> across multiple QoS model deployments.
+>  
+
+Why should we have NSIS when we have RSVP ?
+RSVP specifies two service types and we hard-coded only one service type 
+in the basic-specification of NSIS ?????????
+The bearer service definition was separately specified in a separate 
+working group.
+In NSIS we integrate everything in one spec.
+
+I get more and more confused....
+
+
+> John
+>
+>     ------------------------------------------------------------------------
+>     From: ext Georgios Karagiannis [mailto:karagian@cs.utwente.nl]
+>     Sent: 17 October, 2006 01:40
+>     To: 'Lars Westberg'
+>     Cc: gash@att.com; nsis@ietf.org
+>     Subject: RE: [NSIS] I-D ACTION:draft-ietf-nsis-qspec-12.txt
+>
+>     Hi Lars
+>      
+>     I think that I agree with you!
+>      
+>     However, we may just need one QSPEC parameter, say Traffic (Tocken
+>     Bucket and Bandwidth)
+>     that can be mandatory. In this way we will provide the required
+>     interoperability between the
+>     QoS models.
+>     Actually this was also the conclusion that Xiaoming deduced after
+>     studying a couple of examples.
+>      
+>     Furthermore, we could however provide the ability to QoS models to
+>     specify which
+>     QSPEC parameters should be mandatory or not.
+>     What do you think?
+>      
+>     Best regards,
+>     Georgios
+>      
+>      
+>
+>         ------------------------------------------------------------------------
+>         From: Lars Westberg [mailto:Lars.006"><font face="Arial" color="#0000ff" size="2">QoS
+models.</font></span></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-17102006"><font face="Arial" color="#0000ff" size="2">Actually
+this was also the conclusion that Xiaoming deduced after studying a
+couple of examples.</font></span></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Furthermore, we could however
+provide the ability to QoS models to specify which </font></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">QSPEC parameters should be
+mandatory or not.</font></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">What do you think?</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Best regards,</font></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Georgios</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <br>
+    <blockquote dir="ltr"
+ style="border-left: 2px solid rgb(0, 0, 255); padding-left: 5px; margin-left: 5px; margin-right: 0px;">
+      <div class="OutlookMessageHeader" lang="en-us" dir="ltr"
+ align="left">
+      <hr tabindex="-1"> <font face="Tahoma" size="2"><b>From:</b>
+Lars Westberg [<a class="moz-txt-link-freetext" href="mailto:Lars.westberg@ericsson.com">mailto:Lars.westberg@ericsson.com</a>] <br>
+      <b>Sent:</b> dinsdag 17 oktober 2006 8:46<br>
+      <b>To:</b> Georgios Karagiannis<br>
+      <b>Cc:</b> <a class="moz-txt-link-abbreviated" href="mailto:gash@att.com">gash@att.com</a>; <a class="moz-txt-link-abbreviated" href="mailto:nsis@ietf.org">nsis@ietf.org</a><br>
+      <b>Subject:</b> Re: [NSIS] I-D ACTION:draft-ietf-nsis-qspec-12.txt<br>
+      </font><br>
+      </div>
+yes. <br>
+the main problem is that IETF is not the only Standardization
+organization that like to discuss "bearer services". Just as an example
+:<br>
+If we specify the those parameters, How can we use NSIS for SLAs
+specified by MEF????<br>
+      <br>
+How can we use it for 3GPP-Qos definitiions ?<br>
+      <br>
+      <br>
+In the draft I also see&nbsp; that we the draft specify a new bearer
+service. It is not compliant to old Int.serv architecture.&nbsp; This is a
+completely new one with new parameters like priority.<br>
+      <br>
+I can sure that we can have a never-ending discussion about the
+"optimal"-set of parameters.<br>
+      <br>
+I think we agree in beggining the working group discussion that we
+should not specify any "bearer-service" because NSIS should be a
+modular architecture with&nbsp; more flexibillity than RSVP.&nbsp; Therefore, I
+am surprised that we are doing the same mistake as in RSVP: Integrating
+a bearer service definition into the NSIS-architecture.<br>
+      <br>
+If we go this track, the QoS-part of NSIS has much less use. RSVP is in
+this case significantly better in terms of performance and have the
+same functionality than NSIS.<br>
+If have to choose I would select RSVP rather than a much more complex&nbsp;
+three layer protocol stack.<br>
+      <br>
+regards Lasse<br>
+      <br>
+Georgios Karagiannis wrote:<br>
+      <blockquote
+ cite="midacteJ5pV.1161066549.4633460.karagian@ewi.utwente.nl"
+ type="cite">
+        <pre wrap="">Hi Lars
+
+Do you mean that the QSPEC template must not contain any mandatory
+(QSPEC-1) parameters?
+
+
+Best Regards,
+Georgios
+
+
+
+On 10/16/2006, "Lars Westberg" <a class="moz-txt-link-rfc2396E"
+ href="mailto:Lars.westberg@ericsson.com">&lt;Lars.westberg@ericsson.com&gt;</a> wrote:
+
+  </pre>
+        <blockquote type="cite">
+          <pre wrap="">Hi,
+The template seems not to be a template because the mandatory part  is
+more or less the same as Intserv.
+The main idea wiwestberg@ericsson.com]
+>         Sent: dinsdag 17 oktober 2006 8:46
+>         To: Georgios Karagiannis
+>         Cc: gash@att.com; nsis@ietf.org
+>         Subject: Re: [NSIS] I-D ACTION:draft-ietf-nsis-qspec-12.txt
+>
+>         yes.
+>         the main problem is that IETF is not the only Standardization
+>         organization that like to discuss "bearer services". Just as
+>         an example :
+>         If we specify the those parameters, How can we use NSIS for
+>         SLAs specified by MEF????
+>
+>         How can we use it for 3GPP-Qos definitiions ?
+>
+>
+>         In the draft I also see  that we the draft specify a new
+>         bearer service. It is not compliant to old Int.serv
+>         architecture.  This is a completely new one with new
+>         parameters like priority.
+>
+>         I can sure that we can have a never-ending discussion about
+>         the "optimal"-set of parameters.
+>
+>         I think we agree in beggining the working group discussion
+>         that we should not specify any "bearer-service" because NSIS
+>         should be a modular architecture with  more flexibillity than
+>         RSVP.  Therefore, I am surprised that we are doing the same
+>         mistake as in RSVP: Integrating a bearer service definition
+>         into the NSIS-architecture.
+>
+>         If we go this track, the QoS-part of NSIS has much less use.
+>         RSVP is in this case significantly better in terms of
+>         performance and have the same functionality than NSIS.
+>         If have to choose I would select RSVP rather than a much more
+>         complex  three layer protocol stack.
+>
+>         regards Lasse
+>
+>         Georgios Karagiannis wrote:
+>
+>>Hi Lars
+>>
+>>Do you mean that the QSPEC template must not contain any mandatory
+>>(QSPEC-1) parameters?
+>>
+>>
+>>Best Regards,
+>>Georgios
+>>
+>>
+>>
+>>On 10/16/2006, "Lars Westberg" <Lars.westberg@ericsson.com> wrote:
+>>
+>>  
+>>
+>>>Hi,
+>>>The template seems not to be a template because the mandatory part  is
+>>>more or less the same as Intserv.
+>>>The main idea with QoS-template was to make an modular solution that
+>>>could allow flexibillity for different Qos-models
+>>>
+>>>Therefore, I do not understand the scope of the specification.
+>>>
+>>>I suggest that we move the major part of the parameters to a separate
+>>>"Int.serv. over NSIS" specification.
+>>>Int.serv. can be seen as a common bearer service.
+>>>
+>>>regards Lasse
+>>>
+>>>Ash, Gerald R (Jerry), ALABS wrote:
+>>>
+>>>    
+>>>
+>>>>Lars,
+>>>>
+>>>>      
+>>>>
+>>>>>You mention in the below e-mail that there are no open issues,
+>>>>>while there is a huge discussion on the nsis mailing list
+>>>>>regarding the QSPEC-1 parameters.
+>>>>>        
+>>>>>
+>>>>John can call a different consensus if he sees one (I've asked him a
+>>>>couple of times to do that).  What I saw was
+>>>>
+>>>>1. Many posts supported the QSPEC-1 concept, only one (or maybe two) I
+>>>>saw opposed.  The opposing view was repeated *many* times (and is still
+>>>>being repeated) but it only counts as one opinion.
+>>>>2. Many posts supported retaining the 4 QSPEC-1 parameters, only one I
+>>>>saw opposed.  The opposing view was repeated many times.
+>>>>3. There was only one opinion expressed to be able to ignore QSPEC-1
+>>>>parameters.  That one opinion has been repeated many times but it only
+>>>>counts as one opinion.
+>>>>
+>>>>John asked a while ago for new opinions on these issues, that would be
+>>>>good if there are any *new* opinions.  We don't need to hear opinions
+>>>>repeated that we've seen so many times.
+>>>>
+>>>>I invite John once again to make a consensus call so we can move on
+>>>>here.  I think it is time to make progress and stop repeating ourselves,
+>>>>we're not generating any new light in this rather endless discussion.
+>>>>
+>>>>Thanks,
+>>>>Jerry
+>>>>
+>>>>      
+>>>>
+>>
+>>  
+>>
+
+--------------040101030909020406090807
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"th QoS-template was to make an modular solution that
+could allow flexibillity for different Qos-models
+
+Therefore, I do not understand the scope of the specification.
+
+I suggest that we move the major part of the parameters to a separate
+"Int.serv. over NSIS" specification.
+Int.serv. can be seen as a common bearer service.
+
+regards Lasse
+
+Ash, Gerald R (Jerry), ALABS wrote:
+
+    </pre>
+          <blockquote type="cite">
+            <pre wrap="">Lars,
+
+      </pre>
+            <blockquote type="cite">
+              <pre wrap="">You mention in the below e-mail that there are no open issues,
+while there is a huge discussion on the nsis mailing list
+regarding the QSPEC-1 parameters.
+        </pre>
+            </blockquote>
+            <pre wrap="">John can call a different consensus if he sees one (I've asked him a
+couple of times to do that).  What I saw was
+
+1. Many posts supported the QSPEC-1 concept, only one (or maybe two) I
+saw opposed.  The opposing view was repeated *many* times (and is still
+being repeated) but it only counts as one opinion.
+2. Many posts supported retaining the 4 QSPEC-1 parameters, only one I
+saw opposed.  The opposing view was repeated many times.
+3. There was only one opinion expressed to be able to ignore QSPEC-1
+parameters.  That one opinion has been repeated many times but it only
+counts as one opinion.
+
+John asked a while ago for new opinions on these issues, that would be
+good if there are any *new* opinions.  We don't need to hear opinions
+repeated that we've seen so many times.
+
+I invite John once again to make a consensus call so we can move on
+here.  I think it is time to make progress and stop repeating ourselves,
+we're not generating any new light in this rather endless discussion.
+
+Thanks,
+Jerry
+
+      </pre>
+          </blockquote>
+        </blockquote>
+        <pre wrap=""><!---->
+  </pre>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+</body>
+</html>
+
+--------------040101030909020406090807--
+
+
+
+--===============2108465015==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+--===============2108465015==--
+
+
+
+
+
+
+
+>
+  <title></title>
+</head>
+<body text="#000000" bgcolor="#ffffff">
+Once again, you are making the same statement. A service defintion can
+not be future proof. there are no such definitions. <br>
+We seen during 15 years of experience from ATM,FR, Int.serv. and MEF
+and 3GPP-Qos that different definition has come and go. <br>
+<br>
+<br>
+<br>
+<a class="moz-txt-link-abbreviated" href="mailto:john.loughney@nokia.com">john.loughney@nokia.com</a> wrote:<br>
+<blockquote type="cite"
+ cite="midBAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com">
+  <title></title>
+  <meta content="MSHTML 6.00.2900.2963" name="GENERATOR">
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">Georgios,</font></span></div>
+  <div dir="ltr" align="left">&nbsp;</div>
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">About having the QoS Models
+specifying manditory parameters - could you explain how we would get
+interoperability between two different QoS models that have different
+sets of manditory parameters?</font></span></div>
+  <div dir="ltr" align="left">&nbsp;</div>
+</blockquote>
+<blockquote type="cite"
+ cite="midBAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com">
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">I think we need to have a
+baseline QSPEC with manditory parameters to ensure interoperability -
+we should have the lowest common denominator between the QoS models to
+ensure some way of being able to signal across multiple QoS model
+deployments.</font></span></div>
+  <div dir="ltr" align="left">&nbsp;</div>
+</blockquote>
+Why should we have NSIS when we have RSVP ? <br>
+RSVP specifies two service types and we hard-coded only one service
+type in the basic-specification of NSIS ????????? <br>
+The bearer service definition was separately specified in a separate
+working group. <br>
+In NSIS we integrate everything in one spec.<br>
+<br>
+I get more and more confused....<br>
+<br>
+<br>
+<blockquote type="cite"
+ cite="midBAA65A575825454CBB0103267553FCCCED025D@esebe199.NOE.Nokia.com">
+  <div dir="ltr" align="left"><span class="276231814-17102006"><font
+ face="Arial" color="#0000ff" size="2">John</font></span></div>
+  <br>
+  <blockquote dir="ltr"
+ style="border-left: 2px solid rgb(0, 0, 255); padding-left: 5px; margin-left: 5px; margin-right: 0px;">
+    <div class="OutlookMessageHeader" lang="en-us" dir="ltr"
+ align="left">
+    <hr tabindex="-1"> <font face="Tahoma" size="2"><b>From:</b> ext
+Georgios Karagiannis [<a class="moz-txt-link-freetext" href="mailto:karagian@cs.utwente.nl">mailto:karagian@cs.utwente.nl</a>] <br>
+    <b>Sent:</b> 17 October, 2006 01:40<br>
+    <b>To:</b> 'Lars Westberg'<br>
+    <b>Cc:</b> <a class="moz-txt-link-abbreviated" href="mailto:gash@att.com">gash@att.com</a>; <a class="moz-txt-link-abbreviated" href="mailto:nsis@ietf.org">nsis@ietf.org</a><br>
+    <b>Subject:</b> RE: [NSIS] I-D ACTION:draft-ietf-nsis-qspec-12.txt<br>
+    </font><br>
+    </div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Hi Lars</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">I think that I agree with you!</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-17102006"><font face="Arial" color="#0000ff" size="2">However,
+we may just need one QSPEC parameter, say Traffic (Tocken Bucket and
+Bandwidth) </font></span></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-17102006"><font face="Arial" color="#0000ff" size="2">that
+can be mandatory. In this way we will provide the required
+interoperability between the </font></span></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-17102006"><font face="Arial" color="#0000ff" size="2">QoS
+models.</font></span></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><span
+ class="494173408-17102006"><font face="Arial" color="#0000ff" size="2">Actually
+this was also the conclusion that Xiaoming deduced after studying a
+couple of examples.</font></span></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Furthermore, we could however
+provide the ability to QoS models to specify which </font></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">QSPEC parameters should be
+mandatory or not.</font></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">What do you think?</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Best regards,</font></span></div>
+    <div dir="ltr" align="left"><span class="494173408-17102006"><font
+ face="Arial" color="#0000ff" size="2">Georgios</font></span></div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <div dir="ltr" align="left">&nbsp;</div>
+    <br>
+    <blockquote dir="ltr"
+ style="border-left: 2px solid rgb(0, 0, 255); padding-left: 5px; margin-left: 5px; margin-right: 0px;">
+      <div class="OutlookMessageHeader" lang="en-us" dir="ltr"
+ align="left">
+      <hr tabindex="-1"> <font face="Tahoma" size="2"><b>From:</b>
+Lars Westberg [<a class="moz-txt-link-freetext" href="mailto:Lars.westberg@ericsson.com">mailto:Lars.westberg@ericsson.com</a>] <br>
+      <b>Sent:</b> dinsdag 17 oktober 2006 8:46<br>
+      <b>To:</b> Georgios Karagiannis<br>
+      <b>Cc:</b> <a class="moz-txt-link-abbreviated" href="mailto:gash@att.com">gash@att.com</a>; <a class="moz-txt-link-abbreviated" href="mailto:nsis@ietf.org">nsis@ietf.org</a><br>
+      <b>Subject:</b> Re: [NSIS] I-D ACTION:draft-ietf-nsis-qspec-12.txt<br>
+      </font><br>
+      </div>
+yes. <br>
+the main problem is that IETF is not the only Standardization
+organization that like to discuss "bearer services". Just as an example
+:<br>
+If we specify the those parameters, How can we use NSIS for SLAs
+specified by MEF????<br>
+      <br>
+How can we use it for 3GPP-Qos definitiions ?<br>
+      <br>
+      <br>
+In the draft I also see&nbsp; that we the draft specify a new bearer
+service. It is not compliant to old Int.serv architecture.&nbsp; This is a
+completely new one with new parameters like priority.<br>
+      <br>
+I can sure that we can have a never-ending discussion about the
+"optimal"-set of parameters.<br>
+      <br>
+I think we agree in beggining the working group discussion that we
+should not specify any "bearer-service" because NSIS should be a
+modular architecture with&nbsp; more flexibillity than RSVP.&nbsp; Therefore, I
+am surprised that we are doing the same mistake as in RSVP: Integrating
+a bearer service definition into the NSIS-architecture.<br>
+      <br>
+If we go this track, the QoS-part of NSIS has much less use. RSVP is in
+this case significantly better in terms of performance and have the
+same functionality than NSIS.<br>
+If have to choose I would select RSVP rather than a much more complex&nbsp;
+three layer protocol stack.<br>
+      <br>
+regards Lasse<br>
+      <br>
+Georgios Karagiannis wrote:<br>
+      <blockquote
+ cite="midacteJ5pV.1161066549.4633460.karagian@ewi.utwente.nl"
+ type="cite">
+        <pre wrap="">Hi Lars
+
+Do you mean that the QSPEC template must not contain any mandatory
+(QSPEC-1) parameters?
+
+
+Best Regards,
+Georgios
+
+
+
+On 10/16/2006, "Lars Westberg" <a class="moz-txt-link-rfc2396E"
+ href="mailto:Lars.westberg@ericsson.com">&lt;Lars.westberg@ericsson.com&gt;</a> wrote:
+
+  </pre>
+        <blockquote type="cite">
+          <pre wrap="">Hi,
+The template seems not to be a template because the mandatory part  is
+more or less the same as Intserv.
+The main idea with QoS-template was to make an modular solution that
+could allow flexibillity for different Qos-models
+
+Therefore, I do not understand the scope of the specification.
+
+I suggest that we move the major part of the parameters to a separate
+"Int.serv. over NSIS" specification.
+Int.serv. can be seen as a common bearer service.
+
+regards Lasse
+
+Ash, Gerald R (Jerry), ALABS wrote:
+
+    </pre>
+          <blockquote type="cite">
+            <pre wrap="">Lars,
+
+      </pre>
+            <blockquote type="cite">
+              <pre wrap="">You mention in the below e-mail that there are no open issues,
+while there is a huge discussion on the nsis mailing list
+regarding the QSPEC-1 parameters.
+        </pre>
+            </blockquote>
+            <pre wrap="">John can call a different consensus if he sees one (I've asked him a
+couple of times to do that).  What I saw was
+
+1. Many posts supported the QSPEC-1 concept, only one (or maybe two) I
+saw opposed.  The opposing view was repeated *many* times (and is still
+being repeated) but it only counts as one opinion.
+2. Many posts supported retaining the 4 QSPEC-1 parameters, only one I
+saw opposed.  The opposing view was repeated many times.
+3. There was only one opinion expressed to be able to ignore QSPEC-1
+parameters.  That one opinion has been repeated many times but it only
+counts as one opinion.
+
+John asked a while ago for new opinions on these issues, that would be
+good if there are any *new* opinions.  We don't need to hear opinions
+repeated that we've seen so many times.
+
+I invite John once again to make a consensus call so we can move on
+here.  I think it is time to make progress and stop repeating ourselves,
+we're not generating any new light in this rather endless discussion.
+
+Thanks,
+Jerry
+
+      </pre>
+          </blockquote>
+        </blockquote>
+        <pre wrap=""><!---->
+  </pre>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+</body>
+</html>
+
+--------------040101030909020406090807--
+
+
+
+--===============2108465015==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+--===============2108465015==--
+
+
+
+
+
+

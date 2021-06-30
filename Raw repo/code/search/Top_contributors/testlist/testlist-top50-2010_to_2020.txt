@@ -1,0 +1,15 @@
+2010 TO 2020
+-------#####------->    testlist
+mlarson@amsl.com 23
+henrik@levkowetz.com 14
+glen@amsl.com 12
+rcross@amsl.com 12
+stevey@amsl.com 12
+marco.davids@sidn.nl 10
+mdavids@forfun.net 9
+rjsparks@nostrum.com 8
+amorris@amsl.com 2
+donotreply@ietf.org 2
+bensons@queuefull.net 1
+ietf-secretariat@ietf.org 1
+legal-bounces@ietf.org 1

@@ -1,0 +1,8 @@
+2010 TO 2020
+-------#####------->    ietf-sow
+housley@vigilsec.com 2
+rjsparks@nostrum.com 2
+amorris@amsl.com 1
+henrik@levkowetz.com 1
+rpelletier@isoc.org 1
+wesley.george@twcable.com 1

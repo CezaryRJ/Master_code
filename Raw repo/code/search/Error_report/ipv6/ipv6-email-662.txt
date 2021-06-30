@@ -1,0 +1,87 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ipv6
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipv6/2007-08.mailcl']
+id : bc74e7f0-20f2-4f52-83d6-97df9acfa123
+_version_ : 1675133967507914752
+
+Content : 
+
+On Wed, Aug 15, 2007 at 02:16:31PM -0400, James Carlson wrote:
+> Ole Troan writes:
+> > >> If you delegate a prefix, then you route to the prefix -- best match.
+> > >
+> > > Yes, but how does that route get in the table, and what next-hop is
+> > > set?  You have to know your customer's address eventually.
+> >=20
+> > next-hop is the link-local address though.
+>=20
+> Right; it's the link-local address of the router to which you've
+> delegated the prefix.
+
+Well, sometimes.  It depends what you're doing.
+
+Either way:  You need to know the customer's address.  A DHCPv6 server
+off in the weeds does not necessarily know what link local address the
+client is using (because it might change without notification).  It
+may know what global addresses the client is using (because it
+allocated them), but won't if router solicition is in use.  A
+router solicitation system certainly doesn't have any knowledge of
+which customer is which nor what addresses global or not which they're
+using.
+
+This is but one facet of a network's operation: try not to focus on
+it too much.  There are potentially a multitude of reasons to know
+which of your customers are online, and how to reach them.  Testing
+connectivity alone (such as during a support call).
+
+> It's not the address of every single machine on the customer's
+> network.  In fact, knowing the addresses of the machines on the
+> customer's network is useless, as it doesn't tell you the address of
+> that CPE router.
+
+I'm not sure why you make this declaration (twice now), when no one
+has suggested the counterpositive.  Maybe I misunderstood Iljitsch.
+
+> Obvious sorts of ways to get this would be to keep track of your
+> delegations or (alternatively) use an appropriate routing protocol.
+
+Which I think gets us back to what Iljitsch said in the first place,
+except that realistically ISPs are going to find it difficult and/or
+costly to trust routing information from eg broadband customers, so
+really what you're looking at is some way to provide a register of
+your customers' current addresses.
+
+--=20
+Ash bugud-gul durbatuluk agh burzum-ishi krimpatul.
+--=20
+David W. Hankins	"If you don't do it right the first time,
+Software Engineer		     you'll just have to do it again."
+Internet Systems Consortium, Inc.		-- Jack T. Hankins
+--------------------------------------------------------------------
+IETF IPv6 working group mailing list
+ipv6@ietf.org
+Administrative Requests: https://www1.ietf.org/mailman/listinfo/ipv6
+--------------------------------------------------------------------

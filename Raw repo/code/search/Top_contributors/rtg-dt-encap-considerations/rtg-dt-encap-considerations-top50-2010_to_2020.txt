@@ -1,0 +1,24 @@
+2010 TO 2020
+-------#####------->    rtg-dt-encap-considerations
+nordmark@sonic.net 75
+kreeger@cisco.com 24
+tom@herbertland.com 14
+albert.tian@ericsson.com 10
+nordmark@acm.org 8
+bensons@queuefull.net 7
+akatlas@gmail.com 6
+jon.hudson@gmail.com 6
+nordmark@arista.com 6
+pthaler@broadcom.com 6
+jeff.tantsura@ericsson.com 4
+therbert@google.com 4
+touch@isi.edu 4
+fred@cisco.com 3
+cbowers@juniper.net 2
+david.black@emc.com 2
+jgross@vmware.com 2
+Garg.Pankaj@microsoft.com 1
+ietf-secretariat@ietf.org 1
+sbarkai@gmail.com 1
+spencerdawkins.ietf@gmail.com 1
+tonysietf@gmail.com 1

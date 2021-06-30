@@ -1,0 +1,179 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ipcdn
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipcdn/2000-05.mailcl']
+id : 3b8bccdd-fc2a-4581-8c68-79ffaa193711
+_version_ : 1675129698618703873
+
+Content : 
+
+mothost.mot.com (MOT-mothost 2.0) with ESMTP id MAA08761; Thu, 11 May 2000
+12:11:00 -0700 (MST)]
+Received: [from optimus.ietf.org (ietf.org [132.151.1.19]) by
+motgate.mot.com (motgate 2.1) with ESMTP id MAA17162; Thu, 11 May 2000
+12:10:59 -0700 (MST)]
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id PAA28507;
+	Thu, 11 May 2000 15:10:54 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id PAA28491
+	for <ipcdn@ns.ietf.org>; Thu, 11 May 2000 15:10:53 -0400 (EDT)
+Received: from dmzraw1.extranet.tce.com (dmzraw1.extranet.tce.com
+[157.254.234.131])
+	by ietf.org (8.9.1a/8.9.1a) with ESMTP id PAA06258
+	for <ipcdn@ietf.org>; Thu, 11 May 2000 15:10:50 -0400 (EDT)
+Received: from smtprelay.tce.com ([157.254.96.114])
+	by dmzraw1.extranet.tce.com (8.9.3/8.9.1) with ESMTP id OAA26153;
+	Thu, 11 May 2000 14:10:16 -0500 (EST)
+Received: from indyexch1.indy.tce.com (localhost [127.0.0.1])
+	by smtprelay.tce.com (8.9.3/8.9.1) with ESMTP id OAA22345;
+	Thu, 11 May 2000 14:10:15 -0500 (EST)
+Received: by indyexch1.indy.tce.com with Internet Mail Service (5.5.2650.21)
+	id <KTYZMAYB>; Thu, 11 May 2000 14:11:26 -0500
+Message-ID:
+<4FA371B64BDAD2119CF40008C7D9ADB302B96D27@indyexch5.indy.tce.com>
+From: Yost William <YostW@tce.com>
+To: "'Mike St. Johns'" <stjohns@corp.home.net>,
+        "Michael W. Patrick"
+	 <mpatrick@dma.isg.mot.com>
+Cc: ljh031@dma.isg.mot.com, ipcdn@ietf.org
+Subject: RE: [ipcdn] Re: Bit ordering for docsQosParamSetRequestPolicy in 
+	QOS-MIB
+Date: Thu, 11 May 2000 14:11:03 -0500
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2650.21)
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Sender: ipcdn-admin@ietf.org
+Errors-To: ipcdn-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: IP over Cable Data Network <ipcdn.ietf.org>
+X-BeenThere: ipcdn@ietf.org
+
+I agree if no one ever looked at the data inside the modem, but just looked
+at a manager which properly displayed the BITS element as a set of
+enumerated bit values, you would have no problem.  But some managers will
+only show the value as an octet string in hex and you will be looking at a
+dump of the configuration file and comparing it to what you see in SNMP and
+there will be an opportunity for misuderstanding where there needn't be.
+
+What Mike said below is still true, the agent will have to swap the bits in
+the word before returning it in an SNMP reply.  People make mistakes, and
+this is just one more place that some implementations may swap the bits and
+some may not.
+
+- --- William H. Yost, Thomson Consumer Electronics: (317) 587-4816 ---   
+. Home of RCA, Proscan, GE electronics .
+
+
+- -----Original Message-----
+From: Mike St. Johns [mailto:stjohns@corp.home.net]
+Sent: Thursday, May 11, 2000 11:55 AM
+To: Michael W. Patrick; Yost William
+Cc: ljh031@dma.isg.mot.com; ipcdn@ietf.org
+Subject: Re: [ipcdn] Re: Bit ordering for docsQosParamSetRequestPolicy
+in QOS-MIB
+
+
+Guys -
+
+Your confusing the MIB with the implementation - again.  The MIB is an 
+abstraction of how things work underneath.  the BITS construct just maps a 
+set of true/false values into an underlying construct that can get 
+transmitted across the network.  At the agent end, ignore the bit position 
+and concentrate on the bit meaning.  In other words, if the 
+suppressPayloadHeaders bit is set in this , do whatever you would normally 
+do for suppressPayloadHeaders.  If that's setting the corresponding bit in 
+a MAC request, then so be it, but these things ARE NOT LINKED except by the 
+name's meaning - the assignment of the actual bit position is a transport 
+mapping, nothing more and must not be too closely tied to some other field.
+
+We had this same discussion in packet cable on the syslog level meanings of 
+the docsDevEvent priority levels.
+
+At 08:32 AM 5/10/00, Michael W. Patrick wrote:
+>Bill,
+>
+>Yuck.  As it stands now, it looks like implementors will have
+>to reverse and shift the bit orders of a binary request policy (lsb=bit 0)
+>when reporting the mib docsQosParamSetRequestPolicy(msb=bit 0).
+>
+>This certainly was not what I intended.
+>
+>My question is, would it be too confusing at this late date
+>to update the MIB to match the implementation,
+>(e.g. by changing docsQosParamSetRequestPolicy to be an integer),
+>or should we leave the qos mib as-is and force the bit swap & shift?
+>
+>-mike
+>
+>
+> >>>>> "Yost" == Yost William <YostW@tce.com> writes:
+>
+>
+> > The bit numbering of these bits is the same (as far as bit numbers
+> > go) in the QOS-MIB and the RFI Spec (SP-RFIv1.1-I04-000407), but the
+> > bit ordering is reversed.  SNMP defines bit 0 as the most
+> > significant bit in BITS, but the RFI Spec, in section C.2.2.6.3
+> > defines bit 0 as the LSB of the value field.  I assume this is what
+> > you intended, but I just wanted to double check.
+>
+> > Here is a copy of the MIB element definition.
+>
+> > docsQosParamSetRequestPolicy OBJECT-TYPE SYNTAX BITS
+> > { broadcastReqOpp (0), priorityReqMulticastReq (1), reqDataForReq
+> > (2), reqDataForData (3), piggybackReqWithData (4), concatenateData
+> > (5), fragmentData (6), supressPayloadHeaders (7),
+> > dropPktsExceedUGSize (8) }
+>
+> > --- William H. Yost, Thomson Consumer Electronics: (317) 587-4816
+> > --- . Home of RCA, Proscan, GE electronics .
+>
+>
+>_______________________________________________
+>IPCDN mailing list
+>IPCDN@ietf.org
+>http://www1.ietf.org/mailman/listinfo/ipcdn
+
+_______________________________________________
+IPCDN mailing list
+IPCDN@ietf.org
+http://www1.ietf.org/mailman/listinfo/ipcdn
+
+
+------- End of Forwarded Message
+
+
+_______________________________________________
+IPCDN mailing list
+IPCDN@ietf.org
+http://www1.ietf.org/mailman/listinfo/ipcdn
+
+_______________________________________________
+IPCDN mailing list
+IPCDN@ietf.org
+http://www1.ietf.org/mailman/listinfo/ipcdn
+

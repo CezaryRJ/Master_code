@@ -1,0 +1,528 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : gen-art
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/gen-art/2007-02.mailcl']
+id : 81f3c77c-30d5-48e8-ae7d-78d32400603e
+_version_ : 1675129785271975936
+
+Content : 
+
+computation and the SCTP checksum is in the packet header not
+trailer.
+
+So for me this looks like:
+- I do not get anything by putting the HMAC at the end,
+   or at least not much.
+- I have to break multiple SCTP rules to put the HMAC
+   at the end.
+
+ From this the decision we made seems to be appropriate.
+
+David, did I understand your point correctly?
+> (2) There's a lack of precision in a number of places in
+> 	in Section 6's specifications of the authentication
+> 	calculations to be performed (Russ Housley found one of
+> 	them, but there are more).  All of these are relatively
+> 	easy to fix, but they do have to be fixed, as even minor
+> 	issues in specifying how to compute a MAC lead to
+> 	lack of interoperability - see specific comments below.
+I agree: the spec has to be clear. I already commented the
+mail from Russ. I'll do this for your points, too. Please
+let me what you think about the comments.
+>
+> All of the comments on Sections other than Section 6 (and its
+> subsections) are nits.
+>
+> Sections 3.2 and 3.3 include Padding in the ASCII diagrams
+> of the chunk formats without describing it.  Both need a
+> sentence saying that padding is included only when needed
+> to make the chunk length a multiple of 4 bytes.
+We can add that... This is the general concept for all parameters.
+>
+> In contrast, I think the 2 bytes of Padding in Section 4.1
+> are always present, and that should be stated.
+We can add that, too.
+>
+> Section 5.1 needs to include the (obvious) statement that
+> the size of the HMAC output MUST be a multiple of 4 bytes.
+>
+It is better to allow a padding here, too. In RFC 2960 (if
+I remember right) we used this kind
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |                                                               |
+    \                             HMAC                              /
+    /                                                               \
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+of things for arbitrary length things.
+
+So I would prefer to add show a padding here and make the
+above statement that the padding is optionally there for
+32-bit alignment.
+> Section 6.1 should reference RFC 4086/BCP 106 on generation
+> of good random numbers for security purposes.
+>
+OK.
+> Section 6.1:
+>
+>    The RANDOM parameter, the CHUNKS parameter and the HMAC-ALGO
+>    parameter sent by each endpoint are concatenated as byte vectors.
+>
+> Do the concatenated entities include the type and length fields?
+Sure: this is why we used "parameter" and not "parameter value".
+Even padding is considered part of the parameter.
+>
+>    This is performed by selecting
+>    the smaller key number and concatenating it to the endpoint pair
+>    shared key, and then concatenating the larger of the key numbers to
+>    that.  If both key numbers are equal, then the concatenation  
+> order is
+>    the endpoint shared key, followed by the key number with the  
+> shorter
+>    length, followed by the key number with the longer length.  If the
+>    key number lengths are the same, then they may be concatenated  
+> to the
+>    endpoint pair key in any order.
+>
+> The second and third sentences are almost certainly wrong, as
+> the second one makes no sense, and the third one can lead to
+> inconsistent results (different association keys) at the two
+> endpoints.  I think this may have been what was intended:
+>
+>    This is performed by selecting
+>    the smaller key number and concatenating it to the endpoint pair
+>    shared key, and then concatenating the larger of the key numbers to
+>    that.  If both key numbers are equal, then they may be concatenated
+>    to the endpoint pair key in any order.
+No it is intended as written.
+
+Please note that when the key numbers are equal as numbers, they
+can be represented in multiple ways as byte vectors.
+
+For example 1 01 001 0001 are four representations of the number
+one. Only if the key numbers represent the same number and are
+of equal length, they are equal as byte v1068006D97;
+	Tue, 20 Feb 2007 20:13:10 +0100 (CET)
+	(KNF-authenticated sender: macmic)
+In-Reply-To: <F222151D3323874393F83102D614E055068B8E47@CORPUSMX20A.corp.emc.com>
+References: <F222151D3323874393F83102D614E055068B8E47@CORPUSMX20A.corp.emc.com>
+Mime-Version: 1.0 (Apple Message framework v752.3)
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <45B3E739-B074-40D3-A4F9-078C54EF7D14@fh-muenster.de>
+Content-Transfer-Encoding: 7bit
+From: Michael Tuexen <tuexen@fh-muenster.de>
+Date: Tue, 20 Feb 2007 20:13:08 +0100
+To: Black_David@emc.com
+X-Mailer: Apple Mail (2.752.3)
+X-Spam-Score: 4.3 (++++)
+X-Scan-Signature: 223e3c753032a50d5dc4443c921c3fcd
+X-Mailman-Approved-At: Tue, 20 Feb 2007 14:26:52 -0500
+Cc: magnus.westerlund@ericsson.com, ekr@rtfm.com, gen-art@ietf.org,
+	peterlei@cisco.com, rrs@cisco.com, lars.eggert@nokia.com, jmpolk@cisco.com
+Subject: [Gen-art] Re: Gen-ART review of draft-ietf-tsvwg-sctp-auth-07.txt
+X-BeenThere: gen-art@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "GEN-ART: General Area Review Team" <gen-art.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/gen-art>,
+	<mailto:gen-art-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/gen-art>
+List-Post: <mailto:gen-art@ietf.org>
+List-Help: <mailto:gen-art-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/gen-art>,
+	<mailto:gen-art-request@ietf.org?subject=subscribe>
+Errors-To: gen-art-bounces@ietf.org
+
+Hi David,
+
+see my comments in-line.
+
+Best regards
+Michael
+
+On Feb 20, 2007, at 3:34 PM, Black_David@emc.com wrote:
+
+> I have been selected as the General Area Review Team (Gen-ART)
+> reviewer for this draft (for background on Gen-ART, please see
+> http://www.alvestrand.no/ietf/gen/art/gen-art-FAQ.html).
+>
+> Please wait for direction from your document shepherd
+> or AD before posting a new version of the draft.
+>
+> Document: draft-ietf-tsvwg-sctp-auth-07.txt
+> Reviewer: David L. Black
+> Review Date: 20 Feb 2007
+> IESG Telechat date: 22 Feb 2007
+>
+> Summary:
+>
+> This draft is on the right track, but has open issues, described
+> in the review.
+>
+> Comments:
+>
+> There are two open issues:
+> (1) The AUTH chunk comes before the material it authenticates,
+> 	preventing pipelined computation of the MAC.  IPsec experience
+> 	indicates that this may not be a good design choice.  If
+> 	the alternative of putting the MAC after the data it covers
+> 	(need another chunk to indicate start of covered data) was
+> 	considered in the WG, the reason for rejecting it needs
+> 	to be explained.
+SCTP currently requires that DATA chunks can not be followed by
+control chunks. We would have to break that rule to be able to
+authenticate DATA chunks or not allow DATA chunks to be authenticated.
+But or something like DTLS over SCTP it is important to be able
+to authenticate DATA chunks. So your suggestion requires breaking
+one of the "base" rules for SCTP packet generation.
+
+The other problem with your suggestion is that the receiver
+is required to process chunks in the packet in the sequence
+they appear in the packet. But your suggestion would require
+that you process the last chunk (HMAC check) before processing
+the chunks which are authenticated.
+
+We did think about a different way to put the HMAC after
+the stuff being authenticated by encapsulating the chunks
+being authenticated into the AUTH chunk and having the the
+HMAC after the chunk. But this would make processing them
+much more complicated.
+
+What would you gain? Not much, I guess. The implementations
+I know consider a packet as a sequence of memory objects
+holding a chunk (for example an mbuf chain). When you put
+in a chunk which needs to be authenticated you insert also
+the AUTH chunk. Before sending the packet (almost when you
+are about to compute the checksum) you compute the
+HMAC and put it where it has to be. Even if there
+would be hardware support for the algorithms one can not
+do it in hardware and insert it when the corresponding field
+is put on the wire (like you would do for a checksum in
+a ectors.
+
+So I think the spec is correct.
+>
+> Section 6.1 is inconsistent about whether there are endpoint shared
+> keys (plural) or key (singular).  Multiple keys are apparently  
+> possible,
+> so this needs to specify how the same endpoint shared key is selected
+> by both endpoints.  Section 6.2 says one of them MUST be selected,
+> but doesn't say how.  Section 6.3 finally explains the role of the
+> Shared Key Identifier - this needs to be explained in Sections 6.1
+> and 6.2.
+6.1 contains:
+
+    Both endpoints of an association MAY have endpoint pair shared keys
+    which are byte vectors and pre-configured or established by another
+    mechanism.  They are identified by the shared key identifier.  If no
+    endpoint pair shared keys are preconfigured or established by  
+another
+    mechanism an empty byte vector is used.
+
+The term key is used only in the text for the computation of the  
+association
+shared keys. This is done, because you do the computation for each  
+endpoint
+pair shared key.
+
+>
+> Section 6.2:
+>
+> Placement of the AUTH chunk before the chunks it authenticates
+> prevents pipelined computation and checking of the MAC.  This
+> was a serious issue with IPsec AH, and lead to the use of
+> authenticate-only ESP because ESP's MAC is after the data it
+> covers.  This design choice needs to be carefully considered.
+> If the alternative of putting the MAC after the data it covers
+> (need another chunk to indicate start of covered data) was
+> considered in the WG, the reason for rejecting it needs to be
+> explained.
+See my arguments above. Let me know if they are wrong.
+>
+> Also:
+>
+>    The 'data' used for the computation of
+>    the AUTH-chunk is given by Figure 6 and all chunks that are placed
+>    after the AUTH chunk in the SCTP packet.
+>
+> Need to say the data in Figure 6 is prepended to "all chunks that are
+> placed after the AUTH chunk in the SCTP packet."
+>
+We can write
+    The 'data' used for the computation of the AUTH-chunk
+    is given by the AUTH chunk shown in Figure 6 followed
+    by all chunks that are placed after the AUTH chunk in
+    the SCTP packet.
+> Section 6.3:
+>
+>    If the receiver does not find a STCB for a packet
+>    containing an AUTH chunk as a first chunk and a COOKIE-ECHO  
+> chunk as
+>    the second chunk and possibly more chunks after them, the receiver
+>    MUST authenticate the chunks by using the random numbers  
+> included in
+>    the COOKIE-ECHO, and possibly the local shared secret.
+>
+> Which random numbers located where in the COOKIE-ECHO chunk?
+The ones in the RANDOM parameter which were contained in the
+INIT and INIT-ACK chunk. The structure of the COOKIE is not
+defined and only relevant to the sender of the COOKIE parameter
+which is the receiver of the COOKIE chunk.
+>   How
+> are they used?
+As described in 6.3.
+>
+> Section 7's discussion of the upper layer interaction (e.g.,
+> COMMUNICATION-UP notification) needs a reference to the interface
+> being used for that discussion, probably the SCTP sockets API.
+We can not reference the socket API, because that is not yet an RFC...
+And we need to protocol specified before having experience with
+the API. We could reference UNP or section 10 of RFC 2960.
+>
+> In Section 8.4, please tell IANA what to do with the unused
+> value 2 in the new HMAC identifier table, as the values 1
+> and 3 are used.  The easiest thing to do is mark it Reserved.
+We can do that.
+>
+> Thanks,
+> --David
+> ----------------------------------------------------
+> David L. Black, Senior Technologist
+> EMC Corporation, 176 South St., Hopkinton, MA  01748
+> +1 (508) 293-7953             FAX: +1 (508) 293-7786
+> black_david@emc.com        Mobile: +1 (978) 394-7754
+> ----------------------------------------------------
+>
+>
+
+
+_______________________________________________
+Gen-art mailing list
+Gen-art@ietf.org
+https://www1.ietf.org/mailman/listinfo/gen-art
+
+
+
+
+
+packet trailer) because you need the HMAC also for the CRC-32C
+computation and the SCTP checksum is in the packet header not
+trailer.
+
+So for me this looks like:
+- I do not get anything by putting the HMAC at the end,
+   or at least not much.
+- I have to break multiple SCTP rules to put the HMAC
+   at the end.
+
+ From this the decision we made seems to be appropriate.
+
+David, did I understand your point correctly?
+> (2) There's a lack of precision in a number of places in
+> 	in Section 6's specifications of the authentication
+> 	calculations to be performed (Russ Housley found one of
+> 	them, but there are more).  All of these are relatively
+> 	easy to fix, but they do have to be fixed, as even minor
+> 	issues in specifying how to compute a MAC lead to
+> 	lack of interoperability - see specific comments below.
+I agree: the spec has to be clear. I already commented the
+mail from Russ. I'll do this for your points, too. Please
+let me what you think about the comments.
+>
+> All of the comments on Sections other than Section 6 (and its
+> subsections) are nits.
+>
+> Sections 3.2 and 3.3 include Padding in the ASCII diagrams
+> of the chunk formats without describing it.  Both need a
+> sentence saying that padding is included only when needed
+> to make the chunk length a multiple of 4 bytes.
+We can add that... This is the general concept for all parameters.
+>
+> In contrast, I think the 2 bytes of Padding in Section 4.1
+> are always present, and that should be stated.
+We can add that, too.
+>
+> Section 5.1 needs to include the (obvious) statement that
+> the size of the HMAC output MUST be a multiple of 4 bytes.
+>
+It is better to allow a padding here, too. In RFC 2960 (if
+I remember right) we used this kind
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |                                                               |
+    \                             HMAC                              /
+    /                                                               \
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+of things for arbitrary length things.
+
+So I would prefer to add show a padding here and make the
+above statement that the padding is optionally there for
+32-bit alignment.
+> Section 6.1 should reference RFC 4086/BCP 106 on generation
+> of good random numbers for security purposes.
+>
+OK.
+> Section 6.1:
+>
+>    The RANDOM parameter, the CHUNKS parameter and the HMAC-ALGO
+>    parameter sent by each endpoint are concatenated as byte vectors.
+>
+> Do the concatenated entities include the type and length fields?
+Sure: this is why we used "parameter" and not "parameter value".
+Even padding is considered part of the parameter.
+>
+>    This is performed by selecting
+>    the smaller key number and concatenating it to the endpoint pair
+>    shared key, and then concatenating the larger of the key numbers to
+>    that.  If both key numbers are equal, then the concatenation  
+> order is
+>    the endpoint shared key, followed by the key number with the  
+> shorter
+>    length, followed by the key number with the longer length.  If the
+>    key number lengths are the same, then they may be concatenated  
+> to the
+>    endpoint pair key in any order.
+>
+> The second and third sentences are almost certainly wrong, as
+> the second one makes no sense, and the third one can lead to
+> inconsistent results (different association keys) at the two
+> endpoints.  I think this may have been what was intended:
+>
+>    This is performed by selecting
+>    the smaller key number and concatenating it to the endpoint pair
+>    shared key, and then concatenating the larger of the key numbers to
+>    that.  If both key numbers are equal, then they may be concatenated
+>    to the endpoint pair key in any order.
+No it is intended as written.
+
+Please note that when the key numbers are equal as numbers, they
+can be represented in multiple ways as byte vectors.
+
+For example 1 01 001 0001 are four representations of the number
+one. Only if the key numbers represent the same number and are
+of equal length, they are equal as byte vectors.
+
+So I think the spec is correct.
+>
+> Section 6.1 is inconsistent about whether there are endpoint shared
+> keys (plural) or key (singular).  Multiple keys are apparently  
+> possible,
+> so this needs to specify how the same endpoint shared key is selected
+> by both endpoints.  Section 6.2 says one of them MUST be selected,
+> but doesn't say how.  Section 6.3 finally explains the role of the
+> Shared Key Identifier - this needs to be explained in Sections 6.1
+> and 6.2.
+6.1 contains:
+
+    Both endpoints of an association MAY have endpoint pair shared keys
+    which are byte vectors and pre-configured or established by another
+    mechanism.  They are identified by the shared key identifier.  If no
+    endpoint pair shared keys are preconfigured or established by  
+another
+    mechanism an empty byte vector is used.
+
+The term key is used only in the text for the computation of the  
+association
+shared keys. This is done, because you do the computation for each  
+endpoint
+pair shared key.
+
+>
+> Section 6.2:
+>
+> Placement of the AUTH chunk before the chunks it authenticates
+> prevents pipelined computation and checking of the MAC.  This
+> was a serious issue with IPsec AH, and lead to the use of
+> authenticate-only ESP because ESP's MAC is after the data it
+> covers.  This design choice needs to be carefully considered.
+> If the alternative of putting the MAC after the data it covers
+> (need another chunk to indicate start of covered data) was
+> considered in the WG, the reason for rejecting it needs to be
+> explained.
+See my arguments above. Let me know if they are wrong.
+>
+> Also:
+>
+>    The 'data' used for the computation of
+>    the AUTH-chunk is given by Figure 6 and all chunks that are placed
+>    after the AUTH chunk in the SCTP packet.
+>
+> Need to say the data in Figure 6 is prepended to "all chunks that are
+> placed after the AUTH chunk in the SCTP packet."
+>
+We can write
+    The 'data' used for the computation of the AUTH-chunk
+    is given by the AUTH chunk shown in Figure 6 followed
+    by all chunks that are placed after the AUTH chunk in
+    the SCTP packet.
+> Section 6.3:
+>
+>    If the receiver does not find a STCB for a packet
+>    containing an AUTH chunk as a first chunk and a COOKIE-ECHO  
+> chunk as
+>    the second chunk and possibly more chunks after them, the receiver
+>    MUST authenticate the chunks by using the random numbers  
+> included in
+>    the COOKIE-ECHO, and possibly the local shared secret.
+>
+> Which random numbers located where in the COOKIE-ECHO chunk?
+The ones in the RANDOM parameter which were contained in the
+INIT and INIT-ACK chunk. The structure of the COOKIE is not
+defined and only relevant to the sender of the COOKIE parameter
+which is the receiver of the COOKIE chunk.
+>   How
+> are they used?
+As described in 6.3.
+>
+> Section 7's discussion of the upper layer interaction (e.g.,
+> COMMUNICATION-UP notification) needs a reference to the interface
+> being used for that discussion, probably the SCTP sockets API.
+We can not reference the socket API, because that is not yet an RFC...
+And we need to protocol specified before having experience with
+the API. We could reference UNP or section 10 of RFC 2960.
+>
+> In Section 8.4, please tell IANA what to do with the unused
+> value 2 in the new HMAC identifier table, as the values 1
+> and 3 are used.  The easiest thing to do is mark it Reserved.
+We can do that.
+>
+> Thanks,
+> --David
+> ----------------------------------------------------
+> David L. Black, Senior Technologist
+> EMC Corporation, 176 South St., Hopkinton, MA  01748
+> +1 (508) 293-7953             FAX: +1 (508) 293-7786
+> black_david@emc.com        Mobile: +1 (978) 394-7754
+> ----------------------------------------------------
+>
+>
+
+
+_______________________________________________
+Gen-art mailing list
+Gen-art@ietf.org
+https://www1.ietf.org/mailman/listinfo/gen-art
+
+
+
+

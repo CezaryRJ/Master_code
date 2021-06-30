@@ -1,0 +1,119 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ldap-dir
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ldap-dir/2006-09.mailcl']
+id : 26a2c1a4-faa4-4aa4-a0cc-fd64eccb4969
+_version_ : 1675129525850079233
+
+Content : 
+
+Message-ID: <007b01c6d0fb$56862b40$425a4599@@lycos.com>
+From: "Alba Buchanan" <a.buchananum@lycos.com>
+To: lemonade@ietf.org, ldap-dir-admin@ietf.org, ldap-dir-web-archive@ietf.org,
+	ldap-dir@ietf.org
+Date: Tue, 05 Sep 2006 10:55:33 -0400
+MIME-Version: 1.0
+Content-Type: text/plain; format=flowed; charset="iso-8859-1";
+	reply-type=original
+Content-Tranfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Spam-Score: 1.6 (+)
+X-Scan-Signature: 8b431ad66d60be2d47c7bfeb879db82c
+Cc: 
+Subject: [Ldap-dir] PGCN.. st0ck explosion!
+X-BeenThere: ldap-dir@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: LDAP Directorate <ldap-dir.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ldap-dir>,
+	<mailto:ldap-dir-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ldap-dir@ietf.org>
+List-Help: <mailto:ldap-dir-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ldap-dir>,
+	<mailto:ldap-dir-request@ietf.org?subject=subscribe>
+Errors-To: ldap-dir-bounces@ietf.org
+Message-Id: <E1GKQzx-0004Zv-90@megatron.ietf.org>
+
+Explosive pick for our members.
+This st0ck will explode Tuesday Morning DO NOT WAIT!
+
+A Massive PR Campaign is Underway for Tuesday and all NEXT WEEK!
+MAJOR NEWS IS EXPECTED GET IN EARLY! 
+
+Date: Tuesday, September 5, 2006
+Company: Pingchuan Pharmaceutical Inc.
+Ticker: P G C N.OB
+Current Price: $.27
+5-Day Target: $1.5 - $2
+Rating: 10(10)
+Recommendation: S T R 0 N G -  B U  Y !!
+
+Could this company be the next PFIZER??
+
+Pingchaun Pharmaceuticals disributes its medications to over 
+50 percent of CHINA and has a tremendous presence via exports 
+to U.S.A, Russia, Japan and South-Eastern Asia.  They have 
+partnerships with the biggest drugstores, equivalent in the US 
+to SAV-ON, CVS, RITE-AID, etc.  With big News anticipated this 
+coming week we strongly advise you to get in EARLY and issue 
+a 10/10 Alert.
+  
+Put this one on your Radar NOW!
+
+About Pingchuan Pharmaceutical Inc. 
+Pingchuan Pharmaceutical Inc. ("PINGCHUAN") is a modernized 
+pharmaceutical manufacturer with first-class medical R&D 
+ability, pioneered medicine products, and well-established 
+marketing network. Since its establishment, PINGCHUAN has 
+focused its businesses on diabetes medicine and 
+its medical products. The products of PINGCHUAN include 
+health care products, varieties of medicine, as well as 
+medical apparatus. Kang Da Glycosuria Capsule is a 
+successful product of PINGCHUAN for treating diabetes, which 
+was first developed in 1998 and introduced to the market in 
+2001. PINGCHUAN has well-established marketing network and 
+sale branches, which include about 180,000 retail pharmacies
+/drugstores across China, agency network in major cities 
+like Beijing, Shanghai, Guangzhou, and Xi'an, special 
+counter sale at drug chain stores in key regions, residence 
+community clinic sale and promotion, as well as internet 
+marketing through the company's website. The marketing 
+network of PINGCHUAN covers more than 50 percent districts 
+of China and exports to US, Japan, Russia, and 
+south-eastern Asia. 
+
+Remember the gains from our recent recommendations... Do not
+miss out, Put P G C N.ob on your radar's now. Good luck and
+trade out at the top!!
+
+_______________________________________________
+Ldap-dir mailing list
+Ldap-dir@ietf.org
+https://www1.ietf.org/mailman/listinfo/ldap-dir
+
+

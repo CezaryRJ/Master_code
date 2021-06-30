@@ -1,0 +1,22 @@
+2000 TO 2010
+-------#####------->    earlywarning
+Hannes.Tschofenig@gmx.net 16
+br@brianrosen.net 16
+jmpolk@cisco.com 15
+acb@incident.com 12
+trutkowski@netmagic.com 10
+creed@opengeospatial.org 7
+hgs@cs.columbia.edu 7
+carlberg@g11.org.uk 5
+rbarnes@bbn.com 5
+spencer@wonderhamster.org 5
+daylward@comcare.org 4
+drage@alcatel-lucent.com 4
+jgunn6@csc.com 4
+bs7652@att.com 3
+Martin.Thomson@andrew.com 2
+artbotterell@gmail.com 2
+budden@nps.navy.mil 2
+hardie@qualcomm.com 2
+tgrapes@evotecinc.com 2
+mdolly@att.com 1

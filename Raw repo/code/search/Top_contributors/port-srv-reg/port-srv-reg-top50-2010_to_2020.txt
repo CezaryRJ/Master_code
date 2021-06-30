@@ -1,0 +1,22 @@
+2010 TO 2020
+-------#####------->    port-srv-reg
+touch@isi.edu 112
+lars.eggert@nokia.com 70
+cheshire@apple.com 59
+magnus.westerlund@ericsson.com 54
+michelle.cotton@icann.org 45
+alexey.melnikov@isode.com 34
+ietfdbh@comcast.net 17
+touch@ISI.EDU 17
+pearl.liang@icann.org 15
+rdk@krupczak.org 8
+gorry@erg.abdn.ac.uk 7
+ogud@ogud.com 7
+stpeter@stpeter.im 7
+ah@TR-Sys.de 6
+mark.mcfadden@icann.org 5
+jouni.korhonen@nsn.com 3
+joe.hildebrand@webex.com 2
+LBarr@extensis.com 1
+jmpolk@cisco.com 1
+lear@cisco.com 1

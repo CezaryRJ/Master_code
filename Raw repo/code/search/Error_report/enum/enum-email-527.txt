@@ -1,0 +1,155 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : enum
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/enum/2007-04.mailcl']
+id : de3b3120-52dd-42ff-afae-ad43be6da429
+_version_ : 1675130785997258752
+
+Content : 
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>So it seems that the US Patent applicant just =
+copied
+exactly what I said in the ICANN discussion list, and secretly filed a =
+patent
+with many abusive verbose claims, and that patent that was only =
+disclosed in
+2002 when the ENUM project was made concrete, and they want to make =
+money with
+an idea that they did not have and was publicly disclosed to ICANN =
+before them.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>I won&#8217;t claim a patent myself (I =
+can&#8217;t
+pay an advocate for that to defend in US), but at least us Patent =
+6,347,085 can
+be proven invalid !<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'>Philippe Verdy.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'><a =
+href=3D"mailto:verdy_p@wanadoo.fr">verdy_p@wanadoo.fr</a><o:p></o:p></spa=
+n></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>At the time of publishing I was living at this
+address:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-indent:35.4pt'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>17 rue Jean =
+Dussourd,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>92600 =
+Asni&egrave;res-sur-Seine,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>France<o:p></o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Now I live =
+here&nbsp;:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-indent:35.4pt'><font size=3D2 =
+face=3DArial><span
+lang=3DEN-GB style=3D'font-size:10.0pt;font-family:Arial'>15 rue Jean =
+Perrin, Appt.
+7<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-indent:35.4pt'><font size=3D2 =
+face=3DArial><span
+lang=3DEN-GB style=3D'font-size:10.0pt;font-family:Arial'>79000 =
+Niort<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-indent:35.4pt'><font size=3D2 =
+face=3DArial><span
+lang=3DEN-GB =
+style=3D'font-size:10.0pt;font-family:Arial'>France<o:p></o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>My current phone number: +33(0)5 47 73 67 =
+12<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_008A_01C78597.8624C0E0--
+
+
+
+
+--===============0535922622==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+enum mailing list
+enum@ietf.org
+https://www1.ietf.org/mailman/listinfo/enum
+
+--===============0535922622==--
+
+
+

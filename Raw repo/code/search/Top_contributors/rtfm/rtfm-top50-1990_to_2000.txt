@@ -1,0 +1,17 @@
+1990 TO 2000
+-------#####------->    rtfm
+n.brownlee@auckland.ac.nz 18
+Internet-Drafts@ns.ietf.org 12
+Internet-Drafts@ietf.org 10
+quittek@ccrle.nec.de 4
+edg@switchco.com 3
+peter.lewis@upperside.fr 3
+marius.clemetsen@telenor.com 2
+Majordomo@auckland.ac.nz 1
+bollino@coritel.it 1
+brunner@world.std.com 1
+eng60756@nus.edu.sg 1
+mcr@solidum.com 1
+nick.farrow@bt.com 1
+owner-rtfm@auckland.ac.nz 1
+ralph@letras.de 1

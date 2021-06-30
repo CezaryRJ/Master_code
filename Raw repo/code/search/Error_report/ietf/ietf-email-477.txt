@@ -1,0 +1,98 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2006-12.mailcl']
+id : ba15b19c-9c38-41b0-9cf8-83c15633f278
+_version_ : 1675130371545497600
+
+Content : 
+
+during Last Call.
+
+In that context, I can only applaud this document, not as a set 
+of rules that the IESG has to follow, but as one that informs 
+the community about the mechanisms the IESG is using. 
+Information is good.  And, if the IESG discovers that it needs 
+to update that information every time its membership changes (or 
+every time they discover something isn't working and make an 
+adjustment according), I'd consider that a sign of good health: 
+at least it would show that, at least in this area, historical 
+rules and behavior patterns are not constraining current 
+thinking to the extent that replacing IESG members doesn't bring 
+about change.
+
+At the risk of giving a sales pitch, my other proposals have 
+been intended to reinforce the model above: I think it is always 
+going to be hard, in our community, to find IESG members who are 
+good at doing these kinds of technical evaluations and sensitive 
+to the issues involved and who are also outstanding managers, 
+cat-herders, bureaucrats, finance experts, and experts on 
+organizational behavior.   So I have sought to separate some of 
+those roles.  I think that long terms on the IESG tend to breed 
+detachment from the community and a tendency to put IESG 
+judgment ahead of that of the community and I don't think we can 
+solve that with more rules about IESG behavior.  So I have 
+sought to give Nomcoms guidance about terms, to change the 
+nomination/appointment model, and to make the recall mechanism 
+more effective in practice.   And I have sought ways to simplify 
+the job and reduce the workload in the hope that we can go back 
+to treating a term or two on the IESG as an obligation that the 
+right sorts of people owe the community, rather than a position 
+to be sought and in the more general hope of broadening the pool 
+of people who are willing to serve.
+
+The fact that my proposals for change have not been instituted 
+tells me that the community does not see a serious problem and 
+doesn't believe that changes are needed.  While I believe that 
+the lack of acceptance of changes has been IESG recalcitrance 
+and efforts to protect the authority and ways of working with 
+they are familiar and comfortable, I don't think that changes 
+the conclusion: the community has ways, however unpleasant, for 
+imposing changes that have community consensus but that it IESG 
+doesn't like and has chosen to not use them.  I disagree, but I 
+think the consensus-in-practice is fairly clear and I have to 
+accept that.
+
+To me, it is in the areas of adjusting IESG scope, 
+responsiveness, and membership that we need to do our tuning, 
+not by trying to restrict the IESG to particular ways of doing 
+its technical evaluations or the statements ADs can make about 
+specifications submitted for approval and especially what 
+arguments an AD can use for forcing the rest of the IESG to take 
+a harder look and initiate an in-depth discussion (internally 
+and, if appropriate, with the community).  More hard rules about 
+how the IESG does its technical evaluation work won't, IMO, help 
+us in the common, ordinary, cases and, when an exceptional one 
+arrives, such rules are likely to force the IESG into making the 
+wrong decisions and doing the wrong things and thereby hurt the 
+IETF and the Internet.
+
+    john
+
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf

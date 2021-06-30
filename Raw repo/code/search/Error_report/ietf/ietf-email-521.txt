@@ -1,0 +1,106 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-04.mailcl']
+id : 1d62656d-975e-4aae-b89f-beb21a8ed80d
+_version_ : 1675130273912586240
+
+Content : 
+
+>      restrictions like this.
+
+Problem 1 seems solvable to me, but I'd like more input.  For 2, My goal is
+this exchange:
+
+Manufacturer: "We're requesting the General Use License from RedPhone
+Security.  In exchange, we promise not to implement (or on a per-release
+basis: we did not implement) the PAS Functions."  
+
+Each Manufacturer needs to take responsibility only for "his" own actions;
+any subsequent Manufacturer (alters the code in a way that may or may not be
+material to the PAS Functions) either voids the license or inherits it or
+requests their own license -- but that's not "your" problem.  
+
+A Manufacturer will develop code, test the functionality and release the
+software.  At each of these steps it should be pretty clear if the software
+being developed, tested and released violates the PAS Functions.  ..Doubly
+clear if the function of the software is to make use of X509 certificates
+which are marked with a "critical" policy that identifies RedPhone Security
+(a hard-coded OID ending in .23106 will likely show up in the software).
+
+I think a free software provider/clearinghouse could choose to not go beyond
+the RedPhone Security General Use License with no problem.  In the event
+that some third party contributor made a code contribution "back" to the
+provider that violated the PAS Functions, simply classify that
+code-contribution as "buggy" -- and choose to not roll that contribution up
+into any release.
+
+I can imagine a case where a user of free software chooses to start with
+free software and then obtain a PAS License from RPS and become
+Manufacturer2.  Then the score would be:  Manufacturer1: GUL, Manufacturer2:
+PASL, and both would remain true to their commitments -- no problems.  The
+only problem would be if Manufacturer2 contributed PAS Functions back to
+Manufacturer1 and then Manufacturer1 rolled those functions in (and tested
+and released them) under GUL.
+
+Back to question 1, I guess the question for me is, Who is making the
+promise to RedPhone Security?  How the promise is communicated is not the
+main issue.  If the preferred OpenSSL approach is to put a legal stuff into
+comments atop source files which are published for anyone to see, that may
+be more effective than sending one postcard.
+
+This may also help (somewhat) the "on installation" question.  If one
+Manufacturer only releases (presumably tested) source code, then "on
+installation" for source code could simply be comments atop the source code
+file.  What I want to accomplish is fair warning to downstream users /
+Manufacturers, so that we can help users steer clear of accidental GUL
+violations. 
+
+In summary, for (1) I'd like more input.  RPS "will provide" a GUL upon
+request, by snail mail or electronically.  The question I have is how an
+open source provider might prefer to make that request with its associated
+promise about PAS Functions -- once and for all, or from time to time, etc.
+This question could be sorted out on a per-license basis, but I think
+consistency would be preferable.
+
+For (2) I'd like each Manufacturer/User to stand on his or her own two feet.
+If "you" made or used the PAS Functions, "you" need a license.  Otherwise,
+say "you" didn't under the GUL.  No Manufacturer under the GUL should be
+responsible for implementations of PAS Functions that they did not develop,
+test and/or release.
+
+Thanks for your response Simon.
+
+Best regards,
+--mark
+
+
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+

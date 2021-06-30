@@ -1,0 +1,9 @@
+html 1158|     Bytes = 8901721
+html?C=S;O=A 1158|     Bytes = 8901721
+html?C=M;O=D 1157|     Bytes = 8900947
+html?C=M;O=A 1158|     Bytes = 8901721
+html?C=D;O=A 1158|     Bytes = 8901721
+html?C=N;O=D 1158|     Bytes = 8901721
+html?C=S;O=D 1158|     Bytes = 8901837
+html?C=D;O=D 1158|     Bytes = 8901837
+html?C=N;O=A 1158|     Bytes = 8901837

@@ -1,0 +1,120 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : pim
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/pim/2007-07.mailcl']
+id : b8cae771-ee30-417b-a420-173f98665159
+_version_ : 1675132142361772032
+
+Content : 
+
+> BSMs that appear to come from one of your own BSRs.
+> 
+> Due to the RPF check someone compromising a non-BSR router (one that is
+> not allowed to be the BSR) will only be able to originate BSMs and get
+> them flooded to parts of the domain (they must pass the RPF check for
+> one of the valid BSD addresses).
+> 
+> I admit access lists give limited protection. What I think one should
+> do in general is simply to discard all BSMs from non-trusted neighbors.
+> That is, drop BSMs on interfaces facing customer/peer/ISP routers.
+> 
+> We are currently saying:
+> 
+>   6.3.1.  Rejecting Bootstrap Messages from Invalid Neighbors
+> 
+>   Most hosts that are likely to attempt to subvert PIM BSR are likely to
+>   be located on leaf subnets.  We recommend that implementers provide a
+>   configuration option that specifies an interface is a leaf subnet, and
+>   that no PIM packets are accepted on such interfaces.
+> 
+> Here we are however talking about invalid neighbors, not non-trusted
+> neighbors.
+> 
+> I think we should modify this text so that it recommends a configuration
+> option for dropping BSMs on interfaces in general. This would then be
+> useful on both leaf subnets and on external links. This text talking
+> about "no PIM packets" is kind of leftover from when BSR was part of the
+> PIM specification.
+> 
+> Next the text says:
+> 
+>   On multi-access subnets with multiple PIM routers and hosts that are
+>   not trusted, we recommend that IPsec AH is used to protect
+>   communication between PIM routers, and that such routers are
+>   configured to drop and log communication attempts from any host that
+>   do not pass the authentication check.  When all the PIM routers are
+>   under the same administrative control, this authentication may use a
+>   configured shared secret.
+> 
+> We should update this text to talk about both hosts and non-trusted
+> (or external?) PIM routers. That is, IPsec is needed if you want to only
+> receive BSMs from some routers but don't trust everyone on the link.
+> 
+> The only real value I see with ACLs is when you don't use IPsec and have
+> these non-trusted multi-access links. It depends on the topology, but it
+> should be possible to choose the location of the candidate BSRs so that
+> any forged BSM coming from a multi-access subnet with one of the valid
+> BSR addresses will fail RPF. E.g. if the multi-access subnets are close
+> to the edge, and the C-BSRs are centrally located, only those routers
+> further towards the edge will accept the forged BSM.
+
+I should also have said that ACLs are useful on these multi-access links
+for blocking benign BSMs from other domains while still using BSM
+between your own routers. As I say above you would still be vulnerable
+to attacks though.
+
+Stig
+
+> 
+> I agree this is not all that good. I'm fine with removing the ACL
+> recommendation and instead recommend the config option for dropping all
+> BSMs on external interfaces. I guess it should even be a SHOULD as this
+> is fairly important for most BSR deployments.
+> 
+> I'm familiar with implementations that can drop all BSMs, but not with
+> anyone doing the ACLs. What does the rest of you think of dropping the
+> ACL recommendation for BSMs and just recommend configuration option for
+> BSR border interfaces?
+> 
+> Thanks Sandy for helping me finally see this. What do you think of this
+> BSR border interface configuration instead of the more vague ACLs?
+> 
+> Stig
+> 
+>>
+>> --Sandy
+> 
+> 
+> 
+> _______________________________________________
+> pim mailing list
+> pim@ietf.org
+> https://www1.ietf.org/mailman/listinfo/pim
+
+
+_______________________________________________
+pim mailing list
+pim@ietf.org
+https://www1.ietf.org/mailman/listinfo/pim

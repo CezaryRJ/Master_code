@@ -1,0 +1,5 @@
+Year = 1984
+Adr count = 1
+Removed 0
+Sum 1.0
+Avarage = 1.0

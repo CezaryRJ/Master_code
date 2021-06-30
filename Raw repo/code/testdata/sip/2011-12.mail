@@ -1,0 +1,49 @@
+
+From rjsparks@nostrum.com  Wed Dec  7 14:40:39 2011
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 341061F0C36; Wed,  7 Dec 2011 14:40:39 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.6
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.6 tagged_above=-999 required=5 tests=[AWL=0.000,  BAYES_00=-2.599, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zv8zhJTbPMfv; Wed,  7 Dec 2011 14:40:38 -0800 (PST)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by ietfa.amsl.com (Postfix) with ESMTP id B70601F0C35; Wed,  7 Dec 2011 14:40:38 -0800 (PST)
+Received: from dn3-177.estacado.net (vicuna-alt.estacado.net [75.53.54.121]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id pB7Meb51011738 (version=TLSv1/SSLv3 cipher=DHE-RSA-CAMELLIA256-SHA bits=256 verify=NO); Wed, 7 Dec 2011 16:40:38 -0600 (CST) (envelope-from rjsparks@nostrum.com)
+Message-ID: <4EDFEB66.5010302@nostrum.com>
+Date: Wed, 07 Dec 2011 16:40:38 -0600
+From: Robert Sparks <rjsparks@nostrum.com>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:8.0) Gecko/20111105 Thunderbird/8.0
+MIME-Version: 1.0
+To: sip@ietf.org, sipping@ietf.org, rai@ietf.org
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Received-SPF: pass (nostrum.com: 75.53.54.121 is authenticated by a trusted mechanism)
+Subject: [Sip] Closing the SIP and SIPPING mailing lists
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+Reply-To: rai@ietf.org
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 07 Dec 2011 22:40:39 -0000
+
+Folks -
+
+When we closed the SIP and SIPPING working groups in 2009, we left the 
+mail lists open
+to ensure we had a venue for any remaining business and to help people 
+migrate to the
+new lists. Based on several recent requests, and after consulting with 
+the list moderators,
+we are closing the old lists to new messages.
+
+The archives will continue to be maintained in their current location.
+
+RjS

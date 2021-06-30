@@ -1,0 +1,17 @@
+2000 TO 2010
+-------#####------->    addr-select-dt
+arifumi@nttv6.net 49
+tjc@ecs.soton.ac.uk 35
+hiromi@inetcore.com 15
+brian@innovationslab.net 6
+Francis.Dupont@fdupont.fr 5
+bob.hinden@gmail.com 4
+fujisaki@syce.net 4
+suresh.krishnan@ericsson.com 4
+marc.blanchet@viagenie.ca 3
+bob.hinden@nokia.com 2
+marcelo@it.uc3m.es 2
+teemu.savolainen@nokia.com 2
+alh-ietf@tndh.net 1
+denghui02@gmail.com 1
+fred@cisco.com 1

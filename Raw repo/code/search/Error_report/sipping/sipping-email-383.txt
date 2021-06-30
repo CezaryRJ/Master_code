@@ -1,0 +1,126 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-08.mailcl']
+id : d81fa14b-5675-4893-9ae4-10e6722ab828
+_version_ : 1675132980793704448
+
+Content : 
+
+>     is forwarded that the forwarded leg is originated by the
+forwarding
+>     user and hence is treated as an originating leg also to be able to
+>     provide originating services for the forwarding user. That is
+>     scenario 3.3. It turned out not even to be possible to do that in
+>     IMS using the current procedures. This draft provides part of the
+>     solution for that. The other scenarios are added to show that
+>     solving the overloading problem, also allows other scenarios.
+>
+>     Regarding service interaction: That is always an issue that need
+to
+>     be looked at the specific cases. If one as an application deployer
+>     chooses to allow continuation of iFC processing then all the
+>     additional interaction cases have to be considered.
+>
+>     I think the suggestion from Miguel to add a parameter whereby
+>     the applications can control whether iFC processing continues or
+not
+>     is a useful addition in this persective as well.
+>
+>     Best Regards,
+>
+>     /Hans Erik
+>
+>
+------------------------------------------------------------------------
+>     *From:* Jeroen van Bemmel [mailto:jbemmel@zonnet.nl]
+>     *Sent:* Thursday, July 19, 2007 10:06 PM
+>     *To:* Hans Erik van Elburg (RY/ETM)
+>     *Cc:* sipping
+>     *Subject:* Concrete examples for to
+>     draft-vanelburg-sipping-served-user-01.txt
+>
+>     Hi Hans Erik,
+>
+>     Could you provide some more concrete examples of the scenarios
+>     described in draft-vanelburg-sipping-served-user-01.txt section 3?
+>
+>     For example, 3.2 currently states "Imagine a service scenario
+where
+>     a user B has a terminating service that diverts the call to a
+>     different destination, but it is required that subsequent
+>     terminating services for the same user are still executed.". I'm
+>     having trouble imagining such a scenario, in particular what kind
+of
+>     subsequent terminating services you have in mind here. On the
+other
+>     side, I can easily imagine examples where the service interaction
+>     that results from continuening iFC execution would be undesirable
+>     (for example: diversion followed by anonymous call rejection)
+>
+>     Same question for 3.3 and 3.4. There appear to be several implicit
+>     reasons which the reader is expected to know, from which
+apparently
+>     these requirements follow.
+>
+>     Regards,
+>     Jeroen
+>
+>
+>
+> ----------------------------------------------------------------------
+> --
+>
+> _______________________________________________
+> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+> This list is for NEW development of the application of SIP Use=20
+> sip-implementors@cs.columbia.edu for questions on current sip Use=20
+> sip@ietf.org for new developments of core SIP
+
+--
+Miguel A. Garcia           tel:+358-50-4804586
+Nokia Siemens Networks     Espoo, Finland
+
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP Use
+sip-implementors@cs.columbia.edu for questions on current sip Use
+sip@ietf.org for new developments of core SIP
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP Use
+sip-implementors@cs.columbia.edu for questions on current sip Use
+sip@ietf.org for new developments of core SIP
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

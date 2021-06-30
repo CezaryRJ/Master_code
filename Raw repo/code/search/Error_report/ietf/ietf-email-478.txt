@@ -1,0 +1,115 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-10.mailcl']
+id : 2defe052-d6cd-4d9f-91aa-fe4d93e878b3
+_version_ : 1675130291852673024
+
+Content : 
+
+>=20
+> I specifically applied for patents underlying the technology=20
+> behind RFC 4722/RFC 5022 and RFC 4730 specifically to prevent=20
+> third parties, who are not part of the IETF process, from=20
+> extracting royalties from someone who implements MSCML or=20
+> KPML.  Cost to license?  $0.  Cost to sue someone who=20
+> infringes said third-party's IPR?  That depends, but at least=20
+> we raised the cost of shutting down an IETF standard.
+>=20
+> Remember, just because *you* do not have IPR in an IETF=20
+> standard does not mean someone *else* has IPR in the=20
+> standard.  If that someone else does not participate in the=20
+> IETF or, for that matter, happen to not participate in the=20
+> work group or, in reality, are not editors of a document,=20
+> they can fully apply their IPR against the standard once it issues.
+>=20
+> I like to have a little inoculation against that situation in=20
+> the stuff I submit.
+>=20
+> -----Original Message-----
+> From: Keith Moore [mailto:moore@cs.utk.edu]
+> Sent: Monday, October 29, 2007 4:04 PM
+> To: lrosen@rosenlaw.com
+> Cc: ietf@ietf.org
+> Subject: Re: When is using patented technology appropriate?
+>=20
+> Lawrence Rosen wrote:
+> > Keith Moore wrote:
+> >  =20
+> >> For several reasons, it is difficult to imagine an IETF-wide=20
+> >> procedure that allows the existence of a patent to trump other=20
+> >> considerations of protocol feasibility and deployability:
+> >>    =20
+> >
+> > Who suggested otherwise? It is not the existence of the patent that=20
+> > matters, but its unavailability under license terms that allow=20
+> > implementation in
+> > *any* software.
+> >  =20
+> _and_ its validity, _and_ its applicability, both of which=20
+> can be subjective and difficult to determine conclusively=20
+> without long delays
+> and excessive expense.   so we have to make judgments.  and by "we" I
+> mean individuals participating in IETF, not IETF itself.
+> > The more feasible and deployable the protocol, the more=20
+> important will
+>=20
+> > be FOSS implementations.
+> >  =20
+> only relative to other protocols in the same space.
+>=20
+> granted that patents are the bane of any open=20
+> standards-making organization, because patents do exactly the=20
+> opposite of what open standards do.  at the same time, we=20
+> can't let FUD about patents become a denial of service attack=20
+> to IETF efforts.
+>=20
+> Keith
+>=20
+>=20
+> _______________________________________________
+> Ietf mailing list
+> Ietf@ietf.org
+> https://www1.ietf.org/mailman/listinfo/ietf
+>=20
+> Notice:  This email message, together with any attachments,=20
+> may contain information  of  BEA Systems,  Inc.,  its=20
+> subsidiaries  and  affiliated entities,  that may be=20
+> confidential,  proprietary,  copyrighted  and/or legally=20
+> privileged, and is intended solely for the use of the=20
+> individual or entity named in this message. If you are not=20
+> the intended recipient, and have received this message in=20
+> error, please immediately return this by email and then delete it.
+>=20
+> _______________________________________________
+> Ietf mailing list
+> Ietf@ietf.org
+> https://www1.ietf.org/mailman/listinfo/ietf
+>=20
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf

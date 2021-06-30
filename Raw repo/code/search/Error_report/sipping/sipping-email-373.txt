@@ -1,0 +1,2207 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2006-03.mailcl']
+id : 9a810c5f-92e8-40f3-8778-2810a33c806d
+_version_ : 1675132950607298560
+
+Content : 
+
+location
+information to the emergency responder, the disabling of the =
+interactions with
+some other telephony features, prioritized signaling and resource =
+reservation
+and zero based charging. Thus an Emergency service is different to a =
+Standard Telephony
+service.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>In SIPPING and ECRIT we =
+have been
+discussing supporting Emergency Services and there are proposals to =
+define a
+services URN to identify the Emergency Service. The use of this service =
+URN
+could also be extended to also cover other Communication services =
+defined by
+standards organizations (e.g 3GPP, OMA, TISPAN&#8230;), Service =
+providers (MSN,
+Skype etc) and local government, academic institutions and private
+corporations. Possibly this is part of the Communication Service =
+Identifier
+solution.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'>Currently the problem of identifying a communication =
+service
+has been resolved by bodies such as OMA simply defining feature-tags for
+Services and including them in the Accept-Contact header. For instance =
+OMA PoC
+has defined a +g.poc.talkburst tag and terminals and servers include =
+this tag
+in the Accept-Contact of all initial =
+requests.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>The semantics of =
+Accept-Contact as I
+understand them are really only related to the matching of a feature set
+predicate to a capability set. These predicates can be quite complicated =
+and
+simply including a feature tag as a service identifier in an =
+Accept-Contact
+header seems to be both overload and extend the scope of what was =
+intended in
+RFC 3840/3841 and cause potential interactions that could significantly
+restrict the use of complex predicates. <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Now +g.poc.talkburst can be
+considered as an expression of a preference to reach a device that is =
+OMA PoC
+talkburst control capable which is necessary for OMA PoC and hence =
+compatible
+with the semantics of Accept-Contact. However in PoC this tag is also =
+included
+in Subscribes to the conference state event package and other messages =
+such a
+Publish that are sent to PoC Servers that are not directly related to or =
+really
+requiring talkburst control or even destined to reach the PoC terminals. =
+In
+this case the Accept-Contact header is being overloaded to just =
+transport a tag
+that can be used by Filter Criteria as a trigger to route to the PoC =
+server and
+to associate this request as being part of the PoC Communication Service =
+for
+charging and policy purposes.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Now OMA is also developing =
+OMA IM
+based on SIMPLE0.211); Wed, 22 Mar 2006 18:22:49 -0500
+Importance: normal
+Priority: normal
+Received: from XCH20YKF.rim.net ([10.102.100.35]) by ngw02ykf.rim.net (SAVSMTP
+	3.1.6.45) with SMTP id M2006032218224904491 ;
+	Wed, 22 Mar 2006 18:22:49 -0500
+Received: from XCH47YKF.rim.net ([10.64.31.217]) by XCH20YKF.rim.net with
+	Microsoft SMTPSVC(5.0.2195.6713); Wed, 22 Mar 2006 18:22:49 -0500
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.181
+Content-Class: urn:content-classes:message
+MIME-Version: 1.0
+Subject: RE: [Sipping] Requirements for the identification of IMS
+	communicationservices.
+Date: Wed, 22 Mar 2006 18:22:47 -0500
+Message-ID: <61968779B8AC4C4BAB421D4C12F008C0708C26@XCH47YKF.rim.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sipping] Requirements for the identification of IMS
+	communicationservices.
+thread-index: AcZI9yUC3b+08wi0QT2FLNzdNK13wQEmoYTg
+From: "Andrew Allen" <aallen@rim.com>
+To: "Stephen Terrill \(E2/EEM\)" <stephen.terrill@ericsson.com>,
+	"sipping" <sipping@ietf.org>
+X-OriginalArrivalTime: 22 Mar 2006 23:22:49.0160 (UTC)
+	FILETIME=[88AFD480:01C64E07]
+X-Spam-Score: 0.1 (/)
+X-Scan-Signature: 1cd98896277c9313f638c31173abaee0
+X-Mailman-Approved-At: Wed, 22 Mar 2006 18:26:44 -0500
+Cc: Rohan Mahy <rohan@ekabal.com>,
+	"Gonzalo Camarillo \(JO/LMF\)" <gonzalo.camarillo@ericsson.com>,
+	Dean Willis <dean.willis@softarmor.com>
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0140506937=="
+Errors-To: sipping-bounces@ietf.org
+
+This is a multi-part message in MIME format.
+
+--===============0140506937==
+Content-Transfer-Encoding: 7bit
+Content-Class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C64E07.88747CE9"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C64E07.88747CE9
+Content-Type: text/plain;
+	charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+I have been a little delayed finding the time up to now to get into the
+public SIPPING list discussions on this. But I have already been
+involved earlier in some discussions on this within 3GPP and also
+privately with some of the SIPPING participants.
+
+=20
+
+Firstly I am supportive of the basic requirement to provide a
+straightforward means to easily identify that SIP requests are related
+to a particular communication service.=20
+
+=20
+
+Of course it is possible to take a view that there is only a single
+communication service enabled by SIP however in reality I think both the
+average user and service providers have the need to group and package
+features and capabilities together as "communication services"
+
+=20
+
+My definition of a "communication service" is a somewhat arbitrary
+bundle or package of capabilities that make some sense when grouped
+together from either a user experience or a service provider business
+perspective. Some service groupings are historical (such as replicating
+the telephony supplementary services of GSM or a 5ESS) others are based
+on a grouping of those capabilities available in popular products (such
+as MSN messenger and Netmeeting). Others may be "public services" such
+as Emergency Services.
+
+=20
+
+If you try to provide users with several hundred capabilities without
+some simple groupings that they can remember, understand and relate to
+you end up with more options than they will buy or can practically use.
+Therefore it is convenient and useful for users to have capabilities and
+features grouped or packaged together as "communication services".
+Remember that the average consumer cannot program their VCR!
+
+=20
+
+>From a service provider perspective packaging capabilities and fe and we will end up with something like +g.im.messaging =
+tags included
+everywhere with that. If we don&#8217;t come up with an appropriate =
+mechanism
+that satisfies the requirements then this hacked solution will become =
+the
+default standard. So I think developing a documented IETF solution is
+appropriate and necessary. Otherwise what is likely to happen is that =
+3GPP will
+simply rubber stamp the OMA mechanism which then will be adopted by =
+TISPAN,
+Packetcable and everyone else that will use IMS. There is a real danger =
+that
+the ability to define feature tags and include them in Accept-Contact =
+becomes a
+way to extend SIP in proprietary and non-interoperable ways outside the =
+SIP
+change process defined in RFC 3427.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Many of the requirements =
+that are
+listed for the IMS Communication Service Identifier seem not to be =
+compatible
+with the current defined semantics of feature tags in Accept-Contact. In =
+fact
+only requirement 11 seems to fully match the semantics of a feature tag =
+in
+Accept-Contact. Requirement 4 on invoking services through some =
+intermediate
+node between the endpoints seems to be clearly out of the scope of the =
+current
+semantics of Accept-Contact as is requirement 10 on authorizing the =
+request
+based on the Communication Service =
+Identifier.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>There is also the =
+requirement for
+invoking applications at endpoints based on the IMS Service Identifier =
+and this
+needs to be considered and the solution documented within IETF so that =
+it will
+be generally applicable.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>I also share =
+Jonathan&#8217;s and
+other concern that this is not used to create a situation where =
+applications
+cannot interoperate between different domains. Requirement 12 addresses =
+this
+issue however having SIPPING work on the problem should be a way to help =
+ensure
+this doesn&#8217;t happen.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Andrew<o:p></o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><font =
+size=3D2
+face=3DTahoma><span style=3D'font-size:10.0pt;font-family:Tahoma'> =
+Stephen Terrill
+(E2/EEM) [mailto:stephen.terrill@ericsson.com] <br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Thursday, March 16, =
+2006
+7:43 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> sipping<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b> Rohan Mahy; Gonzalo =
+Camarillo
+(JO/LMF); Dean Willis<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> [Sipping] =
+Requirements
+for the identification of IMS =
+communicationservices.</span></font><o:p></o:p></p>
+
+</div>
+
+<p class=3DMsoNormal><font sizeatures
+together as "communication services" allows them to sell different
+communication service options to their customers. I know some take a
+view that "service based charging" is "evil" but I think it is
+unrealistic to expect that service providers will always provide all
+services together for a flat fee especially when these services require
+investment in additional infrastructure such as Presence Servers,
+Conference Servers, Voice Mail Server, Media Servers, etc. In fact it
+probably isn't in my interests as a user to have service providers
+provide everything all together for a flat fee because then I will end
+up paying for all those things that I don't want or have any use for. It
+is useful to give users some choice in what services they sign up to but
+in a way that reduces the total list of options to something that is
+understandable to most people.
+
+=20
+
+Although Telephony and Push To talk share a similar characteristic in
+that they both exchange audio communication they can be considered, sold
+and deployed as different "communication services". The user experience
+and understanding of these services is different even is they both
+involve audio communication. Likewise you could deploy instant messaging
+and Push to talk as part of the same "communication service" even though
+they don't exchange the same media as from a user experience perspective
+they can be perceived as messaging style communication.
+
+=20
+
+A call for emergency assistance although similar in many respects to a
+telephone call is not the same and has different characteristics such as
+the need to be routed to a particular PSAP based on the callee's
+location, the automatic providing of location information to the
+emergency responder, the disabling of the interactions with some other
+telephony features, prioritized signaling and resource reservation and
+zero based charging. Thus an Emergency service is different to a
+Standard Telephony service.
+
+=20
+
+In SIPPING and ECRIT we have been discussing supporting Emergency
+Services and there are proposals to define a services URN to identify
+the Emergency Service. The use of this service URN could also be
+extended to also cover other Communication services defined by standards
+organizations (e.g 3GPP, OMA, TISPAN...), Service providers (MSN, Skype
+etc) and local government, academic institutions and private
+corporations. Possibly this is part of the Communication Service
+Identifier solution.
+
+=20
+
+Currently the problem of identifying a communication service has been
+resolved by bodies such as OMA simply defining feature-tags for Services
+and including them in the Accept-Contact header. For instance OMA PoC
+has defined a +g.poc.talkburst tag and terminals and servers include
+this tag in the Accept-Contact of all initial requests.
+
+=20
+
+The semantics of Accept-Contact as I understand them are really only
+related to the matching of a feature set predicate to a capability set.
+These predicates can be quite complicated and simply including a feature
+tag as a service identifier in an Accept-Contact header seems to be both
+overload and extend the scope of what was intended in RFC 3840/3841 and
+cause potential interactions that could significantly restrict the use
+of complex predicates.=20
+
+=20
+
+Now +g.poc.talkburst can be considered as an expression of a preference
+to reach a device that is OMA PoC talkburst control capable which is
+necessary for OMA PoC and hence compatible with the semantics of
+Accept-Contact. However in PoC this tag is also included in Subscribes
+to the conference state event package and other messages such a Publish
+that are sent to PoC Servers that are not directly related to or really
+requiring talkburst control or even destined to reach the PoC terminals.
+In this case the Accept-Contact header is being overloaded to just
+transport a tag that can be used by Filter Criteria as a trigger to
+route to the PoC server and to associate this request as being part of
+the PoC Communication Service for charging and policy purposes.
+
+=20
+
+Now OMA is also developing OMA IM based on SIMPLE and we will end up
+w=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Hello All,</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>I am of the understanding that there have been some =
+questions
+regarding the requirements for the identification of IMS services.&nbsp; =
+I
+would like to provide an understanding of the 3GPP discussions on this
+topic.&nbsp; As I see it, the need to identify the IMS communication =
+services
+stems from that we have/are devloping different services on IMS as a SIP
+infrastructure, such as push-to-talk over cellular (PoC) or =
+messaging.&nbsp; As
+there are different services and as it is not safe to rely on the =
+expressed
+media as the media may be used in different services then there is the =
+need to
+identify the service that is requisted.&nbsp; This could be seen as a =
+means to
+identify the context upon which to interpret the SIP signalling.&nbsp; =
+This is
+required to e.g. Identify the application server that supports this
+communication service and to identify the client to invoke in the =
+terminating
+network.&nbsp; While writting this, I seem to recall a parrallel =
+discussion in
+relation to presence, and that was along the lines that was that it was
+required to identify the service that was used to communicate in the =
+presence,
+as otherwise two if the same presence information appeared for two
+incompatabile services (e.g. two incomptable versions of push to talk) =
+which
+fulfulled the same end-user expectation appeared the same in presence, =
+then the
+end-user would get confused as to why s/he could communicate with some =
+users
+but not with others.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Please note that this is not intended to identify service =
+that
+are routed to, such as train time tables etc.&nbsp; For these services, =
+the
+communication services is a means to route to and reach the ultimtate =
+end-user
+service.&nbsp; This discussion is about how to identify the =
+communication
+service.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>This has been discussed at an architectural level within =
+3GPP
+and a Technical Report has been produced.&nbsp; The Technical report can =
+be
+found at </span></font><a
+href=3D"http://www.3gpp.org/ftp/Specs/Latest-drafts/23816-110.zip"><font =
+size=3D2
+face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>http://www.3gpp.org/ftp/Specs/Latest-drafts/23816-110.zip</span></f=
+ont></a><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>.&nbsp;
+This has been moved to approved status this week.&nbsp; The essence of =
+this
+technical report has been included in specification text which can be =
+captured
+in </span></font><a
+href=3D"http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2=
+-060468.ZIP"><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-0=
+60468.ZIP</span></font></a><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>
+and </span></font><a
+href=3D"http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2=
+-060469.ZIP"><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-0=
+60469.ZIP</span></font></a><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>
+.&nbsp; Note that the changes included in S2-060468.ZIP are changes to =
+what was
+already included in the specification text last year.&nbsp; These =
+documents
+represent the approved requirements within =
+3GPP.</span></fith something like +g.im.messaging tags included everywhere with that.
+If we don't come up with an appropriate mechanism that satisfies the
+requirements then this hacked solution will become the default standard.
+So I think developing a documented IETF solution is appropriate and
+necessary. Otherwise what is likely to happen is that 3GPP will simply
+rubber stamp the OMA mechanism which then will be adopted by TISPAN,
+Packetcable and everyone else that will use IMS. There is a real danger
+that the ability to define feature tags and include them in
+Accept-Contact becomes a way to extend SIP in proprietary and
+non-interoperable ways outside the SIP change process defined in RFC
+3427.
+
+=20
+
+Many of the requirements that are listed for the IMS Communication
+Service Identifier seem not to be compatible with the current defined
+semantics of feature tags in Accept-Contact. In fact only requirement 11
+seems to fully match the semantics of a feature tag in Accept-Contact.
+Requirement 4 on invoking services through some intermediate node
+between the endpoints seems to be clearly out of the scope of the
+current semantics of Accept-Contact as is requirement 10 on authorizing
+the request based on the Communication Service Identifier.
+
+=20
+
+There is also the requirement for invoking applications at endpoints
+based on the IMS Service Identifier and this needs to be considered and
+the solution documented within IETF so that it will be generally
+applicable.
+
+=20
+
+I also share Jonathan's and other concern that this is not used to
+create a situation where applications cannot interoperate between
+different domains. Requirement 12 addresses this issue however having
+SIPPING work on the problem should be a way to help ensure this doesn't
+happen.
+
+=20
+
+Andrew
+
+=20
+
+From: Stephen Terrill (E2/EEM) [mailto:stephen.terrill@ericsson.com]=20
+Sent: Thursday, March 16, 2006 7:43 AM
+To: sipping
+Cc: Rohan Mahy; Gonzalo Camarillo (JO/LMF); Dean Willis
+Subject: [Sipping] Requirements for the identification of IMS
+communicationservices.
+
+=20
+
+Hello All,=20
+
+I am of the understanding that there have been some questions regarding
+the requirements for the identification of IMS services.  I would like
+to provide an understanding of the 3GPP discussions on this topic.  As I
+see it, the need to identify the IMS communication services stems from
+that we have/are devloping different services on IMS as a SIP
+infrastructure, such as push-to-talk over cellular (PoC) or messaging.
+As there are different services and as it is not safe to rely on the
+expressed media as the media may be used in different services then
+there is the need to identify the service that is requisted.  This could
+be seen as a means to identify the context upon which to interpret the
+SIP signalling.  This is required to e.g. Identify the application
+server that supports this communication service and to identify the
+client to invoke in the terminating network.  While writting this, I
+seem to recall a parrallel discussion in relation to presence, and that
+was along the lines that was that it was required to identify the
+service that was used to communicate in the presence, as otherwise two
+if the same presence information appeared for two incompatabile services
+(e.g. two incomptable versions of push to talk) which fulfulled the same
+end-user expectation appeared the same in presence, then the end-user
+would get confused as to why s/he could communicate with some users but
+not with others.
+
+Please note that this is not intended to identify service that are
+routed to, such as train time tables etc.  For these services, the
+communication services is a means to route to and reach the ultimtate
+end-user service.  This discussion is about how to identify the
+communication service.
+
+This has been discussed at an architectural level within 3GPP and a
+Technical Report has been produced.  The Technical report can be found
+at http://www.3gpp.org/ftp/Specs/Latest-drafts/23816-110.zip
+<http://www.3gpp.org/ftp/Specs/Latest-drafts/23816-110.zip> .  This has
+been moved to approved status this week.  The essence oont><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>I can appreciate that a number of readers prefer to read =
+this in
+text instead of word, as such the approved 3GPP text that has been =
+included in
+the specifications is included below.&nbsp; As such, the text below are =
+the
+3GPP stage 2 representation of the requirements.&nbsp; It is worth =
+keeping in
+mind that the text below represensts archtectural requirements and not =
+the
+protocol realisation of these requirements.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Please don't hesitate to contact me if you have any =
+questions.</span></font>
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>I apologies in advance to the references to the 3GPP =
+interfaces,
+they are retained as I though it was better to avoid modifying any of =
+the
+agreed text when copying it into this =
+email.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Best Regards,</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Stephen Terrill</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&lt;Specification Text&gt;</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>4.13.2&nbsp;
+Identification of IMS communication Services</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>A
+communication service identifier provides a framework for the =
+identification of
+IMS communication services utilising the IMS enablers.&nbsp; An IMS
+communication service is provided via the use of the IMS enablers. At =
+terminals,
+the use of a communication service identifier is similar to the use of =
+the port
+concept in TCP/IP, in that it allows applications in a terminal and the =
+network
+that use SIP for communication purposes to be identified. In the =
+terminal this
+means dispatching a SIP message to the correct application, and in the =
+network
+it means selection of the correct application server over ISC. Examples =
+of IMS
+based applications and communication services are OMA messaging and OMA =
+PoC.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The communication service is an aggregation of one or =
+several
+media components and the service logic managing the aggregation, =
+represented in
+the protocols used. Its behaviour and characteristics may be =
+standardized as
+done for the two examples above, or proprietary and specific for e.g. an
+operator or an enterprise.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>A service description specifies this behaviour and states =
+e.g.
+the allowed media combinations and state transitions as a consequence of
+signalling and use of IMS enablers in the network and =
+terminals.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The need of applying a service identifier is to be taken =
+within
+the specification of each individual service.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>The
+communication service identifier identifies IMS communication services =
+and
+shall be included in the relevant SIP =
+methods.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The IMS communication service identifier shall fulfil the
+following requirements:</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'f this technical
+report has been included in specification text which can be captured in
+http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-060468
+.ZIP
+<http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-06046
+8.ZIP>  and
+http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-060469
+.ZIP
+<http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-06046
+9.ZIP>  .  Note that the changes included in S2-060468.ZIP are changes
+to what was already included in the specification text last year.  These
+documents represent the approved requirements within 3GPP.
+
+I can appreciate that a number of readers prefer to read this in text
+instead of word, as such the approved 3GPP text that has been included
+in the specifications is included below.  As such, the text below are
+the 3GPP stage 2 representation of the requirements.  It is worth
+keeping in mind that the text below represensts archtectural
+requirements and not the protocol realisation of these requirements.
+
+Please don't hesitate to contact me if you have any questions.=20
+
+I apologies in advance to the references to the 3GPP interfaces, they
+are retained as I though it was better to avoid modifying any of the
+agreed text when copying it into this email.
+
+Best Regards,=20
+
+Stephen Terrill=20
+
+<Specification Text>=20
+4.13.2  Identification of IMS communication Services=20
+A communication service identifier provides a framework for the
+identification of IMS communication services utilising the IMS enablers.
+An IMS communication service is provided via the use of the IMS
+enablers. At terminals, the use of a communication service identifier is
+similar to the use of the port concept in TCP/IP, in that it allows
+applications in a terminal and the network that use SIP for
+communication purposes to be identified. In the terminal this means
+dispatching a SIP message to the correct application, and in the network
+it means selection of the correct application server over ISC. Examples
+of IMS based applications and communication services are OMA messaging
+and OMA PoC.
+
+The communication service is an aggregation of one or several media
+components and the service logic managing the aggregation, represented
+in the protocols used. Its behaviour and characteristics may be
+standardized as done for the two examples above, or proprietary and
+specific for e.g. an operator or an enterprise.
+
+A service description specifies this behaviour and states e.g. the
+allowed media combinations and state transitions as a consequence of
+signalling and use of IMS enablers in the network and terminals.
+
+The need of applying a service identifier is to be taken within the
+specification of each individual service.=20
+The communication service identifier identifies IMS communication
+services and shall be included in the relevant SIP methods.
+
+The IMS communication service identifier shall fulfil the following
+requirements:=20
+1. It shall be possible for the UE and an Application Server (AS) to set
+the=20
+   IMS communication service identifier in a SIP request, e.g. in the=20
+   REGISTER and INVITE request.=20
+2. Based on operator policy the S-CSCF or an AS shall be able to
+validate an=20
+   IMS communication service identifier in a SIP request. This includes
+e.g.=20
+   to check the syntactical correctness of a service identifier, and
+policing=20
+   the usage of a communication service identifier.=20
+3. It shall be possible, e.g. for the UE, S-CSCF and AS, to identify an=20
+   IMS service uniquely by the IMS communication service identifier.=20
+4. It shall be possible for the S-CSCF to invoke appropriate service=20
+   logic based on the IMS communication service identifier contained=20
+   in a SIP request, e.g. route a SIP request containing a service
+identifier=20
+   based on initial filter criteria to the correct AS.=20
+5. It shall be possible for the UE to invoke appropriate application=20
+   based on the IMS communication service identifier contained in a=20
+   received SIP request.=20
+6. It shall be possible for the UE to indicate its service capabilities=20
+   tfont-size:10.0pt;font-family:"Courier New"'>1.
+It shall be possible for the UE and an Application Server (AS) to set =
+the</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier in a SIP request, e.g. in =
+the</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+REGISTER and INVITE request.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>2.
+Based on operator policy the S-CSCF or an AS shall be able to validate =
+an</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier in a SIP request. This includes =
+e.g.</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+to check the syntactical correctness of a service identifier, and =
+policing</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+the usage of a communication service identifier.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>3.
+It shall be possible, e.g. for the UE, S-CSCF and AS, to identify =
+an</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS service uniquely by the IMS communication service =
+identifier.</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>4.
+It shall be possible for the S-CSCF to invoke appropriate =
+service</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+logic based on the IMS communication service identifier =
+contained</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+in a SIP request, e.g. route a SIP request containing a service =
+identifier</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+based on initial filter criteria to the correct AS.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>5.
+It shall be possible for the UE to invoke appropriate =
+application</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+based on the IMS communication service identifier contained in =
+a</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+received SIP request.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>6.
+It shall be possible for the UE to indicate its service capabilities =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+to the network, e.g. during registration, using the </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>7.
+The structure of the IMS communication service identifier shall be as =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+simple as possible, i.e. the IMS communication service identifier shall =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+be limited to identify a service.</span></font> <br>
+<font size=3D2 face=3D"Couro the network, e.g. during registration, using the=20
+   IMS communication service identifier.=20
+7. The structure of the IMS communication service identifier shall be as
+
+   simple as possible, i.e. the IMS communication service identifier
+shall=20
+   be limited to identify a service.=20
+8. Based on operator policy S-CSCF and AS shall consider the=20
+   IMS communication service identifier for online and offline charging,
+
+   e.g. put appropriate data into call detailed records.=20
+9. The communication service identifier shall be capable of being an=20
+   input into the policy control and charging rules.=20
+10. It shall be possible to use the IMS communication service identifier
+as=20
+    a means to authorise whether a subscriber is allowed to initiate or=20
+    receive request for a communication service.=20
+11. The communication service identifier shall be taken into account=20
+    when selecting the correct UE(s), if multiple UEs are registered=20
+    for the same Public User Identity(s).=20
+12. The usage of communication service identifiers shall not adversely=20
+    affect interoperability between IMS networks and interoperability=20
+    with external SIP networks and CS networks. The behaviour of a
+network=20
+    receiving the IMS requests without an IMS communication service=20
+    identifier is a matter of operator policy. Usage of communication=20
+    service identifiers shall not decrease the level of interoperability
+
+    with networks and UEs that are unaware of the communication service
+identifier.=20
+13. It shall be possible for the IMS network and UE to support
+communications=20
+    that do not use a communication service identifier. In the case that
+an=20
+    IMS communication service identifier is not present then the network
+may=20
+    assume a particular IMS communication service.=20
+14. The usage of communication service identifiers shall not restrict
+the inherent=20
+    capabilities of SIP.=20
+15. The usage of communication service identifiers shall not require
+additional user=20
+    interaction, i .e. the communication service identifier is assumed=20
+    to be "added" by the UE that initiates the communication.=20
+
+The network and the terminal shall be able to continue operation as
+defined in 3GPP Release 5 and 3GPP Release 6.=20
+
+The communication service identifier shall be available at least in the
+following interfaces:=20
+-       ISC; Gm; Mi, Mj, Mk, Mw; Mg; Mr;=20
+-       Cx; Dx (e.g as part of the iFC);=20
+-       Rx;=20
+-       Rf, Ro.=20
+
+NOTE:   The communication service identifier does not replace the=20
+public service identity (PSI). The communication service identifier
+would be used to indicate the communication service used to access the
+service addressed via a PSI, and is required to identify the
+communication service even when SIP requests are sent towards another
+entity without using a PSI.
+
+4.13.2  Identification of IMS applications=20
+
+An IMS application is an application that uses an IMS communication
+service(s) in order to provide a specific service to the end-user.  The
+IMS application uses specific IMS Communication Service(s) and provides
+the end user service through the reuse of the SIP communication part of
+service. The IMS application does not extend the definition of the IMS
+communication service.  The IMS application reference identifies the
+application utilising the IMS communication service.
+
+<< removed figure >>=20
+
+Figure 4.13-1:  IMS applications on top of an IMS communication service
+The IMS application reference is used to identify the IMS applications
+other than the default for the IMS communication service.  The IMS
+application reference has significance at the UE and the SIP AS behaving
+as SIP endpoints.  The means to transport the IMS application reference
+is defined within the IMS communication services.  When used, it shall
+be possible to transport the IMS application reference on at least on
+the following interfaces:
+
+*       ISC; Gm; Mi, Mj, Mk, Mw; Mg; Mr; Ro, Rx, Rf=20
+
+=20
+
+</Specification Text>=20
+
+=20
+
+
+
+
+---------------------------------------------ier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>8.
+Based on operator policy S-CSCF and AS shall consider the =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier for online and offline charging, =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+e.g. put appropriate data into call detailed records.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>9.
+The communication service identifier shall be capable of being an =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+input into the policy control and charging rules.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>10.
+It shall be possible to use the IMS communication service identifier as =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+a means to authorise whether a subscriber is allowed to initiate or =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+receive request for a communication service.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>11.
+The communication service identifier shall be taken into account =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+when selecting the correct UE(s), if multiple UEs are registered =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+for the same Public User Identity(s).</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>12.
+The usage of communication service identifiers shall not adversely =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+affect interoperability between IMS networks and interoperability =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+with external SIP networks and CS networks. The behaviour of a network =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+receiving the IMS requests without an IMS communication service =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+identifier is a matter of operator policy. Usage of communication =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+service identifiers shall not decrease the level of interoperability =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+with networks and UEs that are unaware of the communication service =
+identifier.</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>13.
+It shall be possible for the IMS network and UE to support =
+communications </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+that do not use a communication service identifier. In the case that an =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+IMS communication service identifier is not present then the network may =
+</span></font><br>
+<font size=------------------------
+This transmission (including any attachments) may contain confidential =
+information, privileged material (including material protected by the =
+solicitor-client or other applicable privileges), or constitute =
+non-public information. Any use of this information by anyone other than =
+the intended recipient is prohibited. If you have received this =
+transmission in error, please immediately reply to the sender and delete =
+this information from your system. Use, dissemination, distribution, or =
+reproduction of this transmission by unintended recipients is not =
+authorized and may be unlawful.
+
+------_=_NextPart_001_01C64E07.88747CE9
+Content-Type: text/html;
+	charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<title>Requirements for the identification of IMS communication =
+services.</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Batang";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dblue>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'>I have been a little delayed finding the time up to =
+now to
+get into the public SIPPING list discussions on this. But I have already =
+been
+involved earlier in some discussions on this within 3GPP and also =
+privately
+with some of the SIPPING participants.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'>Firstly I am supportive of the basic requirement to =
+provide
+a straightforward means to easily identify that SIP requests are related =
+to a
+particular communication service. <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'>Of course it is possible to take a view that there is =
+only a
+single communication service enabled by SIP however in reality I think =
+both the
+average user and service providers have the need to group and package =
+features
+and capabilities together as &#8220;communication =
+services&#8221;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>My definition of a
+3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+assume a particular IMS communication service.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>14.
+The usage of communication service identifiers shall not restrict the =
+inherent </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+capabilities of SIP.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>15.
+The usage of communication service identifiers shall not require =
+additional
+user </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+interaction, i .e. the communication service identifier is assumed =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+to be &#8220;added&#8221; by the UE that initiates the =
+communication.</span></font>
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The network and the terminal shall be able to continue =
+operation
+as defined in 3GPP Release 5 and 3GPP Release 6.</span></font> =
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The communication service identifier shall be available =
+at least
+in the following interfaces:</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ISC; Gm; Mi, Mj, Mk, Mw; Mg; Mr;</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Cx; Dx (e.g as part of the iFC);</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Rx;</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Rf, Ro.</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>NOTE:&nbsp;&nbsp; The communication service identifier =
+does not
+replace the </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>public
+service identity (PSI). The communication service identifier would be =
+used to
+indicate the communication service used to access the service addressed =
+via a
+PSI, and is required to identify the communication service even when SIP
+requests are sent towards another entity without using a =
+PSI.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>4.13.2&nbsp; Identification of IMS =
+applications</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>An IMS application is an application that uses an IMS =
+communication
+service(s) in order to provide a specific service to the end-user.&nbsp; =
+The
+IMS application uses specific IMS Communication Service(s) and provides =
+the end
+user service through the reuse of the SIP communication part of service. =
+The
+IMS application does not extend the definition of the IMS communication
+service.&nbsp; The IMS application reference identifies the application
+utilising the IMS communication service.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&lt;&lt; removed figure &gt;&gt;</span></font> =
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Figure 4.13-1:&nbsp; IMS applications on top of an IMS
+co&#8220;communication service&#8221; is a somewhat arbitrary bundle or =
+package
+of capabilities that make some sense when grouped together from either a =
+user
+experience or a service provider business perspective. Some service =
+groupings
+are historical (such as replicating the telephony supplementary services =
+of GSM
+or a 5ESS) others are based on a grouping of those capabilities =
+available in
+popular products (such as MSN messenger and Netmeeting). Others may be
+&#8220;public services&#8221; such as Emergency =
+Services.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>If you try to provide users =
+with
+several hundred capabilities without some simple groupings that they can
+remember, understand and relate to you end up with more options than =
+they will
+buy or can practically use. Therefore it is convenient and useful for =
+users to
+have capabilities and features grouped or packaged together as
+&#8220;communication services&#8221;. Remember that the average consumer =
+cannot
+program their VCR!<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>From a service provider =
+perspective
+packaging capabilities and features together as &#8220;communication
+services&#8221; allows them to sell different communication service =
+options to
+their customers. I know some take a view that &#8220;service based
+charging&#8221; is &#8220;evil&#8221; but I think it is unrealistic to =
+expect
+that service providers will always provide all services together for a =
+flat fee
+especially when these services require investment in additional =
+infrastructure
+such as Presence Servers, Conference Servers, Voice Mail Server, Media =
+Servers,
+etc. In fact it probably isn&#8217;t in my interests as a user to have =
+service
+providers provide everything all together for a flat fee because then I =
+will
+end up paying for all those things that I don&#8217;t want or have any =
+use for.
+It is useful to give users some choice in what services they sign up to =
+but in
+a way that reduces the total list of options to something that is =
+understandable
+to most people.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Although Telephony and Push =
+To talk
+share a similar characteristic in that they both exchange audio =
+communication
+they can be considered, sold and deployed as different =
+&#8220;communication
+services&#8221;. The user experience and understanding of these services =
+is
+different even is they both involve audio communication. Likewise you =
+could
+deploy instant messaging and Push to talk as part of the same
+&#8220;communication service&#8221; even though they don&#8217;t =
+exchange the
+same media as from a user experience perspective they can be perceived =
+as
+messaging style communication.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>A call for emergency =
+assistance
+although similar in many respects to a telephone call is not the same =
+and has
+different characteristics such as the need to be routed to a particular =
+PSAP
+bammunication service The IMS application reference is used to identify =
+the IMS
+applications other than the default for the IMS communication =
+service.&nbsp;
+The IMS application reference has significance at the UE and the SIP AS
+behaving as SIP endpoints.&nbsp; The means to transport the IMS =
+application
+reference is defined within the IMS communication services.&nbsp; When =
+used, it
+shall be possible to transport the IMS application reference on at least =
+on the
+following interfaces:</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&#8226;</span></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>ISC;
+Gm; Mi, Mj, Mk, Mw; Mg; Mr; Ro, Rx, Rf</span></font> <o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&lt;/Specification Text&gt;</span></font> <o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<p><hr>This transmission (including any attachments) may contain =
+confidential information, privileged material (including material =
+protected by the solicitor-client or other applicable privileges), or =
+constitute non-public information. Any use of this information by anyone =
+other than the intended recipient is prohibited. If you have received =
+this transmission in error, please immediately reply to the sender and =
+delete this information from your system. Use, dissemination, =
+distribution, or reproduction of this transmission by unintended =
+recipients is not authorized and may be unlawful.</body>
+
+</html>
+
+------_=_NextPart_001_01C64E07.88747CE9--
+
+
+--===============0140506937==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+--===============0140506937==--
+
+
+
+
+
+
+sed on the callee&#8217;s location, the automatic providing of =
+location
+information to the emergency responder, the disabling of the =
+interactions with
+some other telephony features, prioritized signaling and resource =
+reservation
+and zero based charging. Thus an Emergency service is different to a =
+Standard Telephony
+service.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>In SIPPING and ECRIT we =
+have been
+discussing supporting Emergency Services and there are proposals to =
+define a
+services URN to identify the Emergency Service. The use of this service =
+URN
+could also be extended to also cover other Communication services =
+defined by
+standards organizations (e.g 3GPP, OMA, TISPAN&#8230;), Service =
+providers (MSN,
+Skype etc) and local government, academic institutions and private
+corporations. Possibly this is part of the Communication Service =
+Identifier
+solution.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'>Currently the problem of identifying a communication =
+service
+has been resolved by bodies such as OMA simply defining feature-tags for
+Services and including them in the Accept-Contact header. For instance =
+OMA PoC
+has defined a +g.poc.talkburst tag and terminals and servers include =
+this tag
+in the Accept-Contact of all initial =
+requests.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>The semantics of =
+Accept-Contact as I
+understand them are really only related to the matching of a feature set
+predicate to a capability set. These predicates can be quite complicated =
+and
+simply including a feature tag as a service identifier in an =
+Accept-Contact
+header seems to be both overload and extend the scope of what was =
+intended in
+RFC 3840/3841 and cause potential interactions that could significantly
+restrict the use of complex predicates. <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Now +g.poc.talkburst can be
+considered as an expression of a preference to reach a device that is =
+OMA PoC
+talkburst control capable which is necessary for OMA PoC and hence =
+compatible
+with the semantics of Accept-Contact. However in PoC this tag is also =
+included
+in Subscribes to the conference state event package and other messages =
+such a
+Publish that are sent to PoC Servers that are not directly related to or =
+really
+requiring talkburst control or even destined to reach the PoC terminals. =
+In
+this case the Accept-Contact header is being overloaded to just =
+transport a tag
+that can be used by Filter Criteria as a trigger to route to the PoC =
+server and
+to associate this request as being part of the PoC Communication Service =
+for
+charging and policy purposes.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Now OMA is also developing =
+OMA IM
+based on SIMPLE and we will end up with something like +g.im.messaging =
+tags included
+everywhere with that. If we don&#8217;t come up with an appropriate =
+mechanism
+that satisfies the requirements then this hacked solution will become =
+the
+default standard. So I think developing a documented IETF solution is
+appropriate and necessary. Otherwise what is likely to happen is that =
+3GPP will
+simply rubber stamp the OMA mechanism which then will be adopted by =
+TISPAN,
+Packetcable and everyone else that will use IMS. There is a real danger =
+that
+the ability to define feature tags and include them in Accept-Contact =
+becomes a
+way to extend SIP in proprietary and non-interoperable ways outside the =
+SIP
+change process defined in RFC 3427.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Many of the requirements =
+that are
+listed for the IMS Communication Service Identifier seem not to be =
+compatible
+with the current defined semantics of feature tags in Accept-Contact. In =
+fact
+only requirement 11 seems to fully match the semantics of a feature tag =
+in
+Accept-Contact. Requirement 4 on invoking services through some =
+intermediate
+node between the endpoints seems to be clearly out of the scope of the =
+current
+semantics of Accept-Contact as is requirement 10 on authorizing the =
+request
+based on the Communication Service =
+Identifier.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>There is also the =
+requirement for
+invoking applications at endpoints based on the IMS Service Identifier =
+and this
+needs to be considered and the solution documented within IETF so that =
+it will
+be generally applicable.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>I also share =
+Jonathan&#8217;s and
+other concern that this is not used to create a situation where =
+applications
+cannot interoperate between different domains. Requirement 12 addresses =
+this
+issue however having SIPPING work on the problem should be a way to help =
+ensure
+this doesn&#8217;t happen.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><font size=3D2 =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial'>Andrew<o:p></o:p></span></fo=
+nt></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><font =
+size=3D2
+face=3DTahoma><span style=3D'font-size:10.0pt;font-family:Tahoma'> =
+Stephen Terrill
+(E2/EEM) [mailto:stephen.terrill@ericsson.com] <br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Thursday, March 16, =
+2006
+7:43 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> sipping<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b> Rohan Mahy; Gonzalo =
+Camarillo
+(JO/LMF); Dean Willis<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> [Sipping] =
+Requirements
+for the identification of IMS =
+communicationservices.</span></font><o:p></o:p></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Hello All,</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>I am of the understanding that there have been some =
+questions
+regarding the requirements for the identification of IMS services.&nbsp; =
+I
+would like to provide an understanding of the 3GPP discussions on this
+topic.&nbsp; As I see it, the need to identify the IMS communication =
+services
+stems from that we have/are devloping different services on IMS as a SIP
+infrastructure, such as push-to-talk over cellular (PoC) or =
+messaging.&nbsp; As
+there are different services and as it is not safe to rely on the =
+expressed
+media as the media may be used in different services then there is the =
+need to
+identify the service that is requisted.&nbsp; This could be seen as a =
+means to
+identify the context upon which to interpret the SIP signalling.&nbsp; =
+This is
+required to e.g. Identify the application server that supports this
+communication service and to identify the client to invoke in the =
+terminating
+network.&nbsp; While writting this, I seem to recall a parrallel =
+discussion in
+relation to presence, and that was along the lines that was that it was
+required to identify the service that was used to communicate in the =
+presence,
+as otherwise two if the same presence information appeared for two
+incompatabile services (e.g. two incomptable versions of push to talk) =
+which
+fulfulled the same end-user expectation appeared the same in presence, =
+then the
+end-user would get confused as to why s/he could communicate with some =
+users
+but not with others.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Please note that this is not intended to identify service =
+that
+are routed to, such as train time tables etc.&nbsp; For these services, =
+the
+communication services is a means to route to and reach the ultimtate =
+end-user
+service.&nbsp; This discussion is about how to identify the =
+communication
+service.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>This has been discussed at an architectural level within =
+3GPP
+and a Technical Report has been produced.&nbsp; The Technical report can =
+be
+found at </span></font><a
+href=3D"http://www.3gpp.org/ftp/Specs/Latest-drafts/23816-110.zip"><font =
+size=3D2
+face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>http://www.3gpp.org/ftp/Specs/Latest-drafts/23816-110.zip</span></f=
+ont></a><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>.&nbsp;
+This has been moved to approved status this week.&nbsp; The essence of =
+this
+technical report has been included in specification text which can be =
+captured
+in </span></font><a
+href=3D"http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2=
+-060468.ZIP"><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-0=
+60468.ZIP</span></font></a><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>
+and </span></font><a
+href=3D"http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2=
+-060469.ZIP"><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>http://www.3gpp.org/ftp/tsg_sa/WG2_Arch/TSGS2_50_Budapest/Docs/S2-0=
+60469.ZIP</span></font></a><font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>
+.&nbsp; Note that the changes included in S2-060468.ZIP are changes to =
+what was
+already included in the specification text last year.&nbsp; These =
+documents
+represent the approved requirements within =
+3GPP.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>I can appreciate that a number of readers prefer to read =
+this in
+text instead of word, as such the approved 3GPP text that has been =
+included in
+the specifications is included below.&nbsp; As such, the text below are =
+the
+3GPP stage 2 representation of the requirements.&nbsp; It is worth =
+keeping in
+mind that the text below represensts archtectural requirements and not =
+the
+protocol realisation of these requirements.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Please don't hesitate to contact me if you have any =
+questions.</span></font>
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>I apologies in advance to the references to the 3GPP =
+interfaces,
+they are retained as I though it was better to avoid modifying any of =
+the
+agreed text when copying it into this =
+email.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Best Regards,</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Stephen Terrill</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&lt;Specification Text&gt;</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>4.13.2&nbsp;
+Identification of IMS communication Services</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>A
+communication service identifier provides a framework for the =
+identification of
+IMS communication services utilising the IMS enablers.&nbsp; An IMS
+communication service is provided via the use of the IMS enablers. At =
+terminals,
+the use of a communication service identifier is similar to the use of =
+the port
+concept in TCP/IP, in that it allows applications in a terminal and the =
+network
+that use SIP for communication purposes to be identified. In the =
+terminal this
+means dispatching a SIP message to the correct application, and in the =
+network
+it means selection of the correct application server over ISC. Examples =
+of IMS
+based applications and communication services are OMA messaging and OMA =
+PoC.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The communication service is an aggregation of one or =
+several
+media components and the service logic managing the aggregation, =
+represented in
+the protocols used. Its behaviour and characteristics may be =
+standardized as
+done for the two examples above, or proprietary and specific for e.g. an
+operator or an enterprise.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>A service description specifies this behaviour and states =
+e.g.
+the allowed media combinations and state transitions as a consequence of
+signalling and use of IMS enablers in the network and =
+terminals.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The need of applying a service identifier is to be taken =
+within
+the specification of each individual service.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>The
+communication service identifier identifies IMS communication services =
+and
+shall be included in the relevant SIP =
+methods.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The IMS communication service identifier shall fulfil the
+following requirements:</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>1.
+It shall be possible for the UE and an Application Server (AS) to set =
+the</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier in a SIP request, e.g. in =
+the</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+REGISTER and INVITE request.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>2.
+Based on operator policy the S-CSCF or an AS shall be able to validate =
+an</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier in a SIP request. This includes =
+e.g.</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+to check the syntactical correctness of a service identifier, and =
+policing</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+the usage of a communication service identifier.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>3.
+It shall be possible, e.g. for the UE, S-CSCF and AS, to identify =
+an</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS service uniquely by the IMS communication service =
+identifier.</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>4.
+It shall be possible for the S-CSCF to invoke appropriate =
+service</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+logic based on the IMS communication service identifier =
+contained</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+in a SIP request, e.g. route a SIP request containing a service =
+identifier</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+based on initial filter criteria to the correct AS.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>5.
+It shall be possible for the UE to invoke appropriate =
+application</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+based on the IMS communication service identifier contained in =
+a</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+received SIP request.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>6.
+It shall be possible for the UE to indicate its service capabilities =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+to the network, e.g. during registration, using the </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>7.
+The structure of the IMS communication service identifier shall be as =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+simple as possible, i.e. the IMS communication service identifier shall =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+be limited to identify a service.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>8.
+Based on operator policy S-CSCF and AS shall consider the =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+IMS communication service identifier for online and offline charging, =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+e.g. put appropriate data into call detailed records.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>9.
+The communication service identifier shall be capable of being an =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;
+input into the policy control and charging rules.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>10.
+It shall be possible to use the IMS communication service identifier as =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+a means to authorise whether a subscriber is allowed to initiate or =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+receive request for a communication service.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>11.
+The communication service identifier shall be taken into account =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+when selecting the correct UE(s), if multiple UEs are registered =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+for the same Public User Identity(s).</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>12.
+The usage of communication service identifiers shall not adversely =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+affect interoperability between IMS networks and interoperability =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+with external SIP networks and CS networks. The behaviour of a network =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+receiving the IMS requests without an IMS communication service =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+identifier is a matter of operator policy. Usage of communication =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+service identifiers shall not decrease the level of interoperability =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+with networks and UEs that are unaware of the communication service =
+identifier.</span></font>
+<br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>13.
+It shall be possible for the IMS network and UE to support =
+communications </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+that do not use a communication service identifier. In the case that an =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+IMS communication service identifier is not present then the network may =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+assume a particular IMS communication service.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>14.
+The usage of communication service identifiers shall not restrict the =
+inherent </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+capabilities of SIP.</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>15.
+The usage of communication service identifiers shall not require =
+additional
+user </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+interaction, i .e. the communication service identifier is assumed =
+</span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+to be &#8220;added&#8221; by the UE that initiates the =
+communication.</span></font>
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The network and the terminal shall be able to continue =
+operation
+as defined in 3GPP Release 5 and 3GPP Release 6.</span></font> =
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>The communication service identifier shall be available =
+at least
+in the following interfaces:</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ISC; Gm; Mi, Mj, Mk, Mw; Mg; Mr;</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Cx; Dx (e.g as part of the iFC);</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Rx;</span></font> <br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier =
+New"'>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Rf, Ro.</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>NOTE:&nbsp;&nbsp; The communication service identifier =
+does not
+replace the </span></font><br>
+<font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>public
+service identity (PSI). The communication service identifier would be =
+used to
+indicate the communication service used to access the service addressed =
+via a
+PSI, and is required to identify the communication service even when SIP
+requests are sent towards another entity without using a =
+PSI.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>4.13.2&nbsp; Identification of IMS =
+applications</span></font> <o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>An IMS application is an application that uses an IMS =
+communication
+service(s) in order to provide a specific service to the end-user.&nbsp; =
+The
+IMS application uses specific IMS Communication Service(s) and provides =
+the end
+user service through the reuse of the SIP communication part of service. =
+The
+IMS application does not extend the definition of the IMS communication
+service.&nbsp; The IMS application reference identifies the application
+utilising the IMS communication service.</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&lt;&lt; removed figure &gt;&gt;</span></font> =
+<o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>Figure 4.13-1:&nbsp; IMS applications on top of an IMS
+communication service The IMS application reference is used to identify =
+the IMS
+applications other than the default for the IMS communication =
+service.&nbsp;
+The IMS application reference has significance at the UE and the SIP AS
+behaving as SIP endpoints.&nbsp; The means to transport the IMS =
+application
+reference is defined within the IMS communication services.&nbsp; When =
+used, it
+shall be possible to transport the IMS application reference on at least =
+on the
+following interfaces:</span></font><o:p></o:p></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&#8226;</span></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<font
+size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:"Courier New"'>ISC;
+Gm; Mi, Mj, Mk, Mw; Mg; Mr; Ro, Rx, Rf</span></font> <o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:10.0pt;font-family:
+"Courier New"'>&lt;/Specification Text&gt;</span></font> <o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<p><hr>This transmission (including any attachments) may contain =
+confidential information, privileged material (including material =
+protected by the solicitor-client or other applicable privileges), or =
+constitute non-public information. Any use of this information by anyone =
+other than the intended recipient is prohibited. If you have received =
+this transmission in error, please immediately reply to the sender and =
+delete this information from your system. Use, dissemination, =
+distribution, or reproduction of this transmission by unintended =
+recipients is not authorized and may be unlawful.</body>
+
+</html>
+
+------_=_NextPart_001_01C64E07.88747CE9--
+
+
+--===============0140506937==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+--===============0140506937==--
+
+
+
+
+

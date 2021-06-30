@@ -1,0 +1,70 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : agentx
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/agentx/2007-01.mailcl']
+id : a44067f9-56dc-4a5e-a56c-e57b82f59afe
+_version_ : 1675131810896412672
+
+Content : 
+
+From: 
+To: 
+X-Mailer: Microsoft Outlook Express 6.00.2800.1478
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$B%a!<%k5qH](B
+maki_noda21@yahoo.co.uk
+
+
+

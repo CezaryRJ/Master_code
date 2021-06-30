@@ -1,0 +1,47 @@
+Date : ['2008-01-07T12:31:50Z']
+Timezone : -0800
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<8390D7C9-7EA5-49D2-B4DE-917FFDD89A71@softarmor.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  8390D7C9-7EA5-49D2-B4DE-917FFDD89A71@softarmor.com
+Message-ID : <0C549DAFE1A8004D8EB57ACDD108646D0652083A@XCH-NW-2V2.nw.nos.boeing.com>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : hipsec
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/hipsec/2008-01.mailcl']
+id : 48d1c222-7710-4225-bcb4-081c85940b6d
+_version_ : 1675131892751400960
+
+Content : 
+
+------_=_NextPart_001_01C85143.3751A3A1--
+
+
+--===============1754810447==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Hipsec mailing list
+Hipsec@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/hipsec
+
+--===============1754810447==--
+

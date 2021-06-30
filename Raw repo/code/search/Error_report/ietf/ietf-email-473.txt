@@ -1,0 +1,92 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<45B1323D.7000903@gmx.de>']
+In-Reply-To-name : Null
+In-Reply-To-address :  45B1323D.7000903@gmx.de
+Message-ID : Null
+References : <OFA10C31FA.3EC10616-ON85257268.00000EE2-85257268.00018E9A@us.ibm.com>
+	<45B0E8E2.4010202@greenbytes.de>
+	<86D3E2F6-69D5-47E9-A5B3-01AA9E74B9D1@cisco.com>
+	<45B130ED.30d to be part  
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-01.mailcl']
+id : 00c8ada9-f692-4b66-835c-afdc11c10639
+_version_ : 1675130256448552961
+
+Content : 
+
+> of the WG. I'd really like to understand how one could come to that  
+> point of view (I'll remind everybody that Geoff is one of the  
+> authors of many WebDAV RFCs, and that Manfred has offered a  
+> complete rewrite of the locking sections a few months ago).
+>
+
+
+--Apple-Mail-12--109834736
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=ISO-8859-1
+
+<HTML><BODY style=3D"word-wrap: break-word; -khtml-nbsp-mode: space; =
+-khtml-line-break: after-white-space; "><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV>I=A0certainly consider Geoff and =
+Manfred part of the WG.=A0 I don't think any of these were ignored my =
+Lisa or me, I've read everyone one of them several times. I think that =
+for WG did not come to consensus to adopt these into the WG =
+draft.=A0<DIV><BR class=3D"khtml-block-placeholder"></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV>Cullen &lt;with my webdav =
+WG chair hat on&gt;</DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><BR><DIV><DIV>On Jan 19, =
+2007, at 12:58 PM, Julian Reschke wrote:</DIV><BR =
+class=3D"Apple-interchange-newline"><BLOCKQUOTE type=3D"cite"><P =
+style=3D"margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; =
+min-height: 14.0px"><BR></P> <P style=3D"margin: 0.0px 0.0px 0.0px =
+0.0px"><FONT face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">the only reason why "my" draft doesn't contain resolutions =
+for all (instead of many) open issues is that at some point of time, it =
+didn't seem to matter anymore, as the proposals basically were ignored =
+by you and the editor. Should this change, I could and would finish =
+it.</FONT></P> <P style=3D"margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px =
+Helvetica; min-height: 14.0px"><BR></P> <P style=3D"margin: 0.0px 0.0px =
+0.0px 0.0px"><FONT face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">BTW: it seems that you don't consider Geoff or Manfred to be =
+part of the WG. I'd really like to understand how one could come to that =
+point of view (I'll remind everybody that Geoff is one of the authors of =
+many WebDAV RFCs, and that Manfred has offered a complete rewrite of the =
+locking sections a few months ago).</FONT></P> <P style=3D"margin: 0.0px =
+0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><BR></P> =
+</BLOCKQUOTE></DIV><BR></DIV></BODY></HTML>=
+
+--Apple-Mail-12--109834736--
+
+
+--===============0629354877==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+--===============0629354877==--
+

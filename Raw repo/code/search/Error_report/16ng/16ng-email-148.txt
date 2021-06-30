@@ -1,0 +1,341 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : 99d64253-e9c3-456e-9579-1a57a4e48518
+_version_ : 1675131693075267586
+
+Content : 
+
+
+--Boundary_(ID_kYnTmoOgCoTGeDBshpQ1aw)--
+>From smadanapalli@gmail.com Wed May 24 15:22:53 2006
+Received: from nf-out-0910.google.com (nf-out-0910.google.com
+	[64.233.182.184])
+	by eeca16.sogang.ac.kr (8.12.8/8.12.8) with ESMTP id k4O6MpIB017826
+	for <16ng@eeca16.sogang.ac.kr>; Wed, 24 May 2006 15:22:52 +0900
+Received: by nf-out-0910.google.com with SMTP id l23so68048nfc
+        for <16ng@eeca16.sogang.ac.kr>; Tue, 23 May 2006 22:28:25 -0700 (PDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	s=beta; d=gmail.com;
+	h=received:message-id:date:from:to:subject:cc:in-reply-to:mime-version:content-type:content-transfer-encoding:content-disposition:references;
+	b=jT0HNa0CexaJ/N0q2yLIFNay6ceCJzKzLU/V9VuqWrBqH9dapmmNqsNigsBBGSXUrzC+TKKH3m1VNNZuCPMY+s9UrCKLAbQ3Yp/36FIBc/nx2htjsBC/gx0l8gYAuf6sHKQmy3uoOqGkQ2NStRog1oqKj0zFhUYMX2K6e3Ob/ig=
+Received: by 10.49.78.6 with SMTP id f6mr5359478nfl;
+        Tue, 23 May 2006 22:28:25 -0700 (PDT)
+Received: by 10.49.9.5 with HTTP; Tue, 23 May 2006 22:28:25 -0700 (PDT)
+Message-ID: <10e14db20605232228l1902769bx722db7d7b97d37e4@mail.gmail.com>
+Date: Wed, 24 May 2006 10:58:25 +0530
+From: "Syam Madanapalli" <smadanapalli@gmail.com>
+To: 16ng@eeca16.sogang.ac.kr
+Subject: Re: [16ng] Fw: I-D ACTION:draft-iab-link-encaps-00.txt
+In-Reply-To: <025901c67eec$a5abf710$6dc6dba8@daniellaptop>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+References: <025901c67eec$a5abf710$6dc6dba8@daniellaptop>
+X-BeenThere: 16ng@eeca16.sogang.ac.kr
+X-Mailman-Version: 2.1
+Precedence: list
+List-Id: IP over IEEE 802.16 Networks <16ng.eeca16.sogang.ac.kr>
+List-Unsubscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=unsubscribe>
+List-Archive: <http://eeca16.sogang.ac.kr/pipermail/16ng>
+List-Post: <mailto:16ng@eeca16.sogang.ac.kr>
+List-Help: <mailto:16ng-request@eeca16.sogang.ac.kr?subject=help>
+List-Subscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=subscribe>
+X-List-Received-Date: Wed, 24 May 2006 06:22:53 -0000
+
+Now I see the problems with multiple Convergence Sublayers in 802.16.
+
+But I have a couple of comments.
+
+1. The document seems to be assumed that  802.16 PHY link supports broadcast,
+so the problems arises if a host sends a broadcast message with a particular CS
+type and the another host supporting another type of CS may not be able to
+receive it.
+
+I think 802.16 is an interface between the Host and Base Station. If tow hosts
+with 802.16 i/f wants to communicate, there will be two disjoint
+connections, one
+between MS1 and BS and another between BS and MS2. In such scenario I do
+not see any problem for the two MSs to communicate each other as long as BS
+implements the both CSs.
+
+But the problem still remains, for down link multicast which requires
+at least one
+common type of CS supported by the all hosts attached to a base station.
+
+2. The recommendations seems to be favoring the support for Ethernet CS.
+
+.....
+  it has been argued that IEEE 802 or Ethernet
+   encapsulation of IP result in excessive overhead due to the size of
+   the data frame headers, and that this can adversely affect
+   performance on wireless networks, particularly in situations where
+   support of Voice over IP (VOIP) is required.  However, even where
+   these performance concerns are valid, solutions exist that do not
+   require defining multiple IP encapsulation methods.  For example,
+   links may support Ethernet frame compression so that Ethernet Source
+   and Destination Address fields are not sent with every packet.
+......
+
+The question I am getting here is, I think we are creating a problem
+(use of extra
+Ethernet header with out any purpose (?)) and then solving it (with Header
+compression).
+
+Nonetheless I believe having multiple CSs on same link is harmful and hosts
+must support at least one common CS.
+
+Thanks,
+Syam
+
+
+On 5/24/06, Soohong Daniel Park <soohong.park@samsung.com> wrote:
+> fyi...
+>
+> Special thanks to Bernard for his quick contribution...:-)
+>
+> > Title : Multiple Encapsulation Methods Considered Harmful
+> > Author(s) : B. Aboba, et al.
+> > Filename : draft-iab-link-encaps-00.txt
+> > Pages : 15
+> > Date : 2006-5-23
+> >
+> > This document describes architectural and operational issues that
+> > arise from link layer protocols supporting multiple Internet Protocol
+> > encapsulation methods.
+> >
+> >
+> > A URL for this Internet-Draft is:
+> > http://www.ietf.org/internet-drafts/draft-iab-link-encaps-00.txt
+>
+>
+>
+> Daniel (Soohong Daniel Park)
+> Mobile Convergence Laboratory, SAMSUNG Electronics.
+>
+>
+> _______________________________________________
+> 16ng mailing list
+> 16ng@eeca16.sogang.ac.kr
+> http://eeca16.sogang.ac.kr/mailman/listinfo/16ng
+>
+>
+>
+>
+>From soohong.park@samsung.com Wed May 24 16:32:01 2006
+Received: from mailout3.samsung.com (mailout3.samsung.com [203.254.224.33])
+	by eeca16.sogang.ac.kr (8.12.8/8.12.8) with ESMTP id k4O7W1IB017963
+	for <16ng@eeca16.sogang.ac.kr>; Wed, 24 May 2006 16:32:01 +0900
+Received: from ep_mmp2 (mailout3.samsung.com [203.254.224.33])
+ by mailout3.samsung.com
+ (iPlanet Messaging Server 5.2 Patch 2 (built Jul 14 2004))
+ with ESMTP id <0IZR005NJBQOZE@mailout3.samsung.com> for
+ 16ng@eeca16.sogang.ac.kr; Wed, 24 May 2006 15:37:36 +0900 (KST)
+Received: from daniellaptop ([168.219.198.109])
+ by mmp2.samsung.com (iPlanet Messaging Server 5.2 HotFix 1.17 (built Jun 23
+ 2003)) with ESMTPA id <0IZR00855BQOMX@mmp2.samsung.com> for
+ 16ng@eeca16.sogang.ac.kr; Wed, 24 May 2006 15:37:36 +0900 (KST)
+Date: Wed, 24 May 2006 15:37:41 +0900
+From: Soohong Daniel Park <soohong.park@samsung.com>
+Subject: Re: [16ng] Fw: I-D ACTION:draft-iab-link-encaps-00.txt
+To: Syam Madanapalli <smadanapalli@gmail.com>, 16ng@eeca16.sogang.ac.kr
+Message-id: <02d801c67efc$8ed17d70$6dc6dba8@daniellaptop>
+MIME-version: 1.0
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2900.2869
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+Content-type: text/plain; charset=iso-8859-1
+Content-transfer-encoding: 7BIT
+X-Priority: 3
+X-MSMail-priority: Normal
+References: <025901c67eec$a5abf710$6dc6dba8@daniellaptop>
+ <10e14db20605232228l1902769bx722db7d7b97d37e4@mail.gmail.com>
+X-BeenThere: 16ng@eeca16.sogang.ac.kr
+X-Mailman-Version: 2.1
+Precedence: list
+List-Id: IP over IEEE 802.16 Networks <16ng.eeca16.sogang.ac.kr>
+List-Unsubscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=unsubscribe>
+List-Archive: <http://eeca16.sogang.ac.kr/pipermail/16ng>
+List-Post: <mailto:16ng@eeca16.sogang.ac.kr>
+List-Help: <mailto:16ng-request@eeca16.sogang.ac.kr?subject=help>
+List-Subscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=subscribe>
+X-List-Received-Date: Wed, 24 May 2006 07:32:01 -0000
+
+Syam - I didn't go through this document yet. But in fact,
+16ng should make lots of comments on this document wrt 
+802.16 stuff to make it more sharp. Also, this concern might 
+be included into the 16ng deliverables especially, "problem, 
+goal and req." or "deployment scenario and consideration"
+as well. IAB's effort is for a good initiative. Further works
+will be done in this room hopefully...:-)
+
+Cheers.
+
+Daniel (Soohong Daniel Park)
+Mobile Convergence Laboratory, SAMSUNG Electronics.
+
+----- Original Message ----- 
+From: "Syam Madanapalli" <smadanapalli@gmail.com>
+To: <16ng@eeca16.sogang.ac.kr>
+Cc: "Soohong Daniel Park" <soohong.park@samsung.com>
+Sent: Wednesday, May 24, 2006 2:28 PM
+Subject: Re: [16ng] Fw: I-D ACTION:draft-iab-link-encaps-00.txt
+
+
+> Now I see the problems with multiple Convergence Sublayers in 802.16.
+> 
+> But I have a couple of comments.
+> 
+> 1. The document seems to be assumed that  802.16 PHY link supports broadcast,
+> so the problems arises if a host sends a broadcast message with a particular CS
+> type and the another host supporting another type of CS may not be able to
+> receive it.
+> 
+> I think 802.16 is an interface between the Host and Base Station. If tow hosts
+> with 802.16 i/f wants to communicate, there will be two disjoint
+> connections, one
+> between MS1 and BS and another between BS and MS2. In such scenario I do
+> not see any problem for the two MSs to communicate each other as long as BS
+> implements the both CSs.
+> 
+> But the problem still remains, for down link multicast which requires
+> at least one
+> common type of CS supported by the all hosts attached to a base station.
+> 
+> 2. The recommendations seems to be favoring the support for Ethernet CS.
+> 
+> .....
+>  it has been argued that IEEE 802 or Ethernet
+>   encapsulation of IP result in excessive overhead due to the size of
+>   the data frame headers, and that this can adversely affect
+>   performance on wireless networks, particularly in situations where
+>   support of Voice over IP (VOIP) is required.  However, even where
+>   these performance concerns are valid, solutions exist that do not
+>   require defining multiple IP encapsulation methods.  For example,
+>   links may support Ethernet frame compression so that Ethernet Source
+>   and Destination Address fields are not sent with every packet.
+> ......
+> 
+> The question I am getting here is, I think we are creating a problem
+> (use of extra
+> Ethernet header with out any purpose (?)) and then solving it (with Header
+> compression).
+> 
+> Nonetheless I believe having multiple CSs on same link is harmful and hosts
+> must support at least one common CS.
+> 
+> Thanks,
+> Syam
+> 
+> 
+> On 5/24/06, Soohong Daniel Park <soohong.park@samsung.com> wrote:
+>> fyi...
+>>
+>> Special thanks to Bernard for his quick contribution...:-)
+>>
+>> > Title : Multiple Encapsulation Methods Considered Harmful
+>> > Author(s) : B. Aboba, et al.
+>> > Filename : draft-iab-link-encaps-00.txt
+>> > Pages : 15
+>> > Date : 2006-5-23
+>> >
+>> > This document describes architectural and operational issues that
+>> > arise from link layer protocols supporting multiple Internet Protocol
+>> > encapsulation methods.
+>> >
+>> >
+>> > A URL for this Internet-Draft is:
+>> > http://www.ietf.org/internet-drafts/draft-iab-link-encaps-00.txt
+>>
+>>
+>>
+>> Daniel (Soohong Daniel Park)
+>> Mobile Convergence Laboratory, SAMSUNG Electronics.
+>>
+>>
+>> _______________________________________________
+>> 16ng mailing list
+>> 16ng@eeca16.sogang.ac.kr
+>> http://eeca16.sogang.ac.kr/mailman/listinfo/16ng
+>>
+>>
+>>
+>>
+> 
+>
+>From jari.arkko@piuha.net Fri May 26 06:49:26 2006
+Received: from p130.piuha.net (p130.piuha.net [193.234.218.130])
+	by eeca16.sogang.ac.kr (8.12.8/8.12.8) with ESMTP id k4PLnPIB023226
+	for <16ng@eeca16.sogang.ac.kr>; Fri, 26 May 2006 06:49:26 +0900
+Received: from p130.piuha.net (localhost [127.0.0.1])
+	by p130.piuha.net (Postfix) with ESMTP id CA1DF89861
+	for <16ng@eeca16.sogang.ac.kr>; Thu, 25 May 2006 23:54:38 +0300 (EEST)
+Received: from [127.0.0.1] (p130.piuha.net [193.234.218.130])
+	by p130.piuha.net (Postfix) with ESMTP id 8865289852
+	for <16ng@eeca16.sogang.ac.kr>; Thu, 25 May 2006 23:54:38 +0300 (EEST)
+Message-ID: <447619C4.4080808@piuha.net>
+Date: Thu, 25 May 2006 23:55:32 +0300
+From: Jari Arkko <jari.arkko@piuha.net>
+User-Agent: Mozilla Thunderbird 1.0.8 (X11/20060502)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: 16ng@eeca16.sogang.ac.kr
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: ClamAV using ClamSMTP
+Subject: [16ng] 16ng WG approval process
+X-BeenThere: 16ng@eeca16.sogang.ac.kr
+X-Mailman-Version: 2.1
+Precedence: list
+List-Id: IP over IEEE 802.16 Networks <16ng.eeca16.sogang.ac.kr>
+List-Unsubscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=unsubscribe>
+List-Archive: <http://eeca16.sogang.ac.kr/pipermail/16ng>
+List-Post: <mailto:16ng@eeca16.sogang.ac.kr>
+List-Help: <mailto:16ng-request@eeca16.sogang.ac.kr?subject=help>
+List-Subscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=subscribe>
+X-List-Received-Date: Thu, 25 May 2006 21:49:27 -0000
+
+Hi all,
+
+The IESG has discussed the 16ng WG approval. There are
+two remaining issues to deal with:
+
+1. Getting to a final consensus on what the charter should
+    say about the multiple CSes (all PS/some info, some
+    mandatory, etc.). I will send a separate e-mail about this.
+
+2. Review from IEEE 802.16. We have received a request
+    from the 802.16 to allocate time so that they can arrange
+    for a review of the proposed charter. As soon as I learn
+    what the time frame for that will be I will let you know.
+
+--Jari

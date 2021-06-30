@@ -1,0 +1,27 @@
+2010 TO 2020
+-------#####------->    pmol
+acmorton@att.com 49
+bclaise@cisco.com 35
+dromasca@avaya.com 29
+vinayakh@gmail.com 10
+Internet-Drafts@ietf.org 8
+D.Malas@cablelabs.com 6
+janovak@cisco.com 6
+yaakov_s@rad.com 6
+iesg-secretary@ietf.org 5
+internet-drafts@ietf.org 4
+aakhter@cisco.com 3
+alan.d.clark@telchemy.com 3
+cpignata@cisco.com 3
+albrecht.schwarz@alcatel-lucent.com 2
+bill.wu@huawei.com 2
+leonidas@netmode.ntua.gr 2
+rfc-editor@rfc-editor.org 2
+andreas.a.johnsson@ericsson.com 1
+carsten.schmoll@fokus.fraunhofer.de 1
+eckelcu@cisco.com 1
+grace.yufang@huawei.com 1
+henk@ripe.net 1
+lars@netapp.com 1
+marian.delkinov@ericsson.com 1
+rjsparks@nostrum.com 1

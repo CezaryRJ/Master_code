@@ -1,0 +1,25 @@
+2000 TO 2010
+-------#####------->    nsis-imp
+robert.hancock@roke.co.uk 24
+bless@tm.uka.de 17
+cordeiro@dei.uc.pt 17
+stiemerling@netlab.nec.de 16
+fu@cs.uni-goettingen.de 14
+karagian@cs.utwente.nl 8
+mail@christian-dickmann.de 8
+bschloer@cs.uni-goettingen.de 6
+christopher.lang@roke.co.uk 4
+hannes.tschofenig@siemens.com 4
+mailman-owner@ietf.org 4
+gao_b@cs.concordia.ca 3
+john.loughney@nokia.com 3
+lpz.bupt@gmail.com 3
+andrew.mcdonald@roke.co.uk 2
+Stiemerling@netlab.nec.de 1
+alan.ford@roke.co.uk 1
+attila.bader@ericsson.com 1
+bernd@schloer.net 1
+elwynd@dial.pipex.com 1
+gash@att.com 1
+mari-jaana.pelkonen@nokia.com 1
+thomas.herzog@gmx.li 1

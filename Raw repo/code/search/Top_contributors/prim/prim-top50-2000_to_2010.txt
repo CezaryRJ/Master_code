@@ -1,0 +1,17 @@
+2000 TO 2010
+-------#####------->    prim
+Majordomo@washi.fujitsulabs.com 2
+Postmaster@mx.bigpond.com 2
+DAEMON 1
+MAILER 1
+MAILER-DAEMON@aol.com 1
+MAILER-DAEMON@lists.ietf.org 1
+MAILER-DAEMON@qrz.ru 1
+Mailer-Daemon@sussex.ac.uk 1
+be 1
+cu@hostel-ottawa.com 1
+postmaster@mx3.sidi.istruzione.it 1
+postmaster@mx5.sidi.istruzione.it 1
+postmaster@neuf.fr 1
+postmaster@phylia.its.ac.id 1
+qmail 1

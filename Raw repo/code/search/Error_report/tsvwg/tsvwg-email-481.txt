@@ -1,0 +1,125 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : tsvwg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/tsvwg/2006-11.mailcl']
+id : c7fc39cc-1498-4053-83b1-0dcd913c0ef3
+_version_ : 1675131061818884097
+
+Content : 
+
+> put packets on the wire. Such events include
+> - the upper layer did a send, Nagle is on and there is no
+>   outstanding data.
+> - A T3 timeout
+> - A SACK arrived and new data can be sent.
+
+The RFC says "new data" (see below), so it shouldn't apply to T3
+timeout, should it?
+
+It says "new data chunks" but then talks about "number of
+packets". What if the packets contain both new and retransmitted
+chunks?
+
+> >This text is very vague to me and seems to make some assumptions
+> >on the implementation:
+> >
+> >   D) When the time comes for the sender to transmit new DATA chunks,
+> >      the protocol parameter Max.Burst SHOULD be used to limit the
+> >      number of packets sent.  The limit MAY be applied by adjusting
+> >      cwnd as follows:
+> >
+> >      if((flightsize + Max.Burst*MTU) < cwnd)
+> >         cwnd = flightsize + Max.Burst*MTU
+> >
+> >      Or it MAY be applied by strictly limiting the number of packets
+> >      emitted by the output routine.
+> >
+> >
+> >What if the output routine is called once for every packet. That
+> >text kind of assumes the data chunks are queued/buffered in
+>
+> But it says "When the time comes for the sender to transmit new DATA chunks"
+> and not "the output routine is called". So I do not see your point.
+
+It says the "number of packets emitted by the output routine",
+if the output routine is called for every packet, then it won't
+be applied. Ok, I may be picky there.
+
+> >some way. Is it linked to this note in the RFC:
+> >
+> >   During times of congestion an SCTP implementation MAY still perform
+> >   bundling even if the user has requested that SCTP not bundle.  The
+> >   user's disabling of bundling only affects SCTP implementations that
+> >                                             ~~~~~~~~~~~~~~~~~~~~~~~~~
+> >   may delay a small period of time before transmission (to attempt to
+> >   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> >   encourage bundling).  When the user layer disables bundling, this
+> >   ~~~~~~~~~~~~~~~~~~~
+> >   small delay is prohibited but not bundling that is performed during
+> >   congestion or retransmission.
+[...]
+
+I got confused and go my ideas wrong here.
+
+Even then a stack would wait to try and fit more data in one
+packet, but when the current packet it is currently building is
+full, it would output it. And that's a single packet.
+
+So, that Max.Burst only applies when the user sends messages
+more than 4 MTUs of size or when we're buffering data because
+we've used up our congestion window and a SACK gives us back an
+allowance of more than 4 MTUs.
+
+In both those cases, the packets will be used up efficiently
+(either because big packets are fragmented to maximise the MTU
+or because buffering implies bundling).
+
+In:
+
+>      if((flightsize + Max.Burst*MTU) < cwnd)
+>         cwnd = flightsize + Max.Burst*MTU
+
+If we are buffering, that is cwnd+MTU > flightsize >= cwnd-???.
+As the cwnd can increase by at most 1 MTU, the only way to have
+an allowance for more than 4 MTUs is if a SACK acknowledges more
+than 3 MTUs.  This algorithm may end up reducing the cwnd. Now,
+as a stack is supposed to send a sack at least every other
+packet, it may seldom happen, and when it does it may be an
+indication there's something wrong in the network.
+
+If we're just limiting the sending to 4 packets without altering
+cwnd, then that must imply "until something happens". Now what
+are the events that would allow us to send the remaining
+packets in our buffer allowed by cwnd? SACK reception, PKTDROP
+reception, more data from the user, CWR, ECN?
+
+So that it does prevent bursts but only when we're pushing the
+congestion window, in effect when we're flow controlling the
+user, I think. If the congestion window is not fully utilised,
+then the user can send bursts.
+
+Sorry about the noise,
+Stephane
+

@@ -1,0 +1,18 @@
+2000 TO 2010
+-------#####------->    testlist
+glen@amsl.com 32
+galvin@elistx.com 14
+tme@multicasttech.com 6
+brian.e.carpenter@gmail.com 4
+sisyphus@dial.pipex.com 4
+dean.willis@softarmor.com 3
+henrik@levkowetz.com 3
+danny@tcb.net 2
+ekr@networkresonance.com 2
+cabo@tzi.org 1
+ekr@rtfm.com 1
+housley@vigilsec.com 1
+johnl@iecc.com 1
+lars.eggert@nokia.com 1
+stevey@amsl.com 1
+testlist-bounces@mail.ietf.org 1

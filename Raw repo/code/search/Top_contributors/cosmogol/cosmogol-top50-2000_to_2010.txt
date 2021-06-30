@@ -1,0 +1,14 @@
+2000 TO 2010
+-------#####------->    cosmogol
+bortzmeyer@nic.fr 31
+clive@demon.net 19
+nobody@xyzzy.claranet.de 19
+julian.reschke@gmx.de 13
+bortzmeyer+ietf@nic.fr 6
+fred@cisco.com 4
+Hannes.Tschofenig@gmx.net 2
+fluffy@cisco.com 2
+lisa@osafoundation.org 1
+marc@petit-huguenin.org 1
+mcr@sandelman.ca 1
+mcr@sandelman.ottawa.on.ca 1

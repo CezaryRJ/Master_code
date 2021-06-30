@@ -1,0 +1,15 @@
+2010 TO 2020
+-------#####------->    globalhosts
+lflynn@amsl.com 17
+rpelletier@isoc.org 11
+Gonzalo.Camarillo@ericsson.com 6
+Glenn.Deen@nbcuni.com 3
+alissa@cooperw.in 3
+Jason_Livingood@comcast.com 2
+amorris@amsl.com 2
+ldaigle@thinkingcat.com 2
+baggott@isoc.org 1
+gonzalo.camarillo@ericsson.com 1
+kboyden@ietf.org 1
+pwdanley@ietf.org 1
+twalsh@juniper.net 1

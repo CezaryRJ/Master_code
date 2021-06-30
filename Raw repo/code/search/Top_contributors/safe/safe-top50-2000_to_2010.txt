@@ -1,0 +1,19 @@
+2000 TO 2010
+-------#####------->    safe
+dwing@cisco.com 29
+Markus.Isomaki@nokia.com 8
+magnus.westerlund@ericsson.com 7
+csp@csperkins.org 6
+remi.denis-courmont@nokia.com 6
+philip_matthews@magma.ca 5
+Hannes.Tschofenig@gmx.net 3
+hardie@qualcomm.com 3
+Black_David@emc.com 2
+jdrosen@cisco.com 2
+mailman-owner@ietf.org 2
+Pasi.Eronen@nokia.com 1
+baford@MIT.EDU 1
+jmpolk@cisco.com 1
+mail@christian-dickmann.de 1
+pekkas@netcore.fi 1
+xavier.marjou@gmail.com 1

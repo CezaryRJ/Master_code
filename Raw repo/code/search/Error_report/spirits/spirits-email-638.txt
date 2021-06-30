@@ -1,0 +1,52 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : spirits
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/spirits/2006-07.mailcl']
+id : 19691642-7345-4b90-8e40-b1e3fb541b8c
+_version_ : 1675133737617063936
+
+Content : 
+
+UNKNOWN 408 Request Timeout
+Server: thttpd/2.25b 29dec2003
+Content-Type: text/html; charset=iso-8859-1
+Date: Sun, 30 Jul 2006 09:54:48 GMT
+Last-Modified: Sun, 30 Jul 2006 09:54:48 GMT
+Accept-Ranges: bytes
+Connection: close
+Cache-Control: no-cache,no-store
+
+<HTML>
+<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+<H2>408 Request Timeout</H2>
+No request appeared within a reasonable time period.
+<HR>
+<ADDRESS><A HREF="http://www.acme.com/software/thttpd/">thttpd/2.25b 29dec2003</A></ADDRESS>
+</BODY>
+</HTML>
+
+
+

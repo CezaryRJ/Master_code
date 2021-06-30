@@ -1,0 +1,113 @@
+Date : ['2006-10-26T14:51:20Z']
+Timezone : -0700
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <45412DD8.4090207@cisco.com>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2006-10.mailcl']
+id : 19ca3653-8cb5-4d61-b8d5-308774dbc283
+_version_ : 1675128700678438913
+
+Content : 
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>I'm saying that as long as we have transports other than TCP, =
+and with
+TLS implementations being in the minority, that SIPS should be able to =
+use
+other security encapsulations that provide equivalent security, =
+including DTLS
+and IPSEC.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Of course, I'd also be happy to deprecate UDP and go with TLS =
+only.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>--<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Dean<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>_______________________________________________<o:p></o:p></span>=
+</font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Sip mailing list&nbsp; =
+https://www1.ietf.org/mailman/listinfo/sip<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>This list is for NEW development of the core SIP Protocol Use
+sip-implementors@cs.columbia.edu for questions on current sip Use
+sipping@ietf.org for new developments on the application of =
+sip<o:p></o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01C6F948.E90369B5--
+
+
+--===============1481303979==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+--===============1481303979==--
+

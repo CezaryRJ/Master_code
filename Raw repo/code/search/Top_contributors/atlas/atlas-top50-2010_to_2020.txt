@@ -1,0 +1,18 @@
+2010 TO 2020
+-------#####------->    atlas
+Hannes.Tschofenig@arm.com 23
+abhijan.bhattacharyya@tcs.com 8
+cabo@tzi.org 5
+rafa@um.es 5
+ofriel@cisco.com 4
+phil.hunt@oracle.com 4
+mirja.kuehlewind@tik.ee.ethz.ch 3
+dan.garcia@um.es 2
+housley@vigilsec.com 2
+ietf-secretariat@ietf.org 1
+kaduk@mit.edu 1
+markjohnbaugher@gmail.com 1
+martin.thomson@gmail.com 1
+pkampana@cisco.com 1
+rlb@ipv.sx 1
+rsalz@akamai.com 1

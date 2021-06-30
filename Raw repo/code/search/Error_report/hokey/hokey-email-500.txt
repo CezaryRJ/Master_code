@@ -1,0 +1,133 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : hokey
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/hokey/2007-02.mailcl']
+id : 0e6575e7-cf94-47d8-becb-d946b5b4d1e1
+_version_ : 1675130652506193920
+
+Content : 
+
+&gt; =
+fcwMzOTY1NDUxMDMEc2VjA21haWxfdGFnbGluZQRzbGsDbWFpbF90YWcx?link=3Dask&amp;=
+sid<BR>
+&gt; &gt; &gt; =3D39654<BR>
+&gt; &gt; &gt;&gt;&gt; 5367&gt;<BR>
+&gt; &gt; &gt;&gt;&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; Enjoy some healthy =
+debate<BR>
+&gt; &gt; &gt;&gt;&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; in the Yahoo! Answers =
+Food &amp; Drink Q&amp;A.<BR>
+&gt; &gt; &gt;&gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;<BR>
+&gt; &gt; &gt;<BR>
+&gt; &gt;<BR>
+&gt; =
+&lt;http://answers.yahoo.com/dir/index;_ylc=3DX3oDMTFvbGNhMGE3BF9TAzM5NjU=
+0N<BR>
+&gt; &gt; &gt; TEwOAR<BR>
+&gt; &gt; &gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;<BR>
+&gt; &gt; &gt;<BR>
+&gt; &gt;<BR>
+&gt; =
+fcwMzOTY1NDUxMDMEc2VjA21haWxfdGFnbGluZQRzbGsDbWFpbF90YWcx?link=3Dask&amp;=
+sid<BR>
+&gt; &gt; &gt; =3D39654<BR>
+&gt; &gt; &gt;&gt;&gt; 5367&gt;<BR>
+&gt; &gt; &gt;&gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;&gt;&gt;<BR>
+&gt; &gt; =
+-------------------------------------------------------------------<BR>
+&gt; &gt; &gt;&gt;&gt;&gt; -----<BR>
+&gt; &gt; &gt;&gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;&gt;&gt; =
+_______________________________________________<BR>
+&gt; &gt; &gt;&gt;&gt;&gt; HOKEY mailing list<BR>
+&gt; &gt; &gt;&gt;&gt;&gt; HOKEY@ietf.org<BR>
+&gt; &gt; &gt;&gt;&gt;&gt; <A =
+HREF=3D"https://www1.ietf.org/mailman/listinfo/hokey">https://www1.ietf.o=
+rg/mailman/listinfo/hokey</A><BR>
+&gt; &gt; &gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;&gt;<BR>
+&gt; &gt; &gt;&gt;<BR>
+&gt; &gt; &gt;&gt;<BR>
+&gt; &gt; &gt;&gt; _______________________________________________<BR>
+&gt; &gt; &gt;&gt; HOKEY mailing list<BR>
+&gt; &gt; &gt;&gt; HOKEY@ietf.org<BR>
+&gt; &gt; &gt;&gt; <A =
+HREF=3D"https://www1.ietf.org/mailman/listinfo/hokey">https://www1.ietf.o=
+rg/mailman/listinfo/hokey</A><BR>
+&gt; &gt; &gt;&gt;<BR>
+&gt; &gt; &gt;&gt;<BR>
+&gt; &gt; &gt;<BR>
+&gt; &gt; &gt;<BR>
+&gt; &gt; &gt;<BR>
+&gt; &gt;<BR>
+&gt; &gt;<BR>
+&gt; &gt; _______________________________________________<BR>
+&gt; &gt; HOKEY mailing list<BR>
+&gt; &gt; HOKEY@ietf.org<BR>
+&gt; &gt; <A =
+HREF=3D"https://www1.ietf.org/mailman/listinfo/hokey">https://www1.ietf.o=
+rg/mailman/listinfo/hokey</A><BR>
+&gt; &gt;<BR>
+&gt;<BR>
+&gt; _______________________________________________<BR>
+&gt; HOKEY mailing list<BR>
+&gt; HOKEY@ietf.org<BR>
+&gt; <A =
+HREF=3D"https://www1.ietf.org/mailman/listinfo/hokey">https://www1.ietf.o=
+rg/mailman/listinfo/hokey</A><BR>
+&gt;<BR>
+<BR>
+_______________________________________________<BR>
+HOKEY mailing list<BR>
+HOKEY@ietf.org<BR>
+<A =
+HREF=3D"https://www1.ietf.org/mailman/listinfo/hokey">https://www1.ietf.o=
+rg/mailman/listinfo/hokey</A><BR>
+<BR>
+</FONT>
+</P>
+
+</BODY>
+</HTML>
+------_=_NextPart_001_01C75587.96672741--
+
+
+--===============0690252972==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+HOKEY mailing list
+HOKEY@ietf.org
+https://www1.ietf.org/mailman/listinfo/hokey
+
+--===============0690252972==--
+

@@ -1,0 +1,100 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : webdav
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/webdav/2005-12.mailcl']
+id : cfa69970-0ce3-4abe-b59c-005fe2f01a3e
+_version_ : 1675131598880636929
+
+Content : 
+
+ReceFrom w3c-dist-auth-request@frink.w3.org Tue Dec 13 21:40:42 2005
+Received: from odin.ietf.org ([132.151.1.176] helo=ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.32)
+	id 1EmMZN-00076t-0h
+	for webdav-archive@megatron.ietf.org; Tue, 13 Dec 2005 21:40:42 -0500
+Received: from frink.w3.org (frink.w3.org [128.30.52.16])
+	by ietf.org (8.9.1a/8.9.1a) with ESMTP id VAA12146
+	for <webdav-archive@lists.ietf.org>; Tue, 13 Dec 2005 21:39:43 -0500 (EST)
+Received: from lists by frink.w3.org with local (Exim 4.50)
+	id 1EmMYB-0000lS-Tb
+	for w3c-dist-auth-dist@listhub.w3.org; Wed, 14 Dec 2005 02:39:27 +0000
+Received: from lisa.w3.org ([128.30.52.41])
+	by frink.w3.org with esmtp (Exim 4.50)
+	id 1EmMY0-0000jG-OE
+	for w3c-dist-auth@listhub.w3.org; Wed, 14 Dec 2005 02:39:16 +0000
+Received: from mail.gmx.net ([213.165.64.21])
+	by lisa.w3.org with smtp (Exim 4.50)
+	id 1EmMWT-0002V2-A6
+	for w3c-dist-auth@w3.org; Wed, 14 Dec 2005 02:39:16 +0000
+Received: (qmail invoked by alias); 14 Dec 2005 02:37:39 -0000
+Received: from p508FAA88.dip0.t-ipconnect.de (EHLO [192.168.178.21]) [80.143.170.136]
+  by mail.gmx.net (mp020) with SMTP; 14 Dec 2005 03:37:39 +0100
+X-Authenticated: #1915285
+Message-ID: <439F850D.20004@gmx.de>
+Date: Wed, 14 Dec 2005 03:35:57 +0100
+From: Julian Reschke <julian.reschke@gmx.de>
+User-Agent: Thunderbird 1.5 (Windows/20051025)
+MIME-Version: 1.0
+To: Cullen Jennings <fluffy@cisco.com>
+CC: Jim Whitehead <ejw@soe.ucsc.edu>, Elias Sinderson <elias@cse.ucsc.edu>,
+        Geoffrey M Clemm <geoffrey.clemm@us.ibm.com>,
+        WebDav <w3c-dist-auth@w3.org>, Lisa Dusseault <lisa@osafoundation.org>
+References: <BFC4B438.653E8%fluffy@cisco.com>
+In-Reply-To: <BFC4B438.653E8%fluffy@cisco.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Y-GMX-Trusted: 0
+Received-SPF: pass (lisa.w3.org: domain of julian.reschke@gmx.de designates 213.165.64.21 as permitted sender)
+X-W3C-Hub-Spam-Status: No, score=-2.5
+X-W3C-Scan-Sig: lisa.w3.org 1EmMWT-0002V2-A6 46aff7de2714fde2a05973eece29cffa
+X-Original-To: w3c-dist-auth@w3.org
+Subject: Re: Tomorrows call
+X-Archived-At: http://www.w3.org/mid/439F850D.20004@gmx.de
+Resent-From: w3c-dist-auth@w3.org
+X-Mailing-List: <w3c-dist-auth@w3.org> archive/latest/11087
+X-Loop: w3c-dist-auth@w3.org
+Sender: w3c-dist-auth-request@w3.org
+Resent-Sender: w3c-dist-auth-request@w3.org
+Precedence: list
+List-Id: <w3c-dist-auth.w3.org>
+List-Help: <http://www.w3.org/Mail/>
+List-Unsubscribe: <mailto:w3c-dist-auth-request@w3.org?subject=unsubscribe>
+Resent-Message-Id: <E1EmMYB-0000lS-Tb@frink.w3.org>
+Resent-Date: Wed, 14 Dec 2005 02:39:27 +0000
+Content-Transfer-Encoding: 7bit
+
+
+Cullen Jennings wrote:
+> Lisa left me a phone message and wanted to pass on to everyone she has been
+> unable to send email from the conference she is at. She is not going to be
+> able to make the call tomorrow as she is flying at that time. I should be
+> able to join about an hour late.
+> 
+> It seems like without Lisa on the call, Jim might be able to resolve any
+> issues that came out of last Friday's edits.
+
+
+Sounds good to me...
+

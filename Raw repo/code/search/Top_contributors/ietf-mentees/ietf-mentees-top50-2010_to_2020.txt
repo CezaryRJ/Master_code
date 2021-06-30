@@ -1,0 +1,12 @@
+2010 TO 2020
+-------#####------->    ietf-mentees
+brian@innovationslab.net 4
+acooper@cdt.org 2
+alfredo@pironti.eu 1
+clouw@verisign.com 1
+diego.dujovne@mail.udp.cl 1
+ecordeiro@nic.br 1
+ferlin@simula.no 1
+iru@inl.ics.keio.ac.jp 1
+maria-rita.palattella@uni.lu 1
+paulos@sdnp.org.mw 1

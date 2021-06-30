@@ -1,0 +1,14 @@
+2010 TO 2020
+-------#####------->    nscp
+paul.hoffman@vpnc.org 7
+jelte@isc.org 4
+jhutz@cmu.edu 4
+jad@sinodun.com 3
+dot@dotat.at 2
+liman@autonomica.se 2
+ondrej@sury.org 2
+Ed.Lewis@neustar.biz 1
+bortzmeyer@nic.fr 1
+ietf-secretariat@ietf.org 1
+nkong@cnnic.cn 1
+wjhns1@hardakers.net 1

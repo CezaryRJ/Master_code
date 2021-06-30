@@ -1,0 +1,11 @@
+host = localhost
+port = 8983
+core = other_files_clean
+user = cezaryrj
+password = SolrisNice1995
+filetype = .mail
+slash = /
+archive_location = /home/cezaryrj/ietf/cezaryrj/new/ietf.org/mail-archive/
+solr_location = /home/cezaryrj/ietf/cezaryrj/solr/
+do_cleaning = no
+download_archive = no

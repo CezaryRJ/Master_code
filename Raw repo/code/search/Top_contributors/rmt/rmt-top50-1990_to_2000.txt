@@ -1,0 +1,22 @@
+1990 TO 2000
+-------#####------->    rmt
+rkermode@arc.corp.mot.com 6
+Internet-Drafts@ietf.org 3
+lorenzo@cisco.com 3
+luigi@labinfo.iet.unipi.it 3
+peter.lewis@upperside.fr 3
+newsletter@VERTICAL.NET 2
+whetten@talarian.com 2
+Dahming.Chiu@east.sun.com 1
+J.Crowcroft@cs.ucl.ac.uk 1
+Majordomo@listserv.lbl.gov 1
+almeroth@cs.ucsb.edu 1
+dykim@ccl.chungnam.ac.kr 1
+kisroom@yahoo.co.kr 1
+luby@dfountain.com 1
+luigi@info.iet.unipi.it 1
+mmyjak@virtualworkshop.com 1
+rhee@eos.ncsu.edu 1
+tjsh@netchina.com.cn 1
+todd@whitebarn.com 1
+vern@ee.lbl.gov 1

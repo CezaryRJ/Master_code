@@ -1,0 +1,272 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : IETF-Announce: ;
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['46th IETF-FINAL AGENDA']
+Mailing-list : nfsv4
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nfsv4/1999-10.mailcl']
+id : d06536f9-44b2-47e9-a6be-572e6a95ae50
+_version_ : 1675132257411530753
+
+Content : 
+
+                     Agenda of the Forty-sixth IETF
+                          November 7-12, 1999
+
+SUNDAY, November 7, 1999
+1200-1900  Registration - West Conference Center
+1530-1600  Newcomer's Orientation - Palladian Room
+1600-1630  IETF Standards Process Orientation - Palladian Room
+1700-1900  Welcome Reception - Regency Ballroom
+
+MONDAY, November 8, 1999
+0800-1930  IETF Registration - West Conference Center
+0800-0900  Continental Breakfast - Bird Cage Walk and Palladian Foyer
+0900-0930  Opening Plenary Session - Regency Ballroom
+0930-1130  Morning Sessions
+Blue        APP  apparea   Applications Area Meeting
+Embassy     INT  frnetmib  Frame Relay Service MIB WG
+Empire      OPS  ngtrans   Next Generation Transition WG
+Ambassador  RTG  bgmp      Border Gateway Multicast Protocol WG *
+Hampton     SEC  cat       Common Authentication Technology WG
+Executive   SEC  ipsp      IP Security Policy BOF
+Palladian   TSV  rap       Resource Allocation Protocol WG
+Regency     TSV  sip       Session Initiation Protocol WG *
+
+1130-1300  Break
+1300-1500  Afternoon Sessions I
+Executive   APP  calsch    Calendaring and Scheduling WG
+Hampton     APP  vpim      Voice Profile for Internet Mail BOF
+Palladian   INT  dnsind    DNS IXFR, Notification, and Dynamic Update WG
+Empire      RTG  ospf      Open Shortest Path First IGP WG
+Regency     SEC  ipsec     IP Security Protocol WG *
+Ambassador  TSV  tsvwg     Transport Area Working Group *
+Embassy     USV  uswg      User Services WG
+
+1500-1530  Break (Refreshments provided) - Bird Cage Walk and Palladian Foyer
+1530-1730  Afternoon Sessions II
+Hampton     APP  nntpext   NNTP Extensions WG
+Ambassador  OPS  mboned    MBONE Deployment WG *
+Regency     OPS  policy    Policy Framework WG *
+Palladian   RTG  manet     Mobile Ad-hoc Networks WG
+Executive   SEC  micropay  Micro Payments BOF
+Blue        TSV  enum      Telephone Number Mapping WG
+Empire      TSV  nat       Network Address Translators WG
+Embassy     USV  run       Responsible Use of the Network WG
+
+1730-1930  Break
+1930-2200  Evening Sessions
+Embassy     APP  webdav    WWW Distributed Authoring and Versioning WG
+Empire      INT  anycast   Anycast BOF
+Executive   INT  pppext    Point-to-Point Protocol Extensions WG
+Hampton     OPS  dnsop     Domain Name Server Operations WG
+Palladian   RTG  isis      IS-IS for IP Internets WG
+Blue        SEC  xmldsig   XML Digital Signatures WG
+Regency     TSV  diffserv  Differentiated Services WG *
+Ambassador  TSV  iptel     IP Telephony WG *
+
+* Designates Multicast Sessions
+
+
+TUESDAY, November 9, 1999
+0800-1700  IETF Registration - West Conference Center 
+0800-0900  Continental Breakfast - Bird Cage Walk and Palladian Foyer
+0900-1130  Morning Sessions
+Empire      APP  impp      Instant Messaging and Presence Protocol WG
+Executive   INT  dhc       Dynamic Host Configuration WG
+Embassy     OPS  grip      G& R for Security Incident Processing WG
+Regency     OPS  policy    Policy Framework WG *
+Ambassador  RTG  msdp      Multicast Source Discovery Protocol WG *
+Palladian   SEC  pkix      Public-Key Infrastructure (X.509) WG
+Hampton     TSV  spirits   Services in the PSTN/IN Requesting Internet Services WG 
+Blue        TSV  rsvp      Resource Reservation Setup Protocol WG
+
+1130-1300  Break
+1300-1400  Afternoon Sessions I
+Executive   APP  deltav    Web Versioning and Configuration Management WG
+Embassy     APP  qualdocs  Quality Document Transfer BOF
+Hampton     INT  dhc       Dynamic Host Configuration WG
+Ambassador  OPS  opsarea   Operations & Management Area Meeting 
+Palladian   SEC  xmldsig   XML Digital Signatures WG
+Regency     TSV  diffserv  Differentiated Services WG 
+Blue        TSV  sigtran   Signaling Transport WG
+
+1415-1515  Afternoon Sessions II
+Executive   APP  deltav    Web Versioning and Configuration Management WG
+Embassy     APP  ippext    IPP Extensions BOF
+Hampton     INT  dhc       Dynamic Host Configuration WG
+Ambassador  OPS  opsarea   Operations & Management Area Open Meeting *
+Regency     RTG  idmr      Inter-Domain Multicast Routing WG *
+Palladian   SEC  xmldsig   XML Digital Signatures WG
+Empire      TSV  decides   Deployment Considerations of Implementing Diff. Svs BOF
+Blue        TSV  sigtran   Signaling Transport WG
+
+1515-1545  Break (Refreshments provided) - Bird Cage Walk and Palladian Foyer
+1545-1645  Afternoon Sessions III
+Executive   APP  ediint    Electronic Data Interchange-Internet Integration WG
+Palladian   APP  rescap    Resource Capabilities Directory BOF
+Hampton     INT  robhc     Robust Header Compression BOF
+Empire      INT  ipcdn     IP Over Cable Data Network WG
+Ambassador  OPS  nasreq    Network Access Server Requirements WG *
+Embassy     OPS  adslmib   ADSL MIB WG
+Blue        RTG  manet     Mobile Ad-hoc Networks WG
+Regency     TSV  ecm       Endpoint Congestion Management WG *
+
+1700-1800  Afternoon Sessions IV
+Empire      APP  idns      Internationalized Domain Name System BOF
+Palladian   APP  rescap    Resource Capabilities Directory BOF
+Hampton     INT  robhc     Robust Header Compression BOF
+Ambassador  OPS  nasreq    Network Access Server Requirements WG *
+Embassy     OPS  adslmib   ADSL MIB WG
+Executive   RTG  vrrp      Virtual Router Redundancy Protocol WG
+Blue        SEC  ipsra     IP Security Remote Access BOF
+Regency     TSV  ecm       Endpoint Congestion Management WG *
+
+* Designates Multicast Sessions
+
+
+WEDNESDAY, November 10, 1999
+0800-1700  IETF Registration - West Conference Center
+0800-0900  Continental Breakfast - Bird Cage Walk and Palladian Foyer
+0900-1130  Morning Sessions
+Hampton     APP  ldapext   LDAP Extension WG
+Embassy     INT  ipfc      IP Over Fibre Channel WG
+Palladian   INT  zeroconf  Zero Configuration Networking WG
+Blue        OPS  aaa       Authentication, Authorization and Accounting WG
+Regency     RTG  mpls      Multiprotocol Label Switching WG *
+Empire      SEC  tls       Transport Layer Security WG
+Ambassador  TSV  megaco    Media Gateway Control WG *
+Executive   TSV  nfsv4     Network File System Version 4 WG
+
+1130-1300  Break
+1300-1500  Afternoon Sessions I
+Executive   APP  ecml	Electronic Commerce Modeling Language BOF
+Regency     INT  ipngwg    IPNG WG *
+Embassy     OPS  rmonmib   Remote Network Monitoring WG
+Hampton     RTG  gsmp      General Switch Management Protocol WG
+Empire      RTG  pim       Protocol Independent Multicast WG
+Palladian   SEC  pkix      Public-Key Infrastructure (X.509) WG
+Blue        TSV  sigtran   Signaling Transport WG
+Ambassador  TSV  sip       Session Initiation Protocol WG *
+
+1500-1530  Break (Refreshments provided) - Bird Cage Walk and Palladian Foyer
+1530-1730  Afternoon Sessions II
+Executive   APP  trade     Internet Open Trading Protocol WG
+Hampton     INT  srp       Spatial Reuse Protocol BOF
+Embassy     OPS  bmwg      Benchmarking Methodology WG
+Empire      OPS  snmpv3    SNMP Version 3 WG
+Regency     RTG  rtgarea   Routing Area Meeting *
+Palladian   SEC  syslog    Security Issues in Network Event Logging BOF
+Ambassador  TSV  avt       Audio/Video Transport WG *
+Blue        TSV  pilc      Performance Implications of Link Characteristics WG
+
+1730-1930  Break
+1930-2200  Open Plenary -  Regency Ballroom
+           o Welcome - Fred Baker, IETF Chair
+           o Settlement of the Internet Trademark Matter
+             Robert Kahn, CNRI; Donald Heath, ISOC
+           o Top N misconceptions about Web traffic that Internet 
+             implementers should know
+             Bala Krishnamurthy, AT&T Labs; Anja Feldman, AT&T Labs
+           o Welcome down under
+             Mark Prior, connect.com.au pty ltd
+           o NRC report on the Internet and Healthcare
+             Bruce Davie, Cisco Systems
+           o Wiretapping
+             Scott Bradner, Harvard University; Jeff Schiller, MIT
+
+2230	Late Night Session
+Hampton	PGP Key Signing 
+
+* Designates Multicast Sessions
+
+
+THURSDAY, November 11, 1999
+0800-1700  IETF Registration - West Conference Center 
+0800-0900  Continental Breakfast - Bird Cage Walk and Palladian Foyer
+0900-1130  Morning Sessions
+Hampton     APP  fax       Internet Fax WG
+Palladian   APP  mmms      Mobile Multimedia Messaging Service BOF
+Embassy     OPS  gr303     GR-303 MIB BOF
+Blue        OPS  tewg      Internet Traffic Engineering WG
+Regency     RTG  mobileip  IP Routing for Wireless/Mobile Hosts WG *
+Empire      SEC  smime     S/MIME Mail Security WG
+Ambassador  TSV  avt       Audio/Video Transport WG *
+Executive   USV  weird     Web Elucidation of Internet-Related Developments WG
+
+1130-1300  Break
+1300-1500  Afternoon Sessions I
+Executive   APP  cnrp      Common Name Resolution Protocol WG
+Embassy     APP  msgtrk    Message Tracking Protocol WG
+Regency     INT  ipngwg    IPNG WG *
+Empire      OPS  aaa       Authentication, Authorization and Accounting WG
+Blue        RTG  mpls      Multiprotocol Label Switching WG 
+Hampton     SEC  saag      Open Security Area Directorate Meeting
+Ambassador  TSV  rmt       Reliable Multicast Transport WG *
+
+1500-1530  Break (Refreshments provided) - Bird Cage Walk and Palladian Foyer
+1530-1730  Afternoon Sessions II
+Cabinet     APP  imapext   Internet Message Access Protocol Extension BOF
+Hampton     APP  wrec      Web Replication and Caching WG
+Empire      OPS  cfgmgmt   Configuration Management BOF
+Executive   INT  l2tpext   Layer Two Tunneling Protocol Extensions WG
+Blue        RTG  mobileip  IP Routing for Wireless/Mobile Hosts WG
+Embassy     SEC  idwg      Intrusion Detection Exchange Format WG
+Regency     TSV  issll     Integrated Services over Specific Link Layers WG *
+Ambassador  TSV  mmusic    Multiparty Multimedia Session Control WG *
+
+
+FRIDAY, November 12, 1999
+0800-1000  IETF Registration - West Conference Center 
+0800-0900  Continental Breakfast - Bird Cage Walk
+0900-1130  Morning Sessions
+Embassy     APP  conneg    Content Negotiation WG
+Executive   APP  ldup      LDAP Duplication/Replication/Update Protocols WG
+Blue        OPS  polterm   Policy Terminology BOF
+Empire      RTG  gsmp      General Switch Management Protocol WG
+Hampton     SEC  idwg      Intrusion Detection Exchange Format WG
+Ambassador  TSV  malloc    Multicast-Address Allocation WG *
+Regency     TSV  megaco    Media Gateway Control WG *
+
+* Designates Multicast Sessions
+========================================================================
+AREA DIRECTORS
+APP  Applications             Keith Moore/UTK and 
+                              Patrik Faltstrom/Tele2/Swipnet
+GEN  General Interest         Fred Baker/Cisco Systems
+INT  Internet                 Thomas Narten/IBM Corporation and 
+                              Erik Nordmark/Sun Microsystems
+OPS  Operations & Management  Randy Bush/Verio, Inc. and 
+                              Bert Wijnen/IBM Netherlands
+RTG  Routing                  Rob Coltun/Siara Systems and 
+                              Dave Oran/Cisco Systems
+SEC  Security                 Marcus Leech/Nortel and 
+                              Jeff Schiller/MIT
+TSV  Transport                Scott Bradner/Harvard Univ. and 
+                              Vern Paxson/ACIRI/LBNL
+USV  User Services            April Marine/Internet Engines, Inc.
+
+
+
+----- End Included Message -----
+
+

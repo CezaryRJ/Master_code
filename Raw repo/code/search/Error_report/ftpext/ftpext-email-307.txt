@@ -1,0 +1,45 @@
+Date : ['2004-02-10T12:09:58Z']
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['ftp-wg-owner <ftp-wg-owner@hethmon.com>']
+Sender-name :  ftp-wg-owner
+Sender-address :  ftp-wg-owner@hethmon.com
+Reply-to : ['FTPEXT Working Group <ftp-wg@hethmon.com>']
+Reply-to-name :  FTPEXT_Working_Group
+Reply-to-address :  ftp-wg@hethmon.com
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <200402101844.NAA01896@ietf.org>
+References : Null
+Comments : ['Null']
+Subject : ['Ftp-WG: Mail Returned (POLICY=3)']
+Mailing-list : ftpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ftpext/2004-02.mailcl']
+id : d9f25118-edca-4d03-91c0-633d4a35d53a
+_version_ : 1675133275005255681
+
+Content : 
+
+Your mail was returned
+Reason : POLICY=3
+
+<Returned mail>
+-----------------------------------------------------------
+ From    : ftp-wg@hethmon.com
+ To      : kbs@dailysports.co.kr
+ Subject :  Mail Transaction Failed
+-----------------------------------------------------------
+The message cannot be represented in 7-bit ASCII encoding and has been sent as a binary attachment.
+
+
+
+
+

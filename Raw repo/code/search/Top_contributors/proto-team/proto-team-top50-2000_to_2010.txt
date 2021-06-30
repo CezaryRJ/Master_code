@@ -1,0 +1,26 @@
+2000 TO 2010
+-------#####------->    proto-team
+henrik@levkowetz.com 68
+brc@zurich.ibm.com 54
+mankin@psg.com 44
+lars.eggert@netlab.nec.de 40
+lars.eggert@nokia.com 19
+dmm@1-4-5.net 15
+amankin@nsf.gov 7
+margaret@thingmagic.com 7
+fenner@research.att.com 5
+lisa@osafoundation.org 5
+rpelletier@isoc.org 4
+falk@ISI.EDU 3
+bfuller@foretec.com 2
+harald@alvestrand.no 2
+mankin@shinkuro.com 2
+Barbara.Fuller@neustar.biz 1
+Black_David@emc.com 1
+Michael.Lee@neustar.biz 1
+allison.mankin@gmail.com 1
+faber@ISI.EDU 1
+falk@isi.edu 1
+jeroen@unfix.org 1
+johnl@iecc.com 1
+rohan@ekabal.com 1

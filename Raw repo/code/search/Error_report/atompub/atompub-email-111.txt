@@ -1,0 +1,102 @@
+Date : ['2014-10-13T15:19:06Z']
+Timezone : -0700
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Book-Your-Own Private-Jet-Charter Here-Today']
+Mailing-list : atompub
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/atompub/2014-10.mailcl']
+id : 3ee95fd1-8b11-4e77-a6c5-97a4acf84284
+_version_ : 1675128889068748800
+
+Content : 
+
+Hexmiarly 4705239-09185650570_935650570
+From: PrivateJets <PrivateJets@falljetdeals.link>
+Message-ID: <6647052395-4705239-aa48b20d056cdcc36a757f253f9ee809_atompub-archive@ietf.org-r>
+Content-Type: text/html; charset=us-ascii
+Mime-Version: 1
+To: <atompub-archive@ietf.org>
+
+
+<html>
+<head>
+<style type="text/css">
+#tab333{width: 635px;}
+#tapper{margin: 11px 0; font: 10px Tahoma;}
+#subj{font: 11px  Comic Sans; color: #d82631 ; margin: auto auto 13px auto;}
+#imag{padding-top: 14px;}
+#imag2{max-width: 635px; padding: 19px;}
+#content{background-color: #FFFFFF; color: #FFFFFF; font-size: xx-small;}
+</style>
+</head>
+<body>
+<center>
+<table id="tab333">
+<tr>
+<td align="center">
+<p id="tapper">
+Images not loading? <a href="http://read.falljetdeals.link"> Please go here.</a>
+<br>
+</p>
+</td>
+</tr>
+<tr>
+<tr>
+<td align="center" id="imag" >							
+<a href="http://seethis.falljetdeals.link" id="imag1" alt="4705239"></a>
+</td>
+</tr>			
+<tr>
+<td align="center">
+<a href="http://read.falljetdeals.link"><img src="http://seethis.falljetdeals.link" alt="4705239"/></a>
+<br/><br/>
+<a href="http://nomore.falljetdeals.link"><img src="http://seethat.falljetdeals.link" alt="4705239"/></a>
+<br/><br/>
+</td>
+</tr>
+<TR><TD></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR>
+<table style="width: 635px; background-color: #FFFFFF; border: 7px;">
+<tr>
+<td>
+<span id="content">
+<br>
+<br>
+<br>
+<br>
+<p align="left">
+recommended most of what we ordered and were happy to answer any questions we had (even telling me how to make the delicious broccoli). I really can't say enough good things about our experience at Girl and the Goat! Everything about this place is amazing from the food, to the ambiance, to the service. Our waiter, Hunter, was very kind and patient and checked up on us frequently. He also took the time to introduce their very seasonal menu which could be confusing at times to amateur diners. I particularly like their focus on vegetables in addition to catering to the most voracious carnivores. I had a beet's salad that was very refreshing and balanced the goat belly and pork knuckles I had perfectly. Even though Hunter checked up on us often, he was not the only person serving us. Other people frequently came to clean up our table, take away empty dishes, change plates, and pour water for us during our entire stay. I left full and very content. Hands down the best restaurant in Chicag
+ o. Believe all the hype and the previous reviews because it is worth waiting months to get a reservation. I went in January and again in June but my review stands true for both. In January, I got very lucky and got seated at the chef's table. It was enjoyable watching the cooks put out hundreds of orders while also eating some delicious food. We also got free samples of other dishes we didn't order so I would definitely recommend trying to get seated here (it's only for 2 people and gets kind of loud so not sure if you want your first date here). While all the dishes were amazing I wanted to highlight the green beans. This was the best vegetable dish I've ever had in my life. I tried recreating them at home but cannot get that perfect and complex balance of salty and sour. The perfectly cooked beans tossed with a fish sauce vinaigrette, finished with an aioli was 
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+</span>
+</td>
+</tr>
+</table>
+</table>
+</center>
+
+</body>
+</html>

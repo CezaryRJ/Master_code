@@ -1,0 +1,16 @@
+2000 TO 2010
+-------#####------->    hash
+paul.hoffman@vpnc.org 21
+housley@vigilsec.com 11
+jon@pgp.com 6
+ekr@networkresonance.com 5
+ben@algroup.co.uk 3
+djb@cr.yp.to 3
+smb@cs.columbia.edu 3
+hugo@ee.technion.ac.il 2
+ietf@augustcellars.com 2
+robert.zuccherato@entrust.com 2
+william@elan.net 2
+ho@alum.mit.edu 1
+jimsch@nwlink.com 1
+uri.blumenthal@intel.com 1

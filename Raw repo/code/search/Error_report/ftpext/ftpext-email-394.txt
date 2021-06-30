@@ -1,0 +1,50 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ftpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ftpext/2008-01.mailcl']
+id : b4d9632a-cf2f-4373-8c94-5f6c7195274a
+_version_ : 1675133277396008962
+
+Content : 
+
+020601020204080004070706
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Tue, 8 Jan 2008 17:04:37 +0100
+To: ftpext-archive@lists.ietf.org
+From: "Earle Machielsen" <EarleMachielsen@Q-N-C.COM>
+Subject: 7435701
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+
+Now you'll be able to reach DEEPER into her!
+
+http://www.Dontbesmallever.com/
+
+743-7733 7436417 6778474
+7437511 7435386 743-4846
+7381494 7431269 6733cp
+7173347 7282nvs 743-2965
+
+

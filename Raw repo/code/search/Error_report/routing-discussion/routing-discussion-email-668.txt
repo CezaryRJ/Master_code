@@ -1,0 +1,112 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : routing-discussion
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/routing-discussion/2006-11.mailcl']
+id : 23fe83bf-a310-47e4-9376-6f642dd7685c
+_version_ : 1675133842406506497
+
+Content : 
+
+XFrom routing-discussion-bounces@ietf.org Fri Nov 17 13:53:46 2006
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1Gl8nw-0006Mg-Dy; Fri, 17 Nov 2006 13:51:12 -0500
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1Gl8nu-0006MF-T3; Fri, 17 Nov 2006 13:51:10 -0500
+Received: from colo-dns-ext2.juniper.net ([207.17.137.64])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43)
+	id 1Gl8nq-0002Br-Go; Fri, 17 Nov 2006 13:51:10 -0500
+Received: from magenta.juniper.net (magenta.juniper.net [172.17.28.122])
+	by colo-dns-ext2.juniper.net (8.12.3/8.12.3) with ESMTP id
+	kAHIow1Z057366; Fri, 17 Nov 2006 10:50:58 -0800 (PST)
+	(envelope-from rcallon@juniper.net)
+Received: from rcallon-lt1.juniper.net ([172.23.1.176])
+	by magenta.juniper.net (8.11.3/8.11.3) with ESMTP id kAHIovF02655;
+	Fri, 17 Nov 2006 10:50:57 -0800 (PST)
+	(envelope-from rcallon@juniper.net)
+Message-Id: <5.0.0.25.2.20061117121024.041bb690@zircon.juniper.net>
+X-Sender: rcallon@zircon.juniper.net
+X-Mailer: QUALCOMM Windows Eudora Version 5.0
+Date: Fri, 17 Nov 2006 12:13:00 -0500
+To: rtg-dir@ietf.org, routing-discussion@ietf.org
+From: Ross Callon <rcallon@juniper.net>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 97adf591118a232206bdb5a27b217034
+Cc: dmm@1-4-5.net
+Subject: The Routing And Addressing Mailing List
+X-BeenThere: routing-discussion@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Routing Area General mailing list <routing-discussion.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/routing-discussion>, 
+	<mailto:routing-discussion-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:routing-discussion@ietf.org>
+List-Help: <mailto:routing-discussion-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/routing-discussion>,
+	<mailto:routing-discussion-request@ietf.org?subject=subscribe>
+Errors-To: routing-discussion-bounces@ietf.org
+
+FYI. Thanks, to Dave Meyer for setting this up.
+
+Ross
+
+ > From: David Meyer <dmm@1-4-5.net>
+ > To: routingworkshop@lists.i1b.org, architecture-discuss@ietf.org
+ > Cc: iab@ietf.org, iesg@ietf.org
+ > Subject: [RAM] New list: The Routing And Addressing Mailing List
+ > Date: Thu, 16 Nov 2006 09:35:55 -0800
+ >
+ >
+ > 	Folks,
+ >
+ > 	We've created a new list, the Routing and Addressing
+ > 	Mailing list (ram@iab.org), which is reserved for the
+ > 	IETF community's discussion of the analysis of and
+ > 	potential solutions to the continued growth in the size
+ > 	and dynamics of the Internet's default free zone routing
+ > 	table.
+ >
+ > 	Lixia and I will be moderating the list. We're hoping for
+ > 	focused discussions on the topic(s) at hand.
+ >
+ > 	To subscribe, please see https://www1.ietf.org/mailman/listinfo/ram
+ >
+ > 	Finally, note that while the list is hosted @iab.org,
+ > 	this is an IETF (i.e., IESG and IAB) sponsored activity.
+ >
+ > 	We're all looking forward to the discussion.
+ >
+ > 	Thanks,
+ >
+ > 	--dmm
+
+
+_______________________________________________
+routing-discussion mailing list
+routing-discussion@ietf.org
+https://www1.ietf.org/mailman/listinfo/routing-discussion

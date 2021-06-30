@@ -1,0 +1,110 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ldap-dir
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ldap-dir/2006-09.mailcl']
+id : bdec541a-2891-4fb3-9d1c-27d82eae5ed4
+_version_ : 1675129525808136193
+
+Content : 
+
+Message-ID: <007b01c6cdeb$dc4313f0$425a4599@wsgr.com> 
+From: "Porfirio Dalton" <pdalton_ui@wsgr.com> 
+To: l3vpn@ietf.org, ldap-dir-admin@ietf.org, ldap-dir-web-archive@ietf.org,
+	ldap-dir@ietf.org 
+Date: Fri, 01 Sep 2006 13:27:12 -0400 
+MIME-Version: 1.0 
+Content-Type: text/plain; 
+        charset="iso-8859-1" 
+Content-Transfer-Encoding: 7bit 
+X-Priority: 3 
+X-MSMail-Priority: Normal 
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000 
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Spam-Score: 4.1 (++++)
+X-Scan-Signature: a7d6aff76b15f3f56fcb94490e1052e4
+Cc: 
+Subject: [Ldap-dir] Under the Radar energy st0ck Alert 
+X-BeenThere: ldap-dir@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: LDAP Directorate <ldap-dir.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ldap-dir>,
+	<mailto:ldap-dir-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ldap-dir@ietf.org>
+List-Help: <mailto:ldap-dir-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ldap-dir>,
+	<mailto:ldap-dir-request@ietf.org?subject=subscribe>
+Errors-To: ldap-dir-bounces@ietf.org
+Message-Id: <E1GJ1SN-0000uQ-0Q@megatron.ietf.org>
+
+RADAR *UTEV* RIGHT NOW!
+A Massive PR Campaign is Underway for Tommorow into NEXT WEEK!
+MAJOR NEWS IS EXPECTED GET IN EARLY! 
+
+Explosive pick for our members.
+This st0ck will explode!
+
+Date: Friday September 1, 2006
+Company: United Enviromental Energy Corporation
+Ticker: UTEV
+Current Price: $0.23  .. up 15 percent! 
+Target Price: $1.20
+Rating: 10(10)
+Recommendation: "S T R 0 N G -  B U Y "
+
+We rate this ENERGY DEAL 10/10 on the radar and predict it will
+trade with huge momentum starting this week into next.  Waste 
+to Energy is a HUGE market which benefits consumers as well as 
+our enviroment. UTEV's 36 MWe WTE power plant generate an annual
+return for Buyers/Operators of $26,O9O,OOO.OO after operating 
+expenses!
+
+BREAKING NEWS: UTEV Is Planning a Commercial Mission in France
+Following the acquisition of the License for the rights to 
+commercialize the Waste to Energy (WTE) power plants using the
+gasification technology for the national territory of France, 
+has started business development activities and is planning a 
+commercial mission within a few months.
+
+About The Company:
+The nature of UTEV's main business is to commercialize 
+environmentally-friendly technologies. UTEV's activities are 
+oriented towards sustainable development which is highly 
+appropriate considering that we have entered an era where clean
+energy and environment will most likely remain major issues.  
+Valorization of the environment, renewable energy production 
+and economic development are thus, the cornerstone of the 
+company current commercial activities.  
+
+Remember the gains from our recent recommendations... Do not 
+miss out, Put UTEV on your radar's now. Good luck and 
+trade out at the top!!! 
+
+_______________________________________________
+Ldap-dir mailing list
+Ldap-dir@ietf.org
+https://www1.ietf.org/mailman/listinfo/ldap-dir
+
+

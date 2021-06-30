@@ -1,0 +1,266 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-04.mailcl']
+id : 1751b6ca-9661-490b-9704-3df1178710d7
+_version_ : 1675130273961869313
+
+Content : 
+
+> > Subject: Re: [Geopriv] Confirmation of GEOPRIV IETF 68
+> > Working Group Hums
+> >
+> > The reason that DHCP is appropriate for information about the
+> > location of the host is that the scope of DHCP administration
+> > usually does match the local network to which the host is
+> > attached.  Location is local information.
+> >
+> > John
+> >
+> > On Apr 20, 2007, at 3:38 PM, David W. Hankins wrote:
+> >
+> > > The point is that the ISO L(x) is not what one considers
+> > when judging
+> > > wether or not a certain configuration value "would make a good =
+band
+> > > name.  I mean DHCP option."
+> > >
+> > > What we (strive to) consider instead is the administrative scope =
+of
+> > > the configuration information, and wether it matches common and
+> > > practical use of DHCP.
+> >
+> >
+> > On Apr 19, 2007, at 7:47 PM, David W. Hankins wrote:
+> > > On Thu, Apr 19, 2007 at 03:38:40PM -0700, Hallam-Baker,
+> > Phillip wrote:
+> > >> DHCP is a layer 3 technology that talks directly to layer 2.
+> > >
+> > > DHCP is a technology that dynamically configures hosts.
+> > >
+> > > If a host has a configuration knob that might reasonably
+> > and properly
+> > > be set by the systems administrator or the network you are
+> > presently
+> > > attached to, then it is reasonable and proper to configure it via
+> > > DHCP.
+> >
+> >
+> > _______________________________________________
+> > Ietf mailing list
+> > Ietf@ietf.org
+> > https://www1.ietf.org/mailman/listinfo/ietf
+> >
+>=20
+> _______________________________________________
+> Ietf mailing list
+> Ietf@ietf.org
+> https://www1.ietf.org/mailman/listinfo/ietf
+
+
+_______________________________________________
+Geopriv mailing list
+Geopriv@ietf.org
+https://www1.ietf.org/mailman/listinfo/geopriv
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+
+
+
+
+([207.236.237.115]
+	helo=bellwecs3.srvr.bell.ca)
+	by ietf-mx.ietf.org with smtp (Exim 4.43) id 1Hgo8c-0000wg-Tb
+	for ietf@ietf.org; Wed, 25 Apr 2007 16:30:56 -0400
+Received: (qmail 30281 invoked from network); 25 Apr 2007 20:30:53 -0000
+Received: from g.caron@bell.ca by bellwecs3.srvr.bell.ca with
+	EntrustECS-Server-7.4; 25 Apr 2007 20:30:53 -0000
+Received: from bellwfep3.bellnexxia.net (HELO bellwfep3-srv.bellnexxia.net)
+	(207.236.237.109)
+	by bellwecs3.srvr.bell.ca with SMTP; 25 Apr 2007 20:30:53 -0000
+Received: from TOROONDC908.bell.corp.bce.ca ([142.182.89.88])
+	by bellwfep3-srv.bellnexxia.net
+	(InterMail vM.5.01.06.10 201-253-122-130-110-20040306) with ESMTP id
+	<20070425203048.CMJX1679.bellwfep3-srv.bellnexxia.net@TOROONDC908.bell.corp.bce.ca>;
+	Wed, 25 Apr 2007 16:30:48 -0400
+Received: from toroondc912.bell.corp.bce.ca ([142.182.89.15]) by
+	TOROONDC908.bell.corp.bce.ca with Microsoft SMTPSVC(6.0.3790.1830); 
+	Wed, 25 Apr 2007 16:30:53 -0400
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 25 Apr 2007 16:30:53 -0400
+Message-ID: <2E62ACF8ADDB4D4F89093CBFDF2FBAF30A74992E@toroondc912>
+In-Reply-To: <027a01c78767$a5b803f0$640fa8c0@cis.neustar.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Geopriv] Confirmation of GEOPRIV IETF 68 Working Group  Hums
+Thread-Index: AceHPOSnDdAF8L84TFu/Ay68EUW/gwAAysRwAAnMYzAABEg2UA==
+References: <198A730C2044DE4A96749D13E167AD370124CCA9@MOU1WNEXMB04.vcorp.ad.vrsn.com>
+	<027a01c78767$a5b803f0$640fa8c0@cis.neustar.com>
+From: <g.caron@bell.ca>
+To: <br@brianrosen.net>, <pbaker@verisign.com>, <jschnizl@cisco.com>,
+	<David_Hankins@isc.org>
+X-OriginalArrivalTime: 25 Apr 2007 20:30:53.0602 (UTC)
+	FILETIME=[9EF4D820:01C78778]
+X-Spam-Score: 0.2 (/)
+X-Scan-Signature: 9a2be21919e71dc6faef12b370c4ecf5
+X-Mailman-Approved-At: Thu, 26 Apr 2007 10:18:54 -0400
+Cc: geopriv@ietf.org, ietf@ietf.org
+Subject: RE: [Geopriv] Confirmation of GEOPRIV IETF 68 Working Group  Hums
+X-BeenThere: ietf@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: IETF-Discussion <ietf.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ietf@ietf.org>
+List-Help: <mailto:ietf-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=subscribe>
+Errors-To: ietf-bounces@ietf.org
+
+Brian,
+
+<we will specify an api on the O/S the application is running>
+
+Who is "we", geopriv?
+
+Guy Caron
+-----Message d'origine-----
+De=A0: Brian Rosen [mailto:br@brianrosen.net]=20
+Envoy=E9=A0: 25 avril 2007 14:29
+=C0=A0: 'Hallam-Baker, Phillip'; 'John Schnizlein'; 'David W. Hankins'
+Cc=A0: 'GEOPRIV WG'; ietf@ietf.org
+Objet=A0: RE: [Geopriv] Confirmation of GEOPRIV IETF 68 Working Group =
+Hums
+
+On most devices of interest, this is a non issue; they are small =
+embedded
+devices, like phones.
+
+For other situations, for example a sip softclient running on a laptop, =
+we
+will specify an api on the O/S the application is running.  The api will
+front end a set of "Location Configuration Protocols" of which DHCP is =
+one.
+
+Brian
+
+> -----Original Message-----
+> From: Hallam-Baker, Phillip [mailto:pbaker@verisign.com]
+> Sent: Wednesday, April 25, 2007 9:50 AM
+> To: John Schnizlein; David W. Hankins
+> Cc: GEOPRIV WG; ietf@ietf.org
+> Subject: RE: [Geopriv] Confirmation of GEOPRIV IETF 68 Working Group =
+Hums
+>=20
+> But how does my application access it?
+>=20
+> DHCP is not something that an application layer program should be =
+allowed
+> to perform. It is a security issue. For good reason performing DHCP
+> operations requires privileges beyond mere network connectivity on
+> Windows.
+>=20
+> That is why configuring application programs from DHCP never caught =
+on.
+>=20
+> > -----Original Message-----
+> > From: John Schnizlein [mailto:jschnizl@cisco.com]
+> > Sent: Sunday, April 22, 2007 6:41 PM
+> > To: David W. Hankins
+> > Cc: GEOPRIV WG; ietf@ietf.org
+> > Subject: Re: [Geopriv] Confirmation of GEOPRIV IETF 68
+> > Working Group Hums
+> >
+> > The reason that DHCP is appropriate for information about the
+> > location of the host is that the scope of DHCP administration
+> > usually does match the local network to which the host is
+> > attached.  Location is local information.
+> >
+> > John
+> >
+> > On Apr 20, 2007, at 3:38 PM, David W. Hankins wrote:
+> >
+> > > The point is that the ISO L(x) is not what one considers
+> > when judging
+> > > wether or not a certain configuration value "would make a good =
+band
+> > > name.  I mean DHCP option."
+> > >
+> > > What we (strive to) consider instead is the administrative scope =
+of
+> > > the configuration information, and wether it matches common and
+> > > practical use of DHCP.
+> >
+> >
+> > On Apr 19, 2007, at 7:47 PM, David W. Hankins wrote:
+> > > On Thu, Apr 19, 2007 at 03:38:40PM -0700, Hallam-Baker,
+> > Phillip wrote:
+> > >> DHCP is a layer 3 technology that talks directly to layer 2.
+> > >
+> > > DHCP is a technology that dynamically configures hosts.
+> > >
+> > > If a host has a configuration knob that might reasonably
+> > and properly
+> > > be set by the systems administrator or the network you are
+> > presently
+> > > attached to, then it is reasonable and proper to configure it via
+> > > DHCP.
+> >
+> >
+> > _______________________________________________
+> > Ietf mailing list
+> > Ietf@ietf.org
+> > https://www1.ietf.org/mailman/listinfo/ietf
+> >
+>=20
+> _______________________________________________
+> Ietf mailing list
+> Ietf@ietf.org
+> https://www1.ietf.org/mailman/listinfo/ietf
+
+
+_______________________________________________
+Geopriv mailing list
+Geopriv@ietf.org
+https://www1.ietf.org/mailman/listinfo/geopriv
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+
+
+

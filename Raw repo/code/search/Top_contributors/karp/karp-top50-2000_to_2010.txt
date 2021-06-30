@@ -1,0 +1,15 @@
+2000 TO 2010
+-------#####------->    karp
+gregory.ietf@gmail.com 26
+bew@cisco.com 6
+vnktshsriram@gmail.com 5
+jmh@joelhalpern.com 4
+manavbhatia@gmail.com 4
+bill@cse.concordia.ca 3
+flefauch@cisco.com 3
+vishwas.ietf@gmail.com 3
+ietf@hardjono.net 2
+morrowc.lists@gmail.com 2
+joelja@bogus.com 1
+mcgrew@cisco.com 1
+russ@cisco.com 1

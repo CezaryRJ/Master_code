@@ -1,0 +1,111 @@
+Date : ['2006-08-03T12:34:20Z']
+Timezone : -0400
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <330A23D8336C0346B5C1A5BB19666647035B3410@ATLANTIS.Brooktrout.com>
+References : Null
+Comments : ['Null']
+Subject : ['RE: [Simple] IMDN Issue 3: Schema vs RelaxNG']
+Mailing-list : simple
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/simple/2006-08.mailcl']
+id : b5341fe4-e853-49cc-8774-fbad80a5b9f5
+_version_ : 1675134024906964994
+
+Content : 
+
+X-From simple-bounces@ietf.org Thu Aug 03 12:38:07 2006
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1G8gCn-0008Qd-9t; Thu, 03 Aug 2006 12:37:53 -0400
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1G8gCm-0008QY-Po
+	for simple@ietf.org; Thu, 03 Aug 2006 12:37:52 -0400
+Received: from mxgate1.brooktrout.com ([204.176.74.10])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1G8gCl-0001Gh-8V
+	for simple@ietf.org; Thu, 03 Aug 2006 12:37:52 -0400
+X-IronPort-AV: i="4.07,209,1151899200"; 
+	d="scan'208"; a="36121756:sNHT54529920"
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Subject: RE: [Simple] IMDN Issue 2: Really-From and Really-To header names
+Date: Thu, 3 Aug 2006 12:34:02 -0400
+Message-ID: <330A23D8336C0346B5C1A5BB19666647035B340E@ATLANTIS.Brooktrout.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Simple] IMDN Issue 2: Really-From and Really-To header names
+Thread-Index: Aca2Bgu/hIBoT2nQTKKT091dEYPFHQBFI8mQ
+From: "Burger, Eric" <eburger@cantata.com>
+To: "Hisham Khartabil" <hisham.khartabil@telio.no>
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 9466e0365fc95844abaf7c3f15a05c7d
+Cc: simple@ietf.org
+X-BeenThere: simple@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: SIP for Instant Messaging and Presence Leveraging Extensions
+	<simple.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/simple>,
+	<mailto:simple-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/simple>
+List-Post: <mailto:simple@ietf.org>
+List-Help: <mailto:simple-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/simple>,
+	<mailto:simple-request@ietf.org?subject=subscribe>
+Errors-To: simple-bounces@ietf.org
+
+I like the new names.
+
+-----Original Message-----
+From: Hisham Khartabil [mailto:hisham.khartabil@telio.no]=20
+Sent: Wednesday, August 02, 2006 3:26 AM
+To: 'simple@ietf.org' WG
+Subject: [Simple] IMDN Issue 2: Really-From and Really-To header names
+
+I have received a few complaints that these header names are=20
+inappropriate. The purpose of those headers is to help guide the IMDN=20
+back to intermediaries that need to see IMDNs for IMs.
+
+I have suggested "IMDN-Record-Route" and "IMDN-Route" for replacing=20
+"Really-From" and "Really-To" header names respectively.
+
+Ben suggested that "it would be better to choose something that does=20
+not use the same several-character opening sequence". I and Eric don't=20
+buy this argument. Anyone in support of Ben?
+
+any comments about the new suggested header names?
+
+Regards,
+Hisham
+
+
+_______________________________________________
+Simple mailing list
+Simple@ietf.org
+https://www1.ietf.org/mailman/listinfo/simple
+
+_______________________________________________
+Simple mailing list
+Simple@ietf.org
+https://www1.ietf.org/mailman/listinfo/simple
+
+

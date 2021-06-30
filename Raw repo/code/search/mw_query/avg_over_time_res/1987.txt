@@ -1,0 +1,5 @@
+Year = 1987
+Adr count = 14
+Removed 0
+Sum 16.0
+Avarage = 1.1428571428571428

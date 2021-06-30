@@ -1,0 +1,86 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Petri Jokela <petri.jokela@ericsson.com>']
+Cc-name :  Petri_Jokela
+Cc-address :  petri.jokela@ericsson.com
+In-Reply-To : ['<F38BFB6F-EA59-45A4-A382-1E3F6D72417C@nomadiclab.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  F38BFB6F-EA59-45A4-A382-1E3F6D72417C@nomadiclab.com
+Message-ID : <F0B4EE8E56F9DD4B80419C6D8252139702B8F2E8@df-foxhound-msg.exchange.corp.microsoft.com>
+References : Null
+Comments : ['Null']
+Subject : ['[Hipsec] RE: Belovin-Rescorla analysis - HIP: NULL ESP encryption\n as a mandatory algorithm']
+Mailing-list : hipsec
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/hipsec/2006-04.mailcl']
+id : 43be8074-66f1-449a-8b8e-ede52a2b0916
+_version_ : 1675131891114573824
+
+Content : 
+
+I apologize that my mailer can't auto-generate the >> indentations and at t=
+he moment I lack the patience to do it myself.
+
+I agree with Pekka that it's important that there could be a legal implemen=
+tation that did not offer encryption, so if you're going to go down this pa=
+th some Null scheme has to be mandatory to implement.
+
+But I still object to picking those algorithms as mandatory to offer. While=
+ it guarantees interoperability between any two compliant implementations (=
+which is good), it comes at a cost of disallowing *configurations* that onl=
+y want to support some stronger hash or that don't want to accept NULL encr=
+yption. I don't know whether an RFC can say anything about the mandatory *d=
+efault* configuration, but I believe that's what you're really trying to ge=
+t at.
+
+        --Charlie
+
+-----Original Message-----
+From: Pekka Nikander [mailto:pekka.nikander@nomadiclab.com]
+Sent: Friday, April 07, 2006 12:40 AM
+To: HIP
+Cc: Petri Jokela; Andrew McGregor; Petri Jokela; Charlie Kaufman
+Subject: Belovin-Rescorla analysis - HIP: NULL ESP encryption as a mandator=
+y algorithm
+
+>>>> There is mandatory support for ESP with HMAC-SHA1 and either
+>>>> Null or AES128CBC encryption. This is mandatory not just in the
+>>>> implementation but also in the configuration. (i.e., as written,
+>>>> the spec says that one of those two suites must be offered in
+>>>> every negotiation).
+>>
+>> The reason for this was that we would have something common
+>> between all nodes.
+>
+> But Null should not be mandatory to offer.  AES128CBC would do as a
+> mandatory-to-offer.
+
+I don't understand this comment.  Maybe the text is unclear (Section
+5.2.7 I think), but AFAICS it just requires that the responder
+includes _at_least_ either HMAC-SHA1-NULL or HMAC-SHA1-AES128CBC.
+Nothing prevents it from including both and perhaps others.
+
+If you implement HMAC-SHA1-AES128CBC, it is trivial to implement HMAC-
+SHA1-NULL.
+
+What is wrong with this?  To me this approach seems to be fine with
+me; not all connections require encryption.
+
+--Pekka
+
+
+_______________________________________________
+Hipsec mailing list
+Hipsec@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/hipsec

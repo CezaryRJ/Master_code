@@ -1,0 +1,87 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : httpbisa
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/httpbisa/2007-12.mailcl']
+id : 63014a03-de48-4695-9b20-18bf71cfd04c
+_version_ : 1675129390844870656
+
+Content : 
+
+there that badly choked on charset parameters.
+
+So it wasn't that the default was an attempt to save some bytes
+for Latin-1, but that it was in some way necessary to be backwards-
+compatible with very early versions not documented as RFCs.
+
+Such backwards compatibility is no longer necessary, fortunately.
+The situation currently on the Web is different. The actual
+'default' used by browsers isn't simply iso-8859-1, it's whatever
+the user has set as his/her preferred encoding, or whatever the
+setting of the specific language version is. This means that in
+essence, there is NO default. The HTTP spec clearly should be
+fixed to say so.
+
+>Some parts of this puzzle:  RFC 2070 introduced an "ideally anything
+>is Unicode" concept, later adopted by HTML 4+, XHTML 1+, and XML 1+.
+>AFAIK HTML 3.2 and maybe also HTML 3 still didn't have this feature.
+>
+>As far as RFC numbers mean something 2070 was published "after" 2068,
+>both say January 1997, and "the law" 2277 was clearly a year later.
+
+At least 2070 and 2277 were in the works for a really long time.
+That may also apply to 2068.
+
+>RFC 2068 (HTTP/1.1) was the successor of 1945 (HTTP/1.0, May 1996),
+>2070 (HTML i18n) was the successor of 1866 (HTML 2, November 1995).
+>
+>Tim Berners-Lee, one co-author of RFC 1866 and 1945, wrote in 1866:
+>
+>| NOTE - To support non-western writing systems, a larger character
+>| repertoire will be specified in a future version of HTML. The
+>| document character set will be [ISO-10646], or some subset that
+>| agrees with [ISO-10646]; in particular, all numeric character
+>| references must use code positions assigned by [ISO-10646].
+
+That was put in because the HTML WG at that time already more
+or less understood (after a lot of discussions) that the direction
+to go was Unicode/ISO 10646. A lot of the work on HTML 2.0 and
+HTML i18n (RFC 2070) and some other pieces was going on somewhat
+in parallel.
+
+>Speculation, in May 1996 it made sense that HTTP/1.0 can transport
+>HTML 2 "as is", default Latin-1, and it took Harald and Martin some
+>months to fix this in RFC 2070 and 2277, too late for RFC 2068, and
+>RFC 2616 simply inherited "default Latin-1" wholesale. 
+
+It wasn't just Harald and me. It was a lot more people, in particular
+all the coauthors of RFC 2070 and 2277.
+
+Regards,    Martin.
+
+
+#-#-#  Martin J. Du"rst, Assoc. Professor, Aoyama Gakuin University
+#-#-#  http://www.sw.it.aoyama.ac.jp       mailto:duerst@it.aoyama.ac.jp     
+
+

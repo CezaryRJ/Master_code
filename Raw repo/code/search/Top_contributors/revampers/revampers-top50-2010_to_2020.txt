@@ -1,0 +1,13 @@
+2010 TO 2020
+-------#####------->    revampers
+wood@isoc.org 27
+housley@vigilsec.com 11
+mnot@mnot.net 4
+barryleiba@computer.org 3
+rjsparks@nostrum.com 3
+ben@nostrum.com 2
+ietf@kuehlewind.net 2
+sbanks@encrypted.net 2
+cowieson@isoc.org 1
+ged@torchbox.com 1
+jhildebr@cisco.com 1

@@ -1,0 +1,94 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['owner-dna@ecselists.eng.monash.edu.au']
+Sender-name : Null
+Sender-address :  owner-dna@ecselists.eng.monash.edu.au
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : James Kempf <Kempf@docomolabs-usa.com>
+To-name :  James_Kempf
+To-address : [' Kempf@docomolabs-usa.com']
+Cc : ['JinHyeock Choi <jinchoe@gmail.com>, greg.daley@eng.monash.edu.au,\n        Sathya Narayanan <sathya@research.panasonic.com>,\n        Brett Pentland <brett.pentland@eng.monash.edu.au>,\n        Dna <dna@eng.monash.edu.au>']
+Cc-name :  JinHyeock_Choi Sathya_Narayanan Brett_Pentland Dna
+Cc-address :  jinchoe@gmail.com greg.daley@eng.monash.edu.au sathya@research.panasonic.com brett.pentland@eng.monash.edu.au dna@eng.monash.edu.au
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <595b96597d52.597d52595b96@monash.edu.au>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : dna
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/dna/2005-07.mailcl']
+id : 533602e9-8ac9-4b81-b66d-46b740b0a892
+_version_ : 1675134050546745346
+
+Content : 
+
+Hi James, 
+
+There are responses to the top and bottom of your e-mail.
+
+Don't be too despondent until you read the last lines...
+
+----- Original Message -----
+From: James Kempf <Kempf@docomolabs-usa.com>
+Date: Saturday, July 23, 2005 4:54 pm
+Subject: Re: [DNA] DNA proposal issue 19 - was [Issue X] LinkID v.s. 
+LandmarkPrefix
+> > has bandwidths between 1 - 5 Mbps, and 3.9 G is up to 20
+> > Mbps. 9.6 kbps links aren't really that important anymore.
+> 
+> My point is that, if we are to compare packet size as Greg suggested,
+> we need to compare all the packet size coming from each scheme,
+> not only the packet size of one RS/ RA exchange.
+> 
+> jak>> But how often will this signaling take place? I think one 
+> must be realistic about the critera. If the signaling only takes
+> place every handover, then I think that the size isn't really
+> relevant, within reason of course. We're not talking about a
+> periodic beacon in that case.
+
+You're right that the burden isn't too great, but one thing touted
+as an advantage for Landmarks is their smaller size (with a Yes reply).
+So it's a legitimate factor (though not necessarily a big one).
+
+Also, the background cost of LinkID and CompleteRA are relevant,
+since there are BNEP bridges available...   
+
+If we compare unsolicited RA overheads we need to stress that with
+DNA, the unsolicited rate can be decreased and still receive good 
+performance.  We can present the rates for default RFC2461 RA,
+with default MinRtrAdvInterval and MaxRtrAdvInterval (in bps), 
+given the sample scenarios.
+
+The minimum RA interval values can be presented for comparison, 
+with a disclaimer that these values may not be needed.
+
+Does this sound reasonable? (regardless of its necessity??)
+
+I'll see if I can do this for the agreed criteria, in order to
+make this available to the list.  My aim here is to provide
+enough information for the WG to make its own decision.
+
+In this case, I guess there may not be much difference, but
+removing the uncertainty may help the decision process.
+
+[cut]
+> jak>> I think there are more important criteria, like backward
+> compatibility. How would each of these methods handle having a 
+> nonDNA router on the link, or handover between a DNA link and
+> a nonDNA link?  These are the kinds of issues that will
+> negatively or positively impact deployment potential, not whether
+> one or the other technique has a couple fewer bytes in the best case.
+
+Your point is well taken.
+
+I'll elicit help from others to facilitate this.
+
+Greg
+

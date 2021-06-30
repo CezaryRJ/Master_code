@@ -1,0 +1,52 @@
+2000 TO 2010
+-------#####------->    ecm
+ecm-archive@ietf.org 805
+ecm-archive@lists.ietf.org 340
+hubmib-request@ietf.org 85
+dnsext-archive@lists.ietf.org 64
+architecture-discuss-request@ietf.org 40
+ecrit-bounces@ietf.org 30
+new-work-bounces@ietf.org 28
+vern@ee.lbl.gov 22
+touch@isi.edu 21
+Daily@core3.amsl.com 18
+Health@core3.amsl.com 18
+Men's@core3.amsl.com 18
+"Dose <ecm-archive"@ietf.org 17
+hari@breeze.lcs.mit.edu 16
+magma-bounces@ietf.org 14
+no-reply@irs.gov 12
+dix@ietf.org 11
+19393@ietf.org 9
+ldapbis-archive@lists.ietf.org 8
+aaa-archive@lists.ietf.org 7
+bofchairs-request@ietf.org 7
+hari@lcs.mit.edu 7
+proceedings@ietf.org 7
+architecture-discuss@ietf.org 6
+diffserv-interest-request@ietf.org 6
+randall@stewart.chicago.il.us 6
+Internet-Drafts@ietf.org 5
+agentx-archive@lists.ietf.org 5
+brennanr@iol.ie 5
+dga@lcs.mit.edu 5
+ecrit-request@ietf.org 5
+mallman@grc.nasa.gov 5
+p2prg-admin@ietf.org 5
+discuss-archive@ietf.org 4
+eap-archive@lists.ietf.org 4
+eap-archive@ietf.org 3
+eapext-owner@ietf.org 3
+edu-team-request@ietf.org 3
+eos-request@ops.ietf.org 3
+ima@ietf.org 3
+industrynews20022002@yahoo.com.sg 3
+john@jlc.net 3
+mplsissues-owner@yahoogroups.com 3
+"MensHealth.com <ecm-archive"@ietf.org 2
+"Site <ecm-archive"@ietf.org 2
+B.Collin@cis.co.za 2
+Kacheong.Poon@eng.sun.com 2
+VIAGRA.Official@core3.amsl.com 2
+adimora01@ttml.co.in 2
+barrister@marihuana.ro 2

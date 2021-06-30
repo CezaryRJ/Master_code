@@ -1,0 +1,107 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2006-07.mailcl']
+id : 14756c70-f02c-4e8f-b865-56341c16ab9b
+_version_ : 1675128737699463168
+
+Content : 
+
+behavior, then we ought to proscribe it in a form that
+implementors can understand and code to.  Today, no such text
+or guideline exist.
+
+> Thinking about this some more, I think connect-reue has got the 
+> validation model wrong. [...] This validation model has the desired 
+> property; a request gets delivered in the reverse direction with 
+> connect-reuse only if it would have been delivered had connect-reuse 
+> not been used.
+
+Thanks; this'll be added to connect-reuse.
+
+> This simplifies the work that domain-certs has to do. It merely
+> needs to give guidance on how the server certificate should look 
+> like, addressing the two main things EKR mentioned:
+> 
+> 1. what field does the identity get coded into
+> 2. what does that identity represent - the specific host or the
+> domain
+> 
+> My two cents is, I think it should always just be the domain 
+> (example.com and not proxy2.example.com). Thus if you connect to 
+> proxy2.example.com, and the server provided a certificate for 
+> example.com, that would be OK. 
+
+This works fine for majority of the cases where the client
+authenticates the server, i.e., client has a R-URI of
+"sips:alice@example.com" and the server certificate asserts
+an SAN identity of "DNS:example.com".  The corner case where
+there is a problem is the case where the client follows a R-URI of
+"sips:alice@downtown.example.com" and gets a certificate
+saying "DNS:example.com".  Is downtown a subdomain?  If so,
+is example.com authorized to present a certificate for
+downtown.example.com?  Or is downtown a host?  In which
+case, it would be trivial for the certificate to have an
+additional DNS name matching that host.
+
+The same problem occurs when a client follows a Route
+header (sips:proxy2.example.com) and gets a certificate
+saying "DNS:example.com".  Is proxy2 a host in example.com?
+Or is it a subordinate domain of example.com?
+
+> I also think its highly unlikely that a cerificate authority would 
+> hand out certs that verify that a *host* is proxy2.example.com. How 
+> would a CA verify that this is true?
+
+The CA will not verify this; I would think it would be upto
+the holder of the example.com domain to ensure the integrity
+of any additional identities stored in the certificate.
+
+I am curious: my understanding is that a certificate for a
+virtual servers may contain multiple domain names in it
+(c.f. Identity, Section 13.4: "certificates have varying
+ways of describing their subjects, and may indeed have
+multiple subjects, especially in 'virtual hosting' cases
+where multiple domains are managed by a single application.").
+If so, how do CAs do validation of these individual domain
+names?
+
+> Hope this makes sense.
+
+Yes, a lot of good comments driving some discussion above...
+
+Thanks.
+
+- vijay
+-- 
+Vijay K. Gurbani  vkg@{lucent.com,research.bell-labs.com,acm.org}
+Bell Laboratories, Lucent Technologies, Inc.
+2701 Lucent Lane, Rm. 9F-546, Lisle, Illinois 60532 (USA)
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip

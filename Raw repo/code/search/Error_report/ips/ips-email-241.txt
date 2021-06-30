@@ -1,0 +1,57 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ips
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ips/2002-05.mailcl']
+id : d21f97c7-ae89-4a23-94f7-1f4199467a68
+_version_ : 1675132552322482177
+
+Content : 
+
+owner-ips@ece.cmu.edu using -f
+Received: from pepsi.splentec.com (ns.splentec.com [209.47.35.194])
+ by ece.cmu.edu (8.11.0/8.10.2) with ESMTP id g4RDn1w09560
+ for <ips@ece.cmu.edu>; Mon, 27 May 2002 09:49:01 -0400 (EDT)
+Received: from splentec.com (canoe.splentec.com [209.47.35.250])
+ by pepsi.splentec.com (8.11.6/8.11.0) with ESMTP id g4RClru06037;
+ Mon, 27 May 2002 08:47:53 -0400
+Message-ID: <3CF23947.D2D5186C@splentec.com>
+Date: Mon, 27 May 2002 09:48:55 -0400
+From: Luben Tuikov <luben@splentec.com>
+Organization: Splentec Ltd.
+X-Mailer: Mozilla 4.79 [en] (X11; U; Linux 2.4.18 i686)
+X-Accept-Language: en
+MIME-Version: 1.0
+To: iSCSI <ips@ece.cmu.edu>, Julian Satran <Julian_Satran@il.ibm.com>
+Subject: [iSCSI:] Logout request -- reason? Correction
+References: <3CF23830.9344CC@splentec.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-ips@ece.cmu.edu
+Precedence: bulk
+--cut--
+
+
+
+

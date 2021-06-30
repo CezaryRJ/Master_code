@@ -1,0 +1,122 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ips
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ips/2001-06.mailcl']
+id : ed0376e8-91f5-4ad7-b615-a91b1045e876
+_version_ : 1675132571088846850
+
+Content : 
+
+owner-ips@ece.cmu.edu using -f
+Date: Fri, 22 Jun 2001 15:59:06 -0500
+From: Mark Bakke <mbakke@cisco.com>
+X-Mailer: Mozilla 4.72 [en] (X11; U; Linux 2.2.16-3.uid32 i686)
+X-Accept-Language: en, de
+MIME-Version: 1.0
+To: ips@ece.cmu.edu
+Subject: Re: profiles - a way to simplify iSCSI
+References: <79CB6B56B942D411A9AB001083FCE91E10B509@san-exchange.dino>
+<3B33881A.D0568785@cisco.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-ips@ece.cmu.edu
+Precedence: bulk
+
+Just noticed that we did not include descriptions for the
+columns in the spreadsheet.  Here they are:
+
+1st column - Section number of an internet-draft version
+of this spreadsheet, which we will generate if needed.
+
+2nd column - Category; we divided up the different features
+into some categories that made sense to us.  The first set
+is common to all iSCSI implementations; the second and third
+are for those features that apply just to targets or initiators.
+
+3rd column - Feature; short description of each feature.
+
+4th column - Reference; a reference to the section number of the
+iSCSI document that best describes the feature and its status.
+
+5th column - Status.
+
+   M = Mandatory
+   O = Optional
+   R = Recommended (we have none of these now)
+   X = Prohibited (we have none of these, either)
+
+   If numbers appear after the status, e.g. M:4.5, it means that
+   the feature is mandatory if the feature numbered 4.5 is
+   implemented.  I just noticed that some of our numbers had changed,
+   so a few of these might still be typos.
+
+6th column - Value.  This is used if the feature is more than just
+a check box; for instance, if an implementation supports "Data Digest -
+Other",
+it is used to indicate some reference to what "other" means.
+
+Hope this helps,
+
+Mark
+
+Mark Bakke wrote:
+> 
+> We've been thinking about how to profile iSCSI implementations
+> as well, and Paul Congdon, Matthew Burbridge (both of HP) and
+> I have come up with a spreadsheet that sort of follows the PICS
+> pro-forma that the IEEE folks use.  Anyway, it appears that this
+> might be a useful thing to start discussing.  We have attempted
+> to list the major mandatory and optional features, but have not
+> had enough review time yet to guarantee that it exactly matches
+> the spec, so comments are welcome.
+> 
+> Julian has placed it on his web page at:
+> 
+> http://www.haifa.il.ibm.com/satran/ips/iSCSIv6_PICs-5.pdf
+> 
+> I apologize that this is not in internet-draft form, or if this
+> list is not exactly the right place to do this.  However, I think
+> that it will help show the sheer number of optional features we
+> are faced with, and may help us prioritize what must stay in the
+> protocol, and what we could live without in the interest of
+> simplicity.
+> 
+> Hopefully, this will help.
+> 
+> --
+> Mark
+> 
+> --
+> Mark A. Bakke
+> Cisco Systems
+> mbakke@cisco.com
+> 763.398.1054
+
+-- 
+Mark A. Bakke
+Cisco Systems
+mbakke@cisco.com
+763.398.1054
+

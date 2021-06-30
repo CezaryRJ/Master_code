@@ -1,0 +1,200 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ipr-wg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipr-wg/2007-06.mailcl']
+id : 4612e55d-4097-4a1d-a370-df204b434ec5
+_version_ : 1675130738726404096
+
+Content : 
+
+> institutional arrangements that implement RFC3979, before the appeal 
+> process can correct deviations. While I was participating in the above 
+> matter, I chose not to rely on the appeal process, perhaps because it 
+> wasn't clear to me how things should have gone in the first place.
+>
+> P.S. Since even RFC3979 itself is absent from the IETF ipr wg charter; 
+> perhaps the above is totally off-topic.
+>
+> Regards,
+>
+> -- 
+>
+> - Thierry Moreau
+>
+> CONNOTECH Experts-conseils inc.
+> 9130 Place de Montgolfier
+> Montreal, Qc
+> Canada   H2M 2A1
+>
+> Tel.: (514)385-5691
+> Fax:  (514)385-5900
+>
+> web site: http://www.connotech.com
+> e-mail: thierry.moreau@connotech.com
+>
+>
+>
+> _______________________________________________
+> Ipr-wg mailing list
+> Ipr-wg@ietf.org
+> https://www1.ietf.org/mailman/listinfo/ipr-wg 
+
+
+_______________________________________________
+Ipr-wg mailing list
+Ipr-wg@ietf.org
+https://www1.ietf.org/mailman/listinfo/ipr-wg
+
+
+
+
+
+etf.org; Mon, 11 Jun 2007 16:27:20 -0400
+Received: from elasmtp-scoter.atl.sa.earthlink.net ([209.86.89.67])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1HxqRN-0001ba-KU
+	for ipr-wg@ietf.org; Mon, 11 Jun 2007 16:24:43 -0400
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=dk20050327; d=earthlink.net;
+	b=O/VZUaqOFD68zj4vrOkowY5OcNt8Nvgqa18mod7D0QQViRTAILLXLhJdcZrqKwDQ;
+	h=Received:Message-ID:From:To:References:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encoding:X-Priority:X-MSMail-Priority:X-Mailer:X-MimeOLE:X-ELNK-Trace:X-Originating-IP;
+Received: from [64.125.79.23] (helo=gw)
+	by elasmtp-scoter.atl.sa.earthlink.net with asmtp (Exim 4.34)
+	id 1HxqRM-0001bY-NO; Mon, 11 Jun 2007 16:24:41 -0400
+Message-ID: <003d01c7ac66$933e16f0$174f7d40@home.glassey.com>
+From: "todd glassey" <tglassey@earthlink.net>
+To: "Thierry Moreau" <thierry.moreau@connotech.com>,
+	<ipr-wg@ietf.org>
+References: <46656415.7090505@connotech.com>
+Date: Mon, 11 Jun 2007 13:22:49 -0700
+MIME-Version: 1.0
+Content-Type: text/plain; format=flowed; charset="iso-8859-1";
+	reply-type=response
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.3028
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+X-ELNK-Trace: 01b7a7e171bdf5911aa676d7e74259b7b3291a7d08dfec790b864778ecf10b660278acf4eb6e9872350badd9bab72f9c350badd9bab72f9c350badd9bab72f9c
+X-Originating-IP: 64.125.79.23
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: d8ae4fd88fcaf47c1a71c804d04f413d
+Cc: 
+Subject: Re: Effective vs intended handling of patent encumbrance in IETF wg
+	and IESG
+X-BeenThere: ipr-wg@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: IPR-WG <ipr-wg.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ipr-wg>,
+	<mailto:ipr-wg-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ipr-wg@ietf.org>
+List-Help: <mailto:ipr-wg-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ipr-wg>,
+	<mailto:ipr-wg-request@ietf.org?subject=subscribe>
+Errors-To: ipr-wg-bounces@ietf.org
+
+T - the filing deadlines for US Filings are 1 year post disclosure - so 
+anyone filing a draft up to 365 days prior to a patent filing could be 
+constrained by that filing. Plus there is the liability issue to deal with 
+too. That being that if any of the parties involved in the IETF filing are 
+inside or are informed as to the original IP their filing could be a 
+violation of that IP Filing's rights and they also may be liable (as would 
+their sponsor's for any damages they do inside the IETF).
+
+TGlassey
+
+----- Original Message ----- 
+From: "Thierry Moreau" <thierry.moreau@connotech.com>
+To: <ipr-wg@ietf.org>
+Sent: Tuesday, June 05, 2007 6:24 AM
+Subject: Effective vs intended handling of patent encumbrance in IETF wg and 
+IESG
+
+
+> For your information:
+>
+> In draft-ietf-dnsext-rollover-requirements, an IETF wg effectively made an 
+> a-priori decision to avoid the consideration of an IPR encumbered 
+> alternative; the problem area being DNSSEC trust anchor key management. I 
+> spare you the details of how the wg came to this decision, and how it 
+> relates to the a-priori rejected alternative.
+>
+> Now that the IESG accepted the above draft for publication as an RFC, it 
+> becomes a procedural precedent for attempts to expeditiously restrict IETF 
+> activities to IPR unencumbered alternatives.
+>
+> Conversely, it reinforces the economic incentive for medium and large 
+> organizations to isolate the individuals participating in the IETF 
+> activities from the patent application management process.
+>
+> Also, the above draft publication decision, in a context where the problem 
+> area is still lacking a solution with a reasonable explicit security 
+> model, is an empirical observation of the IETF strong preference for 
+> "ignoring the technology" (instead of "ignoring the IPR") when a tradeoff 
+> has to be made. Inescapably then, the aggregate scope and field of 
+> application of IETF protocols is deemed to shrink as innovation enhances 
+> the networking technology.
+>
+> Please note that I am not well aware of the detailed procedural and 
+> institutional arrangements that implement RFC3979, before the appeal 
+> process can correct deviations. While I was participating in the above 
+> matter, I chose not to rely on the appeal process, perhaps because it 
+> wasn't clear to me how things should have gone in the first place.
+>
+> P.S. Since even RFC3979 itself is absent from the IETF ipr wg charter; 
+> perhaps the above is totally off-topic.
+>
+> Regards,
+>
+> -- 
+>
+> - Thierry Moreau
+>
+> CONNOTECH Experts-conseils inc.
+> 9130 Place de Montgolfier
+> Montreal, Qc
+> Canada   H2M 2A1
+>
+> Tel.: (514)385-5691
+> Fax:  (514)385-5900
+>
+> web site: http://www.connotech.com
+> e-mail: thierry.moreau@connotech.com
+>
+>
+>
+> _______________________________________________
+> Ipr-wg mailing list
+> Ipr-wg@ietf.org
+> https://www1.ietf.org/mailman/listinfo/ipr-wg 
+
+
+_______________________________________________
+Ipr-wg mailing list
+Ipr-wg@ietf.org
+https://www1.ietf.org/mailman/listinfo/ipr-wg
+
+
+
+

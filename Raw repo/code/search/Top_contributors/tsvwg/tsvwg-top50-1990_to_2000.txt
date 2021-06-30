@@ -1,0 +1,11 @@
+1990 TO 2000
+-------#####------->    tsvwg
+vern@ee.lbl.gov 10
+Reiner.Ludwig@eed.ericsson.se 7
+sob@harvard.edu 3
+mallman@grc.nasa.gov 2
+Al.Smith@UNISYS.com 1
+Kacheong.Poon@Eng.Sun.COM 1
+scoya@ietf.org 1
+semke@psc.edu 1
+tjsh@netchina.com.cn 1

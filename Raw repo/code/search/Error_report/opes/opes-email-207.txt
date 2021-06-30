@@ -1,0 +1,33 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : opes
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/opes/2006-06.mailcl']
+id : 29cae7a3-1a57-4f54-af19-a06d8ea503e3
+_version_ : 1675132530081136640
+
+Content : 
+
+
+

@@ -1,0 +1,7 @@
+/home/cezaryrj/ietf/cezaryrj/solr/bin/solr start;source /home/cezaryrj/ietf/penv/bin/activate;cd /home/cezaryrj/ietf/cezaryrj/conv_track/
+
+
+/home/cezaryrj/ietf/cezaryrj/solr/bin/solr stop -all;exit
+
+
+other_files_clean

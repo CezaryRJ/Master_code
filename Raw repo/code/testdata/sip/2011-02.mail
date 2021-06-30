@@ -1,0 +1,882 @@
+
+From Internet-Drafts@ietf.org  Fri Feb  4 18:00:05 2011
+Return-Path: <Internet-Drafts@ietf.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E6E3A3A659C; Fri,  4 Feb 2011 18:00:04 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id e3L1KnEoaeGt; Fri,  4 Feb 2011 18:00:02 -0800 (PST)
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3061B3A699D; Fri,  4 Feb 2011 18:00:02 -0800 (PST)
+MIME-Version: 1.0
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 3.12
+Message-ID: <20110205020002.14052.36481.idtracker@localhost>
+Date: Fri, 04 Feb 2011 18:00:02 -0800
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-session-policy-framework-09.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 05 Feb 2011 02:00:05 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : A Framework for Session Initiation Protocol (SIP) Session Policies
+	Author(s)       : V. Hilt, et al.
+	Filename        : draft-ietf-sip-session-policy-framework-09.txt
+	Pages           : 37
+	Date            : 2011-02-04
+
+Proxy servers play a central role as an intermediary in the Session
+Initiation Protocol (SIP) as they define and impact policies on call
+routing, rendezvous, and other call features.  This document
+specifies a framework for SIP session policies that provides a
+standard mechanism by which a proxy can define or influence policies
+on sessions, such as the codecs or media types to be used.  It
+defines a model, an overall architecture and new protocol mechanisms
+for session policies.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-session-policy-framework-09.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-session-policy-framework-09.txt";
+	site="ftp.ietf.org"; access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2011-02-04175253.I-D@ietf.org>
+
+
+--NextPart--
+
+From dean.willis@softarmor.com  Fri Feb  4 22:02:41 2011
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 67FE23A69FF for <sip@core3.amsl.com>; Fri,  4 Feb 2011 22:02:41 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.474
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.474 tagged_above=-999 required=5 tests=[AWL=0.124, BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Sud8R4Gd2tMh for <sip@core3.amsl.com>; Fri,  4 Feb 2011 22:02:40 -0800 (PST)
+Received: from mail-gy0-f172.google.com (mail-gy0-f172.google.com [209.85.160.172]) by core3.amsl.com (Postfix) with ESMTP id 62A523A69CA for <sip@ietf.org>; Fri,  4 Feb 2011 22:02:40 -0800 (PST)
+Received: by gyd12 with SMTP id 12so1339637gyd.31 for <sip@ietf.org>; Fri, 04 Feb 2011 22:06:06 -0800 (PST)
+Received: by 10.91.8.20 with SMTP id l20mr16301805agi.147.1296885966741; Fri, 04 Feb 2011 22:06:06 -0800 (PST)
+Received: from [192.168.2.102] (cpe-66-25-6-220.tx.res.rr.com [66.25.6.220]) by mx.google.com with ESMTPS id d15sm1909767ana.35.2011.02.04.22.06.02 (version=TLSv1/SSLv3 cipher=RC4-MD5); Fri, 04 Feb 2011 22:06:05 -0800 (PST)
+References: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com>
+In-Reply-To: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com>
+Mime-Version: 1.0 (Apple Message framework v1082)
+Content-Type: multipart/alternative; boundary=Apple-Mail-2-751181776
+Message-Id: <08DF4251-141D-4C76-8580-34E78A7C23DE@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+Date: Sat, 5 Feb 2011 00:06:01 -0600
+To: Avshalom Houri <AVSHALOM@il.ibm.com>
+X-Mailer: Apple Mail (2.1082)
+Cc: sip@ietf.org, fluffy@cisco.com, francois.audet@skypelabs.com, rohan@ekabal.com
+Subject: Re: [Sip] Changing route set in SIP outbound
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 05 Feb 2011 06:02:41 -0000
+
+--Apple-Mail-2-751181776
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+
+On Jan 3, 2011, at 9:25 AM, Avshalom Houri wrote:
+
+> Assume that the first SIP proxy that is part of the route set (in SIP =
+outbound)=20
+> crashes and immediately restarts, or a backup proxy takes over. Is =
+there any way to keep the dialog alive if either of the=20
+> endpoints senses this failure and recreates a connection or the dialog =
+is doomed and needs to be=20
+> fully recreated again? The issue is that the route set includes the =
+connection information, which is no longer valid.=20
+
+
+Well, if the proxies share credentials and an IP address by some =
+HSRP-like magic, then the dialog might reasonably stay alive. This =
+further requires either stateless operation or state sharing  ( embedded =
+state; encoding it into the message headers is an example) between the =
+proxies.
+
+This is analogous to the route-set failover question in many a routing =
+model: flow switching, MPLS, frame relay, ATM, or even Token-Ring. SIP =
+has no magic to cure the fundamental issue. At best we can reduce it to =
+a known problem.
+
+
+--
+Dean=
+
+--Apple-Mail-2-751181776
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "><br><div><div>On Jan 3, 2011, at 9:25 AM, Avshalom Houri wrote:</div><br class="Apple-interchange-newline"><blockquote type="cite"><font size="2" face="Courier New">Assume that the first SIP proxy that is
+part of the route set (in SIP outbound)</font>
+<br><font size="2" face="Courier New">crashes and immediately restarts, or
+a backup proxy takes over. Is there any way to keep the dialog alive if
+either of the</font>
+<br><font size="2" face="Courier New">endpoints senses this failure and recreates
+a connection or the dialog is doomed and needs to be</font>
+<br><font size="2" face="Courier New">fully recreated again? The issue is
+that the route set includes the connection information, which is no longer
+valid.</font>
+<br></blockquote></div><br><div><br></div><div>Well, if the proxies share credentials and an IP address by some HSRP-like magic, then the dialog might reasonably stay alive. This further requires either stateless operation or state sharing &nbsp;( embedded state; encoding it into the message headers is an example) between the proxies.</div><div><br></div><div>This is analogous to the route-set failover question in many a routing model: flow switching, MPLS, frame relay, ATM, or even Token-Ring. SIP has no magic to cure the fundamental issue. At best we can reduce it to a known problem.</div><div><br></div><div><br></div><div>--</div><div>Dean</div></body></html>
+--Apple-Mail-2-751181776--
+
+From dworley@avaya.com  Mon Feb  7 14:11:34 2011
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 1F2813A6EA8 for <sip@core3.amsl.com>; Mon,  7 Feb 2011 14:11:33 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.599 tagged_above=-999 required=5 tests=[AWL=0.000, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 3qRXlFCm7SpX for <sip@core3.amsl.com>; Mon,  7 Feb 2011 14:11:25 -0800 (PST)
+Received: from de307622-de-outbound.net.avaya.com (de307622-de-outbound.net.avaya.com [198.152.71.100]) by core3.amsl.com (Postfix) with ESMTP id 305873A6EFE for <sip@ietf.org>; Mon,  7 Feb 2011 14:11:23 -0800 (PST)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAEf9T02HCzI1/2dsb2JhbAClJXOgZwKYaoVaBIR6ijU
+X-IronPort-AV: E=Sophos;i="4.60,438,1291611600"; d="scan'208";a="231312058"
+Received: from unknown (HELO p-us1-erheast.us1.avaya.com) ([135.11.50.53]) by de307622-de-outbound.net.avaya.com with ESMTP; 07 Feb 2011 17:11:27 -0500
+X-IronPort-AV: E=Sophos;i="4.60,438,1291611600"; d="scan'208";a="595278018"
+Received: from dc-us1hcex1.us1.avaya.com (HELO DC-US1HCEX1.global.avaya.com) ([135.11.52.20]) by p-us1-erheast-out.us1.avaya.com with ESMTP; 07 Feb 2011 17:11:26 -0500
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.2.215]) by DC-US1HCEX1.global.avaya.com ([2002:870b:3414::870b:3414]) with mapi; Mon, 7 Feb 2011 17:11:26 -0500
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: Avshalom Houri <AVSHALOM@il.ibm.com>, "sip@ietf.org" <sip@ietf.org>
+Date: Mon, 7 Feb 2011 17:11:24 -0500
+Thread-Topic: [Sip] Changing route set in SIP outbound
+Thread-Index: AcurWnai1dk3z8n9SsmNgTGsfRYPxAbuMCAK
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B220A176851@DC-US1MBEX4.global.avaya.com>
+References: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com>
+In-Reply-To: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Cc: "fluffy@cisco.com" <fluffy@cisco.com>, "rohan@ekabal.com" <rohan@ekabal.com>, "francois.audet@skypelabs.com" <francois.audet@skypelabs.com>
+Subject: Re: [Sip] Changing route set in SIP outbound
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 07 Feb 2011 22:11:35 -0000
+
+________________________________________
+From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Avshalom Hou=
+ri [AVSHALOM@il.ibm.com]
+
+Assume that the first SIP proxy that is part of the route set (in SIP outbo=
+und)
+crashes and immediately restarts, or a backup proxy takes over. Is there an=
+y way to keep the dialog alive if either of the
+endpoints senses this failure and recreates a connection or the dialog is d=
+oomed and needs to be
+fully recreated again? The issue is that the route set includes the connect=
+ion information, which is no longer valid.
+________________________________________
+
+Here's an idea:  When an outbound REGISTER reaches the registrar, it record=
+s the ob URI that the edge proxy created in a hidden location in the regist=
+ration.  As part of the Path, it inserts an ob URI that it creates that con=
+tains the registrar's hostport, and a representation of the SIP user-part a=
+nd sip-instance.  Now, when a new INVITE is sent to the phone, or otherwise=
+ when the ob URI is used, the request goes to the registrar, which then for=
+wards it to one or another of the real ob URIs for the phone.  Indeed, I th=
+ink that the phone's GRUU can be used for the new ob URI.  All that lets th=
+e selection of the flow to use to reach the phone to be made on a request-b=
+y-request basis.
+
+Dale
+
+From wwwrun@rfc-editor.org  Tue Feb  8 11:41:48 2011
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 1E8643A683E; Tue,  8 Feb 2011 11:41:48 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -101.867
+X-Spam-Level: 
+X-Spam-Status: No, score=-101.867 tagged_above=-999 required=5 tests=[AWL=0.133, BAYES_00=-2.599, J_CHICKENPOX_93=0.6, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vYO2GA6uWlci; Tue,  8 Feb 2011 11:41:47 -0800 (PST)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 48EF53A6837; Tue,  8 Feb 2011 11:41:47 -0800 (PST)
+Received: by rfc-editor.org (Postfix, from userid 30) id 24E08E0749; Tue,  8 Feb 2011 11:41:55 -0800 (PST)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20110208194155.24E08E0749@rfc-editor.org>
+Date: Tue,  8 Feb 2011 11:41:55 -0800 (PST)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 6072 on Certificate Management Service for the Session Initiation Protocol (SIP)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 08 Feb 2011 19:41:48 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 6072
+
+        Title:      Certificate Management Service for the 
+                    Session Initiation Protocol (SIP) 
+        Author:     C. Jennings, J. Fischl, Ed.
+        Status:     Standards Track
+        Stream:     IETF
+        Date:       February 2011
+        Mailbox:    fluffy@cisco.com, 
+                    jason.fischl@skype.net
+        Pages:      30
+        Characters: 69071
+        Updates/Obsoletes/SeeAlso:   None
+
+        I-D Tag:    draft-ietf-sip-certs-15.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc6072.txt
+
+This document defines a credential service that allows Session
+Initiation Protocol (SIP) User Agents (UAs) to use a SIP event
+package to discover the certificates of other users.  This mechanism
+allows User Agents that want to contact a given Address-of-Record
+(AOR) to retrieve that AOR's certificate by subscribing to the
+credential service, which returns an authenticated response
+containing that certificate.  The credential service also allows
+users to store and retrieve their own certificates and private keys. 
+[STANDARDS-TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+Association Management Solutions, LLC
+
+
+
+From Fred_Stacey@Mitel.com  Tue Feb  8 12:19:11 2011
+Return-Path: <Fred_Stacey@Mitel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 09D2A3A6834 for <sip@core3.amsl.com>; Tue,  8 Feb 2011 12:19:11 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.185
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.185 tagged_above=-999 required=5 tests=[BAYES_40=-0.185]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UFv2V8xyztnn for <sip@core3.amsl.com>; Tue,  8 Feb 2011 12:19:10 -0800 (PST)
+Received: from smtp.mitel.com (smtp.mitel.com [216.191.234.102]) by core3.amsl.com (Postfix) with ESMTP id 4F4A23A681D for <sip@ietf.org>; Tue,  8 Feb 2011 12:19:10 -0800 (PST)
+Received: from localhost (smtp.mitel.com [127.0.0.1]) by smtp.mitel.com (Postfix) with ESMTP id 766F12C024 for <sip@ietf.org>; Tue,  8 Feb 2011 15:19:17 -0500 (EST)
+X-Virus-Scanned: by amavisd-new (virusonly) at mitel.com
+Received: from smtp.mitel.com ([127.0.0.1]) by localhost (smtp.mitel.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Uw3LW+5F6C0q for <sip@ietf.org>; Tue,  8 Feb 2011 15:19:17 -0500 (EST)
+Received: from ottlnmta.mitel.com (ottlnmta.mitel.com [10.44.16.150]) by smtp.mitel.com (Postfix) with ESMTP id 3AAA22C01A for <sip@ietf.org>; Tue,  8 Feb 2011 15:19:17 -0500 (EST)
+From: Fred_Stacey@Mitel.com
+To: sip@ietf.org
+Message-ID: <OF096D3D60.DEF99747-ON85257831.006FA05C-85257831.006FA05C@ottlnmta.mitel.com>
+Date: Tue, 8 Feb 2011 15:19:15 -0500
+X-MIMETrack: Serialize by Router on OTTLNMTA/Mitel(Release 6.5.6FP3|March 27, 2008) at 02/08/2011 03:19:17 PM
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Subject: [Sip] Fred Stacey is out of the office.
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 08 Feb 2011 20:19:11 -0000
+
+I will be out of the office starting  02/08/2011 and will not return until
+02/09/2011.
+
+I will be out of the office  February 8.
+If you inquiry is regarding Mitel AnyWare, please direct to
+mitel_anyware_sales@mitel.com.
+If your inquiry is regarding MICD or the Mitel Service Provider Program,
+please direct to Andrew Moses (andrew_moses@mitel.com)
+
+
+From wwwrun@rfc-editor.org  Tue Feb 15 23:27:53 2011
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0707B3A6C68 for <sip@core3.amsl.com>; Tue, 15 Feb 2011 23:27:53 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.385
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.385 tagged_above=-999 required=5 tests=[AWL=0.215, BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 3466iMQcoheW for <sip@core3.amsl.com>; Tue, 15 Feb 2011 23:27:52 -0800 (PST)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 32C083A6DC1 for <sip@ietf.org>; Tue, 15 Feb 2011 23:27:52 -0800 (PST)
+Received: by rfc-editor.org (Postfix, from userid 30) id 08E69E0739; Tue, 15 Feb 2011 23:28:20 -0800 (PST)
+To: jason.fischl@skype.net, Hannes.Tschofenig@gmx.net, ekr@rtfm.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20110216072820.08E69E0739@rfc-editor.org>
+Date: Tue, 15 Feb 2011 23:28:20 -0800 (PST)
+Cc: sip@ietf.org, wu.yongming@zte.com.cn, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5763 (2723)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 16 Feb 2011 07:27:53 -0000
+
+The following errata report has been submitted for RFC5763,
+"Framework for Establishing a Secure Real-time Transport Protocol (SRTP) Security Context Using Datagram Transport Layer Security (DTLS)".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5763&eid=2723
+
+--------------------------------------
+Type: Editorial
+Reported by: sent to answer's sip proxy <wu.yongming@zte.com.cn>
+
+Section: clause 5
+
+Original Text
+-------------
+The endpoint SHOULD send the SIP message containing the offer to the offerer's SIP proxy over an integrity protected channel.  The proxy SHOULD add an Identity header field according to the procedures outlined in [RFC4474].  The SIP message containing the offer SHOULD be sent to the offerer's SIP proxy over an integrity protected channel.
+
+Corrected Text
+--------------
+The endpoint SHOULD send the SIP message containing the offer to the offerer's SIP proxy over an integrity protected channel.  The proxy SHOULD add an Identity header field according to the procedures outlined in [RFC4474].  The SIP message containing the offer SHOULD be sent to the answer's SIP proxy over an integrity protected channel.
+
+Notes
+-----
+the original text seems to be repetitive.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5763 (draft-ietf-sip-dtls-srtp-framework-07)
+--------------------------------------
+Title               : Framework for Establishing a Secure Real-time Transport Protocol (SRTP) Security Context Using Datagram Transport Layer Security (DTLS)
+Publication Date    : May 2010
+Author(s)           : J. Fischl, H. Tschofenig, E. Rescorla
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From john.elwell@siemens-enterprise.com  Wed Feb 16 00:52:05 2011
+Return-Path: <john.elwell@siemens-enterprise.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5917C3A6DBB for <sip@core3.amsl.com>; Wed, 16 Feb 2011 00:52:05 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.656
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.656 tagged_above=-999 required=5 tests=[AWL=-0.057, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 4uvdjxpVUKFU for <sip@core3.amsl.com>; Wed, 16 Feb 2011 00:52:04 -0800 (PST)
+Received: from ms04.m0019.fra.mmp.de.bt.com (m0019.fra.mmp.de.bt.com [62.180.227.30]) by core3.amsl.com (Postfix) with ESMTP id 1AD703A6ABA for <sip@ietf.org>; Wed, 16 Feb 2011 00:52:03 -0800 (PST)
+Received: from senmx12-mx ([62.134.46.10] [62.134.46.10]) by ms04.m0020.fra.mmp.de.bt.com with ESMTP id BT-MMP-3420271; Wed, 16 Feb 2011 09:52:17 +0100
+Received: from MCHP063A.global-ad.net (unknown [172.29.37.61]) by senmx12-mx (Server) with ESMTP id 6497023F028E; Wed, 16 Feb 2011 09:52:16 +0100 (CET)
+Received: from MCHP058A.global-ad.net ([172.29.37.55]) by MCHP063A.global-ad.net ([172.29.37.61]) with mapi; Wed, 16 Feb 2011 09:52:16 +0100
+From: "Elwell, John" <john.elwell@siemens-enterprise.com>
+To: RFC Errata System <rfc-editor@rfc-editor.org>, "jason.fischl@skype.net" <jason.fischl@skype.net>, "Hannes.Tschofenig@gmx.net" <Hannes.Tschofenig@gmx.net>, "ekr@rtfm.com" <ekr@rtfm.com>, "gonzalo.camarillo@ericsson.com" <gonzalo.camarillo@ericsson.com>, "rjsparks@nostrum.com" <rjsparks@nostrum.com>, "dean.willis@softarmor.com" <dean.willis@softarmor.com>, "drage@alcatel-lucent.com" <drage@alcatel-lucent.com>
+Date: Wed, 16 Feb 2011 09:52:14 +0100
+Thread-Topic: [Sip] [Editorial Errata Reported] RFC5763 (2723)
+Thread-Index: AcvNqxwsQiTsTa3zQZiNr6EcAtaJCQACbkLg
+Message-ID: <A444A0F8084434499206E78C106220CA06C2AE20CA@MCHP058A.global-ad.net>
+References: <20110216072820.08E69E0739@rfc-editor.org>
+In-Reply-To: <20110216072820.08E69E0739@rfc-editor.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Cc: "sip@ietf.org" <sip@ietf.org>, "wu.yongming@zte.com.cn" <wu.yongming@zte.com.cn>
+Subject: Re: [Sip] [Editorial Errata Reported] RFC5763 (2723)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 16 Feb 2011 08:52:05 -0000
+
+Whilst I agree this looks like repetition, what was the original intent? If=
+ the last sentence were written in the active voice, what would have been t=
+he subject? The offerer or the offerer's SIP proxy?
+- If the intent had been that the subject be the offerer, it is indeed repe=
+tition and should be deleted.
+- If the intent had been that the subject be the offerer's SIP proxy, then =
+the proposed correction might make sense. However, I don't think this would=
+ have been the intent. The addition of an Identity header field by the offe=
+rer's SIP proxy provides the required integrity protection for the rest of =
+the journey to the UAS. Any additional protection (by sending the entire me=
+ssage in a protected channel) is not a necessary part of this mechanism.
+
+John
+
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On=20
+> Behalf Of RFC Errata System
+> Sent: 16 February 2011 07:28
+> To: jason.fischl@skype.net; Hannes.Tschofenig@gmx.net;=20
+> ekr@rtfm.com; gonzalo.camarillo@ericsson.com;=20
+> rjsparks@nostrum.com; dean.willis@softarmor.com;=20
+> drage@alcatel-lucent.com
+> Cc: sip@ietf.org; wu.yongming@zte.com.cn; rfc-editor@rfc-editor.org
+> Subject: [Sip] [Editorial Errata Reported] RFC5763 (2723)
+>=20
+>=20
+> The following errata report has been submitted for RFC5763,
+> "Framework for Establishing a Secure Real-time Transport=20
+> Protocol (SRTP) Security Context Using Datagram Transport=20
+> Layer Security (DTLS)".
+>=20
+> --------------------------------------
+> You may review the report below and at:
+> http://www.rfc-editor.org/errata_search.php?rfc=3D5763&eid=3D2723
+>=20
+> --------------------------------------
+> Type: Editorial
+> Reported by: sent to answer's sip proxy <wu.yongming@zte.com.cn>
+>=20
+> Section: clause 5
+>=20
+> Original Text
+> -------------
+> The endpoint SHOULD send the SIP message containing the offer=20
+> to the offerer's SIP proxy over an integrity protected=20
+> channel.  The proxy SHOULD add an Identity header field=20
+> according to the procedures outlined in [RFC4474].  The SIP=20
+> message containing the offer SHOULD be sent to the offerer's=20
+> SIP proxy over an integrity protected channel.
+>=20
+> Corrected Text
+> --------------
+> The endpoint SHOULD send the SIP message containing the offer=20
+> to the offerer's SIP proxy over an integrity protected=20
+> channel.  The proxy SHOULD add an Identity header field=20
+> according to the procedures outlined in [RFC4474].  The SIP=20
+> message containing the offer SHOULD be sent to the answer's=20
+> SIP proxy over an integrity protected channel.
+>=20
+> Notes
+> -----
+> the original text seems to be repetitive.
+>=20
+> Instructions:
+> -------------
+> This errata is currently posted as "Reported". If necessary, please
+> use "Reply All" to discuss whether it should be verified or
+> rejected. When a decision is reached, the verifying party (IESG)
+> can log in to change the status and edit the report, if necessary.=20
+>=20
+> --------------------------------------
+> RFC5763 (draft-ietf-sip-dtls-srtp-framework-07)
+> --------------------------------------
+> Title               : Framework for Establishing a Secure=20
+> Real-time Transport Protocol (SRTP) Security Context Using=20
+> Datagram Transport Layer Security (DTLS)
+> Publication Date    : May 2010
+> Author(s)           : J. Fischl, H. Tschofenig, E. Rescorla
+> Category            : PROPOSED STANDARD
+> Source              : Session Initiation Protocol
+> Area                : Real-time Applications and Infrastructure
+> Stream              : IETF
+> Verifying Party     : IESG
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing=20
+> old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to=20
+> develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the=20
+> core SIP specifications.
+> =
+
+From Internet-Drafts@ietf.org  Fri Feb 18 18:30:02 2011
+Return-Path: <Internet-Drafts@ietf.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5D0AF3A6EAE; Fri, 18 Feb 2011 18:30:02 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.46
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.46 tagged_above=-999 required=5 tests=[AWL=0.139, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bgFPL4EwpU9D; Fri, 18 Feb 2011 18:30:01 -0800 (PST)
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 8A01A3A6D96; Fri, 18 Feb 2011 18:30:01 -0800 (PST)
+MIME-Version: 1.0
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 3.12
+Message-ID: <20110219023001.31755.11533.idtracker@localhost>
+Date: Fri, 18 Feb 2011 18:30:01 -0800
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-session-policy-framework-10.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 19 Feb 2011 02:30:02 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : A Framework for Session Initiation Protocol (SIP) Session Policies
+	Author(s)       : V. Hilt, et al.
+	Filename        : draft-ietf-sip-session-policy-framework-10.txt
+	Pages           : 37
+	Date            : 2011-02-18
+
+Proxy servers play a central role as an intermediary in the Session
+Initiation Protocol (SIP) as they define and impact policies on call
+routing, rendezvous, and other call features.  This document
+specifies a framework for SIP session policies that provides a
+standard mechanism by which a proxy can define or influence policies
+on sessions, such as the codecs or media types to be used.  It
+defines a model, an overall architecture and new protocol mechanisms
+for session policies.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-session-policy-framework-10.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-session-policy-framework-10.txt";
+	site="ftp.ietf.org"; access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2011-02-18181859.I-D@ietf.org>
+
+
+--NextPart--
+
+From rjsparks@nostrum.com  Mon Feb 21 13:33:47 2011
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 854493A7161 for <sip@core3.amsl.com>; Mon, 21 Feb 2011 13:33:47 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.554
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.554 tagged_above=-999 required=5 tests=[AWL=0.045, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id IAS+2SfegiyM for <sip@core3.amsl.com>; Mon, 21 Feb 2011 13:33:46 -0800 (PST)
+Received: from nostrum.com (shaman.nostrum.com [72.232.179.90]) by core3.amsl.com (Postfix) with ESMTP id 5AAD63A7157 for <sip@ietf.org>; Mon, 21 Feb 2011 13:33:46 -0800 (PST)
+Received: from dn3-177.estacado.net (vicuna-alt.estacado.net [75.53.54.121]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id p1LLWxWY008459 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Mon, 21 Feb 2011 15:32:59 -0600 (CST) (envelope-from rjsparks@nostrum.com)
+Mime-Version: 1.0 (Apple Message framework v1082)
+Content-Type: text/plain; charset=us-ascii
+From: Robert Sparks <rjsparks@nostrum.com>
+In-Reply-To: <A444A0F8084434499206E78C106220CA06C2AE20CA@MCHP058A.global-ad.net>
+Date: Mon, 21 Feb 2011 15:32:59 -0600
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E2CE0A6D-D276-4588-B3CB-6873CC1632B2@nostrum.com>
+References: <20110216072820.08E69E0739@rfc-editor.org> <A444A0F8084434499206E78C106220CA06C2AE20CA@MCHP058A.global-ad.net>
+To: "Elwell, John" <john.elwell@siemens-enterprise.com>
+X-Mailer: Apple Mail (2.1082)
+Received-SPF: pass (nostrum.com: 75.53.54.121 is authenticated by a trusted mechanism)
+Cc: Eric Rescorla <ekr@rtfm.com>, Jason Fischl <jason.fischl@skype.net>, "sip@ietf.org List" <sip@ietf.org>, Keith Drage <drage@alcatel-lucent.com>, Gonzalo Camarillo <gonzalo.camarillo@ericsson.com>, wu.yongming@zte.com.cn, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] [Editorial Errata Reported] RFC5763 (2723)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 21 Feb 2011 21:33:47 -0000
+
+I'm going to put this into hold for document update
+(see http://www.ietf.org/iesg/statement/errata-processing.html) if you =
+don't already know what that means.
+
+Thanks!
+
+RjS
+
+On Feb 16, 2011, at 2:52 AM, Elwell, John wrote:
+
+> Whilst I agree this looks like repetition, what was the original =
+intent? If the last sentence were written in the active voice, what =
+would have been the subject? The offerer or the offerer's SIP proxy?
+> - If the intent had been that the subject be the offerer, it is indeed =
+repetition and should be deleted.
+> - If the intent had been that the subject be the offerer's SIP proxy, =
+then the proposed correction might make sense. However, I don't think =
+this would have been the intent. The addition of an Identity header =
+field by the offerer's SIP proxy provides the required integrity =
+protection for the rest of the journey to the UAS. Any additional =
+protection (by sending the entire message in a protected channel) is not =
+a necessary part of this mechanism.
+>=20
+> John
+>=20
+>=20
+>> -----Original Message-----
+>> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On=20
+>> Behalf Of RFC Errata System
+>> Sent: 16 February 2011 07:28
+>> To: jason.fischl@skype.net; Hannes.Tschofenig@gmx.net;=20
+>> ekr@rtfm.com; gonzalo.camarillo@ericsson.com;=20
+>> rjsparks@nostrum.com; dean.willis@softarmor.com;=20
+>> drage@alcatel-lucent.com
+>> Cc: sip@ietf.org; wu.yongming@zte.com.cn; rfc-editor@rfc-editor.org
+>> Subject: [Sip] [Editorial Errata Reported] RFC5763 (2723)
+>>=20
+>>=20
+>> The following errata report has been submitted for RFC5763,
+>> "Framework for Establishing a Secure Real-time Transport=20
+>> Protocol (SRTP) Security Context Using Datagram Transport=20
+>> Layer Security (DTLS)".
+>>=20
+>> --------------------------------------
+>> You may review the report below and at:
+>> http://www.rfc-editor.org/errata_search.php?rfc=3D5763&eid=3D2723
+>>=20
+>> --------------------------------------
+>> Type: Editorial
+>> Reported by: sent to answer's sip proxy <wu.yongming@zte.com.cn>
+>>=20
+>> Section: clause 5
+>>=20
+>> Original Text
+>> -------------
+>> The endpoint SHOULD send the SIP message containing the offer=20
+>> to the offerer's SIP proxy over an integrity protected=20
+>> channel.  The proxy SHOULD add an Identity header field=20
+>> according to the procedures outlined in [RFC4474].  The SIP=20
+>> message containing the offer SHOULD be sent to the offerer's=20
+>> SIP proxy over an integrity protected channel.
+>>=20
+>> Corrected Text
+>> --------------
+>> The endpoint SHOULD send the SIP message containing the offer=20
+>> to the offerer's SIP proxy over an integrity protected=20
+>> channel.  The proxy SHOULD add an Identity header field=20
+>> according to the procedures outlined in [RFC4474].  The SIP=20
+>> message containing the offer SHOULD be sent to the answer's=20
+>> SIP proxy over an integrity protected channel.
+>>=20
+>> Notes
+>> -----
+>> the original text seems to be repetitive.
+>>=20
+>> Instructions:
+>> -------------
+>> This errata is currently posted as "Reported". If necessary, please
+>> use "Reply All" to discuss whether it should be verified or
+>> rejected. When a decision is reached, the verifying party (IESG)
+>> can log in to change the status and edit the report, if necessary.=20
+>>=20
+>> --------------------------------------
+>> RFC5763 (draft-ietf-sip-dtls-srtp-framework-07)
+>> --------------------------------------
+>> Title               : Framework for Establishing a Secure=20
+>> Real-time Transport Protocol (SRTP) Security Context Using=20
+>> Datagram Transport Layer Security (DTLS)
+>> Publication Date    : May 2010
+>> Author(s)           : J. Fischl, H. Tschofenig, E. Rescorla
+>> Category            : PROPOSED STANDARD
+>> Source              : Session Initiation Protocol
+>> Area                : Real-time Applications and Infrastructure
+>> Stream              : IETF
+>> Verifying Party     : IESG
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is essentially closed and only used for finishing=20
+>> old business.
+>> Use sip-implementors@cs.columbia.edu for questions on how to=20
+>> develop a SIP implementation.
+>> Use dispatch@ietf.org for new developments on the application of sip.
+>> Use sipcore@ietf.org for issues related to maintenance of the=20
+>> core SIP specifications.
+>>=20
+
+
+From iesg-secretary@ietf.org  Wed Feb 23 07:18:37 2011
+Return-Path: <iesg-secretary@ietf.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 9181B3A6A29; Wed, 23 Feb 2011 07:18:37 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.552
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.552 tagged_above=-999 required=5 tests=[AWL=0.047, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MrRHsqoq60OZ; Wed, 23 Feb 2011 07:18:36 -0800 (PST)
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 43A653A6A2B; Wed, 23 Feb 2011 07:18:36 -0800 (PST)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+From: The IESG <iesg-secretary@ietf.org>
+To: IETF-Announce <ietf-announce@ietf.org>
+X-Test-IDTracker: no
+X-IETF-IDTracker: 3.12
+Message-ID: <20110223151836.26620.54105.idtracker@localhost>
+Date: Wed, 23 Feb 2011 07:18:36 -0800
+Cc: sip mailing list <sip@ietf.org>, sip chair <sip-chairs@tools.ietf.org>, Internet Architecture Board <iab@iab.org>, RFC Editor <rfc-editor@rfc-editor.org>
+Subject: [Sip] Protocol Action: 'A Framework for Session Initiation Protocol (SIP)	Session Policies' to Proposed Standard	(draft-ietf-sip-session-policy-framework-10.txt)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Feb 2011 15:18:37 -0000
+
+The IESG has approved the following document:
+- 'A Framework for Session Initiation Protocol (SIP) Session Policies'
+  (draft-ietf-sip-session-policy-framework-10.txt) as a Proposed Standard
+
+This document is the product of the Session Initiation Protocol Working
+Group.
+
+The IESG contact persons are Robert Sparks and Gonzalo Camarillo.
+
+A URL of this Internet Draft is:
+http://datatracker.ietf.org/doc/draft-ietf-sip-session-policy-framework/
+
+
+
+
+Technical summary.
+
+Proxy servers play a central role as an intermediary in the Session
+Initiation Protocol (SIP) as they define and impact policies on call
+routing, rendezvous, and other call features.  This document specifies a
+framework for SIP session policies that provides a standard mechanism by
+which a proxy can define or influence policies on sessions, such as the
+codecs or media types to be used.  It defines a model, an overall
+architecture and new protocol mechanisms for session policies.
+
+Working group summary.
+
+There is consensus in the working group to publish this document. The
+early stimulus for this work came from discussions at the joint IETF/3GPP
+workshop held in San Francisco in January 2003.
+
+Document Quality
+
+This document was refined by several in-depth cross-area reviews.
+
+Personnel
+
+The document shepherd for this document is Keith Drage. The responsible
+Area Director is Robert Sparks.
+

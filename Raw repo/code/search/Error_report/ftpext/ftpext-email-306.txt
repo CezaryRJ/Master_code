@@ -1,0 +1,45 @@
+Date : ['2004-02-07T17:14:39Z']
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['ftp-wg-owner <ftp-wg-owner@hethmon.com>']
+Sender-name :  ftp-wg-owner
+Sender-address :  ftp-wg-owner@hethmon.com
+Reply-to : ['FTPEXT Working Group <ftp-wg@hethmon.com>']
+Reply-to-name :  FTPEXT_Working_Group
+Reply-to-address :  ftp-wg@hethmon.com
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <20040207171440-48190-7248@mail.hethmon.com>
+References : Null
+Comments : ['Null']
+Subject : ['Ftp-WG: ftp-wg-owner: H**G**H- Reverse Agelnq And L0se W1e9ht!']
+Mailing-list : ftpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ftpext/2004-02.mailcl']
+id : 1751dbbb-14d6-4987-bee5-da6aa665ecc1
+_version_ : 1675133274998964224
+
+Content : 
+
+<html><body bgcolor=#FFFFFF text=#000000><p><b><font color=#FF0000> ftp-wg-owner:<br>Supreme Formula H-G-H--------Take 20 Years off Y0ur Age</font></b><br> <br></p><p><b>Lo0K AT THESE AMAZING TEST RESU1TS!</b><br></p>
+<p>Body Fat L0ss --------- 82% lmprovement <br>
+  Wr1nkle Reducti0n ---------- 61% improvement <br>
+  Energy Leve1 ----------- 84% lmpr0vement <br>
+  Musc1e Strength ------------ 88% 1mprovement <br>
+  Sexua1 Potency ________ 75% impr0vement <br>
+  Emoti0nal Stabi1ity _________ 67% lmprovement <br>
+  Mem0ry __________ 62% 1mprovement
+  <p><font color=#FF0000><b>ftp-wg-owner:</b></font><br>
+  <font color=#FF0000><b><a href=http://ftp-wg-owner.incluudes.com/on/>Please Vislt 0ur Web S1te: C1ick Here</a></b><p><font color=#ffffff>craggy.ftp-wg</font></p>
+<p>ftp-wg-owner</p></p>
+</body></html>
+
+
+

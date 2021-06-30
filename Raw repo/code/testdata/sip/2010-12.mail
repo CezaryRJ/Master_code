@@ -1,0 +1,229 @@
+
+From dworley@avaya.com  Mon Dec 13 14:09:23 2010
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 35AF43A6D3F; Mon, 13 Dec 2010 14:09:23 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -101.881
+X-Spam-Level: 
+X-Spam-Status: No, score=-101.881 tagged_above=-999 required=5 tests=[AWL=-0.522, BAYES_00=-2.599, SARE_LWSHORTT=1.24, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6vn3x2RyrlMY; Mon, 13 Dec 2010 14:09:22 -0800 (PST)
+Received: from co300216-co-outbound.net.avaya.com (co300216-co-outbound.net.avaya.com [198.152.13.100]) by core3.amsl.com (Postfix) with ESMTP id 046563A6D38; Mon, 13 Dec 2010 14:09:21 -0800 (PST)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAOIoBk3GmAcF/2dsb2JhbACkDHipZQKZN4VKBIRkiUM
+X-IronPort-AV: E=Sophos;i="4.59,338,1288584000"; d="scan'208";a="254762552"
+Received: from unknown (HELO co300216-co-erhwest.avaya.com) ([198.152.7.5]) by co300216-co-outbound.net.avaya.com with ESMTP; 13 Dec 2010 17:11:00 -0500
+X-IronPort-AV: E=Sophos;i="4.59,338,1288584000"; d="scan'208";a="555117965"
+Received: from dc-us1hcex2.us1.avaya.com (HELO DC-US1HCEX2.global.avaya.com) ([135.11.52.21]) by co300216-co-erhwest-out.avaya.com with ESMTP; 13 Dec 2010 17:11:00 -0500
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.1.90]) by DC-US1HCEX2.global.avaya.com ([::1]) with mapi; Mon, 13 Dec 2010 17:10:59 -0500
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: "dispatch@ietf.org" <dispatch@ietf.org>, "sip@ietf.org" <sip@ietf.org>, Robert Sparks <rjsparks@nostrum.com>
+Date: Mon, 13 Dec 2010 17:09:48 -0500
+Thread-Topic: Errata report on errata 2602 and 2120 on RFC 5479, "Requirements and Analysis of Media Security Management Protocols"
+Thread-Index: AQHLmxKfjFhWVeNeIUaIF8W9qFbgyA==
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B2202288AE7@DC-US1MBEX4.global.avaya.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: [Sip] Errata report on errata 2602 and 2120 on RFC 5479, "Requirements and Analysis of Media Security Management Protocols"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 13 Dec 2010 22:09:23 -0000
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+RFC5479, "Requirements and Analysis of Media Security Management Protocols"
+Source of RFC: sip (rai)
+
+Errata ID: 2602
+
+Status: Reported
+Type: Technical
+
+Reported By: Fabio Pietrosanti
+Date Reported: 2010-11-04
+
+Section A.5.2 says:
+
+      SDP Security Descriptions with SIPS
+         Not applicable; SDP Security Descriptions does not have a long-
+         term secret.
+
+It should say:
+
+      SDP Security Descriptions with SIPS
+         The PFS feature of SDP Security Description with SIPS rely on
+         TLS and the availability or not of PFS for SRTP calls depends
+         on the negotiated TLS key negotiation algorithm.
+
+         If the selected TLS key negotiation algorithm of SIPS provide
+         PFS feature, then the underlying SRTP encryption will support
+         PFS.  For example TLS_DHE_RSA_WITH_AES_256_CBC_SHA provde PFS
+         feature as described in RFC5246.  If the selected TLS key
+         negotiation algorithm of SIPS does not provide PFS feature,
+         then the underlying SRTP encryption will not support PFS.
+         For example TLS_RSA_WITH_AES_256_CBC_SHA does not provide PFS
+         feature as described in RFC5246.
+
+
+Notes:
+
+It's not true that SDP Security Descriptions with SIPS have PFS "Not
+applicable" because the SDES rely on TLS that is part of the security
+scheme.
+
+Practically if the long terms keys (the x509v3 RSA key of SIPS server)
+is compromised, the TLS sessions can be decrypted, the SDES key
+extracted and SRTP calls deciphered.
+
+TLS support key exchange methods that provide PFS trough the use of
+Ephemeral Diffie Hellman keys.
+
+When SIPS use TLS with DHE key negotiation, then SDES acquire PFS
+feature because even in case of long-term key compromise (the server
+x509v3 RSA key), the short term keys (the SDES keys exchanged) will be
+safe.
+----------------------------------------------------------------------
+Recommended status:  (correct) Verified (publish)
+Should be reviewed by a security expert.
+
+It seems that the entry for "SDP Security Descriptions with S/MIME" is
+also incorrect, as revelation of the private keys of the participants
+will render the SDES readable.  I think better phrasing of the revised
+wording is:
+
+      SDP Security Descriptions with SIPS
+         PFS if the selected TLS cipher suites for the SIPS hops provide PF=
+S.
+
+      SDP Security Descriptions with S/MIME
+         No PFS.
+
+This needs to be reviewed by a security expert.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+RFC5479, "Requirements and Analysis of Media Security Management Protocols"
+Source of RFC: sip (rai)
+
+Errata ID: 2120
+
+Status: Reported
+Type: Editorial
+
+Reported By: Alfred Hoenes
+Date Reported: 2010-04-05
+
+Section 4.4,3rd para says:
+
+|  A typical case of using media security where two entities are having
+   a Voice over IP (VoIP) conversation over IP-capable networks.
+   [...]
+
+It should say:
+
+|  A typical case of using media security is where two entities are
+   having a Voice over IP (VoIP) conversation over IP-capable networks.
+   [...]
+
+Notes:
+
+Rationale: missing verb.
+----------------------------------------------------------------------
+Recommended status:  (correct) Hold for document update
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Dale
+
+From Internet-Drafts@ietf.org  Sun Dec 19 04:15:02 2010
+Return-Path: <Internet-Drafts@ietf.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 839313A688F; Sun, 19 Dec 2010 04:15:02 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.504
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.504 tagged_above=-999 required=5 tests=[AWL=0.095, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Kq4MmXcPEhZm; Sun, 19 Dec 2010 04:15:01 -0800 (PST)
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C219E3A6888; Sun, 19 Dec 2010 04:15:01 -0800 (PST)
+MIME-Version: 1.0
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 3.10
+Message-ID: <20101219121501.31791.18341.idtracker@localhost>
+Date: Sun, 19 Dec 2010 04:15:01 -0800
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-session-policy-framework-08.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sun, 19 Dec 2010 12:15:02 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : A Framework for Session Initiation Protocol (SIP) Session Policies
+	Author(s)       : V. Hilt, et al.
+	Filename        : draft-ietf-sip-session-policy-framework-08.txt
+	Pages           : 37
+	Date            : 2010-12-19
+
+Proxy servers play a central role as an intermediary in the Session
+Initiation Protocol (SIP) as they define and impact policies on call
+routing, rendezvous, and other call features.  This document
+specifies a framework for SIP session policies that provides a
+standard mechanism by which a proxy can define or influence policies
+on sessions, such as the codecs or media types to be used.  It
+defines a model, an overall architecture and new protocol mechanisms
+for session policies.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-session-policy-framework-08.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-session-policy-framework-08.txt";
+	site="ftp.ietf.org"; access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2010-12-19040731.I-D@ietf.org>
+
+
+--NextPart--

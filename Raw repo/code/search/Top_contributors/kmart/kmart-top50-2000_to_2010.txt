@@ -1,0 +1,18 @@
+2000 TO 2010
+-------#####------->    kmart
+ekr@rtfm.com 6
+touch@ISI.EDU 6
+bew@cisco.com 5
+gregory.ietf@gmail.com 5
+tony.li@tony.li 5
+bill@cse.concordia.ca 2
+dharkins@lounge.org 2
+mcgrew@cisco.com 2
+rcallon@juniper.net 2
+acee@lindem.com 1
+dward@cisco.com 1
+glen.kent@gmail.com 1
+ietf@hardjono.net 1
+jmh@joelhalpern.com 1
+mjbarnes@cisco.com 1
+morrowc.lists@gmail.com 1

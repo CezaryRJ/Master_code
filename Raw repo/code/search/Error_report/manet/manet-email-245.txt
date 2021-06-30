@@ -1,0 +1,116 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<39C363776A4E8C4A94691D2BD9D1C9A101774841@XCH-NW-7V2.nw.nos.boeing.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  39C363776A4E8C4A94691D2BD9D1C9A101774841@XCH-NW-7V2.nw.nos.boeing.com
+Message-ID : Null
+References : <019c01c76d85$0e6904f0$165cfa84@SEXTANT><4607DBF4.8060608@nokia.com><963155AB-4ECA-4082-96CE-1A003636C9E3@gmail.com>
+	<460A8AA7.utions for wireless networks with an
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : manet
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/manet/2007-03.mailcl']
+id : dbe32c8c-57ba-4d34-b485-7e121f350870
+_version_ : 1675131865787269120
+
+Content : 
+
+arbitrary number of nodes, which is the main goal of this plan. Sensor and
+rooftop/mesh networks, for instance, have hundreds or thousands of nodes.
+
+The objective of the workshop is to present state of the art research
+results on data communication and topology control in rapidly growing area
+of ad hoc and sensor networks, with emphasizes on localized techniques.
+
+Topics of interest include, but are not limited to:
+* Medium access control
+* Analytical, mobility and validation models
+* Hybrid networks and wireless Internet
+* Security in ad hoc networks
+* Data management, query processing, and data delivery in sensor networks
+* Unicast routing, multicasting, and broadcasting
+* Geocasting and anycasting
+* Energy-efficient and bandwidth-efficient protocols
+* Quality of service in medium access control and routing
+* Topology construction and maintenance
+* Neighborhood discovery and mobility management
+* Localized protocols for duty-cycled sensor networks
+* Sensor area coverage problems
+* Auto-configuration and network formation protocols and algorithms
+* Relative positioning algorithms
+* Lower bounds on information exchange required for localized solutions
+* Network graph properties supporting localized protocols
+* Worst and average case analysis on the deviation from optimal solutions
+
+
+IMPORTANT DATES
+---------------
+Manuscript Submission: April 30, 2007
+Acceptance Notification: July 15, 2007
+Final Manuscript Due: August 10, 2007
+Workshop Date: October 12, 2007
+
+
+PAPER SUBMISSION
+----------------
+Papers must not exceed 10 single-spaced and two-column pages using at least
+10 point size type on 8.5 x 11 inches pages. See style files, author
+guidelines and instructions at the conference website. Accepted papers will
+be included in the MASS main proceedings and will be published by IEEE
+Computer Society Press.
+
+Please submit papers via the EDAS system using the following link:
+http://edas.info/5496. In case of trouble please contact
+locan-submission@site.uottawa.ca.
+
+
+GENERAL CO-CHAIRS
+-----------------
+David Simplot-Ryl, University of Lille, France
+Ivan Stojmenovic, University of Ottawa, Canada
+
+
+PROGRAM CO-CHAIRS
+-----------------
+Pedro M. Ruiz, University of Murcia, Spain
+Hannes Frey, University of Southern Denmark
+
+
+Program Committee
+-----------------
+Will be announced on the workshop web site.
+
+
+ADDITIONAL INFORMATION
+----------------------
+Additional information about the workshop will be continuously updated at
+the LOCAN 2007 website:
+
+                    http://ants.dif.um.es/locan2007
+
+In urgent cases you might also contact the workshop organizers directly by
+using the following mail address: locan@site.uottawa.ca.
+
+
+
+
+
+_______________________________________________
+manet mailing list
+manet@ietf.org
+https://www1.ietf.org/mailman/listinfo/manet

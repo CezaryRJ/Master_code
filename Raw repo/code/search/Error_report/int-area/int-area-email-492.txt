@@ -1,0 +1,151 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<Pine.LNX.4.64.0609121055540.15275@netcore.fi>']
+In-Reply-To-name : Null
+In-Reply-To-address :  Pine.LNX.4.64.0609121055540.15275@netcore.fi
+Message-ID : Null
+References : <45066601.7090905@juniper.netource, which isn't useful if legitimate traffic  
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : int-area
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/int-area/2006-09.mailcl']
+id : 292f7434-8955-45fc-ab92-cf453cee09b2
+_version_ : 1675130704754638850
+
+Content : 
+
+can come from more than one source (= interface), which is the most  
+common situation in larger networks for non-customer sources. An  
+alternative is "loose" uRPF which only rejects packets witch sources  
+that don't appear in the routing table, which doesn't apply to  
+attacks where the address of a working host is spoofed. I understand  
+that there is work underway to allow uRPF with multiple sources but  
+we'll have to see how well that works in practice. (One issue would  
+be that it requires additional FIBs that could grow quite large.)
+
+_______________________________________________
+Int-area mailing list
+Int-area@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/int-area
+
+
+
+
+
+>
+	<Pine.LNX.4.64.0609121055540.15275@netcore.fi>
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <72C8B042-06E3-4F5D-BDCB-F6463546D241@muada.com>
+Content-Transfer-Encoding: 7bit
+From: Iljitsch van Beijnum <iljitsch@muada.com>
+Subject: Re: [Int-area] Call For Participation and Interest: Source Address
+	Validation Architecture (SAVA)
+Date: Thu, 14 Sep 2006 15:49:24 +0200
+To: Pekka Savola <pekkas@netcore.fi>
+X-Mailer: Apple Mail (2.752.2)
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00 autolearn=ham 
+	version=3.0.2
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16) on sequoia.muada.com
+X-Spam-Score: -2.8 (--)
+X-Scan-Signature: f607d15ccc2bc4eaf3ade8ffa8af02a0
+X-Mailman-Approved-At: Thu, 14 Sep 2006 14:23:52 -0400
+Cc: IETF IPv6 Mailing List <ipv6@ietf.org>, sava@nrc.tsinghua.edu.cn,
+	int-area@ietf.org, routing-discussion@ietf.org
+X-BeenThere: int-area@lists.ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: IETF Internet Area Mailing List <int-area.lists.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/int-area>,
+	<mailto:int-area-request@lists.ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/int-area>
+List-Post: <mailto:int-area@lists.ietf.org>
+List-Help: <mailto:int-area-request@lists.ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/int-area>,
+	<mailto:int-area-request@lists.ietf.org?subject=subscribe>
+Errors-To: int-area-bounces@lists.ietf.org
+
+On 12-sep-2006, at 11:25, Pekka Savola wrote:
+
+>> Ingress filtering is definitely to be recommended, and uRPF  
+>> filtering certainly does have its uses, but, at least in the  
+>> current state of the Internet, they are insufficient as a  
+>> protection for the routing infrastructure.
+
+> If this refers to ensuring that your own routing infrastructure is  
+> secure, I argue this can already be achieved by appropriate edge  
+> filtering at your own borders.
+
+All of this assumes that it's a good idea to authenticate  
+correspondents in interactions such as routing protocols solely based  
+on the IP address they present. The fact that this "authentication"  
+is trivially subverted by source address spoofing which is something  
+that's easy to do in today's internet, suggests to me that this is a  
+fundamentally broken approach.
+
+Even if we assume that all ISPs do source address validation on  
+packets that they receive from their customers, there are many ways  
+to work around this. You'd basically have to require SEND for ALL  
+subnets connected to the internet, but since this is something that's  
+handled locally there is no way an ISP or a real authority would be  
+able to know for sure this is done correctly. And obviously it's  
+possible to subvert ISP infrastructure. There are so many ISPs that  
+this alone is enough of a risk to invalidate the assumption that  
+source addresses can be trusted.
+
+> On the other hand, if this refers to generic routing infrastructure  
+> security, it isn't obvious how a source address validation proposal  
+> would significantly improve the current situation.
+
+Routing protocols and the like are generally run within  
+administrative boundaries where it's possible to filter out unwanted  
+packets coming from elsewhere so source address spoofing shouldn't be  
+an issue today.
+
+The exception is BGP, which is used to talk to external networks.  
+Although there are some weak areas in implementations here that allow  
+an attacker to run up CPU usage on most routers, techniques such as  
+the BGP TCP MD5 password and GTSM should be sufficient to thwart  
+spoofing attacks.
+
+>> b)       uRPF does not work well in places where asymmetric  
+>> routing happens. This constitutes a large part of the Internet
+
+> This is a common misconception.  Maybe you haven't seen RFC 3704  
+> (BCP 84) which describes how to do it. For more detail, also look  
+> at draft-savola-bcp84-urpf-experiences-01.txt.
+
+Current uRPF allows you to reject traffic that doesn't come from a  
+single known "good" source, which isn't useful if legitimate traffic  
+can come from more than one source (= interface), which is the most  
+common situation in larger networks for non-customer sources. An  
+alternative is "loose" uRPF which only rejects packets witch sources  
+that don't appear in the routing table, which doesn't apply to  
+attacks where the address of a working host is spoofed. I understand  
+that there is work underway to allow uRPF with multiple sources but  
+we'll have to see how well that works in practice. (One issue would  
+be that it requires additional FIBs that could grow quite large.)
+
+_______________________________________________
+Int-area mailing list
+Int-area@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/int-area
+
+
+
+

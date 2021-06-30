@@ -1,0 +1,33 @@
+Date : ['2007-01-24T23:36:44Z']
+Timezone : -0500
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <AG[3
+References : Null
+Comments : ['Null']
+Subject : ['Read this alone']
+Mailing-list : webdav
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/webdav/2007-01.mailcl']
+id : 4b194982-d082-49c1-a2e6-53264b72d1de
+_version_ : 1675131598110982146
+
+Content : 
+
+
+

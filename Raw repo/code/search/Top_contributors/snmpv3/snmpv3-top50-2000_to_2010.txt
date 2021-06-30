@@ -1,0 +1,52 @@
+2000 TO 2010
+-------#####------->    snmpv3
+snmpv3-archive@lists.ietf.org 197
+snmpv3-archive@ietf.org 38
+Daily@core3.amsl.com 23
+Health@core3.amsl.com 23
+Men's@core3.amsl.com 23
+bwijnen@lucent.com 23
+tewg-archive@lists.ietf.org 22
+dbh@enterasys.com 19
+"Dose <snmpv3-archive"@lists.ietf.org 18
+hardaker@tislabs.com 18
+no-reply@irs.gov 18
+schoenw@ibr.cs.tu-bs.de 17
+randy_presuhn@mindspring.com 16
+kzm@cisco.com 15
+johnf@rose.hp.com 13
+heard@pobox.com 12
+abierman@cisco.com 9
+dlevi@nortelnetworks.com 9
+fred@cisco.com 9
+sar@epilogue.com 9
+owner-snmpv3@lists.tislabs.com 8
+case@snmp.com 7
+mundy@tislabs.com 7
+VIAGRA.Official@core3.amsl.com 6
+dperkins@dsperkins.com 6
+mikek@muonics.com 6
+siu-ling-ann.lo@alcatel.com 6
+"Dose <snmpv3-archive"@ietf.org 5
+mirela@newsite.com.br 5
+"Site <snmpv3-archive"@lists.ietf.org 4
+Internet-Drafts@ietf.org 4
+matjaz@mg-soft.si 4
+Majordomo@lists.tislabs.com 3
+adonati@motorola.com 3
+eric.w.fleischman@boeing.com 3
+rfrye@vibrant-1.com 3
+send-archive@lists.ietf.org 3
+uri@bell-labs.com 3
+uri@lucent.com 3
+wjhardaker@ucdavis.edu 3
+"Site <snmpv3-archive"@ietf.org 2
+John.Gillis@adc.com 2
+bruno.dias@di.uminho.pt 2
+dchuang@juniper.net 2
+ddo_ppoppo@yahoo.co.jp 2
+dncr@ivs.tu-berlin.de 2
+iesg-secretary@ietf.org 2
+ietfdbh@comcast.net 2
+kamarajp@future.futsoft.com 2
+market.access@verizon.net 2

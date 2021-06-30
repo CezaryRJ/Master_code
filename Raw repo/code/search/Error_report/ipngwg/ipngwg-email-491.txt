@@ -1,0 +1,116 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ipngwg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipngwg/2006-05.mailcl']
+id : 6aef7a4e-a7c8-4a1c-8c0b-f36ed68ba7f0
+_version_ : 1675130609367777280
+
+Content : 
+
+RecFrom ipv6-bounces@ietf.org Fri May 12 16:53:33 2006
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1FeebC-0000Z3-VK; Fri, 12 May 2006 16:50:58 -0400
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1FeebB-0000YX-Ih
+	for ipv6@ietf.org; Fri, 12 May 2006 16:50:57 -0400
+Received: from brmea-mail-2.sun.com ([192.18.98.43])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1Feeb9-00026J-86
+	for ipv6@ietf.org; Fri, 12 May 2006 16:50:57 -0400
+Received: from jurassic.eng.sun.com ([129.146.56.144])
+	by brmea-mail-2.sun.com (8.12.10/8.12.9) with ESMTP id k4CKorxW021448; 
+	Fri, 12 May 2006 14:50:53 -0600 (MDT)
+Received: from [192.9.61.11] (punchin-nordmark.SFBay.Sun.COM [192.9.61.11])
+	by jurassic.eng.sun.com (8.13.6+Sun/8.13.6) with ESMTP id
+	k4CKoo8a242051
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NO);
+	Fri, 12 May 2006 13:50:53 -0700 (PDT)
+Message-ID: <4464F52A.8080707@sun.com>
+Date: Fri, 12 May 2006 13:50:50 -0700
+From: Erik Nordmark <erik.nordmark@sun.com>
+User-Agent: Thunderbird 1.5 (X11/20060113)
+MIME-Version: 1.0
+To: Fred Baker <fred@cisco.com>
+References: <Pine.LNX.4.64.0605091709360.24304@netcore.fi>
+	<769A3F79-9DA1-422E-8707-D7562680AA95@cisco.com>
+In-Reply-To: <769A3F79-9DA1-422E-8707-D7562680AA95@cisco.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: b19722fc8d3865b147c75ae2495625f2
+Cc: v6ops@ops.ietf.org, ipv6@ietf.org, David Woodhouse <dwmw2@infradead.org>,
+	Pekka Savola <pekkas@netcore.fi>
+Subject: Re: RFC3484 problem: scoping with site-locals/ULAs
+X-BeenThere: ipv6@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "IP Version 6 Working Group \(ipv6\)" <ipv6.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ipv6>,
+	<mailto:ipv6-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ipv6@ietf.org>
+List-Help: <mailto:ipv6-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ipv6>,
+	<mailto:ipv6-request@ietf.org?subject=subscribe>
+Errors-To: ipv6-bounces@ietf.org
+
+Fred Baker wrote:
+> So I have a dumb question.
+> 
+> Why not:
+>     - use a DNS lookup that asks for all records (including A, MX, and 
+> AAAA)
+>     - open both a v4 and a v6 connection simultaneously
+>     - accept the first to successfully open and shut down all others
+> 
+> Down sides: It gets all of the DNS data, which may be more than it 
+> wanted to know, and it issues a second SYN-or-whatever, and in the worst 
+> case one to each address. But it deterministically finds a solution that 
+> works and gives the system the service it is looking for.
+> 
+> I the big picture, the problem with that behavior is what?
+
+In the big picture, I think that's the direction we need to move.
+But I don't think we want to have every application have that logic, 
+since the logic might need to evolve over time (and needs to take into 
+account Alain's example of umpteen different IP addresses - might want 
+to stagger the attempts when there are lots of IP addresses to try.)
+
+So instead I think we want to raise the abstraction layer for the 
+applications by introducing a connect-by-name socket API so that the 
+application just hands in the FQDN and the port number to which it wants 
+to connect.
+
+It isn't hard to come up with an initial cut of a connect-by-name 
+implementation entirely as a library routine (using non-blocking sockets 
+for the connect() system calls so that multiple can be outstanding and 
+the same time.)
+
+    Erik
+
+--------------------------------------------------------------------
+IETF IPv6 working group mailing list
+ipv6@ietf.org
+Administrative Requests: https://www1.ietf.org/mailman/listinfo/ipv6
+--------------------------------------------------------------------

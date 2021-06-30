@@ -1,0 +1,48 @@
+Date : ['2007-10-14T17:01:44Z']
+Timezone : +0200
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<C7621398-0166-4866-B653-CB8C04E8ED32@softarmor.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  C7621398-0166-4866-B653-CB8C04E8ED32@softarmor.com
+Message-ID : <CA9998CD4A020D418654FCDEF4E707DF027CE871@esealmw113.eemea.ericsson.se>
+References : <6FC4416DDE56C44DA0AEE67BC7CA437116A57D59@zrc2hxm2.corp.nortel.com><C3184CEC.B881%eburger@bea.com><6FC4416DDE56C44DA0AEE67BC7CA437116DFF008@zrc2hxm2.corp.nortel.com><46F7D719.2070004@nostrum.com><0a5401c8005c$a80fad10$800101df@acmepacket.com><46FAA68A.1090408@nostrum.com><0af301c8007c$94d37590$800101df@acmepacket.com><46FAC69C.4070402@nostrum.com><6FC4416DDE56C44DA0AEE67BC7CA437116FF8169@zrc2hxm2.corp.nortel.com><46FAE230.1070807@nostrum.com><6FC4416DDE56C44DA0AEE67BC7CA437116FF8412@zrc2hxm2.corp.nortel.com><46FBAD3D.3090109@nostrum.com><CA9998CD4A020D418654FCDEF4E707DF0237D9B1@esealmw113.eemea.ericsson.se><46FBBA78.7070903@nostrum.com><200709271439.l8REd4LE030665@dragon.ariadne.com><E3F9D87C63E2774390FE67C924EC99BB16E79B0D@zrc2hxm1.corp.nortel.com><46FBD4C0.30601@nostrum.com><6FC4416DDE56C44DA0AEE67BC7CA4371170F0690@zrc2hxm2.corp.nortel.com><F07E7B5E-BD67-4B1B-BFB0-77E8884FA471@softarmor.com><1ECE0EB50388174790F9694F77522CCF12325A94@zrc2hxm0.corp.nortel!!.com>
+	!! ! ! ! < 8F6 5	DB 2	 7-41 E D-42F
+	3-	97F5-D550C3E72902@softarmor.com><1ECE0EB50388174790F9694F77522CCF1242520C@zrc2hxm0.corp.nortel.com><CA9998CD4A020D418654FCDEF4E707DF026DB106@esealmw113.eemea.ericsson.se><1ECE0EB50388174790F9694F77522CCF1266D01A@zrc2hxm0.corp.nortel.com><CA9998CD4A020D418654FCDEF4E707DFEE081D@esealmw113.eemea.ericsson.se><1ECE0EB50388174790F9694F77522CCF126BD0B2@zrc2hxm0.corp.nortel.com>
+	<38CF40C2-19E8-4C83-9B66-DDC2862F1724@softarmor.com>
+	<5D1A7985295922448D5550C94DE29180017E16E9@DEEXC1U01.de.lucent.com>
+Comments : ['Null']
+Subject : ['RE: What are we arguing about when we say INFO? (was Re: [Sip] INFO)']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2007-10.mailcl']
+id : 69621e04-f822-4ea1-a63e-55ef4823ee82
+_version_ : 1675128726115844097
+
+Content : 
+
+ntial,  proprietary,  copyrighted  and/or legally=20
+> privileged, and is intended solely for the use of the=20
+> individual or entity named in this message. If you are not=20
+> the intended recipient, and have received this message in=20
+> error, please immediately return this by email and then delete it.
+>=20
+
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip

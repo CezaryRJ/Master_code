@@ -1,0 +1,38 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : calsch
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/calsch/2006-06.mailcl']
+id : 8ed4f5c6-4d37-4e1e-bcf6-b8f0427d7c89
+_version_ : 1675130514102550529
+
+Content : 
+
+
+
+
+----------report
+looks like this is is a message containing nothing
+
+

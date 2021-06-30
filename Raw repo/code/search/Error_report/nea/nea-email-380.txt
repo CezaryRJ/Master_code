@@ -1,0 +1,109 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : nea
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nea/2007-02.mailcl']
+id : b2e688cc-6d63-4120-bac4-0f1a041b1407
+_version_ : 1675132886614802432
+
+Content : 
+
+dized by NEA WG.  To me calling them "standard"=20
+> attributes is a more intuitive label than "core."
+
+Agreed (and this matches the named used in the charter.)
+
+>=20
+> 4.Have IETF writing styles changed such that all terms=20
+> defined in the terminology section need to be capitalized? =20
+> If so, then there are instances where this guideline are not=20
+> followed (e.g. the term 'reference model' is not capitalized=20
+> in abstract section vs. rest of document).  IMHO, extreme=20
+> usage of capitalized terms, as is the case with this=20
+> document, detracts from the readability.
+
+We wanted to call out when we were using a defined term vs. the generic
+equivalent (roughly equivalent of SHOULD vs should.)  Since we use a few
+commonly used words (e.g. Message, Component ...) with a special meaning
+we thought it was important to be clear what was intended.  For sections
+that are prior to the terminology section we didn't wish to use defined
+terms (since they weren't defined yet) and instead stick with generally
+known wordings.  Another WG member already pointed out that we missed a
+few terms that were used in the abstract (which is fixed in -01.)
+
+If others agree that this hurts readibility we could make them lower
+case as well and hope the reader understands this is a reserved term for
+this spec.
+
+>=20
+> Section 2 specific comments
+> 1. How exactly do policy attributes differ from posture=20
+> attributes?  It's unclear to me because of the claim in the
+
+Policy Attributes describe or reference policies that the Endpoint must
+meet to be considered compliant ("must have <vendor> firewall running at
+least version 1.2.3").  These are sent by the NEA Server (will add text
+to mention this.)
+
+Posture Attributes includes Posture information about a requested
+Component (Firewall installed, version 1.5, Firewall running, ...)  The
+Posture Validator compares this information to its policy to determine
+compliance.  These are sent by the NEA Client.
+
+> definition of policy attributes that states that policy=20
+> attributes can be used to establish compliancy without=20
+> divulging posture information.  Isn't the exchange of policy=20
+> and compliance attributes in fact a form of posture=20
+> information exchange.=20
+
+I presume you mean Policy and Compliance Claim Attributes.  In some
+sense you could argue this but we felt it was important to be more clear
+about the different types of attributes as they have differing security,
+privacy and operational properties.  We found these names very helpful
+when writing the spec and hope that after a read of the draft they
+aren't confusing.
+=20
+>=20
+> Cheers,
+> MS
+>=20
+> --------------------------------------------
+> Mauricio Sanchez, CISSP
+> Network Security Architect
+> ProCurve Networking Business
+> Hewlett Packard
+> 8000 Foothills Boulevard, ms 5557
+> Roseville CA, 95747-5557
+>=20
+> 916.785.1910 Tel
+> 916.785.1815 Fax
+> mauricio.sanchez@hp.com
+> --------------------------------------------  =20
+>=20
+>=20
+
+_______________________________________________
+Nea mailing list
+Nea@ietf.org
+https://www1.ietf.org/mailman/listinfo/nea

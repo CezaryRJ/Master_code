@@ -1,0 +1,40 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : 3f321a7c-6dab-4678-bcb3-8215867a7969
+_version_ : 1675131693060587522
+
+Content : 
+
+ENCODING mime
+FILE /internet-drafts/draft-lee-ndp-ieee802.16-01.txt
+
+------=_NextPart_000_0B2E_01C6437C.2FE21830
+Content-Type: Message/External-body;
+	name="draft-lee-ndp-ieee802.16-01.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename="draft-lee-ndp-ieee802.16-01.txt"

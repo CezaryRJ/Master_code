@@ -1,0 +1,9 @@
+1990 TO 2000
+-------#####------->    roamops
+Internet-Drafts@ns.ietf.org 16
+Internet-Drafts@ietf.org 14
+ryu@isl.hrl.hac.com 6
+Emad.Qaddoura.emadq@nt.com 4
+gwz@pinky.microsoft.com 4
+balabani@nortel.ca 2
+sanket@utdallas.edu 2

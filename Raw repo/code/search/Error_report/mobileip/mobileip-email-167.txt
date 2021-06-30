@@ -1,0 +1,35 @@
+Date : ['2003-04-07T06:26:52Z']
+Timezone : 2003
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : <mobile-ip-gsgxs5@sunroof.eng.sun.com>
+To-name : Null
+To-address : [' mobile-ip-gsgxs5@sunroof.eng.sun.com']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <iss.8f960a67.fe6.3e90fcfe.44b77.fd@relay1.sun.com>
+References : Null
+Comments : ['Null']
+Subject : ['Virus Detected by Network Associates, Inc. Webshield SMTP V4.5 MR1a']
+Mailing-list : mobileip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mobileip/2003-04.mailcl']
+id : 0532c68a-74a7-461a-8f53-4e7f4f3e4e33
+_version_ : 1675131544484708354
+
+Content : 
+
+Network Associates WebShield SMTP on Siemens ICN mailserver detected virus
+Exploit-MIME.gen.exe in attachment unknown in message with subject NETWORK from
+<mobile-ip-gsgxs5@sunroof.eng.sun.com>  to <emanuel.monticelli@icn.siemens.it>  and it was Cleaned.
+

@@ -1,0 +1,14 @@
+2010 TO 2020
+-------#####------->    irtf-announce
+lars@netapp.com 101
+rfc-editor@rfc-editor.org 46
+iesg-secretary@ietf.org 35
+allison.mankin@gmail.com 11
+csp@csperkins.org 11
+lars.eggert@nokia.com 11
+execd@iab.org 5
+falk@bbn.com 5
+ford@isoc.org 3
+glen@amsl.com 1
+rsoc-chair@iab.org 1
+sandra.sendra.upv@gmail.com 1

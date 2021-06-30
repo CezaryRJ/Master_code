@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    iot-onboarding
+mcr+ietf@sandelman.ca 34
+lear@cisco.com 22
+randy.armstrong@opcfoundation.org 16
+kent+ietf@watsen.net 14
+tte@cs.fau.de 12
+ofriel@cisco.com 10
+mcr@sandelman.ca 7
+elear@cisco.com 4
+jmvisoky@ra.rockwell.com 4
+sarikaya2012@gmail.com 3
+cabo@tzi.org 2
+dharkins@lounge.org 2
+david.m.wheeler@intel.com 1
+ietf-secretariat@ietf.org 1
+kent@watsen.net 1
+mellon@fugue.com 1
+mranga@gmail.com 1
+oscar.garcia-morchon@philips.com 1
+randy@psg.com 1
+rifaat.ietf@gmail.com 1
+sandoche.balakrichenan@afnic.fr 1
+simon@silvair.com 1
+steffen.fries@siemens.com 1

@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    rum
+br@brianrosen.net 31
+pkyzivat@alum.mit.edu 16
+gunnar.hellstrom@omnitor.se 10
+james.hamlin@purple.us 8
+adam@nostrum.com 6
+eburger@standardstrack.com 5
+noreply@ietf.org 5
+oej@edvina.net 4
+jmalloy@mitre.org 3
+ajanett@mitre.org 2
+ben@nostrum.com 2
+iesg-secretary@ietf.org 2
+mahoney@nostrum.com 2
+agenda@ietf.org 1
+barryleiba@computer.org 1
+chris-ietf@chriswendt.net 1
+hgs@cs.columbia.edu 1
+ietf@kuehlewind.net 1
+john.martin@purple.us 1
+magnus.westerlund@ericsson.com 1
+md3135@att.com 1
+paul.kyzivat@comcast.net 1
+richard@shockey.us 1
+session-request@ietf.org 1

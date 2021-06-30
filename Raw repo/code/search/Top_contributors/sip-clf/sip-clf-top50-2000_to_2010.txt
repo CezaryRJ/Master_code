@@ -1,0 +1,21 @@
+2000 TO 2010
+-------#####------->    sip-clf
+vkg@alcatel-lucent.com 26
+HKaplan@acmepacket.com 10
+rjsparks@nostrum.com 10
+spencer@wonderhamster.org 10
+adam@nostrum.com 7
+dromasca@avaya.com 6
+bclaise@cisco.com 3
+christer.holmberg@ericsson.com 2
+ietfdbh@comcast.net 2
+simon.perreault@viagenie.ca 2
+Quittek@nw.neclab.eu 1
+akoba@nttv6.net 1
+dbharrington@comcast.net 1
+dean.willis@softarmor.com 1
+drage@alcatel-lucent.com 1
+eburger@standardstrack.com 1
+fluffy@cisco.com 1
+iesg-secretary@ietf.org 1
+theo@crazygreek.co.uk 1

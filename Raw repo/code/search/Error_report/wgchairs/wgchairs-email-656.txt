@@ -1,0 +1,161 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : wgchairs
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/wgchairs/2007-02.mailcl']
+id : 1d85bd55-cd82-4f86-a225-9898498c8851
+_version_ : 1675134153337602048
+
+Content : 
+
+>>> To: Narayanan, Vidya
+>>> Cc: Dondeti, Lakshminath; Russ Housley; wgchairs@ietf.org;
+>>> Suleymanova,
+>>> Dinara; bofchairs@ietf.org
+>>> Subject: Re: 68th IETF - DRAFT Meeting Agenda for Review
+>>>
+>>> Vidya,
+>>>
+>>> Placing the Internet Area meeting has been a big headache
+>>> for scheduling this time. We are going to talk about the routing
+>>> and addressing topic and identifier-locator split in that slot, and
+>>> we gave a fair number of constraints, including not colliding with
+>>> certain routing area meetings, happen after a short discussion we'll
+>>> have on Wednesday plenary, etc.
+>>>
+>>> So, I would rather not move intarea since that may bring
+>>> more problems than it solves. But if you can move IFARE
+>>> that would be good of course. It would be great if either
+>>> Russ or Sam could participate intarea, for instance. But I
+>>> have a feeling that we may not be able to get a perfectly
+>>> collision free schedule this time...
+>>>
+>>> Jari
+>>>
+>>> Narayanan, Vidya kirjoitti:
+>>>> I just noticed that the INT area open meeting and IFARE are
+>>> conflicting
+>>>> - I need to be in both. Also, IFARE is somewhat of a cross-area
+>>> activity
+>>>> with the primary applicability for some INT area work - so, I think
+>>> more
+>>>> INT area attendees would want to attend that.
+>>>>
+>>>> Vidya
+>>>>
+>>>>
+>>>>> -----Original Message-----
+>>>>> From: Lakshminath Dondeti [mailto:ldondeti@qualcomm.com]
+>>>>> Sent: Friday, February 16, 2007 1:56 PM
+>>>>> To: Russ Housley
+>>>>> Cc: Suleymanova, Dinara; wgchairs@ietf.org; bofchairs@ietf.org
+>>>>> Subject: Re: 68th IETF - DRAFT Meeting Agenda for Review
+>>>>>
+>>>>> Russ Housley wrote:
+>>>>>
+>>>>>> Dinara:
+>>>>>>
+>>>>>> SIDR is a security-related WG, and it is in the second slot
+>>>>>>
+>>>>> on Monday.
+>>>>>
+>>>>>> I need to be there.
+>>>>>>
+>>>>>> I see no problem with MSEC or IFARE being moved to the
+>>>>>>
+>>>>> first slot on Monday.
+>>>>>
+>>>>> Agreed.
+>>>>>
+>>>>> Dinara, could you also move one of RTPSEC and HOKEY to
+>>>>> another slot?  I need to be in both!  This scheduling thing
+>>>>> is becoming more and more difficult!
+>>>>>
+>>>>> Actually, doesn't Russ need to be in both?  He is chairing
+>>>>> RTPSEC and advising HOKEY!  Perhaps RTPSEC can be swapped with
+>>> ENUM?
+>>>>>
+>>>>> thanks,
+>>>>> Lakshminath
+>>>>>
+>>>>>
+>>>>>> Russ
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>> At 10:37 AM 2/16/2007, Suleymanova, Dinara wrote:
+>>>>>>
+>>>>>>> *Hi All,
+>>>>>>>
+>>>>>>> *I see that there are a number of cases where SEC or SEC-related
+>>>>>>> groups collide (HOKEY, KRB-WG), (KITTEN, MSEC), (RPSEC, ISMS,
+>>>>>>> S/MIME), and (RTPSEC, and IFARE). Obviously, this kind of thing
+>>>>>>> happens when you have more groups than slots, but I notice that
+>>>>>>> there's no SEC at all in the first two sessions on Monday.
+>>>>>>>
+>>>>> This leads
+>>>>>
+>>>>>>> me to wonder whether things could be spaced out better.
+>>>>>>>
+>>>>>>> Particular suggestions:
+>>>>>>> Swap IFARE with IPR or SIEVE so that IFARE and RTPSEC
+>>>>>>>
+>>>>> don't collide.
+>>>>>
+>>>>>>>
+>>>>>>> *No collision any more. Please see the draft agenda for
+>>>>>>>
+>>>>> changes as it
+>>>>>
+>>>>>>> gets updated everyday.
+>>>>>>> *
+>>>>>>> Swap DIME with KITTEN or MSEC, thus removing a two-SEC
+>>>>>>>
+>>>>> situation and
+>>>>>
+>>>>>>> a two-OPS situation.
+>>>>>>>
+>>>>>>> *DIME is on Mon 0900-1130
+>>>>>>> *
+>>>>>>> -Ekr
+>>>>>>>
+>>>>>>>
+>>>>>>> *Thank you.
+>>>>>>>
+>>>>>>>
+>>>>>>> Dinara Suleymanova
+>>>>>>> *
+>>>>>>>
+>>>>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>
+>>
+>
+>
+
+

@@ -1,0 +1,21 @@
+2010 TO 2020
+-------#####------->    oam
+rbonica@juniper.net 16
+dromasca@avaya.com 6
+ietfdbh@comcast.net 6
+yaakov_s@rad.com 6
+Adrian.Farrel@huawei.com 5
+nurit.sprecher@nsn.com 5
+fred@cisco.com 4
+Robert.Rennison@ecitele.com 3
+ikob@ni.aist.go.jp 3
+loa@pi.nu 3
+tme@americafree.tv 3
+jesper@cisco.com 2
+marc.lasserre@alcatel-lucent.com 2
+Alexander.Vainshtein@ecitele.com 1
+bortzmeyer@nic.fr 1
+gregimirsky@gmail.com 1
+gregory.cauchie@orange-ftgroup.com 1
+iesg-secretary@ietf.org 1
+sratliff@cisco.com 1

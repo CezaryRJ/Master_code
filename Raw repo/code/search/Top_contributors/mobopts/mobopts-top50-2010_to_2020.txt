@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    mobopts
+rkoodli@cisco.com 13
+suresh.krishnan@ericsson.com 6
+lei.liu16@gmail.com 4
+falk@bbn.com 3
+lars@netapp.com 3
+schmidt@informatik.haw-hamburg.de 3
+adutta@research.telcordia.com 2
+fu@cs.uni-goettingen.de 2
+jouni.nospam@gmail.com 2
+lars.eggert@nokia.com 2
+neel_itech@hotmail.com 2
+sastry@comcast.net 2
+william.d.ivancic@nasa.gov 2
+alexandru.petrescu@gmail.com 1
+ashutosh.dutta@ieee.org 1
+behcetsarikaya@yahoo.com 1
+charles.perkins@earthlink.net 1
+j.schoenwaelder@jacobs-university.de 1
+jari.arkko@piuha.net 1
+johnl@iecc.com 1
+leszek.lilien@wmich.edu 1
+luo.wen@zte.com.cn 1
+ramona@eeng.dcu.ie 1

@@ -1,0 +1,16 @@
+2000 TO 2010
+-------#####------->    call-home
+lear@cisco.com 17
+j.schoenwaelder@iu-bremen.de 6
+bwijnen@lucent.com 4
+dperkins@dsperkins.com 3
+dromasca@avaya.com 3
+pekka.nikander@nomadiclab.com 3
+wjhns1@hardakers.net 3
+dean.willis@softarmor.com 2
+ietf@andybierman.com 2
+joshl@cisco.com 2
+mailman-owner@ietf.org 2
+eric.njedjou@francetelecom.com 1
+sumanth@cablelabs.com 1
+wyllys.ingersoll@sun.com 1

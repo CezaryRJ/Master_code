@@ -1,0 +1,25 @@
+2000 TO 2010
+-------#####------->    saad
+michel@arneill-py.sacramento.ca.us 11
+kempf@docomolabs-usa.com 7
+Erik.Nordmark@sun.com 6
+brc@zurich.ibm.com 5
+dhc@dcrocker.net 5
+mshore@cisco.com 4
+dbh@enterasys.com 3
+jnc@ginger.lcs.mit.edu 3
+leslie@thinkingcat.com 3
+bortzmeyer@nic.fr 2
+fred@cisco.com 2
+spencer@mcsr-labs.org 2
+176ayeg@mail.com 1
+Margaret.Wasserman@nokia.com 1
+NitaiGouranga@aol.com 1
+ekr@rtfm.com 1
+gih@telstra.net 1
+jim.bound@hp.com 1
+marcelo@it.uc3m.es 1
+pekka.nikander@nomadiclab.com 1
+pekkas@netcore.fi 1
+rdroms@cisco.com 1
+zi2sbcgzu@public.gb.com.cn 1

@@ -1,0 +1,161 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : 17:420
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['AW: [BLISS] AW: [Sipping]\n\tdrafdraft-poetzl-sipping-call-completion-02.txt; queue-operation']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-03.mailcl']
+id : 2ca1d61a-bb3a-4890-afd7-d7fa40c9e9e1
+_version_ : 1675132967731593217
+
+Content : 
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+
+
+
+
+1:26 +0100
+Message-Id: <CCA850DCD3FBE2479D5076C5C18732220168A957@S4DE9JSAAHW.ost.t-com.de>
+In-Reply-To: <1E4CCB2441C5C0409AD8A929482A09F31BB764@S4DE9JSAAIG.ost.t-com.de>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [BLISS] AW: [Sipping]
+	drafdraft-poetzl-sipping-call-completion-02.txt; queue-operation
+Thread-Index: AcdftbqTXozlXpeyRpywAZW7M60QXAAQbyewAcBkLoA=
+From: "Huelsemann, Martin" <Martin.Huelsemann@t-com.net>
+To: "Beck01, Wolfgang" <BeckW@t-systems.com>, <jason@counterpath.com>,
+	<sipping@ietf.org>, <bliss@ietf.org>
+X-OriginalArrivalTime: 15 Mar 2007 16:41:26.0891 (UTC)
+	FILETIME=[C66BB3B0:01C76720]
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: b280b4db656c3ca28dd62e5e0b03daa8
+Cc: 
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Errors-To: sipping-bounces@ietf.org
+
+Hi Wolfgang, Jason,
+
+
+using 'suspend' and 'resume' is a question of the effectiveness of =
+running the service, because if a UAC knows that the user is busy and =
+sends a 'suspend', the UAS doesn't has to initiate a call-completion =
+recall to that user, wait for his response, cancel the recall, not =
+knowing anyway if there is still a need to recall this user, and first =
+then recall the next user in the queue.
+
+You are right 'add' is a synonyme for SUBSCRIBE with Expires > 0, the =
+advantage of it's usage is that it can very easily be interworked with =
+the PSTN TCAP ccbsRequest invoke component.
+
+For the denial reasons, there might be SIP response codes which match =
+those reasons, but for me they seem to be more appropriate for the SIP =
+transactions itself then for the call-completion event. So we decided to =
+use an extra parameter, to have a clear separation between those two =
+things.
+
+For the caller parameter, there might be the service operation scenario =
+where not the originating user is initiating the call-completion =
+request, but an Application Server handles the call-completion =
+operations for the user. In this case the UAC on the terminating side =
+cannot derive the served user from the From header or P-Asserted ID, but =
+the caller must be explicitly identified.
+
+
+Regards, Martin
+
+
+
+
+
+> -----Urspr=FCngliche Nachricht-----
+> Von: Beck, Wolfgang=20
+> Gesendet: Dienstag, 6. M=E4rz 2007 15:15
+> An: bliss@ietf.org; sipping@ietf.org
+> Cc: esasaki@NTT-AT.COM; Martin.Huelsemann@gmx.de
+> Betreff: [BLISS] AW: [Sipping]=20
+> drafdraft-poetzl-sipping-call-completion-02.txt; queue-operation
+>=20
+>=20
+> Roland,
+>=20
+> is the queue-operation parameter really necessary?
+> 'add' is just a synonym for a SUBSCRIBE with an Expire > 0
+>=20
+> The 'suspend' / 'resume' functionality can be done by the=20
+> calling UA: it
+> can ignore ('suspend') or handle ('resume') incoming NOTIFYs.
+>=20
+> What's the point of the 'caller' parameter? The SUBSCRIBE=20
+> request already
+> contains 'From' and possibly P-Asserted-Id.=20
+>=20
+> Aren't the 'short-term-denial' and 'long-term-denial'=20
+> parameters already
+> covered by existing SIP response codes?
+>=20
+>=20
+> Wolfgang
+>=20
+>=20
+> [non-standard sig as required by dubious EU regulations]
+> --
+> T-Systems Enterprise Services GmbH
+> Aufsichtsrat: Ren=E9 Obermann (Vorsitzender)
+> Executive Committee: Lothar Pauly (Vorsitzender)*, Helmut=20
+> Binder, Albert Henn, Olaf Heyden*, Katrin Horstmann, Ulrich=20
+> Kemp, Axel Knobe*,
+> Wilfried Peters*, Dr. Herbert Schaaff*, Zvezdana Seeger*
+> Handelsregister: Amtsgericht Frankfurt am Main HRB 55933
+> Sitz der Gesellschaft: Frankfurt am Main
+> WEEE-Reg.-Nr. DE87523644
+> *Gesch=E4ftsf=FChrer gem. =A7 35 GmbHG
+>=20
+> _______________________________________________
+> BLISS mailing list
+> BLISS@ietf.org
+> https://www1.ietf.org/mailman/listinfo/bliss
+>=20
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+
+
+

@@ -1,0 +1,239 @@
+Date : ['1996-12-31T02:10:24Z']
+Timezone : (EST)
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : rjp@pdd.3com.com (Rob Pickering)
+To-name :  Rob_Pickering
+To-address : [' rjp@pdd.3com.com']
+Cc : ['mohta@necom830.hpcl.titech.ac.jp, ipng@sunroof.Eng.Sun.COM']
+Cc-name : Null
+Cc-address :  mohta@necom830.hpcl.titech.ac.jp ipng@sunroof.Eng.Sun.COM
+In-Reply-To : ['<8094.199612121837@ganymede.PDD.3Com.com> from "Rob Pickering" at Dec 12, 96 09:41:58 am']
+In-Reply-To-name : Null
+In-Reply-To-address :  8094.199612121837@ganymede.PDD.3Com.com from 58
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: (IPng 2593) Re: 8+8 (further discussion)']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/1999-12.mailcl']
+id : 997c3a41-bbdf-4d1b-bed8-9274825ec562
+_version_ : 1675130292797440000
+
+Content : 
+
+> > Mike's current draft is no good for protection against the piracy,
+> > because it can't lookup DNS with ID part only.
+> 
+> Mike's draft doesn't talk at all about reverse lookup (PTR) records
+> which would in any case be necessary. If you
+> arrange to provide PTR records for all RG:ESD pairs that a host has 
+> e.g.
+> 
+> host.dom.ain AAAA        <rg1>:<esd>
+> host.dom.ain AAAA        <rg2>:<esd>
+
+This is similar to something I proposed to the IPng list in March of 1995.
+I've included my original message at the bottom of this message, but I'll
+adapt it here for the 8+8 discussion (and variants).
+
+A multi-homed site might have something like the following DNS setup:
+
+My_Site	IN	RG	xxx-LSID-Provider1_ID-Site_ID_for_Provider1
+My_Site	IN	RG	xxx-LSID-Provider2_ID-Site_ID_for_Provider2
+
+which would represent two different providers for My_Site (this particular
+example assumes that both providers are in the same LSID).
+
+Non-Internet-connected routing domains could use the Site Local Use
+prefix.
+
+Then a host at My_Site might have the following AAAA records:
+
+host	IN	AAAA	My_Site PTP1_ID-EID
+host	IN	AAAA	My_Site PTP2_ID-EID
+host	IN	AAAA	My_Site PTP3_ID-EID
+
+which assumes that the host has 3 interfaces and one IPv6 address per
+interface for this particular example.  Each address would be 64 bits
+long (128 - length of My_Site prefix which is 64 bits).  These
+site-specific addresses would be invariant with a change of provider.
+
+Then, when someone queried the DNS for the host's AAAA entries, instead
+of simply returning a set of 128-bit AAAA entries for the host, it would
+return the set of 3 64-bit site-specific addresses for the host, i.e. the
+PTP_ID + EID.
+
+In an additional section, it would return the list of RG entries for
+My_Site, in this case the 2 64-bit Site RG prefixes representing Provider1
+and Provider2.
+
+Upon receiving the DNS reply, the requesting host would simply combine
+the AAAA and RG parts to form the various full 128-bit IPv6 addresses
+for the host (which would have 6 possible addresses in this example), or
+use the information in other meaningful ways, such as provider selection.
+It also might be desirable to have a preference value on the RG record
+to order the preference of Site Providers, similar to the preference
+value on MX records.
+
+This would not only significantly reduce the possible size of a DNS
+reply (3*8 + 2*8 = 40 octets versus 2*3*16 = 96 octets for this simple
+case), but should also be a great help in facilitating change of provider
+or exchange, and in supporting multi-homed routing domains.
+
+I didn't initially push that hard for inclusion of such an idea in the
+IPv6 DNS spec, but the more I think about it, the more I believe such a
+facility is really needed even in the early deployment stages of IPv6,
+to decouple the site portion of an IPv6 address from the routing goop
+portion of an IPv6 address.
+
+> and 
+> 
+> <esd>.<rg1>.IP6.INT.      PTR      host.dom.ain.
+> <esd>.<rg2>.IP6.INT.      PTR      host.dom.ain.
+
+I didn't originally consider PTR records, but my inclination is that
+it's probably not a good idea to include the RG (or PTP info) in the
+inverse mapping, so this should probably be:
+
+Reversed_EID.IP6.INT.	PTR	host.My.Domain.
+
+If we really want to include the RG, then it should at least be via
+indirection using some new syntax, perhaps something like:
+
+Reversed_EID.Reversed_PTP1_ID.@My_Site.IP6.INT.	  PTR	host.My.Domain.
+Reversed_EID.Reversed_PTP2_ID.@My_Site.IP6.INT.	  PTR	host.My.Domain.
+Reversed_EID.Reversed_PTP3_ID.@My_Site.IP6.INT.	  PTR	host.My.Domain.
+
+Since My_Site has 2 Providers and thus 2 RG entries, the above would
+actually generate the equivalent of 6 PTR records, one for each of the
+6 possible IPv6 addresses for host.My.Domain.
+
+> and a packet exchange  is going on with <rg1>:<host> as the remote address. The 
+> route via <rg1> dies and a host unreachable is received. The stack 
+> then does a DNS query for <esd>.<rg1>.IP6.INT and gets host.dom.ain, 
+> which then forward resolves to the two AAAA records. <rg1>:<esd> is 
+> ruled out because we know it is dead, so we substitute <rg2>:<esd> 
+> and continue the conversation.
+
+I assume you meant the new RG unreachable ICMPv6 error rather than
+just a host unreachable.  It would also be nice to be able to revert
+back to the "preferred" RG when it came back up, but I'm not sure
+how you would implement this.  Perhaps you could do like Path MTU
+Discovery and periodically send out some type of ICMPv6 probe message
+to see if the "preferred" RG had come back up.
+
+> This has some security as it will only use full addresses which are 
+> in the list of AAAA records for the host.
+> 
+> --
+>         Rob Pickering
+
+Finally, I'm still weighing in my own mind the pros and cons of the
+Mike O'Dell 8+8 proposal, which I think of as 8+2+6 (Public_RG+Private_RG+EID),
+versus the Masataka Ohta 8+8 proposal, which I think of as 6+2+8
+(Public_RG+Private_RG+EID).  I do like the ability with Masataka's
+proposal to do PTR lookups based solely on the EID.  It seems intuitive
+to me that such PTR lookups shouldn't have anything to do with any of
+the routing goop (either public or private).  Since Mike didn't address
+PTR lookups in his 8+8 proposal, I can't really fairly assess what he
+might have in mind for performing PTR lookups.  However, the concepts
+and ideas in his overall proposal I generally found favorable (including
+the idea of dynamically inserting the source routing goop at the Site
+Boundary Router), although the details still need to be hashed out
+further.  I can make the same general statement about Masataka's
+8+8 proposal, noting that the two proposals have much in common.
+
+In Mike's proposal, I'm not sure I like the idea of any hard boundaries
+in the Public RG part, and don't see the necessity for it, although it
+could be used initially as guidance for the initial allocation of LSIDs,
+to initially limit the number of routes in the global Default Free Zone
+to at most 2^13 (or 2^14), plus the intra-LSID routes of course.  As
+routers become more capable over time, I suspect that there may be
+advantages to having finer routing granularity at the top level.
+
+One of the disadvantages Masataka listed with Mike's 8+8 proposal had
+to do with mobility.  One possible simple kludge to deal with this would
+be to reserve either PTP (subnet) 0 or PTP 0x7FFF for mobile hosts.
+This would make all mobile hosts have a constant ESD regardless of
+where they happened to roam.  This would limit the number of mobile
+host to 2^48 or over 281 trillion hosts, but I think it will be quite
+a while before we bump into that limit.  Having said that, as indicated
+earlier, my current leaning is toward an 8 byte EID as espoused by
+Masataka, although perhaps not the exact breakdown as in Masataka's
+proposal (once again I don't like the idea of completely hard boundaries
+plus 3 bytes for country NICs seems excessive).
+
+As others have noted, there are a number of similarities between Mike's
+and Masataka's proposals, and I feel it should be possible to synthesize
+a merged proposal from the two.  As the tradeoffs are discussed further,
+hopefully consensus can be reached.  I think one of the determining
+factors is whether or not the EID is all that is needed to do a PTR
+lookup.  I'm currently leaning that way personally, but am still open
+to other alternatives, depending on the costs involved.
+
+						-Bill
+
+
+
+Original message to IPng list regarding IPv6 DNS issue:
+--------------------------------------------------------------------------------
+From: bill@wizard.gsfc.nasa.gov (Bill Fink)
+Subject: Re: (IPng) New IPv6 DNS Draft
+To: ipng@sunroof.Eng.Sun.COM
+Date: Tue, 28 Mar 1995 00:00:59 -0500 (EST)
+
+Was any thought given to decoupling the site portion of an IPv6 address
+from the exchange or provider portion of an IPv6 address?
+
+I am envisioning something like the following DNS setup:
+
+My_Site	IN	PREFIX	010-Registry_ID-Provider1_ID-Site_ID_for_Provider1 64
+My_Site	IN	PREFIX	010-Registry_ID-Provider2_ID-Site_ID_for_Provider2 64
+
+which would represent two different providers for My_Site, where the length
+of the Site Prefix for My_Site is 64 bits.  Non-Internet-connected routing
+domains could use the Site Local Use prefix.
+
+Then a host foo at My_Site might have the following AAAA records:
+
+foo	IN	AAAA	My_Site:Subnet1_ID-Interface1_ID
+foo	IN	AAAA	My_Site:Subnet2_ID-Interface2_ID
+foo	IN	AAAA	My_Site:Subnet3_ID-Interface3_ID
+
+which assumes that foo has 3 interfaces and one IPv6 address per interface
+for this example.  Each address would be 64 bits long (128 - length of
+My_Site prefix which is 64 bits).  These site-specific addresses would
+be invariant with a change of provider.
+
+Then, when someone queried the DNS for host foo's AAAA entries, instead
+of simply returning a set of 128-bit AAAA entries for host foo, it would
+return the set of 3 64-bit site-specific addresses for host foo, i.e. the
+Subnet_ID + Interface_ID (right justified in the smallest number of octets
+that will hold the address, in this case 8 octets).
+
+In an additional section, it would return the list of Site Prefixes for
+My_Site, in this case the 2 64-bit Site Prefixes representing Provider1
+and Provider2 (left justified in the smallest number of octets that will
+hold the address, in this case 8 octets).
+
+Upon receiving the DNS reply, the requesting host would simply combine
+the AAAA and PREFIX parts to form the various full 128-bit IPv6 addresses
+for host foo (which would have 6 possible addresses in this example), or
+use the information in other meaningful ways, such as provider selection.
+
+This would not only significantly reduce the possible size of a DNS
+reply (3*8 + 2*8 = 40 octets versus 2*3*16 = 96 octets for this simple
+case), but should also be a great help in facilitating change of provider
+or exchange, and in supporting multi-homed routing domains.
+
+						-Bill
+
+

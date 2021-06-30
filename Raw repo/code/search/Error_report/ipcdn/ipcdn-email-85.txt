@@ -1,0 +1,55 @@
+Date : ['2002-09-01T08:09:04Z']
+Timezone : -0400
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['sip-admin@ietf.org']
+Sender-name : Null
+Sender-address :  sip-admin@ietf.org
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : ipcdn-archive@ietf.org
+To-name : Null
+To-address : [' ipcdn-archive@ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <20020901120904.1916.20761.Mailman@www1.ietf.org>
+References : Null
+Comments : ['Null']
+Subject : ['ietf.org mailing list memberships reminder']
+Mailing-list : ipcdn
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipcdn/2002-09.mailcl']
+id : c120a467-c533-4d97-8567-225ed1a28577
+_version_ : 1675129693816225793
+
+Content : 
+
+This is a reminder, sent out once a month, about your ietf.org mailing
+list memberships.  It includes your subscription info and how to use
+it to change it or unsubscribe from a list.
+
+You can visit the URLs to change your membership status or
+configuration, including unsubscribing, setting digest-style delivery
+or disabling delivery altogether (e.g., for a vacation), and so on.
+
+In addition to the URL interfaces, you can also use email to make such
+changes.  For more info, send a message to the '-request' address of
+the list (for example, ipcdn-request@ietf.org) containing just the
+word 'help' in the message body, and an email message will be sent to
+you with instructions.
+
+If you have questions, problems, comments, etc, send them to
+mailman-owner@.  Thanks!
+
+Passwords for ipcdn-archive@lists.ietf.org:
+
+List                                     Password // URL
+----                                     --------  
+ipcdn@ietf.org                           BtQa      
+https://www1.ietf.org/mailman/options/ipcdn/ipcdn-archive%40lists.ietf.org
+

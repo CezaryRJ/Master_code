@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    paw
+pthubert@cisco.com 44
+corinna.schmitt@unibw.de 11
+georgios.papadopoulos@imt-atlantique.fr 9
+eagros@dolby.com 8
+Hesham.ElBakoury@huawei.com 7
+diego.dujovne@mail.udp.cl 7
+dave.cavalcanti@intel.com 4
+shankram@cisco.com 3
+xvilajosana@uoc.edu 3
+jerhenry@cisco.com 2
+lberger@labn.net 2
+theoleyre@unistra.fr 2
+toshio9.ito@toshiba.co.jp 2
+AGUPTA59@ford.com 1
+alexander@ackl.io 1
+cjbc@it.uc3m.es 1
+ganesh.venkatesan@intel.com 1
+jch@irif.fr 1
+kang.lee@nist.gov 1
+malisa.vucinic@inria.fr 1
+mutaneja@cisco.com 1
+ryanranario1.paderna@toshiba.co.jp 1
+vincent.audebert@edf.fr 1

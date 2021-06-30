@@ -1,0 +1,6 @@
+2010 TO 2020
+-------#####------->    ldap-dir
+stevey@amsl.com 2
+Kurt.Zeilenga@Isode.com 1
+era@x500.eu 1
+leifj@sunet.se 1

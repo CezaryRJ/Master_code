@@ -1,0 +1,25 @@
+2000 TO 2010
+-------#####------->    ietf-62
+dfazio@brevis.net 19
+farmer@umn.edu 15
+karen.odonoghue@navy.mil 13
+jim@daedelus.com 12
+avezza@foretec.com 8
+horne@infoblox.com 6
+chris.liljenstolpe@alcatel.com 5
+mbeaulie@foretec.com 5
+ietf-admin@techsquare.com 4
+chris@sysnetinc.com 3
+tyackel@airespace.com 3
+casner@acm.org 2
+rnagy@infoblox.com 2
+Emmanuel.Desmet@alcatel.com 1
+adrian@olddog.co.uk 1
+cabo@tzi.org 1
+chris@liljenstolpe.org 1
+fritchie@snookles.com 1
+ggm@apnic.net 1
+joelja@darkwing.uoregon.edu 1
+lars.eggert@netlab.nec.de 1
+tcs@netcordia.com 1
+tjc@ecs.soton.ac.uk 1

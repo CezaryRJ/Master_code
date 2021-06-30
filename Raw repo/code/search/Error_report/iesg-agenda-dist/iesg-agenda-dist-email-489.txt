@@ -1,0 +1,157 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : iesg-agenda-dist
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/iesg-agenda-dist/2007-10.mailcl']
+id : 82df8784-ae04-4fda-b25e-4005e56124e8
+_version_ : 1675131255341973505
+
+Content : 
+
+</td></tr>
+<tr><td></td><td></td><td>Token:</td>
+      <td><a href="mailto:townsley@cisco.com">Mark Townsley</a></td></tr>
+</table>
+<b>3.3.2 Returning Item</b>
+ <br>&nbsp; &nbsp; &nbsp; <i>NONE</i><br>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+<h2>4. Working Group Actions</h2>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+<h3>4.1 WG Creation</h3>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+<b>4.1.1 Proposed for IETF Review</b><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i>NONE</i>
+</td></tr></table>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+<b>4.1.2 Proposed for Approval</b><br>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+     <table><tr><th>Area<th>Date<th></tr>
+<tr><td>OPS</td><td>Oct 15</td><td>Performance Metrics for Other Layers (pmol) - 1 of 1</td></tr>
+<tr><td></td><td>Token:</td><td><a href="mailto:dromasca@avaya.com">Dan</a></td></tr>
+</table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+<h3>4.2 WG Rechartering</h3>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+<b>4.2.1 Under evaluation for IETF Review</b><br>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+     <table><tr><th>Area<th>Date<th></tr>
+<tr><td>OPS</td><td>Oct 17</td><td>IP Flow Information Export (ipfix) - 1 of 2</td></tr>
+<tr><td></td><td>Token:</td><td><a href="mailto:dromasca@avaya.com">Dan</a></td></tr>
+<tr><td>OPS</td><td>Oct 16</td><td>Network Configuration (netconf) - 2 of 2</td></tr>
+<tr><td></td><td>Token:</td><td><a href="mailto:dromasca@avaya.com">Dan</a></td></tr>
+</table>
+</td></tr></table>
+</td></tr></table>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+<b>4.2.2 Proposed for Approval</b><br>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+<td>
+
+     <table><tr><th>Area<th>Date<th></tr>
+<tr><td>RTG</td><td>Oct 11</td><td>Common Control and Measurement Plane (ccamp) - 1 of 1</td></tr>
+<tr><td></td><td>Token:</td><td><a href="mailto:rcallon@juniper.net">Ross</a></td></tr>
+</table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+
+<P><P>
+<h2>5. IAB News We Can Use</h2>
+<p><p>
+<h2> 6. Management Issues</h2>
+<b>6.1 Update URL for application/wspolicy+xml media type (Chris Newman)</b><br>
+
+<b>6.2 Approval of application/sparql-query media type (Chris Newman)</b><br>
+
+<b>6.3 IANA Expert for IPFIX IEs (Dan Romascanu)</b><br>
+
+<b>6.4 IESG and AD statistics (Jari Arkko)</b><br>
+
+<P><P>
+<h2>7. Working Group News</h2>
+<P>
+</body></html>
+
+
+
+--===============0265333424==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+IESG-AGENDA-DIST mailing list
+IESG-AGENDA-DIST@ietf.org
+https://www1.ietf.org/mailman/listinfo/iesg-agenda-dist
+
+--===============0265333424==--

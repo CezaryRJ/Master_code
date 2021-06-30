@@ -1,0 +1,14 @@
+2010 TO 2020
+-------#####------->    sixpac
+Simo.Veikkolainen@nokia.com 10
+emcho@sip-communicator.org 10
+Markus.Isomaki@nokia.com 6
+peter.musgrave@magorcorp.com 5
+stpeter@stpeter.im 5
+gunnar.hellstrom@omnitor.se 4
+john.elwell@siemens-enterprise.com 4
+rjsparks@nostrum.com 3
+eckelcu@cisco.com 1
+ietf-secretariat@ietf.org 1
+joe.hildebrand@webex.com 1
+rifatyu@avaya.com 1

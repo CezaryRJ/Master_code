@@ -1,0 +1,127 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : mip4
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mip4/2006-04.mailcl']
+id : bbff7015-0d9d-447d-bc58-80269e59ed66
+_version_ : 1675134304991051776
+
+Content : 
+
+significance.
+
+The scope of the workshop includes, but is not limited to:
+
+o- Performance and management of mesh and Bluetooth networks.
+o- Performance and resource management of wireless ad hoc and sensor
+networks.
+o- Performance and management of wireless multimedia systems.
+o- Resource allocation.
+o- Power Control and energy management.
+o- Wireless network design and management.
+o- Measurement, analysis, modeling, and generation.
+o- Traffic measurement (wireless TCP, etc..).
+o- Billing and wireless web services.
+o- (3G/4G wireless billing systems, GPRS billing, etc..).
+o- Web-Based wireless management.
+o- Wireless security management.
+o- Wireless Network planning.
+o- Wireless Intelligent Networks.
+o- Performance and Management of Broadband Wireless Management.
+o- Management and monitoring of wireless and mobile systems.
+o- User mobility modeling.
+o- Topology construction and maintenance.
+o- Interoperability, and performance of heterogeneous wireless networks of
+different standards.
+
+
+
+Important dates
+
+    Submission Deadline:        July 1st, 2006.
+    Notification of Acceptance: July 31, 2006
+    Camera Ready version due:   August 25, 2006
+    Workshop and LCN presentation:     November 14-16, 2006 in Tampa, USA
+
+IMPORTANT: ATTENDANCE BY AT LEAST ONE AUTHOR IS MANDATORY
+
+
+
+Submission Guidelines
+
+  Authors are invited to submit full or short papers for presentation at
+the conference. Full papers (no more than 10 pages, in IEEE format)
+should present novel perspectives within the general scope of the
+conference.
+
+Only original papers that have not been published or submitted for
+publication elsewhere can be submitted. Papers in excess of page limits
+shall not be considered for review or publication. All papers must include
+title, complete contact information for all authors, abstract, and
+keywords on the cover page. The corresponding author must be clearly
+identified.
+
+Authors are required to submit their papers through the EDAS web site
+(http://www.edas.info/)
+
+
+ The authors of accepted papers must guarantee that their paper will be
+presented at the conference. At least one author of each accepted paper
+must be registered for the conference in order for that paper to appear
+in the IEEE LCN proceedings and to be scheduled for presentation.
+
+Organizing Committee
+--------------------
+
+Program Co-Chairs:
+Prof. Azzedine Boukerche         Prof. Mirela Sechi M. A. Notare
+SITE, University of Ottawa,      Barddal University,
+Ottawa, Canada                   Florianapolis, Brazil
+boukerch@site.uottawa.ca         mnotare@computer.org
+
+Program Committee:
+
+Regina Araujo,    Federal University of Sao Carlos, Brazil
+Luciano Bononi,   University of Bologna, Italy
+Stefano Basagni,  Northeastern University, USA
+Luiz DaSilva,     Virginia Tech., USA
+Jelena Misic,     University of Manitoba, Canada
+Nidal Nasser,     University of Guelph, Canada
+Mirela  Notare,   Barddal University, Brazil
+Stephen Olariu,   Old Dominion, USA
+M. Ould-khaoua,   University fo Glasgow, UK
+Mineo Takai,      Univ. of Los Angeles, California (UCLA), USA
+Damla Turgut,     University of Central Florida, USA
+Albert Zomaya,    University of Sydney, Australia
+Pedro M. Ruiz,    University of Murcia, Spain
+Jie Wu           Florida Atlantic University, USA
+Yuanyuan Yang    The State University of New York at Stony Brook, USA
+
+
+
+-- 
+Mip4 mailing list: Mip4@ietf.org
+    Web interface: https://www1.ietf.org/mailman/listinfo/mip4
+     Charter page: http://www.ietf.org/html.charters/mip4-charter.html
+Supplemental site: http://www.mip4.org/

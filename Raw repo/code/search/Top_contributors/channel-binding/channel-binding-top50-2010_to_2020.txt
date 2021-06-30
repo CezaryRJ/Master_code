@@ -1,0 +1,13 @@
+2010 TO 2020
+-------#####------->    channel-binding
+Nicolas.Williams@sun.com 14
+simon@josefsson.org 6
+Nicolas.Williams@Sun.COM 5
+larry.zhu@microsoft.com 5
+alexey.melnikov@isode.com 3
+mrex@sap.com 3
+Pasi.Eronen@nokia.com 1
+cfinss@dial.pipex.com 1
+dave@cridland.net 1
+lear@cisco.com 1
+turners@ieca.com 1

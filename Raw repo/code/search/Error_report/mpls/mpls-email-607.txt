@@ -1,0 +1,105 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : mpls
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mpls/2006-10.mailcl']
+id : a497440d-544c-4c56-83a2-d1950babca01
+_version_ : 1675133447347109888
+
+Content : 
+
+<P>&nbsp;</P></BODY></HTML>
+
+------_=_NextPart_002_01C6F104.7A698E8E--
+
+------_=_NextPart_001_01C6F104.7A698E8E
+Content-Type: image/gif;
+	name="clip_image002.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <566291109@16102006-2F56>
+Content-Description: clip_image002.gif
+Content-Location: clip_image002.gif
+
+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
+
+------_=_NextPart_001_01C6F104.7A698E8E
+Content-Type: image/gif;
+	name="Blank Bkgrd.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <566291109@16102006-2F5D>
+Content-Description: Blank Bkgrd.gif
+Content-Location: Blank%20Bkgrd.gif
+
+R0lGODlhLQAtAID/AP////f39ywAAAAALQAtAEACcAxup8vtvxKQsFon6d02898pGkgiYoCm6sq2
+7iqWcmzOsmeXeA7uPJd5CYdD2g9oPF58ygqz+XhCG9JpJGmlYrPXGlfr/Yo/VW45e7amp2tou/lW
+xo/zX513z+Vt+1n/tiX2pxP4NUhy2FM4xtjIUQAAOw==
+
+------_=_NextPart_001_01C6F104.7A698E8E--
+
+
+--===============0737664544==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+mpls mailing list
+mpls@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/mpls
+
+--===============0737664544==--
+

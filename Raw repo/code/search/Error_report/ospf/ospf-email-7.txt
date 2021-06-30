@@ -1,0 +1,122 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ospf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ospf/2006-05.mailcl']
+id : bd729b4a-ff9e-4f85-9c0d-c6f681ac84dd
+_version_ : 1675128793226805251
+
+Content : 
+
+ReceivD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2800.1528" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D359382914-10052006>Hi=20
+all,</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D359382914-10052006></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial><FONT size=3D2><SPAN =
+class=3D359382914-10052006>Statement 1)=20
+</SPAN>From section 3.2.2 of OSPF for IPv6<SPAN=20
+class=3D359382914-10052006>,</SPAN> "Locally originated packets SHOULD =
+NOT be=20
+passed on to OSPF. That is, the source IPv6 address should be examined =
+to make=20
+sure this is not a multicast packet that the router itself =
+generated."<SPAN=20
+class=3D359382914-10052006> This is one of the checks that need to be =
+done before=20
+the packet is sent for OSPF processing."</SPAN></FONT></FONT></DIV>
+<DIV><SPAN class=3D359382914-10052006><FONT face=3DArial=20
+size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=3D359382914-10052006><FONT face=3DArial =
+size=3D2>Statement 2) From=20
+section 3.9 of OSPF for IPv6, "This allows the router to automatically =
+detect=20
+that multiple<SPAN class=3D359382914-10052006> </SPAN>router interfaces =
+attach to=20
+the same link, when a Hello packet is<SPAN class=3D359382914-10052006>=20
+</SPAN>received with the router's link-local address as the source<SPAN=20
+class=3D359382914-10052006> </SPAN>address but with an Interface ID =
+other than the=20
+Interface ID for<SPAN class=3D359382914-10052006> </SPAN>the receiving=20
+interface."</FONT></DIV></SPAN>
+<DIV><FONT size=3D2><SPAN class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006><FONT face=3DArial=20
+size=3D2></FONT></SPAN></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT size=3D2><SPAN class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006><FONT face=3DArial size=3D2>Doesn't the above =
+two=20
+statements&nbsp;conflict in the case of Multiple Interfaces to the same=20
+broadcast link. And also first condition is checked for at IPv6 level =
+while the=20
+other is at OSPF level. If the first statement is true, the packet would =
+be=20
+dropped at the IP level and is not passed to=20
+OSPF.</FONT></SPAN></SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006></SPAN></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006>I doubt the first statement if it should be =
+re-written=20
+as "Locally originated packets SHOULD NOT be passed on to OSPF. That is, =
+the=20
+source IPv6 address should be examined to make sure this is not a =
+multicast=20
+packet that the router itself generated&nbsp;from =
+same&nbsp;interface"<SPAN=20
+class=3D359382914-10052006> This is one of the checks that need to be =
+done before=20
+the packet is sent for OSPF =
+processing."</SPAN></SPAN></SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006></SPAN></SPAN></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006>thanx</SPAN></SPAN></SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006><SPAN=20
+class=3D359382914-10052006>ramana</SPAN></SPAN></SPAN></FONT></DIV></BODY=
+></HTML>
+
+------_=_NextPart_001_01C67440.F48159B8--
+
+
+--===============0319252430==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+OSPF mailing list
+OSPF@ietf.org
+https://www1.ietf.org/mailman/listinfo/ospf
+
+--===============0319252430==--
+

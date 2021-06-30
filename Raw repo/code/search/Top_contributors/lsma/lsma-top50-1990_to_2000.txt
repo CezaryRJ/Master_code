@@ -1,0 +1,5 @@
+1990 TO 2000
+-------#####------->    lsma
+ryu@isl.hrl.hac.com 6
+Internet-Drafts@ns.ietf.org 4
+Internet-Drafts@ietf.org 2

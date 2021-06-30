@@ -1,0 +1,368 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-01.mailcl']
+id : 17200630-7a70-4858-a052-f4dfda933dd4
+_version_ : 1675130256480010240
+
+Content : 
+
+Yet such an IP address ownership proof still does not require a PKI.  In
+general, a PKI provides a secure binding between a node's identifier and
+public key, but in the case of a CGA, the CGA itself is cryptographically
+bound to the CGA owner's public key.  So where the CGA serves as an
+identifier for its owner -- as is the case in an IP address ownership
+proof --, no PKI is required.  This is the primary advantage of CGA-based
+authentication compared to other public-key approaches.
+
+To clarify this matter, I suggest to extend subsection 3.1.
+("Cryptographically Generated Home Addresses") in the "Protocol Design"
+section as follows:
+
+OLD:
+
+                                                  [...]  In general, a
+    CGA provides a strong binding between its interface identifier and
+    the CGA owner's public key.  This enables other nodes to securely
+    authenticate the CGA owner as such, modulo the correctness of the
+    CGA's subnet prefix.  [...]
+
+NEW (shortened):
+
+                                                  [...]  In general, a
+    CGA provides a strong, cryptographic binding between its interface
+    identifier and the CGA owner's public key.  This facilitates a
+    cryptographic home address ownership proof without a PKI, enabling
+    other nodes to securely and autonomously authenticate the CGA owner
+    as such, modulo the correctness of the CGA's subnet prefix.  [...]
+
+> ____________________________________________________________________
+> 
+> I suggest changing the 2nd paragraph in IANA Considerations to read 
+> something like:
+> 
+> This document allocates the following four new status codes for Binding
+> Acknowledgment messages:
+> 
+> "Permanent home keygen token unavailable", "CGA and signature
+> verification failed", "Permanent home keygen token exists", and 
+> "Non-null home nonce index expected"
+> 
+> The values to be assigned for these status codes must all be greater
+> than or equal to 128, indicating that the respective Binding Update
+> message was rejected by the receiving correspondent node.
+
+Yes, that would be more clearly arranged.  Will change it.
+
+> ____________________________________________________________________
+> 
+> I also suggest that this document should be accompanied with an 
+> explicit RFC Editor's note to replace TBD with IANA assigned values (as
+> identified by associated parenthetical value names) in several places
+> throughout the draft.  It would help if specific TBDs were distinct
+> (e.g. TBD-1, TBD-2, TBD-3 and TBD-4) and these "variable" names then
+> associated (perhaps in a table) with their meanings in the IANA
+> considerations section.
+
+Ok.  There are quite a number of numbers to be allocated by IANA, so I see
+your point of making it a bit easier for IANA.
+
+> ____________________________________________________________________
+> 
+> Reference 6 ("Cryptographically Generated Addresses (CGA)" - RFC 3972)
+> should be Normative.
+
+Indeed.
+
+> ____________________________________________________________________
+> 
+> NITs: ====
+> 
+> In the 3rd bullet of section 2.2 (Security), on page 7, it should be
+> "mobile or correspondent" verses "mobile and correspondent" (more 
+> inclusive as it is probably necessary only to victimize one or the 
+> other to effect a denial of service).
+
+Yes, will change it.
+
+> ____________________________________________________________________
+> 
+> In the first bullet of the last set of (3) bullets on page 18, it is 
+> really necessary to break this sentence up at least with commas - in 
+> order to make it so a reader can parse it.  I suggest:
+> 
+> "If the Binding Update message is complete, the care-of nonce index is
+> taken from the Care-of Test option or Care-of Test message with which
+> the care-of keygen token (used to calculate the authenticator for the
+> Binding Update message) was obtained."
+> 
+> Note that I use parens, rather than commas, to make the structure more
+> readily apparent.
+
+This is easier to parse, yes.  I'll change it.
+
+> ____________________________________________________________________
+> 
+> In section 6 (Sec7 -0500
+Received: from iramx2.ira.uni-karlsruhe.de ([141.3.10.81])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43)
+	id 1HCJYw-0005Kk-5o; Wed, 31 Jan 2007 12:48:04 -0500
+Received: from i72ms2.tm.uni-karlsruhe.de ([141.3.70.17]
+	helo=smtp.ipv6.tm.uni-karlsruhe.de)
+	by iramx2.ira.uni-karlsruhe.de with esmtps 
+	id 1HCJYl-0001Bn-Lc; Wed, 31 Jan 2007 18:47:57 +0100
+Received: from [141.3.71.115] (i72ibm03.tm.uni-karlsruhe.de [141.3.71.115])
+	by smtp.ipv6.tm.uni-karlsruhe.de (Postfix) with ESMTP id 6B266B6AF;
+	Wed, 31 Jan 2007 18:47:51 +0100 (CET)
+Message-ID: <45C0D646.3010103@tm.uka.de>
+Date: Wed, 31 Jan 2007 18:47:50 +0100
+From: Christian Vogt <chvogt@tm.uka.de>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; us-US;
+	rv:1.8.0.7) Gecko/20060909 Thunderbird/1.5.0.7 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+To: "Eric Gray (LO/EUS)" <eric.gray@ericsson.com>
+References: <941D5DCD8C42014FAF70FB7424686DCF7B6EF3@eusrcmw721.eamcs.ericsson.se>
+In-Reply-To: <941D5DCD8C42014FAF70FB7424686DCF7B6EF3@eusrcmw721.eamcs.ericsson.se>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Score: -4.2 (----)
+X-Spam-Status: No
+X-Spam-Report: -1.8 ALL_TRUSTED Passed through trusted hosts only via SMTP
+	-2.6 BAYES_00 BODY: Bayesian spam probability is 0 to 1%
+	[score: 0.0000]
+	0.2 AWL AWL: From: address is in the auto white-list
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 6ba8aaf827dcb437101951262f69b3de
+Cc: Mark Townsley <townsley@cisco.com>, gen-art@ietf.org,
+	"Wassim Haddad \(KI/EAB\)" <wassim.haddad@ericsson.com>,
+	ietf@ietf.org, "Jari Arkko \(JO/LMF\)" <jari.arkko@ericsson.com>
+Subject: Re: Gen-ART Last Call Review of draft-ietf-mipshop-cga-cba-02.txt
+X-BeenThere: ietf@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: IETF-Discussion <ietf.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ietf@ietf.org>
+List-Help: <mailto:ietf-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=subscribe>
+Errors-To: ietf-bounces@ietf.org
+
+Hello Eric,
+
+thank you for taking your time to review draft-ietf-mipshop-cga-cba.
+Please see my comments in-line below.
+
+Note I'm also sending a CC to ietf@ietf.org as suggested in the IESG's 
+Last Call announcement on the Mipshop working group's mailing list.
+
+> Summary:
+> 
+> I have a small number of comments and/or questions on this draft.  From
+> a generalist perspective, this is a very well written and - for the
+> complexity of the protocol involved - relatively easy to read document.
+> 
+> 
+> Comments: 
+> ____________________________________________________________________
+> 
+> Security section (2.2), top of page 8, lists ability to "securely 
+> authenticate mobile nodes without preconfigured credentials or a 
+> public-key infrastructure" as an objective of this protocol.
+> 
+> I don't see how it is possible to avoid requiring public keys for 
+> Cryptographically Generated home Addresses - in particular - since 
+> section 3.1 seems to say that CGA results in a binding between each 
+> mobile node's home address and that mobile node's public key, thus 
+> allowing other nodes to securely authenticate the mobile node.
+> 
+> Even though this is done infrequently to establish a semi-permanent 
+> security association, it is done at least once (during establishment of
+> an initial registration association between a pair of mobile and 
+> correspondent nodes) - hence there seems to be some dependence on 
+> public key infrastructure.
+> 
+> I don't know how to fix this - or even if it needs fixing - but it 
+> might be useful to qualify this "objective" using "ideally".  If, on 
+> the other hand, this objective is actually met, I did not see where 
+> this is explained.  Is it met, and - if so - is it explained?
+
+The objective is actually met, but I see your point that this is not made
+clear in the draft.
+
+Specifically:  It is true that a node needs a public/private-key pair in
+order to generate a CGA and to prove ownership ourity Considerations), the statement about changes in
+> the security model - should the reference be [4], rather than - or in
+> addition to - [1]?
+
+Yes, the reference should be [4], and it should appear after "security
+model" rather than after "base Mobile IPv6".  Thanks for catching this!
+
+Eric, my co-authors and I appreciate your review.  Thanks again for taking
+your time!
+
+Regards,
+- Christian
+
+-- 
+Christian Vogt, Institute of Telematics, Universitaet Karlsruhe (TH)
+www.tm.uka.de/~chvogt/pubkey/
+
+
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+
+
+
+
+f this CGA to its peers.
+Yet such an IP address ownership proof still does not require a PKI.  In
+general, a PKI provides a secure binding between a node's identifier and
+public key, but in the case of a CGA, the CGA itself is cryptographically
+bound to the CGA owner's public key.  So where the CGA serves as an
+identifier for its owner -- as is the case in an IP address ownership
+proof --, no PKI is required.  This is the primary advantage of CGA-based
+authentication compared to other public-key approaches.
+
+To clarify this matter, I suggest to extend subsection 3.1.
+("Cryptographically Generated Home Addresses") in the "Protocol Design"
+section as follows:
+
+OLD:
+
+                                                  [...]  In general, a
+    CGA provides a strong binding between its interface identifier and
+    the CGA owner's public key.  This enables other nodes to securely
+    authenticate the CGA owner as such, modulo the correctness of the
+    CGA's subnet prefix.  [...]
+
+NEW (shortened):
+
+                                                  [...]  In general, a
+    CGA provides a strong, cryptographic binding between its interface
+    identifier and the CGA owner's public key.  This facilitates a
+    cryptographic home address ownership proof without a PKI, enabling
+    other nodes to securely and autonomously authenticate the CGA owner
+    as such, modulo the correctness of the CGA's subnet prefix.  [...]
+
+> ____________________________________________________________________
+> 
+> I suggest changing the 2nd paragraph in IANA Considerations to read 
+> something like:
+> 
+> This document allocates the following four new status codes for Binding
+> Acknowledgment messages:
+> 
+> "Permanent home keygen token unavailable", "CGA and signature
+> verification failed", "Permanent home keygen token exists", and 
+> "Non-null home nonce index expected"
+> 
+> The values to be assigned for these status codes must all be greater
+> than or equal to 128, indicating that the respective Binding Update
+> message was rejected by the receiving correspondent node.
+
+Yes, that would be more clearly arranged.  Will change it.
+
+> ____________________________________________________________________
+> 
+> I also suggest that this document should be accompanied with an 
+> explicit RFC Editor's note to replace TBD with IANA assigned values (as
+> identified by associated parenthetical value names) in several places
+> throughout the draft.  It would help if specific TBDs were distinct
+> (e.g. TBD-1, TBD-2, TBD-3 and TBD-4) and these "variable" names then
+> associated (perhaps in a table) with their meanings in the IANA
+> considerations section.
+
+Ok.  There are quite a number of numbers to be allocated by IANA, so I see
+your point of making it a bit easier for IANA.
+
+> ____________________________________________________________________
+> 
+> Reference 6 ("Cryptographically Generated Addresses (CGA)" - RFC 3972)
+> should be Normative.
+
+Indeed.
+
+> ____________________________________________________________________
+> 
+> NITs: ====
+> 
+> In the 3rd bullet of section 2.2 (Security), on page 7, it should be
+> "mobile or correspondent" verses "mobile and correspondent" (more 
+> inclusive as it is probably necessary only to victimize one or the 
+> other to effect a denial of service).
+
+Yes, will change it.
+
+> ____________________________________________________________________
+> 
+> In the first bullet of the last set of (3) bullets on page 18, it is 
+> really necessary to break this sentence up at least with commas - in 
+> order to make it so a reader can parse it.  I suggest:
+> 
+> "If the Binding Update message is complete, the care-of nonce index is
+> taken from the Care-of Test option or Care-of Test message with which
+> the care-of keygen token (used to calculate the authenticator for the
+> Binding Update message) was obtained."
+> 
+> Note that I use parens, rather than commas, to make the structure more
+> readily apparent.
+
+This is easier to parse, yes.  I'll change it.
+
+> ____________________________________________________________________
+> 
+> In section 6 (Security Considerations), the statement about changes in
+> the security model - should the reference be [4], rather than - or in
+> addition to - [1]?
+
+Yes, the reference should be [4], and it should appear after "security
+model" rather than after "base Mobile IPv6".  Thanks for catching this!
+
+Eric, my co-authors and I appreciate your review.  Thanks again for taking
+your time!
+
+Regards,
+- Christian
+
+-- 
+Christian Vogt, Institute of Telematics, Universitaet Karlsruhe (TH)
+www.tm.uka.de/~chvogt/pubkey/
+
+
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+
+
+

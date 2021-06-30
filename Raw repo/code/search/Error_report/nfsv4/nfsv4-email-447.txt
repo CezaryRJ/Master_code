@@ -1,0 +1,49 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : IETF-Announce: ;
+To-name : Null
+To-address : ['Null']
+Cc : ['cat-ietf@mit.edu']
+Cc-name : Null
+Cc-address :  cat-ietf@mit.edu
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Last Call: LIPKEY - A Low Infrastructure Public Key Mechanism\n\t Using SPKM to Proposed Standard']
+Mailing-list : nfsv4
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nfsv4/2000-01.mailcl']
+id : 8f6b973c-4928-410c-838a-e076178517cc
+_version_ : 1675132243091128320
+
+Content : 
+
+
+The IESG has received a request from the Common Authentication
+Technology Working Group to consider LIPKEY - A Low Infrastructure
+Public Key Mechanism Using SPKM <draft-ietf-cat-lipkey-03.txt> as a
+Proposed Standard.
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send any comments to the
+iesg@ietf.org or ietf@ietf.org mailing lists by January 20, 2000.
+
+Files can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-cat-lipkey-03.txt
+
+
+
+----- End Included Message -----
+
+

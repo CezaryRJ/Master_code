@@ -1,0 +1,12 @@
+2000 TO 2010
+-------#####------->    i-d-announce
+Internet-Drafts@ietf.org 29246
+mailman-owner@ietf.org 8
+Null 7
+jdrake@calient.net 2
+mailman-owner@www1.ietf.org 2
+touch@ISI.EDU 2
+euforiapunk@hotmail.com 1
+i-d-announce-request@ietf.org 1
+internet-drafts@ietf.org 1
+rfc-editor@rfc-editor.org 1

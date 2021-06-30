@@ -1,0 +1,18 @@
+1990 TO 2000
+-------#####------->    schema
+Sanjay.Jain@software.com 2
+Chris.Newman@INNOSOFT.COM 1
+FARM@aol.com 1
+Kurt@OpenLDAP.Org 1
+Pent350MHz@earthlink.net 1
+Sports@07003.com 1
+alan_k@HK.Super.NET 1
+bizusa@ixpres.com 1
+bizzopp@email.com 1
+c.harding@opengroup.org 1
+capple@master.control.att.com 1
+ietf-schema-reg-request@imc.org 1
+mjspitz@socal.verio.net 1
+mora@26601.com 1
+sceditor@mindsprng.com 1
+scj2@gs4.revnet.com 1

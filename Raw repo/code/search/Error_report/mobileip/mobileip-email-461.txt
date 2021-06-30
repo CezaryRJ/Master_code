@@ -1,0 +1,763 @@
+Date : ['2000-10-21T23:55:08Z']
+Timezone : +0300
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Satwant Kaur <wizkid11@XNET.COM>
+To-name :  Satwant_Kaur
+To-address : [' wizkid11@XNET.COM']
+Cc : ['MOBILE-IP@STANDARDS.NORTELNETWORKS.COM']
+Cc-name : Null
+Cc-address :  MOBILE-IP@STANDARDS.NORTELNETWORKS.COM
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: [MOBILE-IP] WG Last Call-(draft-ietf-mobileip-reg-tunnel-03.txt)']
+Mailing-list : mobileip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mobileip/2002-04.mailcl']
+id : 24a6677a-60f0-47c1-92e2-6cfc4dcd4284
+_version_ : 1675131507723730944
+
+Content : 
+
+
+Hi,
+
+In my opinion, additional messages makes the protocol partly clearer,
+but partly more complex.
+
+Here are my questions (please point me to the appropriate messages, if
+these questions have already been discussed :)
+
+- Is it possible/needed that a FA does not know the GFA or GFAs above
+it?
+I think FAs and GFAs should have trust relationships = knowledge of
+each other.
+
+- Why do we need to add intelligence to the mobile node?
+Having a totally transparent hierarchy is possible. The MN would speak
+standard RFC2002 MIP and would still get the best efficiency in
+registrations through the regionalized handoffs. By defining new
+messages we do add intelligence to MN. It must know what kind of
+registrations to send.
+
+And my totally subjective opinion:
+  ;-)
+Despite the lively discussion about regionalized handoffs etc., I
+still have not seen many transparent, fast and *implemented*
+approaches. If the ideas in the drafts have been implemented, please
+provide the community some links to the material. Dynamics  - HUT
+Mobile IP has been rocking for 1.5 years now. Dynamics is transparent
+to the Mobile Node and still provides fast handoffs.
+
+Should we write a competing draft? ;-) We didn't do it in the first
+place because we felt it would just slow down the fast handoff design
+process. Unfortunately the process has been unbelievably slow. I am
+really looking forward to a solution in this issue.
+
+Regards,
+	Tom
+
+-- 
+        Tom Weckstrm           Dynamics group
+                                Helsinki University of Technology
+                                dynamics@cs.hut.fi
+				http://www.cs.hut.fi/Research/Dynamics/
+
+
+Satwant Kaur wrote:
+> 
+> Hello,
+> 
+> I am implementing the Regional Registration
+> (draft-ietf-mobileip-reg-tunnel-03.txt), and I agree with Annika that it is
+> important for FA and GFA to be able to make the distinction between the Home
+> Registration Request (type 1) and Regional Registration Request (type 2)
+> messages. Furthermore, the mobility Agents should also be able to make a
+> distinction between Registration Reply (type 3) and Regional registration
+> reply (type 4).
+> 
+> Another case where a similar problem would arise:
+> 
+> Suppose MN wants to do Home Registration with a FA who does not advertise
+> itself. MN wants to be assigned a GFA and so it sends a Home Registration
+> Request (type 1) with careof field as 0, and HA address in the Home Agent
+> field.
+> 
+> Now, if we do not have additional message types to be able to make a
+> distinction between type 1 and type 2 Registration requests, the FA will
+> have no way of knowing if (1) It is a home Registration with MN asking to be
+> assigned a GFA for home Registration, or (2) It is a Regional Registration
+> (with FA set to 0, since FA did not advertise itself).
+> 
+> FA can (mis)interpret it as type 2 message. It will incorrectly assume that
+> the HA address is really the GFA that the MN wants to register with. It will
+> then forward the request to its HA address under the assumption it is really
+> the GFA, instead of assigning a GFA address, and forwarding the registration
+> to the assigned GFA.
+> 
+> The above problem arose since FA reads the registration requests sent by MN,
+> and forwards them to GFA. In the absence of the message type that would
+> enable FA to make a distinction between home registration request (type 1)
+> and regional registration request (type 2), the FA does not know where to
+> send the request to. The GFA address lies in the Home Agent field in case of
+> type 2 and in the careof field in case of type 1 message. If the additional
+> type 2 message is not there, FA cannot make the distinction between Home Vs
+> Regional Registration Request.
+> 
+> Similar problems will arise at GFA level, since when the GFA reads the
+> Registration Requests sent out by FA, and either forwards them to HA (in
+> case of Home Registration) or sends the reply back to FA (in case of
+> Regional Registration). If the type 2 message type is not there, GFA cannot
+> make the distinction between Home and Regional Registration. And it would
+> not know whether to send it forward to HA, or to send reply back to FA.
+> 
+> Similar problems will also arise on the way back for Registration Reply
+> messages at FA and GFA, if type 4 is not present.
+> 
+> Apart from the problems in the above special cases, I also do not favor
+> using anything other than message types to understand what type of
+> registration /registration reply it is. The reason is if one uses some other
+> characteristics of the packets (in this case, the extensions) other than its
+> "type" to identify the type of packets, it is against the spirit of
+> assigning the right job to the right field. It may also give us grief down
+> the road as it would restrict our freedom to use extensions in different and
+> more creative ways in future.
+
+
+--VxBmi9VgMIlnmxn8
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: attachment; filename="2000-10-25.txt"
+Content-Transfer-Encoding: 8bit
+
+Date: 	Wed, 25 Oct 2000 02:02:19 +0300
+From: "Tom K. =?iso-8859-1?Q?Weckstr=F6m?=" <tweckstr@cc.hut.fi>
+To: Charlie Perkins <charliep@iprg.nokia.com>
+CC: MOBILE-IP@STANDARDS.NORTELNETWORKS.COM,
+        Annika Jonsson <annika.jonsson@ericsson.com>
+Subject: Re: [MOBILE-IP] WGLastCall-(draft-ietf-mobileip-reg-tunnel-03.txt)
+
+Hello Charlie,
+
+Here comes my lengthy comments about reg-tunnel-03. Sorry for a long
+email, but there were lots of things to comment.
+I hope the ASCII graphics is not distorted.
+I found quite many issues.
+Some of them might be possible to solve with more explanations (maybe
+I just did not get the ideas). Some of the issues should be solved in
+other ways. More ideas below. Read on.
+
+Regards,
+	Tom
+
+
+COMMENTS TO draft-ietf-mobileip-reg-tunnel-03.txt
+
+Tom Weckstrm
+
+Legend:
++ = A positive note
+- = A negative note, criticism
+? = A question
+! = Exclamation, either a critical issue or an important suggestion
+idea
+--> = conclusion mark
+
+Ch 1.
++ Decision power at MN: regional or home registration possible
+? Is it always good to let the MN deicde what kind of registration to
+use?
+? What are the benefits in giving the MN the right to decide?
+
+- Different registration types makes the protocol more complex
+  - Changes to std RFC2002 MN
+  - Changes to FAs
+
+Ch 3.1
+? Is there a possibility to make a HA hierarchy as well?
+  If not, why then?
+--> Possibly another draft. Could be derived from J.K.Malinen's
+thesis.
+
+3.1.1.
+? Why only assume two levels of FAs in the visited domain?
+
+? Is the protocol fully flexible in its current form to support
+N-level hierarchies? It should be. More comments after Appendix B.
+
+"We assume that there exist established
+   security associations between a GFA and the regional foreign
+   agents beneath it."
+---> This implies the RFAs HAVE to know their GFA.
+---> Satwant Kaur's scenario with RFA not knowing the GFA is
+impossible.
+---> No need for different message types for regional and home
+registration.
+---> More transparency and simpleness achieved.
+
+3.3.
+
+" If the `I' bit is set, there MUST be at least one care-of address in
+the Agent Advertisement message."
+"If the `I' bit is set, and there is only one care-of address, it is
+   the address of the GFA."
+---> If so, there cannot be a situation where GFA is not known at the
+     moment of registration. (Provided the address is real, not zero.)
+
+---> The text could be clarified to mention about the relationships of
+     the FAs in the hierarchy. Do they all know each other? Do they
+     only know who's above and who's below them?.
+
+
+3.4.1.
+
++ Setting GFA IP to zero improves flexibility.
+
+"If the `I' bit is set, but the GFA
+   address is zero (0), the mobile node MUST check to make sure that
+it
+   receives a GFA IP address extension as part of any home
+registration,
+   or else send its home registration using the care-of address of
+some
+   previously known GFA in the same visited domain."
+
+? This makes the possible topologies more cumbersome.
+---> Eg. GFA1, ..., GFA4 are all connected to RFA1 and RFA2 and RFA3
+and RFA4.
+? Why is this needed? For load balancing type of activities?
+
+? Does the possibility to set GFA address to zero in the request open
+new holes in the security?  E.g. Mallory acts as an additional GFA in
+the hierarchy and captures MN's reg.reg. coming from RFA1. This gives
+a possibility to intrude as a GFA into MIP signaling. However,
+additional bonuses are few. And eventually Mallory could set up his
+own ISP.
+
+3.4.2.
+
+" If the care-of address field is set to zero, the foreign agent
+   assigns a GFA to the mobile node, by some means not described in
+   this specification, and adds a GFA IP Address extension to the
+   Registration Request message."
+
+? RFA selects the GFA? RFA has no knowledge of GFA conditions (load,
+etc.). How could an RFA make the decision? This could be solved with
+the topology or by other means, but involves more protocol
+intelligence anyway and whence adds to complexity.
+
+
+"and it SHOULD be protected by an FA-FA Authentication extension."
+? Where is FA-FA auth ext described? In another draft, I suppose.
+
+
+3.5.1.
+
+" it is necessary to distinguish regional registrations from home
+   registration.  Thus, we introduce new message types for the
+   Regional Registration messages."
+
+? Could we make the distinction by defining that every registration
+with a valid MN-FA auth ext is a regional registration? Furthermore,
+if there is no MN-FA auth ext or if that extension is invalid, the FAs
+forward the message upwards in the hierarchy.
+Example: Consider an N-level hierarchy. See image below:
+
+                                 ------
+                                 | HA |
+                                 ------
+                                   |
+                               (Internet)
+                                   |
+                                -------
+                                | GFA |
+                                -------
+                              /         \
+                      -------             -------
+                      | FA1 |             | FA2 |
+                      -------             -------
+                       /   \               /   \
+                 -------   -------   -------   -------
+                 | FA3 |   | FA4 |   | FA5 |   | FA6 |
+                 -------   -------   -------   -------
+                                  \
+                                   \
+                                 ------
+                                 | MN |
+                                 ------
+
+                  Figure 1: Mobility Agent Hierarchy
+
+
+! Now, if MN is registered to FA4 and changes to FA6, then it sends
+the
+registration request to FA6 and FA6 does not know the MN-FA auth ext
+in the registration neither has it heard of MN before (no mobility
+bindings existing for MN). Then FA6 jsut forwards the request upwards
+to FA2. FA2 also does not have a clue about MN, so it too forwards the
+request upwards. Finally, GFA knows the MN from its bindings and also
+can validate the MN-FA auth ext. Eventually, this registration became
+regional. Now, if there were no MN-FA auth ext, or if it was invalid,
+also the GFA would have forwarded the message - now to the HA.  Maybe
+an invalid auth extensions should result in request denial if the MN
+is known to the FA (i.e. there is a binding for the MN in the
+FA). After all the MN is known, and the authentication does not match.
+
+! Anyway, there seems to be no need for separate regional and home
+registration messages. The MN still has the choice to either include
+the FA-MN auth ext or leave it away.
+
+! NOTE, that this is directly applicable to N-level hierarchies!
+
+
+3.5.2.
+
+" The only difference is that there is the GFA IP address instead of
+   the address of the home agent."
+
+? Does this mean that the Home Agent field in the RFC2002 compliant
+registration request field has the IP addr of GFA? Section
+6.1. verified this assumption. This could be more clearly stated
+already in section 3.5.2.
+
+
+
+4.2.
+
+"By comparing the domain part of the foreign agent NAI with the domain
+   part of its own NAI, the mobile node can determine whether it is in
+   its home domain or in a visited domain, and whether it has changed
+   domain since it last registered."
+
++ Exactly! Good. :)
+
+
+6.1.
+
+
+"
+  GFA IP Address
+      The IP address of the Gateway Foreign Agent.  (Replaces
+       Home Agent field in Registration Request message
+       in [9].)
+
+      Care-of Address
+                 Care-of address of local foreign agent; MAY be set to
+                 zero.
+"
+
+? Why should the HA field be replaced? There is the COA field to
+be used for the GFA IP addr. The FAs in the hierarchy can use
+extensions or directly the source IP of the outer header to get the
+address of the "lower" agent in the hierarchy as the registration
+traverses upwards.
+
+? Why is the COA field filled with the local COA?  The lowest FA
+always knows behind which interface the MN is.  The FA aboe the lowest
+FA knows the interface from which the first reg.request came and also
+the IP of the lowest FA. This continues from the bottom of the FA tree
+to the top, i.e., the GFA. ALL that is needed in MIP sense is the GFA
+IP in the COA field and this is for the HA. The hierarchy of FAs
+handles the tunneling in the hierarhcy by other means.
+
+
+
+
+A.
+
+" - a mobile node must be able to distinguish between regional
+     registrations and home registrations, because when it uses
+     regional registration, the nounces are not synchronized with its
+     home agent;"
+
+! Dynamics works with nonces also, and it supports regional
+registrations. I have to find out how the nonce synchronization is
+done in Dynamics. Perhaps the lack of FA-MN auth ext (again) is enough
+for the MN to control between home and regional registrations.
+
+
+B.2.
+"
+ This process is repeated in each RFA in the hierarchy, until an RFA
+   recognizes the mobile node as already registered.  This RFA may be
+   the GFA, or any RFA beneath it in the hierarchy.  If the mobile
+node
+   is already registered with this RFA, the RFA generates a Regional
+   Registration Reply and sends it to the next lower-level RFA in the
+   hierarchy.  The lifetime field in the Regional Registration Reply
+is
+   set to the remaining lifetime that was earlier agreed upon between
+   the mobile node and the GFA. If the lifetime of the GFA
+registration
+   has expired, the Regional Registration Request is relayed all the
+way
+   to the GFA.
+
+   If the hierarchy between the advertising foreign agent and the GFA
+is
+   announced in the Agent Advertisement, the mobile node may generate
+   a Regional Registration Request not destined to the GFA, but to the
+   closest RFA with which it can register.
+"
+
+? So, if the FA hierarchy is not revealed in the advertisements, then
+the regional registrations always go to the GFA?
+
+! There are drawbacks with this approach:
+
+  - The hierarchy is not transparent anymore
+    --> A security issue
+    --> Needs more functionality in MN
+
+  - The advertisements become some bytes larger because of the
+    hierarchy information in them.
+
+  - IF the hierarchy is not revealed, then the GFA is loaded because
+    of ALL the regional registrations coming to it.
+
+--> SUGGESTION:
+
+!    Make the MN add a "previous FA NAI" extension to its
+registrations
+    intended for regional handling. See more info from Jouni Malinen's
+    thesis (p. 29-30) available on Dynamics HUT MIP web site. This
+    removes the rece condition inherent in for example Dynamics v. 0.5
+    which used specific tear down messages. This also keeps the
+    hierarhcy completely transparent and does NOT require any complex
+    intelligence from the MN, e.g. to claculate the closest "common"
+    RFA that could be the target for a regional registration. Adding
+    the previous FA NAI extension is very straightforward and does not
+    require any additional intelligence from the MN.
+
+
+B.2.1.
+
+"   recognizes the mobile node as already registered, may generate a
+   Regional Registration Reply, not all Regional Registration Requests
+   will reach the GFA. Therefore, if old locations are not
+deregistered,
+   it is possible that tunnels are not correctly redirected when a
+   mobile node moves back to a previous foreign agent."
+
+! I think Jouni Malinen solved this issue in his thesis, too. The
+solution is tied to the "previous FA NAI extension". Jouni's thesis,
+pages 29-30 at least, clarify this solution.
+ 
+
+
+" In case (3), the mobile node sends a Regional Registration Request
+to
+   its new foreign agent.  If the mobile node does not request smooth
+   handoff, the previous foreign agent is not notified.  The Regional
+   Registration Request is relayed upwards in the hierarchy until it
+   reaches a foreign agent that recognizes the mobile node as already
+   registered.  This foreign agent generates a Regional Registration
+   Reply and sends it downwards in the hierarchy toward the new
+location
+   of the mobile node, updating its own visitor list.  At the same
+time,
+   it also sends a Binding Update with a zero lifetime to the previous
+   care-of address it had registered for the mobile node.  The Binding
+   Update is authenticated by the FA-FA Authentication extension. 
+Each
+   foreign agent receiving the Binding Update removes the mobile node
+   from its visitor lists.  The Binding Update is relayed down to the
+   care-of address of the mobile node known to that foreign agent, and
+   each foreign agent in the hierarchy receiving this notification
+   removes the mobile node from its visitor list.
+"
+
+! This results in the race condition I mentioned before. Dynamics v
+0.5
+had similar kind of message with zero binding lifetime. We called this
+a "tear down" message, because it tore down the old bindings and
+tunnels. There is a race condition in this, when for example tear down
+messages are lost. The state of the FA hierarchy is not up to date a
+fter one missed tear down message. Use "previous FA NAI" extension
+instead. This, too, has a possible problem, also mentioned in Jouni's
+thesis, if the reg.reply is lost and MN moves forward to another FA
+that may think it can actually answer the request. This can be soved
+as in Jouni's thesis or by only using the NAI of that FA from which we
+previously have received a positive reg.reply....
+
+
+" If the mobile node uses a co-located care-of address for its
+regional registration, there is no need to deregister its previous
+location when it moves, since regional registrations with a co-located
+care-of address are performed directly with the GFA."
+
+! I would say this is a limitation of your architecture. The GFA MUST
+NOT be automatically burdened by this kind of registrations. If this
+is not fixed, then we lose a part of the whole idea of using
+hierarchies - to distribute and localize the registration handling as
+much as possible.
+
+
+
+Charlie Perkins wrote:
+> 
+> Hello Tom,
+> 
+> > I discovered the 'hidden' assumption of RFAs and their GFA knowing
+> > abouit each other from the draft. :-)
+> 
+> It wasn't intended to be hidden.  How can we make it more explicit?
+> 
+> > I will check the security association issue more closely.
+> > I am not completely convinced that there needs to be a separate
+> > message type for different uses of security associations.
+> > Why couldn't the FAs automatically consider the registration as a home
+> > reg if there is not acceptable sec association used for FA-MN
+> > authentication?
+> 
+> Because the mobile node is very likely to want to send a home
+> registration whenever it feels like renewing its current care-of
+> address, thereby increasing the lifetime.  We do not want to make
+> any implicit judgements about type of registration based on the
+> remaining registratoin lifetime.  That sounds like a really bad idea.
+> 
+> At any time, the mobile node should be allowed to send either a
+> home registration or a regional registration, subject only to the
+> constraint that the lifetime of the regional registration should not
+> exceed the lifetime of the regional registration.
+> 
+> > I will send my comment later.
+> > Hopefully not too late. :-/
+> > When does the last call end?
+> 
+> I think formally it might have ended a month ago, but the purpose
+> after all is to find out if the draft is ready for advancement.  So,
+> I think it's just fine to ask questions.  So far, the main comments
+> we have gotten about necessary changes is to put in more details
+> about running in the mode where the "first" foreign agent becomes
+> the GFA (what others have called "anchoring").
+> 
+> Other than that, I think we're ready to go depending on your
+> comments.
+> 
+> Regards,
+> Charlie P.
+
+-- 
+        Tom Weckstrm           Dynamics group
+                                Helsinki University of Technology
+                                dynamics@cs.hut.fi
+                               
+http://www.cs.hut.fi/Research/Dynamics/
+
+
+
+
+
+--VxBmi9VgMIlnmxn8
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: attachment; filename="2000-10-27.txt"
+Content-Transfer-Encoding: 8bit
+
+Date:         Fri, 27 Oct 2000 00:07:57 +0300
+From: "Tom K. =?iso-8859-1?Q?Weckstr=F6m?=" <tweckstr@cc.hut.fi>
+Subject:      Re: [MOBILE-IP] WGLastCall-(draft-ietf-mobileip-reg-tunnel-03.txt)
+
+Hi,
+
+I am slowly starting to "buy" the idea of separate message types for
+regional and home registrations... More comments below.
+
+I am waiting your reply about the other issues I mentioned. Here is a
+brief checklist of issues not handled in this email (or in your
+reply).
+
+        - Revealing the hierarchy in advertisements
+                        vs
+        - Using previous FA NAI extensions
+
+
+        * Limiting the solution to 2 levels
+                        vs
+        * Making generic solution that is ready for N-levels.
+
+
+        o Forcing registrations from co-located COA to GFA
+                        vs
+        o Always using the optimal RFA for handling the registrations
+
+
+        x Possibility to use HA hirarchies (possibly another draft).
+
+
+
+Annika Jonsson wrote:
+>
+> These comments are all about the issue of different message types for
+> regional registrations. Summary: I still think it's the best way. See my
+> arguments below.
+>
+> /Annika
+> >
+> >COMMENTS TO draft-ietf-mobileip-reg-tunnel-03.txt
+> >
+
+>
+> It has nothing to do with benefits. As I see it it is a _necessity_ for the
+> MN to know who will process the registration, the HA or an FA, because it
+> needs to know what security association to use (I feel I am repeating
+> myself;-). It is possible that it could be solved by having the MN add both
+> the home and the visited authentication and both the home and the visited
+> replay protection (in case of nounces), and then let the network take the
+> actual decision, but that introduces even more complexity in the MN.
+>
+> <snip...>
+>
+> >"We assume that there exist established
+> >   security associations between a GFA and the regional foreign
+> >   agents beneath it."
+> >---> This implies the RFAs HAVE to know their GFA.
+> >---> Satwant Kaur's scenario with RFA not knowing the GFA is
+> >impossible.
+> >---> No need for different message types for regional and home
+> >registration.
+> >---> More transparency and simpleness achieved.
+> >
+>
+> You are right, but my example still holds! I will repeat it here:
+>
+> "The MN is allowed to try
+> to do a regional registration to the GFA it has been using, even though
+> that GFA is not advertised by the new FA. In this case, if the FA does not
+> know this GFA it must send back an error to the MN. If the FA didn't know
+> that this was a regional registration, it would assume that the old GFA is
+> the MN:s HA, and that this was a normal RFC2002 registration, and the
+> registration would fail."
+
+Yes, MN needs to be able to control what kind of registration it
+requests.
+
+Your problem in the example above comes from a case where you would
+use GFA's IP in the HA field and only one type of registration
+message. That is the wrong way, we both know that.
+
+We end up to two alternatives already presented, but I write them here
+to make WG "voting" easier:
+
+A)      Use separate message types for regional and home registrations.
+        Use FA IP in the "HA field" of the regional registration.
+        Actually, if this is a separate message type, then the RFC's
+        sepcification is not misused, because we are talking about an
+        entiryl new message here. :)
+
+B)      Use only one registration request message type.
+        Add FA-MN auth.ext. to registration, if regional registration
+        is requested. Always use HA IP in its field.
+        The registration can still be forwarded up to HA, if FAs decide so.
+        MN will know the "destiny" of the registration only when regreply
+        arrives. (with Home auth ext. or with foreign auth ext.)
+
+
+> <snip...>
+>
+> >3.5.1.
+> >
+> >" it is necessary to distinguish regional registrations from home
+> >   registration.  Thus, we introduce new message types for the
+> >   Regional Registration messages."
+> >
+> >? Could we make the distinction by defining that every registration
+> >with a valid MN-FA auth ext is a regional registration? Furthermore,
+> >if there is no MN-FA auth ext or if that extension is invalid, the FAs
+> >forward the message upwards in the hierarchy.
+> >Example: Consider an N-level hierarchy. See image below:
+
+<snip>
+
+>
+> I agree, it could be done in this way, but you still need a change to an
+> RFC2002 MN, since it will always include the MN-FA auth. ext if it has an
+> SA with the FA (that is mandatory). Secondly, one argument that persuaded
+> us that different message types is a "cleaner" solution is that we didn't
+> like the idea to use e.g. the auth. ext. to let an FA decide what it
+> "thinks" that the MN wants. This is why: normally if the authentication
+> fails, this error should be reported back to the MN and no registration be
+> made. The authentication could fail for several reasons! It feels wrong,
+> both "decisionwise" and "securitywise", to use this failure to authenticate
+> the message as an indication of something that the MN wants the FA to do.
+
+Couple of additional comments:
+
+- Changes to RFC2002 MN would still be needed - True. We need an MN
+taht can leave the foreign euth ext away on purpose to force
+registration to HA (when we are using approach B above).
+
+- It would be good that a RFC2002 MN would be using regional
+registrations by default when adding the MN-FA auth.ext. by default.
+As an Internet user I would be concerned, if a proposed standard would
+not act optimally, but rather consumed bandwidth from the Internet
+with its non-optimal registration sequences.
+
+- "Failure to authenticate" would for me be: there was a foreign auth
+ext. but we could not verify its authenticity.
+--> Direct regreply with correct reason code to MN.
+
+- Lack of the auth ext. would not mean "failure", but the FA would
+forward the request onwards.
+
+
+> >? Why should the HA field be replaced?
+>
+> Why use extensions when we don't have to? In a regional registration the HA
+> address is not needed, so we reuse that field. Actually, the GFA kind of
+> acts as a "local HA", so doing it in this way makes it very consistent with
+> RFC2002.
+
+We come back to options A and B.
+As I said, using GFA IP in the new message in option A is OK, since it
+is not anymore a RFC2002 registration request but a new type of
+request.
+
+> >A.
+> >
+> >" - a mobile node must be able to distinguish between regional
+> >     registrations and home registrations, because when it uses
+> >     regional registration, the nounces are not synchronized with its
+> >     home agent;"
+> >
+> >! Dynamics works with nonces also, and it supports regional
+> >registrations. I have to find out how the nonce synchronization is
+> >done in Dynamics. Perhaps the lack of FA-MN auth ext (again) is enough
+> >for the MN to control between home and regional registrations.
+
+
+I discussed with Jouni. Dynamics can uses nonces for home
+registrations, i.e., registration requests without MN-FA auth ext. but
+only timestamps are used in registrations with FA-MN auth. ext. This
+eliminates the possibility of uncontrolled nonce asynchronization.
+
+> It would be interesting to see your solution.
+
+:-)
+Download Dynamics from the URL in my signature.
+You are also welcome to visit Finland to see it work.
+Unfortunately we do not have any conference papers in pipeline or
+budget to travel to WG meetings.
+
+Best regards,
+                Tom
+
+--
+        Tom Weckstrm           Dynamics group
+                                Helsinki University of Technology
+                                dynamics@cs.hut.fi
+
+http://www.cs.hut.fi/Research/Dynamics/
+
+
+--VxBmi9VgMIlnmxn8--
+

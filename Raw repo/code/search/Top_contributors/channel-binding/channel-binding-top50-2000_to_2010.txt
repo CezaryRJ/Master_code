@@ -1,0 +1,17 @@
+2000 TO 2010
+-------#####------->    channel-binding
+Nicolas.Williams@sun.com 35
+simon@josefsson.org 13
+hartmans-ietf@mit.edu 11
+jhutz@cmu.edu 11
+Martin.Rex@sap.com 7
+Pasi.Eronen@nokia.com 6
+larry.zhu@microsoft.com 6
+lzhu@windows.microsoft.com 3
+dave@cridland.net 2
+mailman-owner@ietf.org 2
+alexey.melnikov@isode.com 1
+iesg-secretary@ietf.org 1
+leifj@it.su.se 1
+mike-list@pobox.com 1
+pgut001@cs.auckland.ac.nz 1

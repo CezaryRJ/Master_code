@@ -1,0 +1,52 @@
+2000 TO 2010
+-------#####------->    kink
+kink-archive@lists.ietf.org 821
+kink-archive@megatron.ietf.org 612
+kink-archive@ietf.org 474
+mat@cisco.com 81
+atompub-archive@megatron.ietf.org 74
+Daily@core3.amsl.com 66
+Health@core3.amsl.com 66
+Men's@core3.amsl.com 66
+kamada@nanohz.org 60
+sakane@kame.net 56
+ipp-archive@megatron.ietf.org 54
+hartmans-ietf@mit.edu 52
+isis-update@ietf.org 45
+warlord@mit.edu 45
+ancp-request@ietf.org 37
+no-reply@irs.gov 32
+independent@ietf.org 29
+"Dose <kink-archive"@megatron.ietf.org 28
+calsch-archive@megatron.ietf.org 23
+keyprov@ietf.org 23
+nov@tahi.org 23
+derek@ihtfp.com 22
+"Dose <kink-archive"@ietf.org 21
+kazunori@miyazawa.org 19
+netmod@ietf.org 19
+"Dose <kink-archive"@lists.ietf.org 17
+Internet-Drafts@ietf.org 17
+dnsext-archive@lists.ietf.org 17
+ipr-wg@ietf.org 17
+jtrostle@cisco.com 17
+SMedvinsky@gi.com 16
+isis-wg-request@ietf.org 16
+eap-archive@megatron.ietf.org 15
+vilhuber@cisco.com 15
+eap-archive@lists.ietf.org 14
+iptel@ietf.org 14
+raeburn@MIT.EDU 13
+ccamp-archive@megatron.ietf.org 11
+ipv6-web-archive@ietf.org 11
+sommerfeld@east.sun.com 11
+subs-reminder@vpnc.org 10
+Nicolas.Williams@sun.com 9
+adwords-noreply@google.com 9
+iptel-request@ietf.org 9
+Administration@computeradmin.org 7
+cosmogol-request@ietf.org 7
+mhur@cisco.com 7
+new-work@ietf.org 7
+fecframe-proto@ietf.org 6
+iesg-secretary@ietf.org 6

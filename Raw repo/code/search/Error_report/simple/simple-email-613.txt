@@ -1,0 +1,130 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : simple
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/simple/2006-06.mailcl']
+id : d171fbcb-4d68-4e10-8ee0-11ae26003ccc
+_version_ : 1675134015247482882
+
+Content : 
+
+X-Brisimple-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/simple>
+List-Post: <mailto:simple@ietf.org>
+List-Help: <mailto:simple-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/simple>,
+	<mailto:simple-request@ietf.org?subject=subscribe>
+Errors-To: simple-bounces@ietf.org
+
+I agree it could work. I recall even proposing this eons ago. With TURN 
+and ICE tcp usage maturing it probably is much more viable these days 
+than when msrp-relays started.
+
+That said, there are going to be some differences. First and foremost is 
+that with TURN, if you have two domains each of which deploy TURN 
+servers, and you end up in a trapezoid configuration, you'll end up with 
+a separate tcp connection set up between the two TURN servers for each 
+MSRP session. I believe with MSRP the number of connections between 
+servers would just be two.
+
+Also, as Cullen is alluding to, TLS will work differently. With the 
+latest TURN each client can have a TLS connection between itself and its 
+own TURN server. However, inter-server TLS won't happen. Rather, you'd 
+end up with TLS from one client to the other. Whether p2p TLS is a 
+feature or a bug may depend on what you're trying to do, but with TURN 
+relays it'll be p2p.
+
+There are probably other differences too, but thats what comes to mind.
+
+Thanks,
+Jonathan R.
+
+Cullen Jennings wrote:
+
+> 
+> I can imagine that it might be possible to set up a MSRP session over  
+> TURN or over STUNT. I've not checked the details of this being  possible 
+> but seems like it might work. Keep in mind TLS won't work  very well 
+> with TURN.
+> 
+> On May 24, 2006, at 11:29 AM, <Markus.Isomaki@nokia.com>  
+> <Markus.Isomaki@nokia.com> wrote:
+> 
+>> Hi,
+>>
+>>> -----Original Message-----
+>>> From: ext Marc Petit-Huguenin [mailto:petithug@acm.org]
+>>> Sent: 24 May, 2006 21:02
+>>> To: Rohan Mahy
+>>> Cc: Cullen Jennings; Paul Kyzivat; simple
+>>> Subject: Re: [Simple]How does MSRP support NAT traversal?
+>>>
+>>> Rohan Mahy wrote:
+>>>
+>>>> Hi Marc,
+>>>>
+>>>> It was specifically a non-goal of MSRP to use a TURN server for MSRP
+>>>> traffic.
+>>>
+>>>
+>>> I understand, but what technically prevent doing NAT traversal
+>>> for MSRP with a TCP TURN server?
+>>>
+>>
+>> Good question, I have been wondering the same. If TURN relays start  
+>> to be available (I hope they do, although I haven't heard about  such 
+>> a thing), it would make sense to run MSRP through TURN instead  of 
+>> introducing separate MSRP specific relays. There may be other  reasons 
+>> to use MSRP relays, but the pure NAT traversal should be  based on 
+>> something more generic.
+>>
+>> Regards,
+>>     Markus
+>>
+>> ----------------------------
+>> Markus Isomki
+>> markus.isomaki@nokia.com
+>> ----------------------------
+> 
+> 
+> _______________________________________________
+> Simple mailing list
+> Simple@ietf.org
+> https://www1.ietf.org/mailman/listinfo/simple
+> 
+
+-- 
+Jonathan D. Rosenberg, Ph.D.                   600 Lanidex Plaza
+Cisco Fellow                                   Parsippany, NJ 07054-2711
+Cisco Systems
+jdrosen@cisco.com                              FAX:   (973) 952-5050
+http://www.jdrosen.net                         PHONE: (973) 952-5000
+http://www.cisco.com
+
+_______________________________________________
+Simple mailing list
+Simple@ietf.org
+https://www1.ietf.org/mailman/listinfo/simple
+
+

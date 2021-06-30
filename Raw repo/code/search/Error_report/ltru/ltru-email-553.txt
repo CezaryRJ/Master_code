@@ -1,0 +1,107 @@
+Date : ['2006-09-21T09:07:26Z']
+Timezone : -0400
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['ltru-bounces@ietf.org']
+Sender-name : Null
+Sender-address :  ltru-bounces@ietf.org
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Doug Ewell <dewell@adelphia.net>
+To-name :  Doug_Ewell
+To-address : [' dewell@adelphia.net']
+Cc : ['ltru@iana.org']
+Cc-name : Null
+Cc-address :  ltru@iana.org
+In-Reply-To : ['<007501c6dd3f$04adb950$6401a8c0@DGBP7M81>']
+In-Reply-To-name : Null
+In-Reply-To-address :  007501c6dd3f$04adb950$6401a8c0@DGBP7M81
+Message-ID : <20060921130726.GI32052@ccil.org>
+References : <F5C75412A44C4649A5C9F70D020BA811.MAI@home>
+	<007501c6dd3f$04adb950$6401a8c0@DGBP7M81>
+Comments : ['Null']
+Subject : ['Re: [Ltru] IANA XML registries']
+Mailing-list : ltru
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ltru/2006-09.mailcl']
+id : f5959a50-2820-4ae5-b65a-4d0e6df72735
+_version_ : 1675132685131972609
+
+Content : 
+
+Doug Ewell scripsit:
+
+> Since the initial rollout of the Language Subtag Registry dated 
+> 2005-10-16, there have been 8 updates (including one just today, on 
+> 2006-09-20), for an average of one update every 8 weeks.
+
+However, there are only 31 distinct "Added:" dates in the whole registry
+going back to 1995, which is really what counts from the frequency-of-
+updates point of view.  Even if we add thousands of items at once,
+that's *one* update.
+
+-- 
+John Cowan    cowan@ccil.org    http://ccil.org/~cowan
+Heckler: "Go on, Al, tell 'em all you know.  It won't take long."
+Al Smith: "I'll tell 'em all we *both* know.  It won't take any longer."
+
+_______________________________________________
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru
+
+
+
+
+
+i
+Content-Disposition: inline
+In-Reply-To: <007501c6dd3f$04adb950$6401a8c0@DGBP7M81>
+User-Agent: Mutt/1.3.28i
+Resent-From: cowan@ccil.org
+Resent-Date: Thu, 21 Sep 2006 09:17:03 -0400
+Resent-To: ltru@ietf.org
+Resent-Message-Id: <E1GQOQJ-000722-QS@mercury.ccil.org>
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 08170828343bcf1325e4a0fb4584481c
+Cc: ltru@iana.org
+X-BeenThere: ltru@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Language Tag Registry Update working group discussion list
+	<ltru.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/ltru>
+List-Post: <mailto:ltru@ietf.org>
+List-Help: <mailto:ltru-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=subscribe>
+Sender: ltru-bounces@ietf.org
+Errors-To: ltru-bounces@ietf.org
+
+Doug Ewell scripsit:
+
+> Since the initial rollout of the Language Subtag Registry dated 
+> 2005-10-16, there have been 8 updates (including one just today, on 
+> 2006-09-20), for an average of one update every 8 weeks.
+
+However, there are only 31 distinct "Added:" dates in the whole registry
+going back to 1995, which is really what counts from the frequency-of-
+updates point of view.  Even if we add thousands of items at once,
+that's *one* update.
+
+-- 
+John Cowan    cowan@ccil.org    http://ccil.org/~cowan
+Heckler: "Go on, Al, tell 'em all you know.  It won't take long."
+Al Smith: "I'll tell 'em all we *both* know.  It won't take any longer."
+
+_______________________________________________
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru
+
+
+
+

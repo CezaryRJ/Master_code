@@ -1,0 +1,111 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-07.mailcl']
+id : 419505c0-682e-4065-bcfa-3486a3c64cf2
+_version_ : 1675130365614751745
+
+Content : 
+
+NEW:
+   When RTP and RTCP packets are multiplexed onto a single port, the
+   RTCP packet type field occupies the same position in the packet as
+   the combination of the RTP marker (M) bit and the RTP payload type
+(PT).
+   This field can be used to distinguish RTP and RTCP packets when two
+   restrictions are observed: 1) the RTP payload type values used are
+   distinct from the RTCP packet types used; and 2) for each RTP payload
+   type (PT), PT+128 is distinct from the RTCP packet types used.
+   The first constraint precludes a direct conflict between RTP payload
+   type and RTCP packet type, the second constraint precludes a conflict
+   between an RTP data packet with the marker bit set and an RTCP
+packet.
+
+> > The last 2 paragraphs in Section 4 before the final Note in that
+> > section need attention:
+> > - The paragraph on registration of new RTCP packet types needs to
+> > 	instruct IANA on what rules to enforce.  The use of "SHOULD"
+> > 	in the current text is not sufficient, instead this needs to
+> > 	be restated as instructions to IANA on how to assign RTCP
+> > 	packet types and noted in the IANA considerations section.
+>=20
+> Makes sense. I suggest adding something like the following to the =20
+> IANA considerations:
+>=20
+>     The rules for assignment of RTP RTCP Control Packet Types in the
+RTP
+>     Parameters registry are updated as follows.  When assigning RTP
+RTCP
+>     Control Packet types, IANA is requested to assign unused values
+from
+>     the range 200-254 where possible.  If that range is fully
+occupied,
+>     values from the range 194-199 may be used, and then values from
+the
+>     range 1-191. This improves header validity checking of RTCP
+packets
+>     compared to RTP packets or other unrelated packets. The values 0
+and
+>     255 are avoided for improved validity checking relative to random
+>     packets since all-zeros and all-ones are common values.
+
+Ok, and please bring the Section 4 text into line with this.
+
+>=20
+> > - In this text in the second paragraph:
+> >
+> >    Given these constraints, it is RECOMMENDED to follow the
+guidelines
+> >    in the RTP/AVP profile [7] for the choice of RTP payload type
+values,
+> >
+> > 	Insert the word "dynamic" between "the choice of" and "RTP
+> > 	payload type values" for clarity.
+>=20
+> The guidelines in the RTP/AVP profile apply to both static and =20
+> dynamic RTP payload types, so inserting "dynamic" here would be =20
+> incorrect.
+
+Ok, but IANA thinks the RTP static payload type registry is closed.
+
+OTOH, if static payload types are a concern, should the current
+72--76 "reserved for RTCP conflict avoidance" range in the RTP
+payload type registry be expanded to 64--95 or 66--95 to prevent
+conflicts with future RTCP packet type allocations?  That would
+seem like a prudent thing to do.
+
+Thanks,
+--David
+----------------------------------------------------
+David L. Black, Senior Technologist
+EMC Corporation, 176 South St., Hopkinton, MA  01748
++1 (508) 293-7953             FAX: +1 (508) 293-7786
+black_david@emc.com        Mobile: +1 (978) 394-7754
+----------------------------------------------------
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf

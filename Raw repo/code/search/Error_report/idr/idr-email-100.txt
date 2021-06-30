@@ -1,0 +1,135 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : idr
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/idr/2002-09.mailcl']
+id : 21b7ccc8-52b3-45d6-9581-7170112ee8f2
+_version_ : 1675130083642179585
+
+Content : 
+
+[198.108.1.26])
+	by nic.merit.edu (8.9.3/8.9.1) with ESMTP id LAA28965
+	for <idr-archive@nic.merit.edu>; Wed, 17 Jul 2002 11:19:26 -0400
+(EDT)
+Received: by trapdoor.merit.edu (Postfix)
+	id B4081912B2; Wed, 17 Jul 2002 11:18:50 -0400 (EDT)
+Delivered-To: idr-outgoing@trapdoor.merit.edu
+Received: by trapdoor.merit.edu (Postfix, from userid 56)
+	id 879C0912B4; Wed, 17 Jul 2002 11:18:50 -0400 (EDT)
+Delivered-To: idr@trapdoor.merit.edu
+Received: from segue.merit.edu (segue.merit.edu [198.108.1.41])
+	by trapdoor.merit.edu (Postfix) with ESMTP id 57360912B2
+	for <idr@trapdoor.merit.edu>; Wed, 17 Jul 2002 11:18:49 -0400 (EDT)
+Received: by segue.merit.edu (Postfix)
+	id 397A75DE6C; Wed, 17 Jul 2002 11:18:49 -0400 (EDT)
+Delivered-To: idr@merit.edu
+Received: from hotmail.com (f79.law4.hotmail.com [216.33.149.79])
+	by segue.merit.edu (Postfix) with ESMTP id EF84B5DE33
+	for <idr@merit.edu>; Wed, 17 Jul 2002 11:18:48 -0400 (EDT)
+Received: from mail pickup service by hotmail.com with Microsoft SMTPSVC;
+	 Wed, 17 Jul 2002 08:18:48 -0700
+Received: from 65.194.140.2 by lw4fd.law4.hotmail.msn.com with HTTP;
+	Wed, 17 Jul 2002 15:18:48 GMT
+X-Originating-IP: [65.194.140.2]
+From: "Bruno Rijsman" <bwarijsman@hotmail.com>
+To: idr@merit.edu
+Subject: Questions about the "Authentication Information" optional parameter
+Date: Wed, 17 Jul 2002 11:18:48 -0400
+Mime-Version: 1.0
+Content-Type: text/plain; format=flowed
+Message-ID: <F79SmLAztxc1o8yfogk00015c76@hotmail.com>
+X-OriginalArrivalTime: 17 Jul 2002 15:18:48.0477 (UTC)
+FILETIME=[3FE744D0:01C22DA5]
+Sender: owner-idr@merit.edu
+Precedence: bulk
+
+I have some questions about the "Authentication Information" optional 
+parameter in the BGP OPEN message.
+
+Have any authentication codes been defined anywhere?
+
+Does any implementation actually support this method of authentication (as 
+far as I know everyone uses RFC 2385 which uses a TCP MD5 signature 
+instead)?
+
+If it is not used in real life should we remove the "Authentication 
+Information" optional parameter from the draft (or at least deprecate it)?
+
+If no "Authentication Information" parameter was exchanged, it seems that 
+the 16 marker bytes are a complete waste of space. Would it make sense to 
+define a capability (or maybe an authentication code) which means 
+"subsequent messages after the OPEN message will not contain the marker 
+bytes".
+=============================================================
+
+Eric W. Gray
+Systems Architect
+Celox Networks, Inc.
+egray@celoxnetworks.com
+508 305 7214
+
+
+> -----Original Message-----
+> From: Yakov Rekhter [mailto:yakov@juniper.net]
+> Sent: Thursday, September 26, 2002 12:37 PM
+> To: Natale, Jonathan
+> Cc: idr@merit.edu
+> Subject: Re: issue 21
+> 
+> Jonathan,
+> 
+> > Yes, you are wrong.  Of course there could be a special build that does
+> it.
+> >
+> > I still think the bgp auth. option should be depreciated.
+> 
+> Please note that the subject of the discussion is issue 21. This issue
+> has *nothing to do* with deprecating the bgp auth option - it has
+> to do with adding a sentence pointing that one could use rfc2385.
+> 
+> Yakov.
+> 
+> >
+> > -----Original Message-----
+> > From: Kunihiro Ishiguro [mailto:kunihiro@zebra.org]
+> > Sent: Thursday, September 26, 2002 12:29 PM
+> > To: Natale, Jonathan
+> > Cc: 'Yakov Rekhter'; idr@merit.edu
+> > Subject: Re: issue 21
+> >
+> > >Issue 21's main point is mentioning MD5 authentication along with BGP
+> > >own password auth.  I agree with it and current text is enough for the
+> > >purpose.  I know people actually uses BGP own auth (just a few though)
+> > >so I hesitate to say that deprecating BGP own auth.
+> >
+> > I may be wrong.  I was told that Cisco does Open Message parameter's
+> > optional simple password auth by 'neighbor password 7 LINE' but it
+> > does not.  Jeff, how about GateD?
+> >
+> > My opinion about this issue is keep current text then investigate
+> > current best practice.
+> > --
+> > Kunihiro Ishiguro
+

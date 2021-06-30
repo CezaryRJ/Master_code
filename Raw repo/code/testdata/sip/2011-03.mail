@@ -1,0 +1,2116 @@
+
+From nitinkapoorr@gmail.com  Tue Mar  8 23:23:29 2011
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2C7CF3A6857 for <sip@core3.amsl.com>; Tue,  8 Mar 2011 23:23:29 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.798
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.798 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_13=0.6, J_CHICKENPOX_15=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id F280F7ynir+K for <sip@core3.amsl.com>; Tue,  8 Mar 2011 23:23:28 -0800 (PST)
+Received: from mail-ww0-f44.google.com (mail-ww0-f44.google.com [74.125.82.44]) by core3.amsl.com (Postfix) with ESMTP id 13A933A6849 for <sip@ietf.org>; Tue,  8 Mar 2011 23:23:27 -0800 (PST)
+Received: by wwa36 with SMTP id 36so180995wwa.13 for <sip@ietf.org>; Tue, 08 Mar 2011 23:24:42 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=twhaP94rM9JQzOdcNKDa6U4uFuAAqCfEQYJlIonROCc=; b=wxM+kX9/i5G7mQ3rs2aaYk+rRL5c1H4/VitJ4iKCSsShP6fsvOlQnF9ugLXaXU9ovd 6FP09udXB637YuE4iYFlAyRAJfL3uNDCZfvuNh5jgngVfDq7VakgPfHBy2P5+WKq7QgV qfga36Or6FkMQGTPtPX8DaF37K5tiZ1NWOFwg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=vCPeI4eFS54GG8xUN166cidCeM+ZD7Ophi21Pbi4RQN26yYfY9515/MwR1h0VltpWM ZqILlkOEoFrL+8BgVIJSWEpbfXO+EA+RL3Medmq2NODKU7esbDRk1++kFyy0jPCXTuGH esR+X97MjBz480mqQRg5Z26jMHHVGYOHM7T34=
+MIME-Version: 1.0
+Received: by 10.216.62.137 with SMTP id y9mr2404706wec.107.1299655482538; Tue, 08 Mar 2011 23:24:42 -0800 (PST)
+Received: by 10.216.93.147 with HTTP; Tue, 8 Mar 2011 23:24:42 -0800 (PST)
+In-Reply-To: <AANLkTimQfN_1sMhtxjgQOoTWTz_wHJf86Nyu7_L17MkS@mail.gmail.com>
+References: <AANLkTimQfN_1sMhtxjgQOoTWTz_wHJf86Nyu7_L17MkS@mail.gmail.com>
+Date: Wed, 9 Mar 2011 02:24:42 -0500
+Message-ID: <AANLkTinfNaFy3F0BAf8Pe00hiNTFMFsBApxZzNOUW1nK@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip-implementors@lists.cs.columbia.edu
+Content-Type: multipart/alternative; boundary=000e0cd6668e5dfbcc049e079f6d
+Cc: sip@ietf.org
+Subject: Re: [Sip] Different SDP Session Version in 183 & 200 OK
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Mar 2011 07:23:29 -0000
+
+--000e0cd6668e5dfbcc049e079f6d
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello All,
+
+Could any one please help me out on requested query as below.
+
+Thanks,
+Nitin
+
+On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor <nitinkapoorr@gmail.com> wrote:
+
+> Dear All,
+>
+> I have one call scenario where my termination is sending the SDP in 183 as
+> well as in 200 OK also. As far as i know if we are getting SDP in 183
+> session progress then my UAC can ignore the SDP in 200 OK. Also most of the
+> time SDP is same.
+>
+> But here i noticed the slight difference of "Session Version". Here when my
+> termination is sending 188 Session Progress with SDP is sending the SDP as
+> below.
+>
+> I can see that  my Termination is incrementing  "*Session Version*" for
+> SDP in 183 & 200 OK in same dialog..
+>
+> *183 with SDP*
+>
+> S_OWNER : o=TLPMSXP2 22660 *22660* IN IP4 69.90.230.210
+> S_NAME : s=sip call
+> S_CONNECT : c=IN IP4 69.90.230.217
+> TIME : t=0 0
+> M_NAME : m=audio 59072 RTP/AVP 18 4 8 98
+>
+> 200 OK with SDP:
+>
+> S_OWNER : o=TLPMSXP2 22660 *22661* IN IP4 69.90.230.210
+> S_NAME : s=sip call
+> S_CONNECT : c=IN IP4 69.90.230.217
+> TIME : t=0 0
+>
+> Could anyone please let me know if that is okay to increment the session
+> version and if any supported document is there?
+>
+> Thanks,
+> Nitin
+>
+
+--000e0cd6668e5dfbcc049e079f6d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello All,<br><br>Could any one please help me out on requested query as be=
+low.<br><br>Thanks,<br>Nitin<br><br><div class=3D"gmail_quote">On Tue, Mar =
+8, 2011 at 4:48 PM, Nitin Kapoor <span dir=3D"ltr">&lt;<a href=3D"mailto:ni=
+tinkapoorr@gmail.com">nitinkapoorr@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Dear All,<br><br>=
+I have one call scenario where my termination is sending the SDP in 183 as =
+well as in 200 OK also. As far as i know if we are getting SDP in 183 sessi=
+on progress then my UAC can ignore the SDP in 200 OK. Also most of the time=
+ SDP is same.<br>
+
+<br>But here i noticed the slight difference of &quot;Session Version&quot;=
+. Here when my termination is sending 188 Session Progress with SDP is send=
+ing the SDP as below.<br><br>I can see that=A0 my Termination is incrementi=
+ng=A0 &quot;<u><b>Session Version</b></u>&quot; for SDP in 183 &amp; 200 OK=
+ in same dialog..<br>
+
+<br><b style=3D"background-color: rgb(255, 255, 51);">183 with SDP</b><br><=
+br>S_OWNER    : o=3DTLPMSXP2 22660 <u style=3D"background-color: rgb(255, 2=
+55, 0);"><b>22660</b></u> IN IP4 69.90.230.210<br>           S_NAME     : s=
+=3Dsip call<br>
+
+           S_CONNECT  : c=3DIN IP4 69.90.230.217<br>           TIME       :=
+ t=3D0 0<br>           M_NAME     : m=3Daudio 59072 RTP/AVP 18 4 8 98
+<br><br>200 OK with SDP:<br><br>S_OWNER    : o=3DTLPMSXP2 22660 <b style=3D=
+"background-color: rgb(255, 255, 0);">22661</b> IN IP4 69.90.230.210<br>   =
+        S_NAME     : s=3Dsip call<br>           S_CONNECT  : c=3DIN IP4 69.=
+90.230.217<br>
+
+           TIME       : t=3D0 0
+<br><br>Could anyone please let me know if that is okay to increment the se=
+ssion version and if any supported document is there?<br><br>Thanks,<br><fo=
+nt color=3D"#888888">Nitin<br>
+</font></blockquote></div><br>
+
+--000e0cd6668e5dfbcc049e079f6d--
+
+From nitinkapoorr@gmail.com  Wed Mar  9 01:32:14 2011
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0F7643A68DE for <sip@core3.amsl.com>; Wed,  9 Mar 2011 01:32:14 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.798
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.798 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_13=0.6, J_CHICKENPOX_15=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8lS2rS19rZYV for <sip@core3.amsl.com>; Wed,  9 Mar 2011 01:32:13 -0800 (PST)
+Received: from mail-ww0-f44.google.com (mail-ww0-f44.google.com [74.125.82.44]) by core3.amsl.com (Postfix) with ESMTP id 85BE23A67C3 for <sip@ietf.org>; Wed,  9 Mar 2011 01:32:12 -0800 (PST)
+Received: by wwa36 with SMTP id 36so247680wwa.13 for <sip@ietf.org>; Wed, 09 Mar 2011 01:33:28 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=GkIHtws0KHcrNSoz3Ko58nUXDgLjv5zAt8Kf/Zbc/CU=; b=fu5dxGCoErRo0Xau5fbBqyhMIJj4AF+qfPolnEu450icA3nhQ358vcM5wIHU5MQW7w 16FPdZbHBQ2hqP14Ukaak8XUJOF/vBc4QXcFU+0h90KjKwHlq9TTqEX6Eidk6oJTlLWb Y6ynAlr1/klVaMRXgmGNnEkDp7tX13A3IkaJo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=DEc5n8na04nec0BmuKymOasL8Qtufqx3Iz19g6HsR9sGCY3jwq7B+XTwHA0UtZKPkJ IZjPm5WTDNFB8q/kE4jxrI94KZ+llaOU44ZeTNnRFgJ3/NmxEophFsxzkuDQxV+ADzpS O74sV+q5qMGXxcbJ6d1gWn7jAGlmczpDbjKxg=
+MIME-Version: 1.0
+Received: by 10.216.79.11 with SMTP id h11mr5225050wee.77.1299663207808; Wed, 09 Mar 2011 01:33:27 -0800 (PST)
+Received: by 10.216.93.147 with HTTP; Wed, 9 Mar 2011 01:33:27 -0800 (PST)
+In-Reply-To: <E13C8C03049AFA4E9CEE5A21D3E7F85DB51531B3@GUREXMB02.ASIAN.AD.ARICENT.COM>
+References: <AANLkTimQfN_1sMhtxjgQOoTWTz_wHJf86Nyu7_L17MkS@mail.gmail.com> <AANLkTinfNaFy3F0BAf8Pe00hiNTFMFsBApxZzNOUW1nK@mail.gmail.com> <E13C8C03049AFA4E9CEE5A21D3E7F85DB51531B3@GUREXMB02.ASIAN.AD.ARICENT.COM>
+Date: Wed, 9 Mar 2011 04:33:27 -0500
+Message-ID: <AANLkTik5eKMvETfbFZQiZDW=ZbQ=CHwbFh+D1S4dTXd-@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: Ashish Saxena <ashish2.saxena@aricent.com>
+Content-Type: multipart/alternative; boundary=000e0ce0d120d44396049e096bb8
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] Different SDP Session Version in 183 & 200 OK
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Mar 2011 09:32:14 -0000
+
+--000e0ce0d120d44396049e096bb8
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello Ashish,
+
+Here is the mline for both the messages.
+
+183:
+
+Media Description, name and address (m): audio 43888 RTP/AVP 18
+
+200 OK:
+
+Media Description, name and address (m): audio 43888 RTP/AVP 18
+
+Thanks,
+Nitin Kapoor
+
+
+On Wed, Mar 9, 2011 at 3:25 AM, Ashish Saxena <ashish2.saxena@aricent.com>wrote:
+
+> what is the mline of 200OK SDP.
+>
+> Regards
+> Ashish Saxena
+> (www.aricent.com)
+> ________________________________________
+> From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Nitin
+> Kapoor [nitinkapoorr@gmail.com]
+> Sent: Wednesday, March 09, 2011 12:54 PM
+> To: sip-implementors@lists.cs.columbia.edu
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] Different SDP Session Version in 183 & 200 OK
+>
+> Hello All,
+>
+> Could any one please help me out on requested query as below.
+>
+> Thanks,
+> Nitin
+>
+> On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor <nitinkapoorr@gmail.com
+> <mailto:nitinkapoorr@gmail.com>> wrote:
+> Dear All,
+>
+> I have one call scenario where my termination is sending the SDP in 183 as
+> well as in 200 OK also. As far as i know if we are getting SDP in 183
+> session progress then my UAC can ignore the SDP in 200 OK. Also most of the
+> time SDP is same.
+>
+> But here i noticed the slight difference of "Session Version". Here when my
+> termination is sending 188 Session Progress with SDP is sending the SDP as
+> below.
+>
+> I can see that  my Termination is incrementing  "Session Version" for SDP
+> in 183 & 200 OK in same dialog..
+>
+> 183 with SDP
+>
+> S_OWNER : o=TLPMSXP2 22660 22660 IN IP4 69.90.230.210
+> S_NAME : s=sip call
+> S_CONNECT : c=IN IP4 69.90.230.217
+> TIME : t=0 0
+> M_NAME : m=audio 59072 RTP/AVP 18 4 8 98
+>
+> 200 OK with SDP:
+>
+> S_OWNER : o=TLPMSXP2 22660 22661 IN IP4 69.90.230.210
+> S_NAME : s=sip call
+> S_CONNECT : c=IN IP4 69.90.230.217
+> TIME : t=0 0
+>
+> Could anyone please let me know if that is okay to increment the session
+> version and if any supported document is there?
+>
+> Thanks,
+> Nitin
+>
+>
+> "DISCLAIMER: This message is proprietary to Aricent and is intended solely
+> for the use of the individual to whom it is addressed. It may contain
+> privileged or confidential information and should not be circulated or used
+> for any purpose other than for what it is intended. If you have received
+> this message in error, please notify the originator immediately. If you are
+> not the intended recipient, you are notified that you are strictly
+> prohibited from using, copying, altering, or disclosing the contents of this
+> message. Aricent accepts no responsibility for loss or damage arising from
+> the use of the information transmitted by this email including damage from
+> virus."
+>
+
+--000e0ce0d120d44396049e096bb8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ashish,<br><br>Here is the mline for both the messages.<br><br>183:<b=
+r><br>Media Description, name and address (m): audio 43888 RTP/AVP 18<br><b=
+r>200 OK:<br><br>Media Description, name and address (m): audio 43888 RTP/A=
+VP 18<br>
+<br>Thanks,<br>Nitin Kapoor<br><br><br><div class=3D"gmail_quote">On Wed, M=
+ar 9, 2011 at 3:25 AM, Ashish Saxena <span dir=3D"ltr">&lt;<a href=3D"mailt=
+o:ashish2.saxena@aricent.com">ashish2.saxena@aricent.com</a>&gt;</span> wro=
+te:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">what is the mline=
+ of 200OK SDP.<br>
+<br>
+Regards<br>
+Ashish Saxena<br>
+(<a href=3D"http://www.aricent.com" target=3D"_blank">www.aricent.com</a>)<=
+br>
+________________________________________<br>
+From: <a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a> [<a =
+href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>] On Behalf Of=
+ Nitin Kapoor [<a href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail=
+.com</a>]<br>
+
+Sent: Wednesday, March 09, 2011 12:54 PM<br>
+To: <a href=3D"mailto:sip-implementors@lists.cs.columbia.edu">sip-implement=
+ors@lists.cs.columbia.edu</a><br>
+Cc: <a href=3D"mailto:sip@ietf.org">sip@ietf.org</a><br>
+Subject: Re: [Sip] Different SDP Session Version in 183 &amp; 200 OK<br>
+<div class=3D"im"><br>
+Hello All,<br>
+<br>
+Could any one please help me out on requested query as below.<br>
+<br>
+Thanks,<br>
+Nitin<br>
+<br>
+</div><div class=3D"im">On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor &lt;<a=
+ href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail.com</a>&lt;mailt=
+o:<a href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail.com</a>&gt;&=
+gt; wrote:<br>
+
+Dear All,<br>
+<br>
+I have one call scenario where my termination is sending the SDP in 183 as =
+well as in 200 OK also. As far as i know if we are getting SDP in 183 sessi=
+on progress then my UAC can ignore the SDP in 200 OK. Also most of the time=
+ SDP is same.<br>
+
+<br>
+But here i noticed the slight difference of &quot;Session Version&quot;. He=
+re when my termination is sending 188 Session Progress with SDP is sending =
+the SDP as below.<br>
+<br>
+I can see that =A0my Termination is incrementing =A0&quot;Session Version&q=
+uot; for SDP in 183 &amp; 200 OK in same dialog..<br>
+<br>
+183 with SDP<br>
+<br>
+S_OWNER : o=3DTLPMSXP2 22660 22660 IN IP4 69.90.230.210<br>
+S_NAME : s=3Dsip call<br>
+S_CONNECT : c=3DIN IP4 69.90.230.217<br>
+TIME : t=3D0 0<br>
+M_NAME : m=3Daudio 59072 RTP/AVP 18 4 8 98<br>
+<br>
+200 OK with SDP:<br>
+<br>
+S_OWNER : o=3DTLPMSXP2 22660 22661 IN IP4 69.90.230.210<br>
+S_NAME : s=3Dsip call<br>
+S_CONNECT : c=3DIN IP4 69.90.230.217<br>
+TIME : t=3D0 0<br>
+<br>
+Could anyone please let me know if that is okay to increment the session ve=
+rsion and if any supported document is there?<br>
+<br>
+Thanks,<br>
+Nitin<br>
+<br>
+<br>
+</div>&quot;DISCLAIMER: This message is proprietary to Aricent and is inten=
+ded solely for the use of the individual to whom it is addressed. It may co=
+ntain privileged or confidential information and should not be circulated o=
+r used for any purpose other than for what it is intended. If you have rece=
+ived this message in error, please notify the originator immediately. If yo=
+u are not the intended recipient, you are notified that you are strictly pr=
+ohibited from using, copying, altering, or disclosing the contents of this =
+message. Aricent accepts no responsibility for loss or damage arising from =
+the use of the information transmitted by this email including damage from =
+virus.&quot;<br>
+
+</blockquote></div><br>
+
+--000e0ce0d120d44396049e096bb8--
+
+From nitinkapoorr@gmail.com  Wed Mar  9 05:19:23 2011
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 66B993A69BC for <sip@core3.amsl.com>; Wed,  9 Mar 2011 05:19:23 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.798
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.798 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_13=0.6, J_CHICKENPOX_15=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id E4bnwJ2xqOIS for <sip@core3.amsl.com>; Wed,  9 Mar 2011 05:19:21 -0800 (PST)
+Received: from mail-ww0-f44.google.com (mail-ww0-f44.google.com [74.125.82.44]) by core3.amsl.com (Postfix) with ESMTP id 74BB13A6948 for <sip@ietf.org>; Wed,  9 Mar 2011 05:19:21 -0800 (PST)
+Received: by wwa36 with SMTP id 36so386582wwa.13 for <sip@ietf.org>; Wed, 09 Mar 2011 05:20:37 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=FldRHlq3mFwdIpfQwFLW/TKeEREO4a7wj10MyCeX11U=; b=aTAAP2N+g0KpirzTeSyT1N7RyPpPuauKDG8LnAVpYB/m6HHQ46meb9oTQKYWKIiEZh PcnWGBnhAJdZDaWC8jpaPu8Sz41r1cUrdIyGgDZ8QJdilF5xLzUVrJoHyoF4EOhgHcN+ htuMRGhcLrNUBrlhthyevqsgkobDMQEypRSJg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=bxqRmLwVbO2bHe6yHmmPtRMJ153tDLRUP11pZb2CqaK5LlRVYaTtgsF4LEPVREoIba fr8oCJF2bkrafoOzPZ0Fr/tcGhsHnSzdukUuFnl/f2x3EMKgIE7s+43T/9mAQMBAQsZA JFNGv/qSykIsI2HYF1l949MJETouI6/JZXe20=
+MIME-Version: 1.0
+Received: by 10.216.221.92 with SMTP id q70mr5337807wep.107.1299676811979; Wed, 09 Mar 2011 05:20:11 -0800 (PST)
+Received: by 10.216.93.147 with HTTP; Wed, 9 Mar 2011 05:20:11 -0800 (PST)
+In-Reply-To: <FAA28CD01112C94CA8BBE2EFA6CBB2313489AE@SGSIEXC007.nsn-intra.net>
+References: <AANLkTimQfN_1sMhtxjgQOoTWTz_wHJf86Nyu7_L17MkS@mail.gmail.com> <AANLkTinfNaFy3F0BAf8Pe00hiNTFMFsBApxZzNOUW1nK@mail.gmail.com> <E13C8C03049AFA4E9CEE5A21D3E7F85DB51531B3@GUREXMB02.ASIAN.AD.ARICENT.COM> <AANLkTik5eKMvETfbFZQiZDW=ZbQ=CHwbFh+D1S4dTXd-@mail.gmail.com> <FAA28CD01112C94CA8BBE2EFA6CBB2313489AE@SGSIEXC007.nsn-intra.net>
+Date: Wed, 9 Mar 2011 08:20:11 -0500
+Message-ID: <AANLkTi=fWmARFm3Skb2nHWJUGuZ+v6Y_JhqFaNyhczDA@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: "Jaiswal, Sanjiv (NSN - IN/Bangalore)" <sanjiv.jaiswal@nsn.com>
+Content-Type: multipart/alternative; boundary=001485f6cc88b36a65049e0c9694
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Different SDP Session Version in 183 &200 OK
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Mar 2011 13:19:23 -0000
+
+--001485f6cc88b36a65049e0c9694
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi Sanjiv,
+
+I do agree that "session-version" should increment by one from the previous
+SDP when there is any modification is involved in SDP. But i haven't seen
+any modification into the SDP of 183 & 200 OK/
+
+Also, there was no SDP in ACK. If you need i can share the traces with you.
+
+Thanks,
+Nitin Kapoor
+
+On Wed, Mar 9, 2011 at 5:30 AM, Jaiswal, Sanjiv (NSN - IN/Bangalore) <
+sanjiv.jaiswal@nsn.com> wrote:
+
+> Hi Nitin,
+>
+>
+> Every SDP with incremented session ( in this case 200 OK) is treated as
+> new negotiation(offer).
+> Whether ACK from other end contains SDP answer? If yes then session
+> version is incremented there also?
+>
+>
+> Regards
+> Sanjiv
+>
+> -----Original Message-----
+> From: sip-implementors-bounces@lists.cs.columbia.edu
+> [mailto:sip-implementors-bounces@lists.cs.columbia.edu] On Behalf Of ext
+> Nitin Kapoor
+> Sent: Wednesday, March 09, 2011 3:03 PM
+> To: Ashish Saxena
+> Cc: sip@ietf.org; sip-implementors@lists.cs.columbia.edu
+> Subject: Re: [Sip-implementors] [Sip] Different SDP Session Version in
+> 183 &200 OK
+>
+> Hello Ashish,
+>
+> Here is the mline for both the messages.
+>
+> 183:
+>
+> Media Description, name and address (m): audio 43888 RTP/AVP 18
+>
+> 200 OK:
+>
+> Media Description, name and address (m): audio 43888 RTP/AVP 18
+>
+> Thanks,
+> Nitin Kapoor
+>
+>
+> On Wed, Mar 9, 2011 at 3:25 AM, Ashish Saxena
+> <ashish2.saxena@aricent.com>wrote:
+>
+> > what is the mline of 200OK SDP.
+> >
+> > Regards
+> > Ashish Saxena
+> > (www.aricent.com)
+> > ________________________________________
+> > From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Nitin
+> > Kapoor [nitinkapoorr@gmail.com]
+> > Sent: Wednesday, March 09, 2011 12:54 PM
+> > To: sip-implementors@lists.cs.columbia.edu
+> > Cc: sip@ietf.org
+> > Subject: Re: [Sip] Different SDP Session Version in 183 & 200 OK
+> >
+> > Hello All,
+> >
+> > Could any one please help me out on requested query as below.
+> >
+> > Thanks,
+> > Nitin
+> >
+> > On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor <nitinkapoorr@gmail.com
+> > <mailto:nitinkapoorr@gmail.com>> wrote:
+> > Dear All,
+> >
+> > I have one call scenario where my termination is sending the SDP in
+> 183 as
+> > well as in 200 OK also. As far as i know if we are getting SDP in 183
+> > session progress then my UAC can ignore the SDP in 200 OK. Also most
+> of the
+> > time SDP is same.
+> >
+> > But here i noticed the slight difference of "Session Version". Here
+> when my
+> > termination is sending 188 Session Progress with SDP is sending the
+> SDP as
+> > below.
+> >
+> > I can see that  my Termination is incrementing  "Session Version" for
+> SDP
+> > in 183 & 200 OK in same dialog..
+> >
+> > 183 with SDP
+> >
+> > S_OWNER : o=TLPMSXP2 22660 22660 IN IP4 69.90.230.210
+> > S_NAME : s=sip call
+> > S_CONNECT : c=IN IP4 69.90.230.217
+> > TIME : t=0 0
+> > M_NAME : m=audio 59072 RTP/AVP 18 4 8 98
+> >
+> > 200 OK with SDP:
+> >
+> > S_OWNER : o=TLPMSXP2 22660 22661 IN IP4 69.90.230.210
+> > S_NAME : s=sip call
+> > S_CONNECT : c=IN IP4 69.90.230.217
+> > TIME : t=0 0
+> >
+> > Could anyone please let me know if that is okay to increment the
+> session
+> > version and if any supported document is there?
+> >
+> > Thanks,
+> > Nitin
+> >
+> >
+> > "DISCLAIMER: This message is proprietary to Aricent and is intended
+> solely
+> > for the use of the individual to whom it is addressed. It may contain
+> > privileged or confidential information and should not be circulated or
+> used
+> > for any purpose other than for what it is intended. If you have
+> received
+> > this message in error, please notify the originator immediately. If
+> you are
+> > not the intended recipient, you are notified that you are strictly
+> > prohibited from using, copying, altering, or disclosing the contents
+> of this
+> > message. Aricent accepts no responsibility for loss or damage arising
+> from
+> > the use of the information transmitted by this email including damage
+> from
+> > virus."
+> >
+> _______________________________________________
+> Sip-implementors mailing list
+> Sip-implementors@lists.cs.columbia.edu
+> https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+>
+
+--001485f6cc88b36a65049e0c9694
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sanjiv,<br><br>I do agree that &quot;session-version&quot; should increm=
+ent by one from the previous SDP when there is any modification is involved=
+ in SDP. But i haven&#39;t seen any modification into the SDP of 183 &amp; =
+200 OK/<br>
+<br>Also, there was no SDP in ACK. If you need i can share the traces with =
+you.<br><br>Thanks,<br>Nitin Kapoor<br><br><div class=3D"gmail_quote">On We=
+d, Mar 9, 2011 at 5:30 AM, Jaiswal, Sanjiv (NSN - IN/Bangalore) <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:sanjiv.jaiswal@nsn.com">sanjiv.jaiswal@nsn.c=
+om</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Hi Nitin,<br>
+<br>
+<br>
+Every SDP with incremented session ( in this case 200 OK) is treated as<br>
+new negotiation(offer).<br>
+Whether ACK from other end contains SDP answer? If yes then session<br>
+version is incremented there also?<br>
+<br>
+<br>
+Regards<br>
+Sanjiv<br>
+<div><div></div><div class=3D"h5"><br>
+-----Original Message-----<br>
+From: <a href=3D"mailto:sip-implementors-bounces@lists.cs.columbia.edu">sip=
+-implementors-bounces@lists.cs.columbia.edu</a><br>
+[mailto:<a href=3D"mailto:sip-implementors-bounces@lists.cs.columbia.edu">s=
+ip-implementors-bounces@lists.cs.columbia.edu</a>] On Behalf Of ext<br>
+Nitin Kapoor<br>
+Sent: Wednesday, March 09, 2011 3:03 PM<br>
+To: Ashish Saxena<br>
+Cc: <a href=3D"mailto:sip@ietf.org">sip@ietf.org</a>; <a href=3D"mailto:sip=
+-implementors@lists.cs.columbia.edu">sip-implementors@lists.cs.columbia.edu=
+</a><br>
+Subject: Re: [Sip-implementors] [Sip] Different SDP Session Version in<br>
+183 &amp;200 OK<br>
+<br>
+Hello Ashish,<br>
+<br>
+Here is the mline for both the messages.<br>
+<br>
+183:<br>
+<br>
+Media Description, name and address (m): audio 43888 RTP/AVP 18<br>
+<br>
+200 OK:<br>
+<br>
+Media Description, name and address (m): audio 43888 RTP/AVP 18<br>
+<br>
+Thanks,<br>
+Nitin Kapoor<br>
+<br>
+<br>
+On Wed, Mar 9, 2011 at 3:25 AM, Ashish Saxena<br>
+&lt;<a href=3D"mailto:ashish2.saxena@aricent.com">ashish2.saxena@aricent.co=
+m</a>&gt;wrote:<br>
+<br>
+&gt; what is the mline of 200OK SDP.<br>
+&gt;<br>
+&gt; Regards<br>
+&gt; Ashish Saxena<br>
+&gt; (<a href=3D"http://www.aricent.com" target=3D"_blank">www.aricent.com<=
+/a>)<br>
+&gt; ________________________________________<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>=
+ [<a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>] On Beha=
+lf Of Nitin<br>
+&gt; Kapoor [<a href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail.c=
+om</a>]<br>
+&gt; Sent: Wednesday, March 09, 2011 12:54 PM<br>
+&gt; To: <a href=3D"mailto:sip-implementors@lists.cs.columbia.edu">sip-impl=
+ementors@lists.cs.columbia.edu</a><br>
+&gt; Cc: <a href=3D"mailto:sip@ietf.org">sip@ietf.org</a><br>
+&gt; Subject: Re: [Sip] Different SDP Session Version in 183 &amp; 200 OK<b=
+r>
+&gt;<br>
+&gt; Hello All,<br>
+&gt;<br>
+&gt; Could any one please help me out on requested query as below.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin<br>
+&gt;<br>
+&gt; On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor &lt;<a href=3D"mailto:nit=
+inkapoorr@gmail.com">nitinkapoorr@gmail.com</a><br>
+&gt; &lt;mailto:<a href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmai=
+l.com</a>&gt;&gt; wrote:<br>
+&gt; Dear All,<br>
+&gt;<br>
+&gt; I have one call scenario where my termination is sending the SDP in<br=
+>
+183 as<br>
+&gt; well as in 200 OK also. As far as i know if we are getting SDP in 183<=
+br>
+&gt; session progress then my UAC can ignore the SDP in 200 OK. Also most<b=
+r>
+of the<br>
+&gt; time SDP is same.<br>
+&gt;<br>
+&gt; But here i noticed the slight difference of &quot;Session Version&quot=
+;. Here<br>
+when my<br>
+&gt; termination is sending 188 Session Progress with SDP is sending the<br=
+>
+SDP as<br>
+&gt; below.<br>
+&gt;<br>
+&gt; I can see that =A0my Termination is incrementing =A0&quot;Session Vers=
+ion&quot; for<br>
+SDP<br>
+&gt; in 183 &amp; 200 OK in same dialog..<br>
+&gt;<br>
+&gt; 183 with SDP<br>
+&gt;<br>
+&gt; S_OWNER : o=3DTLPMSXP2 22660 22660 IN IP4 69.90.230.210<br>
+&gt; S_NAME : s=3Dsip call<br>
+&gt; S_CONNECT : c=3DIN IP4 69.90.230.217<br>
+&gt; TIME : t=3D0 0<br>
+&gt; M_NAME : m=3Daudio 59072 RTP/AVP 18 4 8 98<br>
+&gt;<br>
+&gt; 200 OK with SDP:<br>
+&gt;<br>
+&gt; S_OWNER : o=3DTLPMSXP2 22660 22661 IN IP4 69.90.230.210<br>
+&gt; S_NAME : s=3Dsip call<br>
+&gt; S_CONNECT : c=3DIN IP4 69.90.230.217<br>
+&gt; TIME : t=3D0 0<br>
+&gt;<br>
+&gt; Could anyone please let me know if that is okay to increment the<br>
+session<br>
+&gt; version and if any supported document is there?<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin<br>
+&gt;<br>
+&gt;<br>
+&gt; &quot;DISCLAIMER: This message is proprietary to Aricent and is intend=
+ed<br>
+solely<br>
+&gt; for the use of the individual to whom it is addressed. It may contain<=
+br>
+&gt; privileged or confidential information and should not be circulated or=
+<br>
+used<br>
+&gt; for any purpose other than for what it is intended. If you have<br>
+received<br>
+&gt; this message in error, please notify the originator immediately. If<br=
+>
+you are<br>
+&gt; not the intended recipient, you are notified that you are strictly<br>
+&gt; prohibited from using, copying, altering, or disclosing the contents<b=
+r>
+of this<br>
+&gt; message. Aricent accepts no responsibility for loss or damage arising<=
+br>
+from<br>
+&gt; the use of the information transmitted by this email including damage<=
+br>
+from<br>
+&gt; virus.&quot;<br>
+&gt;<br>
+</div></div>_______________________________________________<br>
+Sip-implementors mailing list<br>
+<div class=3D"im"><a href=3D"mailto:Sip-implementors@lists.cs.columbia.edu"=
+>Sip-implementors@lists.cs.columbia.edu</a><br>
+</div><a href=3D"https://lists.cs.columbia.edu/cucslists/listinfo/sip-imple=
+mentors" target=3D"_blank">https://lists.cs.columbia.edu/cucslists/listinfo=
+/sip-implementors</a><br>
+</blockquote></div><br>
+
+--001485f6cc88b36a65049e0c9694--
+
+From vijay11tiwari@gmail.com  Wed Mar  9 09:11:28 2011
+Return-Path: <vijay11tiwari@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2067B3A68B1 for <sip@core3.amsl.com>; Wed,  9 Mar 2011 09:11:28 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.798
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.798 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_13=0.6, J_CHICKENPOX_15=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id XWZeBGTykJCD for <sip@core3.amsl.com>; Wed,  9 Mar 2011 09:11:26 -0800 (PST)
+Received: from mail-fx0-f44.google.com (mail-fx0-f44.google.com [209.85.161.44]) by core3.amsl.com (Postfix) with ESMTP id 595643A688F for <sip@ietf.org>; Wed,  9 Mar 2011 09:11:26 -0800 (PST)
+Received: by fxm15 with SMTP id 15so757803fxm.31 for <sip@ietf.org>; Wed, 09 Mar 2011 09:12:42 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=nmbvmts6I1fPUDsVNrzDHE+D+5d6fEoEwigSBe7hTu0=; b=dyH2GjloxoHGp+sXlE9m83eVkPib0zdx71zaD7d7DCzbxo+OKXVBhXx7WvsC4rFSst BFZvs70bifDqqp+aP1gu5X+EwBpGH9xg9Q5hLhb5it/w3O3JWBnIYEckaC/d2d9pZr63 aVHo5ZWjjdB5t30ekiU78TTBxvZcQBl9RqeyQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=bBI4e/1SBtR1b42dP2dPKZMMH/81N5PVxnePJaODt/TPkRAfX46UkCecf8NPzlY75B m1J/HFa0IW2Xd/KQWlY6lYcrmmPY+3lzg0+9/Dls2XJZhML96Pr0g8ecuyp9Dm+0qYx8 BsNZjUQTfQcrzIAnNmGuNAMtOOdCFMxaXT7+0=
+MIME-Version: 1.0
+Received: by 10.223.58.80 with SMTP id f16mr3448477fah.148.1299690740152; Wed, 09 Mar 2011 09:12:20 -0800 (PST)
+Received: by 10.223.29.195 with HTTP; Wed, 9 Mar 2011 09:12:20 -0800 (PST)
+In-Reply-To: <AANLkTinfNaFy3F0BAf8Pe00hiNTFMFsBApxZzNOUW1nK@mail.gmail.com>
+References: <AANLkTimQfN_1sMhtxjgQOoTWTz_wHJf86Nyu7_L17MkS@mail.gmail.com> <AANLkTinfNaFy3F0BAf8Pe00hiNTFMFsBApxZzNOUW1nK@mail.gmail.com>
+Date: Wed, 9 Mar 2011 22:42:20 +0530
+Message-ID: <AANLkTimoceLJyV5FeW11Kfvs3BH0fLb-kZ6mVSN8VH60@mail.gmail.com>
+From: Vijay Tiwari <vijay11tiwari@gmail.com>
+To: Nitin Kapoor <nitinkapoorr@gmail.com>
+Content-Type: multipart/alternative; boundary=0015173fe7ece27bb3049e0fd402
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] Different SDP Session Version in 183 & 200 OK
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Mar 2011 17:11:28 -0000
+
+--0015173fe7ece27bb3049e0fd402
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello Nitin
+
+Hope you are doing good, sorry i was able to respond that time. i saw are
+mail and according to my understanding this value can be change if
+
+"<sess-version> is  increased when a modification is made to the session
+data."
+
+
+it means that if any session data change between 183 and 200 ok message then
+it is standard behavior
+
+
+Thanks
+Vijay
+
+On Wed, Mar 9, 2011 at 12:54 PM, Nitin Kapoor <nitinkapoorr@gmail.com>wrote:
+
+> Hello All,
+>
+> Could any one please help me out on requested query as below.
+>
+> Thanks,
+> Nitin
+>
+> On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor <nitinkapoorr@gmail.com>wrote:
+>
+>> Dear All,
+>>
+>> I have one call scenario where my termination is sending the SDP in 183 as
+>> well as in 200 OK also. As far as i know if we are getting SDP in 183
+>> session progress then my UAC can ignore the SDP in 200 OK. Also most of the
+>> time SDP is same.
+>>
+>> But here i noticed the slight difference of "Session Version". Here when
+>> my termination is sending 188 Session Progress with SDP is sending the SDP
+>> as below.
+>>
+>> I can see that  my Termination is incrementing  "*Session Version*" for
+>> SDP in 183 & 200 OK in same dialog..
+>>
+>> *183 with SDP*
+>>
+>> S_OWNER : o=TLPMSXP2 22660 *22660* IN IP4 69.90.230.210
+>> S_NAME : s=sip call
+>> S_CONNECT : c=IN IP4 69.90.230.217
+>> TIME : t=0 0
+>> M_NAME : m=audio 59072 RTP/AVP 18 4 8 98
+>>
+>> 200 OK with SDP:
+>>
+>> S_OWNER : o=TLPMSXP2 22660 *22661* IN IP4 69.90.230.210
+>> S_NAME : s=sip call
+>> S_CONNECT : c=IN IP4 69.90.230.217
+>> TIME : t=0 0
+>>
+>> Could anyone please let me know if that is okay to increment the session
+>> version and if any supported document is there?
+>>
+>> Thanks,
+>> Nitin
+>>
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+
+
+
+-- 
+They can because they think they can.
+
+--0015173fe7ece27bb3049e0fd402
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello Nitin <br><br>Hope you are doing good, sorry i was able to respond th=
+at time. i saw are mail and according to my understanding this value can be=
+ change if <br><br>&quot;&lt;sess-version&gt; is=A0 increased when a modifi=
+cation is made to the session data.&quot;<br>
+<br><br>it means that if any session data change between 183 and 200 ok mes=
+sage then it is standard behavior <br><br><br>Thanks <br>Vijay<br><br><div =
+class=3D"gmail_quote">On Wed, Mar 9, 2011 at 12:54 PM, Nitin Kapoor <span d=
+ir=3D"ltr">&lt;<a href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail=
+.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Hello All,<br><br=
+>Could any one please help me out on requested query as below.<br><br>Thank=
+s,<br>
+Nitin<br><br><div class=3D"gmail_quote">On Tue, Mar 8, 2011 at 4:48 PM, Nit=
+in Kapoor <span dir=3D"ltr">&lt;<a href=3D"mailto:nitinkapoorr@gmail.com" t=
+arget=3D"_blank">nitinkapoorr@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Dear All,<br><br>=
+I have one call scenario where my termination is sending the SDP in 183 as =
+well as in 200 OK also. As far as i know if we are getting SDP in 183 sessi=
+on progress then my UAC can ignore the SDP in 200 OK. Also most of the time=
+ SDP is same.<br>
+
+
+<br>But here i noticed the slight difference of &quot;Session Version&quot;=
+. Here when my termination is sending 188 Session Progress with SDP is send=
+ing the SDP as below.<br><br>I can see that=A0 my Termination is incrementi=
+ng=A0 &quot;<u><b>Session Version</b></u>&quot; for SDP in 183 &amp; 200 OK=
+ in same dialog..<br>
+
+
+<br><b style=3D"background-color: rgb(255, 255, 51);">183 with SDP</b><br><=
+br>S_OWNER    : o=3DTLPMSXP2 22660 <u style=3D"background-color: rgb(255, 2=
+55, 0);"><b>22660</b></u> IN IP4 69.90.230.210<br>           S_NAME     : s=
+=3Dsip call<br>
+
+
+           S_CONNECT  : c=3DIN IP4 69.90.230.217<br>           TIME       :=
+ t=3D0 0<br>           M_NAME     : m=3Daudio 59072 RTP/AVP 18 4 8 98
+<br><br>200 OK with SDP:<br><br>S_OWNER    : o=3DTLPMSXP2 22660 <b style=3D=
+"background-color: rgb(255, 255, 0);">22661</b> IN IP4 69.90.230.210<br>   =
+        S_NAME     : s=3Dsip call<br>           S_CONNECT  : c=3DIN IP4 69.=
+90.230.217<br>
+
+
+           TIME       : t=3D0 0
+<br><br>Could anyone please let me know if that is okay to increment the se=
+ssion version and if any supported document is there?<br><br>Thanks,<br><fo=
+nt color=3D"#888888">Nitin<br>
+</font></blockquote></div><br>
+<br>_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br></blockquote></div><=
+br><br clear=3D"all"><br>-- <br>They can because they think they can.<br><b=
+r>
+
+
+--0015173fe7ece27bb3049e0fd402--
+
+From attila.sipos@vegastream.com  Wed Mar  9 10:12:13 2011
+Return-Path: <attila.sipos@vegastream.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 4C98A3A6928 for <sip@core3.amsl.com>; Wed,  9 Mar 2011 10:12:13 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id D9GOg85OORDK for <sip@core3.amsl.com>; Wed,  9 Mar 2011 10:12:12 -0800 (PST)
+Received: from cluster-f.mailcontrol.com (cluster-f.mailcontrol.com [85.115.62.190]) by core3.amsl.com (Postfix) with ESMTP id BA5D23A68CF for <sip@ietf.org>; Wed,  9 Mar 2011 10:12:11 -0800 (PST)
+Received: from rly21f.srv.mailcontrol.com (localhost.localdomain [127.0.0.1]) by rly21f.srv.mailcontrol.com (MailControl) with ESMTP id p29ID7vS029176 for <sip@ietf.org>; Wed, 9 Mar 2011 18:13:18 GMT
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1]) by rly21f.srv.mailcontrol.com (MailControl) id p29ICKKO021980 for <sip@ietf.org>; Wed, 9 Mar 2011 18:12:20 GMT
+Received: from exsmtp02.nasstar-t1.net (exsmtp02.nasstar-t1.net [89.28.233.152]) by rly21f-eth0.srv.mailcontrol.com (envelope-sender <attila.sipos@vegastream.com>) (MIMEDefang) with ESMTP id p29ICGFi021614; Wed, 09 Mar 2011 18:12:20 +0000 (GMT)
+Received: from EXVS02.nasstar-t1.net ([10.2.10.104]) by exsmtp02.nasstar-t1.net with Microsoft SMTPSVC(6.0.3790.1830);  Wed, 9 Mar 2011 18:15:24 +0000
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 9 Mar 2011 18:12:15 -0000
+Message-ID: <680808427CF931459462C3D78CB5EC600BFCEA79@EXVS02.nasstar-t1.net>
+In-Reply-To: <AANLkTikBQ+U7g6uU4g4AVT-UQZdtO=nM74StDk7G_gz5@mail.gmail.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip-implementors] Content-Disposition
+Thread-Index: Acveg68aWRI22h/6TWKKNoOKhxJZAgAASUoA
+From: "Attila Sipos" <attila.sipos@vegastream.com>
+To: "isshed" <isshed.sip@gmail.com>, <discussion-bounces@sipforum.org>, "sip-implementors" <sip-implementors@lists.cs.columbia.edu>, <sip@ietf.org>
+X-OriginalArrivalTime: 09 Mar 2011 18:15:24.0729 (UTC) FILETIME=[F5DFC290:01CBDE85]
+X-Scanned-By: MailControl A_10_80_00 (www.mailcontrol.com) on 10.70.1.131
+Subject: Re: [Sip] [Sip-implementors] Content-Disposition
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Mar 2011 18:12:13 -0000
+
+Strictly, for an error like that, there should be a "404 Bad Request"
+response
+but you might decide it is better to treat it as if it is missing:
+
+   If the Content-Disposition header field is missing, bodies of
+   Content-Type application/sdp imply the disposition "session", while
+   other content types imply "render".
+
+
+In this case, I think I would opt for a 404 response and then
+inform the UA vendors that their UA is misbehaving.
+
+regards
+Attila
+
+
+
+-----Original Message-----
+From: sip-implementors-bounces@lists.cs.columbia.edu
+[mailto:sip-implementors-bounces@lists.cs.columbia.edu] On Behalf Of
+isshed
+Sent: 09 March 2011 17:55
+To: discussion-bounces@sipforum.org; sip-implementors; sip@ietf.org
+Subject: Re: [Sip-implementors] Content-Disposition
+
+If this header in initial invite and parsing fails. does the call get
+connected?
+
+On Wed, Mar 9, 2011 at 11:16 PM, isshed <isshed.sip@gmail.com> wrote:
+
+> does anyone know what the behaviour if parsing of Content-Disposition=20
+> header fails.
+>
+> Thanks,
+> HArendra
+>
+_______________________________________________
+Sip-implementors mailing list
+Sip-implementors@lists.cs.columbia.edu
+https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+
+From dworley@avaya.com  Wed Mar  9 10:29:36 2011
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 148883A693B for <sip@core3.amsl.com>; Wed,  9 Mar 2011 10:29:36 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.541
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.541 tagged_above=-999 required=5 tests=[AWL=0.058, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 4crRth8MWTj1 for <sip@core3.amsl.com>; Wed,  9 Mar 2011 10:29:35 -0800 (PST)
+Received: from p-us1-iereast-outbound-tmp.us1.avaya.com (p-us1-iereast-outbound-tmp.us1.avaya.com [135.11.29.16]) by core3.amsl.com (Postfix) with ESMTP id F2DEE3A6989 for <sip@ietf.org>; Wed,  9 Mar 2011 10:29:34 -0800 (PST)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEALpVd02HCzI1/2dsb2JhbACmcHSpRQKaH4VlBIUiinqIRw
+X-IronPort-AV: E=Sophos;i="4.62,291,1297054800"; d="scan'208";a="62653024"
+Received: from unknown (HELO p-us1-erheast.us1.avaya.com) ([135.11.50.53]) by p-us1-iereast-outbound-tmp.us1.avaya.com with ESMTP; 09 Mar 2011 13:30:51 -0500
+X-IronPort-AV: E=Sophos;i="4.62,291,1297054800"; d="scan'208";a="614077128"
+Received: from dc-us1hcex1.us1.avaya.com (HELO DC-US1HCEX1.global.avaya.com) ([135.11.52.20]) by p-us1-erheast-out.us1.avaya.com with ESMTP; 09 Mar 2011 13:30:51 -0500
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.1.187]) by DC-US1HCEX1.global.avaya.com ([2002:870b:3414::870b:3414]) with mapi; Wed, 9 Mar 2011 13:30:50 -0500
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: Attila Sipos <attila.sipos@vegastream.com>, isshed <isshed.sip@gmail.com>,  "discussion-bounces@sipforum.org" <discussion-bounces@sipforum.org>, sip-implementors <sip-implementors@lists.cs.columbia.edu>, "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 9 Mar 2011 13:28:14 -0500
+Thread-Topic: [Sip-implementors] Content-Disposition
+Thread-Index: Acveg68aWRI22h/6TWKKNoOKhxJZAgAASUoAAAC7KIg=
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B220B5C1565@DC-US1MBEX4.global.avaya.com>
+References: <AANLkTikBQ+U7g6uU4g4AVT-UQZdtO=nM74StDk7G_gz5@mail.gmail.com>, <680808427CF931459462C3D78CB5EC600BFCEA79@EXVS02.nasstar-t1.net>
+In-Reply-To: <680808427CF931459462C3D78CB5EC600BFCEA79@EXVS02.nasstar-t1.net>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: Re: [Sip] [Sip-implementors] Content-Disposition
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Mar 2011 18:29:36 -0000
+
+________________________________________
+From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Attila Sipos=
+ [attila.sipos@vegastream.com]
+
+Strictly, for an error like that, there should be a "404 Bad Request"
+response
+but you might decide it is better to treat it as if it is missing:
+
+   If the Content-Disposition header field is missing, bodies of
+   Content-Type application/sdp imply the disposition "session", while
+   other content types imply "render".
+
+In this case, I think I would opt for a 404 response and then
+inform the UA vendors that their UA is misbehaving.
+_______________________________________________
+
+I agree with Attila, although beware he typed "404" where he should have ty=
+ped "400".  (404 is "Not Found".)
+
+Be careful that your parser will accept all possible future extensions of C=
+ontent-Disposition as specified in RFC 3261 section 25.1 -- you wouldn't wa=
+nt your device rejecting calls that implemented some future extension.
+
+Dale
+
+From sudeeshravindran@gmail.com  Wed Mar  9 22:08:19 2011
+Return-Path: <sudeeshravindran@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3D9303A691B for <sip@core3.amsl.com>; Wed,  9 Mar 2011 22:08:19 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.798
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.798 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_13=0.6, J_CHICKENPOX_15=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id x3wdiAS1iFjQ for <sip@core3.amsl.com>; Wed,  9 Mar 2011 22:08:18 -0800 (PST)
+Received: from mail-yw0-f44.google.com (mail-yw0-f44.google.com [209.85.213.44]) by core3.amsl.com (Postfix) with ESMTP id 0DAA23A68F7 for <sip@ietf.org>; Wed,  9 Mar 2011 22:08:17 -0800 (PST)
+Received: by ywi6 with SMTP id 6so698718ywi.31 for <sip@ietf.org>; Wed, 09 Mar 2011 22:09:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=FlVKHznoVXgXvWhNYQz8a9cizYE9F1jCVb6zp8ibrgg=; b=ZB8oMRyeoSA2rfA9ETAcYzO3rLG5xze/Ap5t8Uv7qrWaX23PRgxr5LPY4D21MUL6Zw gDABGnFBL17KLh0aZLgpJw+vjUprnSf8FxpSYx714GmEYPbTD0RcIz4MtQzqeiUxMW9Z PEObsCaTBNmQxLGWlK42bT9J1QPWlIEwmXXrY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=AOrdLxFPWEVn+WTyL0w7oMkGpoHiGiPLNKytO1ZYlF0ZSOlgbYZimepfF3C0ve6ZQ1 awVYPKQqsJbjskFODMU9w8n79Ho+alxHpkjYWE7ihhBt7OxLXCScX6u93IEHZaRoxp0D UDwJXBthbhf2xatycULuLVJFuEC+mXaD+aNks=
+MIME-Version: 1.0
+Received: by 10.151.117.5 with SMTP id u5mr531393ybm.113.1299737374969; Wed, 09 Mar 2011 22:09:34 -0800 (PST)
+Received: by 10.151.47.7 with HTTP; Wed, 9 Mar 2011 22:09:34 -0800 (PST)
+In-Reply-To: <AANLkTimoceLJyV5FeW11Kfvs3BH0fLb-kZ6mVSN8VH60@mail.gmail.com>
+References: <AANLkTimQfN_1sMhtxjgQOoTWTz_wHJf86Nyu7_L17MkS@mail.gmail.com> <AANLkTinfNaFy3F0BAf8Pe00hiNTFMFsBApxZzNOUW1nK@mail.gmail.com> <AANLkTimoceLJyV5FeW11Kfvs3BH0fLb-kZ6mVSN8VH60@mail.gmail.com>
+Date: Thu, 10 Mar 2011 11:39:34 +0530
+Message-ID: <AANLkTikGtPFxHFCxaL-uewt9tqh9bN2v6SWQX4Qy3iOL@mail.gmail.com>
+From: Sudeesh Ravindran <sudeeshravindran@gmail.com>
+To: Vijay Tiwari <vijay11tiwari@gmail.com>
+Content-Type: multipart/alternative; boundary=001e680f09a4895439049e1ab0ae
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu, Nitin Kapoor <nitinkapoorr@gmail.com>
+Subject: Re: [Sip] Different SDP Session Version in 183 & 200 OK
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Mar 2011 06:08:19 -0000
+
+--001e680f09a4895439049e1ab0ae
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hey Guys,
+
+             Please tell me , how can i relieve from this site. All your
+mails are delivers into my mail id to........ Please suggest the idea.
+
+
+With regards,
+
+Ji
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On Wed, Mar 9, 2011 at 1042 PM, Vijay Tiwari <vijay11tiwari@gmail.com>wrote:
+
+> Hello Nitin
+>
+> Hope you are doing good, sorry i was able to respond that time. i saw are
+> mail and according to my understanding this value can be change if
+>
+> "<sess-version> is  increased when a modification is made to the session
+> data."
+>
+>
+> it means that if any session data change between 183 and 200 ok message
+> then it is standard behavior
+>
+>
+> Thanks
+> Vijay
+>
+>   On Wed, Mar 9, 2011 at 12:54 PM, Nitin Kapoor <nitinkapoorr@gmail.com>wrote:
+>
+>>  Hello All,
+>>
+>> Could any one please help me out on requested query as below.
+>>
+>> Thanks,
+>> Nitin
+>>
+>> On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor <nitinkapoorr@gmail.com>wrote:
+>>
+>>> Dear All,
+>>>
+>>> I have one call scenario where my termination is sending the SDP in 183
+>>> as well as in 200 OK also. As far as i know if we are getting SDP in 183
+>>> session progress then my UAC can ignore the SDP in 200 OK. Also most of the
+>>> time SDP is same.
+>>>
+>>> But here i noticed the slight difference of "Session Version". Here when
+>>> my termination is sending 188 Session Progress with SDP is sending the SDP
+>>> as below.
+>>>
+>>> I can see that  my Termination is incrementing  "*Session Version*" for
+>>> SDP in 183 & 200 OK in same dialog..
+>>>
+>>> *183 with SDP*
+>>>
+>>> S_OWNER : o=TLPMSXP2 22660 *22660* IN IP4 69.90.230.210
+>>> S_NAME : s=sip call
+>>> S_CONNECT : c=IN IP4 69.90.230.217
+>>> TIME : t=0 0
+>>> M_NAME : m=audio 59072 RTP/AVP 18 4 8 98
+>>>
+>>> 200 OK with SDP:
+>>>
+>>> S_OWNER : o=TLPMSXP2 22660 *22661* IN IP4 69.90.230.210
+>>> S_NAME : s=sip call
+>>> S_CONNECT : c=IN IP4 69.90.230.217
+>>> TIME : t=0 0
+>>>
+>>> Could anyone please let me know if that is okay to increment the session
+>>> version and if any supported document is there?
+>>>
+>>> Thanks,
+>>> Nitin
+>>>
+>>
+>>
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is essentially closed and only used for finishing old business.
+>> Use sip-implementors@cs.columbia.edu for questions on how to develop a
+>> SIP implementation.
+>> Use dispatch@ietf.org for new developments on the application of sip.
+>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>> specifications.
+>>
+>
+>
+>
+> --
+> They can because they think they can.
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+
+--001e680f09a4895439049e1ab0ae
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div><br>=A0</div>
+<div>Hey Guys,</div>
+<div>=A0</div>
+<div>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 Please tell me , how can i reliev=
+e from this site. All your mails are delivers into my mail id to........ Pl=
+ease suggest the idea.</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>With regards,</div>
+<div>=A0</div>
+<div>Ji</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div>=A0</div>
+<div><br>=A0</div>
+<div class=3D"gmail_quote">On Wed, Mar 9, 2011 at 1042 PM, Vijay Tiwari <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:vijay11tiwari@gmail.com">vijay11tiwari=
+@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">Hello Nitin <br><br>Hope you are=
+ doing good, sorry i was able to respond that time. i saw are mail and acco=
+rding to my understanding this value can be change if <br>
+<br>&quot;&lt;sess-version&gt; is=A0 increased when a modification is made =
+to the session data.&quot;<br><br><br>it means that if any session data cha=
+nge between 183 and 200 ok message then it is standard behavior <br><br><br=
+>
+Thanks <br>Vijay<br><br>
+<div class=3D"gmail_quote">
+<div>
+<div></div>
+<div class=3D"h5">On Wed, Mar 9, 2011 at 12:54 PM, Nitin Kapoor <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:nitinkapoorr@gmail.com" target=3D"_blank">ni=
+tinkapoorr@gmail.com</a>&gt;</span> wrote:<br></div></div>
+<blockquote style=3D"BORDER-LEFT: rgb(204,204,204) 1px solid; MARGIN: 0pt 0=
+pt 0pt 0.8ex; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>
+<div></div>
+<div class=3D"h5">Hello All,<br><br>Could any one please help me out on req=
+uested query as below.<br><br>Thanks,<br>Nitin<br><br>
+<div class=3D"gmail_quote">On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:nitinkapoorr@gmail.com" target=3D"_bla=
+nk">nitinkapoorr@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote style=3D"BORDER-LEFT: rgb(204,204,204) 1px solid; MARGIN: 0pt 0=
+pt 0pt 0.8ex; PADDING-LEFT: 1ex" class=3D"gmail_quote">Dear All,<br><br>I h=
+ave one call scenario where my termination is sending the SDP in 183 as wel=
+l as in 200 OK also. As far as i know if we are getting SDP in 183 session =
+progress then my UAC can ignore the SDP in 200 OK. Also most of the time SD=
+P is same.<br>
+<br>But here i noticed the slight difference of &quot;Session Version&quot;=
+. Here when my termination is sending 188 Session Progress with SDP is send=
+ing the SDP as below.<br><br>I can see that=A0 my Termination is incrementi=
+ng=A0 &quot;<u><b>Session Version</b></u>&quot; for SDP in 183 &amp; 200 OK=
+ in same dialog..<br>
+<br><b style=3D"BACKGROUND-COLOR: rgb(255,255,51)">183 with SDP</b><br><br>=
+S_OWNER : o=3DTLPMSXP2 22660 <u style=3D"BACKGROUND-COLOR: rgb(255,255,0)">=
+<b>22660</b></u> IN IP4 69.90.230.210<br>S_NAME : s=3Dsip call<br>S_CONNECT=
+ : c=3DIN IP4 69.90.230.217<br>
+TIME : t=3D0 0<br>M_NAME : m=3Daudio 59072 RTP/AVP 18 4 8 98 <br><br>200 OK=
+ with SDP:<br><br>S_OWNER : o=3DTLPMSXP2 22660 <b style=3D"BACKGROUND-COLOR=
+: rgb(255,255,0)">22661</b> IN IP4 69.90.230.210<br>S_NAME : s=3Dsip call<b=
+r>S_CONNECT : c=3DIN IP4 69.90.230.217<br>
+TIME : t=3D0 0 <br><br>Could anyone please let me know if that is okay to i=
+ncrement the session version and if any supported document is there?<br><br=
+>Thanks,<br><font color=3D"#888888">Nitin<br></font></blockquote></div><br>
+<br></div></div>_______________________________________________<br>Sip mail=
+ing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" target=3D=
+"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>This list is esse=
+ntially closed and only used for finishing old business.<br>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu" target=3D"_blank">s=
+ip-implementors@cs.columbia.edu</a> for questions on how to develop a SIP i=
+mplementation.<br>Use <a href=3D"mailto:dispatch@ietf.org" target=3D"_blank=
+">dispatch@ietf.org</a> for new developments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org" target=3D"_blank">sipcore@ietf.org<=
+/a> for issues related to maintenance of the core SIP specifications.<br></=
+blockquote></div><font color=3D"#888888"><br><br clear=3D"all"><br>-- <br>T=
+hey can because they think they can.<br>
+<br></font><br>_______________________________________________<br>Sip maili=
+ng list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" target=3D"=
+_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>This list is essen=
+tially closed and only used for finishing old business.<br>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>=
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br></blockquote></div><=
+br>
+
+--001e680f09a4895439049e1ab0ae--
+
+From isshed.sip@gmail.com  Thu Mar 10 03:15:22 2011
+Return-Path: <isshed.sip@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 879B43A6924 for <sip@core3.amsl.com>; Thu, 10 Mar 2011 03:15:22 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.795
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.795 tagged_above=-999 required=5 tests=[AWL=0.201,  BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_18=0.6, NORMAL_HTTP_TO_IP=0.001, RCVD_IN_DNSWL_LOW=-1, WEIRD_PORT=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 0a-wk3eY5SQH for <sip@core3.amsl.com>; Thu, 10 Mar 2011 03:15:21 -0800 (PST)
+Received: from mail-pw0-f44.google.com (mail-pw0-f44.google.com [209.85.160.44]) by core3.amsl.com (Postfix) with ESMTP id E55B83A68F0 for <sip@ietf.org>; Thu, 10 Mar 2011 03:15:21 -0800 (PST)
+Received: by pwi5 with SMTP id 5so547919pwi.31 for <sip@ietf.org>; Thu, 10 Mar 2011 03:16:39 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:date:message-id:subject:from:to :content-type; bh=UE/HGuGQXtHgEDzsQUmFVk7NK7rxWNKcUbaHUI8216o=; b=MDfAguVRGkJwZoIGGnRYYttjVxXuZ/orvssrJ4VyIgFVLfy5oY+PLBIoEGd6Q6Sg+d vp8ItPsvGdRFcE7sBVwrpLHaQ+8rlR198vS0TXzWbkpFxHafZKby2Q0pRY6y/tcqz/CA ksPMGmhIMs31PeFjDNNMZCfbt9N4sTTrhjC6M=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=dfKy/hOVfeITBxOJ98FUkSdyWxA11BhOn8d/zzrVuZZ+zFWmV93KNFyR76QKdI5Lfh dPy43YPGaTxjyyQtLdrPC6MqwdcXeuqMNC48cVyKxRNibUElvDeNDcVP2A2Bd61yO3eW LycXxiCXciIAlJJKpJ7fX5D1915rAb/aRr4jg=
+MIME-Version: 1.0
+Received: by 10.143.20.17 with SMTP id x17mr6341734wfi.154.1299755799481; Thu, 10 Mar 2011 03:16:39 -0800 (PST)
+Received: by 10.143.41.1 with HTTP; Thu, 10 Mar 2011 03:16:39 -0800 (PST)
+Date: Thu, 10 Mar 2011 16:46:39 +0530
+Message-ID: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com>
+From: isshed <isshed.sip@gmail.com>
+To: sip@ietf.org, sip-implementors <sip-implementors@lists.cs.columbia.edu>
+Content-Type: multipart/alternative; boundary=00504502cc88b90c43049e1efa73
+Subject: [Sip] Warning header
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Mar 2011 11:15:22 -0000
+
+--00504502cc88b90c43049e1efa73
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi All,
+
+If an initial INVITE from an endpoint offer contains the sdp as follows.
+
+m=audio 15190 RTP/AVP 100 101\r\n
+a=fmtp:18 annexb=yes\r\n
+a=fmtp:101 0-15\r\n
+a=rtpmap:100 UNACCEPTABLECODEC/8000\r\n
+a=sendrecv
+
+the terminating endpoint returns an error response 488 with a warning header
+as follows.
+
+Warning: 306 132.177.120.67:5060 "Attribute not understood"
+
+Is 306 is correct response?
+
+Thanks,
+
+--00504502cc88b90c43049e1efa73
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div>Hi All,=A0</div>
+<div>=A0</div>
+<div>If an initial INVITE from an endpoint offer contains the sdp as follow=
+s.</div>
+<div>=A0</div>
+<div>m=3Daudio 15190 RTP/AVP 100 101\r\n<br>a=3Dfmtp:18 annexb=3Dyes\r\n<br=
+>a=3Dfmtp:101 0-15\r\n<br>a=3Drtpmap:100 <font style=3D"BACKGROUND-COLOR: #=
+ffcc66">UNACCEPTABLECODEC</font>/8000\r\n<br>a=3Dsendrecv</div>
+<div>=A0</div>
+<div>the terminating endpoint returns an error response 488 with a warning =
+header as follows.</div>
+<div>=A0</div>
+<div>Warning: <font style=3D"BACKGROUND-COLOR: #ffcc66">306</font> <a href=
+=3D"http://132.177.120.67:5060">132.177.120.67:5060</a> &quot;<font style=
+=3D"BACKGROUND-COLOR: #ffcc66">Attribute not understood</font>&quot;</div>
+<div>=A0</div>
+<div>Is 306 is correct response?</div>
+<div>=A0</div>
+<div>Thanks,</div>
+<div>=A0</div>
+<div>=A0</div>
+
+--00504502cc88b90c43049e1efa73--
+
+From christer.holmberg@ericsson.com  Thu Mar 10 03:22:14 2011
+Return-Path: <christer.holmberg@ericsson.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2A1483A6A07 for <sip@core3.amsl.com>; Thu, 10 Mar 2011 03:22:14 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.986
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.986 tagged_above=-999 required=5 tests=[AWL=-0.587, BAYES_00=-2.599, J_CHICKENPOX_15=0.6, J_CHICKENPOX_18=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id nqbqzVsfZuzQ for <sip@core3.amsl.com>; Thu, 10 Mar 2011 03:22:13 -0800 (PST)
+Received: from mailgw10.se.ericsson.net (mailgw10.se.ericsson.net [193.180.251.61]) by core3.amsl.com (Postfix) with ESMTP id 20DA23A69D0 for <sip@ietf.org>; Thu, 10 Mar 2011 03:22:12 -0800 (PST)
+X-AuditID: c1b4fb3d-b7bbbae000005311-95-4d78b4b176b5
+Received: from esessmw0256.eemea.ericsson.se (Unknown_Domain [153.88.253.124]) by mailgw10.se.ericsson.net (Symantec Mail Security) with SMTP id FB.00.21265.1B4B87D4; Thu, 10 Mar 2011 12:23:29 +0100 (CET)
+Received: from ESESSCMS0356.eemea.ericsson.se ([169.254.1.30]) by esessmw0256.eemea.ericsson.se ([10.2.3.125]) with mapi; Thu, 10 Mar 2011 12:23:29 +0100
+From: Christer Holmberg <christer.holmberg@ericsson.com>
+To: isshed <isshed.sip@gmail.com>, "sip@ietf.org" <sip@ietf.org>, sip-implementors <sip-implementors@lists.cs.columbia.edu>
+Date: Thu, 10 Mar 2011 12:23:27 +0100
+Thread-Topic: [Sip] Warning header
+Thread-Index: AcvfFKZ3Gv7i1pkQTU6qckBLgAAwPwAAKfzw
+Message-ID: <7F2072F1E0DE894DA4B517B93C6A05851948FF292D@ESESSCMS0356.eemea.ericsson.se>
+References: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com>
+In-Reply-To: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: [Sip] Warning header
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Mar 2011 11:22:14 -0000
+
+Hi,
+=20
+Per section 20.43 of RFC 3261, 306 seems like a good value.
+=20
+ "306 Attribute not understood: One or more of the media attributes
+      in the session description are not supported."
+
+Note that it is not a SIP response code, but a code supposed to give additi=
+onal information about the response.
+=20
+Regards,
+=20
+Christer
+=20
+=20
+=20
+=20
+
+
+________________________________
+
+	From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of issh=
+ed
+	Sent: 10. maaliskuuta 2011 13:17
+	To: sip@ietf.org; sip-implementors
+	Subject: [Sip] Warning header
+=09
+=09
+	Hi All,=20
+	=20
+	If an initial INVITE from an endpoint offer contains the sdp as follows.
+	=20
+	m=3Daudio 15190 RTP/AVP 100 101\r\n
+	a=3Dfmtp:18 annexb=3Dyes\r\n
+	a=3Dfmtp:101 0-15\r\n
+	a=3Drtpmap:100 UNACCEPTABLECODEC/8000\r\n
+	a=3Dsendrecv
+	=20
+	the terminating endpoint returns an error response 488 with a warning head=
+er as follows.
+	=20
+	Warning: 306 132.177.120.67:5060 "Attribute not understood"
+	=20
+	Is 306 is correct response?
+	=20
+	Thanks,
+	=20
+
+
+From isshed.sip@gmail.com  Thu Mar 10 04:23:18 2011
+Return-Path: <isshed.sip@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id B57FA3A696F for <sip@core3.amsl.com>; Thu, 10 Mar 2011 04:23:18 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.888
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.888 tagged_above=-999 required=5 tests=[AWL=0.508,  BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_15=0.6, J_CHICKENPOX_18=0.6, NORMAL_HTTP_TO_IP=0.001, RCVD_IN_DNSWL_LOW=-1, WEIRD_PORT=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id WJPoC-ieoTLm for <sip@core3.amsl.com>; Thu, 10 Mar 2011 04:23:17 -0800 (PST)
+Received: from mail-pv0-f172.google.com (mail-pv0-f172.google.com [74.125.83.172]) by core3.amsl.com (Postfix) with ESMTP id D67F63A691D for <sip@ietf.org>; Thu, 10 Mar 2011 04:23:17 -0800 (PST)
+Received: by pve39 with SMTP id 39so475203pve.31 for <sip@ietf.org>; Thu, 10 Mar 2011 04:24:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=tQ9GvjIgYi4is+feUPUtrOz011LEldqaI+YpctdtfGA=; b=KBqQhzrscA2Ly3xDw/2sO2rn/dSEDHnThv9CbVXMKHng2xOtCYdngtcYsm1lpgoMFw aGsEW6uRraJS+YBt1xAY/SUsXgolw+gULzVlgrD/dyEcCKgFw914sUgDWsiP3I5Hzsnt JDm8RHI+A/dTAeLUTxDYBy78aPjZl4bpygWWs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=SiV8iORXCaefhc22RDPh8f3Cgz3fph+qgYmTemDT+snIEVDwj2rmoTR1M3PUsi5n3K ncN8pdo+U3A2WMCZbnrp5WTiCUmxe9JYaECod2zvoCbz/r5+i0mzS1a4ZHeYbZCTNEz2 vdS0M1O8KTfQ01PQaGIk5mqLIi0V6Fz15JW1I=
+MIME-Version: 1.0
+Received: by 10.142.201.15 with SMTP id y15mr6361086wff.268.1299759875615; Thu, 10 Mar 2011 04:24:35 -0800 (PST)
+Received: by 10.143.41.1 with HTTP; Thu, 10 Mar 2011 04:24:35 -0800 (PST)
+In-Reply-To: <7F2072F1E0DE894DA4B517B93C6A05851948FF292D@ESESSCMS0356.eemea.ericsson.se>
+References: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com> <7F2072F1E0DE894DA4B517B93C6A05851948FF292D@ESESSCMS0356.eemea.ericsson.se>
+Date: Thu, 10 Mar 2011 17:54:35 +0530
+Message-ID: <AANLkTikAxoood_0gGTaVVgf=xenV_HLwtrxchBqwOqkT@mail.gmail.com>
+From: isshed <isshed.sip@gmail.com>
+To: Christer Holmberg <christer.holmberg@ericsson.com>
+Content-Type: multipart/alternative; boundary=000e0cd32f00adeee5049e1fede9
+Cc: "sip@ietf.org" <sip@ietf.org>, sip-implementors <sip-implementors@lists.cs.columbia.edu>
+Subject: Re: [Sip] Warning header
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Mar 2011 12:23:18 -0000
+
+--000e0cd32f00adeee5049e1fede9
+Content-Type: text/plain; charset=ISO-8859-1
+
+Thanks for reply..
+
+what about the addiftional info response 305 or 307?
+
+My question is which one is best suited here?
+Thanks,
+Harendra
+On Thu, Mar 10, 2011 at 4:53 PM, Christer Holmberg <
+christer.holmberg@ericsson.com> wrote:
+
+> Hi,
+>
+> Per section 20.43 of RFC 3261, 306 seems like a good value.
+>
+>  "306 Attribute not understood: One or more of the media attributes
+>      in the session description are not supported."
+>
+> Note that it is not a SIP response code, but a code supposed to give
+> additional information about the response.
+>
+> Regards,
+>
+> Christer
+>
+>
+>
+>
+>
+>
+> ________________________________
+>
+>        From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf
+> Of isshed
+>        Sent: 10. maaliskuuta 2011 13:17
+>        To: sip@ietf.org; sip-implementors
+>        Subject: [Sip] Warning header
+>
+>
+>        Hi All,
+>
+>        If an initial INVITE from an endpoint offer contains the sdp as
+> follows.
+>
+>        m=audio 15190 RTP/AVP 100 101\r\n
+>        a=fmtp:18 annexb=yes\r\n
+>        a=fmtp:101 0-15\r\n
+>        a=rtpmap:100 UNACCEPTABLECODEC/8000\r\n
+>        a=sendrecv
+>
+>        the terminating endpoint returns an error response 488 with a
+> warning header as follows.
+>
+>        Warning: 306 132.177.120.67:5060 "Attribute not understood"
+>
+>        Is 306 is correct response?
+>
+>        Thanks,
+>
+>
+>
+
+--000e0cd32f00adeee5049e1fede9
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div>Thanks for reply..</div>
+<div>=A0</div>
+<div>what about the addiftional info response 305 or 307?</div>
+<div>=A0</div>
+<div>My question is which one is best suited here?<br></div>
+<div>Thanks,<br>Harendra</div>
+<div class=3D"gmail_quote">On Thu, Mar 10, 2011 at 4:53 PM, Christer Holmbe=
+rg <span dir=3D"ltr">&lt;<a href=3D"mailto:christer.holmberg@ericsson.com">=
+christer.holmberg@ericsson.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"PADDING-LEFT: 1ex; MARGIN: 0px 0=
+px 0px 0.8ex; BORDER-LEFT: #ccc 1px solid">Hi,<br><br>Per section 20.43 of =
+RFC 3261, 306 seems like a good value.<br><br>=A0&quot;306 Attribute not un=
+derstood: One or more of the media attributes<br>
+=A0 =A0 =A0in the session description are not supported.&quot;<br><br>Note =
+that it is not a SIP response code, but a code supposed to give additional =
+information about the response.<br><br>Regards,<br><br>Christer<br><br><br>=
+<br>
+<br><br><br>________________________________<br><br>=A0 =A0 =A0 =A0From: <a=
+ href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a> [mailto:<a h=
+ref=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>] On Behalf Of =
+isshed<br>
+=A0 =A0 =A0 =A0Sent: 10. maaliskuuta 2011 13:17<br>=A0 =A0 =A0 =A0To: <a hr=
+ef=3D"mailto:sip@ietf.org">sip@ietf.org</a>; sip-implementors<br>=A0 =A0 =
+=A0 =A0Subject: [Sip] Warning header<br>
+<div>
+<div></div>
+<div class=3D"h5"><br><br>=A0 =A0 =A0 =A0Hi All,<br><br>=A0 =A0 =A0 =A0If a=
+n initial INVITE from an endpoint offer contains the sdp as follows.<br><br=
+>=A0 =A0 =A0 =A0m=3Daudio 15190 RTP/AVP 100 101\r\n<br>=A0 =A0 =A0 =A0a=3Df=
+mtp:18 annexb=3Dyes\r\n<br>=A0 =A0 =A0 =A0a=3Dfmtp:101 0-15\r\n<br>
+=A0 =A0 =A0 =A0a=3Drtpmap:100 UNACCEPTABLECODEC/8000\r\n<br>=A0 =A0 =A0 =A0=
+a=3Dsendrecv<br><br>=A0 =A0 =A0 =A0the terminating endpoint returns an erro=
+r response 488 with a warning header as follows.<br><br>=A0 =A0 =A0 =A0Warn=
+ing: 306 <a href=3D"http://132.177.120.67:5060/" target=3D"_blank">132.177.=
+120.67:5060</a> &quot;Attribute not understood&quot;<br>
+<br>=A0 =A0 =A0 =A0Is 306 is correct response?<br><br>=A0 =A0 =A0 =A0Thanks=
+,<br><br><br></div></div></blockquote></div><br>
+
+--000e0cd32f00adeee5049e1fede9--
+
+From dworley@avaya.com  Thu Mar 10 07:42:32 2011
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 03CDF3A69E6 for <sip@core3.amsl.com>; Thu, 10 Mar 2011 07:42:32 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.245
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.245 tagged_above=-999 required=5 tests=[AWL=-0.246, BAYES_00=-2.599, J_CHICKENPOX_18=0.6, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id O8RoI1AFmbcB for <sip@core3.amsl.com>; Thu, 10 Mar 2011 07:42:31 -0800 (PST)
+Received: from de307622-de-outbound.net.avaya.com (de307622-de-outbound.net.avaya.com [198.152.71.100]) by core3.amsl.com (Postfix) with ESMTP id 0A3D53A69CC for <sip@ietf.org>; Thu, 10 Mar 2011 07:42:30 -0800 (PST)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAFMtcU2HCzI1/2dsb2JhbACmZXSkeQKZFoVhBIUcinCIQA
+X-IronPort-AV: E=Sophos;i="4.62,296,1297054800"; d="scan'208";a="236111849"
+Received: from unknown (HELO p-us1-erheast.us1.avaya.com) ([135.11.50.53]) by de307622-de-outbound.net.avaya.com with ESMTP; 10 Mar 2011 10:43:47 -0500
+X-IronPort-AV: E=Sophos;i="4.62,296,1297054800"; d="scan'208";a="614707346"
+Received: from unknown (HELO DC-US1HCEX3.global.avaya.com) ([135.11.52.22]) by p-us1-erheast-out.us1.avaya.com with ESMTP; 10 Mar 2011 10:43:46 -0500
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.1.187]) by DC-US1HCEX3.global.avaya.com ([135.11.52.22]) with mapi; Thu, 10 Mar 2011 10:43:46 -0500
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: isshed <isshed.sip@gmail.com>, "sip@ietf.org" <sip@ietf.org>, sip-implementors <sip-implementors@lists.cs.columbia.edu>
+Date: Thu, 10 Mar 2011 10:43:45 -0500
+Thread-Topic: [Sip] Warning header
+Thread-Index: AcvfFKOY9DpFfGWFR9GTbzBfj0nUmQAJGGmj
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B220B5C156B@DC-US1MBEX4.global.avaya.com>
+References: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com>
+In-Reply-To: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: Re: [Sip] Warning header
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Mar 2011 15:42:32 -0000
+
+________________________________________
+If an initial INVITE from an endpoint offer contains the sdp as follows.
+
+m=3Daudio 15190 RTP/AVP 100 101\r\n
+a=3Dfmtp:18 annexb=3Dyes\r\n
+a=3Dfmtp:101 0-15\r\n
+a=3Drtpmap:100 UNACCEPTABLECODEC/8000\r\n
+a=3Dsendrecv
+
+the terminating endpoint returns an error response 488 with a warning heade=
+r as follows.
+
+Warning: 306 132.177.120.67:5060 "Attribute not understood"
+
+Is 306 is correct response?
+________________________________________
+
+The response is 488, which is correct if the recipient cannot find suitable=
+ codecs in the SDP offer.
+This makes sense, as the SDP contains no audio coded.
+
+The warning code 306 indicates that the recipient cannot understand one of =
+the a=3D lines.  Unfortunately,
+the message does not indicate which a=3D line it does not understand.  My u=
+nderstanding is that
+if the interpreter of SDP does not understand an a=3D line, it should ignor=
+e it, which is aligned with
+the fact that the response contains a warning (as opposed to an error) abou=
+t not understanding an a=3D line.
+
+I also see that the m=3D line mentions codec 101, but there is no a=3Drtpma=
+p:101 line, which is I think technically
+an error, but in practice means that the recipient must ignore codec 101.
+
+Dale
+
+From isshed.sip@gmail.com  Thu Mar 10 21:12:04 2011
+Return-Path: <isshed.sip@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 424293A6AA8 for <sip@core3.amsl.com>; Thu, 10 Mar 2011 21:12:04 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.235
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.235 tagged_above=-999 required=5 tests=[AWL=-0.439, BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_15=0.6, J_CHICKENPOX_17=0.6, J_CHICKENPOX_18=0.6, NORMAL_HTTP_TO_IP=0.001, RCVD_IN_DNSWL_LOW=-1, WEIRD_PORT=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id mPvK1bgxBJRo for <sip@core3.amsl.com>; Thu, 10 Mar 2011 21:12:03 -0800 (PST)
+Received: from mail-pw0-f44.google.com (mail-pw0-f44.google.com [209.85.160.44]) by core3.amsl.com (Postfix) with ESMTP id 599AC3A6892 for <sip@ietf.org>; Thu, 10 Mar 2011 21:12:03 -0800 (PST)
+Received: by pwi5 with SMTP id 5so758846pwi.31 for <sip@ietf.org>; Thu, 10 Mar 2011 21:13:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=56DIjtOQnuBEJ4SW8aDpE3GNxYpoSfXrLXJb28rYp94=; b=J/xuhvfocvWtAo+BrHTxEmsaFBlz9g/dzn8dl/kAHozGemUUD8MoXyipFSo1DleTKK JOAZilsK3cOHF4DmrU2E0F4VMrTg65mw5vpAP8BJaB+Lv4zWjXP3JeoTx5gljeeAZQT5 VC33jWklUhIqscEgE3iZaSACKRiuAbaq5F9Y0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=UmJZ02KRNf4wDZPwedfQ24kRwtpLBnHlgcUH6ZRxukAqAgm1gnLt9IQBq4qv3rcifE T8/U8H48WwwjS28BrK1e9/QHAmZPF60pfnPRCuDhVQvmO+NBlrPG1V3ToEvo7VTymNxc hn9rGQDyKeTGyOnCr3VNuifxfEfWcsZ4+jh8U=
+MIME-Version: 1.0
+Received: by 10.142.60.21 with SMTP id i21mr7084300wfa.439.1299820401965; Thu, 10 Mar 2011 21:13:21 -0800 (PST)
+Received: by 10.143.41.1 with HTTP; Thu, 10 Mar 2011 21:13:21 -0800 (PST)
+In-Reply-To: <CD5674C3CD99574EBA7432465FC13C1B220B5C156B@DC-US1MBEX4.global.avaya.com>
+References: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com> <CD5674C3CD99574EBA7432465FC13C1B220B5C156B@DC-US1MBEX4.global.avaya.com>
+Date: Fri, 11 Mar 2011 10:43:21 +0530
+Message-ID: <AANLkTim3OJfZ8RhxErMKQR3NPqF_bLVahKt=-yPc4oFW@mail.gmail.com>
+From: isshed <isshed.sip@gmail.com>
+To: "Worley, Dale R (Dale)" <dworley@avaya.com>
+Content-Type: multipart/alternative; boundary=00504502c11154ba37049e2e05cb
+Cc: "sip@ietf.org" <sip@ietf.org>, sip-implementors <sip-implementors@lists.cs.columbia.edu>
+Subject: Re: [Sip] Warning header
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 11 Mar 2011 05:12:04 -0000
+
+--00504502c11154ba37049e2e05cb
+Content-Type: text/plain; charset=ISO-8859-1
+
+Thank for your response.
+
+As you correctly said the warning code 306 indicates that the recipient
+cannot understand one of the a= lines. But in this case recipient is
+understanding the a=rtpmap:100 UNACCEPTABLECODEC/8000 line. Only thing it is
+not understanding is the media format(i.e. encoding type). I think 306 is
+best suited for the case of a new attribute i.e a=useless.
+If you ask me i would still say that warning code 305 is best suited.
+
+Thanks,
+On Thu, Mar 10, 2011 at 9:13 PM, Worley, Dale R (Dale) <dworley@avaya.com>wrote:
+
+> ________________________________________
+>  If an initial INVITE from an endpoint offer contains the sdp as follows.
+>
+> m=audio 15190 RTP/AVP 100 101\r\n
+> a=fmtp:18 annexb=yes\r\n
+> a=fmtp:101 0-15\r\n
+> a=rtpmap:100 UNACCEPTABLECODEC/8000\r\n
+> a=sendrecv
+>
+> the terminating endpoint returns an error response 488 with a warning
+> header as follows.
+>
+> Warning: 306 132.177.120.67:5060 "Attribute not understood"
+>
+> Is 306 is correct response?
+> ________________________________________
+>
+> The response is 488, which is correct if the recipient cannot find suitable
+> codecs in the SDP offer.
+> This makes sense, as the SDP contains no audio coded.
+>
+> The warning code 306 indicates that the recipient cannot understand one of
+> the a= lines.  Unfortunately,
+> the message does not indicate which a= line it does not understand.  My
+> understanding is that
+> if the interpreter of SDP does not understand an a= line, it should ignore
+> it, which is aligned with
+> the fact that the response contains a warning (as opposed to an error)
+> about not understanding an a= line.
+>
+> I also see that the m= line mentions codec 101, but there is no
+> a=rtpmap:101 line, which is I think technically
+> an error, but in practice means that the recipient must ignore codec 101.
+>
+> Dale
+>
+
+--00504502c11154ba37049e2e05cb
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div>Thank for your response.</div>
+<div>=A0</div>
+<div>As you correctly said the warning code 306 indicates that the recipien=
+t cannot understand one of the a=3D lines. But in this case recipient is un=
+derstanding the a=3Drtpmap:100 UNACCEPTABLECODEC/8000 line. Only thing it i=
+s not understanding is the media format(i.e. encoding type). I think 306 is=
+ best suited for the case=A0of a new attribute i.e a=3Duseless. <br>
+</div>
+<div>If you ask me i would still say that warning code 305 is best suited.<=
+/div>
+<div>=A0</div>
+<div>Thanks,<br></div>
+<div class=3D"gmail_quote">On Thu, Mar 10, 2011 at 9:13 PM, Worley, Dale R =
+(Dale) <span dir=3D"ltr">&lt;<a href=3D"mailto:dworley@avaya.com">dworley@a=
+vaya.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"PADDING-LEFT: 1ex; MARGIN: 0px 0=
+px 0px 0.8ex; BORDER-LEFT: #ccc 1px solid">________________________________=
+________<br>
+<div>
+<div></div>
+<div class=3D"h5">If an initial INVITE from an endpoint offer contains the =
+sdp as follows.<br><br>m=3Daudio 15190 RTP/AVP 100 101\r\n<br>a=3Dfmtp:18 a=
+nnexb=3Dyes\r\n<br>a=3Dfmtp:101 0-15\r\n<br>a=3Drtpmap:100 UNACCEPTABLECODE=
+C/8000\r\n<br>
+a=3Dsendrecv<br><br>the terminating endpoint returns an error response 488 =
+with a warning header as follows.<br><br>Warning: 306 <a href=3D"http://132=
+.177.120.67:5060/" target=3D"_blank">132.177.120.67:5060</a> &quot;Attribut=
+e not understood&quot;<br>
+<br>Is 306 is correct response?<br></div></div>____________________________=
+____________<br><br>The response is 488, which is correct if the recipient =
+cannot find suitable codecs in the SDP offer.<br>This makes sense, as the S=
+DP contains no audio coded.<br>
+<br>The warning code 306 indicates that the recipient cannot understand one=
+ of the a=3D lines. =A0Unfortunately,<br>the message does not indicate whic=
+h a=3D line it does not understand. =A0My understanding is that<br>if the i=
+nterpreter of SDP does not understand an a=3D line, it should ignore it, wh=
+ich is aligned with<br>
+the fact that the response contains a warning (as opposed to an error) abou=
+t not understanding an a=3D line.<br><br>I also see that the m=3D line ment=
+ions codec 101, but there is no a=3Drtpmap:101 line, which is I think techn=
+ically<br>
+an error, but in practice means that the recipient must ignore codec 101.<b=
+r><font color=3D"#888888"><br>Dale<br></font></blockquote></div><br>
+
+--00504502c11154ba37049e2e05cb--
+
+From saghul@gmail.com  Thu Mar 10 04:33:44 2011
+Return-Path: <saghul@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 45E1A3A6A05 for <sip@core3.amsl.com>; Thu, 10 Mar 2011 04:33:44 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.699
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.699 tagged_above=-999 required=5 tests=[AWL=-0.600, BAYES_00=-2.599, J_CHICKENPOX_15=0.6, J_CHICKENPOX_18=0.6, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id p+ytwA0ZmVMv for <sip@core3.amsl.com>; Thu, 10 Mar 2011 04:33:43 -0800 (PST)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id 26A573A6995 for <sip@ietf.org>; Thu, 10 Mar 2011 04:33:43 -0800 (PST)
+Received: by qwh6 with SMTP id 6so1396523qwh.31 for <sip@ietf.org>; Thu, 10 Mar 2011 04:35:00 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:in-reply-to:references:from:date :message-id:subject:to:cc:content-type:content-transfer-encoding; bh=17IMsEA4XvFgEIpCTKYY+t+R5BC9RRHA4JffBlrWcmg=; b=fF0gAnCv9CSc7SdRJArSvCNr4AVp2hQA7ADDjhGbY/9WGgWrPnjWJ5Dqm6/BYknbci 1EywOYgVvbCYpu+pltYQLVECCL00fDOsWWG1q//eJNHjzR16lQfJ8G3ZVIYNwkUEgCgz +KyEUQjA7fznPu58LuSOAX3FsuYABl+yiufi4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:from:date:message-id:subject:to :cc:content-type:content-transfer-encoding; b=kgaF+oRknNAhHCqA5bKLRO9Xa7ia/a1evosmEBHYyAMy21ifjMs7TEKc3L8CQ7K8Rq RtO9PY6n2Q2L0C49WutTrIdsLmQTdgAvfbYX99QaFhc+Jge59TNGAXEnWs80NTmH6i2F uVwNFHHAFhfX52JNwPhbp8h1woegNLAOvNBWE=
+Received: by 10.229.25.211 with SMTP id a19mr5186763qcc.81.1299760500184; Thu, 10 Mar 2011 04:35:00 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.229.251.132 with HTTP; Thu, 10 Mar 2011 04:34:40 -0800 (PST)
+In-Reply-To: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com>
+References: <AANLkTinCuruaerHNjfw51FnvQ_t6-RwOS5FwgOvWMrmp@mail.gmail.com>
+From: =?UTF-8?Q?Sa=C3=BAl_Ibarra_Corretg=C3=A9?= <saghul@gmail.com>
+Date: Thu, 10 Mar 2011 12:34:40 +0000
+Message-ID: <AANLkTi=+ME=NTjz67GyLjdG40PvBmN7ASfwAGHtsmAZj@mail.gmail.com>
+To: isshed <isshed.sip@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Mailman-Approved-At: Fri, 11 Mar 2011 01:23:43 -0800
+Cc: sip@ietf.org, sip-implementors <sip-implementors@lists.cs.columbia.edu>
+Subject: Re: [Sip] [Sip-implementors] Warning header
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Mar 2011 12:33:44 -0000
+
+I'd do 305 in this one, but that's just my 2 cents.
+
+
+On Thu, Mar 10, 2011 at 11:16 AM, isshed <isshed.sip@gmail.com> wrote:
+> Hi All,
+>
+> If an initial INVITE from an endpoint offer contains the sdp as follows.
+>
+> m=3Daudio 15190 RTP/AVP 100 101\r\n
+> a=3Dfmtp:18 annexb=3Dyes\r\n
+> a=3Dfmtp:101 0-15\r\n
+> a=3Drtpmap:100 UNACCEPTABLECODEC/8000\r\n
+> a=3Dsendrecv
+>
+> the terminating endpoint returns an error response 488 with a warning hea=
+der
+> as follows.
+>
+> Warning: 306 132.177.120.67:5060 "Attribute not understood"
+>
+> Is 306 is correct response?
+>
+> Thanks,
+> _______________________________________________
+> Sip-implementors mailing list
+> Sip-implementors@lists.cs.columbia.edu
+> https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+>
+
+
+
+--=20
+/Sa=C3=BAl
+http://saghul.net | http://sipdoc.net
+
+From sanjiv.jaiswal@nsn.com  Wed Mar  9 02:29:21 2011
+Return-Path: <sanjiv.jaiswal@nsn.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id D27463A68DE for <sip@core3.amsl.com>; Wed,  9 Mar 2011 02:29:21 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.799
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.799 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, J_CHICKENPOX_12=0.6, J_CHICKENPOX_13=0.6, J_CHICKENPOX_15=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id S+gisc+zgimc for <sip@core3.amsl.com>; Wed,  9 Mar 2011 02:29:20 -0800 (PST)
+Received: from demumfd002.nsn-inter.net (demumfd002.nsn-inter.net [93.183.12.31]) by core3.amsl.com (Postfix) with ESMTP id CC9533A6846 for <sip@ietf.org>; Wed,  9 Mar 2011 02:29:19 -0800 (PST)
+Received: from demuprx016.emea.nsn-intra.net ([10.150.129.55]) by demumfd002.nsn-inter.net (8.12.11.20060308/8.12.11) with ESMTP id p29AUTTj028734 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK); Wed, 9 Mar 2011 11:30:29 +0100
+Received: from demuexc022.nsn-intra.net (demuexc022.nsn-intra.net [10.150.128.35]) by demuprx016.emea.nsn-intra.net (8.12.11.20060308/8.12.11) with ESMTP id p29AUSHB012884; Wed, 9 Mar 2011 11:30:29 +0100
+Received: from SGSIEXC007.nsn-intra.net ([10.159.224.87]) by demuexc022.nsn-intra.net with Microsoft SMTPSVC(6.0.3790.4675);  Wed, 9 Mar 2011 11:30:28 +0100
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 9 Mar 2011 18:30:23 +0800
+Message-ID: <FAA28CD01112C94CA8BBE2EFA6CBB2313489AE@SGSIEXC007.nsn-intra.net>
+In-Reply-To: <AANLkTik5eKMvETfbFZQiZDW=ZbQ=CHwbFh+D1S4dTXd-@mail.gmail.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip-implementors] [Sip] Different SDP Session Version in 183 &200 OK
+Thread-Index: AcvePSf1VoxZIuPSSzmM0f9sMbLp+QABog+g
+References: <AANLkTimQfN_1sMhtxjgQOoTWTz_wHJf86Nyu7_L17MkS@mail.gmail.com><AANLkTinfNaFy3F0BAf8Pe00hiNTFMFsBApxZzNOUW1nK@mail.gmail.com><E13C8C03049AFA4E9CEE5A21D3E7F85DB51531B3@GUREXMB02.ASIAN.AD.ARICENT.COM> <AANLkTik5eKMvETfbFZQiZDW=ZbQ=CHwbFh+D1S4dTXd-@mail.gmail.com>
+From: "Jaiswal, Sanjiv (NSN - IN/Bangalore)" <sanjiv.jaiswal@nsn.com>
+To: "ext Nitin Kapoor" <nitinkapoorr@gmail.com>, "Ashish Saxena" <ashish2.saxena@aricent.com>
+X-OriginalArrivalTime: 09 Mar 2011 10:30:28.0536 (UTC) FILETIME=[02728380:01CBDE45]
+X-Mailman-Approved-At: Fri, 11 Mar 2011 01:24:03 -0800
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Different SDP Session Version in 183 &200 OK
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Mar 2011 10:31:52 -0000
+
+Hi Nitin,
+
+
+Every SDP with incremented session ( in this case 200 OK) is treated as
+new negotiation(offer).
+Whether ACK from other end contains SDP answer? If yes then session
+version is incremented there also?
+
+
+Regards
+Sanjiv
+
+-----Original Message-----
+From: sip-implementors-bounces@lists.cs.columbia.edu
+[mailto:sip-implementors-bounces@lists.cs.columbia.edu] On Behalf Of ext
+Nitin Kapoor
+Sent: Wednesday, March 09, 2011 3:03 PM
+To: Ashish Saxena
+Cc: sip@ietf.org; sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip-implementors] [Sip] Different SDP Session Version in
+183 &200 OK
+
+Hello Ashish,
+
+Here is the mline for both the messages.
+
+183:
+
+Media Description, name and address (m): audio 43888 RTP/AVP 18
+
+200 OK:
+
+Media Description, name and address (m): audio 43888 RTP/AVP 18
+
+Thanks,
+Nitin Kapoor
+
+
+On Wed, Mar 9, 2011 at 3:25 AM, Ashish Saxena
+<ashish2.saxena@aricent.com>wrote:
+
+> what is the mline of 200OK SDP.
+>
+> Regards
+> Ashish Saxena
+> (www.aricent.com)
+> ________________________________________
+> From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Nitin
+> Kapoor [nitinkapoorr@gmail.com]
+> Sent: Wednesday, March 09, 2011 12:54 PM
+> To: sip-implementors@lists.cs.columbia.edu
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] Different SDP Session Version in 183 & 200 OK
+>
+> Hello All,
+>
+> Could any one please help me out on requested query as below.
+>
+> Thanks,
+> Nitin
+>
+> On Tue, Mar 8, 2011 at 4:48 PM, Nitin Kapoor <nitinkapoorr@gmail.com
+> <mailto:nitinkapoorr@gmail.com>> wrote:
+> Dear All,
+>
+> I have one call scenario where my termination is sending the SDP in
+183 as
+> well as in 200 OK also. As far as i know if we are getting SDP in 183
+> session progress then my UAC can ignore the SDP in 200 OK. Also most
+of the
+> time SDP is same.
+>
+> But here i noticed the slight difference of "Session Version". Here
+when my
+> termination is sending 188 Session Progress with SDP is sending the
+SDP as
+> below.
+>
+> I can see that  my Termination is incrementing  "Session Version" for
+SDP
+> in 183 & 200 OK in same dialog..
+>
+> 183 with SDP
+>
+> S_OWNER : o=3DTLPMSXP2 22660 22660 IN IP4 69.90.230.210
+> S_NAME : s=3Dsip call
+> S_CONNECT : c=3DIN IP4 69.90.230.217
+> TIME : t=3D0 0
+> M_NAME : m=3Daudio 59072 RTP/AVP 18 4 8 98
+>
+> 200 OK with SDP:
+>
+> S_OWNER : o=3DTLPMSXP2 22660 22661 IN IP4 69.90.230.210
+> S_NAME : s=3Dsip call
+> S_CONNECT : c=3DIN IP4 69.90.230.217
+> TIME : t=3D0 0
+>
+> Could anyone please let me know if that is okay to increment the
+session
+> version and if any supported document is there?
+>
+> Thanks,
+> Nitin
+>
+>
+> "DISCLAIMER: This message is proprietary to Aricent and is intended
+solely
+> for the use of the individual to whom it is addressed. It may contain
+> privileged or confidential information and should not be circulated or
+used
+> for any purpose other than for what it is intended. If you have
+received
+> this message in error, please notify the originator immediately. If
+you are
+> not the intended recipient, you are notified that you are strictly
+> prohibited from using, copying, altering, or disclosing the contents
+of this
+> message. Aricent accepts no responsibility for loss or damage arising
+from
+> the use of the information transmitted by this email including damage
+from
+> virus."
+>
+_______________________________________________
+Sip-implementors mailing list
+Sip-implementors@lists.cs.columbia.edu
+https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors

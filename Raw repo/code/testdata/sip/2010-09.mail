@@ -1,0 +1,2312 @@
+
+From nitinkapoorr@gmail.com  Wed Sep  1 06:50:56 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 56B853A69F5 for <sip@core3.amsl.com>; Wed,  1 Sep 2010 06:50:56 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.669
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.669 tagged_above=-999 required=5 tests=[AWL=-0.560, BAYES_05=-1.11, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id xQZd1sBpEPyT for <sip@core3.amsl.com>; Wed,  1 Sep 2010 06:50:55 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id B6C9A3A6915 for <sip@ietf.org>; Wed,  1 Sep 2010 06:50:50 -0700 (PDT)
+Received: by qwc9 with SMTP id 9so6967287qwc.31 for <sip@ietf.org>; Wed, 01 Sep 2010 06:51:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:received:date:message-id :subject:from:to:content-type; bh=zK8U6YIwhGqVRET3e89muaNsPYvumg3ra81u/GgBA/4=; b=w/qsF6A88JaDUY+devMe+0fm5nOOj69Fgpz+8BgeYyohM2x9+z0HCnXXJHWWKf2vFD /ljsEPnAXRvcgBs/c10XwzKLrTIxp4PTm2FzmBypKzZx0udXMgkn4IYU6U66dZHOP7gX Vdlc0wwLL5eQMF3at0fXwE7/JqVymYsaOVR3w=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=QIsPCvhXOKhu2DaxfK0LhHsY8eKcMevPEEy0giWDq6hf54XAMBGuZ/h/Ud80mO7O7S eRlLE5fMr/TcvZx0SC/jntHWrf0Q2Zlv3FzBudS4VA7QdJN8Xshal8NydvTsHQLnLSY+ xrY66rdw6rotTytuAQpWJzgYhe1bK2ToMYUtk=
+MIME-Version: 1.0
+Received: by 10.224.53.206 with SMTP id n14mr5206515qag.20.1283349080637; Wed, 01 Sep 2010 06:51:20 -0700 (PDT)
+Received: by 10.229.72.28 with HTTP; Wed, 1 Sep 2010 06:51:20 -0700 (PDT)
+Date: Wed, 1 Sep 2010 09:51:20 -0400
+Message-ID: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip-implementors@lists.cs.columbia.edu, sip@ietf.org
+Content-Type: multipart/alternative; boundary=0015175d0aae130098048f32fe24
+Subject: [Sip] Infinite Number of RTP payload in "mline"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 01 Sep 2010 13:50:56 -0000
+
+--0015175d0aae130098048f32fe24
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+I am facing the problem where one of source is sending bunch of RTP payload
+in "mline", and because of that my MSX is stripping 2 codec from that line,
+when its forwarding that OFFER to termination end.
+
+This is the "mline" which i am getting from source:
+
+*m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 56
+118 101 13 120*
+
+This is what my MSX is sending to termination after stripping the payload
+from "mline"
+
+*m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 56
+118 101    *
+
+Now i checked some documents but unable to find anything which says its
+correct or not.
+
+Could any one please give some direction on this whether such amount of
+payload type is correct in "mline" or it not acceptable .
+
+Thanks,
+Nitin Kapoor
+
+--0015175d0aae130098048f32fe24
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,<br><br>I am facing the problem where one of source is sending bun=
+ch of RTP payload in &quot;mline&quot;, and because of that my MSX is strip=
+ping 2 codec from that line, when its forwarding that OFFER to termination =
+end.<br>
+<br>This is the &quot;mline&quot; which i am getting from source:<br><br><b=
+>m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3=
+ 56 118 101 13 120</b><br><br>This is what my MSX is sending to termination=
+ after stripping the payload from &quot;mline&quot;<br>
+<br><b>m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 =
+4 80 3 56 118 101=A0=A0=A0
+</b><br><br>Now i checked some documents but unable to find anything which =
+says its correct or not.<br><br>Could any one please give some direction on=
+ this whether such amount of payload type is correct in &quot;mline&quot; o=
+r it not acceptable .<br>
+<br>Thanks,<br>Nitin Kapoor<br>
+
+--0015175d0aae130098048f32fe24--
+
+From paulej@packetizer.com  Wed Sep  1 09:55:21 2010
+Return-Path: <paulej@packetizer.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 813D23A67F2 for <sip@core3.amsl.com>; Wed,  1 Sep 2010 09:55:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.628
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.628 tagged_above=-999 required=5 tests=[AWL=0.970,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zsB8Tmf4z3ep for <sip@core3.amsl.com>; Wed,  1 Sep 2010 09:55:16 -0700 (PDT)
+Received: from dublin.packetizer.com (dublin.packetizer.com [75.101.130.125]) by core3.amsl.com (Postfix) with ESMTP id 46D0C3A682A for <sip@ietf.org>; Wed,  1 Sep 2010 09:55:12 -0700 (PDT)
+Received: from sydney (rrcs-98-101-146-183.midsouth.biz.rr.com [98.101.146.183]) (authenticated bits=0) by dublin.packetizer.com (8.14.2/8.14.2) with ESMTP id o81GtZwN016719 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Wed, 1 Sep 2010 12:55:40 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=packetizer.com; s=dublin; t=1283360141; bh=BiUnYrYPlMLlTl+5TZiuaeVEVDix1yHSxN2tLqXa5QE=; h=From:To:References:In-Reply-To:Subject:Date:Message-ID: MIME-Version:Content-Type; b=ln4LHrlibdtT5eUBzARnIFbNFNXpaCKkKajhrBQOCwU+/MA2vd/rMc9Bm9PbUER+n +/m7UsL7Zm/H3JpNSuNp9cg8ho/aa+eqZxPS/zHqKmo8wrP7FY8s5d+fZi0iXCrYmF IAiDWO2lqgFxGwHmCMNtUGsD7KD42NTAVmbEL9PA=
+From: "Paul E. Jones" <paulej@packetizer.com>
+To: "'Nitin Kapoor'" <nitinkapoorr@gmail.com>, <sip-implementors@lists.cs.columbia.edu>, <sip@ietf.org>
+References: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com>
+In-Reply-To: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com>
+Date: Wed, 1 Sep 2010 12:54:12 -0400
+Message-ID: <054301cb49f6$50e52c90$f2af85b0$@packetizer.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_0544_01CB49D4.C9D44FE0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQGMsPCF30uBjPYRZnvACLtGKHAuAJN6inrA
+Content-Language: en-us
+Subject: Re: [Sip] Infinite Number of RTP payload in "mline"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 01 Sep 2010 16:55:21 -0000
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0544_01CB49D4.C9D44FE0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+This is valid, though I've never seen so many codecs on a single m= line.
+Who can practically deal with this? ;-)
+
+ 
+
+Paul
+
+ 
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of Nitin
+Kapoor
+Sent: Wednesday, September 01, 2010 9:51 AM
+To: sip-implementors@lists.cs.columbia.edu; sip@ietf.org
+Subject: [Sip] Infinite Number of RTP payload in "mline"
+
+ 
+
+Dear All,
+
+I am facing the problem where one of source is sending bunch of RTP payload
+in "mline", and because of that my MSX is stripping 2 codec from that line,
+when its forwarding that OFFER to termination end.
+
+This is the "mline" which i am getting from source:
+
+m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 56
+118 101 13 120
+
+This is what my MSX is sending to termination after stripping the payload
+from "mline"
+
+m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 56
+118 101    
+
+Now i checked some documents but unable to find anything which says its
+correct or not.
+
+Could any one please give some direction on this whether such amount of
+payload type is correct in "mline" or it not acceptable .
+
+Thanks,
+Nitin Kapoor
+
+
+------=_NextPart_000_0544_01CB49D4.C9D44FE0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>This is valid, though I&#8217;ve never seen so many codecs on a =
+single m=3D line. Who can practically deal with this? =
+;-)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Paul<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div =
+style=3D'border:none;border-left:solid blue 1.5pt;padding:0in 0in 0in =
+4.0pt'><div><div style=3D'border:none;border-top:solid #B5C4DF =
+1.0pt;padding:3.0pt 0in 0in 0in'><p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] <b>On Behalf Of =
+</b>Nitin Kapoor<br><b>Sent:</b> Wednesday, September 01, 2010 9:51 =
+AM<br><b>To:</b> sip-implementors@lists.cs.columbia.edu; =
+sip@ietf.org<br><b>Subject:</b> [Sip] Infinite Number of RTP payload in =
+&quot;mline&quot;<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Dear =
+All,<br><br>I am facing the problem where one of source is sending bunch =
+of RTP payload in &quot;mline&quot;, and because of that my MSX is =
+stripping 2 codec from that line, when its forwarding that OFFER to =
+termination end.<br><br>This is the &quot;mline&quot; which i am getting =
+from source:<br><br><b>m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 =
+42 43 44 45 46 47 4 80 3 56 118 101 13 120</b><br><br>This is what my =
+MSX is sending to termination after stripping the payload from =
+&quot;mline&quot;<br><br><b>m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 =
+40 41 42 43 44 45 46 47 4 80 3 56 118 101&nbsp;&nbsp;&nbsp; =
+</b><br><br>Now i checked some documents but unable to find anything =
+which says its correct or not.<br><br>Could any one please give some =
+direction on this whether such amount of payload type is correct in =
+&quot;mline&quot; or it not acceptable .<br><br>Thanks,<br>Nitin =
+Kapoor<o:p></o:p></p></div></div></body></html>
+------=_NextPart_000_0544_01CB49D4.C9D44FE0--
+
+
+From nitinkapoorr@gmail.com  Wed Sep  1 15:08:38 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 307133A68F2 for <sip@core3.amsl.com>; Wed,  1 Sep 2010 15:08:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.02
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.02 tagged_above=-999 required=5 tests=[AWL=-0.836,  BAYES_40=-0.185, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id KcwM1oL3ReIm for <sip@core3.amsl.com>; Wed,  1 Sep 2010 15:08:36 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id 712783A6849 for <sip@ietf.org>; Wed,  1 Sep 2010 15:08:23 -0700 (PDT)
+Received: by qwc9 with SMTP id 9so7493693qwc.31 for <sip@ietf.org>; Wed, 01 Sep 2010 15:08:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:received:in-reply-to :references:date:message-id:subject:from:to:cc:content-type; bh=y7WXG+mVdbW+ud0VNfbceuulMDambrJI+gOPAo8uqWY=; b=QXDaFMVKXWddmYRjugboyRnPZfKG5vuV0lV7s/oH30Zvy0544OwncL2DeE5Ymb5+ix mkj44NjD8Die4/3b+D2JPm/ugwjJdyiWXDY7YZenyeGHqo5I32Ttj+YiqHmJOUHnY9dl O/kahHJNMgxbjjNGmrqLXKxEfl3OYKg+eLheo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=uST3CU+bTPsTt2QjQMfkPqWcUpzd401+0Ye+u7TMB2pBvV/HcBUnLivaToPNc1UGHi M2Na9BiLh+VewJ1S+5Saj/0ozhj/196wStZ+C8BSAMsZSu1eTMqrNi/aYvSuSUKbJL3Z RzBiIeNrWTQ4eb+z/rNIOKu4tP/9tRXefd9M0=
+MIME-Version: 1.0
+Received: by 10.224.130.77 with SMTP id r13mr3756630qas.163.1283378933292; Wed, 01 Sep 2010 15:08:53 -0700 (PDT)
+Received: by 10.229.72.28 with HTTP; Wed, 1 Sep 2010 15:08:53 -0700 (PDT)
+In-Reply-To: <003901cb49f7$42769ad0$1ede1eac@cisco.com>
+References: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com> <003901cb49f7$42769ad0$1ede1eac@cisco.com>
+Date: Wed, 1 Sep 2010 18:08:53 -0400
+Message-ID: <AANLkTikyrqTN5TC=R=aUn3vT0gcgX3g8eMO86Tp0JKJe@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: Sameer Sawhney <ssawhney@cisco.com>, paulej@packetizer.com
+Content-Type: multipart/alternative; boundary=0016e64ccac66e605f048f39f1dc
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Infinite Number of RTP payload in "mline"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 01 Sep 2010 22:08:38 -0000
+
+--0016e64ccac66e605f048f39f1dc
+Content-Type: text/plain; charset=ISO-8859-1
+
+Thanks for your reply.
+
+I checked the RFC and noticed that it does not limit the codec #s in mline,
+but nor does it comment on infinite number of codecs support being
+mandatory.
+
+So could you please let me know whether it is mandatory to support them or
+not. Because if my SBC is not supporting this then i cannot go and ask them
+to support this.
+
+Thanks,
+Nitin Kapoor
+
+
+
+On 1 September 2010 13:00, Sameer Sawhney <ssawhney@cisco.com> wrote:
+
+> As per spec 2327 this is valid ! check fmt.
+>
+>
+>   media-field =         "m=" media space port ["/" integer]
+>                         space proto 1*(space fmt) CRLF
+>
+>   media =               1*(alpha-numeric)
+>                         ;typically "audio", "video", "application"
+>                         ;or "data"
+>
+>   fmt =                 1*(alpha-numeric)
+>                         ;typically an RTP payload type for audio
+>                         ;and video media
+>
+>   proto =               1*(alpha-numeric)
+>                         ;typically "RTP/AVP" or "udp" for IP4
+>
+>   port =                1*(DIGIT)
+>                         ;should in the range "1024" to "65535" inclusive
+>                         ;for UDP based media
+>
+> -----Original Message-----
+> From: sip-implementors-bounces@lists.cs.columbia.edu
+> [mailto:sip-implementors-bounces@lists.cs.columbia.edu] On Behalf Of Nitin
+> Kapoor
+> Sent: Wednesday, September 01, 2010 7:21 PM
+> To: sip-implementors@lists.cs.columbia.edu; sip@ietf.org
+> Subject: [Sip-implementors] Infinite Number of RTP payload in "mline"
+>
+> Dear All,
+>
+> I am facing the problem where one of source is sending bunch of RTP payload
+> in "mline", and because of that my MSX is stripping 2 codec from that line,
+> when its forwarding that OFFER to termination end.
+>
+> This is the "mline" which i am getting from source:
+>
+> *m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3
+> 56
+> 118 101 13 120*
+>
+> This is what my MSX is sending to termination after stripping the payload
+> from "mline"
+>
+> *m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3
+> 56
+> 118 101    *
+>
+> Now i checked some documents but unable to find anything which says its
+> correct or not.
+>
+> Could any one please give some direction on this whether such amount of
+> payload type is correct in "mline" or it not acceptable .
+>
+> Thanks,
+> Nitin Kapoor
+> _______________________________________________
+> Sip-implementors mailing list
+> Sip-implementors@lists.cs.columbia.edu
+> https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+>
+>
+
+--0016e64ccac66e605f048f39f1dc
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<span style=3D"font-family: georgia,serif;">Thanks for your reply.</span><b=
+r style=3D"font-family: georgia,serif;"><br style=3D"font-family: georgia,s=
+erif;"><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dut=
+f-8"><meta name=3D"ProgId" content=3D"Word.Document"><meta name=3D"Generato=
+r" content=3D"Microsoft Word 12"><meta name=3D"Originator" content=3D"Micro=
+soft Word 12"><link style=3D"font-family: georgia,serif;" rel=3D"File-List"=
+ href=3D"file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtml=
+clip1%5C01%5Cclip_filelist.xml"><link style=3D"font-family: georgia,serif;"=
+ rel=3D"themeData" href=3D"file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E=
+1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx"><link style=3D"font-fam=
+ily: georgia,serif;" rel=3D"colorSchemeMapping" href=3D"file:///C:%5CDOCUME=
+%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschem=
+emapping.xml"><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style><span style=3D"font-size: 12pt; font-family: &quot;Arial&quot;,&quo=
+t;sans-serif&quot;; color: black;"><span style=3D"font-family: georgia,seri=
+f;">I
+checked the RFC and noticed that it does not limit the codec #s in mline, b=
+ut nor does it comment on
+infinite number of codecs support being mandatory.</span><br style=3D"font-=
+family: georgia,serif;">
+<br style=3D"font-family: georgia,serif;"><span style=3D"font-family: georg=
+ia,serif;">So could you please let me know whether it is mandatory to suppo=
+rt them or not. Because if my SBC is not supporting this then i cannot go a=
+nd ask them to support this.</span><br style=3D"font-family: georgia,serif;=
+">
+<br style=3D"font-family: georgia,serif;"><span style=3D"font-family: georg=
+ia,serif;">Thanks,</span><br style=3D"font-family: georgia,serif;"><span st=
+yle=3D"font-family: georgia,serif;">Nitin Kapoor</span><br style=3D"font-fa=
+mily: georgia,serif;">
+
+<br style=3D"">
+</span><br><br><div class=3D"gmail_quote">On 1 September 2010 13:00, Sameer=
+ Sawhney <span dir=3D"ltr">&lt;<a href=3D"mailto:ssawhney@cisco.com">ssawhn=
+ey@cisco.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" sty=
+le=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204);=
+ padding-left: 1ex;">
+As per spec 2327 this is valid ! check fmt.<br>
+<br>
+<br>
+ =A0 media-field =3D =A0 =A0 =A0 =A0 &quot;m=3D&quot; media space port [&qu=
+ot;/&quot; integer]<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 space proto 1*(space fmt) =
+CRLF<br>
+<br>
+ =A0 media =3D =A0 =A0 =A0 =A0 =A0 =A0 =A0 1*(alpha-numeric)<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ;typically &quot;audio&quo=
+t;, &quot;video&quot;, &quot;application&quot;<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ;or &quot;data&quot;<br>
+<br>
+ =A0 fmt =3D =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 1*(alpha-numeric)<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ;typically an RTP payload =
+type for audio<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ;and video media<br>
+<br>
+ =A0 proto =3D =A0 =A0 =A0 =A0 =A0 =A0 =A0 1*(alpha-numeric)<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ;typically &quot;RTP/AVP&q=
+uot; or &quot;udp&quot; for IP4<br>
+<br>
+ =A0 port =3D =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A01*(DIGIT)<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ;should in the range &quot=
+;1024&quot; to &quot;65535&quot; inclusive<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ;for UDP based media<br>
+<div class=3D"im"><br>
+-----Original Message-----<br>
+From: <a href=3D"mailto:sip-implementors-bounces@lists.cs.columbia.edu">sip=
+-implementors-bounces@lists.cs.columbia.edu</a><br>
+[mailto:<a href=3D"mailto:sip-implementors-bounces@lists.cs.columbia.edu">s=
+ip-implementors-bounces@lists.cs.columbia.edu</a>] On Behalf Of Nitin<br>
+Kapoor<br>
+</div><div class=3D"im">Sent: Wednesday, September 01, 2010 7:21 PM<br>
+To: <a href=3D"mailto:sip-implementors@lists.cs.columbia.edu">sip-implement=
+ors@lists.cs.columbia.edu</a>; <a href=3D"mailto:sip@ietf.org">sip@ietf.org=
+</a><br>
+</div><div><div></div><div class=3D"h5">Subject: [Sip-implementors] Infinit=
+e Number of RTP payload in &quot;mline&quot;<br>
+<br>
+Dear All,<br>
+<br>
+I am facing the problem where one of source is sending bunch of RTP payload=
+<br>
+in &quot;mline&quot;, and because of that my MSX is stripping 2 codec from =
+that line,<br>
+when its forwarding that OFFER to termination end.<br>
+<br>
+This is the &quot;mline&quot; which i am getting from source:<br>
+<br>
+*m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3=
+ 56<br>
+118 101 13 120*<br>
+<br>
+This is what my MSX is sending to termination after stripping the payload<b=
+r>
+from &quot;mline&quot;<br>
+<br>
+*m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3=
+ 56<br>
+118 101 =A0 =A0*<br>
+<br>
+Now i checked some documents but unable to find anything which says its<br>
+correct or not.<br>
+<br>
+Could any one please give some direction on this whether such amount of<br>
+payload type is correct in &quot;mline&quot; or it not acceptable .<br>
+<br>
+Thanks,<br>
+Nitin Kapoor<br>
+</div></div>_______________________________________________<br>
+Sip-implementors mailing list<br>
+<div class=3D"im"><a href=3D"mailto:Sip-implementors@lists.cs.columbia.edu"=
+>Sip-implementors@lists.cs.columbia.edu</a><br>
+</div><a href=3D"https://lists.cs.columbia.edu/cucslists/listinfo/sip-imple=
+mentors" target=3D"_blank">https://lists.cs.columbia.edu/cucslists/listinfo=
+/sip-implementors</a><br>
+<br>
+</blockquote></div><br>
+
+--0016e64ccac66e605f048f39f1dc--
+
+From paulej@packetizer.com  Wed Sep  1 15:13:43 2010
+Return-Path: <paulej@packetizer.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 705223A681A for <sip@core3.amsl.com>; Wed,  1 Sep 2010 15:13:43 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.702
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.702 tagged_above=-999 required=5 tests=[AWL=0.896,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Ne6On93esPig for <sip@core3.amsl.com>; Wed,  1 Sep 2010 15:13:34 -0700 (PDT)
+Received: from dublin.packetizer.com (dublin.packetizer.com [75.101.130.125]) by core3.amsl.com (Postfix) with ESMTP id D0ECF3A6856 for <sip@ietf.org>; Wed,  1 Sep 2010 15:13:22 -0700 (PDT)
+Received: from sydney (rrcs-98-101-146-183.midsouth.biz.rr.com [98.101.146.183]) (authenticated bits=0) by dublin.packetizer.com (8.14.2/8.14.2) with ESMTP id o81MDJrV002814 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Wed, 1 Sep 2010 18:13:24 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=packetizer.com; s=dublin; t=1283379205; bh=tXUmaxgPZyrAWthjX77m7HZv36EL3d+HxWPHxQZgtwQ=; h=From:To:Cc:References:In-Reply-To:Subject:Date:Message-ID: MIME-Version:Content-Type; b=XzcZgrQx7d19033D70jdSmKFSPnLmy0iW38ygw860oguUASp4mnllQ9jvVFxvWEGS oWv49jbczL7l20HXf36X39qFQ/eVbRIfI0PsL6nbAXSCIKzYzgH81uNmSUTvRjenuH voDmycsJWEZaMOkToVH7wjA+QIn7MgyndQEdwGVw=
+From: "Paul E. Jones" <paulej@packetizer.com>
+To: "'Nitin Kapoor'" <nitinkapoorr@gmail.com>, "'Sameer Sawhney'" <ssawhney@cisco.com>
+References: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com>	<003901cb49f7$42769ad0$1ede1eac@cisco.com> <AANLkTikyrqTN5TC=R=aUn3vT0gcgX3g8eMO86Tp0JKJe@mail.gmail.com>
+In-Reply-To: <AANLkTikyrqTN5TC=R=aUn3vT0gcgX3g8eMO86Tp0JKJe@mail.gmail.com>
+Date: Wed, 1 Sep 2010 18:11:55 -0400
+Message-ID: <05dd01cb4a22$b3b04bd0$1b10e370$@packetizer.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_05DE_01CB4A01.2CA05980"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQGMsPCF30uBjPYRZnvACLtGKHAuAAIDAjMgApGhXNWTVj4XYA==
+Content-Language: en-us
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Infinite Number of RTP payload in	"mline"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 01 Sep 2010 22:13:43 -0000
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_05DE_01CB4A01.2CA05980
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Nitin,
+
+ 
+
+This is just a matter of personal opinion, but I think having that many
+codecs offered on an m= line is ridiculous.  I'd like to hear somebody give
+justification for doing it :-)
+
+ 
+
+Seriously, how in the world can one build an interoperable system with this
+much clutter to dig through?
+
+ 
+
+Paul
+
+ 
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of Nitin
+Kapoor
+Sent: Wednesday, September 01, 2010 6:09 PM
+To: Sameer Sawhney; paulej@packetizer.com
+Cc: sip@ietf.org; sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Infinite Number of RTP payload in
+"mline"
+
+ 
+
+Thanks for your reply.
+
+I checked the RFC and noticed that it does not limit the codec #s in mline,
+but nor does it comment on infinite number of codecs support being
+mandatory.
+
+So could you please let me know whether it is mandatory to support them or
+not. Because if my SBC is not supporting this then i cannot go and ask them
+to support this.
+
+Thanks,
+Nitin Kapoor
+
+
+
+
+On 1 September 2010 13:00, Sameer Sawhney <ssawhney@cisco.com> wrote:
+
+As per spec 2327 this is valid ! check fmt.
+
+
+  media-field =         "m=" media space port ["/" integer]
+                        space proto 1*(space fmt) CRLF
+
+  media =               1*(alpha-numeric)
+                        ;typically "audio", "video", "application"
+                        ;or "data"
+
+  fmt =                 1*(alpha-numeric)
+                        ;typically an RTP payload type for audio
+                        ;and video media
+
+  proto =               1*(alpha-numeric)
+                        ;typically "RTP/AVP" or "udp" for IP4
+
+  port =                1*(DIGIT)
+                        ;should in the range "1024" to "65535" inclusive
+                        ;for UDP based media
+
+
+-----Original Message-----
+From: sip-implementors-bounces@lists.cs.columbia.edu
+[mailto:sip-implementors-bounces@lists.cs.columbia.edu] On Behalf Of Nitin
+Kapoor
+
+Sent: Wednesday, September 01, 2010 7:21 PM
+To: sip-implementors@lists.cs.columbia.edu; sip@ietf.org
+
+Subject: [Sip-implementors] Infinite Number of RTP payload in "mline"
+
+Dear All,
+
+I am facing the problem where one of source is sending bunch of RTP payload
+in "mline", and because of that my MSX is stripping 2 codec from that line,
+when its forwarding that OFFER to termination end.
+
+This is the "mline" which i am getting from source:
+
+*m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 56
+118 101 13 120*
+
+This is what my MSX is sending to termination after stripping the payload
+from "mline"
+
+*m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 56
+118 101    *
+
+Now i checked some documents but unable to find anything which says its
+correct or not.
+
+Could any one please give some direction on this whether such amount of
+payload type is correct in "mline" or it not acceptable .
+
+Thanks,
+Nitin Kapoor
+
+_______________________________________________
+Sip-implementors mailing list
+
+Sip-implementors@lists.cs.columbia.edu
+
+https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+
+ 
+
+
+------=_NextPart_000_05DE_01CB4A01.2CA05980
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Nitin,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>This is just a matter of personal opinion, but I think having that =
+many codecs offered on an m=3D line is ridiculous.&nbsp; I&#8217;d like =
+to hear somebody give justification for doing it =
+:-)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Seriously, how in the world can one build an interoperable system =
+with this much clutter to dig through?<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Paul<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div =
+style=3D'border:none;border-left:solid blue 1.5pt;padding:0in 0in 0in =
+4.0pt'><div><div style=3D'border:none;border-top:solid #B5C4DF =
+1.0pt;padding:3.0pt 0in 0in 0in'><p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] <b>On Behalf Of =
+</b>Nitin Kapoor<br><b>Sent:</b> Wednesday, September 01, 2010 6:09 =
+PM<br><b>To:</b> Sameer Sawhney; paulej@packetizer.com<br><b>Cc:</b> =
+sip@ietf.org; sip-implementors@lists.cs.columbia.edu<br><b>Subject:</b> =
+Re: [Sip] [Sip-implementors] Infinite Number of RTP payload in =
+&quot;mline&quot;<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><span =
+style=3D'font-family:"Georgia","serif"'>Thanks for your =
+reply.<br><br></span><span =
+style=3D'font-family:"Georgia","serif";color:black'>I checked the RFC =
+and noticed that it does not limit the codec #s in mline, but nor does =
+it comment on infinite number of codecs support being =
+mandatory.<br><br>So could you please let me know whether it is =
+mandatory to support them or not. Because if my SBC is not supporting =
+this then i cannot go and ask them to support =
+this.<br><br>Thanks,<br>Nitin Kapoor<br></span><span =
+style=3D'font-family:"Arial","sans-serif";color:black'><br><br></span><o:=
+p></o:p></p><div><p class=3DMsoNormal>On 1 September 2010 13:00, Sameer =
+Sawhney &lt;<a =
+href=3D"mailto:ssawhney@cisco.com">ssawhney@cisco.com</a>&gt; =
+wrote:<o:p></o:p></p><p class=3DMsoNormal>As per spec 2327 this is valid =
+! check fmt.<br><br><br>&nbsp; media-field =3D &nbsp; &nbsp; &nbsp; =
+&nbsp; &quot;m=3D&quot; media space port [&quot;/&quot; =
+integer]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; space proto 1*(space fmt) CRLF<br><br>&nbsp; =
+media =3D &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+1*(alpha-numeric)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;typically &quot;audio&quot;, =
+&quot;video&quot;, &quot;application&quot;<br>&nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;or =
+&quot;data&quot;<br><br>&nbsp; fmt =3D &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; 1*(alpha-numeric)<br>&nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+;typically an RTP payload type for audio<br>&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;and video =
+media<br><br>&nbsp; proto =3D &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; 1*(alpha-numeric)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;typically &quot;RTP/AVP&quot; =
+or &quot;udp&quot; for IP4<br><br>&nbsp; port =3D &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1*(DIGIT)<br>&nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ;should =
+in the range &quot;1024&quot; to &quot;65535&quot; inclusive<br>&nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; ;for UDP based media<o:p></o:p></p><div><p =
+class=3DMsoNormal><br>-----Original Message-----<br>From: <a =
+href=3D"mailto:sip-implementors-bounces@lists.cs.columbia.edu">sip-implem=
+entors-bounces@lists.cs.columbia.edu</a><br>[mailto:<a =
+href=3D"mailto:sip-implementors-bounces@lists.cs.columbia.edu">sip-implem=
+entors-bounces@lists.cs.columbia.edu</a>] On Behalf Of =
+Nitin<br>Kapoor<o:p></o:p></p></div><div><p class=3DMsoNormal>Sent: =
+Wednesday, September 01, 2010 7:21 PM<br>To: <a =
+href=3D"mailto:sip-implementors@lists.cs.columbia.edu">sip-implementors@l=
+ists.cs.columbia.edu</a>; <a =
+href=3D"mailto:sip@ietf.org">sip@ietf.org</a><o:p></o:p></p></div><div><d=
+iv><p class=3DMsoNormal>Subject: [Sip-implementors] Infinite Number of =
+RTP payload in &quot;mline&quot;<br><br>Dear All,<br><br>I am facing the =
+problem where one of source is sending bunch of RTP payload<br>in =
+&quot;mline&quot;, and because of that my MSX is stripping 2 codec from =
+that line,<br>when its forwarding that OFFER to termination =
+end.<br><br>This is the &quot;mline&quot; which i am getting from =
+source:<br><br>*m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 =
+44 45 46 47 4 80 3 56<br>118 101 13 120*<br><br>This is what my MSX is =
+sending to termination after stripping the payload<br>from =
+&quot;mline&quot;<br><br>*m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 =
+41 42 43 44 45 46 47 4 80 3 56<br>118 101 &nbsp; &nbsp;*<br><br>Now i =
+checked some documents but unable to find anything which says =
+its<br>correct or not.<br><br>Could any one please give some direction =
+on this whether such amount of<br>payload type is correct in =
+&quot;mline&quot; or it not acceptable .<br><br>Thanks,<br>Nitin =
+Kapoor<o:p></o:p></p></div></div><p =
+class=3DMsoNormal>_______________________________________________<br>Sip-=
+implementors mailing list<o:p></o:p></p><div><p class=3DMsoNormal><a =
+href=3D"mailto:Sip-implementors@lists.cs.columbia.edu">Sip-implementors@l=
+ists.cs.columbia.edu</a><o:p></o:p></p></div><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><a =
+href=3D"https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors=
+" =
+target=3D"_blank">https://lists.cs.columbia.edu/cucslists/listinfo/sip-im=
+plementors</a><o:p></o:p></p></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></div></body></html>
+------=_NextPart_000_05DE_01CB4A01.2CA05980--
+
+
+From pkyzivat@cisco.com  Wed Sep  1 15:35:24 2010
+Return-Path: <pkyzivat@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 813093A6849 for <sip@core3.amsl.com>; Wed,  1 Sep 2010 15:35:24 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -110.51
+X-Spam-Level: 
+X-Spam-Status: No, score=-110.51 tagged_above=-999 required=5 tests=[AWL=0.089, BAYES_00=-2.599, RCVD_IN_DNSWL_HI=-8, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id pxBJja6OhB6F for <sip@core3.amsl.com>; Wed,  1 Sep 2010 15:35:22 -0700 (PDT)
+Received: from rtp-iport-1.cisco.com (rtp-iport-1.cisco.com [64.102.122.148]) by core3.amsl.com (Postfix) with ESMTP id 77E383A69CE for <sip@ietf.org>; Wed,  1 Sep 2010 15:35:14 -0700 (PDT)
+Authentication-Results: rtp-iport-1.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-AV: E=Sophos;i="4.56,306,1280707200"; d="scan'208";a="154314725"
+Received: from rtp-core-2.cisco.com ([64.102.124.13]) by rtp-iport-1.cisco.com with ESMTP; 01 Sep 2010 22:35:44 +0000
+Received: from [161.44.174.142] (dhcp-161-44-174-142.cisco.com [161.44.174.142]) by rtp-core-2.cisco.com (8.13.8/8.14.3) with ESMTP id o81MZi0i019631; Wed, 1 Sep 2010 22:35:44 GMT
+Message-ID: <4C7ED540.8050309@cisco.com>
+Date: Wed, 01 Sep 2010 18:35:44 -0400
+From: Paul Kyzivat <pkyzivat@cisco.com>
+User-Agent: Thunderbird 2.0.0.24 (Windows/20100228)
+MIME-Version: 1.0
+To: Nitin Kapoor <nitinkapoorr@gmail.com>
+References: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com>	<003901cb49f7$42769ad0$1ede1eac@cisco.com> <AANLkTikyrqTN5TC=R=aUn3vT0gcgX3g8eMO86Tp0JKJe@mail.gmail.com>
+In-Reply-To: <AANLkTikyrqTN5TC=R=aUn3vT0gcgX3g8eMO86Tp0JKJe@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Cc: Sameer Sawhney <ssawhney@cisco.com>, paulej@packetizer.com, sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Infinite Number of RTP payload in "mline"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 01 Sep 2010 22:35:24 -0000
+
+Nitin Kapoor wrote:
+> Thanks for your reply.
+> 
+> I checked the RFC and noticed that it does not limit the codec #s in mline,
+> but nor does it comment on infinite number of codecs support being
+> mandatory.
+> 
+> So could you please let me know whether it is mandatory to support them or
+> not. Because if my SBC is not supporting this then i cannot go and ask them
+> to support this.
+
+Well, the number is far from infinite. There are only 128 possible 
+payload types, so you shouldn't see more than that many values.
+
+Since there is a reasonable upper bound, it shouldn't be so hard to support.
+
+The device that sent you this clearly thought it was something they were 
+prepared to deal with. You can refuse the ones you don't like, so what 
+is the problem?
+
+	Thanks,
+	Paul
+
+> Thanks,
+> Nitin Kapoor
+> 
+> 
+> 
+> On 1 September 2010 13:00, Sameer Sawhney <ssawhney@cisco.com> wrote:
+> 
+>> As per spec 2327 this is valid ! check fmt.
+>>
+>>
+>>   media-field =         "m=" media space port ["/" integer]
+>>                         space proto 1*(space fmt) CRLF
+>>
+>>   media =               1*(alpha-numeric)
+>>                         ;typically "audio", "video", "application"
+>>                         ;or "data"
+>>
+>>   fmt =                 1*(alpha-numeric)
+>>                         ;typically an RTP payload type for audio
+>>                         ;and video media
+>>
+>>   proto =               1*(alpha-numeric)
+>>                         ;typically "RTP/AVP" or "udp" for IP4
+>>
+>>   port =                1*(DIGIT)
+>>                         ;should in the range "1024" to "65535" inclusive
+>>                         ;for UDP based media
+>>
+>> -----Original Message-----
+>> From: sip-implementors-bounces@lists.cs.columbia.edu
+>> [mailto:sip-implementors-bounces@lists.cs.columbia.edu] On Behalf Of Nitin
+>> Kapoor
+>> Sent: Wednesday, September 01, 2010 7:21 PM
+>> To: sip-implementors@lists.cs.columbia.edu; sip@ietf.org
+>> Subject: [Sip-implementors] Infinite Number of RTP payload in "mline"
+>>
+>> Dear All,
+>>
+>> I am facing the problem where one of source is sending bunch of RTP payload
+>> in "mline", and because of that my MSX is stripping 2 codec from that line,
+>> when its forwarding that OFFER to termination end.
+>>
+>> This is the "mline" which i am getting from source:
+>>
+>> *m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3
+>> 56
+>> 118 101 13 120*
+>>
+>> This is what my MSX is sending to termination after stripping the payload
+>> from "mline"
+>>
+>> *m=audio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3
+>> 56
+>> 118 101    *
+>>
+>> Now i checked some documents but unable to find anything which says its
+>> correct or not.
+>>
+>> Could any one please give some direction on this whether such amount of
+>> payload type is correct in "mline" or it not acceptable .
+>>
+>> Thanks,
+>> Nitin Kapoor
+>> _______________________________________________
+>> Sip-implementors mailing list
+>> Sip-implementors@lists.cs.columbia.edu
+>> https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+>>
+>>
+> _______________________________________________
+> Sip-implementors mailing list
+> Sip-implementors@lists.cs.columbia.edu
+> https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+> 
+
+From dworley@avaya.com  Thu Sep  2 11:30:33 2010
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 37FEA3A67D4 for <sip@core3.amsl.com>; Thu,  2 Sep 2010 11:30:33 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.417
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.417 tagged_above=-999 required=5 tests=[AWL=0.182, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6tQcMuHk7KOz for <sip@core3.amsl.com>; Thu,  2 Sep 2010 11:30:32 -0700 (PDT)
+Received: from de307622-de-outbound.net.avaya.com (de307622-de-outbound.net.avaya.com [198.152.71.100]) by core3.amsl.com (Postfix) with ESMTP id 0420F3A672E for <sip@ietf.org>; Thu,  2 Sep 2010 11:30:31 -0700 (PDT)
+X-IronPort-AV: E=Sophos;i="4.56,309,1280721600"; d="scan'208";a="205724252"
+Received: from unknown (HELO co300216-co-erhwest.avaya.com) ([198.152.7.5]) by de307622-de-outbound.net.avaya.com with ESMTP; 02 Sep 2010 14:30:53 -0400
+X-IronPort-AV: E=Sophos;i="4.56,309,1280721600"; d="scan'208";a="511608613"
+Received: from dc-us1hcex2.us1.avaya.com (HELO DC-US1HCEX2.global.avaya.com) ([135.11.52.21]) by co300216-co-erhwest-out.avaya.com with ESMTP; 02 Sep 2010 14:30:52 -0400
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.2.129]) by DC-US1HCEX2.global.avaya.com ([::1]) with mapi; Thu, 2 Sep 2010 14:30:52 -0400
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: Nitin Kapoor <nitinkapoorr@gmail.com>, "sip-implementors@lists.cs.columbia.edu" <sip-implementors@lists.cs.columbia.edu>, "sip@ietf.org" <sip@ietf.org>
+Date: Thu, 2 Sep 2010 14:28:55 -0400
+Thread-Topic: [Sip] Infinite Number of RTP payload in "mline"
+Thread-Index: ActJ3Mp5RqyQbMefRsu13yWvcUasdwA7+jEZ
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B21FFC79C07@DC-US1MBEX4.global.avaya.com>
+References: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com>
+In-Reply-To: <AANLkTikg9wcC0Q3hyc3g6h1rJoQfPrEFd=VJc_NCoNCV@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: Re: [Sip] Infinite Number of RTP payload in "mline"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 02 Sep 2010 18:30:33 -0000
+
+________________________________________
+From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Nitin Kapoor=
+ [nitinkapoorr@gmail.com]
+
+I am facing the problem where one of source is sending bunch of RTP payload=
+ in "mline", and because of that my MSX is stripping 2 codec from that line=
+, when its forwarding that OFFER to termination end.
+
+This is the "mline" which i am getting from source:
+
+m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 =
+56 118 101 13 120
+
+This is what my MSX is sending to termination after stripping the payload f=
+rom "mline"
+
+m=3Daudio 6300 RTP/AVP 18 0 8 35 36 2 38 39 40 41 42 43 44 45 46 47 4 80 3 =
+56 118 101
+
+Now i checked some documents but unable to find anything which says its cor=
+rect or not.
+________________________________________
+
+The input SDP is correct, of course.  If the MSX's purpose is to limit the =
+number of codecs that the session may use, or to eliminate the use of the c=
+odecs identified by 13 and 120, then it has succeeded.  If its purpose is t=
+o be transparent for SIP usage, its behavior is erroneous.
+
+Dale
+
+From rjsparks@nostrum.com  Tue Sep 14 11:53:35 2010
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 837803A6A9F for <sip@core3.amsl.com>; Tue, 14 Sep 2010 11:53:35 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.446
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.446 tagged_above=-999 required=5 tests=[AWL=0.154, BAYES_00=-2.599, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id xA0uX6u0xKEf for <sip@core3.amsl.com>; Tue, 14 Sep 2010 11:53:34 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id BA71A3A693E for <sip@ietf.org>; Tue, 14 Sep 2010 11:53:33 -0700 (PDT)
+Received: from [192.168.2.105] (pool-173-71-48-4.dllstx.fios.verizon.net [173.71.48.4]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id o8EIrwrJ024308 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Tue, 14 Sep 2010 13:53:58 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+From: Robert Sparks <rjsparks@nostrum.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 14 Sep 2010 13:53:57 -0500
+Message-Id: <6724FD4F-9232-4A0D-8739-E180023BC7EB@nostrum.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Mime-Version: 1.0 (Apple Message framework v1081)
+X-Mailer: Apple Mail (2.1081)
+Received-SPF: pass (nostrum.com: 173.71.48.4 is authenticated by a trusted mechanism)
+Cc: draft-ietf-sip-session-policy-framework@tools.ietf.org
+Subject: [Sip] Finishing draft-ietf-sip-session-policy-framework
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 14 Sep 2010 18:53:35 -0000
+
+FYI -
+
+I've placed draft-ietf-sip-session-policy-framework on the next IESG =
+telechat to get the remaining ballot positions it needs to pass.
+
+RjS=
+
+From wwwrun@rfc-editor.org  Tue Sep 14 12:10:34 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 11B9B3A6B26 for <sip@core3.amsl.com>; Tue, 14 Sep 2010 12:10:34 -0700 (PDT)
+X-Quarantine-ID: <Ujbq57kBGHku>
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Amavis-Alert: BAD HEADER, Non-encoded 8-bit data (char C3 hex): Cc: Alfred H\303\216nes <ah@TR-Sys[...]
+X-Spam-Flag: NO
+X-Spam-Score: -102.126
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.126 tagged_above=-999 required=5 tests=[AWL=0.474, BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Ujbq57kBGHku for <sip@core3.amsl.com>; Tue, 14 Sep 2010 12:10:28 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 97F653A69F5 for <sip@ietf.org>; Tue, 14 Sep 2010 12:10:26 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id ACECAE06DE; Tue, 14 Sep 2010 12:10:47 -0700 (PDT)
+To: Vijay K. Gurbani <vkg@alcatel-lucent.com>, Rohan Mahy <rohan@ekabal.com>, brett@broadsoft.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: rfc-editor@rfc-editor.org 
+Message-Id: <20100914191047.ACECAE06DE@rfc-editor.org>
+Date: Tue, 14 Sep 2010 12:10:47 -0700 (PDT)
+Cc: sip@ietf.org, Alfred HÎnes <ah@TR-Sys.de>, rfc-editor@rfc-editor.org
+Subject: [Sip] Corrected: [Technical Errata Reported] RFC5923 (2310)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 14 Sep 2010 19:10:34 -0000
+
+[Resending with corrected Source of RFC: sip (rai).
+Thanks to Magnus Westerlund for bringing this to our attention.]
+
+
+The following errata report has been submitted for RFC5923,
+"Connection Reuse in the Session Initiation Protocol (SIP)".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5923&eid=2310
+
+--------------------------------------
+Type: Technical
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: 8.2
+
+Original Text
+-------------
+[[ in the last paragraph at the bottom of page 13: ]]
+
+  The server, if it decides to reuse the connection, MUST cache in the
+  alias table the identity (or identities) of the client as they appear
+|  in the X.509 certificate subjectAlternativeName extension field.  [...]
+                                  ^^^^^^^^^^^
+
+Corrected Text
+--------------
+  The server, if it decides to reuse the connection, MUST cache in the
+  alias table the identity (or identities) of the client as they appear
+|  in the X.509 certificate subjectAltName extension field.  [...]
+                                  ^^^
+
+Notes
+-----
+Rationale:
+ Mis-spelling of the defined certificate extension name --
+ see (for example) RFC 5280.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5923 (draft-ietf-sip-connect-reuse-14)
+--------------------------------------
+Title               : Connection Reuse in the Session Initiation Protocol (SIP)
+Publication Date    : June 2010
+Author(s)           : V. Gurbani, Ed., R. Mahy, B. Tate
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+
+From vkg@bell-labs.com  Wed Sep 15 06:38:15 2010
+Return-Path: <vkg@bell-labs.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C53993A6A3D for <sip@core3.amsl.com>; Wed, 15 Sep 2010 06:38:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.457
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.457 tagged_above=-999 required=5 tests=[AWL=0.142, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id iBAnSO541ptd for <sip@core3.amsl.com>; Wed, 15 Sep 2010 06:38:04 -0700 (PDT)
+Received: from ihemail3.lucent.com (ihemail3.lucent.com [135.245.0.37]) by core3.amsl.com (Postfix) with ESMTP id D367E3A6BE0 for <sip@ietf.org>; Wed, 15 Sep 2010 06:38:02 -0700 (PDT)
+Received: from umail.lucent.com (h135-3-40-63.lucent.com [135.3.40.63]) by ihemail3.lucent.com (8.13.8/IER-o) with ESMTP id o8FDbrnm029109 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Wed, 15 Sep 2010 08:37:54 -0500 (CDT)
+Received: from shoonya.ih.lucent.com (Knoppix-135185238233.ih.lucent.com [135.185.238.233]) by umail.lucent.com (8.13.8/TPES) with ESMTP id o8FDbnTd010442; Wed, 15 Sep 2010 08:37:49 -0500 (CDT)
+Message-ID: <4C90CC91.3020607@bell-labs.com>
+Date: Wed, 15 Sep 2010 08:39:29 -0500
+From: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Organization: Bell Laboratories, Alcatel-Lucent
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.11) Gecko/20100720 Fedora/3.0.6-1.fc12 Thunderbird/3.0.6
+MIME-Version: 1.0
+To: rfc-editor@rfc-editor.org
+References: <20100914191047.ACECAE06DE@rfc-editor.org>
+In-Reply-To: <20100914191047.ACECAE06DE@rfc-editor.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.37
+Cc: Rohan Mahy <rohan@ekabal.com>, =?ISO-8859-1?Q?Alfred_H=C3nes?= <ah@TR-Sys.de>, brett@broadsoft.com, sip@ietf.org, drage@alcatel-lucent.com, gonzalo.camarillo@ericsson.com, dean.willis@softarmor.com
+Subject: Re: [Sip] Corrected: [Technical Errata Reported] RFC5923 (2310)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 15 Sep 2010 13:38:15 -0000
+
+Dear RFC Editor: Please change errata state to "Verified".
+The correct use is "SubjectAltName" and not "SubjectAlternativeName".
+
+Thank you,
+
+On 09/14/2010 02:10 PM, rfc-editor@rfc-editor.org wrote:
+>
+> [Resending with corrected Source of RFC: sip (rai).
+> Thanks to Magnus Westerlund for bringing this to our attention.]
+>
+>
+> The following errata report has been submitted for RFC5923,
+> "Connection Reuse in the Session Initiation Protocol (SIP)".
+>
+> --------------------------------------
+> You may review the report below and at:
+> http://www.rfc-editor.org/errata_search.php?rfc=5923&eid=2310
+>
+> --------------------------------------
+> Type: Technical
+> Reported by: Alfred Hoenes<ah@TR-Sys.de>
+>
+> Section: 8.2
+>
+> Original Text
+> -------------
+> [[ in the last paragraph at the bottom of page 13: ]]
+>
+>    The server, if it decides to reuse the connection, MUST cache in the
+>    alias table the identity (or identities) of the client as they appear
+> |  in the X.509 certificate subjectAlternativeName extension field.  [...]
+>                                    ^^^^^^^^^^^
+>
+> Corrected Text
+> --------------
+>    The server, if it decides to reuse the connection, MUST cache in the
+>    alias table the identity (or identities) of the client as they appear
+> |  in the X.509 certificate subjectAltName extension field.  [...]
+>                                    ^^^
+>
+> Notes
+> -----
+> Rationale:
+>   Mis-spelling of the defined certificate extension name --
+>   see (for example) RFC 5280.
+>
+> Instructions:
+> -------------
+> This errata is currently posted as "Reported". If necessary, please
+> use "Reply All" to discuss whether it should be verified or
+> rejected. When a decision is reached, the verifying party (IESG)
+> can log in to change the status and edit the report, if necessary.
+>
+> --------------------------------------
+> RFC5923 (draft-ietf-sip-connect-reuse-14)
+> --------------------------------------
+> Title               : Connection Reuse in the Session Initiation Protocol (SIP)
+> Publication Date    : June 2010
+> Author(s)           : V. Gurbani, Ed., R. Mahy, B. Tate
+> Category            : PROPOSED STANDARD
+> Source              : Session Initiation Protocol
+> Area                : Real-time Applications and Infrastructure
+> Stream              : IETF
+> Verifying Party     : IESG
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP specifications.
+
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From abhatnagar192006@gmail.com  Thu Sep 16 21:36:11 2010
+Return-Path: <abhatnagar192006@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id B21BE3A6BDF for <sip@core3.amsl.com>; Thu, 16 Sep 2010 21:36:11 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 9HsAHo5ZBURM for <sip@core3.amsl.com>; Thu, 16 Sep 2010 21:36:10 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by core3.amsl.com (Postfix) with ESMTP id 7FB1E3A6BD8 for <sip@ietf.org>; Thu, 16 Sep 2010 21:36:10 -0700 (PDT)
+Received: by qyk1 with SMTP id 1so396924qyk.10 for <sip@ietf.org>; Thu, 16 Sep 2010 21:36:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:received:received :in-reply-to:references:date:message-id:subject:from:to:cc :content-type; bh=7QKfXjHppGVHKZ5C+qIYQhMjVLvc49/71MM++RszMNM=; b=dFc4WHDMIrjAc9ro9UOYHkkNmTovC/CVAy4Rg+QoUZ0nWLJkLMnkNAthLTzyAPHPdV USITaDKPMscsgW/dRdroq67STfIVLy0ebHcOlt3fzZhtFQtT8E84/mBM/kt3REyR/3ws tR/8sQieN1R7FseeSQjkp/xW5LLCjx63xkAMQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=dXaQDiUwUjdAAGlSzXfjVNx8INqDojZpG2vc6EwNDNRsS1hXo23aCuePpJ/WJhVrAB hw6tTQ3oBNmvClvl0yylpmp+QlrvJYnKcfBSE4Ui15cT7/ZOeHDI76Woi9lzzhYVPj6b /JuDdTiDqBAqqEfKlE/Z4UayaOOzOXJpRm4LY=
+MIME-Version: 1.0
+Received: by 10.229.51.221 with SMTP id e29mr2701148qcg.229.1284698195130; Thu, 16 Sep 2010 21:36:35 -0700 (PDT)
+Received: by 10.229.2.35 with HTTP; Thu, 16 Sep 2010 21:36:35 -0700 (PDT)
+Received: by 10.229.2.35 with HTTP; Thu, 16 Sep 2010 21:36:35 -0700 (PDT)
+In-Reply-To: <AANLkTi=wq=+RgJaM4pn_F0onVQYR+PE7uHHah9ZKK9d_@mail.gmail.com>
+References: <6724FD4F-9232-4A0D-8739-E180023BC7EB@nostrum.com> <AANLkTi=wq=+RgJaM4pn_F0onVQYR+PE7uHHah9ZKK9d_@mail.gmail.com>
+Date: Fri, 17 Sep 2010 10:06:35 +0530
+Message-ID: <AANLkTimzA9AcLaCBjPKwpviXkL4t-r0SVQE8B61S8cOm@mail.gmail.com>
+From: aayush <abhatnagar192006@gmail.com>
+To: Robert Sparks <rjsparks@nostrum.com>
+Content-Type: multipart/alternative; boundary=0016367d5c8e9078e204906d1bdf
+Cc: "sip@ietf.org List" <sip@ietf.org>, draft-ietf-sip-session-policy-framework@tools.ietf.org
+Subject: Re: [Sip] Finishing draft-ietf-sip-session-policy-framework
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 17 Sep 2010 04:36:11 -0000
+
+--0016367d5c8e9078e204906d1bdf
+Content-Type: text/plain; charset=ISO-8859-1
+
+This draft has expired on 29th August..the date provided on its header. Is
+it still active for the next revision?
+
+On Sep 15, 2010 12:24 AM, "Robert Sparks" <rjsparks@nostrum.com> wrote:
+
+FYI -
+
+I've placed draft-ietf-sip-session-policy-framework on the next IESG
+telechat to get the remaining ballot positions it needs to pass.
+
+RjS
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is essentially closed and only used for finishing old business.
+Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+implementation.
+Use dispatch@ietf.org for new developments on the application of sip.
+Use sipcore@ietf.org for issues related to maintenance of the core SIP
+specifications.
+
+--0016367d5c8e9078e204906d1bdf
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<p>This draft has expired on 29th August..the date provided on its header. =
+Is it still active for the next revision?</p>
+<p><blockquote type=3D"cite">On Sep 15, 2010 12:24 AM, &quot;Robert Sparks&=
+quot; &lt;<a href=3D"mailto:rjsparks@nostrum.com">rjsparks@nostrum.com</a>&=
+gt; wrote:<br><br>FYI -<br>
+<br>
+I&#39;ve placed draft-ietf-sip-session-policy-framework on the next IESG te=
+lechat to get the remaining ballot positions it needs to pass.<br>
+<br>
+RjS<br>
+_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br>
+</blockquote></p>
+
+--0016367d5c8e9078e204906d1bdf--
+
+From keith.drage@alcatel-lucent.com  Fri Sep 17 02:19:22 2010
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 683263A688A for <sip@core3.amsl.com>; Fri, 17 Sep 2010 02:19:22 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.089
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.089 tagged_above=-999 required=5 tests=[AWL=-0.841, BAYES_00=-2.599, HELO_EQ_FR=0.35, HTML_MESSAGE=0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id R5bcKElQpL2P for <sip@core3.amsl.com>; Fri, 17 Sep 2010 02:19:21 -0700 (PDT)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by core3.amsl.com (Postfix) with ESMTP id 2395C3A696F for <sip@ietf.org>; Fri, 17 Sep 2010 02:19:19 -0700 (PDT)
+Received: from FRMRSSXCHHUB03.dc-m.alcatel-lucent.com (FRMRSSXCHHUB03.dc-m.alcatel-lucent.com [135.120.45.63]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id o8H9JDN7010966 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Fri, 17 Sep 2010 11:19:39 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.44]) by FRMRSSXCHHUB03.dc-m.alcatel-lucent.com ([135.120.45.63]) with mapi; Fri, 17 Sep 2010 11:19:24 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: aayush <abhatnagar192006@gmail.com>, Robert Sparks <rjsparks@nostrum.com>
+Date: Fri, 17 Sep 2010 11:19:23 +0200
+Thread-Topic: [Sip] Finishing draft-ietf-sip-session-policy-framework
+Thread-Index: ActWIfIUpRZSJGnMRw62WnekSHsOtAAJy3JQ
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE2170FB9E5@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <6724FD4F-9232-4A0D-8739-E180023BC7EB@nostrum.com> <AANLkTi=wq=+RgJaM4pn_F0onVQYR+PE7uHHah9ZKK9d_@mail.gmail.com> <AANLkTimzA9AcLaCBjPKwpviXkL4t-r0SVQE8B61S8cOm@mail.gmail.com>
+In-Reply-To: <AANLkTimzA9AcLaCBjPKwpviXkL4t-r0SVQE8B61S8cOm@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative; boundary="_000_EDC0A1AE77C57744B664A310A0B23AE2170FB9E5FRMRSSXCHMBSC3d_"
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.64 on 155.132.188.80
+Cc: "sip@ietf.org List" <sip@ietf.org>, "draft-ietf-sip-session-policy-framework@tools.ietf.org" <draft-ietf-sip-session-policy-framework@tools.ietf.org>
+Subject: Re: [Sip] Finishing draft-ietf-sip-session-policy-framework
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 17 Sep 2010 09:19:22 -0000
+
+--_000_EDC0A1AE77C57744B664A310A0B23AE2170FB9E5FRMRSSXCHMBSC3d_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Once publication has been requested, which occurred on 3rd November 2008, i=
+nternet-drafts do not expire.
+
+regards
+
+Keith
+
+________________________________
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of aayus=
+h
+Sent: Friday, September 17, 2010 5:37 AM
+To: Robert Sparks
+Cc: sip@ietf.org List; draft-ietf-sip-session-policy-framework@tools.ietf.o=
+rg
+Subject: Re: [Sip] Finishing draft-ietf-sip-session-policy-framework
+
+
+This draft has expired on 29th August..the date provided on its header. Is =
+it still active for the next revision?
+
+On Sep 15, 2010 12:24 AM, "Robert Sparks" <rjsparks@nostrum.com<mailto:rjsp=
+arks@nostrum.com>> wrote:
+
+FYI -
+
+I've placed draft-ietf-sip-session-policy-framework on the next IESG telech=
+at to get the remaining ballot positions it needs to pass.
+
+RjS
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is essentially closed and only used for finishing old business.
+Use sip-implementors@cs.columbia.edu<mailto:sip-implementors@cs.columbia.ed=
+u> for questions on how to develop a SIP implementation.
+Use dispatch@ietf.org<mailto:dispatch@ietf.org> for new developments on the=
+ application of sip.
+Use sipcore@ietf.org<mailto:sipcore@ietf.org> for issues related to mainten=
+ance of the core SIP specifications.
+
+--_000_EDC0A1AE77C57744B664A310A0B23AE2170FB9E5FRMRSSXCHMBSC3d_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1"=
+>
+<META content=3D"MSHTML 6.00.2900.3660" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D755171709-17092010><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>Once publication has been requested, which occurre=
+d on 3rd=20
+November 2008, internet-drafts do not expire.</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D755171709-17092010><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D755171709-17092010><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>regards</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D755171709-17092010><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D755171709-17092010><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>Keith</FONT></SPAN></DIV><BR>
+<BLOCKQUOTE dir=3Dltr=20
+style=3D"PADDING-LEFT: 5px; MARGIN-LEFT: 5px; BORDER-LEFT: #0000ff 2px soli=
+d; MARGIN-RIGHT: 0px">
+  <DIV class=3DOutlookMessageHeader lang=3Den-us dir=3Dltr align=3Dleft>
+  <HR tabIndex=3D-1>
+  <FONT face=3DTahoma size=3D2><B>From:</B> sip-bounces@ietf.org=20
+  [mailto:sip-bounces@ietf.org] <B>On Behalf Of </B>aayush<BR><B>Sent:</B>=
+=20
+  Friday, September 17, 2010 5:37 AM<BR><B>To:</B> Robert Sparks<BR><B>Cc:<=
+/B>=20
+  sip@ietf.org List;=20
+  draft-ietf-sip-session-policy-framework@tools.ietf.org<BR><B>Subject:</B>=
+ Re:=20
+  [Sip] Finishing draft-ietf-sip-session-policy-framework<BR></FONT><BR></D=
+IV>
+  <DIV></DIV>
+  <P>This draft has expired on 29th August..the date provided on its header=
+. Is=20
+  it still active for the next revision?</P>
+  <P>
+  <BLOCKQUOTE type=3D"cite">On Sep 15, 2010 12:24 AM, "Robert Sparks" &lt;<=
+A=20
+    href=3D"mailto:rjsparks@nostrum.com">rjsparks@nostrum.com</A>&gt;=20
+    wrote:<BR><BR>FYI -<BR><BR>I've placed=20
+    draft-ietf-sip-session-policy-framework on the next IESG telechat to ge=
+t the=20
+    remaining ballot positions it needs to=20
+    pass.<BR><BR>RjS<BR>_______________________________________________<BR>=
+Sip=20
+    mailing list &nbsp;<A href=3D"https://www.ietf.org/mailman/listinfo/sip=
+"=20
+    target=3D_blank>https://www.ietf.org/mailman/listinfo/sip</A><BR>This l=
+ist is=20
+    essentially closed and only used for finishing old business.<BR>Use <A=
+=20
+    href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.co=
+lumbia.edu</A>=20
+    for questions on how to develop a SIP implementation.<BR>Use <A=20
+    href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</A> for new develop=
+ments=20
+    on the application of sip.<BR>Use <A=20
+    href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</A> for issues relate=
+d to=20
+    maintenance of the core SIP specifications.<BR></BLOCKQUOTE>
+  <P></P></BLOCKQUOTE></BODY></HTML>
+
+--_000_EDC0A1AE77C57744B664A310A0B23AE2170FB9E5FRMRSSXCHMBSC3d_--
+
+From root@core3.amsl.com  Tue Sep 21 10:15:02 2010
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 871043A6A83; Tue, 21 Sep 2010 10:15:02 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20100921171502.871043A6A83@core3.amsl.com>
+Date: Tue, 21 Sep 2010 10:15:02 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-certs-15.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 21 Sep 2010 17:15:02 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Certificate Management Service for The Session Initiation Protocol (SIP)
+	Author(s)       : C. Jennings, J. Fischl
+	Filename        : draft-ietf-sip-certs-15.txt
+	Pages           : 31
+	Date            : 2010-09-21
+
+This draft defines a Credential Service that allows Session
+Initiation Protocol (SIP) User Agents (UAs) to use a SIP event
+package to discover the certificates of other users.  This mechanism
+allows user agents that want to contact a given Address-of-Record
+(AOR) to retrieve that AOR's certificate by subscribing to the
+Credential Service, which returns an authenticated response
+containing that certificate.  The Credential Service also allows
+users to store and retrieve their own certificates and private keys.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-certs-15.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-certs-15.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2010-09-21101047.I-D@ietf.org>
+
+
+--NextPart--
+
+From rjsparks@nostrum.com  Tue Sep 21 11:22:08 2010
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 438A53A69D2; Tue, 21 Sep 2010 11:22:08 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.518
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.518 tagged_above=-999 required=5 tests=[AWL=0.082, BAYES_00=-2.599, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Mamq9d7MHdHS; Tue, 21 Sep 2010 11:22:07 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id DB15E3A6783; Tue, 21 Sep 2010 11:22:06 -0700 (PDT)
+Received: from [192.168.2.105] (pool-173-71-48-4.dllstx.fios.verizon.net [173.71.48.4]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id o8LIMTuE037772 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Tue, 21 Sep 2010 13:22:30 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+From: Robert Sparks <rjsparks@nostrum.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 21 Sep 2010 13:22:29 -0500
+Message-Id: <1AD775DB-24D8-4B04-83F1-D7D1521A164F@nostrum.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Mime-Version: 1.0 (Apple Message framework v1081)
+X-Mailer: Apple Mail (2.1081)
+Received-SPF: pass (nostrum.com: 173.71.48.4 is authenticated by a trusted mechanism)
+Cc: Cullen Jennings <fluffy@cisco.com>, rai@ietf.org, Dean Willis <dean.willis@softarmor.com>
+Subject: [Sip] Verifying changes in draft-ietf-sip-certs
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 21 Sep 2010 18:22:08 -0000
+
+All -
+
+The last discuss on draft-ietf-sip-certs has cleared. The draft received =
+a few substantial
+changes as a result of IESG evaluation. I'd like folks to look through =
+what's changed before
+approving the document.
+
+Please look over draft-ietf-sip-certs-15 and comment before Sep 30.
+This diff, in particular, highlights the changes due to IESG evaluation:
+=
+<http://tools.ietf.org/rfcdiff?url1=3Ddraft-ietf-sip-certs-11&difftype=3D-=
+-hwdiff&submit=3DGo!&url2=3Ddraft-ietf-sip-certs-15>
+
+Thanks,
+
+RjS=
+
+From fluffy@cisco.com  Tue Sep 21 11:35:08 2010
+Return-Path: <fluffy@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 4399E3A6A86 for <sip@core3.amsl.com>; Tue, 21 Sep 2010 11:35:08 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -110.496
+X-Spam-Level: 
+X-Spam-Status: No, score=-110.496 tagged_above=-999 required=5 tests=[AWL=0.103, BAYES_00=-2.599, RCVD_IN_DNSWL_HI=-8, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id byi8-BUv2c51 for <sip@core3.amsl.com>; Tue, 21 Sep 2010 11:35:06 -0700 (PDT)
+Received: from sj-iport-3.cisco.com (sj-iport-3.cisco.com [171.71.176.72]) by core3.amsl.com (Postfix) with ESMTP id 101113A695B for <sip@ietf.org>; Tue, 21 Sep 2010 11:35:06 -0700 (PDT)
+Authentication-Results: sj-iport-3.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAHeXmEyrR7Ht/2dsb2JhbACiKnGoKJxEhUEEhE6FaoJ+
+X-IronPort-AV: E=Sophos;i="4.56,401,1280707200"; d="scan'208";a="239488327"
+Received: from sj-core-1.cisco.com ([171.71.177.237]) by sj-iport-3.cisco.com with ESMTP; 21 Sep 2010 18:35:31 +0000
+Received: from [192.168.4.177] (rcdn-fluffy-8711.cisco.com [10.99.9.18]) by sj-core-1.cisco.com (8.13.8/8.14.3) with ESMTP id o8LIZUgA006571; Tue, 21 Sep 2010 18:35:30 GMT
+Mime-Version: 1.0 (Apple Message framework v1081)
+Content-Type: text/plain; charset=us-ascii
+Impp: xmpp:cullenfluffyjennings@jabber.org
+From: Cullen Jennings <fluffy@cisco.com>
+In-Reply-To: <1AD775DB-24D8-4B04-83F1-D7D1521A164F@nostrum.com>
+Date: Tue, 21 Sep 2010 12:35:29 -0600
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <D3D7945E-50F2-49E9-8E81-AC620F184F7E@cisco.com>
+References: <1AD775DB-24D8-4B04-83F1-D7D1521A164F@nostrum.com>
+To: SIP List <sip@ietf.org>
+X-Mailer: Apple Mail (2.1081)
+Cc: Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Verifying changes in draft-ietf-sip-certs
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 21 Sep 2010 18:35:08 -0000
+
+The main change to the draft is the addition of some stronger crypto - =
+namely AES and SHA256. Deployments can use either SHA1 or SHA256. Given =
+some of the attacks on SHA1 since the time this draft was in started, =
+the security folks feel it is best to have SHA256 as well as SHA1. We =
+also added pointers to other IETF documents that give advice on storing =
+private keys on devices and removed a requirement around the names in =
+self signed certificates as that added no security and reduced which =
+certificates could be used.=20
+
+Cullen
+
+On Sep 21, 2010, at 12:22 PM, Robert Sparks wrote:
+
+> All -
+>=20
+> The last discuss on draft-ietf-sip-certs has cleared. The draft =
+received a few substantial
+> changes as a result of IESG evaluation. I'd like folks to look through =
+what's changed before
+> approving the document.
+>=20
+> Please look over draft-ietf-sip-certs-15 and comment before Sep 30.
+> This diff, in particular, highlights the changes due to IESG =
+evaluation:
+> =
+<http://tools.ietf.org/rfcdiff?url1=3Ddraft-ietf-sip-certs-11&difftype=3D-=
+-hwdiff&submit=3DGo!&url2=3Ddraft-ietf-sip-certs-15>
+>=20
+> Thanks,
+>=20
+> RjS
+
+From sulabh.deshmukh@wipro.com  Thu Sep 30 00:10:47 2010
+Return-Path: <sulabh.deshmukh@wipro.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id EA4683A6DBD for <sip@core3.amsl.com>; Thu, 30 Sep 2010 00:10:46 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.675
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.675 tagged_above=-999 required=5 tests=[AWL=0.929,  BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1, RELAY_IS_203=0.994]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dN+G+yiA8RTv for <sip@core3.amsl.com>; Thu, 30 Sep 2010 00:10:32 -0700 (PDT)
+Received: from wipro-blr-out02.wipro.com (wipro-blr-out01.wipro.com [203.91.198.74]) by core3.amsl.com (Postfix) with ESMTP id ECED63A6DC5 for <sip@ietf.org>; Thu, 30 Sep 2010 00:10:27 -0700 (PDT)
+X-AuditID: cb5bdd58-b7b0fae000005aac-5f-4ca43810c08d
+Received: from blr-ec-aa03.wipro.com ( [10.201.18.42]) by wipro-blr-out02.wipro.com (Symantec Mail Security) with SMTP id 8A.2E.23212.01834AC4; Thu, 30 Sep 2010 12:41:12 +0530 (IST)
+Received: from blr-ec-bh02.wipro.com ([10.201.50.92]) by blr-ec-aa03.wipro.com with Microsoft SMTPSVC(6.0.3790.4675);  Thu, 30 Sep 2010 12:41:11 +0530
+Received: from blr-ec-bh04.wipro.com ([10.201.50.98]) by blr-ec-bh02.wipro.com with Microsoft SMTPSVC(6.0.3790.4675);  Thu, 30 Sep 2010 12:41:11 +0530
+Received: from HYD-MDP-MBX01.wipro.com ([10.150.50.181]) by blr-ec-bh04.wipro.com with Microsoft SMTPSVC(6.0.3790.4675);  Thu, 30 Sep 2010 12:41:04 +0530
+Received: from HYD-MKD-MBX02.wipro.com ([10.154.50.182]) by HYD-MDP-MBX01.wipro.com with Microsoft SMTPSVC(6.0.3790.3959);  Thu, 30 Sep 2010 12:40:23 +0530
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01CB606E.844E839A"
+x-cr-hashedpuzzle: A/WV BCZH BnMp By73 B5yp CjeC Cp6O DLig EDcL Ejg5 EnwA FGC9 FpUf F7ZE HW0v HgF+; 1; cwBpAHAAQABpAGUAdABmAC4AbwByAGcA; Sosha1_v1; 7; {81D17835-0BDE-40E2-AC6E-BC29D592BF7F}; cwB1AGwAYQBiAGgALgBkAGUAcwBoAG0AdQBrAGgAQAB3AGkAcAByAG8ALgBjAG8AbQA=; Thu, 30 Sep 2010 07:16:14 GMT; TgBlAGUAZAAgAG8AcABpAG4AaQBvAG4A
+x-cr-puzzleid: {81D17835-0BDE-40E2-AC6E-BC29D592BF7F}
+Content-class: urn:content-classes:message
+Date: Thu, 30 Sep 2010 12:40:09 +0530
+Message-ID: <D90C1FAC55221D4D9563354E245E3BB103426CB6@HYD-MKD-MBX02.wipro.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Need opinion
+thread-index: Actgb14hp48pgNRJRHGnPAswkE6IQQ==
+From: <sulabh.deshmukh@wipro.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 30 Sep 2010 07:10:23.0273 (UTC) FILETIME=[8CA8C190:01CB606E]
+X-Brightmail-Tracker: AAAAAA==
+Subject: [Sip] Need opinion
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Sep 2010 07:15:53 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CB606E.844E839A
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+HI All,
+
+=20
+
+I am some doubt regarding the RFC4566.
+
+=20
+
+According to RFC,
+
+=20
+
+Up to one rtpmap attribute can be defined for each media format
+
+specified. Thus, we might have the following:
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+m=3Daudio 49230 RTP/AVP 96 97 98
+
+a=3Drtpmap:96 L8/8000
+
+a=3Drtpmap:97 L16/8000
+
+a=3Drtpmap:98 L16/11025/2
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+=20
+
+=20
+
+But what if the scenario is like the following,
+
+=20
+
+"m=3Daudio 12167 RTP/AVP 103 98 99 0 101 8 9 18 97 4 120 114 115 116
+117\r\n" &=20
+"c=3DIN IP4 " & v_userA.userhost & "\r\n" &=20
+"a=3Drtpmap:103 AMR/8000/1\r\n" &=20
+"a=3Dfmtp:103 mode-set=3D0,1,2,3,4,5,6,7;octet-align=3D0\r\n" &=20
+"a=3Drtpmap:98 AMR/8000/1\r\n" &=20
+"a=3Dfmtp:98 mode-set=3D0,1,2,3,4,5,6,7;octet-align=3D0\r\n" &=20
+"a=3Drtpmap:99 AMR/8000/1\r\n" &=20
+"a=3Dfmtp:99 mode-set=3D0,1,2,3,4,5,6,7;octet-align=3D0\r\n" &=20
+"a=3Drtpmap:0 PCMU/8000/1\r\n" &=20
+"a=3Drtpmap:101 telephone-event/8000/1\r\n" &=20
+"a=3Dfmtp:101 0-15\r\n" &=20
+"a=3Drtpmap:8 PCMA/8000/1\r\n" &=20
+"a=3Drtpmap:98 AMR/8000/1\r\n" &=20
+"a=3Dfmtp:9 bitrate=3D48,56,64\r\n" &=20
+"a=3Drtpmap:18 G729/8000/1\r\n" &=20
+"a=3Drtpmap:97 EVRC0/8000/1\r\n" &=20
+"a=3Drtpmap:4 G723/8000/1\r\n" &=20
+"a=3Dfmtp:4 bitrate=3D5.3,6.3;annexb=3Dyes\r\n" &=20
+"a=3Drtpmap:120 AMR-WB/16000/1\r\n" &=20
+"a=3Dfmtp:120 mode-set=3D0,1,2,3,4,5,6,7,8;octet-align=3D1\r\n" &=20
+"a=3Drtpmap:114 G726-16/8000/1\r\n" &=20
+"a=3Drtpmap:115 G726-24/8000/1\r\n" &=20
+"a=3Drtpmap:116 G726-32/8000/1\r\n" &=20
+"a=3Drtpmap:117 G726-40/8000/1\r\n"
+
+=20
+
+If you see the red marked attribute this same attribute is getting
+repeated in the SDP.
+
+ I just want to confirm, is this  acceptable behavior?
+
+=20
+
+Can anyone please share his views regarding this?
+
+=20
+
+If this is not the right forum to ask this question can you please
+direct me to the concern forum?
+
+=20
+
+Thanks & Regards,
+
+Sulabh
+
+=20
+
+=20
+
+
+------_=_NextPart_001_01CB606E.844E839A
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:p=3D"urn:schemas-microsoft-com:office:powerpoint" =
+xmlns:a=3D"urn:schemas-microsoft-com:office:access" =
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" =
+xmlns:s=3D"uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" =
+xmlns:rs=3D"urn:schemas-microsoft-com:rowset" =
+xmlns:b=3D"urn:schemas-microsoft-com:office:publisher" =
+xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadsheet" =
+xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" =
+xmlns:odc=3D"urn:schemas-microsoft-com:office:odc" =
+xmlns:oa=3D"urn:schemas-microsoft-com:office:activation" =
+xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" =
+xmlns:rtc=3D"http://microsoft.com/officenet/conferencing" =
+xmlns:D=3D"DAV:" xmlns:Repl=3D"http://schemas.microsoft.com/repl/" =
+xmlns:mt=3D"http://schemas.microsoft.com/sharepoint/soap/meetings/" =
+xmlns:x2=3D"http://schemas.microsoft.com/office/excel/2003/xml" =
+xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" =
+xmlns:ois=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" =
+xmlns:dir=3D"http://schemas.microsoft.com/sharepoint/soap/directory/" =
+xmlns:ds=3D"http://www.w3.org/2000/09/xmldsig#" =
+xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint/dsp" =
+xmlns:udc=3D"http://schemas.microsoft.com/data/udc" =
+xmlns:xsd=3D"http://www.w3.org/2001/XMLSchema" =
+xmlns:sub=3D"http://schemas.microsoft.com/sharepoint/soap/2002/1/alerts/"=
+ xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#" =
+xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" =
+xmlns:sps=3D"http://schemas.microsoft.com/sharepoint/soap/" =
+xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance" =
+xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/soap" =
+xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" =
+xmlns:udcp2p=3D"http://schemas.microsoft.com/data/udc/parttopart" =
+xmlns:wf=3D"http://schemas.microsoft.com/sharepoint/soap/workflow/" =
+xmlns:dsss=3D"http://schemas.microsoft.com/office/2006/digsig-setup" =
+xmlns:dssi=3D"http://schemas.microsoft.com/office/2006/digsig" =
+xmlns:mdssi=3D"http://schemas.openxmlformats.org/package/2006/digital-sig=
+nature" =
+xmlns:mver=3D"http://schemas.openxmlformats.org/markup-compatibility/2006=
+" xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns:mrels=3D"http://schemas.openxmlformats.org/package/2006/relationshi=
+ps" xmlns:spwp=3D"http://microsoft.com/sharepoint/webpartpages" =
+xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/2006/types"=
+ =
+xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/2006/messag=
+es" =
+xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/SlideLibrary/=
+" =
+xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortalServer/Pub=
+lishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" =
+xmlns:st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DWordSection1>
+
+<p class=3DMsoNormal>HI All,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>I am some doubt regarding the =
+RFC4566.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>According to RFC,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Up to one rtpmap attribute can be defined for each =
+media
+format<o:p></o:p></p>
+
+<p class=3DMsoNormal>specified. Thus, we might have the =
+following:<o:p></o:p></p>
+
+<p =
+class=3DMsoNormal>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></=
+p>
+
+<p class=3DMsoNormal>m=3Daudio 49230 RTP/AVP 96 97 98<o:p></o:p></p>
+
+<p class=3DMsoNormal>a=3Drtpmap:96 L8/8000<o:p></o:p></p>
+
+<p class=3DMsoNormal>a=3Drtpmap:97 L16/8000<o:p></o:p></p>
+
+<p class=3DMsoNormal>a=3Drtpmap:98 L16/11025/2<o:p></o:p></p>
+
+<p =
+class=3DMsoNormal>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>But what if the scenario is like the =
+following,<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>&quot;m=3Daudio&nbsp;12167 RTP/AVP 103 98 99 0 101 =
+8 9 18 97 4
+120 114 115 116 117\r\n&quot; &amp; <br>
+&quot;c=3DIN&nbsp;IP4 &quot; &amp; v_userA.userhost &amp; =
+&quot;\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:103&nbsp;AMR/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Dfmtp:103&nbsp;mode-set=3D0,1,2,3,4,5,6,7;octet-align=3D0\r\n&qu=
+ot; &amp; <br>
+<span style=3D'color:red'>&quot;a=3Drtpmap:98&nbsp;AMR/8000/1\r\n&quot; =
+&amp;</span>
+<br>
+&quot;a=3Dfmtp:98&nbsp;mode-set=3D0,1,2,3,4,5,6,7;octet-align=3D0\r\n&quo=
+t; &amp; <br>
+&quot;a=3Drtpmap:99&nbsp;AMR/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Dfmtp:99&nbsp;mode-set=3D0,1,2,3,4,5,6,7;octet-align=3D0\r\n&quo=
+t; &amp; <br>
+&quot;a=3Drtpmap:0&nbsp;PCMU/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:101&nbsp;telephone-event/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Dfmtp:101&nbsp;0-15\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:8&nbsp;PCMA/8000/1\r\n&quot; &amp; <br>
+<span =
+style=3D'color:#C00000'>&quot;a=3Drtpmap:98&nbsp;AMR/8000/1\r\n&quot; =
+&amp;</span>
+<br>
+&quot;a=3Dfmtp:9&nbsp;bitrate=3D48,56,64\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:18&nbsp;G729/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:97&nbsp;EVRC0/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:4&nbsp;G723/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Dfmtp:4&nbsp;bitrate=3D5.3,6.3;annexb=3Dyes\r\n&quot; &amp; =
+<br>
+&quot;a=3Drtpmap:120&nbsp;AMR-WB/16000/1\r\n&quot; &amp; <br>
+&quot;a=3Dfmtp:120&nbsp;mode-set=3D0,1,2,3,4,5,6,7,8;octet-align=3D1\r\n&=
+quot; &amp; <br>
+&quot;a=3Drtpmap:114&nbsp;G726-16/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:115&nbsp;G726-24/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:116&nbsp;G726-32/8000/1\r\n&quot; &amp; <br>
+&quot;a=3Drtpmap:117&nbsp;G726-40/8000/1\r\n&quot;<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>If you see the red marked attribute this same =
+attribute is
+getting repeated in the SDP.<o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;I just want to confirm, is this =
+&nbsp;acceptable
+behavior?<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Can anyone please share his views regarding =
+this?<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>If this is not the right forum to ask this question =
+can you
+please direct me to the concern forum?<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Thanks &amp; Regards,<o:p></o:p></p>
+
+<p class=3DMsoNormal>Sulabh<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01CB606E.844E839A--
+
+From dworley@avaya.com  Thu Sep 30 08:49:20 2010
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 761593A6AE3 for <sip@core3.amsl.com>; Thu, 30 Sep 2010 08:49:20 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.467
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.467 tagged_above=-999 required=5 tests=[AWL=0.132, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id QU+QvBqb3dAo for <sip@core3.amsl.com>; Thu, 30 Sep 2010 08:49:18 -0700 (PDT)
+Received: from p-us1-iereast-outbound-tmp.us1.avaya.com (p-us1-iereast-outbound-tmp.us1.avaya.com [135.11.29.16]) by core3.amsl.com (Postfix) with ESMTP id C1A863A6918 for <sip@ietf.org>; Thu, 30 Sep 2010 08:49:17 -0700 (PDT)
+X-IronPort-AV: E=Sophos;i="4.57,260,1283745600"; d="scan'208";a="37055556"
+Received: from unknown (HELO co300216-co-erhwest.avaya.com) ([198.152.7.5]) by p-us1-iereast-outbound-tmp.us1.avaya.com with ESMTP; 30 Sep 2010 11:50:03 -0400
+X-IronPort-AV: E=Sophos;i="4.57,260,1283745600"; d="scan'208";a="521714509"
+Received: from dc-us1hcex1.us1.avaya.com (HELO DC-US1HCEX1.global.avaya.com) ([135.11.52.20]) by co300216-co-erhwest-out.avaya.com with ESMTP; 30 Sep 2010 11:50:02 -0400
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.2.129]) by DC-US1HCEX1.global.avaya.com ([2002:870b:3414::870b:3414]) with mapi; Thu, 30 Sep 2010 11:50:02 -0400
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: "sulabh.deshmukh@wipro.com" <sulabh.deshmukh@wipro.com>, "sip@ietf.org" <sip@ietf.org>
+Date: Thu, 30 Sep 2010 11:46:32 -0400
+Thread-Topic: Need opinion
+Thread-Index: Actgb14hp48pgNRJRHGnPAswkE6IQQAR0k/Q
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B21FFC79C71@DC-US1MBEX4.global.avaya.com>
+References: <D90C1FAC55221D4D9563354E245E3BB103426CB6@HYD-MKD-MBX02.wipro.com>
+In-Reply-To: <D90C1FAC55221D4D9563354E245E3BB103426CB6@HYD-MKD-MBX02.wipro.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: Re: [Sip] Need opinion
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Sep 2010 15:49:20 -0000
+
+________________________________________
+From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of sulabh.deshm=
+ukh@wipro.com [sulabh.deshmukh@wipro.com]
+
+I am some doubt regarding the RFC4566.
+
+If you see the red marked attribute this same attribute is getting repeated=
+ in the SDP.
+I just want to confirm, is this  acceptable behavior?
+________________________________________
+
+According to the principle of "Be strict in what you send and lenient in wh=
+at you accept", sending two lines that say "a=3Drtpmap:98 AMR/8000/1" shoul=
+d not be done, but the receiver should accept them and interpret them to me=
+an that payload type number 98 is "AMR/8000/1".
+
+Dale
+
+From kpfleming@digium.com  Thu Sep 30 10:39:08 2010
+Return-Path: <kpfleming@digium.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id BA5343A6DEE for <sip@core3.amsl.com>; Thu, 30 Sep 2010 10:39:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -106.339
+X-Spam-Level: 
+X-Spam-Status: No, score=-106.339 tagged_above=-999 required=5 tests=[AWL=0.260, BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bPVxAh7Mksap for <sip@core3.amsl.com>; Thu, 30 Sep 2010 10:39:06 -0700 (PDT)
+Received: from mail.digium.com (mail.digium.com [216.207.245.2]) by core3.amsl.com (Postfix) with ESMTP id E42A03A6DB4 for <sip@ietf.org>; Thu, 30 Sep 2010 10:39:05 -0700 (PDT)
+Received: from zimbra.digium.internal ([10.24.55.203] helo=zimbra.hsv.digium.com) by mail.digium.com with esmtp (Exim 4.69) (envelope-from <kpfleming@digium.com>) id 1P1N6h-0007SR-Qp for sip@ietf.org; Thu, 30 Sep 2010 12:39:47 -0500
+Received: from localhost (localhost.localdomain [127.0.0.1]) by zimbra.hsv.digium.com (Postfix) with ESMTP id BD6F8D8194 for <sip@ietf.org>; Thu, 30 Sep 2010 12:39:47 -0500 (CDT)
+Received: from zimbra.hsv.digium.com ([127.0.0.1]) by localhost (zimbra.hsv.digium.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id rpHI6XYKab+i for <sip@ietf.org>; Thu, 30 Sep 2010 12:39:46 -0500 (CDT)
+Received: from [10.24.250.46] (unknown [10.24.250.46]) by zimbra.hsv.digium.com (Postfix) with ESMTPSA id D5D65D8193 for <sip@ietf.org>; Thu, 30 Sep 2010 12:39:46 -0500 (CDT)
+Message-ID: <4CA4CB62.9080108@digium.com>
+Date: Thu, 30 Sep 2010 12:39:46 -0500
+From: "Kevin P. Fleming" <kpfleming@digium.com>
+Organization: Digium, Inc.
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.12) Gecko/20100915 Thunderbird/3.0.8
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <D90C1FAC55221D4D9563354E245E3BB103426CB6@HYD-MKD-MBX02.wipro.com> <CD5674C3CD99574EBA7432465FC13C1B21FFC79C71@DC-US1MBEX4.global.avaya.com>
+In-Reply-To: <CD5674C3CD99574EBA7432465FC13C1B21FFC79C71@DC-US1MBEX4.global.avaya.com>
+X-Enigmail-Version: 1.0.1
+OpenPGP: id=05FB8DB2
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Subject: Re: [Sip] Need opinion
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: "Kevin P. Fleming" <kpfleming@digium.com>
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Sep 2010 17:39:08 -0000
+
+On 09/30/2010 10:46 AM, Worley, Dale R (Dale) wrote:
+> ________________________________________
+> From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of sulabh.deshmukh@wipro.com [sulabh.deshmukh@wipro.com]
+> 
+> I am some doubt regarding the RFC4566.
+> 
+> If you see the red marked attribute this same attribute is getting repeated in the SDP.
+> I just want to confirm, is this  acceptable behavior?
+> ________________________________________
+> 
+> According to the principle of "Be strict in what you send and lenient in what you accept", sending two lines that say "a=rtpmap:98 AMR/8000/1" should not be done, but the receiver should accept them and interpret them to mean that payload type number 98 is "AMR/8000/1".
+
+To add to what Dale said... if the sender had sent two "a=rtpmap:98"
+lines that did not have the same contents, the behavior of the receiver
+is undefined, as the sender is not RFC compliant. The receiver could
+choose to accept the first one, the second one, or neither, or even
+reject the entire request.
+
+This does not mean, though, that the receiver is obligated to watch for
+duplicated "a=rtpmap" lines and verify that they match. It *can* do so,
+but it can also treat the second one the same as it would if the
+contents did not match the first one. As Dale said, though, it's not
+costly to confirm that the second one does in fact match the first one,
+and accepting the duplicate line is not harmful.
+
+-- 
+Kevin P. Fleming
+Digium, Inc. | Director of Software Technologies
+445 Jan Davis Drive NW - Huntsville, AL 35806 - USA
+skype: kpfleming | jabber: kfleming@digium.com
+Check us out at www.digium.com & www.asterisk.org

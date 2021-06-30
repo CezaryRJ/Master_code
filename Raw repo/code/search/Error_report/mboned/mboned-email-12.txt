@@ -1,0 +1,123 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : mboned
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mboned/2005-10.mailcl']
+id : 826ea45e-8349-4a63-98ac-a322bc59c2c9
+_version_ : 1675128811350392832
+
+Content : 
+
+>>*     Multicast Detective Beta          *
+>>*****************************************
+>>
+>>
+>>Running 8 Tests :
+>>        1.  Joining NLAR Multicast Beacon Group 232.64.133.120, port 10002
+>>Test succeeded:   received response from 32 members
+>>        2.  Joining SSM Video Group 233.4.200.19, 63.105.122.29 port 8020
+>>Test failed:  did not get reponse from any member
+>>        3.  Checking if first-hop router is multicast capabile
+>>Test failed:  no router responded to ping
+>>        4.  Checking if first-hop router is SSM capable
+>>Test failed:  no router responded to ping
+>>        5.  Detecting if there is IGMPv2 capability to first-hop router
+>>Test succeeded:  received IGMPv2 response from the first-hop router
+>>        6.  Detecting if there is IGMPv3 capability to first-hop router
+>>Test failed:  no IGMPv3 response received from the router
+>>        7.  Detecting if first-hop router supports PIM-SM
+>>Test failed:  no router responded to PIM ping
+>>        8.  Detecting if first-hop router knows about an RP
+>>Test failed:  no router responded to PIM-SM Hello
+>>
+>>
+>>*****************************************
+>>*     Multicast Detective Report        *
+>>*****************************************
+>>=> Host is capable of Any Source Multicast (IGMP v2)
+>>=> Host is capable of Source Specific Multicast (IGMP v3)
+>>=> Path to first hop router is working for ASM, router responds to  
+>>IGMPv2 reque
+>>sts.
+>>=> ASM is working for the 'Beacon Group', RTP packets from members were 
+>>received
+>>.
+>>
+>> +> To exit enter 'q' , to re run the test enter 'y'
+>>
+>>
+>>>
+>>> ------------------------------------------------------------------------
+>>>
+>>> Subject:
+>>> mboned: Multicast Detective
+>>> From:
+>>> "Kevin C. Almeroth" <almeroth@cs.ucsb.edu>
+>>> Date:
+>>> Tue, 25 Oct 2005 13:19:29 -0700 (PDT)
+>>> To:
+>>> mboned@lists.uoregon.edu
+>>>
+>>> To:
+>>> mboned@lists.uoregon.edu
+>>> CC:
+>>> Kamil Sarac <ksarac@utdallas.edu>, <avijit@cs.ucsb.edu>
+>>>
+>>>
+>>>Okay, this is a pre-release of some code we put together to
+>>>test local multicast capability...  basically it runs 8 tests:
+>>>
+>>>   1. Joins the NLAR Multicast Beacon Group 232.64.133.120, port 10002
+>>>   2. Joins the SSM Video Group 233.4.200.19, 63.105.122.29 port 8020
+>>>   3. Checks if the first-hop router is multicast capabile
+>>>   4. Checks if the first-hop router is SSM capable
+>>>   5. Detects if there is IGMPv2 capability to the first-hop router
+>>>   6. Detects if there is IGMPv3 capability to the first-hop router
+>>>   7. Detects if the first-hop router supports PIM-SM
+>>>   8. Detects if the first-hop router knows about an RP
+>>>
+>>>And let's you know the results.
+>>>
+>>>We've got source code on the web page, and an executable for Win32.
+>>>Working on an executable for linux...
+>>>
+>>>Web page is at:  http://www.nmsl.cs.ucsb.edu/mcast_detective/
+>>>
+>>>Right now, we're looking for feedback...
+>>>
+>>>-Kevin
+>>>
+>>>
+>>>_______________________________________________________________
+>>>user interface: http://darkwing.uoregon.edu/~llynch/mboned.html
+>>>web archive:  http://darkwing.uoregon.edu/~llynch/mboned/
+>>>
+>>>  
+>>>
+>>
+>>
+
+_______________________________________________________________
+user interface: http://darkwing.uoregon.edu/~llynch/mboned.html
+web archive:  http://darkwing.uoregon.edu/~llynch/mboned/

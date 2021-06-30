@@ -1,0 +1,6 @@
+2000 TO 2010
+-------#####------->    messaging
+mailman-owner@www1.ietf.org 9
+mailman-owner@ietf.org 4
+gcunning@foretec.com 1
+hardie@qualcomm.com 1

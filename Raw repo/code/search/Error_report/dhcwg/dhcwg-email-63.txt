@@ -1,0 +1,119 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : dhcwg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/dhcwg/2007-02.mailcl']
+id : bda3f0a9-5ad9-4ca4-89a0-292929463cf9
+_version_ : 1675129707752849408
+
+Content : 
+
+> disclosure, which has
+> been Cisco's standard IPR disclosure for at least a year and=20
+> which I've
+> included below, explicitly describes for=20
+> draft-ietf-dhc-subnet-alloc-04 what
+> has been Cisco's unstated policy regarding licensing terms.
+>=20
+> - Ralph
+>=20
+>   Cisco is the owner of US Patent No. 7,051,089 relating to the
+>   subject matter of "Subnet Allocation Option"
+>   <draft-ietf-dhc-subnet-alloc-04.txt>.
+>=20
+>   If technology in this document is included in a standard adopted by
+>   IETF and any claims of any Cisco patents are necessary for
+>   practicing the standard, any party will have the right to use any
+>   such patent claims under reasonable, non-discriminatory terms, with
+>   reciprocity, to implement and fully comply with the standard.
+>=20
+>   The reasonable non-discriminatory terms are:
+>=20
+>   If this standard is adopted, Cisco will not assert any patents owned
+>   or controlled by Cisco against any party for making, using, selling,
+>   importing or offering for sale a product that implements the
+>   standard, provided, however that Cisco retains the right to assert
+>   its patents (including the right to claim past royalties) against
+>   any party that asserts a patent it owns or controls (either directly
+>   or indirectly) against Cisco or any of Cisco's affiliates or
+>   successors in title or against any products of Cisco or any products
+>   of any of Cisco's affiliates either alone or in combination with
+>   other products; and Cisco retains the right to assert its patents
+>   against any product or portion thereof that is not necessary for
+>   compliance with the standard.
+>=20
+>   Royalty-bearing licenses will be available to anyone who prefers
+>   that option.
+>=20
+>   For information contact:
+>=20
+>   Dan Lang
+>   Senior IP Counsel
+>   Cisco Systems
+>   408-526-6672
+>   standards-ipr@cisco.com
+>=20
+>=20
+> On 2/23/07 12:09 PM, "Templin, Fred L"=20
+> <Fred.L.Templin@boeing.com> wrote:
+>=20
+> > I have asked in the past about IPR considerations for this document.
+> > If this is indeed just documenting a vendor's proprietary extension,
+> > what are the IPR consideration for its use in other contexts, i.e.,
+> > how much is it going to cost all the rest of us?
+> >=20
+> > Fred
+> > fred.l.templin@boeing.com
+> >=20
+> >> -----Original Message-----
+> >> From: Thomas Narten [mailto:narten@us.ibm.com]
+> >> Sent: Friday, February 23, 2007 5:46 AM
+> >> To: Ralph Droms
+> >> Cc: dhcwg
+> >> Subject: Re: [dhcwg] dhc WG last call on
+> >> draft-ietf-dhc-subnet-alloc-04
+> >>=20
+> >> How would this document be published? Standards Track? Or
+> >> Informational?
+> >>=20
+> >> FWIW, since this is just documenting a vendor-defined existing
+> >> practice, one that the IETF presumably can't modify, I'd assume the
+> >> document would be published as an informational one, unless the WG
+> >> felt fairly strongly that this document really is the=20
+> right/best way
+> >> to address the problem at hand (i.e., with IETF blessing).
+> >>=20
+> >> Thomas
+> >>=20
+> >> _______________________________________________
+> >> dhcwg mailing list
+> >> dhcwg@ietf.org
+> >> https://www1.ietf.org/mailman/listinfo/dhcwg
+> >>=20
+>=20
+
+_______________________________________________
+dhcwg mailing list
+dhcwg@ietf.org
+https://www1.ietf.org/mailman/listinfo/dhcwg

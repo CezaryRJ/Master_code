@@ -1,0 +1,125 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : tcpm
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/tcpm/2006-11.mailcl']
+id : 375239d1-9d77-4518-985b-a7aa54b85169
+_version_ : 1675133805577371648
+
+Content : 
+
+Folks,
+
+Section 4.2 of tcpsecure describes a corner case that is supposedly un-handled.
+
+My understanding is that the mitigation does *not* harm any feature 
+of TCP. Can anybody think of a reason for which RFC 793 states that a 
+reset should be sent in response to in-window SYNs, rather than 
+responding with an ACK (as suggested by TCP secure)?
+
+(maybe simply the fact that an out-of-window SYN could be an 
+old-duplicate, while an in-window SYN certainly indicates an abnormal 
+behaviour (i.e., error condition)?)
+
+Thanks!
+
+--
+Fernando Gont
+e-mail: fernando@gont.com.ar || fgont@acm.org
+PGP Fingerprint: 7809 84F5 322E 45C7 F1C9 3945 96EE A9EF D076 FFF1
+
+
+
+
+
+
+_______________________________________________
+tcpm mailing list
+tcpm@ietf.org
+https://www1.ietf.org/mailman/listinfo/tcpm
+
+
+
+
+
+; Mon, 27 Nov 2006 10:30:39 -0300
+Message-Id: <7.0.1.0.0.20061127052426.04e59d08@gont.com.ar>
+X-Mailer: QUALCOMM Windows Eudora Version 7.0.1.0
+Date: Mon, 27 Nov 2006 09:53:28 -0300
+To: tcpm@ietf.org
+From: Fernando Gont <fernando@gont.com.ar>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+X-Greylist: Sender succeeded SMTP AUTH authentication, not delayed by
+	milter-greylist-2.0.2 (venus.xmundo.net [201.216.232.56]);
+	Mon, 27 Nov 2006 10:30:43 -0300 (ART)
+X-Spam-Score: 0.1 (/)
+X-Scan-Signature: 9466e0365fc95844abaf7c3f15a05c7d
+Subject: [tcpm] tcpsecure & IPR
+X-BeenThere: tcpm@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: TCP Maintenance and Minor Extensions Working Group <tcpm.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/tcpm>,
+	<mailto:tcpm-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:tcpm@ietf.org>
+List-Help: <mailto:tcpm-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/tcpm>,
+	<mailto:tcpm-request@ietf.org?subject=subscribe>
+Errors-To: tcpm-bounces@ietf.org
+
+Folks,
+
+I was having a look at the tcpsecure doc, and at some point I 
+recalled the issue of the pending patent, etc.
+
+A few questions with respect to this issue:
+
+* Is the pending patent on all the mitigations, or just on some of 
+them? If so, which ones?
+* Do vendors have to do paperwork with Cisco (or whoever) before 
+being able to implement this? No matter what the answer to this one 
+is: Is there any online documentation of this that one could show to 
+vendors willing to implement this (but afraid of the patent thing)?
+* Any data regarding implementation of these counter-measures by 
+vendors other than Cisco & Juniper? Open source OSes?
+
+Thanks!
+
+Kindest regards,
+
+--
+Fernando Gont
+e-mail: fernando@gont.com.ar || fgont@acm.org
+PGP Fingerprint: 7809 84F5 322E 45C7 F1C9 3945 96EE A9EF D076 FFF1
+
+
+
+
+
+
+_______________________________________________
+tcpm mailing list
+tcpm@ietf.org
+https://www1.ietf.org/mailman/listinfo/tcpm

@@ -1,0 +1,22 @@
+2010 TO 2020
+-------#####------->    mud
+mcr+ietf@sandelman.ca 42
+lear@cisco.com 40
+mranga@gmail.com 28
+kondtir@gmail.com 13
+mcr@sandelman.ca 7
+bill.wu@huawei.com 6
+elear@cisco.com 6
+kent+ietf@watsen.net 3
+marc.blanchet@viagenie.ca 3
+Ad.Bresser@sidn.nl 1
+Lucas.Estienne@cira.ca 1
+deri@ntop.org 1
+dougm@nist.gov 1
+ek@loon.com 1
+j.schoenwaelder@jacobs-university.de 1
+jschiel@flowtools.net 1
+mcharlesr@gmail.com 1
+mellon@fugue.com 1
+olshansky@isoc.org 1
+romkey@romkey.com 1

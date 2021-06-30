@@ -1,0 +1,12 @@
+2010 TO 2020
+-------#####------->    aggsrv
+stpeter@stpeter.im 5
+adb@cisco.com 3
+paulej@packetizer.com 3
+cyrus@daboo.name 2
+alexey.melnikov@isode.com 1
+jhildebr@cisco.com 1
+johnsonhammond2@hushmail.com 1
+laurentwalter.goix@telecomitalia.it 1
+presnick@qti.qualcomm.com 1
+salvatore.loreto@ericsson.com 1

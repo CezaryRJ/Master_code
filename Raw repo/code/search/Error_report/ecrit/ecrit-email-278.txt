@@ -1,0 +1,335 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ecrit
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ecrit/2006-08.mailcl']
+id : da55bc7d-7882-4616-b655-a4e8192cddaa
+_version_ : 1675133158673088512
+
+Content : 
+
+ConFrom ecrit-bounces@ietf.org Wed Aug 16 08:28:03 2006
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1GDKV2-0001Lc-SH; Wed, 16 Aug 2006 08:27:56 -0400
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1GDKV1-0001Jq-O6
+	for ecrit@ietf.org; Wed, 16 Aug 2006 08:27:55 -0400
+Received: from gecko.sbs.de ([194.138.37.40])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1GDKUz-0004W7-2G
+	for ecrit@ietf.org; Wed, 16 Aug 2006 08:27:55 -0400
+Received: from mail2.sbs.de (localhost [127.0.0.1])
+	by gecko.sbs.de (8.12.6/8.12.6) with ESMTP id k7GCRpfZ013650
+	for <ecrit@ietf.org>; Wed, 16 Aug 2006 14:27:51 +0200
+Received: from fthw9xoa.ww002.siemens.net (fthw9xoa.ww002.siemens.net
+	[157.163.133.201])
+	by mail2.sbs.de (8.12.6/8.12.6) with ESMTP id k7GCRnbI024820
+	for <ecrit@ietf.org>; Wed, 16 Aug 2006 14:27:51 +0200
+Received: from MCHP7IEA.ww002.siemens.net ([139.25.131.145]) by
+	fthw9xoa.ww002.siemens.net with Microsoft SMTPSVC(6.0.3790.1830); 
+	Wed, 16 Aug 2006 14:27:50 +0200
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 16 Aug 2006 14:26:32 +0200
+Message-ID: <A5D2BD54850CCA4AA3B93227205D8A30898C0E@MCHP7IEA.ww002.siemens.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Forward of Off-List Service URN Draft Discussions (3)
+Thread-Index: AcavaGawlf6YJtWqTDCMFL8pTSXPMQRxemSw
+From: "Tschofenig, Hannes" <hannes.tschofenig@siemens.com>
+To: <ecrit@ietf.org>
+X-OriginalArrivalTime: 16 Aug 2006 12:27:50.0096 (UTC)
+	FILETIME=[6357CD00:01C6C12F]
+X-Spam-Score: 0.5 (/)
+X-Scan-Signature: 93e7fb8fef2e780414389440f367c879
+Subject: [Ecrit] Forward of Off-List Service URN Draft Discussions (3)
+X-BeenThere: ecrit@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: ecrit.ietf.org
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ecrit>,
+	<mailto:ecrit-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ecrit@ietf.org>
+List-Help: <mailto:ecrit-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ecrit>,
+	<mailto:ecrit-request@ietf.org?subject=subscribe>
+Errors-To: ecrit-bounces@ietf.org
+
+=20
+
+-----Urspr=FCngliche Nachricht-----
+Von: Leslie Daigle [mailto:leslie@thinkingcat.com]=20
+Gesendet: Montag, 24. Juli 2006 23:30
+An: Henning Schulzrinne
+Cc: Marc Linsner; Tschofenig, Hannes; 'James M. Polk'; =
+jon.peterson@neustar.biz
+Betreff: Re: Moving forward with the Service URN Draft [general]
+
+Howdy,
+
+Sure, follow-up comments in-line:
+
+Henning Schulzrinne wrote:
+> Leslie,
+>=20
+> thanks for your comments. Please see inline for some additional=20
+> questions and a few answers.
+>=20
+> On Jul 21, 2006, at 7:16 PM, Leslie Daigle wrote:
+>=20
+>>
+>> Except.
+>>
+>> It's not at all clear to me that LoST is the resolution service for
+>> service URNs; rather, it seems service URNs are used as data elements
+>> in the LoST specification, and maybe they are useful in doing service
+>> discovery for LoST servers.  Neither of those is URN resolution.  So,
+>> maybe "no resolution service available" is the right answer in this
+>> URN nid registration.
+>>
+>=20
+> I don't know if there's a canonical definition of what resolution is, =
+so=20
+> maybe the best way is to ask you whether this fits the definition:
+>=20
+> (1) S/U-NAPTR is used to find a LoST server (which can depend on the=20
+> top-level service).
+>=20
+> (2) The LoST server translates (resolves, if you like) the service URN =
+
+> (and location) to one or more URLs pointing to "service resources", =
+such=20
+> as an HTTP, SIP or XMPP URL.
+
+But, the question is, is this sort of resolution is applicable to all
+service URNs? -- i.e., it's expected that one be able to do that and get
+a result.
+
+And, then, is there a specific LoST query to carry out that translation?
+(The bit that seems to have fallen between the 2 documents at this
+time).  Or, does it happen as a by-product of a more fully-fleshedtent-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 16 Aug 2006 14:26:35 +0200
+Message-ID: <A5D2BD54850CCA4AA3B93227205D8A30898C06@MCHP7IEA.ww002.siemens.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Forward of Off-List Service URN Draft Discussions (4)
+Thread-Index: AcavbXNOqPWhlmEbTWe+6Gj3e1hotwRwOdLg
+From: "Tschofenig, Hannes" <hannes.tschofenig@siemens.com>
+To: <ecrit@ietf.org>
+X-OriginalArrivalTime: 16 Aug 2006 12:27:48.0971 (UTC)
+	FILETIME=[62AC23B0:01C6C12F]
+X-Spam-Score: 0.5 (/)
+X-Scan-Signature: 4b800b1eab964a31702fa68f1ff0e955
+Subject: [Ecrit] Forward of Off-List Service URN Draft Discussions (4)
+X-BeenThere: ecrit@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: ecrit.ietf.org
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ecrit>,
+	<mailto:ecrit-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ecrit@ietf.org>
+List-Help: <mailto:ecrit-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ecrit>,
+	<mailto:ecrit-request@ietf.org?subject=subscribe>
+Errors-To: ecrit-bounces@ietf.org
+
+=20
+
+-----Urspr=FCngliche Nachricht-----
+Von: Henning Schulzrinne [mailto:hgs@cs.columbia.edu]=20
+Gesendet: Dienstag, 25. Juli 2006 00:06
+An: Leslie Daigle
+Cc: Marc Linsner; Tschofenig, Hannes; 'James M. Polk'; =
+jon.peterson@neustar.biz
+Betreff: Re: Moving forward with the Service URN Draft [general]
+
+> But, the question is, is this sort of resolution is applicable to all
+> service URNs? -- i.e., it's expected that one be able to do that =20
+> and get
+> a result.
+>
+
+Yes, that's the idea. (In principle, it would be possible that there =20
+are multiple resolution protocols, beyond LoST, for a new service =20
+type, but I suppose the more-than-one case is true for just about any =20
+URN.)
+
+> And, then, is there a specific LoST query to carry out that =20
+> translation?
+> (The bit that seems to have fallen between the 2 documents at this
+> time).  Or, does it happen as a by-product of a more fully-fleshed
+> out LoST query?
+
+I'm not sure I fully understand your question, but the actual mapping =20
+does indeed happen within LoST. The LoST query contains, inter alia, =20
+the service URN and the location information. The response contains =20
+zero or more URLs that provide that service.
+
+
+
+>
+> What I had (mis?)understood from the documents was that the service
+> URN would be passed as one data element in some LoST queries, and
+> the LoST response would include the requisite URIs.  I.e., the
+> focus is not on the service URN; it's just a piece of data to
+> help refine the query.
+>
+
+It's one of two key pieces, along with geographic location. I guess =20
+you could call the latter a form of context; not sure if such context-=20
+dependent resolution fits the standard URN resolution model.
+
+
+>> (1) There is no resolution mechanism for a service, anywhere, =20
+>> because it hasn't been defined yet or there are no servers that =20
+>> can translate that service. (Say, urn:service:teleportation might =20
+>> have that quality.)
+>> (2) There is no instance of that resource for a particular =20
+>> location (what you seem to be referring to, e.g., no =20
+>> urn:service:sos on Antarctica).
+>> I guess validation would only apply to the first case?
+>
+> Yep, exactly.  And it's not clear to me you can achieve it with the
+> LoST protocol.
+
+The intent is that you can, subject to the usual false negative =20
+problem of any distributed directory. (If a server is off-line, I =20
+can't tell if it might have had the thing I was looking for.) There =20
+is a second failure case, namely if the domain doesn't know about a =20
+particular top-level service, which might still exist.
+
+Thus, the validation is somewhat limited.
+
+Henning
+
+
+
+_______________________________________________
+Ecrit mailing list
+Ecrit@ietf.org
+https://www1.ietf.org/mailman/listinfo/ecrit
+
+
+
+
+
+
+out LoST query?
+
+>=20
+> I'm happy to declare "no resolution", since that would remove a=20
+> normative dependency, assuming the IESG lets us. I just don't want to=20
+> have the document get thrown back into our lap at IESG review time.
+>=20
+>=20
+>>
+>> Comments on draft-ietf-ecrit-service-urn-03.txt:
+>>
+>>
+>> See comments above -- I think this becomes something like "there is =
+no
+>> global resolution process for service URNs; they are used by other
+>> protocols to identify services and acquire relevant local =
+information."
+>=20
+> I'm not exactly sure what a "resolution" definition is in that case. I =
+
+> thought resolution translated a generic, network-address-independent=20
+> identifier into a specific instance of that resource, accessible by a=20
+> retrieval or access protocol. That pretty much describes the service =
+URN=20
+> + LoST approach.
+
+
+And, maybe it is -- depending on the answer to the questions above,
+especially the first one.
+
+What I had (mis?)understood from the documents was that the service
+URN would be passed as one data element in some LoST queries, and
+the LoST response would include the requisite URIs.  I.e., the
+focus is not on the service URN; it's just a piece of data to
+help refine the query.
+
+>=20
+>=20
+>=20
+>=20
+>>
+>>
+>>>   Validation mechanism: Validation determines whether a given string =
+is
+>>>       currently a validly-assigned URN [15].  The S-NAPTR mechanism =
+also
+>>>       allows to determine if a mapping protocol for a particular =
+top-
+>>>       level service exists.  The mapping protocol itself would then
+>>>       answer the question whether the service identifier exists.  =
+(The
+>> [header snipped]
+>>>       issue of whether a particular combination of service and =
+location
+>>>       yields a usable answer is beyond the scope of this =
+specification.)
+>>
+>>
+>> I suggest there is no validation mechanism, and this section should
+>> say that (plenty of URN namespaces do).  As I understand it,
+>> LoST will yield a highly localized result -- something may provide
+>> a result in one context, but not another (e.g., if there is no
+>> 911 service?).  It's not right, then, to say that the 911 service
+>> URN is invalid.  This is not a validating function.
+>>
+>=20
+> There are two cases of invalid services:
+>=20
+> (1) There is no resolution mechanism for a service, anywhere, because =
+it=20
+> hasn't been defined yet or there are no servers that can translate =
+that=20
+> service. (Say, urn:service:teleportation might have that quality.)
+>=20
+> (2) There is no instance of that resource for a particular location=20
+> (what you seem to be referring to, e.g., no urn:service:sos on =
+Antarctica).
+>=20
+> I guess validation would only apply to the first case?
+
+Yep, exactly.  And it's not clear to me you can achieve it with the
+LoST protocol.
+
+
+Leslie.
+
+_______________________________________________
+Ecrit mailing list
+Ecrit@ietf.org
+https://www1.ietf.org/mailman/listinfo/ecrit

@@ -1,0 +1,24 @@
+2000 TO 2010
+-------#####------->    sip-overload
+volkerh@bell-labs.com 12
+charles@cs.columbia.edu 8
+bruno.chatras@orange-ftgroup.com 7
+jgunn6@csc.com 7
+volkerh@alcatel-lucent.com 7
+TIMOTHY.L.MORAN@saic.com 5
+ecnoel@att.com 4
+mdolly@att.com 4
+partr@cisco.com 4
+en5192@att.com 3
+hgs@cs.columbia.edu 3
+mary.barnes@nortel.com 3
+nick.m.stewart@bt.com 3
+victor.pascual.avila@gmail.com 3
+crjohnson1@att.com 2
+drage@alcatel-lucent.com 2
+geoff.hunt@bt.com 2
+youssef.chadli@orange-ftgroup.com 2
+aabdelal@sonusnet.com 1
+d.malas@cablelabs.com 1
+salvatore.loreto@ericsson.com 1
+tasveren@sonusnet.com 1

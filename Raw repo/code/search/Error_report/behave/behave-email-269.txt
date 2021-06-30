@@ -1,0 +1,99 @@
+Date : ['2007-04-10T22:56:09Z']
+Timezone : +0530
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<461BBC60.6000906@isi.edu>']
+In-Reply-To-name : Null
+In-Reply-To-address :  461BBC60.6000906@isi.edu
+Message-ID : <F62022F5127AB24EA392917D321F44970336F850@xmb-blr-415.apac.cisco.com>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : behave
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/behave/2007-04.mailcl']
+id : 22ba8be0-b538-44a5-bb38-aaf8063dee00
+_version_ : 1675133320973778944
+
+Content : 
+
+of hosts? In that case, code 10 would not be the right one, as the host
+might still be reachable on a different port. I feel that the actual
+choice of error code would vary - it could be code 10 or code 13
+depending on the type of filtering.
+
+What is the reason why we recommend NATs to generate a 'hard' ICMP error
+response? Is it to help hosts to stop generating traffic that would get
+dropped? It might not even be appropriate to send a hard error, as IP
+packets may take different routes, and a NAT in one route should not
+cause the entire flow to stop.
+
+rgds
+Faisal
+
+| -----Original Message-----
+| From: Pekka Savola [mailto:pekkas@netcore.fi]=20
+| Sent: Tuesday, April 10, 2007 12:51 PM
+| To: Joe Touch
+| Cc: Dan Wing (dwing); tcpm@ietf.org; behave@ietf.org; Faisal=20
+| Siyavudeen (fsiyavud)
+| Subject: Re: [tcpm] icmp type 3, code 13
+|=20
+| On Thu, 5 Apr 2007, Joe Touch wrote:
+| ...
+| > I don't know if you can or should require hard or soft=20
+| error response=20
+| > to this code. Code 10 - communication with destination host
+| >    administratively prohibited - is similar in spirit (it's=20
+| a "won't"
+| > rather than a "can't"), and 1122 doesn't require either a=20
+| hard or soft=20
+| > error on that one.
+| >
+| > IMO, it's up to the host to decide how to handle that=20
+| error, just like=20
+| > 12, and that seems reasonable.
+| >
+| > That said, why are you using code 13, vs code 10? This isn't really=20
+| > because of a router doing administrative filtering; IMO, code 10 is=20
+| > sufficient.
+|=20
+| 10 is:
+|=20
+|             10  Communication with Destination Host is
+|                 Administratively Prohibited
+|=20
+| while 13 is:
+|=20
+|             13  Communication Administratively Prohibited    =20
+|  [RFC1812]
+|=20
+| '10' seems to (at least more strongly) imply that all=20
+| communication with the destination address is=20
+| administratively prohibited.
+|=20
+| 13 is less specific; the same code applies even if you=20
+| filtered the whole network, just one host, or only one port of a host.
+|=20
+| --=20
+| Pekka Savola                 "You each name yourselves king, yet the
+| Netcore Oy                    kingdom bleeds."
+| Systems. Networks. Security. -- George R.R. Martin: A Clash of Kings
+|=20
+
+_______________________________________________
+Behave mailing list
+Behave@ietf.org
+https://www1.ietf.org/mailman/listinfo/behave

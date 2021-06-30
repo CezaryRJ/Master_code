@@ -1,0 +1,12 @@
+1990 TO 2000
+-------#####------->    spki
+Internet-Drafts@ns.ietf.org 20
+egerck@laser.cps.softex.br 10
+Yahya.Abual-Salqan@Eng.Sun.COM 4
+Stef@nma.com 2
+Todd.Glassey@mail.coastek.com 2
+balenson@tis.com 2
+mab@research.att.com 2
+smb@research.att.com 2
+stam@ccnet.com 2
+wbenton@NWS.MEMOREX.CO.JP 2

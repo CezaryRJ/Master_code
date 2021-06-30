@@ -1,0 +1,527 @@
+Date : ['2018-02-14T22:47:38Z']
+Timezone : -0000
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['[Detnet] (no subject)']
+Mailing-list : detnet
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/detnet/2018-02.mailcl']
+id : 1bd2a2c9-6742-4510-8551-fc6e71492a6c
+_version_ : 1675133214515003393
+
+Content : 
+
+an egress LSR (LER), this LSR needs to match between the incoming packet =
+and one of his opened LDP sessions. There are several options to solve =
+this issue: one would be to change RFC 4379 and to add to the LDP ipv4 =
+FEC described in the RFC a ping originator address (this address should =
+be the originator=92s transport address).  Another option can be to =
+conclude the LDP session from the source ip address of the echo request =
+packet. The last option in my opinion shouldn=92t be the preferred one =
+since it requires matching between the incoming packet and the =
+address-list TLV used in the LDP protocol. However even this last option =
+should have been discussed in the RFC.=20
+
+=20
+
+Please enlighten me with your thoughts.
+
+Did I miss something in the RFC.=20
+
+Regards
+
+Asaf Henig=20
+
+MRV communications. =20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+ =20
+
+=20
+
+=20
+
+=20
+
+
+------_=_NextPart_001_01C710A6.43C069FB
+Content-Type: text/html;
+	charset="windows-1255"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML =
+DIR=3Drtl><HEAD><META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dwindows-1255"></HEAD><BODY><DIV dir=3Dltr><FONT face=3D'Arial' =
+color=3D#000000 size=3D2>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Section 4.4.1 in the RFC describes an algorithm for Fec =
+Validation, i.e. =0A=
+a procedure to verify the compatibility between the incoming label and =
+the FEC =0A=
+tlv that describes it. </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>However, it appears that the RFC writers didn=92t notice that =
+there are =0A=
+cases in which there is no 1 to 1 compatibility between the incoming =
+labels and =0A=
+FECs.</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><?xml:namespace =
+prefix =3D o ns =3D =0A=
+"urn:schemas-microsoft-com:office:office" /><o:p><FONT face=3D"Times New =
+Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Specifically let me point out the simple LDP ipv4 FEC tlv which =
+includes =0A=
+only a simple prefix to describe any FEC. An LSR advertising the =
+networks to =0A=
+which it is the egress router may advertise different labels to the same =
+network =0A=
+to different LSRs with which it has opened an LDP sessions. This is =
+especially =0A=
+true to LSRs working in Global label space. </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>In general it appears that the RFC writers didn=92t take into =
+consideration =0A=
+the issue of different LDP sessions. Note that although the algorithm =
+described =0A=
+in section 4.4.1 also asks to validate the interface through which the =
+echo =0A=
+request packet arrived, this interface is not an indicator for the LDP =
+session =0A=
+(think of several LSRs found in the same network and are connected by a =
+bridge). =0A=
+</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT size=3D3><FONT =0A=
+face=3D"Times New Roman">It is important to note that there are some FEC =
+TLVs in =0A=
+which this issue is not relevant. An example can be the RSVP ipv4 FEC =
+which =0A=
+includes extended-tunnel-id that marks the ping originator and thus have =
+a full =0A=
+1 to 1 compatibility between the FEC and the incoming label. <SPAN =0A=
+style=3D"mso-spacerun: yes">&nbsp;</SPAN></FONT></FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>When an incoming mpls echo request packet, with an LDP ipv4 =
+FEC, reaches =0A=
+an egress LSR (LER), this LSR needs to match between the intf-mx.ietf.org with esmtp (Exim 4.43) id 1GnzRf-0008V4-9x
+	for mpls@lists.ietf.org; Sat, 25 Nov 2006 10:28:01 -0500
+Received: from chmailqsrv.int.mrv.com (127.0.0.1) by chmailqsrv.int.mrv.com
+	(MlfMTA v3.2r1b3) id hd1gd20171sp for <mpls@lists.ietf.org>;
+	Sat, 25 Nov 2006 07:27:10 -0800 (envelope-from <ahenig@mrv.com>)
+Received: from chmailsrv.int.mrv.com ([192.168.11.19])
+	by chmailqsrv.int.mrv.com (SonicWALL 5.0.0.8239)
+	with ESMTP; Sat, 25 Nov 2006 07:27:10 -0800
+Received: from zeus.yok.int.mrv.com ([172.21.9.11]) by chmailsrv.int.mrv.com
+	with Microsoft SMTPSVC(6.0.3790.1830); 
+	Sat, 25 Nov 2006 07:27:55 -0800
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Date: Sat, 25 Nov 2006 17:26:45 +0200
+Message-ID: <685D66DF6DB563459D23ECD8B30C73A40CD41C@zeus.yok.int.mrv.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: =?windows-1255?Q?BUG_in_RFC_4379_=28_MPLS_Ping_/_Traceroute=29_-_or_maybe?=
+	=?windows-1255?Q?_not_=96_please_enlighten_me?=
+Thread-Index: AccQph2T/seaIBlLQ2OaC87LSWoBYQ==
+From: "Asaf Henig" <ahenig@mrv.com>
+To: <l2vpn@ietf.org>,
+	<mpls@lists.ietf.org>,
+	<mpls@ietf.org>
+X-OriginalArrivalTime: 25 Nov 2006 15:27:55.0267 (UTC)
+	FILETIME=[4772CD30:01C710A6]
+X-Mlf-Version: 5.0.0.8239
+X-Mlf-UniqueId: o200611251527090072636
+X-Spam-Score: 0.1 (/)
+X-Scan-Signature: a3f7094ccc62748c06b21fcf44c073ee
+Cc: Alon Michaeli <amichaeli@mrv.com>, Amnon Ilan <ailan@mrv.com>
+Subject: [mpls] =?windows-1255?q?BUG_in_RFC_4379_=28_MPLS_Ping_/_Tracerou?=
+	=?windows-1255?q?te=29_-_or_maybe_not_=96_please_enlighten_me?=
+X-BeenThere: mpls@lists.ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Multi-Protocol Label Switching WG <mpls.lists.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/mpls>,
+	<mailto:mpls-request@lists.ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/mpls>
+List-Post: <mailto:mpls@lists.ietf.org>
+List-Help: <mailto:mpls-request@lists.ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/mpls>,
+	<mailto:mpls-request@lists.ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0139775663=="
+Errors-To: mpls-bounces@lists.ietf.org
+
+This is a multi-part message in MIME format.
+
+--===============0139775663==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C710A6.43C069FB"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C710A6.43C069FB
+Content-Type: text/plain;
+	charset="windows-1255"
+Content-Transfer-Encoding: quoted-printable
+
+Section 4.4.1 in the RFC describes an algorithm for Fec Validation, i.e. =
+a procedure to verify the compatibility between the incoming label and =
+the FEC tlv that describes it.=20
+
+However, it appears that the RFC writers didn=92t notice that there are =
+cases in which there is no 1 to 1 compatibility between the incoming =
+labels and FECs.
+
+=20
+
+Specifically let me point out the simple LDP ipv4 FEC tlv which includes =
+only a simple prefix to describe any FEC. An LSR advertising the =
+networks to which it is the egress router may advertise different labels =
+to the same network to different LSRs with which it has opened an LDP =
+sessions. This is especially true to LSRs working in Global label space. =
+
+
+In general it appears that the RFC writers didn=92t take into =
+consideration the issue of different LDP sessions. Note that although =
+the algorithm described in section 4.4.1 also asks to validate the =
+interface through which the echo request packet arrived, this interface =
+is not an indicator for the LDP session (think of several LSRs found in =
+the same network and are connected by a bridge).=20
+
+=20
+
+It is important to note that there are some FEC TLVs in which this issue =
+is not relevant. An example can be the RSVP ipv4 FEC which includes =
+extended-tunnel-id that marks the ping originator and thus have a full 1 =
+to 1 compatibility between the FEC and the incoming label. =20
+
+=20
+
+When an incoming mpls echo request packet, with acoming packet =
+and one =0A=
+of his opened LDP sessions. There are several options to solve this =
+issue: one =0A=
+would be to change RFC 4379 and to add to the LDP ipv4 FEC described in =
+the RFC =0A=
+a ping originator address (this address should be the originator=92s =
+transport =0A=
+address).<SPAN style=3D"mso-spacerun: yes">&nbsp; </SPAN>Another option =
+can be to =0A=
+conclude the LDP session from the source ip address of the echo request =
+packet. =0A=
+The last option in my opinion shouldn=92t be the preferred one since it =
+requires =0A=
+matching between the incoming packet and the address-list TLV used in =
+the LDP =0A=
+protocol. However even this last option should have been discussed in =
+the RFC. =0A=
+</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Please enlighten me with your thoughts.</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Did I miss something in the RFC. </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Regards</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Asaf Henig </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT size=3D3><FONT =0A=
+face=3D"Times New Roman">MRV communications.<SPAN style=3D"mso-spacerun: =
+yes">&nbsp; =0A=
+</SPAN></FONT></FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN =0A=
+style=3D"mso-spacerun: yes"><FONT face=3D"Times New Roman" =
+size=3D3>&nbsp; =0A=
+</FONT></SPAN></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P></FONT></DIV></BODY></HTML>
+------_=_NextPart_001_01C710A6.43C069FB--
+
+
+--===============0139775663==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+mpls mailing list
+mpls@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/mpls
+
+--===============0139775663==--
+
+
+
+
+
+
+n LDP ipv4 FEC, reaches =
+an egress LSR (LER), this LSR needs to match between the incoming packet =
+and one of his opened LDP sessions. There are several options to solve =
+this issue: one would be to change RFC 4379 and to add to the LDP ipv4 =
+FEC described in the RFC a ping originator address (this address should =
+be the originator=92s transport address).  Another option can be to =
+conclude the LDP session from the source ip address of the echo request =
+packet. The last option in my opinion shouldn=92t be the preferred one =
+since it requires matching between the incoming packet and the =
+address-list TLV used in the LDP protocol. However even this last option =
+should have been discussed in the RFC.=20
+
+=20
+
+Please enlighten me with your thoughts.
+
+Did I miss something in the RFC.=20
+
+Regards
+
+Asaf Henig=20
+
+MRV communications. =20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+ =20
+
+=20
+
+=20
+
+=20
+
+
+------_=_NextPart_001_01C710A6.43C069FB
+Content-Type: text/html;
+	charset="windows-1255"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML =
+DIR=3Drtl><HEAD><META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dwindows-1255"></HEAD><BODY><DIV dir=3Dltr><FONT face=3D'Arial' =
+color=3D#000000 size=3D2>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Section 4.4.1 in the RFC describes an algorithm for Fec =
+Validation, i.e. =0A=
+a procedure to verify the compatibility between the incoming label and =
+the FEC =0A=
+tlv that describes it. </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>However, it appears that the RFC writers didn=92t notice that =
+there are =0A=
+cases in which there is no 1 to 1 compatibility between the incoming =
+labels and =0A=
+FECs.</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><?xml:namespace =
+prefix =3D o ns =3D =0A=
+"urn:schemas-microsoft-com:office:office" /><o:p><FONT face=3D"Times New =
+Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Specifically let me point out the simple LDP ipv4 FEC tlv which =
+includes =0A=
+only a simple prefix to describe any FEC. An LSR advertising the =
+networks to =0A=
+which it is the egress router may advertise different labels to the same =
+network =0A=
+to different LSRs with which it has opened an LDP sessions. This is =
+especially =0A=
+true to LSRs working in Global label space. </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>In general it appears that the RFC writers didn=92t take into =
+consideration =0A=
+the issue of different LDP sessions. Note that although the algorithm =
+described =0A=
+in section 4.4.1 also asks to validate the interface through which the =
+echo =0A=
+request packet arrived, this interface is not an indicator for the LDP =
+session =0A=
+(think of several LSRs found in the same network and are connected by a =
+bridge). =0A=
+</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT size=3D3><FONT =0A=
+face=3D"Times New Roman">It is important to note that there are some FEC =
+TLVs in =0A=
+which this issue is not relevant. An example can be the RSVP ipv4 FEC =
+which =0A=
+includes extended-tunnel-id that marks the ping originator and thus have =
+a full =0A=
+1 to 1 compatibility between the FEC and the incoming label. <SPAN =0A=
+style=3D"mso-spacerun: yes">&nbsp;</SPAN></FONT></FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>When an incoming mpls echo request packet, with an LDP ipv4 =
+FEC, reaches =0A=
+an egress LSR (LER), this LSR needs to match between the incoming packet =
+and one =0A=
+of his opened LDP sessions. There are several options to solve this =
+issue: one =0A=
+would be to change RFC 4379 and to add to the LDP ipv4 FEC described in =
+the RFC =0A=
+a ping originator address (this address should be the originator=92s =
+transport =0A=
+address).<SPAN style=3D"mso-spacerun: yes">&nbsp; </SPAN>Another option =
+can be to =0A=
+conclude the LDP session from the source ip address of the echo request =
+packet. =0A=
+The last option in my opinion shouldn=92t be the preferred one since it =
+requires =0A=
+matching between the incoming packet and the address-list TLV used in =
+the LDP =0A=
+protocol. However even this last option should have been discussed in =
+the RFC. =0A=
+</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Please enlighten me with your thoughts.</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Did I miss something in the RFC. </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Regards</FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT face=3D"Times =
+New Roman" =0A=
+size=3D3>Asaf Henig </FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT size=3D3><FONT =0A=
+face=3D"Times New Roman">MRV communications.<SPAN style=3D"mso-spacerun: =
+yes">&nbsp; =0A=
+</SPAN></FONT></FONT></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN =0A=
+style=3D"mso-spacerun: yes"><FONT face=3D"Times New Roman" =
+size=3D3>&nbsp; =0A=
+</FONT></SPAN></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P>=0A=
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><o:p><FONT =
+face=3D"Times New Roman" =0A=
+size=3D3>&nbsp;</FONT></o:p></P></FONT></DIV></BODY></HTML>
+------_=_NextPart_001_01C710A6.43C069FB--
+
+
+--===============0139775663==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+mpls mailing list
+mpls@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/mpls
+
+--===============0139775663==--
+
+
+
+-------report
+i was unable to locate this in the file, this looks like corrption however
+

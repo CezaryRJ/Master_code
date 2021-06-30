@@ -1,0 +1,45 @@
+Date : ['2003-04-07T04:27:22Z']
+Timezone : +0000
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : undisclosed-recipients:;
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <200304070418.WAA13422@kathmandu.sun.com>
+References : Null
+Comments : ['Null']
+Subject : ['"Returned due to virus :" NETWORK']
+Mailing-list : mobileip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mobileip/2003-04.mailcl']
+id : 8512ac19-db65-4541-8ee0-2a66e592b725
+_version_ : 1675131544479465472
+
+Content : 
+
+ <html><head><meta HTTP-EQUIV="Content-Type" content="text/html; charset=">
+<title>VIRUS INFECTION ALERT</title></head>
+<body>
+<h1><font color="#FF0000">VIRUS INFECTION ALERT</font></h1>
+<p>Yonsei University AntiVirus system discovered a virus in this file.
+The file was not cleaned and has been removed.
+</p>
+<p>File name: Not available<br>
+Virus name: W32/Braid.eml</p>
+
+<p>Copyright(c) Yonsei University. All Right Reserved. <br></p>
+</body></html>
+
+

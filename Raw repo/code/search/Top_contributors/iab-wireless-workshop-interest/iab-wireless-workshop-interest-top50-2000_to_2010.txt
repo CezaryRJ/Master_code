@@ -1,0 +1,5 @@
+2000 TO 2010
+-------#####------->    iab-wireless-workshop-interest
+mailman-owner@ietf.org 4
+sweilnau@ns.ietf.org 2
+sip-admin@ietf.org 1

@@ -1,0 +1,36 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : extras
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/bmwg/extras/1998-07.mailcl']
+id : 8726a4c7-c8b1-4974-885c-ea21f5308dcd
+_version_ : 1675133295558393857
+
+Content : 
+
+This is to confirm one session for BMWG as follows:
+
+	Monday, August 24 at 0930-1130
+		other groups scheduled at that time: cat, mobileip, diffserv
+

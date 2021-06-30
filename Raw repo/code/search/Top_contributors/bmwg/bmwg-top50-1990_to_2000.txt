@@ -1,0 +1,19 @@
+1990 TO 2000
+-------#####------->    bmwg
+kdubray@BayNetworks.COM 60
+kdubray@ironbridgenetworks.com 13
+Internet-Drafts@ietf.org 12
+pwiggins@cisco.com 10
+Internet-Drafts@ns.ietf.org 8
+dnewman@data.com 8
+kdubray@Conrad.Harvard.EDU 6
+mcquaidj@netscout.com 4
+mcr@sandelman.ottawa.on.ca 4
+Jerome.Freedman@GSC.GTE.Com 2
+dnewman@cmp.com 2
+dnewman@mcgraw-hill.com 2
+iesg-secretary@ns.ietf.org 2
+info@tonex.com 2
+sob@harvard.edu 2
+zoharl@isvntc.isv.dec.com 2
+mike_winslow@csi.com 1

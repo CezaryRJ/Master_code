@@ -1,0 +1,16 @@
+2010 TO 2020
+-------#####------->    addr-select-dt
+arifumi@nttv6.net 52
+tjc@ecs.soton.ac.uk 34
+alh-ietf@tndh.net 9
+bob.hinden@gmail.com 7
+suresh.krishnan@ericsson.com 7
+brian@innovationslab.net 5
+Aleksi.Suhonen@tut.fi 3
+hiromi@inetcore.com 3
+mohacsi@niif.hu 3
+ahain@cisco.com 2
+fujisaki@syce.net 2
+tony@tndh.net 2
+teemu.savolainen@Nokia.com 1
+teemu.savolainen@nokia.com 1

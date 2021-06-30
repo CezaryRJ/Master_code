@@ -1,0 +1,146 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : speermint
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/speermint/2006-08.mailcl']
+id : c2df524e-8542-4da7-8b93-b458a34e885e
+_version_ : 1675129672375992320
+
+Content : 
+
+> > > > > >>>>>>>>> that way, the vendor who builds the proxy for
+> > > > Peer A will be
+> > > > > >>>> able
+> > > > > >>>>> to
+> > > > > >>>>>>>> build
+> > > > > >>>>>>>>> in it the ability to meet the policy for Peer
+> > B.  This
+> > > > > >>>>>>>>> is not
+> > > > > >>>> a
+> > > > > >>>>>>>> protocol
+> > > > > >>>>>>>>> issue, but it is what you would expect to
+> > find in a BCP.
+> > > > > >>>>>>>>>
+> > > > > >>>>>>>>> Similarly, it's not clear to me that a federation will
+> > > > > >>>> necessarily
+> > > > > >>>>>>>> define
+> > > > > >>>>>>>>> all of the potential policy mechanisms, or what
+> > > > their values
+> > > > > >>>> are
+> > > > > >>>>>>>> limited
+> > > > > >>>>>>>>> to.
+> > > > > >>>>>>>>> It clearly WILL do that for some variables,
+> > and again,
+> > > > > >>>>>>>>> we
+> > > > > >>>> don't
+> > > > > >>>>> need
+> > > > > >>>>>>>>> automatic provisioning mechanisms to discover these.
+> > > > > >>>>>>>>> Even
+> > > > > >>>> within
+> > > > > >>>>> a
+> > > > > >>>>>>>>> federation, I think it will be common that bilateral
+> > > > > >>>> arrangements
+> > > > > >>>>>>>> making
+> > > > > >>>>>>>>> further policy limitations will exist.
+> > > > > >>>>>>>>>
+> > > > > >>>>>>>>> Brian
+> > > > > >>>>>>>>>
+> > > > > >>>>>>>>>> -----Original Message-----
+> > > > > >>>>>>>>>> From: Michael Hammer (mhammer)
+> > > > > >>>>>>>>>> [mailto:mhammer@cisco.com]
+> > > > > >>>>>>>>>> Sent: Thursday, August 03, 2006 3:13 PM
+> > > > > >>>>>>>>>> To: Hadriel Kaplan; Brian Rosen
+> > > > > >>>>>>>>>> Cc: speermint@ietf.org
+> > > > > >>>>>>>>>> Subject: RE: [Speermint] Secure RTP
+> > > > > >>>>>>>>>>
+> > > > > >>>>>>>>>> The focus of Speermint should be centered around
+> > > > > >>>>>>>>>> whether one
+> > > > > >>>> can
+> > > > > >>>>>>>>>> discover the policies of a potential peer and
+> > > > whether those
+> > > > > >>>>>>> policies
+> > > > > >>>>>>>> can
+> > > > > >>>>>>>>>> systematically describe the requirements on
+> > > > multiple levels
+> > > > > >>>> that
+> > > > > >>>>>>>> will
+> > > > > >>>>>>>>>> need to be supported to have a successful
+> > communication
+> > > > > >>>>>>>>>> with
+> > > > > >>>>> that
+> > > > > >>>>>>>> peer.
+> > > > > >>>>>>>>>> It is not about specifying X, Y, Z, or <name
+> > > > your favorite
+> > > > > >>>> MUST
+> > > > > >>>>>>>> here>
+> > > > > >>>>>>>>>> Is is about whether the policy can be stated so one
+> > > > > >>>>>>>>>> knows
+> > > > > >>>> that
+> > > > > >>>>> X,
+> > > > > >>>>>>> Y,
+> > > > > >>>>>>>> ...
+> > > > > >>>>>>>>>> is required to peer.
+> > > > > >>>>>>>>>>
+> > > > > >>>>>>>>>> I suspect that each federation will select
+> > > > different MUSTs
+> > > > > >>>> for
+> > > > > >>>>>>> each
+> > > > > >>>>>>>>>> category of choices we come up with.
+> > > > > >>>>>>>>>>
+> > > > > >>>>>>>>>> Mike
+> > > > > >>>>>>>>>>
+> > > > > >>>>>>>>>>
+> > > > > >>>>>
+> > > > > >>>>> _______________________________________________
+> > > > > >>>>> Speermint mailing list
+> > > > > >>>>> Speermint@ietf.org
+> > > > > >>>>> https://www1.ietf.org/mailman/listinfo/speermint
+> > > > > >>
+> > > > > >>
+> > > > > >> _______________________________________________
+> > > > > >> Speermint mailing list
+> > > > > >> Speermint@ietf.org
+> > > > > >> https://www1.ietf.org/mailman/listinfo/speermint
+> > > > > >
+> > > > > >
+> > > >
+> > > >
+> > > >
+> > > > _______________________________________________
+> > > > Speermint mailing list
+> > > > Speermint@ietf.org
+> > > > https://www1.ietf.org/mailman/listinfo/speermint
+> > > >
+> >
+
+
+_______________________________________________
+Speermint mailing list
+Speermint@ietf.org
+https://www1.ietf.org/mailman/listinfo/speermint
+
+------report
+lein 49610
+
+from is missing from header

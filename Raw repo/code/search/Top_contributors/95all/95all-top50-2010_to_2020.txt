@@ -1,0 +1,22 @@
+2010 TO 2020
+-------#####------->    95all
+ietf-secretariat@ietf.org 14
+chair@ietf.org 7
+rpelletier@isoc.org 4
+cmorgan@amsl.com 3
+oflaherty@isoc.org 3
+agenda@ietf.org 2
+iaoc-chair@ietf.org 2
+jim@daedelus.com 2
+sjacob@juniper.net 2
+dacheng.zdc@alibaba-inc.com 1
+fernando@gont.com.ar 1
+glen@amsl.com 1
+kepeng.lkp@alibaba-inc.com 1
+liang.geng@hotmail.com 1
+lnugent@amsl.com 1
+max@dotalks.com 1
+naeemk@ifi.uio.no 1
+vinayakh@gmail.com 1
+vishnupavan@gmail.com 1
+zhangfatai@huawei.com 1

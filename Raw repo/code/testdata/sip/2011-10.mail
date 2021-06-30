@@ -1,0 +1,1058 @@
+
+From samirs.lists@gmail.com  Fri Oct  7 12:30:21 2011
+Return-Path: <samirs.lists@gmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1F65521F8B8F for <sip@ietfa.amsl.com>; Fri,  7 Oct 2011 12:30:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.145
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.145 tagged_above=-999 required=5 tests=[AWL=-0.147, BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_52=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vuaq+Vihixxi for <sip@ietfa.amsl.com>; Fri,  7 Oct 2011 12:30:20 -0700 (PDT)
+Received: from mail-gx0-f172.google.com (mail-gx0-f172.google.com [209.85.161.172]) by ietfa.amsl.com (Postfix) with ESMTP id 0C75E21F8ADE for <sip@ietf.org>; Fri,  7 Oct 2011 12:30:19 -0700 (PDT)
+Received: by ggnk3 with SMTP id k3so3728295ggn.31 for <sip@ietf.org>; Fri, 07 Oct 2011 12:33:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; bh=8nwqS/hjQZdMGCy4v3TQ9AvSZTCpR9DPU+zkZJBb/Qc=; b=e41SMIqYtAXbWznC49N2MA9d+Z2UiHUmMXNfdyKGaFuZa0uOCh7lOy47q86hRYfY+i MDTcVAW+sGxwvc13k4ZpTCMl6dBd+v6zaqxQUKrSFHHA2WLrGkfDO+k2QXpqZ7K3u7/S HKRzUaIsyLdws/no1uliL8vAnItilNLxcfC+M=
+MIME-Version: 1.0
+Received: by 10.236.184.10 with SMTP id r10mr12418169yhm.81.1318016014125; Fri, 07 Oct 2011 12:33:34 -0700 (PDT)
+Received: by 10.236.107.131 with HTTP; Fri, 7 Oct 2011 12:33:34 -0700 (PDT)
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE220C0DC0D@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com> <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com> <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com> <2966AE2F-BBED-4E97-A27B-6E55279ED9FF@acmepacket.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DC0D@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Date: Fri, 7 Oct 2011 12:33:34 -0700
+Message-ID: <CAK+SpiyoDWiqmyab-D0KpT0zsDL=xhN-pnxearFBXBWAz=v+dQ@mail.gmail.com>
+From: Samir Srivastava <samirs.lists@gmail.com>
+To: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+Content-Type: multipart/alternative; boundary=20cf305640e7548bd604aeba84d7
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 07 Oct 2011 19:30:21 -0000
+
+--20cf305640e7548bd604aeba84d7
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+In line prefixed with SS>>
+
+Regards
+Samir
+
+On Thu, Sep 15, 2011 at 10:05 AM, DRAGE, Keith (Keith) <
+keith.drage@alcatel-lucent.com> wrote:
+
+> Addressing the thread in general rather than Hadriel in particular.
+>
+> Please remember that RFC 5630 did not set out to create a complete soluti=
+on
+> to secure communication. That was left to separate work and noone at the
+> time seemed interested in doing that next step, so it was abandoned.
+>
+
+SS>> Refer the draft
+http://datatracker.ietf.org/doc/draft-srivastava-dispatch-avoidance-of-thre=
+ats/
+submitted recently. And let me know your comments. What we intend to do in
+future? As per my recollection Security Advisor was not in agreement with m=
+y
+proposal. But it was told that there will be a day when this solution will
+be needed,
+
+
+>
+> What RFC 5630 set out to do was to define what occurred if you followed t=
+he
+> RFC 3261 mechanisms, and to correct some of RFC 3261 that was known to be
+> wrong and to attempt to make sure that if SIPS was used in the Request-UR=
+I,
+> then TLS was used end to end. I do not believe there was ever an intent t=
+o
+> try and control what happened hop by hop. If you know that TLS is being u=
+sed
+> on the local hop, but have absolutely no knowledge of whether it is being
+> used anywhere else, how useful is that?
+>
+> While section 5, the normative section appears somewhat long, if you look
+> at the impact of RFC 5630 in the way it changed RFC 3261 as stated in
+> appendix A, it actually did very little in terms of change to the origina=
+l
+> RFC 3261 material.
+>
+> I'm not actually sure that the issue you point out in 3.1.3 actually
+> impacts the above drastically.
+>
+> Do note however that if you want to perform new work, you probably need t=
+o
+> take it to the SIPCORE list.
+>
+
+
+> Keith
+>
+> > -----Original Message-----
+> > From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> > Hadriel Kaplan
+> > Sent: 15 September 2011 17:31
+> > To: I=F1aki Baz Castillo
+> > Cc: <sip@ietf.org>; Olle E. Johansson
+> > Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+> >
+> >
+> > Oh I'm well aware of that. :)
+> > I assumed this whole discussion was theoretical.
+> > In *practice* using sips is tough.  Some systems don't support it and
+> will
+> > choke on the scheme, while some systems seem to ignore the extra "s".
+>  And
+> > there are real problems with it even if you do everything by the book.
+> > For example, it's not like Alice's UA will actually have a TLS cert to =
+be
+> > able to be a TLS server/listen-socket, so you can't open a TLS connecti=
+on
+> > to her UA regardless, ever.  And with TCP in general you have to treat
+> her
+> > Registered Contact connection as an outbound-style flow (ie, like an
+> > alias'ed connection-reuse), even if the UAC doesn't indicate RFC 5626 n=
+or
+> > 5923.  Once you do that, using "sip" instead of "sips" contact works, o=
+r
+> > has so far for us.  YMMV.
+> >
+> > -hadriel
+> >
+> >
+> > On Sep 15, 2011, at 12:03 PM, I=F1aki Baz Castillo wrote:
+> >
+> > > 2011/9/15 Hadriel Kaplan <HKaplan@acmepacket.com>:
+> > >> No I mean if Bob wants to Refer Carol to Alice, or Alice to Carol
+> > (since that Refer can be sent out of dialog to Alice's contact).
+> > >
+> > > Initial requests sent to a Contact address rather than being sent to
+> > > an AoR are always problematic. The same occurs in attended trasfer
+> > > when the REFER is sent within the dialog and contains a Refer-To with
+> > > the endpoint Contact URI. Such URI could be no reachable if it's
+> > > between some kind of NAT's (regardless the user used STUN).
+> > >
+> > > --
+> > > I=F1aki Baz Castillo
+> > > <ibc@aliax.net>
+> >
+> > _______________________________________________
+> > Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> > This list is essentially closed and only used for finishing old busines=
+s.
+> > Use sip-implementors@cs.columbia.edu for questions on how to develop a
+> SIP
+> > implementation.
+> > Use dispatch@ietf.org for new developments on the application of sip.
+> > Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> > specifications.
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+
+--20cf305640e7548bd604aeba84d7
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div>In line prefixed with SS&gt;&gt;</div><div>=A0</div><div>Regards</div>=
+<div>Samir<br><br></div><div class=3D"gmail_quote">On Thu, Sep 15, 2011 at =
+10:05 AM, DRAGE, Keith (Keith) <span dir=3D"ltr">&lt;<a href=3D"mailto:keit=
+h.drage@alcatel-lucent.com">keith.drage@alcatel-lucent.com</a>&gt;</span> w=
+rote:<br>
+<blockquote style=3D"margin: 0px 0px 0px 0.8ex; padding-left: 1ex; border-l=
+eft-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: s=
+olid;" class=3D"gmail_quote">Addressing the thread in general rather than H=
+adriel in particular.<br>
+
+<br>
+Please remember that RFC 5630 did not set out to create a complete solution=
+ to secure communication. That was left to separate work and noone at the t=
+ime seemed interested in doing that next step, so it was abandoned.<br>
+</blockquote><div>=A0</div><div>SS&gt;&gt; Refer the draft=A0=A0=A0<a href=
+=3D"http://datatracker.ietf.org/doc/draft-srivastava-dispatch-avoidance-of-=
+threats/">http://datatracker.ietf.org/doc/draft-srivastava-dispatch-avoidan=
+ce-of-threats/</a>=A0 submitted recently. And let me know your comments. Wh=
+at we intend to do in future? As per my recollection Security Advisor was n=
+ot in agreement with my proposal. But it was told that there will be a day =
+when this solution will be needed,</div>
+<div>=A0</div><blockquote style=3D"margin: 0px 0px 0px 0.8ex; padding-left:=
+ 1ex; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border=
+-left-style: solid;" class=3D"gmail_quote">
+<br>
+What RFC 5630 set out to do was to define what occurred if you followed the=
+ RFC 3261 mechanisms, and to correct some of RFC 3261 that was known to be =
+wrong and to attempt to make sure that if SIPS was used in the Request-URI,=
+ then TLS was used end to end. I do not believe there was ever an intent to=
+ try and control what happened hop by hop. If you know that TLS is being us=
+ed on the local hop, but have absolutely no knowledge of whether it is bein=
+g used anywhere else, how useful is that?<br>
+
+<br>
+While section 5, the normative section appears somewhat long, if you look a=
+t the impact of RFC 5630 in the way it changed RFC 3261 as stated in append=
+ix A, it actually did very little in terms of change to the original RFC 32=
+61 material.<br>
+
+<br>
+I&#39;m not actually sure that the issue you point out in 3.1.3 actually im=
+pacts the above drastically.<br>
+<br>
+Do note however that if you want to perform new work, you probably need to =
+take it to the SIPCORE list.<br>=A0</blockquote><blockquote style=3D"margin=
+: 0px 0px 0px 0.8ex; padding-left: 1ex; border-left-color: rgb(204, 204, 20=
+4); border-left-width: 1px; border-left-style: solid;" class=3D"gmail_quote=
+">
+
+<br>
+Keith<br>
+<div class=3D"im"><br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>=
+ [mailto:<a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>] =
+On Behalf Of<br>
+</div>&gt; Hadriel Kaplan<br>
+&gt; Sent: 15 September 2011 17:31<br>
+&gt; To: I=F1aki Baz Castillo<br>
+&gt; Cc: &lt;<a href=3D"mailto:sip@ietf.org">sip@ietf.org</a>&gt;; Olle E. =
+Johansson<br>
+<div class=3D"im">&gt; Subject: Re: [Sip] Using TLS in the first hop - Bug =
+in RFC 5630<br>
+&gt;<br>
+&gt;<br>
+</div><div><div></div><div class=3D"h5">&gt; Oh I&#39;m well aware of that.=
+ :)<br>
+&gt; I assumed this whole discussion was theoretical.<br>
+&gt; In *practice* using sips is tough. =A0Some systems don&#39;t support i=
+t and will<br>
+&gt; choke on the scheme, while some systems seem to ignore the extra &quot=
+;s&quot;. =A0And<br>
+&gt; there are real problems with it even if you do everything by the book.=
+<br>
+&gt; For example, it&#39;s not like Alice&#39;s UA will actually have a TLS=
+ cert to be<br>
+&gt; able to be a TLS server/listen-socket, so you can&#39;t open a TLS con=
+nection<br>
+&gt; to her UA regardless, ever. =A0And with TCP in general you have to tre=
+at her<br>
+&gt; Registered Contact connection as an outbound-style flow (ie, like an<b=
+r>
+&gt; alias&#39;ed connection-reuse), even if the UAC doesn&#39;t indicate R=
+FC 5626 nor<br>
+&gt; 5923. =A0Once you do that, using &quot;sip&quot; instead of &quot;sips=
+&quot; contact works, or<br>
+&gt; has so far for us. =A0YMMV.<br>
+&gt;<br>
+&gt; -hadriel<br>
+&gt;<br>
+&gt;<br>
+&gt; On Sep 15, 2011, at 12:03 PM, I=F1aki Baz Castillo wrote:<br>
+&gt;<br>
+&gt; &gt; 2011/9/15 Hadriel Kaplan &lt;<a href=3D"mailto:HKaplan@acmepacket=
+.com">HKaplan@acmepacket.com</a>&gt;:<br>
+&gt; &gt;&gt; No I mean if Bob wants to Refer Carol to Alice, or Alice to C=
+arol<br>
+&gt; (since that Refer can be sent out of dialog to Alice&#39;s contact).<b=
+r>
+&gt; &gt;<br>
+&gt; &gt; Initial requests sent to a Contact address rather than being sent=
+ to<br>
+&gt; &gt; an AoR are always problematic. The same occurs in attended trasfe=
+r<br>
+&gt; &gt; when the REFER is sent within the dialog and contains a Refer-To =
+with<br>
+&gt; &gt; the endpoint Contact URI. Such URI could be no reachable if it&#3=
+9;s<br>
+&gt; &gt; between some kind of NAT&#39;s (regardless the user used STUN).<b=
+r>
+&gt; &gt;<br>
+&gt; &gt; --<br>
+&gt; &gt; I=F1aki Baz Castillo<br>
+&gt; &gt; &lt;<a href=3D"mailto:ibc@aliax.net">ibc@aliax.net</a>&gt;<br>
+&gt;<br>
+&gt; _______________________________________________<br>
+&gt; Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/s=
+ip" target=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+&gt; This list is essentially closed and only used for finishing old busine=
+ss.<br>
+&gt; Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implemento=
+rs@cs.columbia.edu</a> for questions on how to develop a SIP<br>
+&gt; implementation.<br>
+&gt; Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new=
+ developments on the application of sip.<br>
+&gt; Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issue=
+s related to maintenance of the core SIP<br>
+&gt; specifications.<br>
+_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br>
+</div></div></blockquote></div><br>
+
+--20cf305640e7548bd604aeba84d7--
+
+From keith.drage@alcatel-lucent.com  Sat Oct  8 02:05:54 2011
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D5C3021F8B3F for <sip@ietfa.amsl.com>; Sat,  8 Oct 2011 02:05:54 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -105.704
+X-Spam-Level: 
+X-Spam-Status: No, score=-105.704 tagged_above=-999 required=5 tests=[AWL=-0.056, BAYES_00=-2.599, HELO_EQ_FR=0.35, HTML_MESSAGE=0.001, J_CHICKENPOX_52=0.6, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id jZL+U0OR57nK for <sip@ietfa.amsl.com>; Sat,  8 Oct 2011 02:05:53 -0700 (PDT)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by ietfa.amsl.com (Postfix) with ESMTP id 904C321F8B36 for <sip@ietf.org>; Sat,  8 Oct 2011 02:05:53 -0700 (PDT)
+Received: from FRMRSSXCHHUB03.dc-m.alcatel-lucent.com (FRMRSSXCHHUB03.dc-m.alcatel-lucent.com [135.120.45.63]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id p9898vZa022330 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Sat, 8 Oct 2011 11:08:57 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.45]) by FRMRSSXCHHUB03.dc-m.alcatel-lucent.com ([135.120.45.63]) with mapi; Sat, 8 Oct 2011 11:08:57 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: Samir Srivastava <samirs.lists@gmail.com>
+Date: Sat, 8 Oct 2011 11:08:56 +0200
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: AcyFKAbIpJXrpCmLRmuj2lpMmy8mhwAcczKg
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE220D4C5BD@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com> <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com> <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com> <2966AE2F-BBED-4E97-A27B-6E55279ED9FF@acmepacket.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DC0D@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com> <CAK+SpiyoDWiqmyab-D0KpT0zsDL=xhN-pnxearFBXBWAz=v+dQ@mail.gmail.com>
+In-Reply-To: <CAK+SpiyoDWiqmyab-D0KpT0zsDL=xhN-pnxearFBXBWAz=v+dQ@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative; boundary="_000_EDC0A1AE77C57744B664A310A0B23AE220D4C5BDFRMRSSXCHMBSC3d_"
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.69 on 155.132.188.80
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 08 Oct 2011 09:05:54 -0000
+
+--_000_EDC0A1AE77C57744B664A310A0B23AE220D4C5BDFRMRSSXCHMBSC3d_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+All drafts help things along, but please do have the discussion on DISPATCH=
+ or SIPCORE.
+
+It doesn't belong here.
+
+Keith
+
+________________________________
+From: Samir Srivastava [mailto:samirs.lists@gmail.com]
+Sent: 07 October 2011 20:34
+To: DRAGE, Keith (Keith)
+Cc: Hadriel Kaplan; I=F1aki Baz Castillo; <sip@ietf.org>; Olle E. Johansson
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+
+In line prefixed with SS>>
+
+Regards
+Samir
+
+On Thu, Sep 15, 2011 at 10:05 AM, DRAGE, Keith (Keith) <keith.drage@alcatel=
+-lucent.com<mailto:keith.drage@alcatel-lucent.com>> wrote:
+Addressing the thread in general rather than Hadriel in particular.
+
+Please remember that RFC 5630 did not set out to create a complete solution=
+ to secure communication. That was left to separate work and noone at the t=
+ime seemed interested in doing that next step, so it was abandoned.
+
+SS>> Refer the draft   http://datatracker.ietf.org/doc/draft-srivastava-dis=
+patch-avoidance-of-threats/  submitted recently. And let me know your comme=
+nts. What we intend to do in future? As per my recollection Security Adviso=
+r was not in agreement with my proposal. But it was told that there will be=
+ a day when this solution will be needed,
+
+
+What RFC 5630 set out to do was to define what occurred if you followed the=
+ RFC 3261 mechanisms, and to correct some of RFC 3261 that was known to be =
+wrong and to attempt to make sure that if SIPS was used in the Request-URI,=
+ then TLS was used end to end. I do not believe there was ever an intent to=
+ try and control what happened hop by hop. If you know that TLS is being us=
+ed on the local hop, but have absolutely no knowledge of whether it is bein=
+g used anywhere else, how useful is that?
+
+While section 5, the normative section appears somewhat long, if you look a=
+t the impact of RFC 5630 in the way it changed RFC 3261 as stated in append=
+ix A, it actually did very little in terms of change to the original RFC 32=
+61 material.
+
+I'm not actually sure that the issue you point out in 3.1.3 actually impact=
+s the above drastically.
+
+Do note however that if you want to perform new work, you probably need to =
+take it to the SIPCORE list.
+
+
+Keith
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org<mailto:sip-bounces@ietf.org> [mailto:sip-bounc=
+es@ietf.org<mailto:sip-bounces@ietf.org>] On Behalf Of
+> Hadriel Kaplan
+> Sent: 15 September 2011 17:31
+> To: I=F1aki Baz Castillo
+> Cc: <sip@ietf.org<mailto:sip@ietf.org>>; Olle E. Johansson
+> Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+>
+>
+> Oh I'm well aware of that. :)
+> I assumed this whole discussion was theoretical.
+> In *practice* using sips is tough.  Some systems don't support it and wil=
+l
+> choke on the scheme, while some systems seem to ignore the extra "s".  An=
+d
+> there are real problems with it even if you do everything by the book.
+> For example, it's not like Alice's UA will actually have a TLS cert to be
+> able to be a TLS server/listen-socket, so you can't open a TLS connection
+> to her UA regardless, ever.  And with TCP in general you have to treat he=
+r
+> Registered Contact connection as an outbound-style flow (ie, like an
+> alias'ed connection-reuse), even if the UAC doesn't indicate RFC 5626 nor
+> 5923.  Once you do that, using "sip" instead of "sips" contact works, or
+> has so far for us.  YMMV.
+>
+> -hadriel
+>
+>
+> On Sep 15, 2011, at 12:03 PM, I=F1aki Baz Castillo wrote:
+>
+> > 2011/9/15 Hadriel Kaplan <HKaplan@acmepacket.com<mailto:HKaplan@acmepac=
+ket.com>>:
+> >> No I mean if Bob wants to Refer Carol to Alice, or Alice to Carol
+> (since that Refer can be sent out of dialog to Alice's contact).
+> >
+> > Initial requests sent to a Contact address rather than being sent to
+> > an AoR are always problematic. The same occurs in attended trasfer
+> > when the REFER is sent within the dialog and contains a Refer-To with
+> > the endpoint Contact URI. Such URI could be no reachable if it's
+> > between some kind of NAT's (regardless the user used STUN).
+> >
+> > --
+> > I=F1aki Baz Castillo
+> > <ibc@aliax.net<mailto:ibc@aliax.net>>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu<mailto:sip-implementors@cs.columbia.=
+edu> for questions on how to develop a SIP
+> implementation.
+> Use dispatch@ietf.org<mailto:dispatch@ietf.org> for new developments on t=
+he application of sip.
+> Use sipcore@ietf.org<mailto:sipcore@ietf.org> for issues related to maint=
+enance of the core SIP
+> specifications.
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is essentially closed and only used for finishing old business.
+Use sip-implementors@cs.columbia.edu<mailto:sip-implementors@cs.columbia.ed=
+u> for questions on how to develop a SIP implementation.
+Use dispatch@ietf.org<mailto:dispatch@ietf.org> for new developments on the=
+ application of sip.
+Use sipcore@ietf.org<mailto:sipcore@ietf.org> for issues related to mainten=
+ance of the core SIP specifications.
+
+
+--_000_EDC0A1AE77C57744B664A310A0B23AE220D4C5BDFRMRSSXCHMBSC3d_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1"=
+>
+<META content=3D"MSHTML 6.00.2900.6129" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D367210809-08102011><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>All drafts help things along, but please do have t=
+he=20
+discussion on DISPATCH or SIPCORE.</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D367210809-08102011><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D367210809-08102011><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>It doesn't belong here.</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D367210809-08102011><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D367210809-08102011><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>Keith</FONT></SPAN></DIV><BR>
+<BLOCKQUOTE=20
+style=3D"PADDING-LEFT: 5px; MARGIN-LEFT: 5px; BORDER-LEFT: #0000ff 2px soli=
+d; MARGIN-RIGHT: 0px">
+  <DIV class=3DOutlookMessageHeader lang=3Den-us dir=3Dltr align=3Dleft>
+  <HR tabIndex=3D-1>
+  <FONT face=3DTahoma size=3D2><B>From:</B> Samir Srivastava=20
+  [mailto:samirs.lists@gmail.com] <BR><B>Sent:</B> 07 October 2011=20
+  20:34<BR><B>To:</B> DRAGE, Keith (Keith)<BR><B>Cc:</B> Hadriel Kaplan; I=
+=F1aki=20
+  Baz Castillo; &lt;sip@ietf.org&gt;; Olle E. Johansson<BR><B>Subject:</B> =
+Re:=20
+  [Sip] Using TLS in the first hop - Bug in RFC 5630<BR></FONT><BR></DIV>
+  <DIV></DIV>
+  <DIV>In line prefixed with SS&gt;&gt;</DIV>
+  <DIV>&nbsp;</DIV>
+  <DIV>Regards</DIV>
+  <DIV>Samir<BR><BR></DIV>
+  <DIV class=3Dgmail_quote>On Thu, Sep 15, 2011 at 10:05 AM, DRAGE, Keith (=
+Keith)=20
+  <SPAN dir=3Dltr>&lt;<A=20
+  href=3D"mailto:keith.drage@alcatel-lucent.com">keith.drage@alcatel-lucent=
+.com</A>&gt;</SPAN>=20
+  wrote:<BR>
+  <BLOCKQUOTE class=3Dgmail_quote=20
+  style=3D"PADDING-LEFT: 1ex; MARGIN: 0px 0px 0px 0.8ex; BORDER-LEFT: rgb(2=
+04,204,204) 1px solid">Addressing=20
+    the thread in general rather than Hadriel in particular.<BR><BR>Please=
+=20
+    remember that RFC 5630 did not set out to create a complete solution to=
+=20
+    secure communication. That was left to separate work and noone at the t=
+ime=20
+    seemed interested in doing that next step, so it was=20
+  abandoned.<BR></BLOCKQUOTE>
+  <DIV>&nbsp;</DIV>
+  <DIV>SS&gt;&gt; Refer the draft&nbsp;&nbsp;&nbsp;<A=20
+  href=3D"http://datatracker.ietf.org/doc/draft-srivastava-dispatch-avoidan=
+ce-of-threats/">http://datatracker.ietf.org/doc/draft-srivastava-dispatch-a=
+voidance-of-threats/</A>&nbsp;=20
+  submitted recently. And let me know your comments. What we intend to do i=
+n=20
+  future? As per my recollection Security Advisor was not in agreement with=
+ my=20
+  proposal. But it was told that there will be a day when this solution wil=
+l be=20
+  needed,</DIV>
+  <DIV>&nbsp;</DIV>
+  <BLOCKQUOTE class=3Dgmail_quote=20
+  style=3D"PADDING-LEFT: 1ex; MARGIN: 0px 0px 0px 0.8ex; BORDER-LEFT: rgb(2=
+04,204,204) 1px solid"><BR>What=20
+    RFC 5630 set out to do was to define what occurred if you followed the =
+RFC=20
+    3261 mechanisms, and to correct some of RFC 3261 that was known to be w=
+rong=20
+    and to attempt to make sure that if SIPS was used in the Request-URI, t=
+hen=20
+    TLS was used end to end. I do not believe there was ever an intent to t=
+ry=20
+    and control what happened hop by hop. If you know that TLS is being use=
+d on=20
+    the local hop, but have absolutely no knowledge of whether it is being =
+used=20
+    anywhere else, how useful is that?<BR><BR>While section 5, the normativ=
+e=20
+    section appears somewhat long, if you look at the impact of RFC 5630 in=
+ the=20
+    way it changed RFC 3261 as stated in appendix A, it actually did very l=
+ittle=20
+    in terms of change to the original RFC 3261 material.<BR><BR>I'm not=20
+    actually sure that the issue you point out in 3.1.3 actually impacts th=
+e=20
+    above drastically.<BR><BR>Do note however that if you want to perform n=
+ew=20
+    work, you probably need to take it to the SIPCORE list.<BR>&nbsp;</BLOC=
+KQUOTE>
+  <BLOCKQUOTE class=3Dgmail_quote=20
+  style=3D"PADDING-LEFT: 1ex; MARGIN: 0px 0px 0px 0.8ex; BORDER-LEFT: rgb(2=
+04,204,204) 1px solid"><BR>Keith<BR>
+    <DIV class=3Dim><BR>&gt; -----Original Message-----<BR>&gt; From: <A=20
+    href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</A> [mailto:<=
+A=20
+    href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</A>] On Behal=
+f=20
+    Of<BR></DIV>&gt; Hadriel Kaplan<BR>&gt; Sent: 15 September 2011=20
+    17:31<BR>&gt; To: I=F1aki Baz Castillo<BR>&gt; Cc: &lt;<A=20
+    href=3D"mailto:sip@ietf.org">sip@ietf.org</A>&gt;; Olle E. Johansson<BR=
+>
+    <DIV class=3Dim>&gt; Subject: Re: [Sip] Using TLS in the first hop - Bu=
+g in=20
+    RFC 5630<BR>&gt;<BR>&gt;<BR></DIV>
+    <DIV>
+    <DIV></DIV>
+    <DIV class=3Dh5>&gt; Oh I'm well aware of that. :)<BR>&gt; I assumed th=
+is=20
+    whole discussion was theoretical.<BR>&gt; In *practice* using sips is t=
+ough.=20
+    &nbsp;Some systems don't support it and will<BR>&gt; choke on the schem=
+e,=20
+    while some systems seem to ignore the extra "s". &nbsp;And<BR>&gt; ther=
+e are=20
+    real problems with it even if you do everything by the book.<BR>&gt; Fo=
+r=20
+    example, it's not like Alice's UA will actually have a TLS cert to=20
+    be<BR>&gt; able to be a TLS server/listen-socket, so you can't open a T=
+LS=20
+    connection<BR>&gt; to her UA regardless, ever. &nbsp;And with TCP in ge=
+neral=20
+    you have to treat her<BR>&gt; Registered Contact connection as an=20
+    outbound-style flow (ie, like an<BR>&gt; alias'ed connection-reuse), ev=
+en if=20
+    the UAC doesn't indicate RFC 5626 nor<BR>&gt; 5923. &nbsp;Once you do t=
+hat,=20
+    using "sip" instead of "sips" contact works, or<BR>&gt; has so far for =
+us.=20
+    &nbsp;YMMV.<BR>&gt;<BR>&gt; -hadriel<BR>&gt;<BR>&gt;<BR>&gt; On Sep 15,=
+=20
+    2011, at 12:03 PM, I=F1aki Baz Castillo wrote:<BR>&gt;<BR>&gt; &gt; 201=
+1/9/15=20
+    Hadriel Kaplan &lt;<A=20
+    href=3D"mailto:HKaplan@acmepacket.com">HKaplan@acmepacket.com</A>&gt;:<=
+BR>&gt;=20
+    &gt;&gt; No I mean if Bob wants to Refer Carol to Alice, or Alice to=20
+    Carol<BR>&gt; (since that Refer can be sent out of dialog to Alice's=20
+    contact).<BR>&gt; &gt;<BR>&gt; &gt; Initial requests sent to a Contact=
+=20
+    address rather than being sent to<BR>&gt; &gt; an AoR are always=20
+    problematic. The same occurs in attended trasfer<BR>&gt; &gt; when the =
+REFER=20
+    is sent within the dialog and contains a Refer-To with<BR>&gt; &gt; the=
+=20
+    endpoint Contact URI. Such URI could be no reachable if it's<BR>&gt; &g=
+t;=20
+    between some kind of NAT's (regardless the user used STUN).<BR>&gt;=20
+    &gt;<BR>&gt; &gt; --<BR>&gt; &gt; I=F1aki Baz Castillo<BR>&gt; &gt; &lt=
+;<A=20
+    href=3D"mailto:ibc@aliax.net">ibc@aliax.net</A>&gt;<BR>&gt;<BR>&gt;=20
+    _______________________________________________<BR>&gt; Sip mailing lis=
+t=20
+    &nbsp;<A href=3D"https://www.ietf.org/mailman/listinfo/sip"=20
+    target=3D_blank>https://www.ietf.org/mailman/listinfo/sip</A><BR>&gt; T=
+his=20
+    list is essentially closed and only used for finishing old business.<BR=
+>&gt;=20
+    Use <A=20
+    href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.co=
+lumbia.edu</A>=20
+    for questions on how to develop a SIP<BR>&gt; implementation.<BR>&gt; U=
+se <A=20
+    href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</A> for new develop=
+ments=20
+    on the application of sip.<BR>&gt; Use <A=20
+    href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</A> for issues relate=
+d to=20
+    maintenance of the core SIP<BR>&gt;=20
+    specifications.<BR>_______________________________________________<BR>S=
+ip=20
+    mailing list &nbsp;<A href=3D"https://www.ietf.org/mailman/listinfo/sip=
+"=20
+    target=3D_blank>https://www.ietf.org/mailman/listinfo/sip</A><BR>This l=
+ist is=20
+    essentially closed and only used for finishing old business.<BR>Use <A=
+=20
+    href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.co=
+lumbia.edu</A>=20
+    for questions on how to develop a SIP implementation.<BR>Use <A=20
+    href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</A> for new develop=
+ments=20
+    on the application of sip.<BR>Use <A=20
+    href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</A> for issues relate=
+d to=20
+    maintenance of the core SIP=20
+  specifications.<BR></DIV></DIV></BLOCKQUOTE></DIV><BR></BLOCKQUOTE></BODY=
+></HTML>
+
+--_000_EDC0A1AE77C57744B664A310A0B23AE220D4C5BDFRMRSSXCHMBSC3d_--
+
+From wwwrun@rfc-editor.org  Mon Oct 10 12:00:21 2011
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id EB74521F8A7D for <sip@ietfa.amsl.com>; Mon, 10 Oct 2011 12:00:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.6
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.6 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TpLo8Tfp163I for <sip@ietfa.amsl.com>; Mon, 10 Oct 2011 12:00:21 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:123a::1:2f]) by ietfa.amsl.com (Postfix) with ESMTP id 69FD421F8CB5 for <sip@ietf.org>; Mon, 10 Oct 2011 12:00:13 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 2025498C274; Mon, 10 Oct 2011 12:00:13 -0700 (PDT)
+To: fluffy@cisco.com, jason.fischl@skype.net, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20111010190013.2025498C274@rfc-editor.org>
+Date: Mon, 10 Oct 2011 12:00:13 -0700 (PDT)
+Cc: sip@ietf.org, oej@edvina.net, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC6072 (2988)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 10 Oct 2011 19:00:22 -0000
+
+The following errata report has been submitted for RFC6072,
+"Certificate Management Service for the Session Initiation Protocol (SIP)".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=6072&eid=2988
+
+--------------------------------------
+Type: Editorial
+Reported by: Olle E. Johansson <oej@edvina.net>
+
+Section: 8
+
+Original Text
+-------------
+   The [RFC4474] authentication service defined a signature algorithm
+   based on SHA-1 called rsa-sha1.  This specification adds a signature
+   algorithm that is roughly the same but based on SHA-256 and called
+   rsa-sha256.
+
+Corrected Text
+--------------
+   The [RFC4474] authentication service defined a signature algorithm
+   based on SHA-1 called rsa-sha1.  This specification adds a signature
+   algorithm that is roughly the same but based on SHA-256 and called
+   rsa-sha256. This is an update of RFC 4474.
+
+Notes
+-----
+The Masthead doesn't indicate clearly that this RFC updates 4474 and thus the IETF tools web site doesn't indicate that 4474 is updated.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC6072 (draft-ietf-sip-certs-15)
+--------------------------------------
+Title               : Certificate Management Service for the Session Initiation Protocol (SIP)
+Publication Date    : February 2011
+Author(s)           : C. Jennings, J. Fischl, Ed.
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From g.kiranreddy4u@gmail.com  Tue Oct 11 11:00:16 2011
+Return-Path: <g.kiranreddy4u@gmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id ECBAA21F8F7A; Tue, 11 Oct 2011 11:00:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wuXllGXPXMpT; Tue, 11 Oct 2011 11:00:16 -0700 (PDT)
+Received: from mail-ww0-f44.google.com (mail-ww0-f44.google.com [74.125.82.44]) by ietfa.amsl.com (Postfix) with ESMTP id 2318F21F8F36; Tue, 11 Oct 2011 11:00:15 -0700 (PDT)
+Received: by wwf22 with SMTP id 22so7501044wwf.13 for <multiple recipients>; Tue, 11 Oct 2011 11:00:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=mime-version:from:date:message-id:subject:to:content-type; bh=w58I4sMEumQ59su+wSGOOiTFheMatJa4zs/wW817ODw=; b=CU00XcmMQkp7Jg1rEm9hNedAd5q0+VRAM3/4rHVlD5nIeZeQ2TP5zlHj/4wcEEKSZs rC6VjUBxgvd1EaJLwfBt2BoHRdnfubKNnPPZ6ofC5abxwTPnmSY8oM+OuYuhbTJZfgsu J3vgaw+P93cb2NB1zpV9pugimmOzFDOlYhv4Y=
+Received: by 10.216.135.34 with SMTP id t34mr1176675wei.62.1318356015276; Tue, 11 Oct 2011 11:00:15 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.216.27.67 with HTTP; Tue, 11 Oct 2011 10:59:55 -0700 (PDT)
+From: kiran kumar <g.kiranreddy4u@gmail.com>
+Date: Tue, 11 Oct 2011 23:29:55 +0530
+Message-ID: <CAGW1TF7PtHpO6DEgCpxb5kSUzWd4Pxc+PhFaAMvJh5gM7dp_tQ@mail.gmail.com>
+To: sip-request@ietf.org, sip@ietf.org
+Content-Type: multipart/alternative; boundary=0016e6ddff0bfa62fe04af09adce
+Subject: [Sip] How to determine MO and MT call in SIP Networks
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 11 Oct 2011 18:00:17 -0000
+
+--0016e6ddff0bfa62fe04af09adce
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi all,
+
+I am developing a SIPB2B which acts as a session controller.
+No registration mechanism is implemented in it.
+It will directly receives Invite from UAC and forwards it to UAS after
+successful billing authentication.
+
+Can any one help me, how could I distinguish between MO and MT calls (In
+pure SIP networks).
+Is there any SIP header to determine the call type.
+
+Thanks,
+Kiran.
+
+--0016e6ddff0bfa62fe04af09adce
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,<br><br>I am developing a SIPB2B which acts as a session controller.=
+<br>No registration mechanism is implemented in it. <br>It will directly re=
+ceives Invite from UAC and forwards it to UAS after successful billing auth=
+entication.<br>
+
+<br>Can any one help me, how could I distinguish between MO and MT calls (I=
+n pure SIP networks). <br>Is there any SIP header to determine the call typ=
+e.<br><br>Thanks,<br>Kiran.<br><div style=3D"visibility: hidden; left: -500=
+0px; position: absolute; z-index: 9999; padding: 0px; margin-left: 0px; mar=
+gin-top: 0px; overflow: hidden; word-wrap: break-word; color: black; font-s=
+ize: 10px; text-align: left; line-height: 130%;" id=3D"avg_ls_inline_popup"=
+>
+
+</div>
+
+--0016e6ddff0bfa62fe04af09adce--
+
+From ibc@aliax.net  Tue Oct 11 11:06:11 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 19FC921F8C9B for <sip@ietfa.amsl.com>; Tue, 11 Oct 2011 11:06:11 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.513
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.513 tagged_above=-999 required=5 tests=[AWL=0.164,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id q5cslw0Z+aVr for <sip@ietfa.amsl.com>; Tue, 11 Oct 2011 11:06:10 -0700 (PDT)
+Received: from mail-vw0-f44.google.com (mail-vw0-f44.google.com [209.85.212.44]) by ietfa.amsl.com (Postfix) with ESMTP id 88C4821F8C94 for <sip@ietf.org>; Tue, 11 Oct 2011 11:06:10 -0700 (PDT)
+Received: by vws5 with SMTP id 5so7214141vws.31 for <sip@ietf.org>; Tue, 11 Oct 2011 11:06:06 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.52.184.103 with SMTP id et7mr19846439vdc.35.1318356366773; Tue, 11 Oct 2011 11:06:06 -0700 (PDT)
+Received: by 10.220.118.143 with HTTP; Tue, 11 Oct 2011 11:06:06 -0700 (PDT)
+In-Reply-To: <CAGW1TF7PtHpO6DEgCpxb5kSUzWd4Pxc+PhFaAMvJh5gM7dp_tQ@mail.gmail.com>
+References: <CAGW1TF7PtHpO6DEgCpxb5kSUzWd4Pxc+PhFaAMvJh5gM7dp_tQ@mail.gmail.com>
+Date: Tue, 11 Oct 2011 20:06:06 +0200
+Message-ID: <CALiegf=amZp4yvJ5oUreAebnYwdvUmUsWRxtPDmZNj8G10Zy4Q@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: kiran kumar <g.kiranreddy4u@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] How to determine MO and MT call in SIP Networks
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 11 Oct 2011 18:06:11 -0000
+
+2011/10/11 kiran kumar <g.kiranreddy4u@gmail.com>:
+> I am developing a SIPB2B which acts as a session controller.
+> No registration mechanism is implemented in it.
+> It will directly receives Invite from UAC and forwards it to UAS after
+> successful billing authentication.
+>
+> Can any one help me, how could I distinguish between MO and MT calls (In
+> pure SIP networks).
+> Is there any SIP header to determine the call type.
+
+Hi Kiran. Please use sip-implementors maillist.
+
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Fri Oct 14 04:52:25 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7BABC21F8B29 for <sip@ietfa.amsl.com>; Fri, 14 Oct 2011 04:52:25 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.541
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.541 tagged_above=-999 required=5 tests=[AWL=0.136,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id qquXzEDrbzeg for <sip@ietfa.amsl.com>; Fri, 14 Oct 2011 04:52:25 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id E97DB21F886A for <sip@ietf.org>; Fri, 14 Oct 2011 04:52:24 -0700 (PDT)
+Received: by qadb12 with SMTP id b12so960160qad.31 for <sip@ietf.org>; Fri, 14 Oct 2011 04:52:24 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.182.147.42 with SMTP id th10mr4954016obb.44.1318593143925; Fri, 14 Oct 2011 04:52:23 -0700 (PDT)
+Received: by 10.182.144.9 with HTTP; Fri, 14 Oct 2011 04:52:23 -0700 (PDT)
+Date: Fri, 14 Oct 2011 13:52:23 +0200
+Message-ID: <CALiegfkV2vup6a4FrRqkuUQJPox6ErcJda5sgX0Wg7Vnw=2ihw@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: [Sip] RFC 5626 (Outbound) hard to understand non-register request processing
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 14 Oct 2011 11:52:25 -0000
+
+Hi, RFC 5626 section 5.3 "Forwarding Non-REGISTER Requests" says:
+
+
+5.3.  Forwarding Non-REGISTER Requests
+
+   When an edge proxy receives a request, it applies normal routing
+   procedures with the following additions.  If the edge proxy receives
+   a request where the edge proxy is the host in the topmost Route
+   header field value, and the Route header field value contains a flow
+   token, the proxy follows the procedures of this section.  Otherwise
+   the edge proxy skips the procedures in this section, removes itself
+   from the Route header field, and continues processing the request.
+
+
+And then in section 5.3.2 "Processing Outgoing Requests" (which is
+*into* section 5.3) it talks about:
+
+   If the edge proxy receives an outgoing dialog-forming request, the
+   edge proxy can use the presence of the "ob" URI parameter in the
+   UAC's Contact URI (or topmost Route header field) to determine if the
+   edge proxy needs to assist in mid-dialog request routing.
+
+
+The problem is that an initial INVITE/SUBSCRIBE sent from a outbound
+SIP client won't have a flow token in a Route header, so the text in
+5.3 suggests doing nothing special for such request. The reader could
+then ignore section 5.3.2 in which, clearly, the edge proxy should
+assist in-dialog request routing for this initial request (by adding a
+flow token in the Record-Route).
+
+Do I miss something? or the text is indeed confusing?
+
+Thanks.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Sun Oct 23 04:22:56 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D5C7621F85DB for <sip@ietfa.amsl.com>; Sun, 23 Oct 2011 04:22:56 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.638
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.638 tagged_above=-999 required=5 tests=[AWL=0.039,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 15U118EXtaNk for <sip@ietfa.amsl.com>; Sun, 23 Oct 2011 04:22:56 -0700 (PDT)
+Received: from mail-vx0-f172.google.com (mail-vx0-f172.google.com [209.85.220.172]) by ietfa.amsl.com (Postfix) with ESMTP id 1CF9921F85AA for <sip@ietf.org>; Sun, 23 Oct 2011 04:22:56 -0700 (PDT)
+Received: by vcbfo1 with SMTP id fo1so5111360vcb.31 for <sip@ietf.org>; Sun, 23 Oct 2011 04:22:54 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.220.178.132 with SMTP id bm4mr154591vcb.26.1319368974265; Sun, 23 Oct 2011 04:22:54 -0700 (PDT)
+Received: by 10.220.118.143 with HTTP; Sun, 23 Oct 2011 04:22:54 -0700 (PDT)
+Date: Sun, 23 Oct 2011 13:22:54 +0200
+Message-ID: <CALiegfkhAjL96LD_RSea1YZjrtw77JjRkjfhMSPfcC5R7mKC7Q@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: [Sip] Which WG RFC 5626 belongs to?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sun, 23 Oct 2011 11:22:57 -0000
+
+Hi, I would like to make some comments about RFC 5626 (Outbound) but
+honestly I don't know which WG is the responsible of such RFC.
+Could you point me to the right WG?
+
+Thanks a lot.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Sun Oct 23 04:24:54 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7C8DA21F85F1 for <sip@ietfa.amsl.com>; Sun, 23 Oct 2011 04:24:54 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.638
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.638 tagged_above=-999 required=5 tests=[AWL=0.039,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id hJ0BUemVvSwU for <sip@ietfa.amsl.com>; Sun, 23 Oct 2011 04:24:54 -0700 (PDT)
+Received: from mail-vx0-f172.google.com (mail-vx0-f172.google.com [209.85.220.172]) by ietfa.amsl.com (Postfix) with ESMTP id F203521F85AA for <sip@ietf.org>; Sun, 23 Oct 2011 04:24:53 -0700 (PDT)
+Received: by vcbfo1 with SMTP id fo1so5111845vcb.31 for <sip@ietf.org>; Sun, 23 Oct 2011 04:24:46 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.52.68.178 with SMTP id x18mr5531655vdt.77.1319369086645; Sun, 23 Oct 2011 04:24:46 -0700 (PDT)
+Received: by 10.220.118.143 with HTTP; Sun, 23 Oct 2011 04:24:46 -0700 (PDT)
+In-Reply-To: <CALiegfkhAjL96LD_RSea1YZjrtw77JjRkjfhMSPfcC5R7mKC7Q@mail.gmail.com>
+References: <CALiegfkhAjL96LD_RSea1YZjrtw77JjRkjfhMSPfcC5R7mKC7Q@mail.gmail.com>
+Date: Sun, 23 Oct 2011 13:24:46 +0200
+Message-ID: <CALiegfntcT==49e_2SdwKR+qiGERbsSiCY2-g4nVs_hteQC33A@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: Re: [Sip] Which WG RFC 5626 belongs to?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sun, 23 Oct 2011 11:24:54 -0000
+
+2011/10/23 I=C3=B1aki Baz Castillo <ibc@aliax.net>:
+> Hi, I would like to make some comments about RFC 5626 (Outbound) but
+> honestly I don't know which WG is the responsible of such RFC.
+> Could you point me to the right WG?
+
+Sorry, found it: Dispatch WG.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>

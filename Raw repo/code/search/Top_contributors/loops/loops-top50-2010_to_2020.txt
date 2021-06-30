@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    loops
+cabo@tzi.org 21
+marie@mjmontpetit.com 16
+spencerdawkins.ietf@gmail.com 16
+michawe@ifi.uio.no 13
+liyizhou@huawei.com 5
+zhouxingwang@huawei.com 5
+csp@csperkins.org 4
+mohamed.boucadair@orange.com 3
+wes@mti-systems.com 3
+giuseppe.fioccola@huawei.com 2
+ietf@kuehlewind.net 2
+magnus.westerlund@ericsson.com 2
+agenda@ietf.org 1
+chenlijuan5@huawei.com 1
+emmanuel.lochin@isae-supaero.fr 1
+ietf@bobbriscoe.net 1
+mellon@fugue.com 1
+otroan@employees.org 1
+roni.even@huawei.com 1
+session-request@ietf.org 1
+stu.card@critical.com 1
+wangjl1.bri@chinatelecom.cn 1
+weixinpeng@huawei.com 1

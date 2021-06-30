@@ -1,0 +1,5 @@
+Year = 1994
+Adr count = 781
+Removed 0
+Sum 798.0
+Avarage = 1.0217669654289372

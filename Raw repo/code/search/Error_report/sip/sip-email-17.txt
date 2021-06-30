@@ -1,0 +1,260 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2007-03.mailcl']
+id : ebfa2c37-fcb6-44f6-b40b-12aa1184940a
+_version_ : 1675128734878793728
+
+Content : 
+
+> sip-implementors@cs.columbia.edu for questions on current sip=20
+> Use sipping@ietf.org for new developments on the application of sip
+>=20
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+
+
+
+
+ntent-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Subject: RE: [Sip] sips: upgrading allowed or not
+Date: Tue, 27 Mar 2007 14:35:50 -0500
+Message-ID: <1ECE0EB50388174790F9694F77522CCF0FC5A439@zrc2hxm0.corp.nortel.com>
+In-Reply-To: <46091EB2.6020303@cisco.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] sips: upgrading allowed or not
+Thread-Index: AcdwddKpYbqocH84S7y1P1hQuUzOjQAGRhfg
+References: <46091EB2.6020303@cisco.com>
+From: "Francois Audet" <audet@nortel.com>
+To: "Jonathan Rosenberg" <jdrosen@cisco.com>, "IETF SIP List" <sip@ietf.org>
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 995b2e24d23b953c94bac5288c432399
+Cc: 
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=subscribe>
+Errors-To: sip-bounces@ietf.org
+
+I agree with Jonathan's proposal.
+
+Here is a slighly different perspective on it however. I'll keep
+rethorical arguments
+out of it, and stick to protocol.
+
+- Disallowing re-targeting "upgrades" from SIP to SIPS by a proxy would
+be
+  a normative change to RFC 3261. Section 26.4.4 describes it (3rd
+paragraph
+  on p. 250). That is just an observation.
+
+- The fact that it is currently allowed means that the UAS receiving the
+request
+  has to go through some fairly esoteric logic to "guess" if the request
+was
+  sent securily on each hop or not. This is described in paragraph 4 of
+p. 250,
+  and section 4.1 of draft-ietf-sip-sips-02 also describes it, with some
+modifications.
+  Those procedures are extremely cludgy and non-deterministic. They are
+also misleading
+  for the UAS, and inconsistent with the use of SIPS and SIP as
+described in this draft
+  (i.e., for the other scenarios of forwarding and retargeting). In all
+other instances,=20
+  the idea is that when a request is forwarded/retargeted, the scheme is
+preserve.=20
+  I'd really like to get rid of section 4.1.
+
+	- Jonathan Peterson was proposing that the UAS inspect the To
+header to see if=20
+        the request was initially targeted at SIPS. This is a subset of
+the procedures=20
+        of 4.1/draft-ietf-sip-sips and of RFC 3261 (they add stuff like
+looking at=20
+        Via and other fields).
+
+- This "upgrading" also forces the use of the double Record-Route in
+section 4.2
+  of draft-ietf-sip-sips-02. Since we agreed to deprecate the last hop
+exception
+  for downgrading, the SIPS-to-SIP Record-Route scenario will be removed
+from the
+  -03 version. Removing the "upgrade" scenario would also remove the
+double=20
+  Record-Route for the SIP-to-SIPS, and the net-net is that the whole
+section
+  4.2 could be removed.
+
+- Because of rules described in RFC 3261, if a UAS receives an incoming
+request with a=20
+  SIPS Request-URI, it MUST use a SIPS contact. This is a big problem
+for the sender
+  of the initial request that initiated the dialog if that UAC did not
+support SIPS.
+  If Record-Routing is not used, it will just plainly not work. The UAC
+will not be
+  able to send further requests (like BYE for example). If Record-Route
+is used, it=20
+  might work (or it might not). The reason it might not work is that
+there is possible
+  that the UAC might "choke" on the SIPS URI in the Contact (because it
+doesn't understand
+  how to parse it).
+
+	- We have corrected to types of problems everywhere else in this
+draft. There was
+	  quite a few of them in previous versions. This is the only one
+remaining.
+
+- Note that it would still be possible to "upgrade" by sending SIP over
+TLS. In fact, I would
+  argue that we need to put a requirement to do so when there is already
+a TLS connection
+  opened with the target (as would be the case if Outbound was used, and
+the registration was
+  done over TLS).
+
+In summary, I favor deprecating the "retargeting upgrade" scenario for
+the following reasons:
+
+- It greatly simplifies the draft, eliminating sections 4.1 and 4.2
+completely.
+
+- It is much less confusing for the far end.
+
+- It avoids some nasty protocol level problems that "break" things.
+
+- You can still use TLS for transport for delivering to that last hop.
+
+> -----Original Message-----
+> From: Jonathan Rosenberg [mailto:jdrosen@cisco.com]=20
+> Sent: Tuesday, March 27, 2007 06:40
+> To: IETF SIP List
+> Subject: [Sip] sips: upgrading allowed or not
+>=20
+> During the Prague IETF, I shared some opinions on what I=20
+> thought sips needs to look like and why, and wanted to take=20
+> these to the list.
+>=20
+> Firstly, what is the point of sips? What does it bring a=20
+> network that it can't get with TLS on some hops, as needed?=20
+> The answer is that certain security benefits are afforded if=20
+> we can assure that every single hop from UAC to UAS was TLS=20
+> protected, and that furthermore, this fact can be=20
+> definitively known by the UAC, UAS, and all proxies along the=20
+> way. If we make the assumption that the UA's trust their=20
+> proxies (please don't question the assumption in this=20
+> thread), then SIPS provides you some very nice security=20
+> properties - confidentiality and integrity from all=20
+> non-trusted entities. We use this property all over our specs=20
+> to secure various extensions.
+>=20
+> Given that, sips is broken if it doesn't provide that service=20
+> (tls on each hop with knowledge of such by all entities). FOr=20
+> this reason, I think we need to eliminate the last hop=20
+> exception (uncontroversial I think), but furthermore, I=20
+> believe this extends to retargeting as well.=20
+> I think we clearly need to disallow retargeting or=20
+> downgrading from a sips URI to a sip URI. I think that was=20
+> also largely non-controversial.=20
+> However, I also want to disallow upgrading or retargeting=20
+> from sip to sips. On this, there was some disagreement.
+>=20
+> The challenge Jon gave me at the mike was this. As long as a=20
+> UAC inserts a sips URI into the To field and R-URI field when=20
+> it emits a sips request, does not the presence of a sips URI=20
+> in the TO field, and receipt over a TLS connection, assure=20
+> that the request was delivered over TLS at each hop? Had the=20
+> request been sent originally to a sip URI and then upgraded,=20
+> the TO field would not have been sips, but rather sip.
+>=20
+> I believe Jon is correct, however I still think it is not a=20
+> good idea.=20
+> My rationale is:
+>=20
+> 1. if upgrades are disallowed, redirecting from sip to sips=20
+> works much better. Such a redirection would necesarily have=20
+> to go all the way to the UAC. If we allow upgrades, a proxy=20
+> in the middle could recurse and upgrade. In that case, if the=20
+> reason for the redirection was that the UAS *wanted* TLS on=20
+> each hop, recursing in the middle would destroy that possibility.
+>=20
+> 2. The architectural principle behind the first issue, more=20
+> generally, is that the meaning of sips is *SECURE ON EACH HOP=20
+> FROM UAC TO UAS*. To me, this is fundamentally at odds with=20
+> any notion of upgrade or downgrade.
+>=20
+> 3. Things become simpler if we forbid upgrades. We can=20
+> eliminate the text on double-record routing sinec a proxy=20
+> would never be sip/sips converting. I think it also just=20
+> generally makes overall processing easier. SIPS means one=20
+> thing and one thing only and its terribly clear what it means.
+>=20
+> As such, I stand by my argument that we should forbid upgrades.
+>=20
+> -JOnathan R.
+>=20
+> --=20
+> Jonathan D. Rosenberg, Ph.D.                   600 Lanidex Plaza
+> Cisco Fellow                                   Parsippany, NJ=20
+> 07054-2711
+> Cisco Systems
+> jdrosen@cisco.com                              FAX:   (973) 952-5050
+> http://www.jdrosen.net                         PHONE: (973) 952-5000
+> http://www.cisco.com
+>=20
+> _______________________________________________
+> Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol Use=20
+> sip-implementors@cs.columbia.edu for questions on current sip=20
+> Use sipping@ietf.org for new developments on the application of sip
+>=20
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+
+
+

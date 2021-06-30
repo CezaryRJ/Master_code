@@ -1,0 +1,18 @@
+2000 TO 2010
+-------#####------->    recipe
+william.polk@nist.gov 4
+clonvick@cisco.com 3
+hgs@cs.columbia.edu 3
+jvasseur@cisco.com 3
+Quittek@nw.neclab.eu 2
+bnordman@lbl.gov 2
+cheshire@apple.com 2
+dcrocker@bbiw.net 2
+fred@cisco.com 2
+christen@cse.usf.edu 1
+kapil.sood@intel.com 1
+ole@cisco.com 1
+peng.yang.chn@gmail.com 1
+richard@shockey.us 1
+stpeter@stpeter.im 1
+william.polk@NIST.GOV 1

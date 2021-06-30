@@ -1,0 +1,345 @@
+"Dose <zeroconf-archive"@lists.ietf.org
+"Dose <kink-archive"@megatron.ietf.org
+"Dose <dnsext-archive"@ietf.org
+"Dose <tewg-archive"@ietf.org
+"Dose <kink-archive"@ietf.org
+"Dose <aaa-archive"@lists.ietf.org
+"Dose <pkix-archive"@lists.ietf.org
+"Dose <snmpv3-archive"@lists.ietf.org
+"Dose <atompub-archive"@megatron.ietf.org
+"Dose <beep-archive"@lists.ietf.org
+"Dose <ecm-archive"@ietf.org
+"Dose <kink-archive"@lists.ietf.org
+"Dose <ldapbis-archive"@lists.ietf.org
+"Dose <tcpsat-archive"@lists.ietf.org
+"Dose <calsch-archive"@megatron.ietf.org
+"Dose <usefor-archive"@ietf.org
+"Dose <nasreq-archive"@lists.ietf.org
+"Dose <svrloc-archive"@ietf.org
+"Dose <v6ops-archive"@ietf.org
+"Dose <web-archive"@ietf.org
+"Paul Barajas"@core3.amsl.com
+"Dose <opes-archive"@ietf.org
+"Dose <opes-archive"@megatron.ietf.org
+"Dose <provreg-archive"@ietf.org
+"Dose <schema-archive"@ietf.org
+"Dose <send-archive"@megatron.ietf.org
+"Dose <smime-archive"@ietf.org
+"Dose <atommib-archive"@lists.ietf.org
+"Dose <snmpconf-archive"@lists.ietf.org
+"Dose <spirits-archive"@megatron.ietf.org
+"Dose <webdav-archive"@megatron.ietf.org
+"Dose <capwap-archive"@megatron.ietf.org
+"Dose <frnetmib-archive"@ietf.org
+"Dose <sacred-archive"@ietf.org
+"Dose <usefor-archive"@lists.ietf.org
+"Dose <web-archive"@megatron.ietf.org
+"Dose <webdav-archive"@lists.ietf.org
+"Dose <wrec-archive"@ietf.org
+"Dose <pint-archive"@ietf.org
+"Dose <rescap-archive"@ietf.org
+"Dose <spirits-archive"@ietf.org
+"Dose <v6ops-archive"@lists.ietf.org
+"Dose <weird-archive"@ietf.org
+"Sadie Quintana"@core3.amsl.com
+"Site <dnsext-archive"@ietf.org
+"Dose <aaa-archive"@ietf.org
+"Dose <calsch-archive"@lists.ietf.org
+"Dose <ldapbis-archive"@ietf.org
+"Dose <ldapbis-archive"@megatron.ietf.org
+"Dose <rap-archive"@lists.ietf.org
+"Dose <rsvp-archive"@ietf.org
+"Dose <smime-archive"@lists.ietf.org
+"Dose <smime-archive"@megatron.ietf.org
+"Dose <udlr-archive"@ietf.org
+"robert@"@itaudeminas.mg.gov.br
+"Deirdre Bouchard"@core3.amsl.com
+"Dose <eap-archive"@megatron.ietf.org
+"Dose <mobileip-archive"@lists.ietf.org
+"Dose <msgtrk-archive"@lists.ietf.org
+"Dose <openpgp-archive"@ietf.org
+"Dose <sacred-archive"@megatron.ietf.org
+"Dose <send-archive"@ietf.org
+"Site <snmpconf-archive"@lists.ietf.org
+"Dose <dnsext-archive"@lists.ietf.org
+"Dose <ipp-archive"@lists.ietf.org
+"Dose <krb-wg-archive"@lists.ietf.org
+"Dose <ldup-archive"@ietf.org
+"Dose <rsvp-archive"@lists.ietf.org
+"Dose <sctp-impl-archive"@ietf.org
+"Dose <webdav-archive"@ietf.org
+"Erma Willard"@core3.amsl.com
+"Site <aaa-archive"@lists.ietf.org
+"Site <beep-archive"@lists.ietf.org
+"Site <tcpsat-archive"@lists.ietf.org
+"Dose <iporpr-archive"@ietf.org
+"Dose <nasreq-archive"@ietf.org
+"Dose <problem-archive"@lists.ietf.org
+"Dose <send-archive"@lists.ietf.org
+"Dose <snmpconf-archive"@megatron.ietf.org
+"Dose <snmpv3-archive"@ietf.org
+"Dose <spirits-archive"@lists.ietf.org
+"Site <aaa-archive"@ietf.org
+"Site <send-archive"@lists.ietf.org
+"Site <webdav-archive"@megatron.ietf.org
+"Site <zeroconf-archive"@lists.ietf.org
+"greetingll-yours.net"@domus.pds.org
+"Dose <conneg-archive"@ietf.org
+"Dose <eap-archive"@lists.ietf.org
+"Dose <ftpext-archive"@lists.ietf.org
+"Dose <nat-archive"@ietf.org
+"Dose <tewg-archive"@lists.ietf.org
+"Fidelidade <sac.inf"@cielo.com.br
+"Site <atompub-archive"@megatron.ietf.org
+"Site <eap-archive"@lists.ietf.org
+"Site <smime-archive"@lists.ietf.org
+"Site <snmpv3-archive"@lists.ietf.org
+"satronix@worldnet.att.net"@postoffice.worldnet.att.net
+"Dose <calsch-archive"@ietf.org
+"Dose <capwap-archive"@lists.ietf.org
+"Dose <discuss-archive"@ietf.org
+"Dose <eap-archive"@ietf.org
+"Dose <idwg-archive"@megatron.ietf.org
+"Dose <ipdvb-archive"@megatron.ietf.org
+"Dose <issll-archive"@lists.ietf.org
+"Dose <multi6-archive"@lists.ietf.org
+"Dose <wrec-archive"@lists.ietf.org
+"NC-Solutions Consultoria"@ietfa.amsl.com
+"Site <atommib-archive"@lists.ietf.org
+"Site <calsch-archive"@lists.ietf.org
+"Site <calsch-archive"@megatron.ietf.org
+"Site <eap-archive"@megatron.ietf.org
+"Site <ftpext-archive"@lists.ietf.org
+"Site <kink-archive"@lists.ietf.org
+"Site <msgtrk-archive"@lists.ietf.org
+"Site <provreg-archive"@ietf.org
+"Site <rsvp-archive"@ietf.org
+"Site <send-archive"@ietf.org
+"Site <smime-archive"@ietf.org
+"Site <spirits-archive"@ietf.org
+"Site <usefor-archive"@ietf.org
+"Site <web-archive"@megatron.ietf.org
+"Tiffany Dodd"@core3.amsl.com
+"greetingll-yours.net"@129-79-115-30.dhcp-bl.indiana.edu
+"greetingll-yours.net"@mail.difusoradigital.com.ar
+"kcpoon"@eng.sun.com
+" <stevenvc@verizon.net>"@ietf.org
+""@ISI.EDU
+".pl"@fomav.gob.ni
+"<aaa-archive"@ietf.org
+"<calsch-archive"@megatron.ietf.org
+"<ediint-archive"@lists.ietf.org
+"<ip1394-archive"@lists.ietf.org
+"<snmpconf-archive"@lists.ietf.org
+"<webdav-archive"@megatron.ietf.org
+"Das FallenderPreise"@SlimFast.co.uk
+"Dose <aft-archive"@ietf.org
+"Dose <dnsind-archive"@ietf.org
+"Dose <drums-archive"@ietf.org
+"Dose <ediint-archive"@lists.ietf.org
+"Dose <idmr-archive"@lists.ietf.org
+"Dose <idn-archive"@megatron.ietf.org
+"Dose <ion-archive"@lists.ietf.org
+"Dose <ip1394-archive"@lists.ietf.org
+"Dose <ipdvb-archive"@ietf.org
+"Dose <iporpr-archive"@lists.ietf.org
+"Dose <ipp-archive"@megatron.ietf.org
+"Dose <sacred-archive"@lists.ietf.org
+"Emilia Crain"@core3.amsl.com
+"Gerardo Lyons"@core3.amsl.com
+"Latoya Givens"@core3.amsl.com
+"MensHealth.com <ecm-archive"@ietf.org
+"Mohsen BANAN"@mail.intra.cnri.reston.va
+"Oprah-Diet Sample"@core3.amsl.com
+"Rosario Cleveland"@core3.amsl.com
+"Russel Mcallister"@core3.amsl.com
+"Site <calsch-archive"@ietf.org
+"Site <capwap-archive"@megatron.ietf.org
+"Site <ecm-archive"@ietf.org
+"Site <ediint-archive"@lists.ietf.org
+"Site <idn-archive"@megatron.ietf.org
+"Site <idwg-archive"@megatron.ietf.org
+"Site <iporpr-archive"@ietf.org
+"Site <ipp-archive"@lists.ietf.org
+"Site <kink-archive"@megatron.ietf.org
+"Site <ldapbis-archive"@megatron.ietf.org
+"Site <ldup-archive"@ietf.org
+"Site <nasreq-archive"@ietf.org
+"Site <pkix-archive"@lists.ietf.org
+"Site <sctp-impl-archive"@megatron.ietf.org
+"Site <snmpv3-archive"@ietf.org
+"Site <svrloc-archive"@ietf.org
+"Site <tewg-archive"@lists.ietf.org
+"Site <weird-archive"@ietf.org
+"Site <wrec-archive"@lists.ietf.org
+"Von Preisen"@lists.ietf.org
+"~Feel_Better Look_Better~"@core3.amsl.com
+" <drkmchan@netvigator.com>"@obav05.netvigator.com
+" <services.maintenances@admin.in.th>"@mail06.syd.optusnet.com.au
+""@sayclub.com
+"&#161;Hola!"@lists.ietf.org
+"."@hwsrv-555578.hostwindsdns.com
+".com"@truemail.co.th
+".org"@afa.org.ar
+".orozbekuulu"@yandex.ru
+"11:24:20"@colossus.hpl.hp.com
+"<atommib-archive"@lists.ietf.org
+"<beep-archive"@lists.ietf.org
+"<calsch-archive"@lists.ietf.org
+"<conneg-archive"@ietf.org
+"<discuss-archive"@ietf.org
+"<eap-archive"@lists.ietf.org
+"<eap-archive"@megatron.ietf.org
+"<ecm-archive"@ietf.org
+"<ftpext-archive"@lists.ietf.org
+"<idn-archive"@megatron.ietf.org
+"<ion-archive"@lists.ietf.org
+"<kink-archive"@ietf.org
+"<mobileip-archive"@lists.ietf.org
+"<sacred-archive"@megatron.ietf.org
+"<sctp-impl-archive"@megatron.ietf.org
+"<smime-archive"@lists.ietf.org
+"<snmpv3-archive"@lists.ietf.org
+"<wrec-archive"@lists.ietf.org
+"Adrian"@ietf.org
+"Alfredo Poff"@core3.amsl.com
+"Amado G. Parrott"@core3.amsl.com
+"Amado Holden"@core3.amsl.com
+"Anthony Lyles"@core3.amsl.com
+"Bravo <atommib-archive"@lists.ietf.org
+"Bravo <msgtrk-archive"@lists.ietf.org
+"Buford Morse"@core3.amsl.com
+"CN=Nermeen              Ismail/OU=SVL/OU=CE/O=PHILIPS@AMEC"@UNREGISTERED.PHILIPS.COM
+"Dawid-:atsitek"@bulkregister.com
+"Delong <web-archive"@ietf.org
+"Demarcus A. Copher"@core3.amsl.com
+"Dewitt Levy"@core3.amsl.com
+"Dose <atompub-archive"@lists.ietf.org
+"Dose <ecm-archive"@lists.ietf.org
+"Dose <ediint-archive"@ietf.org
+"Dose <eos-archive"@ietf.org
+"Dose <idmr-archive"@ietf.org
+"Dose <idn-archive"@lists.ietf.org
+"Dose <ipvbi-archive"@ietf.org
+"Dose <sctp-impl-archive"@megatron.ietf.org
+"Dr. Novella Morel"@core3.amsl.com
+"Eldridge <conneg-archive"@ietf.org
+"Elsy Goll"@core3.amsl.com
+"Erin Corbett"@core3.amsl.com
+"Eugenio Tillman"@core3.amsl.com
+"FedEx <home"@fedex.com
+"FedEx Information <shipment"@fedex.com
+"Frank C. Dykema"@core3.amsl.com
+"Greg Tucker"@core3.amsl.com
+"Hai Letcher"@core3.amsl.com
+"Herrera <provreg-archive"@ietf.org
+"IAOC Chair <bob.hinden@gmail.com>"@core3.amsl.com
+"Importing Ledlighting"@ietfa.amsl.com
+"Inc. <rap-archive"@lists.ietf.org
+"Inc. <rsvp-archive"@ietf.org
+"JPanzer"@aol.net
+"Jeffrey,Dunn"@worldnet.att.net
+"Jenna Aparicio"@core3.amsl.com
+"Jinny Giancola"@core3.amsl.com
+"Katheryn Segarra"@core3.amsl.com
+"Kirkpatrick <weird-archive"@ietf.org
+"Kmart <survey"@kmart.com
+"Koehler <eap-archive"@lists.ietf.org
+"Laura"@earthlink.net
+"Lesley Shook"@core3.amsl.com
+"Leslie H. Santillanes"@core3.amsl.com
+"Levkowetz <henrik"@levkowetz.com
+"Lora Bernal"@core3.amsl.com
+"Lorenzo E. Koop"@core3.amsl.com
+"Los preciossehanca&#237;do"@lists.ietf.org
+"Malin MARQUEZ"@comcast.net
+"Matthews <beep-archive"@lists.ietf.org
+"Mays <snmpconf-archive"@lists.ietf.org
+"Mays <zeroconf-archive"@lists.ietf.org
+"Mccauley <spirits-archive"@ietf.org
+"Mccauley <svrloc-archive"@ietf.org
+"MensHealth.com <aaa-archive"@ietf.org
+"MensHealth.com <calsch-archive"@ietf.org
+"MensHealth.com <cdi-archive"@ietf.org
+"MensHealth.com <conneg-archive"@ietf.org
+"MensHealth.com <dnsext-archive"@ietf.org
+"MensHealth.com <eap-archive"@megatron.ietf.org
+"MensHealth.com <ediint-archive"@ietf.org
+"MensHealth.com <idwg-archive"@ietf.org
+"MensHealth.com <idwg-archive"@megatron.ietf.org
+"MensHealth.com <ipp-archive"@lists.ietf.org
+"MensHealth.com <rescap-archive"@ietf.org
+"MensHealth.com <svrloc-archive"@ietf.org
+"MensHealth.com <urn-archive"@ietf.org
+"MensHealth.com <usefor-archive"@ietf.org
+"Miranda Deal"@core3.amsl.com
+"Mohsen BANAN"@mail.int
+"NYC_SMTPMTA_05"@jpmorgan.com
+"Oconnor <dnsext-archive"@ietf.org
+"Order Real Pfizer <adahic9359@comcast.net>"@core3.amsl.com
+"Order Real Pfizer <doyta4091@comcast.net>"@core3.amsl.com
+"Order Real Pfizer <ipugunum6343@comcast.net>"@core3.amsl.com
+"Order Real Pfizer <peqinovoow7217@comcast.net>"@core3.amsl.com
+"Order Real Pfizer <unefobioje9782@comcast.net>"@core3.amsl.com
+"Patton <web-archive"@megatron.ietf.org
+"Petersen <calsch-archive"@ietf.org
+"Polk <atommib-archive"@lists.ietf.org
+"Polk <ediint-archive"@lists.ietf.org
+"Polk <ipp-archive"@lists.ietf.org
+"Polk <kink-archive"@lists.ietf.org
+"Polk <krb-wg-archive"@lists.ietf.org
+"Polk <ldapbis-archive"@lists.ietf.org
+"Polk <mobileip-archive"@lists.ietf.org
+"Polk <multi6-archive"@lists.ietf.org
+"Proctor <snmpv3-archive"@lists.ietf.org
+"Proctor <wrec-archive"@lists.ietf.org
+"Prof. Jane M. Gott"@core3.amsl.com
+"Prof. Jessi Twomey"@core3.amsl.com
+"Prof. Jesus Dolphin"@core3.amsl.com
+"Prof. Lawerence L. Caroll"@core3.amsl.com
+"Prof. Minh Bauder"@core3.amsl.com
+"Prof. Mohamed B. Calabrese"@core3.amsl.com
+"Prof. Nevada Y. Owens"@core3.amsl.com
+"Prof. Philomena C. Sherron"@core3.amsl.com
+"Prof. Sid M. Geiser"@core3.amsl.com
+"Prof. Stefan I. Sauceda"@core3.amsl.com
+"Prof. Stephen Klimek"@core3.amsl.com
+"Prof. Tyron Gravely"@core3.amsl.com
+"PromoMail"@catarina.usc.edu
+"PromoMail"@livingston.com
+"Riduzione diprezzi"@ietf.org
+"Ruiz <discuss-archive"@ietf.org
+"Secrets of the Web".KMVC@ywing.netscape.com
+"Sidney Stanley"@core3.amsl.com
+"Site <capwap-archive"@lists.ietf.org
+"Site <dnsext-archive"@lists.ietf.org
+"Site <ion-archive"@lists.ietf.org
+"Site <ip1394-archive"@lists.ietf.org
+"Site <iporpr-archive"@lists.ietf.org
+"Site <krb-wg-archive"@lists.ietf.org
+"Site <mobileip-archive"@lists.ietf.org
+"Site <nasreq-archive"@lists.ietf.org
+"Site <nat-archive"@ietf.org
+"Site <opes-archive"@megatron.ietf.org
+"Site <sacred-archive"@lists.ietf.org
+"Site <schema-archive"@ietf.org
+"Site <sctp-impl-archive"@ietf.org
+"Site <send-archive"@megatron.ietf.org
+"Site <v6ops-archive"@ietf.org
+"Spam-filtering system of SibCem"@sibcem.ru
+"Steve Siebert"@core3.amsl.com
+"Stevenson <calsch-archive"@megatron.ietf.org
+"Subject:Last"@core3.amsl.com
+"Tad Duffy"@core3.amsl.com
+"Todd <eap-archive"@megatron.ietf.org
+"Todd <send-archive"@megatron.ietf.org
+"VIAGRA tablets."@ietf.org
+"Xavier"@ietf.org
+"Xiaodong(Sheldon) Lee <lee@cnnic.cn>"@NeuStar.com
+"greg"@dascom.com
+"postmaster@absamail.co.za"@absamail.co.za
+"postmaster@africaonline.co.ci"@pop1.africaonline.co.ci
+"spambounce@kem.ee"@ns1.kemetriks.ee
+"~Free-AcaiBerry Weightloss-Capsules-"@core3.amsl.com
+"~Free-Sample Weight_Loss_Acai~"@core3.amsl.com
+Sample~@core3.amsl.com

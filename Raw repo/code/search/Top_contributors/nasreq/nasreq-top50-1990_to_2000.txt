@@ -1,0 +1,27 @@
+1990 TO 2000
+-------#####------->    nasreq
+Pat.Calhoun@eng.sun.com 19
+MBeadles@wcom.net 14
+bernarda@Exchange.Microsoft.com 10
+yves.tjoens@alcatel.be 8
+randy@psg.com 7
+mark.beadles@columbus.rr.com 5
+Internet-Drafts@ietf.org 4
+eksteinr@rc.bel.alcatel.be 4
+gwz@acm.org 4
+rpluim@bigfoot.com 4
+chsharp@cisco.com 3
+matt@ascend.com 3
+newsletter@VERTICAL.NET 3
+bugalloh@metrored.com.ar 2
+jrv@merit.edu 2
+paul.krumviede@wcom.com 2
+Majordomo@tdmx.rutgers.edu 1
+Nenad.Trifunovic@wcom.com 1
+aboba@internaut.com 1
+dmitton@nortelnetworks.com 1
+edguer@cmh.ascend.Com 1
+kisroom@yahoo.co.kr 1
+megazone@megazone.org 1
+perl@lucent.com 1
+tjsh@netchina.com.cn 1

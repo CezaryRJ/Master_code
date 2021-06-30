@@ -1,0 +1,11 @@
+2010 TO 2020
+-------#####------->    91all
+ietf-secretariat@ietf.org 10
+amorris@amsl.com 6
+chair@ietf.org 6
+rpelletier@isoc.org 6
+agenda@ietf.org 4
+jrmii@isc.org 3
+cmorgan@amsl.com 1
+mconner@amsl.com 1
+nkhan@amsl.com 1

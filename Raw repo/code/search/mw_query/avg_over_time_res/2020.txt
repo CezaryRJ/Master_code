@@ -1,0 +1,5 @@
+Year = 2020
+Adr count = 3375
+Removed 0
+Sum 11035.0
+Avarage = 3.2696296296296294

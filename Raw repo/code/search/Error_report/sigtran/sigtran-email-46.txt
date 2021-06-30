@@ -1,0 +1,77 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : d7450b85-54d9-41ae-a94a-5ce57cbd3760
+_version_ : 1675129467494727680
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id UAA02697;
+	Thu, 12 Apr 2001 20:13:58 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id UAA02666
+	for <tsvwg@ns.ietf.org>; Thu, 12 Apr 2001 20:13:56 -0400 (EDT)
+Received: from optima.CS.Arizona.EDU ([192.12.69.5])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id UAA13992
+	for <tsvwg@ietf.org>; Thu, 12 Apr 2001 20:13:55 -0400 (EDT)
+Received: from baskerville.CS.Arizona.EDU (baskerville.CS.Arizona.EDU
+[192.12.69.35])
+	by optima.CS.Arizona.EDU (8.11.1/8.11.1) with ESMTP id f3D0APl14022;
+	Thu, 12 Apr 2001 17:10:26 -0700 (MST)
+Received: from P-micke (baskerville.CS.Arizona.EDU [192.12.69.35])
+	by baskerville.CS.Arizona.EDU (8.11.1/8.11.1) with SMTP id
+f3D0Do308954;
+	Thu, 12 Apr 2001 17:13:50 -0700 (MST)
+Message-Id: <200104130013.f3D0Do308954@baskerville.CS.Arizona.EDU>
+X-Sender: micke@127.0.0.1
+X-Mailer: QUALCOMM Windows Eudora Pro Version 4.0
+Date: Fri, 13 Apr 2001 02:16:25 +0200
+To: lyndon_ong@eudoramail.com
+From: Mikael Degermark <micke@CS.Arizona.EDU>
+Subject: Re: [Tsvwg] Re: SCTP checksum problems
+Cc: "sigtran" <sigtran@lyris.nortelnetworks.com>,
+        sigtran@standards.nortelnetworks.com, tsvwg@ietf.org
+In-Reply-To: <LBIAPCLPPFPMKAAA@shared1-mail.whowhere.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+
+I've recently exchanged emails with Craig on a related issue, and he then
+said
+that if he were to modify UDP or TCP today, regarding the checksum, he would
+probably go for a 32-bit Internet checksum. 
+
+Cheers, 
+
+Mikael Degermark
+

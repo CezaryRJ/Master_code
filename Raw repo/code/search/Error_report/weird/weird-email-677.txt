@@ -1,0 +1,58 @@
+Date : ['2005-03-29T21:58:38Z']
+Timezone : -0400
+From : ['"Joan Shultz" <null@fadmail.com>']
+From-name : [' Joan_Shultz']
+From-address : [' null@fadmail.com']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : <vzsxfimrg-admin@ietf.org>
+To-name : Null
+To-address : [' vzsxfimrg-admin@ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <BKELLDAGKABIOCHDFD606DGAA.dannvzsxfimrg-admin@ietf.org>
+References : Null
+Comments : ['Null']
+Subject : ["You've been selected for a low rate"]
+Mailing-list : weird
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/weird/2005-03.mailcl']
+id : 25e150c1-7bc8-4f92-8959-4d56b61442b2
+_version_ : 1675129659842363393
+
+Content : 
+
+Hello,
+
+ We tried contacting you awhile ago about your low interest morta(ge rate.
+
+ You have qualified for the lowest rate in years...
+
+ You could get over $380,000 for as little as $500 a month!
+
+ Ba(d credit? Doesn't matter, low rates are fixed no matter what!
+
+ 
+ To get a free, no obli,gation consultation click below:
+
+ http://www.go-mrt-now.com/sign.asp
+
+
+
+ Best Regards,
+
+ Eloy Donaldson
+ 
+ to be remov(ed:	http://www.go-mrt-now.com/gone.asp
+
+ this process takes one week, so please be patient. we do our 
+ best to take your email/s off but you have to fill out a rem/ove
+ or else you will continue to recieve email/s.
+

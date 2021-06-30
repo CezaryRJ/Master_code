@@ -1,0 +1,109 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : regions.
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <441CDB03.2020002@alvestrand.no>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2006-03.mailcl']
+id : 1394041b-ab05-4363-8c2d-372c8d1cf72a
+_version_ : 1675130239501467649
+
+Content : 
+
+   - Inadequate security
+
+      The document specifies only clear-text passwords for
+      authentication.  EMSD should be used across a wireless network
+      only if sufficiently strong encryption is in use to protect the
+      clear-text password.
+
+   - Lack of character set internationalization
+
+      EMSD has no provision for representation of characters outside of
+      the ASCII repertoire or for language tags.
+
+   - Poorly defined gatewaying to and from Internet Mail
+
+      Because Internet Mail and EMSD have somewhat different and
+      conflicting service models and different data models, mapping
+      between them may provide good service only in limited cases, and
+      this may cause operational problems.
+
+   The IESG therefore recommends that EMSD deployment be limited to
+   narrow circumstances, i.e., only to communicate with devices that
+   have inherent limitations on the length and format of a message (no
+   more than a few hundred bytes of ASCII text), using either:
+
+   a. wireless links with adequate link-layer encryption and gatewayed
+      to the public Internet, or
+
+   b. a private IP network that is either very over-provisioned or has
+      some means of congestion control.
+
+   In the near future, the IESG may charter a working group to define an
+   Internet standards-track protocol for efficient transmission of
+   electronic mail messages, which will be highly compatible with
+   existing Internet mail protocols, and which wil be suitable for
+   operation over the global Internet, including both wireless and wired
+   links.
+
+In this case, too, the RFC Editor exercised the RFC Editor's independent 
+judgment and published the document.
+
+The Internet seems to have survived the publication, but I can't see any 
+tangible benefit to the Internet from their publication either.
+
+WRT formalities, Google found this reply to the posting of the note:
+
+http://www1.ietf.org/mail-archive/web/ietf/current/msg08332.html
+
+which seems to indicate that the IAB archives should show what happened 
+afterwards; the mailing list also had a followup discussion that might 
+be of interest.
+
+This was eight years ago. The IESG that the complaint was made against was:
+
+Alvestrand, Harald 	Applications
+Bradner, Scott 	Transport
+Burgan, Jeff 	Internet
+Curran, John 	Operations & Management
+Halpern, Joel 	Routing
+Moore, Keith 	Applications
+Narten, Thomas 	Internet
+O'Dell, Michael 	Operations & Management
+Reynolds, Joyce 	User Services
+Romanow, Allyn 	Transport
+Schiller, Jeff 	Security
+
+
+What's the point of reposting this message now?
+
+                                  Harald
+
+
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+

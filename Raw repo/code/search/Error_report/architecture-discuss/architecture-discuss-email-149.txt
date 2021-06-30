@@ -1,0 +1,80 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<40758327-A51D-46DE-90BA-7</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =']
+In-Reply-To-name : Null
+In-Reply-To-address :  40758327-A51D-46DE-90BA-7 /DIV DIV style=3D"margin-top: 0px; margin-right: 0px; ="
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : architecture-discuss
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/architecture-discuss/2007-02.mailcl']
+id : 1ef7ed8b-e821-406d-89eb-0ec0cf293e5e
+_version_ : 1675131575171284994
+
+Content : 
+
+noticeably less hot and (in a</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">server farm) =
+the offload NICs will each get a little hotter.</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><SPAN =
+class=3D"Apple-converted-space">=A0=A0 </SPAN>Brian</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+">_______________________________________________</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">Architecture-discuss mailing list</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><A =
+href=3D"mailto:Architecture-discuss@ietf.org">Architecture-discuss@ietf.or=
+g</A></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><A =
+href=3D"https://www1.ietf.org/mailman/listinfo/architecture-discuss">https=
+://www1.ietf.org/mailman/listinfo/architecture-discuss</A></DIV> =
+</BLOCKQUOTE><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; =
+"><BR></DIV><DIV><SPAN class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; border-spacing: 0px 0px; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; text-align: auto; =
+-khtml-text-decorations-in-effect: none; text-indent: 0px; =
+-apple-text-size-adjust: auto; text-transform: none; orphans: 2; =
+white-space: normal; widows: 2; word-spacing: 0px; "><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><BR =
+class=3D"Apple-interchange-newline"></SPAN> </DIV><BR></BODY></HTML>=
+
+--Apple-Mail-3-916158116--
+
+
+--===============2120912938==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Architecture-discuss mailing list
+Architecture-discuss@ietf.org
+https://www1.ietf.org/mailman/listinfo/architecture-discuss
+
+--===============2120912938==--
+

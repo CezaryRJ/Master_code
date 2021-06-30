@@ -1,0 +1,248 @@
+Date : ['2002-12-14T14:28:26Z']
+Timezone : +0100
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: Evaluation: draft-ietf-midcom-stun - STUN - Simple Traversal  of U']
+Mailing-list : midcom
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/midcom/2002-12.mailcl']
+id : 1f463ea1-528d-43f0-b012-2ef6b30a5ab1
+_version_ : 1675133703779516416
+
+Content : 
+
+DP Through Network Address Translators to Proposed Standard
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Mime-Version: 1.0 (Apple Message framework v551)
+Cc: IESG <iesg@ietf.org>
+To: Scott Bradner <sob@harvard.edu>
+From: =?ISO-8859-1?Q?Patrik_F=E4ltstr=F6m?= <paf@cisco.com>
+In-Reply-To: <A36CEB64-ECDF-11D6-B5C4-0003934B2128@cisco.com>
+X-Mailer: Apple Mail (2.551)
+X-OriginalArrivalTime: 14 Dec 2002 13:28:28.0905 (UTC) FILETIME=[B04B3D90:01C2A
+374]
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by newdev.harvard.edu id gB
+EDRMnb026965
+
+I can not remove my discuss yet. See below.
+
+On torsdag, okt 31, 2002, at 15:47 Europe/Stockholm, Patrik Fltstrm 
+wrote:
+
+>                     Yes    No-Objection  Discuss *  Abstain
+>
+> Patrik Faltstrom    [   ]     [   ]       [ X ]      [   ]
+>
+> Discuss:
+>
+> (1) I don't understand how this combination of RECOMMENDED and MUST is 
+> to work together.
+>
+> 8.1 Binding Requests
+>
+> [...snip...]
+>
+>    It is RECOMMENDED that the server check the Binding Request for a
+>    MESSAGE-INTEGRITY attribute. If not present, and the server requires
+>    integrity checks on the request, it MUST generate a Binding Error
+>    Response with an ERROR-CODE attribute with class 400 and number 1.
+
+This is ok in version 04.
+
+> (2) Why not send an error message? Is there not a risk that a client 
+> tries again, and again, and again...
+>
+> 8.2 Shared Secret Requests
+>
+> [...snip...]
+>
+>    If the server receives a Shared Secret Request, it MUST verify that
+>    the request arrived on a TLS connection. If not, it discards the
+>    request.
+>
+> [...snip...]
+>
+> 9.1 Discovery
+>
+> [...snip...]
+>
+>    For STUN requests, failure occurs if there is a transport failure of
+>    some sort (generally, due to fatal ICMP errors in UDP or connection
+>    failures in TCP). Failure also occurs if the the request does not
+>    solicit a response after 30 seconds. If a failure occurs, the client
+>    SHOULD create a new request, which is identical to the previous, but
+>    has a different transaction ID. That request is sent to the next
+>    element in the list as specified by RFC 2782.
+
+I still don't understand why not an error code is sent back in 8.2.
+
+> (3) Why not follow the FTP/SMTP idea of "families" or return codes, 
+> where the first digit tell whether one has a temporary or complete 
+> error, success, "need more data" etc? This below is incredibly 
+> complicated, especially given the number of words, and imply 
+> interoperability problems. Yes, classes are defined in 11.2.9 
+> ERROR-CODE, but I would prefer if the classes indicated "what to do 
+> next" and not "where the error occurred". Further, section 11.2.9 
+> which is to be the authoritative source on what to do when error 
+> messages are passed (I guess) doesn't say anything about when a new 
+> request is to be sent.
+>
+> 9.4 Processing Binding Responses
+>
+>    The response can either be a Binding Response or Binding Error
+>    Response.
+>
+>    If the response is a Binding Error Response, the client checks the
+>    class and number from the ERROR-CODE attribute of the response. For
+>    400 class responses with error number 2, the client SHOULD obtain a
+>    new shared secret, and retry the Binding Request with a new
+>    transaction. For 400 class responses with error numbers 1 and 4, if
+>    the client had omitted the USERNAME or MESSAGE-INTEGRITY attribute 
+> as
+>    indicated by the error, it SHOULD try again with those attributes.
+>    For 400 class responses with error number 3, the client SHOULD alert
+>    the user, and MAY try the request again after obtaining a new
+>    username and password. For 400 class responses with unknown numbers,
+>    the client should alert the user that there was an error, and 
+> display
+>    the reason phrase of the ERROR-CODE response. For 500 class 
+> responses
+>    with unknown numbers, the client SHOULD retry the Binding Request.
+>    For 600 class responses with unknown numbers, the client SHOULD NOT
+>    retry the request, and should inform the user of the failure using
+>    the reason phrase.
+
+This is ok. One follow the SIP codes.
+
+> (4) Figure 2 is useful. Why not start the document with it to describe 
+> the algorithm, and go from  there? This is now part of the "examples" 
+> part of the document, and not the protocol specification, which is 
+> very unfortunate.
+
+Ok, i.e. I understand why the image is not moved.
+
+> (5) The end of this paragraph is weird.
+>
+> 11.2 Message Attributes
+>
+> [...snip...]
+>
+>    Future extensions MAY define new attributes. If a STUN client or
+>    server receives a message with an unknown attribute with a type 
+> lower
+>    than or equal to 0x7fff, the message MUST be discarded. If the type
+>    is greater than 0x7fff, the attribute MUST be ignored. The ordering
+>    of attributes within a message is not important (except that the
+>    MESSAGE-INTEGRITY attribute MUST be the last attribute), and a 
+> client
+
+The new paragraph is more weird now. I don't know what this means to an 
+implementation:
+
+>    Extensions, documented in standards track IETF RFCs, MAY define new
+>    attributes. Attributes with values greater than 0x7fff are optional,
+>    and those less than or equal to 0x7fff are mandatory to understand.
+
+"mandatory to understand"? Especially for codes which will be 
+registered later.
+
+> (6) Also is section 11.2, why so many discarded messages? This will 
+> force clients and servers to retry over and over again. Further, 
+> saying types above 0x7ffff is to be discarded is weird. Is the idea 
+> that those are _reserved_? (Which for me is a completely different 
+> thing, today it smells like values above 0x7ffff is forbidden)
+>
+>    The following types are defined:
+>
+>    0x0001: MAPPED-ADDRESS
+>    0x0002: RESPONSE-ADDRESS
+>    0x0003: FLAGS
+>    0x0004: SOURCE-ADDRESS
+>    0x0005: CHANGED-ADDRESS
+>    0x0006: USERNAME
+>    0x0007: PASSWORD
+>    0x0008: MESSAGE-INTEGRITY
+>    0x0009: ERROR-CODE
+>
+>    Future extensions MAY define new attributes. If a STUN client or
+>    server receives a message with an unknown attribute with a type 
+> lower
+>    than or equal to 0x7fff, the message MUST be discarded. If the type
+>    is greater than 0x7fff, the attribute MUST be ignored.
+
+Ok (see (5) above).
+
+> (7) How is this to work over TLS? Is the server to open a new TLS 
+> connection?
+>
+> 11.2.3 CHANGED-ADDRESS
+>
+>    The CHANGED-ADDRESS attribute indicates the IP address and port of a
+>    STUN server where responses will be sent from if the "change IP" and
+>    "change port" flags were set in the Binding Request.
+
+I presume the new text is clear and understandable. So, Ok.
+
+> (8) Similar problems in other places. (a) How are extensions 
+> registered? (b) Should not some bits be reserved for "future expansion 
+> when we run out of bits"? Should not extensions be registered with 
+> IANA? Using the IETF process? Vendor specific extensions?
+>
+> 11.2.4 FLAGS
+>
+>    The FLAGS attribute is a series of boolean flags. It is 32 bits 
+> long:
+>
+>
+>     0                   1                   2                   3
+>     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+>    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+>    |                                                         |A|B|C|
+>    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+>
+>
+>
+>    Only three flags, A,B,C, are currently defined. The other bits MAY 
+> be
+>    used by extensions to define additional flags. Unknown flags are
+>    ignored.
+>
+> [...snip...]
+>
+> 13 IANA Considerations
+>
+>    There are no IANA considerations associated with this specification.
+
+I still think we have a registration issue here. Both regarding flags 
+and extensions. Especially together with "mandatory to understand".
+
+      paf
+
+
+------- End of Forwarded Message
+
+_______________________________________________
+midcom mailing list
+midcom@ietf.org
+https://www1.ietf.org/mailman/listinfo/midcom
+
+

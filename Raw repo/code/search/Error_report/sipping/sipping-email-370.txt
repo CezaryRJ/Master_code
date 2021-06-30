@@ -1,0 +1,93 @@
+Date : ['2007-02-14T16:41:05Z']
+Timezone : -0600
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<45D38F5C.9050901@bbn.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  45D38F5C.9050901@bbn.com
+Message-ID : <1ECE0EB50388174790F9694F77522CCF0F31AD3F@zrc2hxm0.corp.nortel.com>
+References : Null
+Comments : ['Null']
+Subject : ['RE: [Sipping] Re: [Sip] New draft on early media']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-02.mailcl']
+id : f2fc2e6e-e730-4c16-93d2-01d79dc3be18
+_version_ : 1675132947899875329
+
+Content : 
+
+TFrom sipping-bounces@ietf.org Wed Feb 14 17:41:48 2007
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1HHSoo-0001aq-74; Wed, 14 Feb 2007 17:41:42 -0500
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1HHSom-0001al-Hc
+	for sipping@ietf.org; Wed, 14 Feb 2007 17:41:40 -0500
+Received: from sccrmhc15.comcast.net ([204.127.200.85])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1HHSol-0007C5-C1
+	for sipping@ietf.org; Wed, 14 Feb 2007 17:41:40 -0500
+Received: from dragon.ariadne.com (dworley.hsd1.ma.comcast.net[24.34.79.42])
+	by comcast.net (sccrmhc15) with ESMTP
+	id <200702142241210150097ua2e>; Wed, 14 Feb 2007 22:41:39 +0000
+Received: from dragon.ariadne.com (dragon.ariadne.com [127.0.0.1])
+	by dragon.ariadne.com (8.12.8/8.12.8) with ESMTP id l1EMfKAM002801
+	for <sipping@ietf.org>; Wed, 14 Feb 2007 17:41:21 -0500
+Received: (from worley@localhost)
+	by dragon.ariadne.com (8.12.8/8.12.8/Submit) id l1EMfKWg002796;
+	Wed, 14 Feb 2007 17:41:20 -0500
+Date: Wed, 14 Feb 2007 17:41:20 -0500
+Message-Id: <200702142241.l1EMfKWg002796@dragon.ariadne.com>
+To: sipping@ietf.org
+From: Dale.Worley@comcast.net
+In-reply-to: <7374777208BDC7449D5620EF9423256702047D9A@esealmw113.eemea.ericsson.se>
+	(christer.holmberg@ericsson.com)
+Subject: Re: [SIPPING] SDP offer/answer
+	inearly	media:draft-sawada-sipping-sip-offeranswer-01.txt
+References: <7374777208BDC7449D5620EF9423256702047D9A@esealmw113.eemea.ericsson.se>
+X-Spam-Score: 0.2 (/)
+X-Scan-Signature: 1ac7cc0a4cd376402b85bc1961a86ac2
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Errors-To: sipping-bounces@ietf.org
+
+   From: "Christer Holmberg \(JO/LMF\)" <christer.holmberg@ericsson.com>
+
+   I once proposed that it should be possible to terminate an early dialog
+   with an 19x provisional response.
+
+   Then, if "fake forking" is used, the dialog not used anymore could be
+   terminted and the UAC knows he doesn't have to care about it (and
+   possible media coming on it).
+
+That seems like it might be useful, given the number of times I've
+seen "fake forking" proposed for dealing with one situation or
+another.
+
+Dale
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

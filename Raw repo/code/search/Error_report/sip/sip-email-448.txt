@@ -1,0 +1,95 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2007-11.mailcl']
+id : 04821622-d273-492b-b8dd-b65e175cd49c
+_version_ : 1675128709613355009
+
+Content : 
+
+to implementation by example.  There is ample additional text
+that explicitly specifies the behavior.
+
+>    > The use of "alias descriptor" is unfortunate.  To start with, it is 
+>    > confusing -- initially I mistook it for some sort of identification
+>    > of the row of the alias table.  But the concept of "descriptor" as
+>    > being a small integer identifying a network connection, as well as
+>    > the very term "descriptor", are Unix-specific.
+> 
+>    Anything wrong with that :-) ?
+> 
+> In a standard?
+
+Sure ... this is the IETF, right?  This protocol specification is
+supposed to be read by programmers who would know what a Unix-
+style file descriptor is.  In fact, if you go back to rfc2543, it
+actually had actual *C code* for demonstrating how to write a forking
+proxy (which I must say was great for understanding forking
+mechanics when I wrote my first forking proxy back in 1998.)  Other
+RFCs also have code and domain-specific nomenclature (see for example
+drafts and RFCs in PKIX, many of which have ASN, BER, DER and other
+encodings and cryptographic language pertinent to and rooted in that
+domain.)
+
+>    > There is an overall conflating of two concepts as "connection reuse".
+>    > One is using one connection to send more than one request from one 
+>    > sender to one recipient.  The second is using one connection to send 
+>    > requests in both directions.  The first concept is already supported 
+>    > by RFC 3261; the second is what is being enabled by this I-D.  But
+>    > the I-D implements both actions using one alias table, obfuscating
+>    > the distinction and so obfuscating the changes that the I-D is 
+>    > introducing.
+> 
+>    So this is an interesting and very relevant comment.  You are
+>    absolutely right that there are indeed two concepts of connection
+>    reuse.  However, I do not believe that the draft conflates them.
+> 
+> It's using the same word for both, which requires very close reading
+> to figure out which concept is being talked about at which time.  (I'm
+> not claiming that *you* don't keep the two ideas straight, but I'm
+> worried about the next 200 readers.)
+
+OK; I think it may be good to separate the notion of persistent
+connection (as suggested by Hadriel) and connection reuse.  The
+former is when a client uses the same connection to send multiple
+requests in the downstream direction, and the latter is when the
+downstream entity can use the same connection to send new requests
+upstream.  I will add this notion in the revision.
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+2701 Lucent Lane, Rm. 9F-546, Lisle, Illinois 60532 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+WWW:   http://www.alcatel-lucent.com/bell-labs
+
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip

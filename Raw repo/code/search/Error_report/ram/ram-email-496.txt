@@ -1,0 +1,118 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<39C363776A4E8C4A94691D2BD9D1C9A1017747C8@XCH-NW-7V2.nw.nos.boeing.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  39C363776A4E8C4A94691D2BD9D1C9A1017747C8@XCH-NW-7V2.nw.nos.boeing.com
+Message-ID : Null
+References : <45F94921.7010707@piuha.net><EA174210-BBE9-4D57-87E0-E689E8293B92@muada.com><45FC10FD.2060507@piuha.net>
+	<0A72F546-9BB9-4F1C-9478-36CD785FE197@muada.com>
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ram
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ram/2007-03.mailcl']
+id : 8906a03b-4f84-4668-b4f4-11c59c03844a
+_version_ : 1675130645512192001
+
+Content : 
+
+Recei table of really working
+> interfaces, current load of interfaces and so.
+> [Rui Campos] Doesn't this mean modification of the world? :-) As far as I
+> know, today DNS servers do not consider all these parameters for resolving
+> host to IP.
+> 
+> Disadvantages of this is all currently active sessions will be dropped
+> when one of channels will go down, and also DNS replies can not be cached.
+> 
+> Advantages is we don't need to alter the world to implement it. We can
+> do it right now.
+> [Rui Campos] Are you sure you don't need to change the "DNS world" as we
+> know it today?
+> 
+> There is many implementations of this schema near me, including for
+> VoIP. All of them working reasonable for real business.
+> [Rui Campos] I understand that this can work for local scenarios, as I have
+> mentioned above. But I doubt it would work in a global scope without
+> modifying the "DNS world" ;-)
+> 
+> Rui Campos wrote:
+>> Hi all,
+>>
+>> I have been following the discussions in this list and I just would like
+> to 
+>> comment this FQDN issue.
+>>
+>> IMHO, even if FQDNs are used as identifiers for hosts things will not work
+> 
+>> properly, at least without modifying the way FQDN assignment works in the 
+>> current Internet (probably that's the your idea, I'm not sure).
+>>
+>> Let's consider a host H that attaches itself to different domains along
+> the 
+>> time. While H is attached to the same domain (e.g., domain1.com.) its FQDN
+> 
+>> does not change. Then, H can be uniquely identified by a peer host even if
+> its 
+>> IP address changes, assuming that the mapping FQDN <-> IP address is
+> handled 
+>> properly. However, when H moves between different domains the FQDN will
+> change 
+>> at the same pace. For instance, at instant 1 H gets connected to
+> domain1.com 
+>> and its FQDN is "H.domain1.com.", at instant 2 it connects to domain 2 and
+> its 
+>> FQDN becomes "H.domain2.com." and, finally, at instant 3 it connects to 
+>> domain3 and its FQDN becomes "H.domain3.com". Therefore, every session
+> bound 
+>> to an FQDN will break when the host moves from one domain to the other. On
+> the 
+>> other hand, how does a peer host will get informed about the current
+> host's 
+>> FQDN?
+>>
+>> If we consider multi-homed hosts (i.e., hosts with multiple network 
+>> interfaces) the problem is even exacerbated. In fact, multi-homed hosts
+> may 
+>> have an FQDN per network interface. Then, what FQDN will a peer host use
+> to 
+>> contact a multi-homed host? There is not a single FQDN that uniquely 
+>> identifies the host regardless of its location and number of network 
+>> interfaces.
+>>
+>> BR,
+>> Rui Campos
+> 
+> _______________________________________________
+> RAM mailing list
+> RAM@iab.org
+> https://www1.ietf.org/mailman/listinfo/ram
+> 
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> RAM mailing list
+> RAM@iab.org
+> https://www1.ietf.org/mailman/listinfo/ram
+
+
+_______________________________________________
+RAM mailing list
+RAM@iab.org
+https://www1.ietf.org/mailman/listinfo/ram

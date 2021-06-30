@@ -1,0 +1,6 @@
+2000 TO 2010
+-------#####------->    vpim
+rfc-editor@rfc-editor.org 3
+mailman-owner@ietf.org 2
+gparsons@nortel.com 1
+iesg-secretary@ietf.org 1

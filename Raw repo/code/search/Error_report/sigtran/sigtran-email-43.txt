@@ -1,0 +1,94 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : 2bdb8b93-53e5-4720-bccf-2571eb7be0b2
+_version_ : 1675129467492630529
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id JAA26300;
+	Tue, 17 Apr 2001 09:24:36 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id JAA26274
+	for <tsvwg@ns.ietf.org>; Tue, 17 Apr 2001 09:24:33 -0400 (EDT)
+Received: from aland.bbn.com ([204.162.9.10])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id JAA07193
+	for <tsvwg@ietf.org>; Tue, 17 Apr 2001 09:24:36 -0400 (EDT)
+Received: from aland.bbn.com (localhost [127.0.0.1])
+	by aland.bbn.com (8.11.3/8.11.3) with ESMTP id f3HDOSP01829;
+	Tue, 17 Apr 2001 09:24:29 -0400 (EDT)
+Message-Id: <200104171324.f3HDOSP01829@aland.bbn.com>
+To: Randall Stewart <rrs@cisco.com>
+cc: Jonathan Wood <Jonathan.Wood@Sun.COM>, xieqb@cig.mot.com,
+tsvwg@ietf.org,
+        Jim Wendt <jim_wendt@hp.com>,
+        Jonathan Stone <jonathan@dsg.stanford.edu>,
+        Craig Partridge <craig@aland.bbn.com>
+Subject: Re: [Tsvwg] [SCTP checksum problems] 
+In-Reply-To: Your message of "Tue, 17 Apr 2001 06:30:43 CDT."
+             <3ADC2963.39CD2E2@cisco.com> 
+Date: Tue, 17 Apr 2001 09:24:28 -0400
+From: Craig Partridge <craig@aland.bbn.com>
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+
+
+In message <3ADC2963.39CD2E2@cisco.com>, Randall Stewart writes:
+
+>I kinda lean towards crc-32 myself (but of course I have no technical
+>basis for this and need to keep silent on which one to use anyway :->),
+>but do we have other candidates besides fletcher-32 and possibly
+>modified 
+>Adler-32 (i.e. 16 bit adds instead of 8)??
+
+The other obvious choice is to define a TCP-32 (i.e. add in 32-bit
+chunks with the carry wrapped).
+
+>I will take the above 3 and do a bit of performance work this
+>week and post some numbers... thats about all I can do i.e.  tell
+>how much time the options I know of take... 
+
+We have a fairly optimized CRC-32 running around that we can likely
+send you.  I think Sklower had an optimized fletcher-32 in his paper
+(though it may have only been fletcher-16 but regardless, you can
+figure out how to do a faster fletcher-32 by reading his work and
+much of it applies to Adler-32 as well).  Remember to test in both
+endians (which is a nuisance, e.g. our CRC-32 was only done for big
+endian) but it matters.
+
+Craig
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

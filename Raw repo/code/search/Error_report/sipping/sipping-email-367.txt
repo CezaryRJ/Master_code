@@ -1,0 +1,101 @@
+Date : ['2007-03-23T11:02:09Z']
+Timezone : +0200
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<003101c76cc9$294c96e0$0601a8c0@BEMBUSTER>']
+In-Reply-To-name : Null
+In-Reply-To-address :  003101c76cc9$294c96e0$0601a8c0@BEMBUSTER
+Message-ID : <2DD2118061FBAB4987528EF695D0780223A8A9@esebe111.NOE.Nokia.com>
+References : <2DD2118061FBAB4987528EF695D0780220C4FD@esebe111.NOE.Nokia.com>
+	<003001c76c3e$210c12c0$060we define a new protocol whose
+Comments : ['Null']
+Subject : ['RE: [Sipping] Use and requirements of Service ID']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-03.mailcl']
+id : a3152ccd-7015-46f3-9d55-9568441851b5
+_version_ : 1675132967836450816
+
+Content : 
+
+> functionality is superior because it fixes problems in a previous one.
+> I
+> think the point is being made that ICE provides a superset of
+> functionality of ANAT and fixes two issues ANAT has - (1) its
+> selection
+> of transport addresses are not dynamic and we've have learned that
+> dynamic selection is better, and (2) ANAT doesn't allow for RFC 3484
+> address selection.
+>=20
+> -Jonathan R.
+>=20
+> Hadriel Kaplan wrote:
+>=20
+> > The thing that bothers me about this ICE vs. ANAT
+> discussion/decision is
+> > that it makes the assumption that ICE is or will soon become
+> ubiquitous.
+> > That may well happen, but it is far too premature to assume so.  The
+> IETF
+> > has shown time and time again that it is good at specifying
+> protocols, but
+> > bad at mandating market forces by fiat.  The SIP WG is no exception
+> to that.
+> > The market picks and chooses from the work of the ietf, not the
+> other way
+> > around.
+> >
+> > So the concern I have is if we start going down this road of "oh we
+> can
+> > deprecate this now", without any evidence that the ICE is successful
+> in the
+> > market, then we are creating yet another head-in-the-sand scenario
+> that made
+> > the ietf ignore NATs to begin with.
+> >
+> > So if the proposal is to actually _deprecate_ ANAT because ICE can
+> do it a
+> > different way, then I think it's too soon.  If the proposal is just
+> to
+> > ignore ANAT with respect to the ICE draft - i.e., support address
+> family
+> > selection natively in ICE without any ANAT syntax needed, then I'm
+> in favor
+> > of that.
+> >
+> > -hadriel
+> >
+>=20
+> --
+> Jonathan D. Rosenberg, Ph.D.                   600 Lanidex Plaza
+> Cisco Fellow                                   Parsippany, NJ 07054-
+> 2711
+> Cisco Systems
+> jdrosen@cisco.com                              FAX:   (973) 952-5050
+> http://www.jdrosen.net                         PHONE: (973) 952-5000
+> http://www.cisco.com
+>=20
+> _______________________________________________
+> mmusic mailing list
+> mmusic@ietf.org
+> https://www1.ietf.org/mailman/listinfo/mmusic
+
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

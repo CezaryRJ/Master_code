@@ -1,0 +1,92 @@
+Date : ['1999-11-24T12:56:53Z']
+Timezone : PM
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['owner-idmr@cs.ucl.ac.uk']
+Sender-name : Null
+Sender-address :  owner-idmr@cs.ucl.ac.uk
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <9G5X5S41CdNrnsD>
+References : Null
+Comments : ['Null']
+Subject : ['fwd:re:info']
+Mailing-list : idmr
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/idmr/1999-11.mailcl']
+id : c07e4876-777f-4868-a42d-079669e77996
+_version_ : 1675134004269940736
+
+Content : 
+
+Transfer or Register a .COM for yourself or your company.
+                             
+19.95 a month. Call Now 407-622-1336
+
+No banners or popup ads. This is your 50 megs of space.
+
+ We get you online fast and easy with 
+live help via our "1-800" toll free support line.
+  
+We pride ourselves on customer service. 
+We will walk you through every step.
+
+Everything (see below) is included. This is a limited time offer.
+
+Register now!  Customer Service Experts are standing by:                                         
+                       NT or UNIX you choose!
+               
+Call Now  407-622-1336
+
+  ********** Mention reseller number  MK5805 **************
+
+               19.95 a month gets you the following:
+
+ 1. Your own domain name
+      (example===>   (www.AnyNameYouChoose.com)
+ 2. 6 page WEBSITE template with graphics! Use it or recycle it!
+ 3. 50 megs of quality webspace on Triple Redundant (3DS3's!)    
+ 4. FULL FTP access everyday all day all night.
+ 5. 5 POP E-mail boxes
+ 6. Unlimited e-mail addresses@AnyNameYouChoose.com
+ 7. Friendly 1-800 support line to help you 24 hrs a day.
+ 8. Unlimited amount of traffic or data transfer!
+ 9. Support Forum access. All the tools you need from HTML to Perl
+10. Guaranteed 99% uptime or your money back!
+11. Ongoing pledge to price freeze!
+12.       FREE SETUP!                     NO HIDDEN COSTS!
+13.       FREE TRANSFERS!               * FREE REGISTRATION!
+14. Instant account activation with an International service provider.
+15. FREE extensions and support for Microsoft Frontpage! 
+16. Secure Server  SSL with NO monthly fee!
+17. FREE GuestBook
+18. FREE MessageBoard
+19. FREE Order Form (ready to take credit cards!)
+20. Coupon for Search Engines Submission Special! 
+
+Current special offer: 1 Month Free at signup.
+ 
+Simply dial ====>407-622-1336
+
+Front page support available at no extra cost! 
+E-commerce, secure server service available
+Webmaster/Reseller accounts available
+ * Internic $35 Annual maintenance still applies.
+  
+We pride ourselves on customer service. 
+We will walk you through every step.
+Don't delay. Get your company online with a reliable server and start raking in the profits that the internet has to offer.
+
+Removes should be sent to kharr@spire.com
+with remove in the subject.
+

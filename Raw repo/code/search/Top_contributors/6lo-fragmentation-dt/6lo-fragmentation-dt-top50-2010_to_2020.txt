@@ -1,0 +1,11 @@
+2010 TO 2020
+-------#####------->    6lo-fragmentation-dt
+thomas.watteyne@inria.fr 13
+pthubert@cisco.com 11
+rahul.ietf@gmail.com 10
+cabo@tzi.org 6
+monet.publicity@gmail.com 4
+Gabriel.Montenegro@microsoft.com 3
+georgios.papadopoulos@imt-atlantique.fr 1
+rahul.jadhav@huawei.com 1
+samitac.ietf@gmail.com 1

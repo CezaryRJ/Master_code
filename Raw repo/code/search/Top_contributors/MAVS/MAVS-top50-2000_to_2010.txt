@@ -1,0 +1,14 @@
+2000 TO 2010
+-------#####------->    MAVS
+christian.jacquenet@francetelecom.com 7
+dpapadimitriou@psg.com 7
+mhalstead@nexagent.com 6
+jguichar@cisco.com 5
+dpage@nexagent.com 3
+matthew.ford@bt.com 3
+Dimitri.Papadimitriou@alcatel.be 2
+mailman-owner@ietf.org 2
+christian.jacquenet@gmail.com 1
+edmundo@dei.uc.pt 1
+marshall.eubanks@gmail.com 1
+rcallon@juniper.net 1

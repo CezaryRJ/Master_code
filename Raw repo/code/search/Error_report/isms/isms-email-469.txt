@@ -1,0 +1,106 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : isms
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/isms/2007-08.mailcl']
+id : a3e489cb-2376-4d88-a566-b014dc6f7714
+_version_ : 1675131096347443202
+
+Content : 
+
+Inline
+
+Bert Wijnen =20
+
+> -----Original Message-----
+> From: Jeffrey Hutzelman [mailto:jhutz@cmu.edu]=20
+> Sent: Thursday, August 23, 2007 12:07 AM
+> To: Wijnen, Bert (Bert);=20
+> j.schoenwaelder@jacobs-university.de; David Harrington
+> Cc: isms@ietf.org; Jeffrey Hutzelman
+> Subject: Re: [Isms] tmStateReference in draft-ietf-isms-tmsm-09.txt=20
+>=20
+>=20
+>=20
+> On Wednesday, August 08, 2007 12:17:56 PM +0200 "Wijnen, Bert (Bert)"=20
+> <bwijnen@alcatel-lucent.com> wrote:
+>=20
+> >
+> > I am confused by the last 2 paragraphs in sect 6.2
+> >
+> >    The prepareOutgoingMessage ASI passes tmStateReference from the
+> >    Message Processing Subsystem to the dispatcher.  How or if the
+> >    Message Processing Subsystem modifies or utilizes the contents of
+the
+> >    cache is message-processing-model-specific.
+> >
+> >    This may sound underspecified, but keep in mind that a message
+> >    processing model might have access to all the information from
+the
+> >    cache and from the message, and have no need to call a Security
+Model
+> >    to do any processing; an application might choose a Security
+Model
+> >    such as USM to authenticate and secure the SNMP message, but also
+> >    utilize a secure transport such as that provided by the SSH
+Transport
+> >    Model to send the message to its destination.
+> >
+> > specifically the wording "an application...".
+> > Applications in our RFC3411 context are CG or CR or NO or NR or
+such.
+> > I am sure that is not intended here. But then, what is an
+"application"
+> > in this sentence above?
+>=20
+> Why not?  Is it not these applications which specify a=20
+> security model/name/level and transport domain and address? =20
+> If an application selects USM security parameters and an SSH=20
+> transport address, it has effectively chosen the use of USM and SSH.
+>=20
+
+Mmm... I am less concerned now.. but still have an uneasy feeling.
+Need to go lookup details before I can put words around it... or
+maybe if I do my concerns go away.
+
+>=20
+> > I am also not sure we should speak about the MPM to "not call a=20
+> > security model". From our architectural point of view, the MPM will=20
+> > ALWAYS call a security model. If an implementation does a shortcut,=20
+> > that is up to them... but should we discuss that here?
+>=20
+> I agree.  Even if a new MPM were defined in the future, to=20
+> specify situations when using that MPM in which the security=20
+> model is not called would seem to violate the architecture.
+>=20
+
+ack
+Bert
+> -- Jeff
+>=20
+
+_______________________________________________
+Isms mailing list
+Isms@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/isms

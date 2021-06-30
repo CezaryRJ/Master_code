@@ -1,0 +1,5 @@
+Year = 1980
+Adr count = 26
+Removed 0
+Sum 33.0
+Avarage = 1.2692307692307692

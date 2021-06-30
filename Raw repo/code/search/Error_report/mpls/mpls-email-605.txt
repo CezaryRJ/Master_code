@@ -1,0 +1,48 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : mpls@UU.NET
+To-name : Null
+To-address : [' mpls@UU.NET']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: question: DiffServ versus RSVP']
+Mailing-list : mpls
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mpls/2000-09.mailcl']
+id : 98dd779e-e207-40fd-adc2-b3f47a453338
+_version_ : 1675133461663318016
+
+Content : 
+
+Diffserv allows traffic to be broken up into different classes of
+service - which are queued and prioritized separately.
+
+It does not, however, provide a mechanism to define (in each router)
+what specific QoS should be provided for each class.
+
+These can be ignored (making Diffserv merely a priority scheme), they
+can be hand-configured, they can be configured through network
+management, or they can be signalled.
+
+RSVP is one means by which these can be signalled.
+
+RSVP and Diffserv solve two different problems.  There are situations
+where it makes sense to use one, or the other, or both.
+
+-- David
+

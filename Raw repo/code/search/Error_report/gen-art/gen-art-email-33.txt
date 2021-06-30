@@ -1,0 +1,116 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : gen-art
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/gen-art/2006-11.mailcl']
+id : b35296fe-6ccb-4206-8a0f-fae8ebdcaa53
+_version_ : 1675129798963232768
+
+Content : 
+
+Standard)=20
+    draft-hollenbeck-epp-rfc3733bis-05.txt =20
+    Reviewer: Pasi Eronen (reviewed -04 for LC)=20
+       =20
+    Extensible Provisioning Protocol (EPP) Transport Over TCP (Draft
+Standard)=20
+    draft-hollenbeck-epp-rfc3734bis-04.txt =20
+    Reviewer: David Black=20
+       =20
+    Token: Ted Hardie =20
+
+INT Two-Document ballot: [Open Web Ballot] - 1 of 4=20
+    An Architecture for Provider Provisioned CE-based Virtual Private
+Networks using IPsec (Informational) - 1 of 4=20
+    draft-ietf-l3vpn-ce-based-03.txt =20
+    Applicability Statement for Provider Provisioned CE-based Virtual
+Private Networks using IPsec (Informational)=20
+    draft-declercq-l3vpn-ce-based-as-00.txt =20
+    Token: Mark Townsley=20
+    Reviewer: Harald Alvestrand (already reviewed for 16 Nov and LC)=20
+       =20
+INT Three-Document ballot: [Open Web Ballot] - 2 of 4=20
+    Network based IP VPN Architecture Using Virtual Routers
+(Informational) - 2 of 4=20
+    draft-ietf-l3vpn-vpn-vr-03.txt =20
+    Using BGP as an Auto-Discovery Mechanism for VR-based Layer-3 VPNs
+(Informational)=20
+    draft-ietf-l3vpn-bgpvpn-auto-08.txt =20
+    Applicability Statement for Virtual Router-based Layer 3 PPVPN
+Approaches (Informational)=20
+    draft-ietf-l3vpn-as-vr-02.txt =20
+    Token: Mark Townsley=20
+    Reviewer: Spencer Dawkins (already reviewed for 16 Nov and LC)=20
+       =20
+INT Network Mobility Support Terminology (Informational) - 3 of 4=20
+    draft-ietf-nemo-terminology-06.txt =20
+    Note: Proto shepherd is TJ Kniveton <tj@kniveton.org>=20
+    Token: Jari Arkko=20
+    Reviewer: Eric Gray=20
+       =20
+INT Network Mobility Support Goals and Requirements (Informational) - 4
+of 4=20
+    draft-ietf-nemo-requirements-06.txt =20
+    Note: Proto shepherd is TJ Kniveton <tj@kniveton.org>
+    NOTE: This draft lists requirements behind RFC 3963=20
+    Token: Jari Arkko=20
+    Reviewer: Francis Dupont=20
+    =20
+INT Problem Statement for Network-based Localized Mobility Management
+(Informational) - 1 of 2=20
+    draft-ietf-netlmm-nohost-ps-05.txt [Open Web Ballot] =20
+    Note: Brought back to the telechat agenda to resolve DISCUSSes.=20
+    Token: Jari Arkko=20
+    Reviewer: Spencer Dawkins (reviewed -04 for 7 July 06)=20
+       =20
+INT Goals for Network-based Localized Mobility Management (NETLMM)
+(Informational) - 2 of 2=20
+    draft-ietf-netlmm-nohost-req-05.txt [Open Web Ballot] =20
+    Note: Brought back to the telechat agenda to resolved DISCUSSes.=20
+    Token: Jari Arkko=20
+    Reviewer: Michael Patton (John Loughney reviewed -04 for 31 Aug 06)=20
+
+-------------------------------------------------------------------
+
+I have been selected as the General Area Review Team (Gen-ART)
+reviewer for this draft (for background on Gen-ART, please see
+http://www.alvestrand.no/ietf/gen/art/gen-art-FAQ.html).
+
+Please wait for direction from your document shepherd
+or AD before posting a new version of the draft.
+
+Document:=20
+Reviewer:=20
+Review Date: =20
+IESG Telechat date: dd Month 2006
+
+Summary:
+
+Comments:
+
+
+_______________________________________________
+Gen-art mailing list
+Gen-art@ietf.org
+https://www1.ietf.org/mailman/listinfo/gen-art

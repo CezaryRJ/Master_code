@@ -1,0 +1,7 @@
+2010 TO 2020
+-------#####------->    pop3ext
+bill.shannon@oracle.com 6
+randy@qti.qualcomm.com 3
+barryleiba@computer.org 1
+chris.newman@oracle.com 1
+ietf-secretariat@ietf.org 1

@@ -1,0 +1,55 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : trevorf@exchange.microsoft.com, Denis.Pinkas@bull.net
+To-name : Null
+To-address : [' trevorf@exchange.microsoft.com Denis.Pinkas@bull.net']
+Cc : ['ietf-pkix@imc.org']
+Cc-name : Null
+Cc-address :  ietf-pkix@imc.org
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: FW: scvp']
+Mailing-list : pkix
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/pkix/2004-08.mailcl']
+id : 5faab7bf-cc14-4200-8e22-4068fe00cd53
+_version_ : 1675129829471551489
+
+Content : 
+
+I agree with Denis about a single value policy.
+
+I think that we have already a structure elsewhere that
+is close to what can be used.  
+
+   PolicyInformation ::= SEQUENCE {
+        policyIdentifier   CertPolicyId,
+        policyQualifiers   SEQUENCE SIZE (1..MAX) OF
+                                PolicyQualifierInfo OPTIONAL }
+
+   CertPolicyId ::= OBJECT IDENTIFIER
+
+   PolicyQualifierInfo ::= SEQUENCE {
+        policyQualifierId  PolicyQualifierId,
+        qualifier          ANY DEFINED BY policyQualifierId }
+
+
+the PolicyQualifierId would be an indidation of a
+particular algorithm that needs to be performed and its
+parameters. one would be "3280 path processing input"
+another would be 'end entry naming comparison', etc. 
+
+
+

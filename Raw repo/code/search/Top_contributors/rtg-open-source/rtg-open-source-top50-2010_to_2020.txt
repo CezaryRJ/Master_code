@@ -1,0 +1,10 @@
+2010 TO 2020
+-------#####------->    rtg-open-source
+akatlas@gmail.com 11
+eckelcu@cisco.com 3
+scott@solarnetone.org 2
+tte@cs.fau.de 2
+hari@packetdesign.com 1
+ietf-secretariat@ietf.org 1
+phessler@theapt.org 1
+serpil@cisco.com 1

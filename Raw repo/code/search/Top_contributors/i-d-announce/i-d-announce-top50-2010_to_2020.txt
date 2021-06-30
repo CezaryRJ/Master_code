@@ -1,0 +1,22 @@
+2010 TO 2020
+-------#####------->    i-d-announce
+internet-drafts@ietf.org 55814
+Internet-Drafts@ietf.org 9290
+rlb@ipv.sx 4
+tobias.oberstein@tavendo.de 4
+glen@amsl.com 3
+jmason@rim.com 3
+barryleiba@computer.org 2
+ju1738@att.com 2
+rbarnes@bbn.com 2
+warren@kumari.net 2
+hallam@gmail.com 1
+iesg@ietf.org 1
+joelja@bogus.com 1
+mls.ietf@gmail.com 1
+renweili@huawei.com 1
+sandra.sendra.upv@gmail.com 1
+spencerdawkins.ietf@gmail.com 1
+stephen.farrell@cs.tcd.ie 1
+stpeter@stpeter.im 1
+touch@isi.edu 1

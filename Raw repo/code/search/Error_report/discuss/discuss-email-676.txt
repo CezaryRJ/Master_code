@@ -1,0 +1,120 @@
+Date : ['2003-03-06T14:07:12Z']
+Timezone : +0900
+From : ['"HOTELRO"<null@hotelro.com>']
+From-name : [' HOTELRO']
+From-address : [' null@hotelro.com']
+Sender : ['discuss-admin@ietf.org']
+Sender-name : Null
+Sender-address :  discuss-admin@ietf.org
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : <discuss@apps.ietf.org>
+To-name : Null
+To-address : [' discuss@apps.ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <200303060819.DAA27889@ietf.org>
+References : Null
+Comments : ['Null']
+Subject : ['[] -  !']
+Mailing-list : discuss
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/discuss/2003-03.mailcl']
+id : bbd3164e-6b53-4925-ab86-4ecd636bdedf
+_version_ : 1675133849513754625
+
+Content : 
+
+<html>
+<head>
+<title>   - Hotelro.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<link rel="stylesheet" href="http://www.hotelro.com/ssi/hotelro.css" type="text/css">
+</head>
+
+<body bgcolor="#F4F2E1" text="#000000" leftmargin="0" topmargin="20" marginwidth="0" marginheight="20">
+<table width="580" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#CCCCCC">
+  <tr>
+    <td>
+      <table width="580" border="0" cellspacing="1" cellpadding="0" align="center" bgcolor="#CCCCCC">
+        <tr> 
+          <td bgcolor="#FFFFFF" align="left"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td align="left">&nbsp; &nbsp;<a href="http://www.hotelro.com" target="_blank"><img src="http://www.hotelro.com/event/letter20020830/images/hotelro_logo.gif" width="201" height="69" border="0" alt=""></a></td>
+                <td align="right"><img src="http://www.hotelro.com/new_hotelro/images/spacer.gif" height="25" width="20" border="0"><br><font color="#555555">  . <font color="#333333"><b></b></font></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td bgcolor="#FFFFFF">
+<!--    ------------------------------------->
+            <table width="100%" border="0" cellspacing="1" cellpadding="0" align="center" bgcolor="#CCCCCC">
+              <tr>  
+                <td valign="top" align="center" bgcolor="#FFFFFF"> 
+      
+<!--    ------------------------------------->
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="http://www.hotelro.com/event/letter20030305/images/img01.jpg" border="0"><img src="http://www.hotelro.com/event/letter20030305/images/img02.jpg" border="0"></td>
+                    </tr> 
+                    <tr>
+                      <td><a href="http://krhotel.infocus.co.kr/krhotel/hotelro_frame?mainid=krhotel.infocus.co.kr/krhotel/hotel?id=101,code=hotelro"  target="_blank"><img src="http://www.hotelro.com/event/letter20030305/images/img03.jpg" border="0"><img src="http://www.hotelro.com/event/letter20030305/images/img04.jpg" border="0"></a></td>
+                    </tr>                                     
+                    <tr>
+                      <td><a href="http://krhotel.infocus.co.kr/krhotel/hotelro_frame?mainid=krhotel.infocus.co.kr/krhotel/hotel?id=27,code=hotelro"  target="_blank"><img src="http://www.hotelro.com/event/letter20030305/images/img05.jpg" border="0"></a><a href="http://krhotel.infocus.co.kr/krhotel/hotelro_frame?mainid=krhotel.infocus.co.kr/krhotel/hotel?id=342,code=hotelro"  target="_blank"><img src="http://www.hotelro.com/event/letter20030305/images/img06.jpg" border="0"></a><a href="http://krhotel.infocus.co.kr/krhotel/hotelro_frame?mainid=krhotel.infocus.co.kr/krhotel/hotel?id=453,code=hotelro"  target="_blank"><img src="http://www.hotelro.com/event/letter20030305/images/img07.jpg" border="0"></a></td>
+                    </tr>                                                                                                                                                                       
+                  </table>                              
+                </td>
+              </tr>
+            </table>             
+  <!--    ----------------------------------------->                  
+          </td>
+        </tr>
+        <tr> 
+          <td bgcolor="#E1E1E1" align="center"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="10">
+              <tr>
+              <tr>
+                <td width="10">&nbsp;</td>                
+                <td class="bfont" align="left">  <b>[]</b>     
+                        .    ,    
+                     .      <a href="http://krhotel.infocus.co.kr/krhotel/email_reject?event_code=&eid=discuss@apps.ietf.org"><u><font color="#FF0000"></font></u></a> 
+                  .     .
+                  </td>
+                <td width="10">&nbsp;</td>                  
+              </tr>
+              <tr>
+                <td width="10">&nbsp;</td>               
+                <td class="bfont" align="left"> Please be assured that we do not have any of your personal information other than your e-mail address.
+                  If you do not wish to receive it, please click the <a href="http://krhotel.infocus.co.kr/krhotel/email_reject?event_code=&eid=discuss@apps.ietf.org"><u><font color="#FF0000">[reject bulk mail]</font></u></a>
+                </td>
+                <td width="10">&nbsp;</td>                                   
+              </tr>              
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td bgcolor="#999999" height="15" align="center"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="15">
+              <tr> 
+                <td  align="center"><font color="#FFFFFF">   Hotelro.com  TEL:82-2-557-6565 / FAX:82-2-557-6566<br>
+            Copyright  1997-2003 <a href="http://www.infocus.co.kr" target="_blank"><font color="#FFCC66">()</font></a> 
+            All Rights Reserved. </font></td>
+              </tr>
+            </table>            
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+

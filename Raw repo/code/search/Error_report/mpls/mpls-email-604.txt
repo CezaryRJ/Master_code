@@ -1,0 +1,71 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Robben Paul <paul.robben@worldonline.be>
+To-name :  Robben_Paul
+To-address : [' paul.robben@worldonline.be']
+Cc : ['mpls@UU.NET']
+Cc-name : Null
+Cc-address :  mpls@UU.NET
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: question: DiffServ versus RSVP']
+Mailing-list : mpls
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mpls/2000-09.mailcl']
+id : 5019c0c7-8719-422f-b155-35878450d308
+_version_ : 1675133461661220864
+
+Content : 
+
+Hi,
+   In fact the importance difference between the Differential Service with
+Integrated Service is that the Differential Service is a Per-Hop basis QoS
+mechanism where the Integrated Service is a end-to-end QoS mechanism. RSVP
+is used as a resource reservation protocol for the integrated service. In
+MPLS, there is some extension for the function of RSVP, but it is still
+limited as a signalling protocol only. DiffSer don't need the RSVP at all.
+  Hope this can be helpful.
+
+Wushao
+
+On Thu, 14 Sep 2000, Robben Paul wrote:
+
+> Hi,
+> 
+> I'm currently making a thesis regarding IP-based VPN's, paying special attention to traffic engineering and QoS.
+> Something isn't clear to me. I read a couple of articles regarding the use of explicit routes with CR-LDP and the extended RSVP.
+> Apparently, some companies prefer the former, others the latter, but there doesn't seem to be an official statement yet of which one's the best. But however, RSVP still is a "hot topic".
+> On the other hand, I also read some articles about DiffServ, mentionning that DiffServ evolved from Intserv, which is based on RSVP, and that, within some time, DiffServ will eliminate the need to use RSVP in WAN area's. 
+> 
+> I think I must be missing something here...
+> 1. Some time ago, a reader from the MPLS-list described DiffServ as a traffic light with reserved lanes for taxi's and busses. Its job is to help prioritize things once congestion starts, and to penalize some flows to allow others to get less delay or loss. So, I guess DiffServ doesn't operate on the level of 1 LSP, but on a whole bunch of them?
+> 2. On the other hand, the extended RSVP is a way to set up explicit routes. So RSVP is important for each LSP separately?
+> 
+> So, I don't really understand how DiffServ could eliminate the use of RSVP??? It seems to me that, although they both serve QoS, they are working on a complete different scale...
+> 
+> Can anybody make me see the light in the darkness?
+> :)
+> Thanks in advance,
+> 
+> Franoise Beckers
+> (Global One)
+> 
+
+
+
+----- End Included Message -----
+
+
+

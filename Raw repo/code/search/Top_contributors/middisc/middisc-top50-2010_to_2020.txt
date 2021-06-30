@@ -1,0 +1,20 @@
+2010 TO 2020
+-------#####------->    middisc
+andrew.knutsen@bluecoat.com 29
+ananth@cisco.com 24
+Mark.Day@riverbed.com 12
+wes@mti-systems.com 11
+jamshid.mahdavi@bluecoat.com 8
+ronf@bluecoat.com 8
+lars@netapp.com 7
+mani@cisco.com 7
+lars.eggert@nokia.com 6
+ron.frederick@bluecoat.com 5
+wesley.m.eddy@nasa.gov 5
+ananth@nttmcl.com 4
+ietfdbh@comcast.net 4
+ananth@ntti3.com 3
+gdaley@au.logicalis.com 2
+martin.stiemerling@neclab.eu 1
+michael.scharf@alcatel-lucent.com 1
+qing.li@bluecoat.com 1

@@ -1,0 +1,27 @@
+2000 TO 2010
+-------#####------->    manet-dt
+ian.chakeres@gmail.com 84
+chris.dearlove@baesystems.com 31
+joseph.macker@nrl.navy.mil 29
+charles.perkins@nokia.com 14
+T.Clausen@computer.org 13
+Chris.Dearlove@baesystems.com 12
+Fred.L.Templin@boeing.com 11
+adamson@itd.nrl.navy.mil 11
+philippe.jacquet@inria.fr 11
+pedrom@dif.um.es 10
+charliep@iprg.nokia.com 9
+koo@comnets.uni-bremen.de 7
+Thomas.Clausen@polytechnique.fr 6
+jdean@itd.nrl.navy.mil 6
+kleinb@nist.gov 6
+teco@inf-net.nl 5
+maoyu.wang@crc.ca 3
+mase@ie.niigata-u.ac.jp 3
+fjrm@dif.um.es 2
+hiroki.satoh.yj@hitachi.com 2
+mailman-owner@ietf.org 2
+samitac2@gmail.com 2
+brian@innovationslab.net 1
+ksankar@cisco.com 1
+thomas.r.henderson@boeing.com 1

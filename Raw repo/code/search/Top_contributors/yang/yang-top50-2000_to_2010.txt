@@ -1,0 +1,25 @@
+2000 TO 2010
+-------#####------->    yang
+ietf@andybierman.com 120
+mbj@tail-f.com 77
+lhotka@cesnet.cz 70
+j.schoenwaelder@jacobs-university.de 55
+phil@juniper.net 51
+balazs.lengyel@ericsson.com 39
+dromasca@avaya.com 14
+randy_presuhn@mindspring.com 10
+david.partain@ericsson.com 8
+saperia@jdscons.com 7
+andy@andybierman.com 5
+bertietf@bwijnen.net 5
+ietfdbh@comcast.net 4
+cfinss@dial.pipex.com 3
+liyan_77@huawei.com 2
+m_ersue@yahoo.de 2
+mailman-owner@ietf.org 2
+rohan.mahy@gmail.com 2
+alexd@redback.com 1
+jad@jadickinson.co.uk 1
+jbalestr@cisco.com 1
+muenz@informatik.uni-tuebingen.de 1
+xcross@us.ibm.com 1

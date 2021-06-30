@@ -1,0 +1,5 @@
+Year = 1988
+Adr count = 10
+Removed 0
+Sum 10.0
+Avarage = 1.0

@@ -1,0 +1,15 @@
+2010 TO 2020
+-------#####------->    ecn-in-quic
+ingemar.s.johansson@ericsson.com 27
+koen.de_schepper@nokia-bell-labs.com 9
+magnus.westerlund@ericsson.com 7
+lars@netapp.com 6
+ilubashe@akamai.com 5
+gorry@erg.abdn.ac.uk 4
+roni.even@huawei.com 4
+spencerdawkins.ietf@gmail.com 2
+B.Briscoe-contractor@cablelabs.com 1
+ianswett@google.com 1
+pravb@microsoft.com 1
+rs.ietf@gmx.at 1
+zwoop@apple.com 1

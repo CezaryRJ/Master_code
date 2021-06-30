@@ -1,0 +1,48 @@
+add caption taht 1980-1996 has very few msg
+
+
+not everytihng got archived
+mode of operation was different
+paper mail
+fax
+phone
+
+
+most active mailing list per year
+
+address liower upper dosnt matter
+
+add smal graphs per person
+
+by decade
+
+computer msg vs human
+
+on top 10 for all and one for human
+
+filter email addresses
+
+standard deviaion
+
+remove auto generated msg
+
+remove auto from top 50
+
+individual vs rest
+
+jaru.akko - similar to rfc editor
+
+only inidivudals in avg par per year graph
+
+cumulatice distrubution fundtion
+
+
+7.6 per time
+
+
+7.7, total per yer,
+
+remove computer msg
+replot with only human msg
+
+commentn of graphs 

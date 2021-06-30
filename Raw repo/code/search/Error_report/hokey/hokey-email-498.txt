@@ -1,0 +1,103 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : hokey
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/hokey/2007-02.mailcl']
+id : 61239fe3-7f82-436e-b955-ff6030166b71
+_version_ : 1675130652479979521
+
+Content : 
+
+FrFrom hokey-bounces@ietf.org Fri Feb 16 23:44:11 2007
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1HIHQe-000362-Ae; Fri, 16 Feb 2007 23:44:08 -0500
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1HIAZ6-0000nw-CD
+	for hokey@ietf.org; Fri, 16 Feb 2007 16:24:24 -0500
+Received: from carter-zimmerman.dyn.mit.edu ([18.188.3.148]
+	helo=carter-zimmerman.mit.edu)
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1HIAZ4-0001WG-5C
+	for hokey@ietf.org; Fri, 16 Feb 2007 16:24:24 -0500
+Received: by carter-zimmerman.mit.edu (Postfix, from userid 8042)
+	id B26B5E031B; Fri, 16 Feb 2007 16:24:12 -0500 (EST)
+From: Sam Hartman <hartmans-ietf@mit.edu>
+To: Lakshminath Dondeti <ldondeti@qualcomm.com>
+Subject: Re: [HOKEY] why visited domains?? Channel binding/
+	lyingMITM:EMSKHierarchy Changes
+References: <001501c7520c$6ac180e0$2f01a8c0@china.huawei.com>
+	<45D61BA6.7050401@qualcomm.com>
+Date: Fri, 16 Feb 2007 16:24:12 -0500
+In-Reply-To: <45D61BA6.7050401@qualcomm.com> (Lakshminath Dondeti's message of
+	"Fri, 16 Feb 2007 13:01:26 -0800")
+Message-ID: <tsl64a1kd8j.fsf@cz.mit.edu>
+User-Agent: Gnus/5.110006 (No Gnus v0.6) Emacs/21.4 (gnu/linux)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 93238566e09e6e262849b4f805833007
+X-Mailman-Approved-At: Fri, 16 Feb 2007 23:44:05 -0500
+Cc: hokey@ietf.org, Madjid Nakhjiri <mnakhjiri@huawei.com>
+X-BeenThere: hokey@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: HOKEY WG Mailing List <hokey.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/hokey>,
+	<mailto:hokey-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/hokey>
+List-Post: <mailto:hokey@ietf.org>
+List-Help: <mailto:hokey-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/hokey>,
+	<mailto:hokey-request@ietf.org?subject=subscribe>
+Errors-To: hokey-bounces@ietf.org
+
+>>>>> "Lakshminath" == Lakshminath Dondeti <ldondeti@qualcomm.com> writes:
+
+    Lakshminath> Are you trying to use 2026 keywords ;) ?  DOES NOT is
+    Lakshminath> part of the keyword set there, btw.
+
+    Lakshminath> Providing a root key to the visited domain and then
+    Lakshminath> putting a context (The manner in which the keying
+    Lakshminath> material is expected to be used from Russ's draft) on
+    Lakshminath> it will support any SLA you choose.  The root key
+    Lakshminath> delivered to the visited domain can be used for all
+    Lakshminath> kinds of services within the visited domain or just
+    Lakshminath> what the home thinks are right at the moment of key
+    Lakshminath> derivation and distribution, depending on the
+    Lakshminath> context.
+
+
+Mmm.  I think that the security properties of a model where the
+context is enforced cryptographically--that is where the visited
+domain does not have the necessary information to derive keys that
+could be used outside the intended context--are different from the
+security properties where a bad actor could use a key out of context.
+I think it is fair for Madjid to ask you to explore both of these
+properties while dealing with deliverable 6.
+
+
+_______________________________________________
+HOKEY mailing list
+HOKEY@ietf.org
+https://www1.ietf.org/mailman/listinfo/hokey

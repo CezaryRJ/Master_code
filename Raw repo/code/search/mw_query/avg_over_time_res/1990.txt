@@ -1,0 +1,5 @@
+Year = 1990
+Adr count = 14
+Removed 0
+Sum 14.0
+Avarage = 1.0

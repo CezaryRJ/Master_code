@@ -1,0 +1,99 @@
+Date : ['2006-11-17T15:15:46Z']
+Timezone : -0500
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <279DDDAFA85EC74C9300A0598E704056F918B6@hdsmsx412.amr.corp.intel; emu@ietf.org
+References : Null
+Comments : ['Null']
+Subject : ['RE: [Hokeyp] [Emu] Re: MSK but no EMSK']
+Mailing-list : emu
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/emu/2006-11.mailcl']
+id : 9aa16b31-0632-4ef5-9356-4415134d22c8
+_version_ : 1675129574811238400
+
+Content : 
+
+> Subject: Re: [Hokeyp] [Emu] Re: MSK but no EMSK
+>=20
+> I happen to agree with Vidya on this.
+>=20
+> It is not optional for new EAP methods to produce EMSK.=20
+> Whether EMSK gets used or not is totally besides the point. =20
+> (If we can conceive that EMSK would serve a need in some=20
+> distant future - we have to enforce its generation now. And=20
+> it is required by RFC 3748 :-)
+>=20
+> What to do with the existing _old_ methods that aren't=20
+> compliant - I leave it for the group to decide.
+>=20
+> -----Original Message-----
+> From: hokeyp-bounces@opendiameter.org
+> [mailto:hokeyp-bounces@opendiameter.org] On Behalf Of Narayanan, Vidya
+> Sent: Thursday, November 16, 2006 9:35 PM
+> To: Bernard Aboba; hokeyp@opendiameter.org; emu@ietf.org
+> Subject: Re: [Hokeyp] [Emu] Re: MSK but no EMSK
+>=20
+> >=20
+> > It's worth keeping in mind that there are very few existing RFC=20
+> > 3748-compliant EAP implementations.  So most existing EAP method=20
+> > implementations do not generate an EMSK, and most existing EAP=20
+> > implementations would not do anything with the EMSK if it=20
+> were to be=20
+> > generated.
+> >=20
+>=20
+> Well, the question is this - is the requirement to=20
+> interoperate with existing standards or existing=20
+> implementations? Given that we have a spec that says what it=20
+> does, it seems to make sense to interoperate with that. If we=20
+> are going by existing implementations, there is probably more=20
+> than one flavor and then there is the question of when the=20
+> MSK is directly delivered to the authenticator and when it=20
+> isn't and how the peer knows that.=20
+>=20
+> In this case, I tend to agree with Charles that it is better=20
+> to have to fix non-compliant implementations than try to=20
+> design around them. Also, if we choose to ignore the standard=20
+> and use the implementations that don't produce an EMSK as a=20
+> data point, the standard doesn't seem to be serving a purpose=20
+> then - perhaps, we should then consider revising
+> RFC3748 to reflect what we want to use as a starting point=20
+> for requirements?=20
+>=20
+> Vidya
+> _______________________________________________
+> Hokeyp mailing list
+> Hokeyp@opendiameter.org
+> http://www.opendiameter.org/mailman/listinfo/hokeyp
+> _______________________________________________
+> Hokeyp mailing list
+> Hokeyp@opendiameter.org
+> http://www.opendiameter.org/mailman/listinfo/hokeyp
+>=20
+
+
+_______________________________________________
+Hokeyp mailing list
+Hokeyp@opendiameter.org
+http://www.opendiameter.org/mailman/listinfo/hokeyp
+
+_______________________________________________
+Emu mailing list
+Emu@ietf.org
+https://www1.ietf.org/mailman/listinfo/emu

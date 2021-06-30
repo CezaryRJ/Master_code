@@ -1,0 +1,126 @@
+Date : ['2006-01-18T03:39:26Z']
+Timezone : -0500
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <E1Ez8qk-0002vs-9s@mx2.foretec.com>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : opes
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/opes/2006-01.mailcl']
+id : a8c45896-14ed-4a29-ad94-629083b2398d
+_version_ : 1675132530989203456
+
+Content : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

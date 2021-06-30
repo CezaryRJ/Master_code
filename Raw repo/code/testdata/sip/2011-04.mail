@@ -1,0 +1,1836 @@
+
+From storedge1@gmail.com  Sun Apr  3 23:08:31 2011
+Return-Path: <storedge1@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 83D0C3A6917 for <sip@core3.amsl.com>; Sun,  3 Apr 2011 23:08:31 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id xfrDTwoVujuB for <sip@core3.amsl.com>; Sun,  3 Apr 2011 23:08:30 -0700 (PDT)
+Received: from mail-iw0-f172.google.com (mail-iw0-f172.google.com [209.85.214.172]) by core3.amsl.com (Postfix) with ESMTP id 577563A68CB for <sip@ietf.org>; Sun,  3 Apr 2011 23:08:29 -0700 (PDT)
+Received: by iwn39 with SMTP id 39so6372035iwn.31 for <sip@ietf.org>; Sun, 03 Apr 2011 23:10:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:date:message-id:subject:from:to :content-type; bh=lyeSUE1JRDhrDwxN7htHMPeOIgivL0ziYJXyD2wX5FI=; b=KC7Yao53ALfrHSb/eXX1mcks2cT5f5gGi7lRfr+kqp/3rMAgWTIP8RQDvAxmn3U++q W1nOOCWvSnXoZZvmHRvwKxdGhx5ENolkQdn43oysu2usorasap2AR7W9rKpobesnai2e I38hHXcxGYNgkdQFzOdjqTzi8EkZuu7kkgHaM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=fGhahOwFc45AEzGQRt2RwRkcECXBJVdsUdOHE0bsMrrcqznFqvEpGtLmSD680VZ/CE oPaI73YK2Y/E9sUMHs/rfcShPDAD814uo2D4GkTlPEko6maNOtSBW6H7SgADASdjVxJZ RfpBuCq410nQEI2OOocFODOctN0t1GhwWXJMM=
+MIME-Version: 1.0
+Received: by 10.231.140.24 with SMTP id g24mr5568713ibu.175.1301897411499; Sun, 03 Apr 2011 23:10:11 -0700 (PDT)
+Received: by 10.231.199.8 with HTTP; Sun, 3 Apr 2011 23:10:11 -0700 (PDT)
+Date: Mon, 4 Apr 2011 01:10:11 -0500
+Message-ID: <BANLkTimjjn16x4x1Cih4N9YcF2QMvO807Q@mail.gmail.com>
+From: E D <storedge1@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=0016e6476288bf16a504a0119c90
+Subject: [Sip] Multiple registration using single UA
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 04 Apr 2011 12:53:27 -0000
+
+--0016e6476288bf16a504a0119c90
+Content-Type: text/plain; charset=ISO-8859-1
+
+If I wanted to register two distinct numbers through a single UA Device
+say 34111111 and 34111112 through one/single UA Device.
+Should I expect the "Call-ID" to be Unique or  Identical?
+RFC3261 seem to imply that the only the "SIP Tag"  needs to be unique for
+the SIP Server or Registrar to
+understand that both Numbers are being registered from one device only.  How
+could the SIP Server or
+Registrar verify that these two numbers are in fact originating from the
+same Device?
+Thanks in advance
+
+--0016e6476288bf16a504a0119c90
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+If I wanted to register two distinct numbers through a single UA Device<br>=
+<font size=3D"4">say 34111111 and 34111112 through one/single UA Device.<br=
+>Should I expect the &quot;Call-ID&quot; to be Unique or=A0 Identical?<br>
+RFC3261 seem to imply that the only the &quot;SIP Tag&quot;=A0 needs to be =
+unique for the SIP Server or Registrar to<br>understand that both Numbers a=
+re being registered from one device only.=A0 How could the SIP Server or<br=
+>
+
+Registrar verify that these two numbers are in fact originating from the sa=
+me Device?<br></font>Thanks in advance<br>
+
+--0016e6476288bf16a504a0119c90--
+
+From brett@broadsoft.com  Mon Apr  4 06:15:46 2011
+Return-Path: <brett@broadsoft.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id A83433A693B for <sip@core3.amsl.com>; Mon,  4 Apr 2011 06:15:46 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.677
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.677 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HELO_MISMATCH_NET=0.611, HOST_MISMATCH_COM=0.311]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id hB7e-GaYbkgG for <sip@core3.amsl.com>; Mon,  4 Apr 2011 06:15:46 -0700 (PDT)
+Received: from smtp-out01.seaservers.net (smtpedge.partnerhosted.com [173.225.22.21]) by core3.amsl.com (Postfix) with ESMTP id 3B9733A67DF for <sip@ietf.org>; Mon,  4 Apr 2011 06:15:46 -0700 (PDT)
+Received: from EXMBXCLUS01.citservers.local ([fe80:0000:0000:0000:a488:d1ec:167.6.58.109]) by casumhub01.citservers.local ([172.16.98.57]) with mapi; Mon, 4 Apr 2011 06:17:28 -0700
+From: Brett Tate <brett@broadsoft.com>
+To: E D <storedge1@gmail.com>, "sip@ietf.org" <sip@ietf.org>
+Date: Mon, 4 Apr 2011 06:17:24 -0700
+Thread-Topic: [Sip] Multiple registration using single UA
+Thread-Index: Acvyx40qlfumGLqGSUCoydQ2NiKT2wAAOUkg
+Message-ID: <7FF1E5E16911C54BB2D57D4C4A2ED35A082FC7813C@EXMBXCLUS01.citservers.local>
+References: <BANLkTimjjn16x4x1Cih4N9YcF2QMvO807Q@mail.gmail.com>
+In-Reply-To: <BANLkTimjjn16x4x1Cih4N9YcF2QMvO807Q@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: Re: [Sip] Multiple registration using single UA
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 04 Apr 2011 13:15:46 -0000
+
+> If I wanted to register two distinct numbers through=20
+> a single UA Device say 34111111 and 34111112 through=20
+> one/single UA Device.  Should I expect the "Call-ID"=20
+> to be Unique or=A0Identical?
+
+Unique.  I assume that you are not attempting to use rfc6140 or rfc5626.
+
+
+> How could the SIP Server or Registrar verify that these=20
+> two numbers are in fact originating from the same Device?
+
+As far as I know, that is outside of the scope of rfc3261 unless you want t=
+o make assumptions/deductions concerning some header values (such as Contac=
+t or User-Agent).  RFC 6140 may be of interest.
+
+
+From ibc@aliax.net  Wed Apr  6 09:34:21 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E0AC03A6823 for <sip@core3.amsl.com>; Wed,  6 Apr 2011 09:34:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.641
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.641 tagged_above=-999 required=5 tests=[AWL=0.036,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 2jQwL5On4PAY for <sip@core3.amsl.com>; Wed,  6 Apr 2011 09:34:20 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by core3.amsl.com (Postfix) with ESMTP id A493D3A67CF for <sip@ietf.org>; Wed,  6 Apr 2011 09:34:20 -0700 (PDT)
+Received: by qyk29 with SMTP id 29so2484938qyk.10 for <sip@ietf.org>; Wed, 06 Apr 2011 09:36:04 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.75.196 with SMTP id z4mr998251qcj.277.1302107764328; Wed, 06 Apr 2011 09:36:04 -0700 (PDT)
+Received: by 10.229.35.72 with HTTP; Wed, 6 Apr 2011 09:36:03 -0700 (PDT)
+Date: Wed, 6 Apr 2011 18:36:03 +0200
+Message-ID: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: [Sip] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Apr 2011 16:34:22 -0000
+
+Hi, RFC 3261 section 17.1.2.2 states that:
+
+   If an
+   unreliable transport is in use, the client transaction MUST set timer
+   E to fire in T1 seconds.  If timer E fires while still in this state,
+   the timer is reset, but this time with a value of MIN(2*T1, T2).
+   When the timer fires again, it is reset to a MIN(4*T1, T2).  This
+   process continues so that retransmissions occur with an exponentially
+   increasing interval that caps at T2.  The default value of T2 is 4s,
+   and it represents the amount of time a non-INVITE server transaction
+   will take to respond to a request, if it does not respond
+   immediately.  For the default values of T1 and T2, this results in
+   intervals of 500 ms, 1 s, 2 s, 4 s, 4 s, 4 s, etc.
+
+I've calculated those intervals and can't get same values:
+
+Timer E:
+- Initially =3D> T1 =3D 0.5s
+- Fires    =3D> MIN(2*T1, T2) =3D 1s
+- Fires    =3D> MIN(4*T1, T2) =3D 2s
+- Fires    =3D> MIN(4*T1, T2) =3D 2s
+- Fires    =3D> MIN(4*T1, T2) =3D 2s
+...
+
+So the resulting intervals are 500ms, 1s, 2s, 2s, 2s, 2s, etc.
+In short, it's obvious that MIN(4*T1, T2) will always be 2 seconds! it
+can never reach 4s.
+
+
+IMHO the text should say:
+
+   If timer E fires while still in this state,
+   the timer is reset, but this time with a value of MIN(2*TIMER_E, T2).
+
+And remove the line about "When the timer fires again, it is reset to
+a MIN(4*T1, T2)
+
+So we get:
+
+Timer E:
+- Initially =3D> T1 =3D 0.5s
+- Fires    =3D> MIN(2*TIMER_E, T2) =3D 1s
+- Fires    =3D> MIN(2*TIMER_E, T2) =3D 2s
+- Fires    =3D> MIN(2*TIMER_E, T2) =3D 4s
+- Fires    =3D> MIN(2*TIMER_E, T2) =3D 4s
+
+ Am I wrong? Thanks a lot.
+
+
+PS: Sorry for the cross-posting, I don't know which maillist is better
+to report it.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Wed Apr  6 10:10:46 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3B4A43A695F for <sip@core3.amsl.com>; Wed,  6 Apr 2011 10:10:46 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.642
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.642 tagged_above=-999 required=5 tests=[AWL=0.035,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id V47-+IOuyyl5 for <sip@core3.amsl.com>; Wed,  6 Apr 2011 10:10:43 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id 95E4C28C0E5 for <sip@ietf.org>; Wed,  6 Apr 2011 10:10:42 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so1234898qwc.31 for <sip@ietf.org>; Wed, 06 Apr 2011 10:12:26 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.75.196 with SMTP id z4mr1037160qcj.277.1302109946142; Wed, 06 Apr 2011 10:12:26 -0700 (PDT)
+Received: by 10.229.35.72 with HTTP; Wed, 6 Apr 2011 10:12:25 -0700 (PDT)
+In-Reply-To: <BANLkTikPyv4mfd1f9Fdj5E9rJgMzX_Vxqw@mail.gmail.com>
+References: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com> <BANLkTikPyv4mfd1f9Fdj5E9rJgMzX_Vxqw@mail.gmail.com>
+Date: Wed, 6 Apr 2011 19:12:25 +0200
+Message-ID: <BANLkTikKYQ2HdQ3pu2LCZuYJmD1hw1oVpA@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Pandurangan R S <pandurangan.r.s@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Apr 2011 17:10:46 -0000
+
+2011/4/6 Pandurangan R S <pandurangan.r.s@gmail.com>:
+>>> This process continues so that retransmissions occur with an exponentia=
+lly
+>>> =C2=A0increasing interval that caps at T2.
+>
+> I think this actually means
+>
+>> - Initially =3D> T1 =3D 0.5s
+>> - Fires =C2=A0 =C2=A0=3D> MIN(2*T1, T2) =3D 1s
+>> - Fires =C2=A0 =C2=A0=3D> MIN(4*T1, T2) =3D 2s
+>> - Fires =C2=A0 =C2=A0=3D> MIN(8*T1, T2) =3D 4s
+>> - Fires =C2=A0 =C2=A0=3D> MIN(16*T1, T2) =3D 4s
+>
+> 2,4, 8, 16... which is exponential.
+
+Yes, assuming that after 4*T1 it becomes 8*T1 it works. However that
+is not what I've understood by reading the section (but I must be
+wrong as all the SIP stacks I've tested behave as you describe) :)
+
+Thanks a lot.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From pkyzivat@cisco.com  Wed Apr  6 15:15:45 2011
+Return-Path: <pkyzivat@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E3F9F3A692F for <sip@core3.amsl.com>; Wed,  6 Apr 2011 15:15:45 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -110.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-110.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_HI=-8, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bEteEq--9d2Y for <sip@core3.amsl.com>; Wed,  6 Apr 2011 15:15:45 -0700 (PDT)
+Received: from sj-iport-3.cisco.com (sj-iport-3.cisco.com [171.71.176.72]) by core3.amsl.com (Postfix) with ESMTP id 27EE63A67E9 for <sip@ietf.org>; Wed,  6 Apr 2011 15:15:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=pkyzivat@cisco.com; l=1094; q=dns/txt; s=iport; t=1302128249; x=1303337849; h=message-id:date:from:mime-version:to:subject:references: in-reply-to:content-transfer-encoding; bh=E4MHCkrC3YjA3AZaVxkRoq50cRz2UzFLnpSbFIe+XfM=; b=QTSs20tmA5XVrO/stFo3yCbXaoTEEj+UKD5UcPLssReyG93RWPQsbnph TZshEU7XZDto5oUzPEYeIQLWm2Xk+zAIiI7PrBYvblavUzjV/1unymc+7 JMZLW8rQOxj7K1Vl4N8l5kTO10UGn6TjL8BhmaesOgJwhBopVVXXKOlQw o=;
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AtYHAAzmnE2rRDoI/2dsb2JhbACYco0Nd4h5nhucZIVsBI08g2M
+X-IronPort-AV: E=Sophos;i="4.63,312,1299456000"; d="scan'208";a="290830134"
+Received: from mtv-core-3.cisco.com ([171.68.58.8]) by sj-iport-3.cisco.com with ESMTP; 06 Apr 2011 22:17:29 +0000
+Received: from [10.86.240.127] (che-vpn-cluster-1-127.cisco.com [10.86.240.127]) by mtv-core-3.cisco.com (8.14.3/8.14.3) with ESMTP id p36MHSKx031678 for <sip@ietf.org>; Wed, 6 Apr 2011 22:17:28 GMT
+Message-ID: <4D9CE677.1060009@cisco.com>
+Date: Wed, 06 Apr 2011 18:17:27 -0400
+From: Paul Kyzivat <pkyzivat@cisco.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Thunderbird/3.1.9
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <BANLkTimjjn16x4x1Cih4N9YcF2QMvO807Q@mail.gmail.com>
+In-Reply-To: <BANLkTimjjn16x4x1Cih4N9YcF2QMvO807Q@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: Re: [Sip] Multiple registration using single UA
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Apr 2011 22:15:46 -0000
+
+On 4/4/2011 2:10 AM, E D wrote:
+> If I wanted to register two distinct numbers through a single UA Device
+> say 34111111 and 34111112 through one/single UA Device.
+> Should I expect the "Call-ID" to be Unique or  Identical?
+> RFC3261 seem to imply that the only the "SIP Tag"  needs to be unique
+> for the SIP Server or Registrar to
+> understand that both Numbers are being registered from one device only.
+> How could the SIP Server or
+> Registrar verify that these two numbers are in fact originating from the
+> same Device?
+
+Why would a registrar want/need to determine this?
+
+	Thanks,
+	Paul
+
+> Thanks in advance
+>
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP specifications.
+
+From dean.willis@softarmor.com  Thu Apr  7 21:11:42 2011
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2ACEF3A6A36 for <sip@core3.amsl.com>; Thu,  7 Apr 2011 21:11:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.369
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.369 tagged_above=-999 required=5 tests=[AWL=-0.070, BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id xuLipPjJJ84w for <sip@core3.amsl.com>; Thu,  7 Apr 2011 21:11:41 -0700 (PDT)
+Received: from mail-yi0-f44.google.com (mail-yi0-f44.google.com [209.85.218.44]) by core3.amsl.com (Postfix) with ESMTP id 0919C3A6784 for <sip@ietf.org>; Thu,  7 Apr 2011 21:11:40 -0700 (PDT)
+Received: by yic13 with SMTP id 13so1540223yic.31 for <sip@ietf.org>; Thu, 07 Apr 2011 21:13:24 -0700 (PDT)
+Received: by 10.236.106.198 with SMTP id m46mr2048036yhg.191.1302236004696; Thu, 07 Apr 2011 21:13:24 -0700 (PDT)
+Received: from [192.168.2.126] (cpe-66-25-14-128.tx.res.rr.com [66.25.14.128]) by mx.google.com with ESMTPS id p3sm1081982yhp.89.2011.04.07.21.13.22 (version=TLSv1/SSLv3 cipher=OTHER); Thu, 07 Apr 2011 21:13:23 -0700 (PDT)
+References: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com>
+In-Reply-To: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com>
+Mime-Version: 1.0 (Apple Message framework v1084)
+Content-Type: text/plain; charset=iso-8859-1
+Message-Id: <4CE3ABC5-E50D-4EA9-B8C1-09991BC00E0A@softarmor.com>
+Content-Transfer-Encoding: quoted-printable
+From: Dean Willis <dean.willis@softarmor.com>
+Date: Thu, 7 Apr 2011 23:13:21 -0500
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailer: Apple Mail (2.1084)
+Cc: sip@ietf.org
+Subject: Re: [Sip] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 04:11:42 -0000
+
+On Apr 6, 2011, at 11:36 AM, I=F1aki Baz Castillo wrote:
+
+...
+
+> IMHO the text should say:
+>=20
+>   If timer E fires while still in this state,
+>   the timer is reset, but this time with a value of MIN(2*TIMER_E, =
+T2).
+>=20
+> And remove the line about "When the timer fires again, it is reset to
+> a MIN(4*T1, T2)
+>=20
+> So we get:
+>=20
+> Timer E:
+> - Initially =3D> T1 =3D 0.5s
+> - Fires    =3D> MIN(2*TIMER_E, T2) =3D 1s
+> - Fires    =3D> MIN(2*TIMER_E, T2) =3D 2s
+> - Fires    =3D> MIN(2*TIMER_E, T2) =3D 4s
+> - Fires    =3D> MIN(2*TIMER_E, T2) =3D 4s
+>=20
+> Am I wrong? Thanks a lot.
+>=20
+
+I think you're right that the spec is written incorrectly. I believe it =
+should describe that the multiplier on T1 doubles with each reset. This =
+is not clear in the existing text. So for example, if 8*T1 < T2, then =
+the third reset is 8*T1, and if 16*T1 < T2, then the 4th reset is 16*T2
+
+Otherwise said, MIN(2^N*T1,T2) where N is the repetition iterator.
+
+>=20
+> PS: Sorry for the cross-posting, I don't know which maillist is better
+> to report it.
+
+sipcore@ietf.org would probably be the right place.
+
+--
+Dean=
+
+From wwwrun@rfc-editor.org  Fri Apr  8 00:51:30 2011
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 513893A6A53 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 00:51:30 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.406
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.406 tagged_above=-999 required=5 tests=[AWL=0.194, BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1rXNuOHyXTk3 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 00:51:29 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 537293A6A55 for <sip@ietf.org>; Fri,  8 Apr 2011 00:51:29 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 7F888E075D; Fri,  8 Apr 2011 00:52:47 -0700 (PDT)
+To: jdrosen@dynamicsoft.com, schulzrinne@cs.columbia.edu, Gonzalo.Camarillo@ericsson.com, alan.johnston@wcom.com, jon.peterson@neustar.com, rsparks@dynamicsoft.com, mjh@icir.org, schooler@research.att.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20110408075247.7F888E075D@rfc-editor.org>
+Date: Fri,  8 Apr 2011 00:52:47 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC3261 (2769)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 07:51:30 -0000
+
+The following errata report has been submitted for RFC3261,
+"SIP: Session Initiation Protocol".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=3261&eid=2769
+
+--------------------------------------
+Type: Technical
+Reported by: I�aki Baz Castillo <ibc@aliax.net>
+
+Section: 17.1.2.2
+
+Original Text
+-------------
+   MUST be passed to the transport layer for transmission.  If an
+   unreliable transport is in use, the client transaction MUST set timer
+   E to fire in T1 seconds.  If timer E fires while still in this state,
+   the timer is reset, but this time with a value of MIN(2*T1, T2).
+   When the timer fires again, it is reset to a MIN(4*T1, T2).  This
+   process continues so that retransmissions occur with an exponentially
+   increasing interval that caps at T2.
+
+Corrected Text
+--------------
+   MUST be passed to the transport layer for transmission.  If an
+   unreliable transport is in use, the client transaction MUST set timer
+   E to fire in T1 seconds.  If timer E fires while still in this state,
+   the timer is reset, but this time with a value of MIN(2*T1, T2).
+   When the timer fires again, it is reset to a MIN(4*T1, T2). Multiplier
+   on T1 doubles with each reset so that retransmissions occur with an
+   exponentially increasing interval that caps at T2.
+
+Notes
+-----
+The original text doesn't clarify that the multiplier of T1 is doubled with each timer reset, so it could be understood that the maximum value the timer takes is MIN(4*T1, T2) which is 2s (so the timer would never reach 4s and the resulting intervals would be 500ms, 1s, 2s, 2s, 2s, 2s, etc).
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC3261 (draft-ietf-sip-rfc2543bis-09)
+--------------------------------------
+Title               : SIP: Session Initiation Protocol
+Publication Date    : June 2002
+Author(s)           : J. Rosenberg, H. Schulzrinne, G. Camarillo, A. Johnston, J. Peterson, R. Sparks, M. Handley, E. Schooler
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From ibc@aliax.net  Fri Apr  8 00:55:00 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 7D9AC3A6A56 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 00:55:00 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.643
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.643 tagged_above=-999 required=5 tests=[AWL=0.034,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Czcze6xeMZ5F for <sip@core3.amsl.com>; Fri,  8 Apr 2011 00:54:59 -0700 (PDT)
+Received: from mail-qy0-f179.google.com (mail-qy0-f179.google.com [209.85.216.179]) by core3.amsl.com (Postfix) with ESMTP id B1CE43A6A28 for <sip@ietf.org>; Fri,  8 Apr 2011 00:54:59 -0700 (PDT)
+Received: by qyk7 with SMTP id 7so2142364qyk.10 for <sip@ietf.org>; Fri, 08 Apr 2011 00:56:44 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.75.196 with SMTP id z4mr1438403qcj.277.1302249404545; Fri, 08 Apr 2011 00:56:44 -0700 (PDT)
+Received: by 10.229.35.72 with HTTP; Fri, 8 Apr 2011 00:56:44 -0700 (PDT)
+In-Reply-To: <4CE3ABC5-E50D-4EA9-B8C1-09991BC00E0A@softarmor.com>
+References: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com> <4CE3ABC5-E50D-4EA9-B8C1-09991BC00E0A@softarmor.com>
+Date: Fri, 8 Apr 2011 09:56:44 +0200
+Message-ID: <BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Dean Willis <dean.willis@softarmor.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 07:55:00 -0000
+
+2011/4/8 Dean Willis <dean.willis@softarmor.com>:
+> I think you're right that the spec is written incorrectly. I believe it s=
+hould describe that the multiplier on T1 doubles with each reset. This is n=
+ot clear in the existing text. So for example, if 8*T1 < T2, then the third=
+ reset is 8*T1, and if 16*T1 < T2, then the 4th reset is 16*T2
+>
+> Otherwise said, MIN(2^N*T1,T2) where N is the repetition iterator.
+
+That would clarify it, right.
+
+
+>> PS: Sorry for the cross-posting, I don't know which maillist is better
+>> to report it.
+>
+> sipcore@ietf.org would probably be the right place.
+
+Finally I've reported an errata for RFC 3261 (hope it's also a good place):
+
+  http://www.rfc-editor.org/errata_search.php?rfc=3D3261
+
+
+Thanks a lot.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From peter@solwisetelephony.co.uk  Fri Apr  8 05:04:30 2011
+Return-Path: <peter@solwisetelephony.co.uk>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 260123A6903 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 05:04:30 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.531
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.531 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1, RCVD_NUMERIC_HELO=2.067]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id sBg14mGLrPXg for <sip@core3.amsl.com>; Fri,  8 Apr 2011 05:04:28 -0700 (PDT)
+Received: from mail5.eurofasthost.com (mail5.eurofasthost.com [79.99.64.54]) by core3.amsl.com (Postfix) with ESMTP id E4B263A68DC for <sip@ietf.org>; Fri,  8 Apr 2011 05:04:27 -0700 (PDT)
+Received: from 217.22.88.246 [217.22.88.246] by mail5.eurofasthost.com with SMTP; Fri, 8 Apr 2011 13:05:38 +0100
+Message-ID: <4D9EF9C2.7090101@solwisetelephony.co.uk>
+Date: Fri, 08 Apr 2011 13:04:18 +0100
+From: Peter Hanratty <peter@solwisetelephony.co.uk>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.7) Gecko/20100111 Thunderbird/3.0.1
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com>	<4CE3ABC5-E50D-4EA9-B8C1-09991BC00E0A@softarmor.com> <BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com>
+In-Reply-To: <BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com>
+Content-Type: multipart/alternative; boundary="------------050600040705040209000003"
+Subject: Re: [Sip] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 12:04:30 -0000
+
+This is a multi-part message in MIME format.
+--------------050600040705040209000003
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+While youre at it, the INVITE server transaction could use some 
+rethinking.  Terminating on a 2xx but on no other final response is a 
+bit daft and makes people like me want to cut corners rather than use 
+other objects such as the dialog or session to handle the ACK, which 
+doesn't really make for a nice logical model :)  The ACK is attached to 
+a single transaction and should handled by that transaction (as it is 
+for a non-2xx final response).
+
+
+Peter Hanratty
+Senior Software Developer
+
+Pinnacle Telecom Group PLC
+Brooke House
+4 The Lakes
+Bedford Road
+Northampton
+NN4 7YD
+
+Tel:  0845-006-0800
+Fax:  0871-872-0866
+
+
+On 08/04/2011 08:56, Iñaki Baz Castillo wrote:
+> 2011/4/8 Dean Willis<dean.willis@softarmor.com>:
+>    
+>> I think you're right that the spec is written incorrectly. I believe it should describe that the multiplier on T1 doubles with each reset. This is not clear in the existing text. So for example, if 8*T1<  T2, then the third reset is 8*T1, and if 16*T1<  T2, then the 4th reset is 16*T2
+>>
+>> Otherwise said, MIN(2^N*T1,T2) where N is the repetition iterator.
+>>      
+> That would clarify it, right.
+>
+>
+>    
+>>> PS: Sorry for the cross-posting, I don't know which maillist is better
+>>> to report it.
+>>>        
+>> sipcore@ietf.org would probably be the right place.
+>>      
+> Finally I've reported an errata for RFC 3261 (hope it's also a good place):
+>
+>    http://www.rfc-editor.org/errata_search.php?rfc=3261
+>
+>
+> Thanks a lot.
+>
+>    
+>
+>
+>
+> No virus found in this incoming message.
+> Checked by AVG - www.avg.com
+> Version: 9.0.894 / Virus Database: 271.1.1/3545 - Release Date: 04/01/11 19:36:00
+>
+>    
+
+--------------050600040705040209000003
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <title></title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<br>
+While youre at it, the INVITE server transaction could use some
+rethinking.  Terminating on a 2xx but on no other final response is a
+bit daft and makes people like me want to cut corners rather than use
+other objects such as the dialog or session to handle the ACK, which
+doesn't really make for a nice logical model :)  The ACK is attached to
+a single transaction and should handled by that transaction (as it is
+for a non-2xx final response).<br>
+<br>
+<br>
+<pre class="moz-signature" cols="72">Peter Hanratty
+Senior Software Developer
+
+Pinnacle Telecom Group PLC
+Brooke House
+4 The Lakes
+Bedford Road
+Northampton
+NN4 7YD
+
+Tel:  0845-006-0800
+Fax:  0871-872-0866
+</pre>
+<br>
+On 08/04/2011 08:56, Iñaki Baz Castillo wrote:
+<blockquote
+ cite="mid:BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com"
+ type="cite">
+  <pre wrap="">2011/4/8 Dean Willis <a class="moz-txt-link-rfc2396E" href="mailto:dean.willis@softarmor.com">&lt;dean.willis@softarmor.com&gt;</a>:
+  </pre>
+  <blockquote type="cite">
+    <pre wrap="">I think you're right that the spec is written incorrectly. I believe it should describe that the multiplier on T1 doubles with each reset. This is not clear in the existing text. So for example, if 8*T1 &lt; T2, then the third reset is 8*T1, and if 16*T1 &lt; T2, then the 4th reset is 16*T2
+
+Otherwise said, MIN(2^N*T1,T2) where N is the repetition iterator.
+    </pre>
+  </blockquote>
+  <pre wrap="">
+That would clarify it, right.
+
+
+  </pre>
+  <blockquote type="cite">
+    <blockquote type="cite">
+      <pre wrap="">PS: Sorry for the cross-posting, I don't know which maillist is better
+to report it.
+      </pre>
+    </blockquote>
+    <pre wrap="">
+<a class="moz-txt-link-abbreviated" href="mailto:sipcore@ietf.org">sipcore@ietf.org</a> would probably be the right place.
+    </pre>
+  </blockquote>
+  <pre wrap="">
+Finally I've reported an errata for RFC 3261 (hope it's also a good place):
+
+  <a class="moz-txt-link-freetext" href="http://www.rfc-editor.org/errata_search.php?rfc=3261">http://www.rfc-editor.org/errata_search.php?rfc=3261</a>
+
+
+Thanks a lot.
+
+  </pre>
+  <pre wrap="">
+<fieldset class="mimeAttachmentHeader"></fieldset>
+
+No virus found in this incoming message.
+Checked by AVG - <a class="moz-txt-link-abbreviated" href="http://www.avg.com">www.avg.com</a> 
+Version: 9.0.894 / Virus Database: 271.1.1/3545 - Release Date: 04/01/11 19:36:00
+
+  </pre>
+</blockquote>
+</body>
+</html>
+
+--------------050600040705040209000003--
+
+
+From ibc@aliax.net  Fri Apr  8 05:13:03 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 6032C28C0F9 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 05:13:03 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.644
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.644 tagged_above=-999 required=5 tests=[AWL=0.033,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id aMYxGbQsRhRo for <sip@core3.amsl.com>; Fri,  8 Apr 2011 05:13:02 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id BBA3C28C0E2 for <sip@ietf.org>; Fri,  8 Apr 2011 05:13:02 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so2527456qwc.31 for <sip@ietf.org>; Fri, 08 Apr 2011 05:14:47 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.221.131 with SMTP id ic3mr1686576qcb.239.1302264887670; Fri, 08 Apr 2011 05:14:47 -0700 (PDT)
+Received: by 10.229.35.72 with HTTP; Fri, 8 Apr 2011 05:14:47 -0700 (PDT)
+In-Reply-To: <4D9EF9C2.7090101@solwisetelephony.co.uk>
+References: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com> <4CE3ABC5-E50D-4EA9-B8C1-09991BC00E0A@softarmor.com> <BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com> <4D9EF9C2.7090101@solwisetelephony.co.uk>
+Date: Fri, 8 Apr 2011 14:14:47 +0200
+Message-ID: <BANLkTikPDoMOhawdQ7VGHy1x+TBNduSEFQ@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Peter Hanratty <peter@solwisetelephony.co.uk>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 12:13:03 -0000
+
+2011/4/8 Peter Hanratty <peter@solwisetelephony.co.uk>:
+> While youre at it, the INVITE server transaction could use some rethinkin=
+g.
+> Terminating on a 2xx but on no other final response is a bit daft and mak=
+es
+> people like me want to cut corners rather than use other objects such as =
+the
+> dialog or session to handle the ACK, which doesn't really make for a nice
+> logical model :)=C2=A0 The ACK is attached to a single transaction and sh=
+ould
+> handled by that transaction (as it is for a non-2xx final response).
+
+Hi Peter, you should take a look to RFC 6026 "Correct Transaction
+Handling for 2xx Responses to SIP INVITE Requests".
+;)
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From rjsparks@nostrum.com  Fri Apr  8 07:06:18 2011
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0E2673A6922 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 07:06:18 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.45
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.45 tagged_above=-999 required=5 tests=[AWL=-0.150, BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MOeSkAxjC1bW for <sip@core3.amsl.com>; Fri,  8 Apr 2011 07:06:17 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id D43C73A690C for <sip@ietf.org>; Fri,  8 Apr 2011 07:06:16 -0700 (PDT)
+Received: from [192.168.2.105] (pool-173-57-91-217.dllstx.fios.verizon.net [173.57.91.217]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id p38E7x4K051413 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Fri, 8 Apr 2011 09:07:59 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+Mime-Version: 1.0 (Apple Message framework v1082)
+Content-Type: text/plain; charset=iso-8859-1
+From: Robert Sparks <rjsparks@nostrum.com>
+In-Reply-To: <BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com>
+Date: Fri, 8 Apr 2011 09:07:58 -0500
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <C3EC948B-7948-4D51-84F6-C76F406FC6D3@nostrum.com>
+References: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com> <4CE3ABC5-E50D-4EA9-B8C1-09991BC00E0A@softarmor.com> <BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailer: Apple Mail (2.1082)
+Received-SPF: pass (nostrum.com: 173.57.91.217 is authenticated by a trusted mechanism)
+Cc: sip@ietf.org, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 14:06:18 -0000
+
+Since, as I=F1aki noted, implementations are almost always getting this =
+right,
+I plan to put this errata into the "Hold for Document Update" state
+(see <http://www.ietf.org/iesg/statement/errata-processing.html>).
+
+RjS
+
+On Apr 8, 2011, at 2:56 AM, I=F1aki Baz Castillo wrote:
+
+> 2011/4/8 Dean Willis <dean.willis@softarmor.com>:
+>> I think you're right that the spec is written incorrectly. I believe =
+it should describe that the multiplier on T1 doubles with each reset. =
+This is not clear in the existing text. So for example, if 8*T1 < T2, =
+then the third reset is 8*T1, and if 16*T1 < T2, then the 4th reset is =
+16*T2
+>>=20
+>> Otherwise said, MIN(2^N*T1,T2) where N is the repetition iterator.
+>=20
+> That would clarify it, right.
+>=20
+>=20
+>>> PS: Sorry for the cross-posting, I don't know which maillist is =
+better
+>>> to report it.
+>>=20
+>> sipcore@ietf.org would probably be the right place.
+>=20
+> Finally I've reported an errata for RFC 3261 (hope it's also a good =
+place):
+>=20
+>  http://www.rfc-editor.org/errata_search.php?rfc=3D3261
+>=20
+>=20
+> Thanks a lot.
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old =
+business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a =
+SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP =
+specifications.
+
+
+From ibc@aliax.net  Fri Apr  8 07:25:45 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 565213A6919 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 07:25:45 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.644
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.644 tagged_above=-999 required=5 tests=[AWL=0.033,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id iz0wmk0J9Sfh for <sip@core3.amsl.com>; Fri,  8 Apr 2011 07:25:44 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id 56F5928C0F0 for <sip@ietf.org>; Fri,  8 Apr 2011 07:25:44 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so2618213qwc.31 for <sip@ietf.org>; Fri, 08 Apr 2011 07:27:29 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.224.179.203 with SMTP id br11mr1878460qab.197.1302272849300; Fri, 08 Apr 2011 07:27:29 -0700 (PDT)
+Received: by 10.229.35.72 with HTTP; Fri, 8 Apr 2011 07:27:29 -0700 (PDT)
+In-Reply-To: <C3EC948B-7948-4D51-84F6-C76F406FC6D3@nostrum.com>
+References: <BANLkTimgohzMAtinJutHfeDRETduGzjZvg@mail.gmail.com> <4CE3ABC5-E50D-4EA9-B8C1-09991BC00E0A@softarmor.com> <BANLkTin-5OBTgn08tccUSt6Av_mAkiorzw@mail.gmail.com> <C3EC948B-7948-4D51-84F6-C76F406FC6D3@nostrum.com>
+Date: Fri, 8 Apr 2011 16:27:29 +0200
+Message-ID: <BANLkTim6ihVfRfYHcA+ehbdmc80_FJdGaA@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Robert Sparks <rjsparks@nostrum.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Possible bug in "Non-INVITE Client Transaction" - 17.1.2.2
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 14:25:45 -0000
+
+2011/4/8 Robert Sparks <rjsparks@nostrum.com>:
+> Since, as I=C3=B1aki noted, implementations are almost always getting thi=
+s right,
+> I plan to put this errata into the "Hold for Document Update" state
+> (see <http://www.ietf.org/iesg/statement/errata-processing.html>).
+
+Thanks a lot.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From adam@nostrum.com  Fri Apr  8 15:25:19 2011
+Return-Path: <adam@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id A00243A6A17 for <sip@core3.amsl.com>; Fri,  8 Apr 2011 15:25:19 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.589
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.589 tagged_above=-999 required=5 tests=[AWL=0.010, BAYES_00=-2.599, HTML_MESSAGE=0.001, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zW+X9u+088gC for <sip@core3.amsl.com>; Fri,  8 Apr 2011 15:25:18 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 8E3B23A6A0E for <sip@ietf.org>; Fri,  8 Apr 2011 15:25:16 -0700 (PDT)
+Received: from [172.16.3.81] (vicuna-alt.estacado.net [75.53.54.121]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id p38MPKpf095285 (version=TLSv1/SSLv3 cipher=DHE-RSA-CAMELLIA256-SHA bits=256 verify=NO); Fri, 8 Apr 2011 17:25:29 -0500 (CDT) (envelope-from adam@nostrum.com)
+Message-ID: <4D9F8B50.2080809@nostrum.com>
+Date: Fri, 08 Apr 2011 17:25:20 -0500
+From: Adam Roach <adam@nostrum.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.14) Gecko/20110223 Thunderbird/3.1.8
+MIME-Version: 1.0
+To: RFC Errata System <rfc-editor@rfc-editor.org>
+References: <20110408075247.7F888E075D@rfc-editor.org>
+In-Reply-To: <20110408075247.7F888E075D@rfc-editor.org>
+Content-Type: multipart/alternative; boundary="------------010801090809060400050801"
+Received-SPF: pass (nostrum.com: 75.53.54.121 is authenticated by a trusted mechanism)
+Cc: jdrosen@dynamicsoft.com, schooler@research.att.com, rsparks@dynamicsoft.com, sip@ietf.org, schulzrinne@cs.columbia.edu, drage@alcatel-lucent.com, alan.johnston@wcom.com, Gonzalo.Camarillo@ericsson.com, mjh@icir.org, jon.peterson@neustar.com, dean.willis@softarmor.com
+Subject: Re: [Sip] [Technical Errata Reported] RFC3261 (2769)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2011 22:25:19 -0000
+
+This is a multi-part message in MIME format.
+--------------010801090809060400050801
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+I don't think this is warranted. This behavior of Timer E is well 
+documented in RFC 3261. It does not bear reiteration every time it is 
+mentioned.
+
+In particular, the quoted paragraph is quite clear on the topic, if one 
+is to finish reading it:
+
+> The default value of T2 is 4s,
+>     and it represents the amount of time a non-INVITE server transaction
+>     will take to respond to a request, if it does not respond
+>     immediately.  For the default values of T1 and T2, this results in
+>     intervals of 500 ms, 1 s, 2 s, 4 s, 4 s, 4 s, etc.
+
+This is also explained in 17.1.2.1:
+
+>   For unreliable transports, requests
+>     are retransmitted at an interval which starts at T1 and doubles until
+>     it hits T2.
+
+/a
+
+On 04/08/2011 02:52 AM, RFC Errata System wrote:
+> The following errata report has been submitted for RFC3261,
+> "SIP: Session Initiation Protocol".
+>
+> --------------------------------------
+> You may review the report below and at:
+> http://www.rfc-editor.org/errata_search.php?rfc=3261&eid=2769
+>
+> --------------------------------------
+> Type: Technical
+> Reported by: I�aki Baz Castillo<ibc@aliax.net>
+>
+> Section: 17.1.2.2
+>
+> Original Text
+> -------------
+>     MUST be passed to the transport layer for transmission.  If an
+>     unreliable transport is in use, the client transaction MUST set timer
+>     E to fire in T1 seconds.  If timer E fires while still in this state,
+>     the timer is reset, but this time with a value of MIN(2*T1, T2).
+>     When the timer fires again, it is reset to a MIN(4*T1, T2).  This
+>     process continues so that retransmissions occur with an exponentially
+>     increasing interval that caps at T2.
+>
+> Corrected Text
+> --------------
+>     MUST be passed to the transport layer for transmission.  If an
+>     unreliable transport is in use, the client transaction MUST set timer
+>     E to fire in T1 seconds.  If timer E fires while still in this state,
+>     the timer is reset, but this time with a value of MIN(2*T1, T2).
+>     When the timer fires again, it is reset to a MIN(4*T1, T2). Multiplier
+>     on T1 doubles with each reset so that retransmissions occur with an
+>     exponentially increasing interval that caps at T2.
+>
+> Notes
+> -----
+> The original text doesn't clarify that the multiplier of T1 is doubled with each timer reset, so it could be understood that the maximum value the timer takes is MIN(4*T1, T2) which is 2s (so the timer would never reach 4s and the resulting intervals would be 500ms, 1s, 2s, 2s, 2s, 2s, etc).
+>
+> Instructions:
+> -------------
+> This errata is currently posted as "Reported". If necessary, please
+> use "Reply All" to discuss whether it should be verified or
+> rejected. When a decision is reached, the verifying party (IESG)
+> can log in to change the status and edit the report, if necessary.
+>
+> --------------------------------------
+> RFC3261 (draft-ietf-sip-rfc2543bis-09)
+> --------------------------------------
+> Title               : SIP: Session Initiation Protocol
+> Publication Date    : June 2002
+> Author(s)           : J. Rosenberg, H. Schulzrinne, G. Camarillo, A. Johnston, J. Peterson, R. Sparks, M. Handley, E. Schooler
+> Category            : PROPOSED STANDARD
+> Source              : Session Initiation Protocol
+> Area                : Real-time Applications and Infrastructure
+> Stream              : IETF
+> Verifying Party     : IESG
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP specifications.
+
+
+--------------010801090809060400050801
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1"
+      http-equiv="Content-Type">
+  </head>
+  <body text="#000000" bgcolor="#ffffff">
+    I don't think this is warranted. This behavior of Timer E is well
+    documented in RFC 3261. It does not bear reiteration every time it
+    is mentioned.<br>
+    <br>
+    In particular, the quoted paragraph is quite clear on the topic, if
+    one is to finish reading it:<br>
+    <br>
+    <blockquote type="cite">
+      <pre>The default value of T2 is 4s,
+   and it represents the amount of time a non-INVITE server transaction
+   will take to respond to a request, if it does not respond
+   immediately.  For the default values of T1 and T2, this results in
+   intervals of 500 ms, 1 s, 2 s, 4 s, 4 s, 4 s, etc.
+</pre>
+    </blockquote>
+    <br>
+    This is also explained in 17.1.2.1:<br>
+    <br>
+    <blockquote type="cite">
+      <pre> For unreliable transports, requests
+   are retransmitted at an interval which starts at T1 and doubles until
+   it hits T2.</pre>
+    </blockquote>
+    <br>
+    /a<br>
+    <br>
+    On 04/08/2011 02:52 AM, RFC Errata System wrote:
+    <blockquote cite="mid:20110408075247.7F888E075D@rfc-editor.org"
+      type="cite">
+      <pre wrap="">
+The following errata report has been submitted for RFC3261,
+"SIP: Session Initiation Protocol".
+
+--------------------------------------
+You may review the report below and at:
+<a class="moz-txt-link-freetext" href="http://www.rfc-editor.org/errata_search.php?rfc=3261&amp;eid=2769">http://www.rfc-editor.org/errata_search.php?rfc=3261&amp;eid=2769</a>
+
+--------------------------------------
+Type: Technical
+Reported by: I&ntilde;aki Baz Castillo <a class="moz-txt-link-rfc2396E" href="mailto:ibc@aliax.net">&lt;ibc@aliax.net&gt;</a>
+
+Section: 17.1.2.2
+
+Original Text
+-------------
+   MUST be passed to the transport layer for transmission.  If an
+   unreliable transport is in use, the client transaction MUST set timer
+   E to fire in T1 seconds.  If timer E fires while still in this state,
+   the timer is reset, but this time with a value of MIN(2*T1, T2).
+   When the timer fires again, it is reset to a MIN(4*T1, T2).  This
+   process continues so that retransmissions occur with an exponentially
+   increasing interval that caps at T2.
+
+Corrected Text
+--------------
+   MUST be passed to the transport layer for transmission.  If an
+   unreliable transport is in use, the client transaction MUST set timer
+   E to fire in T1 seconds.  If timer E fires while still in this state,
+   the timer is reset, but this time with a value of MIN(2*T1, T2).
+   When the timer fires again, it is reset to a MIN(4*T1, T2). Multiplier
+   on T1 doubles with each reset so that retransmissions occur with an
+   exponentially increasing interval that caps at T2.
+
+Notes
+-----
+The original text doesn't clarify that the multiplier of T1 is doubled with each timer reset, so it could be understood that the maximum value the timer takes is MIN(4*T1, T2) which is 2s (so the timer would never reach 4s and the resulting intervals would be 500ms, 1s, 2s, 2s, 2s, 2s, etc).
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC3261 (draft-ietf-sip-rfc2543bis-09)
+--------------------------------------
+Title               : SIP: Session Initiation Protocol
+Publication Date    : June 2002
+Author(s)           : J. Rosenberg, H. Schulzrinne, G. Camarillo, A. Johnston, J. Peterson, R. Sparks, M. Handley, E. Schooler
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+</pre>
+      <pre wrap="">
+<fieldset class="mimeAttachmentHeader"></fieldset>
+_______________________________________________
+Sip mailing list  <a class="moz-txt-link-freetext" href="https://www.ietf.org/mailman/listinfo/sip">https://www.ietf.org/mailman/listinfo/sip</a>
+This list is essentially closed and only used for finishing old business.
+Use <a class="moz-txt-link-abbreviated" href="mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.columbia.edu</a> for questions on how to develop a SIP implementation.
+Use <a class="moz-txt-link-abbreviated" href="mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new developments on the application of sip.
+Use <a class="moz-txt-link-abbreviated" href="mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues related to maintenance of the core SIP specifications.</pre>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------010801090809060400050801--
+
+From dean.willis@softarmor.com  Tue Apr 12 21:46:17 2011
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id 83BE4E07C4 for <sip@ietfc.amsl.com>; Tue, 12 Apr 2011 21:46:17 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.099
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.099 tagged_above=-999 required=5 tests=[AWL=0.500, BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6LbLx+iz2N4q for <sip@ietfc.amsl.com>; Tue, 12 Apr 2011 21:46:16 -0700 (PDT)
+Received: from mail-yw0-f44.google.com (mail-yw0-f44.google.com [209.85.213.44]) by ietfc.amsl.com (Postfix) with ESMTP id D55F0E0716 for <sip@ietf.org>; Tue, 12 Apr 2011 21:46:16 -0700 (PDT)
+Received: by ywi6 with SMTP id 6so138653ywi.31 for <sip@ietf.org>; Tue, 12 Apr 2011 21:46:16 -0700 (PDT)
+Received: by 10.150.173.10 with SMTP id v10mr154139ybe.119.1302669976358; Tue, 12 Apr 2011 21:46:16 -0700 (PDT)
+Received: from [192.168.2.126] (cpe-66-25-14-128.tx.res.rr.com [66.25.14.128]) by mx.google.com with ESMTPS id p33sm2009808ybk.2.2011.04.12.21.46.14 (version=TLSv1/SSLv3 cipher=OTHER); Tue, 12 Apr 2011 21:46:14 -0700 (PDT)
+References: <20110408075247.7F888E075D@rfc-editor.org> <4D9F8B50.2080809@nostrum.com>
+In-Reply-To: <4D9F8B50.2080809@nostrum.com>
+Mime-Version: 1.0 (Apple Message framework v1084)
+Content-Type: text/plain; charset=us-ascii
+Message-Id: <4FD93CD5-990B-49A7-86D9-716F596B0AB8@softarmor.com>
+Content-Transfer-Encoding: quoted-printable
+From: Dean Willis <dean.willis@softarmor.com>
+Date: Tue, 12 Apr 2011 23:46:12 -0500
+To: Adam Roach <adam@nostrum.com>
+X-Mailer: Apple Mail (2.1084)
+Cc: sip@ietf.org
+Subject: Re: [Sip] [Technical Errata Reported] RFC3261 (2769)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 13 Apr 2011 04:46:17 -0000
+
+On Apr 8, 2011, at 5:25 PM, Adam Roach wrote:
+
+> I don't think this is warranted. This behavior of Timer E is well =
+documented in RFC 3261. It does not bear reiteration every time it is =
+mentioned.
+>=20
+> In particular, the quoted paragraph is quite clear on the topic, if =
+one is to finish reading it:
+>=20
+
+Other than the fact that it appears to disagree with itself, 3261 is =
+quite clear.
+
+While it is true that the behavior of the timer is correctly-described =
+in one part of the spec, it seems to be incorrectly (or at least =
+misleadingly) described in an early passage. So while reiteration may =
+not be needed, correct initial iteration is probably warranted. Or the =
+misleading initial passage could be excised.
+
+If you say something only once, say it right. If you must say it again, =
+don't say something different. Just say it more clearly.
+
+--
+Dean
+
+
+From ibc@aliax.net  Wed Apr 13 00:39:02 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id 041FEE070A for <sip@ietfc.amsl.com>; Wed, 13 Apr 2011 00:39:02 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.271
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.271 tagged_above=-999 required=5 tests=[AWL=0.406,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Ir7jlfYFZNbk for <sip@ietfc.amsl.com>; Wed, 13 Apr 2011 00:39:01 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfc.amsl.com (Postfix) with ESMTP id 085A0E067E for <sip@ietf.org>; Wed, 13 Apr 2011 00:39:00 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so210614qwc.31 for <sip@ietf.org>; Wed, 13 Apr 2011 00:39:00 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.118.195 with SMTP id w3mr5742580qcq.203.1302680340367; Wed, 13 Apr 2011 00:39:00 -0700 (PDT)
+Received: by 10.229.75.7 with HTTP; Wed, 13 Apr 2011 00:39:00 -0700 (PDT)
+In-Reply-To: <4FD93CD5-990B-49A7-86D9-716F596B0AB8@softarmor.com>
+References: <20110408075247.7F888E075D@rfc-editor.org> <4D9F8B50.2080809@nostrum.com> <4FD93CD5-990B-49A7-86D9-716F596B0AB8@softarmor.com>
+Date: Wed, 13 Apr 2011 09:39:00 +0200
+Message-ID: <BANLkTimd-LO5vDayLWPb3Pg-yfr=O4Q8bw@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Dean Willis <dean.willis@softarmor.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org, Adam Roach <adam@nostrum.com>
+Subject: Re: [Sip] [Technical Errata Reported] RFC3261 (2769)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 13 Apr 2011 07:39:02 -0000
+
+2011/4/13 Dean Willis <dean.willis@softarmor.com>:
+> On Apr 8, 2011, at 5:25 PM, Adam Roach wrote:
+>
+>> I don't think this is warranted. This behavior of Timer E is well docume=
+nted in RFC 3261. It does not bear reiteration every time it is mentioned.
+>>
+>> In particular, the quoted paragraph is quite clear on the topic, if one =
+is to finish reading it:
+>>
+>
+> Other than the fact that it appears to disagree with itself, 3261 is quit=
+e clear.
+>
+> While it is true that the behavior of the timer is correctly-described in=
+ one part of the spec, it seems to be incorrectly (or at least misleadingly=
+) described in an early passage. So while reiteration may not be needed, co=
+rrect initial iteration is probably warranted. Or the misleading initial pa=
+ssage could be excised.
+>
+> If you say something only once, say it right. If you must say it again, d=
+on't say something different. Just say it more clearly.
+
++1
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From wwwrun@rfc-editor.org  Sat Apr 16 07:35:42 2011
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id 8CE7FE06B5 for <sip@ietfc.amsl.com>; Sat, 16 Apr 2011 07:35:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.37
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.37 tagged_above=-999 required=5 tests=[AWL=0.230, BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id U862uJX2u0a4 for <sip@ietfc.amsl.com>; Sat, 16 Apr 2011 07:35:42 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by ietfc.amsl.com (Postfix) with ESMTP id D69F5E069A for <sip@ietf.org>; Sat, 16 Apr 2011 07:35:41 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id E2670E075D; Sat, 16 Apr 2011 07:35:40 -0700 (PDT)
+To: dean.willis@softarmor.com, hoeneisen@switch.ch, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20110416143540.E2670E075D@rfc-editor.org>
+Date: Sat, 16 Apr 2011 07:35:40 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC3327 (2778)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 16 Apr 2011 14:35:42 -0000
+
+The following errata report has been submitted for RFC3327,
+"Session Initiation Protocol (SIP) Extension Header Field for Registering Non-Adjacent Contacts".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=3327&eid=2778
+
+--------------------------------------
+Type: Technical
+Reported by: I�aki Baz Castillo <ibc@aliax.net>
+
+Section: 5.5.2
+
+Original Text
+-------------
+   Message sequence for INVITE using Path:
+
+   F1 Invite UA2 -> REGISTRAR
+
+      INVITE UA1@EXAMPLEHOME.COM SIP/2.0
+      Via: SIP/2.0/UDP 71.91.180.10:5060;branch=z9hG4bKe2i95c5st3R
+      To: UA1 <sip:UA1@EXAMPLEHOME.COM>
+      From: UA2 <sip:UA2@FOREIGN.ELSEWHERE.ORG>;tag=224497
+      Call-ID: 48273181116@71.91.180.10
+      CSeq: 29 INVITE
+      Contact: <sip:UA2@71.91.180.10>
+       . . .
+
+Corrected Text
+--------------
+   Message sequence for INVITE using Path:
+
+   F1 Invite UA2 -> REGISTRAR
+
+      INVITE sip:UA1@EXAMPLEHOME.COM SIP/2.0
+      Via: SIP/2.0/UDP 71.91.180.10:5060;branch=z9hG4bKe2i95c5st3R
+      To: UA1 <sip:UA1@EXAMPLEHOME.COM>
+      From: UA2 <sip:UA2@FOREIGN.ELSEWHERE.ORG>;tag=224497
+      Call-ID: 48273181116@71.91.180.10
+      CSeq: 29 INVITE
+      Contact: <sip:UA2@71.91.180.10>
+       . . .
+
+Notes
+-----
+In all the example flow the Request URI is wrong as doesn't contain the URI scheme ("sip" / "sips").
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC3327 (draft-willis-sip-path-08)
+--------------------------------------
+Title               : Session Initiation Protocol (SIP) Extension Header Field for Registering Non-Adjacent Contacts
+Publication Date    : December 2002
+Author(s)           : D. Willis, B. Hoeneisen
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From ibc@aliax.net  Tue Apr 19 07:31:09 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id 719B4E0758 for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 07:31:09 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.381
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.381 tagged_above=-999 required=5 tests=[AWL=0.296,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id CP0RR4iHujKT for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 07:31:08 -0700 (PDT)
+Received: from mail-qy0-f179.google.com (mail-qy0-f179.google.com [209.85.216.179]) by ietfc.amsl.com (Postfix) with ESMTP id BB8EFE0754 for <sip@ietf.org>; Tue, 19 Apr 2011 07:31:05 -0700 (PDT)
+Received: by qyk7 with SMTP id 7so3595590qyk.10 for <sip@ietf.org>; Tue, 19 Apr 2011 07:31:05 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.224.201.133 with SMTP id fa5mr3621784qab.126.1303223465132; Tue, 19 Apr 2011 07:31:05 -0700 (PDT)
+Received: by 10.229.75.7 with HTTP; Tue, 19 Apr 2011 07:31:04 -0700 (PDT)
+Date: Tue, 19 Apr 2011 16:31:04 +0200
+Message-ID: <BANLkTi=mob149EFPTffkCUa+j-2dd=9k7A@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: [Sip] RFC 3261 - 16.10 (CANCEL processing in a Proxy)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Apr 2011 14:31:09 -0000
+
+Hi, according to RFC 3261 - 16.10 CANCEL Processing (Proxy)
+
+  If a response context is not found, the element does not have any
+  knowledge of the request to apply the CANCEL to.  It MUST statelessly
+  forward the CANCEL request (it may have statelessly forwarded the
+  associated request previously).
+
+
+In my case I do know that my proxy doesn't behave as a stateless proxy
+so I see no reason to forward a CANCEL if it doesn't match a server
+transaction. And I do know that such forwarded CANCEL will not success.
+
+I've also told that such requeriment (statelessly forwarding a CANCEL
+if not transaction is matched) would never work in some scenarios as
+IMS.
+
+Basically, if I do know that my proxy always behaves statefully there
+is no use case in forwarding a CANCEL not matching a server
+transaction. IMHO such "MUST" in 16.10 should be relaxed and local
+policies allowed.
+
+BTW, could an always-stateful proxy reply 481 upon receipt of a CANCEL
+not matching a server transaction? or should it ignore it? (this is
+not contemplated in RFC 3261 as it mandates statelessly forwarding of
+the CANCEL, but I hope such requeriment should be removed/relaxed in a
+future revision of SIP protocol).
+
+Thanks a lot.
+
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From vkg@bell-labs.com  Tue Apr 19 07:54:19 2011
+Return-Path: <vkg@bell-labs.com>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id E9E6EE0691 for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 07:54:19 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -105.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-105.599 tagged_above=-999 required=5 tests=[AWL=1.000, BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id t0HFzrs+Nu4G for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 07:54:19 -0700 (PDT)
+Received: from ihemail4.lucent.com (ihemail4.lucent.com [135.245.0.39]) by ietfc.amsl.com (Postfix) with ESMTP id 13F77E0664 for <sip@ietf.org>; Tue, 19 Apr 2011 07:54:18 -0700 (PDT)
+Received: from usnavsmail3.ndc.alcatel-lucent.com (usnavsmail3.ndc.alcatel-lucent.com [135.3.39.11]) by ihemail4.lucent.com (8.13.8/IER-o) with ESMTP id p3JEsCKD025989 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK); Tue, 19 Apr 2011 09:54:12 -0500 (CDT)
+Received: from umail.lucent.com (umail-ce2.ndc.lucent.com [135.3.40.63]) by usnavsmail3.ndc.alcatel-lucent.com (8.14.3/8.14.3/GMO) with ESMTP id p3JEsCJ1026910 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT); Tue, 19 Apr 2011 09:54:12 -0500
+Received: from shoonya.ih.lucent.com (shoonya.ih.lucent.com [135.185.238.233]) by umail.lucent.com (8.13.8/TPES) with ESMTP id p3JEsBSs001997; Tue, 19 Apr 2011 09:54:12 -0500 (CDT)
+Message-ID: <4DADA292.6060906@bell-labs.com>
+Date: Tue, 19 Apr 2011 09:56:18 -0500
+From: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Organization: Bell Laboratories, Alcatel-Lucent
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.15) Gecko/20110307 Fedora/3.1.9-0.39.b3pre.fc14 Thunderbird/3.1.9
+MIME-Version: 1.0
+To: ibc@aliax.net
+References: <BANLkTi=mob149EFPTffkCUa+j-2dd=9k7A@mail.gmail.com>
+In-Reply-To: <BANLkTi=mob149EFPTffkCUa+j-2dd=9k7A@mail.gmail.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.39
+X-Scanned-By: MIMEDefang 2.64 on 135.3.39.11
+Cc: sip@ietf.org
+Subject: Re: [Sip] RFC 3261 - 16.10 (CANCEL processing in a Proxy)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Apr 2011 14:54:20 -0000
+
+On 04/19/2011 09:31 AM, Iñaki Baz Castillo wrote:
+[...]
+> BTW, could an always-stateful proxy reply 481 upon receipt of a CANCEL
+> not matching a server transaction? or should it ignore it? (this is
+> not contemplated in RFC 3261 as it mandates statelessly forwarding of
+> the CANCEL, but I hope such requeriment should be removed/relaxed in a
+> future revision of SIP protocol).
+
+Consider what happens if a stateful proxy proxies an INVITE downstream
+and then promptly crashes.  It is duly chastised and quickly brought up
+again, and it now sees a CANCEL to the INVITE it had previously proxied
+downstream before crashing (assume that all the transaction state was
+wiped out when the proxy crashed).
+
+What should it do now?  If it issues a locally generated 481, it allows
+the downstream server that received the INVITE to continue processing
+it.  If it sends the CANCEL statelessly, it may hit the same downstream
+server and cease processing.
+
+Regardless of the behaviour of the proxy, things will still tend to
+work out okay since by the old SIP mantra, each transaction completes
+independently of others.  So, regardless of whether the proxy generates
+a 481 (CANCEL) or sends the CANCEL downstream allowing the downstream
+server to generate a final response (say 2xx-class) for the CANCEL,
+the state machinery of the upstream UAC remains idempotent with respect
+to a reply.  That is, the 481 or 2xx for the CANCEL closes the pending
+CANCEL transaction at the UAC, and it now waits for a final response
+for the INVITE it send out earlier.
+
+All this said, I believe that most SIP servers that operate statefully
+simply send out a 481 on a CANCEL they cannot match to a pending
+transaction.
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{bell-labs.com,acm.org} / vijay.gurbani@alcatel-lucent.com
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From ibc@aliax.net  Tue Apr 19 08:23:23 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id EC2BDE0786 for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 08:23:23 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.394
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.394 tagged_above=-999 required=5 tests=[AWL=0.283,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id jS0SMAVCUXZq for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 08:23:23 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfc.amsl.com (Postfix) with ESMTP id 2C321E0758 for <sip@ietf.org>; Tue, 19 Apr 2011 08:23:04 -0700 (PDT)
+Received: by qyk29 with SMTP id 29so1666368qyk.10 for <sip@ietf.org>; Tue, 19 Apr 2011 08:23:03 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.71.205 with SMTP id i13mr4425521qcj.279.1303226583642; Tue, 19 Apr 2011 08:23:03 -0700 (PDT)
+Received: by 10.229.75.7 with HTTP; Tue, 19 Apr 2011 08:23:03 -0700 (PDT)
+In-Reply-To: <4DADA292.6060906@bell-labs.com>
+References: <BANLkTi=mob149EFPTffkCUa+j-2dd=9k7A@mail.gmail.com> <4DADA292.6060906@bell-labs.com>
+Date: Tue, 19 Apr 2011 17:23:03 +0200
+Message-ID: <BANLkTindAUS=ArC0C12Xd8UzYUrFEJpoGw@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] RFC 3261 - 16.10 (CANCEL processing in a Proxy)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Apr 2011 15:23:24 -0000
+
+2011/4/19 Vijay K. Gurbani <vkg@bell-labs.com>:
+> Consider what happens if a stateful proxy proxies an INVITE downstream
+> and then promptly crashes. =C2=A0It is duly chastised and quickly brought=
+ up
+> again, and it now sees a CANCEL to the INVITE it had previously proxied
+> downstream before crashing (assume that all the transaction state was
+> wiped out when the proxy crashed).
+>
+> What should it do now? =C2=A0If it issues a locally generated 481, it all=
+ows
+> the downstream server that received the INVITE to continue processing
+> it. =C2=A0If it sends the CANCEL statelessly, it may hit the same downstr=
+eam
+> server and cease processing.
+>
+> Regardless of the behaviour of the proxy, things will still tend to
+> work out okay since by the old SIP mantra, each transaction completes
+> independently of others. =C2=A0So, regardless of whether the proxy genera=
+tes
+> a 481 (CANCEL) or sends the CANCEL downstream allowing the downstream
+> server to generate a final response (say 2xx-class) for the CANCEL,
+> the state machinery of the upstream UAC remains idempotent with respect
+> to a reply. =C2=A0That is, the 481 or 2xx for the CANCEL closes the pendi=
+ng
+> CANCEL transaction at the UAC, and it now waits for a final response
+> for the INVITE it send out earlier.
+>
+> All this said, I believe that most SIP servers that operate statefully
+> simply send out a 481 on a CANCEL they cannot match to a pending
+> transaction.
+
+
+Thanks Vijay. What you say makes lot of sense, however handling a
+CANCEL after crashing is not the only problem in a proxy:
+
+Your text assumes that the proxy doesn't store the transaction
+state/data in a permanent backend so it can not recover it after
+rebooting (sure this is true in 99% of the existing implementations).
+So imagine that, after rebooting in the middle of a INVITE transaction
+in proceeding state, the UAS sends a final response to the UAC:
+
+According to RFC 6026 (which updates RFC 3261):
+
+      When a response is received by an element, it first tries to
+      locate a client transaction (Section 17.1.3) matching the
+      response.  If a transaction is found, the response is handed to
+      the client transaction.  If none is found, the element MUST NOT
+      forward the response.
+
+So the response wouldn't arrive to the UAC (which would also produce
+several issues, similar as if the CANCEL sent by the UAC is not
+forwarded to the UAS).
+
+
+This is, originally RFC 3261 seems to handle the case in which a proxy
+is rebooted (CANCEL forwarded stateless, responses statelessly
+forwarded based on second Via...) but then RFC 6026 arrives an changes
+it (basically to avoid DoS attacks, the same attack that can occur if
+a proxy routes statelessly CANCEL's not matching a transaction). So it
+seems it is not very clear which philosophy to follow, do you agree?
+:)
+
+
+Best regards.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From vkg@bell-labs.com  Tue Apr 19 08:43:16 2011
+Return-Path: <vkg@bell-labs.com>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id D3FD7E0691 for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 08:43:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -105.592
+X-Spam-Level: 
+X-Spam-Status: No, score=-105.592 tagged_above=-999 required=5 tests=[AWL=0.707, BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LQXKvI2-lLms for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 08:43:16 -0700 (PDT)
+Received: from ihemail2.lucent.com (ihemail2.lucent.com [135.245.0.35]) by ietfc.amsl.com (Postfix) with ESMTP id E5827E0664 for <sip@ietf.org>; Tue, 19 Apr 2011 08:43:15 -0700 (PDT)
+Received: from usnavsmail3.ndc.alcatel-lucent.com (usnavsmail3.ndc.alcatel-lucent.com [135.3.39.11]) by ihemail2.lucent.com (8.13.8/IER-o) with ESMTP id p3JFhD7j003156 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK); Tue, 19 Apr 2011 10:43:13 -0500 (CDT)
+Received: from umail.lucent.com (umail-ce2.ndc.lucent.com [135.3.40.63]) by usnavsmail3.ndc.alcatel-lucent.com (8.14.3/8.14.3/GMO) with ESMTP id p3JFhD27005422 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT); Tue, 19 Apr 2011 10:43:13 -0500
+Received: from shoonya.ih.lucent.com (shoonya.ih.lucent.com [135.185.238.233]) by umail.lucent.com (8.13.8/TPES) with ESMTP id p3JFhDFD024197; Tue, 19 Apr 2011 10:43:13 -0500 (CDT)
+Message-ID: <4DADAE0F.7090404@bell-labs.com>
+Date: Tue, 19 Apr 2011 10:45:19 -0500
+From: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Organization: Bell Laboratories, Alcatel-Lucent
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.15) Gecko/20110307 Fedora/3.1.9-0.39.b3pre.fc14 Thunderbird/3.1.9
+MIME-Version: 1.0
+To: =?UTF-8?B?ScOxYWtpIEJheiBDYXN0aWxsbw==?= <ibc@aliax.net>
+References: <BANLkTi=mob149EFPTffkCUa+j-2dd=9k7A@mail.gmail.com>	<4DADA292.6060906@bell-labs.com> <BANLkTindAUS=ArC0C12Xd8UzYUrFEJpoGw@mail.gmail.com>
+In-Reply-To: <BANLkTindAUS=ArC0C12Xd8UzYUrFEJpoGw@mail.gmail.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.35
+X-Scanned-By: MIMEDefang 2.64 on 135.3.39.11
+Cc: sip@ietf.org
+Subject: Re: [Sip] RFC 3261 - 16.10 (CANCEL processing in a Proxy)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Apr 2011 15:43:17 -0000
+
+On 04/19/2011 10:23 AM, Iñaki Baz Castillo wrote:
+> Thanks Vijay. What you say makes lot of sense, however handling a
+> CANCEL after crashing is not the only problem in a proxy:
+>
+> Your text assumes that the proxy doesn't store the transaction
+> state/data in a permanent backend so it can not recover it after
+> rebooting (sure this is true in 99% of the existing implementations).
+> So imagine that, after rebooting in the middle of a INVITE transaction
+> in proceeding state, the UAS sends a final response to the UAC:
+>
+> According to RFC 6026 (which updates RFC 3261):
+>
+>        When a response is received by an element, it first tries to
+>        locate a client transaction (Section 17.1.3) matching the
+>        response.  If a transaction is found, the response is handed to
+>        the client transaction.  If none is found, the element MUST NOT
+>        forward the response.
+>
+> So the response wouldn't arrive to the UAC (which would also produce
+> several issues, similar as if the CANCEL sent by the UAC is not
+> forwarded to the UAS).
+
+Ah, this is interesting.  More inline.
+
+> This is, originally RFC 3261 seems to handle the case in which a proxy
+> is rebooted (CANCEL forwarded stateless, responses statelessly
+> forwarded based on second Via...) but then RFC 6026 arrives an changes
+> it (basically to avoid DoS attacks, the same attack that can occur if
+> a proxy routes statelessly CANCEL's not matching a transaction). So it
+> seems it is not very clear which philosophy to follow, do you agree?
+> :)
+
+Since rfc6026 updates rfc3261, I would presume that rfc6026 takes
+precedence insofar as sending a response statelessly is concerned.
+
+However, I don't think that rfc6026 says much about whether or not
+to generate a 481 to a CANCEL if the CANCEL does not match a pending
+transaction.  So go crazy and generate it at a stateful proxy;
+from the viewpoint of the UAC, it did receive a final response
+for the CANCEL.  It may well never receive a final response
+for the INVITE if the proxy
+   implements rfc6026
+     AND the proxy crashed after sending the INVITE
+       AND the proxy did not store transaction state in persistent store
+         AND the proxy was promptly brought up and was presented with a
+         200 OK (INVITE) that did not match pending transactions
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{bell-labs.com,acm.org} / vijay.gurbani@alcatel-lucent.com
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From ibc@aliax.net  Tue Apr 19 08:48:21 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfc.amsl.com
+Delivered-To: sip@ietfc.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfc.amsl.com (Postfix) with ESMTP id F12D3E075F for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 08:48:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.405
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.405 tagged_above=-999 required=5 tests=[AWL=0.272,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([208.66.40.236]) by localhost (ietfc.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kuADi4P1aV65 for <sip@ietfc.amsl.com>; Tue, 19 Apr 2011 08:48:21 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfc.amsl.com (Postfix) with ESMTP id BE728E078A for <sip@ietf.org>; Tue, 19 Apr 2011 08:48:06 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so4016518qwc.31 for <sip@ietf.org>; Tue, 19 Apr 2011 08:48:06 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.224.201.133 with SMTP id fa5mr3701240qab.126.1303228086137; Tue, 19 Apr 2011 08:48:06 -0700 (PDT)
+Received: by 10.229.75.7 with HTTP; Tue, 19 Apr 2011 08:48:06 -0700 (PDT)
+In-Reply-To: <4DADAE0F.7090404@bell-labs.com>
+References: <BANLkTi=mob149EFPTffkCUa+j-2dd=9k7A@mail.gmail.com> <4DADA292.6060906@bell-labs.com> <BANLkTindAUS=ArC0C12Xd8UzYUrFEJpoGw@mail.gmail.com> <4DADAE0F.7090404@bell-labs.com>
+Date: Tue, 19 Apr 2011 17:48:06 +0200
+Message-ID: <BANLkTi=9tQMaWEmSFc6e096mhZ4MaP1H4Q@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] RFC 3261 - 16.10 (CANCEL processing in a Proxy)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Apr 2011 15:48:22 -0000
+
+2011/4/19 Vijay K. Gurbani <vkg@bell-labs.com>:
+> However, I don't think that rfc6026 says much about whether or not
+> to generate a 481 to a CANCEL if the CANCEL does not match a pending
+> transaction.
+
+Right, it says nothing about CANCEL.
+
+
+
+> =C2=A0So go crazy and generate it at a stateful proxy;
+> from the viewpoint of the UAC, it did receive a final response
+> for the CANCEL. =C2=A0It may well never receive a final response
+> for the INVITE if the proxy
+> =C2=A0implements rfc6026
+> =C2=A0 =C2=A0AND the proxy crashed after sending the INVITE
+> =C2=A0 =C2=A0 =C2=A0AND the proxy did not store transaction state in pers=
+istent store
+> =C2=A0 =C2=A0 =C2=A0 =C2=A0AND the proxy was promptly brought up and was =
+presented with a
+> =C2=A0 =C2=A0 =C2=A0 =C2=A0200 OK (INVITE) that did not match pending tra=
+nsactions
+
+AND since the UAC would never receive the 200 it would not send the
+ACK, so the UAS would terminate the dialog (sending a BYE) after ~32
+seconds, which is "acceptable" (in the context of a crashing proxy).
+:)
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>

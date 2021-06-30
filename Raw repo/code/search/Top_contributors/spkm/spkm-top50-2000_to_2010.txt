@@ -1,0 +1,19 @@
+2000 TO 2010
+-------#####------->    spkm
+Nicolas.Williams@sun.com 22
+jhutz@cmu.edu 13
+lzhu@windows.microsoft.com 11
+martin.rex@sap.com 10
+hartmans-ietf@mit.edu 8
+aglo@citi.umich.edu 7
+Martin.Rex@sap.com 5
+email2mre-ietf@yahoo.com 3
+andros@citi.umich.edu 2
+mailman-owner@ietf.org 2
+Razvan.Trufasiu@hummingbird.com 1
+caozhenpku@gmail.com 1
+ekr@networkresonance.com 1
+hartmans@mit.edu 1
+lha@kth.se 1
+sklyushi@opentext.com 1
+srahul@novell.com 1

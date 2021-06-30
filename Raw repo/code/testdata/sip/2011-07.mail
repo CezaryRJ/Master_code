@@ -1,0 +1,1306 @@
+
+From salil.verma@nsn.com  Fri Jul  1 00:24:58 2011
+Return-Path: <salil.verma@nsn.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E4D3121F87A9 for <sip@ietfa.amsl.com>; Fri,  1 Jul 2011 00:24:58 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.999 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, J_CHICKENPOX_13=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id EddWsTI0vqYK for <sip@ietfa.amsl.com>; Fri,  1 Jul 2011 00:24:58 -0700 (PDT)
+Received: from demumfd002.nsn-inter.net (demumfd002.nsn-inter.net [93.183.12.31]) by ietfa.amsl.com (Postfix) with ESMTP id 03D5121F87A5 for <sip@ietf.org>; Fri,  1 Jul 2011 00:24:57 -0700 (PDT)
+Received: from demuprx017.emea.nsn-intra.net ([10.150.129.56]) by demumfd002.nsn-inter.net (8.12.11.20060308/8.12.11) with ESMTP id p617OuhC031634 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK) for <sip@ietf.org>; Fri, 1 Jul 2011 09:24:56 +0200
+Received: from demuexc022.nsn-intra.net (demuexc022.nsn-intra.net [10.150.128.35]) by demuprx017.emea.nsn-intra.net (8.12.11.20060308/8.12.11) with ESMTP id p617OtF6008655 for <sip@ietf.org>; Fri, 1 Jul 2011 09:24:56 +0200
+Received: from SGSIEXC007.nsn-intra.net ([10.159.224.87]) by demuexc022.nsn-intra.net with Microsoft SMTPSVC(6.0.3790.4675);  Fri, 1 Jul 2011 09:24:52 +0200
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 1 Jul 2011 15:24:48 +0800
+Message-ID: <58F8E91237A10F4AA40BEBCF0A766617B6E49B@SGSIEXC007.nsn-intra.net>
+In-Reply-To: <mailman.137.1309460409.1582.sip@ietf.org>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Sip Digest, Vol 82, Issue 6
+Thread-Index: Acw3WGO4BcHs2W8nS2uJsAH9iiYEJQAZ0bcg
+References: <mailman.137.1309460409.1582.sip@ietf.org>
+From: "Verma, Salil (NSN - IN/Gurgaon)" <salil.verma@nsn.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 01 Jul 2011 07:24:52.0676 (UTC) FILETIME=[F80CA040:01CC37BF]
+Subject: Re: [Sip] Sip Digest, Vol 82, Issue 6
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Jul 2011 07:24:59 -0000
+
+I want to start a new thread of query . What the procedure of that ?
+
+My Query to SIP experts :- During a sip call I noticed in SIP msg I
+found a error code "Reason:X.int
+;reasoncode=3D0x0000070E;add-info=3D05CC.0004.0006"=20
+
+How to decode this msg , any supporting doc will be helpful .
+
+
+Thanks,=20
+Best Regards=20
+sAlil veRmA=20
+Tech . Supp. Grp ( Care Team )
+NCS : sip:  salil.verma@nsn.com
++91 9958298813=20
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+ext sip-request@ietf.org
+Sent: Friday, July 01, 2011 12:30 AM
+To: sip@ietf.org
+Subject: Sip Digest, Vol 82, Issue 6
+
+If you have received this digest without all the individual message
+attachments you will need to update your digest options in your list
+subscription.  To do so, go to=20
+
+https://www.ietf.org/mailman/listinfo/sip
+
+Click the 'Unsubscribe or edit options' button, log in, and set "Get
+MIME or Plain Text Digests?" to MIME.  You can set this option
+globally for all the list digests you receive at this point.
+
+
+
+Send Sip mailing list submissions to
+	sip@ietf.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://www.ietf.org/mailman/listinfo/sip
+or, via email, send a message with subject or body 'help' to
+	sip-request@ietf.org
+
+You can reach the person managing the list at
+	sip-owner@ietf.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of Sip digest..."
+
+
+Today's Topics:
+
+   1. Re: 302 Redirect on REGISTER (Orrin Doyle)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 29 Jun 2011 09:08:16 -0700
+From: Orrin Doyle <orrin@yeagerworks.com>
+To: I?aki Baz Castillo <ibc@aliax.net>
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] 302 Redirect on REGISTER
+Message-ID: <6FFE1500-B54A-4F0F-B688-B4FC44189C22@yeagerworks.com>
+Content-Type: text/plain;	charset=3Dutf-8
+
+In fact, I contacted them about this functionality and they apparently
+don't currently support redirect responses for register messages in any
+current code rev, though it is planned as part of a future release.
+
+Sent from my iPhone
+
+On Jun 29, 2011, at 1:13 AM, I?aki Baz Castillo <ibc@aliax.net> wrote:
+
+> 2011/6/28 Orrin Doyle <orrin@yeagerworks.com>:
+>> The Polycom 601 I have running 2.1 app didn't support this...
+>=20
+> Thanks for sharing it. Bye.
+>=20
+> --=20
+> I?aki Baz Castillo
+> <ibc@aliax.net>
+
+
+------------------------------
+
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+End of Sip Digest, Vol 82, Issue 6
+**********************************
+
+From ibc@aliax.net  Fri Jul  1 02:00:42 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id AA1CA21F867F for <sip@ietfa.amsl.com>; Fri,  1 Jul 2011 02:00:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.677
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.677 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 2VVf+eJikAre for <sip@ietfa.amsl.com>; Fri,  1 Jul 2011 02:00:42 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 00EF121F8688 for <sip@ietf.org>; Fri,  1 Jul 2011 02:00:41 -0700 (PDT)
+Received: by qyk9 with SMTP id 9so651994qyk.10 for <sip@ietf.org>; Fri, 01 Jul 2011 02:00:41 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.23.69 with SMTP id q5mr2277626qcb.249.1309510841233; Fri, 01 Jul 2011 02:00:41 -0700 (PDT)
+Received: by 10.229.240.15 with HTTP; Fri, 1 Jul 2011 02:00:41 -0700 (PDT)
+In-Reply-To: <58F8E91237A10F4AA40BEBCF0A766617B6E49B@SGSIEXC007.nsn-intra.net>
+References: <mailman.137.1309460409.1582.sip@ietf.org> <58F8E91237A10F4AA40BEBCF0A766617B6E49B@SGSIEXC007.nsn-intra.net>
+Date: Fri, 1 Jul 2011 11:00:41 +0200
+Message-ID: <CALiegf=vfC6JU55aaoe6GQYhw_EXdcRJqc7qjgVj228jF4WBYQ@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Verma, Salil (NSN - IN/Gurgaon)" <salil.verma@nsn.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] Sip Digest, Vol 82, Issue 6
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Jul 2011 09:00:42 -0000
+
+2011/7/1 Verma, Salil (NSN - IN/Gurgaon) <salil.verma@nsn.com>:
+> I want to start a new thread of query . What the procedure of that ?
+>
+> My Query to SIP experts :- During a sip call I noticed in SIP msg I
+> found a error code "Reason:X.int
+> ;reasoncode=3D0x0000070E;add-info=3D05CC.0004.0006"
+>
+> How to decode this msg , any supporting doc will be helpful .
+
+Hi Salil, please use sip-implementors maillist for this kind of
+questions. This mailist is intended for discussing the SIP protocol
+specifications rather than implementation issues.
+
+BTW, your Reason header seems to have a custom value (vendor dependant
+for sure) as the Reason header is specified in RFC 3326 and its syntax
+has nothing to do with your above header:
+
+  http://tools.ietf.org/html/rfc3326#section-2
+
+      Reason: SIP ;cause=3D200 ;text=3D"Call completed elsewhere"
+      Reason: Q.850 ;cause=3D16 ;text=3D"Terminated"
+      Reason: SIP ;cause=3D600 ;text=3D"Busy Everywhere"
+      Reason: SIP ;cause=3D580 ;text=3D"Precondition Failure"
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Fri Jul  8 09:53:06 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 2580B21F8B18 for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 09:53:06 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.677
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.677 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 4yMN82FmRyf6 for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 09:53:05 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id 9345E21F8B82 for <sip@ietf.org>; Fri,  8 Jul 2011 09:53:05 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so1627553qwc.31 for <sip@ietf.org>; Fri, 08 Jul 2011 09:53:05 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.224.75 with SMTP id in11mr1695902qcb.211.1310143984919; Fri, 08 Jul 2011 09:53:04 -0700 (PDT)
+Received: by 10.229.240.15 with HTTP; Fri, 8 Jul 2011 09:53:04 -0700 (PDT)
+Date: Fri, 8 Jul 2011 18:53:04 +0200
+Message-ID: <CALiegfnXjsvQp7tacA6D+MVbo0bL5e07U6H92cQ5_JqQqvi-4Q@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: [Sip] draft-jennings-sip-dtls: shouldn't it define ; transport=dccp ?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Jul 2011 16:53:06 -0000
+
+Hi, draft-jennings-sip-dtls defines:
+
+- SIP over DTLS over UDP   =3D> Via transport: "DTLS-UDP"
+- SIP over DTLS over DCCP =3D> Via transport: "DTLS-DCCP"
+- SIP over DCCP                 =3D> Via transport: "DCCP"
+
+The draft just defines new BNF grammar for Via transport field, but
+says nothing about SIP URI ;transport param.
+IMHO the draft MUST define a new value "dccp" for ;transport param.
+
+Regards,
+
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From keith.drage@alcatel-lucent.com  Fri Jul  8 12:10:52 2011
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 2F41721F8C63 for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 12:10:52 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -106.099
+X-Spam-Level: 
+X-Spam-Status: No, score=-106.099 tagged_above=-999 required=5 tests=[AWL=-0.150, BAYES_00=-2.599, HELO_EQ_FR=0.35, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oKdrroqbBESN for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 12:10:51 -0700 (PDT)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by ietfa.amsl.com (Postfix) with ESMTP id EB84721F86DA for <sip@ietf.org>; Fri,  8 Jul 2011 12:10:50 -0700 (PDT)
+Received: from FRMRSSXCHHUB03.dc-m.alcatel-lucent.com (FRMRSSXCHHUB03.dc-m.alcatel-lucent.com [135.120.45.63]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id p68IwdWv004612 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Fri, 8 Jul 2011 21:10:49 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.47]) by FRMRSSXCHHUB03.dc-m.alcatel-lucent.com ([135.120.45.63]) with mapi; Fri, 8 Jul 2011 21:10:21 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>, "sip@ietf.org" <sip@ietf.org>
+Date: Fri, 8 Jul 2011 21:10:19 +0200
+Thread-Topic: [Sip] draft-jennings-sip-dtls: shouldn't it define ; transport=dccp ?
+Thread-Index: Acw9j4gZG+XB6wsdQXOPSKNUGpYEHAAEruAg
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE21FC2D9B3@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfnXjsvQp7tacA6D+MVbo0bL5e07U6H92cQ5_JqQqvi-4Q@mail.gmail.com>
+In-Reply-To: <CALiegfnXjsvQp7tacA6D+MVbo0bL5e07U6H92cQ5_JqQqvi-4Q@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.64 on 155.132.188.80
+Subject: Re: [Sip] draft-jennings-sip-dtls: shouldn't it define ; transport=dccp ?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Jul 2011 19:10:52 -0000
+
+Given that as far as I can see, the last version of this document expired i=
+n 2008, I think you must regard any contents as historical.
+
+It was never picked up by the SIP WG.
+
+Regards
+
+Keith
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> I=F1aki Baz Castillo
+> Sent: 08 July 2011 17:53
+> To: sip@ietf.org
+> Subject: [Sip] draft-jennings-sip-dtls: shouldn't it define ;
+> transport=3Ddccp ?
+>=20
+> Hi, draft-jennings-sip-dtls defines:
+>=20
+> - SIP over DTLS over UDP   =3D> Via transport: "DTLS-UDP"
+> - SIP over DTLS over DCCP =3D> Via transport: "DTLS-DCCP"
+> - SIP over DCCP                 =3D> Via transport: "DCCP"
+>=20
+> The draft just defines new BNF grammar for Via transport field, but
+> says nothing about SIP URI ;transport param.
+> IMHO the draft MUST define a new value "dccp" for ;transport param.
+>=20
+> Regards,
+>=20
+>=20
+>=20
+> --
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+
+From ibc@aliax.net  Fri Jul  8 12:52:44 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3CB9221F84E8 for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 12:52:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.677
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.677 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id q6rFjhCC4qbz for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 12:52:43 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id A979D21F8534 for <sip@ietf.org>; Fri,  8 Jul 2011 12:52:29 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so1724234qwc.31 for <sip@ietf.org>; Fri, 08 Jul 2011 12:52:29 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.137.149 with SMTP id w21mr1921281qct.59.1310154749057; Fri, 08 Jul 2011 12:52:29 -0700 (PDT)
+Received: by 10.229.240.15 with HTTP; Fri, 8 Jul 2011 12:52:29 -0700 (PDT)
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE21FC2D9B3@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfnXjsvQp7tacA6D+MVbo0bL5e07U6H92cQ5_JqQqvi-4Q@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE21FC2D9B3@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Date: Fri, 8 Jul 2011 21:52:29 +0200
+Message-ID: <CALiegf=YZ7OyP4-S=1oJyg-MJVGH8ZAxJW7Ct=jKWnfX3-6n1w@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] draft-jennings-sip-dtls: shouldn't it define ; transport=dccp ?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Jul 2011 19:52:44 -0000
+
+2011/7/8 DRAGE, Keith (Keith) <keith.drage@alcatel-lucent.com>:
+> Given that as far as I can see, the last version of this document expired=
+ in 2008, I think you must regard any contents as historical.
+>
+> It was never picked up by the SIP WG.
+
+Good point, I didn't realize of that. So, is there a draft or RFC
+defining SIP over DTLS-UDP?
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From keith.drage@alcatel-lucent.com  Fri Jul  8 13:36:02 2011
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4225721F8B5D for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 13:36:02 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -106.049
+X-Spam-Level: 
+X-Spam-Status: No, score=-106.049 tagged_above=-999 required=5 tests=[AWL=-0.100, BAYES_00=-2.599, HELO_EQ_FR=0.35, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wI8b1PCNRFxR for <sip@ietfa.amsl.com>; Fri,  8 Jul 2011 13:36:01 -0700 (PDT)
+Received: from smail3.alcatel.fr (smail3.alcatel.fr [64.208.49.56]) by ietfa.amsl.com (Postfix) with ESMTP id 792FE21F8B45 for <sip@ietf.org>; Fri,  8 Jul 2011 13:36:00 -0700 (PDT)
+Received: from FRMRSSXCHHUB01.dc-m.alcatel-lucent.com (FRMRSSXCHHUB01.dc-m.alcatel-lucent.com [135.120.45.61]) by smail3.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id p68KVKDt000839 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Fri, 8 Jul 2011 22:35:57 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.47]) by FRMRSSXCHHUB01.dc-m.alcatel-lucent.com ([135.120.45.61]) with mapi; Fri, 8 Jul 2011 22:32:33 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+Date: Fri, 8 Jul 2011 22:32:31 +0200
+Thread-Topic: [Sip] draft-jennings-sip-dtls: shouldn't it define ; transport=dccp ?
+Thread-Index: Acw9qJKe1hUtrL0WQcq+WkQUzfolhwABOuew
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE21FC2D9B8@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfnXjsvQp7tacA6D+MVbo0bL5e07U6H92cQ5_JqQqvi-4Q@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE21FC2D9B3@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com> <CALiegf=YZ7OyP4-S=1oJyg-MJVGH8ZAxJW7Ct=jKWnfX3-6n1w@mail.gmail.com>
+In-Reply-To: <CALiegf=YZ7OyP4-S=1oJyg-MJVGH8ZAxJW7Ct=jKWnfX3-6n1w@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.64 on 155.132.188.83
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] draft-jennings-sip-dtls: shouldn't it define ; transport=dccp ?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Jul 2011 20:36:02 -0000
+
+The only SIP document was RFC 5763. That doesn't define it, and doesn't app=
+arently need it.
+
+Keith
+
+> -----Original Message-----
+> From: I=F1aki Baz Castillo [mailto:ibc@aliax.net]
+> Sent: 08 July 2011 20:52
+> To: DRAGE, Keith (Keith)
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] draft-jennings-sip-dtls: shouldn't it define ;
+> transport=3Ddccp ?
+>=20
+> 2011/7/8 DRAGE, Keith (Keith) <keith.drage@alcatel-lucent.com>:
+> > Given that as far as I can see, the last version of this document
+> expired in 2008, I think you must regard any contents as historical.
+> >
+> > It was never picked up by the SIP WG.
+>=20
+> Good point, I didn't realize of that. So, is there a draft or RFC
+> defining SIP over DTLS-UDP?
+>=20
+> --
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+
+From Fred_Stacey@Mitel.com  Sat Jul  9 12:12:11 2011
+Return-Path: <Fred_Stacey@Mitel.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 146F321F85B8 for <sip@ietfa.amsl.com>; Sat,  9 Jul 2011 12:12:11 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.092
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.092 tagged_above=-999 required=5 tests=[AWL=0.093,  BAYES_40=-0.185]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 0vlfxRZ5pNHh for <sip@ietfa.amsl.com>; Sat,  9 Jul 2011 12:12:10 -0700 (PDT)
+Received: from smtp.mitel.com (smtp.mitel.com [216.191.234.102]) by ietfa.amsl.com (Postfix) with ESMTP id 631C521F8591 for <sip@ietf.org>; Sat,  9 Jul 2011 12:12:10 -0700 (PDT)
+Received: from localhost (smtp.mitel.com [127.0.0.1]) by smtp.mitel.com (Postfix) with ESMTP id C58E42C013 for <sip@ietf.org>; Sat,  9 Jul 2011 15:12:09 -0400 (EDT)
+X-Virus-Scanned: by amavisd-new (virusonly) at mitel.com
+Received: from smtp.mitel.com ([127.0.0.1]) by localhost (smtp.mitel.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id sRoq0aqC+NRv for <sip@ietf.org>; Sat,  9 Jul 2011 15:12:09 -0400 (EDT)
+Received: from ottlnmta.mitel.com (ottlnmta.mitel.com [10.44.16.150]) by smtp.mitel.com (Postfix) with ESMTP id A4CF72C00D for <sip@ietf.org>; Sat,  9 Jul 2011 15:12:09 -0400 (EDT)
+From: Fred_Stacey@Mitel.com
+To: sip@ietf.org
+Message-ID: <OF675BA553.23E69DC6-ON852578C8.00697B3D-852578C8.00697B3D@ottlnmta.mitel.com>
+Date: Sat, 9 Jul 2011 15:12:08 -0400
+X-MIMETrack: Serialize by Router on OTTLNMTA/Mitel(Release 6.5.6FP3|March 27, 2008) at 07/09/2011 03:12:09 PM
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Subject: [Sip] Fred Stacey is out of the office.
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 09 Jul 2011 19:12:11 -0000
+
+I will be out of the office starting  07/01/2011 and will not return until
+07/11/2011.
+
+I will be out of the office  From July 1 to July 10 inclusive.
+If your inquiry is regarding Mitel AnyWare, please direct to
+mitel_anyware_sales@mitel.com.
+If your inquiry is regarding MICD or the Mitel Service Provider Program,
+please direct to Andrew Moses (andrew_moses@mitel.com)
+
+
+From shivalk_80@yahoo.co.in  Wed Jul 13 08:29:48 2011
+Return-Path: <shivalk_80@yahoo.co.in>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id DB14321F888A for <sip@ietfa.amsl.com>; Wed, 13 Jul 2011 08:29:48 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.002
+X-Spam-Level: 
+X-Spam-Status: No, score=0.002 tagged_above=-999 required=5 tests=[BAYES_50=0.001, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id QuBP-Qhu+Tva for <sip@ietfa.amsl.com>; Wed, 13 Jul 2011 08:29:45 -0700 (PDT)
+Received: from nm2.bullet.mail.in.yahoo.com (nm2.bullet.mail.in.yahoo.com [121.101.151.224]) by ietfa.amsl.com (Postfix) with SMTP id 4741F21F8888 for <sip@ietf.org>; Wed, 13 Jul 2011 08:29:44 -0700 (PDT)
+Received: from [121.101.151.238] by nm2.bullet.mail.in.yahoo.com with NNFMP; 13 Jul 2011 15:29:52 -0000
+Received: from [121.101.151.235] by tm3.bullet.mail.in.yahoo.com with NNFMP; 13 Jul 2011 15:30:21 -0000
+Received: from [127.0.0.1] by omp1004.mail.in.yahoo.com with NNFMP; 13 Jul 2011 15:29:40 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 455222.56980.bm@omp1004.mail.in.yahoo.com
+Received: (qmail 65020 invoked by uid 60001); 13 Jul 2011 15:29:40 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.co.in; s=s1024; t=1310570980; bh=V3AleTZuNihh4VUmRk/2TXsRHI+Nb0H6ojJuFgMfHJM=; h=X-YMail-OSG:Received:X-Mailer:Message-ID:Date:From:Subject:To:MIME-Version:Content-Type; b=pIHBSrBEKHEmShB2ArcGNVddwdBeOFrBmMlrH/qe8EJkzOEw6ne0rWYB1LI7q63UbU0mVyEQoLWG8kqCaJoob5jZ1h2XzI6pekSCw7wbBCY4A41vbqCYABE1z+cY0LUBOBksH8RwzdLbOvVBQxwDjNVD9jvjNex/D6AuPk+7eh8=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.co.in; h=X-YMail-OSG:Received:X-Mailer:Message-ID:Date:From:Subject:To:MIME-Version:Content-Type; b=QsSo9zlNuHM/10pBYbjMqrYyMrO3UHfrP1D1pbg5tFM551W/vKCeryrSJC2gotOeVZP1/SlelrXjx4fJ7Z5/tmXBv66UbalBafentCX6uJfha+vLqWtm7E8D32Fk9r6uQ2zbzran6pwbysGmCWy0nyhfRK2gXUeq1Q5QQCUAdv4=;
+X-YMail-OSG: .1CcdOUVM1mljheJ.ZaHjOMyDaJC7MJFP4yksetfIxBgODI mbKXw16pBwMbTR3cE.jPPDynQX5kIJuPUS4TxarsvSILC73lWbDcVj5DPks9 RJAs_4i3VAJBPQ6G_8VjAYfOPqeiRC4FBSiQGIZHYi9K4y4bULjq6HUvAkYK 6d2veBPrB9_786j4jJbTtTWKrcXEm8SDpZDayS06OBCkiXcvmHTkD_TsNPBD nvrIYRnCkQQksV00dXqHm7b.sKmqCTAFzyyi.6b.JUu.Mj4aFE.TyXklDl_D emoMysbZ0hY0QdzFoYv1WKyOHlHnM77aLmrOHlo8TJvmnAMKGJVFQJNu39iD J5.anNj7iUcrtvWCSZ1ZXulFAwDaf
+Received: from [59.161.81.204] by web94802.mail.in2.yahoo.com via HTTP; Wed, 13 Jul 2011 20:59:40 IST
+X-Mailer: YahooMailClassic/14.0.3 YahooMailWebService/0.8.112.307740
+Message-ID: <1310570980.43882.YahooMailClassic@web94802.mail.in2.yahoo.com>
+Date: Wed, 13 Jul 2011 20:59:40 +0530 (IST)
+From: atul garg <shivalk_80@yahoo.co.in>
+To: sip@ietf.org
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-644347746-1310570980=:43882"
+Subject: [Sip] Codec Negotiation and renegotiataion
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 13 Jul 2011 15:29:49 -0000
+
+--0-644347746-1310570980=:43882
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello All,
+=A0
+I have very basic question regarding the codec negotiation in SIP, I will t=
+ry to summarize my queries below -
+=A0
+1) If A=A0is initiating the call and sending the supported codec list say (=
+1,2,3)
+=A0=A0=A0=A0=20
+=A0=A0=A0 A -->=A0 INVITE (SDP-> audio 1 2 3) --> B=A0=A0=A0=A0=A0 ( B supp=
+orts 1 , 3, 5)
+=A0=A0=A0 A <--=A0 200 OK ( SDP -> what will be here 1, 2 ,3 OR 1, 3, 5)=A0=
+ <-- B
+=A0
+=A0=A0 if it is 1, 3, 5 then what will be the response to B ??
+=A0
+2)=A0 If A=A0is initiating the call and sending the supported codec list sa=
+y (1,2,3)
+=A0=A0=A0=A0=20
+=A0=A0=A0 A -->=A0 INVITE (SDP-> audio 1 2 3) --> B=A0=A0=A0=A0=A0 ( B supp=
+orts=A0 2 , 3, 5)
+=A0=A0=A0 A <--=A0 200 OK ( SDP -> what will be here=A02 , 3 OR=A0 2 , 3, 5=
+)=A0 <-- B
+=A0
+=A0=A0 if it is=A02 , 3 =A0then what will be the response to B ??
+=A0=A0 if it is=A02 , 3, 5=A0=A0then what will be the response to B ??
+=A0
+3)=A0 If A=A0is initiating the call and sending the supported codec list sa=
+y (1,2,3)
+=A0=A0=A0=A0=20
+=A0=A0=A0 A -->=A0 INVITE (SDP-> audio 1 2 3) --> B=A0=A0=A0=A0=A0 ( B supp=
+orts=A0 4, 5,6)
+=A0=A0=A0 A <--=A0 200 OK ( SDP -> what will be here=A0??)=A0 <-- B
+=A0 and what will be the d behaviour of A ....
+=A0=A0=20
+4) Re-Negotiation -
+=A0
+=A0=A0 If A=A0is initiating the call and sending the supported codec list s=
+ay (1,2,3)
+=A0=A0=A0=A0=20
+=A0=A0=A0 A -->=A0 INVITE (SDP-> audio 1 2 3) --> B=A0=A0=A0=A0=A0 ( B supp=
+orts 1 , 2, 3)
+=A0=A0=A0 A <--=A0 200 OK ( SDP audio1, 2 ,3=A0=A0 <-- B
+=A0=A0=A0 A --> ACK --> B
+=A0
+( I guess the rtp will use codec 1)
+=A0
+=A0 Now during the call say A wants to change the codec to 2, will it send =
+the re-invite or SDP session has some provision for it( I just want to conf=
+irm, is it possible to change the codec without sending any SIP message)
+=A0
+PS: I know i have made a lengthy mail, but=A0=A0it is very much required fo=
+r me to understand some network behaviour and implementation.
+=A0
+Regards
+Atul
+--0-644347746-1310570980=:43882
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;"><DIV>Hello All,</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>I have very basic question regarding the codec negotiation in SIP, I w=
+ill try to summarize my queries below -</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>1) If A&nbsp;is initiating the call and sending the supported codec li=
+st say (1,2,3)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3) --&gt;=
+ B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports 1 , 3, 5)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP -&gt; what will be here=
+ 1, 2 ,3 OR 1, 3, 5)&nbsp; &lt;-- B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; if it is 1, 3, 5 then what will be the response to B ??</=
+DIV>
+<DIV>&nbsp;</DIV>
+<DIV>2)&nbsp; If A&nbsp;is initiating the call and sending the supported co=
+dec list say (1,2,3)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3) --&gt;=
+ B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports&nbsp; 2 , 3, 5)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP -&gt; what will be here=
+&nbsp;2 , 3 OR&nbsp; 2 , 3, 5)&nbsp; &lt;-- B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; if it is&nbsp;2 , 3 &nbsp;then what will be the response =
+to B ??</DIV>
+<DIV>&nbsp;&nbsp; if it is&nbsp;2 , 3, 5&nbsp;&nbsp;then what will be the r=
+esponse to B ??</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>3)&nbsp; If A&nbsp;is initiating the call and sending the supported co=
+dec list say (1,2,3)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3) --&gt;=
+ B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports&nbsp; 4, 5,6)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP -&gt; what will be here=
+&nbsp;??)&nbsp; &lt;-- B</DIV>
+<DIV>&nbsp; and what will be the d behaviour of A ....</DIV>
+<DIV>&nbsp;&nbsp; </DIV>
+<DIV>4) Re-Negotiation -</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; If A&nbsp;is initiating the call and sending the supporte=
+d codec list say (1,2,3)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3) --&gt;=
+ B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports 1 , 2, 3)</DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP audio1, 2 ,3&nbsp;&nbsp=
+; &lt;-- B</DIV>
+<DIV>&nbsp;&nbsp;&nbsp; A --&gt; ACK --&gt; B</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>( I guess the rtp will use codec 1)</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp; Now during the call say A wants to change the codec to 2, will =
+it send the re-invite or SDP session has some provision for it( I just want=
+ to confirm, is it possible to change the codec without sending any SIP mes=
+sage)</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>PS: I know i have made a lengthy mail, but&nbsp;&nbsp;it is very much =
+required for me to understand some network behaviour and implementation.</D=
+IV>
+<DIV>&nbsp;</DIV>
+<DIV>Regards</DIV>
+<DIV>Atul</DIV></td></tr></table>
+--0-644347746-1310570980=:43882--
+
+From siddiqui.noman@siemens-enterprise.com  Wed Jul 13 08:56:52 2011
+Return-Path: <siddiqui.noman@siemens-enterprise.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7C4AD21F8610 for <sip@ietfa.amsl.com>; Wed, 13 Jul 2011 08:56:52 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Z-Gyg33bcaca for <sip@ietfa.amsl.com>; Wed, 13 Jul 2011 08:56:51 -0700 (PDT)
+Received: from mail21.messagelabs.com (mail21.messagelabs.com [85.158.143.35]) by ietfa.amsl.com (Postfix) with SMTP id B953521F85EA for <sip@ietf.org>; Wed, 13 Jul 2011 08:56:50 -0700 (PDT)
+X-VirusChecked: Checked
+X-Env-Sender: siddiqui.noman@siemens-enterprise.com
+X-Msg-Ref: server-11.tower-21.messagelabs.com!1310572598!44157112!1
+X-StarScan-Version: 6.2.17; banners=-,-,-
+X-Originating-IP: [62.134.46.9]
+Received: (qmail 23390 invoked from network); 13 Jul 2011 15:56:38 -0000
+Received: from unknown (HELO senmx11-mx) (62.134.46.9) by server-11.tower-21.messagelabs.com with SMTP; 13 Jul 2011 15:56:38 -0000
+Received: from MCHP063A.global-ad.net (unknown [172.29.37.61]) by senmx11-mx (Server) with ESMTP id 1F25D1EB83EE; Wed, 13 Jul 2011 17:56:49 +0200 (CEST)
+Received: from MCHP057A.global-ad.net ([172.29.37.27]) by MCHP063A.global-ad.net ([172.29.37.61]) with mapi; Wed, 13 Jul 2011 17:56:48 +0200
+From: "Siddiqui, Noman" <siddiqui.noman@siemens-enterprise.com>
+To: atul garg <shivalk_80@yahoo.co.in>, "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 13 Jul 2011 17:54:28 +0200
+Thread-Topic: [Sip] Codec Negotiation and renegotiataion
+Thread-Index: AcxBccHNx6zX27wcRiufwom2MJuGiAAAsvvA
+Message-ID: <7B5D2E520D838A45838DE68F4030DC2D0444DB1983@MCHP057A.global-ad.net>
+References: <1310570980.43882.YahooMailClassic@web94802.mail.in2.yahoo.com>
+In-Reply-To: <1310570980.43882.YahooMailClassic@web94802.mail.in2.yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative; boundary="_000_7B5D2E520D838A45838DE68F4030DC2D0444DB1983MCHP057Agloba_"
+MIME-Version: 1.0
+Subject: Re: [Sip] Codec Negotiation and renegotiataion
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 13 Jul 2011 15:56:52 -0000
+
+--_000_7B5D2E520D838A45838DE68F4030DC2D0444DB1983MCHP057Agloba_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Atul,
+
+Please see inline.
+
+Kind Regards,
+Noman Siddiqui
+
+________________________________
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of atul =
+garg
+Sent: Wednesday, July 13, 2011 11:30 AM
+To: sip@ietf.org
+Subject: [Sip] Codec Negotiation and renegotiataion
+
+Hello All,
+
+I have very basic question regarding the codec negotiation in SIP, I will t=
+ry to summarize my queries below -
+
+1) If A is initiating the call and sending the supported codec list say (1,=
+2,3)
+
+    A -->  INVITE (SDP-> audio 1 2 3) --> B      ( B supports 1 , 3, 5)
+    A <--  200 OK ( SDP -> what will be here 1, 2 ,3 OR 1, 3, 5)  <-- B
+[Mohammed Noman Siddiqui] B would send 1, 3 in 200 OK
+
+   if it is 1, 3, 5 then what will be the response to B ??
+[Mohammed Noman Siddiqui] What do you mean by response to B. B is sending t=
+he response to A as above
+
+2)  If A is initiating the call and sending the supported codec list say (1=
+,2,3)
+
+    A -->  INVITE (SDP-> audio 1 2 3) --> B      ( B supports  2 , 3, 5)
+    A <--  200 OK ( SDP -> what will be here 2 , 3 OR  2 , 3, 5)  <-- B
+[Mohammed Noman Siddiqui] 2,3
+
+   if it is 2 , 3  then what will be the response to B ??
+   if it is 2 , 3, 5  then what will be the response to B ??
+
+3)  If A is initiating the call and sending the supported codec list say (1=
+,2,3)
+
+    A -->  INVITE (SDP-> audio 1 2 3) --> B      ( B supports  4, 5,6)
+    A <--  200 OK ( SDP -> what will be here ??)  <-- B
+  and what will be the d behaviour of A ....
+[Mohammed Noman Siddiqui] B would send 488 Not Acceptable here
+
+4) Re-Negotiation -
+
+   If A is initiating the call and sending the supported codec list say (1,=
+2,3)
+
+    A -->  INVITE (SDP-> audio 1 2 3) --> B      ( B supports 1 , 2, 3)
+    A <--  200 OK ( SDP audio1, 2 ,3   <-- B
+    A --> ACK --> B
+
+( I guess the rtp will use codec 1)
+[Mohammed Noman Siddiqui] Yes, RTP will use codec 1, however both sides sho=
+uld be able to dynamically switch the payload to either 2 and 3
+
+  Now during the call say A wants to change the codec to 2, will it send th=
+e re-invite or SDP session has some provision for it( I just want to confir=
+m, is it possible to change the codec without sending any SIP message)
+[Mohammed Noman Siddiqui] Yes, dynamic payload switching based on the negot=
+iated codecs list is permitted. Unfortunately, many devices do not support =
+this and hence its better to do the re-negotiation.
+
+PS: I know i have made a lengthy mail, but  it is very much required for me=
+ to understand some network behaviour and implementation.
+
+Regards
+Atul
+
+
+--_000_7B5D2E520D838A45838DE68F4030DC2D0444DB1983MCHP057Agloba_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.6082" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV dir=3Dltr align=3Dleft><FONT face=3DArial color=3D#0000ff size=3D2><SP=
+AN=20
+class=3D687135015-13072011>Hi Atul,</SPAN></FONT></DIV>
+<DIV dir=3Dltr align=3Dleft><FONT face=3DArial color=3D#0000ff size=3D2><SP=
+AN=20
+class=3D687135015-13072011></SPAN></FONT>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><FONT face=3DArial color=3D#0000ff size=3D2><SP=
+AN=20
+class=3D687135015-13072011>Please see inline.</SPAN></FONT></DIV>
+<DIV align=3Dleft>
+<DIV align=3Dleft><FONT size=3D2></FONT>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3D"Comic Sans MS" color=3D#0000ff size=3D2>Kin=
+d=20
+Regards,</FONT></DIV>
+<DIV align=3Dleft><FONT face=3D"Comic Sans MS" color=3D#0000ff size=3D1>Nom=
+an=20
+Siddiqui</FONT></DIV>
+<DIV align=3Dleft><FONT face=3D"Comic Sans MS" color=3D#0000ff=20
+size=3D1></FONT>&nbsp;</DIV></DIV>
+<DIV class=3DOutlookMessageHeader lang=3Den-us dir=3Dltr align=3Dleft>
+<HR tabIndex=3D-1>
+<FONT face=3DTahoma size=3D2><B>From:</B> sip-bounces@ietf.org=20
+[mailto:sip-bounces@ietf.org] <B>On Behalf Of </B>atul garg<BR><B>Sent:</B>=
+=20
+Wednesday, July 13, 2011 11:30 AM<BR><B>To:</B> sip@ietf.org<BR><B>Subject:=
+</B>=20
+[Sip] Codec Negotiation and renegotiataion<BR></FONT><BR></DIV>
+<DIV></DIV>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop>
+      <DIV>Hello All,</DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>I have very basic question regarding the codec negotiation in SI=
+P, I=20
+      will try to summarize my queries below -</DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>1) If A&nbsp;is initiating the call and sending the supported co=
+dec=20
+      list say (1,2,3)</DIV>
+      <DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3)=
+=20
+      --&gt; B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports 1 , 3, 5)</DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP -&gt; what will b=
+e=20
+      here 1, 2 ,3 OR 1, 3, 5)&nbsp; &lt;-- B<BR><SPAN=20
+      class=3D687135015-13072011><FONT face=3DArial color=3D#0000ff size=3D=
+2>[Mohammed=20
+      Noman Siddiqui]&nbsp;B would send 1, 3 in 200 OK=20
+&nbsp;</FONT></SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>&nbsp;&nbsp; if it is 1, 3, 5 then what will be the response to =
+B=20
+      ??<BR><SPAN class=3D687135015-13072011><FONT face=3DArial color=3D#00=
+00ff=20
+      size=3D2>[Mohammed Noman Siddiqui]&nbsp;What do you mean by response =
+to B. B=20
+      is sending the response to A as above</FONT></SPAN></DIV>
+      <DIV><SPAN class=3D687135015-13072011><FONT face=3DArial color=3D#000=
+0ff=20
+      size=3D2></FONT></SPAN>&nbsp;</DIV>
+      <DIV>2)&nbsp; If A&nbsp;is initiating the call and sending the suppor=
+ted=20
+      codec list say (1,2,3)</DIV>
+      <DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3)=
+=20
+      --&gt; B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports&nbsp; 2 , 3, 5)</=
+DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP -&gt; what will b=
+e=20
+      here&nbsp;2 , 3 OR&nbsp; 2 , 3, 5)&nbsp; &lt;-- B<BR><SPAN=20
+      class=3D687135015-13072011><FONT face=3DArial color=3D#0000ff size=3D=
+2>[Mohammed=20
+      Noman Siddiqui]&nbsp;2,3&nbsp;</FONT></SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>&nbsp;&nbsp; if it is&nbsp;2 , 3 &nbsp;then what will be the res=
+ponse=20
+      to B ??</DIV>
+      <DIV>&nbsp;&nbsp; if it is&nbsp;2 , 3, 5&nbsp;&nbsp;then what will be=
+ the=20
+      response to B ??</DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>3)&nbsp; If A&nbsp;is initiating the call and sending the suppor=
+ted=20
+      codec list say (1,2,3)</DIV>
+      <DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3)=
+=20
+      --&gt; B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports&nbsp; 4, 5,6)</DI=
+V>
+      <DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP -&gt; what will b=
+e=20
+      here&nbsp;??)&nbsp; &lt;-- B</DIV>
+      <DIV>&nbsp; and what will be the d behaviour of A ....<BR><SPAN=20
+      class=3D687135015-13072011><FONT face=3DArial color=3D#0000ff size=3D=
+2>[Mohammed=20
+      Noman Siddiqui]&nbsp;B would send 488 Not Acceptable=20
+      here&nbsp;</FONT></SPAN></DIV>
+      <DIV>&nbsp;&nbsp; </DIV>
+      <DIV>4) Re-Negotiation -</DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>&nbsp;&nbsp; If A&nbsp;is initiating the call and sending the=20
+      supported codec list say (1,2,3)</DIV>
+      <DIV>&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A --&gt;&nbsp; INVITE (SDP-&gt; audio 1 2 3)=
+=20
+      --&gt; B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( B supports 1 , 2, 3)</DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A &lt;--&nbsp; 200 OK ( SDP audio1, 2=20
+      ,3&nbsp;&nbsp; &lt;-- B</DIV>
+      <DIV>&nbsp;&nbsp;&nbsp; A --&gt; ACK --&gt; B</DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>( I guess the rtp will use codec 1)<BR><SPAN=20
+      class=3D687135015-13072011><FONT face=3DArial color=3D#0000ff size=3D=
+2>[Mohammed=20
+      Noman Siddiqui]&nbsp;Yes, RTP will use codec 1, however&nbsp;both sid=
+es=20
+      should be able to dynamically switch the payload to&nbsp;either 2 and=
+=20
+      3&nbsp;</FONT></SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>&nbsp; Now during the call say A wants to change the codec to 2,=
+ will=20
+      it send the re-invite or SDP session has some provision for it( I jus=
+t=20
+      want to confirm, is it possible to change the codec without sending a=
+ny=20
+      SIP message)<BR><SPAN class=3D687135015-13072011><FONT face=3DArial=20
+      color=3D#0000ff size=3D2>[Mohammed Noman Siddiqui]&nbsp;Yes, dynamic =
+payload=20
+      switching based on the negotiated codecs list is permitted. Unfortuna=
+tely,=20
+      many devices do not support this and hence its better to do the=20
+      re-negotiation.&nbsp;</FONT></SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>PS: I know i have made a lengthy mail, but&nbsp;&nbsp;it is very=
+ much=20
+      required for me to understand some network behaviour and=20
+      implementation.</DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>Regards</DIV>
+      <DIV>Atul</DIV></TD></TR></TBODY></TABLE></BODY></HTML>
+
+--_000_7B5D2E520D838A45838DE68F4030DC2D0444DB1983MCHP057Agloba_--
+
+From pkyzivat@alum.mit.edu  Wed Jul 13 10:01:47 2011
+Return-Path: <pkyzivat@alum.mit.edu>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A7E2F11E8144 for <sip@ietfa.amsl.com>; Wed, 13 Jul 2011 10:01:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.532
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.532 tagged_above=-999 required=5 tests=[AWL=0.067,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id RIJUeNHJS0S4 for <sip@ietfa.amsl.com>; Wed, 13 Jul 2011 10:01:47 -0700 (PDT)
+Received: from qmta15.westchester.pa.mail.comcast.net (qmta15.westchester.pa.mail.comcast.net [76.96.59.228]) by ietfa.amsl.com (Postfix) with ESMTP id D362111E80BD for <sip@ietf.org>; Wed, 13 Jul 2011 10:01:46 -0700 (PDT)
+Received: from omta24.westchester.pa.mail.comcast.net ([76.96.62.76]) by qmta15.westchester.pa.mail.comcast.net with comcast id 7Utc1h0021ei1Bg5FV1nuk; Wed, 13 Jul 2011 17:01:47 +0000
+Received: from Paul-Kyzivats-MacBook-Pro.local ([24.62.109.41]) by omta24.westchester.pa.mail.comcast.net with comcast id 7V1l1h00J0tdiYw3kV1mQK; Wed, 13 Jul 2011 17:01:46 +0000
+Message-ID: <4E1DCF77.2010806@alum.mit.edu>
+Date: Wed, 13 Jul 2011 13:01:43 -0400
+From: Paul Kyzivat <pkyzivat@alum.mit.edu>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:5.0) Gecko/20110624 Thunderbird/5.0
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <1310570980.43882.YahooMailClassic@web94802.mail.in2.yahoo.com>
+In-Reply-To: <1310570980.43882.YahooMailClassic@web94802.mail.in2.yahoo.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: Re: [Sip] Codec Negotiation and renegotiataion
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 13 Jul 2011 17:01:47 -0000
+
+On 7/13/11 11:29 AM, atul garg wrote:
+> Hello All,
+> I have very basic question regarding the codec negotiation in SIP, I
+> will try to summarize my queries below -
+> 1) If A is initiating the call and sending the supported codec list say
+> (1,2,3)
+> A --> INVITE (SDP-> audio 1 2 3) --> B ( B supports 1 , 3, 5)
+> A <-- 200 OK ( SDP -> what will be here 1, 2 ,3 OR 1, 3, 5) <-- B
+> if it is 1, 3, 5 then what will be the response to B ??
+
+The answer could include 1; 1,3; 1,3,5; or I suppose 1,5; 3,5.
+
+A doesn't "respond" to B.
+If the answer contains both 1,3 then A could use either 1, 3, or both 
+when sending to B, and B can use either 1, 3, or both when sending to A.
+So if B only wants to use one codec it would be well advised to only 
+mention one in the answer.
+
+If B mentioned codec 5, it isn't really useful immediately. Its just an 
+FYI for A. It could be treated as a hint, in case A does support 5 and 
+just didn't mention it.
+
+> 2) If A is initiating the call and sending the supported codec list say
+> (1,2,3)
+> A --> INVITE (SDP-> audio 1 2 3) --> B ( B supports 2 , 3, 5)
+> A <-- 200 OK ( SDP -> what will be here 2 , 3 OR 2 , 3, 5) <-- B
+> if it is 2 , 3 then what will be the response to B ??
+> if it is 2 , 3, 5 then what will be the response to B ??
+
+This isn't much different from (1).
+B could answer with any of the things you say.
+
+> 3) If A is initiating the call and sending the supported codec list say
+> (1,2,3)
+> A --> INVITE (SDP-> audio 1 2 3) --> B ( B supports 4, 5,6)
+> A <-- 200 OK ( SDP -> what will be here ??) <-- B
+
+Typically B would respond with 488.
+If it wants, it could respond 200 and refuse the media stream (port 0).
+That is probably not a good idea unless it has further plans - e.g. to 
+make another offer of some sort.
+
+> and what will be the d behaviour of A ....
+
+If the response is 488, A gives up.
+If response is 200 with refused media, it might want to wait and see 
+what happens next. Or else it might as well send a BYE.
+
+> 4) Re-Negotiation -
+> If A is initiating the call and sending the supported codec list say (1,2,3)
+> A --> INVITE (SDP-> audio 1 2 3) --> B ( B supports 1 , 2, 3)
+> A <-- 200 OK ( SDP audio1, 2 ,3 <-- B
+> A --> ACK --> B
+> ( I guess the rtp will use codec 1)
+
+rtp could be 1, 2, 3, or a combination.
+
+> Now during the call say A wants to change the codec to 2, will it send
+> the re-invite or SDP session has some provision for it( I just want to
+> confirm, is it possible to change the codec without sending any SIP message)
+> PS: I know i have made a lengthy mail, but it is very much required for
+> me to understand some network behaviour and implementation.
+
+If 1,2,3 negotiated, it can just start using 2.
+
+But I think this will break a number of implementations that make 
+unjustified assumptions. I know there are big vendors with products that 
+can only support one codec and must renegotiate to switch, and assume 
+the first one in the answer is the one to be used.
+
+So you would be well advised to send a new offer with just 2 if that is 
+the one you want to use.
+
+	Thanks,
+	Paul
+
+> Regards
+> Atul
+>
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP specifications.
+
+
+From dean.willis@softarmor.com  Fri Jul 15 10:35:42 2011
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B1E4721F8B9C for <sip@ietfa.amsl.com>; Fri, 15 Jul 2011 10:35:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.299 tagged_above=-999 required=5 tests=[AWL=-0.300, BAYES_00=-2.599, J_CHICKENPOX_43=0.6, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id hr1rETdppKlx for <sip@ietfa.amsl.com>; Fri, 15 Jul 2011 10:35:42 -0700 (PDT)
+Received: from mail-gy0-f172.google.com (mail-gy0-f172.google.com [209.85.160.172]) by ietfa.amsl.com (Postfix) with ESMTP id 65CE221F8BA3 for <sip@ietf.org>; Fri, 15 Jul 2011 10:35:37 -0700 (PDT)
+Received: by gyd5 with SMTP id 5so709462gyd.31 for <sip@ietf.org>; Fri, 15 Jul 2011 10:35:37 -0700 (PDT)
+Received: by 10.147.163.16 with SMTP id q16mr3535691yao.19.1310751336922; Fri, 15 Jul 2011 10:35:36 -0700 (PDT)
+Received: from [192.168.2.143] (cpe-66-25-15-110.tx.res.rr.com [66.25.15.110]) by mx.google.com with ESMTPS id j65sm1316925yhm.82.2011.07.15.10.35.35 (version=TLSv1/SSLv3 cipher=OTHER); Fri, 15 Jul 2011 10:35:36 -0700 (PDT)
+From: Dean Willis <dean.willis@softarmor.com>
+Content-Type: text/plain; charset=us-ascii
+Message-Id: <A8C74F88-D05C-4DD5-BB75-8A3CE1AF03E5@softarmor.com>
+Date: Fri, 15 Jul 2011 12:35:34 -0500
+To: sip@ietf.org
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (Apple Message framework v1084)
+X-Mailer: Apple Mail (2.1084)
+Subject: [Sip] Test, please ignore
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 15 Jul 2011 17:35:42 -0000
+
+I seem to be having a problem with the mail replicator scrambling those =
+messages that mail.app insists on sending with a content-encoding of =
+quoted printable. Supposedly, the apple  mail from 10.6.2+ does this =
+whenever it is forced to deal with "long lines" but the message format =
+is set to "plain text". I am wondering if I should just switch to mhtml =
+format? Would this be likely to work better? Or shouldI just go to =
+theunderbird? I do enjoy the addressbook integration in mail.app, =
+however.
+
+--
+Dea, the bemused=
+
+From decruzreuben@gmail.com  Wed Jul 27 04:24:23 2011
+Return-Path: <decruzreuben@gmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D058E21F8BBD for <sip@ietfa.amsl.com>; Wed, 27 Jul 2011 04:24:23 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.489
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.489 tagged_above=-999 required=5 tests=[AWL=1.109,  BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1JYCZf6GGpsN for <sip@ietfa.amsl.com>; Wed, 27 Jul 2011 04:24:23 -0700 (PDT)
+Received: from mail-ew0-f44.google.com (mail-ew0-f44.google.com [209.85.215.44]) by ietfa.amsl.com (Postfix) with ESMTP id 1648321F8BBB for <sip@ietf.org>; Wed, 27 Jul 2011 04:24:22 -0700 (PDT)
+Received: by ewy19 with SMTP id 19so1358262ewy.31 for <sip@ietf.org>; Wed, 27 Jul 2011 04:24:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; bh=LuV5p4x4BMf0W8YtQ+1ye+inWLe4nC+WYe4JA2BVt10=; b=D85s5DAa1+mObJkv6Tz5wRJSWEsUNGb76DujERIEAy5d/yM7i5OSM89QRk6qTbpZQO qIpi6o/5cYTV3EQRoBAXwxwqSRxJ6RpOV1bB1IPh/DmgqZJ5eAuPwIM8zr5/3LhmthcR 0xuv2ySXSSKVuZx5k0HP+MzKHs8WkSrO8kV0Q=
+MIME-Version: 1.0
+Received: by 10.14.42.12 with SMTP id i12mr2769376eeb.72.1311765862208; Wed, 27 Jul 2011 04:24:22 -0700 (PDT)
+Received: by 10.14.95.11 with HTTP; Wed, 27 Jul 2011 04:24:22 -0700 (PDT)
+Date: Wed, 27 Jul 2011 16:54:22 +0530
+Message-ID: <CA+Ne9_q+B82pMb0vzfA_+PE+4eC1UhG8LPhwrDuF2n9UmYXXAg@mail.gmail.com>
+From: Ruben Roque <decruzreuben@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=0015175cdc543ed46604a90b4a27
+X-Mailman-Approved-At: Wed, 27 Jul 2011 05:46:41 -0700
+Subject: [Sip] Types of Conference calls supported by SIP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 Jul 2011 11:26:28 -0000
+
+--0015175cdc543ed46604a90b4a27
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi,
+
+I want to learn the types of conference calls supported by SIP along
+with the working and call flow.
+Kindly provide me the links/RFC's for the same.
+
+Thank you!
+
+Regards,
+Reuben
+
+--0015175cdc543ed46604a90b4a27
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div>Hi,</div>
+<div>=A0</div>
+<div>I want to learn the types of conference calls=A0supported by SIP along=
+ with=A0the working and call flow.</div>
+<div>Kindly provide me the links/RFC&#39;s for the same.</div>
+<div>=A0</div>
+<div>Thank you!</div>
+<div>=A0</div>
+<div>Regards,<br>Reuben</div>
+
+--0015175cdc543ed46604a90b4a27--
+
+From mary.ietf.barnes@gmail.com  Wed Jul 27 06:09:46 2011
+Return-Path: <mary.ietf.barnes@gmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7452721F8B81 for <sip@ietfa.amsl.com>; Wed, 27 Jul 2011 06:09:36 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.431
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.431 tagged_above=-999 required=5 tests=[AWL=0.167, BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id SmN8q4sIgD-U for <sip@ietfa.amsl.com>; Wed, 27 Jul 2011 06:09:33 -0700 (PDT)
+Received: from mail-vx0-f172.google.com (mail-vx0-f172.google.com [209.85.220.172]) by ietfa.amsl.com (Postfix) with ESMTP id 21E3521F8538 for <sip@ietf.org>; Wed, 27 Jul 2011 06:09:33 -0700 (PDT)
+Received: by vxi40 with SMTP id 40so1420941vxi.31 for <sip@ietf.org>; Wed, 27 Jul 2011 06:09:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; bh=SQ8PYBGQXsPCOvctiGAzf/UvQ8YRDul1xHh4Ep+PnEE=; b=rP5t3+fCr/kwdo8Pv4FYW4NUkBT2Vctg5aWT6pbk/bmjbmJZpQbrYNYmuYilpYt5eE QmA5tO26x1dsnDlKeBB19sU8/evqoE9thfu0sMBx3s70dDoFVsUp/xaXOXzmCEt/SfVv UFQJANM+1K5IyGWkCw/z0IksVdakZpBZdmAUc=
+MIME-Version: 1.0
+Received: by 10.52.28.48 with SMTP id y16mr17562vdg.384.1311772172602; Wed, 27 Jul 2011 06:09:32 -0700 (PDT)
+Received: by 10.52.167.34 with HTTP; Wed, 27 Jul 2011 06:09:32 -0700 (PDT)
+In-Reply-To: <CA+Ne9_q+B82pMb0vzfA_+PE+4eC1UhG8LPhwrDuF2n9UmYXXAg@mail.gmail.com>
+References: <CA+Ne9_q+B82pMb0vzfA_+PE+4eC1UhG8LPhwrDuF2n9UmYXXAg@mail.gmail.com>
+Date: Wed, 27 Jul 2011 08:09:32 -0500
+Message-ID: <CAHBDyN7_ZpUcqjyPnExfugTaLgx8SRDukchKNyPLCOubRJdP_w@mail.gmail.com>
+From: Mary Barnes <mary.ietf.barnes@gmail.com>
+To: Ruben Roque <decruzreuben@gmail.com>
+Content-Type: multipart/alternative; boundary=20cf307c9e705fcdcb04a90cc204
+Cc: sip@ietf.org
+Subject: Re: [Sip] Types of Conference calls supported by SIP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 Jul 2011 13:09:46 -0000
+
+--20cf307c9e705fcdcb04a90cc204
+Content-Type: text/plain; charset=ISO-8859-1
+
+RFCs 4245, 4353, 4575 and 4579 describe SIP based conferencing. They were
+developed in the SIPPING WG.
+
+You might also want to look at the work in the XCON WG:
+http://datatracker.ietf.org/wg/xcon/
+
+Regards,
+Mary.
+
+On Wed, Jul 27, 2011 at 6:24 AM, Ruben Roque <decruzreuben@gmail.com> wrote:
+
+> Hi,
+>
+> I want to learn the types of conference calls supported by SIP along
+> with the working and call flow.
+> Kindly provide me the links/RFC's for the same.
+>
+> Thank you!
+>
+> Regards,
+> Reuben
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+
+--20cf307c9e705fcdcb04a90cc204
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+RFCs 4245, 4353, 4575 and 4579 describe SIP based conferencing. They were d=
+eveloped in the SIPPING WG.<div><br></div><div>You might also want to look =
+at the work in the XCON WG:</div><div><a href=3D"http://datatracker.ietf.or=
+g/wg/xcon/">http://datatracker.ietf.org/wg/xcon/</a></div>
+<div><br></div><div>Regards,</div><div>Mary.<br><br><div class=3D"gmail_quo=
+te">On Wed, Jul 27, 2011 at 6:24 AM, Ruben Roque <span dir=3D"ltr">&lt;<a h=
+ref=3D"mailto:decruzreuben@gmail.com">decruzreuben@gmail.com</a>&gt;</span>=
+ wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex;"><div>Hi,</div>
+<div>=A0</div>
+<div>I want to learn the types of conference calls=A0supported by SIP along=
+ with=A0the working and call flow.</div>
+<div>Kindly provide me the links/RFC&#39;s for the same.</div>
+<div>=A0</div>
+<div>Thank you!</div>
+<div>=A0</div>
+<div>Regards,<br>Reuben</div>
+<br>_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br></blockquote></div><=
+br></div>
+
+--20cf307c9e705fcdcb04a90cc204--

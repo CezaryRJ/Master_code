@@ -1,0 +1,129 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : mmusic
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mmusic/2006-04.mailcl']
+id : f3ccbadf-246d-4f68-b92a-6a89f85de661
+_version_ : 1675129192228847616
+
+Content : 
+
+So in my opinion your example below is not valid according to MSRP.
+
+Regards,
+
+          Miguel
+
+Amitkumar.Goel@infineon.com wrote:
+> Hi Miguel,
+>=20
+> Consider the case  when we get sdp offer with two m-line (without=20
+> session id)and corresponding attributes.
+>=20
+>     c=3DIN IP4 atlanta.example.com
+>     m=3Dmessage 7654 TCP/MSRP *
+>     a=3Daccept-types:text/plain
+>     a=3Dpath:msrp://atlanta.example.com:7654;tcp  =20
+>=20
+>     c=3DIN IP4 atlanta.example.com
+>     m=3Dmessage 7654 TCP/MSRP *
+>     a=3Daccept-types:*
+>     a=3Dpath:msrp://atlanta.example.com:7654;tcp
+>     a=3Dfilename:My cool picture.jpg
+>     a=3Dfiletype:image/jpeg
+>     a=3Ddisposition:inline
+>     a=3Dfilesize:32349
+>     a=3Dicon:cid:id2@alicepc.example.com
+>     a=3Dhash:SHA 72245fe8653ddaf371362f86d471913ee4a2ce2e
+>=20
+> Here both the path attributes are without session id.
+> =20
+> Using this offer, 2 MSRP sessions are created. When MSRP data is=20
+> received over the TCP connection, how will I demultiplex MSRP data? To
+
+> identify the recipient session for the received MSRP data, I think we=20
+> must add session id to the MSRP URL. Hope I am clear this time.
+>=20
+>=20
+> Thanks and Regards,
+> Amit Kumar Goel
+>=20
+> -----Original Message-----
+> From: Miguel Garcia [mailto:Miguel.An.Garcia@nokia.com]
+> Sent: Friday, April 28, 2006 2:19 PM
+> To: Goel Amitkumar (IFIN SW WS)
+> Cc: sudha.vs@globaledgesoft.com; mmusic@ietf.org;=20
+> OMA-MWG-IM@mail.openmobilealliance.org
+> Subject: Re: Handling of incoming INVITE request for different MSRP=20
+> session
+>=20
+> Continuing the discussion in mmusic...
+>=20
+> It is clear that the m=3D line does not contain the MSRP session-id,=20
+> which is only visible in the a=3Dpath line. For example:
+>=20
+>     c=3DIN IP4 atlanta.example.com
+>     m=3Dmessage 7654 TCP/MSRP *
+>     a=3Daccept-types:text/plain
+>     a=3Dpath:msrp://atlanta.example.com:7654/jshA7we;tcp
+>=20
+> I don't really understand your question below. MSRP multiplexing over=20
+> the same TCP connection is an essential feature of MSRP, and it is at=20
+> the discretion of the MSRP endpoint to decide whether to multiplex or=20
+> not (although it is recommended to multiplex, otherwise you are=20
+> bypassing the congestion control built into TCP).
+>=20
+> So, I don't really see your question about "support for
+multiplexing"...
+>=20
+> Perhaps you can enlight me.
+>=20
+> /Miguel
+>=20
+> Amitkumar.Goel@infineon.com wrote:
+>> Hi Miguel,
+>>
+>> If SDP offer/answer m-line ulr does not contain session id,as session
+
+>> ID is a optional param, Is it mean that the offerer/answerer does not
+
+>> support MSRP session multiplexing for sharing the same TCP
+connection?
+>>
+>> Regards,
+>> Amit
+>>
+>> =20
+>>
+>>
+
+--=20
+Miguel A. Garcia           tel:+358-50-4804586
+sip:miguel.an.garcia@openlaboratory.net
+Nokia Research Center      Helsinki, Finland
+
+_______________________________________________
+mmusic mailing list
+mmusic@ietf.org
+https://www1.ietf.org/mailman/listinfo/mmusic

@@ -1,0 +1,86 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<6.2.5.6.2.20060502145206.05a6e4f8@qualcomm.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  6.2.5.6.2.20060502145206.05a6e4f8@qualcomm.com
+Message-ID : <p06230903c07ed0aaf750@[10.81.115.240]>
+References : <A9ACC159-C642-43D4-9DB1-FD2889543814@cisco.com>
+	<6.2.5.6.2.20060502093853.05g 
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : avt
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/avt/2006-05.mailcl']
+id : 96ea8c63-0ca1-44c3-9e4a-596cca380c96
+_version_ : 1675129340751249408
+
+Content : 
+
+> keys, it seems unnecessary to adopt them at this time.
+> 
+And even NSA recommends against 192-bit keys, preferring 128 for SECRET
+and 256 for TOP SECRET.
+
+		--Steven M. Bellovin, http://www.cs.columbia.edu/~smb
+
+_______________________________________________
+Audio/Video Transport Working Group
+avt@ietf.org
+https://www1.ietf.org/mailman/listinfo/avt
+
+
+
+
+
+
+
+8c5948@qualcomm.com>
+	<BB6DC445-D3B5-4BF3-84A9-E0975CDAB812@cisco.com>
+	<6.2.5.6.2.20060502145206.05a6e4f8@qualcomm.com>
+Date: Wed, 3 May 2006 17:28:56 -0400
+To: Lakshminath Dondeti <ldondeti@qualcomm.com>
+From: Stephen Kent <kent@bbn.com>
+Content-Type: text/plain; charset="us-ascii" ; format="flowed"
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 7aefe408d50e9c7c47615841cb314bed
+X-Mailman-Approved-At: Thu, 04 May 2006 03:56:20 -0400
+Cc: saag@mit.edu, ietf-rtpsec@imc.org, AVT <avt@ietf.org>
+Subject: [AVT] Re: [saag] The use of AES-192 and AES-256 in Secure RTP
+X-BeenThere: avt@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Audio/Video Transport Working Group <avt.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/avt>,
+	<mailto:avt-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:avt@ietf.org>
+List-Help: <mailto:avt-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/avt>,
+	<mailto:avt-request@ietf.org?subject=subscribe>
+Errors-To: avt-bounces@ietf.org
+
+I'm not a cryptographer, but I generally advise against encouraging 
+users to employ AES with 256-bit keys. The 256-bit key size is there 
+primarily as a hedge against the future development of quantum 
+computers. Since there are some performance costs with the use of big 
+keys, it seems unnecessary to adopt them at this time.
+
+Steve
+
+_______________________________________________
+Audio/Video Transport Working Group
+avt@ietf.org
+https://www1.ietf.org/mailman/listinfo/avt

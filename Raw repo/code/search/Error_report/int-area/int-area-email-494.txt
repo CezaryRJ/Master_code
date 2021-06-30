@@ -1,0 +1,83 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : int-area
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/int-area/2007-10.mailcl']
+id : 23bc554e-f03d-4c3b-bd35-75e7d86a5b68
+_version_ : 1675130711909072899
+
+Content : 
+
+I agree with Thomas on this document.
+
+Bob
+
+
+On Oct 24, 2007, at 7:31 AM, ext Thomas Narten wrote:
+
+> Bob Hinden and I had some further offlist discussion about this.
+>
+> My understanding is that the IPv4 RA option is very basic. It says
+> "look at this packet". The option itself doesn't contain any
+> additional information or "hint" as to what to look for or what the
+> packet contains.
+>
+> The semantics of the IPv6 router alert option are different. The value
+> itself is used to convey additional "hints" about processing.
+>
+> My sense is that the semantics of the IPv4 and IPv6 Router Alert
+> option are sufficiently different that sharing the name space just
+> doesn't make any sense.
+>
+> That is, the  ID says:
+>
+>     This document proposes the creation of a new IANA registry for
+>     managing IPv4 Router Alert Option Values.  In conjunction with
+>     this, it also proposes an update to the way in which IPv6 Router
+>     Alert Option Values are assigned in the existing IANA registry.
+>
+> But there are no defined IPv4 Router Alert Option values (other than
+> zero), and it would be inappropriate to change the semantics of any
+> existing usages (too late for that) and it would also be inappropriate
+> to consider doing this in the absense of a specific new application
+> that would make use of a new value. This document does not propose
+> such a new usage.
+>
+> Hence, at this point, I'm opposed to the actions called for in the
+> document.
+>
+> Thomas
+
+
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+
+_______________________________________________
+Int-area mailing list
+Int-area@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/int-area

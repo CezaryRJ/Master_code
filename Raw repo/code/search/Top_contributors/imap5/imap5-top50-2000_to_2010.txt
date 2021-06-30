@@ -1,0 +1,24 @@
+2000 TO 2010
+-------#####------->    imap5
+markrcrispin@live.com 33
+tss@iki.fi 24
+dave@cridland.net 12
+arnt@oryx.com 11
+brong@fastmail.fm 7
+dhc@dcrocker.net 7
+randy@qualcomm.com 7
+guenther+imap@sendmail.com 5
+lyndon@orthanc.ca 5
+Chris.Newman@Sun.COM 4
+dot@dotat.at 4
+Zoltan.Ordogh@nokia.com 3
+apm@one.com 3
+cyrus@daboo.name 3
+robsiemb@google.com 3
+spam@pvanhoof.be 3
+filip.navara@gmail.com 2
+dcrocker@bbiw.net 1
+dmose@mozillamessaging.com 1
+ldusseault@commerce.net 1
+sm@resistor.net 1
+tony@att.com 1

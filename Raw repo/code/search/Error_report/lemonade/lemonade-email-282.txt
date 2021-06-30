@@ -1,0 +1,127 @@
+Date : ['2006-06-21T13:15:29Z']
+Timezone : +0300
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<636.1150807299.833000@JOHN>']
+In-Reply-To-name : Null
+In-Reply-To-address :  636.1150807299.833000@JOHN
+Message-ID : <0FA975F2D8295A448BE3ADC1612446575A345E@esebe199.NOE.Nokia.com>
+References : Null
+Comments : ['Null']
+Subject : ['RE: [lemonade] Notifications for multiple devices per user']
+Mailing-list : lemonade
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/lemonade/2006-06.mailcl']
+id : 3eb59b52-34de-4087-b454-5b0b155851a9
+_version_ : 1675133234912952323
+
+Content : 
+
+>=20
+>=20
+>>other than the default for the IMS communication service.  The IMS=20
+>>application reference has significance at the UE and the SIP AS
+>=20
+> behaving=20
+>=20
+>>as SIP endpoints.  The means to transport the IMS application
+>=20
+> reference=20
+>=20
+>>is defined within the IMS communication services.  When used, it shall
+>=20
+>=20
+>>be possible to transport the IMS application reference on at least on=20
+>>the following interfaces:
+>>
+>>*       ISC; Gm; Mi, Mj, Mk, Mw; Mg; Mr; Ro, Rx, Rf
+>>
+>>=20
+>>
+>></Specification Text>
+>>
+>>=20
+>>
+>>
+>=20
+>
+------------------------------------------------------------------------
+>=20
+>>This transmission (including any attachments) may contain confidential
+>=20
+>=20
+>>information, privileged material (including material protected by the=20
+>>solicitor-client or other applicable privileges), or constitute=20
+>>non-public information. Any use of this information by anyone other
+>=20
+> than=20
+>=20
+>>the intended recipient is prohibited. If you have received this=20
+>>transmission in error, please immediately reply to the sender and
+>=20
+> delete=20
+>=20
+>>this information from your system. Use, dissemination, distribution,
+>=20
+> or=20
+>=20
+>>reproduction of this transmission by unintended recipients is not=20
+>>authorized and may be unlawful.
+>>
+>>
+>>
+>=20
+>
+------------------------------------------------------------------------
+>=20
+>>_______________________________________________
+>>Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+>>This list is for NEW development of the application of SIP
+>>Use sip-implementors@cs.columbia.edu for questions on current sip
+>>Use sip@ietf.org for new developments of core SIP
+>=20
+>=20
+>=20
+>=20
+> ---------------------------------------------------------------------
+> This transmission (including any attachments) may contain confidential
+information, privileged material (including material protected by the
+solicitor-client or other applicable privileges), or constitute
+non-public information. Any use of this information by anyone other than
+the intended recipient is prohibited. If you have received this
+transmission in error, please immediately reply to the sender and delete
+this information from your system. Use, dissemination, distribution, or
+reproduction of this transmission by unintended recipients is not
+authorized and may be unlawful.
+>=20
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

@@ -1,0 +1,346 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : syslog
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/syslog/2007-06.mailcl']
+id : 9c37bed9-c1c6-42af-a130-40a333fcceaf
+_version_ : 1675133302182248448
+
+Content : 
+
+> guidance on the MIB design.
+>
+> David Harrington
+> co-chair, syslog wg
+>
+> > -----Original Message-----
+> > From: tom.petch [mailto:cfinss@dial.pipex.com]
+> > Sent: Friday, June 01, 2007 6:19 AM
+> > To: Chris Lonvick
+> > Cc: David Harrington; 'Sam Hartman'; syslog
+> > Subject: Re: Layer diagram & mib counters - was:Re: [Syslog]
+> > Comments on draft-ietf-syslog-protocol-20
+> >
+> > Chris
+> >
+> > I am fine with the layer diagram given below but I am less
+> > clear about the
+> > consequences for the MIB.
+> >
+> > Currently, there is a table with an arbitrary integer index
+> > which contains
+> > application name, application control file name, receive
+> > address and statistics.
+> > I have never been too clear on what an entry in this table
+> > represents, as I have
+> > queried before.
+> >
+> > The details below suggest that messages sent and received at
+> > the transport level
+> > become scalars (digression: need to be clear what a message
+> > is when this is TLS
+> > over TCP) with a table with an entry per relay destination
+> > (per application?).
+> >
+> > Doubt one: we currently do not have any destination
+> > information in the table,
+> > only a receive address to bind to; will this be added?
+> >
+> > Doubt two; should we be - we should be! - providing a similar
+> > table for
+> > originators since they too can send to multiple destinations.
+> >
+> > Doubt three; should we have a table for different origins,
+> > else balancing
+> > counters will be difficult?  If a collector receives 30
+> > messages when the
+> > various relay and originator not relayed counters add up to
+> > 25, how do you know
+> > which stream has gone missing?  or do you parse the message
+> > and expect there to
+> > be helpful data in the SDE?
+> >
+> > This is all getting complicated and I am unclear about the
+> > benefits of going
+> > down this road.
+> >
+> > Tom Petch
+> >
+> > ----- Original Message -----
+> > From: "Chris Lonvick" <clonvick@cisco.com>
+> > To: "tom.petch" <cfinss@dial.pipex.com>
+> > Cc: "David Harrington" <ietfdbh@comcast.net>; "'Sam Hartman'"
+> > <hartmans-ietf@mit.edu>; "syslog" <syslog@ietf.org>
+> > Sent: Tuesday, May 22, 2007 7:22 PM
+> > Subject: Layer diagram & mib counters - was:Re: [Syslog] Comments on
+> > draft-ietf-syslog-protocol-20
+> >
+> >
+> > > Hi All,
+> > >
+> > > What I'm seeing is that our effort to add granularity for
+> > mib accounting
+> > > has made the document less clear.  My apologies for that.
+> > >
+> > > Does the following make more sense:
+> > >
+> > >    +---------------------+    +---------------------+
+> > >    |  content            |    |  content            |
+> > >    |---------------------|    |---------------------|
+> > >    |  syslog application |    |  syslog application | (originator,
+> > >    |                     |    |                     |
+> > collector, relay)
+> > >    |---------------------|    |---------------------|
+> > >    |  syslog transport   |    |  syslog transport   |
+> > (transport sender,
+> > >    |                     |    |                     |
+> > (transport receiver)
+> > >    +---------------------+    +---------------------+
+> > >              ^                          ^
+> > >              |                          |
+> > >               --------------------------
+> > >
+> > >
+> > > In this, the "content" will be developed by some
+> > application and handed to
+> > > syslogd (using *nix as an example device).  syslogd will format
+> the
+> > > message adding in the PRI, timestamp, etc., and will hand it to
+> the
+> > > transport.
+> > > - For udp transport, the "transport sender" will encapsulte
+> > it within udp
+> > >    and put it onto the wire.
+> > > - For the case of tls, the "transport sender" will
+> > establish a new, or use
+> > >    an existing session with the "transport receiver".
+> > >
+> > > For discrepancies (if any) between the IP address of the
+> > "originator" and
+> > > the "transport sender", the originator can use the [origin
+> > ip=...] SDE
+> > > (Section 7.2).
+> > >
+> > >
+> > > If this makes sense, then the mib counters can be:
+> > > - the number of me.ietf.org with esmtp (Exim 4.43) id 1Hvt8Q-0002Mv-Qw
+	for syslog@ietf.org; Wed, 06 Jun 2007 06:53:02 -0400
+Received: from astro.systems.pipex.net ([62.241.163.6])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1Hvt8Q-00079A-2L
+	for syslog@ietf.org; Wed, 06 Jun 2007 06:53:02 -0400
+Received: from pc6 (1Cust65.tnt16.lnd4.gbr.da.uu.net [62.188.145.65])
+	by astro.systems.pipex.net (Postfix) with SMTP id 68C36E000600;
+	Wed,  6 Jun 2007 11:52:58 +0100 (BST)
+Message-ID: <005a01c7a81f$e3d52e00$0601a8c0@pc6>
+From: "tom.petch" <cfinss@dial.pipex.com>
+To: "David Harrington" <ietfdbh@comcast.net>,
+	"'Rainer Gerhards'" <rgerhards@hq.adiscon.com>,
+	"'Chris Lonvick'" <clonvick@cisco.com>
+References: <20070514011558.AAB4E400F@carter-zimmerman.suchdamage.org><05b901c79623$fc7bc4e0$0600a8c0@china.huawei.com><028e01c79966$3719cc60$0601a8c0@pc6><Pine.GSO.4.63.0705220807230.541@sjc-cde-003.cisco.com><007401c7a439$f3e041c0$0601a8c0@pc6><Pine.GSO.4.63.0706010607190.7670@sjc-cde-003.cisco.com><577465F99B41C842AAFBE9ED71E70ABA278274@grfint2.intern.adiscon.com>
+	<006301c7a47f$ffdf13c0$0600a8c0@china.huawei.com>
+Subject: Re: [Syslog] tc-mib  technology 
+Date: Wed, 6 Jun 2007 11:45:34 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: e06437eb72f6703f11713d345be8298a
+Cc: 'syslog' <syslog@ietf.org>
+X-BeenThere: syslog@lists.ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: "tom.petch" <cfinss@dial.pipex.com>
+List-Id: Security Issues in Network Event Logging <syslog.lists.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/syslog>,
+	<mailto:syslog-request@lists.ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/syslog>
+List-Post: <mailto:syslog@lists.ietf.org>
+List-Help: <mailto:syslog-request@lists.ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/syslog>,
+	<mailto:syslog-request@lists.ietf.org?subject=subscribe>
+Errors-To: syslog-bounces@lists.ietf.org
+
+David
+
+I would suggest putting these enumerations under IANA control, as has
+been done by, eg, disman (RFC3877) and ccamp (RFC4802).
+
+If we want to add to the list, and having other WGs use them makes me think that
+that will happen, then IANA control makes that much simpler.  We can specify
+what level of review is needed - no need to agree a new RFC for every change.
+
+Tom Petch
+
+----- Original Message -----
+From: "David Harrington" <ietfdbh@comcast.net>
+To: "'Rainer Gerhards'" <rgerhards@hq.adiscon.com>; "'Chris Lonvick'"
+<clonvick@cisco.com>
+Cc: "'syslog'" <syslog@ietf.org>
+Sent: Friday, June 01, 2007 9:06 PM
+Subject: [Syslog] tc-mib poll
+
+
+> Hi,
+>
+> [speaking as co-chair]
+>
+> We asked Glenn to split the two textual conventions into a seperate
+> document because other working groups are developing MIB modules that
+> reference syslog facility and severity textual conventions, and we
+> don't want our complete syslog MIB discussions to hold up their work.
+> Chris and I felt that there was consensus on the non-normative values
+> defined in the facility and severity textual conventions.
+>
+> If this WG decides to debate these values, then I will recommend that
+> other working groups simply define their own textual conventions for
+> these values. I consider that sub-optimal, but no other WG should be
+> held up by the syslog WG, which has a horrible track record for
+> reaching consensus on anything.
+>
+> I would like to do a poll:
+>
+> 1) Should these textual conventions be accepted as they are?
+>
+> 2) Would this WG like to see us define a normative set or a
+> non-normative set of facilities and severities?
+>
+> 3) Whether normative or non-normative, which is more important?
+> efficient allocation of the limited facility values, or backwards
+> compatibility with existing (and historic) implementations?
+>
+> Thanks
+>
+> David Harrington
+> dharrington@huawei.com
+> dbharrington@comcast.net
+> ietfdbhssages sent and received by the "syslog
+> > application"
+> > >    (syslogd)
+> > > - the number of messages sent and received by the
+> > "transport sender" and
+> > >    "transport receiver".
+> > > The tricky part here is that the counters of the "transport
+> > sender" and
+> > > "transport receiver" are not going to be useful to counting
+> > messages that
+> > > are relayed.  Only the counters of the "syslog application"
+> > are going to
+> > > be useful for that.  To deal with that, I'll propose that
+> > that a table be
+> > > set up to associate the messages sent to each relay destination.
+> > >
+> > > As an example from syslog.conf:
+> > >
+> > >                 kern.crit                    @loghost
+> > >                 kern.info                    @loghost2.example.com
+> > >
+> > > The relay destinations will have to be enumerated.
+> > >     get "numOfRelayDests" would return "2"
+> > >     get "relayDest(1)" would return "loghost"
+> > >     get "relayDest(2)" would return "loghost2.example.com"
+> > >
+> > > What is to be sent to those destinations would have to be
+> > quantified.
+> > >     get "priOfRelayDest(1)" would return "2" (from
+> > kern.crit as the filter)
+> > >     get "priOfRelayDest(2)" would return "6" (or "kern.info")
+> > >
+> > > When the device receives a "<2>..." syslog message (PRI=2,
+> > kern.crit), it
+> > > will relay it to the two relay destinations.
+> > > Then
+> > >     syslogOperationsMsgsReceived will be incremented by 1
+> > >     syslogOperationsMsgsRelayed(0) will be incremented by 2
+> > >        (the message went to two destinations)
+> > >     syslogOperationsMsgsRelayed(1) will be incremented by 1
+> > >        (it sent one copy to "relayDest(1)" which is loghost)
+> > >     syslogOperationsMsgsRelayed(2) will be incremented by 1
+> > >        (it sent another to ""relayDest(2)")
+> > >     syslogOperationsMsgsTransmitted will be incremented by 2
+> > >        (it transmitted both)
+> > >
+> > > Also, on loghost, syslogOperationsMsgsReceived will be
+> > incremented by 1
+> > > and on loghost2.example.com syslogOperationsMsgsReceived
+> > will also be
+> > > incremented by 1.
+> > >
+> > > This gives an administrator a way to balance out messages sent and
+> > > received.
+> > > - If our device shows 3 messages relayed to loghost, and
+> > loghost shows 3
+> > >    messages received, then we have a balance, even if
+> > MsgsTransmitted from
+> > >    our device is 482.
+> > > - If our device shows 3 messages relayed but loghost shows
+> > 2 messages
+> > >    received, then we might have a discard on our device, or
+> > the message may
+> > >    have been dropped by some intermediary.
+> > > - If our device shows 3 messages relayed but loghost shows
+> > 46 receieved
+> > >    then we likely have another device sending messages to loghost.
+> > >
+> > > To be clear on this, the counters for "transport sender"
+> > and "transport
+> > > receiver" will NOT be associated with a peer - they will
+> > just count the
+> > > number of messages sent and received.  It will be up to the
+> counters
+> > > associated with the "syslog application" to associate the
+> > messages with
+> > > peers so that the count of messages relayed will have some
+> meaning.
+> > >
+> > > Does this make sense?  As David said, we're not doing our
+> > job unless we're
+> > > clear on the concepts, terminology and have a way to manage
+> > the devices.
+> > >
+> > > Thanks,
+> > > Chris
+> > >
+> > >
+> > >
+> > > On Fri, 18 May 2007, tom.petch wrote:
+> > >
+> > > > Not sure where this draft is heading, but as a WG member,
+> > comments <inline>
+> > > >
+> > > > Tom Petch
+> > > ---remainder elided for brevity---
+> >
+>
+>
+
+
+_______________________________________________
+Syslog mailing list
+Syslog@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/syslog

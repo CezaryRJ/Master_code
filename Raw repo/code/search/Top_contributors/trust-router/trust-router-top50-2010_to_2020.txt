@@ -1,0 +1,14 @@
+2010 TO 2020
+-------#####------->    trust-router
+d.w.chadwick@kent.ac.uk 11
+hartmans@painless-security.com 11
+Josh.Howlett@ja.net 6
+Smith@cardiff.ac.uk 3
+aland@deployingradius.com 2
+ietf@augustcellars.com 2
+odonoghue@isoc.org 2
+alex@um.es 1
+ietf-secretariat@ietf.org 1
+klaas@wierenga.net 1
+rafa@um.es 1
+smith@cardiff.ac.uk 1

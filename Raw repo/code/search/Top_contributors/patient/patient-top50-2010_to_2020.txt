@@ -1,0 +1,24 @@
+2010 TO 2020
+-------#####------->    patient
+brian_witten@symantec.com 17
+tony@yaanatech.co.uk 11
+jordan.ietf@gmail.com 8
+paul@nohats.ca 5
+stephen.farrell@cs.tcd.ie 5
+diego.r.lopez@telefonica.com 4
+ekr@rtfm.com 4
+David.Black@dell.com 3
+kathleen.moriarty.ietf@gmail.com 3
+Arnaud.Taddei.IETF@protonmail.com 2
+kivinen@iki.fi 2
+mcr+ietf@sandelman.ca 2
+melinda.shore@nomountain.net 2
+mellon@fugue.com 2
+pgut001@cs.auckland.ac.nz 2
+roland@zinks.de 2
+Mingliang_Pei@symantec.com 1
+iesg-secretary@ietf.org 1
+kaduk@mit.edu 1
+lars@netapp.com 1
+mkennedy@symantec.com 1
+pmaroney@wapacklabs.com 1

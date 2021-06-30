@@ -1,0 +1,131 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : dhcwg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/dhcwg/2007-11.mailcl']
+id : afddcf29-4221-4c4d-9b4b-a809f23c6e73
+_version_ : 1675129711716466688
+
+Content : 
+
+hence the emails from Peter (Redback) & Bill (Juniper)). =20
+
+The extra complexity with the CPE has always been my biggest concern,
+and is why I entered the thread many weeks ago.
+
+Eric=20
+
+
+> From: Ralph Droms, November 07, 2007 7:06 AM
+>=20
+> Eric - I was mostly responding to Ric's description of the=20
+> excessive load on DHCP servers in the short-lease/long-lease=20
+> scenario.  As I understand the short-lease/long-lease=20
+> scenario, if we assume that authentication takes place in the=20
+> short-lease window, the load on the DHCP servers would=20
+> double.  Significant, sure, but not game-changing in the way=20
+> Ric implied.
+>=20
+> - Ralph
+>=20
+> On Nov 6, 2007, at Nov 6, 2007,10:39 PM, Eric Voit (evoit) wrote:
+>=20
+> >> From: Ralph Droms, November 05, 2007 9:37 PM
+> >>
+> >> Does the short lease/long lease scenario scale the DHCP=20
+> server load=20
+> >> by more than a factor of two?
+> >
+> > Ralph,
+> >
+> > The messages the DHCP servers will double.
+> > The messages with L3 edge (BRAS) will more than double.
+> > The messages with the CPE will more than triple.
+> >
+> > (Below is some rough math. I might have missed a message or=20
+> two, but=20
+> > the general trend is what I am trying to show.)
+> >
+> > -----------------------------------------
+> > CPE Messages
+> > -----------------------------------------
+> > DHCP Auth, assuming a 2 message EAP Method, the messages=20
+> used by EAP=20
+> > would be equal
+> > + 6 Messages (draft-pruss-dhcp-auth-dsl-01)
+> >
+> > PANA+DHCP Method
+> > + 4 Messages: DHCP 1st IP address
+> > ~ (+2) DHCP renews per 60 seconds until authenticated
+> > + 11 Messages PANA with BRAS (draft-ietf-pana-pana-18, section 4.1)
+> > + 4 Messages: DHCP 2nd IP address
+> >
+> > -----------------------------------------
+> > L3 Edge (BRAS) Messages
+> > -----------------------------------------
+> > DHCP Auth, EAP Method
+> > + 8 Messages (draft-pruss-dhcp-auth-dsl-01)
+> >
+> > PANA Method
+> > + 4 Messages: DHCP 1st IP address
+> > ~ (+2) DHCP renews per 60 seconds until authenticated
+> > + 11 Messages PANA with CPE (draft-ietf-pana-pana-18, section 4.1)
+> > + 2 messages min for validating with EAP Server
+> > + 4 Messages: DHCP 2nd IP address
+> >
+> > -----------------------------------------
+> > L2 Edge (DSLAM or Access Switch) Messages
+> > -----------------------------------------
+> > DHCP Auth, EAP Method
+> > + 6 Messages snooped (draft-pruss-dhcp-auth-dsl-01)
+> >
+> > PANA+DHCP Method
+> > + 4 Messages Snooped: DHCP 1st IP address
+> > ~ (+2) DHCP renews per 60 seconds until authenticated If=20
+> snooping: 11=20
+> > Messages PANA (draft-ietf-pana-pana-18, section 4.1) Else=20
+> if explicit=20
+> > policy distribution like ANCP, ~4 messages (one policy per address)
+> > + 4 Messages Snooped: DHCP 2nd IP address
+> >
+> >
+> > Eric
+> >
+> >
+> >> - Ralph
+> >>
+>=20
+>=20
+> _______________________________________________
+> Int-area mailing list
+> Int-area@lists.ietf.org
+> https://www1.ietf.org/mailman/listinfo/int-area
+>=20
+
+_______________________________________________
+dhcwg mailing list
+dhcwg@ietf.org
+https://www1.ietf.org/mailman/listinfo/dhcwg
+
+

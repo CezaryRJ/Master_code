@@ -1,0 +1,2228 @@
+
+From manjunathwarad@huawei.com  Tue Sep  1 01:44:53 2009
+Return-Path: <manjunathwarad@huawei.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 9704D3A6F87 for <sip@core3.amsl.com>; Tue,  1 Sep 2009 01:44:53 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.185
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.185 tagged_above=-999 required=5 tests=[BAYES_40=-0.185]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vZ0XlrSmjJso for <sip@core3.amsl.com>; Tue,  1 Sep 2009 01:44:52 -0700 (PDT)
+Received: from szxga04-in.huawei.com (szxga04-in.huawei.com [119.145.14.67]) by core3.amsl.com (Postfix) with ESMTP id BD4D33A6F7D for <sip@ietf.org>; Tue,  1 Sep 2009 01:44:52 -0700 (PDT)
+Received: from huawei.com (szxga04-in [172.24.2.12]) by szxga04-in.huawei.com (iPlanet Messaging Server 5.2 HotFix 2.14 (built Aug 8 2006)) with ESMTP id <0KPA00MV9AX3IO@szxga04-in.huawei.com> for sip@ietf.org; Tue, 01 Sep 2009 16:43:51 +0800 (CST)
+Received: from huawei.com ([172.24.1.24]) by szxga04-in.huawei.com (iPlanet Messaging Server 5.2 HotFix 2.14 (built Aug 8 2006)) with ESMTP id <0KPA005WNAX3CA@szxga04-in.huawei.com> for sip@ietf.org; Tue, 01 Sep 2009 16:43:51 +0800 (CST)
+Received: from BLRNSHTIPL1NC ([10.18.1.31]) by szxml04-in.huawei.com (iPlanet Messaging Server 5.2 HotFix 2.14 (built Aug 8 2006)) with ESMTPA id <0KPA00CI8AX14L@szxml04-in.huawei.com> for sip@ietf.org; Tue, 01 Sep 2009 16:43:51 +0800 (CST)
+Date: Tue, 01 Sep 2009 14:13:49 +0530
+From: Manjunath Warad <manjunathwarad@huawei.com>
+To: sip@ietf.org
+Message-id: <004401ca2ae0$54538100$1f01120a@china.huawei.com>
+MIME-version: 1.0
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.3790.3168
+X-Mailer: Microsoft Office Outlook 11
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: 7BIT
+Thread-index: AcopPqZnFprZGsdBSNqiM7fSyVl/NwAuhCUgAATspSAANPNVYA==
+Subject: [Sip]   Changed From Tag in Spiral Request
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Sep 2009 08:44:53 -0000
+
+Hi All,
+	If a UA receives a request in a spiralled way then shouldn't the
+>From Tag and Call-ID same as the originated request?
+	Should the UA accept the received request as spiral if call-ID is
+same and From tag is different? Please let me know if there is any business
+use case of such scenario if you have come across.
+	Since the match algo is not well defined for spiral in RFC, we need
+a reference.
+
+Thanks,
+Manju
+
+
+
+****************************************************************************
+***********
+This e-mail and attachments contain confidential information from HUAWEI,
+which is intended only for the person or entity whose address is listed
+above. Any use of the information contained herein in any way (including,
+but not limited to, total or partial disclosure, reproduction, or
+dissemination) by persons other than the intended recipient's) is
+prohibited. If you receive this e-mail in error, please notify the sender by
+phone or email immediately and delete it!
+
+
+From ibc@aliax.net  Tue Sep  1 09:54:44 2009
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C648A3A67DA for <sip@core3.amsl.com>; Tue,  1 Sep 2009 09:54:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.677
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.677 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ct1hapT+Zl8S for <sip@core3.amsl.com>; Tue,  1 Sep 2009 09:54:44 -0700 (PDT)
+Received: from mail-bw0-f219.google.com (mail-bw0-f219.google.com [209.85.218.219]) by core3.amsl.com (Postfix) with ESMTP id D2F4E28C85D for <sip@ietf.org>; Tue,  1 Sep 2009 09:53:26 -0700 (PDT)
+Received: by bwz19 with SMTP id 19so126058bwz.37 for <sip@ietf.org>; Tue, 01 Sep 2009 09:53:34 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.223.77.130 with SMTP id g2mr2976654fak.35.1251824013465; Tue,  01 Sep 2009 09:53:33 -0700 (PDT)
+In-Reply-To: <1ECE0EB50388174790F9694F77522CCF1FB6CCE5@zrc2hxm0.corp.nortel.com>
+References: <608D7BFF0D57794785CBC2C440BC4FA1058116D7@ZMY16EXM67.ds.mot.com> <1ECE0EB50388174790F9694F77522CCF1FA69CD0@zrc2hxm0.corp.nortel.com> <608D7BFF0D57794785CBC2C440BC4FA1058119A2@ZMY16EXM67.ds.mot.com> <1ECE0EB50388174790F9694F77522CCF1FB064B1@zrc2hxm0.corp.nortel.com> <608D7BFF0D57794785CBC2C440BC4FA105811D7C@ZMY16EXM67.ds.mot.com> <1251736265.19992.106.camel@scott> <1251737751.19992.132.camel@scott> <1ECE0EB50388174790F9694F77522CCF1FB6CCE5@zrc2hxm0.corp.nortel.com>
+Date: Tue, 1 Sep 2009 18:53:33 +0200
+Message-ID: <cc1f582e0909010953t583780dfg729b265e1b145f9b@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Francois Audet <audet@nortel.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Mailman-Approved-At: Tue, 01 Sep 2009 10:07:29 -0700
+Cc: sip@ietf.org, sip@core3.amsl.com, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] [Sip-implementors] Question on draft-ietf-sip-outbound-20 draft: multipleflowcreation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Sep 2009 16:54:44 -0000
+
+2009/8/31 Francois Audet <audet@nortel.com>:
+> I would tend to disagree that a policy of "Use UDP preferably
+> and switch to TCP if message is too big" is a good policy. Especially
+> considering that you'd have to keep the TCP connection alive anyways.
+>
+> I believe that always using the TCP connection in this case would
+> make more sense.
+
+I agree totally.
+If a client uses UDP then it uses UDP and the same for TCP, but don't
+mix please, as mixing both protocols in the same client is an exotic
+and idealistic concept just feasible in a "ideal" world (the world
+described in RFC 3261).
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From lists@ohlmeier.org  Wed Sep  2 00:53:01 2009
+Return-Path: <lists@ohlmeier.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 585693A6946 for <sip@core3.amsl.com>; Wed,  2 Sep 2009 00:53:01 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vpwWFXK4zdAm for <sip@core3.amsl.com>; Wed,  2 Sep 2009 00:53:00 -0700 (PDT)
+Received: from bespin.rfc3261.net (cl-395.ede-01.nl.sixxs.net [IPv6:2001:7b8:2ff:18a::2]) by core3.amsl.com (Postfix) with ESMTP id 67A9E3A6D2E for <sip@core3.amsl.com>; Wed,  2 Sep 2009 00:52:46 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by bespin.rfc3261.net (Postfix) with ESMTP id 9E55A7F93; Wed,  2 Sep 2009 09:52:57 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at bespin.rfc3261.net
+Received: from bespin.rfc3261.net ([127.0.0.1]) by localhost (bespin.rfc3261.net [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kt945iMdC4o9; Wed,  2 Sep 2009 09:52:57 +0200 (CEST)
+Received: from Nils.local (unknown [78.52.233.186]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by bespin.rfc3261.net (Postfix) with ESMTPSA id 41F397F8B; Wed,  2 Sep 2009 09:52:57 +0200 (CEST)
+Message-ID: <4A9E2452.4030900@ohlmeier.org>
+Date: Wed, 02 Sep 2009 09:52:50 +0200
+From: Nils Ohlmeier <lists@ohlmeier.org>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; de; rv:1.9.1.1) Gecko/20090715 Thunderbird/3.0b3
+MIME-Version: 1.0
+To: Francois Audet <audet@nortel.com>
+References: <608D7BFF0D57794785CBC2C440BC4FA1058116D7@ZMY16EXM67.ds.mot.com>	<1ECE0EB50388174790F9694F77522CCF1FA69CD0@zrc2hxm0.corp.nortel.com>	<608D7BFF0D57794785CBC2C440BC4FA1058119A2@ZMY16EXM67.ds.mot.com>	<1ECE0EB50388174790F9694F77522CCF1FB064B1@zrc2hxm0.corp.nortel.com>	<608D7BFF0D57794785CBC2C440BC4FA105811D7C@ZMY16EXM67.ds.mot.com>	<1251736265.19992.106.camel@scott>	<1251737751.19992.132.camel@scott> <1ECE0EB50388174790F9694F77522CCF1FB6CCE5@zrc2hxm0.corp.nortel.com>
+In-Reply-To: <1ECE0EB50388174790F9694F77522CCF1FB6CCE5@zrc2hxm0.corp.nortel.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Cc: sip@ietf.org, sip@core3.amsl.com, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] Question on draft-ietf-sip-outbound-20 draft:	multipleflowcreation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 02 Sep 2009 07:53:01 -0000
+
+Am 31.08.09 19:11, schrieb Francois Audet:
+> I would tend to disagree that a policy of "Use UDP preferably
+> and switch to TCP if message is too big" is a good policy. Especially
+> considering that you'd have to keep the TCP connection alive anyways.
+>
+> I believe that always using the TCP connection in this case would
+> make more sense.
+>
+> But it's definitively legal.
+
+I totally agree with this.
+
+But from several years attending SIPit's I would highly recommend you to 
+NOT mix UDP and TCP. From time to time I had already interoperability 
+issues when my proxy did for example UDP to TCP conversion (and back). 
+If you are talking/thinking about an UA implementation which mixes UDP 
+and TCP on the first hop already I would anticipate lots of 
+interoperability issues down the road. You should at least attend a 
+SIPit to check how other proxy and UA implementations react on this. In 
+the end any benefits which you might get from this design decision might 
+be easily eaten up by the support efforts later.
+
+Best regards
+   Nils Ohlmeier
+
+From lists@ohlmeier.org  Wed Sep  2 00:53:01 2009
+Return-Path: <lists@ohlmeier.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 592753A6B36 for <sip@core3.amsl.com>; Wed,  2 Sep 2009 00:53:01 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dCmnb-e-iLhL for <sip@core3.amsl.com>; Wed,  2 Sep 2009 00:53:00 -0700 (PDT)
+Received: from bespin.rfc3261.net (cl-395.ede-01.nl.sixxs.net [IPv6:2001:7b8:2ff:18a::2]) by core3.amsl.com (Postfix) with ESMTP id 6D0193A6F49 for <sip@ietf.org>; Wed,  2 Sep 2009 00:52:48 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by bespin.rfc3261.net (Postfix) with ESMTP id 9E55A7F93; Wed,  2 Sep 2009 09:52:57 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at bespin.rfc3261.net
+Received: from bespin.rfc3261.net ([127.0.0.1]) by localhost (bespin.rfc3261.net [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kt945iMdC4o9; Wed,  2 Sep 2009 09:52:57 +0200 (CEST)
+Received: from Nils.local (unknown [78.52.233.186]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by bespin.rfc3261.net (Postfix) with ESMTPSA id 41F397F8B; Wed,  2 Sep 2009 09:52:57 +0200 (CEST)
+Message-ID: <4A9E2452.4030900@ohlmeier.org>
+Date: Wed, 02 Sep 2009 09:52:50 +0200
+From: Nils Ohlmeier <lists@ohlmeier.org>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; de; rv:1.9.1.1) Gecko/20090715 Thunderbird/3.0b3
+MIME-Version: 1.0
+To: Francois Audet <audet@nortel.com>
+References: <608D7BFF0D57794785CBC2C440BC4FA1058116D7@ZMY16EXM67.ds.mot.com>	<1ECE0EB50388174790F9694F77522CCF1FA69CD0@zrc2hxm0.corp.nortel.com>	<608D7BFF0D57794785CBC2C440BC4FA1058119A2@ZMY16EXM67.ds.mot.com>	<1ECE0EB50388174790F9694F77522CCF1FB064B1@zrc2hxm0.corp.nortel.com>	<608D7BFF0D57794785CBC2C440BC4FA105811D7C@ZMY16EXM67.ds.mot.com>	<1251736265.19992.106.camel@scott>	<1251737751.19992.132.camel@scott> <1ECE0EB50388174790F9694F77522CCF1FB6CCE5@zrc2hxm0.corp.nortel.com>
+In-Reply-To: <1ECE0EB50388174790F9694F77522CCF1FB6CCE5@zrc2hxm0.corp.nortel.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Cc: sip@ietf.org, sip@core3.amsl.com, sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] Question on draft-ietf-sip-outbound-20 draft:	multipleflowcreation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 02 Sep 2009 07:53:01 -0000
+
+Am 31.08.09 19:11, schrieb Francois Audet:
+> I would tend to disagree that a policy of "Use UDP preferably
+> and switch to TCP if message is too big" is a good policy. Especially
+> considering that you'd have to keep the TCP connection alive anyways.
+>
+> I believe that always using the TCP connection in this case would
+> make more sense.
+>
+> But it's definitively legal.
+
+I totally agree with this.
+
+But from several years attending SIPit's I would highly recommend you to 
+NOT mix UDP and TCP. From time to time I had already interoperability 
+issues when my proxy did for example UDP to TCP conversion (and back). 
+If you are talking/thinking about an UA implementation which mixes UDP 
+and TCP on the first hop already I would anticipate lots of 
+interoperability issues down the road. You should at least attend a 
+SIPit to check how other proxy and UA implementations react on this. In 
+the end any benefits which you might get from this design decision might 
+be easily eaten up by the support efforts later.
+
+Best regards
+   Nils Ohlmeier
+
+From jason.fischl@gmail.com  Tue Sep  8 21:43:07 2009
+Return-Path: <jason.fischl@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5BA0B3A6B81 for <sip@core3.amsl.com>; Tue,  8 Sep 2009 21:43:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.299 tagged_above=-999 required=5 tests=[AWL=0.300,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OMFMP7XQjgt3 for <sip@core3.amsl.com>; Tue,  8 Sep 2009 21:43:05 -0700 (PDT)
+Received: from mail-yw0-f188.google.com (mail-yw0-f188.google.com [209.85.211.188]) by core3.amsl.com (Postfix) with ESMTP id 7967E3A6806 for <sip@ietf.org>; Tue,  8 Sep 2009 21:43:02 -0700 (PDT)
+Received: by ywh26 with SMTP id 26so5944569ywh.5 for <multiple recipients>; Tue, 08 Sep 2009 21:43:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:from:date:message-id :subject:to:cc:content-type:content-transfer-encoding; bh=QoFKPZoS3Twf7RozruZggpDnhP8O7PdZ2+6eoVEZFTM=; b=JdKbyQzMellUUgCWjzdESBaR1ourXtb5xhBX4pvl/ctUygHuoZ6HUVSlHxJdh/o+of f06IG+GZg6iCPf+FXAO+henziN36bLrtJtOLlIAGs3G77BfJqjtLZ+/kbjRU2z2Oeasd ZtyllU7PwewAOmQXeVYjSqcCj7nIk7Bw2xz5Q=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:from:date:message-id:subject:to:cc:content-type :content-transfer-encoding; b=eVZQCo3LsMeAhpFozcj4Zx/+frI4/BtUCRdeGYVMfSuEFgEgNpnqa6zc7MgtaSVFHF A6AdSu1mfP452cnozk1smyV/QcmcpnP688DGCLmKXZRXcU1OoA1Li+J8h/AJT+VFSKhn KTtYL8InJlBsHTqEPmjWNYWQJt2X7ycINVJsM=
+MIME-Version: 1.0
+Received: by 10.150.56.14 with SMTP id e14mr26287828yba.333.1252471408918;  Tue, 08 Sep 2009 21:43:28 -0700 (PDT)
+From: Jason Fischl <jason.fischl@gmail.com>
+Date: Tue, 8 Sep 2009 21:43:05 -0700
+Message-ID: <c164605b0909082143kfaa5c4vf2c510d8c6cd013a@mail.gmail.com>
+To: IETF SIP List <sip@ietf.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Cc: sip-chairs@ietf.org
+Subject: [Sip] updates to draft-ietf-sip-certs
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Sep 2009 04:43:07 -0000
+
+Based on a Gen-ART review, I've updated the document. Thanks to Suresh
+Krishnan for the review. Most of these changes were in
+draft-ietf-sip-certs-08.
+
+http://www.ietf.org/id/draft-ietf-sip-certs-09.txt.
+
+* Section 3 deployment scenario 3
+> How is the password phrase conveyed to the UA if the credential server
+> generates the credentials?
+>
+
+The text was a bit confusing as it describes two different scenarios.
+I think it should really only be describing the scenario where there
+is no pass phrase and the credential server itself generates the
+credentials.  Modified the text to be:
+
+3. =A0Deployments where the credential server generates and stores the
+certificates
+=A0 =A0 =A0and private keys. Deployments such as these may not
+=A0 =A0 =A0use password phrases. Consequently, the private keys are not
+=A0 =A0 =A0encrypted inside the PKCS#8 objects. =A0This style of deployment
+=A0 =A0 =A0would often have the credential server, instead of the devices,
+=A0 =A0 =A0create the credentials.
+
+>
+> * Section 7.9
+>
+> I think it needs to be mentioned here that the initial publish will not
+> contain a SIP-If-Match header as there is no previous etag. If a
+> SIP-If-Match header is required even for an initial request, the example =
+in
+> section 8.2 needs to be updated.
+
+Good catch. This particular mechanism didn't make sense and wasn't
+consistent with RFC 3903.
+
+>
+> * Section 9.1
+>
+> This section does not cover the relationship between the subscription
+> duration and the certificate cache duration. It would be nice if you can =
+add
+> some text here to say that the UA MUST NOT cache the certificates for a
+> period longer than that of the subscription. This way the UE can be notif=
+ied
+> of any revocations or changes in the certificate.
+
+Added a 4th paragraph:
+=A0 =A0 =A0 =A0The UA MUST NOT cache the certificates for a period longer t=
+han that
+=A0 =A0 =A0 =A0of the subscription duration. This is to avoid the UA using =
+invalid
+=A0 =A0 =A0 =A0cached credentials when the notifier of the new credentials =
+has been
+=A0 =A0 =A0 =A0prevented from updating the UA.
+
+> Editorial
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D
+>
+> * Intended status is missing (I understand this is targeting Proposed
+> Standard based on the tracker)
+fixed
+
+>
+> * Please fix these obsolete references
+> - =A0RFC 3268 (Obsoleted by RFC 5246)
+fixed
+
+>
+> - =A0RFC 4366 (Obsoleted by RFC 5246)
+fixed
+
+> In May RSA gave change control of PKCS#8 to the IETF.  Any chance
+> we can swap out the reference to [PKCS.8.1993] to [RFC5208]?
+fixed
+
+Cheers
+Jason
+
+From root@core3.amsl.com  Tue Sep  8 21:45:02 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 1D5D23A68EC; Tue,  8 Sep 2009 21:45:01 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20090909044502.1D5D23A68EC@core3.amsl.com>
+Date: Tue,  8 Sep 2009 21:45:02 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-certs-09.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Sep 2009 04:45:02 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Certificate Management Service for The Session Initiation Protocol (SIP)
+	Author(s)       : C. Jennings, J. Fischl
+	Filename        : draft-ietf-sip-certs-09.txt
+	Pages           : 29
+	Date            : 2009-09-08
+
+This draft defines a Credential Service that allows Session
+Initiation Protocol (SIP) User Agents (UAs) to use a SIP event
+package to discover the certificates of other users.  This mechanism
+allows user agents that want to contact a given Address-of-Record
+(AOR) to retrieve that AOR's certificate by subscribing to the
+Credential Service, which returns an authenticated response
+containing that certificate.  The Credential Service also allows
+users to store and retrieve their own certificates and private keys.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-certs-09.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-certs-09.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-09-08214025.I-D@ietf.org>
+
+
+--NextPart--
+
+From ranjit@motorola.com  Wed Sep  9 02:34:49 2009
+Return-Path: <ranjit@motorola.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 45BA23A68F0; Wed,  9 Sep 2009 02:34:49 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id l-IsSdh4DVSD; Wed,  9 Sep 2009 02:34:43 -0700 (PDT)
+Received: from mail128.messagelabs.com (mail128.messagelabs.com [216.82.250.131]) by core3.amsl.com (Postfix) with ESMTP id 018293A67FF; Wed,  9 Sep 2009 02:34:42 -0700 (PDT)
+X-VirusChecked: Checked
+X-Env-Sender: ranjit@motorola.com
+X-Msg-Ref: server-8.tower-128.messagelabs.com!1252488913!9042588!1
+X-StarScan-Version: 6.1.3; banners=-,-,-
+X-Originating-IP: [129.188.136.8]
+Received: (qmail 18198 invoked from network); 9 Sep 2009 09:35:14 -0000
+Received: from motgate8.mot.com (HELO motgate8.mot.com) (129.188.136.8) by server-8.tower-128.messagelabs.com with DHE-RSA-AES256-SHA encrypted SMTP; 9 Sep 2009 09:35:14 -0000
+Received: from il06exr03.mot.com (il06exr03.mot.com [129.188.137.133]) by motgate8.mot.com (8.14.3/8.14.3) with ESMTP id n899ZBvq025280; Wed, 9 Sep 2009 02:35:13 -0700 (MST)
+Received: from il06vts03.mot.com (il06vts03.mot.com [129.188.137.143]) by il06exr03.mot.com (8.13.1/Vontu) with SMTP id n899ZBon024409; Wed, 9 Sep 2009 04:35:11 -0500 (CDT)
+Received: from ZMY16EXM66.ds.mot.com (zmy16exm66.ap.mot.com [10.179.4.26]) by il06exr03.mot.com (8.13.1/8.13.0) with ESMTP id n899Z9l4024399; Wed, 9 Sep 2009 04:35:10 -0500 (CDT)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01CA3130.C421AE9C"
+Date: Wed, 9 Sep 2009 17:34:43 +0800
+Message-ID: <750BBC72E178114F9DC4872EBFF29A5B09167F54@ZMY16EXM66.ds.mot.com>
+In-Reply-To: <0E48B768805E4D44A70709C8AE09209003AFC6A4@EMAILEMEA3.jnpr.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] New version of "draft-avasasarala-dispatch-comm-diversion-info" draft submitted
+Thread-Index: AcoPSGlfXjMN39SUTDiDCIozl/Ik3gPv+k6AACM0FAAEZq/OIA==
+References: <750BBC72E178114F9DC4872EBFF29A5B08434BC0@ZMY16EXM66.ds.mot.com> <750BBC72E178114F9DC4872EBFF29A5B08A98101@ZMY16EXM66.ds.mot.com> <0E48B768805E4D44A70709C8AE09209003AFC6A4@EMAILEMEA3.jnpr.net>
+From: "Avasarala Ranjit-A20990" <ranjit@motorola.com>
+To: "Gilad Shaham" <gshaham@juniper.net>
+X-CFilter-Loop: Reflected
+Cc: sip@ietf.org, dispatch@ietf.org
+Subject: Re: [Sip] New version of "draft-avasasarala-dispatch-comm-diversion-info" draft submitted
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Sep 2009 09:34:49 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CA3130.C421AE9C
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Gilad
+=20
+Thanks for reviewing the document. Here my comments with <Ranjit>
+Regards=20
+Ranjit=20
+=20
+
+________________________________
+
+From: Gilad Shaham [mailto:gshaham@juniper.net]=20
+Sent: Tuesday, August 18, 2009 5:50 AM
+To: Avasarala Ranjit-A20990; dispatch@ietf.org; sip@ietf.org
+Subject: RE: [Sip] New version
+of"draft-avasasarala-dispatch-comm-diversion-info" draft submitted
+
+
+
+Hi,
+
+=20
+
+See some comments
+
+=20
+
+Page 5:
+
+   "... For e.g. the subscriber wanted to diverted all incoming calls to
+voice-mail,
+   between 3.00 p.m. to 4.00 p.m.  Yet, by mistake she configures the
+   time-duration as 3.00 to 4.00 p.m"
+
+Some of the sentence needs restructuring and I also don't fully
+understand the example. Is it AM-PM or wrong field was configured?=20
+
+<Ranjit> Agreed.  Will correct the sentence.=20
+
+=20
+
+Page 12:
+
+What if time-range is missing? What should be the default? Sounds to me
+the default should be the current time with no end date.=20
+
+<Ranjit> if time-range is missing, then notifications for all
+communication diversions are sent.=20
+
+=20
+
+Page 14:
+
+In Comm-div-info-selection-criteria there are several disable-*
+subsections, yet their text describes these element gives the subscriber
+option of adding information. Shouldn't this be for omitting information
+or alternatively, call these elements "enable-*" or did I misunderstand
+the purpose.=20
+
+<Ranjit>  E.g disable-originating-user-info -> this element gives the
+subscriber the option of adding originating-user-info element to the
+notification information. The default value is false which means that
+the subscriber wants the originating-user-info element to be present as
+part of the notification information. If the value is set to TRUE, then
+originating-user-info element is removed from the notification
+information document.=20
+
+=20
+
+Page 16:
+
+             <user-name>Boss</originating-user-name>
+
+Should be
+
+             <user-name>Boss</user-name>=20
+<Ranjit> Corrected.
+=20
+
+It might be also useful to see an example of periodic request.=20
+
+<Ranjit> Will see if I can add one.=20
+
+=20
+
+Page 21:
+
+503 is there, but I don't see 500. Some implementations will avoid 503
+and use 500 due to discussion related to this
+http://tools.ietf.org/html/draft-hilt-sip-correction-503-01 (now
+expired, but still affected some vendor decisions). I might be able to
+think of some scenario that involves 502, but I assume this is a result
+of the diversion implementation itself so maybe that's the context of
+this discussion.=20
+
+<Ranjit> Will add 500 also.=20
+
+=20
+
+Thanks
+
+=20
+
+Thanks
+
+Gilad
+
+=20
+
+________________________________
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+Avasarala Ranjit-A20990
+Sent: Monday, August 17, 2009 10:07 AM
+To: dispatch@ietf.org; sip@ietf.org
+Subject: [Sip] New version
+of"draft-avasasarala-dispatch-comm-diversion-info" draft submitted
+
+=20
+
+Hi All=20
+
+We have submitted an updated version of
+draft-avasasarala-dispatch-comm-diversion-info=20
+
+It can be accessed at:
+http://www.ietf.org/internet-drafts/draft-avasarala-dispatch-comm-div-no
+tification-01.txt
+<http://www.ietf.org/internet-drafts/draft-avasarala-dispatch-comm-div-n
+otification-01.txt>=20
+
+This draft proposes a SIP Event package for Communication Diversions
+Notification Information and conforms to procedures and schema described
+in 3GPP TS 24.604.=20
+
+Please review and comment
+
+Regards=20
+Ranjit=20
+
+
+------_=_NextPart_001_01CA3130.C421AE9C
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>New version of =
+"draft-avasasarala-dispatch-comm-diversion-info" draft submitted</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.3603" name=3DGENERATOR><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]-->
+<STYLE>@font-face {
+	font-family: PMingLiU;
+}
+@font-face {
+	font-family: Tahoma;
+}
+@font-face {
+	font-family: @PMingLiU;
+}
+@page Section1 {size: 612.0pt 792.0pt; margin: 72.0pt 90.0pt 72.0pt =
+90.0pt; }
+P.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New Roman"
+}
+LI.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New Roman"
+}
+DIV.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New Roman"
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+P {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 0cm; MARGIN-RIGHT: 0cm; FONT-FAMILY: =
+"Times New Roman"; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+PRE {
+	FONT-SIZE: 10pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Courier New"
+}
+SPAN.EmailStyle18 {
+	COLOR: navy; FONT-FAMILY: Arial; mso-style-type: personal-reply
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+</HEAD>
+<BODY lang=3DEN-US vLink=3Dblue link=3Dblue>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D054262809-09092009><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2>Hi Gilad</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D054262809-09092009><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D054262809-09092009><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2>Thanks for reviewing the document. Here my =
+comments with=20
+<STRONG>&lt;Ranjit&gt;</STRONG></FONT></SPAN></DIV>
+<DIV><SPAN lang=3Den-us><FONT face=3DArial color=3D#0000ff=20
+size=3D2>Regards</FONT></SPAN> <BR><SPAN lang=3Den-us><FONT face=3DArial =
+color=3D#0000ff=20
+size=3D2>Ranjit</FONT></SPAN> </DIV>
+<DIV>&nbsp;</DIV><BR>
+<DIV class=3DOutlookMessageHeader lang=3Den-us dir=3Dltr align=3Dleft>
+<HR tabIndex=3D-1>
+<FONT face=3DTahoma size=3D2><B>From:</B> Gilad Shaham =
+[mailto:gshaham@juniper.net]=20
+<BR><B>Sent:</B> Tuesday, August 18, 2009 5:50 AM<BR><B>To:</B> =
+Avasarala=20
+Ranjit-A20990; dispatch@ietf.org; sip@ietf.org<BR><B>Subject:</B> RE: =
+[Sip] New=20
+version of"draft-avasasarala-dispatch-comm-diversion-info" draft=20
+submitted<BR></FONT><BR></DIV>
+<DIV></DIV>
+<DIV class=3DSection1>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial">Hi,<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">See some=20
+comments<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">Page=20
+5:<o:p></o:p></SPAN></FONT></P><PRE><FONT face=3D"Courier New" =
+size=3D2><SPAN style=3D"FONT-SIZE: 10pt">&nbsp;&nbsp; &#8220;... For =
+e.g. the subscriber wanted to diverted all incoming calls to =
+voice-mail,<o:p></o:p></SPAN></FONT></PRE><PRE><FONT face=3D"Courier =
+New" size=3D2><SPAN style=3D"FONT-SIZE: 10pt">&nbsp;&nbsp; between 3.00 =
+p.m. to 4.00 p.m.&nbsp; Yet, by mistake she configures =
+the<o:p></o:p></SPAN></FONT></PRE><PRE><FONT face=3D"Courier New" =
+size=3D2><SPAN style=3D"FONT-SIZE: 10pt">&nbsp;&nbsp; time-duration as =
+3.00 to 4.00 p.m&#8221;<o:p></o:p></SPAN></FONT></PRE>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">Some of the =
+sentence=20
+needs restructuring and I also don&#8217;t fully understand the example. =
+Is it AM-PM=20
+or wrong field was configured?<FONT color=3D#0000ff><SPAN=20
+class=3D054262809-09092009>&nbsp;</SPAN></FONT></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN class=3D054262809-09092009><STRONG>&lt;Ranjit&gt;=20
+Agreed.&nbsp; Will correct the=20
+sentence.</STRONG>&nbsp;</SPAN><o:p></o:p></FONT></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">Page=20
+12:<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">What if =
+time-range is=20
+missing? What should be the default? Sounds to me the default should be =
+the=20
+current time with no end date.<FONT color=3D#0000ff><SPAN=20
+class=3D054262809-09092009>&nbsp;</SPAN></FONT></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN class=3D054262809-09092009><STRONG>&lt;Ranjit&gt; =
+if=20
+time-range is missing, then&nbsp;notifications for all communication =
+diversions=20
+are sent.</STRONG>&nbsp;</SPAN><o:p></o:p></FONT></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">Page=20
+14:<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">In=20
+Comm-div-info-selection-criteria there are several disable-* =
+subsections, yet=20
+their text describes these element gives the subscriber option of adding =
+
+information. Shouldn&#8217;t this be for omitting information or =
+alternatively, call=20
+these elements &#8220;enable-*&#8221; or did I misunderstand the =
+purpose.<FONT=20
+color=3D#0000ff><SPAN=20
+class=3D054262809-09092009>&nbsp;</SPAN></FONT></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN class=3D054262809-09092009><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN =
+class=3D054262809-09092009><STRONG>&lt;Ranjit&gt;&nbsp; E.g=20
+disable-originating-user-info -&gt; this&nbsp;element gives the =
+subscriber the=20
+option of adding&nbsp;originating-user-info element to the notification=20
+information. The default value is&nbsp;false which means that the =
+subscriber=20
+wants the originating-user-info element to be present as part of the=20
+notification information. If the value is set to TRUE, then=20
+originating-user-info element is removed from the notification =
+information=20
+document.</STRONG></SPAN></FONT></SPAN>&nbsp;</SPAN><o:p></o:p></FONT></S=
+PAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">Page=20
+16:<o:p></o:p></SPAN></FONT></P><PRE><FONT face=3D"Courier New" =
+size=3D2><SPAN style=3D"FONT-SIZE: =
+10pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; =
+&lt;user-name&gt;Boss&lt;/originating-user-name&gt;<o:p></o:p></SPAN></FO=
+NT></PRE>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">Should=20
+be<o:p></o:p></SPAN></FONT></P><PRE><FONT face=3D"Courier New"><SPAN =
+style=3D"FONT-SIZE: =
+10pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; &lt;user-name&gt;Boss&lt;/user-name&gt;<FONT face=3DArial><FONT =
+color=3D#0000ff><SPAN =
+class=3D054262809-09092009>&nbsp;</SPAN></FONT></FONT></SPAN></FONT></PRE=
+><PRE><FONT face=3D"Courier New"><SPAN style=3D"FONT-SIZE: 10pt"><FONT =
+face=3DArial><FONT color=3D#0000ff><SPAN =
+class=3D054262809-09092009><SPAN style=3D"FONT-SIZE: 10pt; COLOR: navy; =
+FONT-FAMILY: Arial"><FONT color=3D#0000ff><SPAN =
+class=3D054262809-09092009><STRONG>&lt;Ranjit&gt; =
+Corrected.</STRONG></SPAN></FONT></SPAN></SPAN></FONT></FONT></SPAN></FON=
+T></PRE><PRE><FONT face=3D"Courier New"><SPAN style=3D"FONT-SIZE: =
+10pt"><FONT face=3DArial><FONT color=3D#0000ff><SPAN =
+class=3D054262809-09092009><SPAN style=3D"FONT-SIZE: 10pt; COLOR: navy; =
+FONT-FAMILY: Arial"><FONT color=3D#0000ff><SPAN =
+class=3D054262809-09092009></SPAN></FONT></SPAN>&nbsp;</SPAN><o:p></o:p><=
+/FONT></FONT></SPAN></FONT></PRE>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">It might be =
+also useful=20
+to see an example of periodic request.<FONT color=3D#0000ff><SPAN=20
+class=3D054262809-09092009>&nbsp;</SPAN></FONT></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN class=3D054262809-09092009><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN=20
+class=3D054262809-09092009><STRONG>&lt;Ranjit&gt;&nbsp;Will&nbsp;see if =
+I can add=20
+one.</STRONG></SPAN></FONT></SPAN>&nbsp;</SPAN><o:p></o:p></FONT></SPAN><=
+/FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">Page=20
+21:<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial">503 is there, =
+but I=20
+don&#8217;t see 500. Some implementations will avoid 503 and use 500 due =
+to discussion=20
+related to this <A=20
+href=3D"http://tools.ietf.org/html/draft-hilt-sip-correction-503-01">http=
+://tools.ietf.org/html/draft-hilt-sip-correction-503-01</A>=20
+(now expired, but still affected some vendor decisions). I might be able =
+to=20
+think of some scenario that involves 502, but I assume this is a result =
+of the=20
+diversion implementation itself so maybe that&#8217;s the context of =
+this=20
+discussion.<FONT color=3D#0000ff><SPAN=20
+class=3D054262809-09092009>&nbsp;</SPAN></FONT></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN class=3D054262809-09092009><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN =
+class=3D054262809-09092009><STRONG>&lt;Ranjit&gt;&nbsp;Will=20
+add 500=20
+also.</STRONG></SPAN></FONT></SPAN>&nbsp;</SPAN></FONT></SPAN></FONT></P>=
+
+<P class=3DMsoNormal><FONT color=3Dnavy><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><FONT=20
+color=3D#0000ff><SPAN=20
+class=3D054262809-09092009><STRONG></STRONG></SPAN></FONT></SPAN></FONT>&=
+nbsp;</P>
+<P class=3DMsoNormal><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial"><SPAN=20
+class=3D054262809-09092009></SPAN><o:p><SPAN =
+class=3D054262809-09092009><FONT=20
+color=3D#0000ff>Thanks</FONT></SPAN></o:p></SPAN></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial">Thanks<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial">Gilad<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dnavy size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: =
+Arial"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<DIV>
+<DIV class=3DMsoNormal style=3D"TEXT-ALIGN: center" align=3Dcenter><FONT =
+
+face=3D"Times New Roman" size=3D3><SPAN style=3D"FONT-SIZE: 12pt">
+<HR tabIndex=3D-1 align=3Dcenter width=3D"100%" SIZE=3D2>
+</SPAN></FONT></DIV>
+<P class=3DMsoNormal><B><FONT face=3DTahoma size=3D2><SPAN=20
+style=3D"FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: =
+Tahoma">From:</SPAN></FONT></B><FONT=20
+face=3DTahoma size=3D2><SPAN style=3D"FONT-SIZE: 10pt; FONT-FAMILY: =
+Tahoma">=20
+sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] <B><SPAN=20
+style=3D"FONT-WEIGHT: bold">On Behalf Of </SPAN></B>Avasarala=20
+Ranjit-A20990<BR><B><SPAN style=3D"FONT-WEIGHT: bold">Sent:</SPAN></B> =
+Monday,=20
+August 17, 2009 10:07 AM<BR><B><SPAN style=3D"FONT-WEIGHT: =
+bold">To:</SPAN></B>=20
+dispatch@ietf.org; sip@ietf.org<BR><B><SPAN=20
+style=3D"FONT-WEIGHT: bold">Subject:</SPAN></B> [Sip] New version=20
+of"draft-avasasarala-dispatch-comm-diversion-info" draft=20
+submitted</SPAN></FONT><o:p></o:p></P></DIV>
+<P class=3DMsoNormal><FONT face=3D"Times New Roman" size=3D3><SPAN=20
+style=3D"FONT-SIZE: 12pt"><o:p>&nbsp;</o:p></SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial color=3Dblue size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY: Arial">Hi =
+All</SPAN></FONT>=20
+<o:p></o:p></P>
+<P><FONT face=3DArial color=3Dblue size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY: Arial">We have =
+submitted an=20
+updated version of draft-avasasarala-dispatch-comm-diversion-info=20
+</SPAN></FONT><o:p></o:p></P>
+<P><FONT face=3DArial color=3Dblue size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY: Arial">It can be =
+accessed at:=20
+</SPAN></FONT><FONT face=3DArial size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><A=20
+href=3D"http://www.ietf.org/internet-drafts/draft-avasarala-dispatch-comm=
+-div-notification-01.txt"=20
+target=3D_top jQuery1250492662043=3D"3"><FONT face=3D"Times New Roman" =
+size=3D3><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: 'Times New =
+Roman'">http://www.ietf.org/internet-drafts/draft-avasarala-dispatch-comm=
+-div-notification-01.txt</SPAN></FONT></A></SPAN></FONT><o:p></o:p></P>
+<P><FONT face=3DArial color=3Dblue size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY: Arial">This draft =
+proposes a=20
+SIP Event package for Communication Diversions Notification Information =
+and=20
+conforms to procedures and schema described in 3GPP TS=20
+24.604.&nbsp;</SPAN></FONT><o:p></o:p></P>
+<P><FONT face=3DArial color=3Dblue size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY: Arial">Please review =
+and=20
+comment</SPAN></FONT><o:p></o:p></P>
+<P><FONT face=3DArial color=3Dblue size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY: =
+Arial">Regards</SPAN></FONT>=20
+<BR><FONT face=3DArial color=3Dblue size=3D2><SPAN=20
+style=3D"FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY: =
+Arial">Ranjit</SPAN></FONT>=20
+<o:p></o:p></P></DIV></BODY></HTML>
+
+------_=_NextPart_001_01CA3130.C421AE9C--
+
+From wwwrun@core3.amsl.com  Wed Sep  9 08:43:19 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 3249A28C397; Wed,  9 Sep 2009 08:43:18 -0700 (PDT)
+X-idtracker: yes
+To: IETF-Announce <ietf-announce@ietf.org> 
+From: The IESG <iesg-secretary@ietf.org>
+Message-Id: <20090909154319.3249A28C397@core3.amsl.com>
+Date: Wed,  9 Sep 2009 08:43:18 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] Last Call: draft-ietf-sip-certs (Certificate Management Service for The Session Initiation Protocol (SIP)) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ietf@ietf.org
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 09 Sep 2009 15:43:19 -0000
+
+The IESG has received a request from the Session Initiation Protocol WG 
+(sip) to consider the following document:
+
+- 'Certificate Management Service for The Session Initiation Protocol 
+   (SIP) '
+   <draft-ietf-sip-certs-09.txt> as a Proposed Standard
+
+Verion -07 of this document received IETF Last Call review in January 2009.
+
+This version contains minor updates, one of which needs particular attention.
+
+The normative reference to:
+     [PKCS.8.1993]
+              RSA Laboratories, "Private-Key Information Syntax
+              Standard, Version 1.2", PKCS 8, November 1993.
+has changed to
+   [RFC5208]  Kaliski, B., "Public-Key Cryptography Standards (PKCS) #8:
+              Private-Key Information Syntax Specification Version 1.2",
+              RFC 5208, May 2008.
+
+which is an Informational RFC. Please comment if you think this normative
+reference is inappropriate.
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send substantive comments to the
+ietf@ietf.org mailing lists by 2009-09-23. Exceptionally, 
+comments may be sent to iesg@ietf.org instead. In either case, please 
+retain the beginning of the Subject line to allow automated sorting.
+
+The file can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-sip-certs-09.txt
+
+
+IESG discussion can be tracked via
+https://datatracker.ietf.org/public/pidtracker.cgi?command=view_id&dTag=14709&rfc_flag=0
+
+
+From rfc-editor@rfc-editor.org  Thu Sep 10 15:24:26 2009
+Return-Path: <rfc-editor@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id ED7D63A67FC; Thu, 10 Sep 2009 15:24:26 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -16.577
+X-Spam-Level: 
+X-Spam-Status: No, score=-16.577 tagged_above=-999 required=5 tests=[AWL=0.422, BAYES_00=-2.599, J_CHICKENPOX_93=0.6, USER_IN_DEF_WHITELIST=-15]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id rCXZWfM1VLaA; Thu, 10 Sep 2009 15:24:26 -0700 (PDT)
+Received: from bosco.isi.edu (bosco.isi.edu [128.9.168.207]) by core3.amsl.com (Postfix) with ESMTP id DE5883A67CC; Thu, 10 Sep 2009 15:24:25 -0700 (PDT)
+Received: by bosco.isi.edu (Postfix, from userid 70) id DA75D31935D; Thu, 10 Sep 2009 15:23:29 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20090910222329.DA75D31935D@bosco.isi.edu>
+Date: Thu, 10 Sep 2009 15:23:29 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5621 on Message Body Handling in the Session Initiation Protocol (SIP)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Sep 2009 22:24:27 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5621
+
+        Title:      Message Body Handling in the 
+                    Session Initiation Protocol (SIP) 
+        Author:     G. Camarillo
+        Status:     Standards Track
+        Date:       September 2009
+        Mailbox:    Gonzalo.Camarillo@ericsson.com
+        Pages:      19
+        Characters: 43676
+        Updates:    RFC3204, RFC3261, RFC3459
+
+        I-D Tag:    draft-ietf-sip-body-handling-06.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5621.txt
+
+This document specifies how message bodies are handled in SIP.
+Additionally, this document specifies SIP user agent support for MIME
+(Multipurpose Internet Mail Extensions) in message bodies.  
+[STANDARDS TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+USC/Information Sciences Institute
+
+
+
+From root@core3.amsl.com  Sun Sep 13 17:15:02 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id D0DBC3A695C; Sun, 13 Sep 2009 17:15:02 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20090914001502.D0DBC3A695C@core3.amsl.com>
+Date: Sun, 13 Sep 2009 17:15:02 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-session-policy-framework-06.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 14 Sep 2009 00:15:03 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : A Framework for Session Initiation Protocol (SIP) Session Policies
+	Author(s)       : V. Hilt, et al.
+	Filename        : draft-ietf-sip-session-policy-framework-06.txt
+	Pages           : 37
+	Date            : 2009-09-13
+
+Proxy servers play a central role as an intermediary in the Session
+Initiation Protocol (SIP) as they define and impact policies on call
+routing, rendezvous, and other call features.  This document
+specifies a framework for SIP session policies that provides a
+standard mechanism by which a proxy can define or influence policies
+on sessions, such as the codecs or media types to be used.  It
+defines a model, an overall architecture and new protocol mechanisms
+for session policies.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-session-policy-framework-06.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-session-policy-framework-06.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-09-13170048.I-D@ietf.org>
+
+
+--NextPart--
+
+From ding.xuexin@zte.com.cn  Thu Sep 17 22:46:08 2009
+Return-Path: <ding.xuexin@zte.com.cn>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E54AD3A6A7C for <sip@core3.amsl.com>; Thu, 17 Sep 2009 22:46:08 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -99.98
+X-Spam-Level: 
+X-Spam-Status: No, score=-99.98 tagged_above=-999 required=5 tests=[BAYES_20=-0.74, RCVD_DOUBLE_IP_LOOSE=0.76, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id abIfukxZkFtq for <sip@core3.amsl.com>; Thu, 17 Sep 2009 22:46:08 -0700 (PDT)
+Received: from mx5.zte.com.cn (mx5.zte.com.cn [63.217.80.70]) by core3.amsl.com (Postfix) with ESMTP id 567203A6A85 for <sip@ietf.org>; Thu, 17 Sep 2009 22:46:07 -0700 (PDT)
+Received: from [10.30.17.100] by mx5.zte.com.cn with surfront esmtp id 111641112621526; Fri, 18 Sep 2009 13:23:45 +0800 (CST)
+Received: from [10.30.3.18] by [10.30.17.100] with StormMail ESMTP id 95314.1112621526; Fri, 18 Sep 2009 13:36:43 +0800 (CST)
+Received: from notes_smtp.zte.com.cn ([10.30.1.239]) by mse1.zte.com.cn with ESMTP id n8I5kpGo068319 for <sip@ietf.org>; Fri, 18 Sep 2009 13:46:51 +0800 (CST) (envelope-from ding.xuexin@zte.com.cn)
+To: sip@ietf.org
+X-Mailer: Lotus Notes Release 6.0.4 June 01, 2004
+Message-ID: <OFAE72CBC7.E9FEFC33-ON48257635.001FA9BF-48257635.001FBE81@zte.com.cn>
+From: ding.xuexin@zte.com.cn
+Date: Fri, 18 Sep 2009 13:46:39 +0800
+X-MIMETrack: Serialize by Router on notes_smtp/zte_ltd(Release 6.5.4|March 27, 2005) at 2009-09-18 13:46:44
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+X-MAIL: mse1.zte.com.cn n8I5kpGo068319
+X-Mailman-Approved-At: Fri, 18 Sep 2009 07:11:08 -0700
+Cc: shi.hao2@zte.com.cn
+Subject: [Sip] two questions for route information preprocessing of initial INVITE with Route headers
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Sep 2009 05:50:23 -0000
+
+Hi, all
+
+
+I have two questions for route information preprocessing of initial INVITE
+with Route headers
+
+
+first question:
+
+UA(or B2BUA) receives an initial INVITE with Route headers, assuming UA's
+host is example.com
+
+if the sip entity which sends the INVITE is a loose router, the INVITE may
+be like this:
+
+   INVITE sip:bob@example.com
+   Route: <sip:xx@example.com;lr>
+
+if the sip entity which sends the INVITE is a strict router, the INVITE may
+be like this:
+
+   INVITE sip:xx@example.com
+   Route: <sip:bob@example.com>
+
+we cannot distinguish those two scenarioes because Requet-URIs in two
+scenarioes are similar.
+if we do route information preprocessing according RFC3261 section 16.4, we
+will get two different
+results. And there is no desciption for UA route information preprocessing
+in RFC3261, RFC3261
+section 16.4 just describes proxy behavior.
+
+How to processing route information of initial INVITE with Route headers
+for UA?
+
+
+second question:
+
+as RFC3261 section 16.4 descibed, proxy must check whether the request-uri
+was placed by the
+proxy previously. But the request-uri in initial INVITE must not be placed
+by the proxy previously.
+
+Is something wrong with RFC3261 section 16.4?
+
+
+                                                                   Best
+Regards
+
+
+LionEagle
+
+
+
+--------------------------------------------------------
+ZTE Information Security Notice: The information contained in this mail is solely property of the sender's organization. This mail communication is confidential. Recipients named above are obligated to maintain secrecy and are not permitted to disclose the contents of this communication to others.
+This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the originator of the message. Any views expressed in this message are those of the individual sender.
+This message has been scanned for viruses and Spam by ZTE Anti-Spam system.
+
+
+From scott.lawrence@nortel.com  Tue Sep 22 09:32:39 2009
+Return-Path: <scott.lawrence@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 774273A6901 for <sip@core3.amsl.com>; Tue, 22 Sep 2009 09:32:39 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.152
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.152 tagged_above=-999 required=5 tests=[AWL=-0.153, BAYES_00=-2.599, J_CHICKENPOX_22=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id uVObmer9PrC3 for <sip@core3.amsl.com>; Tue, 22 Sep 2009 09:32:38 -0700 (PDT)
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by core3.amsl.com (Postfix) with ESMTP id 717E03A67A6 for <sip@ietf.org>; Tue, 22 Sep 2009 09:32:34 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id n8MGXQJ03822; Tue, 22 Sep 2009 16:33:26 GMT
+Received: from [127.0.0.1] ([47.17.25.99]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959); Tue, 22 Sep 2009 12:33:11 -0400
+From: "Scott Lawrence" <scott.lawrence@nortel.com>
+To: ding.xuexin@zte.com.cn
+In-Reply-To: <OFAE72CBC7.E9FEFC33-ON48257635.001FA9BF-48257635.001FBE81@zte.com.cn>
+References: <OFAE72CBC7.E9FEFC33-ON48257635.001FA9BF-48257635.001FBE81@zte.com.cn>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Tue, 22 Sep 2009 12:33:10 -0400
+Message-Id: <1253637190.9152.37.camel@scott>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.24.5 (2.24.5-2.fc10) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 22 Sep 2009 16:33:11.0853 (UTC) FILETIME=[603865D0:01CA3BA2]
+Cc: sip@ietf.org, shi.hao2@zte.com.cn
+Subject: Re: [Sip] two questions for route information preprocessing of initial INVITE with Route headers
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 22 Sep 2009 16:32:39 -0000
+
+On Fri, 2009-09-18 at 13:46 +0800, ding.xuexin@zte.com.cn wrote:
+
+> I have two questions for route information preprocessing of initial INVITE
+> with Route headers
+
+These questions would be more appropriate on the sip-implementors
+<sip-implementors@lists.cs.columbia.edu> mailing list.
+
+> first question:
+> 
+> UA(or B2BUA) receives an initial INVITE with Route headers, assuming UA's
+> host is example.com
+> 
+> if the sip entity which sends the INVITE is a loose router, the INVITE may
+> be like this:
+> 
+>    INVITE sip:bob@example.com
+>    Route: <sip:xx@example.com;lr>
+> 
+> if the sip entity which sends the INVITE is a strict router, the INVITE may
+> be like this:
+> 
+>    INVITE sip:xx@example.com
+>    Route: <sip:bob@example.com>
+> 
+> we cannot distinguish those two scenarioes because Requet-URIs in two
+> scenarioes are similar.
+> if we do route information preprocessing according RFC3261 section 16.4, we
+> will get two different
+> results. And there is no desciption for UA route information preprocessing
+> in RFC3261, RFC3261
+> section 16.4 just describes proxy behavior.
+> 
+> How to processing route information of initial INVITE with Route headers
+> for UA?
+> 
+> 
+> second question:
+> 
+> as RFC3261 section 16.4 descibed, proxy must check whether the request-uri
+> was placed by the
+> proxy previously. But the request-uri in initial INVITE must not be placed
+> by the proxy previously.
+> 
+> Is something wrong with RFC3261 section 16.4?
+
+
+
+From fluffy@cisco.com  Tue Sep 22 10:30:31 2009
+Return-Path: <fluffy@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id EC16D3A67D7; Tue, 22 Sep 2009 10:30:31 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -106.23
+X-Spam-Level: 
+X-Spam-Status: No, score=-106.23 tagged_above=-999 required=5 tests=[AWL=-0.231, BAYES_00=-2.599, J_CHICKENPOX_102=0.6, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id aN8W+67fivd7; Tue, 22 Sep 2009 10:30:30 -0700 (PDT)
+Received: from sj-iport-6.cisco.com (sj-iport-6.cisco.com [171.71.176.117]) by core3.amsl.com (Postfix) with ESMTP id 9166828C106; Tue, 22 Sep 2009 10:30:30 -0700 (PDT)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEADumuEqrR7MV/2dsb2JhbADAS4hPAZAMBYQb
+X-IronPort-AV: E=Sophos;i="4.44,432,1249257600"; d="scan'208";a="393788432"
+Received: from sj-dkim-1.cisco.com ([171.71.179.21]) by sj-iport-6.cisco.com with ESMTP; 22 Sep 2009 17:31:34 +0000
+Received: from sj-core-1.cisco.com (sj-core-1.cisco.com [171.71.177.237]) by sj-dkim-1.cisco.com (8.12.11/8.12.11) with ESMTP id n8MHVYss005862;  Tue, 22 Sep 2009 10:31:34 -0700
+Received: from [192.168.4.177] (rcdn-fluffy-8711.cisco.com [10.99.9.18]) by sj-core-1.cisco.com (8.13.8/8.14.3) with ESMTP id n8MHVXLh012992; Tue, 22 Sep 2009 17:31:33 GMT
+Message-Id: <5FC83EF4-C26E-4DD0-8D4B-2E67D0F0716C@cisco.com>
+From: Cullen Jennings <fluffy@cisco.com>
+To: rai@ietf.org, dispatch@ietf.org, sipping <sipping@ietf.org>, SIP List <sip@ietf.org>
+Impp: xmpp:cullenfluffyjennings@jabber.org
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Tue, 22 Sep 2009 11:31:32 -0600
+References: <4568491E-A8CA-4089-84C7-2D555F929204@americafree.tv>
+X-Mailer: Apple Mail (2.936)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; l=4901; t=1253640694; x=1254504694; c=relaxed/simple; s=sjdkim1004; h=Content-Type:From:Subject:Content-Transfer-Encoding:MIME-Version; d=cisco.com; i=fluffy@cisco.com; z=From:=20Cullen=20Jennings=20<fluffy@cisco.com> |Subject:=20Fwd=3A=20Request=20for=20community=20guidance=2 0on=20issue=20concerning=20a=20future=20meeting=20of=20the=2 0IETF |Sender:=20; bh=vEUxTuf8FxjvDgC+2Yw3Y4RKH4lSS5F9Xb1b9/w6WEI=; b=CEWVcWg52pYz+HCPSbOwPiXXNEbTReTeHmG1NGlOqJsrGQiePrpm42XR3N w7/ytD3ZcHWSRF8nfnrO0HH786/tnQoSgLUaIiyRMOT+UXksDhdZtzbEyuFb DOAU6ia4ZK6QdvTjKEPByzu9N3ho+pmIYIfrj0uLCIAOIkd485R0I=;
+Authentication-Results: sj-dkim-1; header.From=fluffy@cisco.com; dkim=pass ( sig from cisco.com/sjdkim1004 verified; ); 
+Subject: [Sip] Fwd: Request for community guidance on issue concerning a future meeting of the IETF
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 22 Sep 2009 17:30:32 -0000
+
+Please don't reply to this message. Go reply to the copy on the ietf@ietf.org 
+  thread.
+
+I often shy away from forwarding things to the RAI lists, however, I  
+think that people need to be aware that there is conversation going on  
+that is probably pretty important around if IETF 79 should be in China  
+or Canada. I expect that coming out of this conversation will be not  
+just where IETF 76 happens, but also guidelines or lore that impacts  
+what type of environments the IETF expects to host meetings in that  
+country.
+
+Anyways, if you have any interest in this, go send your 2 cents to ietf@ietf.org 
+  mailing list.
+
+Thanks, Cullen
+
+
+Begin forwarded message:
+
+> From: Marshall Eubanks <tme@americafree.tv>
+> Date: September 18, 2009 9:42:00 AM MDT (CA)
+> To: IETF Announcement list <ietf-announce@ietf.org>, IETF-Discussion  
+> list <ietf@ietf.org>, Working Group Chairs <wgchairs@ietf.org>
+> Cc: IAOC Jabberr <iaoc@ietf.org>, IAB IAB <iab@iab.org>, IESG <iesg@ietf.org 
+> >, irtf-chair@irtf.org
+> Subject: Request for community guidance on issue concerning a future  
+> meeting of the IETF
+>
+> Greetings;
+>
+> We have received numerous suggestions and requests for an IETF meeting
+> in China and the IAOC has been working on a potential China meeting  
+> for
+> several years. We are now close to making a decision on a potential
+> upcoming  meeting in China. However, the following issue has arisen
+> and we would appreciate your feedback.
+>
+> The Chinese government has imposed a rule on all conferences held
+> since 2008 regarding political speech. A fundamental law in China
+> requires that one not criticize the government. Practically, this
+> has reference to public political statements or protest marches, which
+> are not the IETF's custom. The government, which is a party to the  
+> issue,
+> requires that people who attend conferences in China (the IETF being
+> but one example) not engage in political speech during their tour
+> in China. We consider this to be acceptable, on the basis that the
+> IETF intends to abide by the laws of whatever nations it visits and
+> we don't believe that this impacts our ability to do technical work.
+>
+> The rule is implemented in the Hotel agreement and reads (note that
+> the "Client" would be the Host, and the "Group" would be the IETF) :
+>
+>   "Should the contents of the Group's activities, visual or audio
+>   presentations at the conference,or printed materials used at the
+>   conference (which are within the control of the Client) contain
+>   any defamation against the Government of the People's Republic
+>   of China, or show any disrespect to the Chinese culture, or
+>   violates any laws of the People's Republic of China or feature
+>   any topics regarding human rights or religion without prior
+>   approval from the Government of the People's Republic of China,
+>   the Hotel reserves the right to terminate the event on the spot
+>   and/or ask the person(s) who initiates or participates in any or
+>   all of the above action to leave the hotel premises immediately.
+>
+>   The Client will support and assist the Hotel with the necessary
+>   actions to handle such situations. Should there be any financial
+>   loss incurred to the Hotel or damage caused to the Hotel's
+>   reputation as a result of any or all of the above acts, the Hotel
+>   will claim compensation from the Client."
+>
+> What does this condition mean ? The hotel staff would have, in theory,
+> the legal right to shut down the meeting and ask the offending
+> participants to leave the property immediately. While we do not
+> foresee a situation where such action would take place, we feel that
+> it is proper to disclose these conditions to the community.
+>
+> The members of the IAOC, speaking as individuals, do not like this
+> condition as a matter of principle. The IAOC does believe that this
+> condition would not prevent the IETF from conducting its business.
+>
+> We note that the Vancouver/Quebec survey conducted earlier this year
+> asked for people to suggest venues in Asia; an overwhelming majority
+> (94%) of those who mentioned China were in favor of having a meeting
+> there.
+>
+> We are therefore asking for input from the community by two means - by
+> commenting on the IETF discussion list, and also by completing a very
+> short survey on people's intentions to travel to China, or not,
+> subject to these conditions. This survey can be found here :
+>
+> https://www.surveymonkey.com/s.aspx?sm=h4DUkRUOdG_2bVLqioPcYYHw_3d_3d
+>
+> All responses received by October 1, 2009 at  9:00 AM EDT  (1300 UTC)
+> will be considered by the IAOC in making its decision. We appreciate
+> the assistance of the community in providing us with data that will
+> help us to make an informed decision.
+>
+> Regards
+> Marshall Eubanks
+> (acting for the IAOC)
+>
+
+
+From sairam.pokkunuri@wipro.com  Tue Sep 22 05:43:46 2009
+Return-Path: <sairam.pokkunuri@wipro.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 6FD473A6A45 for <sip@core3.amsl.com>; Tue, 22 Sep 2009 05:43:46 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.004
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.004 tagged_above=-999 required=5 tests=[BAYES_50=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1, RELAY_IS_203=0.994]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oTlwyoNfJ2mT for <sip@core3.amsl.com>; Tue, 22 Sep 2009 05:43:45 -0700 (PDT)
+Received: from wipro-blr-out01.wipro.com (wipro-blr-out01.wipro.com [203.91.198.74]) by core3.amsl.com (Postfix) with ESMTP id D2C7D3A6A3C for <sip@ietf.org>; Tue, 22 Sep 2009 05:43:40 -0700 (PDT)
+X-AuditID: cb5bdd57-b7ce9ae00000160e-13-4ab8c6b6f98e
+Received: from blr-ec-aa01.wipro.com ( [10.201.18.41]) by  (Symantec Mail Security) with SMTP id 93.43.05646.6B6C8BA4; Tue, 22 Sep 2009 18:14:38 +0530 (IST)
+Received: from blr-ec-bh02.wipro.com ([10.201.50.92]) by blr-ec-aa01.wipro.com with Microsoft SMTPSVC(6.0.3790.3959);  Tue, 22 Sep 2009 18:14:38 +0530
+Received: from BLR-EC-MBX04.wipro.com ([10.201.50.167]) by blr-ec-bh02.wipro.com with Microsoft SMTPSVC(6.0.3790.3959);  Tue, 22 Sep 2009 18:14:37 +0530
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01CA3B82.71D9826E"
+Date: Tue, 22 Sep 2009 18:18:18 +0530
+Message-ID: <6324F38CCF371D40AD68BF1439B6488401A3768D@BLR-EC-MBX04.wipro.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Call fork
+Thread-Index: Aco7gvWOVUTEt/kgTwGCw6BaoqXpKA==
+From: <sairam.pokkunuri@wipro.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 22 Sep 2009 12:44:37.0559 (UTC) FILETIME=[71DD3470:01CA3B82]
+X-Brightmail-Tracker: AAAAAA==
+X-Mailman-Approved-At: Tue, 22 Sep 2009 11:21:04 -0700
+Subject: [Sip] Call fork
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 22 Sep 2009 12:46:43 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CA3B82.71D9826E
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+ Hi=20
+=20
+ I have a scenario where  Invite is forked by a proxy and it gets
+multiple 183 containing sdp and all are sending rtp packets as
+anouncements.What should the b2bua do?
+ As we dint know which ua is going to send 200 ok=20
+=20
+Regards
+Sai
+=20
+=20
+
+------_=_NextPart_001_01CA3B82.71D9826E
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.3603" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV><FONT face=3DArial size=3D2><SPAN =
+class=3D718464412-22092009>&nbsp;Hi=20
+</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D718464412-22092009></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN =
+class=3D718464412-22092009>&nbsp;I have a=20
+scenario where&nbsp; Invite is forked by a proxy and it gets multiple =
+183=20
+containing sdp and all are sending rtp packets as anouncements.What =
+should the=20
+b2bua do?</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN =
+class=3D718464412-22092009>&nbsp;As we dint=20
+know which ua is going to send 200 ok </SPAN></FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Regards</FONT></DIV>
+<DIV align=3Dleft><FONT face=3DArial size=3D2>Sai</FONT></DIV>
+<DIV align=3Dleft>&nbsp;</DIV>
+<DIV>&nbsp;</DIV></BODY></HTML>
+
+------_=_NextPart_001_01CA3B82.71D9826E--
+
+From dean.willis@softarmor.com  Tue Sep 22 21:23:58 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 374033A6853 for <sip@core3.amsl.com>; Tue, 22 Sep 2009 21:23:58 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.472
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.472 tagged_above=-999 required=5 tests=[AWL=0.127,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id RxGgVKh8GzfE for <sip@core3.amsl.com>; Tue, 22 Sep 2009 21:23:57 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 5C53F3A6844 for <sip@ietf.org>; Tue, 22 Sep 2009 21:23:57 -0700 (PDT)
+Received: from [192.168.2.103] (cpe-76-182-198-42.tx.res.rr.com [76.182.198.42]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n8N4P0fW010180 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT); Tue, 22 Sep 2009 23:25:02 -0500
+Message-Id: <E7D0F432-7F99-4901-A746-C0D9864811C1@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "<sairam.pokkunuri@wipro.com>" <sairam.pokkunuri@wipro.com>
+In-Reply-To: <6324F38CCF371D40AD68BF1439B6488401A3768D@BLR-EC-MBX04.wipro.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Tue, 22 Sep 2009 23:24:54 -0500
+References: <6324F38CCF371D40AD68BF1439B6488401A3768D@BLR-EC-MBX04.wipro.com>
+X-Mailer: Apple Mail (2.936)
+Cc: sip@ietf.org
+Subject: Re: [Sip] Call fork
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Sep 2009 04:23:58 -0000
+
+On Sep 22, 2009, at 7:48 AM, <sairam.pokkunuri@wipro.com> <sairam.pokkunuri@wipro.com 
+ > wrote:
+
+>  Hi
+>
+>  I have a scenario where  Invite is forked by a proxy and it gets  
+> multiple 183 containing sdp and all are sending rtp packets as  
+> anouncements.What should the b2bua do?
+>  As we dint know which ua is going to send 200 ok
+>
+
+Congratulations. You've discovered promiscuous early media. That's why  
+I think this part of the protocol spec is broken; early media (driven  
+by PSTN-interworking) combined with forking produces an intractable  
+problem.
+
+Various hacks have been used to address the problem. As far as I know,  
+none of them really work "right", but you might find one that works  
+most of the time for your use case.
+
+I suggest trying the sip-implementors mailing list for advice on this  
+issue:
+
+<sip-implementors@lists.cs.columbia.edu>
+
+Although personally, what I'd probably do is hunt down the developers  
+of the UAs that are all sending 183 with SDP and related RTP and  
+verbally abuse them. Of course, if the UAs are PSTN gateways, there  
+really isn't much else they can do.
+
+--
+Dean
+
+From ppar@intracom.gr  Wed Sep 23 07:21:50 2009
+Return-Path: <ppar@intracom.gr>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 56D223A6971 for <sip@core3.amsl.com>; Wed, 23 Sep 2009 07:21:50 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.184
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.184 tagged_above=-999 required=5 tests=[BAYES_40=-0.185, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UFO4Y8GjEGAe for <sip@core3.amsl.com>; Wed, 23 Sep 2009 07:21:49 -0700 (PDT)
+Received: from extmail.intranet.gr (extmail.intranet.gr [192.92.155.11]) by core3.amsl.com (Postfix) with ESMTP id BF8DD3A659A for <sip@ietf.org>; Wed, 23 Sep 2009 07:21:48 -0700 (PDT)
+Received: from mailserv.intranet.gr (mailserv [146.124.14.106]) by extmail.intranet.gr (8.13.8/8.13.8) with ESMTP id n8NEMlp6000187 for <sip@ietf.org>; Wed, 23 Sep 2009 17:22:47 +0300 (EEST)
+Received: from mailserv.intranet.gr (localhost [127.0.0.1]) by mailserv.intranet.gr (8.13.6/8.13.1) with ESMTP id n8NEMm8e011301 for <sip@ietf.org>; Wed, 23 Sep 2009 17:22:48 +0300 (EEST)
+Received: from iris.intranet.gr (iris.intranet.GR [146.124.80.178]) by mailserv.intranet.gr (8.13.6/8.13.1) with ESMTP id n8NEMjHe011280; Wed, 23 Sep 2009 17:22:45 +0300 (EEST)
+Received: from [146.124.20.92] ([146.124.20.92] verified) by iris.intranet.gr (CommuniGate Pro SMTP 5.2.11) with ESMTP id 30524662; Wed, 23 Sep 2009 17:22:45 +0300
+Message-ID: <4ABA2FC7.8040307@intracom.gr>
+Date: Wed, 23 Sep 2009 17:25:11 +0300
+From: Paraskevopoulos Pavlos <ppar@intracom.gr>
+User-Agent: Thunderbird 2.0.0.23 (X11/20090817)
+MIME-Version: 1.0
+To: Dean Willis <dean.willis@softarmor.com>
+References: <6324F38CCF371D40AD68BF1439B6488401A3768D@BLR-EC-MBX04.wipro.com> <E7D0F432-7F99-4901-A746-C0D9864811C1@softarmor.com>
+In-Reply-To: <E7D0F432-7F99-4901-A746-C0D9864811C1@softarmor.com>
+Content-Type: multipart/alternative; boundary="------------050007090509030407060701"
+Cc: sip@ietf.org, "<sairam.pokkunuri@wipro.com>" <sairam.pokkunuri@wipro.com>
+Subject: Re: [Sip] Call fork
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ppar@intranet.gr
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Sep 2009 14:21:50 -0000
+
+This is a multi-part message in MIME format.
+--------------050007090509030407060701
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Consult the RFCs 3959 and 3960.
+
+What about muting the RTPs except the last one and as soon as a 200 OK 
+is received you re-open the valid connection. Of course you will expect 
+a media clipping. I think this is the simplest one.
+
+Pavlos
+
+
+Dean Willis wrote:
+>
+> On Sep 22, 2009, at 7:48 AM, <sairam.pokkunuri@wipro.com> 
+> <sairam.pokkunuri@wipro.com> wrote:
+>
+>>  Hi
+>>
+>>  I have a scenario where  Invite is forked by a proxy and it gets 
+>> multiple 183 containing sdp and all are sending rtp packets as 
+>> anouncements.What should the b2bua do?
+>>  As we dint know which ua is going to send 200 ok
+>>
+>
+> Congratulations. You've discovered promiscuous early media. That's why 
+> I think this part of the protocol spec is broken; early media (driven 
+> by PSTN-interworking) combined with forking produces an intractable 
+> problem.
+>
+> Various hacks have been used to address the problem. As far as I know, 
+> none of them really work "right", but you might find one that works 
+> most of the time for your use case.
+>
+> I suggest trying the sip-implementors mailing list for advice on this 
+> issue:
+>
+> <sip-implementors@lists.cs.columbia.edu>
+>
+> Although personally, what I'd probably do is hunt down the developers 
+> of the UAs that are all sending 183 with SDP and related RTP and 
+> verbally abuse them. Of course, if the UAs are PSTN gateways, there 
+> really isn't much else they can do.
+>
+> -- 
+> Dean
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+
+-- 
+*Paraskevopoulos Pavlos*
+Software Engineer
+Systems Software Development
+Research & Development
+----------------------------------------------- *
+INTRACOM TELECOM S.A - SITRONICS*
+Email: ppar@intracom.gr <mailto:ppar@intracom.gr>
+TEL: +30 210 6674342, +30 210 6672267
+FAX: +30 210 6671446
+19,7 KM Markopoulou Ave
+Peania, Attika
+P.O 19002
+
+Signature
+Eco-Tip: Printing emails is usually a waste.
+Please consider your environmental responsibility before printing this 
+e-mail
+
+--------------050007090509030407060701
+Content-Type: multipart/related;
+ boundary="------------030406090106030502010503"
+
+
+--------------030406090106030502010503
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+</head>
+<body bgcolor="#ffffff" text="#000066">
+Consult the RFCs 3959 and 3960. <br>
+<br>
+What about muting the RTPs except the last one and as soon as a 200 OK
+is received you re-open the valid connection. Of course you will expect
+a media clipping. I think this is the simplest one.<br>
+<br>
+Pavlos<br>
+<br>
+<br>
+Dean Willis wrote:
+<blockquote
+ cite="mid:E7D0F432-7F99-4901-A746-C0D9864811C1@softarmor.com"
+ type="cite"><br>
+On Sep 22, 2009, at 7:48 AM, <a class="moz-txt-link-rfc2396E" href="mailto:sairam.pokkunuri@wipro.com">&lt;sairam.pokkunuri@wipro.com&gt;</a>
+<a class="moz-txt-link-rfc2396E" href="mailto:sairam.pokkunuri@wipro.com">&lt;sairam.pokkunuri@wipro.com&gt;</a> wrote:
+  <br>
+  <br>
+  <blockquote type="cite">&nbsp;Hi
+    <br>
+    <br>
+&nbsp;I have a scenario where&nbsp; Invite is forked by a proxy and it gets
+multiple 183 containing sdp and all are sending rtp packets as
+anouncements.What should the b2bua do?
+    <br>
+&nbsp;As we dint know which ua is going to send 200 ok
+    <br>
+    <br>
+  </blockquote>
+  <br>
+Congratulations. You've discovered promiscuous early media. That's why
+I think this part of the protocol spec is broken; early media (driven
+by PSTN-interworking) combined with forking produces an intractable
+problem.
+  <br>
+  <br>
+Various hacks have been used to address the problem. As far as I know,
+none of them really work "right", but you might find one that works
+most of the time for your use case.
+  <br>
+  <br>
+I suggest trying the sip-implementors mailing list for advice on this
+issue:
+  <br>
+  <br>
+<a class="moz-txt-link-rfc2396E" href="mailto:sip-implementors@lists.cs.columbia.edu">&lt;sip-implementors@lists.cs.columbia.edu&gt;</a>
+  <br>
+  <br>
+Although personally, what I'd probably do is hunt down the developers
+of the UAs that are all sending 183 with SDP and related RTP and
+verbally abuse them. Of course, if the UAs are PSTN gateways, there
+really isn't much else they can do.
+  <br>
+  <br>
+--
+  <br>
+Dean
+  <br>
+_______________________________________________
+  <br>
+Sip mailing list&nbsp; <a class="moz-txt-link-freetext" href="https://www.ietf.org/mailman/listinfo/sip">https://www.ietf.org/mailman/listinfo/sip</a>
+  <br>
+This list is for NEW development of the core SIP Protocol
+  <br>
+Use <a class="moz-txt-link-abbreviated" href="mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.columbia.edu</a> for questions on current sip
+  <br>
+Use <a class="moz-txt-link-abbreviated" href="mailto:sipping@ietf.org">sipping@ietf.org</a> for new developments on the application of sip
+  <br>
+  <br>
+</blockquote>
+<br>
+<div class="moz-signature">-- <br>
+<b>Paraskevopoulos Pavlos</b>
+<br>
+Software Engineer
+<br>
+Systems Software Development
+<br>
+Research &amp; Development
+<br>
+-----------------------------------------------
+<font color="#cc0000"><b><br>
+INTRACOM TELECOM S.A - SITRONICS</b>
+</font><br>
+Email: <a href="mailto:ppar@intracom.gr">ppar@intracom.gr</a>
+<br>
+TEL: +30 210 6674342, +30 210 6672267
+<br>
+FAX: +30 210 6671446
+<br>
+19,7 KM Markopoulou Ave
+<br>
+Peania, Attika
+<br>
+P.O 19002
+<br>
+<br>
+<img moz-do-not-send="false"
+ src="cid:part1.00020707.05070902@intracom.gr" alt="Signature">
+<font color="#007700"> <br>
+Eco-Tip: Printing emails is usually a waste. <br>
+Please consider your environmental responsibility before printing this
+e-mail<br>
+</font>
+</div>
+</body>
+</html>
+
+--------------030406090106030502010503
+Content-Type: image/jpeg;
+ name="tree_2.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.00020707.05070902@intracom.gr>
+Content-Disposition: inline;
+ filename="tree_2.jpg"
+
+/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRof
+Hh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwh
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAAR
+CAAnACYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAA
+AgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
+h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl
+5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYk
+NOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk
+5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD36gnAzRWdrWpQaZp0ks6SOCCAkaks3sMU
+m7K7E2krs8s+KPiRZrtNPsr52CH94sZ+UH610Pwx8Rx32m/YZ7wvdR9Ek649j3ry3xGZLm7a
+5TSpbODJwWQjP1JrW8F3R0m/hnutHuJY85WeONsr7+4ryoVpe35nseHTxEvrLk9j3+iobW4j
+u7dJoiSjDIyMUV6x7pzV1f6rbaTHc2My6lMcErERg1xl/wCLvHKsH/seSNOgAhLV5pBqF5ak
+GC5ljx02uRWjB4t163AEepz4BzgtmvIli+bq0eDLHc/Vr0NfX/EXiXV7L7FqNjKiEhgPIIP8
+qLX4h67p1nFaIsapEoVQ0fOBXpXw71XVdc0uWbVYgyqcRyMuC1dDqXh3SdSgZLqyhYEfe2gE
+fjW0cPOa54zep0Rw1Sa9pCbu+55p4a+IWtaleyxTNFtWPcML3yKKw9FtYLLxdqVtbPvhjVlU
+57bhRSpVJ8urJo1anL7zLWm/CnVrsg3E0MK55w2TXdaL8MNG0x0luFN1KP7/AE/KiiumnhaU
+dbHZRwdGGtjto4khjCRoqIBgBRgCuY8YT629o9no8aBpFw0rOBge1FFbVFeNjoqq8bbHA+Gv
+BOtWOoTzXCR/PGRkSA5OQaKKK54UIxVkc1PCwjGyP//Z
+--------------030406090106030502010503--
+
+--------------050007090509030407060701--
+
+From dworley@nortel.com  Wed Sep 23 07:46:13 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id EE43A28C119 for <sip@core3.amsl.com>; Wed, 23 Sep 2009 07:46:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id fzYPzTWVQiMX for <sip@core3.amsl.com>; Wed, 23 Sep 2009 07:46:13 -0700 (PDT)
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by core3.amsl.com (Postfix) with ESMTP id 0189A28C113 for <sip@ietf.org>; Wed, 23 Sep 2009 07:46:12 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id n8NElES29189 for <sip@ietf.org>; Wed, 23 Sep 2009 14:47:14 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 23 Sep 2009 10:46:59 -0400
+From: "Dale Worley" <dworley@nortel.com>
+To: "Sairam Sudhir" <sairam.pokkunuri@wipro.com>
+In-Reply-To: <6324F38CCF371D40AD68BF1439B6488401A3768D@BLR-EC-MBX04.wipro.com>
+References: <6324F38CCF371D40AD68BF1439B6488401A3768D@BLR-EC-MBX04.wipro.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Wed, 23 Sep 2009 10:46:58 -0400
+Message-Id: <1253717218.3976.1.camel@victoria-pingtel-com.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 23 Sep 2009 14:46:59.0364 (UTC) FILETIME=[B4557E40:01CA3C5C]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Call fork
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Sep 2009 14:46:14 -0000
+
+On Tue, 2009-09-22 at 18:18 +0530, sairam.pokkunuri@wipro.com wrote:
+> I have a scenario where  Invite is forked by a proxy and it gets
+> multiple 183 containing sdp and all are sending rtp packets as
+> anouncements.What should the b2bua do?
+
+First, you should screen the RTP streams to eliminate from consideration
+any stream whose content is silence.
+
+Assuming you have more than one stream remaining, you should mix them
+together and present them to the user.  It turns out that humans can
+separate and process multiple, overlapping speech streams.  This is not
+an ideal solution, but it is the best that can be done.
+
+Dale
+
+
+
+
+From dworley@nortel.com  Wed Sep 30 14:10:55 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id AFD823A695A for <sip@core3.amsl.com>; Wed, 30 Sep 2009 14:10:55 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.299 tagged_above=-999 required=5 tests=[AWL=-0.300, BAYES_00=-2.599, J_CHICKENPOX_22=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 7yAKWOz3NAQk for <sip@core3.amsl.com>; Wed, 30 Sep 2009 14:10:55 -0700 (PDT)
+Received: from zcars04e.nortel.com (zcars04e.nortel.com [47.129.242.56]) by core3.amsl.com (Postfix) with ESMTP id B37C93A6851 for <sip@ietf.org>; Wed, 30 Sep 2009 14:10:54 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zcars04e.nortel.com (Switch-2.2.0/Switch-2.2.0) with ESMTP id n8ULCEN27659; Wed, 30 Sep 2009 21:12:14 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 30 Sep 2009 17:12:14 -0400
+From: "Dale Worley" <dworley@nortel.com>
+To: ding.xuexin@zte.com.cn
+In-Reply-To: <OFAE72CBC7.E9FEFC33-ON48257635.001FA9BF-48257635.001FBE81@zte.com.cn>
+References: <OFAE72CBC7.E9FEFC33-ON48257635.001FA9BF-48257635.001FBE81@zte.com.cn>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Wed, 30 Sep 2009 17:12:13 -0400
+Message-Id: <1254345133.4375.33.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 30 Sep 2009 21:12:14.0182 (UTC) FILETIME=[AEBB1060:01CA4212]
+Cc: sip@ietf.org, shi.hao2@zte.com.cn
+Subject: Re: [Sip] two questions for route information preprocessing of	initial INVITE with Route headers
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 30 Sep 2009 21:10:55 -0000
+
+On Fri, 2009-09-18 at 13:46 +0800, ding.xuexin@zte.com.cn wrote:
+> Hi, all
+> 
+> 
+> I have two questions for route information preprocessing of initial INVITE
+> with Route headers
+> 
+> 
+> first question:
+> 
+> UA(or B2BUA) receives an initial INVITE with Route headers, assuming UA's
+> host is example.com
+> 
+> if the sip entity which sends the INVITE is a loose router, the INVITE may
+> be like this:
+> 
+>    INVITE sip:bob@example.com
+>    Route: <sip:xx@example.com;lr>
+> 
+> if the sip entity which sends the INVITE is a strict router, the INVITE may
+> be like this:
+> 
+>    INVITE sip:xx@example.com
+>    Route: <sip:bob@example.com>
+> 
+> we cannot distinguish those two scenarioes because Requet-URIs in two
+> scenarioes are similar.
+> if we do route information preprocessing according RFC3261 section 16.4, we
+> will get two different
+> results. And there is no desciption for UA route information preprocessing
+> in RFC3261, RFC3261
+> section 16.4 just describes proxy behavior.
+> 
+> How to processing route information of initial INVITE with Route headers
+> for UA?
+
+The first question is whether the element is prepared to act as a proxy
+(as well as a UA).
+
+If the element is not prepared to act as a proxy, it can't process the
+request properly, as the semantics are "First send to <sip...>, and let
+it send to <sip...>".  So it should either ignore the message or return
+an error.
+
+If the element is prepared to act as a proxy, it should process the
+message as a proxy would.
+
+Dale
+
+
+
+From dworley@nortel.com  Wed Sep 30 14:26:31 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 509693A6359 for <sip@core3.amsl.com>; Wed, 30 Sep 2009 14:26:31 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.576
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.576 tagged_above=-999 required=5 tests=[AWL=0.023,  BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yuSUg-C9uvdS for <sip@core3.amsl.com>; Wed, 30 Sep 2009 14:26:30 -0700 (PDT)
+Received: from zcars04e.nortel.com (zcars04e.nortel.com [47.129.242.56]) by core3.amsl.com (Postfix) with ESMTP id 5DAE93A677C for <sip@ietf.org>; Wed, 30 Sep 2009 14:26:30 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zcars04e.nortel.com (Switch-2.2.0/Switch-2.2.0) with ESMTP id n8ULRoN29252; Wed, 30 Sep 2009 21:27:50 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 30 Sep 2009 17:27:46 -0400
+From: "Dale Worley" <dworley@nortel.com>
+To: Manjunath Warad <manjunathwarad@huawei.com>
+In-Reply-To: <004401ca2ae0$54538100$1f01120a@china.huawei.com>
+References: <004401ca2ae0$54538100$1f01120a@china.huawei.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Wed, 30 Sep 2009 17:27:45 -0400
+Message-Id: <1254346065.4375.44.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 30 Sep 2009 21:27:46.0503 (UTC) FILETIME=[DA6FF570:01CA4214]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Changed From Tag in Spiral Request
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 30 Sep 2009 21:26:31 -0000
+
+On Tue, 2009-09-01 at 14:13 +0530, Manjunath Warad wrote:
+> If a UA receives a request in a spiralled way then shouldn't the
+> From Tag and Call-ID same as the originated request?
+
+> Should the UA accept the received request as spiral if call-ID is
+> same and From tag is different? Please let me know if there is any business
+> use case of such scenario if you have come across.
+
+> Since the match algo is not well defined for spiral in RFC, we need
+> a reference.
+
+Strictly speaking a UA cannot receive a spiraled request, since the
+request cannot have passed through the UA before.  A UA can receive a
+"merge" request, that is, a request which is another fork of a request
+that it has received before.  Merged requests are detected per section
+8.2.2.2 of RFC 3261:  the Call-Id, the from-tag, and the CSeq are the
+same.  As you notice, if the Call-Id's are the same, the from-tag's must
+be the same, but if some intermediate element has modified the from-tag,
+it is clear that the UA should consider the requests to not be merged
+requests.
+
+In regard to a proxy, which can receive a spiraled request, that is, a
+request one of whose ancestral requests passed through the proxy:  The
+proxy does not need to be aware that the request is spiraled, since it
+only needs to recognize "hop-by-hop transactions", which are identified
+by the branch parameter value of the topmost Via header.
+
+Dale
+
+
+
+From dworley@nortel.com  Wed Sep 30 14:33:58 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2AA603A679F for <sip@core3.amsl.com>; Wed, 30 Sep 2009 14:33:58 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.579
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.579 tagged_above=-999 required=5 tests=[AWL=0.020,  BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vRSu7+ryLw21 for <sip@core3.amsl.com>; Wed, 30 Sep 2009 14:33:57 -0700 (PDT)
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by core3.amsl.com (Postfix) with ESMTP id 1B5A53A6359 for <sip@ietf.org>; Wed, 30 Sep 2009 14:33:57 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id n8ULZHN21938; Wed, 30 Sep 2009 21:35:17 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 30 Sep 2009 17:35:17 -0400
+From: "Dale Worley" <dworley@nortel.com>
+To: sandip gangakhedkar <sandipfloyd@gmail.com>
+In-Reply-To: <6208da1a0908060745w259dd980qd79428affb6cc503@mail.gmail.com>
+References: <6208da1a0908060745w259dd980qd79428affb6cc503@mail.gmail.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Wed, 30 Sep 2009 17:35:16 -0400
+Message-Id: <1254346516.4375.50.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 30 Sep 2009 21:35:17.0265 (UTC) FILETIME=[E71CC810:01CA4215]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Contact header in 200 OK
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 30 Sep 2009 21:33:58 -0000
+
+On Thu, 2009-08-06 at 20:15 +0530, sandip gangakhedkar wrote:
+> I'd like to know if the Contact header is mandatory for a 200 OK
+> response to an INVITE request. 
+
+> If the originating endpoint receives the Contact header in the 180
+> Ringing response (which I assume is mandatory), then it knows the
+> location of the remote endpoint, in which case the Contact header
+> would be redundant in the 200 OK response.
+
+It would be redundant, but 1xx responses are (by default) not reliable,
+so the UAS cannot depend on the UAC receiving the 180.
+
+Dale
+
+

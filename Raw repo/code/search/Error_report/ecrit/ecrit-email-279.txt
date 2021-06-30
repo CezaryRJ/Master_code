@@ -1,0 +1,133 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ecrit
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ecrit/2006-08.mailcl']
+id : 74af67e1-06d5-4128-bc7d-081a26a53dcc
+_version_ : 1675133158694060032
+
+Content : 
+
+MessSince service URNs are not routable, a SIP proxy or user agent has to
+>>    translate the service URN into a routable URI for a location-
+>>    appropriate service provider, such as a SIP URL.  LoST [19] is one
+>>    resolution system for mapping service URNs to URLs based on
+>>    geographic location.  It is anticipated that there will be several
+>>    such systems, possibly with different systems for different services.
+>>
+>>
+>> [hannes] What does the last sentence refer to? To which 'system' do 
+>> you refer to? Maybe you want to say "It is anticipated that there will 
+>> be several resolution protocols; possibly different onces used with 
+>> different services".
+> 
+> That's roughly what this was meant to express.
+
+I made a mistake when I wrote the comment. What do you have in mind with
+the last sentence?
+
+> 
+> 
+>>
+>>
+>>
+>> The draft says:
+>> "
+>> Mapping protocols SHOULD always provide a mapping just
+>>    for the top-level service even if sub-services are in use.  This
+>>    mapping for the top-level service MAY also be used if an entity is
+>>    presented with an invalid sub-service and presenting an error
+>>    condition to the user is inappropriate, e.g., during an emergency.
+>>
+>>
+>> [hannes] Don't use RFC 2119 language in the introduction section.
+>>
+>> Why should a mapping protocol only provide a mapping just for the 
+>> top-level services? I guess you want to say that "Even if sub-services 
+>> are used, such as 'urn:service:sos.ambulance', it must be possible to 
+>> ask for 'urn:service:sos' and to receive a response. Hence, the entity 
+>> operating the service MUST ensure that top-level services lead to a 
+>> result even if sub-services are used."
+>>
+>> I think this sounds useful but it is not a function that can be 
+>> provided by the mapping protocol itself. I guess it is necessary to 
+>> target a different audience, namely those folks that deploy the stuff.
+> 
+> This probably belongs in the LoST document in any event (and is already 
+> in the requirements document); I'll just delete this.
+> 
+OK.
+
+> 
+>>
+>> The draft says:
+>> "
+>> Process for identifier resolution:
+>> Each top-level
+>>       service can provide its own distinct set of mapping protocols.
+>>       Within each top-level service, all mapping protocols MUST return
+>>       the same set of mappings.
+>> "
+>> [hannes] I assume for the same input parameters. Still, why do you 
+>> mandate this?
+> 
+> I don't think you'd want a system where the answer to the query depends 
+> on which protocol you're using. Again, it might be unnecessary to 
+> specify this here, since this is more of a requirement for the mapping 
+> protocol.
+
+
+
+Ciao
+Hannes
+
+> 
+> 
+>>
+>>
+>> Section 4.4: Add the following note to the section:
+>> "
+>> [[NOTE TO RFC-EDITOR: Please replace above 'RFC XYZ' reference with 
+>> the RFC number of this document and remove this note.]]
+>> "
+>>
+>> References: A number of references are a left-over from the previous 
+>> draft version and not used in the draft anymore.
+>>
+>> Ciao
+>> Hannes
+>>
+>> _______________________________________________
+>> Ecrit mailing list
+>> Ecrit@ietf.org
+>> https://www1.ietf.org/mailman/listinfo/ecrit
+> 
+> 
+
+
+
+_______________________________________________
+Ecrit mailing list
+Ecrit@ietf.org
+https://www1.ietf.org/mailman/listinfo/ecrit

@@ -1,0 +1,122 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : mmusic
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mmusic/2006-11.mailcl']
+id : 987177fc-5051-4c4d-8aaa-a41f61d1f0aa
+_version_ : 1675129200485335040
+
+Content : 
+
+>>
+>>While doing an update or reinvite may seem inelegant, I think 
+>>it makes reasonable sense for the best effort mode. It 
+>>certainly solves some problems regarding early media.
+>>
+>>	Paul
+>>
+>>EKR wrote:
+>>    
+>>
+>>>As people will recall, in the RTPSEC meeting in Montreal it became 
+>>>clear that we needed some way to support best-effort encryption. 
+>>>Loosely speaking, it seems to me that there are two major 
+>>>      
+>>>
+>>ways to do this:
+>>    
+>>
+>>>- Have nothing in the signalling and probe in the media plane
+>>>  as ZRTP does in bump in the wire mode.
+>>>- Have something in the offer that says "I will speak SRTP"
+>>>  but doesn't require it.
+>>>
+>>>There have been a bunch of different suggestions about how 
+>>>      
+>>>
+>>to do this 
+>>    
+>>
+>>>(draft-andreasen-mmusic-sdp-capability-negotiation-01,
+>>>draft-kaplan-mmusic-best-effort-srtp-01, 
+>>>      
+>>>
+>>draft-zimmermann-avt-zrtp-02, 
+>>    
+>>
+>>>etc...). Regardless of which key management protocol we ultimately 
+>>>choose, we need to sort the fundamental architectural issue of:
+>>>
+>>>   Does the signalling (SDP) have to reflect RTP/SAVP?
+>>>
+>>>
+>>>If the answer to this question is "Yes", then we either need to:
+>>>
+>>>1. Have some convenient way to offer multiple profiles (Flemming's
+>>>   draft surveys the space of options here).
+>>>2. Do an UPDATE with RTP/SAVP for every secure connection. I get
+>>>   the impression people find this distasteful.
+>>>
+>>>If the answer is "No", then you can simplify the 
+>>>      
+>>>
+>>offer/answer exchange 
+>>    
+>>
+>>>by having the signal that you will do security in an a-line, but at 
+>>>the cost of having the profile no longer reflect what's on the wire.
+>>>
+>>>In either case, it seems like deciding this architectural issue is 
+>>>something we need to do before we spend a lot of time 
+>>>      
+>>>
+>>discussing the 
+>>    
+>>
+>>>details of mechanisms.
+>>>
+>>>-Ekr
+>>>
+>>>_______________________________________________
+>>>mmusic mailing list
+>>>mmusic@ietf.org
+>>>https://www1.ietf.org/mailman/listinfo/mmusic
+>>>
+>>>      
+>>>
+>>_______________________________________________
+>>mmusic mailing list
+>>mmusic@ietf.org
+>>https://www1.ietf.org/mailman/listinfo/mmusic
+>>
+>>    
+>>
+>
+>  
+>
+
+_______________________________________________
+mmusic mailing list
+mmusic@ietf.org
+https://www1.ietf.org/mailman/listinfo/mmusic

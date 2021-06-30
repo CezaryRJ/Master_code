@@ -1,0 +1,95 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : architecture-discuss
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/architecture-discuss/2006-12.mailcl']
+id : 07f1a287-35a6-4ef8-bdd7-b06e0d52b892
+_version_ : 1675131578135609345
+
+Content : 
+
+Interesting and well articulated.  My conern is that for us to get to
+the end state for a model to build architecture can we expedite this
+process by not overloading the identifier?  Right now I think not
+overloading identifier is a fast path for us?
+
+/jim=20
+
+> -----Original Message-----
+> From: Noel Chiappa [mailto:jnc@mercury.lcs.mit.edu]=20
+> Sent: Friday, December 01, 2006 3:44 PM
+> To: architecture-discuss@ietf.org
+> Cc: jnc@mercury.lcs.mit.edu
+> Subject: Re: [arch-d] Some notes about HIP and SHIM6 (was Re:=20
+> On identifiers:w hat is virtual and what...)
+>=20
+>     > From: "Fergie" <fergdawg@netzero.net>
+>=20
+>     > I wonder if we happen to be using the term "overloaded"=20
+> a little too
+>     > liberally to have a useful dialogue?
+>     > What is overloaded? ... perhaps it is time we revisit=20
+> what what that
+>     > might actually mean.
+>=20
+> OK, here's my take. I feel that it does have a pretty=20
+> specific, defined meaning (and it's not identical to the=20
+> general English meaning of "overload", alas; just as "force"=20
+> to an engineer means a vector, not a general concept).
+> My sense is that system architects have taken the term,=20
+> pretty directly, from the computer language people.
+>=20
+> There, an operator/etc is said to be "overloaded" if it is,=20
+> in isolation, ambiguous, and one needs to consider the=20
+> context to know what it means. A classic example is the "*"=20
+> operator in C, which might mean either "multiply", or=20
+> "indirect through pointer". (Just for extra grins, in C one=20
+> used to be able to say "a =3D *p" and "a =3D* p", and they meant=20
+> totally different things! So that "a=3D*p" really was formally=20
+> ambiguous.)
+>=20
+> The extension to the system architectural world is pretty=20
+> straightforward.
+> So, to me an identifier is "overloaded" if it can be used for=20
+> a variety of entirely different purposes; e.g. an IPvN=20
+> address can either identify an entity at one end of an=20
+> end-end communication (as it does in the TCP, specifically in=20
+> the checksum), or it can identify a thing (interface, in the=20
+> usual case) that the system of routers will deliver a packet=20
+> to. Use of IPv6 addresses to serve two different functions,=20
+> in SHIM6, is overloading (in the technical sense) of IPv6=20
+> addresses. Etc, etc.
+>=20
+> 	Noel
+>=20
+> _______________________________________________
+> Architecture-discuss mailing list
+> Architecture-discuss@ietf.org
+> https://www1.ietf.org/mailman/listinfo/architecture-discuss
+>=20
+
+_______________________________________________
+Architecture-discuss mailing list
+Architecture-discuss@ietf.org
+https://www1.ietf.org/mailman/listinfo/architecture-discuss

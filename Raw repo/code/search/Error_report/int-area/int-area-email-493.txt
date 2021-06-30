@@ -1,0 +1,82 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<55C66440-29A8-4CB8-A90A-9784EFCF5E4A@tcb.net>']
+In-Reply-To-name : Null
+In-Reply-To-address :  55C66440-29A8-4CB8-A90A-9784EFCF5E4A@tcb.net
+Message-ID : <D8A45825-7CEF-40E0-A3FC-B95AC7709BA8@muada.com>
+References : <46EE52D6.8060809@cisco.com>
+	<EF20A9D4-D525-4D16-B121-D50B9D35261B@muada.com>
+	<55C66440-29A8-4CB8-A90A-9784EFCF5E4A@tcb.net>
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : int-area
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/int-area/2007-10.mailcl']
+id : 571b17db-e1e8-4e67-a63f-624848083f1e
+_version_ : 1675130711846158336
+
+Content : 
+
+Frootocols  
+through more or less transparently, so any device connected to the  
+modem, such as a PC or a home gateway/router without the modem  
+function built in, will have to engage in authentication directly. In  
+the case of the integrated home gateway, the authentication  
+credentials would be configured on the gateway and client PCs  
+wouldn't have to run the authentication protcol.
+
+If PCs are expected to run the authentication protocol, I have two  
+issues (in addition to the ones already mentioned, of course). The  
+first is that, assuming the same options are defined for IPv6, I  
+would oppose a de-facto requirement that all IPv6 hosts run DHCPv6.  
+(Or DHCP for IPv4, for that matter.) For IPv4 hosts, the requirement  
+to run DHCP doesn't seem excessive, considering current practice. The  
+other issue is how the authentication is started. If client is  
+expected to initiate authentication in the first message, this means  
+it's not possible to have a client that can seamlessly connect to  
+multiple networks that require authentication because the client  
+wouldn't know which credentials to use at any given time. Also, being  
+easily prompted to send credentials would be a security isssue: an  
+attacker could initiate frequent DHCP exchanges to harvast hashed  
+credentials. (Experience with WEP shows that this can be detrimental  
+under certain circumstances.) So a mechanism where the server  
+authenticates itself to the client would be a lot better.
+
+Also, one of the drafts mentions MD5, which is pretty much dead in  
+the water with a huge hole in the hull right now, it's only a matter  
+of time until it officially sinks.
+
+Further, I'd like to see a more general mechanism. Another situation  
+where users need to provide credentials that can benefit from better  
+standards are wifi hotspots. This situation is largely similar to the  
+DSL situation with the exception that there is often no direct  
+relationship with the operator of the hotspot and the user, so the  
+user must either select a roaming partner and provide credentials  
+appropriate for that roaming partner, or use some other interactive  
+method to gain temporary access (scratch cards, credit card  
+transactions).
+
+This suggests that a mechanism where unauthenticated users are given  
+temporary access to a walled garden and then full access at some  
+later point would be more appropriate than a simple success/fail  
+authentication method.
+
+
+_______________________________________________
+Int-area mailing list
+Int-area@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/int-area

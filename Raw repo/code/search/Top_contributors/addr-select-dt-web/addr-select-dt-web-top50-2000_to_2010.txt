@@ -1,0 +1,10 @@
+2000 TO 2010
+-------#####------->    addr-select-dt-web
+arifumi@nttv6.net 10
+tjc@ecs.soton.ac.uk 6
+brian@innovationslab.net 4
+hiromi@inetcore.com 3
+fujisaki@syce.net 2
+marcelo@it.uc3m.es 2
+teemu.savolainen@nokia.com 2
+Francis.Dupont@fdupont.fr 1

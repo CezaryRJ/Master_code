@@ -1,0 +1,96 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : i-d-announce
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/i-d-announce/2006-02.mailcl']
+id : e989160e-6f77-415c-9172-0e5378609c5c
+_version_ : 1675128928795099136
+
+Content : 
+
+
+Internet-Drafts can also be obtained by e-mail.
+
+Send a message to:
+	mailserv@ietf.org.
+In the body type:
+	"FILE /internet-drafts/draft-ietf-hip-dns-06.txt".
+	
+NOTE:	The mail server at ietf.org can return the document in
+	MIME-encoded form by using the "mpack" utility.  To use this
+	feature, insert the command "ENCODING mime" before the "FILE"
+	command.  To decode the response(s), you will need "munpack" or
+	a MIME-compliant mail reader.  Different MIME-compliant mail readers
+	exhibit different behavior, especially when dealing with
+	"multipart" MIME messages (i.e. documents which have been split
+	up into multiple messages), so check your local documentation on
+	how to manipulate these messages.
+		
+		
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Multipart/Alternative; Boundary="OtherAccess"
+
+--OtherAccess
+Content-Type: Message/External-body; access-type="mail-server";
+	server="mailserv@ietf.org"
+
+Content-Type: text/plain
+Content-ID: <2006-2-27094156.I-D@ietf.org>
+
+ENCODING mime
+FILE /internet-drafts/draft-ietf-hip-dns-06.txt
+
+--OtherAccess
+Content-Type: Message/External-body; name="draft-ietf-hip-dns-06.txt";
+	site="ftp.ietf.org"; access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2006-2-27094156.I-D@ietf.org>
+
+
+--OtherAccess--
+
+--NextPart
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+I-D-Announce mailing list
+I-D-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/i-d-announce
+
+--NextPart--
+
+
+
+
+
+

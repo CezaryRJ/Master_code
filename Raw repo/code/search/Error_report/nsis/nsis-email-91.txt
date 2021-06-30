@@ -1,0 +1,202 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : nsis
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nsis/2006-10.mailcl']
+id : f7bebc66-80df-4232-b428-e74bb7289392
+_version_ : 1675129165701971968
+
+Content : 
+
+> route taken through any forwarding nodes. this object would be of
+> extensibility class AB=10 (forward unchanged) or possibly AB=00  
+> (reject
+> if unknown). Typically, the
+> originating node would only include such an object for diagnostic
+> purposes (to
+> avoid putting additional processing load on the forwarders).
+>
+> c') same as (c), but define the object as part of the base  
+> specification
+> (so all nodes would support it from the start).
+>
+> d) depend on a future GIST traceroute capability (e.g. the NSIS ping
+> approach)
+> to discover such forwarding nodes and find out what they are doing.  
+> So,
+> the
+> diagnostics would not be built into the base protocol, but would be
+> available as an extension to support investigations if message  
+> mangling
+> by forwarders turns out to be a problem.
+>
+> _______________________________________________
+> nsis mailing list
+> nsis@ietf.org
+> https://www1.ietf.org/mailman/listinfo/nsis
+
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+
+
+
+
+2 -0400
+Received: from kyoto.netlab.nec.de ([195.37.70.21])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1GaZXi-0001Tt-A7
+	for nsis@ietf.org; Thu, 19 Oct 2006 11:10:52 -0400
+Received: from [192.168.178.22] (pD954AF23.dip0.t-ipconnect.de [217.84.175.35])
+	by kyoto.netlab.nec.de (Postfix) with ESMTP id 746AC1BAC4D;
+	Thu, 19 Oct 2006 17:10:45 +0200 (CEST)
+In-Reply-To: <A632AD91CF90F24A87C42F6B96ADE5C50157A93F@rsys005a.comm.ad.roke.co.uk>
+References: <A632AD91CF90F24A87C42F6B96ADE5C50157A93F@rsys005a.comm.ad.roke.co.uk>
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <D9FD23DE-5FF0-4719-8855-456E1F4BA4D9@netlab.nec.de>
+Content-Transfer-Encoding: 7bit
+From: Martin Stiemerling <stiemerling@netlab.nec.de>
+Subject: Re: [NSIS] GIST issue on forwarders introducing errors
+Date: Thu, 19 Oct 2006 16:04:04 +0200
+To: "Hancock, Robert" <robert.hancock@roke.co.uk>
+X-Mailer: Apple Mail (2.752.2)
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 386e0819b1192672467565a524848168
+Cc: nsis <nsis@ietf.org>
+X-BeenThere: nsis@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Next Steps in Signaling <nsis.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/nsis>,
+	<mailto:nsis-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:nsis@ietf.org>
+List-Help: <mailto:nsis-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/nsis>,
+	<mailto:nsis-request@ietf.org?subject=subscribe>
+Errors-To: nsis-bounces@ietf.org
+
+Hi Robert,
+
+My preference is a). Taking care for all sources of implementation  
+errors is IMHO just impossible.
+
+   Martin
+
+Am 12.10.2006 um 12:26 schrieb Hancock, Robert:
+
+> Hi all,
+>
+> An issue has been raised on GIST nodes that process and forward
+> messages introducing errors, and how to diagnose such errors.
+> It is in the tracker as issue #132
+> (http://nsis.srmr.co.uk/cgi-bin/roundup.cgi/nsis-ntlp-issues/issue132)
+> and the summary text
+> is included below.
+>
+> This is a solicitation for input, especially from the
+> implementors, on this matter. In the absence of input, my
+> preference would be to leave the current protocol unchanged,
+> but put stronger guidance in about it - this is essentially
+> (a) below, pointing to (c) or (d) as possible future extensions.
+> Or, we could extend the current specification along the lines of
+> (b) or (c'). Please provide your preferences!
+>
+> cheers,
+>
+> robert h.
+>
+> ==============================================================
+> [Following Routing Area Directorate comments from Adrian Farrel]
+>
+> The GIST specification allows nodes to forward messages, either after
+> consultation  with the NSLP (section 4.3.2) or if there is no local  
+> NSLP
+> (4.3.4). However, the forwarding process does not change the IP header
+> or
+> included Network-Layer-Information object. This means that any errors
+> introduced by the forwarding node will get reported back to the node
+> that first originated the message; this will get confused because  
+> it is
+> being told about error conditions which it was not responsible for.
+>
+> There are several possible approaches for dealing with this:
+>
+> a) note more strongly in the text that the forwarder is supposed  
+> not to
+> change
+> any of the GIST payloads, so it should not introduce any errors.
+> Disadvantage of this: we have to trust implementations which do
+> forwarding to be correctly
+> written so that they do not introduce message changes in the process.
+>
+> b) allow or force the forwarding node to introduce a new object to
+> indicate that it has processed the message in some non-trivial way
+> (effectively introducing route recording). Probably one would still  
+> want
+> to report errors to the originator, but the error reporter would also
+> include the recorded route to make diagnostics easier. Disadvantage of
+> this approach: it makes the implementation of forwarding more complex,
+> and in particular rules out implementations which do simple in-place
+> modifications of the message (the goal for RMD for example).
+>
+> c) allow the originating node to include an object which records the
+> route taken through any forwarding nodes. this object would be of
+> extensibility class AB=10 (forward unchanged) or possibly AB=00  
+> (reject
+> if unknown). Typically, the
+> originating node would only include such an object for diagnostic
+> purposes (to
+> avoid putting additional processing load on the forwarders).
+>
+> c') same as (c), but define the object as part of the base  
+> specification
+> (so all nodes would support it from the start).
+>
+> d) depend on a future GIST traceroute capability (e.g. the NSIS ping
+> approach)
+> to discover such forwarding nodes and find out what they are doing.  
+> So,
+> the
+> diagnostics would not be built into the base protocol, but would be
+> available as an extension to support investigations if message  
+> mangling
+> by forwarders turns out to be a problem.
+>
+> _______________________________________________
+> nsis mailing list
+> nsis@ietf.org
+> https://www1.ietf.org/mailman/listinfo/nsis
+
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+
+
+

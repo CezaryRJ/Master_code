@@ -1,0 +1,15 @@
+2010 TO 2020
+-------#####------->    accord
+nrooney@gsma.com 4
+gorry@erg.abdn.ac.uk 3
+ietf@trammell.ch 3
+Gonzalo.Camarillo@ericsson.com 1
+agenda@ietf.org 1
+david.black@emc.com 1
+ietf-secretariat@ietf.org 1
+ietf@bobbriscoe.net 1
+mirja.kuehlewind@tik.ee.ethz.ch 1
+philips.chenhao@huawei.com 1
+sanjay.mishra@verizon.com 1
+session_request_developers@ietf.org 1
+youjianjie@huawei.com 1

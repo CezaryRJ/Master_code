@@ -1,0 +1,161 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2006-11.mailcl']
+id : 9fda6b90-a32a-47aa-90ff-433a626002e2
+_version_ : 1675128727855431680
+
+Content : 
+
+> cross between history-info and Samir's cipher-suites draft.
+> 
+> --
+> Dean
+> 
+> 
+> 
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+
+
+
+
+; Wed, 01 Nov 2006 16:03:43 -0500
+Received: from mailgate.siemenscomms.co.uk ([195.171.110.225]
+	helo=bemg01.siemenscomms.co.uk)
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1GfNFN-0001Ah-UD
+	for sip@ietf.org; Wed, 01 Nov 2006 16:03:43 -0500
+Received: from ntht207e.uksgcs.siemenscomms.co.uk ([137.223.247.82])
+	by siemenscomms.co.uk (PMDF V6.0-24 #40642)
+	with ESMTP id <0J820019BL6F1O@siemenscomms.co.uk> for sip@ietf.org; Wed,
+	01 Nov 2006 21:03:51 +0000 (GMT)
+Received: by ntht207e.uksgcs.siemenscomms.co.uk with Internet Mail Service
+	(5.5.2657.72)	id <49LG6YNB>; Wed, 01 Nov 2006 21:03:40 +0000
+Content-return: allowed
+Date: Wed, 01 Nov 2006 21:03:40 +0000
+From: "Elwell, John" <john.elwell@siemens.com>
+Subject: RE: [Sip] A sips: trial balloon for you to shoot down
+To: Dean Willis <dean.willis@softarmor.com>
+Message-id: <50B1CBA96870A34799A506B2313F26670A4107DB@ntht201e.siemenscomms.co.uk>
+MIME-version: 1.0
+X-Mailer: Internet Mail Service (5.5.2657.72)
+Content-type: text/plain
+Content-transfer-encoding: 7BIT
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: b4a0a5f5992e2a4954405484e7717d8c
+Cc: IETF SIP List <sip@ietf.org>
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=subscribe>
+Errors-To: sip-bounces@ietf.org
+
+Dean,
+
+Not quite. See below.
+
+John 
+
+> -----Original Message-----
+> From: Dean Willis [mailto:dean.willis@softarmor.com] 
+> Sent: 01 November 2006 20:32
+> To: Elwell, John
+> Cc: IETF SIP List
+> Subject: Re: [Sip] A sips: trial balloon for you to shoot down
+> 
+> 
+> On Nov 1, 2006, at 2:28 AM, Elwell, John wrote:
+> 
+> > Dean,
+> >
+> > I think your proposal is moving in the right direction, but I have  
+> > a couple
+> > of concerns. See below.
+> 
+> In summarization, I think your concerns all involve some 
+> variation of  
+> knowing "what happened downstream". Specifically, you want to know if:
+> 
+> 1) A sip: URI scheme actually produced a dialog with encryption on  
+> all hops. You may want to know more about it than "encryption", for  
+> example you may want to know what sort of encryption, or what  
+> mechanism was used to authenticate the intermediary or terminus. By  
+> knowing you had succeeded in getting a secure channel, you could  
+> decide to engage other mechanisms (like key exchange) or activities  
+> dependent on that security.
+[JRE] If we have a sips scheme that mandates TLS on all hops (whatever TLS
+might mean) and fails if it can't achieve it, I think there is an equal
+argument for a mechanism that requests TLS on all hops but still succeeds
+and tells me if any hop does not meet this requirement. So if we recommend
+the sip scheme for achieving best effort, it still doesn't tell me if it
+succeeded. Yes, what I want would be a new mechanism, but it would not be
+substantially more difficult to define than the SIPS mechanism. I am having
+a hard time rationalising why we should specify an all-or-nothing mechanism
+(sips) but not a best effort mechanism. In other words I am having a hard
+time understanding the use cases for sips. Maybe the lack of plausible use
+cases is part of the reason it hasn't been deployed much.
+
+> 
+> 2) The security of a sip: or sips: request is degraded (or  
+> potentially degraded) by a gateway threshold, beyond which the  
+> reporting mechanism has no visibility and which we would generally  
+> assume has fully denigrated our cryptographic protections. By 
+> knowing  
+> the security of sips: is not really end-to-end, you could moderate  
+> the invocation of other mechanisms or activities as appropriate for  
+> an unsecured channel.
+> 
+> I think these are great things to know. I think they go 
+> substantially  
+> beyond anything we can describe as a BCP for using sip: and sips:. I  
+> think this requires new mechanism, perhaps something like a mutant  
+> cross between history-info and Samir's cipher-suites draft.
+> 
+> --
+> Dean
+> 
+> 
+> 
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+
+
+

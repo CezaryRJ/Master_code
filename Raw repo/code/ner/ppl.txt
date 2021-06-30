@@ -1,0 +1,36 @@
+                         F         T         S         RT        CC        BCC       IRT       SUM
+Douglas Otis             32        15        0         0         0         0         0         47        
+J.D. Falk                18        10        0         0         0         0         0         28        
+Doug Otis                13        9         0         0         0         0         0         22        
+Venema                   1         1         0         0         0         0         0         2         
+Dave CROCKER             61        1         0         0         0         0         0         62        
+Michael Thomas           27        5         0         0         0         0         0         32        
+John Levine              21        14        0         0         0         0         0         35        
+Steve Atkins             25        17        0         0         0         0         0         42        
+Hector Santos            3         1         0         0         0         0         0         4         
+Suresh Ramasubramanian   11        5         0         0         0         0         0         16        
+Charles Lindsey          19        19        0         0         5         0         0         43        
+Franck Martin            25        19        0         0         0         0         0         44        
+Al Iverson               2         1         0         0         0         0         0         3         
+Michael Adkins           7         5         0         0         0         0         0         12        
+Barry Leiba              22        12        0         0         4         0         0         38        
+Murray S. Kucherawy      40        27        0         0         0         0         0         67        
+Jeff Macdonald           4         0         0         0         0         0         0         4         
+Jim Fenton               12        10        0         0         0         0         0         22        
+John R. Levine           7         6         0         0         0         0         0         13        
+Florian Sager            2         2         0         0         0         0         0         4         
+Siegel                   1         1         0         0         0         0         0         2         
+MH Michael Hammer        1         1         0         0         1         0         0         3         
+Tony Hansen              10        4         0         0         0         0         0         14        
+MJ Crepin                1         0         0         0         0         0         0         1         
+Paul Russell             5         4         0         0         0         0         0         9         
+Jon Callas               16        11        0         0         0         0         0         27        
+Stephen Farrell          6         3         0         0         0         0         0         9         
+Murray Kucherawy         2         4         0         0         0         0         0         6         
+Dave Crocker             1         1         0         0         0         0         0         2         
+Mark Delany              3         4         0         0         0         0         0         7         
+Scott Kitterman          6         4         0         0         2         0         0         12        
+Deiva Shanmugam          1         0         0         1         0         0         0         2         
+Cullen Jennings          1         3         0         0         0         0         0         4         
+kim                      1         1         0         0         0         0         0         2         
+Thomas Gelf              1         1         0         0         0         0         0         2         

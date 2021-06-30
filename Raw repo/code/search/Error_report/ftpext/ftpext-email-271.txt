@@ -1,0 +1,44 @@
+Date : ['2000-05-01T11:43:37Z']
+Timezone : -0500
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['ftp-wg-owner <ftp-wg-owner@hethmon.com>']
+Sender-name :  ftp-wg-owner
+Sender-address :  ftp-wg-owner@hethmon.com
+Reply-to : ['FTPEXT Working Group <ftp-wg@hethmon.com>']
+Reply-to-name :  FTPEXT_Working_Group
+Reply-to-address :  ftp-wg@hethmon.com
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <20000501114335-14844-9@mail.hethmon.com>
+References : Null
+Comments : ['Null']
+Subject : ['Ftp-WG: ']
+Mailing-list : ftpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ftpext/2000-05.mailcl']
+id : 55292182-0566-4193-ad39-148f13831f9b
+_version_ : 1675133279441780736
+
+Content : 
+
+
+Introducing the most sought after email list in the 
+world PRESS PASS GOLD. A FAST and EASY 
+way to submit your company's press release to 
+over 7,000 Media, TV, Radio, and Print Magazines 
+in less than ten minutes. It includes Editor Name, 
+Mailing Address, Phone, Fax, and email Address 
+along with a FREE direct email program. For details 
+visit our web site
+http://www.nedhosting.com/software/ppg2000/
+
+
+

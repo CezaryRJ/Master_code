@@ -1,0 +1,50 @@
+fix section, subsection - done 
+
+change frontpage to correct - done 
+
+
+
+wierd multivalued fields , from etc 
+
+tone down the tutorial parts 
+
+use forward referances 
+
+
+multivalued list , contrast with relation
+
+in reply to mesg id 
+
+add  section on solr and full text database 
+
+structured fields 
+
+add MIME msg section 
+
+add citation, bip file, bip tex 
+
+error analysis
+
+
+
+
+
+
+
+move archives chapter to 
+
+1. intro 
+
+2. background
+
+3. archives 
+
+4. dadta and database prep 
+
+4.1 download - replace the wget section 
+4.2 foldedr, size, files, time - part of dowload ?
+
+5. using the database 
+5.1 
+
+

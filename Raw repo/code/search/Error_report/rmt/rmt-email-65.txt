@@ -1,0 +1,129 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : rmt
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/rmt/2006-11.mailcl']
+id : 98921b9e-d317-457b-82b6-e30495432071
+_version_ : 1675129774982299648
+
+Content : 
+
+- Luiz Fernando Rust da Costa Carmo (UFRJ)
+- Tereza Cristina Melo de Brito Carvalho (USP)
+- Joaquim Celestino Jr. (UECE)
+- S=E9rgio Colcher (PUC-Rio)
+- F=E1bio Costa (UFG)
+- Jo=E3o Cris=F3stomo Weyl Costa (UFPA)
+- Luis Henrique Maciel Kosmalski Costa (UFRJ)
+- Paulo Roberto Freire Cunha (UFPE)
+- Fl=E1via Coimbra Delicato (UFRN)
+- Kelvin Lopes Dias (UFPA)
+- Elias Proc=F3pio Duarte Jr. (UFPR)
+- Markus Endler (PUC-Rio)
+- Jean-Marie Farines (UFSC)
+- Marcial Porto Fernandez (UECE)
+- Carlos Andr=E9 Guimar=E3es Ferraz (UFPE)
+- Keiko Ver=F4nica Ono Fonseca (UTFPR)
+- Mauro S=E9rgio Pereira Fonseca (PUCPR)
+- Nelson Fonseca (UNICAMP)
+- Joni da Silva Fraga (UFSC)
+- Carlos Renato Franc=EAs (UFPA)
+- Anilton Salles Garcia (UFES)
+- Luciano Paschoal Gaspary (UFRGS)
+- Paulo L=EDcio de Geus (UNICAMP)
+- Cl=E1udio Resin Geyer (UFRGS)
+- William Ferreira Giozza (UNIFACS)
+- Alfredo Goldman (USP)
+- Carlos de Castro Goulart (UFV)
+- Lisandro Zambenedetti Granville (UFRGS)
+- Edgard Jamhour (PUCPR)
+- Carlos Alberto Kamienski (UFABC)
+- S=E9rgio Takeo Kofuji (USP)
+- F=E1bio Kon (USP)
+- Julius Leite (UFF)
+- Antonio Liotta (University of Essex)
+- Orlando Loques (UFF)
+- Ant=F4nio Alfredo Ferreira Loureiro (UFMG)
+- Lau Cheuk Lung (PUCPR)
+- Raimundo Jos=E9 de Ara=FAjo Mac=EAdo (UFBA)
+- Edmundo Roberto Mauro Madeira (UNICAMP)
+- Joberto S=E9rgio Barbosa Martins (UNIFACS)
+- Geraldo Robson Mateus (UFMG)
+- Carlos Alberto Maziero (PUCPR)
+- Wagner Meira Jr. (UFMG)
+- Jos=E9 Augusto Suruagy Monteiro (UNIFACS)
+- Jos=E9 Marcos Silva Nogueira (UFMG)
+- Aloysio de Castro Pinto Pedroza (UFRJ)
+- Marcelo Pias (University of Cambridge)
+- Luci Pirmez (UFRJ)
+- Aiko Pras (University of Twente)
+- Jos=E9 Ferreira de Rezende (UFRJ)
+- Juergen Rochol (UFRGS)
+- Paulo Henrique de Aguiar Rodrigue (UFRJ)
+- Noemi de La Rocque Rodriguez (PUC-Rio)
+- Nelson Souto Rosa (UFPE)
+- Marcelo Gon=E7alves Rubinstein (UERJ)
+- Wilson Vicente Ruggiero (USP)
+- Lynnier Beatryz Ruiz (UFMG)
+- Djamel Fawzi Hadj Sadok (UFPE)
+- Marcos Rog=E9rio Salvador (CPqD)
+- Jacques Philippe Sauv=E9 (UFCG)
+- Bruno Richard Schulze (LNCC)
+- Edmundo Albuquerque de Souza e Silva (UFRJ)
+- Fl=E1vio Assis Silva (UFBA)
+- Regina Silveira (USP)
+- Luiz Fernando Gomes Soares (PUC-Rio)
+- Guido Lemos de Souza Filho (UFPB)
+- Jos=E9 Neuman de Souza (UFC)
+- Wanderley Lopes de Souza (UFSCar)
+- Michael Anthony Stanton (UFF/RNP)
+- Alexandre Sztajnberg (UERJ)
+- Liane Margarida Rockenbach Tarouco (UFRGS)
+- Carlos Becker Westphall (UFSC)
+- Roberto Willrich (UFSC)
+- Artur Ziviani (LNCC)
+---559023410-33463914-1163182381=:19970
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+mycolleagues mailing list
+mycolleagues@grid.lrg.ufsc.br
+http://grid.lrg.ufsc.br/mailman/listinfo/mycolleagues
+
+---559023410-33463914-1163182381=:19970
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Rmt mailing list
+Rmt@ietf.org
+https://www1.ietf.org/mailman/listinfo/rmt
+
+---559023410-33463914-1163182381=:19970--
+

@@ -1,0 +1,116 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ipcdn
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipcdn/2006-11.mailcl']
+id : ec51feef-f649-4247-a754-7ee405000db7
+_version_ : 1675129694945542144
+
+Content : 
+
+(means -130dBm). Current default value is a too loud signal. I would
+recommend to change the defailt to -120 along with the range to
+(-250..-110)
+[Eugene]=20
+This proposal looks reasonable given the fact that POTS specification
+seems to not require a full existing range of (-250, -30). The proposed
+default value is also reasonable.
+[Sumanth] Done
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+=20
+16. [Eugene]  Refer  to " Issues with Tone Generation in Signaling MIB
+draft-11 (Eugene, v1).doc"
+Summary: Japan's "NTT Telephone service interfaces, edition 5"
+Specification defines two call waiting tones - "Incoming Identification
+Tone" (IIT) and "Specific Incoming Identification Tone" (SIIT)
+containing the following tone sequence:
+
+Either of these tones corresponds to the following tone generation
+schema:
+1.	16 Hz is modulated to carry the 400 Hz signal, ModulationRate
+within 85%, on for 500msec, at -25 dBm or more but less than -14 dBm
+2.	16 Hz is modulated to carry the 400 Hz signal, off for 0 ~ 4
+secs
+3.	400 Hz not modulated, on for 50 ms at -25 dBm or more but less
+than -14 dBm
+4.	400 Hz not modulated, off for 450ms=20
+5.	400 Hz not modulated, on for 50 ms at -25 dBm or more but less
+than -14 dBm
+6.	400 Hz not modulated, off for 3450ms ([4000 - (50+450+50)])
+7.	Steps 3 thru 6 are repeated.
+As standard requires, to generate either of those call waiting tones,
+the tone sequence should contain non-repetitive frequency group (step-1
++ step-2) immediately followed by a repetitive frequency group (step-3 +
+step-4 + step-3 + step-4 + step-5) with the duration of 4000 msec in
+total.=20
+The current composition of the Tone Generation MIB Tables in draft-11
+("pktcSigDevToneTable" and "pktcSigDevMultiFreqToneTable") is such that
+it can accommodate either non-repetitive tone sequence or repetitive
+tone sequence, and does not allow the mixture of those.
+
+Proposal:
+To address the problem, the composition of the Tone Generation Tables
+defining various Tone Types should allow for the combination of the
+repetitive and non-repetitive parts in the definition of the particular
+tone.=20
+In the current draft-11, the "pktcSigDevToneTable" MIB Table is defined
+in such a way that it allows only for one row for each particular tone
+type. By doing so, this table can define only either the repetitive tone
+(when pktcSigDevToneWholeToneRepeatCount > 0) or non-repetitive tone
+(when pktcSigDevToneWholeToneRepeatCount =3D=3D 0). Such composition of =
+the
+"pktcSigDevToneTable" MIB Table excludes the possibility for the tone
+type to be represented by a mixture of non-repetitive and repetitive
+parts.
+To allow for the various definitions of the Tone Types, the composition
+of the "pktcSigDevToneTable" MIB Table should be expanded.=20
+
+[Sumanth]  Incorporated
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+17. [Satish] Requested clarification to the MIB Object
+'pktcSigDevR5Cadence' to indicate that it is a non-repeatable signal.
+[Sumanth] The request in return is to clarify this in the "L Package"
+specification
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+18. [Eugene] Add clarification to 'pktcSigDevToneSteady'
+"If pktcSigDevToneTable contains multiple rows with this=20
+Object set to 'true', the steady tone is applied to the=20
+last repeating frequency group of the tone."
+[Sumanth] Done
+
+----------------------------------------------------------------------
+=20
+=20
+
+_______________________________________________
+IPCDN mailing list
+IPCDN@ietf.org
+https://www1.ietf.org/mailman/listinfo/ipcdn
+
+

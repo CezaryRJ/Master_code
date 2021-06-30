@@ -1,0 +1,8 @@
+2000 TO 2010
+-------#####------->    ntdp
+crbrown@cisco.com 9
+ljorgenson@apparentnetworks.com 2
+mailman-owner@ietf.org 2
+Hannes.Tschofenig@gmx.net 1
+JohnZ@ameritec.com 1
+fred@cisco.com 1

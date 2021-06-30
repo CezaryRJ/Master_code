@@ -1,0 +1,90 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : dassa@dhs.org
+To-name : Null
+To-address : [' dassa@dhs.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<E1GY865-0000en-Vh@megatron.ietf.org>']
+In-Reply-To-name : Null
+In-Reply-To-address :  E1GY865-0000en-Vh@megatron.ietf.org
+Message-ID : <OF5298B979.8A38B07E-ON88257205.007B7039-88257205.007BDA26@us.ibm
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2006-10.mailcl']
+id : eab8b3e6-2ec3-43c6-914a-53f8753e283e
+_version_ : 1675130235925823488
+
+Content : 
+
+Hi,
+I am Gobinath from INDIA.I have LG RD2030 CDMA mobile phone. I changed it's ESN successfully with
+help of INTER CDMA TOOL 1.2.
+Now i am trying to program it for other number for other network, but
+to no avail.
+
+in NAM 1 it's showing two number Min1 & Min2 which are not the phone
+number it is carrying. (Min 1 is 8 numbers & min2 is 3 numbers). I
+changed Min 1 to new phone number (10 digit new number) and min2 to
+000.
+But it's not working, if i try to call it calls to previous network
+where operator says, your mobile phone is not authorised.
+
+Is it nessary to change SID and P CH A & S CH A?
+(country code are same.)
+What could be wrong?? anyone help me plz.
+
+my mail id
+gobi_65@yahoo.com
+
+
+Regards,
+Gobinath.
+
+________________________________________________________________________
+Yahoo! Messenger - Communicate instantly..."Ping" 
+your friends today! Download Messenger Now 
+http://uk.messenger.yahoo.com/download/index.html
+
+
+
+-- 
+    "NEXTEL-1 IT'S NOT JUST NEXTEL"
+  Note The New address 
+Subscribe to Nextel-1: http://www.groups.yahoo.com/subscribe/NEXTEL-1
+
+  "NEXTEL2 FOR iDEN SOFTWARE DEVELOPERS"
+Subscribe to Nextel2: http://www.groups.yahoo.com/subscribe/NEXTEL2
+
+  "WIRELESS FORUM HOMELAND SECURITY GROUP"
+     The Complete Resource for Wireless Homeland Security.
+Subscribe to WFHSG:  http://www.groups.yahoo.com/subscribe/WFHSG
+
+
+
+ 
+Yahoo! Groups Links
+
+<*> To visit your group on the web, go to:
+     http://groups.yahoo.com/group/NEXTEL-1/
+
+<*> To unsubscribe from this group, send an email to:
+     NEXTEL-1-unsubscribe@yahoogroups.com
+
+<*> Your use of Yahoo! Groups is subject to:
+     http://docs.yahoo.com/info/terms/
+ 
+
+

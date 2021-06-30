@@ -1,0 +1,323 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-02.mailcl']
+id : 5dc43b24-f0ca-4934-a179-ceb098424f12
+_version_ : 1675132947874709505
+
+Content : 
+
+> offer/answer rules.
+>=20
+> By paying attention to the separate dialogs, it is possible=20
+> to have offer/answer rules that make sense. If you just mix=20
+> together offers or answers from multiple destinations it=20
+> becomes impossible to make any sense of what you have once it=20
+> is determined which dialog will be completed.
+>=20
+> For the period when there are multiple dialogs, you have two=20
+> different things going on:
+> - an offer/answer state machine is proceeding in each dialog, and
+>    defining the current media parameters for that dialog
+> - you are deciding which dialog(s) you want to process and send
+>    media to.
+>=20
+> As Brian notes, it is complex to decide which dialog to honor=20
+> during the early stage. But once you settle on one dialog at=20
+> least you will then know what to do.
+>=20
+> 	Paul
+>=20
+> > -----Original Message-----
+> > From: Brian Stucker [mailto:bstucker@nortel.com]
+> > Sent: 16 November 2006 17:37
+> > To: Hadriel Kaplan; Siddhartha Bhakta; sipping@ietf.org
+> > Cc: Siddhartha Bhakta
+> > Subject: RE: [SIPPING] SDP offer/answer in early=20
+> > media:draft-sawada-sipping-sip-offeranswer-01.txt
+> >=20
+> > Fake forking...
+> >=20
+> > Please note, if there's SDP in the other provisional=20
+> responses, you're=20
+> > going to run into problems potentially getting themedia rendered=20
+> > (assuming that's your goal).
+> >=20
+> > Regards,
+> > Brian
+> >=20
+> >> -----Original Message-----
+> >> From: Hadriel Kaplan [mailto:HKaplan@acmepacket.com]
+> >> Sent: Sunday, November 12, 2006 8:40 PM
+> >> To: 'Siddhartha Bhakta'; sipping@ietf.org
+> >> Cc: 'Siddhartha Bhakta'
+> >> Subject: RE: [SIPPING] SDP offer/answer in early=20
+> >> media:draft-sawada-sipping-sip-offeranswer-01.txt
+> >>
+> >> If the Proxy is sending back SDP by itself it's not a proxy, but a=20
+> >> b2bua, as is the PBX.
+> >> As such, it should be answering in a different dialog, so its SDP=20
+> >> answer should be in a 183 with a different To-tag from the=20
+> 180, and=20
+> >> the PBX's 180 SDP should have a different To-tag than the 200ok. =20
+> >> That would make them look like a forked call and follow the RFCs.
+> >>
+> >> Of course the reality is often different, but being a=20
+> b2bua yourself=20
+> >> it's in your power to fix it.  How you do that is not up=20
+> to the IETF=20
+> >> to define, as the very idea of it goes against the IETF's=20
+> view of the=20
+> >> world. (and I say that in a positive way, as I think it would be=20
+> >> practically impossible for the IETF to do otherwise)
+> >>
+> >> -hadriel
+> >>
+> >>
+> >>> -----Original Message-----
+> >>> From: Siddhartha Bhakta [mailto:sbhakta007@yahoo.co.in]
+> >>> Sent: Sunday, November 12, 2006 2:11 PM
+> >>> To: sipping@ietf.org
+> >>> Cc: sbhakta007@yahoo.co.in; Siddhartha Bhakta
+> >>> Subject: [SIPPING] SDP offer/answer in early
+> >>> media:draft-sawada-sipping- sip-offeranswer-01.txt
+> >>>
+> >>> I am re-sending it as in last email, the figure was distorted.
+> >>>
+> >>> Though, post RFC3261 drafts indicate that one valid=20
+> answer would be=20
+> >>> there for one SDP offer, the our old friend early-media
+> >> flow is still
+> >>> present in practice.
+> >>>
+> >>> B2BUA/SBC     Proxy         PABX        Bob
+> >>>   |            |            |            |
+> >>>   | INVITE F1  |            |            |
+> >>>   |----------->| INVITE F2  |            |
+> >>>   |   183 F3   |----------->| INVITE F4  |
+> >>>   |<-----------|            |----------->|
+> >>>   |            |            |            |
+> >>>   |            |            |   180 without SDP F5
+> >>>   |            |            |<-----------|
+> >>>   |            |            |            |
+> >>>   |            |  180 with SDP F6        |
+> >>>   |   180 F7   |<-----------|            |
+> >>>   |<-----------|            |  200 F8    |
+> >>>   |            |  200 F9    |<-----------|
+> >>>   |   200 F10  |<-----------|            |
+> >>>   |<-----------|            |            |
+> >>>   |   ACK F11  |            |            |
+> >>>   |----------->|  ACK F12   |            |
+.se (Symantec Mail Security) with ESMTP id
+	B0F8821112; Tue, 13 Feb 2007 11:56:48 +0100 (CET)
+X-AuditID: c1b4fb3e-af6d2bb0000007e1-e2-45d199707f96 
+Received: from esealmw128.eemea.ericsson.se (unknown [153.88.254.121])
+	by mailgw4.ericsson.se (Symantec Mail Security) with ESMTP id
+	8E2EF200DC; Tue, 13 Feb 2007 11:56:48 +0100 (CET)
+Received: from esealmw113.eemea.ericsson.se ([153.88.200.4]) by
+	esealmw128.eemea.ericsson.se with Microsoft SMTPSVC(6.0.3790.1830); 
+	Tue, 13 Feb 2007 11:56:48 +0100
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Subject: RE: [Sipping] SDP
+	Rollbackindraft-sawada-sipping-sip-offeranswer-01.txt
+Date: Tue, 13 Feb 2007 11:56:47 +0100
+Message-ID: <7374777208BDC7449D5620EF9423256702047D98@esealmw113.eemea.ericsson.se>
+In-Reply-To: <455E2386.4080900@cisco.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sipping] SDP
+	Rollbackindraft-sawada-sipping-sip-offeranswer-01.txt
+Thread-Index: AccKjG+x9v7fniDTS7miiuo4yK7SERC5gZ2Q
+From: "Christer Holmberg \(JO/LMF\)" <christer.holmberg@ericsson.com>
+To: "Paul Kyzivat" <pkyzivat@cisco.com>,
+	"Sanjay Sinha \(sanjsinh\)" <sanjsinh@cisco.com>
+X-OriginalArrivalTime: 13 Feb 2007 10:56:48.0122 (UTC)
+	FILETIME=[A88575A0:01C74F5D]
+X-Brightmail-Tracker: AAAAAA==
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: f8ee348dcc4be4a59bc395f7cd6343ad
+Cc: tu-sawada@kddi.com, sipping@ietf.org,
+	Siddhartha Bhakta <Siddhartha.Bhakta@newport-networks.com>
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Errors-To: sipping-bounces@ietf.org
+
+
+Hi,
+
+One approach would of course be to not allow reliable provisional
+responses for re-INVITEs in the first place.
+
+But, then we MAY have a problem with preconditions - but not
+necessarily.
+
+The SDP answerer could simply choose not to send 200 OK until he has
+reserved the needed resources. Ie he does not send any provisional
+responses.
+
+The SDP offerer would then send a second re-INVITE/UPDATE when he has
+reserved the needed resources (unfortunatly he can't use the ACK to
+indicate it).
+
+Regards,
+
+Christer
+
+=20
+
+> -----Original Message-----
+> From: Paul Kyzivat [mailto:pkyzivat@cisco.com]=20
+> Sent: 17. marraskuuta 2006 23:03
+> To: Sanjay Sinha (sanjsinh)
+> Cc: tu-sawada@kddi.com; sipping@ietf.org; Siddhartha Bhakta
+> Subject: Re: [Sipping] SDP=20
+> Rollbackindraft-sawada-sipping-sip-offeranswer-01.txt
+>=20
+> (To those who haven't been paying attention, this is about=20
+> what to do about SDP when a reINVITE fails. RFC 3261, section=20
+> 14.1, says that if a non-2xx final response is received the=20
+> session parameters must remain unchanged, as if no reINVITE=20
+> had been issued. Herein that is being described as "rollback"=20
+> of the SDP.)
+>=20
+> There are several interesting questions relative to this topic:
+>=20
+> - are the existing RFCs clear about what should be done?
+>    (Do all informed and reasonable people agree what this is?)
+>=20
+> - what do currently deployed implementations do?
+>=20
+> - what is the *most reasonable* thing to do?
+>=20
+> There has been quite a bit of discussion in the past on this,=20
+> though we could probably some more because I think only a few=20
+> people participated.
+>=20
+> IMO the existing RFCs are *not* clear, because we are getting=20
+> multiple interpretations that can be justified to some=20
+> extent. The rollback rule only appears in 3261, and doesn't=20
+> really address the additional issues raised by 3262, 3311, and 3312.
+>=20
+> There are also good arguments for either of two approaches=20
+> being the most reasonable thing> >>>   |            |----------->|  ACK F13   |
+> >>>   |            |            |----------->|
+> >>>
+> >>> Our B2BUA is facing the problem as specified above.
+> >>> The first answer is carried
+> >>> by F3. This SDP is specified by Proxy. The 2nd SDP answer
+> >> is carried
+> >>> by F6,F7.
+> >>> In fact, this SDP is specified by PABX. The third SDP answer is=20
+> >>> carried by F8,F9,F10.
+> >>> This SDP is specified by called party (Bob).
+> >>>
+> >>> As per the RFC3261 & RFC3264, the SDP answer carried by
+> >> F6,F7 should
+> >>> match with F3 as far as B2BUA is concerned. Therefore,=20
+> B2BUA shall=20
+> >>> ignore it. This is leading to the fact that SIP UA behind=20
+> B2BUA can=20
+> >>> not listen to ringtone fed by PABX.
+> >>> Similarly, SDP answer carried by F8,F9,F10 shall be ignored. This=20
+> >>> shall lead to the fact that SIP UA behind B2BUA can not listen to=20
+> >>> Bob's voice. Too bad.
+> >>> This problem is due to the fact that RFC3261 & RFC3264 are not=20
+> >>> backward compatible.
+> >>>
+> >>>
+> >>> The sec 2.2. of
+> >>> draft-sawada-sipping-sip-offeranswer-01.txt indicates that UPDATE=20
+> >>> should be used to update the media in early media. But in
+> >> practice old
+> >>> early-media flow (i.e., sending different SDPs over different 1xx=20
+> >>> responses of
+> >>> INVITE) is quite common.
+> >>> Can we somehow make new SDP offer/answer specified in
+> >>> RFC3261 & RFC3264 backward
+> >>> compatible?
+> >>>
+> >>> The old standard (early-media), allows multiple SDP answers
+> >> of single
+> >>> SDP offer. can we somehow induce this thing in SDP
+> >> offer/answer model?=20
+> >>> If many of you think the need of it then I may comeup with
+> >> some thumb
+> >>> rule for the same.
+> >>>
+> >>> Thanks & Regards,
+> >>> Siddhartha
+> >>
+> >> _______________________________________________
+> >> Sipping mailing list =20
+> https://www1.ietf.org/mailman/listinfo/sipping
+> >> This list is for NEW development of the application of SIP Use=20
+> >> sip-implementors@cs.columbia.edu for questions on current sip Use=20
+> >> sip@ietf.org for new developments of core SIP
+> >>
+> >=20
+> >=20
+> >=20
+> > ---------------
+> > This e-mail may contain confidential and/or privileged=20
+> information. If you are not the intended recipient (or have=20
+> received this e-mail in error) please notify the sender=20
+> immediately and delete this e-mail. Any unauthorized copying,=20
+> disclosure or distribution of the contents in this e-mail is=20
+> strictly forbidden.
+> > ---------------
+> >=20
+> >=20
+> > _______________________________________________
+> > Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+> > This list is for NEW development of the application of SIP Use=20
+> > sip-implementors@cs.columbia.edu for questions on current sip Use=20
+> > sip@ietf.org for new developments of core SIP
+> >=20
+>=20
+> _______________________________________________
+> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+> This list is for NEW development of the application of SIP=20
+> Use sip-implementors@cs.columbia.edu for questions on current=20
+> sip Use sip@ietf.org for new developments of core SIP
+>=20
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

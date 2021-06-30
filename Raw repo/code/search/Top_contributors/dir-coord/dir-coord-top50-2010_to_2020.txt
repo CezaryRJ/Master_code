@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    dir-coord
+Claudio.Allocchio@garr.it 9
+kivinen@iki.fi 9
+mahoney@nostrum.com 9
+jouni.nospam@gmail.com 8
+bclaise@cisco.com 6
+rjsparks@nostrum.com 5
+adrian@olddog.co.uk 3
+flefauch@cisco.com 3
+jari.arkko@piuha.net 3
+michael.scharf@alcatel-lucent.com 3
+stephen.farrell@cs.tcd.ie 3
+acmorton@att.com 2
+barryleiba@computer.org 2
+dthaler@microsoft.com 2
+fred@cisco.com 2
+gvandeve@cisco.com 2
+jounikor@gmail.com 2
+Ted.Lemon@nominum.com 1
+akatlas@gmail.com 1
+claudio.allocchio@garr.it 1
+ietf-secretariat@ietf.org 1
+jari.arkko@ericsson.com 1
+tobias.gondrom@gondrom.org 1

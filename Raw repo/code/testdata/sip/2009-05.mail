@@ -1,0 +1,3072 @@
+
+From wwwrun@core3.amsl.com  Fri May  1 11:28:46 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 4F77A28C2DE; Fri,  1 May 2009 11:28:46 -0700 (PDT)
+From: IESG Secretary <iesg-secretary@ietf.org>
+To: IETF Announcement list <ietf-announce@ietf.org>
+Content-Type: text/plain; charset="utf-8"
+Mime-Version: 1.0
+Message-Id: <20090501182846.4F77A28C2DE@core3.amsl.com>
+Date: Fri,  1 May 2009 11:28:46 -0700 (PDT)
+Cc: sip@ietf.org, drage@alcatel-lucent.com, dean.willis@softarmor.com
+Subject: [Sip] WG Action: Conclusion of Session Initiation Protocol (sip)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 May 2009 18:28:46 -0000
+
+The Session Initiation Protocol (sip) in the Real-time Applications and
+Infrastructure Area has concluded.
+
+The IESG contact persons are Robert Sparks and Cullen Jennings.
+
+The mailing list will remain active.
+
+
+From Mike.Szilagyi@inin.com  Wed May  6 11:26:39 2009
+Return-Path: <Mike.Szilagyi@inin.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id CE09B3A68D1 for <sip@core3.amsl.com>; Wed,  6 May 2009 11:26:39 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[AWL=0.600,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LTPYxv7qPkzO for <sip@core3.amsl.com>; Wed,  6 May 2009 11:26:39 -0700 (PDT)
+Received: from inin.com (smtpgw.inin.com [209.43.1.24]) by core3.amsl.com (Postfix) with ESMTP id 1DF6128C1F3 for <sip@ietf.org>; Wed,  6 May 2009 11:18:38 -0700 (PDT)
+Received: from ININHUB2 [172.16.1.157] by smtpgw.inin.com - Websense Email Security (6.1.1); Wed, 06 May 2009 14:20:05 -0400
+Received: from ININMAIL.i3domain.inin.com ([172.16.1.186]) by ininhub2.i3domain.inin.com ([172.16.1.157]) with mapi; Wed, 6 May 2009 14:20:05 -0400
+From: "Szilagyi, Mike" <Mike.Szilagyi@inin.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 6 May 2009 14:20:01 -0400
+Thread-Topic: Question about Accept-Language
+Thread-Index: AcnOd0WF03Oy4eeOQKupBuO2DgfTTA==
+Message-ID: <B043FD61A001424599674F50FC89C2D71D923632CA@ININMAIL.i3domain.inin.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative; boundary="_000_B043FD61A001424599674F50FC89C2D71D923632CAININMAILi3dom_"
+MIME-Version: 1.0
+X-SEF-7853D99-ADF1-478E-8894-213D316B8FFA: 1
+X-SEF-ZeroHour-RefID: fgs=0
+X-SEF-Processed: 6_1_1_105__2009_05_06_14_20_05
+Subject: [Sip] Question about Accept-Language
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 May 2009 18:26:39 -0000
+
+--_000_B043FD61A001424599674F50FC89C2D71D923632CAININMAILi3dom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+In RFC3261, the Accept-Language section defines the headers meaning with a =
+language value present and its meaning when the header is not present.
+
+20.3 Accept-Language
+
+   The Accept-Language header field is used in requests to indicate the
+   preferred languages for reason phrases, session descriptions, or
+   status responses carried as message bodies in the response.  If no
+   Accept-Language header field is present, the server SHOULD assume all
+   languages are acceptable to the client.
+
+   The Accept-Language header field follows the syntax defined in
+   [H14.4].  The rules for ordering the languages based on the "q"
+   parameter apply to SIP as well.
+
+   Example:
+
+      Accept-Language: da, en-gb;q=3D0.8, en;q=3D0.7
+
+
+The grammar for Accept-Language shows the language value as optional:
+
+      Accept-Language  =3D  "Accept-Language" HCOLON
+                              [ language *(COMMA language) ]
+
+
+What does it mean if the header is present but with an empty language value=
+?
+
+          Accept-Language:
+
+Regards,
+Mike
+
+--_000_B043FD61A001424599674F50FC89C2D71D923632CAININMAILi3dom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:p=3D"urn:schemas-m=
+icrosoft-com:office:powerpoint" xmlns:a=3D"urn:schemas-microsoft-com:office=
+:access" xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:s=3D"=
+uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:rs=3D"urn:schemas-microsof=
+t-com:rowset" xmlns:z=3D"#RowsetSchema" xmlns:b=3D"urn:schemas-microsoft-co=
+m:office:publisher" xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadshee=
+t" xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" xmlns=
+:odc=3D"urn:schemas-microsoft-com:office:odc" xmlns:oa=3D"urn:schemas-micro=
+soft-com:office:activation" xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" xmlns:rtc=3D"http://m=
+icrosoft.com/officenet/conferencing" xmlns:D=3D"DAV:" xmlns:Repl=3D"http://=
+schemas.microsoft.com/repl/" xmlns:mt=3D"http://schemas.microsoft.com/share=
+point/soap/meetings/" xmlns:x2=3D"http://schemas.microsoft.com/office/excel=
+/2003/xml" xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" xmlns:ois=
+=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" xmlns:dir=3D"http://=
+schemas.microsoft.com/sharepoint/soap/directory/" xmlns:ds=3D"http://www.w3=
+.org/2000/09/xmldsig#" xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint=
+/dsp" xmlns:udc=3D"http://schemas.microsoft.com/data/udc" xmlns:xsd=3D"http=
+://www.w3.org/2001/XMLSchema" xmlns:sub=3D"http://schemas.microsoft.com/sha=
+repoint/soap/2002/1/alerts/" xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#"=
+ xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" xmlns:sps=3D"http://=
+schemas.microsoft.com/sharepoint/soap/" xmlns:xsi=3D"http://www.w3.org/2001=
+/XMLSchema-instance" xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/so=
+ap" xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" xmlns:udc=
+p2p=3D"http://schemas.microsoft.com/data/udc/parttopart" xmlns:wf=3D"http:/=
+/schemas.microsoft.com/sharepoint/soap/workflow/" xmlns:dsss=3D"http://sche=
+mas.microsoft.com/office/2006/digsig-setup" xmlns:dssi=3D"http://schemas.mi=
+crosoft.com/office/2006/digsig" xmlns:mdssi=3D"http://schemas.openxmlformat=
+s.org/package/2006/digital-signature" xmlns:mver=3D"http://schemas.openxmlf=
+ormats.org/markup-compatibility/2006" xmlns:m=3D"http://schemas.microsoft.c=
+om/office/2004/12/omml" xmlns:mrels=3D"http://schemas.openxmlformats.org/pa=
+ckage/2006/relationships" xmlns:spwp=3D"http://microsoft.com/sharepoint/web=
+partpages" xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/20=
+06/types" xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/200=
+6/messages" xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/Sli=
+deLibrary/" xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortal=
+Server/PublishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" xmlns:=
+st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal>In RFC3261, the Accept-Language section defines the he=
+aders meaning
+with a language value present and its meaning when the header is not presen=
+t.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>20.3 Accept-Language<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; The Accept-Language header field is
+used in requests to indicate the<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; preferred languages for reason phra=
+ses,
+session descriptions, or<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; status responses carried as message
+bodies in the response.&nbsp; If no<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; Accept-Language header field is
+present, the server SHOULD assume all<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; languages are acceptable to the cli=
+ent.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; The Accept-Language header field
+follows the syntax defined in<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; [H14.4].&nbsp; The rules for orderi=
+ng
+the languages based on the &quot;q&quot;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; parameter apply to SIP as well.<o:p=
+></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp; Example:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Accept-Language: =
+da,
+en-gb;q=3D0.8, en;q=3D0.7<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal>The grammar for Accept-Language shows the language val=
+ue as
+optional:<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Accept-Language&n=
+bsp;
+=3D&nbsp; &quot;Accept-Language&quot; HCOLON<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span style=3D'font-size=
+:8.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;[ language *(COMMA languag=
+e) ]<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:8.0pt'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>What does it mean if the header is present but with an=
+ empty
+language value?<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ <span
+style=3D'font-size:8.0pt;font-family:"Courier New"'>Accept-Language:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Regards,<o:p></o:p></p>
+
+<p class=3DMsoNormal>Mike<o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+--_000_B043FD61A001424599674F50FC89C2D71D923632CAININMAILi3dom_--
+
+
+From dean.willis@softarmor.com  Wed May  6 22:12:59 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 7038228C28D for <sip@core3.amsl.com>; Wed,  6 May 2009 22:12:59 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.47
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.47 tagged_above=-999 required=5 tests=[AWL=0.129,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wyD4DjkZg5cA for <sip@core3.amsl.com>; Wed,  6 May 2009 22:12:58 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 38F3E3A6869 for <sip@ietf.org>; Wed,  6 May 2009 22:12:57 -0700 (PDT)
+Received: from [192.168.2.103] (cpe-76-182-235-115.tx.res.rr.com [76.182.235.115]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n475ENYh013166 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT); Thu, 7 May 2009 00:14:24 -0500
+Message-Id: <CCCD17D0-A522-4891-938E-4786A661BFA8@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "Szilagyi, Mike" <Mike.Szilagyi@inin.com>
+In-Reply-To: <B043FD61A001424599674F50FC89C2D71D923632CA@ININMAIL.i3domain.inin.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v930.3)
+Date: Thu, 7 May 2009 00:14:17 -0500
+References: <B043FD61A001424599674F50FC89C2D71D923632CA@ININMAIL.i3domain.inin.com>
+X-Mailer: Apple Mail (2.930.3)
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Question about Accept-Language
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 07 May 2009 05:12:59 -0000
+
+I believe it means you have no preferred language, thereby granting  
+equal precedence to any language. In other words, the same as not  
+putting the header field in at all.
+
+My rule of thumb: a header field with no value has no value.
+
+Honoring the Accept-Language by actually sending reason phrases, etc.  
+in-language is not mandatory. As far as I know, most server packages  
+ignore it.
+
+And by the way, the SIP working group is now closed. I don't know how  
+many folks are still monitoring this mailing list. All remaining work  
+has transitioned eitehr to other working groups, or to that  
+interminable no-mans land known as "AD sponsored".
+
+--
+Dean Willis, Former co-Chair.
+
+
+On May 6, 2009, at 1:20 PM, Szilagyi, Mike wrote:
+
+> In RFC3261, the Accept-Language section defines the headers meaning  
+> with a language value present and its meaning when the header is not  
+> present.
+>
+> 20.3 Accept-Language
+>
+>    The Accept-Language header field is used in requests to indicate  
+> the
+>    preferred languages for reason phrases, session descriptions, or
+>    status responses carried as message bodies in the response.  If no
+>    Accept-Language header field is present, the server SHOULD assume  
+> all
+>    languages are acceptable to the client.
+>
+>    The Accept-Language header field follows the syntax defined in
+>    [H14.4].  The rules for ordering the languages based on the "q"
+>    parameter apply to SIP as well.
+>
+>    Example:
+>
+>       Accept-Language: da, en-gb;q=0.8, en;q=0.7
+>
+>
+> The grammar for Accept-Language shows the language value as optional:
+>
+>       Accept-Language  =  "Accept-Language" HCOLON
+>                               [ language *(COMMA language) ]
+>
+>
+> What does it mean if the header is present but with an empty  
+> language value?
+>
+>           Accept-Language:
+>
+> Regards,
+> Mike
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+
+From attila.sipos@vegastream.com  Thu May  7 01:28:17 2009
+Return-Path: <attila.sipos@vegastream.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 4EE093A6F5B for <sip@core3.amsl.com>; Thu,  7 May 2009 01:28:17 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.599 tagged_above=-999 required=5 tests=[AWL=0.000,  BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MomY+kLpQ7la for <sip@core3.amsl.com>; Thu,  7 May 2009 01:28:16 -0700 (PDT)
+Received: from cluster-d.mailcontrol.com (cluster-d.mailcontrol.com [85.115.60.190]) by core3.amsl.com (Postfix) with ESMTP id 2AB843A6A40 for <sip@ietf.org>; Thu,  7 May 2009 01:28:15 -0700 (PDT)
+Received: from rly18d.srv.mailcontrol.com (localhost.localdomain [127.0.0.1]) by rly18d.srv.mailcontrol.com (MailControl) with ESMTP id n478TcYg004995 for <sip@ietf.org>; Thu, 7 May 2009 09:29:41 +0100
+Received: from submission.mailcontrol.com (submission.mailcontrol.com [86.111.216.190]) by rly18d.srv.mailcontrol.com (MailControl) id n478Skcr001192 for sip@ietf.org; Thu, 7 May 2009 09:28:46 +0100
+Received: from exsmtp04.nasstar-t1.net (exsmtp04.nasstar-t1.net [89.28.233.151]) by rly18d-eth0.srv.mailcontrol.com (envelope-sender attila.sipos@vegastream.com) (MIMEDefang) with ESMTP id n478SUD3032556; Thu, 07 May 2009 09:28:45 +0100 (BST)
+Received: from EXVS02.nasstar-t1.net ([10.2.10.106]) by exsmtp04.nasstar-t1.net with Microsoft SMTPSVC(6.0.3790.3959);  Thu, 7 May 2009 09:29:16 +0100
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Date: Thu, 7 May 2009 09:28:51 +0100
+Message-ID: <680808427CF931459462C3D78CB5EC60058AA6A8@EXVS02.nasstar-t1.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: SIP WG closed (was RE: [Sip] Question about Accept-Language)
+Thread-Index: AcnO0tjTCetUukpDSJm+gHUqLUJu8gAGqgWA
+From: "Attila Sipos" <attila.sipos@vegastream.com>
+To: "Dean Willis" <dean.willis@softarmor.com>, "Szilagyi, Mike" <Mike.Szilagyi@inin.com>
+X-OriginalArrivalTime: 07 May 2009 08:29:16.0887 (UTC) FILETIME=[E906AE70:01C9CEED]
+X-Scanned-By: MailControl A_08_51_00 (www.mailcontrol.com) on 10.68.1.128
+Cc: sip@ietf.org
+Subject: Re: [Sip] SIP WG closed (was RE:  Question about Accept-Language)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 07 May 2009 08:28:17 -0000
+
+>>And by the way, the SIP working group is now closed.=20
+
+So where will the creation of new SIP working groups be declared?
+Seems like the SIP WG is still useful for announcements of that kind.
+
+
+Or where does one go to see the list of all SIP-related working groups?
+
+
+
+
+
+
+
+
+=20
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+Dean Willis
+Sent: 07 May 2009 06:14
+To: Szilagyi, Mike
+Cc: sip@ietf.org
+Subject: Re: [Sip] Question about Accept-Language
+
+
+I believe it means you have no preferred language, thereby granting
+equal precedence to any language. In other words, the same as not
+putting the header field in at all.
+
+My rule of thumb: a header field with no value has no value.
+
+Honoring the Accept-Language by actually sending reason phrases, etc. =20
+in-language is not mandatory. As far as I know, most server packages
+ignore it.
+
+And by the way, the SIP working group is now closed. I don't know how
+many folks are still monitoring this mailing list. All remaining work
+has transitioned eitehr to other working groups, or to that interminable
+no-mans land known as "AD sponsored".
+
+--
+Dean Willis, Former co-Chair.
+
+
+On May 6, 2009, at 1:20 PM, Szilagyi, Mike wrote:
+
+> In RFC3261, the Accept-Language section defines the headers meaning=20
+> with a language value present and its meaning when the header is not=20
+> present.
+>
+> 20.3 Accept-Language
+>
+>    The Accept-Language header field is used in requests to indicate=20
+> the
+>    preferred languages for reason phrases, session descriptions, or
+>    status responses carried as message bodies in the response.  If no
+>    Accept-Language header field is present, the server SHOULD assume=20
+> all
+>    languages are acceptable to the client.
+>
+>    The Accept-Language header field follows the syntax defined in
+>    [H14.4].  The rules for ordering the languages based on the "q"
+>    parameter apply to SIP as well.
+>
+>    Example:
+>
+>       Accept-Language: da, en-gb;q=3D0.8, en;q=3D0.7
+>
+>
+> The grammar for Accept-Language shows the language value as optional:
+>
+>       Accept-Language  =3D  "Accept-Language" HCOLON
+>                               [ language *(COMMA language) ]
+>
+>
+> What does it mean if the header is present but with an empty language=20
+> value?
+>
+>           Accept-Language:
+>
+> Regards,
+> Mike
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol Use=20
+> sip-implementors@cs.columbia.edu for questions on current sip Use=20
+> sipping@ietf.org for new developments on the application of sip
+
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol Use
+sip-implementors@cs.columbia.edu for questions on current sip Use
+sipping@ietf.org for new developments on the application of sip
+
+From vkg@alcatel-lucent.com  Thu May  7 06:24:02 2009
+Return-Path: <vkg@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id B575928C298 for <sip@core3.amsl.com>; Thu,  7 May 2009 06:24:02 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.516
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.516 tagged_above=-999 required=5 tests=[AWL=0.083,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id h+K0mQzY7EFO for <sip@core3.amsl.com>; Thu,  7 May 2009 06:24:01 -0700 (PDT)
+Received: from ihemail2.lucent.com (ihemail2.lucent.com [135.245.0.35]) by core3.amsl.com (Postfix) with ESMTP id 9E1AD3A6981 for <sip@ietf.org>; Thu,  7 May 2009 06:24:01 -0700 (PDT)
+Received: from umail.lucent.com (h135-3-40-61.lucent.com [135.3.40.61]) by ihemail2.lucent.com (8.13.8/IER-o) with ESMTP id n47DPDEl021785 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Thu, 7 May 2009 08:25:13 -0500 (CDT)
+Received: from [135.185.236.17] (il0015vkg1.ih.lucent.com [135.185.236.17]) by umail.lucent.com (8.13.8/TPES) with ESMTP id n47DP9cH015519; Thu, 7 May 2009 08:25:10 -0500 (CDT)
+Message-ID: <4A02E135.6000207@alcatel-lucent.com>
+Date: Thu, 07 May 2009 08:25:09 -0500
+From: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+Organization: Bell Labs Security Technology Research Group
+User-Agent: Thunderbird 2.0.0.6 (Windows/20070728)
+MIME-Version: 1.0
+To: Attila Sipos <attila.sipos@vegastream.com>
+References: <680808427CF931459462C3D78CB5EC60058AA6A8@EXVS02.nasstar-t1.net>
+In-Reply-To: <680808427CF931459462C3D78CB5EC60058AA6A8@EXVS02.nasstar-t1.net>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.35
+Cc: sip@ietf.org, "Szilagyi, Mike" <Mike.Szilagyi@inin.com>, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] SIP WG closed (was RE:  Question about Accept-Language)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 07 May 2009 13:24:02 -0000
+
+Attila Sipos wrote:
+>>> And by the way, the SIP working group is now closed. 
+> 
+> So where will the creation of new SIP working groups be declared?
+> Seems like the SIP WG is still useful for announcements of that kind. 
+> 
+> Or where does one go to see the list of all SIP-related working groups?
+
+Attila: The SIP and SIPPING WGs have been replaced by
+sipcore (http://www.ietf.org/html.charters/sipcore-charter.html)
+and dispatch (http://www.ietf.org/html.charters/dispatch-charter.html).
+
+The genesis for this change was discussed in
+http://tools.ietf.org/html/draft-peterson-rai-rfc3427bis-01,
+and you can hear the deliberations on this in the last IETF
+meeting at
+http://www.softarmor.com/mediawiki/index.php/SIP_Audio_for_IETF_74,
+see item number 2 on that page (SIP change process (Jon Peterson)).
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From arawsthorne@alcatel-lucent.com  Wed May  6 08:24:53 2009
+Return-Path: <arawsthorne@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id CAD673A6F54 for <sip@core3.amsl.com>; Wed,  6 May 2009 08:24:53 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LH0LmpoAIcOM for <sip@core3.amsl.com>; Wed,  6 May 2009 08:24:53 -0700 (PDT)
+Received: from ihemail3.lucent.com (ihemail3.lucent.com [135.245.0.37]) by core3.amsl.com (Postfix) with ESMTP id E638E28C16E for <sip@ietf.org>; Wed,  6 May 2009 08:22:10 -0700 (PDT)
+Received: from ilexp01.ndc.lucent.com (h135-3-39-1.lucent.com [135.3.39.1]) by ihemail3.lucent.com (8.13.8/IER-o) with ESMTP id n46FN4tf015672 for <sip@ietf.org>; Wed, 6 May 2009 10:23:36 -0500 (CDT)
+Received: from ILEXC3U02.ndc.lucent.com ([135.3.39.59]) by ilexp01.ndc.lucent.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 6 May 2009 10:23:29 -0500
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 6 May 2009 10:23:25 -0500
+Message-ID: <F2B3190B2D8D0640A6C008A882001E3702367A7C@ILEXC3U02.ndc.lucent.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: RFC 3261   Accept-Language change to allow empty
+Thread-Index: AcnOXplmOAoOHFzdTNCEfDMVCVgHkQ==
+From: "Rawsthorne, Alan \(Alan\)" <arawsthorne@alcatel-lucent.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 06 May 2009 15:23:29.0759 (UTC) FILETIME=[9C143EF0:01C9CE5E]
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.37
+X-Mailman-Approved-At: Mon, 11 May 2009 02:49:09 -0700
+Subject: [Sip] RFC 3261   Accept-Language change to allow empty
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 May 2009 15:34:25 -0000
+
+     =20
+What is the purpose of the RFC3261 change that allowed=20
+Accept-Language:=20
+ What does a language set to nothing mean?
+
+Some systems (older?) reject responses with empty value
+Accept-Language:
+
+From attila.sipos@vegastream.com  Mon May 11 06:08:22 2009
+Return-Path: <attila.sipos@vegastream.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 92BD23A6B06 for <sip@core3.amsl.com>; Mon, 11 May 2009 06:08:22 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.599 tagged_above=-999 required=5 tests=[AWL=0.000,  BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id sMzrgkUeKonL for <sip@core3.amsl.com>; Mon, 11 May 2009 06:08:21 -0700 (PDT)
+Received: from cluster-d.mailcontrol.com (cluster-d.mailcontrol.com [85.115.60.190]) by core3.amsl.com (Postfix) with ESMTP id 7D1623A69C8 for <sip@ietf.org>; Mon, 11 May 2009 06:08:21 -0700 (PDT)
+Received: from rly13d.srv.mailcontrol.com (localhost.localdomain [127.0.0.1]) by rly13d.srv.mailcontrol.com (MailControl) with ESMTP id n4BD9nJM007573 for <sip@ietf.org>; Mon, 11 May 2009 14:09:50 +0100
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1]) by rly13d.srv.mailcontrol.com (MailControl) id n4BD9QSh004145 for <sip@ietf.org>; Mon, 11 May 2009 14:09:26 +0100
+Received: from exsmtp02.nasstar-t1.net (exsmtp02.nasstar-t1.net [89.28.233.152]) by rly13d-eth0.srv.mailcontrol.com (envelope-sender <attila.sipos@vegastream.com>) (MIMEDefang) with ESMTP id n4BD8jZc031038; Mon, 11 May 2009 14:09:25 +0100 (BST)
+Received: from EXVS02.nasstar-t1.net ([10.2.10.104]) by exsmtp02.nasstar-t1.net with Microsoft SMTPSVC(6.0.3790.1830);  Mon, 11 May 2009 14:09:33 +0100
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 11 May 2009 14:08:52 +0100
+Message-ID: <680808427CF931459462C3D78CB5EC6005918CD2@EXVS02.nasstar-t1.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] RFC 3261   Accept-Language change to allow empty
+Thread-Index: AcnOXplmOAoOHFzdTNCEfDMVCVgHkQD2vwrw
+From: "Attila Sipos" <attila.sipos@vegastream.com>
+To: "Rawsthorne, Alan \(Alan\)" <arawsthorne@alcatel-lucent.com>, <sip@ietf.org>
+X-OriginalArrivalTime: 11 May 2009 13:09:33.0892 (UTC) FILETIME=[BA650040:01C9D239]
+X-Scanned-By: MailControl A-06-00-00 (www.mailcontrol.com) on 10.68.1.123
+Subject: Re: [Sip] RFC 3261   Accept-Language change to allow empty
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 11 May 2009 13:08:22 -0000
+
+I have been told...
+
+=20
+The SIP and SIPPING WGs have been replaced by sipcore
+(http://www.ietf.org/html.charters/sipcore-charter.html)
+and dispatch (http://www.ietf.org/html.charters/dispatch-charter.html).
+
+
+
+
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+Rawsthorne, Alan (Alan)
+Sent: 06 May 2009 16:23
+To: sip@ietf.org
+Subject: [Sip] RFC 3261 Accept-Language change to allow empty
+
+
+     =20
+What is the purpose of the RFC3261 change that allowed
+Accept-Language:=20
+ What does a language set to nothing mean?
+
+Some systems (older?) reject responses with empty value
+Accept-Language:
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol Use
+sip-implementors@cs.columbia.edu for questions on current sip Use
+sipping@ietf.org for new developments on the application of sip
+
+From drage@alcatel-lucent.com  Mon May 11 06:48:11 2009
+Return-Path: <drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id CBBE43A69B5 for <sip@core3.amsl.com>; Mon, 11 May 2009 06:48:11 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.939
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.939 tagged_above=-999 required=5 tests=[AWL=0.310,  BAYES_00=-2.599, HELO_EQ_FR=0.35, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 2-ef+jAn6s3C for <sip@core3.amsl.com>; Mon, 11 May 2009 06:48:10 -0700 (PDT)
+Received: from smail3.alcatel.fr (smail3.alcatel.fr [62.23.212.56]) by core3.amsl.com (Postfix) with ESMTP id 6BDB83A67F0 for <sip@ietf.org>; Mon, 11 May 2009 06:48:10 -0700 (PDT)
+Received: from FRMRSSXCHHUB02.dc-m.alcatel-lucent.com (FRMRSSXCHHUB02.dc-m.alcatel-lucent.com [135.120.45.62]) by smail3.alcatel.fr (8.13.8/8.13.8/ICT) with ESMTP id n4BDnYLg024277 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Mon, 11 May 2009 15:49:34 +0200
+Received: from FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com ([135.120.45.39]) by FRMRSSXCHHUB02.dc-m.alcatel-lucent.com ([135.120.45.62]) with mapi; Mon, 11 May 2009 15:49:34 +0200
+From: "DRAGE, Keith (Keith)" <drage@alcatel-lucent.com>
+To: Dean Willis <dean.willis@softarmor.com>, "Szilagyi, Mike" <Mike.Szilagyi@inin.com>
+Date: Mon, 11 May 2009 15:49:32 +0200
+Thread-Topic: [Sip] Question about Accept-Language
+Thread-Index: AcnO0rpY8s9mvpg6SxuQcZmCH9tQggDbEPHg
+Message-ID: <28B7C3AA2A7ABA4A841F11217ABE78D6759ECB62@FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com>
+References: <B043FD61A001424599674F50FC89C2D71D923632CA@ININMAIL.i3domain.inin.com> <CCCD17D0-A522-4891-938E-4786A661BFA8@softarmor.com>
+In-Reply-To: <CCCD17D0-A522-4891-938E-4786A661BFA8@softarmor.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.57 on 155.132.188.83
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Question about Accept-Language
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 11 May 2009 13:48:11 -0000
+
+Aside from the viewpoint that this specific query possibly belongs on the s=
+ip-implementors list.
+
+Can I note that people should continue to monitor this list for any issues =
+regarding SIP documents in transit within the IESG (i.e. post publication r=
+equested).=20
+
+You can only discard your participation when we get the IESG to finish chew=
+ing the last one - at the current rate of progress that is about 3 years ti=
+me.
+
+regards
+
+Keith
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On=20
+> Behalf Of Dean Willis
+> Sent: Thursday, May 07, 2009 6:14 AM
+> To: Szilagyi, Mike
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] Question about Accept-Language
+>=20
+>=20
+> I believe it means you have no preferred language, thereby=20
+> granting equal precedence to any language. In other words,=20
+> the same as not putting the header field in at all.
+>=20
+> My rule of thumb: a header field with no value has no value.
+>=20
+> Honoring the Accept-Language by actually sending reason=20
+> phrases, etc. =20
+> in-language is not mandatory. As far as I know, most server=20
+> packages ignore it.
+>=20
+> And by the way, the SIP working group is now closed. I don't=20
+> know how many folks are still monitoring this mailing list.=20
+> All remaining work has transitioned eitehr to other working=20
+> groups, or to that interminable no-mans land known as "AD sponsored".
+>=20
+> --
+> Dean Willis, Former co-Chair.
+>=20
+>=20
+> On May 6, 2009, at 1:20 PM, Szilagyi, Mike wrote:
+>=20
+> > In RFC3261, the Accept-Language section defines the headers meaning=20
+> > with a language value present and its meaning when the=20
+> header is not=20
+> > present.
+> >
+> > 20.3 Accept-Language
+> >
+> >    The Accept-Language header field is used in requests to indicate=20
+> > the
+> >    preferred languages for reason phrases, session descriptions, or
+> >    status responses carried as message bodies in the=20
+> response.  If no
+> >    Accept-Language header field is present, the server=20
+> SHOULD assume=20
+> > all
+> >    languages are acceptable to the client.
+> >
+> >    The Accept-Language header field follows the syntax defined in
+> >    [H14.4].  The rules for ordering the languages based on the "q"
+> >    parameter apply to SIP as well.
+> >
+> >    Example:
+> >
+> >       Accept-Language: da, en-gb;q=3D0.8, en;q=3D0.7
+> >
+> >
+> > The grammar for Accept-Language shows the language value as=20
+> optional:
+> >
+> >       Accept-Language  =3D  "Accept-Language" HCOLON
+> >                               [ language *(COMMA language) ]
+> >
+> >
+> > What does it mean if the header is present but with an=20
+> empty language=20
+> > value?
+> >
+> >           Accept-Language:
+> >
+> > Regards,
+> > Mike
+> > _______________________________________________
+> > Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> > This list is for NEW development of the core SIP Protocol Use=20
+> > sip-implementors@cs.columbia.edu for questions on current sip Use=20
+> > sipping@ietf.org for new developments on the application of sip
+>=20
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol Use=20
+> sip-implementors@cs.columbia.edu for questions on current sip=20
+> Use sipping@ietf.org for new developments on the application of sip
+> =
+
+From rjsparks@nostrum.com  Tue May 12 06:30:09 2009
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id EAE9E3A6D0D for <sip@core3.amsl.com>; Tue, 12 May 2009 06:30:09 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[AWL=-0.000, BAYES_00=-2.599, HTML_MESSAGE=0.001, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LVmSRhr4AWat for <sip@core3.amsl.com>; Tue, 12 May 2009 06:30:09 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 8B1C63A6A8C for <sip@ietf.org>; Tue, 12 May 2009 06:30:08 -0700 (PDT)
+Received: from guest-31.ripe.net (guest-31.ripe.net [193.0.2.31]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id n4CDVamS088586 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO) for <sip@ietf.org>; Tue, 12 May 2009 08:31:38 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+Message-Id: <4C16FC70-FBA3-4F98-97A4-EAC7685968AB@nostrum.com>
+From: Robert Sparks <rjsparks@nostrum.com>
+To: SIP IETF <sip@ietf.org>
+Content-Type: multipart/alternative; boundary=Apple-Mail-13--312592911
+Mime-Version: 1.0 (Apple Message framework v930.3)
+Date: Tue, 12 May 2009 15:31:35 +0200
+References: <20090512131950.106463A6A6B@core3.amsl.com>
+X-Mailer: Apple Mail (2.930.3)
+Received-SPF: pass (nostrum.com: 193.0.2.31 is authenticated by a trusted mechanism)
+Subject: [Sip] Fwd: Last Call: draft-ietf-sip-outbound (Managing Client Initiated Connections in the Session Initiation Protocol (SIP)) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 12 May 2009 13:30:10 -0000
+
+--Apple-Mail-13--312592911
+Content-Type: text/plain;
+	charset=US-ASCII;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: 7bit
+
+In case you aren't subscribed to ietf-announce:
+
+RjS
+
+Begin forwarded message:
+
+> From: The IESG <iesg-secretary@ietf.org>
+> Date: May 12, 2009 3:19:50 PM GMT+02:00
+> To: IETF-Announce <ietf-announce@ietf.org>
+> Subject: Last Call: draft-ietf-sip-outbound (Managing Client  
+> Initiated  Connections in the Session Initiation Protocol (SIP)) to   
+> Proposed Standard
+> Reply-To: ietf@ietf.org
+>
+> The IESG has received a request from an individual submitter to  
+> consider
+> the following document:
+>
+> - 'Managing Client Initiated Connections in the Session Initiation
+>   Protocol (SIP) '
+>   <draft-ietf-sip-outbound-17.txt> as a Proposed Standard
+>
+> The IESG plans to make a decision in the next few weeks, and solicits
+> final comments on this action.  Please send substantive comments to  
+> the
+> ietf@ietf.org mailing lists by 2009-06-09. Exceptionally,
+> comments may be sent to iesg@ietf.org instead. In either case, please
+> retain the beginning of the Subject line to allow automated sorting.
+>
+> The file can be obtained via
+> http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-17.txt
+>
+>
+> IESG discussion can be tracked via
+> https://datatracker.ietf.org/public/pidtracker.cgi?command=view_id&dTag=13430&rfc_flag=0
+>
+> _______________________________________________
+> IETF-Announce mailing list
+> IETF-Announce@ietf.org
+> https://www.ietf.org/mailman/listinfo/ietf-announce
+
+
+--Apple-Mail-13--312592911
+Content-Type: text/html;
+	charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">In case you aren't subscribed =
+to ietf-announce:<div><div><br></div><div>RjS<br><div><br><div>Begin =
+forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" color=3D"#000000" =
+style=3D"font: 12.0px Helvetica; color: #000000"><b>From: =
+</b></font><font face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">The IESG &lt;<a =
+href=3D"mailto:iesg-secretary@ietf.org">iesg-secretary@ietf.org</a>></font=
+></div><div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: =
+0px; margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" =
+color=3D"#000000" style=3D"font: 12.0px Helvetica; color: =
+#000000"><b>Date: </b></font><font face=3D"Helvetica" size=3D"3" =
+style=3D"font: 12.0px Helvetica">May 12, 2009 3:19:50 PM =
+GMT+02:00</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" color=3D"#000000" style=3D"font: 12.0px Helvetica; color: =
+#000000"><b>To: </b></font><font face=3D"Helvetica" size=3D"3" =
+style=3D"font: 12.0px Helvetica">IETF-Announce &lt;<a =
+href=3D"mailto:ietf-announce@ietf.org">ietf-announce@ietf.org</a>></font><=
+/div><div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: =
+0px; margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" =
+color=3D"#000000" style=3D"font: 12.0px Helvetica; color: =
+#000000"><b>Subject: </b></font><font face=3D"Helvetica" size=3D"3" =
+style=3D"font: 12.0px Helvetica"><b>Last Call: draft-ietf-sip-outbound =
+(Managing Client Initiated<span class=3D"Apple-converted-space">&nbsp; =
+</span>Connections in the Session Initiation Protocol (SIP)) to<span =
+class=3D"Apple-converted-space">&nbsp; </span>Proposed Standard<span =
+class=3D"Apple-converted-space">&nbsp;</span></b></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" color=3D"#000000" =
+style=3D"font: 12.0px Helvetica; color: #000000"><b>Reply-To: =
+</b></font><font face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica"><a =
+href=3D"mailto:ietf@ietf.org">ietf@ietf.org</a></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><br></div> </div><div>The IESG has =
+received a request from an individual submitter to consider <br>the =
+following document:<br><br>- 'Managing Client Initiated Connections in =
+the Session Initiation <br> &nbsp;&nbsp;Protocol (SIP) '<br> =
+&nbsp;&nbsp;&lt;draft-ietf-sip-outbound-17.txt> as a Proposed =
+Standard<br><br>The IESG plans to make a decision in the next few weeks, =
+and solicits<br>final comments on this action. &nbsp;Please send =
+substantive comments to the<br><a =
+href=3D"mailto:ietf@ietf.org">ietf@ietf.org</a> mailing lists by =
+2009-06-09. Exceptionally, <br>comments may be sent to <a =
+href=3D"mailto:iesg@ietf.org">iesg@ietf.org</a> instead. In either case, =
+please <br>retain the beginning of the Subject line to allow automated =
+sorting.<br><br>The file can be obtained via<br><a =
+href=3D"http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-17.txt=
+">http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-17.txt</a><b=
+r><br><br>IESG discussion can be tracked =
+via<br>https://datatracker.ietf.org/public/pidtracker.cgi?command=3Dview_i=
+d&amp;dTag=3D13430&amp;rfc_flag=3D0<br><br>_______________________________=
+________________<br>IETF-Announce mailing =
+list<br>IETF-Announce@ietf.org<br>https://www.ietf.org/mailman/listinfo/ie=
+tf-announce<br></div></blockquote></div><br></div></div></body></html>=
+
+--Apple-Mail-13--312592911--
+
+From wwwrun@core3.amsl.com  Tue May 12 07:37:34 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 3F25E3A6B28; Tue, 12 May 2009 07:37:34 -0700 (PDT)
+X-idtracker: yes
+To: IETF-Announce <ietf-announce@ietf.org> 
+From: The IESG <iesg-secretary@ietf.org>
+Message-Id: <20090512143734.3F25E3A6B28@core3.amsl.com>
+Date: Tue, 12 May 2009 07:37:34 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] REVISED Last Call: draft-ietf-sip-outbound (Managing Client Initiated Connections in the Session Initiation Protocol (SIP)) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ietf@ietf.org
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 12 May 2009 14:37:34 -0000
+
+The IESG has received a request from the Session Initiation Protocol WG
+(SIP) to consider the following document:
+
+- 'Managing Client Initiated Connections in the Session Initiation 
+   Protocol (SIP) '
+   <draft-ietf-sip-outbound-17.txt> as a Proposed Standard
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send substantive comments to the
+ietf@ietf.org mailing lists by 2009-05-26. Exceptionally, 
+comments may be sent to iesg@ietf.org instead. In either case, please 
+retain the beginning of the Subject line to allow automated sorting.
+
+The file can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-17.txt
+
+
+IESG discussion can be tracked via
+https://datatracker.ietf.org/public/pidtracker.cgi?command=view_id&dTag=13430&rfc_flag=0
+
+
+From vkg@alcatel-lucent.com  Tue May 19 07:24:06 2009
+Return-Path: <vkg@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3DD2D3A69C5 for <sip@core3.amsl.com>; Tue, 19 May 2009 07:24:06 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.524
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.524 tagged_above=-999 required=5 tests=[AWL=0.075,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oXCvBVtqzkSL for <sip@core3.amsl.com>; Tue, 19 May 2009 07:24:05 -0700 (PDT)
+Received: from ihemail2.lucent.com (ihemail2.lucent.com [135.245.0.35]) by core3.amsl.com (Postfix) with ESMTP id DCF3C3A6A00 for <sip@ietf.org>; Tue, 19 May 2009 07:24:04 -0700 (PDT)
+Received: from umail.lucent.com (h135-3-40-61.lucent.com [135.3.40.61]) by ihemail2.lucent.com (8.13.8/IER-o) with ESMTP id n4JEPebi026082 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO) for <sip@ietf.org>; Tue, 19 May 2009 09:25:40 -0500 (CDT)
+Received: from [135.185.236.17] (il0015vkg1.ih.lucent.com [135.185.236.17]) by umail.lucent.com (8.13.8/TPES) with ESMTP id n4JEPeOG013487 for <sip@ietf.org>; Tue, 19 May 2009 09:25:40 -0500 (CDT)
+Message-ID: <4A12C164.5000407@alcatel-lucent.com>
+Date: Tue, 19 May 2009 09:25:40 -0500
+From: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+Organization: Bell Labs Security Technology Research Group
+User-Agent: Thunderbird 2.0.0.6 (Windows/20070728)
+MIME-Version: 1.0
+To: IETF SIP List <sip@ietf.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.35
+Subject: [Sip] New versions of domain-certs and sip-eku
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 May 2009 14:24:06 -0000
+
+All: Scott and I released new versions of domain-certs (-04)
+and sip-eku (-05) following a conversation with the AD, who
+is in the process of moving these forward.
+
+The changes were minor and are summarized as follows:
+
+1) In domain-certs-04, the sip-eku reference was downgraded from
+  Normative to Informative.
+
+2) In sip-eku-05, changed the description of how to examine
+  the EKU values to clarify that the decision to be made is
+  whether or not the certificate is restricted, as opposed to
+  deciding whether or not the certificate is valid in some broader
+  sense.
+
+The new versions are available at:
+http://tools.ietf.org/html/draft-ietf-sip-domain-certs-04
+http://tools.ietf.org/html/draft-ietf-sip-eku-05
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From drage@alcatel-lucent.com  Wed May 20 08:53:25 2009
+Return-Path: <drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id D23043A6BF8 for <sip@core3.amsl.com>; Wed, 20 May 2009 08:53:25 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.919
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.919 tagged_above=-999 required=5 tests=[AWL=0.330,  BAYES_00=-2.599, HELO_EQ_FR=0.35, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id P3vr17gCJKH1 for <sip@core3.amsl.com>; Wed, 20 May 2009 08:53:25 -0700 (PDT)
+Received: from smail5.alcatel.fr (smail5.alcatel.fr [64.208.49.27]) by core3.amsl.com (Postfix) with ESMTP id B54193A6D02 for <sip@ietf.org>; Wed, 20 May 2009 08:53:23 -0700 (PDT)
+Received: from FRMRSSXCHHUB04.dc-m.alcatel-lucent.com (FRMRSSXCHHUB04.dc-m.alcatel-lucent.com [135.120.45.64]) by smail5.alcatel.fr (8.13.8/8.13.8/ICT) with ESMTP id n4KFsxRO029857 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT) for <sip@ietf.org>; Wed, 20 May 2009 17:55:00 +0200
+Received: from FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com ([135.120.45.39]) by FRMRSSXCHHUB04.dc-m.alcatel-lucent.com ([135.120.45.64]) with mapi; Wed, 20 May 2009 17:54:59 +0200
+From: "DRAGE, Keith (Keith)" <drage@alcatel-lucent.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 20 May 2009 17:54:58 +0200
+Thread-Topic: I-D Action:draft-ietf-sip-ua-privacy-08.txt
+Thread-Index: AcnZY1NrLLPrtnzIQ8G4/DG1Vy9jtw==
+Message-ID: <28B7C3AA2A7ABA4A841F11217ABE78D675A3B02C@FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.57 on 155.132.188.13
+Subject: [Sip] I-D Action:draft-ietf-sip-ua-privacy-08.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 May 2009 15:53:25 -0000
+
+As these seem to have stopped going to the SIP list with the closure of the=
+ working group, I am forwarding this.
+
+regards
+
+Keith
+
+
+A New Internet-Draft is available from the on-line Internet-Drafts director=
+ies.
+
+	Title           : UA-Driven Privacy Mechanism for SIP
+	Author(s)       : M. Munakata, et al.
+	Filename        : draft-ietf-sip-ua-privacy-08.txt
+	Pages           : 11
+	Date            : 2009-05-19
+
+This document defines a guideline for a User Agent (UA) to generate
+an anonymous Session Initiation Protocol (SIP) message by utilizing
+mechanisms such as Globally Routable User Agent URIs (GRUU) and
+Traversal Using Relays around NAT (TURN) without the need for a
+privacy service defined in RFC 3323.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-ua-privacy-08.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+<ftp://ftp.ietf.org/internet-drafts/draft-ietf-sip-ua-privacy-08.txt>=
+
+From drage@alcatel-lucent.com  Wed May 20 08:54:15 2009
+Return-Path: <drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E3A5E28C2EF for <sip@core3.amsl.com>; Wed, 20 May 2009 08:54:15 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.923
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.923 tagged_above=-999 required=5 tests=[AWL=-1.674, BAYES_00=-2.599, HELO_EQ_FR=0.35]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id d2YHNxeeVQPv for <sip@core3.amsl.com>; Wed, 20 May 2009 08:54:15 -0700 (PDT)
+Received: from smail6.alcatel.fr (smail6.alcatel.fr [64.208.49.42]) by core3.amsl.com (Postfix) with ESMTP id DC69D28C1D2 for <sip@ietf.org>; Wed, 20 May 2009 08:54:14 -0700 (PDT)
+Received: from FRMRSSXCHHUB01.dc-m.alcatel-lucent.com (FRMRSSXCHHUB01.dc-m.alcatel-lucent.com [135.120.45.61]) by smail6.alcatel.fr (8.13.8/8.13.8/ICT) with ESMTP id n4KFtoLN002994 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT) for <sip@ietf.org>; Wed, 20 May 2009 17:55:51 +0200
+Received: from FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com ([135.120.45.39]) by FRMRSSXCHHUB01.dc-m.alcatel-lucent.com ([135.120.45.61]) with mapi; Wed, 20 May 2009 17:55:51 +0200
+From: "DRAGE, Keith (Keith)" <drage@alcatel-lucent.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 20 May 2009 17:55:49 +0200
+Thread-Topic: I-D Action:draft-ietf-sip-domain-certs-04.txt
+Thread-Index: AcnZY3InZZlHR23GRUWYiqWRc9W8tQ==
+Message-ID: <28B7C3AA2A7ABA4A841F11217ABE78D675A3B02E@FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.57 on 155.132.188.84
+Subject: [Sip] I-D Action:draft-ietf-sip-domain-certs-04.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 May 2009 15:54:16 -0000
+
+As these seem to have stopped going to the SIP list with the closure of the=
+ working group, I am forwarding this.
+
+regards
+
+Keith
+
+A New Internet-Draft is available from the on-line Internet-Drafts director=
+ies.
+
+	Title           : Domain Certificates in the Session Initiation Protocol (=
+SIP)
+	Author(s)       : V. Gurbani, et al.
+	Filename        : draft-ietf-sip-domain-certs-04.txt
+	Pages           : 17
+	Date            : 2009-05-18
+
+This document describes how to construct and interpret certain
+information in a X.509 PKIX-compliant certificate for use in a
+Session Initiation Protocol (SIP) over Transport Layer Security (TLS)
+connection.  More specifically, this document describes how to encode
+and extract the identity of a SIP domain in a certificate and how to
+use that identity for SIP domain authentication.  As such, this
+document is relevant both to implementors of SIP and to issuers of
+cetificates.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-domain-certs-04.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+<ftp://ftp.ietf.org/internet-drafts/draft-ietf-sip-domain-certs-04.txt>=
+
+From drage@alcatel-lucent.com  Wed May 20 08:55:47 2009
+Return-Path: <drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 79B7A28C1CB for <sip@core3.amsl.com>; Wed, 20 May 2009 08:55:46 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.906
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.906 tagged_above=-999 required=5 tests=[AWL=-1.657, BAYES_00=-2.599, HELO_EQ_FR=0.35]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ar0CkZGUrqzW for <sip@core3.amsl.com>; Wed, 20 May 2009 08:55:45 -0700 (PDT)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by core3.amsl.com (Postfix) with ESMTP id 7CF4D28C367 for <sip@ietf.org>; Wed, 20 May 2009 08:55:44 -0700 (PDT)
+Received: from FRMRSSXCHHUB01.dc-m.alcatel-lucent.com (FRMRSSXCHHUB01.dc-m.alcatel-lucent.com [135.120.45.61]) by smail2.alcatel.fr (8.13.8/8.13.8/ICT) with ESMTP id n4KFvGRD010270 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT) for <sip@ietf.org>; Wed, 20 May 2009 17:57:17 +0200
+Received: from FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com ([135.120.45.39]) by FRMRSSXCHHUB01.dc-m.alcatel-lucent.com ([135.120.45.61]) with mapi; Wed, 20 May 2009 17:57:17 +0200
+From: "DRAGE, Keith (Keith)" <drage@alcatel-lucent.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 20 May 2009 17:57:16 +0200
+Thread-Topic: I-D Action:draft-ietf-sip-eku-05.txt
+Thread-Index: AcnZY6W4Gmr2Aj0jSZCDTPitLEhs8Q==
+Message-ID: <28B7C3AA2A7ABA4A841F11217ABE78D675A3B02F@FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.57 on 155.132.188.80
+Subject: [Sip] I-D Action:draft-ietf-sip-eku-05.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 May 2009 15:55:47 -0000
+
+As these seem to have stopped going to the SIP list with the closure of the=
+ working group, I am forwarding this.
+
+regards
+
+Keith
+
+
+A New Internet-Draft is available from the on-line Internet-Drafts director=
+ies.
+
+	Title           : Using Extended Key Usage (EKU) for Session Initiation Pr=
+otocol (SIP) X.509 Certificates
+	Author(s)       : S. Lawrence, V. Gurbani
+	Filename        : draft-ietf-sip-eku-05.txt
+	Pages           : 9
+	Date            : 2009-05-18
+
+This memo documents an extended key usage (EKU) X.509 certificate
+extension for restricting the applicability of a certificate to use
+with a Session Initiation Protocol (SIP) service.  As such, in
+addition to providing rules for SIP implementations, this memo also
+provides guidance to issuers of certificates for use with SIP.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-eku-05.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+<ftp://ftp.ietf.org/internet-drafts/draft-ietf-sip-eku-05.txt>=
+
+From brett@broadsoft.com  Wed May 20 09:12:38 2009
+Return-Path: <brett@broadsoft.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3D7223A6C0C for <sip@core3.amsl.com>; Wed, 20 May 2009 09:12:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.043
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.043 tagged_above=-999 required=5 tests=[AWL=0.556,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id C+bzXAUmK6qk for <sip@core3.amsl.com>; Wed, 20 May 2009 09:12:37 -0700 (PDT)
+Received: from smtp-out01.seaservers.net (smtp-out01.seaservers.net [72.37.232.66]) by core3.amsl.com (Postfix) with ESMTP id 6EF373A694F for <sip@ietf.org>; Wed, 20 May 2009 09:12:37 -0700 (PDT)
+Received: from mbx02.citservers.local ([172.16.98.24]) by casumhub01.citservers.local ([172.16.98.57]) with mapi; Wed, 20 May 2009 09:14:10 -0700
+From: Brett Tate <brett@broadsoft.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 20 May 2009 09:14:08 -0700
+Thread-Topic: http://tools.ietf.org/wg/sip/ no longer updated
+Thread-Index: AcnZZgD9vs5WzxfOQZ+EEyMTcNdMuQ==
+Message-ID: <9B2A061A1137254BBE4F4B2CD843646A12D38765E4@mbx02.citservers.local>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-cr-puzzleid: {4F5BF1A7-DFDE-4559-B438-6FD7589FDCAA}
+x-cr-hashedpuzzle: A9o= Y9E= AZOE ArIv C1OO EpkW Gw5q G1wt G6Or HbBg ISSf Il7K IrVc JJsI JW62 JoLk; 1; cwBpAHAAQABpAGUAdABmAC4AbwByAGcA; Sosha1_v1; 7; {4F5BF1A7-DFDE-4559-B438-6FD7589FDCAA}; YgByAGUAdAB0AEAAYgByAG8AYQBkAHMAbwBmAHQALgBjAG8AbQA=; Wed, 20 May 2009 16:14:08 GMT; aAB0AHQAcAA6AC8ALwB0AG8AbwBsAHMALgBpAGUAdABmAC4AbwByAGcALwB3AGcALwBzAGkAcAAvACAAbgBvACAAbABvAG4AZwBlAHIAIAB1AHAAZABhAHQAZQBkAA==
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: [Sip] http://tools.ietf.org/wg/sip/ no longer updated
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 May 2009 16:12:38 -0000
+
+Another side effect of the closing of the working group appears=20
+to be that the status page no longer reflects draft updates:=20
+http://tools.ietf.org/wg/sip/
+
+
+From Black_David@emc.com  Wed May 20 17:49:09 2009
+Return-Path: <Black_David@emc.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 78FB43A695D; Wed, 20 May 2009 17:49:09 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.503
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.503 tagged_above=-999 required=5 tests=[AWL=0.096,  BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id VFGfAQNIzQta; Wed, 20 May 2009 17:49:08 -0700 (PDT)
+Received: from mexforward.lss.emc.com (mexforward.lss.emc.com [128.222.32.20]) by core3.amsl.com (Postfix) with ESMTP id 2DF223A682A; Wed, 20 May 2009 17:49:07 -0700 (PDT)
+Received: from hop04-l1d11-si03.isus.emc.com (HOP04-L1D11-SI03.isus.emc.com [10.254.111.23]) by mexforward.lss.emc.com (Switch-3.2.5/Switch-3.1.7) with ESMTP id n4L0oT5Z005263 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Wed, 20 May 2009 20:50:29 -0400 (EDT)
+From: Black_David@emc.com
+Received: from mailhub.lss.emc.com (numailhub.lss.emc.com [10.254.144.16]) by hop04-l1d11-si03.isus.emc.com (Tablus Interceptor); Wed, 20 May 2009 20:50:21 -0400
+Received: from corpussmtp3.corp.emc.com (corpussmtp3.corp.emc.com [10.254.64.53]) by mailhub.lss.emc.com (Switch-3.3.2/Switch-3.3.2) with ESMTP id n4L0oJif019879; Wed, 20 May 2009 20:50:20 -0400
+Received: from CORPUSMX80A.corp.emc.com ([10.254.89.202]) by corpussmtp3.corp.emc.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 20 May 2009 20:50:20 -0400
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 20 May 2009 20:50:19 -0400
+Message-ID: <9FA859626025B64FBC2AF149D97C944A02BFFB9D@CORPUSMX80A.corp.emc.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Gen-ART review of draft-ietf-sip-outbound-17
+Thread-Index: AcnZrh0ooJSQkWMkSVG/Sm8u7e1a4Q==
+To: <fluffy@cisco.com>, <rohan@ekabal.com>, <gen-art@ietf.org>
+X-OriginalArrivalTime: 21 May 2009 00:50:20.0145 (UTC) FILETIME=[1DA1CE10:01C9D9AE]
+X-EMM-EM: Active
+X-Mailman-Approved-At: Thu, 21 May 2009 03:43:56 -0700
+Cc: sip@ietf.org, drage@alcatel-lucent.com, Black_David@emc.com, dean.willis@softarmor.com
+Subject: [Sip] Gen-ART review of draft-ietf-sip-outbound-17
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 21 May 2009 00:49:09 -0000
+
+Cullen and Rohan,
+
+I have been selected as the General Area Review Team (Gen-ART)=20
+reviewer for this draft (for background on Gen-ART, please see=20
+http://www.alvestrand.no/ietf/gen/art/gen-art-FAQ.html).
+
+Please resolve these comments along with any other Last Call
+comments you may receive.
+
+Document: draft-ietf-sip-outbound-17
+Reviewer: David L. Black
+Review Date: May 20, 2009
+IETF LC End Date: May 26, 2009
+
+Summary:
+This draft is basically ready for publication, but has nits
+that should be fixed before publication.
+
+Comments:
+This is a well-written document about using SIP through a NAT,
+including handling information that needs to flow inbound
+through a NAT towards a User Agent and keep-alive techniques
+for connections that may pass through a NAT.
+
+The only nits worth mentioning are a couple of RFC reference
+issues found by idnits 2.11.11:
+
+  ** Obsolete normative reference: RFC 3489 (Obsoleted by RFC 5389)
+
+  -- Obsolete informational reference (is this intentional?): RFC 4346
+     (Obsoleted by RFC 5246)
+
+Thanks,
+--David
+----------------------------------------------------
+David L. Black, Distinguished Engineer
+EMC Corporation, 176 South St., Hopkinton, MA  01748
++1 (508) 293-7953             FAX: +1 (508) 293-7786
+black_david@emc.com        Mobile: +1 (978) 394-7754
+----------------------------------------------------
+
+From wwwrun@core3.amsl.com  Fri May 22 11:11:51 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 8956D3A6EDB; Fri, 22 May 2009 11:11:51 -0700 (PDT)
+X-idtracker: yes
+To: IETF-Announce <ietf-announce@ietf.org> 
+From: The IESG <iesg-secretary@ietf.org>
+Message-Id: <20090522181151.8956D3A6EDB@core3.amsl.com>
+Date: Fri, 22 May 2009 11:11:51 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] Last Call: draft-ietf-sip-eku (Using Extended Key Usage (EKU) for Session Initiation Protocol (SIP) X.509 Certificates) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ietf@ietf.org
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 22 May 2009 18:11:51 -0000
+
+The IESG has received a request from the Session Initiation Protocol WG 
+(sip) to consider the following document:
+
+- 'Using Extended Key Usage (EKU) for Session Initiation Protocol (SIP) 
+   X.509 Certificates '
+   <draft-ietf-sip-eku-05.txt> as a Proposed Standard
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send substantive comments to the
+ietf@ietf.org mailing lists by 2009-06-05. Exceptionally, 
+comments may be sent to iesg@ietf.org instead. In either case, please 
+retain the beginning of the Subject line to allow automated sorting.
+
+The file can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-sip-eku-05.txt
+
+
+IESG discussion can be tracked via
+https://datatracker.ietf.org/public/pidtracker.cgi?command=view_id&dTag=16567&rfc_flag=0
+
+
+From fluffy@cisco.com  Fri May 22 11:23:50 2009
+Return-Path: <fluffy@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 936333A6F80; Fri, 22 May 2009 11:23:50 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -106.569
+X-Spam-Level: 
+X-Spam-Status: No, score=-106.569 tagged_above=-999 required=5 tests=[AWL=0.030, BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id H0i1nQVr2MAe; Fri, 22 May 2009 11:23:49 -0700 (PDT)
+Received: from sj-iport-2.cisco.com (sj-iport-2.cisco.com [171.71.176.71]) by core3.amsl.com (Postfix) with ESMTP id 7CC993A6BBA; Fri, 22 May 2009 11:23:49 -0700 (PDT)
+X-IronPort-AV: E=Sophos;i="4.41,234,1241395200"; d="scan'208";a="168510737"
+Received: from sj-dkim-1.cisco.com ([171.71.179.21]) by sj-iport-2.cisco.com with ESMTP; 22 May 2009 18:25:27 +0000
+Received: from sj-core-1.cisco.com (sj-core-1.cisco.com [171.71.177.237]) by sj-dkim-1.cisco.com (8.12.11/8.12.11) with ESMTP id n4MIPSFk013085;  Fri, 22 May 2009 11:25:28 -0700
+Received: from [192.168.4.177] (rcdn-fluffy-8711.cisco.com [10.99.9.18]) by sj-core-1.cisco.com (8.13.8/8.13.8) with ESMTP id n4MIPPMt024126; Fri, 22 May 2009 18:25:26 GMT
+From: Cullen Jennings <fluffy@cisco.com>
+To: David Black <black_david@emc.com>, Francois  Audet <audet@nortel.com>
+In-Reply-To: <9FA859626025B64FBC2AF149D97C944A02BFFB9D@CORPUSMX80A.corp.emc.com>
+Impp: xmpp:cullenfluffyjennings@jabber.org
+References: <9FA859626025B64FBC2AF149D97C944A02BFFB9D@CORPUSMX80A.corp.emc.com>
+Message-Id: <36AA2960-4C49-44B7-90AA-518DE1685C2E@cisco.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Fri, 22 May 2009 12:25:25 -0600
+X-Mailer: Apple Mail (2.935.3)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; l=2369; t=1243016728; x=1243880728; c=relaxed/simple; s=sjdkim1004; h=Content-Type:From:Subject:Content-Transfer-Encoding:MIME-Version; d=cisco.com; i=fluffy@cisco.com; z=From:=20Cullen=20Jennings=20<fluffy@cisco.com> |Subject:=20Re=3A=20[Sip]=20Gen-ART=20review=20of=20draft-i etf-sip-outbound-17 |Sender:=20; bh=I3PgfdHYpBiDcHA6hFCmT2cGWuRbQ5D2Lmo3tyR8mPs=; b=tdrDtd0qiW608POQatgel2OlqAQpLSCf/XqI+5j0VX+a5XomfC+fXI8YEG Cd5d6UEjQ+ZkPW9lLcpQYSWeXL7rDceEcAKm5e5J6tj24urj9iqHnl6NTkbp LOT8Y2lGGZWTrDN49ZjUZOlHcdABmye+rw7Hlk1uXLJ6JJqnEFcQo=;
+Authentication-Results: sj-dkim-1; header.From=fluffy@cisco.com; dkim=pass ( sig from cisco.com/sjdkim1004 verified; ); 
+Cc: SIP List <sip@ietf.org>, Rohan Mahy <rohan@ekabal.com>, Gen Art <gen-art@ietf.org>, Keith Drage <drage@alcatel-lucent.com>, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Gen-ART review of draft-ietf-sip-outbound-17
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 22 May 2009 18:23:50 -0000
+
+David - thanks for the careful review ... more inline.
+
+
+On May 20, 2009, at 6:50 PM, black_david@emc.com wrote:
+
+> Cullen and Rohan,
+>
+> I have been selected as the General Area Review Team (Gen-ART)
+> reviewer for this draft (for background on Gen-ART, please see
+> http://www.alvestrand.no/ietf/gen/art/gen-art-FAQ.html).
+>
+> Please resolve these comments along with any other Last Call
+> comments you may receive.
+>
+> Document: draft-ietf-sip-outbound-17
+> Reviewer: David L. Black
+> Review Date: May 20, 2009
+> IETF LC End Date: May 26, 2009
+>
+> Summary:
+> This draft is basically ready for publication, but has nits
+> that should be fixed before publication.
+>
+> Comments:
+> This is a well-written document about using SIP through a NAT,
+> including handling information that needs to flow inbound
+> through a NAT towards a User Agent and keep-alive techniques
+> for connections that may pass through a NAT.
+>
+> The only nits worth mentioning are a couple of RFC reference
+> issues found by idnits 2.11.11:
+>
+>  ** Obsolete normative reference: RFC 3489 (Obsoleted by RFC 5389)
+
+This suspect we should move this to  be informative. We mostly  
+reference 5389 but have one part were we want to say that there are no  
+backwards compatibly requirements with the 3489.
+
+
+>
+>
+>  -- Obsolete informational reference (is this intentional?): RFC 4346
+>     (Obsoleted by RFC 5246)
+
+It seems most people are not sure about which version of TLS we should  
+be referencing on an extension to 3261. I'm going to ask the security  
+ADs for their advice here. (We have the same question on a bunch of  
+drafts)
+
+
+Cullen <in my individual contributor role>
+
+>
+>
+> Thanks,
+> --David
+> ----------------------------------------------------
+> David L. Black, Distinguished Engineer
+> EMC Corporation, 176 South St., Hopkinton, MA  01748
+> +1 (508) 293-7953             FAX: +1 (508) 293-7786
+> black_david@emc.com        Mobile: +1 (978) 394-7754
+> ----------------------------------------------------
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+
+From wwwrun@core3.amsl.com  Tue May 26 07:34:01 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 5D12028C2BD; Tue, 26 May 2009 07:34:01 -0700 (PDT)
+X-idtracker: yes
+To: IETF-Announce <ietf-announce@ietf.org> 
+From: The IESG <iesg-secretary@ietf.org>
+Message-Id: <20090526143401.5D12028C2BD@core3.amsl.com>
+Date: Tue, 26 May 2009 07:34:01 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] Last Call: draft-ietf-sip-connect-reuse (Connection Reuse in the Session Initiation Protocol (SIP)) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ietf@ietf.org
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 26 May 2009 14:34:01 -0000
+
+The IESG has received a request from the Session Initiation Protocol WG 
+(sip) to consider the following document:
+
+- 'Connection Reuse in the Session Initiation Protocol (SIP) '
+   <draft-ietf-sip-connect-reuse-13.txt> as a Proposed Standard
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send substantive comments to the
+ietf@ietf.org mailing lists by 2009-06-09. Exceptionally, 
+comments may be sent to iesg@ietf.org instead. In either case, please 
+retain the beginning of the Subject line to allow automated sorting.
+
+The file can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-sip-connect-reuse-13.txt
+
+
+IESG discussion can be tracked via
+https://datatracker.ietf.org/public/pidtracker.cgi?command=view_id&dTag=10776&rfc_flag=0
+
+
+From dean.willis@softarmor.com  Tue May 26 17:34:12 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 9B39F3A6FFF for <sip@core3.amsl.com>; Tue, 26 May 2009 17:34:12 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.366
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.366 tagged_above=-999 required=5 tests=[AWL=0.233,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OUPJtdS0B7CY for <sip@core3.amsl.com>; Tue, 26 May 2009 17:34:11 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 9A0873A6B2A for <sip@ietf.org>; Tue, 26 May 2009 17:34:11 -0700 (PDT)
+Received: from [192.168.2.103] (cpe-76-182-198-42.tx.res.rr.com [76.182.198.42]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n4R0ZQSn026502 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT); Tue, 26 May 2009 19:35:28 -0500
+Message-Id: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Tue, 26 May 2009 19:35:21 -0500
+X-Mailer: Apple Mail (2.935.3)
+Cc: Robert Sparks <rjs@nostrum.com>
+Subject: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 00:34:12 -0000
+
+I have submitted a revised version of the XCAP Event draft based on  
+feedback from Lisa Dusseault and that incorporates a vast amount of  
+editing by Jean Mahoney, a technical writer who volunteered to help  
+clean things up after Lisa pushed the draft back from IESG review.
+
+
+
+See:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-xcapevent-05.txt
+
+and since tehre are a lot of changes, the side-by-side diff is really  
+helpful:
+
+http://tools.ietf.org/rfcdiff?url2=draft-ietf-sip-xcapevent-05
+
+There are a number of questions open in the existing document.
+
+
+
+1)  What's the default notification mode supposed to be? "xml- 
+patching" is listed as the default and fail-safe in some text, but "no- 
+patching" is also described as the singular "must implement" mode. It  
+seems to me that if a mode is the default if no mode is specified,  
+then that mode had better be the default.
+This question is a primary source of confusion in Section 4.3, and I'd  
+appreciate some feedback. This whole section got a lot of edits, you  
+may want to usea difftool.
+
+
+2) Aggregating definition
+
+Our current text has this definition; is it right?
+
+    Aggregating:  An XCAP client can update only a single XCAP Component
+       at a time using HTTP.  However, a notifier may be able to
+       aggregate a series of these modifications into a single
+       notification using XML-Patch- Ops semantics encoded in the XCAP-
+       Diff format.
+
+
+
+3) SUBSCRIBE bodies
+
+Section 4.4 currently says;
+
+    The SUBSCRIBE request MAY contain an Accept header field.  If no  
+such
+    header field is present, it has a default value of "application/
+    xcap-diff+xml".  If the header field is present, it MUST include
+    "application/xcap-diff+xml", and MAY include any other types.
+
+This doesn't sound right to me.
+
+
+
+4) Error recovery
+
+Section 4.7 says:
+
+    While the "aggregate" mode uses bandwidth most efficiently, it
+    introduces other challenges.  The initial synchronization might fail
+    with rapidly changing resources, because the "aggregate" mode
+    messages might not include the full version-history of a document  
+and
+    the base XCAP protocol does not support version-history retrievals  
+of
+    documents.  When new documents are created in subscribed collections
+    and the notifier is aggregating patches, the same issue can occur.
+    In a corner case, the notifier may not be able to provide patches
+    with the XML-Patch-Ops [RFC5261] semantics.  Therefore, if the
+    notifier has to temporarily disable diff generation and send only  
+the
+    URI references of some changed documents to the subscriber, it MUST
+    continue with the "xcap-patching" mode afterwards for these
+    resources, if the initial subscription also started with the "xcap-
+    patching" mode.  Recovery from this error condition therefore means
+    that the subscriber must refresh to a "known good" state by
+    downloading the current document if it has lost track of the  
+patching
+    operations as indicated by mismatching ETags.,
+
+(note the accidental extra comma here at the end, I just noticed it,  
+and it is my fault).
+
+Anyhow, does the "recovery" text make sense?
+
+
+
+
+
+From Jari.Urpalainen@nokia.com  Wed May 27 03:05:44 2009
+Return-Path: <Jari.Urpalainen@nokia.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5035528C1DC for <sip@core3.amsl.com>; Wed, 27 May 2009 03:05:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ximpk51cN-0C for <sip@core3.amsl.com>; Wed, 27 May 2009 03:05:43 -0700 (PDT)
+Received: from mgw-mx03.nokia.com (smtp.nokia.com [192.100.122.230]) by core3.amsl.com (Postfix) with ESMTP id EC46128C148 for <sip@ietf.org>; Wed, 27 May 2009 03:05:42 -0700 (PDT)
+Received: from vaebh106.NOE.Nokia.com (vaebh106.europe.nokia.com [10.160.244.32]) by mgw-mx03.nokia.com (Switch-3.2.6/Switch-3.2.6) with ESMTP id n4RA6rDq032726; Wed, 27 May 2009 13:07:06 +0300
+Received: from vaebh104.NOE.Nokia.com ([10.160.244.30]) by vaebh106.NOE.Nokia.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 27 May 2009 13:07:08 +0300
+Received: from mgw-sa01.ext.nokia.com ([147.243.1.47]) by vaebh104.NOE.Nokia.com over TLS secured channel with Microsoft SMTPSVC(6.0.3790.3959); Wed, 27 May 2009 13:07:08 +0300
+Received: from [172.21.37.235] (esdhcp037235.research.nokia.com [172.21.37.235]) by mgw-sa01.ext.nokia.com (Switch-3.2.6/Switch-3.2.6) with ESMTP id n4RA758O008275; Wed, 27 May 2009 13:07:05 +0300
+From: Jari Urpalainen <jari.urpalainen@nokia.com>
+To: ext Dean Willis <dean.willis@softarmor.com>
+In-Reply-To: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com>
+References: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com>
+Content-Type: text/plain
+Date: Wed, 27 May 2009 13:07:06 +0300
+Message-Id: <1243418826.19036.42.camel@localhost>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.24.3 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 27 May 2009 10:07:08.0160 (UTC) FILETIME=[E4D6D800:01C9DEB2]
+X-Nokia-AV: Clean
+Cc: "sip@ietf.org List" <sip@ietf.org>, Robert Sparks <rjs@nostrum.com>
+Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 10:05:44 -0000
+
+On Wed, 2009-05-27 at 02:35 +0200, ext Dean Willis wrote:
+> I have submitted a revised version of the XCAP Event draft based on  
+> feedback from Lisa Dusseault and that incorporates a vast amount of  
+> editing by Jean Mahoney, a technical writer who volunteered to help  
+> clean things up after Lisa pushed the draft back from IESG review.
+> 
+> 
+Thanks Dean, Sean and Lisa.
+> 
+> See:
+> http://www.ietf.org/internet-drafts/draft-ietf-sip-xcapevent-05.txt
+> 
+> and since tehre are a lot of changes, the side-by-side diff is really  
+> helpful:
+> 
+> http://tools.ietf.org/rfcdiff?url2=draft-ietf-sip-xcapevent-05
+> 
+> There are a number of questions open in the existing document.
+> 
+> 
+> 
+> 1)  What's the default notification mode supposed to be? "xml- 
+> patching" is listed as the default and fail-safe in some text, but "no- 
+> patching" is also described as the singular "must implement" mode. It  
+> seems to me that if a mode is the default if no mode is specified,  
+> then that mode had better be the default.
+> This question is a primary source of confusion in Section 4.3, and I'd  
+> appreciate some feedback. This whole section got a lot of edits, you  
+> may want to usea difftool.
+> 
+for implementers this is no big deal, although you MUST know which is
+the default if the parameter is missing, anyways it can be anyone of
+those, so i'm fine with this technical change.
+
+> 
+> 2) Aggregating definition
+> 
+> Our current text has this definition; is it right?
+> 
+>     Aggregating:  An XCAP client can update only a single XCAP Component
+>        at a time using HTTP.  However, a notifier may be able to
+>        aggregate a series of these modifications into a single
+>        notification using XML-Patch- Ops semantics encoded in the XCAP-
+>        Diff format.
+> 
+> 
+looks fine ;-)
+
+> 
+> 3) SUBSCRIBE bodies
+> 
+> Section 4.4 currently says;
+> 
+>     The SUBSCRIBE request MAY contain an Accept header field.  If no  
+> such
+>     header field is present, it has a default value of "application/
+>     xcap-diff+xml".  If the header field is present, it MUST include
+>     "application/xcap-diff+xml", and MAY include any other types.
+> 
+> This doesn't sound right to me.
+> 
+the part was stolen from rfc3856, section 6.5. If you refer to default
+behavior, i personally agree that it's a bit weird, but there are much
+better sip experts here...
+
+> 
+> 
+> 4) Error recovery
+> 
+> Section 4.7 says:
+> 
+>     While the "aggregate" mode uses bandwidth most efficiently, it
+>     introduces other challenges.  The initial synchronization might fail
+>     with rapidly changing resources, because the "aggregate" mode
+>     messages might not include the full version-history of a document  
+> and
+>     the base XCAP protocol does not support version-history retrievals  
+> of
+>     documents.  When new documents are created in subscribed collections
+>     and the notifier is aggregating patches, the same issue can occur.
+>     In a corner case, the notifier may not be able to provide patches
+>     with the XML-Patch-Ops [RFC5261] semantics.  Therefore, if the
+>     notifier has to temporarily disable diff generation and send only  
+> the
+>     URI references of some changed documents to the subscriber, it MUST
+>     continue with the "xcap-patching" mode afterwards for these
+>     resources, if the initial subscription also started with the "xcap-
+>     patching" mode.  Recovery from this error condition therefore means
+>     that the subscriber must refresh to a "known good" state by
+>     downloading the current document if it has lost track of the  
+> patching
+>     operations as indicated by mismatching ETags.,
+> 
+> (note the accidental extra comma here at the end, I just noticed it,  
+> and it is my fault).
+> 
+> Anyhow, does the "recovery" text make sense?
+> 
+I must admit that it's a bit difficult to follow the sentence starting
+with "Recovery ..." but it shouldn't still be _wrong_...
+
+Section 5 example has a missing angle bracket, and there's bug in
+whitespace usage, take the example from the previous version.
+
+Similar bugs also in example on page 21.
+
+thanks Dean,
+Jari
+
+ 
+
+
+From drage@alcatel-lucent.com  Wed May 27 03:34:16 2009
+Return-Path: <drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2B65428C13D for <sip@core3.amsl.com>; Wed, 27 May 2009 03:34:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.9 tagged_above=-999 required=5 tests=[AWL=0.349, BAYES_00=-2.599, HELO_EQ_FR=0.35, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vVB840o4Y21y for <sip@core3.amsl.com>; Wed, 27 May 2009 03:34:15 -0700 (PDT)
+Received: from smail5.alcatel.fr (smail5.alcatel.fr [62.23.212.27]) by core3.amsl.com (Postfix) with ESMTP id 14A5228C106 for <sip@ietf.org>; Wed, 27 May 2009 03:34:14 -0700 (PDT)
+Received: from FRMRSSXCHHUB01.dc-m.alcatel-lucent.com (FRMRSSXCHHUB01.dc-m.alcatel-lucent.com [135.120.45.61]) by smail5.alcatel.fr (8.13.8/8.13.8/ICT) with ESMTP id n4RAZkLF032250 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT) for <sip@ietf.org>; Wed, 27 May 2009 12:35:46 +0200
+Received: from FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com ([135.120.45.41]) by FRMRSSXCHHUB01.dc-m.alcatel-lucent.com ([135.120.45.61]) with mapi; Wed, 27 May 2009 12:35:46 +0200
+From: "DRAGE, Keith (Keith)" <drage@alcatel-lucent.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Wed, 27 May 2009 12:35:46 +0200
+Thread-Topic: [sip] I-D Action:draft-ietf-sip-outbound-18.txt
+Thread-Index: AcnetuSWeyG+TuK9QFmbEaGgvoUYPg==
+Message-ID: <28B7C3AA2A7ABA4A841F11217ABE78D6775B1280@FRMRSSXCHMBSB3.dc-m.alcatel-lucent.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.57 on 155.132.188.13
+Subject: [Sip] [sip] I-D Action:draft-ietf-sip-outbound-18.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 10:34:16 -0000
+
+Sending to the SIP list as the announcement seems to have failed to make it=
+.
+
+Keith
+
+A New Internet-Draft is available from the on-line Internet-Drafts director=
+ies.
+This draft is a work item of the Dispatch Working Group of the IETF.
+
+
+	Title           : Managing Client Initiated Connections in the Session Ini=
+tiation Protocol (SIP)
+	Author(s)       : C. Jennings
+	Filename        : draft-ietf-sip-outbound-18.txt
+	Pages           : 49
+	Date            : 2009-05-26
+
+The Session Initiation Protocol (SIP) allows proxy servers to initiate TCP =
+connections or to send asynchronous UDP datagrams to User Agents in order t=
+o deliver requests.  However, in a large number of real deployments, many p=
+ractical considerations, such as the existence of firewalls and Network Add=
+ress Translators (NATs) or the use of TLS with server-provided certificates=
+, prevent servers from connecting to User Agents in this way.  This specifi=
+cation defines behaviors for User Agents, registrars and proxy servers that=
+ allow requests to be delivered on existing connections established by the =
+User Agent.  It also defines keep alive behaviors needed to keep NAT bindin=
+gs open and specifies the usage of multiple connections from the User Agent=
+ to its Registrar.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-18.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader implementa=
+tion to automatically retrieve the ASCII version of the Internet-Draft.=
+
+From bcampen@estacado.net  Wed May 27 08:42:31 2009
+Return-Path: <bcampen@estacado.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0AF1F3A6892 for <sip@core3.amsl.com>; Wed, 27 May 2009 08:42:31 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Fy6LvGSBkSeT for <sip@core3.amsl.com>; Wed, 27 May 2009 08:42:30 -0700 (PDT)
+Received: from estacado.net (estacado-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:266::2]) by core3.amsl.com (Postfix) with ESMTP id C56D23A6859 for <sip@ietf.org>; Wed, 27 May 2009 08:42:29 -0700 (PDT)
+Received: from dn3-233.estacado.net (dn3-233.estacado.net [172.16.3.233]) (authenticated bits=0) by estacado.net (8.14.2/8.14.2) with ESMTP id n4RFhxmH016136 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Wed, 27 May 2009 10:43:59 -0500 (CDT) (envelope-from bcampen@estacado.net)
+Message-Id: <47F8D2FD-9081-4E9C-96B5-8400FD822477@estacado.net>
+From: Byron Campen <bcampen@estacado.net>
+To: jari.urpalainen@nokia.com, Dean Willis <dean.willis@softarmor.com>
+In-Reply-To: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com>
+Content-Type: multipart/signed; boundary=Apple-Mail-9-991350767; micalg=sha1; protocol="application/pkcs7-signature"
+Mime-Version: 1.0 (Apple Message framework v930.3)
+Date: Wed, 27 May 2009 10:43:55 -0500
+References: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com>
+X-Mailer: Apple Mail (2.930.3)
+Cc: "sip@ietf.org List" <sip@ietf.org>, Robert Sparks <rjs@nostrum.com>
+Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 15:42:31 -0000
+
+--Apple-Mail-9-991350767
+Content-Type: text/plain;
+	charset=US-ASCII;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: 7bit
+
+
+On May 26, 2009, at 7:35 PM, Dean Willis wrote:
+>
+>
+> 3) SUBSCRIBE bodies
+>
+> Section 4.4 currently says;
+>
+>   The SUBSCRIBE request MAY contain an Accept header field.  If no  
+> such
+>   header field is present, it has a default value of "application/
+>   xcap-diff+xml".  If the header field is present, it MUST include
+>   "application/xcap-diff+xml", and MAY include any other types.
+>
+> This doesn't sound right to me.
+>
+
+	Yeah, this is what 3265 makes us do (define a default Accept header  
+field value for the event package).
+
+	Also, it looks like we lost a right-angle-bracket on the <element>  
+open tag in the xcap-diff document in section 5.
+
+	Lastly, I have been meaning to ask; in what cases (if any) would  
+sending a SUBSCRIBE 404 be appropriate in this event package? Do we  
+establish a subscription even if every uri in the SUBSCRIBE body  
+refers to an AUID we don't support? What about uris that are formatted  
+in an unsupported way (for example, using "users/bob" when what the  
+server really needs is "users/sip:bob@foo"), or that use a document  
+name that doesn't exist in the AUID being used (say, "rls- 
+services.xml" instead of "index" or "index.xml")? How about uris that  
+are outright malformed; it seems that our best choice is a SUBSCRIBE  
+400, but what if only one of the uris in the SUBSCRIBE body is in such  
+a state? Could we use <xcap-error> documents in some way (provided the  
+subscriber supports this format) to help indicate what went wrong in  
+these cases?
+
+Best regards,
+Byron Campen
+--Apple-Mail-9-991350767
+Content-Disposition: attachment;
+	filename=smime.p7s
+Content-Type: application/pkcs7-signature;
+	name=smime.p7s
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIGZDCCAx0w
+ggKGoAMCAQICEFu0qwsqAsJ7JrOTH3Kpo5swDQYJKoZIhvcNAQEFBQAwYjELMAkGA1UEBhMCWkEx
+JTAjBgNVBAoTHFRoYXd0ZSBDb25zdWx0aW5nIChQdHkpIEx0ZC4xLDAqBgNVBAMTI1RoYXd0ZSBQ
+ZXJzb25hbCBGcmVlbWFpbCBJc3N1aW5nIENBMB4XDTA4MDkyMzA0MzgwNFoXDTA5MDkyMzA0Mzgw
+NFowazEfMB0GA1UEAxMWVGhhd3RlIEZyZWVtYWlsIE1lbWJlcjEjMCEGCSqGSIb3DQEJARYUYmNh
+bXBlbkBlc3RhY2Fkby5uZXQxIzAhBgkqhkiG9w0BCQEWFGRvY2ZhcmFkYXlAZ21haWwuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnvIGiyvzQgsqDjR3TiFTO4nkc/VRo/eX6xKu
+ky4CR2QtnIPEWhNLbU5UgXdGzU3YWx/cRj5alT0auKVQ/BnjCbf3bFSzP5mIfV6KlJV89dpxKQQA
+3FaDYxE3whiRPIjQh3nmqxSacBTLohlt/g8MlFyiHoNs3XcH83M3QMjMxU8pD7SgXUDaXdtqC8vV
++7g3rzPmlONdJ+4vac159wuZe37WVTsFI4sYL3p/KvqT1NZhmn1cmOVWKfCVAdGLk8VEUZtWuSeM
+NU5CLnFvenxaSPkDeVR5h0qDpw4DQyHfWXQuKvRs1WgVeHASz87EPgncyp90yiByetvE0WIBGKiz
+0QIDAQABo0cwRTA1BgNVHREELjAsgRRiY2FtcGVuQGVzdGFjYWRvLm5ldIEUZG9jZmFyYWRheUBn
+bWFpbC5jb20wDAYDVR0TAQH/BAIwADANBgkqhkiG9w0BAQUFAAOBgQANmDZo4t+1SrO9nb8KfjN4
+QtlV1gzaAa2jEsAZ369PBXdsxVz32a1JIa1KudXFfMMxtF1NRDJ0Z3ib/qq+L8B28IpkYgRWtRr+
+WWm6LzJ6rm1Q85cC0VSqoIRr+NoRZjaBdqWbJC4QsPnwVSXN9jLMLkFkjcxVDSxQtEx6v1PF9zCC
+Az8wggKooAMCAQICAQ0wDQYJKoZIhvcNAQEFBQAwgdExCzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxX
+ZXN0ZXJuIENhcGUxEjAQBgNVBAcTCUNhcGUgVG93bjEaMBgGA1UEChMRVGhhd3RlIENvbnN1bHRp
+bmcxKDAmBgNVBAsTH0NlcnRpZmljYXRpb24gU2VydmljZXMgRGl2aXNpb24xJDAiBgNVBAMTG1Ro
+YXd0ZSBQZXJzb25hbCBGcmVlbWFpbCBDQTErMCkGCSqGSIb3DQEJARYccGVyc29uYWwtZnJlZW1h
+aWxAdGhhd3RlLmNvbTAeFw0wMzA3MTcwMDAwMDBaFw0xMzA3MTYyMzU5NTlaMGIxCzAJBgNVBAYT
+AlpBMSUwIwYDVQQKExxUaGF3dGUgQ29uc3VsdGluZyAoUHR5KSBMdGQuMSwwKgYDVQQDEyNUaGF3
+dGUgUGVyc29uYWwgRnJlZW1haWwgSXNzdWluZyBDQTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkC
+gYEAxKY8VXNV+065yplaHmjAdQRwnd/p/6Me7L3N9VvyGna9fww6YfK/Uc4B1OVQCjDXAmNaLIkV
+cI7dyfArhVqqP3FWy688Cwfn8R+RNiQqE88r1fOCdz0Dviv+uxg+B79AgAJk16emu59l0cUqVIUP
+SAR/p7bRPGEEQB5kGXJgt/sCAwEAAaOBlDCBkTASBgNVHRMBAf8ECDAGAQH/AgEAMEMGA1UdHwQ8
+MDowOKA2oDSGMmh0dHA6Ly9jcmwudGhhd3RlLmNvbS9UaGF3dGVQZXJzb25hbEZyZWVtYWlsQ0Eu
+Y3JsMAsGA1UdDwQEAwIBBjApBgNVHREEIjAgpB4wHDEaMBgGA1UEAxMRUHJpdmF0ZUxhYmVsMi0x
+MzgwDQYJKoZIhvcNAQEFBQADgYEASIzRUIPqCy7MDaNmrGcPf6+svsIXoUOWlJ1/TCG4+DYfqi2f
+Ni/A9BxQIJNwPP2t4WFiw9k6GX6EsZkbAMUaC4J0niVQlGLH2ydxVyWN3amcOY6MIE9lX5Xa9/eH
+1sYITq726jTlEBpbNU1341YheILcIRk13iSx0x1G/11fZU8xggMQMIIDDAIBATB2MGIxCzAJBgNV
+BAYTAlpBMSUwIwYDVQQKExxUaGF3dGUgQ29uc3VsdGluZyAoUHR5KSBMdGQuMSwwKgYDVQQDEyNU
+aGF3dGUgUGVyc29uYWwgRnJlZW1haWwgSXNzdWluZyBDQQIQW7SrCyoCwnsms5MfcqmjmzAJBgUr
+DgMCGgUAoIIBbzAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0wOTA1
+MjcxNTQzNTVaMCMGCSqGSIb3DQEJBDEWBBT1EwUYlXHM1WYkkF56kbYb1CxVljCBhQYJKwYBBAGC
+NxAEMXgwdjBiMQswCQYDVQQGEwJaQTElMCMGA1UEChMcVGhhd3RlIENvbnN1bHRpbmcgKFB0eSkg
+THRkLjEsMCoGA1UEAxMjVGhhd3RlIFBlcnNvbmFsIEZyZWVtYWlsIElzc3VpbmcgQ0ECEFu0qwsq
+AsJ7JrOTH3Kpo5swgYcGCyqGSIb3DQEJEAILMXigdjBiMQswCQYDVQQGEwJaQTElMCMGA1UEChMc
+VGhhd3RlIENvbnN1bHRpbmcgKFB0eSkgTHRkLjEsMCoGA1UEAxMjVGhhd3RlIFBlcnNvbmFsIEZy
+ZWVtYWlsIElzc3VpbmcgQ0ECEFu0qwsqAsJ7JrOTH3Kpo5swDQYJKoZIhvcNAQEBBQAEggEAFD7x
+UdffsxN8J9suDFib7QojbtOY96JTMt1tXAhte9OzNt7JmOZYUkM5hwOAtsgSyXO4ty/Uevc3JC4z
+YRZroVb/jsFda8GOepQtVZGcz/LV/dTpmOMIXnKWGZMDdVdZdO/20NaUK/Uf9AOutGPIke4jIadF
+b8KVq5h/vjBgvoRTRxlhshPLThBvV/TTMH96AE4MYtn65fqUkuOCRgDp4TbZ3WJP8/TxxL0fbMVD
+OJb/6zvwX4lqWuhoB6PavehzBwEAojVn0XfwsT54PK/lPmhgs0wzHd3dfYa7vJ+qqtRQuJqyKyvV
+h7xNKx39358ARhcuKHl4CueLqc80iS4uNQAAAAAAAA==
+
+--Apple-Mail-9-991350767--
+
+From Black_David@emc.com  Wed May 27 05:50:40 2009
+Return-Path: <Black_David@emc.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id A6AD53A6EBA; Wed, 27 May 2009 05:50:40 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.205
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.205 tagged_above=-999 required=5 tests=[AWL=-0.206, BAYES_00=-2.599, J_CHICKENPOX_42=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id sIO2t9ZBQ0Gr; Wed, 27 May 2009 05:50:39 -0700 (PDT)
+Received: from mexforward.lss.emc.com (mexforward.lss.emc.com [128.222.32.20]) by core3.amsl.com (Postfix) with ESMTP id 273B73A685F; Wed, 27 May 2009 05:50:37 -0700 (PDT)
+Received: from hop04-l1d11-si01.isus.emc.com (HOP04-L1D11-SI01.isus.emc.com [10.254.111.54]) by mexforward.lss.emc.com (Switch-3.2.5/Switch-3.1.7) with ESMTP id n4RCmRbt005894 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Wed, 27 May 2009 08:48:27 -0400 (EDT)
+From: Black_David@emc.com
+Received: from mailhub.lss.emc.com (numailhub.lss.emc.com [10.254.144.16]) by hop04-l1d11-si01.isus.emc.com (Tablus Interceptor); Wed, 27 May 2009 08:48:16 -0400
+Received: from corpussmtp3.corp.emc.com (corpussmtp3.corp.emc.com [10.254.64.53]) by mailhub.lss.emc.com (Switch-3.3.2/Switch-3.3.2) with ESMTP id n4RCmFDT030045; Wed, 27 May 2009 08:48:15 -0400
+Received: from CORPUSMX80A.corp.emc.com ([10.254.89.202]) by corpussmtp3.corp.emc.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 27 May 2009 08:48:14 -0400
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 27 May 2009 08:48:14 -0400
+Message-ID: <9FA859626025B64FBC2AF149D97C944A02CD33EE@CORPUSMX80A.corp.emc.com>
+In-Reply-To: <36AA2960-4C49-44B7-90AA-518DE1685C2E@cisco.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Gen-ART review of draft-ietf-sip-outbound-17
+Thread-Index: AcnbCrvKEhktX5+uS9+AnjUyJnWQcgDvm4Zg
+References: <9FA859626025B64FBC2AF149D97C944A02BFFB9D@CORPUSMX80A.corp.emc.com> <36AA2960-4C49-44B7-90AA-518DE1685C2E@cisco.com>
+To: <fluffy@cisco.com>, <audet@nortel.com>
+X-OriginalArrivalTime: 27 May 2009 12:48:14.0987 (UTC) FILETIME=[66B795B0:01C9DEC9]
+X-EMM-EM: Active
+X-Mailman-Approved-At: Wed, 27 May 2009 11:26:45 -0700
+Cc: rohan@ekabal.com, sip@ietf.org, gen-art@ietf.org, drage@alcatel-lucent.com, dean.willis@softarmor.com, Black_David@emc.com
+Subject: Re: [Sip] Gen-ART review of draft-ietf-sip-outbound-17
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 12:50:40 -0000
+
+I just diff'ed -18 against -17.  Both of the RFC reference issues
+noted in my Gen-ART review of -17 have been addressed in the -18
+version.  The quick turnaround is impressive.
+
+Thanks,
+--David
+=20
+
+> -----Original Message-----
+> From: Cullen Jennings [mailto:fluffy@cisco.com]=20
+> Sent: Friday, May 22, 2009 2:25 PM
+> To: Black, David; Francois Audet
+> Cc: Rohan Mahy; Gen Art; SIP List; Keith Drage; Dean Willis
+> Subject: Re: [Sip] Gen-ART review of draft-ietf-sip-outbound-17
+>=20
+>=20
+> David - thanks for the careful review ... more inline.
+>=20
+>=20
+> On May 20, 2009, at 6:50 PM, black_david@emc.com wrote:
+>=20
+> > Cullen and Rohan,
+> >
+> > I have been selected as the General Area Review Team (Gen-ART)
+> > reviewer for this draft (for background on Gen-ART, please see
+> > http://www.alvestrand.no/ietf/gen/art/gen-art-FAQ.html).
+> >
+> > Please resolve these comments along with any other Last Call
+> > comments you may receive.
+> >
+> > Document: draft-ietf-sip-outbound-17
+> > Reviewer: David L. Black
+> > Review Date: May 20, 2009
+> > IETF LC End Date: May 26, 2009
+> >
+> > Summary:
+> > This draft is basically ready for publication, but has nits
+> > that should be fixed before publication.
+> >
+> > Comments:
+> > This is a well-written document about using SIP through a NAT,
+> > including handling information that needs to flow inbound
+> > through a NAT towards a User Agent and keep-alive techniques
+> > for connections that may pass through a NAT.
+> >
+> > The only nits worth mentioning are a couple of RFC reference
+> > issues found by idnits 2.11.11:
+> >
+> >  ** Obsolete normative reference: RFC 3489 (Obsoleted by RFC 5389)
+>=20
+> This suspect we should move this to  be informative. We mostly =20
+> reference 5389 but have one part were we want to say that=20
+> there are no =20
+> backwards compatibly requirements with the 3489.
+>=20
+>=20
+> >
+> >
+> >  -- Obsolete informational reference (is this=20
+> intentional?): RFC 4346
+> >     (Obsoleted by RFC 5246)
+>=20
+> It seems most people are not sure about which version of TLS=20
+> we should =20
+> be referencing on an extension to 3261. I'm going to ask the=20
+> security =20
+> ADs for their advice here. (We have the same question on a bunch of =20
+> drafts)
+>=20
+>=20
+> Cullen <in my individual contributor role>
+>=20
+> >
+> >
+> > Thanks,
+> > --David
+> > ----------------------------------------------------
+> > David L. Black, Distinguished Engineer
+> > EMC Corporation, 176 South St., Hopkinton, MA  01748
+> > +1 (508) 293-7953             FAX: +1 (508) 293-7786
+> > black_david@emc.com        Mobile: +1 (978) 394-7754
+> > ----------------------------------------------------
+> > _______________________________________________
+> > Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> > This list is for NEW development of the core SIP Protocol
+> > Use sip-implementors@cs.columbia.edu for questions on current sip
+> > Use sipping@ietf.org for new developments on the application of sip
+>=20
+>=20
+>=20
+
+From dean.willis@softarmor.com  Wed May 27 15:12:17 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 61D0028C15E for <sip@core3.amsl.com>; Wed, 27 May 2009 15:12:17 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.408
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.408 tagged_above=-999 required=5 tests=[AWL=0.191,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UPco9L5ZCARc for <sip@core3.amsl.com>; Wed, 27 May 2009 15:12:16 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 803733A6E92 for <sip@ietf.org>; Wed, 27 May 2009 15:12:16 -0700 (PDT)
+Received: from [192.168.2.103] (cpe-76-182-198-42.tx.res.rr.com [76.182.198.42]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n4RMDv85004648 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT); Wed, 27 May 2009 17:13:58 -0500
+Message-Id: <F2CBE7A9-2BF0-4B9B-93BB-22050E64CA6B@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "sip@ietf.org List" <sip@ietf.org>, Pasi Eronen <pasi.eronen@nokia.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Wed, 27 May 2009 17:13:51 -0500
+X-Mailer: Apple Mail (2.935.3)
+Subject: [Sip] Revised xcapevent to -06
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 22:12:17 -0000
+
+I've revised xcapevent to fix the XML syntax errors to the best of my  
+ability, and to correct the grammar error pointed out by Pasi Eronen  
+during IESG review. There may be subtle XML issues about namespaces or  
+other stuff beyond my ken. More on that later.
+
+Thew new grammar is:
+
+         diff-processing = "diff-processing" EQUAL (
+           "no-patching" /
+           "xcap-patching" /
+           "aggregate" /
+           token )
+
+Before, we lacked the parentheses, so the production was wrong due to  
+operation precedence.
+
+
+
+A review note from Pasi says:
+
+"The examples in Appendix A contain some invalid XML -- I didn't
+actually run a validator, but e.g. "" is clearly
+wrong, and in some cases (e.g. last example in A.4), handling of
+namespaces doesn't look OK."
+
+I've actually run a validator on every XML block in this draft, by  
+cutting and pasting from the text into the validator. This took about  
+an hour. I did find a couple of missing ">" characters, which I have  
+fixed. I THINK I got everything. Anybody have an automated tool for a  
+recheck?
+
+As for the namespace handling:
+
+I presume Pasi's referring to:
+
+    <?xml version="1.0" encoding="UTF-8"?>
+            <xcap-diff xmlns="urn:ietf:params:xml:ns:xcap-diff"
+                    xcap-root="http://xcap.example.com/">
+                    <document previous-etag="7ahggs3"
+                            sel="tests/users/sip:joe@example.com/index"
+                            new-etag="63hjjsll"/>
+                    </xcap-diff>
+
+
+This looks like the same xmlns as every other example in the text, so  
+I could be missing something (like THAT would be a first!). Anybody  
+hhave a cluebat to hit me with here?
+
+
+And in the process of writing this note up, I realized that a change I  
+made in section 4.7 at Jari's request somehow fell out of the edit  
+buffer. So I guess a -07 is on the way.
+
+
+
+
+
+
+--
+Dean Willis
+
+From dean.willis@softarmor.com  Wed May 27 15:20:44 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 6F16328C218 for <sip@core3.amsl.com>; Wed, 27 May 2009 15:20:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.414
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.414 tagged_above=-999 required=5 tests=[AWL=0.185,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5EpzzsRvmzCA for <sip@core3.amsl.com>; Wed, 27 May 2009 15:20:43 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 7D4D728C190 for <sip@ietf.org>; Wed, 27 May 2009 15:20:43 -0700 (PDT)
+Received: from [192.168.2.103] (cpe-76-182-198-42.tx.res.rr.com [76.182.198.42]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n4RMMMlG004728 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT); Wed, 27 May 2009 17:22:23 -0500
+Message-Id: <F671019C-0226-4699-828A-E5BA3F505E0E@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Wed, 27 May 2009 17:22:17 -0500
+X-Mailer: Apple Mail (2.935.3)
+Cc: Pasi Eronen <pasi.eronen@nokia.com>
+Subject: [Sip] More on xcapevent -06
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 22:20:44 -0000
+
+The error I thought I had made, dropping out a change in 4.7 didn't  
+happen; rather, the tools page lags behind posting, so I went to  
+double-check that the change had made it in, I got a -05 draft back  
+instead of a -06 (even though I typed -06, perhaps we have a bug).
+
+
+Anyhow, the correct -06 draft is at:
+
+http://www.ietf.org/internet-drafts/draft-ietf-sip-xcapevent-06.txt
+
+and will presumably show up on tools eventually.
+
+
+Here's a note on the change I made, based on Jari's input that the  
+revised paragraph didn't make sense even to him.
+
+The -05 text:
+
+    While the "aggregate" mode uses bandwidth most efficiently, it
+    introduces other challenges.  The initial synchronization might fail
+    with rapidly changing resources, because the "aggregate" mode
+    messages might not include the full version-history of a document  
+and
+    the base XCAP protocol does not support version-history retrievals  
+of
+    documents.  When new documents are created in subscribed collections
+    and the notifier is aggregating patches, the same issue can occur.
+    In a corner case, the notifier may not be able to provide patches
+    with the XML-Patch-Ops [RFC5261] semantics.  Therefore, if the
+    notifier has to temporarily disable diff generation and send only  
+the
+    URI references of some changed documents to the subscriber, it MUST
+    continue with the "xcap-patching" mode afterwards for these
+    resources, if the initial subscription also started with the "xcap-
+    patching" mode.  Recovery from this error condition therefore means
+    that the subscriber must refresh to a "known good" state by
+    downloading the current document if it has lost track of the  
+patching
+    operations as indicated by mismatching ETags
+
+
+
+became (note changes to last sentence, making it a couple of sentences).
+    While the "aggregate" mode uses bandwidth most efficiently, it
+    introduces other challenges.  The initial synchronization might fail
+    with rapidly changing resources, because the "aggregate" mode
+    messages might not include the full version-history of a document  
+and
+    the base XCAP protocol does not support version-history retrievals  
+of
+    documents.  When new documents are created in subscribed collections
+    and the notifier is aggregating patches, the same issue can occur.
+    In a corner case, the notifier may not be able to provide patches
+    with the XML-Patch-Ops [RFC5261] semantics.  Therefore, if the
+    notifier has to temporarily disable diff generation and send only  
+the
+    URI references of some changed documents to the subscriber, it MUST
+    continue with the "xcap-patching" mode afterwards for these
+    resources, if the initial subscription also started with the "xcap-
+    patching" mode.  In other words, if the subscriber loses track of  
+the
+    patching operations, the subscriber must refresh to a "known good"
+    state by downloading the current document.  Once it has done so, it
+    can resume using xcap-patching.
+
+--
+Dean
+
+From dean.willis@softarmor.com  Wed May 27 16:08:15 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id B1C4C3A6AFD for <sip@core3.amsl.com>; Wed, 27 May 2009 16:08:15 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.421
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.421 tagged_above=-999 required=5 tests=[AWL=0.178,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tflRiO523Tgg for <sip@core3.amsl.com>; Wed, 27 May 2009 16:08:15 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id E009B3A6A0C for <sip@ietf.org>; Wed, 27 May 2009 16:08:14 -0700 (PDT)
+Received: from [192.168.2.103] (cpe-76-182-198-42.tx.res.rr.com [76.182.198.42]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n4RN9qLY005173 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT) for <sip@ietf.org>; Wed, 27 May 2009 18:09:54 -0500
+Message-Id: <4C4AF609-CEE2-4BE3-BABB-4EDBC6330BF2@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Wed, 27 May 2009 18:09:47 -0500
+X-Mailer: Apple Mail (2.935.3)
+Subject: [Sip] Not my day for tidy; draft-ietf-sip-xcapevent-07 submitted
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 May 2009 23:08:15 -0000
+
+In -06, it appears that I failed to convert the "<" and ">"  in one  
+XML example into "&lt;" and "&gt;", meaning a large part of the  
+example XML document simply disappeared. There are some things about  
+using xml2rfc to document xml that really bug me . . .
+
+So I fixed it. The draft, that is, not xml2rfc.
+
+I took this opportunity to also run another spell check, and correct a  
+few typos I had introduced.
+
+
+New version (-07) has been submitted for draft-ietf-sip- 
+xcapevent-07.txt.
+http://www.ietf.org/internet-drafts/draft-ietf-sip-xcapevent-07.txt
+
+
+Diff from previous version:
+http://tools.ietf.org/rfcdiff?url2=draft-ietf-sip-xcapevent-07
+
+or a more useful diff from draft -05
+http://tools.ietf.org/rfcdiff?url1=draft-ietf-sip-xcapevent-05;url2=draft-ietf-sip-xcapevent-07
+
+Barring an answer to Byron's 404 question, I think I'm done.
+
+--
+Dean
+
+
+From Jari.Urpalainen@nokia.com  Thu May 28 00:41:16 2009
+Return-Path: <Jari.Urpalainen@nokia.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id BC0173A6AC2 for <sip@core3.amsl.com>; Thu, 28 May 2009 00:41:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DM8Gkxha8WvG for <sip@core3.amsl.com>; Thu, 28 May 2009 00:41:15 -0700 (PDT)
+Received: from mgw-mx06.nokia.com (smtp.nokia.com [192.100.122.233]) by core3.amsl.com (Postfix) with ESMTP id 14BE33A6AA0 for <sip@ietf.org>; Thu, 28 May 2009 00:41:01 -0700 (PDT)
+Received: from esebh106.NOE.Nokia.com (esebh106.ntc.nokia.com [172.21.138.213]) by mgw-mx06.nokia.com (Switch-3.2.6/Switch-3.2.6) with ESMTP id n4S7B8YS016048; Thu, 28 May 2009 10:11:24 +0300
+Received: from vaebh104.NOE.Nokia.com ([10.160.244.30]) by esebh106.NOE.Nokia.com with Microsoft SMTPSVC(6.0.3790.3959);  Thu, 28 May 2009 10:11:27 +0300
+Received: from mgw-sa01.ext.nokia.com ([147.243.1.47]) by vaebh104.NOE.Nokia.com over TLS secured channel with Microsoft SMTPSVC(6.0.3790.3959); Thu, 28 May 2009 10:11:14 +0300
+Received: from [172.21.37.235] (esdhcp037235.research.nokia.com [172.21.37.235]) by mgw-sa01.ext.nokia.com (Switch-3.2.6/Switch-3.2.6) with ESMTP id n4S7BDb0004260; Thu, 28 May 2009 10:11:13 +0300
+From: Jari Urpalainen <jari.urpalainen@nokia.com>
+To: ext Byron Campen <bcampen@estacado.net>
+In-Reply-To: <47F8D2FD-9081-4E9C-96B5-8400FD822477@estacado.net>
+References: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com> <47F8D2FD-9081-4E9C-96B5-8400FD822477@estacado.net>
+Content-Type: text/plain
+Date: Thu, 28 May 2009 10:11:13 +0300
+Message-Id: <1243494673.19036.113.camel@localhost>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.24.3 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 28 May 2009 07:11:14.0447 (UTC) FILETIME=[7CBFC9F0:01C9DF63]
+X-Nokia-AV: Clean
+Cc: "sip@ietf.org List" <sip@ietf.org>, Robert Sparks <rjs@nostrum.com>, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 28 May 2009 07:41:16 -0000
+
+On Wed, 2009-05-27 at 17:43 +0200, ext Byron Campen wrote:
+> On May 26, 2009, at 7:35 PM, Dean Willis wrote:
+> >
+> >
+> > 3) SUBSCRIBE bodies
+> >
+> > Section 4.4 currently says;
+> >
+> >   The SUBSCRIBE request MAY contain an Accept header field.  If no  
+> > such
+> >   header field is present, it has a default value of "application/
+> >   xcap-diff+xml".  If the header field is present, it MUST include
+> >   "application/xcap-diff+xml", and MAY include any other types.
+> >
+> > This doesn't sound right to me.
+> >
+> 
+> 	Yeah, this is what 3265 makes us do (define a default Accept header  
+> field value for the event package).
+> 
+> 	Also, it looks like we lost a right-angle-bracket on the <element>  
+> open tag in the xcap-diff document in section 5.
+> 
+> 	Lastly, I have been meaning to ask; in what cases (if any) would  
+> sending a SUBSCRIBE 404 be appropriate in this event package? Do we  
+> establish a subscription even if every uri in the SUBSCRIBE body  
+> refers to an AUID we don't support? What about uris that are formatted  
+> in an unsupported way (for example, using "users/bob" when what the  
+> server really needs is "users/sip:bob@foo"), or that use a document  
+> name that doesn't exist in the AUID being used (say, "rls- 
+> services.xml" instead of "index" or "index.xml")? How about uris that  
+> are outright malformed; it seems that our best choice is a SUBSCRIBE  
+> 400, but what if only one of the uris in the SUBSCRIBE body is in such  
+> a state? Could we use <xcap-error> documents in some way (provided the  
+> subscriber supports this format) to help indicate what went wrong in  
+> these cases?
+> 
+> Best regards,
+> Byron Campen
+
+imo fwiw, 404 is a no go here, so if the client makes mistakes, it just
+doesn't get anything within subscription. The rule is: use http and xcap
+specific errors if you have doubts, but i'm almost 100% certain that
+no-one is going to implement that kind of state-machine in their clients
+(is there anyone doing even the simplest implementation? which is btw.
+indeed really _challenging_ both on the server and the client). In
+practice, it is mib to make a bullet-proof logic for the server side
+error behavior, and given that clients could not _ever_ rely that the
+servers really obey some given rules, it becomes way too complex and
+error prone to the clients. This was sometimes on the table (looong ago)
+but was given up for many reasons.
+
+br, Jari  
+
+
+From anders.c.lindgren@ericsson.com  Thu May 28 08:28:40 2009
+Return-Path: <anders.c.lindgren@ericsson.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id CDE353A6D14 for <sip@core3.amsl.com>; Thu, 28 May 2009 08:28:40 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.249
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.249 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HELO_EQ_SE=0.35, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id GjzGLhbJfCpZ for <sip@core3.amsl.com>; Thu, 28 May 2009 08:28:39 -0700 (PDT)
+Received: from mailgw3.ericsson.se (mailgw3.ericsson.se [193.180.251.60]) by core3.amsl.com (Postfix) with ESMTP id 66F813A6B3C for <sip@ietf.org>; Thu, 28 May 2009 08:28:39 -0700 (PDT)
+X-AuditID: c1b4fb3c-b7b28ae000005484-f1-4a1eae0d746b
+Received: from esealmw126.eemea.ericsson.se (Unknown_Domain [153.88.253.124]) by mailgw3.ericsson.se (Symantec Mail Security) with SMTP id 78.C6.21636.D0EAE1A4; Thu, 28 May 2009 17:30:21 +0200 (CEST)
+Received: from esealmw107.eemea.ericsson.se ([153.88.200.70]) by esealmw126.eemea.ericsson.se with Microsoft SMTPSVC(6.0.3790.1830);  Thu, 28 May 2009 17:21:54 +0200
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 28 May 2009 15:26:54 +0200
+Message-ID: <6D34F0B7D5BCB246A42380744457CA3605B837D6@esealmw107.eemea.ericsson.se>
+In-Reply-To: <47F8D2FD-9081-4E9C-96B5-8400FD822477@estacado.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+Thread-Index: Acne4f/TR+EvwOx/TQ6rY7cUr+UrEAAqIITA
+References: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com> <47F8D2FD-9081-4E9C-96B5-8400FD822477@estacado.net>
+From: "Anders Lindgren C" <anders.c.lindgren@ericsson.com>
+To: "Byron Campen" <bcampen@estacado.net>, <jari.urpalainen@nokia.com>, "Dean Willis" <dean.willis@softarmor.com>
+X-OriginalArrivalTime: 28 May 2009 15:21:54.0731 (UTC) FILETIME=[08869FB0:01C9DFA8]
+X-Brightmail-Tracker: AAAAAA==
+Cc: sip@ietf.org, Robert Sparks <rjs@nostrum.com>
+Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 28 May 2009 15:28:40 -0000
+
+Hi Byron
+Some comments inline
+Best Regards
+Anders Lindgren=20
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On=20
+> Behalf Of Byron Campen
+> Sent: den 27 maj 2009 17:44
+> To: jari.urpalainen@nokia.com; Dean Willis
+> Cc: sip@ietf.org List; Robert Sparks
+> Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many=20
+> open questions
+>=20
+>=20
+> On May 26, 2009, at 7:35 PM, Dean Willis wrote:
+> >
+> >
+> > 3) SUBSCRIBE bodies
+> >
+> > Section 4.4 currently says;
+> >
+> >   The SUBSCRIBE request MAY contain an Accept header field.  If no=20
+> > such
+> >   header field is present, it has a default value of "application/
+> >   xcap-diff+xml".  If the header field is present, it MUST include
+> >   "application/xcap-diff+xml", and MAY include any other types.
+> >
+> > This doesn't sound right to me.
+> >
+>=20
+> 	Yeah, this is what 3265 makes us do (define a default=20
+> Accept header field value for the event package).
+>=20
+> 	Also, it looks like we lost a right-angle-bracket on=20
+> the <element> open tag in the xcap-diff document in section 5.
+>=20
+> 	Lastly, I have been meaning to ask; in what cases (if=20
+> any) would sending a SUBSCRIBE 404 be appropriate in this=20
+> event package? Do we establish a subscription even if every=20
+> uri in the SUBSCRIBE body refers to an AUID we don't support?
+
+A Subscriber can find out which AUID the XCAP Server support by
+retrieving the "xcap-cap" document document as defined in RFC4825
+section 12 prior to the subscription in case an implemtation needs to
+know this.=20
+=20
+> What about uris that are formatted in an unsupported way (for=20
+> example, using "users/bob" when what the server really needs=20
+> is "users/sip:bob@foo"), or that use a document name that=20
+> doesn't exist in the AUID being used (say, "rls-=20
+> services.xml" instead of "index" or "index.xml")? How about=20
+> uris that are outright malformed; it seems that our best=20
+> choice is a SUBSCRIBE 400, but what if only one of the uris=20
+> in the SUBSCRIBE body is in such a state?
+
+It is very difficult for an XCAP server to know that a valid document
+selector will be in the future. It shall be possible to monitor when a
+document is created and how will the Notifier know what in the future
+will be a valid Document selector? Shall the Notifier use its present
+configuration to find out what will be valid in the future or shall the
+Notifier trust that the Subscriber knows something that the Notifier yet
+does not know. My view is that it is better to trust the Subscribe and
+assume that the document selector if not valid now will be valid in the
+future. If a Notifier really have a need to fail the subscription to a
+certain XCAP resource, my suggestion is to fail the whole subscription
+in order to not to make things more complex than necessary. One issue if
+it may exist a need to provide a body with detailed information to
+support that the Subscriber can resubscribe with a body that the
+Notifier will accept or if an empty 400 is enough. In most case the
+Subscriber has got the Document Selector for an other type of client (
+e.g. An XCAP client) and it is not provided by a human user. This means
+that the it very likely that the Document Selector is not malformed in
+the case . If the URI is only an AUID and that AUID is wrong it is
+likely caused by a bug in the Subscriber client program and I find it
+hard to see that a detailed error message will help to correct such a
+fault ( Maybe an error message will help to find the bug). The case that
+is left is when the XUI in an unsupported format and the XUI is inserted
+by a human user wrongly. Again how will the Notifier know what formats
+it may have to support in the future and that it is OK to fail the
+subscription on existing knowledge. My view is that the normal behavior
+for a Notifier is to keep the subscription and report back information
+about existing resources and regard all other resources as resource that
+may exist in the future and therefore not fail the subscription. This
+means that the draft is good enough as it is as I see it and that
+detailed error procedures for a case that is hard to detect is not
+really needed. =20
+=20
+ =20
+>Could we use <xcap-error> documents in some way (provided the
+subscriber=20
+> supports this format) to help indicate what went wrong in these cases?
+
+If it exist a need to provide this detailed information I do not think
+the <xcap-error> is a suitable choice as this document is handling
+errors related to the XML body in an XCAP PUT and not errors related to
+the Document selector.
+
+>=20
+> Best regards,
+> Byron=20
+>=20
+
+From bcampen@estacado.net  Thu May 28 08:47:19 2009
+Return-Path: <bcampen@estacado.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0CF3528C23C for <sip@core3.amsl.com>; Thu, 28 May 2009 08:47:19 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id YnnvwBW3lQWK for <sip@core3.amsl.com>; Thu, 28 May 2009 08:47:18 -0700 (PDT)
+Received: from estacado.net (estacado-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:266::2]) by core3.amsl.com (Postfix) with ESMTP id 3192B3A67F4 for <sip@ietf.org>; Thu, 28 May 2009 08:47:12 -0700 (PDT)
+Received: from dn3-233.estacado.net (dn3-233.estacado.net [172.16.3.233]) (authenticated bits=0) by estacado.net (8.14.2/8.14.2) with ESMTP id n4SFmiWo050620 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Thu, 28 May 2009 10:48:44 -0500 (CDT) (envelope-from bcampen@estacado.net)
+Message-Id: <CF5A086E-7E91-4E14-808E-FC197DBDE17E@estacado.net>
+From: Byron Campen <bcampen@estacado.net>
+To: "Anders Lindgren C" <anders.c.lindgren@ericsson.com>
+In-Reply-To: <6D34F0B7D5BCB246A42380744457CA3605B837D6@esealmw107.eemea.ericsson.se>
+Content-Type: multipart/signed; boundary=Apple-Mail-12--1069448263; micalg=sha1; protocol="application/pkcs7-signature"
+Mime-Version: 1.0 (Apple Message framework v930.3)
+Date: Thu, 28 May 2009 10:48:37 -0500
+References: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com> <47F8D2FD-9081-4E9C-96B5-8400FD822477@estacado.net> <6D34F0B7D5BCB246A42380744457CA3605B837D6@esealmw107.eemea.ericsson.se>
+X-Mailer: Apple Mail (2.930.3)
+Cc: sip@ietf.org, Robert Sparks <rjs@nostrum.com>, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 28 May 2009 15:47:19 -0000
+
+--Apple-Mail-12--1069448263
+Content-Type: text/plain;
+	charset=US-ASCII;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: 7bit
+
+	stuff inline
+
+> Hi Byron
+> Some comments inline
+> Best Regards
+> Anders Lindgren
+>
+>> -----Original Message-----
+>> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On
+>> Behalf Of Byron Campen
+>> Sent: den 27 maj 2009 17:44
+>> To: jari.urpalainen@nokia.com; Dean Willis
+>> Cc: sip@ietf.org List; Robert Sparks
+>> Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many
+>> open questions
+>>
+>>
+>> On May 26, 2009, at 7:35 PM, Dean Willis wrote:
+>>>
+>>>
+>>> 3) SUBSCRIBE bodies
+>>>
+>>> Section 4.4 currently says;
+>>>
+>>>  The SUBSCRIBE request MAY contain an Accept header field.  If no
+>>> such
+>>>  header field is present, it has a default value of "application/
+>>>  xcap-diff+xml".  If the header field is present, it MUST include
+>>>  "application/xcap-diff+xml", and MAY include any other types.
+>>>
+>>> This doesn't sound right to me.
+>>>
+>>
+>> 	Yeah, this is what 3265 makes us do (define a default
+>> Accept header field value for the event package).
+>>
+>> 	Also, it looks like we lost a right-angle-bracket on
+>> the <element> open tag in the xcap-diff document in section 5.
+>>
+>> 	Lastly, I have been meaning to ask; in what cases (if
+>> any) would sending a SUBSCRIBE 404 be appropriate in this
+>> event package? Do we establish a subscription even if every
+>> uri in the SUBSCRIBE body refers to an AUID we don't support?
+>
+> A Subscriber can find out which AUID the XCAP Server support by
+> retrieving the "xcap-cap" document document as defined in RFC4825
+> section 12 prior to the subscription in case an implemtation needs to
+> know this.
+>
+
+	Oh yeah, absolutely. I am coming at this from the server's  
+perspective though; why should I be forced to maintain a subscription  
+to stuff that I don't even support, and never will support for the  
+lifetime of the subscription? I guess what I am arguing is that this  
+may be a good thing to leave up to policy.
+
+>> What about uris that are formatted in an unsupported way (for
+>> example, using "users/bob" when what the server really needs
+>> is "users/sip:bob@foo"), or that use a document name that
+>> doesn't exist in the AUID being used (say, "rls-
+>> services.xml" instead of "index" or "index.xml")? How about
+>> uris that are outright malformed; it seems that our best
+>> choice is a SUBSCRIBE 400, but what if only one of the uris
+>> in the SUBSCRIBE body is in such a state?
+>
+> It is very difficult for an XCAP server to know that a valid document
+> selector will be in the future. It shall be possible to monitor when a
+> document is created and how will the Notifier know what in the future
+> will be a valid Document selector?
+
+	When I was talking about malformed URIs, I was mainly thinking about  
+malformed XPATH, which will remain malformed. But, if a document  
+selector is malformed now, and the server does not expose  
+configuration that will make it well-formed in the lifetime of the  
+subscription (across a recompile/upgrade/reboot/etc), would it then  
+make sense to reject as a matter of local policy? In principle the  
+implementor will know what can be reconfigured to work on-the-fly, and  
+what can't (whether this is true in practice, who knows, but I think  
+that's safely in the realm of "implementor's problem"). I agree that  
+_requiring_ servers to reject when they don't _currently_ understand a  
+doc-selector or a collection selector is a bad idea (which is the  
+point you're trying to make here, I think). They should be _allowed_  
+to do so when it makes sense for the particular implementation, however.
+
+
+>
+>> Could we use <xcap-error> documents in some way (provided the
+> subscriber
+>> supports this format) to help indicate what went wrong in these  
+>> cases?
+>
+> If it exist a need to provide this detailed information I do not think
+> the <xcap-error> is a suitable choice as this document is handling
+> errors related to the XML body in an XCAP PUT and not errors related  
+> to
+> the Document selector.
+>
+
+	Yeah, you're right (I was erroneously remembering that you could use  
+<xcap-error> in some cases for GETs).
+
+Best regards,
+Byron Campen
+
+
+--Apple-Mail-12--1069448263
+Content-Disposition: attachment;
+	filename=smime.p7s
+Content-Type: application/pkcs7-signature;
+	name=smime.p7s
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIGZDCCAx0w
+ggKGoAMCAQICEFu0qwsqAsJ7JrOTH3Kpo5swDQYJKoZIhvcNAQEFBQAwYjELMAkGA1UEBhMCWkEx
+JTAjBgNVBAoTHFRoYXd0ZSBDb25zdWx0aW5nIChQdHkpIEx0ZC4xLDAqBgNVBAMTI1RoYXd0ZSBQ
+ZXJzb25hbCBGcmVlbWFpbCBJc3N1aW5nIENBMB4XDTA4MDkyMzA0MzgwNFoXDTA5MDkyMzA0Mzgw
+NFowazEfMB0GA1UEAxMWVGhhd3RlIEZyZWVtYWlsIE1lbWJlcjEjMCEGCSqGSIb3DQEJARYUYmNh
+bXBlbkBlc3RhY2Fkby5uZXQxIzAhBgkqhkiG9w0BCQEWFGRvY2ZhcmFkYXlAZ21haWwuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnvIGiyvzQgsqDjR3TiFTO4nkc/VRo/eX6xKu
+ky4CR2QtnIPEWhNLbU5UgXdGzU3YWx/cRj5alT0auKVQ/BnjCbf3bFSzP5mIfV6KlJV89dpxKQQA
+3FaDYxE3whiRPIjQh3nmqxSacBTLohlt/g8MlFyiHoNs3XcH83M3QMjMxU8pD7SgXUDaXdtqC8vV
++7g3rzPmlONdJ+4vac159wuZe37WVTsFI4sYL3p/KvqT1NZhmn1cmOVWKfCVAdGLk8VEUZtWuSeM
+NU5CLnFvenxaSPkDeVR5h0qDpw4DQyHfWXQuKvRs1WgVeHASz87EPgncyp90yiByetvE0WIBGKiz
+0QIDAQABo0cwRTA1BgNVHREELjAsgRRiY2FtcGVuQGVzdGFjYWRvLm5ldIEUZG9jZmFyYWRheUBn
+bWFpbC5jb20wDAYDVR0TAQH/BAIwADANBgkqhkiG9w0BAQUFAAOBgQANmDZo4t+1SrO9nb8KfjN4
+QtlV1gzaAa2jEsAZ369PBXdsxVz32a1JIa1KudXFfMMxtF1NRDJ0Z3ib/qq+L8B28IpkYgRWtRr+
+WWm6LzJ6rm1Q85cC0VSqoIRr+NoRZjaBdqWbJC4QsPnwVSXN9jLMLkFkjcxVDSxQtEx6v1PF9zCC
+Az8wggKooAMCAQICAQ0wDQYJKoZIhvcNAQEFBQAwgdExCzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxX
+ZXN0ZXJuIENhcGUxEjAQBgNVBAcTCUNhcGUgVG93bjEaMBgGA1UEChMRVGhhd3RlIENvbnN1bHRp
+bmcxKDAmBgNVBAsTH0NlcnRpZmljYXRpb24gU2VydmljZXMgRGl2aXNpb24xJDAiBgNVBAMTG1Ro
+YXd0ZSBQZXJzb25hbCBGcmVlbWFpbCBDQTErMCkGCSqGSIb3DQEJARYccGVyc29uYWwtZnJlZW1h
+aWxAdGhhd3RlLmNvbTAeFw0wMzA3MTcwMDAwMDBaFw0xMzA3MTYyMzU5NTlaMGIxCzAJBgNVBAYT
+AlpBMSUwIwYDVQQKExxUaGF3dGUgQ29uc3VsdGluZyAoUHR5KSBMdGQuMSwwKgYDVQQDEyNUaGF3
+dGUgUGVyc29uYWwgRnJlZW1haWwgSXNzdWluZyBDQTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkC
+gYEAxKY8VXNV+065yplaHmjAdQRwnd/p/6Me7L3N9VvyGna9fww6YfK/Uc4B1OVQCjDXAmNaLIkV
+cI7dyfArhVqqP3FWy688Cwfn8R+RNiQqE88r1fOCdz0Dviv+uxg+B79AgAJk16emu59l0cUqVIUP
+SAR/p7bRPGEEQB5kGXJgt/sCAwEAAaOBlDCBkTASBgNVHRMBAf8ECDAGAQH/AgEAMEMGA1UdHwQ8
+MDowOKA2oDSGMmh0dHA6Ly9jcmwudGhhd3RlLmNvbS9UaGF3dGVQZXJzb25hbEZyZWVtYWlsQ0Eu
+Y3JsMAsGA1UdDwQEAwIBBjApBgNVHREEIjAgpB4wHDEaMBgGA1UEAxMRUHJpdmF0ZUxhYmVsMi0x
+MzgwDQYJKoZIhvcNAQEFBQADgYEASIzRUIPqCy7MDaNmrGcPf6+svsIXoUOWlJ1/TCG4+DYfqi2f
+Ni/A9BxQIJNwPP2t4WFiw9k6GX6EsZkbAMUaC4J0niVQlGLH2ydxVyWN3amcOY6MIE9lX5Xa9/eH
+1sYITq726jTlEBpbNU1341YheILcIRk13iSx0x1G/11fZU8xggMQMIIDDAIBATB2MGIxCzAJBgNV
+BAYTAlpBMSUwIwYDVQQKExxUaGF3dGUgQ29uc3VsdGluZyAoUHR5KSBMdGQuMSwwKgYDVQQDEyNU
+aGF3dGUgUGVyc29uYWwgRnJlZW1haWwgSXNzdWluZyBDQQIQW7SrCyoCwnsms5MfcqmjmzAJBgUr
+DgMCGgUAoIIBbzAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0wOTA1
+MjgxNTQ4MzdaMCMGCSqGSIb3DQEJBDEWBBQ00vFewy9RCM6AA5h8qiVAS2sP0TCBhQYJKwYBBAGC
+NxAEMXgwdjBiMQswCQYDVQQGEwJaQTElMCMGA1UEChMcVGhhd3RlIENvbnN1bHRpbmcgKFB0eSkg
+THRkLjEsMCoGA1UEAxMjVGhhd3RlIFBlcnNvbmFsIEZyZWVtYWlsIElzc3VpbmcgQ0ECEFu0qwsq
+AsJ7JrOTH3Kpo5swgYcGCyqGSIb3DQEJEAILMXigdjBiMQswCQYDVQQGEwJaQTElMCMGA1UEChMc
+VGhhd3RlIENvbnN1bHRpbmcgKFB0eSkgTHRkLjEsMCoGA1UEAxMjVGhhd3RlIFBlcnNvbmFsIEZy
+ZWVtYWlsIElzc3VpbmcgQ0ECEFu0qwsqAsJ7JrOTH3Kpo5swDQYJKoZIhvcNAQEBBQAEggEAb6fe
+BT574Kboq/Ccfo8rpYdRQfND8BNKB+ppW/HeXOTYzqbODd25lpAdwMvO6g7fkJwo//maYV3hKAry
+ZR+Tjrgbjg2j8OQwa4whQcOxpXnRy35ZXTElSh1jZPxWuFfp8a0Nx9QduI5aJbSpEw9PZqhcQ6fY
+Pb0q8DkanjbxhZQaLiTiKxpsoP9nJhp3etjtr9+cJb3bbdlg5QD8lhqDJc/fNJ/vUi6aDJNpiWN2
+IBNDOJSJcrUQ6mu2w3zqXTaEXXtzrs7zj5Nneth7lWCmawgJa+oBhDhKXEK5GEslU8nsfGs2q1L6
+lHw9ZUZElQc5BF5w7eDTIUEvKKxFZH+snwAAAAAAAA==
+
+--Apple-Mail-12--1069448263--

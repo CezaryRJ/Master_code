@@ -1,0 +1,126 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <44Autonomous peers and semantic Web
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : p2prg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/p2prg/2006-05.mailcl']
+id : 93b23ed3-de63-49da-bad3-6ce2346fb2f7
+_version_ : 1675133091355557888
+
+Content : 
+
+=95	Self-organization and emergent behavior in P2P systems
+=95	P2P information retrieval architectures
+=95	Resource allocation in P2P systems
+=95	Scalability, coordination, robustness and adaptability in P2P systems
+=95	Autonomic Services in P2P systems
+=95	Overlay Networks and Application Level Multicast
+=95	P2P Grid Computing
+
+_______________________________________________________________
+
+Important Dates
+
+Paper registration/abstract:  July 24, 2006
+Electronic submission of full papers:  July 30, 2006
+Notification of paper acceptance:  September 4, 2006
+Camera-ready of accepted papers:  September 29, 2006
+Workshops:  December 18, 2006
+
+_______________________________________________________________
+
+Submissions
+
+Papers in P2P and autonomous agents related areas are solicited. All subm=
+itted papers will be reviewed=20
+on the basis of technical quality, relevance, significance, and clarity. =
+Note that P2PAA'06 will=20
+accept ONLY on-line submissions, containing PDF versions. Paper submissio=
+ns should be limited to=20
+a maximum of 4 pages in the IEEE 2-column format, and will be reviewed by=
+ the Program Committee members.
+Please use the Submission Form on the P2PAA'06 website to submit your pap=
+er. Accepted papers will be=20
+published in the workshop proceedings by the IEEE Computer Society Press.=
+ In addition, there is a plan=20
+to invite authors to submit extended versions of their papers for a speci=
+al issue of a respective journal.=20
+
+_______________________________________________________________
+General Inquires=20
+
+For more detailed and updated information, please refer to:=20
+                         http://www.yl.is.s.u-tokyo.ac.jp/~ragab/P2PAA06.=
+html=20
+For further information, please contact:=20
+			Khaled Ragab, Co-Chair at ragab@yl.is.s.u-tokyo.ac.jp
+
+_______________________________________________________________
+
+General Chair
+
+
+Co-Chairs
+
+	Khaled Ragab (Tokyo U, Japan)
+	Tarek Helmy  (KFUPM, Saudi Arabia)
+
+International Program Committee
+
+	Yasser Kotb		JAIST Inst.			Japan
+	Rajkumar Buyya		Melbourne University		Australia
+	Aboul Ella Hassanien	Kuwait University		Kuwait=20
+	Jeffery Bradshaw	FIHMC				USA
+	Khaled Shaalan 		British University		UAE
+	Laurence T. Yang	St. Francis Xavier University	Canada
+	Makoto Amamiya		Kyushu University		Japan
+	Omer F. Rana		Cardiff University		UK
+	G. Alghamdi		KFUPM				Saudi Arabia
+	Tsunenori Mine		Kyushu University		Japan
+	Ryszard Kowalczyk	Swinburne University		Australia
+	Tarek Helmy		KFUPM				Saudi Arabia
+	Iyad Rahwan		British University		UAE
+	Khaled Ragab		JST Tokyo University		Japan
+	Mohamed Marghny		Assuit University		Egypt=09
+	Kanaan Faisal		KFUPM				Saudi Arabia
+	M. Krishna Rao		KFUPM				Saudi Arabia
+	Satoshi Amamiya		Kyushu University		Japan
+	Sameh El-Ansary 	Swedish Institute		Sweden
+	Emad El-Sebakhy		KFUPM				Saudi Arabia
+	Kenji Kaneda		Tokyo University		Japan
+	Salahadin Mohamed	KFUPM				Saudi Arabia
+
+
+--------------070308060701050306000802
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+P2prg mailing list
+P2prg@irtf.org
+https://www1.ietf.org/mailman/listinfo/p2prg
+
+--------------070308060701050306000802--
+

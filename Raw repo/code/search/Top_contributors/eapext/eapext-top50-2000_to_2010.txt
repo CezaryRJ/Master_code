@@ -1,0 +1,6 @@
+2000 TO 2010
+-------#####------->    eapext
+vidyan@qualcomm.com 8
+mailman-owner@ietf.org 2
+jesse.walker@intel.com 1
+ldondeti@qualcomm.com 1

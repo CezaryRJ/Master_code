@@ -1,0 +1,134 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : l2tpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/l2tpext/2000-11.mailcl']
+id : ca3e635c-10f4-415b-bce9-3a4524876898
+_version_ : 1675129497035210754
+
+Content : 
+
+(8.8.8/8.6.9) with ESMTP id DAA05745 for <l2tp@ipsec.org>; Tue, 28 Nov 2000
+03:00:52 -0800 (PST) Received: from CNRI.Reston.VA.US (localhost [127.0.0.1])
+	by ietf.org (8.9.1a/8.9.1a) with ESMTP id GAA04250;
+	Tue, 28 Nov 2000 06:00:39 -0500 (EST)
+Message-Id: <200011281100.GAA04250@ietf.org>
+Mime-Version: 1.0
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+To: IETF-Announce:;
+Cc: l2tp@ipsec.org
+From: Internet-Drafts@ietf.org
+Reply-to: Internet-Drafts@ietf.org
+Subject: I-D ACTION:draft-ietf-l2tpext-l2tp-mib-01.txt
+Date: Tue, 28 Nov 2000 06:00:39 -0500
+Sender: nsyracus@cnri.reston.va.us
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Layer Two Tunneling Protocol Extensions
+Working Group of the IETF.
+
+	Title		: Layer Two Tunneling Protocol 'L2TP' Management 
+                          Information Base
+	Author(s)	: E. Caves, P. Calhoun, R. Wheeler
+	Filename	: draft-ietf-l2tpext-l2tp-mib-01.txt
+	Pages		: 73
+	Date		: 27-Nov-00
+	
+This memo defines a portion of the Management Information Base (MIB)
+for use with network management protocols in TCP/IP-based internets.
+In particular, it defines objects for managing networks using Layer 2
+Tunneling Protocol.
+This memo specifies a MIB module in a manner that is both compliant
+to the SNMPv2 SMI, and semantically identical to the peer SNMPv1
+definitions.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-l2tpext-l2tp-mib-01.txt
+
+Internet-Drafts are also available by anonymous FTP. Login with the username
+"anonymous" and a password of your e-mail address. After logging in,
+type "cd internet-drafts" and then
+	"get draft-ietf-l2tpext-l2tp-mib-01.txt".
+
+A list of Internet-Drafts directories can be found in
+http://www.ietf.org/shadow.html 
+or ftp://ftp.ietf.org/ietf/1shadow-sites.txt
+
+
+Internet-Drafts can also be obtained by e-mail.
+
+Send a message to:
+	mailserv@ietf.org.
+In the body type:
+	"FILE /internet-drafts/draft-ietf-l2tpext-l2tp-mib-01.txt".
+	
+NOTE:	The mail server at ietf.org can return the document in
+	MIME-encoded form by using the "mpack" utility.  To use this
+	feature, insert the command "ENCODING mime" before the "FILE"
+	command.  To decode the response(s), you will need "munpack" or
+	a MIME-compliant mail reader.  Different MIME-compliant mail readers
+	exhibit different behavior, especially when dealing with
+	"multipart" MIME messages (i.e. documents which have been split
+	up into multiple messages), so check your local documentation on
+	how to manipulate these messages.
+		
+		
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Multipart/Alternative; Boundary="OtherAccess"
+
+--OtherAccess
+Content-Type: Message/External-body;
+	access-type="mail-server";
+	server="mailserv@ietf.org"
+
+Content-Type: text/plain
+Content-ID:	<20001127133143.I-D@ietf.org>
+
+ENCODING mime
+FILE /internet-drafts/draft-ietf-l2tpext-l2tp-mib-01.txt
+
+--OtherAccess
+Content-Type: Message/External-body;
+	name="draft-ietf-l2tpext-l2tp-mib-01.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID:	<20001127133143.I-D@ietf.org>
+
+--OtherAccess--
+
+--NextPart--
+
+
+>----------------End Forwarded Message----------------<
+
+

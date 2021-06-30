@@ -1,0 +1,5 @@
+Year = 1996
+Adr count = 771
+Removed 0
+Sum 842.0
+Avarage = 1.0920881971465628

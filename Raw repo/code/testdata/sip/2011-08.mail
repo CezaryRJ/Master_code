@@ -1,0 +1,2391 @@
+
+From wwwrun@rfc-editor.org  Tue Aug  2 07:53:50 2011
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D764421F8747 for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 07:53:50 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.525
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.525 tagged_above=-999 required=5 tests=[AWL=0.075, BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Dc8fh2fDHZFV for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 07:53:50 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by ietfa.amsl.com (Postfix) with ESMTP id 69EDE21F8513 for <sip@ietf.org>; Tue,  2 Aug 2011 07:53:50 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id C9DEE98C50D; Tue,  2 Aug 2011 07:53:59 -0700 (PDT)
+To: jdrosen@dynamicsoft.com, schulzrinne@cs.columbia.edu, Gonzalo.Camarillo@ericsson.com, alan.johnston@wcom.com, jon.peterson@neustar.com, rsparks@dynamicsoft.com, mjh@icir.org, schooler@research.att.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20110802145359.C9DEE98C50D@rfc-editor.org>
+Date: Tue,  2 Aug 2011 07:53:59 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 14:53:50 -0000
+
+The following errata report has been submitted for RFC3261,
+"SIP: Session Initiation Protocol".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=3261&eid=2910
+
+--------------------------------------
+Type: Technical
+Reported by: Iñaki Baz Castillo <ibc@aliax.net>
+
+Section: Table 2
+
+Original Text
+-------------
+      Header field          where   proxy ACK BYE CAN INV OPT REG
+      ___________________________________________________________
+      Contact                1xx           -   -   -   o   -   -
+
+Corrected Text
+--------------
+      Header field          where   proxy ACK BYE CAN INV OPT REG
+      ___________________________________________________________
+      Contact                1xx           -   -   -   m   -   -
+
+Notes
+-----
+RFC 3261 says:
+
+Section 12.1: "Dialogs are created through the generation of non-failure responses to requests with specific methods.  Within this specification, only 2xx and 101-199 responses with a To tag, where the request was INVITE, will establish a dialog."
+
+Section 12.1.1: "When a UAS responds to a request with a response that establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all Record-Route header field values from the request into the response [...].  The UAS MUST add a Contact header field to the response."
+
+So it's clear that a 1xx response to an INVITE creates a dialog and then it MUST contain a Contact header and mirrored Record-Route headers.
+
+However Table 2 (page 162) says:
+
+      Header field          where   proxy ACK BYE CAN INV OPT REG
+      ___________________________________________________________
+      Contact                1xx           -   -   -   o   -   -
+      Record-Route        2xx,18x    mr    -   o   o   o   o   -
+
+Obviously Record-Route is optional since in the absence of a proxy doing record-routing, such header will not be present. However Contact header should appear as mandatory (m) for 1xx responses for INVITE rather than optional (o).
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC3261 (draft-ietf-sip-rfc2543bis-09)
+--------------------------------------
+Title               : SIP: Session Initiation Protocol
+Publication Date    : June 2002
+Author(s)           : J. Rosenberg, H. Schulzrinne, G. Camarillo, A. Johnston, J. Peterson, R. Sparks, M. Handley, E. Schooler
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From BPenfield@acmepacket.com  Tue Aug  2 08:59:47 2011
+Return-Path: <BPenfield@acmepacket.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4773A11E808F for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 08:59:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oaYjnIqSUIii for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 08:59:46 -0700 (PDT)
+Received: from ETMail2.acmepacket.com (etmail2.acmepacket.com [216.41.24.9]) by ietfa.amsl.com (Postfix) with ESMTP id 832E011E8083 for <sip@ietf.org>; Tue,  2 Aug 2011 08:59:46 -0700 (PDT)
+Received: from mail.acmepacket.com (216.41.24.7) by ETMail2.acmepacket.com (216.41.24.9) with Microsoft SMTP Server (TLS) id 8.1.240.5; Tue, 2 Aug 2011 11:31:38 -0400
+Received: from mailbox1.acmepacket.com ([216.41.24.12]) by mail ([127.0.0.1]) with mapi; Tue, 2 Aug 2011 11:58:52 -0400
+From: Bob Penfield <BPenfield@acmepacket.com>
+To: RFC Errata System <rfc-editor@rfc-editor.org>, "jdrosen@dynamicsoft.com" <jdrosen@dynamicsoft.com>, "schulzrinne@cs.columbia.edu" <schulzrinne@cs.columbia.edu>, "Gonzalo.Camarillo@ericsson.com" <Gonzalo.Camarillo@ericsson.com>, "alan.johnston@wcom.com" <alan.johnston@wcom.com>, "jon.peterson@neustar.com" <jon.peterson@neustar.com>, "rsparks@dynamicsoft.com" <rsparks@dynamicsoft.com>, "mjh@icir.org" <mjh@icir.org>, "schooler@research.att.com" <schooler@research.att.com>, "gonzalo.camarillo@ericsson.com" <gonzalo.camarillo@ericsson.com>, "rjsparks@nostrum.com" <rjsparks@nostrum.com>, "dean.willis@softarmor.com" <dean.willis@softarmor.com>, "drage@alcatel-lucent.com" <drage@alcatel-lucent.com>
+Date: Tue, 2 Aug 2011 11:58:50 -0400
+Thread-Topic: [Sip] [Technical Errata Reported] RFC3261 (2910)
+Thread-Index: AcxRJBq8SMCGUJuXTKu9oEoVxK0I0AACJafA
+Message-ID: <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org>
+In-Reply-To: <20110802145359.C9DEE98C50D@rfc-editor.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 15:59:47 -0000
+
+The entry in the table should be "c" (not "m"). A Contact is not required i=
+n a 100 Trying response. The Contact is only required for a 1xx that create=
+s a dialog.
+
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of RFC E=
+rrata System
+Sent: Tuesday, August 02, 2011 10:54 AM
+To: jdrosen@dynamicsoft.com; schulzrinne@cs.columbia.edu; Gonzalo.Camarillo=
+@ericsson.com; alan.johnston@wcom.com; jon.peterson@neustar.com; rsparks@dy=
+namicsoft.com; mjh@icir.org; schooler@research.att.com; gonzalo.camarillo@e=
+ricsson.com; rjsparks@nostrum.com; dean.willis@softarmor.com; drage@alcatel=
+-lucent.com
+Cc: sip@ietf.org; rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC3261 (2910)
+
+
+The following errata report has been submitted for RFC3261,
+"SIP: Session Initiation Protocol".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=3D3261&eid=3D2910
+
+--------------------------------------
+Type: Technical
+Reported by: I=F1aki Baz Castillo <ibc@aliax.net>
+
+Section: Table 2
+
+Original Text
+-------------
+      Header field          where   proxy ACK BYE CAN INV OPT REG
+      ___________________________________________________________
+      Contact                1xx           -   -   -   o   -   -
+
+Corrected Text
+--------------
+      Header field          where   proxy ACK BYE CAN INV OPT REG
+      ___________________________________________________________
+      Contact                1xx           -   -   -   m   -   -
+
+Notes
+-----
+RFC 3261 says:
+
+Section 12.1: "Dialogs are created through the generation of non-failure re=
+sponses to requests with specific methods.  Within this specification, only=
+ 2xx and 101-199 responses with a To tag, where the request was INVITE, wil=
+l establish a dialog."
+
+Section 12.1.1: "When a UAS responds to a request with a response that esta=
+blishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all Record-Ro=
+ute header field values from the request into the response [...].  The UAS =
+MUST add a Contact header field to the response."
+
+So it's clear that a 1xx response to an INVITE creates a dialog and then it=
+ MUST contain a Contact header and mirrored Record-Route headers.
+
+However Table 2 (page 162) says:
+
+      Header field          where   proxy ACK BYE CAN INV OPT REG
+      ___________________________________________________________
+      Contact                1xx           -   -   -   o   -   -
+      Record-Route        2xx,18x    mr    -   o   o   o   o   -
+
+Obviously Record-Route is optional since in the absence of a proxy doing re=
+cord-routing, such header will not be present. However Contact header shoul=
+d appear as mandatory (m) for 1xx responses for INVITE rather than optional=
+ (o).
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary.=20
+
+--------------------------------------
+RFC3261 (draft-ietf-sip-rfc2543bis-09)
+--------------------------------------
+Title               : SIP: Session Initiation Protocol
+Publication Date    : June 2002
+Author(s)           : J. Rosenberg, H. Schulzrinne, G. Camarillo, A. Johnst=
+on, J. Peterson, R. Sparks, M. Handley, E. Schooler
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From ibc@aliax.net  Tue Aug  2 11:28:45 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1C3A721F866A for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 11:28:45 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.648
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.648 tagged_above=-999 required=5 tests=[AWL=0.029,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id jL381HkHhw3Z for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 11:28:44 -0700 (PDT)
+Received: from mail-qy0-f179.google.com (mail-qy0-f179.google.com [209.85.216.179]) by ietfa.amsl.com (Postfix) with ESMTP id 9881E21F8669 for <sip@ietf.org>; Tue,  2 Aug 2011 11:28:44 -0700 (PDT)
+Received: by qyk29 with SMTP id 29so30801qyk.10 for <sip@ietf.org>; Tue, 02 Aug 2011 11:28:54 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.78.67 with SMTP id j3mr4239144qck.253.1312309733911; Tue, 02 Aug 2011 11:28:53 -0700 (PDT)
+Received: by 10.229.224.212 with HTTP; Tue, 2 Aug 2011 11:28:53 -0700 (PDT)
+In-Reply-To: <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com>
+Date: Tue, 2 Aug 2011 20:28:53 +0200
+Message-ID: <CALiegfmmZxEUf9+cnGWK4+GcAuFhq95aviPYxu=kC3r5f4wZZQ@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Bob Penfield <BPenfield@acmepacket.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "jdrosen@dynamicsoft.com" <jdrosen@dynamicsoft.com>, "schooler@research.att.com" <schooler@research.att.com>, "rsparks@dynamicsoft.com" <rsparks@dynamicsoft.com>, "sip@ietf.org" <sip@ietf.org>, "schulzrinne@cs.columbia.edu" <schulzrinne@cs.columbia.edu>, "drage@alcatel-lucent.com" <drage@alcatel-lucent.com>, "alan.johnston@wcom.com" <alan.johnston@wcom.com>, "Gonzalo.Camarillo@ericsson.com" <Gonzalo.Camarillo@ericsson.com>, "mjh@icir.org" <mjh@icir.org>, "jon.peterson@neustar.com" <jon.peterson@neustar.com>, "dean.willis@softarmor.com" <dean.willis@softarmor.com>, RFC Errata System <rfc-editor@rfc-editor.org>
+Subject: Re: [Sip] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 18:28:45 -0000
+
+2011/8/2 Bob Penfield <BPenfield@acmepacket.com>:
+> The entry in the table should be "c" (not "m"). A Contact is not required=
+ in a 100 Trying response. The Contact is only required for a 1xx that crea=
+tes a dialog.
+
+Right.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From rjsparks@nostrum.com  Tue Aug  2 11:50:19 2011
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5F76221F85E3; Tue,  2 Aug 2011 11:50:19 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.45
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.45 tagged_above=-999 required=5 tests=[AWL=-0.150, BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yswXV2JGN1mn; Tue,  2 Aug 2011 11:50:19 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by ietfa.amsl.com (Postfix) with ESMTP id 9B54321F85CA; Tue,  2 Aug 2011 11:50:18 -0700 (PDT)
+Received: from [192.168.2.105] (pool-173-71-50-10.dllstx.fios.verizon.net [173.71.50.10]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id p72Imn7v097638 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Tue, 2 Aug 2011 13:48:50 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+Mime-Version: 1.0 (Apple Message framework v1084)
+Content-Type: text/plain; charset=iso-8859-1
+From: Robert Sparks <rjsparks@nostrum.com>
+In-Reply-To: <CALiegfmmZxEUf9+cnGWK4+GcAuFhq95aviPYxu=kC3r5f4wZZQ@mail.gmail.com>
+Date: Tue, 2 Aug 2011 13:48:49 -0500
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <6D2BA7C8-DD7F-444B-8E4A-16D6B3C43212@nostrum.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <CALiegfmmZxEUf9+cnGWK4+GcAuFhq95aviPYxu=kC3r5f4wZZQ@mail.gmail.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailer: Apple Mail (2.1084)
+Received-SPF: pass (nostrum.com: 173.71.50.10 is authenticated by a trusted mechanism)
+Cc: Bob Penfield <BPenfield@acmepacket.com>, jdrosen@dynamicsoft.com, schooler@research.att.com, rsparks@dynamicsoft.com, "sip@ietf.org List" <sip@ietf.org>, schulzrinne@cs.columbia.edu, "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>, Keith Drage <drage@alcatel-lucent.com>, alan.johnston@wcom.com, Gonzalo Camarillo <Gonzalo.Camarillo@ericsson.com>, mjh@icir.org, Jon Peterson <jon.peterson@neustar.com>, Dean Willis <dean.willis@softarmor.com>
+Subject: [Sip] Table2/3 maintenance (was Re: [Technical Errata Reported] RFC3261 (2910))
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+Reply-To: "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 18:50:19 -0000
+
+(removing the RFC Editor, and setting reply-to to the sipcore list)
+
+Some thing to think about when considering errata on the existing Tables =
+2 and 3 in RFC3261:
+
+We have had many conversations about the utility of maintaining tables 2 =
+and 3.
+I think the most recent was around the Anaheim meeting - see the notes =
+at:
+<http://www.ietf.org/proceedings/77/minutes/sipcore.html>
+
+We had strong support for not continuing to add information to Tables 2 =
+and 3, but not
+to remove the existing tables from the document.  Maintaining the =
+existing table is
+probably a separate question, but keep the arguments noted in the =
+minutes above in
+mind when choosing to do so.
+
+RjS
+
+On Aug 2, 2011, at 1:28 PM, I=F1aki Baz Castillo wrote:
+
+> 2011/8/2 Bob Penfield <BPenfield@acmepacket.com>:
+>> The entry in the table should be "c" (not "m"). A Contact is not =
+required in a 100 Trying response. The Contact is only required for a =
+1xx that creates a dialog.
+>=20
+> Right.
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+
+
+From rjsparks@nostrum.com  Tue Aug  2 11:58:47 2011
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6FD3B21F86DD; Tue,  2 Aug 2011 11:58:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.55
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.55 tagged_above=-999 required=5 tests=[AWL=0.050, BAYES_00=-2.599, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 42ctrOzzdRJ4; Tue,  2 Aug 2011 11:58:46 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by ietfa.amsl.com (Postfix) with ESMTP id 00710228006; Tue,  2 Aug 2011 11:58:45 -0700 (PDT)
+Received: from [192.168.2.105] (pool-173-71-50-10.dllstx.fios.verizon.net [173.71.50.10]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id p72IvS8i098559 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Tue, 2 Aug 2011 13:57:29 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+Mime-Version: 1.0 (Apple Message framework v1084)
+Content-Type: text/plain; charset=iso-8859-1
+From: Robert Sparks <rjsparks@nostrum.com>
+In-Reply-To: <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com>
+Date: Tue, 2 Aug 2011 13:57:28 -0500
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com>
+To: Bob Penfield <BPenfield@acmepacket.com>
+X-Mailer: Apple Mail (2.1084)
+Received-SPF: pass (nostrum.com: 173.71.50.10 is authenticated by a trusted mechanism)
+Cc: jdrosen@dynamicsoft.com, schooler@research.att.com, rsparks@dynamicsoft.com, "sip@ietf.org List" <sip@ietf.org>, schulzrinne@cs.columbia.edu, "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>, Keith Drage <drage@alcatel-lucent.com>, alan.johnston@wcom.com, Gonzalo Camarillo <Gonzalo.Camarillo@ericsson.com>, mjh@icir.org, Jon Peterson <jon.peterson@neustar.com>, Dean Willis <dean.willis@softarmor.com>, RFC Errata System <rfc-editor@rfc-editor.org>
+Subject: Re: [Sip] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+Reply-To: "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 18:58:47 -0000
+
+(Attempting to move this to the sipcore mailing list)
+
+Further, they're only going to make sense for 1xx that is sent using =
+100rel.
+
+So the errata as submitted is incorrect. We could just reject it and =
+move on (my preference given the way we're handling Table 2),
+or try to edit it to be more correct and put it in hold-for-document =
+update (see =
+<http://www.ietf.org/iesg/statement/errata-processing.html>).
+
+RjS
+
+On Aug 2, 2011, at 10:58 AM, Bob Penfield wrote:
+
+> The entry in the table should be "c" (not "m"). A Contact is not =
+required in a 100 Trying response. The Contact is only required for a =
+1xx that creates a dialog.
+>=20
+>=20
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of =
+RFC Errata System
+> Sent: Tuesday, August 02, 2011 10:54 AM
+> To: jdrosen@dynamicsoft.com; schulzrinne@cs.columbia.edu; =
+Gonzalo.Camarillo@ericsson.com; alan.johnston@wcom.com; =
+jon.peterson@neustar.com; rsparks@dynamicsoft.com; mjh@icir.org; =
+schooler@research.att.com; gonzalo.camarillo@ericsson.com; =
+rjsparks@nostrum.com; dean.willis@softarmor.com; =
+drage@alcatel-lucent.com
+> Cc: sip@ietf.org; rfc-editor@rfc-editor.org
+> Subject: [Sip] [Technical Errata Reported] RFC3261 (2910)
+>=20
+>=20
+> The following errata report has been submitted for RFC3261,
+> "SIP: Session Initiation Protocol".
+>=20
+> --------------------------------------
+> You may review the report below and at:
+> http://www.rfc-editor.org/errata_search.php?rfc=3D3261&eid=3D2910
+>=20
+> --------------------------------------
+> Type: Technical
+> Reported by: I=F1aki Baz Castillo <ibc@aliax.net>
+>=20
+> Section: Table 2
+>=20
+> Original Text
+> -------------
+>      Header field          where   proxy ACK BYE CAN INV OPT REG
+>      ___________________________________________________________
+>      Contact                1xx           -   -   -   o   -   -
+>=20
+> Corrected Text
+> --------------
+>      Header field          where   proxy ACK BYE CAN INV OPT REG
+>      ___________________________________________________________
+>      Contact                1xx           -   -   -   m   -   -
+>=20
+> Notes
+> -----
+> RFC 3261 says:
+>=20
+> Section 12.1: "Dialogs are created through the generation of =
+non-failure responses to requests with specific methods.  Within this =
+specification, only 2xx and 101-199 responses with a To tag, where the =
+request was INVITE, will establish a dialog."
+>=20
+> Section 12.1.1: "When a UAS responds to a request with a response that =
+establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all =
+Record-Route header field values from the request into the response =
+[...].  The UAS MUST add a Contact header field to the response."
+>=20
+> So it's clear that a 1xx response to an INVITE creates a dialog and =
+then it MUST contain a Contact header and mirrored Record-Route headers.
+>=20
+> However Table 2 (page 162) says:
+>=20
+>      Header field          where   proxy ACK BYE CAN INV OPT REG
+>      ___________________________________________________________
+>      Contact                1xx           -   -   -   o   -   -
+>      Record-Route        2xx,18x    mr    -   o   o   o   o   -
+>=20
+> Obviously Record-Route is optional since in the absence of a proxy =
+doing record-routing, such header will not be present. However Contact =
+header should appear as mandatory (m) for 1xx responses for INVITE =
+rather than optional (o).
+>=20
+> Instructions:
+> -------------
+> This errata is currently posted as "Reported". If necessary, please
+> use "Reply All" to discuss whether it should be verified or
+> rejected. When a decision is reached, the verifying party (IESG)
+> can log in to change the status and edit the report, if necessary.=20
+>=20
+> --------------------------------------
+> RFC3261 (draft-ietf-sip-rfc2543bis-09)
+> --------------------------------------
+> Title               : SIP: Session Initiation Protocol
+> Publication Date    : June 2002
+> Author(s)           : J. Rosenberg, H. Schulzrinne, G. Camarillo, A. =
+Johnston, J. Peterson, R. Sparks, M. Handley, E. Schooler
+> Category            : PROPOSED STANDARD
+> Source              : Session Initiation Protocol
+> Area                : Real-time Applications and Infrastructure
+> Stream              : IETF
+> Verifying Party     : IESG
+
+
+From Fred_Stacey@Mitel.com  Tue Aug  2 12:03:36 2011
+Return-Path: <Fred_Stacey@Mitel.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5F6DE1F0C3A for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 12:03:36 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.346
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.346 tagged_above=-999 required=5 tests=[AWL=1.254,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id fIy5ijrie8kF for <sip@ietfa.amsl.com>; Tue,  2 Aug 2011 12:03:36 -0700 (PDT)
+Received: from smtp.mitel.com (smtp.mitel.com [216.191.234.102]) by ietfa.amsl.com (Postfix) with ESMTP id E0DBE1F0C43 for <sip@ietf.org>; Tue,  2 Aug 2011 12:03:35 -0700 (PDT)
+Received: from localhost (smtp.mitel.com [127.0.0.1]) by smtp.mitel.com (Postfix) with ESMTP id 52E2E2C081 for <sip@ietf.org>; Tue,  2 Aug 2011 15:03:45 -0400 (EDT)
+X-Virus-Scanned: by amavisd-new (virusonly) at mitel.com
+Received: from smtp.mitel.com ([127.0.0.1]) by localhost (smtp.mitel.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id f1a57JJDPTrt for <sip@ietf.org>; Tue,  2 Aug 2011 15:03:45 -0400 (EDT)
+Received: from ottlnmta.mitel.com (ottlnmta.mitel.com [10.44.16.150]) by smtp.mitel.com (Postfix) with ESMTP id 27CA32C073 for <sip@ietf.org>; Tue,  2 Aug 2011 15:03:45 -0400 (EDT)
+From: Fred_Stacey@Mitel.com
+To: sip@ietf.org
+Message-ID: <OFC2F65040.E420014E-ON852578E0.0068B957-852578E0.0068B957@ottlnmta.mitel.com>
+Date: Tue, 2 Aug 2011 15:03:51 -0400
+X-MIMETrack: Serialize by Router on OTTLNMTA/Mitel(Release 6.5.6FP3|March 27, 2008) at 08/02/2011 03:03:55 PM
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Subject: [Sip] Fred Stacey is out of the office.
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 19:03:36 -0000
+
+I will be out of the office starting  07/30/2011 and will not return until
+08/08/2011.
+
+I will be out of the office  From Jully 30 to Aug 8 inclusive.
+If your inquiry is regarding Mitel AnyWare, please direct to
+mitel_anyware_sales@mitel.com.
+If your inquiry is regarding MICD or the Mitel Service Provider Program,
+please direct to Andrew Moses (andrew_moses@mitel.com)
+
+
+From ibc@aliax.net  Tue Aug  2 15:24:22 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 739B611E80D4; Tue,  2 Aug 2011 15:24:22 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5QXwVUjx+Unh; Tue,  2 Aug 2011 15:24:21 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id 6367111E80CE; Tue,  2 Aug 2011 15:24:21 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so212784qwc.31 for <multiple recipients>; Tue, 02 Aug 2011 15:24:28 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.231.80 with SMTP id jp16mr3049584qcb.25.1312323867804; Tue, 02 Aug 2011 15:24:27 -0700 (PDT)
+Received: by 10.229.224.212 with HTTP; Tue, 2 Aug 2011 15:24:27 -0700 (PDT)
+In-Reply-To: <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com>
+Date: Wed, 3 Aug 2011 00:24:27 +0200
+Message-ID: <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "SIPCORE (Session Initiation Protocol Core) WG" <sipcore@ietf.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: Bob Penfield <BPenfield@acmepacket.com>, jdrosen@dynamicsoft.com, schooler@research.att.com, rsparks@dynamicsoft.com, "sip@ietf.org List" <sip@ietf.org>, schulzrinne@cs.columbia.edu, Keith Drage <drage@alcatel-lucent.com>, Gonzalo Camarillo <Gonzalo.Camarillo@ericsson.com>, mjh@icir.org, alan.johnston@wcom.com, Dean Willis <dean.willis@softarmor.com>, Jon Peterson <jon.peterson@neustar.com>, RFC Errata System <rfc-editor@rfc-editor.org>
+Subject: Re: [Sip] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 22:24:22 -0000
+
+2011/8/2 Robert Sparks <rjsparks@nostrum.com>:
+> Further, they're only going to make sense for 1xx that is sent using 100r=
+el.
+
+This has been discussed in sip-implementors, and that assertion seems
+incorrect. As I've reported in the errata:
+
+
+Section 12.1: "Dialogs are created through the generation of
+non-failure responses to requests with specific methods. Within this
+specification, only 2xx and 101-199 responses with a To tag, where the
+request was INVITE, will establish a dialog."
+
+Section 12.1.1: "When a UAS responds to a request with a response that
+establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all
+Record-Route header field values from the request into the response
+[...]. The UAS MUST add a Contact header field to the response."
+
+So it's clear that a 1xx response to an INVITE creates a dialog and
+then it MUST contain a Contact header and mirrored Record-Route
+headers, *regardless* the usage of 100rel.
+
+Am I wrong? if so, why?
+
+Regards.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Tue Aug  2 15:56:09 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7E6BB11E80C3; Tue,  2 Aug 2011 15:56:09 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id uV7jw0lUCrWu; Tue,  2 Aug 2011 15:56:08 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id B645611E8095; Tue,  2 Aug 2011 15:56:08 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so224681qwc.31 for <multiple recipients>; Tue, 02 Aug 2011 15:56:18 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.215.68 with SMTP id hd4mr4649534qcb.177.1312325778403; Tue, 02 Aug 2011 15:56:18 -0700 (PDT)
+Received: by 10.229.224.212 with HTTP; Tue, 2 Aug 2011 15:56:18 -0700 (PDT)
+In-Reply-To: <6D2BA7C8-DD7F-444B-8E4A-16D6B3C43212@nostrum.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <CALiegfmmZxEUf9+cnGWK4+GcAuFhq95aviPYxu=kC3r5f4wZZQ@mail.gmail.com> <6D2BA7C8-DD7F-444B-8E4A-16D6B3C43212@nostrum.com>
+Date: Wed, 3 Aug 2011 00:56:18 +0200
+Message-ID: <CALiegf=tyOvJZY7qi7qBm+HX9O-yhq3KvvFW18Wx1NqXt9hRUw@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "SIPCORE (Session Initiation Protocol Core) WG" <sipcore@ietf.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: Bob Penfield <BPenfield@acmepacket.com>, jdrosen@dynamicsoft.com, schooler@research.att.com, rsparks@dynamicsoft.com, "sip@ietf.org List" <sip@ietf.org>, schulzrinne@cs.columbia.edu, Keith Drage <drage@alcatel-lucent.com>, alan.johnston@wcom.com, Gonzalo Camarillo <Gonzalo.Camarillo@ericsson.com>, mjh@icir.org, Jon Peterson <jon.peterson@neustar.com>, Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Table2/3 maintenance (was Re: [Technical Errata Reported] RFC3261 (2910))
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Aug 2011 22:56:09 -0000
+
+2011/8/2 Robert Sparks <rjsparks@nostrum.com>:
+> (removing the RFC Editor, and setting reply-to to the sipcore list)
+>
+> Some thing to think about when considering errata on the existing Tables =
+2 and 3 in RFC3261:
+>
+> We have had many conversations about the utility of maintaining tables 2 =
+and 3.
+> I think the most recent was around the Anaheim meeting - see the notes at=
+:
+> <http://www.ietf.org/proceedings/77/minutes/sipcore.html>
+>
+> We had strong support for not continuing to add information to Tables 2 a=
+nd 3, but not
+> to remove the existing tables from the document. =C2=A0Maintaining the ex=
+isting table is
+> probably a separate question, but keep the arguments noted in the minutes=
+ above in
+> mind when choosing to do so.
+
+I also think that table 2 (at least table 2) is not useful, and just
+adds complexity. It's much better to explain/describe/mandate the
+presence of headers in the text (IMHO).
+
+Regards.
+
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From rjsparks@nostrum.com  Wed Aug  3 08:46:03 2011
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0B78121F8BD7; Wed,  3 Aug 2011 08:46:03 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.45
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.45 tagged_above=-999 required=5 tests=[AWL=-0.150, BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, SPF_PASS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yxy-HRPihiXt; Wed,  3 Aug 2011 08:46:02 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by ietfa.amsl.com (Postfix) with ESMTP id 354C021F8BBD; Wed,  3 Aug 2011 08:46:01 -0700 (PDT)
+Received: from dn3-177.estacado.net (vicuna-alt.estacado.net [75.53.54.121]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id p73Fk9Il028341 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Wed, 3 Aug 2011 10:46:10 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+Mime-Version: 1.0 (Apple Message framework v1084)
+Content-Type: text/plain; charset=iso-8859-1
+From: Robert Sparks <rjsparks@nostrum.com>
+In-Reply-To: <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com>
+Date: Wed, 3 Aug 2011 10:46:10 -0500
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailer: Apple Mail (2.1084)
+Received-SPF: pass (nostrum.com: 75.53.54.121 is authenticated by a trusted mechanism)
+Cc: "sip@ietf.org List" <sip@ietf.org>, "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>
+Subject: Re: [Sip] [sipcore]  [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 03 Aug 2011 15:46:03 -0000
+
+(removing the rfc-editor and trimming the distribution to the lists)
+
+On Aug 2, 2011, at 5:24 PM, I=F1aki Baz Castillo wrote:
+
+> 2011/8/2 Robert Sparks <rjsparks@nostrum.com>:
+>> Further, they're only going to make sense for 1xx that is sent using =
+100rel.
+>=20
+> This has been discussed in sip-implementors, and that assertion seems
+> incorrect. As I've reported in the errata:
+>=20
+>=20
+> Section 12.1: "Dialogs are created through the generation of
+> non-failure responses to requests with specific methods. Within this
+> specification, only 2xx and 101-199 responses with a To tag, where the
+> request was INVITE, will establish a dialog."
+>=20
+> Section 12.1.1: "When a UAS responds to a request with a response that
+> establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all
+> Record-Route header field values from the request into the response
+> [...]. The UAS MUST add a Contact header field to the response."
+>=20
+> So it's clear that a 1xx response to an INVITE creates a dialog and
+> then it MUST contain a Contact header and mirrored Record-Route
+> headers, *regardless* the usage of 100rel.
+>=20
+> Am I wrong? if so, why?
+
+Not wrong, just incomplete. This will create an (early) dialog at the =
+UAS.
+It may or may not create a dialog at the UAC without 100rel since the
+message may never get to the UAC. Where I said "make sense" above,
+it might have been better if I had said "be useful".
+
+>=20
+> Regards.
+>=20
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+> _______________________________________________
+> sipcore mailing list
+> sipcore@ietf.org
+> https://www.ietf.org/mailman/listinfo/sipcore
+
+
+From samirs.lists@gmail.com  Thu Aug  4 21:15:29 2011
+Return-Path: <samirs.lists@gmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id AC80B11E80A7; Thu,  4 Aug 2011 21:15:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.499
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.499 tagged_above=-999 required=5 tests=[AWL=0.100,  BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tPlTzsTrMt9B; Thu,  4 Aug 2011 21:15:28 -0700 (PDT)
+Received: from mail-pz0-f45.google.com (mail-pz0-f45.google.com [209.85.210.45]) by ietfa.amsl.com (Postfix) with ESMTP id B28A421F8557; Thu,  4 Aug 2011 21:15:28 -0700 (PDT)
+Received: by pzk33 with SMTP id 33so7509870pzk.18 for <multiple recipients>; Thu, 04 Aug 2011 21:15:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type:content-transfer-encoding; bh=bqDPNesYp8IJ1SF2K+iHxV/OUvUtKkpIA3MKeh9p8IE=; b=ITJf4z9uue90LQjw9BdCRd5PObRQyrm7bRfKy5EEPKBuSJ+zsmQSq1is0hswNuBFWS OkCehutdeboSXTeruqbhpHyd2xw0KVeku7FcbAa4xdqgODTy6TzVtnhUUMfl0ml48vI8 6sfo5F7UpXZNdvsc4X1IEYlnILdWYUrHniFjY=
+MIME-Version: 1.0
+Received: by 10.142.48.14 with SMTP id v14mr1541153wfv.103.1312517743833; Thu, 04 Aug 2011 21:15:43 -0700 (PDT)
+Received: by 10.68.43.7 with HTTP; Thu, 4 Aug 2011 21:15:43 -0700 (PDT)
+In-Reply-To: <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com> <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com> <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com>
+Date: Thu, 4 Aug 2011 21:15:43 -0700
+Message-ID: <CAK+Spiwx+zJb=ccc0aL1bLVb6faSVCQcOYKJsHz_jnHUpmDnVQ@mail.gmail.com>
+From: Samir Srivastava <samirs.lists@gmail.com>
+To: Romel Khan <romel.khan@idt.net>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org List" <sip@ietf.org>, "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>
+Subject: Re: [Sip] [sipcore]  [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 05 Aug 2011 04:15:29 -0000
+
+Hi, IMHO presentation of information in tabulated form helps a lot to
+starters. Like ABNF it helps parser developers (expert of syntax &
+semantic analysis) to develop it without referring each line of SIP
+rfc's. 3262 or 100rel should have updated table  Ideally each
+subsequent RFC should conisder table updation. Tabulation of
+information will be done by vendors internally anyway. So do it in
+community. SIP needed hitchakers guide. Simplicity for starters
+please. Regards Samir
+
+On 8/4/11, Romel Khan <romel.khan@idt.net> wrote:
+> So it is useful if one of UAS or UAC requires it, but it does not have to=
+ be
+> mandatory. Some comments:
+> -- RFC3261 mentions early dialog without mentioning RFC3262. Then it seem=
+s
+> logical to me that it needs to be made clear in this RFC3261 that early
+> dialog must mean Contact and Record-Route (if Record-Route was received i=
+n
+> INVITE) headers is mandatory in 1xx without reference to 100rel.
+>
+> -- A UAS could always send 1xx with headers that are required for early
+> dialog but it doesn't have to enforce 100rel (eg because the origination =
+or
+> UAS side itself may not support reliable provisional response handling, o=
+r
+> reliable provisioning not really required for its operation). UAS could s=
+end
+> "support:100rel" if it supports it, or it would not send it if it doesn't
+> support this. In my opinion, if UAC hasn't sent 100rel required, it shoul=
+d
+> be up to the UAS to decide whether to enforce 100rel
+> (with "required:100rel") if its application really requires SIP requests
+> before call answer. If the origination side (UAC) side has a need to send
+> early requests, like UPDATE, then the UAC should require 100rel from the
+> termination side (UAS) by sending this in INVITE. In a VoIP service provi=
+der
+> world, these kind of capabilities are configured during interconnect turn
+> up.
+>
+> -- I notice that some vendors gateway implementations, even if gateway is
+> the termination side, require 100rel for the gateway to receive pre-answe=
+r
+> requests such as UPDATE. This really didn't have to be this way. I have
+> always seen these gateways, when it is the termination side, respond back
+> SIP 183 with the headers that create early dialog. So if the origination
+> side received the SIP 183 response, then there is no reason for the
+> origination side to now not be able to send UPDATE request. Also, no
+> reason for the termination gateways to not accept the SIP UPDATE without
+> requiring PRACK.
+>
+> Thanks.
+>
+> On Wed, Aug 3, 2011 at 11:46 AM, Robert Sparks <rjsparks@nostrum.com> wro=
+te:
+>
+>> (removing the rfc-editor and trimming the distribution to the lists)
+>>
+>> On Aug 2, 2011, at 5:24 PM, I=F1aki Baz Castillo wrote:
+>>
+>> > 2011/8/2 Robert Sparks <rjsparks@nostrum.com>:
+>> >> Further, they're only going to make sense for 1xx that is sent using
+>> 100rel.
+>> >
+>> > This has been discussed in sip-implementors, and that assertion seems
+>> > incorrect. As I've reported in the errata:
+>> >
+>> >
+>> > Section 12.1: "Dialogs are created through the generation of
+>> > non-failure responses to requests with specific methods. Within this
+>> > specification, only 2xx and 101-199 responses with a To tag, where the
+>> > request was INVITE, will establish a dialog."
+>> >
+>> > Section 12.1.1: "When a UAS responds to a request with a response that
+>> > establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all
+>> > Record-Route header field values from the request into the response
+>> > [...]. The UAS MUST add a Contact header field to the response."
+>> >
+>> > So it's clear that a 1xx response to an INVITE creates a dialog and
+>> > then it MUST contain a Contact header and mirrored Record-Route
+>> > headers, *regardless* the usage of 100rel.
+>> >
+>> > Am I wrong? if so, why?
+>>
+>> Not wrong, just incomplete. This will create an (early) dialog at the UA=
+S.
+>> It may or may not create a dialog at the UAC without 100rel since the
+>> message may never get to the UAC. Where I said "make sense" above,
+>> it might have been better if I had said "be useful".
+>>
+>> >
+>> > Regards.
+>> >
+>> >
+>> > --
+>> > I=F1aki Baz Castillo
+>> > <ibc@aliax.net>
+>> > _______________________________________________
+>> > sipcore mailing list
+>> > sipcore@ietf.org
+>> > https://www.ietf.org/mailman/listinfo/sipcore
+>>
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is essentially closed and only used for finishing old business=
+.
+>> Use sip-implementors@cs.columbia.edu for questions on how to develop a S=
+IP
+>> implementation.
+>> Use dispatch@ietf.org for new developments on the application of sip.
+>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>> specifications.
+>>
+>
+
+From pkyzivat@alum.mit.edu  Fri Aug  5 07:36:48 2011
+Return-Path: <pkyzivat@alum.mit.edu>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4A51821F8C15 for <sip@ietfa.amsl.com>; Fri,  5 Aug 2011 07:36:48 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.575
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.575 tagged_above=-999 required=5 tests=[AWL=0.024,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zkBB5Yymd6z3 for <sip@ietfa.amsl.com>; Fri,  5 Aug 2011 07:36:47 -0700 (PDT)
+Received: from qmta08.westchester.pa.mail.comcast.net (qmta08.westchester.pa.mail.comcast.net [76.96.62.80]) by ietfa.amsl.com (Postfix) with ESMTP id 1584421F8C13 for <sip@ietf.org>; Fri,  5 Aug 2011 07:36:39 -0700 (PDT)
+Received: from omta14.westchester.pa.mail.comcast.net ([76.96.62.60]) by qmta08.westchester.pa.mail.comcast.net with comcast id Geb61h0021HzFnQ58ecxU8; Fri, 05 Aug 2011 14:36:57 +0000
+Received: from Paul-Kyzivats-MacBook-Pro.local ([24.62.109.41]) by omta14.westchester.pa.mail.comcast.net with comcast id Geck1h00a0tdiYw3aecoY9; Fri, 05 Aug 2011 14:36:52 +0000
+Message-ID: <4E3BFFFA.7070009@alum.mit.edu>
+Date: Fri, 05 Aug 2011 10:36:42 -0400
+From: Paul Kyzivat <pkyzivat@alum.mit.edu>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:5.0) Gecko/20110624 Thunderbird/5.0
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com> <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com> <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com> <CAK+Spiwx+zJb=ccc0aL1bLVb6faSVCQcOYKJsHz_jnHUpmDnVQ@mail.gmail.com>
+In-Reply-To: <CAK+Spiwx+zJb=ccc0aL1bLVb6faSVCQcOYKJsHz_jnHUpmDnVQ@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: Re: [Sip] [sipcore]  [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 05 Aug 2011 14:36:48 -0000
+
+On 8/5/11 12:15 AM, Samir Srivastava wrote:
+> Hi, IMHO presentation of information in tabulated form helps a lot to
+> starters. Like ABNF it helps parser developers (expert of syntax&
+> semantic analysis) to develop it without referring each line of SIP
+> rfc's. 3262 or 100rel should have updated table  Ideally each
+> subsequent RFC should conisder table updation. Tabulation of
+> information will be done by vendors internally anyway. So do it in
+> community. SIP needed hitchakers guide. Simplicity for starters
+> please. Regards Samir
+
+That was the concept that led to the table in the first place.
+But history has shown this not to work very well in practice, for a 
+number of reasons. Here are some:
+
+- it proved impossible to define a table format that expressed
+   all the nuances. There still had to be text to explain the
+   complex cases. People tended to believe the table even though
+   its flagged as having exceptions
+
+- extensions to sip require updates to the table. But the extensions
+   are done in separate RFCs, not revisions to 3261. So they tended
+   to specify new rows to the table. These never get rolled up in
+   one place. Also, extensions that add methods add columns to the
+   table. When that happens, then you need to specify the values
+   for the new columns, for rows in 3261 and also in all extensions
+   that added rows. This is difficult, and was rarely if ever done
+   right.
+
+- given both a table and text descriptions of what is required,
+   it was unclear which is the authoritative normative specification.
+
+(I'm certain there are more reasons.)
+
+To be workable we would probably need to move the entire table to an 
+IANA registry. That also seemed unworkable.
+
+And with text descriptions it is easier to specify the requirements in 
+ways that will apply to most headers and methods that might be defined 
+in the future.
+
+The bottom line is that we ultimately decided that the table was a bad 
+idea and we didn't want to continue maintaining it.
+
+	Thanks,
+	Paul
+
+> On 8/4/11, Romel Khan<romel.khan@idt.net>  wrote:
+>> So it is useful if one of UAS or UAC requires it, but it does not have to be
+>> mandatory. Some comments:
+>> -- RFC3261 mentions early dialog without mentioning RFC3262. Then it seems
+>> logical to me that it needs to be made clear in this RFC3261 that early
+>> dialog must mean Contact and Record-Route (if Record-Route was received in
+>> INVITE) headers is mandatory in 1xx without reference to 100rel.
+>>
+>> -- A UAS could always send 1xx with headers that are required for early
+>> dialog but it doesn't have to enforce 100rel (eg because the origination or
+>> UAS side itself may not support reliable provisional response handling, or
+>> reliable provisioning not really required for its operation). UAS could send
+>> "support:100rel" if it supports it, or it would not send it if it doesn't
+>> support this. In my opinion, if UAC hasn't sent 100rel required, it should
+>> be up to the UAS to decide whether to enforce 100rel
+>> (with "required:100rel") if its application really requires SIP requests
+>> before call answer. If the origination side (UAC) side has a need to send
+>> early requests, like UPDATE, then the UAC should require 100rel from the
+>> termination side (UAS) by sending this in INVITE. In a VoIP service provider
+>> world, these kind of capabilities are configured during interconnect turn
+>> up.
+>>
+>> -- I notice that some vendors gateway implementations, even if gateway is
+>> the termination side, require 100rel for the gateway to receive pre-answer
+>> requests such as UPDATE. This really didn't have to be this way. I have
+>> always seen these gateways, when it is the termination side, respond back
+>> SIP 183 with the headers that create early dialog. So if the origination
+>> side received the SIP 183 response, then there is no reason for the
+>> origination side to now not be able to send UPDATE request. Also, no
+>> reason for the termination gateways to not accept the SIP UPDATE without
+>> requiring PRACK.
+>>
+>> Thanks.
+>>
+>> On Wed, Aug 3, 2011 at 11:46 AM, Robert Sparks<rjsparks@nostrum.com>  wrote:
+>>
+>>> (removing the rfc-editor and trimming the distribution to the lists)
+>>>
+>>> On Aug 2, 2011, at 5:24 PM, Iñaki Baz Castillo wrote:
+>>>
+>>>> 2011/8/2 Robert Sparks<rjsparks@nostrum.com>:
+>>>>> Further, they're only going to make sense for 1xx that is sent using
+>>> 100rel.
+>>>>
+>>>> This has been discussed in sip-implementors, and that assertion seems
+>>>> incorrect. As I've reported in the errata:
+>>>>
+>>>>
+>>>> Section 12.1: "Dialogs are created through the generation of
+>>>> non-failure responses to requests with specific methods. Within this
+>>>> specification, only 2xx and 101-199 responses with a To tag, where the
+>>>> request was INVITE, will establish a dialog."
+>>>>
+>>>> Section 12.1.1: "When a UAS responds to a request with a response that
+>>>> establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all
+>>>> Record-Route header field values from the request into the response
+>>>> [...]. The UAS MUST add a Contact header field to the response."
+>>>>
+>>>> So it's clear that a 1xx response to an INVITE creates a dialog and
+>>>> then it MUST contain a Contact header and mirrored Record-Route
+>>>> headers, *regardless* the usage of 100rel.
+>>>>
+>>>> Am I wrong? if so, why?
+>>>
+>>> Not wrong, just incomplete. This will create an (early) dialog at the UAS.
+>>> It may or may not create a dialog at the UAC without 100rel since the
+>>> message may never get to the UAC. Where I said "make sense" above,
+>>> it might have been better if I had said "be useful".
+>>>
+>>>>
+>>>> Regards.
+>>>>
+>>>>
+>>>> --
+>>>> Iñaki Baz Castillo
+>>>> <ibc@aliax.net>
+>>>> _______________________________________________
+>>>> sipcore mailing list
+>>>> sipcore@ietf.org
+>>>> https://www.ietf.org/mailman/listinfo/sipcore
+>>>
+>>> _______________________________________________
+>>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>>> This list is essentially closed and only used for finishing old business.
+>>> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+>>> implementation.
+>>> Use dispatch@ietf.org for new developments on the application of sip.
+>>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>>> specifications.
+>>>
+>>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP specifications.
+>
+
+
+From ibc@aliax.net  Sat Aug  6 05:16:32 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 76C8C21F87BC; Sat,  6 Aug 2011 05:16:32 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.027,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, HTML_MESSAGE=0.001, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id juu1UiD2YVLu; Sat,  6 Aug 2011 05:16:31 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id 7E1A021F8772; Sat,  6 Aug 2011 05:16:31 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so243289qwc.31 for <multiple recipients>; Sat, 06 Aug 2011 05:16:51 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.68.41 with SMTP id t41mr2614254qci.63.1312633011313; Sat, 06 Aug 2011 05:16:51 -0700 (PDT)
+Received: by 10.229.224.212 with HTTP; Sat, 6 Aug 2011 05:16:51 -0700 (PDT)
+Received: by 10.229.224.212 with HTTP; Sat, 6 Aug 2011 05:16:51 -0700 (PDT)
+In-Reply-To: <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com> <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com> <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com>
+Date: Sat, 6 Aug 2011 14:16:51 +0200
+Message-ID: <CALiegfnqzes0b_uCFVwHko5SG_fTuJ0Bx60ceFYKDZ0RCbqNww@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Romel Khan <romel.khan@idt.net>
+Content-Type: multipart/alternative; boundary=0016e651395e5c1e0e04a9d53095
+Cc: "sip@ietf.org List" <sip@ietf.org>, "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>
+Subject: Re: [Sip] [sipcore] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 06 Aug 2011 12:16:32 -0000
+
+--0016e651395e5c1e0e04a9d53095
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+El 04/08/2011 21:09, "Romel Khan" <romel.khan@idt.net> escribi=C3=B3:
+>
+> So it is useful if one of UAS or UAC requires it, but it does not have to
+be mandatory. Some comments:
+> -- RFC3261 mentions early dialog without mentioning RFC3262. Then it seem=
+s
+logical to me that it needs to be made clear in this RFC3261 that early
+dialog must mean Contact and Record-Route (if Record-Route was received in
+INVITE) headers is mandatory in 1xx without reference to 100rel.
+>
+> -- A UAS could always send 1xx with headers that are required for early
+dialog but it doesn't have to enforce 100rel (eg because the origination or
+UAS side itself may not support reliable provisional response handling, or
+reliable provisioning not really required for its operation). UAS could sen=
+d
+"support:100rel" if it supports it, or it would not send it if it doesn't
+support this. In my opinion, if UAC hasn't sent 100rel required, it should
+be up to the UAS to decide whether to enforce 100rel
+(with "required:100rel") if its application really requires SIP requests
+before call answer. If the origination side (UAC) side has a need to send
+early requests, like UPDATE, then the UAC should require 100rel from the
+termination side (UAS) by sending this yin INVITE. In a VoIP service
+provider world, these kind of capabilities are configured during
+interconnect turn up.
+>
+> -- I notice that some vendors gateway implementations, even if gateway is
+the termination side, require 100rel for the gateway to receive pre-answer
+requests such as UPDATE. This really didn't have to be this way. I have
+always seen these gateways, when it is the termination side, respond back
+SIP 183 with the headers that create early dialog. So if the origination
+side received the SIP 183 response, then there is no reason for the
+origination side to now not be able to send UPDATE request. Also, no
+reason for the termination gateways to not accept the SIP UPDATE without
+requiring PRACK.
+
+I entirely agree with it. And I also think that the fact that a 1xx respons=
+e
+without 100rel is not reliable does not mean that it does not create a
+dialog so Contact and RR are required.
+
+--0016e651395e5c1e0e04a9d53095
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p><br>
+El 04/08/2011 21:09, &quot;Romel Khan&quot; &lt;<a href=3D"mailto:romel.kha=
+n@idt.net">romel.khan@idt.net</a>&gt; escribi=C3=B3:<br>
+&gt;<br>
+&gt; So it is useful if one of UAS or UAC requires it, but it does not have=
+ to be mandatory. Some comments:<br>
+&gt; -- RFC3261 mentions early dialog without mentioning RFC3262. Then it s=
+eems logical to me that it needs to be made clear in this RFC3261 that earl=
+y dialog must mean Contact and Record-Route (if=C2=A0Record-Route was recei=
+ved in INVITE) headers is mandatory in 1xx without reference to 100rel.<br>
+
+&gt;<br>
+&gt; -- A UAS could always send 1xx with headers that are required for earl=
+y dialog but it doesn&#39;t have to enforce 100rel (eg because the originat=
+ion or UAS side itself may not support reliable provisional response handli=
+ng, or reliable provisioning not really required for its operation).=C2=A0U=
+AS could send &quot;support:100rel&quot; if it supports it,=C2=A0or it woul=
+d not send it if it doesn&#39;t support this.=C2=A0In my opinion,=C2=A0if U=
+AC hasn&#39;t sent 100rel required,=C2=A0it should be up to the UAS to deci=
+de whether to enforce 100rel (with=C2=A0&quot;required:100rel&quot;)=C2=A0i=
+f its application really requires SIP requests before call answer. If the o=
+rigination side (UAC) side has a need to send early requests, like UPDATE, =
+then the UAC should require 100rel from the termination side (UAS) by sendi=
+ng this yin INVITE.=C2=A0In a VoIP service provider world,=C2=A0these kind =
+of capabilities are configured during interconnect turn up. =C2=A0<br>
+
+&gt;<br>
+&gt; -- I notice that some vendors gateway implementations, even if gateway=
+ is the termination side, require 100rel for the gateway to receive pre-ans=
+wer requests such as UPDATE. This really didn&#39;t have to be this way. I =
+have always seen these gateways, when it is the termination side, respond b=
+ack SIP 183 with the headers that create early dialog. So if the originatio=
+n side received the SIP 183 response, then there is no reason for the origi=
+nation side to now not be able to send UPDATE request. Also,=C2=A0no reason=
+=C2=A0for the termination gateways to not accept the SIP UPDATE without req=
+uiring PRACK. =C2=A0=C2=A0</p>
+
+<p>I entirely agree with it. And I also think that the fact that a 1xx resp=
+onse without 100rel is not reliable does not mean that it does not create a=
+ dialog so Contact and RR are required.</p>
+
+--0016e651395e5c1e0e04a9d53095--
+
+From dworley@avaya.com  Sat Aug  6 18:31:25 2011
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6764A21F86B9; Sat,  6 Aug 2011 18:31:25 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.463
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.463 tagged_above=-999 required=5 tests=[AWL=0.136, BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1+FjadiTrMbX; Sat,  6 Aug 2011 18:31:25 -0700 (PDT)
+Received: from co300216-co-outbound.net.avaya.com (co300216-co-outbound.net.avaya.com [198.152.13.100]) by ietfa.amsl.com (Postfix) with ESMTP id D0CB621F861A; Sat,  6 Aug 2011 18:31:21 -0700 (PDT)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AqkIAADqPU6HCzI1/2dsb2JhbABCnAaLZHeBQAEBAQECAQECDygxDgULAgEIDQghECEHCiUBAQQBDQUIGodLoR4Cml+FZ18EkHSHNIRIhxY
+X-IronPort-AV: E=Sophos;i="4.67,330,1309752000"; d="scan'208";a="296030204"
+Received: from unknown (HELO p-us1-erheast.us1.avaya.com) ([135.11.50.53]) by co300216-co-outbound.net.avaya.com with ESMTP; 06 Aug 2011 21:31:41 -0400
+Received: from unknown (HELO DC-US1HCEX4.global.avaya.com) ([135.11.52.35]) by p-us1-erheast-out.us1.avaya.com with ESMTP; 06 Aug 2011 21:23:49 -0400
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.2.172]) by DC-US1HCEX4.global.avaya.com ([135.11.52.35]) with mapi; Sat, 6 Aug 2011 21:31:41 -0400
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: Samir Srivastava <samirs.lists@gmail.com>, Romel Khan <romel.khan@idt.net>
+Date: Sat, 6 Aug 2011 21:31:40 -0400
+Thread-Topic: [Sip] [sipcore]  [Technical Errata Reported] RFC3261 (2910)
+Thread-Index: AcxTJnZvGdfReHLySCa4E0AQQAYa8wBembTs
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B222B1F57E2@DC-US1MBEX4.global.avaya.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com> <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com> <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com>, <CAK+Spiwx+zJb=ccc0aL1bLVb6faSVCQcOYKJsHz_jnHUpmDnVQ@mail.gmail.com>
+In-Reply-To: <CAK+Spiwx+zJb=ccc0aL1bLVb6faSVCQcOYKJsHz_jnHUpmDnVQ@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Cc: "sip@ietf.org List" <sip@ietf.org>, "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>
+Subject: Re: [Sip] [sipcore]  [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sun, 07 Aug 2011 01:31:25 -0000
+
+> From: Samir Srivastava [samirs.lists@gmail.com]
+>=20
+> Hi, IMHO presentation of information in tabulated form helps a lot to
+> starters. Like ABNF it helps parser developers (expert of syntax &
+> semantic analysis) to develop it without referring each line of SIP
+> rfc's.
+
+The tables are a useful guide to starters.  But as others have noted,
+it is very difficult to keep the tables up to date, and there is no
+format for the tables that correctly presents the conditions for
+all "optional" headers.
+
+Parser developers may be tempted to use the tables to determine
+whether a message has all the required headers, but it is nearly
+impossible to make that determination other than while carrying out
+the processing for the message.
+
+The real rule for the presence of headers is: "Perform the processing
+that is mandated by the SIP message.  Headers whose values are
+required to perform this processing must be present; headers whose
+values are not used in the processing are ignored.  If a needed header
+is not present, the processing of the message is aborted and it has no
+effect.  If the message is a request, an appropriate error response is
+sent (if enough information is present in the request to allow doing
+so)."
+
+Dale
+
+From romel.khan@idt.net  Thu Aug  4 12:10:14 2011
+Return-Path: <romel.khan@idt.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id EB95E21F880C; Thu,  4 Aug 2011 12:10:14 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.976
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.976 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id eupV45oMZqKt; Thu,  4 Aug 2011 12:10:13 -0700 (PDT)
+Received: from eu1sys200aog109.obsmtp.com (eu1sys200aog109.obsmtp.com [207.126.144.127]) by ietfa.amsl.com (Postfix) with SMTP id 61F7221F87D9; Thu,  4 Aug 2011 12:09:30 -0700 (PDT)
+Received: from mail-gy0-f175.google.com ([209.85.160.175]) (using TLSv1) by eu1sys200aob109.postini.com ([207.126.147.11]) with SMTP ID DSNKTjrub9Rd0lkABHuyjPatu/+sGSWsf1Nl@postini.com; Thu, 04 Aug 2011 19:09:47 UTC
+Received: by gyg4 with SMTP id 4so1011092gyg.6 for <multiple recipients>; Thu, 04 Aug 2011 12:09:34 -0700 (PDT)
+Received: by 10.42.151.131 with SMTP id e3mr1010054icw.507.1312484974233; Thu, 04 Aug 2011 12:09:34 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.43.44.136 with HTTP; Thu, 4 Aug 2011 12:09:14 -0700 (PDT)
+In-Reply-To: <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com> <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com>
+From: Romel Khan <romel.khan@idt.net>
+Date: Thu, 4 Aug 2011 15:09:14 -0400
+Message-ID: <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com>
+To: Robert Sparks <rjsparks@nostrum.com>
+Content-Type: multipart/alternative; boundary=90e6ba6135a8a9886e04a9b2b804
+X-Mailman-Approved-At: Mon, 08 Aug 2011 02:47:08 -0700
+Cc: "sip@ietf.org List" <sip@ietf.org>, "SIPCORE \(Session Initiation Protocol Core\) WG" <sipcore@ietf.org>
+Subject: Re: [Sip] [sipcore] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 04 Aug 2011 19:10:15 -0000
+
+--90e6ba6135a8a9886e04a9b2b804
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+So it is useful if one of UAS or UAC requires it, but it does not have to b=
+e
+mandatory. Some comments:
+-- RFC3261 mentions early dialog without mentioning RFC3262. Then it seems
+logical to me that it needs to be made clear in this RFC3261 that early
+dialog must mean Contact and Record-Route (if Record-Route was received in
+INVITE) headers is mandatory in 1xx without reference to 100rel.
+
+-- A UAS could always send 1xx with headers that are required for early
+dialog but it doesn't have to enforce 100rel (eg because the origination or
+UAS side itself may not support reliable provisional response handling, or
+reliable provisioning not really required for its operation). UAS could sen=
+d
+"support:100rel" if it supports it, or it would not send it if it doesn't
+support this. In my opinion, if UAC hasn't sent 100rel required, it should
+be up to the UAS to decide whether to enforce 100rel
+(with "required:100rel") if its application really requires SIP requests
+before call answer. If the origination side (UAC) side has a need to send
+early requests, like UPDATE, then the UAC should require 100rel from the
+termination side (UAS) by sending this in INVITE. In a VoIP service provide=
+r
+world, these kind of capabilities are configured during interconnect turn
+up.
+
+-- I notice that some vendors gateway implementations, even if gateway is
+the termination side, require 100rel for the gateway to receive pre-answer
+requests such as UPDATE. This really didn't have to be this way. I have
+always seen these gateways, when it is the termination side, respond back
+SIP 183 with the headers that create early dialog. So if the origination
+side received the SIP 183 response, then there is no reason for the
+origination side to now not be able to send UPDATE request. Also, no
+reason for the termination gateways to not accept the SIP UPDATE without
+requiring PRACK.
+
+Thanks.
+
+On Wed, Aug 3, 2011 at 11:46 AM, Robert Sparks <rjsparks@nostrum.com> wrote=
+:
+
+> (removing the rfc-editor and trimming the distribution to the lists)
+>
+> On Aug 2, 2011, at 5:24 PM, I=F1aki Baz Castillo wrote:
+>
+> > 2011/8/2 Robert Sparks <rjsparks@nostrum.com>:
+> >> Further, they're only going to make sense for 1xx that is sent using
+> 100rel.
+> >
+> > This has been discussed in sip-implementors, and that assertion seems
+> > incorrect. As I've reported in the errata:
+> >
+> >
+> > Section 12.1: "Dialogs are created through the generation of
+> > non-failure responses to requests with specific methods. Within this
+> > specification, only 2xx and 101-199 responses with a To tag, where the
+> > request was INVITE, will establish a dialog."
+> >
+> > Section 12.1.1: "When a UAS responds to a request with a response that
+> > establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all
+> > Record-Route header field values from the request into the response
+> > [...]. The UAS MUST add a Contact header field to the response."
+> >
+> > So it's clear that a 1xx response to an INVITE creates a dialog and
+> > then it MUST contain a Contact header and mirrored Record-Route
+> > headers, *regardless* the usage of 100rel.
+> >
+> > Am I wrong? if so, why?
+>
+> Not wrong, just incomplete. This will create an (early) dialog at the UAS=
+.
+> It may or may not create a dialog at the UAC without 100rel since the
+> message may never get to the UAC. Where I said "make sense" above,
+> it might have been better if I had said "be useful".
+>
+> >
+> > Regards.
+> >
+> >
+> > --
+> > I=F1aki Baz Castillo
+> > <ibc@aliax.net>
+> > _______________________________________________
+> > sipcore mailing list
+> > sipcore@ietf.org
+> > https://www.ietf.org/mailman/listinfo/sipcore
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+
+--90e6ba6135a8a9886e04a9b2b804
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+So it is useful if one of UAS or UAC requires it, but it does not have to b=
+e mandatory. Some comments:<div>-- RFC3261 mentions early dialog without me=
+ntioning RFC3262. Then it seems logical to me that it needs to be made clea=
+r in this RFC3261 that early dialog must mean Contact and Record-Route (if=
+=A0Record-Route was received in INVITE) headers is mandatory in 1xx without=
+ reference to 100rel.</div>
+
+<div><br></div><div><div>-- A UAS could always send 1xx with headers that a=
+re required for early dialog but it doesn&#39;t have to enforce 100rel (eg =
+because the origination or UAS side itself may not support reliable provisi=
+onal response handling, or reliable provisioning not really required for it=
+s operation).=A0UAS could send &quot;support:100rel&quot; if it supports it=
+,=A0or it would not send it if it doesn&#39;t support this.=A0In my opinion=
+,=A0if UAC hasn&#39;t sent 100rel required,=A0it should be up to the UAS to=
+ decide whether to enforce 100rel (with=A0&quot;required:100rel&quot;)=A0if=
+ its application really requires SIP requests before call answer. If the or=
+igination side (UAC) side has a need to send early requests, like UPDATE, t=
+hen the UAC should require 100rel from the termination side (UAS) by sendin=
+g this in INVITE.=A0In a VoIP service provider world,=A0these kind of capab=
+ilities are configured during interconnect turn up. =A0</div>
+
+<div><br></div><div>-- I notice that some vendors gateway implementations, =
+even if gateway is the termination side, require 100rel for the gateway to =
+receive pre-answer requests such as UPDATE. This really didn&#39;t have to =
+be this way. I have always seen these gateways, when it is the termination =
+side, respond back SIP 183 with the headers that create early dialog. So if=
+ the origination side received the SIP 183 response, then there is no reaso=
+n for the origination side to now not be able to send UPDATE request. Also,=
+=A0no reason=A0for the termination gateways to not accept the SIP UPDATE wi=
+thout requiring PRACK. =A0=A0</div>
+
+<div><div><br></div><div>Thanks.</div><div><br><div class=3D"gmail_quote">O=
+n Wed, Aug 3, 2011 at 11:46 AM, Robert Sparks <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:rjsparks@nostrum.com">rjsparks@nostrum.com</a>&gt;</span> wrote:=
+<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex;">(removing the rfc-editor and trimming the d=
+istribution to the lists)<br>
+<div class=3D"im"><br>
+On Aug 2, 2011, at 5:24 PM, I=F1aki Baz Castillo wrote:<br>
+<br>
+&gt; 2011/8/2 Robert Sparks &lt;<a href=3D"mailto:rjsparks@nostrum.com">rjs=
+parks@nostrum.com</a>&gt;:<br>
+&gt;&gt; Further, they&#39;re only going to make sense for 1xx that is sent=
+ using 100rel.<br>
+&gt;<br>
+&gt; This has been discussed in sip-implementors, and that assertion seems<=
+br>
+&gt; incorrect. As I&#39;ve reported in the errata:<br>
+&gt;<br>
+&gt;<br>
+&gt; Section 12.1: &quot;Dialogs are created through the generation of<br>
+&gt; non-failure responses to requests with specific methods. Within this<b=
+r>
+&gt; specification, only 2xx and 101-199 responses with a To tag, where the=
+<br>
+&gt; request was INVITE, will establish a dialog.&quot;<br>
+&gt;<br>
+&gt; Section 12.1.1: &quot;When a UAS responds to a request with a response=
+ that<br>
+&gt; establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all<=
+br>
+&gt; Record-Route header field values from the request into the response<br=
+>
+&gt; [...]. The UAS MUST add a Contact header field to the response.&quot;<=
+br>
+&gt;<br>
+&gt; So it&#39;s clear that a 1xx response to an INVITE creates a dialog an=
+d<br>
+&gt; then it MUST contain a Contact header and mirrored Record-Route<br>
+&gt; headers, *regardless* the usage of 100rel.<br>
+&gt;<br>
+&gt; Am I wrong? if so, why?<br>
+<br>
+</div>Not wrong, just incomplete. This will create an (early) dialog at the=
+ UAS.<br>
+It may or may not create a dialog at the UAC without 100rel since the<br>
+message may never get to the UAC. Where I said &quot;make sense&quot; above=
+,<br>
+it might have been better if I had said &quot;be useful&quot;.<br>
+<div class=3D"im"><br>
+&gt;<br>
+&gt; Regards.<br>
+&gt;<br>
+&gt;<br>
+&gt; --<br>
+&gt; I=F1aki Baz Castillo<br>
+&gt; &lt;<a href=3D"mailto:ibc@aliax.net">ibc@aliax.net</a>&gt;<br>
+&gt; _______________________________________________<br>
+</div>&gt; sipcore mailing list<br>
+&gt; <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a><br>
+&gt; <a href=3D"https://www.ietf.org/mailman/listinfo/sipcore" target=3D"_b=
+lank">https://www.ietf.org/mailman/listinfo/sipcore</a><br>
+<div><div></div><div class=3D"h5"><br>
+_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br>
+</div></div></blockquote></div><br></div></div></div>
+
+--90e6ba6135a8a9886e04a9b2b804--
+
+From samirs.lists@gmail.com  Wed Aug 10 06:37:28 2011
+Return-Path: <samirs.lists@gmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 671EF21F86BF for <sip@ietfa.amsl.com>; Wed, 10 Aug 2011 06:37:28 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.524
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.524 tagged_above=-999 required=5 tests=[AWL=0.075,  BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ly3O20GTNQhN for <sip@ietfa.amsl.com>; Wed, 10 Aug 2011 06:37:27 -0700 (PDT)
+Received: from mail-pz0-f45.google.com (mail-pz0-f45.google.com [209.85.210.45]) by ietfa.amsl.com (Postfix) with ESMTP id 1CF8821F8520 for <sip@ietf.org>; Wed, 10 Aug 2011 06:37:24 -0700 (PDT)
+Received: by mail-pz0-f45.google.com with SMTP id 33so3837151pzk.18 for <sip@ietf.org>; Wed, 10 Aug 2011 06:37:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type:content-transfer-encoding; bh=oU/T+UV8HLwZH3Lc+i61UID8WltBGZMLWO50LhjxpJY=; b=fU3yRBjoToYVBCIn953ExPKu8Cd+FHGnZkcQZiZ996EnssvO89NvKMLGsEmZlUZVK1 a0T+pzjqoLqKYy6fwWvurXR9bisYWFGQz4wsbDupjpTLW+e/PwCFTQWp0MpYenRxmoFh CGJo05dn4iTpvIWA1+vYeoe5NUGiMqDJB7ihM=
+MIME-Version: 1.0
+Received: by 10.142.246.11 with SMTP id t11mr3482629wfh.160.1312983475755; Wed, 10 Aug 2011 06:37:55 -0700 (PDT)
+Received: by 10.68.43.7 with HTTP; Wed, 10 Aug 2011 06:37:55 -0700 (PDT)
+In-Reply-To: <4E3BFFFA.7070009@alum.mit.edu>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com> <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com> <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com> <CAK+Spiwx+zJb=ccc0aL1bLVb6faSVCQcOYKJsHz_jnHUpmDnVQ@mail.gmail.com> <4E3BFFFA.7070009@alum.mit.edu>
+Date: Wed, 10 Aug 2011 06:37:55 -0700
+Message-ID: <CAK+Spix083awRqeTZfS5EkR+SmRjw+L7JWsGavtt6xei-+Strw@mail.gmail.com>
+From: Samir Srivastava <samirs.lists@gmail.com>
+To: Paul Kyzivat <pkyzivat@alum.mit.edu>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] [sipcore] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 10 Aug 2011 13:37:28 -0000
+
+Hi, IMHO the updation (to 3261) requirement MUST be needed for
+non-table RFC also. We should be sufficient with tables in different
+RFCs. Consider development of PUBLISH if UA doesnot support publish it
+can still claim 3261 compliance via tables only. Single table req is
+not good. By the same token we might need SINGLE place for headers in
+textual description. With c,m, m*, o, t labels it is much easier for
+parsers. Let TU developers worry about the context/usage. This needs
+updation when it widens/narrows. Text only version will cause lengthy
+discussions referring lines etc for message rejection. We can say
+table with associated section is normative for parsing. TU usage refer
+other sections. Regards Samir
+
+
+On 8/5/11, Paul Kyzivat <pkyzivat@alum.mit.edu> wrote:
+> On 8/5/11 12:15 AM, Samir Srivastava wrote:
+>> Hi, IMHO presentation of information in tabulated form helps a lot to
+>> starters. Like ABNF it helps parser developers (expert of syntax&
+>> semantic analysis) to develop it without referring each line of SIP
+>> rfc's. 3262 or 100rel should have updated table  Ideally each
+>> subsequent RFC should conisder table updation. Tabulation of
+>> information will be done by vendors internally anyway. So do it in
+>> community. SIP needed hitchakers guide. Simplicity for starters
+>> please. Regards Samir
+>
+> That was the concept that led to the table in the first place.
+> But history has shown this not to work very well in practice, for a
+> number of reasons. Here are some:
+>
+> - it proved impossible to define a table format that expressed
+>    all the nuances. There still had to be text to explain the
+>    complex cases. People tended to believe the table even though
+>    its flagged as having exceptions
+>
+> - extensions to sip require updates to the table. But the extensions
+>    are done in separate RFCs, not revisions to 3261. So they tended
+>    to specify new rows to the table. These never get rolled up in
+>    one place. Also, extensions that add methods add columns to the
+>    table. When that happens, then you need to specify the values
+>    for the new columns, for rows in 3261 and also in all extensions
+>    that added rows. This is difficult, and was rarely if ever done
+>    right.
+>
+> - given both a table and text descriptions of what is required,
+>    it was unclear which is the authoritative normative specification.
+>
+> (I'm certain there are more reasons.)
+>
+> To be workable we would probably need to move the entire table to an
+> IANA registry. That also seemed unworkable.
+>
+> And with text descriptions it is easier to specify the requirements in
+> ways that will apply to most headers and methods that might be defined
+> in the future.
+>
+> The bottom line is that we ultimately decided that the table was a bad
+> idea and we didn't want to continue maintaining it.
+>
+> 	Thanks,
+> 	Paul
+>
+>> On 8/4/11, Romel Khan<romel.khan@idt.net>  wrote:
+>>> So it is useful if one of UAS or UAC requires it, but it does not have =
+to
+>>> be
+>>> mandatory. Some comments:
+>>> -- RFC3261 mentions early dialog without mentioning RFC3262. Then it
+>>> seems
+>>> logical to me that it needs to be made clear in this RFC3261 that early
+>>> dialog must mean Contact and Record-Route (if Record-Route was received
+>>> in
+>>> INVITE) headers is mandatory in 1xx without reference to 100rel.
+>>>
+>>> -- A UAS could always send 1xx with headers that are required for early
+>>> dialog but it doesn't have to enforce 100rel (eg because the originatio=
+n
+>>> or
+>>> UAS side itself may not support reliable provisional response handling,
+>>> or
+>>> reliable provisioning not really required for its operation). UAS could
+>>> send
+>>> "support:100rel" if it supports it, or it would not send it if it doesn=
+'t
+>>> support this. In my opinion, if UAC hasn't sent 100rel required, it
+>>> should
+>>> be up to the UAS to decide whether to enforce 100rel
+>>> (with "required:100rel") if its application really requires SIP request=
+s
+>>> before call answer. If the origination side (UAC) side has a need to se=
+nd
+>>> early requests, like UPDATE, then the UAC should require 100rel from th=
+e
+>>> termination side (UAS) by sending this in INVITE. In a VoIP service
+>>> provider
+>>> world, these kind of capabilities are configured during interconnect tu=
+rn
+>>> up.
+>>>
+>>> -- I notice that some vendors gateway implementations, even if gateway =
+is
+>>> the termination side, require 100rel for the gateway to receive
+>>> pre-answer
+>>> requests such as UPDATE. This really didn't have to be this way. I have
+>>> always seen these gateways, when it is the termination side, respond ba=
+ck
+>>> SIP 183 with the headers that create early dialog. So if the originatio=
+n
+>>> side received the SIP 183 response, then there is no reason for the
+>>> origination side to now not be able to send UPDATE request. Also, no
+>>> reason for the termination gateways to not accept the SIP UPDATE withou=
+t
+>>> requiring PRACK.
+>>>
+>>> Thanks.
+>>>
+>>> On Wed, Aug 3, 2011 at 11:46 AM, Robert Sparks<rjsparks@nostrum.com>
+>>> wrote:
+>>>
+>>>> (removing the rfc-editor and trimming the distribution to the lists)
+>>>>
+>>>> On Aug 2, 2011, at 5:24 PM, I=F1aki Baz Castillo wrote:
+>>>>
+>>>>> 2011/8/2 Robert Sparks<rjsparks@nostrum.com>:
+>>>>>> Further, they're only going to make sense for 1xx that is sent using
+>>>> 100rel.
+>>>>>
+>>>>> This has been discussed in sip-implementors, and that assertion seems
+>>>>> incorrect. As I've reported in the errata:
+>>>>>
+>>>>>
+>>>>> Section 12.1: "Dialogs are created through the generation of
+>>>>> non-failure responses to requests with specific methods. Within this
+>>>>> specification, only 2xx and 101-199 responses with a To tag, where th=
+e
+>>>>> request was INVITE, will establish a dialog."
+>>>>>
+>>>>> Section 12.1.1: "When a UAS responds to a request with a response tha=
+t
+>>>>> establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all
+>>>>> Record-Route header field values from the request into the response
+>>>>> [...]. The UAS MUST add a Contact header field to the response."
+>>>>>
+>>>>> So it's clear that a 1xx response to an INVITE creates a dialog and
+>>>>> then it MUST contain a Contact header and mirrored Record-Route
+>>>>> headers, *regardless* the usage of 100rel.
+>>>>>
+>>>>> Am I wrong? if so, why?
+>>>>
+>>>> Not wrong, just incomplete. This will create an (early) dialog at the
+>>>> UAS.
+>>>> It may or may not create a dialog at the UAC without 100rel since the
+>>>> message may never get to the UAC. Where I said "make sense" above,
+>>>> it might have been better if I had said "be useful".
+>>>>
+>>>>>
+>>>>> Regards.
+>>>>>
+>>>>>
+>>>>> --
+>>>>> I=F1aki Baz Castillo
+>>>>> <ibc@aliax.net>
+>>>>> _______________________________________________
+>>>>> sipcore mailing list
+>>>>> sipcore@ietf.org
+>>>>> https://www.ietf.org/mailman/listinfo/sipcore
+>>>>
+>>>> _______________________________________________
+>>>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>>>> This list is essentially closed and only used for finishing old
+>>>> business.
+>>>> Use sip-implementors@cs.columbia.edu for questions on how to develop a
+>>>> SIP
+>>>> implementation.
+>>>> Use dispatch@ietf.org for new developments on the application of sip.
+>>>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>>>> specifications.
+>>>>
+>>>
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is essentially closed and only used for finishing old business=
+.
+>> Use sip-implementors@cs.columbia.edu for questions on how to develop a S=
+IP
+>> implementation.
+>> Use dispatch@ietf.org for new developments on the application of sip.
+>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>> specifications.
+>>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+
+From pkyzivat@alum.mit.edu  Thu Aug 11 10:48:07 2011
+Return-Path: <pkyzivat@alum.mit.edu>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C7E9E21F8C5D for <sip@ietfa.amsl.com>; Thu, 11 Aug 2011 10:48:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.575
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.575 tagged_above=-999 required=5 tests=[AWL=0.024,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 3yQFIJeHE12k for <sip@ietfa.amsl.com>; Thu, 11 Aug 2011 10:48:06 -0700 (PDT)
+Received: from qmta05.westchester.pa.mail.comcast.net (qmta05.westchester.pa.mail.comcast.net [76.96.62.48]) by ietfa.amsl.com (Postfix) with ESMTP id A6A6A21F8C5C for <sip@ietf.org>; Thu, 11 Aug 2011 10:48:06 -0700 (PDT)
+Received: from omta24.westchester.pa.mail.comcast.net ([76.96.62.76]) by qmta05.westchester.pa.mail.comcast.net with comcast id K5AY1h0011ei1Bg555oi92; Thu, 11 Aug 2011 17:48:42 +0000
+Received: from Paul-Kyzivats-MacBook-Pro.local ([24.62.109.41]) by omta24.westchester.pa.mail.comcast.net with comcast id K5oh1h00k0tdiYw3k5ohf6; Thu, 11 Aug 2011 17:48:42 +0000
+Message-ID: <4E4415FB.5070600@alum.mit.edu>
+Date: Thu, 11 Aug 2011 13:48:43 -0400
+From: Paul Kyzivat <pkyzivat@alum.mit.edu>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:5.0) Gecko/20110624 Thunderbird/5.0
+MIME-Version: 1.0
+To: Samir Srivastava <samirs.lists@gmail.com>
+References: <20110802145359.C9DEE98C50D@rfc-editor.org> <DC49588FF3643F43B3A2A8F6F0A625F0284638642A@mailbox1.acmepacket.com> <69373B11-F46D-4F88-B4A8-BF56A8EC2624@nostrum.com> <CALiegf=1=ZqEcs0kE=Y+ykrcd9miPDSN=mzP99-EWytVXdXMwA@mail.gmail.com> <9B06B312-4BCF-499D-979F-33D8E70DAD5A@nostrum.com> <CAFQP3_afcp=COozZqB+g39LU3XVtYi-tSrxCuyZkOLWbNVasfw@mail.gmail.com> <CAK+Spiwx+zJb=ccc0aL1bLVb6faSVCQcOYKJsHz_jnHUpmDnVQ@mail.gmail.com> <4E3BFFFA.7070009@alum.mit.edu> <CAK+Spix083awRqeTZfS5EkR+SmRjw+L7JWsGavtt6xei-+Strw@mail.gmail.com>
+In-Reply-To: <CAK+Spix083awRqeTZfS5EkR+SmRjw+L7JWsGavtt6xei-+Strw@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+Cc: sip@ietf.org
+Subject: Re: [Sip] [sipcore] [Technical Errata Reported] RFC3261 (2910)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 11 Aug 2011 17:48:07 -0000
+
+On 8/10/11 9:37 AM, Samir Srivastava wrote:
+> Hi, IMHO the updation (to 3261) requirement MUST be needed for
+> non-table RFC also. We should be sufficient with tables in different
+> RFCs. Consider development of PUBLISH if UA doesnot support publish it
+> can still claim 3261 compliance via tables only. Single table req is
+> not good. By the same token we might need SINGLE place for headers in
+> textual description. With c,m, m*, o, t labels it is much easier for
+> parsers. Let TU developers worry about the context/usage. This needs
+> updation when it widens/narrows. Text only version will cause lengthy
+> discussions referring lines etc for message rejection. We can say
+> table with associated section is normative for parsing. TU usage refer
+> other sections. Regards Samir
+
+I've tried to parse the above, and I just can't figure out what you are 
+proposing.
+
+Can you please try again to state how you think these rules should be 
+documented?
+
+	Thanks,
+	Paul
+
+> On 8/5/11, Paul Kyzivat<pkyzivat@alum.mit.edu>  wrote:
+>> On 8/5/11 12:15 AM, Samir Srivastava wrote:
+>>> Hi, IMHO presentation of information in tabulated form helps a lot to
+>>> starters. Like ABNF it helps parser developers (expert of syntax&
+>>> semantic analysis) to develop it without referring each line of SIP
+>>> rfc's. 3262 or 100rel should have updated table  Ideally each
+>>> subsequent RFC should conisder table updation. Tabulation of
+>>> information will be done by vendors internally anyway. So do it in
+>>> community. SIP needed hitchakers guide. Simplicity for starters
+>>> please. Regards Samir
+>>
+>> That was the concept that led to the table in the first place.
+>> But history has shown this not to work very well in practice, for a
+>> number of reasons. Here are some:
+>>
+>> - it proved impossible to define a table format that expressed
+>>     all the nuances. There still had to be text to explain the
+>>     complex cases. People tended to believe the table even though
+>>     its flagged as having exceptions
+>>
+>> - extensions to sip require updates to the table. But the extensions
+>>     are done in separate RFCs, not revisions to 3261. So they tended
+>>     to specify new rows to the table. These never get rolled up in
+>>     one place. Also, extensions that add methods add columns to the
+>>     table. When that happens, then you need to specify the values
+>>     for the new columns, for rows in 3261 and also in all extensions
+>>     that added rows. This is difficult, and was rarely if ever done
+>>     right.
+>>
+>> - given both a table and text descriptions of what is required,
+>>     it was unclear which is the authoritative normative specification.
+>>
+>> (I'm certain there are more reasons.)
+>>
+>> To be workable we would probably need to move the entire table to an
+>> IANA registry. That also seemed unworkable.
+>>
+>> And with text descriptions it is easier to specify the requirements in
+>> ways that will apply to most headers and methods that might be defined
+>> in the future.
+>>
+>> The bottom line is that we ultimately decided that the table was a bad
+>> idea and we didn't want to continue maintaining it.
+>>
+>> 	Thanks,
+>> 	Paul
+>>
+>>> On 8/4/11, Romel Khan<romel.khan@idt.net>   wrote:
+>>>> So it is useful if one of UAS or UAC requires it, but it does not have to
+>>>> be
+>>>> mandatory. Some comments:
+>>>> -- RFC3261 mentions early dialog without mentioning RFC3262. Then it
+>>>> seems
+>>>> logical to me that it needs to be made clear in this RFC3261 that early
+>>>> dialog must mean Contact and Record-Route (if Record-Route was received
+>>>> in
+>>>> INVITE) headers is mandatory in 1xx without reference to 100rel.
+>>>>
+>>>> -- A UAS could always send 1xx with headers that are required for early
+>>>> dialog but it doesn't have to enforce 100rel (eg because the origination
+>>>> or
+>>>> UAS side itself may not support reliable provisional response handling,
+>>>> or
+>>>> reliable provisioning not really required for its operation). UAS could
+>>>> send
+>>>> "support:100rel" if it supports it, or it would not send it if it doesn't
+>>>> support this. In my opinion, if UAC hasn't sent 100rel required, it
+>>>> should
+>>>> be up to the UAS to decide whether to enforce 100rel
+>>>> (with "required:100rel") if its application really requires SIP requests
+>>>> before call answer. If the origination side (UAC) side has a need to send
+>>>> early requests, like UPDATE, then the UAC should require 100rel from the
+>>>> termination side (UAS) by sending this in INVITE. In a VoIP service
+>>>> provider
+>>>> world, these kind of capabilities are configured during interconnect turn
+>>>> up.
+>>>>
+>>>> -- I notice that some vendors gateway implementations, even if gateway is
+>>>> the termination side, require 100rel for the gateway to receive
+>>>> pre-answer
+>>>> requests such as UPDATE. This really didn't have to be this way. I have
+>>>> always seen these gateways, when it is the termination side, respond back
+>>>> SIP 183 with the headers that create early dialog. So if the origination
+>>>> side received the SIP 183 response, then there is no reason for the
+>>>> origination side to now not be able to send UPDATE request. Also, no
+>>>> reason for the termination gateways to not accept the SIP UPDATE without
+>>>> requiring PRACK.
+>>>>
+>>>> Thanks.
+>>>>
+>>>> On Wed, Aug 3, 2011 at 11:46 AM, Robert Sparks<rjsparks@nostrum.com>
+>>>> wrote:
+>>>>
+>>>>> (removing the rfc-editor and trimming the distribution to the lists)
+>>>>>
+>>>>> On Aug 2, 2011, at 5:24 PM, Iñaki Baz Castillo wrote:
+>>>>>
+>>>>>> 2011/8/2 Robert Sparks<rjsparks@nostrum.com>:
+>>>>>>> Further, they're only going to make sense for 1xx that is sent using
+>>>>> 100rel.
+>>>>>>
+>>>>>> This has been discussed in sip-implementors, and that assertion seems
+>>>>>> incorrect. As I've reported in the errata:
+>>>>>>
+>>>>>>
+>>>>>> Section 12.1: "Dialogs are created through the generation of
+>>>>>> non-failure responses to requests with specific methods. Within this
+>>>>>> specification, only 2xx and 101-199 responses with a To tag, where the
+>>>>>> request was INVITE, will establish a dialog."
+>>>>>>
+>>>>>> Section 12.1.1: "When a UAS responds to a request with a response that
+>>>>>> establishes a dialog (such as a 2xx to INVITE), the UAS MUST copy all
+>>>>>> Record-Route header field values from the request into the response
+>>>>>> [...]. The UAS MUST add a Contact header field to the response."
+>>>>>>
+>>>>>> So it's clear that a 1xx response to an INVITE creates a dialog and
+>>>>>> then it MUST contain a Contact header and mirrored Record-Route
+>>>>>> headers, *regardless* the usage of 100rel.
+>>>>>>
+>>>>>> Am I wrong? if so, why?
+>>>>>
+>>>>> Not wrong, just incomplete. This will create an (early) dialog at the
+>>>>> UAS.
+>>>>> It may or may not create a dialog at the UAC without 100rel since the
+>>>>> message may never get to the UAC. Where I said "make sense" above,
+>>>>> it might have been better if I had said "be useful".
+>>>>>
+>>>>>>
+>>>>>> Regards.
+>>>>>>
+>>>>>>
+>>>>>> --
+>>>>>> Iñaki Baz Castillo
+>>>>>> <ibc@aliax.net>
+>>>>>> _______________________________________________
+>>>>>> sipcore mailing list
+>>>>>> sipcore@ietf.org
+>>>>>> https://www.ietf.org/mailman/listinfo/sipcore
+>>>>>
+>>>>> _______________________________________________
+>>>>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>>>>> This list is essentially closed and only used for finishing old
+>>>>> business.
+>>>>> Use sip-implementors@cs.columbia.edu for questions on how to develop a
+>>>>> SIP
+>>>>> implementation.
+>>>>> Use dispatch@ietf.org for new developments on the application of sip.
+>>>>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>>>>> specifications.
+>>>>>
+>>>>
+>>> _______________________________________________
+>>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>>> This list is essentially closed and only used for finishing old business.
+>>> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+>>> implementation.
+>>> Use dispatch@ietf.org for new developments on the application of sip.
+>>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>>> specifications.
+>>>
+>>
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is essentially closed and only used for finishing old business.
+>> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+>> implementation.
+>> Use dispatch@ietf.org for new developments on the application of sip.
+>> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+>> specifications.
+>>
+>
+
+
+From etherchen@foxmail.com  Thu Aug 18 20:17:13 2011
+Return-Path: <etherchen@foxmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5FC7721F85A3 for <sip@ietfa.amsl.com>; Thu, 18 Aug 2011 20:17:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 4.706
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.706 tagged_above=-999 required=5 tests=[BAYES_50=0.001, DNS_FROM_RFC_DSN=1.495, FROM_EXCESS_BASE64=1.456, HTML_MESSAGE=0.001, MIME_BASE64_TEXT=1.753]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id s-vc82boV3iZ for <sip@ietfa.amsl.com>; Thu, 18 Aug 2011 20:17:12 -0700 (PDT)
+Received: from smtpbg55.qq.com (smtpbg55.qq.com [64.71.138.44]) by ietfa.amsl.com (Postfix) with SMTP id CED7521F8549 for <sip@ietf.org>; Thu, 18 Aug 2011 20:16:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=qq.com; s=s0907; t=1313723861; bh=vrejZMxW8BCHHvkD0s9EjPJ2QYvxuWgoADctxE3Y+Qo=; h=X-QQ-SSF:X-QQ-BUSINESS-ORIGIN:X-QQ-DNTY:X-Originating-IP: X-QQ-STYLE:X-QQ-mid:From:To:Subject:Mime-Version:Content-Type: Content-Transfer-Encoding:Date:X-Priority:Message-ID:X-QQ-MIME: X-Mailer:X-QQ-Mailer; b=WdFN4aAZIrtEEhjWKBIA4iRKvjrKHTnfGXOx4klnYrbibq8nKA2BF+NW7HaYalhlO C9SDyRYHH+XblN/xXnh8Z4HXKiPlwnnvxLX1I8j9HcBzQqY/noXt9ydzRHNdJYp
+X-QQ-SSF: 0000000000000000000000000000000
+X-QQ-BUSINESS-ORIGIN: 2
+X-QQ-DNTY: 1
+X-Originating-IP: 113.10.147.177
+X-QQ-STYLE: 
+X-QQ-mid: webmail488t1313723859t2907774
+From: "=?ISO-8859-1?B?ZXRoZXJjaGVu?=" <etherchen@foxmail.com>
+To: "=?ISO-8859-1?B?c2lw?=" <sip@ietf.org>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_4E4DD5D3_DEF9E110_1202BC5E"
+Content-Transfer-Encoding: 8Bit
+Date: Fri, 19 Aug 2011 11:17:39 +0800
+X-Priority: 3
+Message-ID: <tencent_1E4799066035BA457D8DBD17@qq.com>
+X-QQ-MIME: TCMime 1.0 by Tencent
+X-Mailer: QQMail 2.x
+X-QQ-Mailer: QQMail 2.x
+Subject: [Sip] Sent 18x with 'require:100rel' but no PRACK recieved
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 19 Aug 2011 03:17:13 -0000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_4E4DD5D3_DEF9E110_1202BC5E
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: base64
+
+SGk6DQogIA0KICAgSSdtIGZhY2luZyBhIElTVVAgLSBTSVAgaW50ZXJ3b3JraW5nIGlzc3Vl
+IHJlY2VudGx5LiAgDQogIA0KICBJIHJlY2VpdmUgSU5WSVRFIGZyb20gcmVtb3RlIFNJUCBz
+ZXJ2ZXIgYW5kIHNlbmQgSUFNIHRvIElTVVAgc2lkZSwgSVNVUCByZXBseSBBQ00vQ1BHIGFu
+ZCB0aGVuIEkgc2VuZCAxOHggd2l0aCAxMDByZWwgb3V0LCBidXQgSSBkaWQgbm90IHJlY2Vp
+dmUgYW55IFBSQUNLIGZyb20gcmVtb3RlIFNJUCBzZXJ2ZXIsIGFuZCBJIHJlLXNlbmQgMTh4
+IHRvIHRoZW0uIER1cmluZyB0aGlzIHBlcmlvZCwgSVNVUCBzaWRlIHNlbmQgQU5NIHRvIG1l
+LiANCiAgDQogIElmIGNvbm5lY3QgdGhlIGNhbGwsIGJ1dCBteSBlbmQgaGF2ZW4ndCByZWNl
+aXZlIFBSQUNLIHlldCwgaXQgYmVjb21lIGEgdW5yZWxpYWJsZSBjYWxsLg0KICBJZiBkaXNj
+b25uZWN0IHRoZSBjYWxsLCBJIHNob3VsZCBub3QgYmFzZSBvbiBBTk0gdG8gcmVsZWFzZSBh
+IGNhbGwuDQogIElmIGNvbnRpbnVlIDE4eCByZS10cmFuc21pc3Npb24gdW50aWxsIHRpbWUt
+b3V0LCBpdCB3aWxsIGhhdmUgY2hhcmdpbmcgaXNzdWUuIEJlY2F1c2UgSVNVUCBzaWRlIHN0
+YXJ0IGJpbGxpbmcgYmFzZSBvbiBBTk0gYWxyZWFkeSwgYnV0IG15IFNJUCBzaWRlIGhhdmVu
+J3Qgc3RhcnQgY2hhcmdpbmcgYmVjYXVzZSBub3QgYW5zd2VyLg0KICANCiAgVGhhbmtzLg==
+
+------=_NextPart_4E4DD5D3_DEF9E110_1202BC5E
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: base64
+
+PERJVj5IaTo8L0RJVj4NCjxESVY+Jm5ic3A7PC9ESVY+DQo8RElWPiZuYnNwOyBJJ20gZmFj
+aW5nIGEgSVNVUCAtIFNJUCBpbnRlcndvcmtpbmcgaXNzdWUgcmVjZW50bHkuJm5ic3A7IDwv
+RElWPg0KPERJVj4mbmJzcDs8L0RJVj4NCjxESVY+Jm5ic3A7SSByZWNlaXZlJm5ic3A7SU5W
+SVRFIGZyb20mbmJzcDtyZW1vdGUgU0lQIHNlcnZlciZuYnNwO2FuZCBzZW5kIElBTSB0byZu
+YnNwO0lTVVAgc2lkZSwgSVNVUCByZXBseSBBQ00vQ1BHIGFuZCB0aGVuIEkmbmJzcDtzZW5k
+IDE4eCB3aXRoIDEwMHJlbCBvdXQsJm5ic3A7YnV0IEkgZGlkIG5vdCByZWNlaXZlJm5ic3A7
+YW55IFBSQUNLJm5ic3A7ZnJvbSZuYnNwO3JlbW90ZSBTSVAgc2VydmVyLCBhbmQgSSByZS1z
+ZW5kIDE4eCB0byB0aGVtLiBEdXJpbmcgdGhpcyBwZXJpb2QsIElTVVAgc2lkZSBzZW5kIEFO
+TSB0byBtZS4gPC9ESVY+DQo8RElWPiZuYnNwOzwvRElWPg0KPERJVj4mbmJzcDtJZiZuYnNw
+O2Nvbm5lY3QgdGhlIGNhbGwsJm5ic3A7YnV0IG15IGVuZCZuYnNwO2hhdmVuJ3QgcmVjZWl2
+ZSBQUkFDSyB5ZXQsIGl0IGJlY29tZSBhIHVucmVsaWFibGUgY2FsbC48L0RJVj4NCjxESVY+
+Jm5ic3A7SWYgZGlzY29ubmVjdCB0aGUgY2FsbCwgSSBzaG91bGQgbm90IGJhc2Ugb24gQU5N
+IHRvIHJlbGVhc2UgYSBjYWxsLjwvRElWPg0KPERJVj4mbmJzcDtJZiBjb250aW51ZSAxOHgg
+cmUtdHJhbnNtaXNzaW9uIHVudGlsbCB0aW1lLW91dCwgaXQgd2lsbCBoYXZlIGNoYXJnaW5n
+IGlzc3VlLiBCZWNhdXNlIElTVVAgc2lkZSBzdGFydCBiaWxsaW5nIGJhc2Ugb24gQU5NIGFs
+cmVhZHksIGJ1dCBteSBTSVAgc2lkZSBoYXZlbid0IHN0YXJ0IGNoYXJnaW5nIGJlY2F1c2Ug
+bm90IGFuc3dlci48L0RJVj4NCjxESVY+Jm5ic3A7PC9ESVY+DQo8RElWPiZuYnNwO1RoYW5r
+cy48L0RJVj4=
+
+------=_NextPart_4E4DD5D3_DEF9E110_1202BC5E--
+
+
+From honsha.narayan@wipro.com  Fri Aug 19 03:16:20 2011
+Return-Path: <honsha.narayan@wipro.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1171421F8A91 for <sip@ietfa.amsl.com>; Fri, 19 Aug 2011 03:16:20 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.19
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.19 tagged_above=-999 required=5 tests=[BAYES_40=-0.185, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1, RELAY_IS_203=0.994]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id qPz7YpQpdpw3 for <sip@ietfa.amsl.com>; Fri, 19 Aug 2011 03:16:19 -0700 (PDT)
+Received: from wipro-blr-out01.wipro.com (wipro-blr-out01.wipro.com [203.91.198.74]) by ietfa.amsl.com (Postfix) with ESMTP id 93A6821F8A95 for <sip@ietf.org>; Fri, 19 Aug 2011 03:16:18 -0700 (PDT)
+X-AuditID: cb5bdd57-b7b4dae000000e4d-2e-4e4e3826bd50
+Received: from blr-ec-aa03.wipro.com ( [10.201.18.42]) by wipro-blr-out01.wipro.com (Symantec Mail Security) with SMTP id E9.34.03661.6283E4E4; Fri, 19 Aug 2011 15:47:10 +0530 (IST)
+Received: from blr-ec-bh01.wipro.com ([10.201.50.91]) by blr-ec-aa03.wipro.com with Microsoft SMTPSVC(6.0.3790.4675);  Fri, 19 Aug 2011 15:47:10 +0530
+Received: from BLR-EC-MBX02.wipro.com ([10.201.50.163]) by blr-ec-bh01.wipro.com with Microsoft SMTPSVC(6.0.3790.4675);  Fri, 19 Aug 2011 15:47:10 +0530
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01CC5E59.27DCEDFF"
+Date: Fri, 19 Aug 2011 15:42:42 +0530
+Message-ID: <AC327FB104AFED419B885A1B28B448FE04071710@BLR-EC-MBX02.wipro.com>
+In-Reply-To: <tencent_1E4799066035BA457D8DBD17@qq.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Sent 18x with 'require:100rel' but no PRACK recieved
+Thread-Index: AcxeHsnA8a7ljbYnQB6hJDl2ZlgQmwAOY/8Q
+References: <tencent_1E4799066035BA457D8DBD17@qq.com>
+From: <honsha.narayan@wipro.com>
+To: <etherchen@foxmail.com>, <sip@ietf.org>
+X-OriginalArrivalTime: 19 Aug 2011 10:17:10.0216 (UTC) FILETIME=[27F1CC80:01CC5E59]
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: [Sip] Sent 18x with 'require:100rel' but no PRACK recieved
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 19 Aug 2011 10:16:20 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CC5E59.27DCEDFF
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi ,
+
+=20
+
+First of all , please use "sip-implementers
+(sip-implementors@cs.columbia.edu)" forum for the answer of this query.=20
+
+=20
+
+As per SIP RFC3262, you must reject the call in SIP side with 5xx (
+provided you had SDP in reliable 18x ). You can reject ISUP side with a
+RELEASE message.
+
+=20
+
+But if you want to relax your software compliance a bit here , you can
+do that,  but remember your early media negotiation may be in trouble.
+If you are sure that on ISUP side the call is answered ( ANM is received
+) you can proceed for sending 200 to SIP side.
+
+=20
+
+Regards
+
+Honsha=20
+
+=20
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+etherchen
+Sent: Friday, August 19, 2011 8:48 AM
+To: sip
+Subject: [Sip] Sent 18x with 'require:100rel' but no PRACK recieved
+
+=20
+
+Hi:
+
+=20
+
+  I'm facing a ISUP - SIP interworking issue recently. =20
+
+=20
+
+ I receive INVITE from remote SIP server and send IAM to ISUP side, ISUP
+reply ACM/CPG and then I send 18x with 100rel out, but I did not receive
+any PRACK from remote SIP server, and I re-send 18x to them. During this
+period, ISUP side send ANM to me.=20
+
+=20
+
+ If connect the call, but my end haven't receive PRACK yet, it become a
+unreliable call.
+
+ If disconnect the call, I should not base on ANM to release a call.
+
+ If continue 18x re-transmission untill time-out, it will have charging
+issue. Because ISUP side start billing base on ANM already, but my SIP
+side haven't start charging because not answer.
+
+=20
+
+ Thanks.
+
+
+------_=_NextPart_001_01CC5E59.27DCEDFF
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:p=3D"urn:schemas-microsoft-com:office:powerpoint" =
+xmlns:a=3D"urn:schemas-microsoft-com:office:access" =
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" =
+xmlns:s=3D"uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" =
+xmlns:rs=3D"urn:schemas-microsoft-com:rowset" xmlns:z=3D"#RowsetSchema" =
+xmlns:b=3D"urn:schemas-microsoft-com:office:publisher" =
+xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadsheet" =
+xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" =
+xmlns:odc=3D"urn:schemas-microsoft-com:office:odc" =
+xmlns:oa=3D"urn:schemas-microsoft-com:office:activation" =
+xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" =
+xmlns:rtc=3D"http://microsoft.com/officenet/conferencing" =
+xmlns:D=3D"DAV:" xmlns:Repl=3D"http://schemas.microsoft.com/repl/" =
+xmlns:mt=3D"http://schemas.microsoft.com/sharepoint/soap/meetings/" =
+xmlns:x2=3D"http://schemas.microsoft.com/office/excel/2003/xml" =
+xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" =
+xmlns:ois=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" =
+xmlns:dir=3D"http://schemas.microsoft.com/sharepoint/soap/directory/" =
+xmlns:ds=3D"http://www.w3.org/2000/09/xmldsig#" =
+xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint/dsp" =
+xmlns:udc=3D"http://schemas.microsoft.com/data/udc" =
+xmlns:xsd=3D"http://www.w3.org/2001/XMLSchema" =
+xmlns:sub=3D"http://schemas.microsoft.com/sharepoint/soap/2002/1/alerts/"=
+ xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#" =
+xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" =
+xmlns:sps=3D"http://schemas.microsoft.com/sharepoint/soap/" =
+xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance" =
+xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/soap" =
+xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" =
+xmlns:udcp2p=3D"http://schemas.microsoft.com/data/udc/parttopart" =
+xmlns:wf=3D"http://schemas.microsoft.com/sharepoint/soap/workflow/" =
+xmlns:dsss=3D"http://schemas.microsoft.com/office/2006/digsig-setup" =
+xmlns:dssi=3D"http://schemas.microsoft.com/office/2006/digsig" =
+xmlns:mdssi=3D"http://schemas.openxmlformats.org/package/2006/digital-sig=
+nature" =
+xmlns:mver=3D"http://schemas.openxmlformats.org/markup-compatibility/2006=
+" xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns:mrels=3D"http://schemas.openxmlformats.org/package/2006/relationshi=
+ps" xmlns:spwp=3D"http://microsoft.com/sharepoint/webpartpages" =
+xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/2006/types"=
+ =
+xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/2006/messag=
+es" =
+xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/SlideLibrary/=
+" =
+xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortalServer/Pub=
+lishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" =
+xmlns:st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Hi ,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>First of all , please use &quot;sip-implementers =
+(sip-implementors@cs.columbia.edu)&quot; forum for the answer of this =
+query. <o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>As per SIP RFC3262, you must reject the call in SIP side with 5xx ( =
+provided you had SDP in reliable 18x ). You can reject ISUP side with a =
+RELEASE message.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>But if you want to relax your software compliance a bit here , you =
+can do that, &nbsp;but remember your early media negotiation may be in =
+trouble. If you are sure that on ISUP side the call is answered ( ANM is =
+received ) you can proceed for sending 200 to SIP =
+side.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Regards<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Honsha <o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in'><p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] <b>On Behalf Of =
+</b>etherchen<br><b>Sent:</b> Friday, August 19, 2011 8:48 =
+AM<br><b>To:</b> sip<br><b>Subject:</b> [Sip] Sent 18x with =
+'require:100rel' but no PRACK recieved<o:p></o:p></span></p></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><p =
+class=3DMsoNormal>Hi:<o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp; I'm facing a ISUP - SIP interworking issue =
+recently.&nbsp; <o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp;I receive&nbsp;INVITE from&nbsp;remote SIP =
+server&nbsp;and send IAM to&nbsp;ISUP side, ISUP reply ACM/CPG and then =
+I&nbsp;send 18x with 100rel out,&nbsp;but I did not receive&nbsp;any =
+PRACK&nbsp;from&nbsp;remote SIP server, and I re-send 18x to them. =
+During this period, ISUP side send ANM to me. =
+<o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp;If&nbsp;connect the call,&nbsp;but my =
+end&nbsp;haven't receive PRACK yet, it become a unreliable =
+call.<o:p></o:p></p></div><div><p class=3DMsoNormal>&nbsp;If disconnect =
+the call, I should not base on ANM to release a =
+call.<o:p></o:p></p></div><div><p class=3DMsoNormal>&nbsp;If continue =
+18x re-transmission untill time-out, it will have charging issue. =
+Because ISUP side start billing base on ANM already, but my SIP side =
+haven't start charging because not answer.<o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></div><div><p =
+class=3DMsoNormal>&nbsp;Thanks.<o:p></o:p></p></div></div></body></html>
+------_=_NextPart_001_01CC5E59.27DCEDFF--

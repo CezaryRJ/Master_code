@@ -1,0 +1,116 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : lemonade
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/lemonade/2007-12.mailcl']
+id : bd98c4db-d403-4dab-831c-d69c0f72f761
+_version_ : 1675133240658100224
+
+Content : 
+
+ReceFrom lemonade-bounces@ietf.org Sun Dec 02 19:17:46 2007
+Return-path: <lemonade-bounces@ietf.org>
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1Iyz0J-0003C7-VX; Sun, 02 Dec 2007 19:17:43 -0500
+Received: from lemonade by megatron.ietf.org with local (Exim 4.43)
+	id 1Iyz0I-0003BY-AT for lemonade-confirm+ok@megatron.ietf.org;
+	Sun, 02 Dec 2007 19:17:42 -0500
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1Iyz0I-0003BO-0q
+	for lemonade@ietf.org; Sun, 02 Dec 2007 19:17:42 -0500
+Received: from ithilien.qualcomm.com ([129.46.51.59])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1Iyz0G-000602-CR
+	for lemonade@ietf.org; Sun, 02 Dec 2007 19:17:42 -0500
+Received: from hamtaro.qualcomm.com (hamtaro.qualcomm.com [129.46.61.157])
+	by ithilien.qualcomm.com (8.14.2/8.12.5/1.0) with ESMTP id
+	lB30HcDe010980
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=FAIL);
+	Sun, 2 Dec 2007 16:17:39 -0800
+Received: from dhcp-407d.ietf70.org (vpn-10-50-0-196.qualcomm.com
+	[10.50.0.196])
+	by hamtaro.qualcomm.com (8.14.2/8.14.2/1.0) with ESMTP id
+	lB30HYmJ011260; Sun, 2 Dec 2007 16:17:38 -0800 (PST)
+Mime-Version: 1.0
+Message-Id: <p0624060bc378f5d1964e@dhcp-407d.ietf70.org>
+In-Reply-To: <033901c8308b$93d81b20$bb885160$%coates@sun.com>
+References: <033901c8308b$93d81b20$bb885160$%coates@sun.com>
+X-Mailer: Eudora for Mac OS X
+X-message-flag: Warning: Outlook in use. Upgrade to Eudora:
+	<http://www.eudora.com>
+Date: Sun, 2 Dec 2007 15:54:07 -0800
+To: Peter Coates <peter.coates@sun.com>, lemonade@ietf.org
+From: Randall Gellens <randy@qualcomm.com>
+Subject: Re: [lemonade] FW: notify and context
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii" ; format="flowed"
+X-Random-Sig-Tag: 1.0b28
+X-PerlMx: Message inspected by PerlMx
+X-PerlMx: Message inspected by PerlMx
+X-Spam-Score: -4.0 (----)
+X-Scan-Signature: 798b2e660f1819ae38035ac1d8d5e3ab
+Cc: 
+X-BeenThere: lemonade@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Enhancements to Internet email to support diverse service
+	enivronments <lemonade.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/lemonade>,
+	<mailto:lemonade-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:lemonade@ietf.org>
+List-Help: <mailto:lemonade-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/lemonade>,
+	<mailto:lemonade-request@ietf.org?subject=subscribe>
+Errors-To: lemonade-bounces@ietf.org
+
+At 4:22 PM -0800 11/26/07, Peter Coates wrote:
+
+>  The intent is that a client can register its interests, and sit back being
+>  fed the information it wants as it arrives.  Thus if it is only interested
+>  in messages meeting a specific set of criteria in particular mailboxes, it
+>  says so and gets headers or whatnot for just those messages.
+>
+>  What actually happens is that the search program specified and the fetch
+>  program specified are only used if the mail box in question is selected.
+>  Otherwise, if a new message arrives, the client is told about it, end of
+>  story.  The implication of this is that if a client is interested in
+>  messages from multiple folders, it will have to select those folders from
+>  time to time to see it the new mail is "interesting".
+
+Why does it only work for the selected mailbox?
+
+-- 
+Randall Gellens
+Opinions are personal;    facts are suspect;    I speak for myself only
+-------------- Randomly-selected tag: ---------------
+I have nothing but contempt for someone who can spell a
+word only one way.                   --Thomas Jefferson
+
+
+_______________________________________________
+lemonade mailing list
+lemonade@ietf.org
+https://www1.ietf.org/mailman/listinfo/lemonade
+Supplemental Web Site:
+http://www.standardstrack.com/ietf/lemonade

@@ -1,0 +1,11 @@
+2010 TO 2020
+-------#####------->    86all
+rpelletier@isoc.org 14
+ietf-secretariat@ietf.org 12
+cmorgan@amsl.com 3
+mbeaulieu@amsl.com 3
+amorris@amsl.com 2
+wlo@amsl.com 2
+avezza@amsl.com 1
+rfc-editor@rfc-editor.org 1
+smccammon@amsl.com 1

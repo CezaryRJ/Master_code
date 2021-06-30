@@ -1,0 +1,4 @@
+1. how to determine identity ?
+2.email field does not cast to lower case ?
+3.enryption ?
+4.testig the database

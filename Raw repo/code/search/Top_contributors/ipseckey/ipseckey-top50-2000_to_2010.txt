@@ -1,0 +1,19 @@
+2000 TO 2010
+-------#####------->    ipseckey
+mcr@sandelman.ottawa.on.ca 71
+sra+ipseckey@hactrn.net 14
+Jean-Jacques.Puig@int-evry.fr 13
+Internet-Drafts@ietf.org 11
+weiler@tislabs.com 7
+weiler@watson.org 7
+jas@extundo.com 4
+bmanning@karoshi.com 2
+macurly_323@yahoo.com 2
+ogud@ogud.com 2
+service@paypal.com 2
+sitholebaloy11@netscape.net 2
+Mark.Andrews@isc.org 1
+jakob@crt.se 1
+jakob@rfc.se 1
+pekka.nikander@nomadiclab.com 1
+support@paypal.com 1

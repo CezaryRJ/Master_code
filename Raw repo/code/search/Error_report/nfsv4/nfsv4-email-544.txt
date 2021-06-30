@@ -1,0 +1,267 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : iesg@ietf.org, wgchairs@ietf.org
+To-name : Null
+To-address : [' iesg@ietf.org wgchairs@ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['48th IETF DRAFT Agenda']
+Mailing-list : nfsv4
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nfsv4/2000-07.mailcl']
+id : f6632882-2a1e-444a-ab4e-106d7f9cfedc
+_version_ : 1675132255874318338
+
+Content : 
+
+I have posted the following DRAFT agenda on the web site.
+========================================================================
+This is a DRAFT agenda and therefore changes will most likely occur.
+The following requests have not been scheduled yet:
+
+DNSEXT
+AAA
+DISMAN
+POLICY
+SNMPV3
+
+A final agenda should be posted by Monday, July 17, 2000.
+
+                     DRAFT Agenda of the Forty-eighth IETF
+                             July 30-August 4, 2000
+                                 As of 07/12/00
+
+SUNDAY, July 30, 2000
+1200-1900  Registration - 
+1530-1600  Newcomer's Orientation - 
+1600-1630  IETF Standards Process Orientation - 
+1700-1900  Welcome Reception - 
+
+MONDAY, July 31, 2000
+0800-1930  IETF Registration - 
+0800-0900  Continental Breakfast -
+0900-1130  Morning Sessions
+
+APP  apparea	Applications Open Area Meeting
+INT  ipobt	IP Over Bluetooth BOF
+OPS  bmwg	Benchmarking Methodology WG
+OPS  rap	Resource Allocation Protocol WG
+RTG  ipo	IP Over Optical WG
+SEC  stime	Secure Network Time Protocol WG
+TSV  rmt	Reliable Multicast Transport WG
+TSV  spirits	Service in the PSTN/IN Requesting Internet Service WG
+
+1130-1300  Break
+1300-1500  Afternoon Sessions I
+
+APP  ldapext	LDAP Extension WG
+APP  msgtrk	Message Tracking WG
+OPS  sgm	Small Group Multicast BOF
+SEC  aft	Authenticated Firewall Traversal WG
+TSV  ecm	Endpoint Congestion Management WG
+TSV  sip	Session initiation Protocol WG
+USV  uswg	User Services WG
+
+1500-1530  Break (Refreshments provided) - 
+1530-1730  Afternoon Sessions II
+
+APP  imapext	Internet Message Access Protocol Extension WG
+INT  idn	Internationalized Domain Names WG
+OPS  tewg	Traffic Engineering WG
+RTG  mobileip	IP Routing for Wireless/Mobile Hosts WG
+RTG  ospf	Open Shortest Path First IGP WG
+SEC  smime	S/MIME Mail Security WG
+
+1730-1930  Break
+1930-2200  Evening Sessions
+
+APP  spatial	Spatial Location BOF
+INT  dhc	Dynamic Host Configuration WG
+INT  ipcdn	IP Over Cable Data Network WG
+OPS  mboned	MBONE Depoloyement WG
+SEC  ipsra	IP Security Remote Access WG
+TSV  diffserv	Differentiated Services WG 
+TSV  mmusic	Multiparty Multimedia Session Control WG 
+			
+
+TUESDAY, August 1, 2000
+0800-1700  IETF Registration - 
+0800-0900  Continental Breakfast - 
+0900-1130  Morning Sessions
+
+APP  vpim	Voice Profile for Internet Mail WG
+INT  dhc	Dynamic Host Configuration WG 
+OPS  snmpconf	Configuration Management with SNMP WG
+RTG  pim	Protocol Independent Multicast WG	
+SEC  pkix	Public-Key Infrastructure (X.509) WG
+TSV  enum	Telephone Number Mapping WG 
+TSV  issll	Integrated Services over Specific Link Layers WG
+TSV  nfsv4	Network File System Version 4 WG
+
+1130-1300  Break
+1300-1400  Afternoon Sessions I
+
+INT  zeroconf	Zero Configuration Networking WG
+OPS  adslmib	ADSL MIB WG
+OPS  tewg	Traffic Engineering WG
+TSV  ieps	International Emergency Preparedness Scheme BOF
+TSV  ippm	IP Performance Metrics WG
+TSV  nfsv4	Network File System Version 4 WG
+
+1415-1515  Afternoon Sessions II
+
+APP  nntpext	NNTP Extensions WG
+INT  frnetmib	Frame Relay Service MIB WG
+OPS  grip	G & R for Security Incident Processing WG
+OPS  rap	Resource Allocation Protocol WG
+TSV  sin	SIP/IN Interworking BOF
+TSV  rmt	Reliable Multicast Transport WG 
+
+1515-1545  Break (Refreshments provided) - 
+1545-1645  Afternoon Sessions III
+
+APP  impp	Instant Messaging and Presence Protocol WG
+APP  ipp	Internet Printing Protocol WG
+INT  ipngwg	IPNG WG
+RTG  ssm	Source-Specific Multicast BOF
+SEC  tls	Transport Layer Security WG
+TSV  tsvwg	Transport Area Working Group
+
+1700-1800  Afternoon Sessions IV
+
+APP  impp	Instant Messaging and Presence Protocol WG
+APP  ipp	Internet Printing Protocol WG
+RTG  idmr	Inter-Domain Multicast Routing WG 
+SEC  tls	Transport Layer Security WG
+TSV  rspool	Reliable Server Pooling BOF
+
+
+WEDNESDAY, August 2, 2000
+0800-1700  IETF Registration - 
+0800-0900  Continental Breakfast - 
+0900-1130  Morning Sessions
+
+APP  fax	Internet Fax WG
+INT  idn	Internationalized Domain Names WG
+RTG  mobileip	IP Routing for Wireless/Mobile Hosts WG
+SEC  pkix	Public-Key Infrastructure (X.509) WG
+TSV  avt	Audio/Video Transport WG 
+TSV  diffserv	Differentiated Services WG
+
+1130-1300  Break
+1300-1500  Afternoon Sessions I
+
+APP  calsch	Calendaring and Scheduling WG
+INT  ipngwg	IPNG WG 
+OPS  rmonmib	Remote Network Monitoring WG 
+RTG  msdp	Multicast Source Discovery Protocol WG  
+SEC  secsh	Secure Shell WG
+TSV  pilc	Performance Implications of Link Characteristics WG
+TSV  sip	Session initiation Protocol WG  
+
+1500-1530  Break (Refreshments provided) - 
+1530-1730  Afternoon Sessions II
+
+APP  deltav	Web Versioning and Configuration Management WG
+INT  l2tpext	Layer Two Tunneling Protocol Extensions WG
+OPS  ngtrans	Next Generation Transition WG
+RTG  rtgarea	Routing Area Meeting
+SEC  krbwg	Kerberos BOF
+TSV  ips	IP Storage BOF
+TSV  mmusic	Multiparty Multimedia Session Control WG  
+
+1730-1930  Break
+1930-2200  Open Plenary -  
+        o Welcome - Fred Baker, IETF Chair
+        o IAB Open Plenary
+        o IESG Open Plenary
+
+
+THURSDAY, August 3, 2000
+0800-1700  IETF Registration - 
+0800-0900  Continental Breakfast - 
+0900-1130  Morning Sessions
+
+
+APP  beep	Blocks Extensible Exchange Protocol WG
+APP  webdav	WWW Distributed Authoring and Versioning WG
+INT  dnsop	Domain Name Server Operations WG
+RTG  mpls	Multiprotocol Label Switching WG
+SEC  idwg	Intrusion Detection Exchange Format WG
+TSV  nat	Network Address Translators WG
+TSV  iptel	IP Telephony WG  
+
+1130-1300  Break
+1300-1500  Afternoon Sessions I
+
+APP  trade	Internet Open Trading Protocol WG
+APP  vpim	Voice Profile for Internet Mail WG
+INT  ipngwg	IPNG WG
+OPS  rmonmib	Remote Network Monitoring WG
+RTG  manet	Mobile Ad-hoc Networks WG
+SEC  saag	Open Security Area Directorate Meeting
+TSV  avt	Audio/Video Transport WG  
+TSV  sigtran	Signaling Transport WG
+
+1500-1530  Break (Refreshments provided) - 
+1530-1730  Afternoon Sessions II
+
+APP  webdav	WWW Distributed Authoring and Versioning WG
+INT  ipfc	IP Over Fibre Channel WG
+OPS  opsarea	Operation and Management Area Open Meeting
+RTG  nbvpn	Network-Based VPNs BOF
+SEC  xmldsig	XML Digital Signatures WG
+TSV  megaco	Media Gateway Control WG
+TSV  rohc	Robust Header Compression WG
+
+FRIDAY, August 4, 2000
+0800-1000  IETF Registration - 
+0800-0900  Continental Breakfast - 
+0900-1130  Morning Sessions
+
+APP  beep	Blocks Extensible Exchange Protocol WG
+INT  ipoptr	IP over Packet Transport Rings BOF
+OPS  snmpconf	Configuration Management with SNMP WG
+RTG  gsmp	General Switch Management Protocol WG
+SEC  idwg	Intrusion Detection Exchange Format WG
+TSV  rohc	Robust Header Compression WG
+
+
+
+AREA DIRECTORS
+APP  Applications               Patrik Faltstrom/Cisco and 
+                                Ned Freed/Innosoft International, Inc.
+GEN  General Interest           Fred Baker/Cisco Systems
+INT  Internet                   Thomas Narten/IBM Corp. and 
+                                Erik Nordmark/Sun Microsystems
+OPS  Operations & Management    Randy Bush/Verio, Inc. and 
+                                Bert Wijnen/Lucent Technologies
+RTG  Routing                    Rob Coltun/Siara Systems and 
+                                Dave Oran/Cisco Systems
+SEC  Security                   Jeff Schiller/MIT and 
+                                Marcus Leech/Nortel
+TSV  Transport                  Scott Bradner/Harvard Univ. and 
+                                Allison Mankin/USC/ISI
+USV  User Services              April Marine/Nominum, Inc.
+=========================================================================
+
+
+
+----- End Included Message -----
+
+

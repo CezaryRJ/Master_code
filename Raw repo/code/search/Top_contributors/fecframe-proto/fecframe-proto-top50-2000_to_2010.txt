@@ -1,0 +1,11 @@
+2000 TO 2010
+-------#####------->    fecframe-proto
+tme@multicasttech.com 57
+abegen@cisco.com 53
+gjshep@gmail.com 45
+rajiva@cisco.com 30
+mark@digitalfountain.com 22
+ulas.kozat@gmail.com 16
+mbany@dvblink.net 9
+mailman-owner@ietf.org 2
+dihughes@cisco.com 1

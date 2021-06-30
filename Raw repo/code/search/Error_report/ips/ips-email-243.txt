@@ -1,0 +1,131 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ips
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ips/2007-04.mailcl']
+id : e786e28d-e822-4a17-afb0-f8f716b98c74
+_version_ : 1675132557604159488
+
+Content : 
+
+storage=20
+    community acknowledged those<BR>&gt; arguments and developed iSCSI =
+and the=20
+    companion protocols for service<BR>&gt; discovery, boot etc. =
+<BR>&gt; &nbsp;=20
+    &nbsp;<BR>&gt; &nbsp; &nbsp;The community also acknowledged the need =
+to=20
+    support existing<BR>&gt; infrastructure and extend it in a =
+reasonable=20
+    fashion and developed 2<BR>&gt; protocols iFCP (to support hosts =
+with FCP=20
+    drivers and IP connections to<BR>&gt; connect to storage by a simple =
+
+    conversion from FCP to TCP packets) FCPIP<BR>&gt; to extend the =
+reach of FCP=20
+    through IP (connects FCP islands through TCP<BR>&gt; links). Both =
+have been=20
+    <BR>&gt; &nbsp; &nbsp;implemented and their foundation is solid. =
+<BR>&gt;=20
+    &nbsp; &nbsp;<BR>&gt; &nbsp; &nbsp;The current attempt of developing =
+a=20
+    "new-age" FCP over an<BR>&gt; Ethernet link is going against most of =
+the=20
+    arguments that have given us<BR>&gt; iSCSI etc. <BR>&gt; &nbsp;=20
+    &nbsp;<BR>&gt; &nbsp; &nbsp;It ignores the networking layering =
+practice,=20
+    build an<BR>&gt; application protocol directly above a link and thus =
+limits=20
+    scaling,<BR>&gt; mandates elements at the link layer and application =
+layer=20
+    that make<BR>&gt; applications more expensive and leaves aside the =
+whole=20
+    "ecosystem" that<BR>&gt; accompanies TCP/IP (and not Ethernet). =
+<BR>&gt;=20
+    &nbsp; &nbsp;<BR>&gt; &nbsp; &nbsp;In some related effort (and at a =
+point=20
+    also when developing<BR>&gt; iSCSI) we considered also moving away =
+from SCSI=20
+    (like some "no<BR>&gt; standardized" but popular in some circles =
+software=20
+    did - e.g., NBP) but<BR>&gt; decided against. SCSI is a mature and =
+well=20
+    understood access<BR>&gt; architecture for block storage and is =
+implemented=20
+    by many device<BR>&gt; vendors. Moving away from it would not have =
+been=20
+    justified at the time. <BR>&gt; &nbsp; &nbsp;</FONT></TT><FONT =
+size=3D3>=20
+    </FONT>
+    <P>
+    <HR>
+
+    <P><FONT =
+size=3D3>_______________________________________________<BR>Ips=20
+    mailing =
+list<BR>Ips@ietf.org<BR>https://www1.ietf.org/mailman/listinfo/ips=20
+    </FONT>
+    <P>
+    <HR>
+
+    <P><FONT =
+size=3D3>_______________________________________________<BR>Ips=20
+    mailing=20
+    =
+list<BR>Ips@ietf.org<BR>https://www1.ietf.org/mailman/listinfo/ips</FONT>=
+<TT><FONT=20
+    size=3D2>_______________________________________________<BR>Ips =
+mailing=20
+    =
+list<BR>Ips@ietf.org<BR>https://www1.ietf.org/mailman/listinfo/ips<BR></F=
+ONT></TT>
+    <P></P></BLOCKQUOTE>
+  <P>
+  <HR>
+
+  <P></P>_______________________________________________<BR>Ips mailing=20
+  =
+list<BR>Ips@ietf.org<BR>https://www1.ietf.org/mailman/listinfo/ips<BR></B=
+LOCKQUOTE></BODY></HTML>
+
+------=_NextPart_000_005D_01C7874C.8B7085A0--
+
+
+
+
+--===============0046708084==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Ips mailing list
+Ips@ietf.org
+https://www1.ietf.org/mailman/listinfo/ips
+
+--===============0046708084==--
+
+
+

@@ -1,0 +1,178 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : pana
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/pana/2006-10.mailcl']
+id : efd1d1c6-1a5e-4930-b020-698ea310a3e7
+_version_ : 1675133027056877568
+
+Content : 
+
+> it. For the types of benefits I see, probably we can deal with them later by
+> other means. I don't mind going along with your suggestion.
+>   
+I think the protocol will be improved for it.
+
+- Mark
+>
+> Alper
+>
+>
+>
+>
+>
+>   
+>> - Mark
+>>     
+>>> Alper
+>>>
+>>>
+>>>
+>>>
+>>>       
+>>>> - Mark
+>>>>
+>>>>         
+>>>>> Making that requirement part of any optional-to-implement-and-use
+>>>>>
+>>>>>           
+>>>> document
+>>>>
+>>>>         
+>>>>> would not achieve the same result, as its use cannot be guaranteed.
+>>>>>
+>>>>> Alper
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>           
+>>>>>>>>> Note that, this ID includes the PAA ID, hence it is not per-PAA.
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>                   
+>>>>>>>> Forgive me for asking, but who assigns the PAA ID, and is *that*
+>>>>>>>> supposed to be global?
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>                 
+>>>>>>> PAA ID is actually PAA's FQDN, which is supposed to be global
+>>>>>>>               
+> unique.
+>   
+>>>>>>>
+>>>>>>>               
+>>>>>> Using the Session-ID format of RFC3588 seems extremely heavyweight to
+>>>>>> me. There are, I believe, two uses of a Session ID in PANA:
+>>>>>>
+>>>>>> 1. To match up messages being exchanged between the PAA and PaC
+>>>>>> 2. To keep in a log for troubleshooting, record-keeping, etc.
+>>>>>>
+>>>>>> The former should be able to be an ephemeral value that is unique
+>>>>>>             
+>> only
+>>     
+>>>>>> between the PaC and PAA. In fact, there could be two values, one for
+>>>>>> each direction.
+>>>>>>
+>>>>>> The latter is largely informational, and could be made up of a
+>>>>>>             
+>> variety
+>>     
+>>>>>> of things as they are available. FQDN, IP address, locally
+>>>>>>             
+>> administered
+>>     
+>>>>>> name, etc.
+>>>>>>
+>>>>>> For a protocol that goes to such lengths to be more efficient in so
+>>>>>>
+>>>>>>             
+>>>> many
+>>>>
+>>>>         
+>>>>>> ways, it seems odd that a Session ID would be so complex. There are
+>>>>>> operational difficulties when you tie a Session ID to FQDN and such
+>>>>>>             
+>> as
+>>     
+>>>>>> well - for example, if you ever change the FQDN of the PAA, then you
+>>>>>> will lose all sessions. The tie to FQDN seems arbitrary for the
+>>>>>> operation of the protocol itself, and unless I am missing something,
+>>>>>>             
+>> I
+>>     
+>>>>>> believe it could be simplified accordingly.
+>>>>>>
+>>>>>> - Mark
+>>>>>>
+>>>>>>
+>>>>>>             
+>>>>>>> Yoshihiro Ohba
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>               
+>>>>>>>> - Mark
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>                 
+>>>>>>>>> Alper
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>                   
+>>>>>>>> _______________________________________________
+>>>>>>>> Pana mailing list
+>>>>>>>> Pana@ietf.org
+>>>>>>>> https://www1.ietf.org/mailman/listinfo/pana
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>                 
+>>>       
+>
+>   
+
+
+_______________________________________________
+Pana mailing list
+Pana@ietf.org
+https://www1.ietf.org/mailman/listinfo/pana

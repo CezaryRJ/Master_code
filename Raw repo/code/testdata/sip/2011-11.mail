@@ -1,0 +1,773 @@
+
+From Adam.Lewis@motorolasolutions.com  Tue Nov  8 05:52:03 2011
+Return-Path: <Adam.Lewis@motorolasolutions.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6F57021F8BF6 for <sip@ietfa.amsl.com>; Tue,  8 Nov 2011 05:52:03 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.089
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.089 tagged_above=-999 required=5 tests=[AWL=2.510,  BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id FyMeWTQM+FMO for <sip@ietfa.amsl.com>; Tue,  8 Nov 2011 05:52:03 -0800 (PST)
+Received: from DB3EHSOBE004.bigfish.com (db3ehsobe004.messaging.microsoft.com [213.199.154.142]) by ietfa.amsl.com (Postfix) with ESMTP id 89A2221F8A7E for <sip@ietf.org>; Tue,  8 Nov 2011 05:52:02 -0800 (PST)
+Received: from mail74-db3-R.bigfish.com (10.3.81.248) by DB3EHSOBE004.bigfish.com (10.3.84.24) with Microsoft SMTP Server id 14.1.225.22; Tue, 8 Nov 2011 13:51:39 +0000
+Received: from mail74-db3 (localhost.localdomain [127.0.0.1])	by mail74-db3-R.bigfish.com (Postfix) with ESMTP id AD27D1CA0174	for <sip@ietf.org>; Tue,  8 Nov 2011 13:51:52 +0000 (UTC)
+X-SpamScore: -7
+X-BigFish: VPS-7(zz14ffOzz1202hzzz2fh2a8h668h839h944h)
+X-Forefront-Antispam-Report: CIP:136.182.1.13; KIP:(null); UIP:(null); IPVD:NLI; H:motgate3.mot-solutions.com; RD:motgate3.mot-solutions.com; EFVD:NLI
+X-FB-SS: 0,13,
+Received-SPF: pass (mail74-db3: domain of motorolasolutions.com designates 136.182.1.13 as permitted sender) client-ip=136.182.1.13; envelope-from=Adam.Lewis@motorolasolutions.com; helo=motgate3.mot-solutions.com ; olutions.com ; 
+Received: from mail74-db3 (localhost.localdomain [127.0.0.1]) by mail74-db3 (MessageSwitch) id 1320760312596901_30972; Tue,  8 Nov 2011 13:51:52 +0000 (UTC)
+Received: from DB3EHSMHS002.bigfish.com (unknown [10.3.81.245])	by mail74-db3.bigfish.com (Postfix) with ESMTP id 83CFF191804E	for <sip@ietf.org>; Tue,  8 Nov 2011 13:51:52 +0000 (UTC)
+Received: from motgate3.mot-solutions.com (136.182.1.13) by DB3EHSMHS002.bigfish.com (10.3.87.102) with Microsoft SMTP Server (TLS) id 14.1.225.22; Tue, 8 Nov 2011 13:51:34 +0000
+Received: from il27exr01.cig.mot.com ([10.17.196.70])	by motgate3.mot-solutions.com (8.14.3/8.14.3) with ESMTP id pA8DpsMp001136	for <sip@ietf.org>; Tue, 8 Nov 2011 06:51:54 -0700 (MST)
+Received: from il27exr01.cig.mot.com (il27vts01.cig.mot.com [10.17.196.85])	by il27exr01.cig.mot.com (8.13.1/Vontu) with ESMTP id pA8Dps6H017920	for <sip@ietf.org>; Tue, 8 Nov 2011 07:51:54 -0600 (CST)
+Received: from de01exm70.ds.mot.com (de01exm70.am.mot.com [10.176.8.26])	by il27exr01.cig.mot.com (8.13.1/8.13.0) with ESMTP id pA8DpsVk017912	for <sip@ietf.org>; Tue, 8 Nov 2011 07:51:54 -0600 (CST)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-Class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 8 Nov 2011 08:51:31 -0500
+Message-ID: <1F9250DB00086D4E90A7FBC13C5EAF540F585ED9@de01exm70.ds.mot.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Question on rfc4474
+Thread-Index: AcyeHYWaphH17IbhTpyY48Rqbh9JNQ==
+From: Lewis Adam-CAL022 <Adam.Lewis@motorolasolutions.com>
+To: <sip@ietf.org>
+X-CFilter-Loop: Reflected
+X-OriginatorOrg: motorolasolutions.com
+Subject: [Sip] Question on rfc4474
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 08 Nov 2011 13:52:03 -0000
+
+Hi all,
+
+rfc4474 describes how an Authentication Service - which might be
+implemented in a SIP proxy - can make digital signatures which provide
+assurance for SIP applications that the asserted SIP identity is valid.
+It recommends implementing this service within a SIP proxy since the SIP
+proxy 1) is likely to have a private signing key, and 2) has access to
+SIP registrar services.  It is the second part I have a question about.
+
+If a network has a dedicated SIP proxy and a dedicated SIP registrar,
+and a SIP user registers with the SIP registrar using HTTP digest, then
+how does this help the SIP proxy validate the identity of the SIP user,
+such that it can add a digital signature to SIP messages received from
+the UE?  A few things come to mind:
+
+* User can authenticates separately to the SIP proxy and create an
+authenticated user session with it
+* Something like IMS, where successful registration with the S-CSCF
+results in an authenticated IPsec SA between the UE and P-CSCF
+* Co-located SIP proxy and SIP registrar in the same box
+* Others?
+
+I'm guessing that the RFC intentionally did not address the "how" of
+this and leaves it to implementation, just want to make sure I'm not
+missing something.  Are there any other well known ways to solve this
+other than those I mention above?
+
+Tx!
+adam
+
+
+From varun_swn@yahoo.co.in  Thu Nov 17 20:11:53 2011
+Return-Path: <varun_swn@yahoo.co.in>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1058121F8B07 for <sip@ietfa.amsl.com>; Thu, 17 Nov 2011 20:11:53 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 2.732
+X-Spam-Level: **
+X-Spam-Status: No, score=2.732 tagged_above=-999 required=5 tests=[AWL=-2.730,  BAYES_99=3.5, HTML_MESSAGE=0.001, RCVD_IN_BL_SPAMCOP_NET=1.96]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id lz6zvM+-4Mo5 for <sip@ietfa.amsl.com>; Thu, 17 Nov 2011 20:11:46 -0800 (PST)
+Received: from nm4.bullet.mail.in.yahoo.com (nm4.bullet.mail.in.yahoo.com [121.101.151.226]) by ietfa.amsl.com (Postfix) with SMTP id 133D321F91F9 for <sip@ietf.org>; Thu, 17 Nov 2011 20:11:45 -0800 (PST)
+Received: from [121.101.151.236] by nm4.bullet.mail.in.yahoo.com with NNFMP; 18 Nov 2011 04:11:38 -0000
+Received: from [121.101.151.232] by tm1.bullet.mail.in.yahoo.com with NNFMP; 18 Nov 2011 04:13:13 -0000
+Received: from [127.0.0.1] by omp1001.mail.in.yahoo.com with NNFMP; 18 Nov 2011 04:11:38 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 834051.87481.bm@omp1001.mail.in.yahoo.com
+Received: (qmail 68793 invoked by uid 60001); 18 Nov 2011 04:11:38 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.co.in; s=s1024; t=1321589498; bh=wtJX/974uDv6pFq37w/gWwXVp3z3boWjV+3AdeP7A9A=; h=X-YMail-OSG:Received:X-Mailer:Message-ID:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=b+pH9yXCszGRYuZTLT+ld0/QqdFqgW4/CXC0DH+fe4o97i88YtEMZ7Gs1bD3OtubdhI9bME/8kx1GivOLN7gMeScGVkoR+Z2t/ZvUfaxCA6x9izqJvMD9Cs/S9AbAyAO4mw7vcmlm4tdO8S55aPHyFbR5XH7MkEG+XLQ2eNt82M=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.co.in; h=X-YMail-OSG:Received:X-Mailer:Message-ID:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=zPfbR/th/PDLkCcb7LPCSERIHjNMucJT5HJ4F3TtKoj+mlj5IIle9t5aDyF5OgjNah3rP1iovRmRMA1MUFnxi8mvk0nyUbIRD8pU1TW27gNhTm9yI1PCYUNWfBEXXTojVuqdxyvzR2XWAHBtcHLeRO4rutfNDOZ/esceHoK3XZQ=;
+X-YMail-OSG: c2vGKcAVM1kc1jtqno6o5rVpVW8Eb5TC34OovXD.ZcdjN.C d05X0U.MyOJFTJ6Bs4D_z4L3r4PAbe9NzeqDGtz8cxY1b7V36MhGliU87tyu YRuqxPBsW0VBPeW2t50dr3aRNVtECeinZ4QexHZIfdsoiepA1A.SE9tAF.g0 q93n2kJX7h3nXkkI3uWJ7LM49wZ._UFoKjYrSuB1IS1HUXuAUMJuATjMfwgt tw0.pU8aLZkDaIgc_toCzLPExIoEgCefnSoP1N3OaSM9YNsn8pblxdmlpZkO FETEoKNLyauQddqtoq.t1Hqa9d.4djuJZo.Ev9DZDRFW.4lkpilI8JyNFCv6 6TKmUdLBWV7g8T02iNGTgkidavAAfIWaHDMfANmuhbkabVgDmod4n28qo_hb d_1Gq1.N0JmcFXfAS04trbUrQu.YGA9ZtpE_cYt0SEWo-
+Received: from [119.226.167.186] by web95503.mail.in.yahoo.com via HTTP; Fri, 18 Nov 2011 09:41:38 IST
+X-Mailer: YahooMailWebService/0.8.115.325013
+Message-ID: <1321589498.68751.YahooMailNeo@web95503.mail.in.yahoo.com>
+Date: Fri, 18 Nov 2011 09:41:38 +0530 (IST)
+From: VARUN AGRAWAL <varun_swn@yahoo.co.in>
+To: "sip@ietf.org" <sip@ietf.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="-1215843336-1253283491-1321589498=:68751"
+Subject: [Sip] 101 dialog establishment/ambiguous
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+Reply-To: VARUN AGRAWAL <varun_swn@yahoo.co.in>
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Nov 2011 04:11:53 -0000
+
+---1215843336-1253283491-1321589498=:68751
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+hi,=0A=0Awhat is the functioning of 101 dialog establishment/ambiguous in S=
+IP message=0A=0Aregards,=0AVarun=0A
+---1215843336-1253283491-1321589498=:68751
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:ti=
+mes new roman, new york, times, serif;font-size:12pt"><div>hi,</div><div><b=
+r></div><div>what is the functioning of 101 dialog establishment/ambiguous =
+in SIP message</div><div><br></div><div>regards,</div><div>Varun</div></div=
+></body></html>
+---1215843336-1253283491-1321589498=:68751--
+
+From ibc@aliax.net  Thu Nov 17 23:11:44 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7DA1221F93F1 for <sip@ietfa.amsl.com>; Thu, 17 Nov 2011 23:11:44 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.639
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.639 tagged_above=-999 required=5 tests=[AWL=0.038,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 3PtmzNklw8nc for <sip@ietfa.amsl.com>; Thu, 17 Nov 2011 23:11:43 -0800 (PST)
+Received: from mail-vx0-f172.google.com (mail-vx0-f172.google.com [209.85.220.172]) by ietfa.amsl.com (Postfix) with ESMTP id 3547C21F93CF for <sip@ietf.org>; Thu, 17 Nov 2011 23:11:42 -0800 (PST)
+Received: by vcbfl15 with SMTP id fl15so3407822vcb.31 for <sip@ietf.org>; Thu, 17 Nov 2011 23:11:42 -0800 (PST)
+Received: by 10.220.214.73 with SMTP id gz9mr147096vcb.113.1321600301551; Thu, 17 Nov 2011 23:11:41 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.220.107.206 with HTTP; Thu, 17 Nov 2011 23:11:19 -0800 (PST)
+In-Reply-To: <1321589498.68751.YahooMailNeo@web95503.mail.in.yahoo.com>
+References: <1321589498.68751.YahooMailNeo@web95503.mail.in.yahoo.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+Date: Fri, 18 Nov 2011 08:11:19 +0100
+Message-ID: <CALiegfk1omGjdzxF04jAZCgRcZPhiwGzq15fGs=aC6taM28TuQ@mail.gmail.com>
+To: VARUN AGRAWAL <varun_swn@yahoo.co.in>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] 101 dialog establishment/ambiguous
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Nov 2011 07:11:44 -0000
+
+2011/11/18 VARUN AGRAWAL <varun_swn@yahoo.co.in>:
+> what is the functioning of 101 dialog establishment/ambiguous in SIP mess=
+age
+
+Such status code is not standarized:
+
+  http://www.iana.org/assignments/sip-parameters
+
+As I see, 101 status code is used by eXosip SIP stack:
+
+  http://www.atosc.org/pipermail/osip/2006-February/006305.html
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From lars.ruoff@alcatel-lucent.com  Fri Nov 18 00:22:21 2011
+Return-Path: <lars.ruoff@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8C7E321F8422 for <sip@ietfa.amsl.com>; Fri, 18 Nov 2011 00:22:21 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.838
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.838 tagged_above=-999 required=5 tests=[AWL=0.811,  BAYES_00=-2.599, HELO_EQ_FR=0.35, J_CHICKENPOX_18=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id okGx2DU2Cnhd for <sip@ietfa.amsl.com>; Fri, 18 Nov 2011 00:22:21 -0800 (PST)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by ietfa.amsl.com (Postfix) with ESMTP id C235621F83EF for <sip@ietf.org>; Fri, 18 Nov 2011 00:22:20 -0800 (PST)
+Received: from FRMRSSXCHHUB01.dc-m.alcatel-lucent.com (FRMRSSXCHHUB01.dc-m.alcatel-lucent.com [135.120.45.61]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id pAI8LXBQ006729 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT) for <sip@ietf.org>; Fri, 18 Nov 2011 09:22:18 +0100
+Received: from FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com ([135.120.45.34]) by FRMRSSXCHHUB01.dc-m.alcatel-lucent.com ([135.120.45.61]) with mapi; Fri, 18 Nov 2011 09:22:06 +0100
+From: "RUOFF, LARS (LARS)** CTR **" <lars.ruoff@alcatel-lucent.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Fri, 18 Nov 2011 09:22:05 +0100
+Thread-Topic: SDP telephone-event (DTMF) payload negotiation
+Thread-Index: AcylyygOSgt/xsgJQDKBLTulYTEkZQ==
+Message-ID: <23C6087F32FB3A43941E25922F87538E21E92EA810@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.69 on 155.132.188.80
+Subject: [Sip] SDP telephone-event (DTMF) payload negotiation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Nov 2011 08:22:21 -0000
+
+Hi all,
+
+New to this list. Apologies if this question has been asked many times befo=
+re (my searches showed that it has, but i was still unable to find a defini=
+tive answer).
+=20
+The question is about SDP telephone-event (DTMF) payload negotiation.
+=20
+Imagine the following call setup between A and B:
+INVITE A->B
+SDP:
+(among other media formats)
+a=3Dsendrecv
+a=3Drtpmap:101 telephone-event/8000
+=20
+200 OK B->A
+SDP:
+(among other media formats)
+a=3Dsendrecv
+a=3Drtpmap:97 telephone-event/8000
+=20
+The question is:
+Is the above legal? I.e. is B allowed to choose a different PT than propose=
+d y A.=20
+In case yes, what PT should the telephone-events be sent...
+from A to B?
+from B to A?
+=20
+Please corroborate your answers by providing normative references if possib=
+le.
+=20
+I studied RFC 3264 (SDP Offer/Answer Model) intensively, but could not conc=
+lude for a definitive answer in that particular case.
+
+Regards,
+Lars Ruoff
+
+From pkyzivat@alum.mit.edu  Fri Nov 18 04:04:13 2011
+Return-Path: <pkyzivat@alum.mit.edu>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 84DF921F8B21 for <sip@ietfa.amsl.com>; Fri, 18 Nov 2011 04:04:13 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.299 tagged_above=-999 required=5 tests=[AWL=-0.300, BAYES_00=-2.599, J_CHICKENPOX_18=0.6]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id cK350MMEQ7lJ for <sip@ietfa.amsl.com>; Fri, 18 Nov 2011 04:04:12 -0800 (PST)
+Received: from QMTA11.westchester.pa.mail.comcast.net (qmta11.westchester.pa.mail.comcast.net [76.96.59.211]) by ietfa.amsl.com (Postfix) with ESMTP id 89FC321F88AB for <sip@ietf.org>; Fri, 18 Nov 2011 04:04:12 -0800 (PST)
+Received: from omta16.westchester.pa.mail.comcast.net ([76.96.62.88]) by QMTA11.westchester.pa.mail.comcast.net with comcast id ybzX1h00A1uE5Es5Bc4DhE; Fri, 18 Nov 2011 12:04:13 +0000
+Received: from Paul-Kyzivats-MacBook-Pro.local ([203.69.99.17]) by omta16.westchester.pa.mail.comcast.net with comcast id yc421h0110NWYwj3cc46Jz; Fri, 18 Nov 2011 12:04:11 +0000
+Message-ID: <4EC649B2.8060605@alum.mit.edu>
+Date: Fri, 18 Nov 2011 20:04:02 +0800
+From: Paul Kyzivat <pkyzivat@alum.mit.edu>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:8.0) Gecko/20111105 Thunderbird/8.0
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <23C6087F32FB3A43941E25922F87538E21E92EA810@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com>
+In-Reply-To: <23C6087F32FB3A43941E25922F87538E21E92EA810@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: Re: [Sip] SDP telephone-event (DTMF) payload negotiation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Nov 2011 12:04:13 -0000
+
+On 11/18/11 4:22 PM, RUOFF, LARS (LARS)** CTR ** wrote:
+> Hi all,
+>
+> New to this list. Apologies if this question has been asked many times before (my searches showed that it has, but i was still unable to find a definitive answer).
+>
+> The question is about SDP telephone-event (DTMF) payload negotiation.
+>
+> Imagine the following call setup between A and B:
+> INVITE A->B
+> SDP:
+> (among other media formats)
+> a=sendrecv
+> a=rtpmap:101 telephone-event/8000
+>
+> 200 OK B->A
+> SDP:
+> (among other media formats)
+> a=sendrecv
+> a=rtpmap:97 telephone-event/8000
+>
+> The question is:
+> Is the above legal? I.e. is B allowed to choose a different PT than proposed y A.
+> In case yes, what PT should the telephone-events be sent...
+> from A to B?
+> from B to A?
+>
+> Please corroborate your answers by providing normative references if possible.
+>
+> I studied RFC 3264 (SDP Offer/Answer Model) intensively, but could not conclude for a definitive answer in that particular case.
+
+ From section 6.1:
+
+    In the case of RTP, if a particular codec was referenced with a
+    specific payload type number in the offer, that same payload type
+    number SHOULD be used for that codec in the answer.  Even if the same
+    payload type number is used, the answer MUST contain rtpmap
+    attributes to define the payload type mappings for dynamic payload
+    types, and SHOULD contain mappings for static payload types.  The
+    media formats in the "m=" line MUST be listed in order of preference,
+    with the first format listed being preferred.  In this case,
+    preferred means that the offerer SHOULD use the format with the
+    highest preference from the answer.
+...
+    Once the answerer has sent the answer, it MUST be prepared to receive
+    media for any recvonly streams described by that answer.  It MUST be
+    prepared to send and receive media for any sendrecv streams in the
+    answer, and it MAY send media immediately.  The answerer MUST be
+    prepared to receive media for recvonly or sendrecv streams using any
+    media formats listed for those streams in the answer, and it MAY send
+    media immediately.  When sending media, it SHOULD use a packetization
+    interval equal to the value of the ptime attribute in the offer, if
+    any was present.  It SHOULD send media using a bandwidth no higher
+    than the value of the bandwidth attribute in the offer, if any was
+    present.  The answerer MUST send using a media format in the offer
+    that is also listed in the answer, and SHOULD send using the most
+    preferred media format in the offer that is also listed in the
+    answer.  In the case of RTP, it MUST use the payload type numbers
+    from the offer, even if they differ from those in the answer.
+
+ From section 7:
+
+    When the offerer receives the answer, it MAY send media on the
+    accepted stream(s) (assuming it is listed as sendrecv or recvonly in
+    the answer).  It MUST send using a media format listed in the answer,
+
+ From the above, "the same payload type number SHOULD be used", so its 
+possible that a different payload type is used. And if so,
+
+- the answerer must send with the pt listed in the offer
+- the offerer must send with a media format listed in the answer
+
+It doesn't quite say that the offerer must send with a pt listed in the 
+answer, but its clear for consistency that it should. That is widely 
+understood to be the intent.
+
+	Thanks,
+	Paul
+
+From lars.ruoff@alcatel-lucent.com  Tue Nov 22 02:26:13 2011
+Return-Path: <lars.ruoff@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D17E821F8DA4 for <sip@ietfa.amsl.com>; Tue, 22 Nov 2011 02:26:13 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.244
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.244 tagged_above=-999 required=5 tests=[AWL=0.405,  BAYES_00=-2.599, HELO_EQ_FR=0.35, J_CHICKENPOX_18=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 9oaR138Xbn6w for <sip@ietfa.amsl.com>; Tue, 22 Nov 2011 02:26:10 -0800 (PST)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by ietfa.amsl.com (Postfix) with ESMTP id 7323521F8D73 for <sip@ietf.org>; Tue, 22 Nov 2011 02:26:08 -0800 (PST)
+Received: from FRMRSSXCHHUB04.dc-m.alcatel-lucent.com (FRMRSSXCHHUB04.dc-m.alcatel-lucent.com [135.120.45.64]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id pAMAGwk3015387 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT) for <sip@ietf.org>; Tue, 22 Nov 2011 11:26:02 +0100
+Received: from FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com ([135.120.45.34]) by FRMRSSXCHHUB04.dc-m.alcatel-lucent.com ([135.120.45.64]) with mapi; Tue, 22 Nov 2011 11:25:12 +0100
+From: "RUOFF, LARS (LARS)** CTR **" <lars.ruoff@alcatel-lucent.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Tue, 22 Nov 2011 11:25:11 +0100
+Thread-Topic: [Sip] SDP telephone-event (DTMF) payload negotiation
+Thread-Index: Acyl6jhQNiVDI2sNSLWOGQ8eS077IQDFkJbw
+Message-ID: <23C6087F32FB3A43941E25922F87538E21E933C567@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com>
+References: <23C6087F32FB3A43941E25922F87538E21E92EA810@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com> <4EC649B2.8060605@alum.mit.edu>
+In-Reply-To: <4EC649B2.8060605@alum.mit.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.69 on 155.132.188.80
+Subject: Re: [Sip] SDP telephone-event (DTMF) payload negotiation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 22 Nov 2011 10:26:13 -0000
+
+Thanks, Paul.
+
+> It doesn't quite say that the offerer must send with a pt listed in the a=
+nswer, but its clear for consistency that it should. That is widely underst=
+ood to be the intent.
+
+That's how I understood it, too. But it seems that opinions diverge on this=
+.
+Maybe the RFC authors should insist on the above a bit more explicitely.
+
+Regards,
+Lars
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of Paul =
+Kyzivat
+Sent: vendredi 18 novembre 2011 13:04
+To: sip@ietf.org
+Subject: Re: [Sip] SDP telephone-event (DTMF) payload negotiation
+
+On 11/18/11 4:22 PM, RUOFF, LARS (LARS)** CTR ** wrote:
+> Hi all,
+>
+> New to this list. Apologies if this question has been asked many times be=
+fore (my searches showed that it has, but i was still unable to find a defi=
+nitive answer).
+>
+> The question is about SDP telephone-event (DTMF) payload negotiation.
+>
+> Imagine the following call setup between A and B:
+> INVITE A->B
+> SDP:
+> (among other media formats)
+> a=3Dsendrecv
+> a=3Drtpmap:101 telephone-event/8000
+>
+> 200 OK B->A
+> SDP:
+> (among other media formats)
+> a=3Dsendrecv
+> a=3Drtpmap:97 telephone-event/8000
+>
+> The question is:
+> Is the above legal? I.e. is B allowed to choose a different PT than propo=
+sed y A.
+> In case yes, what PT should the telephone-events be sent...
+> from A to B?
+> from B to A?
+>
+> Please corroborate your answers by providing normative references if poss=
+ible.
+>
+> I studied RFC 3264 (SDP Offer/Answer Model) intensively, but could not co=
+nclude for a definitive answer in that particular case.
+
+ From section 6.1:
+
+    In the case of RTP, if a particular codec was referenced with a
+    specific payload type number in the offer, that same payload type
+    number SHOULD be used for that codec in the answer.  Even if the same
+    payload type number is used, the answer MUST contain rtpmap
+    attributes to define the payload type mappings for dynamic payload
+    types, and SHOULD contain mappings for static payload types.  The
+    media formats in the "m=3D" line MUST be listed in order of preference,
+    with the first format listed being preferred.  In this case,
+    preferred means that the offerer SHOULD use the format with the
+    highest preference from the answer.
+...
+    Once the answerer has sent the answer, it MUST be prepared to receive
+    media for any recvonly streams described by that answer.  It MUST be
+    prepared to send and receive media for any sendrecv streams in the
+    answer, and it MAY send media immediately.  The answerer MUST be
+    prepared to receive media for recvonly or sendrecv streams using any
+    media formats listed for those streams in the answer, and it MAY send
+    media immediately.  When sending media, it SHOULD use a packetization
+    interval equal to the value of the ptime attribute in the offer, if
+    any was present.  It SHOULD send media using a bandwidth no higher
+    than the value of the bandwidth attribute in the offer, if any was
+    present.  The answerer MUST send using a media format in the offer
+    that is also listed in the answer, and SHOULD send using the most
+    preferred media format in the offer that is also listed in the
+    answer.  In the case of RTP, it MUST use the payload type numbers
+    from the offer, even if they differ from those in the answer.
+
+ From section 7:
+
+    When the offerer receives the answer, it MAY send media on the
+    accepted stream(s) (assuming it is listed as sendrecv or recvonly in
+    the answer).  It MUST send using a media format listed in the answer,
+
+ From the above, "the same payload type number SHOULD be used", so its poss=
+ible that a different payload type is used. And if so,
+
+- the answerer must send with the pt listed in the offer
+- the offerer must send with a media format listed in the answer
+
+It doesn't quite say that the offerer must send with a pt listed in the ans=
+wer, but its clear for consistency that it should. That is widely understoo=
+d to be the intent.
+
+	Thanks,
+	Paul
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is essentially closed and only used for finishing old business.
+Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP =
+implementation.
+Use dispatch@ietf.org for new developments on the application of sip.
+Use sipcore@ietf.org for issues related to maintenance of the core SIP spec=
+ifications.
+
+From pkyzivat@alum.mit.edu  Wed Nov 23 09:36:33 2011
+Return-Path: <pkyzivat@alum.mit.edu>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6581111E80B1 for <sip@ietfa.amsl.com>; Wed, 23 Nov 2011 09:36:33 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.133
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.133 tagged_above=-999 required=5 tests=[AWL=-0.134, BAYES_00=-2.599, J_CHICKENPOX_18=0.6]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DyHvzH-T2+d1 for <sip@ietfa.amsl.com>; Wed, 23 Nov 2011 09:36:32 -0800 (PST)
+Received: from qmta13.westchester.pa.mail.comcast.net (qmta13.westchester.pa.mail.comcast.net [76.96.59.243]) by ietfa.amsl.com (Postfix) with ESMTP id 3AC7C11E80A5 for <sip@ietf.org>; Wed, 23 Nov 2011 09:36:32 -0800 (PST)
+Received: from omta13.westchester.pa.mail.comcast.net ([76.96.62.52]) by qmta13.westchester.pa.mail.comcast.net with comcast id 0hFh1i00217dt5G5DhcYK3; Wed, 23 Nov 2011 17:36:32 +0000
+Received: from Paul-Kyzivats-MacBook-Pro.local ([24.62.229.5]) by omta13.westchester.pa.mail.comcast.net with comcast id 0hcY1i00G07duvL3ZhcYhq; Wed, 23 Nov 2011 17:36:32 +0000
+Message-ID: <4ECD2F23.3050309@alum.mit.edu>
+Date: Thu, 24 Nov 2011 01:36:35 +0800
+From: Paul Kyzivat <pkyzivat@alum.mit.edu>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:8.0) Gecko/20111105 Thunderbird/8.0
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <23C6087F32FB3A43941E25922F87538E21E92EA810@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com> <4EC649B2.8060605@alum.mit.edu> <23C6087F32FB3A43941E25922F87538E21E933C567@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com>
+In-Reply-To: <23C6087F32FB3A43941E25922F87538E21E933C567@FRMRSSXCHMBSA2.dc-m.alcatel-lucent.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: Re: [Sip] SDP telephone-event (DTMF) payload negotiation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Nov 2011 17:36:33 -0000
+
+On 11/22/11 6:25 PM, RUOFF, LARS (LARS)** CTR ** wrote:
+> Thanks, Paul.
+>
+>> It doesn't quite say that the offerer must send with a pt listed in the answer, but its clear for consistency that it should. That is widely understood to be the intent.
+>
+> That's how I understood it, too. But it seems that opinions diverge on this.
+> Maybe the RFC authors should insist on the above a bit more explicitely.
+
+In retrospect, yes. But the RFC has been published already.
+You can file an errata report. That will probably be queued pending a 
+revision to the RFC.
+
+	Thanks,
+	Paul
+
+> Regards,
+> Lars
+>
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of Paul Kyzivat
+> Sent: vendredi 18 novembre 2011 13:04
+> To: sip@ietf.org
+> Subject: Re: [Sip] SDP telephone-event (DTMF) payload negotiation
+>
+> On 11/18/11 4:22 PM, RUOFF, LARS (LARS)** CTR ** wrote:
+>> Hi all,
+>>
+>> New to this list. Apologies if this question has been asked many times before (my searches showed that it has, but i was still unable to find a definitive answer).
+>>
+>> The question is about SDP telephone-event (DTMF) payload negotiation.
+>>
+>> Imagine the following call setup between A and B:
+>> INVITE A->B
+>> SDP:
+>> (among other media formats)
+>> a=sendrecv
+>> a=rtpmap:101 telephone-event/8000
+>>
+>> 200 OK B->A
+>> SDP:
+>> (among other media formats)
+>> a=sendrecv
+>> a=rtpmap:97 telephone-event/8000
+>>
+>> The question is:
+>> Is the above legal? I.e. is B allowed to choose a different PT than proposed y A.
+>> In case yes, what PT should the telephone-events be sent...
+>> from A to B?
+>> from B to A?
+>>
+>> Please corroborate your answers by providing normative references if possible.
+>>
+>> I studied RFC 3264 (SDP Offer/Answer Model) intensively, but could not conclude for a definitive answer in that particular case.
+>
+>    From section 6.1:
+>
+>      In the case of RTP, if a particular codec was referenced with a
+>      specific payload type number in the offer, that same payload type
+>      number SHOULD be used for that codec in the answer.  Even if the same
+>      payload type number is used, the answer MUST contain rtpmap
+>      attributes to define the payload type mappings for dynamic payload
+>      types, and SHOULD contain mappings for static payload types.  The
+>      media formats in the "m=" line MUST be listed in order of preference,
+>      with the first format listed being preferred.  In this case,
+>      preferred means that the offerer SHOULD use the format with the
+>      highest preference from the answer.
+> ...
+>      Once the answerer has sent the answer, it MUST be prepared to receive
+>      media for any recvonly streams described by that answer.  It MUST be
+>      prepared to send and receive media for any sendrecv streams in the
+>      answer, and it MAY send media immediately.  The answerer MUST be
+>      prepared to receive media for recvonly or sendrecv streams using any
+>      media formats listed for those streams in the answer, and it MAY send
+>      media immediately.  When sending media, it SHOULD use a packetization
+>      interval equal to the value of the ptime attribute in the offer, if
+>      any was present.  It SHOULD send media using a bandwidth no higher
+>      than the value of the bandwidth attribute in the offer, if any was
+>      present.  The answerer MUST send using a media format in the offer
+>      that is also listed in the answer, and SHOULD send using the most
+>      preferred media format in the offer that is also listed in the
+>      answer.  In the case of RTP, it MUST use the payload type numbers
+>      from the offer, even if they differ from those in the answer.
+>
+>   From section 7:
+>
+>      When the offerer receives the answer, it MAY send media on the
+>      accepted stream(s) (assuming it is listed as sendrecv or recvonly in
+>      the answer).  It MUST send using a media format listed in the answer,
+>
+>   From the above, "the same payload type number SHOULD be used", so its possible that a different payload type is used. And if so,
+>
+> - the answerer must send with the pt listed in the offer
+> - the offerer must send with a media format listed in the answer
+>
+> It doesn't quite say that the offerer must send with a pt listed in the answer, but its clear for consistency that it should. That is widely understood to be the intent.
+>
+> 	Thanks,
+> 	Paul
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP specifications.
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP specifications.
+>
+
+
+From javi@trajano.us.es  Wed Nov 30 09:59:04 2011
+Return-Path: <javi@trajano.us.es>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3093D11E807F for <sip@ietfa.amsl.com>; Wed, 30 Nov 2011 09:59:04 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.119
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.119 tagged_above=-999 required=5 tests=[AWL=0.180,  BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id M5ZUadnoxR3u for <sip@ietfa.amsl.com>; Wed, 30 Nov 2011 09:59:03 -0800 (PST)
+Received: from mail.us.es (mail.us.es [193.147.175.20]) by ietfa.amsl.com (Postfix) with ESMTP id 324CA1F0C4D for <sip@ietf.org>; Wed, 30 Nov 2011 09:59:03 -0800 (PST)
+Received: (qmail 7499 invoked from network); 30 Nov 2011 18:59:02 +0100
+Received: from unknown (HELO us.es) (192.168.2.13) by us.es with SMTP; 30 Nov 2011 18:59:02 +0100
+Received: (qmail 19962 invoked by uid 507); 30 Nov 2011 17:59:01 -0000
+Received: from 127.0.0.1 by antivirus3 (envelope-from <javi@trajano.us.es>, uid 501) with qmail-scanner-2.08 (clamdscan: 0.97.3/14042.   Clear:RC:1(127.0.0.1):.  Processed in 0.03139 secs); 30 Nov 2011 17:59:01 -0000
+Received: from unknown (HELO antivirus3) (127.0.0.1) by us.es with SMTP; 30 Nov 2011 17:59:00 -0000
+Received: from 192.168.1.13 (192.168.1.13) by antivirus3 (F-Secure/fsigk_smtp/406/antivirus3); Wed, 30 Nov 2011 18:59:00 +0100 (CET)
+X-Virus-Status: clean(F-Secure/fsigk_smtp/406/antivirus3)
+Received: (qmail 9550 invoked from network); 30 Nov 2011 18:59:00 +0100
+Received: from trajano.us.es (193.147.162.130) by us.es with AES256-SHA encrypted SMTP; 30 Nov 2011 18:59:00 +0100
+Received: from [193.147.162.138] (adriano.us.es [193.147.162.138]) (authenticated bits=0) by trajano.us.es (8.13.8/8.13.8/Debian-3) with ESMTP id pAUHx0RC029756 (version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=NOT) for <sip@ietf.org>; Wed, 30 Nov 2011 18:59:00 +0100
+Message-ID: <4ED66EFC.2020905@trajano.us.es>
+Date: Wed, 30 Nov 2011 18:59:24 +0100
+From: =?ISO-8859-1?Q?Javi_Mu=F1oz?= <javi@trajano.us.es>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; es-ES; rv:1.9.2.24) Gecko/20111103 Thunderbird/3.1.16
+MIME-Version: 1.0
+To: sip@ietf.org
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: [Sip] ISDN/SIP interworking [ETSI TS 183 036]
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 30 Nov 2011 17:59:04 -0000
+
+Three questions about it:
+
+(a) ISDN/SIP interworking spec [ETSI TS 183 036] proposes that in the 
+Q.931/SIP interworking, some EIs Q.931 are codec to SDP and/or inserted 
+in the SIP body as a PSTN XML element.
+Under what criteria, an Q.931 EI should be?:
+
+(1) Coding to SDP
+
+AND / OR  (this is also important)
+
+(2) Inserted in the SIP body as a PSTN XML element
+
+or
+
+(3) Coding to the URI SIP or and SIP header
+
+or
+
+(4) None (only interpreted by the AGW, without being carried over SIP)
+
+
+
+(b) Why does [ETSI TS 183 036]define the mapping of the IE "User to 
+user" to the SIP header User-to-User [draft-johnston-sipping-cc-uui-09], 
+instead of transporting it over an PSTN XML element? (the IE "User to 
+user" must be transported transparently by the nerwork)
+
+
+
+(c) Although as optional, [ETSI TS 183 036]defines the coding to SDP of 
+the "High Layer Characteristics Identification" field of the IE 
+HLC[Q.931].According to Q.931, this EI HLC should be used by the 
+end-to-end terminals, not by the LEs (or AGWs in NGN). Then:
+(1) Why this SDP coding?
+(2) And why is it optional?
+
+Regards,
+
+Javi

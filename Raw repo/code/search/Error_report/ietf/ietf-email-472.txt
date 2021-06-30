@@ -1,0 +1,168 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-01.mailcl']
+id : 54ac4aad-3cd0-4c43-a07f-9f7a345d0b82
+_version_ : 1675130256379346945
+
+Content : 
+
+Message- of course. But I hope 
+> everyone already knows that.
+Right... my point here is that metrics are often eye opening -- for all
+parties concerned. Even somewhat flawed and subjective metrics, so
+long as they are taken with the proper grains of salt. My sense is that
+if we did things like track DISCUSSes, time to resolution, length of
+DISCUSS in proportion to, oh say, the length of the draft or oh say
+the amount of time the working group took to get it to the IESG it
+might frame some of these debates in something resembling reality.
+Or as my initial suggestion about tracking whether these DISCUSS's
+are paying off when you factor in that all engineering is a tradeoff.
+As in, how do we know if the process is working? How do we know
+if the angst from us non-IESG folk about delay is justified, or would
+it have better spent trying impose discipline on the working group?
+
+I guess I'm just a gprof kind 'o guy.
+
+       Mike
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+
+
+
+
+ID: <459F0220.8070402@cisco.com>
+Date: Fri, 05 Jan 2007 17:57:52 -0800
+From: Michael Thomas <mat@cisco.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US;
+	rv:1.8.0.8) Gecko/20061025 Thunderbird/1.5.0.8 Mnenhy/0.7.4.666
+MIME-Version: 1.0
+To: Spencer Dawkins <spencer@mcsr-labs.org>
+References: <198A730C2044DE4A96749D13E167AD3701059DB3@MOU1WNEXMB04.vcorp.ad.vrsn.com><45968121.3030202@cisco.com><0D625288D522806BB58FF67E@[192.168.1.110]><459719D3.7000509@cisco.com>	<459BC468.109@zurich.ibm.com><459E930E.2080405@cisco.com>	<9F2260C2B535ABE80D7C06A9@p3.JCK.COM>
+	<03b201c7310a$306ef300$6a01a8c0@china.huawei.com>
+In-Reply-To: <03b201c7310a$306ef300$6a01a8c0@china.huawei.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+DKIM-Signature: v=0.5; a=rsa-sha256; q=dns/txt; l=3084; t=1168048623;
+	x=1168912623; c=relaxed/simple; s=sjdkim1002;
+	h=Content-Type:From:Subject:Content-Transfer-Encoding:MIME-Version;
+	d=cisco.com; i=mat@cisco.com;
+	z=From:=20Michael=20Thomas=20<mat@cisco.com>
+	|Subject:=20Re=3A=20IESG=20Success=20Stories |Sender:=20;
+	bh=zkxyQmWKsuc4W3nS1/di8owtFCXoS62tkdGbkn8JGic=;
+	b=I69/rq4G8fh5AyNiFUb/I2/4/VIarzRqZCIOvuHK6EQMAhSm+Ppioc8clqKn1FAHFjcBH1uO
+	RF+YW+fjnBzS94T0vY9ow+FjodnCUQM+YUiKKG9piRWFMAAI8CywvA5P;
+Authentication-Results: sj-dkim-1; header.From=mat@cisco.com; dkim=pass (sig
+	from cisco.com/sjdkim1002 verified; ); 
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 02ec665d00de228c50c93ed6b5e4fc1a
+Cc: ietf@ietf.org
+Subject: Re: IESG Success Stories
+X-BeenThere: ietf@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: IETF-Discussion <ietf.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ietf@ietf.org>
+List-Help: <mailto:ietf-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=subscribe>
+Errors-To: ietf-bounces@ietf.org
+
+Spencer Dawkins wrote:
+> I strongly agree with John's reasoning here. But please keep reading...
+
+[]
+
+I really didn't want to take this off on this well trod tangent because
+it was... pretty much a tangent. And I definitely didn't mean this turn
+into some sort of grudgathon  :)
+> Now, backing off a few billion nanometers, When Michael kicked off 
+> this thread, his posting began:
+>
+>> So what occurs to me is that a reasonable question to ask is whether
+>> there are some legitimate success stories where a DISCUSS has actually
+>> found big or reasonably big problems with a protocol that would have
+>> wreaked havoc had they not been caught. I ask because ...
+>
+> My impression is that drafts that capture experience with IETF working 
+> group dynamics are painful and useful (thinking specifically of the 
+> case studies in the draft that became 
+> http://www.ietf.org/rfc/rfc3669.txt). I think Michael's question is 
+> important enough to answer. I think I can think of some examples where 
+> the answer is "yes", but this isn't about what *I* think, it's about 
+> what our experience has been.
+>
+> Do other people think that collecting DISCUSS success stories is helpful?
+>
+> I have two points to add -
+>
+> - Michael asked specifically about SUCCESS stories. The level of 
+> cynicism in the circles I run being sufficiently high, I'm asking 
+> about the same thing Michael is asking about, where "success" matches 
+> the dictionary definition.
+>
+> - if people want to collect DISCUSS "success" stories, of the more 
+> ironic nature, I ask that we do this, going forward, and not looking 
+> backward. Depending on how you count Jon Peterson, we seated new ADs 
+> for almost half the IESG last year, and we know that we will pick up 
+> at least a few more new ADs this year, because some people have 
+> already said they will not return. We don't need to replay 30 years of 
+> history, and even going back to the beginning of ID tracker use would 
+> be less than helpful.
+>
+> If you have relevant deep dirt from the recent past, please feel free 
+> to file recalls and provide NomCom input, of course. But I hope 
+> everyone already knows that.
+Right... my point here is that metrics are often eye opening -- for all
+parties concerned. Even somewhat flawed and subjective metrics, so
+long as they are taken with the proper grains of salt. My sense is that
+if we did things like track DISCUSSes, time to resolution, length of
+DISCUSS in proportion to, oh say, the length of the draft or oh say
+the amount of time the working group took to get it to the IESG it
+might frame some of these debates in something resembling reality.
+Or as my initial suggestion about tracking whether these DISCUSS's
+are paying off when you factor in that all engineering is a tradeoff.
+As in, how do we know if the process is working? How do we know
+if the angst from us non-IESG folk about delay is justified, or would
+it have better spent trying impose discipline on the working group?
+
+I guess I'm just a gprof kind 'o guy.
+
+       Mike
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+
+
+

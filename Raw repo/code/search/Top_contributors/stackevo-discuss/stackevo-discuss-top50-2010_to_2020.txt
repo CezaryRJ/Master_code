@@ -1,0 +1,23 @@
+2010 TO 2020
+-------#####------->    stackevo-discuss
+touch@isi.edu 13
+ietf@trammell.ch 9
+michawe@ifi.uio.no 9
+tom@herbertland.com 8
+Dirk.Kutscher@neclab.eu 6
+farinacci@gmail.com 5
+Peter.AshwoodSmith@huawei.com 4
+linda.dunbar@huawei.com 3
+Bill.Gage@huawei.com 2
+jon.crowcroft@cl.cam.ac.uk 2
+nishanth.sastry@kcl.ac.uk 2
+Jon.Crowcroft@cl.cam.ac.uk 1
+Szilveszter.Nadas@ericsson.com 1
+alexandre.petrescu@gmail.com 1
+dave.taht@gmail.com 1
+david.taht@kau.se 1
+diego.r.lopez@telefonica.com 1
+dthaler@microsoft.com 1
+ingemar.s.johansson@ericsson.com 1
+theodore.v.faber@aero.org 1
+xavier.marjou@orange.com 1

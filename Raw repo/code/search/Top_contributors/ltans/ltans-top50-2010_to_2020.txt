@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    ltans
+tobias.gondrom@gondrom.org 15
+tglassey@earthlink.net 13
+Internet-Drafts@ietf.org 9
+aljosa@setcce.si 7
+CWallace@cygnacom.com 6
+carl@redhoundsoftware.com 5
+denis.pinkas@bull.net 5
+hallam@gmail.com 5
+isler@keyon.ch 5
+peter.sylvester@edelweb.fr 4
+tgondrom@gmx.net 4
+glen.vermeylen@gmail.com 3
+iesg-secretary@ietf.org 3
+istvan.berta@microsec.hu 3
+turners@ieca.com 2
+vigil@cdc.informatik.tu-darmstadt.de 2
+Vincent.Bouckaert@arhs-spikeseed.com 1
+andreas.menke@openlimit.com 1
+arm@um.es 1
+carlos.cadena@economia.gob.mx 1
+ejvn@sonnenglanz.net 1
+liaquat.khan@ascertia.com 1
+rfc-editor@rfc-editor.org 1
+richard.hughes@credoc.be 1

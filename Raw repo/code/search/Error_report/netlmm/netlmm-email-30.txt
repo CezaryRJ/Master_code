@@ -1,0 +1,109 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : netlmm
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/netlmm/2006-10.mailcl']
+id : 0d6cd056-1d8c-49ca-bb0e-86e16a907b50
+_version_ : 1675129932753141760
+
+Content : 
+
+> provide an explanation of why a PMIP-like solution was not chosen as
+the
+> network-mobility protocol. The answer that "the DT deliberated it and
+> decided against it" is unacceptable. Clearly, the folks outside the DT
+> have no visibility to this. And, having talked to folks from the DT,
+I'm
+> still not clear on the reasons.
+>=20
+> I think this is the responsibility of the DT to prove to the rest of
+the
+> community why the solution chosen best satisfies the requirement for
+> network-based mobility.
+>=20
+> Regards,
+> Vidya
+>=20
+> > -----Original Message-----
+> > From: Soliman, Hesham
+> > Sent: Friday, October 27, 2006 9:04 AM
+> > To: Basavaraj Patil; ext James Kempf; Phil Roberts;
+> > Narayanan, Vidya; netlmm@ietf.org
+> > Subject: RE: [netlmm] Network-based mobility - NETLMM DT
+> > Solution VsAsolutionbased on MIP6
+> >
+> >
+> >  > I don't think that there is much to be gained by doing a
+> > > comparison of the  > NETLMM DT protocol solution vs "pure
+> > PMIP solution". This is  > not a question  > of whether one
+> > protocol is better suited or superior in  > terms or
+> > performance  > or simple etc. I am not commenting in any way
+> > about the use  > of the mobility  > header to implement the
+> > NETLMM protocol here, but rather  > presenting another  >
+> > view about NETLMM and PMIP6.
+> >  > Given that the IETFs mainstream solution for IPv6 mobility
+> >  > is MIP6 (I hope  > we are not going to get into a debate
+> > about this statement  > :) ), there is or  > may be a desire
+> > by either SDOs or operators considering  > deployment of MIP6
+> >  > to also have the capability to use the same infrastructure
+> > (HA and  > associated AAA) for hosts that do not have MIP6
+> > capability or for  > transparently supporting mobility for
+> > IPv6 hosts (for  > whatever reason such  > transparent
+> > mobility is needed).
+> >
+> > =3D> I completely agree with Raj. Let's save the excitement,
+> > there isn't going to be any significant performance
+> > differences between the the netlmm protocol and the
+> > "hypothetical" PMIPv6 protocol. Think about it from a
+> > simulation point of view, there is not difference. The
+> > difference comes from the ability to reuse MIPv6
+> > infrastructure and its extensions, in a seamless manner.
+> >
+> >  >
+> >  > So instead of a prolonged discussion about the (de)merits
+> > of  > NETLMM and  > PMIP, we should maybe consider that the
+> > IETF standardize  > both and let the  > industry pick and
+> > choose which protocol makes sense in a  > certain deployment
+> >
+> > =3D> It would be preferrable to do one protocol. But before we
+> > even decide on this, why can't the netlmm WG (DT, chairs
+> > ...etc) explain the reasons for not choosing PMIP and we can
+> > at least use that as a starting point for the discussion of
+> > whether we should do 1 or 2 protocols. I find it counter
+> > intuitive to simply ignore PMIP as a viable option. That is,
+> > unless I missed some explanations that were already
+> > documented somewhere.
+> >
+> > Hesham
+> >
+
+_______________________________________________
+netlmm mailing list
+netlmm@ietf.org
+https://www1.ietf.org/mailman/listinfo/netlmm
+
+_______________________________________________
+netlmm mailing list
+netlmm@ietf.org
+https://www1.ietf.org/mailman/listinfo/netlmm

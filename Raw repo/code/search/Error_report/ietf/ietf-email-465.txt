@@ -1,0 +1,156 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2004-02.mailcl']
+id : 266a09d5-b5a0-41f2-875f-899209009b31
+_version_ : 1675130242860056577
+
+Content : 
+
+The mail originates from an anonymous client on an unregistered network
+and is sent to one of the spam-oozing pustules on the internet where
+anybody can get an email account in seconds and abuse it for minutes,
+and then throw it away.  It has a forged from and return path (ones that
+clearly bear no resemblance to the originating more or less open yahoo
+proxy).  It is also OTHERWISE identified as spam -- this particular
+message has a spam level of 24.6 (5 required for ~0.01% false positive).
+
+It should be (and was, until now:-) rejected unread and without tainting
+the human mind.  It should NOT generate a bounce message, as a bounce is
+utterly pointless and will actually create a "reverberation" as
+bobby20@earthlink.net is doubtless not a valid address any more (it is
+in multiple blacklists) and the earthlink.net MTA will undoubtedly
+generate a second bounce of your bounce or harrass the hapless user
+bobby20 whose fraternity brothers thought that they'd prank him as a
+nerd.
+
+Going through my spam reject spool (and this is a REAL reject spool,
+filled with current messages like the one above from this very morning)
+I have a very hard time finding a single message for which a bounce is
+appropriate.  "Real" vendor mail (even mass mail) has a from address and
+delivery path that correspond and other things of that ilk such that
+sure, a bounce would work but for a real vendor mailing, even a mass
+mailing, a bounce isn't really necessary.  They will generally have the
+required-by-law unsubscribe at the bottom, and will generally honor it
+if you unsubscribe.  They MAY remarket your email address if you
+unsubscribe.  With SA you are free to /dev/null their message and let
+them continue to waste their resources talking to the hand or you can
+actively unsubscribe.  A bounce message might or might not serve to get
+you unsubscribed.  Finally, I shudder when I think of bounces of any
+sort that make it through lists.  They drive me nuts on the beowulf list
+although they frequently ARE caught -- some come "from" a whitelisted
+user.
+
+Overall, it boils down to a question of degree of specificity, utility,
+and statistics.  Numbers, I truly do love them.  Looking at my own
+admittedly anecdotal numbers (although I'm pleasantly exposed to a
+horrifically wide range of spam as I seem to be in a few thousand
+address books of complete strangers and have a middling large web
+presence, so my anecdotal numbers are actually probably not a terrible
+sample), a "blind" MTA bounce of spam is more or less totally useless as
+not 1 bounce message in 100 will actually go back to the originator.
+1% efficiency is a joke.
+
+SO, if y'all really want to push MTA-side bounces:
+
+  a) Use one of the very good MUA-side sorters such as spamassassin for
+a few months and accumulate a nice, fat spool full of presumptive spam.
+Do this with a few hundred volunteers, actually to get better
+statistics.
+
+  b) Sort out the message headers into malformed and not in some way
+that leads you to believe that there is nobody home at the return
+addresses of the malformed.  Go ahead, test the return addresses to be
+sure!  Just do it from YOUR account and not mine...:-).  
+
+  c) Email the well-formed header return addresses as well.  For yuks,
+do so from a new, pristine email address (one that is in NOBODY'S lists)
+and measure the time required for the new address to appear in new spam.
+For even more yuks, generate an email address for each reply and get
+per-return statistics on same.
+
+  d) Determine the statistics from the data.  What is the probability
+that a bounce will reach the human or even the organization that
+originated the spam?  What is the probability of nucleating ten new
+messages from new spammers per bounce (even bounce) reply or
+unsubscribe?
+
+THEN you can do two things:  Propose an MTA bounce with a proper
+foundation, and propose that foundation.  Presumably it will be one that
+does NOT bounce to pretty much the entire class of spam with malformed
+headers and may have other rules that you discover by sorting through
+all the patterns -- spamassassin gives you a very DETAILED breakdown of
+the rules and results used to tag a message spam, so you can actually
+look for very subtle multivariate correlates if you want to do a
+thorough job.
+
+I personally am a great believer in the central limit theorem, and in
+spite of possible biases in my limited sample I suspect that it is
+actually very likely highly representative of the current profile of
+spam today.  On the basis of my own sample, it is not WORTH it to winnow
+out the one message in 10 (to be generous) or more likely one message in
+100 (to be realistic) that might, and I say might, make it back to an
+originating human.  It definitely isn't worth my own time to try "hand
+bouncing" lots of messages to validate my anecdotal impressions.
+
+So there's the gauntlet.  You propose that bounces are important.  Are
+they important enough to justify bouncing 9 messages out of 10 to false
+return addresses?  How about 99 messages out of 100?  You propose that
+bounces will be effective.  Well, starting with a 1% to 10% MAXIMUM
+success rate off the top you can't be VERY effective...:-) Perhaps
+you'll be effective in warning the even smaller percentage (one that
+depends on rejection threshold, to be sure) of false positives that
+their message didn't get through.  Here is where one has to look hard at
+the cost benefit equation.  Given the above first-approximation
+statistics, IS it worth the very substantial costs in misdirected and
+useless bounces to catch that small and controllable percentage of false
+positives?  If you disagree with my statistics, come up with better
+ones.  If you think that the answer is a matter of principle and that we
+must leave No Legitimate Mail Behind (however tiny a fraction it is),
+well, I would disagree, and we'd have to try to work out a consensus of
+some sort.
+
+At the moment, I'm open minded.  Come up with an actual bounce algorithm
+(based on spamassasin ratings unless you can come up with something
+better) that bounces no MORE than one message in 100 to a non-existent
+or false address and that leaves no room for a DDOS attack to propagate.
+You can publish the same tests to the AV crowd so that they can fix
+their bounce programs.  That would be an important first step in
+convincing me that MTA-side bounces are feasible/desireable, especially
+if they are driven by a truly intelligent agent that leaves a user with
+PERSONALIZED control over their filtering controls.
+
+   rgb
+
+-- 
+Robert G. Brown	                       http://www.phy.duke.edu/~rgb/
+Duke University Dept. of Physics, Box 90305
+Durham, N.C. 27708-0305
+Phone: 1-919-660-2567  Fax: 919-660-2525     email:rgb@phy.duke.edu
+
+
+
+
+

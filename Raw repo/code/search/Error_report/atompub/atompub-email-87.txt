@@ -1,0 +1,119 @@
+Date : ['2014-11-12T13:55:31Z']
+Timezone : -0700
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : <atompub-archive@ietf.org>
+To-name : Null
+To-address : [' atompub-archive@ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <o10005704-10005704.839734796atompub-archive@ietf.org.d>
+References : Null
+Comments : ['Null']
+Subject : ['Hang up any object any-where in just seconds']
+Mailing-list : atompub
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/atompub/2014-11.mailcl']
+id : 3b7f41f7-5bfe-4f72-8a7d-a5833d2fa670
+_version_ : 1675128905203187714
+
+Content : 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+
+<style type='text/css'>
+#tapper5{margin: 19px 0; font: 13px Trebuchet MS;}
+
+#image22{max-width: 625px; padding: 14px;}
+
+#tabsa{width: 625px;}
+
+#subj{font: 23px Comic Sans; color: #0000ee ; margin: auto auto 19px auto;}
+
+#img3{padding-top: 17px;}
+
+#content45{background-color: #FFFFFF; color: #FFFFFF; font-size: Array;}
+
+</style>
+</head>
+
+<body>
+<center>
+
+<table id='tabsa'>
+   <tr>
+
+      <td align='center'>
+         <p id='tapper5'>
+
+         Issues opening this content? <a href="http://view6.viewonline-info232.link">Visit Here Now.</a>
+         <br>
+
+         </p>
+      </td>
+
+   </tr>
+   <tr>
+      <td align='center' id='img3'>
+
+         <a href="http://view6.viewonline-info232.link"><img src="http://image1.viewonline-info232.link" alt=10005704></a>
+   	 <br>
+
+         </p>
+      </td>
+
+   </tr>
+   <br><br><br>
+   <tr>
+      <td align='center'>
+         <a href="http://quit20.viewonline-info232.link"><img src="http://image2.viewonline-info232.link" alt=10005704></a><br><br>
+
+   </tr>
+   <TR><TD></TD></TR><TR><TD></TD></TR>
+
+   <TR><TD></TD></TR>
+   <table style='width: 625px; background-color: #FFFFFF; border: 1px;'>
+
+      <tr>
+         <td>
+
+            <span id='content45'>
+            <br><br>
+We went here Saturday night after the killing of UT by Baylor. My spirits were low, so I really wanted some good food to help the trip home. After searching Yelp high and low, we came across Jack Allen's Kitchen... SO VERY GLAD!!!
+
+The wait was average for a Saturday night... they told me 45 minutes and I swear at 44.5 minutes we were called. We were seated inside, next to the windows, and had a great view of a little creek and lots of trees. 
+
+Out waitress was very friendly and helpful. She took our drink order (water! lol) and brought over some pimento and cheese with crisps. I absolutely love pimento and cheese... this one was good but didn't have much flavor as it was very mild.
+
+After perusing the menu, we chose the Chicken Fried Beef Rib and the Chorizo Stuffed Pork Tenderloin. We wanted to share and asked if the plates were big enough and our waitress assured us they were.. she was so right! 
+
+The Chicken Fried Beef Ribs are actually two very large ribs with one bone removed, battered and deep fried and then covered in amazing gravy. I couldn't believe how delicious and tender they were... I didn't even have to use my knife! They were served with charred, fresh veggies and fresh mashed potatoes.
+
+The Chorizo Stuffed Pork Tenderloins were very unique. They were tenderloins that appeared to be unrolled, fulled with a chorizo and stuffing mixture. The pork was then wrapped around the stuffing and they looked like large prork medallions. They came slathered in an amazing sauce with the charred veggies and potatoes as well. I really liked the flavor while the consistancy made me think of seafood
+            <br><br>
+            </span>
+
+         </td>
+      </tr>
+
+   </table>
+</table>
+
+</center>
+
+</body>
+
+</html>

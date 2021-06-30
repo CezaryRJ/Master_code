@@ -1,0 +1,46 @@
+Date : ['1999-04-28T08:59:57Z']
+Timezone : +0200
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : pkix
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/pkix/1999-04.mailcl']
+id : 34428332-1e95-45fe-b100-7ecce545cdf8
+_version_ : 1675129901892501507
+
+Content : 
+
+> -Source data format information has NOT been included by several reasons.
+> If the sourceDataURI are used then this information is already covered. If
+> sourceDataURI is NOT included then the source data issue have to be handled
+> outside of the certificate anyway, thus making a source data declaration in
+> the certificate of dubious value.
+>
+> -SourceDataUri has been included (as OPTIONAL) since it can be shown that
+> some PKI:s could benefit from this value without causing troubles for other
+> PKI:s.
+>
+How do you calculate the hash of source data starting from an SourceDataUri? 
+Do you take the data, a bitmap, the mime encapsulated data? Do you include the
+mime type in the hash? Are there other attributes, creation date of the document,
+etc.
+

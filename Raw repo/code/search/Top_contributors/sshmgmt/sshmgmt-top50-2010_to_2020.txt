@@ -1,0 +1,10 @@
+2010 TO 2020
+-------#####------->    sshmgmt
+tyl@ssh.com 3
+stephen.farrell@cs.tcd.ie 2
+ietf-secretariat@ietf.org 1
+johnleo@checkssh.com 1
+lair@bitmessage.ch 1
+peter@notatla.org.uk 1
+simon@josefsson.org 1
+wchen@amsl.com 1

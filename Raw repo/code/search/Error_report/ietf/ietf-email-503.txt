@@ -1,0 +1,148 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-09.mailcl']
+id : 59b50e7b-e376-4189-9876-9ac5ebad1ed5
+_version_ : 1675130215025606658
+
+Content : 
+
+i2EK4b0
+3030509;
+        Sun, 14 Mar 2004 15:04:57 -0500
+Received: from [7.197.76.17] by 152.3.233.64; Mon, 15 Mar 2004 02:01:00
++0600
+
+Here I'm pretty sure that pohl.acpub.duke.edu (also 152.3.233.64) is
+telling the truth about where it received the message from and isn't
+forging the previous hop because its administrator(s) are local and
+accountable and their address resolves.  This particular example is
+interesting in that as far as I can tell from registry information,
+7.197.76.17 doesn't exist and there is no route to it.  The
+200.215.92.74 address is a relay in brazil.  Neither of them seems
+promising in terms of being able to report the spam.
+
+Note also that I have to WORK with whois, traceroute, host, dig, a
+variety of tools trying just to figure out where the spam is coming
+from (although admittedly spamassassin does the same work automatically
+and better which is why the message is in the trash).  However, I'm
+still left unable to complain to the enabling ISP.  They speak
+portuguese and I don't.  They may have postmaster set up or may not.
+They may give a rat's ass or may not (likely not).
+
+To even START to "fix" this problem, postmaster has to work on the relay
+and be responsive.  The relay host manager has to know that their access
+to the entire Internet will be effectively terminated if they don't have
+a working postmaster address and are not responsive to spam.  The
+communication mechanism that reports spam has to both include the key
+information about times, addresses, and so forth AND has to function
+independent of knowledge and degree of expertise of the user.  I know
+what I'm doing (at least, to a point:-) and I'm daunted by the prospect.
+Most users wouldn't even know what all those words I just used mean...
+
+So I have to say again -- there may be IETF work that could be done
+here.  It shouldn't be this difficult, and there needs to be a whole
+structure erected to make mail administrators accountable at some level.
+And ultimately, we may all have to be willing to pull the plug on
+
+rgb@ganesh|B:747>host 200.215.76.17
+17.76.215.200.in-addr.arpa domain name pointer BrT-S4-1-2-22-bnuce300.brasiltelecom.net.br.
+
+and effectively cut them off from the Internet if they don't police
+their relays and e.g. refuse to accept mail from unregistered hosts.
+Only thus can we forge a chain of responsibility back to the SPs that
+they cannot easily evade.
+
+> } If every ten pieces of spam sent out of an SPs network -- even every 100
+> } pieces -- generated a complaint message to postmaster with headers laid
+> } out that clearly identified the offending host/client, I think that it
+> } would provide SPs with a real incentive, AND the tools, to address the
+> } problem.  
+> 
+> I used to say that, but then I saw that even (or especially) the worst
+> ISPs can figure out how to connect postmaster@ to /dev/null or to an
+> autoresponding ignorebot that lies about the responsibility of the ISP.
+
+Like I said, you are both extremely realist and maybe a touch cynical;-)
+
+I just don't think that the idea has been fully tested yet.  To properly
+test it, a certain amount of infrastructure would have to be built --
+not a horrible lot, actually, but some.  And the process of complaining
+in a standardized way would need to be made "one click easy".  There
+might well be other obstacles to overcome -- I'm not saying that this IS
+a solution, only something that might or might not help armtwist ISPs,
+given that ISPs are the crux of the problem (outside of the spammers
+themselves).
+
+> |    The second part (terminating) is not true, IMHO. There's a real
+> | danger of getting sued for that, not to mention the loss of revenue.
+> 
+> The second part of that is relevant.  An ISP that refuese to terminate
+> a spammer for fear of lost revenue does not have any IP addresses
+> that many of us want conencted to our SMTP servers,
+> 
+> The first part is nonsense spread by spammers and dishonest, spam-friendly
+> ISP spokeslime.  ISPs have no problems terminating customers with less
+> than minimal evidence.  Within the last 10 days, I watched a business
+> customer, not merely a home end-luser, get cut off by a major ISP with
+> telco connections for some time because it failed to respond to a report
+> of mine.  Of course an ISP must be careful to avoid breaking contracts
+> and so forth, but that does not prevent termination.  Why else is the
+> spam advertising "bulletproof hosting" common?
+
+Yes, I don't quite understand why people keep talking about suits and
+such.  We WANT ISPs to have AUPs with their customers giving them the
+right to terminate service immediately if they violate them, and we WANT
+them to enforce those contracts.  There is no question of suits involve
+-- in fact if the AUPs are written as BUSINESS contracts the ISP might
+well sue the customer for using their net as a "commercial service"
+outside the bounds of their contract if they permit spamming.
+
+ISP:  You want to send mass mail advertising?  Sure, simply a) upgrade
+your service to this fine $1000/month version to compensate us for the
+extra load on our servers, the extra administrative expense, and the
+bandwidth and b) accountably comply with all the rules and laws
+governing email advertising or we'll yank your plug AND bill you for the
+extra administrative time we have to spend managing your spam
+complaints.  And if we determine that you are sending spam from your
+$30/month PRIVATE account, well, your contract automatically defaults to
+the $1000/month one and you oh us, umm, $6000 in back fees.
+
+Spammer: (sound of door slamming and screeching rubber)
+
+This is a scenario we'd like to encourage, actually...
+
+   rgb
+
+-- 
+Robert G. Brown	                       http://www.phy.duke.edu/~rgb/
+Duke University Dept. of Physics, Box 90305
+Durham, N.C. 27708-0305
+Phone: 1-919-660-2567  Fax: 919-660-2525     email:rgb@phy.duke.edu
+
+
+
+
+

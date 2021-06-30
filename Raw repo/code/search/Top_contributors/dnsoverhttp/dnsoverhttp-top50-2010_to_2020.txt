@@ -1,0 +1,23 @@
+2010 TO 2020
+-------#####------->    dnsoverhttp
+paul.hoffman@icann.org 32
+pmcmanus@mozilla.com 25
+martin.thomson@gmail.com 21
+bemasc@google.com 9
+shane@time-travellers.org 9
+ted.ietf@gmail.com 8
+ggm@algebras.org 4
+zachlym@indolering.com 4
+ek@google.com 3
+goran.ap.eriksson@ericsson.com 3
+mnot@mnot.net 3
+songlinjian@gmail.com 3
+stephen.farrell@cs.tcd.ie 3
+chinese.apricot@gmail.com 2
+alex.mayrhofer.ietf@gmail.com 1
+bortzmeyer@nic.fr 1
+gwiley@verisign.com 1
+ianswett@google.com 1
+ietf-secretariat@ietf.org 1
+smsevill@ucsc.edu 1
+tjw.ietf@gmail.com 1

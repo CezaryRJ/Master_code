@@ -1,0 +1,76 @@
+Date : ['2007-04-04T07:44:08Z']
+Timezone : -0700
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local>']
+In-Reply-To-name : Null
+In-Reply-To-address :  D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local
+Message-ID : <24CCCC428EFEA2469BF046DB3C7A8D223ADF38@namail5.corp.adobe.com>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-04.mailcl']
+id : 8448bea7-5775-470c-aa08-2c0cb0d8ef7e
+_version_ : 1675132957450305536
+
+Content : 
+
+kKcE9M5IrD1H4h6Hpltazzrdst1v2COAsV2NtO4duelAHjEUayWkIOeEUgg4IOK3vCOgJresJaC+
+jtPI2zgOu5pcNkgcj05+tc7BLIkFv5gQK6qoweRx3qza6jJZX1rfwwq/2a4R1LvgEhv5V4sNKivt
+c+5xHv4ZqGkrdvI+hmtoHgMDwRtCRgxlAVP4V5T8StEs9O1m1u7X7PGJ4vL+zRoFMe3J3YHY5x9a
+1tO+Ko+xXbapaRR3MaBrZIWbFwf7vIOD059K4LXtZn1zxDc6gbOOJpkTKCbOMLjqQOOK7q9SEqej
+3PAy/C1qWJTmmkt+vyK9ez/D/wD5EfTP9xv/AENq8Rjt2i2lHG/GHyCQx9a9u+H2f+EG0zPXY3T/
+AH2rHBJKTszuzyTdKF1bX9Cj8Wf+Sbar9I//AEYtc/8A81H8C/8AYHP/AKLNd74l0OHxJ4evNInk
+MSXKbfMUZKEHIOO/IFcv4a8B6xZ+ILPV/EGtRX7aZbfZrKOGLYFXGMse5wf/AK9ekfLl74p/8k31
+j/rmv/oa1xfhqXUW+IHhl/E0MVuf7L2aV9m+ZJBs/jJOQdpP44r0nxdocniXwve6PFOsD3KhRIy5
+C4YHp+Fc5oHgDVLbXtP1bX9cTUDpUHk2UMUAjVBjbk+vFAHeV598G/8AkXtW/wCwvP8AySu11WK/
+m0u4j0u4jt71kxDLKu5Ub1I71j+BfCsnhHQnsp7sXdxPcPcTSKu1SzYHA9OBQByXjWXV4fi9oj6F
+b29xfDTpNkdwxVCMvnJHtXpGntePp9u+oRxxXbRqZ0iOVV8cgH0zXKeKvB2tat4qsvEGiazDp1xa
+WxgBkg8zqWycHjo1dFoNtq1ppaQ61qEd/eBmLTxxCMEZ4GB6CgDjMI3x4uRJjYdEw2T23DNdZ4Vs
+9CsdDjg8OSRSaeHYo0U3mruJ5+bJ71heKfBWrX/iNPEHh7V49PvWtTaTCaLerIe49D/gK2/CHhuL
+wn4bttHimM5iyzyEY3MTknHYUAcz8ZP+RY0//sKQ/wAmr0Gua8ceFpvFmlWtlDdJbNBdpcFnUsCF
+B44+tdLQB5V8V7xvD/iGw1pQQLnTbuyJH94r8n6t+lczodi9l4j0fwVKWfyNWi1Agjgr5Csf1Br1
+Lx54N/4TPT7K2FwsDWt0sxZlzlcEMPxpG8Fg/EiPxYs6BEtPJ8jZzvwRuz6beKAOnl/1T/7prwX/
+AJoeP+w5/WvfCAQQehrzH/hVOqbv7I/t5P8AhHPtv2z7N5P73P8Ad3envn3xQB6Wv+oH+7/SvnjT
+59S1Pw1a+FDaRQWGp60wXUHk/jBGV2joenPevorb8u0ccYrzofC+5XwYNFXUoReQ6l9vt7nyzhD6
+YznpmgD0RFCIqDooArz34S/e8Uf9hmWvQk3CNd5BfA3EdM159pPgXxXoWq3c2meJbaGzvL1rmaA2
+gYsC2SMnOOOOKAO41X/kEXn/AF7v/wCgmvEF/wCSSeEj3GuDH/fT17peQG5sp7cMFMsbICe2RivN
+9H+FWqwJpdhquvx3Gk6ZcfaY7WG32lnznluuMk/nQB6TNbxXAQSru8tw689GHQ1lT+EdCuQBLYK2
+CSPnb0A9fYVtUUAfOEADWkQYAgxrwR7Usp2qsaorFzgBumKworm4ESATyYCj+M0j3M5KZnk4bj5z
+Xjey97c+4WK/dr3e39bG/ChiiCEjIz06D2qIq00wYKqrG+N38Rx1H0rI+1XH/PeT/vs0xLmcO+J5
+OW5+c+lCpbu45YlWUeXT1Oir2f4f/wDIj6Z/uN/6G1fPP2q4/wCe8n/fZr6C+HBJ8AaSSckxNyf9
+9q6cJDlkzyc5r+0hBWtqdPRRRXoHzgUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFAH//Z
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70--
+
+
+
+--===============0513198450==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+--===============0513198450==--
+
+

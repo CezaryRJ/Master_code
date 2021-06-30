@@ -1,0 +1,127 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2006-06.mailcl']
+id : bfd745c8-2393-4f72-baba-25f12f9103f8
+_version_ : 1675132944102981632
+
+Content : 
+
+>=20
+>=20
+>>other than the default for the IMS communication service.  The IMS=20
+>>application reference has significance at the UE and the SIP AS
+>=20
+> behaving=20
+>=20
+>>as SIP endpoints.  The means to transport the IMS application
+>=20
+> reference=20
+>=20
+>>is defined within the IMS communication services.  When used, it shall
+>=20
+>=20
+>>be possible to transport the IMS application reference on at least on=20
+>>the following interfaces:
+>>
+>>*       ISC; Gm; Mi, Mj, Mk, Mw; Mg; Mr; Ro, Rx, Rf
+>>
+>>=20
+>>
+>></Specification Text>
+>>
+>>=20
+>>
+>>
+>=20
+>
+------------------------------------------------------------------------
+>=20
+>>This transmission (including any attachments) may contain confidential
+>=20
+>=20
+>>information, privileged material (including material protected by the=20
+>>solicitor-client or other applicable privileges), or constitute=20
+>>non-public information. Any use of this information by anyone other
+>=20
+> than=20
+>=20
+>>the intended recipient is prohibited. If you have received this=20
+>>transmission in error, please immediately reply to the sender and
+>=20
+> delete=20
+>=20
+>>this information from your system. Use, dissemination, distribution,
+>=20
+> or=20
+>=20
+>>reproduction of this transmission by unintended recipients is not=20
+>>authorized and may be unlawful.
+>>
+>>
+>>
+>=20
+>
+------------------------------------------------------------------------
+>=20
+>>_______________________________________________
+>>Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+>>This list is for NEW development of the application of SIP
+>>Use sip-implementors@cs.columbia.edu for questions on current sip
+>>Use sip@ietf.org for new developments of core SIP
+>=20
+>=20
+>=20
+>=20
+> ---------------------------------------------------------------------
+> This transmission (including any attachments) may contain confidential
+information, privileged material (including material protected by the
+solicitor-client or other applicable privileges), or constitute
+non-public information. Any use of this information by anyone other than
+the intended recipient is prohibited. If you have received this
+transmission in error, please immediately reply to the sender and delete
+this information from your system. Use, dissemination, distribution, or
+reproduction of this transmission by unintended recipients is not
+authorized and may be unlawful.
+>=20
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

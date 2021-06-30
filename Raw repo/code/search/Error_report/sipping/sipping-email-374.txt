@@ -1,0 +1,2068 @@
+Date : ['2007-04-04T07:44:08Z']
+Timezone : -0700
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local>']
+In-Reply-To-name : Null
+In-Reply-To-address :  D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local
+Message-ID : <24CCCC428EFEA2469BF046DB3C7A8D223ADF38@namail5.corp.adobe.com>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-04.mailcl']
+id : 5c68f388-32ae-4b36-b0b4-59e4a1000bea
+_version_ : 1675132957445062656
+
+Content : 
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+all enterprises. The big difference between C/S SIP and P2PSIP is =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+automation. What is true is that the square peg in round hole of =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+overloading DNS makes deployments clumsy and brittle within the =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+enterprise domain and completely unmanageable and unpublishable outside =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+the firewall which is why the buck stops there in current enterprise =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+networking products.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+The difference between C/S and P2P is la<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName>ely
+policy and semantics with <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+the biggest difference being that the decisions and rules are highly =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+distributed.&nbsp; Apart from that they are not just friends, they are =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+fraternal twins.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Regards<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Michael Slavitch<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+corp_2colour <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchweb/bin/redir.asp?URL=3Dhttp://w=
+ww.objectworld.com/&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+all enterprises. The big difference between C/S SIP and P2PSIP is =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+automation. What is true is that the square peg in round hole of =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+overloading DNS makes deployments clumsy and brittle within the =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+enterprise domain and completely unmanageable and unpublishable outside =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+the firewall which is why the buck stops there in current enterprise =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+networking products.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+The difference between C/S and P2P is la<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName>ely
+policy and semantics with <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+the biggest difference being that the decisions and rules are highly =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+distributed.&nbsp; Apart from that they are not just friends, they are =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+fraternal twins.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Regards<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Michael Slavitch<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+corp_2colour <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchweb/bin/redir.asp?URL=3Dhttp://w=
+ww.objectworld.com/&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11 service assurance (was Simple SIP usage scenario)
+Thread-Index: Acd1fDvzIhowLornTwyehPLXZ9zr5AA/ypd/ABGlquA=
+References: <D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local>
+From: "Henry Sinnreich" <hsinnrei@adobe.com>
+To: <colin.pons@kpn.com>, <pkyzivat@cisco.com>
+X-OriginalArrivalTime: 04 Apr 2007 14:44:54.0268 (UTC)
+	FILETIME=[CEC11BC0:01C776C7]
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 8cc9f19007352bcbade9ec25b8f17862
+X-Mailman-Approved-At: Thu, 05 Apr 2007 08:03:04 -0400
+Cc: sipping@ietf.org, p2prg@ietf.org, oran@cisco.com, p2psip@ietf.org,
+	mhammer@cisco.com
+Subject: [Sipping] P2P SIP service assurance (was Simple SIP usage scenario)
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1723679838=="
+Errors-To: sipping-bounces@ietf.org
+
+This is a multi-part message in MIME format.
+
+--===============1723679838==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C776C7.CE6A1169"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C776C7.CE6A1169
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Colin, Paul,
+
+=20
+
+Thanks for raising the valid issue about service assurance.=20
+
+As engineers, we know the service assurance is more than a piece of
+legal paper and must be based on the following:
+
+=20
+
+-          Adequate bandwidth,
+
+-          Geographic diversity,
+
+-          Simplicity; so things can be managed,
+
+-          Security that can be audited,
+
+-          Safe data retention: Replication and the geographic diversity
+of peer nodes of the overlay,
+
+-          Economy of scale: All peers have software with identical
+behavior,
+
+-          No configuration is required or possible. The customer just
+plugs in the gateway box. This is real service automation.
+
+-          Cost containment: P2P self configuration is unbeatable. Count
+all the savings in CAPEX and OPEX by not having any network based VoIP
+infrastructure. Save all that electricity and real estate in the data
+centers.
+
+-          Flexibility for new applications: The API between SIP and the
+DHT overlay,
+
+-          No lock-in from single source: The applications are in the
+endpoints. Buy them from anywhere.
+
+-          Automatic updates from the application provider: This is
+current PC SW state of the art and works for both the (1) P2P software
+in the access device and (2) for the application software, such as
+presence, IM, voice, multimedia, etc. No or minimal is staff required.
+
+-          Last but not least, besides SIP enabled communications, the
+overlay can also serve for many other applications for your users:
+Content distribution, application layer multicast for conferences,
+directory search, IM+A/V chat rooms, name services, etc.
+
+=20
+
+All of the above can be easily implemented by porting well documented
+open source software into the residential access box or in the
+integrated access device (IAD) for enterprises. Just check out
+http://opendht.org/ and other similar sites.
+
+=20
+
+Please don't take my word for it, just make for yourself a comparison
+table for your network. If you can't share the comparison with the list,
+can you share it with me in private? :-)
+
+=20
+
+*       as an employee of a carrier
+
+=20
+
+I worked most of my career for carriers, so that's what prompted the
+above considerations.
+
+=20
+
+Thanks, Henry
+
+=20
+
+________________________________
+
+From: colin.pons@kpn.com [mailto:colin.pons@kpn.com]=20
+Sent: Wednesday, April 04, 2007 12:38 AM
+To: pkyzivat@cisco.com; Henry Sinnreich
+Cc: p2psip@ietf.org; mhammer@cisco.com; oran@cisco.co.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<st1:Street w:st=3D"on"><st1:address w:st=3D"on">308 Legget =
+Dr</st1:address></st1:Street>.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<st1:place w:st=3D"on"><st1:City w:st=3D"on">Ottawa</st1:City> =
+<st1:State =
+w:st=3D"on">Ontario</st1:State></st1:place><o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+K2K 1Y6 <st1:place w:st=3D"on"><st1:country-region =
+w:st=3D"on">Canada</st1:country-region></st1:place><o:p></o:p></span></fo=
+nt></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchweb/bin/redir.asp?URL=3Dhttp://m=
+aps.google.ca/maps?f=3Dq%26hl=3Den%26q=3D308%2BLegget%2BDrive%2BOttawa%2B=
+Ontario%2BK2K%2B1Y6%26layer=3D%26sll=3D45.341061,-75.904541%26sspn=3D0.00=
+7119,0.023839%26ie=3DUTF8%26z=3D18%26ll=3D45.341061,-75.904541%26spn=3D0.=
+00178,0.00596%26t=3Dh%26om=3D1&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Michael =
+Slavitch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Lead, Technology Initiatives<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+slavitch@objectworld.com =
+&lt;mailto:slavitch@objectworld.com&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+PSTN: <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalib.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<st1:Street w:st=3D"on"><st1:address w:st=3D"on">308 Legget =
+Dr</st1:address></st1:Street>.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<st1:place w:st=3D"on"><st1:City w:st=3D"on">Ottawa</st1:City> =
+<st1:State =
+w:st=3D"on">Ontario</st1:State></st1:place><o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+K2K 1Y6 <st1:place w:st=3D"on"><st1:country-region =
+w:st=3D"on">Canada</st1:country-region></st1:place><o:p></o:p></span></fo=
+nt></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchweb/bin/redir.asp?URL=3Dhttp://m=
+aps.google.ca/maps?f=3Dq%26hl=3Den%26q=3D308%2BLegget%2BDrive%2BOttawa%2B=
+Ontario%2BK2K%2B1Y6%26layer=3D%26sll=3D45.341061,-75.904541%26sspn=3D0.00=
+7119,0.023839%26ie=3DUTF8%26z=3D18%26ll=3D45.341061,-75.904541%26spn=3D0.=
+00178,0.00596%26t=3Dh%26om=3D1&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Michael =
+Slavitch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Lead, Technology Initiatives<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+slavitch@objectworld.com =
+&lt;mailto:slavitch@objectworld.com&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+PSTN: <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibm; p2prg@ietf.org;
+sipping@ietf.org
+Subject: RE: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage
+scenario
+
+=20
+
+Henry,
+
+I like your idea of deploying sip peers in edge devices. However, as an
+employee of a carrier I would like to see how a carrier is able to
+provide service asurance to be able to provide compliant handling. Many
+of our customers do not understand how to install these gateways
+themselves, let alone how to troubleshoot.
+
+This is even more important for enterprises, which often  insist on SLAs
+which include troubleshoot resolution limits.
+
+-----Original Message-----
+From: "Paul Kyzivat" <pkyzivat@cisco.com>
+To: "Henry Sinnreich" <hsinnrei@adobe.com>
+Cc: "P2PSIP Mailing List" <p2psip@ietf.org>; "Michael Hammer (mhammer)"
+<mhammer@cisco.com>; "David R Oran" <oran@cisco.com>; "p2prg@ietf.org"
+<p2prg@ietf.org>; "sipping@ietf.org" <sipping@ietf.org>
+Sent: 3-4-07 01:11
+Subject: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage scenario
+
+
+
+Henry Sinnreich wrote:
+> Paul,
+>
+>> I more or less agree with the final conclusion below.
+>
+> This is good starting point to discuss some usage scenarios.
+>
+> Putting on my former hat as an employee for a carrier, I cannot
+overlook
+> the following:
+>
+> P2P SIP implemented correctly in the residential access box or cable
+> set-top box indeed is a good or better replacement for the entire VoIP
+> network infrastructure (cost, operations, new services, etc).
+> Integrated access devices for the enterprise can probably play a
+similar
+> role, not to mention existing P2P PBX products (please refer to all
+the
+> advantages of P2P that need not repeated here).
+>
+> What do people think of these three usage scenarios for P2P SIP:
+> - SIP peer in the DSL access device,
+> - SIP peer in the cable access device,
+
+These seem quite reasonable, assuming that a device connected at this
+point is able to function properly as a peer. (I haven't been following
+what the assumptions are about required network capabilities of peers.)
+
+> - SIP peer in enterprise network integrated access device (IAD).
+
+I think this depends greatly on what expectations / contractual
+guarantees the enterprise has. Its unclear to me what guarantees can be
+made about a P2PSIP network will be able to make, and its unclear what
+kind of infrastructure would be installed by/for someone willing to make
+guarantees.
+
+        Paul
+
+> Note that these examples imply very low churn for the peers and add
+the
+> data retention resilience of P2P (geographic diversity is native and
+> mobile, etc.). Incidentally, NAT traversal may also not be a problem,
+or
+> at least an easier problem.
+>
+> What do you all think?
+>
+> I have taken the liberty to copy the P2P SIP list, since the low churn
+> scenarios are of interest for the DHT selection. Or just pick the same
+> DHT for all scenarios anyway? I don't think so.
+>
+> Thanks, Henry
+>
+>
+> -----Original Message-----
+> From: Paul Kyzivat [mailto:pkyzivat@cisco.com]
+> Sent: Friday, March 30, 2007 6:31 PM
+> To: Eunsoo Shim
+> Cc: Henry Sinnreich; Michael Hammer (mhammer); David R Oran;
+> p2prg@ietf.org; sipping@ietf.org; zhuxian
+> Subject: Re: [P2Prg] RE: [Sipping] Simple SIP usage scenario
+>
+> I more or less agree with the final conclusion below.
+>
+> My main point here is that P2P and C/S need not be enemies. Nor is a
+> total C/S system necessarily evil. What is most evil is *bundling* of
+> services that prevents freedom of choice.
+>
+> I think I would be quite happy with a SP that provides a
+registrar/proxy
+>
+> and allows me to provide all other features as I see fit - by taking
+> them ala carte from the SP, or subscribing to them from one or more
+> other SPs, or by providing them myself via appliances I own. If that
+> registrar/proxy was replaced by a P2P sip community, the differences,
+if
+>
+> any, would hopefully be more a function of the implementation and the
+> business models of those involved than the architecture.
+>
+> (I gather the general assumption is that a P2P setup will be *free*.
+But
+>
+> I have a hard time believing that. If most of the usage is by mobile
+> devices that can't be peers, thri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
++1.888.398.9698<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+x225<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Fax:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
++1.613.599.7457<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Skype:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;&nbsp;
+Objectworld <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchange/slavitch/Sent%20Items/Norte=
+l,%20MSFT%20chase%20carriers%20with%20new%20hosted%20offering%20for%20SME=
+%20and%20MME.EML/&gt;&nbsp;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+x225<o:p></o:p></span></font></p>
+
+<p class=ri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
++1.888.398.9698<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+x225<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Fax:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
++1.613.599.7457<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+Skype:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;&nbsp;
+Objectworld <o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchange/slavitch/Sent%20Items/Norte=
+l,%20MSFT%20chase%20carriers%20with%20new%20hosted%20offering%20for%20SME=
+%20and%20MME.EML/&gt;&nbsp;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+x225<o:p></o:p></span></font></p>
+
+<p class=en somebody will have to pay for enough
+> peers to support them. If it isn't free, then how is it better than a
+> well engineered C/S system?)
+>
+> So I think the key thing here is that some features will require
+getting
+>
+> some help from another node. There ought to be the option to pick a
+> different source for each helper you require, and an ability for it
+all
+> to play together.
+>
+>       Paul
+>
+> Eunsoo Shim wrote:
+>> Please see my inline comment.
+>>
+>> On 3/30/07, *Paul Kyzivat* <pkyzivat@cisco.com
+>> <mailto:pkyzivat@cisco.com>> wrote:
+>>
+>>
+>>
+>>     Henry Sinnreich wrote:
+>>      > David Oran wrote (with regard to voice mail):
+>>      >
+>>      >> I'm not saying this can't be made to work, only that it isn't
+>>      > immediately >obvious that it has advantages over a classic
+>>     application
+>>      > server >approach.
+>>      >
+>>      > The answer for VM is "it depends":
+>>      >
+>>
+>>
+>> I agree. It really depends. Certainly there are tradeoffs.
+>>
+>>      > There are several commercial P2P IP PBX solutions without any
+>>     server for
+>>      > VM or anything else. No doubt the IT organization appreciates
+> just
+>>      > having to plug in the IP phones and GWY to the PSTN without
+any
+>>      > configuration ever for VM or any other PBX feature.
+>>
+>>     I don't understand. Are you saying they don't have VM, or that
+> they
+>>     don't have a *server* for VM?
+>>
+>>
+>> I guess they don't have a  *server* for  VM.
+>>
+>>      > For public P2P SIP networks there are two more scenarios where
+> VM can
+>>      > reside (and without ever spending one cent on VM servers + IT
+>>     systems):
+>>      >
+>>      > - In Cable and DSL service provider networks: The residential
+>>     router can
+>>      > act as a voice recorder
+>>
+>>     That is simply an example of the user having an appliance of his
+> own
+>>     that provides VM service.
+>>
+>>      > and P2P can cover the not too frequent cases,
+>>      > where the router is not in operation, so the data is backed up
+> in
+>>     other
+>>      > peer residential gateways (encrypted).
+>>
+>>     I guess I just need to have more info about how this would work
+> before I
+>>     will be convinced it is feasible and trustworthy.
+>>
+>>
+>> Well, 'trustworthy' could be  considered in many angles.
+>> If it is about privacy of the message, a public key based encryption
+>> would provide acceptable privacy.
+>> If it is about reliability of the message delivery, well, a P2P based
+>> asynchronous message delivery (like VM) is most likely less reliable
+>> than a well managed server based system.
+>> However, my experience with Skype's asynchronous message delivery was
+>> not bad. Actually I don't see any significant difference between it
+> and
+>> my cellular service provider's VM service. :-)
+>> Reliability is always a challenge for P2P, for sure. But, I believe
+it
+>
+>> is feasible to build a P2P system for VM acceptable for many
+> scenarios.
+>>      > - In mobile networks: The VM can reside in quite stable peers
+>>     inside the
+>>      > wireless base station network. The peers in the base station
+> network
+>>      > need no configuration, etc.
+>>
+>>     I don't understand. I guess that could be true if the peers are
+> willing
+>>     to store an arbitrary amount of VM indefinitely for anybody. Is
+> that
+>>     believable?
+>>
+>>
+>> It depends.
+>> In a very nice environment where all the peers are willing to
+> cooperate
+>> at their best, the peers will store as much as they can. In a tough
+>> environment, the situation will be different.
+>>
+>>     This seems to translate to a model where it is assumed that those
+> nodes
+>>     that are on most of the time will be willing to provide VM
+storage
+> for
+>>     those nodes that aren't on most of the time.
+>>
+>>
+>> This is again related to reliability of P2P systems or topics like
+> free
+>> riders and reputation.
+>> A P2P system is a community or society. To be simple, if many of the
+>> members are bad, the community won't work well. If the majority of
+the
+>
+>> members are good, the community will work well or reasonably.
+>>
+>>      > Ad3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchange/slavitch/Sent%20Items/Norte=
+l,%20MSFT%20chase%20carriers%20with%20new%20hosted%20offering%20for%20SME=
+%20and%20MME.EML/&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>--
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>BEGIN-ANTISPAM-VOTING-LINKS<o:p></o:p></span><=
+/font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>----------------------------------------------=
+--------<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Teach
+CanIt if this mail (ID 657805) is spam:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Spam:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;
+http://canitpro-int.objectworld.com/canit/b.php?i=3D657805&amp;m=3D2eb1fd=
+ee55b7&amp;c=3Ds<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Not
+spam:&nbsp;&nbsp;&nbsp;
+http://canitpro-int.objectworld.com/canit/b.php?i=3D657805&amp;m=3D2eb1fd=
+ee55b7&amp;c=3Dn<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Fo<st1:PersonName
+w:st=3D"on">rg</st1:PersonName>et vote: =
+http://canitpro-int.objectworld.com/canit/b.php?i=3D657805&amp;m=3D2eb1fd=
+ee55b7&amp;c=3Df<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>----------------------------------------------=
+--------<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>END-ANTISPAM-VOTING-LINKS<o:p></o:p></span></f=
+ont></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&lt;https://firewall.objectworld.com/exchange/slavitch/Sent%20Items/Norte=
+l,%20MSFT%20chase%20carriers%20with%20new%20hosted%20offering%20for%20SME=
+%20and%20MME.EML/&gt;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;&nbsp;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>&gt;
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>--
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>BEGIN-ANTISPAM-VOTING-LINKS<o:p></o:p></span><=
+/font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>----------------------------------------------=
+--------<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Teach
+CanIt if this mail (ID 657805) is spam:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Spam:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;
+http://canitpro-int.objectworld.com/canit/b.php?i=3D657805&amp;m=3D2eb1fd=
+ee55b7&amp;c=3Ds<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Not
+spam:&nbsp;&nbsp;&nbsp;
+http://canitpro-int.objectworld.com/canit/b.php?i=3D657805&amp;m=3D2eb1fd=
+ee55b7&amp;c=3Dn<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>Fo<st1:PersonName
+w:st=3D"on">rg</st1:PersonName>et vote: =
+http://canitpro-int.objectworld.com/canit/b.php?i=3D657805&amp;m=3D2eb1fd=
+ee55b7&amp;c=3Df<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>----------------------------------------------=
+--------<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'>END-ANTISPAM-VOTING-LINKS<o:p></o:p></span></f=
+ont></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3DCalibri><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =d to this the conferencing capability coming from p2p
+> application
+>>      > layer multicast, the SIP e2e control capabilities (for such as
+>>      > auto-attendant, agent workstation, etc.) and one has to wonder
+> why IT
+>>      > networks, public VoIP networks and end users should support
+the
+> huge
+>>      > cost of hand engineering, testing, monitoring, maintaining
+> server
+>>     based
+>>      > VoIP networks. P2P self configuration is nothing less that
+> automation
+>>      > applied to VoIP, plus the shifting of computing to the
+> endpoints,
+>>     where
+>>      > there is an abundance of unused CPU, storage, bandwidth and
+>>     electricity.
+>>      >
+>>      > Eric Burger also notes IM changes completely the usage for VM
+> and may
+>>      > make unnecessary to place calls on VM in the first place.
+>>
+>>     I find this more promising.
+>>
+>>         =20
+>>
+>>
+>> In overall, are we discussing if P2P systems based VM can work? I
+> think
+>> it can work.  Just it depends on many things.
+>> If it is not super-reliable, should we disregard it? I would say no.
+>>
+>> On the other hand, do we have to abandon client server based VM and
+>> switch to P2P system based VM? It is upto each of us.
+>> Client server based VM systems are already there.
+>> So why don't we work on P2P based VM now?
+>>=20
+>> Thanks.
+>>
+>> Eunsoo
+>
+
+_______________________________________________
+P2PSIP mailing list
+P2PSIP@ietf.org
+https://www1.ietf.org/mailman/listinfo/p2psip
+
+
+------_=_NextPart_001_01C776C7.CE6A1169
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:st1=3D"urn:schemas-microsoft-com:office:smarttags" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>RE: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage =
+scenario</title>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"City"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"place"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft
+-com:office:smarttags"
+ name=3D"PersonName"/>
+<!--[if !mso]>
+<style>
+st1\:*{behavior:url(#default#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:319894744;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1009410942 -487147662 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:1298990762;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1053834342 -46605914 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@l
+size=3D3
+face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;font-family:"Times New Roman"'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter>
+
+</span></font></div>
+
+<p><font size=3D1 face=3D"Times New Roman"><span =
+style=3D'font-size:7.5pt'>This
+transmission (including any attachments) may contain confidential =
+information,
+privileged material (including material protected by the =
+solicitor-client or
+other applicable privileges), or constitute non-public information. Any =
+use of
+this information by anyone other than the intended recipient is =
+prohibited. If
+you have received this transmission in error, please immediately reply =
+to the
+sender and delete this information from your system. Use, dissemination,
+distribution, or reproduction of this transmission by unintended =
+recipients is
+not authorized and may be unlawful.<o:p></o:p></span></font></p>
+
+<p><font size=3D1 face=3D"Times New Roman"><span =
+style=3D'font-size:7.5pt'>Any views,
+opinions and content presented in this e-mail are solely those of the =
+author
+and may not represent those of Objectworld Communications =
+Corp.<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D4
+color=3Dblack face=3D"Times New Roman"><span =
+style=3D'font-size:13.5pt;font-family:
+"Times New Roman";color:black;background:white'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter>
+
+</span></font></div>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+style=3D'font-size:13.5pt;font-family:"Times New =
+Roman";color:black;background:
+white'><br>
+<a
+href=3D"http://canitpro-int.objectworld.com/canit/b.php?i=3D657949&amp;m=3D=
+5b6a6dc0fe34&amp;c=3Ds">Spam</a><br>
+<a
+href=3D"http://canitpro-int.objectworld.com/canit/b.php?i=3D657949&amp;m=3D=
+5b6a6dc0fe34&amp;c=3Dn">Not
+spam</a><br>
+<a
+href=3D"http://canitpro-int.objectworld.com/canit/b.php?i=3D657949&amp;m=3D=
+5b6a6dc0fe34&amp;c=3Df">Forget
+previous vote</a></span></font><font size=3D3 face=3D"Times New =
+Roman"><span
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman"'><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;font-family:"Times New Roman"'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter>
+
+</span></font></div>
+
+<p><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt'>This
+transmission (including any attachments) may contain confidential =
+information,
+privileged material (including material protected by the =
+solicitor-client or
+other applicable privileges), or constitute non-public information. Any =
+use of
+this information by anyone other than the intended recipient is =
+prohibited. If
+you have received this transmission in error, please immediately reply =
+to the
+sender and delete this information from your system. Use, dissemination,
+distribution, or reproduction of this transmission by unintended =
+recipients is
+not authorized and may be unlawful.<o:p></o:p></span></font></p>
+
+<p><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt'>Any
+views, opinions and content presented in this e-mail are solely those of =
+the
+author and may not represent those of Objectworld Communications =
+Corp.<o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_001_1E07_01C7769F.E4C51F70--
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70
+Content-Type: image/jpeg;
+	name="image003.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image003.jpg@01C7769F.7AEDF040>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAaABoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMX
+size=3D3
+face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;font-family:"Times New Roman"'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter>
+
+</span></font></div>
+
+<p><font size=3D1 face=3D"Times New Roman"><span =
+style=3D'font-size:7.5pt'>This
+transmission (including any attachments) may contain confidential =
+information,
+privileged material (including material protected by the =
+solicitor-client or
+other applicable privileges), or constitute non-public information. Any =
+use of
+this information by anyone other than the intended recipient is =
+prohibited. If
+you have received this transmission in error, please immediately reply =
+to the
+sender and delete this information from your system. Use, dissemination,
+distribution, or reproduction of this transmission by unintended =
+recipients is
+not authorized and may be unlawful.<o:p></o:p></span></font></p>
+
+<p><font size=3D1 face=3D"Times New Roman"><span =
+style=3D'font-size:7.5pt'>Any views,
+opinions and content presented in this e-mail are solely those of the =
+author
+and may not represent those of Objectworld Communications =
+Corp.<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D4
+color=3Dblack face=3D"Times New Roman"><span =
+style=3D'font-size:13.5pt;font-family:
+"Times New Roman";color:black;background:white'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter>
+
+</span></font></div>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+style=3D'font-size:13.5pt;font-family:"Times New =
+Roman";color:black;background:
+white'><br>
+<a
+href=3D"http://canitpro-int.objectworld.com/canit/b.php?i=3D657949&amp;m=3D=
+5b6a6dc0fe34&amp;c=3Ds">Spam</a><br>
+<a
+href=3D"http://canitpro-int.objectworld.com/canit/b.php?i=3D657949&amp;m=3D=
+5b6a6dc0fe34&amp;c=3Dn">Not
+spam</a><br>
+<a
+href=3D"http://canitpro-int.objectworld.com/canit/b.php?i=3D657949&amp;m=3D=
+5b6a6dc0fe34&amp;c=3Df">Forget
+previous vote</a></span></font><font size=3D3 face=3D"Times New =
+Roman"><span
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman"'><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;font-family:"Times New Roman"'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter>
+
+</span></font></div>
+
+<p><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt'>This
+transmission (including any attachments) may contain confidential =
+information,
+privileged material (including material protected by the =
+solicitor-client or
+other applicable privileges), or constitute non-public information. Any =
+use of
+this information by anyone other than the intended recipient is =
+prohibited. If
+you have received this transmission in error, please immediately reply =
+to the
+sender and delete this information from your system. Use, dissemination,
+distribution, or reproduction of this transmission by unintended =
+recipients is
+not authorized and may be unlawful.<o:p></o:p></span></font></p>
+
+<p><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt'>Any
+views, opinions and content presented in this e-mail are solely those of =
+the
+author and may not represent those of Objectworld Communications =
+Corp.<o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_001_1E07_01C7769F.E4C51F70--
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70
+Content-Type: image/jpeg;
+	name="image003.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image003.jpg@01C7769F.7AEDF040>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAaABoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXist l1:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Arial;
+	color:navy;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dblue>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Colin, =
+Paul,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Thanks for raising the valid issue =
+about
+service assurance. <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>As engineers, we know the service
+assurance is more than a piece of legal paper and must be based on the
+following:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Adequate
+bandwidth,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Geographic
+diversity,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Simplicity;
+so things can be managed,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Security
+that <u>can be audited</u>,<o:p></o:p></span></font></p>
+
+<p class=3DMsoGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1Ga7l
+kZ2SdokV2VQgXJwcEnIPcHpVSTW7uHqYHA7bCCfxz/Skuiv9qSwFtitMoA/3gMn8yab/AGWls8lx
+qTBbeE5HP+s/z6V4051nJ8j2ervov+AYty6GrpuqQ6lGxQFJE++hPT/EVdrjtEuvN8S+ZEuxJjIS
+Pbkj+Qrsa7MDiHXpcz3Tt6lwlzIyNa0hr7E8GPNAwy5xvHb8axbu31G6jSO6W5ZYRwPKbH1JAwTX
+Y0VFfAQqyck7X37MUqaZx2k6cf7QheCQMUcFipyFAPOfTjj8a7GiitcLhY4eLinuOMeVH//Z
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70
+Content-Type: image/jpeg;
+	name="image002.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.jpg@01C7769F.7AEDF040>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAdAB0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0/VNW
+WCU20cnllQPMkAyVz0A9/wCVUylrNEHWKOZjysk+XP5nmua1W8kXU7pZDg+e/wCW7A/TFPs9UmmU
+Wquq8fK3cf4168cNywTR5EsTzTakdDFqT2M20l2j6mMknI7lc8j6dK6GORJY1kjYMrDII7ivOruS
+eB0lklDljgHNdh4ald9Fi39iwX/dycfpiufFUVGKmjowtZyk4M5/xhoUzXDX9qhbf/rFA5z6j1rj
+o5pILhGIHytzzivZnRZFKsAQazptCspX3NGM/SnQx0qceWSuia+AjUnzxdmef2ttd61f5XcIQcBs
+cAe3qa9J0+1W0s44VGAqgAegotrC3th8ic+tWq56+IlWavokdFDDxop21b6n/9k=
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01C7769F.7AEDF040>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAqAO0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDIh8R6
++0EbNruoklASftLelNn8T65GhX+3tRDsDtAuGJzWZbTDyIFKOu5FAJHBOKbPNHExlWYK4wpGMhue
+leLz1Oe12fc+wwyoqXKvuRtL4h1/aM65qGcc/wCkt/jUK+J9clnAj17UWQKd3+kNjPb+tN/s+6bR
+21cRqbBZ/s5l3j7309OcZrNjnihmNuZ1IVNy5I4HTFHNVW7YvZYOTSjGNk7PRbm1/wAJDrv/AEHN
+R/8AAlv8a9P8NWv/AAkHgnTJNRlaebZJmWUB3Od69T7H9BXjMc7jY0wCq4yMA/KfQ17d8PiD4G0w
+joUb/wBDaurCObk+Z3PJziFGNODpxSd+1jV0rTRpds8Inecu+8u/XoB/ICr1U9W1W00TSrjU76Qx
+29shdyBk/QD1PSuc8NfEbTvEWqpph0++0+4mi863F3GFE6eqnPpzXoHzp19FZniHXIPDmhXOr3Mc
+ksNsoZkjxuOSBxn61ieHPiLpniHVV0s2V9p93LF50Md5Ft85MZypBOeOfwoA66iisTwv4otPFVlc
+3dpDNClvcvbMJQMllAJIwTxzQBt0Vynijx9a+GNYt9KfS9Qv7m4h85Fs4w5xkjpnPY1taFq39uaT
+FqH2K6svMJHkXSbJFwccigDRorlfFPj+w8MahHp32G81C8eIzNDaR7jHGM/M3Psa2tC1uy8RaPb6
+rp7l7ecZXcMFSDggj1BFAGhRXH+K/iLaeEdQFreaPqU6MqlbiGIGMs2cKGJHPHSt/QdX/tzSYtQ+
+w3Vj5hYeRdJskXBxyKANGisRvFNnH4qm8PSRSpPFZ/a/MONjJnBxznIrJi+JekzeF7bX47W6aG6v
+RZpDhd+8n64x3oA7Gikrhf8AhbWif2p9n+x3/wBh+0/Zv7S8r9x5npnPSgDu6KQnAzXA2fxg0W4n
+Tz9N1O1tXn8gXkkIMIfPQsDQB39FJ1rF8N+KbTxMdQFrDNF9gumtpPNA+Zh3GD0oA26KiuJltraW
+dgSsSFyB1IAzXE6N8WGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1Ga7l
+kZ2SdokV2VQgXJwcEnIPcHpVSTW7uHqYHA7bCCfxz/Skuiv9qSwFtitMoA/3gMn8yab/AGWls8lx
+qTBbeE5HP+s/z6V4051nJ8j2ervov+AYty6GrpuqQ6lGxQFJE++hPT/EVdrjtEuvN8S+ZEuxJjIS
+Pbkj+Qrsa7MDiHXpcz3Tt6lwlzIyNa0hr7E8GPNAwy5xvHb8axbu31G6jSO6W5ZYRwPKbH1JAwTX
+Y0VFfAQqyck7X37MUqaZx2k6cf7QheCQMUcFipyFAPOfTjj8a7GiitcLhY4eLinuOMeVH//Z
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70
+Content-Type: image/jpeg;
+	name="image002.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.jpg@01C7769F.7AEDF040>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAdAB0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0/VNW
+WCU20cnllQPMkAyVz0A9/wCVUylrNEHWKOZjysk+XP5nmua1W8kXU7pZDg+e/wCW7A/TFPs9UmmU
+Wquq8fK3cf4168cNywTR5EsTzTakdDFqT2M20l2j6mMknI7lc8j6dK6GORJY1kjYMrDII7ivOruS
+eB0lklDljgHNdh4ald9Fi39iwX/dycfpiufFUVGKmjowtZyk4M5/xhoUzXDX9qhbf/rFA5z6j1rj
+o5pILhGIHytzzivZnRZFKsAQazptCspX3NGM/SnQx0qceWSuia+AjUnzxdmef2ttd61f5XcIQcBs
+cAe3qa9J0+1W0s44VGAqgAegotrC3th8ic+tWq56+IlWavokdFDDxop21b6n/9k=
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01C7769F.7AEDF040>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAqAO0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDIh8R6
++0EbNruoklASftLelNn8T65GhX+3tRDsDtAuGJzWZbTDyIFKOu5FAJHBOKbPNHExlWYK4wpGMhue
+leLz1Oe12fc+wwyoqXKvuRtL4h1/aM65qGcc/wCkt/jUK+J9clnAj17UWQKd3+kNjPb+tN/s+6bR
+21cRqbBZ/s5l3j7309OcZrNjnihmNuZ1IVNy5I4HTFHNVW7YvZYOTSjGNk7PRbm1/wAJDrv/AEHN
+R/8AAlv8a9P8NWv/AAkHgnTJNRlaebZJmWUB3Od69T7H9BXjMc7jY0wCq4yMA/KfQ17d8PiD4G0w
+joUb/wBDaurCObk+Z3PJziFGNODpxSd+1jV0rTRpds8Inecu+8u/XoB/ICr1U9W1W00TSrjU76Qx
+29shdyBk/QD1PSuc8NfEbTvEWqpph0++0+4mi863F3GFE6eqnPpzXoHzp19FZniHXIPDmhXOr3Mc
+ksNsoZkjxuOSBxn61ieHPiLpniHVV0s2V9p93LF50Md5Ft85MZypBOeOfwoA66iisTwv4otPFVlc
+3dpDNClvcvbMJQMllAJIwTxzQBt0Vynijx9a+GNYt9KfS9Qv7m4h85Fs4w5xkjpnPY1taFq39uaT
+FqH2K6svMJHkXSbJFwccigDRorlfFPj+w8MahHp32G81C8eIzNDaR7jHGM/M3Psa2tC1uy8RaPb6
+rp7l7ecZXcMFSDggj1BFAGhRXH+K/iLaeEdQFreaPqU6MqlbiGIGMs2cKGJHPHSt/QdX/tzSYtQ+
+w3Vj5hYeRdJskXBxyKANGisRvFNnH4qm8PSRSpPFZ/a/MONjJnBxznIrJi+JekzeF7bX47W6aG6v
+RZpDhd+8n64x3oA7Gikrhf8AhbWif2p9n+x3/wBh+0/Zv7S8r9x5npnPSgDu6KQnAzXA2fxg0W4n
+Tz9N1O1tXn8gXkkIMIfPQsDQB39FJ1rF8N+KbTxMdQFrDNF9gumtpPNA+Zh3GD0oA26KiuJltraW
+dgSsSFyB1IAzXE6N8WNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Safe data
+retention: Replication and the geographic diversity of peer nodes of the
+overlay,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Economy
+of scale: All peers have software with identical =
+behavior,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>No
+configuration is required or possible. The customer just plugs in the =
+gateway
+box. This is real service automation.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Cost
+containment: P2P self configuration is unbeatable. Count all the savings =
+in
+CAPEX and OPEX by not having any network based VoIP infrastructure. Save =
+all
+that electricity and real estate in the data =
+centers.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Flexibility
+for new applications: The API between SIP and the DHT =
+overlay,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>No
+lock-in from single source: The applications are in the endpoints. Buy =
+them
+from anytG1a7tIZNP1GxivZPKt7m4iAikfONu4E9+KAO7oqlqOojThCWtZ5/OkEY8
+kKcE9M5IrD1H4h6Hpltazzrdst1v2COAsV2NtO4duelAHjEUayWkIOeEUgg4IOK3vCOgJresJaC+
+jtPI2zgOu5pcNkgcj05+tc7BLIkFv5gQK6qoweRx3qza6jJZX1rfwwq/2a4R1LvgEhv5V4sNKivt
+c+5xHv4ZqGkrdvI+hmtoHgMDwRtCRgxlAVP4V5T8StEs9O1m1u7X7PGJ4vL+zRoFMe3J3YHY5x9a
+1tO+Ko+xXbapaRR3MaBrZIWbFwf7vIOD059K4LXtZn1zxDc6gbOOJpkTKCbOMLjqQOOK7q9SEqej
+3PAy/C1qWJTmmkt+vyK9ez/D/wD5EfTP9xv/AENq8Rjt2i2lHG/GHyCQx9a9u+H2f+EG0zPXY3T/
+AH2rHBJKTszuzyTdKF1bX9Cj8Wf+Sbar9I//AEYtc/8A81H8C/8AYHP/AKLNd74l0OHxJ4evNInk
+MSXKbfMUZKEHIOO/IFcv4a8B6xZ+ILPV/EGtRX7aZbfZrKOGLYFXGMse5wf/AK9ekfLl74p/8k31
+j/rmv/oa1xfhqXUW+IHhl/E0MVuf7L2aV9m+ZJBs/jJOQdpP44r0nxdocniXwve6PFOsD3KhRIy5
+C4YHp+Fc5oHgDVLbXtP1bX9cTUDpUHk2UMUAjVBjbk+vFAHeV598G/8AkXtW/wCwvP8AySu11WK/
+m0u4j0u4jt71kxDLKu5Ub1I71j+BfCsnhHQnsp7sXdxPcPcTSKu1SzYHA9OBQByXjWXV4fi9oj6F
+b29xfDTpNkdwxVCMvnJHtXpGntePp9u+oRxxXbRqZ0iOVV8cgH0zXKeKvB2tat4qsvEGiazDp1xa
+WxgBkg8zqWycHjo1dFoNtq1ppaQ61qEd/eBmLTxxCMEZ4GB6CgDjMI3x4uRJjYdEw2T23DNdZ4Vs
+9CsdDjg8OSRSaeHYo0U3mruJ5+bJ71heKfBWrX/iNPEHh7V49PvWtTaTCaLerIe49D/gK2/CHhuL
+wn4bttHimM5iyzyEY3MTknHYUAcz8ZP+RY0//sKQ/wAmr0Gua8ceFpvFmlWtlDdJbNBdpcFnUsCF
+B44+tdLQB5V8V7xvD/iGw1pQQLnTbuyJH94r8n6t+lczodi9l4j0fwVKWfyNWi1Agjgr5Csf1Br1
+Lx54N/4TPT7K2FwsDWt0sxZlzlcEMPxpG8Fg/EiPxYs6BEtPJ8jZzvwRuz6beKAOnl/1T/7prwX/
+AJoeP+w5/WvfCAQQehrzH/hVOqbv7I/t5P8AhHPtv2z7N5P73P8Ad3envn3xQB6Wv+oH+7/SvnjT
+59S1Pw1a+FDaRQWGp60wXUHk/jBGV2joenPevorb8u0ccYrzofC+5XwYNFXUoReQ6l9vt7nyzhD6
+YznpmgD0RFCIqDooArz34S/e8Uf9hmWvQk3CNd5BfA3EdM159pPgXxXoWq3c2meJbaGzvL1rmaA2
+gYsC2SMnOOOOKAO41X/kEXn/AF7v/wCgmvEF/wCSSeEj3GuDH/fT17peQG5sp7cMFMsbICe2RivN
+9H+FWqwJpdhquvx3Gk6ZcfaY7WG32lnznluuMk/nQB6TNbxXAQSru8tw689GHQ1lT+EdCuQBLYK2
+CSPnb0A9fYVtUUAfOEADWkQYAgxrwR7Usp2qsaorFzgBumKworm4ESATyYCj+M0j3M5KZnk4bj5z
+Xjey97c+4WK/dr3e39bG/ChiiCEjIz06D2qIq00wYKqrG+N38Rx1H0rI+1XH/PeT/vs0xLmcO+J5
+OW5+c+lCpbu45YlWUeXT1Oir2f4f/wDIj6Z/uN/6G1fPP2q4/wCe8n/fZr6C+HBJ8AaSSckxNyf9
+9q6cJDlkzyc5r+0hBWtqdPRRRXoHzgUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFAH//Z
+
+------=_NextPart_000_1E06_01C7769F.E4C51F70--
+
+
+
+--===============0513198450==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+--===============0513198450==--
+
+

@@ -1,0 +1,112 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ipv6
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipv6/2006-11.mailcl']
+id : 43e6d54c-4b27-443f-a8e4-4f9267f479c3
+_version_ : 1675133932918538241
+
+Content : 
+
+Receiv3d84476dc338324fab
+X-Mailman-Approved-At: Wed, 22 Nov 2006 17:35:01 -0500
+Cc: 
+Subject: Re: gen-art review of draft-ietf-ipv6-2461bis-09.txt 
+X-BeenThere: ipv6@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "IP Version 6 Working Group \(ipv6\)" <ipv6.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ipv6>,
+	<mailto:ipv6-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ipv6@ietf.org>
+List-Help: <mailto:ipv6-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ipv6>,
+	<mailto:ipv6-request@ietf.org?subject=subscribe>
+Errors-To: ipv6-bounces@ietf.org
+
+Scott W Brim <swb@employees.org> writes:
+
+> I have one question on the protocol, and several on documentation.
+> Since this is a significant protocol, documentation is very important.
+> For the sake of new implementors I have a number of suggestions for
+> clarity.  Many of them have to do with the use of "SHOULD", since we
+> have been polishing up its use and advice to implementors.
+
+...
+
+>     We've been tightening up "SHOULD"s recently.  RFC2119 says:
+>     
+>       SHOULD   This word, or the adjective "RECOMMENDED", mean that
+>       there may exist valid reasons in particular circumstances to
+>       ignore a particular item, but the full implications must be
+>       understood and carefully weighed before choosing a different
+>       course.
+>   
+>     In this draft, "otherwise ...  SHOULD" implies that there are
+>     situations in which the link layer address is known, and the
+>     source address is included, but the link layer address may be
+>     omitted.  RFC2119 says that deserves explanation.
+
+I don't agree with your last sentence. Where exactly does 2119 say
+"that deserves explanation"? Look also at Section 6 of 2119. It says:
+
+> 6. Guidance in the use of these Imperatives
+> 
+>    Imperatives of the type defined in this memo must be used with care
+>    and sparingly.  In particular, they MUST only be used where it is
+>    actually required for interoperation or to limit behavior which has
+>    potential for causing harm (e.g., limiting retransmisssions)  For
+>    example, they must not be used to try to impose a particular method
+>    on implementors where the method is not required for
+>    interoperability.
+
+The above bolsters the argument that SHOULD is often more appropriate
+than MUST.
+
+In my experience, we often use the word SHOULD because we think that
+something is the obvious thing to do, but to make it a MUST simply
+goes to far. MUST is absolute and allows for no wiggle room, and can
+significantly reduce flexibility of future extensions/specs.
+
+If the IESG is now requring all uses of SHOULD to give examples of
+when the SHOULD might not apply, I think that goes a bit far. In some
+cases, SHOULD is chosen because we can imagine a future spec taking
+advantage of something that would not be consistent with the
+SHOULD. That is MUCH harder to do when a previous spec says MUST. When
+a party a MUST do something, peers sometimes take that to mean that if
+the someone doesn't do the MUST, that is a protocol violation and then
+do less-than-ideal things (like silently discard a message, return an
+error message, etc.)
+
+Also, anyone familiar with WG discussions knows that there is often
+support for SHOULD, but not for MUST.
+
+Thomas
+
+
+--------------------------------------------------------------------
+IETF IPv6 working group mailing list
+ipv6@ietf.org
+Administrative Requests: https://www1.ietf.org/mailman/listinfo/ipv6
+--------------------------------------------------------------------

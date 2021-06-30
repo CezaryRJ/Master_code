@@ -1,0 +1,18 @@
+2010 TO 2020
+-------#####------->    bundled-domain-names
+yaojk@cnnic.cn 11
+johnl@taugh.com 8
+bortzmeyer@nic.fr 6
+ajs@anvilwalrusden.com 2
+ietf-secretariat@ietf.org 2
+paul.hoffman@vpnc.org 2
+session_request_developers@ietf.org 2
+agenda@ietf.org 1
+duerst@it.aoyama.ac.jp 1
+marka@isc.org 1
+nkong@cnnic.cn 1
+paf@frobbit.se 1
+paul@nohats.ca 1
+paul@redbarn.org 1
+shane@time-travellers.org 1
+tjw.ietf@gmail.com 1

@@ -1,0 +1,50 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ediint
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ediint/2008-01.mailcl']
+id : 3630b314-edb1-4a1f-a7b8-6cd34fe60cd1
+_version_ : 1675132628637843460
+
+Content : 
+
+030600040606050003050500
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Tue, 8 Jan 2008 21:44:53 +0200
+To: ediint-archive@lists.ietf.org
+From: "Taneli Krizan" <Taneli494@alloabitibi.com>
+Subject: naallerr
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+
+She won't want anybody else after YOU!
+
+http://Largestbigman.com/
+
+myopic1 my-thumb naalluvu
+naajatho naanuow naaniil
+my|t{let naailaep mytterie
+naamukku mzwerven muurtje
+
+

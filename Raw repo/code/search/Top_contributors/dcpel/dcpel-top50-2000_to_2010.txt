@@ -1,0 +1,26 @@
+2000 TO 2010
+-------#####------->    dcpel
+nichols@pollere.com 22
+mendes@docomolab-euro.com 18
+olivier.dugeon@francetelecom.com 7
+robert.hancock@roke.co.uk 6
+jeffrey.s.pulliam@lmco.com 5
+jmpolk@cisco.com 5
+Olivier.Dugeon@rd.francetelecom.com 4
+hannes.tschofenig@siemens.com 4
+karagian@cs.utwente.nl 3
+Olivier.Dugeon@francetelecom.com 2
+attila.bader@ericsson.com 2
+bless@tm.uka.de 2
+david.kessens@nokia.com 2
+mailman-owner@ietf.org 2
+pierre.levis@francetelecom.com 2
+steven.vandenberghe@intec.ugent.be 2
+Black_David@emc.com 1
+RoyR@saic-abingdon.com 1
+avri@acm.org 1
+fred@cisco.com 1
+jorgeac@tid.es 1
+martin.potts@martel-consulting.ch 1
+sob@harvard.edu 1
+vjesus@av.it.pt 1

@@ -1,0 +1,74 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-06.mailcl']
+id : c956cf9a-36bf-4dad-9ce7-b9c35c48fc75
+_version_ : 1675130404532649984
+
+Content : 
+
+ZXF1aXJlZA0KPiAgICBiZXR3ZWVuIHRoZSBBQUEgc2VydmVyIGFuZCBETlMgc2VydmVyIGZv
+ciB0aGUgZHluYW1pYyBETlMgdXBkYXRlLg0KPiAgICBTZWUgWzE2XSBmb3IgYSBkZWVwZXIg
+ZGlzY3Vzc2lvbiBvZiB0aGUgSG9tZSBBZ2VudCB0byBBQUEgc2VydmVyDQo+ICAgIGludGVy
+ZmFjZS4NCg0KQWdhaW4sIGlzIHRoaXMgJ01VU1QgaW1wbGVtZW50Jz8gSWYgc28sIGl0IGlu
+Y3JlYXNlcyBteSBjb25jZXJuIGFib3V0DQpbMTZdIGJlaW5nIG5vbi1ub3JtYXRpdmUgKGFu
+ZCBhZ2FpbiB0d28gcGFyYWdyYXBocyBiZWxvdykuDQoNCj4gICAgUmVnYXJkbGVzcyBvZiB3
+aGV0aGVyIHRoZSBBQUEgc2VydmVyIG9yIEhvbWUgQWdlbnQgcGVyZm9ybXMgRE5TDQo+ICAg
+IHVwZGF0ZSwgdGhlIGF1dGhvcml6YXRpb24gb2YgdGhlIE1vYmlsZSBOb2RlIHRvIHVwZGF0
+ZSBhIEZRRE4gTVVTVCBiZQ0KPiAgICBjaGVja2VkIHByaW9yIHRvIHRoZSBwZXJmb3JtYW5j
+ZSBvZiB0aGUgdXBkYXRlLiAgSXQgaXMgYW4NCj4gICAgaW1wbGVtZW50YXRpb24gaXNzdWUg
+YXMgdG8gaG93IGF1dGhvcml6YXRpb24gaXMgZGV0ZXJtaW5lZC4NCg0KQWdhaW4sIHdvcnJp
+c29tZSBpbiB0ZXJtcyBvZiBhbiBNTiBpbXBsZW1lbnRlciBrbm93aW5nDQp3aGF0IHRvIGlt
+cGxlbWVudC4gV2UgZG9uJ3Qgd2FudCBNTnMgdGhhdCBvbmx5IHdvcmsgd2l0aCBjZXJ0YWlu
+DQp0eXBlcyBvZiBIQS9NU0EvTVNQIHNldHVwcy4NCg0KRWRpdG9yaWFsOg0KLS0tLS0tLS0t
+LQ0KDQoodGhlc2UgYXJlIHR5cG9zIHRoYXQgYXJlIGFjdHVhbGx5IHRlY2huaWNhbCBlcnJv
+cnMpDQoNCj4gMy4gIFNwbGl0IHNjZW5hcmlvDQouLi4NCj4gLi4uIHRoZSBNb2JpbGUgTm9k
+ZSBwb3RlbnRpYWxseSByZXF1aXJlcyBhIGNlcnRpZmljYXRlDQo+ICAgIHJldm9jYXRpb24g
+bGlzdCBjaGVjayAoQ1RMIGNoZWNrKQ0KDQpzL0NUTC9DUkwvDQoNCj4gNS4xLiAgSG9tZSBB
+Z2VudCBBZGRyZXNzIERpc2NvdmVyeQ0KLi4uDQo+ICAgIFRoZSBNb2JpbGUgTm9kZSBuZWVk
+cyB0byBvYnRhaW4gdGhlIElQIGFkZHJlc3Mgb2YgdGhlIEROUyBzZXJ2ZXINCj4gICAgYmVm
+b3JlIGl0IGNhbiBzZW5kIGEgRE5TIHJlcXVlc3QuDQoNCnMvdGhlIEROUyBzZXJ2ZXIvYSBE
+TlMgc2VydmVyLw0KDQo+IDUuMS4xLiAgRE5TIGxvb2t1cCBieSBIb21lIEFnZW50IE5hbWUN
+Ci4uLg0KPiAgICBOb3RlIHRoYXQgdGhlIGNvbmZpZ3VyYXRpb24gb2YgYSBmaXhlZCBob21l
+IGFnZW50IEZRRE4gZG9lcyBhbGxvdw0KPiAgICBkeW5hbWljIGFzc2lnbm1lbnQgb2YgYSBs
+b2NhbGl6ZWQgaG9tZSBhZ2VudC4NCg0Kcy9kb2VzL2RvZXMgbm90Lw0KDQo+IDUuMi4gIElQ
+c2VjIFNlY3VyaXR5IEFzc29jaWF0aW9ucyBzZXR1cA0KLi4uDQo+IC4uLiAgVGhpcyBpcw0K
+PiAgICBuZWVkZWQgYmVjYXVzZSB0aGUgTW9iaWxlIE5vZGUgaGFzIHRvIHByb3ZpZGUgaXQg
+aXMgdGhlIG93bmVyIG9mIHRoZQ0KPiAgICBGUUROIHByb3ZpZGVkIGluIHRoZSBzdWJzZXF1
+ZW50IEROUyBVcGRhdGUgT3B0aW9uLg0KDQpzL3Byb3ZpZGUvcHJvdmUvDQoNCg0KICA=
+--------------040804050608030001060805
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+--------------040804050608030001060805--
+
+

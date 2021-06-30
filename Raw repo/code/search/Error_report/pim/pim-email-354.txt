@@ -1,0 +1,83 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : pim
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/pim/2007-08.mailcl']
+id : 5da8514a-8b7c-4b8b-80a9-90e388127643
+_version_ : 1675132145448779776
+
+Content : 
+
+standardization of PIM with RFC 4601. The WG has determined there is
+additional work to be accomplished and is chartered to standardize
+extensions to RFC 4601 - Protocol Independent Multicast Version 2 -
+Sparse Mode. These PIM extensions will involve reliability, resiliency,
+scalability, management, and security.
+
+The PIM WG will consider implications of VPN service on PIM when it's a
+component of that service or when PIM interfaces with that service at a
+VPN edge. If L2VPN or L3VPN WGs determine that support for multicast in
+L2VPNs and/or L3VPNs requires extensions to PIM, then such extensions
+could be developed within the PIM WG.
+
+Additional work on the PIM-BIDIR and BSR drafts may also be necessary by
+the WG as these drafts progress through Standards Track.
+
+The working group will continue to specify the MIB modules required for
+PIM and its enhancements.
+
+The PIM WG will further enhance RFC4601 as an even more scalable,
+efficient and robust multicast routing protocol, which is capable of
+supporting thousands of groups, different types of multicast
+applications, and all major underlying layer-2 subnetwork technologies.
+We will accomplish these enhancements by submitting drafts, to the IESG,
+involving reliable pim, pim join attributes and pim authentication.
+
+The working group will initiate a new re-chartering effort if it is
+determined that a Version 3 of PIM is required.
+
+Goals and Milestones:
+
+Jul 2007 Ratify new WG charter and milestones
+Dec 2007 Submit the BSR spec as a Proposed Standard to the IESG
+Dec 2007 Submit the BSR MIB as a Proposed Standard to the IESG
+Mar 2008 Submit a more reliable pim solution (refresh reduction) to
+the IESG
+Mar 2008 Submit a generic TLV PIM Join Attribute PS draft to the IESG
+Mar 2008 Submit RPF Vector (use of PIM Join Attribute) as PS to the
+IESG
+Mar 2008 Submit a way to authenticate PIM link local messages as PS
+to the IESG
+Mar 2008 Submit an Informational PIM last hop threats document to the
+IESG
+
+_______________________________________________
+IETF-Announce mailing list
+IETF-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf-announce
+
+_______________________________________________
+pim mailing list
+pim@ietf.org
+https://www1.ietf.org/mailman/listinfo/pim

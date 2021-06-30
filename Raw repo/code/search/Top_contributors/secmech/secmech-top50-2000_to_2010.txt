@@ -1,0 +1,20 @@
+2000 TO 2010
+-------#####------->    secmech
+jsalowey@cisco.com 28
+Nicolas.Williams@sun.com 22
+jari.arkko@piuha.net 18
+clancy@cs.umd.edu 17
+aboba@internaut.com 14
+josh.howlett@bristol.ac.uk 8
+shuque@isc.upenn.edu 8
+hartmans-ietf@mit.edu 5
+t.otto@sharevolution.de 4
+Josh.Howlett@bristol.ac.uk 2
+clint.chaplin@gmail.com 2
+urienp@tele2.fr 2
+Pasi.Eronen@nokia.com 1
+ali.fessi@uni-tuebingen.de 1
+badra@enst.fr 1
+hannes.tschofenig@siemens.com 1
+jas@extundo.com 1
+magnus@rsasecurity.com 1

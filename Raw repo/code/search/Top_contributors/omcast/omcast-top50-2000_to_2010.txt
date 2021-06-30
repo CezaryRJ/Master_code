@@ -1,0 +1,7 @@
+2000 TO 2010
+-------#####------->    omcast
+mailman-owner@ietf.org 2
+mpullen@netlab.gmu.edu 2
+tme@multicasttech.com 2
+jgwu@seu.edu.cn 1
+sasi_karthi@yahoo.com 1

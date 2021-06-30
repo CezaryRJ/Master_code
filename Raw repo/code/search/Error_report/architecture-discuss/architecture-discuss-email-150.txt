@@ -1,0 +1,384 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : architecture-discuss
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/architecture-discuss/2006-11.mailcl']
+id : 42d94094-a3c2-4713-80aa-9edfca86ed4a
+_version_ : 1675131577565184000
+
+Content : 
+
+>>  >> and "try" to maintain enough state to alter them back. :*(
+>>  >>
+>>  >>  > But if I am no longer using the notion of a current source=20
+>>  >> address at  > the transport end I don't care about that
+>>  anymore and
+>>  >> if that is  > possible that is a good thing.
+>>  >>
+>>  >>     IPvN source addresses are used to report routing problems:
+>>  >>  other than that, they can mostly be ignored. (Indeed, they  =
+can't
+>>  >> even be trusted for that much: the less we depend on  them, the
+>>  >> better.)
+>>  >>
+>>  >>     (There was a time when we believed routing based on source=20
+>>  >> address would help. Most of us would like to bury that idea...)
+>>  >>
+>>  >>  > I believe shim6 and hip get us very close to this model
+>>  for the  >
+>>  >> transport with current architecturs and specifications.
+>>  >>
+>>  >>     I must admit that I view both shim6 and hip as moving  =
+targets
+>>  >> trying to be too many things to too many people. I=20
+>>  suspect I'm not
+>>  >> alone. In any case, both of those are  engineering, not
+>>  architecture;
+>>  >> for purposes of this list I
+>>  >  > suggest explaining which features of them you'd like to
+>>  >>  compare, rather than just naming a protocol.
+>>  >>
+>>  >>  --
+>>  >>  John Leslie <john@jlc.net>
+>>  >>
+>>  >
+>>  >_______________________________________________
+>>  >Architecture-discuss mailing list
+>>  >Architecture-discuss@ietf.org
+>>  >https://www1.ietf.org/mailman/listinfo/architecture-discuss
+>>
+>>
+
+
+_______________________________________________
+Architecture-discuss mailing list
+Architecture-discuss@ietf.org
+https://www1.ietf.org/mailman/listinfo/architecture-discuss
+
+--=20
+No virus found in this incoming message.
+Checked by AVG Free Edition.
+Version: 7.1.409 / Virus Database: 268.15.0/557 - Release Date: =
+29/11/2006
+=20
+
+--=20
+No virus found in this outgoing message.
+Checked by AVG Free Edition.
+Version: 7.1.409 / Virus Database: 268.15.0/557 - Release Date: =
+29/11/2006
+=20
+
+
+_______________________________________________
+Architecture-discuss mailing list
+Architecture-discuss@ietf.org
+https://www1.ietf.org/mailman/listinfo/architecture-discuss
+
+
+
+
+
+AN (203-217-34-245.dyn.iinet.net.au [203.217.34.245])
+	(authenticated bits=0)
+	by mail.authsmtp.com (8.13.6/8.13.6/Kp) with ESMTP id kAUIjM33085399
+	for <architecture-discuss@ietf.org>; Thu, 30 Nov 2006 18:45:24 GMT
+From: "Ian Peter" <ian.peter@ianpeter.com>
+To: <architecture-discuss@ietf.org>
+Date: Fri, 1 Dec 2006 05:44:09 +1100
+Message-ID: <018a01c714af$877f07b0$4a02a8c0@IAN>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="windows-1250"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AccUmCwNQb6aY5/aTEeyGsyclO4L9wAFf2tQ
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+In-Reply-To: <a06230911c194abbada06@[10.0.1.43]>
+X-Server-Quench: f1724e92-80a2-11db-b4dc-001185d377ca
+X-AuthRoute: OCdyZgEQClZURQJc Ei4YATVoSAwjPhBQ DAVFJgxfNlMTXgRQ
+	LktRMkdJPRgQREpS RiVIKw0BFAtvBiEi JQlRcnsCJFVMXwVs
+	QElBSFZXHgduTx4B BQAcUx5sdAFYenp1 ekRnXHVEXAohBCME
+	GDNXFm0OYGRpYS4X VkdaOVVVdwFOKxZH d1h/BXEQYGRTNGcy
+	QwM4emhpZGwPdSgO HV4GJEQ8QEAHHzgz DxlKAjw+VUMCXTo6 NRBO
+X-Authentic-SMTP: 61633136393539.squirrel.dmpriest.net.uk:315/Kp
+X-Report-SPAM: If SPAM / abuse - report it at: http://www.authsmtp.com/abuse
+X-Spam-Score: 0.5 (/)
+X-Scan-Signature: b84f8c8fba0e1389e5eb998b64078964
+Subject: [arch-d] Finding a way forward
+X-BeenThere: architecture-discuss@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: open discussion forum for long/wide-range architectural issues
+	<architecture-discuss.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/architecture-discuss>, 
+	<mailto:architecture-discuss-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/architecture-discuss>
+List-Post: <mailto:architecture-discuss@ietf.org>
+List-Help: <mailto:architecture-discuss-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/architecture-discuss>, 
+	<mailto:architecture-discuss-request@ietf.org?subject=subscribe>
+Errors-To: architecture-discuss-bounces@ietf.org
+
+
+
+Assuming that action is required and this is not just an interesting
+discussion -
+
+Can someone give a best guesstimate as regards what timeframe the =
+problem is
+likely to severly affect Internet performance - are we talking 3 years =
+or 10
+or further?
+
+That should help to indicate whether a bandaid approach is absolutely
+necessary or whether a more wholistic approach should be concentrated =
+on.
+
+I certainly suggest you avoid trying to do both on the same list (if =
+both
+are necessary)
+
+The next step after this preliminary analysis would be to evaluate
+realistically what could be done (that=92s means implemented, not just a
+standard) in the timeframe in which action is needed.
+
+
+
+
+Ian Peter
+Ian Peter and Associates Pty Ltd
+PO Box 10670 Adelaide St  Brisbane 4000
+Australia
+Tel (+614) 1966 7772
+www.ianpeter.com
+www.internetmark2.org
+www.nethistory.info
+
+
+-----Original Message-----
+From: John Day [mailto:jeanjour@comcast.net]=20
+Sent: 01 December 2006 02:51
+To: Bound, Jim; John Day; John Leslie
+Cc: architecture-discuss@ietf.org
+Subject: RE: [arch-d] On identifiers: what is virtual and what is global
+(wasRe: thou...
+
+I believe that a week or so ago a list was created to address the=20
+problem you describe.  As I understand it, this list was created to=20
+address the fact that for the past 30 years the Internet has shirked=20
+its responsibility to do the work necessary to provide a complete and=20
+well thought out architecture.
+
+As was expressed at the beginning of this discussion a few weeks ago,=20
+we have to give up this constant band-aid approach.  We have to find=20
+the *solutions.*  Then we can trade our band-aids in for steps toward=20
+an answer.
+
+As for transport, yes, we do have a number of bad examples in the data.
+
+
+At 3:38 -0500 2006/11/30, Bound, Jim wrote:
+>I am working here on engineering (not a computer science research
+>project) for an architecture that will assist routing, but alleviating
+>the business problem for operators that are not just network providers
+>from the multihoming problem to some degree permits us more time to
+>resolve the architecture issue at hand for routing.  If the transport
+>layer, which does rely on IPvN addresses in any implementation code I
+>have ever seen for lookups etc., can be made to not be dependent on =
+IPvN
+>addresses, that will permit aggregation of IPvN addresses for some time
+>to avoid the collision presented by the IAB at San Diego potentially.
+>Thus it is important and I don't agree with John Day.
+>
+>Best,
+>/jim
+>
+>>  -----Original Message-----
+>>  From: John Day [mailto:jeanjour@comcast.net]
+>>  Sent: Wednesday, November 29, 2006 9:14 PM
+>>  To: Bound, Jim; John Leslie
+>>  Cc: architecture-discuss@ietf.org
+>>  Subject: RE: [arch-d] On identifiers: what is virtual and
+>>  what is global (wasRe: thou...
+>>
+>>  Not quite.  Sooner or later you are going to realize that
+>>  that there are no such thing as Transport Addresses.  In
+>>  fact, transport is sort of a minor layer at best.  As far as
+>>  this problem is concerned, Transport is irrelevant to the solution.
+>>
+>>  Transport has no effect on the routing and its components and
+>>  doesn't constrain its possibilities in the least.
+>>
+>>  QED
+>>
+>>  At 20:49 -0500 2006/11/29, Bound, Jim wrote:
+>>  >agree again.  also no attachment to src addresses at my end.
+>>   agree on
+>>  >identifying transport points of the protocols to the
+>>  architecture but
+>>  >want to go offline with Pekka N. on that one and can do as I
+>>  can around
+>>  >the day job of course.  the reason to do this arch exercise is the
+>>  >potential of freeing the transport layer from IPvN layer and
+>>  >components, which affords routing more freedom in thinking
+>>  models.  but
+>>  >to note both
+>>  >shim6 and hip have done this and some implementation exists.
+>>  >
+>>  >Best,
+>>  >/jim
+>>  >
+>>  >
+>>  >
+>>  >>  -----Original Message-----
+>>  >>  From: John Leslie [mailto:john@jlc.net]
+>>  >>  Sent: Wednesday, November 29, 2006 4:52 PM
+>>  >>  To: Bound, Jim
+>>  >>  Cc: architecture-discuss@ietf.org
+>>  >>  Subject: Re: [arch-d] On identifiers: what is virtual and
+>>   what is
+>>  >> global (wasRe: thou...
+>>  >>
+>>  >>  Bound, Jim <Jim.Bound@hp.com> wrote:
+>>  >>  >> From: John Leslie [mailto:john@jlc.net]  >>  >> I strongly
+>>  >> recommend that we call the "thing" that sits in
+>>  >>   the IPv4
+>>  >>  >>header as destination address an "IPv4 destination=20
+>>  address", and
+>>  >> the  >>"thing" that sits in the IPv6 header as a=20
+>>  destination address
+>>  >> an
+>>  >>  >>"IPv6 destination address".
+>>  >>  >>...
+>>  >>  >> (The actual parameters passed to operating systems to
+>>  open  TCP=20
+>>  >> >>sockets and connections are _also_ something else  >>
+>>  entirely: we
+>>  >> must not confuse TCP endpoints with IPvN  destination
+>>  >>  >>addresses.)
+>>  >>  >
+>>  >>  > Two points I do want to note for discussion are  >  > what is
+>>  >> passed to transport connections are end-to-end=20
+>>  identifiers in  > my
+>>  >> view and should not be exposed in the IPvN headers or used for  >
+>>  >> loc+id.
+>>  >>
+>>  >>     I agree they are end-to-end identifiers, even if they look=20
+>  > >> exactly like IPvN addresses.
+>>  >>
+>>  >>     That they currently are exposed in IPvN headers is an
+>>  accident of
+>>  >>  history: TCP never defined a standard for exchanging
+>>  anything  else
+>>  >> as endpoint identifiers. (Clearly, both ends of a TCP  connection
+>>  >> need to agree how to distinguish that a packet  belongs to that
+>>  >>  connection: IPvN addresses have worked OK for that purpose.
+>>  >>  Endpoint identifiers _could_ be something else entirely;
+>>  and  need
+>>  >> not be visible at all to the IPvN layer.)
+>>  >>
+>>  >>     We must allow _something_ to be used for loc+id within
+>>   IPvN; but
+>>  >> it'd be fine if, for example, the application  passed FQDNs as =
+the
+>>  >> endpoint IDs and the operating system did  a DNS-like
+>>  query to find=20
+>>  >> loc+id.
+>>  >>
+>>  >>  > Also on source addresses my pain has been if they get  altered
+>>  >> then I  > am unclear how I respond back at the OS transport end.
+>>  >>
+>>  >>     This is indeed a mess right now. NAT boxes routinely
+>>  alter  these
+>>  >> and "try" to maintain enough state to alter them back. :*(
+>>  >>
+>>  >>  > But if I am no longer using the notion of a current source=20
+>>  >> address at  > the transport end I don't care about that
+>>  anymore and
+>>  >> if that is  > possible that is a good thing.
+>>  >>
+>>  >>     IPvN source addresses are used to report routing problems:
+>>  >>  other than that, they can mostly be ignored. (Indeed, they  =
+can't
+>>  >> even be trusted for that much: the less we depend on  them, the
+>>  >> better.)
+>>  >>
+>>  >>     (There was a time when we believed routing based on source=20
+>>  >> address would help. Most of us would like to bury that idea...)
+>>  >>
+>>  >>  > I believe shim6 and hip get us very close to this model
+>>  for the  >
+>>  >> transport with current architecturs and specifications.
+>>  >>
+>>  >>     I must admit that I view both shim6 and hip as moving  =
+targets
+>>  >> trying to be too many things to too many people. I=20
+>>  suspect I'm not
+>>  >> alone. In any case, both of those are  engineering, not
+>>  architecture;
+>>  >> for purposes of this list I
+>>  >  > suggest explaining which features of them you'd like to
+>>  >>  compare, rather than just naming a protocol.
+>>  >>
+>>  >>  --
+>>  >>  John Leslie <john@jlc.net>
+>>  >>
+>>  >
+>>  >_______________________________________________
+>>  >Architecture-discuss mailing list
+>>  >Architecture-discuss@ietf.org
+>>  >https://www1.ietf.org/mailman/listinfo/architecture-discuss
+>>
+>>
+
+
+_______________________________________________
+Architecture-discuss mailing list
+Architecture-discuss@ietf.org
+https://www1.ietf.org/mailman/listinfo/architecture-discuss
+
+--=20
+No virus found in this incoming message.
+Checked by AVG Free Edition.
+Version: 7.1.409 / Virus Database: 268.15.0/557 - Release Date: =
+29/11/2006
+=20
+
+--=20
+No virus found in this outgoing message.
+Checked by AVG Free Edition.
+Version: 7.1.409 / Virus Database: 268.15.0/557 - Release Date: =
+29/11/2006
+=20
+
+
+_______________________________________________
+Architecture-discuss mailing list
+Architecture-discuss@ietf.org
+https://www1.ietf.org/mailman/listinfo/architecture-discuss
+
+
+
+

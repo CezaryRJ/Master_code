@@ -1,0 +1,23 @@
+2010 TO 2020
+-------#####------->    dclc
+fred@cisco.com 27
+lars@netapp.com 14
+bob.briscoe@bt.com 9
+denglingli@chinamobile.com 4
+weixinpeng@huawei.com 4
+haibin.song@huawei.com 3
+toby.moncaster@cl.cam.ac.uk 3
+dave.taht@gmail.com 2
+denghui@chinamobile.com 2
+lingli.deng@139.com 2
+liuzhiheng@chinamobile.com 2
+caozhen@chinamobile.com 1
+dros@simula.no 1
+duanshihui@catr.cn 1
+fsong@bjtu.edu.cn 1
+ietf@bobbriscoe.net 1
+jon.crowcroft@cl.cam.ac.uk 1
+liudapeng@chinamobile.com 1
+mirja.kuehlewind@ikr.uni-stuttgart.de 1
+wenbo.mao@daolicloud.com 1
+ziyao.xzy@alibaba-inc.com 1

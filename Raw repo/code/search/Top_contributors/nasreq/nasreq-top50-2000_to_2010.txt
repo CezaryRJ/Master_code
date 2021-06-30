@@ -1,0 +1,52 @@
+2000 TO 2010
+-------#####------->    nasreq
+nasreq-archive@lists.ietf.org 199
+nasreq-archive@ietf.org 105
+multi6-archive@lists.ietf.org 40
+mbeadles@smartpipes.com 24
+Daily@core3.amsl.com 19
+Health@core3.amsl.com 19
+Men's@core3.amsl.com 19
+"Dose <nasreq-archive"@lists.ietf.org 14
+haa25077@ietf.org 13
+dmitton@nortelnetworks.com 10
+chsharp@cisco.com 8
+manet-bounces@ietf.org 8
+Internet-Drafts@ietf.org 6
+"Dose <nasreq-archive"@ietf.org 5
+iesg-secretary@ietf.org 5
+mip6-admin@ietf.org 5
+rfc-ed@ISI.EDU 5
+matt@ascend.com 4
+mip4@ietf.org 4
+pkix-archive@lists.ietf.org 4
+randy@psg.com 4
+VIAGRA.Official@core3.amsl.com 3
+idmr-archive@lists.ietf.org 3
+imm@core.com 3
+magma@ietf.org 3
+maintenance@webmaster.net 3
+nea-bounces@ietf.org 3
+pcalhoun@ha1mpk-mail.Eng.Sun.COM 3
+"Site <nasreq-archive"@ietf.org 2
+b4h443@arabia.com 2
+bill4h56@china.com 2
+david@mitton.com 2
+ganapat@cadl.iisc.ernet.in 2
+manet-owner@ietf.org 2
+mirap 2
+nemo-bounces@ietf.org 2
+res02mg1@gte.net 2
+telekom.yu 2
+webmaster@all4kyaku.com 2
+"Deirdre Bouchard"@core3.amsl.com 1
+"Paul Barajas"@core3.amsl.com 1
+"Site <nasreq-archive"@lists.ietf.org 1
+ASDF@WERT.COM 1
+Abe@certifiedreports.com 1
+AbelflareLuna@cflib.org 1
+AddiesprigBrunson@willieruff.com 1
+AdrianwilyReid@redlandsdailyfacts.com 1
+AlisoneclatTidwell@freedict.com 1
+AllisontadRoe@washingtonpost.com 1
+Amanda@anchoringinstillness.com 1

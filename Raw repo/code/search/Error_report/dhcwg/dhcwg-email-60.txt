@@ -1,0 +1,135 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : dhcwg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/dhcwg/2007-03.mailcl']
+id : 4c52c6fe-86c0-4f10-bc0e-021064b25ba0
+_version_ : 1675129724170403840
+
+Content : 
+
+> >> effect
+> >> infinite.   Maybe one day another /8 of unicast space will be
+> deployed
+> >> with 96 bit network prefixes, but that's not the case today.
+> >>
+> >>>> The aim of the text is to encourage DHCPv6 server implementors to
+> >> support
+> >>>> an option to configure an address pool that can in effect serve
+> >> addresses
+> >>>> randomly from that pool.   This implies some overhead in checking
+> >> whether
+> >>>> such an address is already used, but that cost should in principle
+> >> not be
+> >>>> that high.
+> >>>>
+> >>> "Cost should in principle not be high" is not the same as free, and
+> >> some
+> >>> companies like to cut corners in development. Again, not a show
+> >> stopper to
+> >>> me.
+> >>
+> >> But whether you allocate sequentially or randomly you have to check
+> >> through
+> >> a list in some way to see where the next address to allocate will
+> come
+> >> from,
+> >> i.e. if you allocate sequentially you'll have gaps in your sequence
+> >> that
+> >> can be reused.    Although actually in v6 you could argue you never
+> >> need
+> >> to check for those gaps since you have a lot of mileage in just
+> using
+> >> the next
+> >> address each time, if you chose to.
+> >>
+> >>>> Our evidence here is that we see scans run on specific ports of
+> >> addresses
+> >>>> that we publish (DNS, MX, etc) and also on low addresses,
+> >> <prefix>::1
+> >>>> being the primary example.
+> >>>
+> >>> True, this is how it will work in large companies where they track
+> >> firewall
+> >>> traffic, but in homes or smaller networks frequently there is no
+> one
+> >> to do
+> >>> this monitoring or checking. This is why some small companies rely
+> on
+> >> NAT
+> >>> rather than firewalls for security.
+> >>
+> >> I'm just saying what we're seeing.  There would be a stateful
+> firewall
+> >> where
+> >> the NAT box is today, indeed they would likely be the same box in a
+> >> dual stack
+> >> site, so I'm not sure what your point is here.
+> >>
+> >>>> Emphasis here is on the option to support this.   If you chose to
+> >> number
+> >>>> sequentially from <prefix>::1 you choose to have easier-to-
+> remember
+> >>>> addresses at the cost of a ignoring an opportunity for a little
+> port
+> >>>> scanning obfuscation.   It's a trade-off but it would be nice to
+> >> have
+> >>>> the choice.
+> >>>
+> >>> Same problem as previous comment. Companies that are small tend to
+> >> have
+> >>> some "super" user or vendor set things up. These people tend to go
+> >> for the
+> >>> eacy to remember (i.e. maintain) configurations. And in the case of
+> >> small
+> >>> networking vendors they may use the same pool and default numbers
+> to
+> >> make
+> >>> their lives easy when handeling service calls.
+> >>
+> >> That doesn't matter.  To a home user they might see DHC addresses
+> for
+> >> v6
+> >> allocated as they are today, sequentially from <prefix>::1, but they
+> >> could
+> >> check a tickbox on their router web interface to say 'allocate dhc
+> >> addresses
+> >> randomly', just as there may be a tickbox for dhc privacy addresses.
+> >> Today's
+> >> IPv6 routers, running NAT or not, offer options for things such as
+> >> static
+> >> address allocation by MAC address, address pools to use, etc, so
+> it's
+> >> not
+> >> unfamiliar to today's more experienced users.
+> >>
+> >> Tim
+> >>
+> >
+
+
+_______________________________________________
+dhcwg mailing list
+dhcwg@ietf.org
+https://www1.ietf.org/mailman/listinfo/dhcwg

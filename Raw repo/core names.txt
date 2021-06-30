@@ -1,0 +1,15 @@
+
+LS
+
+ietf-archive-clean
+ietf-archive-unclean
+
+
+/home/cezaryrj/new/ietf.org/mail-archive/
+
+python3 fa.py /home/cezaryrj/new/ietf.org/mail-archive/
+python3 copy_other_files.py /home/cezaryrj/ietf/cezaryrj/misc_file_exp/copy
+python2 runcleaner_other.py /home/cezaryrj/ietf/cezaryrj/misc_file_exp/other_copy/
+
+
+

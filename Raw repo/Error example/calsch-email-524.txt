@@ -1,0 +1,77 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <008901c7174a.c1376400.8036c0a8@
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : calsch
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/calsch/2006-12.mailcl']
+id : c8366aaf-9277-4069-aa9f-9de81c38aa9b
+_version_ : 1675130535862599682
+
+Content : 
+
+>
+Date: Mon, 04 Dec 2006 02:20:24 +0000
+From: siusan ibrahim <evandall@liskova.de>
+User-Agent: Thunderbird 1.5.0.5 (Windows/20060719)
+MIME-Version: 1.0
+To: hendrika traver <calsch-archive@lists.ietf.org>
+Subject: Hey, delong
+Content-Type: multipart/alternative;
+ boundary="---------0000009F.01C7174A"
+
+This is a multi-part message in MIME format.
+-----------0000009F.01C7174A
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Upcoming holydays brings you headache?
+We have a solution!
+whitevpinkandtwo.com
+quasi-living cattle farm
+adductor impressions coltsfoot snakeroot
+
+-----------0000009F.01C7174A
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta content="text/html;charset=us-ascii" http-equiv="Content-Type">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+Upcoming holydays brings you headache?<br>
+We have a solution!<br>
+<a href="whitevpinkandtwo.com">whitevpinkandtwo.com</a><br>
+quasi-living cattle farm<br>
+adductor impressions coltsfoot snakeroot<br>
+</body>
+</html>
+
+-----------0000009F.01C7174A--
+
+
+---------report
+i am not 100% sure, but it looks like a malformed mime message 
+start at line 2558
+

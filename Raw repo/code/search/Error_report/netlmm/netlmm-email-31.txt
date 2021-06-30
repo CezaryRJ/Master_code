@@ -1,0 +1,174 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : netlmm
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/netlmm/2007-10.mailcl']
+id : 6b02b8b9-26a6-495c-80ea-c0dab0e23611
+_version_ : 1675129936702078976
+
+Content : 
+
+Changes (by christian.vogt@nomadiclab.com):
+
+  * status:  new => closed
+  * resolution:  => fixed
+
+Comment:
+
+ According to Jouni Korhonen's email from Sep 21, 2007, this issue has been
+ resolved:
+
+  ''I reviewed the -05 version of the document and what concerns
+  issue #165 I am OK with the current text. This issue can be
+  considered closed now.
+
+-- 
+Ticket URL: <http://www3.tools.ietf.org/wg/netlmm/trac/ticket/165#comment:1>
+NetLMM <http://tools.ietf.org/wg/netlmm/>
+
+
+
+
+_______________________________________________
+netlmm mailing list
+netlmm@ietf.org
+https://www1.ietf.org/mailman/listinfo/netlmm
+
+
+
+
+
+learn=ham
+	version=3.2.3
+X-Original-To: christian.vogt@piuha.net
+Received: from p130.piuha.net (localhost [127.0.0.1])
+	by p130.piuha.net (Postfix) with ESMTP id 1FEDC19866A
+	for <christian.vogt@piuha.net>; Thu,  4 Oct 2007 14:30:05 +0300 (EEST)
+Received: from n2.nomadiclab.com (n2.nomadiclab.com [193.234.219.2])
+	by p130.piuha.net (Postfix) with ESMTP id E407D198658
+	for <christian.vogt@piuha.net>; Thu,  4 Oct 2007 14:30:04 +0300 (EEST)
+Received: by n2.nomadiclab.com (Postfix)
+	id E151C1EF803; Thu,  4 Oct 2007 14:30:04 +0300 (EEST)
+Received: from n2.nomadiclab.com (localhost [127.0.0.1])
+	by n2.nomadiclab.com (Postfix) with ESMTP id AFB7A1EF81A
+	for <christian.vogt@nomadiclab.com>;
+	Thu,  4 Oct 2007 14:30:04 +0300 (EEST)
+Received: from outside.nomadiclab.com (d146.nomadiclab.com [193.234.218.146])
+	by n2.nomadiclab.com (Postfix) with ESMTP id 7DF0F1EF803
+	for <christian.vogt@nomadiclab.com>;
+	Thu,  4 Oct 2007 14:30:04 +0300 (EEST)
+Received: from outside.nomadiclab.com (localhost [127.0.0.1])
+	by outside.nomadiclab.com (Postfix) with ESMTP id 480DABDC43
+	for <christian.vogt@nomadiclab.com>;
+	Thu,  4 Oct 2007 14:30:04 +0300 (EEST)
+Received: from merlot.tools.ietf.org (merlot.tools.ietf.org [194.146.105.14])
+	by outside.nomadiclab.com (Postfix) with ESMTP id 15FB5BDC42
+	for <christian.vogt@nomadiclab.com>;
+	Thu,  4 Oct 2007 14:30:04 +0300 (EEST)
+Received: from localhost
+	([127.0.0.1]:60625 helo=merlot.tools.ietf.org ident=www-data)
+	by merlot.tools.ietf.org with esmtp (Exim 4.67)
+	(envelope-from <trac@tools.ietf.org>)
+	id 1IdOu2-0006XZ-2q; Thu, 04 Oct 2007 13:30:02 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="ascii"
+Content-Transfer-Encoding: 7bit
+From: "NetLMM" <trac@tools.ietf.org>
+X-Trac-Version: 0.10.4
+X-Mailer: Trac 0.10.4, by Edgewall Software
+X-Trac-Project: NetLMM
+Date: Thu, 04 Oct 2007 11:30:02 -0000
+X-URL: http://tools.ietf.org/wg/netlmm/
+Subject: Re: [NetLMM] #165: Responsibility of Home Prefix Assignment
+X-Trac-Ticket-URL: http://www3.tools.ietf.org/wg/netlmm/trac/ticket/165#comment:1
+Message-ID: <069.3ad0c969c61fcbb088c9f13b29d2d81d@tools.ietf.org>
+References: <060.409370ac8a30e28c4727bd5e0f3360e0@tools.ietf.org>
+X-Trac-Ticket-ID: 165
+In-Reply-To: <060.409370ac8a30e28c4727bd5e0f3360e0@tools.ietf.org>
+X-SA-Exim-Connect-IP: 127.0.0.1
+X-SA-Exim-Rcpt-To: christian.vogt@nomadiclab.com,
+	jouni.korhonen@teliasonera.com, sgundave@cisco.com
+X-SA-Exim-Mail-From: trac@tools.ietf.org
+X-SA-Exim-Scanned: No (on merlot.tools.ietf.org);
+	SAEximRunCond expanded to false
+To: undisclosed-recipients:;
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-Virus-Scanned: ClamAV using ClamSMTP
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 2409bba43e9c8d580670fda8b695204a
+Resent-Date: Thu, 04 Oct 2007 08:12:51 -0400
+X-BeenThere: netlmm@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: trac@tools.ietf.org
+List-Id: NETLMM working group discussion list <netlmm.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/netlmm>,
+	<mailto:netlmm-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/netlmm>
+List-Post: <mailto:netlmm@ietf.org>
+List-Help: <mailto:netlmm-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/netlmm>,
+	<mailto:netlmm-request@ietf.org?subject=subscribe>
+Sender: netlmm-bounces@ietf.org
+Errors-To: netlmm-bounces@ietf.org
+
+#165: Responsibility of Home Prefix Assignment
+-----------------------------------------+----------------------------------
+ Reporter:  chvogt@tm.uka.de             |        Owner:  Sri Gundavelli <sgundave@cisco.com>, netlmm@ietf.org
+     Type:  technical                    |       Status:  closed                                              
+ Priority:  normal                       |    Milestone:  PMIPv6 base specification                           
+Component:  draft-ietf-netlmm-proxymip6  |   Resolution:  fixed                                               
+ Keywords:                               |  
+-----------------------------------------+----------------------------------
+Changes (by christian.vogt@nomadiclab.com):
+
+  * status:  new => closed
+  * resolution:  => fixed
+
+Comment:
+
+ According to Jouni Korhonen's email from Sep 21, 2007, this issue has been
+ resolved:
+
+  ''I reviewed the -05 version of the document and what concerns
+  issue #165 I am OK with the current text. This issue can be
+  considered closed now.
+
+-- 
+Ticket URL: <http://www3.tools.ietf.org/wg/netlmm/trac/ticket/165#comment:1>
+NetLMM <http://tools.ietf.org/wg/netlmm/>
+
+
+
+
+_______________________________________________
+netlmm mailing list
+netlmm@ietf.org
+https://www1.ietf.org/mailman/listinfo/netlmm
+
+
+
+

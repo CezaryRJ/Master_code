@@ -1,0 +1,49 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : c97dda45-5493-48d7-b666-3f4e95c6bb25
+_version_ : 1675131693022838784
+
+Content : 
+
+
+--OtherAccess--
+
+--NextPart
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+I-D-Announce mailing list
+I-D-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/i-d-announce
+
+--NextPart--
+
+
+--------------7F132A660556CBF43AF4E734--

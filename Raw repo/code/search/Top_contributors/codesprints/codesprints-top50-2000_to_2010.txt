@@ -1,0 +1,13 @@
+2000 TO 2010
+-------#####------->    codesprints
+henrik@merlot.tools.ietf.org 28
+glen@amsl.com 19
+henrik@levkowetz.com 11
+Pasi.Eronen@nokia.com 4
+rjsparks@nostrum.com 3
+adam@nostrum.com 2
+RjS@nostrum.com 1
+arifumi@nttv6.net 1
+jari.arkko@piuha.net 1
+lars.eggert@nokia.com 1
+rjsparks@estacado.net 1

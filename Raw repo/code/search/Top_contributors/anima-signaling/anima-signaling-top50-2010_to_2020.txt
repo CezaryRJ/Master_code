@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    anima-signaling
+brian.e.carpenter@gmail.com 211
+eckert@cisco.com 50
+mcr+ietf@sandelman.ca 41
+leo.liubing@huawei.com 23
+cabo@tzi.org 20
+jhildebr@cisco.com 16
+jcnobre@inf.ufrgs.br 13
+jmh@joelhalpern.com 5
+jiangsheng@huawei.com 4
+mbehring@cisco.com 4
+markus.stenberg@iki.fi 3
+mcr@sandelman.ca 2
+Laurent.Ciavaglia@alcatel-lucent.com 1
+bclaise@cisco.com 1
+drc@virtualized.org 1
+ietf-secretariat@ietf.org 1
+jmh.direct@joelhalpern.com 1
+michelle.cotton@iana.org 1
+pritikin@cisco.com 1
+rogerj@gmail.com 1
+terry.manderson@icann.org 1
+tom.taylor.stds@gmail.com 1
+tte+ietf@cs.fau.de 1

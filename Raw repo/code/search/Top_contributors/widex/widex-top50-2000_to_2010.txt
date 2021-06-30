@@ -1,0 +1,24 @@
+2000 TO 2010
+-------#####------->    widex
+Vlad.Stirbu@nokia.com 35
+dean.willis@softarmor.com 32
+dsr@w3.org 29
+jyu@openxup.org 13
+rosfran.borges@indt.org.br 8
+Internet-Drafts@ietf.org 5
+eburger@brooktrout.com 5
+eprparadocs@gmail.com 5
+iesg-secretary@ietf.org 4
+sah@428cobrajet.net 4
+aki.niemi@nokia.com 2
+dhc2@dcrocker.net 2
+lisa@osafoundation.org 2
+saravanants@tataelxsi.co.in 2
+Basavaraj.Patil@nokia.com 1
+GK@ninebynine.org 1
+Jonathan.Engelsma@motorola.com 1
+david.nospam.hopwood@blueyonder.co.uk 1
+harald@alvestrand.no 1
+iesg-secretary-reply@ietf.org 1
+joe.gregorio@gmail.com 1
+zimmer@trace.wisc.edu 1

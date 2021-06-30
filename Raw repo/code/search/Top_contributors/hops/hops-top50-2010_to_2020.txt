@@ -1,0 +1,27 @@
+2010 TO 2020
+-------#####------->    hops
+mirja.kuehlewind@tik.ee.ethz.ch 16
+ietf@trammell.ch 10
+aaron.falk@gmail.com 9
+lars@netapp.com 4
+Joachim.Fabini@tuwien.ac.at 3
+marc.blanchet@viagenie.ca 2
+marcelo@it.uc3m.es 2
+michael.scharf@alcatel-lucent.com 2
+michawe@ifi.uio.no 2
+michio@netapp.com 2
+v.bajpai@jacobs-university.de 2
+Dirk.Kutscher@neclab.eu 1
+Stefan.Alfredsson@kau.se 1
+Szilveszter.Nadas@ericsson.com 1
+bob.briscoe@bt.com 1
+chkuhtz@microsoft.com 1
+diego.r.lopez@telefonica.com 1
+ethan.kb@usc.edu 1
+glen@amsl.com 1
+ietf-secretariat@ietf.org 1
+mohamed.boucadair@orange.com 1
+plonka@akamai.com 1
+stephen.strowes@gmail.com 1
+tjw.ietf@gmail.com 1
+wassim.haddad@ericsson.com 1

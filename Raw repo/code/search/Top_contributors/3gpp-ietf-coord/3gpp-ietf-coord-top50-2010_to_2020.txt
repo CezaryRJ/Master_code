@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    3gpp-ietf-coord
+lionel.morand@orange.com 14
+spencerdawkins.ietf@gmail.com 13
+Gonzalo.Camarillo@ericsson.com 12
+georg.mayer.huawei@gmx.com 12
+gonzalo.camarillo@ericsson.com 9
+christer.holmberg@ericsson.com 8
+magnus.westerlund@ericsson.com 6
+md3135@att.com 4
+rjsparks@nostrum.com 4
+aallen@blackberry.com 3
+172211007@nitdelhi.ac.in 2
+R.Jesske@telekom.de 2
+adam@nostrum.com 2
+ben@nostrum.com 2
+ietf@kuehlewind.net 2
+jari.arkko@piuha.net 2
+julien.maisonneuve@nokia.com 2
+erik.guttman@gmail.com 1
+iesg-secretary@ietf.org 1
+jefftant.ietf@gmail.com 1
+mary.ietf.barnes@gmail.com 1
+nareshkumar12024@gmail.com 1
+subirdas21@gmail.com 1
+suresh.krishnan@gmail.com 1

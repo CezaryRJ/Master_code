@@ -1,0 +1,14 @@
+2010 TO 2020
+-------#####------->    netrqmts
+Jason_Livingood@comcast.com 7
+mcr+ietf@sandelman.ca 7
+tte@cs.fau.de 6
+bob.hinden@gmail.com 5
+alex@meetecho.com 3
+housley@vigilsec.com 2
+kodonog@gmail.com 2
+odonoghue@isoc.org 2
+pwdanley@ietf.org 2
+agenda@ietf.org 1
+jclarke@cisco.com 1
+michael.breuer@ilsf.de 1

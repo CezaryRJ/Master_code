@@ -1,0 +1,76 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : isis
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/isis/1999-06.mailcl']
+id : 81380b26-a7c7-4720-ac92-58b63de9e0fd
+_version_ : 1675130840319787011
+
+Content : 
+
+ith ESMTP id OAA02553 for <isis-wg@juniper.net>; Fri, 11 Jun 1999 14:23:00 -040
+0 (EDT)
+X-Authentication-Warning: bobo.ny.ans.net: jkaplan owned process doing -bs
+Date: Fri, 11 Jun 1999 14:23:00 -0400 (EDT)
+From: Jed Kaplan <jkaplan@UU.net>
+X-Sender: jkaplan@bobo.ny.ans.net
+To: isis-wg@juniper.net
+Subject: Extended Ethernet Frame Size Support
+Message-ID: <Pine.GSO.4.05.9906110916220.2284-100000@bobo.ny.ans.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+A new ISIS draft (draft-kaplan-isis-ext-eth-00.txt) by O'Dell, Kaplan,
+Hayes, Schroeder, Singh, and Hsu entitled: "Extended Ethernet Frame Size
+Support" has been submitted to the IETF.
+
+The abstract is shown below:
+
+        This document presents an extension to the current Ethernet Frame
+        standards to support payloads greater than 1500 Bytes for
+	Ethernet_II and 802.3 frames. This is useful for Gigabit Ethernet
+        technology, providing a means to carry large MTU packets without
+        fragmentation over a high-speed broadcast network.
+
+
+This drafts obsoletes two recently submitted drafts (5/21/99) by the
+same authors:
+
+	draft-kaplan-isis-ext-eth-ip-clns-1-00.txt,
+	draft-kaplan-isis-ext-eth-ip-clns-2-00.txt
+
+
+Jed Kaplan
+jkaplan@uu.net  
+      
+
+
+
+
+
+
+------- End of Forwarded Message
+
+

@@ -1,0 +1,701 @@
+
+From dean.willis@softarmor.com  Wed Jun  1 10:41:40 2011
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 391C9E0884 for <sip@ietfa.amsl.com>; Wed,  1 Jun 2011 10:41:40 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -104.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-104.599 tagged_above=-999 required=5 tests=[AWL=-1.000, BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 2Dhnp5xe6hTC for <sip@ietfa.amsl.com>; Wed,  1 Jun 2011 10:41:38 -0700 (PDT)
+Received: from mail-yx0-f172.google.com (mail-yx0-f172.google.com [209.85.213.172]) by ietfa.amsl.com (Postfix) with ESMTP id 775E6E0678 for <sip@ietf.org>; Wed,  1 Jun 2011 10:41:38 -0700 (PDT)
+Received: by yxk30 with SMTP id 30so11111yxk.31 for <sip@ietf.org>; Wed, 01 Jun 2011 10:41:38 -0700 (PDT)
+Received: by 10.236.153.103 with SMTP id e67mr3555264yhk.22.1306950097410; Wed, 01 Jun 2011 10:41:37 -0700 (PDT)
+Received: from [192.168.2.124] (cpe-66-25-15-110.tx.res.rr.com [66.25.15.110]) by mx.google.com with ESMTPS id w70sm1346295yhl.17.2011.06.01.10.41.36 (version=TLSv1/SSLv3 cipher=OTHER); Wed, 01 Jun 2011 10:41:36 -0700 (PDT)
+From: Dean Willis <dean.willis@softarmor.com>
+Content-Type: text/plain; charset=us-ascii
+Message-Id: <546430CD-06F1-4FF6-92AB-CBBC42A3D61B@softarmor.com>
+Date: Wed, 1 Jun 2011 12:41:35 -0500
+To: sip@ietf.org
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v1084)
+X-Mailer: Apple Mail (2.1084)
+Subject: [Sip] Test, please ignore
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 01 Jun 2011 17:41:40 -0000
+
+Just testing
+
+From hakiri_akram@yahoo.fr  Tue May 31 13:44:34 2011
+Return-Path: <hakiri_akram@yahoo.fr>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4F0C8E0871 for <sip@ietfa.amsl.com>; Tue, 31 May 2011 13:44:34 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.961
+X-Spam-Level: *
+X-Spam-Status: No, score=1.961 tagged_above=-999 required=5 tests=[BAYES_50=0.001, RCVD_IN_BL_SPAMCOP_NET=1.96]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oV5Awxfdkjed for <sip@ietfa.amsl.com>; Tue, 31 May 2011 13:44:32 -0700 (PDT)
+Received: from nm16-vm1.bullet.mail.ne1.yahoo.com (nm16-vm1.bullet.mail.ne1.yahoo.com [98.138.91.47]) by ietfa.amsl.com (Postfix) with SMTP id 70EB7E07FD for <sip@ietf.org>; Tue, 31 May 2011 13:44:32 -0700 (PDT)
+Received: from [98.138.90.50] by nm16.bullet.mail.ne1.yahoo.com with NNFMP; 31 May 2011 20:44:29 -0000
+Received: from [98.138.84.35] by tm3.bullet.mail.ne1.yahoo.com with NNFMP; 31 May 2011 20:44:29 -0000
+Received: from [127.0.0.1] by smtp103.mail.ne1.yahoo.com with NNFMP; 31 May 2011 20:44:29 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1306874669; bh=JS2YJ4kL6mFb/QG5WOeu+X58EnOsZeVI8wM9cF17Zoo=; h=X-Yahoo-Newman-Id:Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Message-ID:Date:From:User-Agent:MIME-Version:To:Subject:Content-Type:Content-Transfer-Encoding; b=tNxv19GwECMVrjndeaNOriKPIw4N4o8LRKibklczwOTEdvaOIm2/XkSMvJl0XVF/fo+HACSA4q7+UTBo8sL1mKPR1p7XbiYLIfTVr+LkI7xH0USIc40NcnpKjwdrmkL2UDNO90NZdhiM72XqZa9U8O4s42mn3LBGYgfhZGf+sRg=
+X-Yahoo-Newman-Id: 154646.8905.bm@smtp103.mail.ne1.yahoo.com
+Received: from [172.17.64.145] (hakiri_akram@193.48.172.23 with plain) by smtp103.mail.ne1.yahoo.com with SMTP; 31 May 2011 13:44:28 -0700 PDT
+X-Yahoo-SMTP: hyKyd1qswBADWAXuJTPL49BX3EZ0TEIG3Q--
+X-YMail-OSG: YyfEibMVM1lKWXXv1JBJFRwpn5.qfvvZdFnhVD8CltqDWW4 RhFNwB3jI1xb3PwprxL4PgCnZs90.0gr_ymzIoPy0zV8fjBdur0Ap5N.1DMW UhJoTwlezZJV5pmfK5ZfniD.Wx19ZF1anrVuMC7lbXbwCcxUxWLcsCeyUQfg j_bOO0PdjegiaGbxjzKA07EGA.gHbcVwHpJjiWgC4c_eU4KkuRYf_1BPtoD0 Y_OcyP_jnta3Za5mYvhTawJKWxNUBvacRLdluxQsm0yEuPDsisE5lfCkfQEU PHQRBerIYEi6M2clxxCCL5wr_xqwdslIfTMxnN0hAVL_RYLbNhO9pjuMvp6E 5uzdV9sRvE4QO9RDzWbq_SAHtPCRFe.iNHw--
+X-Yahoo-Newman-Property: ymail-3
+Message-ID: <4DE5532B.1050802@yahoo.fr>
+Date: Tue, 31 May 2011 22:44:27 +0200
+From: Hakiri Akram <hakiri_akram@yahoo.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; fr; rv:1.9.2.17) Gecko/20110414 Thunderbird/3.1.10
+MIME-Version: 1.0
+To: sip@ietf.org
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Mailman-Approved-At: Fri, 03 Jun 2011 01:36:05 -0700
+Subject: [Sip] sip qos
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 31 May 2011 20:45:44 -0000
+
+Hi,
+Did someone have an idea about an implementation of SIP extension for 
+QoS support in DiffServ.
+
+thanks.
+
+Akram
+
+From ibc@aliax.net  Fri Jun  3 01:38:35 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id DBC0CE06F1 for <sip@ietfa.amsl.com>; Fri,  3 Jun 2011 01:38:35 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.614
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.614 tagged_above=-999 required=5 tests=[AWL=0.063,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id efyWm97s6oac for <sip@ietfa.amsl.com>; Fri,  3 Jun 2011 01:38:35 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id 40E70E065D for <sip@ietf.org>; Fri,  3 Jun 2011 01:38:35 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so1075307qwc.31 for <sip@ietf.org>; Fri, 03 Jun 2011 01:38:34 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.142 with SMTP id r14mr1264869qci.209.1307090314422; Fri, 03 Jun 2011 01:38:34 -0700 (PDT)
+Received: by 10.229.225.136 with HTTP; Fri, 3 Jun 2011 01:38:34 -0700 (PDT)
+In-Reply-To: <4DE5532B.1050802@yahoo.fr>
+References: <4DE5532B.1050802@yahoo.fr>
+Date: Fri, 3 Jun 2011 10:38:34 +0200
+Message-ID: <BANLkTi=u87ageZWMM2geWK-Y-pUBwE=k1w@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Hakiri Akram <hakiri_akram@yahoo.fr>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] sip qos
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 03 Jun 2011 08:38:36 -0000
+
+2011/5/31 Hakiri Akram <hakiri_akram@yahoo.fr>:
+> Hi,
+> Did someone have an idea about an implementation of SIP extension for QoS
+> support in DiffServ.
+
+Hi Hakiri. This maillist if for discussions about SIP specifications.
+You would do better asking in sip-implementors or other forums about
+IMS.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From dworley@avaya.com  Fri Jun  3 09:15:51 2011
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 31BBFE0776 for <sip@ietfa.amsl.com>; Fri,  3 Jun 2011 09:15:51 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.316
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.316 tagged_above=-999 required=5 tests=[AWL=0.283, BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Pu-NZQ15fOre for <sip@ietfa.amsl.com>; Fri,  3 Jun 2011 09:15:50 -0700 (PDT)
+Received: from de307622-de-outbound.net.avaya.com (de307622-de-outbound.net.avaya.com [198.152.71.100]) by ietfa.amsl.com (Postfix) with ESMTP id AA157E067F for <sip@ietf.org>; Fri,  3 Jun 2011 09:15:49 -0700 (PDT)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AmIFAH0H6U2HCzI1/2dsb2JhbABTmx+LG3euLwKbMoYhBJVZhBSGXA
+X-IronPort-AV: E=Sophos;i="4.65,315,1304308800"; d="scan'208";a="249669143"
+Received: from unknown (HELO p-us1-erheast.us1.avaya.com) ([135.11.50.53]) by de307622-de-outbound.net.avaya.com with ESMTP; 03 Jun 2011 12:15:44 -0400
+X-IronPort-AV: E=Sophos;i="4.65,315,1304308800"; d="scan'208";a="659301828"
+Received: from dc-us1hcex1.us1.avaya.com (HELO DC-US1HCEX1.global.avaya.com) ([135.11.52.20]) by p-us1-erheast-out.us1.avaya.com with ESMTP; 03 Jun 2011 12:15:43 -0400
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.1.192]) by DC-US1HCEX1.global.avaya.com ([2002:870b:3414::870b:3414]) with mapi; Fri, 3 Jun 2011 12:15:42 -0400
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: Hakiri Akram <hakiri_akram@yahoo.fr>, "sip@ietf.org" <sip@ietf.org>
+Date: Fri, 3 Jun 2011 12:15:41 -0400
+Thread-Topic: [Sip] sip qos
+Thread-Index: AcwhyU80DB7p8xU8Q6CsJECQKlBMngAPzuzd
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B222907E98E@DC-US1MBEX4.global.avaya.com>
+References: <4DE5532B.1050802@yahoo.fr>
+In-Reply-To: <4DE5532B.1050802@yahoo.fr>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: Re: [Sip] sip qos
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 03 Jun 2011 16:15:51 -0000
+
+________________________________________
+From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Hakiri Akram=
+ [hakiri_akram@yahoo.fr]
+
+Did someone have an idea about an implementation of SIP extension for
+QoS support in DiffServ.
+_______________________________________________
+
+There have been discussions from time to time.  I can find draft-veltri-sip=
+-qsip-00.txt from 2001.  There have been other efforts more recently.
+
+Dale
+
+From jmpolk@cisco.com  Fri Jun  3 10:21:26 2011
+Return-Path: <jmpolk@cisco.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E4F80E07B2 for <sip@ietfa.amsl.com>; Fri,  3 Jun 2011 10:21:26 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -110.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-110.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_HI=-8, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id efMNV5RvTyzD for <sip@ietfa.amsl.com>; Fri,  3 Jun 2011 10:21:26 -0700 (PDT)
+Received: from sj-iport-3.cisco.com (sj-iport-3.cisco.com [171.71.176.72]) by ietfa.amsl.com (Postfix) with ESMTP id EF8EBE0677 for <sip@ietf.org>; Fri,  3 Jun 2011 10:21:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=jmpolk@cisco.com; l=1123; q=dns/txt; s=iport; t=1307121685; x=1308331285; h=message-id:date:to:from:subject:in-reply-to:references: mime-version; bh=6Qm0TNYIBNlw7Shp4f7ovL9hyUWhlh3u1isR+k4HL5o=; b=DpdmEFPsU+hTfhHIeVbJ2P3mab3mYRgeCXWo1ilbmkUcGf+zN9Rs/BEK vudkuORpafre20uzqkkNd7ma1qKEytjnyu5zZ4vWWElr3ygouN+990sKA m/2X/9EPRTGzIlKD0nlgoIRDR8T0Z3H+35boGyNwp1w9CZBwtFdP7ZEZL Y=;
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Av0EAOYX6U2rRDoI/2dsb2JhbABTpjp3rAedZYYhBIZwkn2GXg
+X-IronPort-AV: E=Sophos;i="4.65,315,1304294400"; d="scan'208";a="329648388"
+Received: from mtv-core-3.cisco.com ([171.68.58.8]) by sj-iport-3.cisco.com with ESMTP; 03 Jun 2011 17:21:05 +0000
+Received: from jmpolk-wxp01.cisco.com (rcdn-jmpolk-8711.cisco.com [10.99.80.18]) by mtv-core-3.cisco.com (8.14.3/8.14.3) with ESMTP id p53HL4WJ017385; Fri, 3 Jun 2011 17:21:05 GMT
+Message-Id: <201106031721.p53HL4WJ017385@mtv-core-3.cisco.com>
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Fri, 03 Jun 2011 12:21:04 -0500
+To: "Worley, Dale R (Dale)" <dworley@avaya.com>, Hakiri Akram <hakiri_akram@yahoo.fr>, "sip@ietf.org" <sip@ietf.org>
+From: "James M. Polk" <jmpolk@cisco.com>
+In-Reply-To: <CD5674C3CD99574EBA7432465FC13C1B222907E98E@DC-US1MBEX4.glo bal.avaya.com>
+References: <4DE5532B.1050802@yahoo.fr> <CD5674C3CD99574EBA7432465FC13C1B222907E98E@DC-US1MBEX4.global.avaya.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+Subject: Re: [Sip] sip qos
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 03 Jun 2011 17:21:27 -0000
+
+At 11:15 AM 6/3/2011, Worley, Dale R (Dale) wrote:
+>________________________________________
+>From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of 
+>Hakiri Akram [hakiri_akram@yahoo.fr]
+>
+>Did someone have an idea about an implementation of SIP extension for
+>QoS support in DiffServ.
+>_______________________________________________
+>
+>There have been discussions from time to time.  I can find 
+>draft-veltri-sip-qsip-00.txt from 2001.  There have been other 
+>efforts more recently.
+
+now there is draft-polk-mmusic-traffic-class-for-sdp-01.txt - which 
+is SDP based - for media line granularity, which SIP cannot do by itself.
+
+James
+
+
+>Dale
+>_______________________________________________
+>Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>This list is essentially closed and only used for finishing old business.
+>Use sip-implementors@cs.columbia.edu for questions on how to develop 
+>a SIP implementation.
+>Use dispatch@ietf.org for new developments on the application of sip.
+>Use sipcore@ietf.org for issues related to maintenance of the core 
+>SIP specifications.
+
+
+From hakiri_akram@yahoo.fr  Sat Jun  4 08:55:52 2011
+Return-Path: <hakiri_akram@yahoo.fr>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B3B20E0675 for <sip@ietfa.amsl.com>; Sat,  4 Jun 2011 08:55:52 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 03EcRgtSRkXN for <sip@ietfa.amsl.com>; Sat,  4 Jun 2011 08:55:52 -0700 (PDT)
+Received: from nm13.bullet.mail.bf1.yahoo.com (nm13.bullet.mail.bf1.yahoo.com [98.139.212.172]) by ietfa.amsl.com (Postfix) with SMTP id E66A4E0730 for <sip@ietf.org>; Sat,  4 Jun 2011 08:44:07 -0700 (PDT)
+Received: from [98.139.212.153] by nm13.bullet.mail.bf1.yahoo.com with NNFMP; 04 Jun 2011 11:08:53 -0000
+Received: from [98.139.211.199] by tm10.bullet.mail.bf1.yahoo.com with NNFMP; 04 Jun 2011 11:08:53 -0000
+Received: from [127.0.0.1] by smtp208.mail.bf1.yahoo.com with NNFMP; 04 Jun 2011 11:08:53 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1307185733; bh=xFPNYkaUhTP2D6p0LlxWZuXxeGSaWE+1Jcs85LzUo4A=; h=X-Yahoo-Newman-Id:Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Message-ID:Date:From:User-Agent:MIME-Version:To:CC:Subject:References:In-Reply-To:Content-Type:Content-Transfer-Encoding; b=C7b9NP93qOi+iB28sPSY9yn4VpNQxYh0yU0jKZoWSxTmawtdtVzbiJpmaNtqvQNrKnKqGKm52NcVxunOMaWQCY/XTqbYnOZ5TF7Yl6mlTotKkURnz79XMFKRJP+mNnMSlNOEhGzbxYShgRAMcAmyv0VtdLomz/SvUBpOW1FEZA4=
+X-Yahoo-Newman-Id: 411785.45688.bm@smtp208.mail.bf1.yahoo.com
+Received: from [140.93.67.184] (hakiri_akram@140.93.67.184 with plain) by smtp208.mail.bf1.yahoo.com with SMTP; 04 Jun 2011 04:08:53 -0700 PDT
+X-Yahoo-SMTP: hyKyd1qswBADWAXuJTPL49BX3EZ0TEIG3Q--
+X-YMail-OSG: rGsiIYsVM1ljK0t4x0zLl9E.LFDZYqqxxURaP0c8y8XkpPE IyPgux3KmtCOHexUBxSLUSOBO_jwNi.o0h_gGauTrWkaluU7eLXlzVTvyiWF iN3PbpfXnciXl0gDcFZZLM4II6jLWjiBRwMWOzaBJ5N5wjobj5xdavKnNweQ xXAlskCqu8p2I9KWBfzuSQFNZoYQ832vRnN99ylcmYiKbr92bpIp1cyTnLQP HGuxe3_Py56ZGcEEcYJomPtxU.0QoFng25h357crkYDhkx8jYK1akssZ4eIS SgrSpmxebGDtF2bq4.XHVU6ajJ0UclCTIsS74Mu2rOEXiCNwTrk.5x6jIyqX 2S.5ZYJpo.CxZx5qXLz5DzgDULds.WYl1Cg--
+X-Yahoo-Newman-Property: ymail-3
+Message-ID: <4DEA1237.3090306@yahoo.fr>
+Date: Sat, 04 Jun 2011 13:08:39 +0200
+From: Hakiri Akram <hakiri_akram@yahoo.fr>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; fr; rv:1.9.2.17) Gecko/20110414 Thunderbird/3.1.10
+MIME-Version: 1.0
+To: "Worley, Dale R (Dale)" <dworley@avaya.com>
+References: <4DE5532B.1050802@yahoo.fr> <CD5674C3CD99574EBA7432465FC13C1B222907E98E@DC-US1MBEX4.global.avaya.com>
+In-Reply-To: <CD5674C3CD99574EBA7432465FC13C1B222907E98E@DC-US1MBEX4.global.avaya.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Mailman-Approved-At: Wed, 08 Jun 2011 04:08:33 -0700
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] sip qos
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 04 Jun 2011 15:55:52 -0000
+
+Le 03/06/2011 18:15, Worley, Dale R (Dale) a écrit :
+> ________________________________________
+> From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Hakiri Akram [hakiri_akram@yahoo.fr]
+>
+> Did someone have an idea about an implementation of SIP extension for
+> QoS support in DiffServ.
+> _______________________________________________
+>
+> There have been discussions from time to time.  I can find draft-veltri-sip-qsip-00.txt from 2001.  There have been other efforts more recently.
+>
+> Dale
+>
+this looks like this one. I am looking for some implementation of that 
+proxy.
+
+thanks
+Hakiri
+
+From Leon.Li@aarnet.edu.au  Wed Jun 22 18:41:05 2011
+Return-Path: <Leon.Li@aarnet.edu.au>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4508C21F8458 for <sip@ietfa.amsl.com>; Wed, 22 Jun 2011 18:41:05 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id r87cId8kHnv8 for <sip@ietfa.amsl.com>; Wed, 22 Jun 2011 18:41:04 -0700 (PDT)
+Received: from mail81.messagelabs.com (mail81.messagelabs.com [117.120.20.147]) by ietfa.amsl.com (Postfix) with SMTP id A45EA1F0C38 for <sip@ietf.org>; Wed, 22 Jun 2011 18:41:00 -0700 (PDT)
+X-VirusChecked: Checked
+X-Env-Sender: Leon.Li@aarnet.edu.au
+X-Msg-Ref: server-6.tower-81.messagelabs.com!1308793257!8861781!1
+X-StarScan-Version: 6.2.17; banners=-,-,-
+X-Originating-IP: [202.158.196.22]
+Received: (qmail 6059 invoked from network); 23 Jun 2011 01:40:58 -0000
+Received: from cbr-b-mf2.aarnet.net.au (HELO cbr-b-mf2.aarnet.net.au) (202.158.196.22) by server-6.tower-81.messagelabs.com with SMTP; 23 Jun 2011 01:40:58 -0000
+X-IronPort-AV: E=Sophos;i="4.65,410,1304258400"; d="scan'208,217";a="1455164"
+Received: from unknown (HELO SYD-VM-CAS1.ms.aarnet.edu.au) ([113.197.0.86]) by cbr-b-mf2.aarnet.net.au with ESMTP; 23 Jun 2011 11:40:56 +1000
+Received: from SYD-VM-MBX1.ms.aarnet.edu.au ([fe80::1b2:3af5:a3f9:cb2b]) by SYD-VM-CAS1.ms.aarnet.edu.au ([fe80::891a:ab5f:fdb1:9234%14]) with mapi id 14.01.0289.001; Thu, 23 Jun 2011 11:40:56 +1000
+From: Leon Li <Leon.Li@aarnet.edu.au>
+To: "sip@ietf.org" <sip@ietf.org>
+Thread-Topic: Difference between B2BUA and Proxy
+Thread-Index: AcwxQSs7/LobG9LRQNejiYQrYVKcZAABWMlQ
+Date: Thu, 23 Jun 2011 01:40:55 +0000
+Message-ID: <B8C3062093435F46A1D9DA4A940D762B03E7F0@SYD-VM-MBX1.ms.aarnet.edu.au>
+Accept-Language: en-AU, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [113.197.2.36]
+Content-Type: multipart/alternative; boundary="_000_B8C3062093435F46A1D9DA4A940D762B03E7F0SYDVMMBX1msaarnet_"
+MIME-Version: 1.0
+Subject: [Sip] Difference between B2BUA and Proxy
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 23 Jun 2011 01:41:05 -0000
+
+--_000_B8C3062093435F46A1D9DA4A940D762B03E7F0SYDVMMBX1msaarnet_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I just would like to clarify the difference between B2BUA and proxy in SIP.=
+ For example,
+
+
+1.       From SIP point view
+
+2.       From service point view
+
+3.       From an endpoints view, if any
+
+Regards
+Leon
+
+
+--_000_B8C3062093435F46A1D9DA4A940D762B03E7F0SYDVMMBX1msaarnet_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1278873224;
+	mso-list-type:hybrid;
+	mso-list-template-ids:534793892 201916431 201916441 201916443 201916431 20=
+1916441 201916443 201916431 201916441 201916443;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-AU" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hi,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">I just would like to clarify the difference between =
+B2BUA and proxy in SIP. For example,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoListParagraph" style=3D"text-indent:-18.0pt;mso-list:l0 leve=
+l1 lfo2"><![if !supportLists]><span style=3D"mso-list:Ignore">1.<span style=
+=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+</span></span><![endif]>From SIP point view<o:p></o:p></p>
+<p class=3D"MsoListParagraph" style=3D"text-indent:-18.0pt;mso-list:l0 leve=
+l1 lfo2"><![if !supportLists]><span style=3D"mso-list:Ignore">2.<span style=
+=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+</span></span><![endif]>From service point view<o:p></o:p></p>
+<p class=3D"MsoListParagraph" style=3D"text-indent:-18.0pt;mso-list:l0 leve=
+l1 lfo2"><![if !supportLists]><span style=3D"mso-list:Ignore">3.<span style=
+=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;
+</span></span><![endif]>From an endpoints view, if any <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Regards<o:p></o:p></p>
+<p class=3D"MsoNormal">Leon<span style=3D"font-size:8.0pt;font-family:&quot=
+;Trebuchet MS&quot;,&quot;sans-serif&quot;;color:#4D4D4D">
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_B8C3062093435F46A1D9DA4A940D762B03E7F0SYDVMMBX1msaarnet_--
+
+From orrin@yeagerworks.com  Mon Jun 27 19:08:44 2011
+Return-Path: <orrin@yeagerworks.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 63A8321F84AE for <sip@ietfa.amsl.com>; Mon, 27 Jun 2011 19:08:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.562
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.562 tagged_above=-999 required=5 tests=[BAYES_40=-0.185, FM_FORGED_GMAIL=0.622, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1BJAr+EOiOzh for <sip@ietfa.amsl.com>; Mon, 27 Jun 2011 19:08:44 -0700 (PDT)
+Received: from mail-yw0-f44.google.com (mail-yw0-f44.google.com [209.85.213.44]) by ietfa.amsl.com (Postfix) with ESMTP id D8EED21F8489 for <sip@ietf.org>; Mon, 27 Jun 2011 19:08:43 -0700 (PDT)
+Received: by ywp31 with SMTP id 31so3128361ywp.31 for <sip@ietf.org>; Mon, 27 Jun 2011 19:08:43 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.101.207.40 with SMTP id j40mr7375561anq.48.1309226923025; Mon, 27 Jun 2011 19:08:43 -0700 (PDT)
+Received: by 10.100.93.19 with HTTP; Mon, 27 Jun 2011 19:08:42 -0700 (PDT)
+Date: Mon, 27 Jun 2011 19:08:42 -0700
+Message-ID: <BANLkTik8MGJKTLU6=UzN=7uAy5qfBizNLQ@mail.gmail.com>
+From: Orrin Doyle <orrin@yeagerworks.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=0016e68de9b5ad650c04a6bc2501
+X-Mailman-Approved-At: Tue, 28 Jun 2011 18:01:26 -0700
+Subject: Re: [Sip] 302 Redirect on REGISTER
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 28 Jun 2011 02:14:48 -0000
+
+--0016e68de9b5ad650c04a6bc2501
+Content-Type: text/plain; charset=ISO-8859-1
+
+The Polycom 601 I have running 2.1 app didn't support this...
+
+Orrin
+
+--0016e68de9b5ad650c04a6bc2501
+Content-Type: text/html; charset=ISO-8859-1
+
+The Polycom 601 I have running 2.1 app didn&#39;t support this...<div><br></div><div>Orrin</div>
+
+--0016e68de9b5ad650c04a6bc2501--
+
+From ibc@aliax.net  Wed Jun 29 01:13:47 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 71C989E801B for <sip@ietfa.amsl.com>; Wed, 29 Jun 2011 01:13:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.677
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.677 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LDz52+clX+Ma for <sip@ietfa.amsl.com>; Wed, 29 Jun 2011 01:13:47 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id E0F149E8012 for <sip@ietf.org>; Wed, 29 Jun 2011 01:13:46 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so808957qwc.31 for <sip@ietf.org>; Wed, 29 Jun 2011 01:13:45 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.137.19 with SMTP id u19mr332985qct.173.1309335225818; Wed, 29 Jun 2011 01:13:45 -0700 (PDT)
+Received: by 10.229.240.15 with HTTP; Wed, 29 Jun 2011 01:13:45 -0700 (PDT)
+In-Reply-To: <BANLkTik8MGJKTLU6=UzN=7uAy5qfBizNLQ@mail.gmail.com>
+References: <BANLkTik8MGJKTLU6=UzN=7uAy5qfBizNLQ@mail.gmail.com>
+Date: Wed, 29 Jun 2011 10:13:45 +0200
+Message-ID: <CALiegfnfJ4=niNWh63m9pw4KHQh=h8hs=2N-2H-YNBtuUUrL0A@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Orrin Doyle <orrin@yeagerworks.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] 302 Redirect on REGISTER
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 29 Jun 2011 08:13:47 -0000
+
+2011/6/28 Orrin Doyle <orrin@yeagerworks.com>:
+> The Polycom 601 I have running 2.1 app didn't support this...
+
+Thanks for sharing it. Bye.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From orrin@yeagerworks.com  Wed Jun 29 09:08:23 2011
+Return-Path: <orrin@yeagerworks.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4E59011E8076 for <sip@ietfa.amsl.com>; Wed, 29 Jun 2011 09:08:23 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.903
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.903 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, MIME_QP_LONG_LINE=1.396,  RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id C6rdQIMWYQJM for <sip@ietfa.amsl.com>; Wed, 29 Jun 2011 09:08:22 -0700 (PDT)
+Received: from mail-pv0-f172.google.com (mail-pv0-f172.google.com [74.125.83.172]) by ietfa.amsl.com (Postfix) with ESMTP id 952209E8044 for <sip@ietf.org>; Wed, 29 Jun 2011 09:08:22 -0700 (PDT)
+Received: by pvh18 with SMTP id 18so1175536pvh.31 for <sip@ietf.org>; Wed, 29 Jun 2011 09:08:22 -0700 (PDT)
+Received: by 10.68.15.101 with SMTP id w5mr1228384pbc.28.1309363701939; Wed, 29 Jun 2011 09:08:21 -0700 (PDT)
+Received: from [192.168.1.6] (174-24-138-134.tukw.qwest.net [174.24.138.134]) by mx.google.com with ESMTPS id g8sm1009151pba.69.2011.06.29.09.08.19 (version=TLSv1/SSLv3 cipher=OTHER); Wed, 29 Jun 2011 09:08:20 -0700 (PDT)
+References: <BANLkTik8MGJKTLU6=UzN=7uAy5qfBizNLQ@mail.gmail.com> <CALiegfnfJ4=niNWh63m9pw4KHQh=h8hs=2N-2H-YNBtuUUrL0A@mail.gmail.com>
+In-Reply-To: <CALiegfnfJ4=niNWh63m9pw4KHQh=h8hs=2N-2H-YNBtuUUrL0A@mail.gmail.com>
+Mime-Version: 1.0 (iPhone Mail 8E200)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Message-Id: <6FFE1500-B54A-4F0F-B688-B4FC44189C22@yeagerworks.com>
+X-Mailer: iPhone Mail (8E200)
+From: Orrin Doyle <orrin@yeagerworks.com>
+Date: Wed, 29 Jun 2011 09:08:16 -0700
+To: =?utf-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailman-Approved-At: Wed, 29 Jun 2011 17:43:02 -0700
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] 302 Redirect on REGISTER
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 29 Jun 2011 16:08:23 -0000
+
+In fact, I contacted them about this functionality and they apparently don't=
+ currently support redirect responses for register messages in any current c=
+ode rev, though it is planned as part of a future release.
+
+Sent from my iPhone
+
+On Jun 29, 2011, at 1:13 AM, I=C3=B1aki Baz Castillo <ibc@aliax.net> wrote:
+
+> 2011/6/28 Orrin Doyle <orrin@yeagerworks.com>:
+>> The Polycom 601 I have running 2.1 app didn't support this...
+>=20
+> Thanks for sharing it. Bye.
+>=20
+> --=20
+> I=C3=B1aki Baz Castillo
+> <ibc@aliax.net>

@@ -1,0 +1,57 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : idwg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/idwg/2007-08.mailcl']
+id : 1045be4d-717e-4d1a-a9a7-0b2766f752bb
+_version_ : 1675133205939748864
+
+Content : 
+
+RSET
+       MAIL FROM: <ppjjjaxsgmn@rrichterlaw.com>
+RCPT TO: <idr-request@megatron.ietf.org>
+RCPT TO: <idwg-archive@megatron.ietf.org>
+RCPT TO: <ieprep-request@megatron.ietf.org>
+RCPT TO: <ietf-announce-bounces@megatron.ietf.org>
+              Message-ID: <18073812023419.E9290374BE@WP65>
+From: "Joanne Queen" <xoxlsaghf@rrobson.co.uk>
+To: <idr-request@megatron.ietf.org>
+Subject: RE:
+
+Be proud to show i
+Date: Fri, 24 Aug 2007 18:59:02 -0400
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Thread-Index: ExWrTR81oCZwIhK6rEgIUvAtZMAxUbg6f35I
+Content-Type: text/plain;
+	format=flowed;
+	charset="koi8-r";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+
+pingvin
+
+

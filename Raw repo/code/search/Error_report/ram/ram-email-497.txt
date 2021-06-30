@@ -1,0 +1,158 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ram
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ram/2007-03.mailcl']
+id : 76702da6-4532-4cdb-b30f-ab15768893e3
+_version_ : 1675130645537357824
+
+Content : 
+
+> > Tony
+>
+> thanks for the clarification.  The data Colorado State currently has
+> (Yan Chen did it, I copied him on this reply) has all de-aggregation
+> data sorted along various dimensions, should not be hard to dig out
+> the number you asked.
+>
+> Lixia
+>
+
+_______________________________________________
+RAM mailing list
+RAM@iab.org
+https://www1.ietf.org/mailman/listinfo/ram
+
+
+
+
+
+Ms-0005g9-V3
+	for ram@iab.org; Tue, 20 Mar 2007 16:55:44 -0400
+Received: by nf-out-0910.google.com with SMTP id y38so532179nfb
+	for <ram@iab.org>; Tue, 20 Mar 2007 13:55:42 -0700 (PDT)
+DKIM-Signature: a=rsa-sha1; c=relaxed/relaxed; d=gmail.com; s=beta;
+	h=domainkey-signature:received:received:message-id:date:from:sender:to:subject:cc:in-reply-to:mime-version:content-type:content-transfer-encoding:content-disposition:references:x-google-sender-auth;
+	b=M8uVrWrPP51/dzOdiONmvwWvQmf/4Cu9ISdGcBQ+Ru7Q/qnq2vM20+P5yiye0GtCKImnuj0H6BSUdMjV+86VSpVkbyoJEm6wmbahEr00OStudBejS/1f06cGjHSv1T55hcg2alWlsh21bx9gdL3vIAjSZMfF486YrnHnkwawxgI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=beta;
+	h=received:message-id:date:from:sender:to:subject:cc:in-reply-to:mime-version:content-type:content-transfer-encoding:content-disposition:references:x-google-sender-auth;
+	b=dMiTT2jxXcpMX52a8FUk5PA/qYDKU6ovSUpF2SPCgJGU9sciAn39xClodn1ZOGpKsXdmCSLAKTEebxKAiAagNtOFTPq0nkgiGM49B2YSxU0GHKRDfsVYN0zyjcWilzjKtYB0VKZH1om/NZb7mCZ1aNKwCxBsWsQppM8gB3bJokA=
+Received: by 10.82.175.2 with SMTP id x2mr10918bue.1174424141741;
+	Tue, 20 Mar 2007 13:55:41 -0700 (PDT)
+Received: by 10.82.117.13 with HTTP; Tue, 20 Mar 2007 13:55:41 -0700 (PDT)
+Message-ID: <deebfe980703201355vd27a992ja0ee180accc14eff@mail.gmail.com>
+Date: Tue, 20 Mar 2007 14:55:41 -0600
+From: "Yan Chen" <cheny@cs.colostate.edu>
+To: "Lixia Zhang" <lixia@cs.ucla.edu>
+Subject: Re: [RAM] Re: Impending publication: draft-iab-raws-report-01.txt
+In-Reply-To: <F1EFD222-C696-4948-935D-CE64790EF683@CS.UCLA.EDU>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+References: <20070318173916.7E05C872C9@mercury.lcs.mit.edu>
+	<Pine.LNX.4.64.0703182045040.8429@netcore.fi>
+	<20070319034300.GA21041@vaf-lnx1.cisco.com>
+	<F50A02B6-4DFA-42FD-B13F-5126EFCABBC2@bgp.nu>
+	<CB3F99DC-A7BC-44CC-92BB-65D7B9F54BEE@cisco.com>
+	<18C09EFB-05BE-4170-9D16-8120A22311EB@cs.ucla.edu>
+	<317A019F-B8A4-4B89-AD87-0892548D7C6D@cisco.com>
+	<F1EFD222-C696-4948-935D-CE64790EF683@CS.UCLA.EDU>
+X-Google-Sender-Auth: 09390d794b9c69ed
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 50a516d93fd399dc60588708fd9a3002
+X-Mailman-Approved-At: Tue, 20 Mar 2007 17:42:36 -0400
+Cc: Tony Li <tli@cisco.com>, Daniel Massey <massey@cs.colostate.edu>,
+	ram@iab.org
+X-BeenThere: ram@iab.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Routing and Addressing Mailing List <ram.iab.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ram>,
+	<mailto:ram-request@iab.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/ram>
+List-Post: <mailto:ram@iab.org>
+List-Help: <mailto:ram-request@iab.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ram>,
+	<mailto:ram-request@iab.org?subject=subscribe>
+Errors-To: ram-bounces@iab.org
+
+Hi,
+
+If I understand correctly, I think following is what you want.
+
+I assume that "aggregates" means prefixes without any other prefixes
+covering them.
+
+Among 248,297 prefixes RV oreg 47 peers have seen during Jan 2007,
+there are totally
+91,519 aggregates. 11,991 aggregates are covering some prefixes
+(specifics), and on average each of them has about 13 specifics. And
+an aggregate can have specifics up to 8,000.
+
+If you want more detailed statistics, please let me know.
+
+Thanks
+Yan
+
+On 3/20/07, Lixia Zhang <lixia@cs.ucla.edu> wrote:
+>
+> On Mar 20, 2007, at 5:44 AM, Tony Li wrote:
+>
+> >
+> > On Mar 20, 2007, at 1:05 PM, Lixia Zhang wrote:
+> >
+> >>> How big of a problem this is, I can't say.  I don't know if
+> >>> anyone has done any kind of analysis of the average number of
+> >>> more specifics if someone does decide to de-aggregate.
+> >>
+> >> I wonder what Tony meant by "analysis of the average number of
+> >> more specifics if someone does decide to de-aggregate"--do you
+> >> mean if someone does decide to de-aggregate IPv6 prefix?
+> >
+> >
+> > Lixia,
+> >
+> > Specifically what I'd like to see is for aggregates that have more
+> > specifics present, what is the average number of those more
+> > specifics per aggregate?
+> >
+> > Tony
+>
+> thanks for the clarification.  The data Colorado State currently has
+> (Yan Chen did it, I copied him on this reply) has all de-aggregation
+> data sorted along various dimensions, should not be hard to dig out
+> the number you asked.
+>
+> Lixia
+>
+
+_______________________________________________
+RAM mailing list
+RAM@iab.org
+https://www1.ietf.org/mailman/listinfo/ram
+
+
+
+

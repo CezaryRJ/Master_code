@@ -1,0 +1,22 @@
+2000 TO 2010
+-------#####------->    ternli
+touch@ISI.EDU 13
+gorry@erg.abdn.ac.uk 12
+michael.welzl@uibk.ac.at 9
+Michael.Tuexen@lurchi.franken.de 7
+lars.eggert@netlab.nec.de 7
+mallman@icir.org 4
+weddy@grc.nasa.gov 4
+Michael.Welzl@uibk.ac.at 3
+falk@ISI.EDU 3
+rbriscoe@jungle.bt.co.uk 3
+spencer@mcsr-labs.org 3
+aboba@internaut.com 2
+kfall@intel.com 2
+mailman-owner@ietf.org 2
+rrs@cisco.com 2
+bernard_aboba@hotmail.com 1
+pasi.sarolahti@iki.fi 1
+rajeev@iprg.nokia.com 1
+sandr8@gmail.com 1
+soohong.park@samsung.com 1

@@ -1,0 +1,48 @@
+Date : ['2003-04-07T04:26:08Z']
+Timezone : +0000
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : undisclosed-recipients:;
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <200304070418.WAA13422@kathmandu.sun.com>
+References : Null
+Comments : ['Null']
+Subject : ['***ALERT** This message may be possible SPAM/virus infected NETWORK']
+Mailing-list : mobileip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mobileip/2003-04.mailcl']
+id : 37a888e6-a711-4ed3-8f87-64b3de961d4d
+_version_ : 1675131544410259458
+
+Content : 
+
+ <html><head><meta HTTP-EQUIV="Content-Type" content="text/html; charset=">
+<title>VIRUS INFECTION ALERT</title></head>
+<body>
+<h1><font color="#FF0000">VIRUS INFECTION ALERT</font></h1>
+<p>The WebShield&reg e500 Appliance discovered a virus in this file.
+The file was not cleaned and has been removed.
+See your system administrator for further information.
+</p>
+<p>File name: Not available<br>
+Virus name: W32/Braid.eml</p>
+
+<p>Copyright &copy; 1993-2002, Networks Associates Technology, Inc.<br>
+All Rights Reserved.<br>
+<a href="http://www.mcafeeb2b.com">http://www.mcafeeb2b.com</a></p>
+</body></html>
+
+

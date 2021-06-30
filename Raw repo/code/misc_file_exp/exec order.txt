@@ -1,0 +1,11 @@
+fa.py
+
+copy_other_files.py
+
+scan_dir.py
+
+runcleaner_other.py
+
+scan_dir.py should show 2x files as last time
+
+run.py

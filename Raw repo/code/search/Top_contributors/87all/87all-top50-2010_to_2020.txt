@@ -1,0 +1,13 @@
+2010 TO 2020
+-------#####------->    87all
+ietf-secretariat@ietf.org 10
+bob.hinden@gmail.com 5
+rpelletier@isoc.org 5
+amorris@amsl.com 3
+chair@ietf.org 2
+jrmii@isc.org 2
+cmorgan@amsl.com 1
+iab-chair@iab.org 1
+iab-chair@ietf.org 1
+iad@ietf.org 1
+rfc-editor@rfc-editor.org 1

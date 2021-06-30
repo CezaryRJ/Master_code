@@ -1,0 +1,678 @@
+
+From wwwrun@core3.amsl.com  Mon Jul  6 09:33:19 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 7A3733A6CF8; Mon,  6 Jul 2009 09:33:19 -0700 (PDT)
+X-idtracker: yes
+From: The IESG <iesg-secretary@ietf.org>
+To: IETF-Announce <ietf-announce@ietf.org>
+Message-Id: <20090706163319.7A3733A6CF8@core3.amsl.com>
+Date: Mon,  6 Jul 2009 09:33:19 -0700 (PDT)
+Cc: sip mailing list <sip@ietf.org>, sip chair <sip-chairs@tools.ietf.org>, Internet Architecture Board <iab@iab.org>, RFC Editor <rfc-editor@rfc-editor.org>
+Subject: [Sip] Protocol Action: 'Message Body Handling in the Session Initiation Protocol (SIP)' to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 06 Jul 2009 16:33:19 -0000
+
+The IESG has approved the following document:
+
+- 'Message Body Handling in the Session Initiation Protocol (SIP) '
+   <draft-ietf-sip-body-handling-06.txt> as a Proposed Standard
+
+This document is the product of the Session Initiation Protocol Working 
+Group. 
+
+The IESG contact persons are Robert Sparks and Cullen Jennings.
+
+A URL of this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-body-handling-06.txt
+
+Technical Summary
+
+  This document specifies how message bodies should be handled in SIP.
+  Additionally, this document specifies SIP user agent support for MIME
+  (Multipurpose Internet Mail Extensions) in message bodies.
+
+Working Group Summary
+
+  There is consensus in the working group to publish this document, and 
+  is targeted for Standards Track.  Work on this document began in
+  May 2007, and was adopted as a working group item in August 2007. 
+  WGLC was issued in June 2008.
+
+Document Quality
+
+  This document specifically addresses an area of SIP that has been an
+  interoperability problem in the past.  The SIPit interoperability 
+  events have seen many problems in the area of interoperability of 
+  MIME  handling.
+
+  This document has been reviews by many participants over the lifetime 
+  of the document, by the following members of the WG:
+
+  - Paul Kyzivat
+  - John Elwell
+  - Francois Audet
+  - Dan Wing
+  - Eric Burger
+  - Dale Worley
+  - Jonathan Rosenberg
+  - Cullen Jennings
+  - Adam Roach
+
+  Additionally, an extensive APPS area review of the document was been 
+  performed by Dave Crocker in an early version of the this document.
+
+
+Personnel
+
+  Theo Zourzouvillys is the Document Shepherd.
+  Robert Sparks is the Responsible Area Director.
+
+RFC Editor Note
+
+  (applies to version 06 of this document)
+
+  The XML in figure 2 is invalid due to a missing '>'.  
+  The Content-Length in the same message is also invalid.
+
+  Please replace line 230, which is currently:
+      Content-Length: 617
+  with:
+      Content-Length: 619
+
+
+  Please replace line 250, which is currently:
+      <resource-lists xmlns="urn:ietf:params:xml:ns:resource-lists"
+  with:
+      <resource-lists xmlns="urn:ietf:params:xml:ns:resource-lists">
+
+
+From adam@nostrum.com  Tue Jul  7 12:21:52 2009
+Return-Path: <adam@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 8FFE33A69FD for <sip@core3.amsl.com>; Tue,  7 Jul 2009 12:21:52 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.3
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.3 tagged_above=-999 required=5 tests=[AWL=-0.700,  BAYES_00=-2.599, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6xQw2086RIPw for <sip@core3.amsl.com>; Tue,  7 Jul 2009 12:21:51 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 7B72E3A69B4 for <sip@ietf.org>; Tue,  7 Jul 2009 12:21:51 -0700 (PDT)
+Received: from [172.16.3.231] (vicuna-alt.estacado.net [75.53.54.121]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id n67JMErd067742 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Tue, 7 Jul 2009 14:22:15 -0500 (CDT) (envelope-from adam@nostrum.com)
+Message-ID: <4A53A066.30108@nostrum.com>
+Date: Tue, 07 Jul 2009 14:22:14 -0500
+From: Adam Roach <adam@nostrum.com>
+User-Agent: Thunderbird 2.0.0.22 (Macintosh/20090605)
+MIME-Version: 1.0
+To: Theo Zourzouvillys <theo@voip.co.uk>
+References: <4967C1F7.7030407@nostrum.com> <167dfb9b0902121832i261164b6o7635c534e2242b79@mail.gmail.com>
+In-Reply-To: <167dfb9b0902121832i261164b6o7635c534e2242b79@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Received-SPF: pass (nostrum.com: 75.53.54.121 is authenticated by a trusted mechanism)
+Cc: SIP WG <sip@ietf.org>, Mark Nottingham <mnot@mnot.net>, "Elwell, John" <john.elwell@siemens.com>
+Subject: Re: [Sip] New HTTP Event Package Draft
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 07 Jul 2009 19:21:52 -0000
+
+Theo Zourzouvillys wrote:
+> 2.2, para 3:
+>
+>    [...] If a server
+>    wishes to reject such requests, the "403 Forbidden" response code is
+>    appropriate.
+>
+> It would be good to provide a way of returning to the client which
+> ones it was unhappy with in the response, to save it having to go off
+> and perform a HEAD on each original resource to find out which one has
+> changed.
+>   
+
+Good point. I've modified it to read:
+
+   [...] If a server
+   wishes to reject such requests, the "403" (Forbidden) response code
+   is appropriate.  Any "403" responses generated for this reason SHOULD
+   contain a body of type "application/resource-lists+xml"; this body
+   lists the offending URI or URIs.  See RFC 4826 [6] for the definition
+   of the "application/resource-lists+xml" MIME type.
+
+
+> 2.2, para 5:
+>
+>   Finally, for each such group, it initiates a subscription to the
+> group's monitor-list URI;
+>
+> do you mean "monitor-group" instead of "monitor-list"?
+>   
+
+Yep. Good catch.
+
+/a
+
+From root@core3.amsl.com  Wed Jul  8 13:45:01 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id D8DBE3A6FA6; Wed,  8 Jul 2009 13:45:01 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20090708204501.D8DBE3A6FA6@core3.amsl.com>
+Date: Wed,  8 Jul 2009 13:45:01 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-record-route-fix-07.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 08 Jul 2009 20:45:01 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Addressing Record-Route issues in the Session Initiation Protocol (SIP)
+	Author(s)       : T. Froment, et al.
+	Filename        : draft-ietf-sip-record-route-fix-07.txt
+	Pages           : 26
+	Date            : 2009-07-08
+
+A typical function of a Session Initiation Protocol (SIP) Proxy is to
+insert a Record-Route header into initial, dialog creating requests
+in order to make subsequent, in-dialog requests pass through it.
+This header contains a SIP Uniform Resource Identifier (URI)
+indicating where and how the subsequent requests should be sent to
+reach the proxy.  Like any SIP URI, it can contain SIP or SIPS
+schemes, IPv4 or IPv6 addresses, and URI parameters that could
+influence the routing such as the transport parameter (for example
+transport=tcp), or a compression indication like "comp=sigcomp".
+When a proxy has to change some of those parameters between its
+incoming and outgoing interfaces (multi-homed proxies, transport
+protocol switching or IPv4 to IPv6 scenarios...), the question arises
+on what should be put in Record-Route header(s).  It is just not
+possible to make one header having the characteristics of both sides
+at the same time.  This document aims to clarify these scenarios and
+fix bugs already identified on this topic; it formally recommends the
+use of the double Record-Route technique as an alternative to the
+current RFC3261 text, which describes only a Record-Route rewriting
+solution.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-record-route-fix-07.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-record-route-fix-07.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-07-08133559.I-D@ietf.org>
+
+
+--NextPart--
+
+From root@core3.amsl.com  Thu Jul  9 04:30:02 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 8BA6E3A6C98; Thu,  9 Jul 2009 04:30:02 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20090709113002.8BA6E3A6C98@core3.amsl.com>
+Date: Thu,  9 Jul 2009 04:30:02 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-xcapevent-08.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 09 Jul 2009 11:30:02 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : An Extensible Markup Language (XML) Configuration Access Protocol (XCAP) Diff Event Package
+	Author(s)       : J. Urpalainen, D. Willis
+	Filename        : draft-ietf-sip-xcapevent-08.txt
+	Pages           : 29
+	Date            : 2009-07-09
+
+This document describes an "xcap-diff" SIP (Session Initiation
+Protocol) event package for the SIP Event Notification Framework,
+which clients can use to receive notifications of changes to
+Extensible Markup Language (XML) Configuration Access Protocol (XCAP)
+resources.  The initial synchronization information exchange and
+document updates are based on the XCAP Diff format.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-xcapevent-08.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-xcapevent-08.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-07-09042133.I-D@ietf.org>
+
+
+--NextPart--
+
+From root@core3.amsl.com  Mon Jul 13 14:45:01 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id AF91C28C1F2; Mon, 13 Jul 2009 14:45:01 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20090713214501.AF91C28C1F2@core3.amsl.com>
+Date: Mon, 13 Jul 2009 14:45:01 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-certs-08.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 13 Jul 2009 21:45:01 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Certificate Management Service for The Session Initiation Protocol (SIP)
+	Author(s)       : C. Jennings, J. Fischl
+	Filename        : draft-ietf-sip-certs-08.txt
+	Pages           : 28
+	Date            : 2009-07-13
+
+This draft defines a Credential Service that allows Session
+Initiation Protocol (SIP) User Agents (UAs) to use a SIP event
+package to discover the certificates of other users.  This mechanism
+allows user agents that want to contact a given Address-of-Record
+(AOR) to retrieve that AOR's certificate by subscribing to the
+Credential Service, which returns an authenticated response
+containing that certificate.  The Credential Service also allows
+users to store and retrieve their own certificates and private keys.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-certs-08.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-certs-08.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-07-13143015.I-D@ietf.org>
+
+
+--NextPart--
+
+From Karunesh.Sharma@globallogic.com  Wed Jul 29 20:58:26 2009
+Return-Path: <Karunesh.Sharma@globallogic.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0A4763A6F30 for <sip@core3.amsl.com>; Wed, 29 Jul 2009 20:58:26 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.996
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.996 tagged_above=-999 required=5 tests=[AWL=0.602,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id CZQ5Fp0XdMmH for <sip@core3.amsl.com>; Wed, 29 Jul 2009 20:58:23 -0700 (PDT)
+Received: from emailsecurity-del1-1.globallogic.com (mx-del1-1.globallogic.com [202.174.92.25]) by core3.amsl.com (Postfix) with ESMTP id 311063A69E1 for <sip@ietf.org>; Wed, 29 Jul 2009 20:58:22 -0700 (PDT)
+Received: from emailsecurity-del1-1.globallogic.com (127.0.0.1) by emailsecurity-del1-1.globallogic.com (MlfMTA v3.2r9) id he4d380171s6 for <sip@ietf.org>; Thu, 30 Jul 2009 09:27:38 +0530 (envelope-from <Karunesh.Sharma@globallogic.com>)
+Received: from ex3-del1.synapse.com ([172.16.2.34]) by emailsecurity-del1-1.globallogic.com (SonicWALL 7.0.1.1499) with ESMTP; Thu, 30 Jul 2009 09:27:38 +0530
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01CA10C9.FAF3FC4C"
+Date: Thu, 30 Jul 2009 09:28:21 +0530
+Message-ID: <5F063FC3F0C8F14E945465A68E63C43E9451DB@ex3-del1.synapse.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: SIP Dialog Match
+Thread-Index: AcoQRMI3m2jiTRK/T8+/Ccv2r06nrQAhR6wQ
+From: "Karunesh Sharma" <Karunesh.Sharma@globallogic.com>
+To: <sip@ietf.org>
+X-Mlf-Version: 7.0.1.1499
+X-Mlf-UniqueId: o200907300357380021122
+Subject: [Sip] SIP Dialog Match
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 31 Jul 2009 05:50:14 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CA10C9.FAF3FC4C
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+List:
+
+=20
+
+I am having a question about SIP dialog validation using src/dst ip. If
+there is established sip dialog between 'A' & 'B' then can 'C' who is
+not party to existing dialog and who somehow knows all sip dialog
+identifiers (Call-ID, To/From Tags) of the dialog between 'A' & 'B',
+sends target refresh request with its own IP in contact. This is a
+typical call hijacking case. If this is valid how to avoid that? Is
+Authentication is only way out or do we have other alternate as well?
+
+=20
+
+I didn't find anything on this in 3261 or other related RFCs.
+
+=20
+
+Thanks
+
+=20
+
+K$
+
+_______________________
+
+=20
+
+
+------_=_NextPart_001_01CA10C9.FAF3FC4C
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:p=3D"urn:schemas-microsoft-com:office:powerpoint" =
+xmlns:a=3D"urn:schemas-microsoft-com:office:access" =
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" =
+xmlns:s=3D"uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" =
+xmlns:rs=3D"urn:schemas-microsoft-com:rowset" xmlns:z=3D"#RowsetSchema" =
+xmlns:b=3D"urn:schemas-microsoft-com:office:publisher" =
+xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadsheet" =
+xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" =
+xmlns:odc=3D"urn:schemas-microsoft-com:office:odc" =
+xmlns:oa=3D"urn:schemas-microsoft-com:office:activation" =
+xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" =
+xmlns:rtc=3D"http://microsoft.com/officenet/conferencing" =
+xmlns:D=3D"DAV:" xmlns:Repl=3D"http://schemas.microsoft.com/repl/" =
+xmlns:mt=3D"http://schemas.microsoft.com/sharepoint/soap/meetings/" =
+xmlns:x2=3D"http://schemas.microsoft.com/office/excel/2003/xml" =
+xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" =
+xmlns:ois=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" =
+xmlns:dir=3D"http://schemas.microsoft.com/sharepoint/soap/directory/" =
+xmlns:ds=3D"http://www.w3.org/2000/09/xmldsig#" =
+xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint/dsp" =
+xmlns:udc=3D"http://schemas.microsoft.com/data/udc" =
+xmlns:xsd=3D"http://www.w3.org/2001/XMLSchema" =
+xmlns:sub=3D"http://schemas.microsoft.com/sharepoint/soap/2002/1/alerts/"=
+ xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#" =
+xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" =
+xmlns:sps=3D"http://schemas.microsoft.com/sharepoint/soap/" =
+xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance" =
+xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/soap" =
+xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" =
+xmlns:udcp2p=3D"http://schemas.microsoft.com/data/udc/parttopart" =
+xmlns:wf=3D"http://schemas.microsoft.com/sharepoint/soap/workflow/" =
+xmlns:dsss=3D"http://schemas.microsoft.com/office/2006/digsig-setup" =
+xmlns:dssi=3D"http://schemas.microsoft.com/office/2006/digsig" =
+xmlns:mdssi=3D"http://schemas.openxmlformats.org/package/2006/digital-sig=
+nature" =
+xmlns:mver=3D"http://schemas.openxmlformats.org/markup-compatibility/2006=
+" xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns:mrels=3D"http://schemas.openxmlformats.org/package/2006/relationshi=
+ps" xmlns:spwp=3D"http://microsoft.com/sharepoint/webpartpages" =
+xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/2006/types"=
+ =
+xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/2006/messag=
+es" =
+xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/SlideLibrary/=
+" =
+xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortalServer/Pub=
+lishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" =
+xmlns:st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:Consolas;
+	color:black;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:Consolas;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span =
+style=3D'font-family:Consolas;color:black'>List:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-family:Consolas;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-family:Consolas;color:black'>I =
+am having a
+question about SIP dialog validation using src/dst ip. If there is =
+established
+sip dialog between &#8216;A&#8217; &amp; &#8216;B&#8217; then can =
+&#8216;C&#8217; who is not party to existing
+dialog and who somehow knows all sip dialog identifiers (Call-ID, =
+To/From Tags)
+of the dialog between &#8216;A&#8217; &amp; &#8216;B&#8217;, sends =
+target refresh request with its own
+IP in contact. This is a typical call hijacking case. If this is valid =
+how to
+avoid that? Is Authentication is only way out or do we have other =
+alternate as
+well?<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-family:Consolas;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-family:Consolas;color:black'>I =
+didn&#8217;t find
+anything on this in 3261 or other related RFCs.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-family:Consolas;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-family:Consolas;color:black'>Thanks<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-family:Consolas;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;font-family:Consolas;
+color:black'>K$<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif";
+color:#FF8000'>_______________________</span><span =
+style=3D'color:black'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01CA10C9.FAF3FC4C--
+
+From rjsparks@nostrum.com  Fri Jul 31 02:56:57 2009
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 92DCD3A69EB for <sip@core3.amsl.com>; Fri, 31 Jul 2009 02:56:57 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.6
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id FcqbyhgXkPOw for <sip@core3.amsl.com>; Fri, 31 Jul 2009 02:56:57 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 852B83A67FC for <sip@ietf.org>; Fri, 31 Jul 2009 02:56:56 -0700 (PDT)
+Received: from dhcp-26f2.meeting.ietf.org (dhcp-26f2.meeting.ietf.org [130.129.38.242]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id n6V9usfj051884 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO) for <sip@ietf.org>; Fri, 31 Jul 2009 04:56:56 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+Message-Id: <CE3D6D8A-32E3-408D-91D2-77FDF1E9A1FC@nostrum.com>
+From: Robert Sparks <rjsparks@nostrum.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Fri, 31 Jul 2009 11:56:54 +0200
+X-Mailer: Apple Mail (2.935.3)
+Received-SPF: pass (nostrum.com: 130.129.38.242 is authenticated by a trusted mechanism)
+Subject: [Sip] Record-Route-fix
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 31 Jul 2009 09:56:57 -0000
+
+In case you haven't been following the progress of Record-Route-fix in  
+the tracker, it's been through IESG review and the editors are  
+addressing a few comments.
+One point the IESG made is that this document should move forward as  
+Proposed Standard rather than BCP and the next revision of the draft  
+will reflect that.
+
+RjS
+

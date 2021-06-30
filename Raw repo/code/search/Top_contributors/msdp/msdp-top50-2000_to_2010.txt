@@ -1,0 +1,11 @@
+2000 TO 2010
+-------#####------->    msdp
+dmm@1-4-5.net 12
+dmm@sprint.net 12
+fenner@research.att.com 4
+dmm@maoz.com 2
+eckert@cisco.com 2
+guofeng@huawei.com 2
+hueno@mml.yrp.nttdocomo.co.jp 2
+jared@puck.nether.net 2
+kessler@cisco.com 2

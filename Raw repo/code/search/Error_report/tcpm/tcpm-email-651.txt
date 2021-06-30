@@ -1,0 +1,157 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : tcpm
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/tcpm/2006-05.mailcl']
+id : 7a671ecc-8049-4420-b1fc-a57b3dc9212e
+_version_ : 1675133816938692609
+
+Content : 
+
+At 02:47 19/05/2006, Joe Touch wrote:
+
+>>>Since the attacker needs to guess both ends of the TCP connection
+>>>including IP addresses and TCP ports, I am not sure what the benefit
+>>>of ICMP payload parsing is in this case.
+>>>
+>>>I am sure I missed something here.
+>>The "benefit" is being a good network citizen. When you perform 
+>>egress-filtering, you preventyour own users from performing 
+>>ICMP-based attacks against systems that belong to other networks.
+>
+>What about errors based on loose source routes,
+
+Loose source routes? Does anybody still use this? Or, well, even 
+worse, does any body still process this?
+
+
+>or just misdirected traffic? I.e., how do you know that it's not 
+>appropriate to indicate that a host (especially) isn't in your net 
+>when asked; that would cause certain ICMPs never to be issued (net 
+>unreachable, host unreachable) if they reach a forwarding point in 
+>your net that isn't a valid address for your net (which is entirely 
+>reasonable).
+
+With the same argument, you could never implement ingress/egress filtering.
+
+Joe, the E in IETF stands for Engineering!
+
+Kindest regards,
+
+--
+Fernando Gont
+e-mail: fernando@gont.com.ar || fgont@acm.org
+PGP Fingerprint: 7809 84F5 322E 45C7 F1C9 3945 96EE A9EF D076 FFF1
+
+
+
+
+
+
+_______________________________________________
+tcpm mailing list
+tcpm@ietf.org
+https://www1.ietf.org/mailman/listinfo/tcpm
+
+
+
+02BG-LH
+	for tcpm@ietf.org; Sat, 20 May 2006 01:24:13 -0400
+Received: from venus.xmundo.net ([201.216.232.56])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1FhJsq-0004pT-QX
+	for tcpm@ietf.org; Sat, 20 May 2006 01:20:13 -0400
+Received: from fgont.gont.com.ar (171-180-231-201.fibertel.com.ar
+	[201.231.180.171]) (authenticated bits=0)
+	by venus.xmundo.net (8.12.11/8.12.11) with ESMTP id k4K5K2EN013711;
+	Sat, 20 May 2006 02:20:13 -0300
+Message-Id: <7.0.1.0.0.20060520021553.05218388@gont.com.ar>
+X-Mailer: QUALCOMM Windows Eudora Version 7.0.1.0
+Date: Sat, 20 May 2006 02:19:00 -0300
+To: "Bora Akyol" <bora@broadcom.com>,
+	"Templin, Fred L" <Fred.L.Templin@boeing.com>, tcpm@ietf.org
+From: Fernando Gont <fernando@gont.com.ar>
+Subject: RE: [tcpm] ICMP and TCP
+In-Reply-To: <03235919BBDE634289BB6A0758A20B365EB1E6@NT-SJCA-0751.brcm.a
+	d.broadcom.com>
+References: <03235919BBDE634289BB6A0758A20B365EB1E6@NT-SJCA-0751.brcm.ad.broadcom.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+X-Spam-Score: 0.1 (/)
+X-Scan-Signature: 97adf591118a232206bdb5a27b217034
+Cc: 
+X-BeenThere: tcpm@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: TCP Maintenance and Minor Extensions Working Group <tcpm.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/tcpm>,
+	<mailto:tcpm-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:tcpm@ietf.org>
+List-Help: <mailto:tcpm-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/tcpm>,
+	<mailto:tcpm-request@ietf.org?subject=subscribe>
+Errors-To: tcpm-bounces@ietf.org
+
+At 18:19 19/05/2006, Bora Akyol wrote:
+
+>The point is that TCP IMHO is powerless to secure ICMP messages.
+>By making changes to TCP to declare ICMP errors as soft errors
+>depending on the state and ignoring some errors altogether,
+>we are trying to create a workaround for a problem with another layer
+>in the protocol stack.
+
+Engineering, maybe?
+
+
+>This is all and well to solve a short term goal, but what is the long
+>term answer?
+
+Well, you are probably getting into "architecture" issues.
+
+You would end up asking other questions such as:
+Shouldn't multihoming be a network layer thing, rather than a 
+transport protocol thing?
+Where should we really be doing congestion control?
+
+etc.
+
+Kindest regards,
+
+--
+Fernando Gont
+e-mail: fernando@gont.com.ar || fgont@acm.org
+PGP Fingerprint: 7809 84F5 322E 45C7 F1C9 3945 96EE A9EF D076 FFF1
+
+
+
+
+
+
+_______________________________________________
+tcpm mailing list
+tcpm@ietf.org
+https://www1.ietf.org/mailman/listinfo/tcpm
+
+
+
+

@@ -1,0 +1,118 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : speermint
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/speermint/2006-09.mailcl']
+id : 6710e55b-69b2-473c-b414-a81587da4edb
+_version_ : 1675129667442442240
+
+Content : 
+
+>=20
+> tim
+>=20
+> > >I'm confused by a couple of points.
+> >=20
+> > >1. If a VSP can participate in many federations then it must be the
+> > >   case that the domain lookup sometimes finds multiple=20
+> federations.
+> > >   On what basis is a selection made, and does this require some
+> > >   standardization (e.g., publication of weights,=20
+> priorities, etc.,).
+> >=20
+> >=20
+> > The selection is always done by the originating VSP If both the=20
+> > originating VSP and the terminating VSP have more than one=20
+> federation=20
+> > in common, which means the originator may choose between=20
+> two or more=20
+> > NNIs. IMO it is then a local decision depending e.g on load=20
+> balancing=20
+> > or preferred NNI, etc. Weight, priorities etc from the destination=20
+> > side may not be helpful here
+>=20
+> I assumed it would be up to the originating VSP, was just=20
+> wondering if there was value in letting the destination VSP=20
+> provide input into that decision.  I don't have a specific=20
+> use case in mind.
+>=20
+>=20
+>=20
+> >=20
+> > >2. What does it mean for a transit SP to "serve a federation"? =20
+> > IMO there are (at least) two types of transit providers:
+> > =20
+> > a. transit providers given by the terminating VSP this can easily=20
+> > handled by federation policy records as described in=20
+> > draft-lendl-speermint-federations with a nor-terminal NAPTR
+> > =20
+> > you look up the ttermination domain and find te.g. wo
+> > NAPTRs:
+> > first is say an IPX federation
+> > second is a national carriers federation
+> > =20
+> > if you are not member of IPX,, you go for the non-terminal=20
+> pointing to=20
+> > a VSP which is also part of the national federation (e.g. the=20
+> > incumbent carrier) If you are also part of the national federation,=20
+> > you are done
+> > =20
+> > b. you are a small operator an forward all traffic which does not=20
+> > belong to your federation to a well-established transit=20
+> operator, who=20
+> > cares about any traffic
+>=20
+> I understand.  But in these examples (and in=20
+> draft-lendl-speermint-federations generally) the transit SP=20
+> seems to serve an individual VSP.  I'm still not sure in what=20
+> sense a transit provider serves a federation.
+>=20
+>=20
+> > =20
+> > >   Are we
+> > >   assuming some sort of federation-level interconnection=20
+> (i.e., that
+> > >   the transit SP interconnects "to the federation" rather than to
+> > >   federation memebers)?
+> > =20
+> > could be, but not necessarily
+> > =20
+> > Richard
+> >=20
+> > >tim
+> >=20
+> >=20
+> >=20
+> >=20
+>=20
+> _______________________________________________
+> Speermint mailing list
+> Speermint@ietf.org
+> https://www1.ietf.org/mailman/listinfo/speermint
+>=20
+
+_______________________________________________
+Speermint mailing list
+Speermint@ietf.org
+https://www1.ietf.org/mailman/listinfo/speermint

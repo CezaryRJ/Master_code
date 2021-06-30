@@ -1,0 +1,33 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sctp-impl
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sctp-impl/2006-08.mailcl']
+id : e2f9c53d-9fd5-4596-b8e1-28d6822183a5
+_version_ : 1675132431611461633
+
+Content : 
+
+
+

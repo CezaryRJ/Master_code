@@ -1,0 +1,135 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : iesg-agenda-dist
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/iesg-agenda-dist/2008-01.mailcl']
+id : 27a58017-0c33-49b8-907b-2a148fbf1da1
+_version_ : 1675131255511842816
+
+Content : 
+
+NONE
+
+2.2 Individual Submissions
+2.2.1 New Item
+NONE
+2.2.2 Returning Item
+NONE
+
+3. Document Actions
+
+3.1 WG Submissions
+	Reviews should focus on these questions: "Is this document a reasonable
+	contribution to the area of Internet engineering which it covers? If
+	not, what changes would make it so?"
+
+3.1.1 New Item
+  o draft-ietf-hokey-reauth-ps-07.txt
+    Handover Key Management and Re-authentication Problem Statement 
+    (Informational) - 1 of 3 
+    Token: Tim Polk
+  o draft-ietf-v6ops-addr-select-ps-03.txt
+    Problem Statement of Default Address Selection in Multi-prefix Environment: 
+    Operational Issues of RFC3484 Default Rules (Informational) - 2 of 3 
+    Token: Ron Bonica
+  o draft-ietf-v6ops-addr-select-req-04.txt
+    Requirements for address selection mechanisms (Informational) - 3 of 3 
+    Token: Ron Bonica
+
+3.1.2 Returning Item
+NONE
+
+3.2 Individual Submissions Via AD
+	Reviews should focus on these questions: "Is this document a reasonable
+	contribution to the area of Internet engineering which it covers? If
+	not, what changes would make it so?"
+
+3.2.1 New Item
+NONE
+3.2.2 Returning Item
+NONE
+3.3 Independent Submissions Via RFC Editor
+	The IESG will use RFC 3932 responses: 1) The IESG has not
+	found any conflict between this document and IETF work; 2) The
+	IESG thinks that this work is related to IETF work done in WG
+	<X>, but this does not prevent publishing; 3) The IESG thinks
+	that publication is harmful to work in WG <X> and recommends
+	not publishing at this time; 4) The IESG thinks that this
+	document violates the IETF procedures for <X> and should
+	therefore not be published without IETF review and IESG
+	approval; 5) The IESG thinks that this document extends an
+	IETF protocol in a way that requires IETF review and should
+	therefore not be published without IETF review and IESG approval.
+
+	The document shepherd must propose one of these responses in
+	the Data Tracker note and supply complete text in the IESG
+	Note portion of the write-up. The Area Director ballot positions
+	indicate consensus with the response proposed by the
+	document shepherd.
+
+	Other matters may be recorded in comments, and the comments will
+	be passed on to the RFC Editor as community review of the document.
+
+
+3.3.1 New Item
+NONE
+3.3.2 Returning Item
+NONE
+
+4. Working Group Actions
+4.1 WG Creation
+4.1.1 Proposed for IETF Review
+    NONE
+4.1.2 Proposed for Approval
+  o Routing Over Low power and Lossy networks (roll) - 1 of 1
+    Token: David
+4.2 WG Rechartering
+4.2.1 Under evaluation for IETF Review
+    NONE
+4.2.2 Proposed for Approval
+  o Public-Key Infrastructure (X.509) (pkix) - 1 of 1
+    Token: Tim
+
+5. IAB News We can use
+
+6. Management Issue
+
+ 6.1 RFC Errata (Russ Housley)
+
+ 6.2 Clarification of registration procedures for RFC 3688 (Michelle Cotton)
+
+ 6.3 Should RFC 1701 be updated/obsoleted by RFC 2784? (Russ Housley)
+
+ 6.4 URN allocation following RFC 3688 in an IRTF document (Dan Romascanu)
+
+7. Agenda Working Group News
+
+
+
+_______________________________________________
+IESG-AGENDA-DIST mailing list
+IESG-AGENDA-DIST@ietf.org
+https://www1.ietf.org/mailman/listinfo/iesg-agenda-dist
+
+

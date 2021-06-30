@@ -1,0 +1,618 @@
+
+From AVSHALOM@il.ibm.com  Mon Jan  3 07:23:12 2011
+Return-Path: <AVSHALOM@il.ibm.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id CF2DB3A69FA for <sip@core3.amsl.com>; Mon,  3 Jan 2011 07:23:12 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UJmvHLqsvUwo for <sip@core3.amsl.com>; Mon,  3 Jan 2011 07:23:12 -0800 (PST)
+Received: from mtagate4.uk.ibm.com (mtagate4.uk.ibm.com [194.196.100.164]) by core3.amsl.com (Postfix) with ESMTP id B13723A69F0 for <sip@ietf.org>; Mon,  3 Jan 2011 07:23:11 -0800 (PST)
+Received: from d06nrmr1307.portsmouth.uk.ibm.com (d06nrmr1307.portsmouth.uk.ibm.com [9.149.38.129]) by mtagate4.uk.ibm.com (8.13.1/8.13.1) with ESMTP id p03FPHsc003166 for <sip@ietf.org>; Mon, 3 Jan 2011 15:25:17 GMT
+Received: from d06av01.portsmouth.uk.ibm.com (d06av01.portsmouth.uk.ibm.com [9.149.37.212]) by d06nrmr1307.portsmouth.uk.ibm.com (8.13.8/8.13.8/NCO v10.0) with ESMTP id p03FPJlx3555398 for <sip@ietf.org>; Mon, 3 Jan 2011 15:25:19 GMT
+Received: from d06av01.portsmouth.uk.ibm.com (loopback [127.0.0.1]) by d06av01.portsmouth.uk.ibm.com (8.14.4/8.13.1/NCO v10.0 AVout) with ESMTP id p03FPHfc027309 for <sip@ietf.org>; Mon, 3 Jan 2011 08:25:17 -0700
+Received: from d12mc102.megacenter.de.ibm.com (d12nrml1506.megacenter.de.ibm.com [9.149.164.56] (may be forged)) by d06av01.portsmouth.uk.ibm.com (8.14.4/8.13.1/NCO v10.0 AVin) with ESMTP id p03FPGci027302; Mon, 3 Jan 2011 08:25:17 -0700
+To: sip@ietf.org
+MIME-Version: 1.0
+X-KeepSent: 9E7C0622:288AC539-C225780D:005405A1; type=4; name=$KeepSent
+X-Mailer: Lotus Notes Release 8.5.2 August 10, 2010
+From: Avshalom Houri <AVSHALOM@il.ibm.com>
+Message-ID: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com>
+Date: Mon, 3 Jan 2011 17:25:18 +0200
+X-MIMETrack: Serialize by Router on D12MC102/12/M/IBM(Release 8.5.1FP4|July 25, 2010) at 03/01/2011 17:25:19, Serialize complete at 03/01/2011 17:25:19
+Content-Type: multipart/alternative; boundary="=_alternative 00545D46C225780D_="
+Cc: fluffy@cisco.com, rohan@ekabal.com, francois.audet@skypelabs.com
+Subject: [Sip] Changing route set in SIP outbound
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 03 Jan 2011 15:23:12 -0000
+
+This is a multipart message in MIME format.
+--=_alternative 00545D46C225780D_=
+Content-Type: text/plain; charset="US-ASCII"
+
+Assume that the first SIP proxy that is part of the route set (in SIP 
+outbound)
+crashes and immediately restarts, or a backup proxy takes over. Is there 
+any way to keep the dialog alive if either of the
+endpoints senses this failure and recreates a connection or the dialog is 
+doomed and needs to be
+fully recreated again? The issue is that the route set includes the 
+connection information, which is no longer valid.
+
+tnx
+avshalom
+
+--=_alternative 00545D46C225780D_=
+Content-Type: text/html; charset="US-ASCII"
+
+<font size=2 face="Courier New">Assume that the first SIP proxy that is
+part of the route set (in SIP outbound)</font>
+<br><font size=2 face="Courier New">crashes and immediately restarts, or
+a backup proxy takes over. Is there any way to keep the dialog alive if
+either of the</font>
+<br><font size=2 face="Courier New">endpoints senses this failure and recreates
+a connection or the dialog is doomed and needs to be</font>
+<br><font size=2 face="Courier New">fully recreated again? The issue is
+that the route set includes the connection information, which is no longer
+valid.</font>
+<br>
+<br><font size=2 face="Courier New">tnx</font>
+<br><font size=2 face="Courier New">avshalom</font>
+<br>
+--=_alternative 00545D46C225780D_=--
+
+From dworley@avaya.com  Mon Jan  3 07:26:48 2011
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E18C03A69EC for <sip@core3.amsl.com>; Mon,  3 Jan 2011 07:26:47 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.506
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.506 tagged_above=-999 required=5 tests=[AWL=0.093, BAYES_00=-2.599, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1LE1+9HJnuEO for <sip@core3.amsl.com>; Mon,  3 Jan 2011 07:26:46 -0800 (PST)
+Received: from p-us1-iereast-outbound-tmp.us1.avaya.com (p-us1-iereast-outbound-tmp.us1.avaya.com [135.11.29.16]) by core3.amsl.com (Postfix) with ESMTP id 4EF563A6981 for <sip@ietf.org>; Mon,  3 Jan 2011 07:26:46 -0800 (PST)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAAt6IU2HCzI1/2dsb2JhbACkNHOlAQKWN4VKBIRliVY
+X-IronPort-AV: E=Sophos;i="4.60,267,1291611600"; d="scan'208";a="52631236"
+Received: from unknown (HELO p-us1-erheast.us1.avaya.com) ([135.11.50.53]) by p-us1-iereast-outbound-tmp.us1.avaya.com with ESMTP; 03 Jan 2011 10:28:50 -0500
+X-IronPort-AV: E=Sophos;i="4.60,267,1291611600"; d="scan'208";a="576112822"
+Received: from dc-us1hcex2.us1.avaya.com (HELO DC-US1HCEX2.global.avaya.com) ([135.11.52.21]) by p-us1-erheast-out.us1.avaya.com with ESMTP; 03 Jan 2011 10:28:20 -0500
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.1.90]) by DC-US1HCEX2.global.avaya.com ([::1]) with mapi; Mon, 3 Jan 2011 10:28:20 -0500
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: Avshalom Houri <AVSHALOM@il.ibm.com>, "sip@ietf.org" <sip@ietf.org>
+Date: Mon, 3 Jan 2011 10:26:35 -0500
+Thread-Topic: [Sip] Changing route set in SIP outbound
+Thread-Index: AcurWnai1dk3z8n9SsmNgTGsfRYPxAAACSeC
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B2202288B29@DC-US1MBEX4.global.avaya.com>
+References: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com>
+In-Reply-To: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Cc: "fluffy@cisco.com" <fluffy@cisco.com>, "rohan@ekabal.com" <rohan@ekabal.com>, "francois.audet@skypelabs.com" <francois.audet@skypelabs.com>
+Subject: Re: [Sip] Changing route set in SIP outbound
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 03 Jan 2011 15:26:48 -0000
+
+________________________________________
+From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Avshalom Hou=
+ri [AVSHALOM@il.ibm.com]
+
+Assume that the first SIP proxy that is part of the route set (in SIP outbo=
+und)
+crashes and immediately restarts, or a backup proxy takes over. Is there an=
+y way to keep the dialog alive if either of the
+endpoints senses this failure and recreates a connection or the dialog is d=
+oomed and needs to be
+fully recreated again? The issue is that the route set includes the connect=
+ion information, which is no longer valid.
+________________________________________
+
+As you phrase the question, the *dialog* cannot be kept alive if the connec=
+tion in question is lost because the route set cannot be changed.
+
+Dale
+
+From abhatnagar192006@gmail.com  Mon Jan  3 07:38:39 2011
+Return-Path: <abhatnagar192006@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 6A6E93A69FD for <sip@core3.amsl.com>; Mon,  3 Jan 2011 07:38:39 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.998 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_55=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 06GHfaVt99fc for <sip@core3.amsl.com>; Mon,  3 Jan 2011 07:38:24 -0800 (PST)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id 99EC728C0F1 for <sip@ietf.org>; Mon,  3 Jan 2011 07:38:06 -0800 (PST)
+Received: by qwg5 with SMTP id 5so14235538qwg.31 for <sip@ietf.org>; Mon, 03 Jan 2011 07:40:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:received:received :in-reply-to:references:date:message-id:subject:from:to:cc :content-type; bh=SO8R54s+KmrTXUKaNmTNemC4EsZtO8lI8cT32Ee/Z9Q=; b=VFjiaLwVpbgTqJPZAcxVrwNd5luzbs3p5uVVLi+V0PPA2gRIGPI42HUnw7wnArJ/0D OG0yxA6em7Szk1S3qTl4Jt0cgVhSxmIp7OKfflmQ7CsyiMJgoPa8KJVCz1c3MxjkQW8C S3SauBFDNgRQrHkZhmKFK+LHwBBfEImblO/xI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=Oc9gl+OXaYEmx69EgGDGocjNQ017gqt4z/kQ4uFoIu4GOr5h42sc5OOYSe1yS+q1Z5 G9QP5K0E76B4PZT+bpZqiI6d5qYGzXrJLSNbiQcTmTmyei0g+IRcK3Tl5usWynJapv4f kBTpGONqtif8DA0oK83fzUXW99CpbO9nmMOeQ=
+MIME-Version: 1.0
+Received: by 10.229.251.82 with SMTP id mr18mr17912922qcb.146.1294069213436; Mon, 03 Jan 2011 07:40:13 -0800 (PST)
+Received: by 10.229.111.87 with HTTP; Mon, 3 Jan 2011 07:40:13 -0800 (PST)
+Received: by 10.229.111.87 with HTTP; Mon, 3 Jan 2011 07:40:13 -0800 (PST)
+In-Reply-To: <CD5674C3CD99574EBA7432465FC13C1B2202288B29@DC-US1MBEX4.global.avaya.com>
+References: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com> <CD5674C3CD99574EBA7432465FC13C1B2202288B29@DC-US1MBEX4.global.avaya.com>
+Date: Mon, 3 Jan 2011 21:10:13 +0530
+Message-ID: <AANLkTinDTOgJX8pKDSamOqW3_fhYMqXw3bHSpHzwwzbP@mail.gmail.com>
+From: aayush <abhatnagar192006@gmail.com>
+To: Avshalom Houri <AVSHALOM@il.ibm.com>
+Content-Type: multipart/alternative; boundary=001636284440c830db0498f2f7f0
+Cc: "fluffy@cisco.com" <fluffy@cisco.com>, "rohan@ekabal.com" <rohan@ekabal.com>, "sip@ietf.org" <sip@ietf.org>, "francois.audet@skypelabs.com" <francois.audet@skypelabs.com>
+Subject: Re: [Sip] Changing route set in SIP outbound
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 03 Jan 2011 15:38:39 -0000
+
+--001636284440c830db0498f2f7f0
+Content-Type: text/plain; charset=ISO-8859-1
+
+The route set cannot be changed mid dialog.
+
+Regarding the endpoint detecting the crash of an intermediate proxy,there is
+a periodic session refresh mechanism available in SIP which the endpoint
+must support.
+
+This mechanism is implemented by examining the Session-Expires and Min-SE
+headers.
+
+Conversely if a backup proxy takes over the crashed one, then both proxies
+(Active-Stabdby) must support Virtual IP failover for implementing this
+fault tolerance use case.
+
+On Jan 3, 2011 8:59 PM, "Worley, Dale R (Dale)" <dworley@avaya.com> wrote:
+
+________________________________________
+From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Avshalom
+Houri [AVSHALOM@il.ibm.com]
+
+
+Assume that the first SIP proxy that is part of the route set (in SIP
+outbound)
+crashes and immedia...
+________________________________________
+
+As you phrase the question, the *dialog* cannot be kept alive if the
+connection in question is lost because the route set cannot be changed.
+
+Dale
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is essentially closed and only used for finishing old business.
+Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+implementation.
+Use dispatch@ietf.org for new developments on the application of sip.
+Use sipcore@ietf.org for issues related to maintenance of the core SIP
+specifications.
+
+--001636284440c830db0498f2f7f0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<p>The route set cannot be changed mid dialog.</p>
+<p>Regarding the endpoint detecting the crash of an intermediate proxy,ther=
+e is a periodic session refresh mechanism available in SIP which the endpoi=
+nt must support. </p>
+<p>This mechanism is implemented by examining the Session-Expires and Min-S=
+E headers.</p>
+<p>Conversely if a backup proxy takes over the crashed one, then both proxi=
+es (Active-Stabdby) must support Virtual IP failover for implementing this =
+fault tolerance use case.</p>
+<p><blockquote type=3D"cite">On Jan 3, 2011 8:59 PM, &quot;Worley, Dale R (=
+Dale)&quot; &lt;<a href=3D"mailto:dworley@avaya.com">dworley@avaya.com</a>&=
+gt; wrote:<br><br>________________________________________<br>
+From: <a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a> [<a =
+href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>] On Behalf Of=
+ Avshalom Houri [<a href=3D"mailto:AVSHALOM@il.ibm.com">AVSHALOM@il.ibm.com=
+</a>]<br>
+
+<p><font color=3D"#500050"><br>Assume that the first SIP proxy that is part=
+ of the route set (in SIP outbound)<br>crashes and immedia...</font></p>___=
+_____________________________________<br>
+<br>
+As you phrase the question, the *dialog* cannot be kept alive if the connec=
+tion in question is lost because the route set cannot be changed.<br>
+<br>
+Dale<br>
+_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br>
+</blockquote></p>
+
+--001636284440c830db0498f2f7f0--
+
+From nataraju.sip@gmail.com  Tue Jan  4 05:34:29 2011
+Return-Path: <nataraju.sip@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 595573A6C18 for <sip@core3.amsl.com>; Tue,  4 Jan 2011 05:34:29 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.114
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.114 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_FONT_FACE_BAD=0.884, HTML_MESSAGE=0.001, J_CHICKENPOX_55=0.6, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dI2uzHNExUkD for <sip@core3.amsl.com>; Tue,  4 Jan 2011 05:34:27 -0800 (PST)
+Received: from mail-pw0-f44.google.com (mail-pw0-f44.google.com [209.85.160.44]) by core3.amsl.com (Postfix) with ESMTP id B97DC3A6C0D for <sip@ietf.org>; Tue,  4 Jan 2011 05:34:27 -0800 (PST)
+Received: by pwi7 with SMTP id 7so2470278pwi.31 for <sip@ietf.org>; Tue, 04 Jan 2011 05:36:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:received:in-reply-to :references:date:message-id:subject:from:to:cc:content-type; bh=p8Cw0o9hIwOwEinT6uxTQJGVo3vPnp9ddLmdOlq63Xs=; b=kBV9nGF/3IRkAqR2Sgs96Amll/4HHpkBVi2pqtpnkqxK0za4P5X+5OnZI/kWZ/LsXG jzSr3sxg8s+Gg1eisrt+yakqTQrhDgOjD7fL85rOKkHKcp4jUrsYkrSdUjB7+c8zdhC3 JOOUiWafRfmexRkE3IX6z2g1z/cqYuHkf7Et0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=iyye1FvEe9SYWxqKbLC9Tz5+niYnUv0mSXBAU8z8kj3uUvmYB0TdMANcDNj8M3cGiE 62RZSEakHC7tUGP9lzmLG3eCqICIrxI6G2mTSDACtdt446aMdwjnn79zcRAp9NgwwWKb O5ib/zb58fza2pP0eZkv++64rpmbVJT+vi7Lg=
+MIME-Version: 1.0
+Received: by 10.142.203.16 with SMTP id a16mr17709790wfg.144.1294148194734; Tue, 04 Jan 2011 05:36:34 -0800 (PST)
+Received: by 10.143.18.13 with HTTP; Tue, 4 Jan 2011 05:36:34 -0800 (PST)
+In-Reply-To: <AANLkTinDTOgJX8pKDSamOqW3_fhYMqXw3bHSpHzwwzbP@mail.gmail.com>
+References: <OF9E7C0622.288AC539-ONC225780D.005405A1-C225780D.0054B652@il.ibm.com> <CD5674C3CD99574EBA7432465FC13C1B2202288B29@DC-US1MBEX4.global.avaya.com> <AANLkTinDTOgJX8pKDSamOqW3_fhYMqXw3bHSpHzwwzbP@mail.gmail.com>
+Date: Tue, 4 Jan 2011 19:06:34 +0530
+Message-ID: <AANLkTi=idceDZS6dRHHTbHLh5coFj7x0XLhv=kiOHtHX@mail.gmail.com>
+From: "Nataraju A.B" <nataraju.sip@gmail.com>
+To: aayush <abhatnagar192006@gmail.com>
+Content-Type: multipart/alternative; boundary=000e0cd158326f13a90499055bca
+Cc: "fluffy@cisco.com" <fluffy@cisco.com>, "rohan@ekabal.com" <rohan@ekabal.com>, "sip@ietf.org" <sip@ietf.org>, "francois.audet@skypelabs.com" <francois.audet@skypelabs.com>, Avshalom Houri <AVSHALOM@il.ibm.com>
+Subject: Re: [Sip] Changing route set in SIP outbound
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 04 Jan 2011 13:34:29 -0000
+
+--000e0cd158326f13a90499055bca
+Content-Type: text/plain; charset=ISO-8859-1
+
+AFAIU, Any proxy which forms part of the route-set during call setup. It
+must support backup and recovery mechanism.
+
+One simple  example where the proxy supports billing functionality could be
+part of the route-set and it shall support back and recovery. In this case
+it shall back back up all the necessary data to recover if there is any
+failure in the active unit. Otherwise it does not make sense to to be part
+of a route-set.
+
+
+On Mon, Jan 3, 2011 at 9:10 PM, aayush <abhatnagar192006@gmail.com> wrote:
+
+> The route set cannot be changed mid dialog.
+>
+> Regarding the endpoint detecting the crash of an intermediate proxy,there
+> is a periodic session refresh mechanism available in SIP which the endpoint
+> must support.
+>
+> This mechanism is implemented by examining the Session-Expires and Min-SE
+> headers.
+>
+> Conversely if a backup proxy takes over the crashed one, then both proxies
+> (Active-Stabdby) must support Virtual IP failover for implementing this
+> fault tolerance use case.
+>
+> On Jan 3, 2011 8:59 PM, "Worley, Dale R (Dale)" <dworley@avaya.com> wrote:
+>
+> ________________________________________
+> From: sip-bounces@ietf.org [sip-bounces@ietf.org] On Behalf Of Avshalom
+> Houri [AVSHALOM@il.ibm.com]
+>
+>
+> Assume that the first SIP proxy that is part of the route set (in SIP
+> outbound)
+> crashes and immedia...
+>
+> ________________________________________
+>
+> As you phrase the question, the *dialog* cannot be kept alive if the
+> connection in question is lost because the route set cannot be changed.
+>
+> Dale
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SIP
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+>
+
+
+
+-- 
+Thanks,
+Nataraju A.B.
+
+--000e0cd158326f13a90499055bca
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+AFAIU, Any proxy which forms part of the route-set during call setup. It mu=
+st support backup and recovery mechanism.=A0<div><br></div><div>One simple =
+=A0example where the proxy supports billing functionality could be part of =
+the route-set and it shall support back and recovery. In this case it shall=
+ back back up all the necessary data to recover if there is any failure in =
+the active unit. Otherwise it does not make sense to to be part of a route-=
+set.<br>
+<div><br></div><div><br><div class=3D"gmail_quote">On Mon, Jan 3, 2011 at 9=
+:10 PM, aayush <span dir=3D"ltr">&lt;<a href=3D"mailto:abhatnagar192006@gma=
+il.com">abhatnagar192006@gmail.com</a>&gt;</span> wrote:<br><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pa=
+dding-left:1ex;">
+<p>The route set cannot be changed mid dialog.</p>
+<p>Regarding the endpoint detecting the crash of an intermediate proxy,ther=
+e is a periodic session refresh mechanism available in SIP which the endpoi=
+nt must support. </p>
+<p>This mechanism is implemented by examining the Session-Expires and Min-S=
+E headers.</p>
+<p>Conversely if a backup proxy takes over the crashed one, then both proxi=
+es (Active-Stabdby) must support Virtual IP failover for implementing this =
+fault tolerance use case.</p>
+<p></p><blockquote type=3D"cite"><div class=3D"im">On Jan 3, 2011 8:59 PM, =
+&quot;Worley, Dale R (Dale)&quot; &lt;<a href=3D"mailto:dworley@avaya.com" =
+target=3D"_blank">dworley@avaya.com</a>&gt; wrote:<br><br>_________________=
+_______________________<br>
+
+From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bounces=
+@ietf.org</a> [<a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">si=
+p-bounces@ietf.org</a>] On Behalf Of Avshalom Houri [<a href=3D"mailto:AVSH=
+ALOM@il.ibm.com" target=3D"_blank">AVSHALOM@il.ibm.com</a>]<br>
+
+
+</div><p><font color=3D"#500050"></font></p><div class=3D"im"><font color=
+=3D"#500050"><br>Assume that the first SIP proxy that is part of the route =
+set (in SIP outbound)<br></font></div><font color=3D"#500050">crashes and i=
+mmedia...</font><p>
+</p><div class=3D"im">________________________________________<br>
+<br>
+As you phrase the question, the *dialog* cannot be kept alive if the connec=
+tion in question is lost because the route set cannot be changed.<br>
+<br>
+Dale<br>
+_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu" target=3D"_blank">s=
+ip-implementors@cs.columbia.edu</a> for questions on how to develop a SIP i=
+mplementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org" target=3D"_blank">dispatch@ietf.or=
+g</a> for new developments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org" target=3D"_blank">sipcore@ietf.org<=
+/a> for issues related to maintenance of the core SIP specifications.<br>
+</div></blockquote><p></p>
+<br>_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is essentially closed and only used for finishing old business.<b=
+r>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on how to develop a SIP implementation.<br>
+Use <a href=3D"mailto:dispatch@ietf.org">dispatch@ietf.org</a> for new deve=
+lopments on the application of sip.<br>
+Use <a href=3D"mailto:sipcore@ietf.org">sipcore@ietf.org</a> for issues rel=
+ated to maintenance of the core SIP specifications.<br></blockquote></div><=
+br><br clear=3D"all"><br>-- <br><font color=3D"#000099"><font face=3D"&#39;=
+courier new&#39;, monospace">Thanks,</font></font><div>
+<font color=3D"#000099"><font face=3D"&#39;courier new&#39;, monospace">Nat=
+araju A.B.</font></font></div><br>
+</div></div>
+
+--000e0cd158326f13a90499055bca--
+
+From fluffy@cisco.com  Thu Jan 13 18:31:20 2011
+Return-Path: <fluffy@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E2D483A6C35; Thu, 13 Jan 2011 18:31:20 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -109.968
+X-Spam-Level: 
+X-Spam-Status: No, score=-109.968 tagged_above=-999 required=5 tests=[AWL=-0.609, BAYES_00=-2.599, RCVD_IN_DNSWL_HI=-8, SARE_LWSHORTT=1.24, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id jQseeFXXXiR6; Thu, 13 Jan 2011 18:31:19 -0800 (PST)
+Received: from sj-iport-6.cisco.com (sj-iport-6.cisco.com [171.71.176.117]) by core3.amsl.com (Postfix) with ESMTP id BA36F3A6C33; Thu, 13 Jan 2011 18:31:19 -0800 (PST)
+Authentication-Results: sj-iport-6.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAG9EL02rR7Ht/2dsb2JhbACkTXOkJphPhUwEhGiGKIMi
+Received: from sj-core-1.cisco.com ([171.71.177.237]) by sj-iport-6.cisco.com with ESMTP; 14 Jan 2011 02:33:43 +0000
+Received: from [192.168.4.2] (rcdn-fluffy-8711.cisco.com [10.99.9.18]) by sj-core-1.cisco.com (8.13.8/8.14.3) with ESMTP id p0E2XHdv023999; Fri, 14 Jan 2011 02:33:42 GMT
+Mime-Version: 1.0 (Apple Message framework v1082)
+Content-Type: text/plain; charset=us-ascii
+From: Cullen Jennings <fluffy@cisco.com>
+In-Reply-To: <CD5674C3CD99574EBA7432465FC13C1B2202288AE7@DC-US1MBEX4.global.avaya.com>
+Date: Thu, 13 Jan 2011 19:35:18 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <38FA3B83-D552-4BC6-9B06-CBEAC4F750BE@cisco.com>
+References: <CD5674C3CD99574EBA7432465FC13C1B2202288AE7@DC-US1MBEX4.global.avaya.com>
+To: "Worley, Dale R (Dale)" <dworley@avaya.com>
+X-Mailer: Apple Mail (2.1082)
+Cc: "sip@ietf.org" <sip@ietf.org>, "dispatch@ietf.org" <dispatch@ietf.org>
+Subject: Re: [Sip] Errata report on errata 2602 and 2120 on RFC 5479, "Requirements and Analysis of Media Security Management Protocols"
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 14 Jan 2011 02:31:21 -0000
+
+I agree with the Recommended status on these. Might be good to run the =
+first one by EKR.=20
+
+On Dec 13, 2010, at 3:09 PM, Worley, Dale R (Dale) wrote:
+
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+> RFC5479, "Requirements and Analysis of Media Security Management =
+Protocols"
+> Source of RFC: sip (rai)
+>=20
+> Errata ID: 2602
+>=20
+> Status: Reported
+> Type: Technical
+>=20
+> Reported By: Fabio Pietrosanti
+> Date Reported: 2010-11-04
+>=20
+> Section A.5.2 says:
+>=20
+>      SDP Security Descriptions with SIPS
+>         Not applicable; SDP Security Descriptions does not have a =
+long-
+>         term secret.
+>=20
+> It should say:
+>=20
+>      SDP Security Descriptions with SIPS
+>         The PFS feature of SDP Security Description with SIPS rely on
+>         TLS and the availability or not of PFS for SRTP calls depends
+>         on the negotiated TLS key negotiation algorithm.
+>=20
+>         If the selected TLS key negotiation algorithm of SIPS provide
+>         PFS feature, then the underlying SRTP encryption will support
+>         PFS.  For example TLS_DHE_RSA_WITH_AES_256_CBC_SHA provde PFS
+>         feature as described in RFC5246.  If the selected TLS key
+>         negotiation algorithm of SIPS does not provide PFS feature,
+>         then the underlying SRTP encryption will not support PFS.
+>         For example TLS_RSA_WITH_AES_256_CBC_SHA does not provide PFS
+>         feature as described in RFC5246.
+>=20
+>=20
+> Notes:
+>=20
+> It's not true that SDP Security Descriptions with SIPS have PFS "Not
+> applicable" because the SDES rely on TLS that is part of the security
+> scheme.
+>=20
+> Practically if the long terms keys (the x509v3 RSA key of SIPS server)
+> is compromised, the TLS sessions can be decrypted, the SDES key
+> extracted and SRTP calls deciphered.
+>=20
+> TLS support key exchange methods that provide PFS trough the use of
+> Ephemeral Diffie Hellman keys.
+>=20
+> When SIPS use TLS with DHE key negotiation, then SDES acquire PFS
+> feature because even in case of long-term key compromise (the server
+> x509v3 RSA key), the short term keys (the SDES keys exchanged) will be
+> safe.
+> ----------------------------------------------------------------------
+> Recommended status:  (correct) Verified (publish)
+> Should be reviewed by a security expert.
+>=20
+> It seems that the entry for "SDP Security Descriptions with S/MIME" is
+> also incorrect, as revelation of the private keys of the participants
+> will render the SDES readable.  I think better phrasing of the revised
+> wording is:
+>=20
+>      SDP Security Descriptions with SIPS
+>         PFS if the selected TLS cipher suites for the SIPS hops =
+provide PFS.
+>=20
+>      SDP Security Descriptions with S/MIME
+>         No PFS.
+>=20
+> This needs to be reviewed by a security expert.
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+> RFC5479, "Requirements and Analysis of Media Security Management =
+Protocols"
+> Source of RFC: sip (rai)
+>=20
+> Errata ID: 2120
+>=20
+> Status: Reported
+> Type: Editorial
+>=20
+> Reported By: Alfred Hoenes
+> Date Reported: 2010-04-05
+>=20
+> Section 4.4,3rd para says:
+>=20
+> |  A typical case of using media security where two entities are =
+having
+>   a Voice over IP (VoIP) conversation over IP-capable networks.
+>   [...]
+>=20
+> It should say:
+>=20
+> |  A typical case of using media security is where two entities are
+>   having a Voice over IP (VoIP) conversation over IP-capable networks.
+>   [...]
+>=20
+> Notes:
+>=20
+> Rationale: missing verb.
+> ----------------------------------------------------------------------
+> Recommended status:  (correct) Hold for document update
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>=20
+> Dale
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old =
+business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a =
+SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP =
+specifications.
+

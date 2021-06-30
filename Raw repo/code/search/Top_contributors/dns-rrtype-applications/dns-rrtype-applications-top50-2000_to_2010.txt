@@ -1,0 +1,11 @@
+2000 TO 2010
+-------#####------->    dns-rrtype-applications
+ajs@shinkuro.com 5
+jim@rfc1035.com 2
+ajs@crankycanuck.ca 1
+fneves@registro.br 1
+iana-questions@icann.org 1
+ogud@ogud.com 1
+ondrej.sury@nic.cz 1
+roy@nominet.org.uk 1
+wouter@NLnetLabs.nl 1

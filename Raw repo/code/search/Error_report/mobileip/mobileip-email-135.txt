@@ -1,0 +1,51 @@
+Date : ['2003-02-25T23:29:57Z']
+Timezone : -0500
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['NEXTEL-1@yahoogroups.com']
+Reply-to-name : Null
+Reply-to-address :  NEXTEL-1@yahoogroups.com
+To : "NEXTEL-1@yahoogroups.com" <NEXTEL-1@yahoogroups.com>
+To-name :  NEXTEL-1@yahoogroups.com
+To-address : [' NEXTEL-1@yahoogroups.com']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <3E5C42C5.CB1DAF19@bellsouth.net>
+References : Null
+Comments : ['Null']
+Subject : ['[NEXTEL-1] Wideband to Narrowband Migration']
+Mailing-list : mobileip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mobileip/2003-02.mailcl']
+id : b39bd0a9-8dc2-489e-b950-0b13bd5d5628
+_version_ : 1675131557256364032
+
+Content : 
+
+-------- Original Message --------
+   From: <landmobile@rayfield.net>
+Subject: RE: Wideband to Narrowband Migration
+ 
+
+ Am I understanding this 2nd Report and Order correctly, that after 6 months from the date
+that this is published in the Federal Register (which means, in about 7 to 8 months from
+now, roughly), that the FCC will issue NO new licenses in the VHF highband or UHF band for
+'wideband' systems (5 khz. deviation systems) and that they will issue NO modications to
+'wideband' systems that would result in the present base station/repeater contours being
+'expanded' (which, I would assume, means in ANY direction - so you wouldn't even be able
+to move a base/repeater)?If I'm understanding this correctly, then this could have a VERY
+big impact on public safety agencies that are still using older (and that doesn't
+necessarily mean a lot older) radios that either won't do narrowband at all or won't do it
+'well' (bad audio on narrowband, due to lack of compandoring).  Such agencies won't be
+able to make changes in base/repeater locations or add new bases or repeaters without
+possibly having to replace existing mobiles and portables as well.Am I understanding this
+correctly, or have I slept through something here?   John Rayfield, Jr.   Rayfield
+Communications, Inc.   Springfield, Missouri
+

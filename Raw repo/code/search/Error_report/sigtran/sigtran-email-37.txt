@@ -1,0 +1,96 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : 841aa474-737f-4426-8928-bc9aae01e5e0
+_version_ : 1675129467489484802
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id NAA02697;
+	Mon, 16 Apr 2001 13:27:16 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id NAA02668
+	for <tsvwg@ns.ietf.org>; Mon, 16 Apr 2001 13:27:15 -0400 (EDT)
+Received: from motgate3.mot.com ([144.189.100.103])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id NAA09189
+	for <tsvwg@ietf.org>; Mon, 16 Apr 2001 13:27:16 -0400 (EDT)
+Received: [from pobox.mot.com (pobox.mot.com [129.188.137.100]) by
+motgate3.mot.com (motgate3 2.1) with ESMTP id KAA27584; Mon, 16 Apr 2001
+10:21:33 -0700 (MST)]
+Received: [from relay2.cig.mot.com (relay2.cig.mot.com [136.182.15.24]) by
+pobox.mot.com (MOT-pobox 2.0) with ESMTP id KAA16315; Mon, 16 Apr 2001
+10:27:11 -0700 (MST)]
+Received: from agevole.cig.mot.com (agevole [136.182.3.251]) by
+relay2.cig.mot.com (8.9.0/SCERG-RELAY-1.11b) with ESMTP id MAA16193; Mon, 16
+Apr 2001 12:27:10 -0500 (CDT)
+Received: from cig.mot.com (d42-506b.cig.mot.com [160.15.80.107]) by
+agevole.cig.mot.com (8.7.5 Motorola CIG/ITS v1.1 (Solaris 2.5)) with ESMTP
+id MAA19255; Mon, 16 Apr 2001 12:27:07 -0500 (CDT)
+Message-Id: <200104161727.MAA19255@agevole.cig.mot.com>
+Date: Mon, 16 Apr 2001 12:28:53 -0500
+From: Qiaobing Xie <xieqb@cig.mot.com>
+X-Mailer: Mozilla 4.75 [en] (Win98; U)
+X-Accept-Language: en
+MIME-Version: 1.0
+To: Randall Stewart <rrs@cisco.com>
+CC: tsvwg@ietf.org
+Subject: Re: [Tsvwg] [SCTP checksum problems]
+References: <3AD5A6CF.A136BA3D@cisco.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+Content-Transfer-Encoding: 7bit
+
+Another solution could be (I think I mentioned this to Randy and a few
+others at last IETF): 
+
+- Define a CRC-32 (or other strong checksum) control chunk and when the
+sender wishes to use a stronger checksum protection, in addition to the
+Adler-32 in the common SCTP header it includes this CRC-32 chuck in the
+outbound packet. When the packet arrives, the receiver will do the
+Adler-32 first, and then if the receiver supports the CRC-32 and sees
+the presence of the CRC-32 chunk in the packet it will further verify
+the CRC-32. 
+
+We could also use a bit pattern in the chunk type of the CRC-32 chunk so
+that if the receiver doesn't understand the CRC-32 chunk it would drop
+it with a report back to the sender.
+
+-Qiaobing
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

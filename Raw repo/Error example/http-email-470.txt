@@ -1,0 +1,43 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : http
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/http/2007-01.mailcl']
+id : 02653454-224e-4b4f-b6a7-993b32dd3a8f
+_version_ : 1675131147507466244
+
+Content : 
+
+220 mail.fandango.com Microsoft ESMTP MAIL Service, Version: 6.0.3790.1830 ready at  Wed, 31 Jan 2007 11:48:31 -0800 
+500 5.3.3 Unrecognized command
+500 5.3.3 Unrecognized command
+500 5.3.3 Unrecognized command
+500 5.3.3 Unrecognized command
+451 Timeout waiting for client input
+
+------report 
+line 2326
+malformed header, from is missing
+
+

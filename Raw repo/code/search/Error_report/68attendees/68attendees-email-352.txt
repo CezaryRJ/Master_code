@@ -1,0 +1,155 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 68attendees
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/68attendees/2007-03.mailcl']
+id : 71c97d8a-9d1d-4820-9c50-bead2a1b42be
+_version_ : 1675132156614017024
+
+Content : 
+
+>> western point of view and I find it a little embarrassing.
+> 
+> Maybe so.  How about "Accept evolving cultural norms, and allow those 
+> who come to your country to do work (and spend money) to actually do 
+> that work."?
+
+Whose cultural norms?
+
+Sounds the same to me.
+
+-MSK
+
+_______________________________________________
+68ATTENDEES mailing list
+68ATTENDEES@ietf.org
+https://www1.ietf.org/mailman/listinfo/68attendees
+
+
+
+
+
+n.sendmail.com
+	l2RJi87F023623
+DomainKey-Signature: a=rsa-sha1; s=tls; d=sendmail.com; c=nofws; q=dns;
+	h=received:x-authentication-warning:date:from:x-x-sender:to:
+	subject:in-reply-to:message-id:references:mime-version:content-type;
+	b=pnLMPeNygI/BfmrJKdnX1U/Bj0CCIosNlY9nTlPGYA8poZGO8RYfJ6dBb5sTfSDSq
+	W8xPZ+lxD+YQ6rzZe9Pdv44b79smXpul6Ef/aHUAwKNU977bS8ZWzV9iE7K2Outvfm8
+	rbFvUqcK+8E3mU/UO6hBwMjnJKqD24b+jsWadk8=
+Received: from protagonist.smi.sendmail.com (localhost [127.0.0.1])
+	by protagonist.smi.sendmail.com (8.13.1/8.13.1) with ESMTP id
+	l2RIeqmj034724
+	for <68attendees@ietf.org>; Tue, 27 Mar 2007 10:40:52 -0800 (PST)
+	(envelope-from msk@sendmail.com)
+Received: from localhost (msk@localhost)
+	by protagonist.smi.sendmail.com (8.13.1/8.13.1/Submit) with ESMTP id
+	l2RIeqq3034721
+	for <68attendees@ietf.org>; Tue, 27 Mar 2007 11:40:52 -0700 (PDT)
+	(envelope-from msk@sendmail.com)
+X-Authentication-Warning: protagonist.smi.sendmail.com: msk owned process
+	doing -bs
+Date: Tue, 27 Mar 2007 11:40:52 -0700 (PDT)
+From: "Murray S. Kucherawy" <msk@sendmail.com>
+X-X-Sender: msk@protagonist.smi.sendmail.com
+To: 68attendees@ietf.org
+Subject: Re: [68ATTENDEES] Hilton Prague
+In-Reply-To: <p06240605c229fc1408eb@[[10.0.0.54]]>
+Message-ID: <20070327112703.K34555@protagonist.smi.sendmail.com>
+References: <OF921C80D0.18881DC6-ON852572A7.002E178E-852572A7.002E8964@csc.com>
+	<460392E7.4010106@kniveton.com>
+	<20070323082654.P70313@protagonist.smi.sendmail.com>
+	<p06240605c229fc1408eb@[[10.0.0.54]]>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 4adaf050708fb13be3316a9eee889caa
+X-BeenThere: 68attendees@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "Mailing list for IETF 68 attendees." <68attendees.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/68attendees>,
+	<mailto:68attendees-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/68attendees>
+List-Post: <mailto:68attendees@ietf.org>
+List-Help: <mailto:68attendees-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/68attendees>,
+	<mailto:68attendees-request@ietf.org?subject=subscribe>
+Errors-To: 68attendees-bounces@ietf.org
+
+On Fri, 23 Mar 2007, Randall Gellens wrote:
+> We're all very glad to hear this.  Many others had the same good 
+> experiences, but that does not mean that the unfortunate experiences of 
+> those who were pickpocketed are invalid.
+
+I never said they are invalid, but I do have trouble swallowing the 
+assertion that the entire conference and choice of city was a wash because 
+of them, which was the perspective I was getting from prior posts to the 
+list.
+
+> While I am of course happy for you that you are not sensitive to smoke, 
+> I find it insulting that you seem to think that everyone else is like 
+> you; it demeans those who have physical difficulties with smoke.
+
+My mother has a potentially fatal bee allergy.  Were she to come to IETF 
+as a contributor during a season when bees are active, I would find it 
+absurd of her to assert that the conference facility or the host city 
+must guarantee her a bee-free environment in the region of the hotel.
+
+I have some pretty terrible hayfever sometimes during allergy season.  I 
+would never consider demanding that we avoid any city with pollens to 
+which I am allergic even though their presence in the air would render me 
+of limited use to the working groups I wish to attend because I'd be 
+reduced to a sneezing mess.  I would either cope with the problem, 
+treat the symptoms as best I can, or attend remotely (e.g. via jabber).
+
+> Spoken like someone who is not bothered by it.
+
+Correct, but I've also given examples of things that do bother me a great 
+deal which still wouldn't compel me to claim the environment was 
+unacceptable for the conference.  Same logic, same opinion.
+
+>>    Would we allow smoking in a non-smoking hotel back home if a delegation
+>> of Czechs held a conference there?  Of course not. We're guests in their
+>> culture.  "Stop smoking!  We bring a lot of money here!" is a singularly
+>> western point of view and I find it a little embarrassing.
+> 
+> Maybe so.  How about "Accept evolving cultural norms, and allow those 
+> who come to your country to do work (and spend money) to actually do 
+> that work."?
+
+Whose cultural norms?
+
+Sounds the same to me.
+
+-MSK
+
+_______________________________________________
+68ATTENDEES mailing list
+68ATTENDEES@ietf.org
+https://www1.ietf.org/mailman/listinfo/68attendees
+
+
+
+

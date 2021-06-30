@@ -1,0 +1,182 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : e4f61c2f-f951-4d76-a30e-12c6f941a501
+_version_ : 1675129467490533378
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id HAA24709;
+	Tue, 17 Apr 2001 07:35:44 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id HAA24680
+	for <tsvwg@ns.ietf.org>; Tue, 17 Apr 2001 07:35:39 -0400 (EDT)
+Received: from sj-msg-core-4.cisco.com (sj-msg-core-4.cisco.com
+[171.71.163.10])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id HAA05565
+	for <tsvwg@ietf.org>; Tue, 17 Apr 2001 07:35:43 -0400 (EDT)
+Received: from mira-sjc5-2.cisco.com (mira-sjc5-2.cisco.com [171.71.163.16])
+	by sj-msg-core-4.cisco.com (8.9.3/8.9.1) with ESMTP id EAA09804;
+	Tue, 17 Apr 2001 04:30:54 -0700 (PDT)
+Received: from cisco.com (rtp-dial-1-104.cisco.com [10.83.97.104])
+	by mira-sjc5-2.cisco.com (Mirapoint)
+	with ESMTP id ACL23599 (AUTH rrs);
+	Tue, 17 Apr 2001 04:30:44 -0700 (PDT)
+Message-ID: <3ADC2963.39CD2E2@cisco.com>
+Date: Tue, 17 Apr 2001 06:30:43 -0500
+From: Randall Stewart <rrs@cisco.com>
+X-Mailer: Mozilla 4.76 [en] (X11; U; Linux 2.2.12 i386)
+X-Accept-Language: en
+MIME-Version: 1.0
+To: Jonathan Wood <Jonathan.Wood@Sun.COM>
+CC: xieqb@cig.mot.com, tsvwg@ietf.org, Jim Wendt <jim_wendt@hp.com>,
+        Jonathan Stone <jonathan@dsg.stanford.edu>,
+        Craig Partridge <craig@aland.bbn.com>
+Subject: Re: [Tsvwg] [SCTP checksum problems]
+References: <200104162310.QAA28343@heliopolis.eng.sun.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+Content-Transfer-Encoding: 7bit
+
+Jonathan:
+
+I will make sure everyone at the bakeoff is aware of the upcoming
+"checksum" change... Now one of the big questions yet is
+what checksum should we use?
+
+I kinda lean towards crc-32 myself (but of course I have no technical
+basis for this and need to keep silent on which one to use anyway :->),
+but do we have other candidates besides fletcher-32 and possibly
+modified 
+Adler-32 (i.e. 16 bit adds instead of 8)??
+
+I will take the above 3 and do a bit of performance work this
+week and post some numbers... thats about all I can do i.e.  tell
+how much time the options I know of take... 
+
+If you have some other candidates let me know and I can possibly get
+some performance numbers on these as well...
+
+As far as which is the best... I encourage all of you check-sum
+experts out there to please join the thread :)
+
+Oh, I know Jonathan Stone's paper will NOT be ready until sometime
+in May.. so we may want to proceed slowly so that Craig Partridge and
+he can have some cycles to add to this dicussion :)
+
+R
+
+Jonathan Wood wrote:
+> 
+> As an SCTP implementor and someone who will want to get the hardware folks
+to
+> help with checksumming, I wholeheartedly agree with Randy. Remember that
+SCTP is
+> just a proposed standard, and is as such not all that far along the
+> standardization process. We should still be able to make changes like this
+if
+> necessary.
+> 
+> Jon
+> 
+> >
+> >Q:
+> >
+> >The only problem with an additional "CRC chunk" is that
+> >it makes hardware assistance to error correction much
+> >more difficult. It is better (I think) to just realize
+> >we made a mistake. Get the opinions of the experts as to
+> >what checksum to use... i.e.:
+> >
+> >- CRC-32
+> >- Modified Adler-32 (16 bit word sums)
+> >- Fletcher-32
+> >- ???
+> >
+> >And then go with this as a replacement... Admit we were wrong
+> >and fix the problem..
+> >
+> >This way you have ONE and only ONE checksum algorithm making
+> >hardware designers life much easier...
+> >
+> >R
+> >
+> >Qiaobing Xie wrote:
+> >>
+> >> Another solution could be (I think I mentioned this to Randy and a few
+> >> others at last IETF):
+> >>
+> >> - Define a CRC-32 (or other strong checksum) control chunk and when the
+> >> sender wishes to use a stronger checksum protection, in addition to the
+> >> Adler-32 in the common SCTP header it includes this CRC-32 chuck in the
+> >> outbound packet. When the packet arrives, the receiver will do the
+> >> Adler-32 first, and then if the receiver supports the CRC-32 and sees
+> >> the presence of the CRC-32 chunk in the packet it will further verify
+> >> the CRC-32.
+> >>
+> >> We could also use a bit pattern in the chunk type of the CRC-32 chunk
+so
+> >> that if the receiver doesn't understand the CRC-32 chunk it would drop
+> >> it with a report back to the sender.
+> >>
+> >> -Qiaobing
+> >>
+> >> _______________________________________________
+> >> tsvwg mailing list
+> >> tsvwg@ietf.org
+> >> http://www1.ietf.org/mailman/listinfo/tsvwg
+> >
+> >--
+> >Randall R. Stewart
+> >Systems & Solutions Engineering
+> >Cisco Systems Inc.
+> >rrs@cisco.com 815-342-5222 or 815-477-2127
+> >
+> >_______________________________________________
+> >tsvwg mailing list
+> >tsvwg@ietf.org
+> >http://www1.ietf.org/mailman/listinfo/tsvwg
+
+-- 
+Randall R. Stewart
+Systems & Solutions Engineering
+Cisco Systems Inc.
+rrs@cisco.com 815-342-5222 or 815-477-2127
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

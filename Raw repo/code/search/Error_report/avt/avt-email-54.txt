@@ -1,0 +1,2246 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : avt
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/avt/2006-03.mailcl']
+id : 11d54734-df80-40a2-a035-0dcf2aafafb8
+_version_ : 1675129311430967296
+
+Content : 
+
+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) id 1FJKcW-0000Fz-2r
+	for avt@ietf.org; Tue, 14 Mar 2006 20:16:12 -0500
+Received: from numenor.qualcomm.com ([129.46.51.58])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1FJKcT-0004lV-PZ
+	for avt@ietf.org; Tue, 14 Mar 2006 20:16:12 -0500
+Received: from sabrina.qualcomm.com (sabrina.qualcomm.com [129.46.61.150])
+	by numenor.qualcomm.com (8.12.10/8.12.5/1.0) with ESMTP id
+	k2F1G1XU007862
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=FAIL);
+	Tue, 14 Mar 2006 17:16:02 -0800
+Received: from NLEUNG.qualcomm.com (qconnect-10-50-76-156.qualcomm.com
+	[10.50.76.156])
+	by sabrina.qualcomm.com (8.13.5/8.12.5/1.0) with ESMTP id
+	k2F1Fquv019962
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT);
+	Tue, 14 Mar 2006 17:15:54 -0800 (PST)
+Message-Id: <6.0.0.22.2.20060314194742.028beaa0@qcmail1.qualcomm.com>
+X-Sender: nleung@qcmail1.qualcomm.com
+X-Mailer: QUALCOMM Windows Eudora Version 6.0.0.22
+Date: Tue, 14 Mar 2006 20:15:50 -0500
+To: "ext Magnus Westerlund" <magnus.westerlund@ericsson.com>
+From: Nikolai Leung <nleung@qualcomm.com>
+Subject: Re: [AVT] draft-hdesineni-avt-avpf-ccm-pd-extn-00.txt
+In-Reply-To: <44168BE8.7010601@ericsson.com>
+References: <6.0.0.22.2.20060308215232.025019b8@qcmail1.qualcomm.com>
+	<44168BE8.7010601@ericsson.com>
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="=====================_7160526==_"
+X-Spam-Score: 0.1 (/)
+X-Scan-Signature: 8cc1c558da2accc0f39b338f00bd6728
+X-Mailman-Approved-At: Wed, 15 Mar 2006 09:34:13 -0500
+Cc: amahendran@qualcomm.com, avt@ietf.org, harik@qualcomm.com
+X-BeenThere: avt@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Audio/Video Transport Working Group <avt.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/avt>,
+	<mailto:avt-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:avt@ietf.org>
+List-Help: <mailto:avt-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/avt>,
+	<mailto:avt-request@ietf.org?subject=subscribe>
+Errors-To: avt-bounces@ietf.org
+
+--=====================_7160526==_
+Content-Type: multipart/alternative;
+	boundary="=====================_7160536==.ALT"
+
+--=====================_7160536==.ALT
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+
+Hi Magnus,
+
+One of the problems with the usual method of having only the receiver 
+adjust its de-jitter buffer and play out times based on the arrival of 
+traffic is that,
+
+1.  In wireless systems like HSDPA/HRPD where a single down/forward link 
+channel is shared among all the users in the cell and assigned by the 
+scheduler to users based on their individual down/forward link quality, the 
+E2E delays of packets can vary significantly at different locations in a 
+cell and under different loading conditions (i.e., # users in the 
+cell).  It is important to note that the variation in E2E (down/forward 
+link) delays at different locations is the result of changes in the link 
+throughput because of variations in the radio link quality.  The 
+instantaneous data rate assigned to a user is based on what can be 
+supported by the radio link at that location.  As this changes, so does the 
+delivery time for packets of a particular size.
+
+In the attached slide the dashed lines show the distribution of average E2E 
+delays for packet-switched video telephony users being served in 57 cells 
+by a HSDPA/HRPD-type of scheduler in each cell.  Note that in the 
+simulations there are a significant # of users who experience an E2E delay 
+of over 600ms.  The number of users seeing longer delays gets worse as the 
+loading in the cells increases (i.e., going from 8 to 12 users/cell).
+
+2.  To accommodate for these variations, a receiver can use a very deep 
+(long) de-jitter buffer to accommodate for this significant variation in 
+E2E delays.  However this produces a long static E2E delay as a static 
+de-jitter buffer will have to accommodate for the longest E2E delay the 
+receiver expects to receive.  In the cases we are seeing, the longest E2E 
+delay can exceed what is acceptable for conversational services.
+
+3.  The receiver can also do adawOD3cS7ptpd
+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
+sgAptive de-jitter buffering and adapt its 
+play out times based on the arrival times of packets.  While this allows 
+the receiver to adapt to shorter E2E conditions when in good link quality 
+(closer to the base station) or lightly loaded cells, it still suffers from 
+the problem that as the user moves further away from the base station or 
+more users enter the cell the user will experience unacceptably long delays 
+for conversational services.  Again this can be seen in the attached figure.
+
+PDAR Message
+
+The PDAR message allows terminals to still perform de-jitter buffer/play 
+out time management based on packet arrivals.  But it also introduces a 
+procedure to tell the sender the status of arrivals at the receiver.  We 
+are establishing a control loop between the sender and receiver that allows 
+the receiver to better control the play out times of the media (and not 
+simply react to what it receives from the sender).
+
+For example, as packets are starting to arrive delayed (i.e. closer to 
+their play out times at the receiver) the receiver can start to delay its 
+play out times and also indicate to the sender that packets are arriving 
+later (and by how much) than the receiver requires.
+
+I think there might be some confusion about the PDAR since we called it a 
+"Request."  It does not request that packets be sent earlier by the sender 
+since as you point out this is usually not possible.  It is an indication 
+to the sender that the receiver is not receiving its packets at the desired 
+time for play out (and by how much).  The sender is to interpret this 
+indication to mean that the link rate may be too slow and/or congestion 
+from cell loading too heavy to support the current rate it is transmitting 
+at.
+
+In summary, the PDAR is an indication of the receiver's play out situation 
+as it is affected by the
++ link speed/quality
++ congestion
++ sender's packet sizes/sending rate
+
+The sender can use the PDAR to adjust its output rate (essentially decrease 
+its frame/packet sizes) to get its transmission through the slower link 
+more quickly and address the play out situation at the receiver.  We think 
+this is a good control-loop feedback variable since it is directly linked 
+to the play out times of the receiver, and thus directly controls the 
+quality rendered to the user.
+
+The solid lines in the attached figure show the results of feeding back 
+this packet delay information to the senders of point-to-point packet 
+switched video telephony calls.  The senders adjust their transmitted video 
+frame sizes (video QP values) based on this delay information and are able 
+to adapt well to the variations in link and loading conditions.  Most of 
+the E2E delays are centered around 150ms as opposed to the dashed lines 
+where E2E delays peak around 620ms and can range up to 1000ms.
+
+What are the other congestion indicators that you were thinking of?
+
+Regards,
+
+-Nik
+
+
+At 04:24 AM 3/14/2006, ext Magnus Westerlund wrote:
+>Hi Nikolai,
+>
+>I have looked at this draft an do question the usability of having the 
+>receiver request that delivery is done earlier. Lets look how things 
+>usually are done and why.
+>
+>In a conversational case, i.e. minimal delay is the target, the sender 
+>encodes, packetize and transmit as soon as it can, while avoiding 
+>congestion. The packet-based (normally best-effort) network transports the 
+>packet from the sender to one or more receivers. The receivers uses a 
+>jitter-buffer to cope with the variation of the time it takes from 
+>sampling until removal from the buffer.
+>
+>In those cases you have multiple receivers not doing a receiver side 
+>adaptation to the jitter and delivery delay seems really problematic. 
+>Where a receiver can adopt to its individual situation, a sender need to 
+>take all receivers into account.
+>
+>Even in a single receiver use case, the request for adjusting the packet 
+>delay may be impossible to react to. If a receiver request the sender to 
+>send the packets earlier so that they arrive in time, that means that the 
+>sender is capable of moving the transmission to earlier. In many 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
+uHNENlhKN4LqhkfH0Ze it 
+>is already running a minimal delay setup from sampling until transmission. 
+>Thus the receiver is not capable of moving the schedule earlier.
+>
+>I also think it is important to consider where is the delay between the 
+>transmitter and receiver coming from? I think we can break it up into 
+>static delay that can't vary, like the propagation delay through the 
+>medium. However the static delay is not really guaranteed to not change in 
+>an IP network. If you have a route change for your traffic then your delay 
+>may change. Then there is the varying delay, caused by for example buffer 
+>levels in the routers. In the case of mobile radio networks it may also be 
+>caused by radio link layer retransmission or the HSDPA scheduler. So we do 
+>have several effects in play, some which is congestion dependent.
+>
+>As I see it requesting changes in the delay is not really productive. The 
+>thing the sender do have partial control over is the congestion situation. 
+>Thus it seems primarily be of interest to combat congestion. For that I 
+>think there is better indicators than a request to adjust the delay.
+>
+>So can you please explain why PDAR is a good mechanism?
+>
+>
+>Cheers
+>
+>Magnus Westerlund
+>
+>Multimedia Technologies, Ericsson Research EAB/TVA/A
+>----------------------------------------------------------------------
+>Ericsson AB                | Phone +46 8 4048287
+>Torshamsgatan 23           | Fax   +46 8 7575550
+>S-164 80 Stockholm, Sweden | mailto: magnus.westerlund@ericsson.com
+>
+>_______________________________________________
+>Audio/Video Transport Working Group
+>avt@ietf.org
+>https://www1.ietf.org/mailman/listinfo/avt
+
+--=====================_7160536==.ALT
+Content-Type: text/html; charset="us-ascii"
+
+<html>
+<body>
+<font size=3>Hi Magnus,<br><br>
+One of the problems with the usual method of having only the receiver
+adjust its de-jitter buffer and play out times based on the arrival of
+traffic is that,<br><br>
+1.&nbsp; In wireless systems like HSDPA/HRPD where a single down/forward
+link channel is shared among all the users in the cell and assigned by
+the scheduler to users based on their individual down/forward link
+quality, the E2E delays of packets can vary significantly at different
+locations in a cell and under different loading conditions (i.e., # users
+in the cell).&nbsp; It is important to note that the variation in E2E
+(down/forward link) delays at different locations is the result of
+changes in the link throughput because of variations in the radio link
+quality.&nbsp; The instantaneous data rate assigned to a user is based on
+what can be supported by the radio link at that location.&nbsp; As this
+changes, so does the delivery time for packets of a particular
+size.<br><br>
+In the attached slide the dashed lines show the distribution of average
+E2E delays for packet-switched video telephony users being served in 57
+cells by a HSDPA/HRPD-type of scheduler in each cell.&nbsp; Note that in
+the simulations there are a significant # of users who experience an E2E
+delay of over 600ms.&nbsp; The number of users seeing longer delays gets
+worse as the loading in the cells increases (i.e., going from 8 to 12
+users/cell).<br><br>
+2.&nbsp; To accommodate for these variations, a receiver can use a very
+deep (long) de-jitter buffer to accommodate for this significant
+variation in E2E delays.&nbsp; However this produces a long static E2E
+delay as a static de-jitter buffer will have to accommodate for the
+longest E2E delay the receiver expects to receive.&nbsp; In the cases we
+are seeing, the longest E2E delay can exceed what is acceptable for
+conversational services.<br><br>
+3.&nbsp; The receiver can also do adaptive de-jitter buffering and adapt
+its play out times based on the arrival times of packets.&nbsp; While
+this allows the receiver to adapt to shorter E2E conditions when in good
+link quality (closer to the base station) or lightly loaded cells, it
+still suffers from the problem that as the user moves further away from
+the base station or more users enter the cell the user will experience
+unacceptably long delays foICNDpYCXXSV8MEOtuJl7wTGNK7SlkVVIoZJZOeyQ4DRj+xJ4FpmeBMZXVA
+vRMYjgcKDxPHqIYAkI19qpBlxWhkAVFeMJpex3iYxpr9ecBQVqDiEACGkw1Ft0un+hEAXhYZQQy2
+Gh1snfxXgFFDAHgj6lOjV2h9kxFU3Ra520lmhIwgEqsbwWeBgdIdpbKYFp1l9RzW/Z0s2PxyT2Cw
+wUIDXu0JvDWH0esVyHe4qH0SGNK3agSoWX+0hxmn1xEhSb+++Vxib2DYHWu6fUlIUt4ioBmdb9yN
+2t+SIuV8BOthdto2Y2A0OkBHoFXtVu6JjbtVoPM/P6uBTjnMZ/XjExuT9Lpef4oG3MP8FEt3mqcD
+00mRP6UbB+anWLrTPB2YTor8Kd04MD/F0p3m6cDQXn16FPtaq2cLsXWpeaLFvZdnVP6MY+60Vspu
+KmBkn3kfmJXW5AMsdga2r+MJtT/hkAfwEk9uykMO3dJ5zurBT9CdhbLF0ZiOVDyf+ucb8cY26Vw1
+BxcOHRRbyOgsQr8xB9UdlBoYbroLDB2YyufY81/h1ibfOBXN8gD4kFUl2kByxGro2uf8wHA0KQ1V
+x5SUoeQkJP2Wvcpaq3S2fy9ZyRgSj0XXO8BEPov3DMj9z67WvKGz6YGRJZvMRl4kGVHsSe8XWP9T
+hKFEGT3HkvWziaCinyRb+aVKsr5wMdIJXcz0wOTQIL4/hZzSHHw+liOJvFKYVRwVI1Q6jexoVsCs
+Q1dxkQ0w2RExPpnLG/xCv0vMD0yydAFMPk/D3qLKc0rnUfJRaDX7rUrVaw9TdpuJq6JZ0VMaYHF6
+aBP1+pl2TE/TA1Ov6soxZD8iJizjVxVsVnZb5yGbVKdmTv7KwWbtlEpWhOEU+cZYdlCvHwBGAkNR
+E9UGXqU5nJ60XUdlxc3ylydyllTkO2kc1fHDpoeJ8SmFx0GmHdPtN4DJZS6nNJtMdJvvpvImG3od
+n/aAkQpHukgxaFVulwjVOYz8tS3Expi5X68fACbHFtlQK8pqBkg2YspEo9yI4eeliqrLX+m2uINQ
+pEaJzSLGFaS1PEyRYHsO049lZU/R7pJ0JB9ROfxCJAuXvFQ3AQSe9R0miiOCnpBYBMRiHNXGcelc
+VhuJ0/Eip9iVxvmG2HgrlVc4vNr4ofQ22fQhCVKIFFFQI1y4xsDvJeEafEuLOqIMGlUV62LE2r3Q
+hMt1wiFfsXOZgVzp56htzpFFak/JMyp/xjGPsrT3q9CAA6NQkotkDTgwTgOkAQcGUpcLOzDOAKSB
+/0RmEeq9MtEFAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8A6APEEAAAAQDpAygAAACAFgAA4BAA
+ADgRAADQFgAABQAAAAoAAAAiAAAAAAAAAAEAAAAAAAABDwDyA6wBAAAvAMgPDAAAADAA0g8EAAAA
+AQAAAA8A1QfkAAAAAAC3D0QAAABBAHIAaQBhAGwAAABOAGUAdwAgAFIAbwBtAGEAbgAAAGiWEwBo
+lhMAXHiNAPCDEwAVvgww8IMTAAAAAAAPANUHAAAEABAAtw9EAAAAVwBpAG4AZwBkAGkAbgBnAHMA
+AABSAG8AbQBhAG4AAABolhMAaJYTAFx4jQDwgxMAFb4MMPCDEwAAAAAADwDVBwIABgIgALcPRAAA
+AFQAaQBtAGUAcwAgAE4AZQB3ACAAUgBvAG0AYQBuAAAAaJYTAGiWEwBceI0A8IMTABW+DDDwgxMA
+AAAAAA8A1QcAAAYSAACkDwgAAACAAEAAAAD//wAApQ8MAAAAAAAACC4AAAACAAAAAACpDwoAAAAH
+AAAAAgAJBAAAQACjD24AAAAFAP/9PwAAACIgAABkAAAAAP8AAGQAAAAAAAAAAABAAgAAAAAHAAAA
+///vAAAAAAD///////8SAAAAAAEAAAAFAAAgASABAAAAAAAFAABAAkACAAAAAAAFAABgA2ADAAAA
+AAAFAACABIAEAAAAAA8ACwT8CwAADwAA8PQLAAAAAAbwkAoAAARABQBRAQAADwAAAAMAAAAAAAAA
+BwAAAAAAAAAEAAAAAAAAAAQAAAAAAAAACwAAAAAAAAAEAAAAAAAAAHMAAAAAAAAABAAAAAAAAAA7
+AAAAAAAAAAQAAAAAAAAABAAAAAAAAAAFAAAAAAAAAEkAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQA
+AAAAAAAABAAAAAAAAAAoAAAAAAAAAAYAAAAAAAAABAAAAAAAAAAHAAAAAAAAAAoAAAAAAAAABAAA
+AAAAAABEAAAAAAAAAD4AAAAAAAAABwAAAAAAAAAFAAAAAAAAAAYAAAAAAAAABQAAAAAAAAAEAAAA
+AAAAAE0AAAAAAAAABgAAAAAAAAAGAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAIYAAAAA
+AAAABgAAAAAAAAAEAAAAAAAAACkAAAAlAAAACAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAANAAAAAAA
+AAAcAAAAAAAAABwAAAAAAAAABQAAAAAAAAAcAAAAAAAAAAQAAAAAAAAAWwAAAAAAAAAFAAAAAAAA
+AAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAeAAAAAAAAABsAAAAAAAAA
+wwAAAAAAAAAOAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAs
+AAAAAAAAACsAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAKAAAAAAAAAEQA
+AAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAADQAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAA
+AAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAABwAAAAAAAAAEAAAA
+AAAAAAUAAAAAAAAABQAAAAAAAABAAAAAAAAAAAQAAAAAAAAACQAAAAAAAABkAAAAAAAAANkAAAAA
+AAAABQAAAAAAAAAGAAAAAAAAAAkAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABQAAAAAA
+AAAFAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAFAAAAAAAA
+AAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAA
+BAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAYAAAAAAAAABAAAAAAAAAAF
+AAAAAAAAAAQAAAAAAAAABQAAAAAAAAAFAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQA
+AAAAAAAABAAAAAAAAAAdAAAAAAAAAAQAAAAAAAAABAAAAAAAAADOAAAAAAAAAMIAAAAAAAAABAAA
+AAAAAAAGAAAAAAAAAAQAAAAAAAAASQAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABQAAAAAAAAAJAAAA
+AAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAcAAAAAAAAABgAAAAAAAAASAAAAAAAAACcAAAAA
+AAAAHAAAAAAAAABDAAAAAAAAAMwAAAAAAAAAswAAAAAAAAB5AAAAAAAAAAQAAAAAAAAAMwAAAAAA
+AABOAAAAAAAAALkBAAAAAAAADQAAAAAAAAAXAAAAAAAAAAYAAAAAAAAAFQAAAAAAAAAEAAAAAAAA
+AAQAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAA
+BAAAAAAAAADgAAAAAAAAAJUBAAAAAAAACr conversational services.&nbsp; Again this
+can be seen in the attached figure.<br><br>
+PDAR Message<br><br>
+The PDAR message allows terminals to still perform de-jitter buffer/play
+out time management based on packet arrivals.&nbsp; But it also
+introduces a procedure to tell the sender the status of arrivals at the
+receiver.&nbsp; We are establishing a control loop between the sender and
+receiver that allows the receiver to better control the play out times of
+the media (and not simply react to what it receives from the
+sender).<br><br>
+For example, as packets are starting to arrive delayed (i.e. closer to
+their play out times at the receiver) the receiver can start to delay its
+play out times and also indicate to the sender that packets are arriving
+later (and by how much) than the receiver requires.<br><br>
+I think there might be some confusion about the PDAR since we called it a
+&quot;Request.&quot;&nbsp; It does not request that packets be sent
+earlier by the sender since as you point out this is usually not
+possible.&nbsp; It is an indication to the sender that the receiver is
+not receiving its packets at the desired time for play out (and by how
+much).&nbsp; The sender is to interpret this indication to mean that the
+link rate may be too slow and/or congestion from cell loading too heavy
+to support the current rate it is transmitting at.&nbsp; <br><br>
+In summary, the PDAR is an indication of the receiver's play out
+situation as it is affected by the <br>
++ link speed/quality<br>
++ congestion<br>
++ sender's packet sizes/sending rate<br><br>
+The sender can use the PDAR to adjust its output rate (essentially
+decrease its frame/packet sizes) to get its transmission through the
+slower link more quickly and address the play out situation at the
+receiver.&nbsp; We think this is a good control-loop feedback variable
+since it is directly linked to the play out times of the receiver, and
+thus directly controls the quality rendered to the user.<br><br>
+The solid lines in the attached figure show the results of feeding back
+this packet delay information to the senders of point-to-point packet
+switched video telephony calls.&nbsp; The senders adjust their
+transmitted video frame sizes (video QP values) based on this delay
+information and are able to adapt well to the variations in link and
+loading conditions.&nbsp; Most of the E2E delays are centered around
+150ms as opposed to the dashed lines where E2E delays peak around 620ms
+and can range up to 1000ms.<br><br>
+What are the other congestion indicators that you were thinking
+of?<br><br>
+Regards,<br><br>
+-Nik<br><br>
+<br>
+At 04:24 AM 3/14/2006, ext Magnus Westerlund wrote:<br>
+<blockquote type=cite class=cite cite>Hi Nikolai,<br><br>
+I have looked at this draft an do question the usability of having the
+receiver request that delivery is done earlier. Lets look how things
+usually are done and why.<br><br>
+In a conversational case, i.e. minimal delay is the target, the sender
+encodes, packetize and transmit as soon as it can, while avoiding
+congestion. The packet-based (normally best-effort) network transports
+the packet from the sender to one or more receivers. The receivers uses a
+jitter-buffer to cope with the variation of the time it takes from
+sampling until removal from the buffer.<br><br>
+In those cases you have multiple receivers not doing a receiver side
+adaptation to the jitter and delivery delay seems really problematic.
+Where a receiver can adopt to its individual situation, a sender need to
+take all receivers into account.<br><br>
+Even in a single receiver use case, the request for adjusting the packet
+delay may be impossible to react to. If a receiver request the sender to
+send the packets earlier so that they arrive in time, that means that the
+sender is capable of moving the transmission to earlier. In many case it
+is already running a minimal delay setup from sampling until
+transmission. Thus the receiver is not capable of moving the schedule
+earlier.<br><br>
+I also think it is important to consider where is the delay between the
+transmitter and receiver comingAAAAAAAAAAXAAAAAAAAAHsAAAAAAAAAewAAAAAAAAB8
+AQAAAAAAANEAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAGAAAAAAAAAAYA
+AAAAAAAABgAAAAAAAADTAAAAAAAAAKECAAAAAAAALQAAAAAAAAAGAAAAAAAAAC0AAAAAAAAABwAA
+AAAAAAAlAAAAAAAAACMAAAAAAAAALAAAAAAAAAAVAAAAAAAAAAQAAAAAAAAAKwAAAAAAAAAtAAAA
+AAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAD9AAAAAAAAABEAAAAA
+AAAABAAAAAAAAADRAAAAAAAAAAcAAAAAAAAABAAAAAAAAAAVAAAAAAAAAPsAAAAAAAAA7wAAAAAA
+AABrAAAAAAAAABcAAAAAAAAADQAAAAAAAADcAAAAAAAAAFgAAAAAAAAACwAAAAAAAAAHAAAAAAAA
+ALwAAAAAAAAAdAAAAAAAAAAEAAAAAAAAALwAAAAAAAAAVgAAAAAAAAAJAAAAAAAAAHIAAAAAAAAA
+BwAAAAAAAAByAAAAAAAAAA4AAAAAAAAAdAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAACgAAAAAAAABY
+AAAAAAAAAAsAAAAAAAAABwAAAAAAAAC8AAAAAAAAAHQAAAAAAAAAvAAAAAAAAABWAAAAAAAAAAkA
+AAAAAAAAcgAAAAAAAAAHAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAJAAAAAAAAAABAAA
+AAAAAAAEAAAAAAAAAAQAAAAAAAAALwAAAAAAAAAoAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAA
+AAAAAAQAAAAAAAAABAAAAAAAAAB9AAAAAAAAANIAAAAAAAAABQAAAAAAAABPAAAAAAAAAAwAAAAA
+AAAABAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAA
+AADBAAAAAAAAABwAAAAAAAAACwAAAAAAAAAEAAAAAAAAACsAAAAAAAAAQQAAAAAAAAAEAAAAAAAA
+AAoAAAAAAAAAXgAAAAAAAAAKAAAAAAAAABwAAAAAAAAACwAAAAAAAAC2AAAAAAAAAKUAAAAAAAAA
+uQAAAAAAAAAjAAAAAAAAACwAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAF
+AAAAAAAAAAMAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAGAAAAAAAAAAQA
+AAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAYAAAAAAAAABAAA
+AP0AAAAGAAAAAAAAAAQAAAAAAAAABAAAAAAAAAALAAAAAAAAAAQAAAAAAAAADgAAAAAAAAARAAAA
+AAAAAAkAAAAAAAAACQAAAAAAAAANAAAAAAAAAA8AAAAAAAAANQAAAAAAAAAeAAAAAAAAAAQAAAAL
+AQAACgAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAHAAAAAAAAAAQAAAAAAAAABAAAAAAA
+AAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAA
+AAQAAABfAAHw3AAAAAIAB/AkAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAA
+AgAH8CQAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAACAAfwJAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAIAB/AkAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+/wAAAAAAAAAAAAAAAAAAAAAAYgAH8CQAAAAGBtRm2Owt56ICc8vGrWc20E//AIErAAABAAAAAAAA
+AAAAAACDAAvwMAAAAIEBBAAACIMBAAAACIZBAAAAAL8BEAAQAMABAQAACMVBAAAAAP8BCAAIAAEC
+AgAACIAAGvEgAAAAmTMAAP8A/wD/AAAA+XMPAACAAAAAM8wAAMz/AAD//wBAAB7xEAAAAP//////
+AAAAAgAACPcAABAfAPAPHAAAAAAA8wMUAAAAYgEAAAQAAAAAAAAACwAAgAAAAAAPANAH/gEAAB8A
+FAQcAAAAAAAVBBQAAAAwNBsJAMqaO51FRTgAypo7AQIAAA8A+gNnAAAAAAD+AwMAAAAAAQAAAP0D
+NAAAAEUAAABkAAAARQAAAGQAAAAAAAAAEIWNAAiEEwAVvgwwAAAAAAAAAACi/f//pv///wEAEwBw
+APsDCAAAAAAAAABwCAAAcAD7AwgAAAABAAAAQAsAAB8AEwQ8AAAAAAD9AzQAAABkAAAAZAAAAGQA
+AABkAAAANIQTAKFrDDBolhMAOHiNAAAAAAAAAAAAAAAAAAAAAAAAARMAHwD/AxQAAAACAAAEDAAA
+AAAAAAAAAAAAAgAAAB8ACAQ8AAAAAAD9AzQAAABkAAAAZAAAAGQAAABkAAAAAgAAADSEEwDDbAww
+aJYTAAAAAAAAAAAAAAAAAGYPAAAAABMAHwAHBDwAAAAAAP0DNAAAACEAAABkAAAAIQAAAGQAAAAC
+AAAANIQTAMNsDDBolhMAAAAAAAAAAAAAAAAAAAAAAAABEwAPAIgTewAAAA8AihNzAAAAAAC6DxAA
+AABfAF8AXwBQAFAAVAAxADAAAACLE1MAAAAAAA0ECAAAAADAAAAAwAAADwDkLjIAAAAAALoPGgAA
+AE4AaQBrAG8AbABhAGkAIABMAGUAdQBuAGcAAADlLggAAAAAAAAABQAAAAAAsTYBAAAAAT8A2Q8M
+AAAAAADaDwQAAAANACUATwDZDwwAAAAAANoPBAAAAA0APQAPAPAPegAAAAAA8wMUAAAAXgEAAAQA
+AAACAAAADQEAAAAAAAAAAJ8PBAAAAAAAAAAAAKgPLAAAAFZpZGVvIFJhdGUgQWRhcHRhdGlvbiBi
+YXNlZCBvbiBQREFSIGZlZWRiYWNrEACfDwQAAAABAAAAAACqDwoAAAABAAAAAQAAAAAAAADqAwAA
+AAAPAPgDZggAAAIA7wMYAAAAAQAAAAECBwkIAAAAAAAAAAAAAAAAAAwwYADwByAAAAD///8AAAAA
+AICAgAAAAAAAu+DjADMzmQAAmZkAmcwAAGAA8AcgAAAA////AAAAAACWlpYAAAAAAPvfUwD/mWYA
+zDMAAJlmAABgAPAHIAAAAP///wAAAAAAgICAAAAAAACZzP8AzMz/ADMzzACvZ/8AYADwByAAAADe
+9vEAAAAAAJaWlgAAAAAA////AI3G/wAAZswAAKgAAGAA8AcgAAAA///ZAAAAAAB3d3cAAAAAAP//
+9wAzzMwA/1BQAP+ZAABgAPAHIAAAAACAgAD///8AAFpYAP//mQAAZGIAbW/HAAD//wAA/wAAYADw
+ByAAAACAAAAA////AFwfAADf0pMAzDMAAL55YAD//5kA06IZAGAA8AcgAAAAAACZAP///wAAM2YA
+zP//ADNmzAAAsAAAZsz/AP/nAQBgAPAHIAAAAAAAAAD///8AM2aZAOPr8QAAM5kARopLAGbM/wDw
+5QAAYADwByAAAABoa10A////AHd3dwDR0csAkJCCAICeqAD/zGYA6dy5AGAA8AcgAAAAZmaZAP//
+/wA+PlwA////AGBZewBmZv8Amcz/AP//mQBgAPAHIAAAAFI+JgD///8ALSAVAN/AjQCMe3AAj18v
+AMy0AACMnqAAAACjDz4AAAABAP/9PwAAACIgAABkAAAAAP8AAGQAAAAAAAAAAABAAgAAAAAHAAAA
+///vAAEAAAD///////8YAApAof4AABAAow+UAAAABQD//T8ADwCnAAEAggAAM8z+AABkABQAAACU
+AAAAQAIAAAAABwAAAP//7wAAAAAA////////FAAAAAABAAD4 from? I think we can break it up into
+static delay that can't vary, like the propagation delay through the
+medium. However the static delay is not really guaranteed to not change
+in an IP network. If you have a route change for your traffic then your
+delay may change. Then there is the varying delay, caused by for example
+buffer levels in the routers. In the case of mobile radio networks it may
+also be caused by radio link layer retransmission or the HSDPA scheduler.
+So we do have several effects in play, some which is congestion
+dependent.<br><br>
+As I see it requesting changes in the delay is not really productive. The
+thing the sender do have partial control over is the congestion
+situation. Thus it seems primarily be of interest to combat congestion.
+For that I think there is better indicators than a request to adjust the
+delay.<br><br>
+So can you please explain why PDAR is a good mechanism?<br><br>
+<br>
+Cheers<br><br>
+Magnus Westerlund<br><br>
+Multimedia Technologies, Ericsson Research EAB/TVA/A<br>
+----------------------------------------------------------------------<br>
+Ericsson
+AB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+| Phone +46 8 4048287<br>
+Torshamsgatan
+23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+Fax&nbsp;&nbsp; +46 8 7575550<br>
+S-164 80 Stockholm, Sweden | mailto:
+magnus.westerlund@ericsson.com<br><br>
+_______________________________________________<br>
+Audio/Video Transport Working Group<br>
+avt@ietf.org<br>
+<a href="https://www1.ietf.org/mailman/listinfo/avt" eudora="autourl">https://www1.ietf.org/mailman/listinfo/avt</a></font></blockquote></body>
+</html>
+
+--=====================_7160536==.ALT--
+
+--=====================_7160526==_
+Content-Type: application/octet-stream; name="PDAR Adaptation.ppt";
+	x-mac-type="534C4433"; x-mac-creator="50505433"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="PDAR Adaptation.ppt"
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAZAAAAAAAAAAA
+EAAA/v///wAAAAD+////AAAAAGMAAAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8A
+bh7weSsAANRm2Owt56ICc8vGrWc20E//iVBORw0KGgoAAAANSUhEUgAAAjAAAAGkCAMAAAAYMO+V
+AAAAAXNSR0IArs4c6QAAAwBQTFRFAAAAgAAAAIAAgIAAAACAgACAAICAwMDAwNzApsrwQCAAYCAA
+gCAAoCAAwCAA4CAAAEAAIEAAQEAAYEAAgEAAoEAAwEAA4EAAAGAAIGAAQGAAYGAAgGAAoGAAwGAA
+4GAAAIAAIIAAQIAAYIAAgIAAoIAAwIAA4IAAAKAAIKAAQKAAYKAAgKAAoKAAwKAA4KAAAMAAIMAA
+QMAAYMAAgMAAoMAAwMAA4MAAAOAAIOAAQOAAYOAAgOAAoOAAwOAA4OAAAABAIABAQABAYABAgABA
+oABAwABA4ABAACBAICBAQCBAYCBAgCBAoCBAwCBA4CBAAEBAIEBAQEBAYEBAgEBAoEBAwEBA4EBA
+AGBAIGBAQGBAYGBAgGBAoGBAwGBA4GBAAIBAIIBAQIBAYIBAgIBAoIBAwIBA4IBAAKBAIKBAQKBA
+YKBAgKBAoKBAwKBA4KBAAMBAIMBAQMBAYMBAgMBAoMBAwMBA4MBAAOBAIOBAQOBAYOBAgOBAoOBA
+wOBA4OBAAACAIACAQACAYACAgACAoACAwACA4ACAACCAICCAQCCAYCCAgCCAoCCAwCCA4CCAAECA
+IECAQECAYECAgECAoECAwECA4ECAAGCAIGCAQGCAYGCAgGCAoGCAwGCA4GCAAICAIICAQICAYICA
+gICAoICAwICA4ICAAKCAIKCAQKCAYKCAgKCAoKCAwKCA4KCAAMCAIMCAQMCAYMCAgMCAoMCAwMCA
+4MCAAOCAIOCAQOCAYOCAgOCAoOCAwOCA4OCAAADAIADAQADAYADAgADAoADAwADA4ADAACDAICDA
+QCDAYCDAgCDAoCDAwCDA4CDAAEDAIEDAQEDAYEDAgEDAoEDAwEDA4EDAAGDAIGDAQGDAYGDAgGDA
+oGDAwGDA4GDAAIDAIIDAQIDAYIDAgIDAoIDAwIDA4IDAAKDAIKDAQKDAYKDAgKDAoKDAwKDA4KDA
+AMDAIMDAQMDAYMDAgMDAoMDA//vwoKCkgICA/wAAAP8A//8AAAD//wD/AP//////WNI0RAAAKBZJ
+REFUeF7tnYuW26oOhvv+b9yurtUaJHGxsa1fBtt4lHN2ZyYRGKQPXTBJfv3zh2sA0MAvQNZFXQP/
+HBiHANKAAwOpy4UdGGcA0oADA6nLhR0YZwDSgAMDqcuFHRhnANKAAwOpy4UdGGcA0oADA6nLhR0Y
+ZwDSgAMDqcuFHRhnANKAAwOpy4UdGGcA0oADA6nLhR0YZwDSgAMDqcuFHRhnANKAAwOpy4UdGGcA
+0oADA6nLhR0YZwDSgAMDqcuFHRhnANKAGZhfy2O5Ev+ArunCE2BQAABwATIAAAZAD/AAD+agHcAAAA
+AgASAKIFAAAFACIgAIAA/kACtAEAAAIAEACkBQAAAQATIAAAAP8WA4oCAAACAA4AgAUAALsA9ANg
+AwAAAgAMACAAow9uAAAABQD//T8AAAAiIAAAZAAAAAD/AABkAB4AAAAAAAAAQAIAAAAABwAAAP//
+7wAAAAAA////////DAAAAAABAAAABQAAIAEgAQAAAAAABQAAQAJAAgAAAAAABQAAYANgAwAAAAAA
+BQAAgASABAAAAABQAKMPUgAAAAUAAAABCQAADgABAAAAAAAAAAEAAQkAAAYAAQDcAAAAAAACAAEJ
+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
+ZXVuZwAAAB4AAAAEAAAAOTUyAB4AAAAcAAAATWljcm9zb2Z0IE9mZmljZSBQb3dlclBvaW50AEAA
+AACgfbGDOwgAAEAAAACQqbf8BF/FAUAAAABw8w2EtEfGAQMAAAAOAAAARwAAAKhTAAD/////AwAA
+AAgAiRBnDAAAAQAJAAADzCkAAAEAoScAAAAABAAAAAMBCAAFAAAACwIAAAAABQAAAAwC0QLBAwkC
+AAD3AAADAgEAAAAAgAAAAACAAACAgAAAAACAAIAAgAAAgIAAwMDAAMDcwACmyvAABAQEAAgICAAM
+DAwAERERABYWFgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkA/3yAAP9QUADWAJMAzOz/AO/W
+xgDn59YAramQADMAAABmAAAAmQAAAMwAAAAAMwAAMzMAAGYzAACZMwAAzDMAAP8zAAAAZgAAM2YA
+AGZmAACZZgAAzGYAAP9mAAAAmQAAM5kAAGaZAACZmQAAzJkAAP+ZAAAAzAAAM8wAAGbMAACZzAAA
+zMwAAP/MAABm/wAAmf8AAMz/AAAAADMAMwAzAGYAMwCZADMAzAAzAP8AMwAAMzMAMzMzAGYzMwCZ
+MzMAzDMzAP8zMwAAZjMAM2YzAGZmMwCZZjMAzGYzAP9mMwAAmTMAM5kzAGaZMwCZmTMAzJkzAP+Z
+MwAAzDMAM8wzAGbMMwCZzDMAzMwzAP/MMwAz/zMAZv8zAJn/MwDM/zMA//8zAAAAZgAzAGYAZgBm
+AJkAZgDMAGYA/wBmAAAzZgAzM2YAZjNmAJkzZgDMM2YA/zNmAABmZgAzZmYAZmZmAJlmZgDMZmYA
+AJlmADOZZgBmmWYAmZlmAMyZZgD/mWYAAMxmADPMZgCZzGYAzMxmAP/MZgAA/2YAM/9mAJn/ZgDM
+/2YA/wDMAMwA/wAAmZkAmTOZAJkAmQDMAJkAAACZADMzmQBmAJkAzDOZAP8AmQAAZpkAM2aZAGYz
+mQCZZpkAzGaZAP8zmQAzmZkAZpmZAJmZmQDMmZkA/5mZAADMmQAzzJkAZsxmAJnMmQDMzJkA/8yZ
+AAD/mQAz/5kAZsyZAJn/mQDM/5kA//+ZAAAAzAAzAJkAZgDMAJkAzADMAMwAADOZADMzzABmM8wA
+mTPMAMwzzAD/M8wAAGbMADNmzABmZpkAmWbMAMxmzAD/ZpkAAJnMADOZzABmmcwAmZnMAMyZzAD/
+mcwAAMzMADPMzABmzMwAmczMAMzMzAD/zMwAAP/MADP/zABm/5kAmf/MAMz/zAD//8wAMwDMAGYA
+/wCZAP8AADPMADMz/wBmM/8AmTP/AMwz/wD/M/8AAGb/ADNm/wBmZswAmWb/AMxm/wD/ZswAAJn/
+ADOZ/wBmmf8AmZn/AMyZ/wD/mf8AAMz/ADPM/wBmzP8Amcz/AMzM/wD/zP8AM///AGb/zACZ//8A
+zP//AP9mZgBm/2YA//9mAGZm/wD/Zv8AZv//AKUAIQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX
+19cA3d3dAOPj4wDq6uoA8fHxAPj4+AD/+/AAoKCkAICAgAD/AAAAAP8AAP//AAAAAP8A/wD/AP//
+/wAAAAAA/wD/ARgEFQAEAAAANAIAAAQAAAAHAQMAoScAAEELIADMAHgAoAAAAAAA0ALAAwAAAAAo
+AAAAoAAAAHgAAAABAAgAAAAAAABLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+AACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABEREQAWFhYAHBwcACIiIgApKSkAVVVV
+AE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCprQAAADMAAABmAAAAmQAAAMwA
+ADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAA
+mWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/mQAA/8wAMwAAADMA
+MwOD3cS7ptpd
+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
+IDfgwDwHTNY94OCeTnqhTWGkmLiggyPin++2X5WU53JhVtW3atHGnezcAb0Osuygbuea2LuB+R3e
+LfuPPuhuLr0CowVEESUM6rYbMMX4kKGu/G/lYX6Ht1dP+1aT4Z/PByVrx8Imi5kaFbzxVyqDvuAE
+mH/kYmb8gOflI0CnGbbJ9qZGKwdFfVD6q/7y7lJy8TChD267JDG/l287/0VffZ6f7/d7+prv/v0H
+YAIx/Xvu2ucjX3S+2ssB0NtUSdWqjMBI3gv0qg/1WFkNDOHX4haV37wN9Kqf2LCcr1sOUySmgAY+
+C8wC/vK2XyrzTh6Aur4ETJw2h6QzFe1TWi/KiT3M4l8cmJNMm4J1x6Q33EzKIUlPISCJhSR9x0v6
+sgAwAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNmMwAzZmYAM2aZ
+ADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPMzAAzzP8A
+M/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYzZgBm
+M5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbM
+AABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDM
+AJkAAACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkA
+mZnMAJmZ/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDM
+AAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxm
+mQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/
+AMz/AADM/zMAmf9mAMz/mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA
+/zP/AP9mAAD/ZjMAzGZmAP9mmQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/
+zDMA/8xmAP/MmQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//
+ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/
+AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AP//////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////vP////////////////////////+8////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////7z//////7z/kpK8
+////vP+8/7z///+8/7z/vP+8kv//vP+8/7y8vP//////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////7z/
+////////vP////////+8/////////7z/////////vP///0OSbZJDkpJtbZJtbW3/bZK8kpKSkv+S
+kpJtbZJDkm28vJKSkm1tkpL/////vP////////+8/////////7z/////////vP//////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////+SbbySkpKSkpKSkm2S/5KSvJKSbbz/krySbZKSkm28vP+S
+km2SbbyS////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////7z/vP///7z///+Skry8kpKS/5KSvP+8vP///////7z///+8////////
+////////////////////////////////////////////////////////////////////////////
+////////////////THIzKyeg7HiOJOLlV/tFjQKbL04UPPEyPkd3WBwPD0Nx2WeuFTBYzNWqO8EJPqzyRPuduwrra
+gUHYBYA5TnrDW5PGVkmjiolYU8eotISkk/0YQF1fSnoLogANnAKTkxig1xfoNYw2EhN+HG/gzTWx
+/YIF8Sm1LKCBLwOzhNeADG3gHTADqOsFK+FhYNZUbnKYwWXSuCoplHi0GUMP+/q7oSXC7JurpPF1
+9SBgOH+JmDAwrybGgdGuyrHA0E6BIKMd0wNy8wDzdA6DAaPVq1RI4VvC+P2+BzFJ22sACZAFRJFu
+H85hvg0MFdYxGDkwB44TYPsEmHIjBugVWTFDuqUkd8l3eSdGTg1e3ucERguIIvp62MOcVEkJmLPN
+rwfivuKSVFYrBJ8WQeB6dZU0MTC8ZZcL6jeX1pMDQ0e/qcQYfr96yOKOGzBSUscrvHsvZh5gWjnM
+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
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////7z/////////vP//////vLy8//////+8vJK8vP////+8krySvP////+8kpK8vP///7yS
+kryS////vP+SvJK8vP+8/7y8kryS//////+8vJK8vP///7ySkryS/////7ySvJK8/////7y8kryS
+vP////+8////////////////////////////////////////////////////////////////////
+//////////////+8/////////7a8kv//////vLySvLz/////3pK8kt7/////krySvLz/////vLy8
+kv//////krySvP//////vLy8vP/////ekrySvP////+8vLyTvP////+8vLySvLz/////////////
+/////////////////////////////////////////////////////////////////////////7y8
+vLz/vP/i/7zivLy8/97/vL28vLz///+9/7z/vMLD/8L///+8wrz/3v///7y8vMLC/8L/vMK8wrz/
+wv/C4rzCvOLC/8L/wuK8vbz/3v/e/7y8vP+8/8P/vN28/7z/////////////////////////////
+//////////////////////////////////////////////////////////+8vLW7tbu0u7vcu9y1
+tZ19mLyRu5iYcZKdmJe6rs+tjZC0nZNWnZCelp2utHyd5H14nZHCnp6ewp7CnsKen3jCnsJMeZ6f
+5J9MdJSYrtCCtY21z7W0mJG1s6+0wf//////////////////////////////////////////////
+////////////////////////////////vP////////+8vLy8vP///7z/3f+8/46LkK2nrYqtbIKn
+roaorkpLkY2MxK8+RYWnhq9si2WLi4FmZ22NmJ6XwrzC//+9/5TeglFMaW9qRpaM40udi51QkXee
+l5i23cLCtd2Ywrz///+8////////////////////////////////////////////////////////
+////////////////////////////////vP////////////+9S9bW1dbJjINGaYy7jVJ0////lL3j
+lOaCjLGO5t2Zgv+8tnhShqeXW3j///+94+O3r5FJb4bVz7RsrouucMH/wuT////C//////////+8
+////////////////////////////////////////////////////////////////////////////
+/////////////////7y8/////////7z/vUvC/9a9aWpvUXiUTJRGvbz/////////kq7//93/////
+/7z/vb2OrlV44/+9vZPQ1nNWunCdlpCQtbvVtNbd////////////////////vP//////////////
+////////////////////////////////////////////////////////////////////////////
+//+8//////////////9uw+P/47G05Fqe/729lL3///////////+8/////////////////6/mz5SU
+lI7WnZaXwsLC////wuL//////////////7z/////////////////////////////////////////
+////////////////////////////////////////////vP////////+8////////vLz/////////
+vP//45PjlOOomJ7Cwv///5T/vP//////vP+Skv////+8////vP//////tNWMR72OtX1awv//////
+//////+8////////////vP////////+8/////////7z/////////////////////////////////
+/////////////////////////////////////////////////7z//////////////5Lj4+Np1p7/
+/////////////////////7z//////////////////93ckZT/1t3kWsL/vP//////////////////
+////vP//////////vLz/////////////////////////////////////////////////////////
+//////////////////////////////////+8vP////////+8//+7b71vqJjC//////////+8////
+/////5Jt//////////+8/////////63Wu9aewsL///+8/////////7z/////////////////////
+/7z/////////////////////////////////////////////////////////////////////////
+////////////////////vP//////////////u5m93Y3CvP//////////////////////vP//////
+///////////////BtJa8nsL///+8//////////////////////+8////////////////////////
+//////////////////////////////////////////////////////////////////+8////////
+/7z//7y8////vP///7z//7uY/9aTeML//7z//////7z/vP//////km3//////////7z/////////
+l62Qd+T//////////////7z/vP//////vP///7z///+8////vP///7z/////////////////////
+//////////////////////////////////////////////////////////////////+8////////
+//////+7wv/djp68//////////////////////+8/////////////////////8KQzsD//////7z/
+/////////////////////7z//////////7z/////////////////////////////////////////
+/////////////////////////////////////////////////7y8vLz/vP+8/7z/vP+8u5j/r46d
+wrz/vP+8/7z/vP+8/7z/vP+Skrz/vP+8/7z/vP+8/7z/vP+YkLT/vf+8/7y8vP+8/7z/vP+8/7z/
+vP+8/7y8vP+8/7z/vP+S////////////////////////////////////////////////////////
+//////////////////////////////////+S/7z/////////vP///7vC/7Zzwrz/////////////
+////////vAf/////////vP///////////57/////////vP///////////7z/////////vP//////
+//+8B///////////////////////////////////////////////////////////////////////
+//+8/////////7z//////7y8vP////////+8///Wnf/Wnrz///////////+8/////////5Jt////
+//////+8/////////7z//////////////////////7z///////////+8/////////7z/////////
+vP//////////////////////////////////////////////////////////////////////////
+////////vP//////////////tZ7/3Z7/vP//////////////////////vP//////////////////
+//////////////+8//////////////////////+8//////////+8vP//////////////////////
+///////////////////////////////ICNDpYCXXSV8MEOtuJl7wTGNK7SlkVVIoZJZOeyQ4DRj+xJ4FpmeBMZXVA
+vRMYjgcKDxPHqIYAkI19qpBlxWhkAVFeMJpex3iYxpr9ecBQVqDiEACGkw1Ft0un+hEAXhYZQQy2
+Gh1snfxXgFFDAHgj6lOjV2h9kxFU3Ra520lmhIwgEqsbwWeBgdIdpbKYFp1l9RzW/Z0s2PxyT2Cw
+wUIDXu0JvDWH0esVyHe4qH0SGNK3agSoWX+0hxmn1xEhSb+++Vxib2DYHWu6fUlIUt4ioBmdb9yN
+2t+SIuV8BOthdto2Y2A0OkBHoFXtVu6JjbtVoPM/P6uBTjnMZ/XjExuT9Lpef4oG3MP8FEt3mqcD
+00mRP6UbB+anWLrTPB2YTor8Kd04MD/F0p3m6cDQXn16FPtaq2cLsXWpeaLFvZdnVP6MY+60Vspu
+KmBkn3kfmJXW5AMsdga2r+MJtT/hkAfwEk9uykMO3dJ5zurBT9CdhbLF0ZiOVDyf+ucb8cY26Vw1
+BxcOHRRbyOgsQr8xB9UdlBoYbroLDB2YyufY81/h1ibfOBXN8gD4kFUl2kByxGro2uf8wHA0KQ1V
+x5SUoeQkJP2Wvcpaq3S2fy9ZyRgSj0XXO8BEPov3DMj9z67WvKGz6YGRJZvMRl4kGVHsSe8XWP9T
+hKFEGT3HkvWziaCinyRb+aVKsr5wMdIJXcz0wOTQIL4/hZzSHHw+liOJvFKYVRwVI1Q6jexoVsCs
+Q1dxkQ0w2RExPpnLG/xCv0vMD0yydAFMPk/D3qLKc0rnUfJRaDX7rUrVaw9TdpuJq6JZ0VMaYHF6
+aBP1+pl2TE/TA1Ov6soxZD8iJizjVxVsVnZb5yGbVKdmTv7KwWbtlEpWhOEU+cZYdlCvHwBGAkNR
+E9UGXqU5nJ60XUdlxc3ylydyllTkO2kc1fHDpoeJ8SmFx0GmHdPtN4DJZS6nNJtMdJvvpvImG3od
+n/aAkQpHukgxaFVulwjVOYz8tS3Expi5X68fACbHFtlQK8pqBkg2YspEo9yI4eeliqrLX+m2uINQ
+pEaJzSLGFaS1PEyRYHsO049lZU/R7pJ0JB9ROfxCJAuXvFQ3AQSe9R0miiOCnpBYBMRiHNXGcelc
+VhuJ0/Eip9iVxvmG2HgrlVc4vNr4ofQ22fQhCVKIFFFQI1y4xsDvJeEafEuLOqIMGlUV62LE2r3Q
+hMt1wiFfsXOZgVzp56htzpFFak/JMyp/xjGPsrT3q9CAA6NQkotkDTgwTgOkAQcGUpcLOzDOAKSB
+/0RmEeq9MtEFAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8A6APEEAAAAQDpAygAAACAFgAA4BAA
+ADgRAADQFgAABQAAAAoAAAAiAAAAAAAAAAEAAAAAAAABDwDyA6wBAAAvAMgPDAAAADAA0g8EAAAA
+AQAAAA8A1QfkAAAAAAC3D0QAAABBAHIAaQBhAGwAAABOAGUAdwAgAFIAbwBtAGEAbgAAAGiWEwBo
+lhMAXHiNAPCDEwAVvgww8IMTAAAAAAAPANUHAAAEABAAtw9EAAAAVwBpAG4AZwBkAGkAbgBnAHMA
+AABSAG8AbQBhAG4AAABolhMAaJYTAFx4jQDwgxMAFb4MMPCDEwAAAAAADwDVBwIABgIgALcPRAAA
+AFQAaQBtAGUAcwAgAE4AZQB3ACAAUgBvAG0AYQBuAAAAaJYTAGiWEwBceI0A8IMTABW+DDDwgxMA
+AAAAAA8A1QcAAAYSAACkDwgAAACAAEAAAAD//wAApQ8MAAAAAAAACC4AAAACAAAAAACpDwoAAAAH
+AAAAAgAJBAAAQACjD24AAAAFAP/9PwAAACIgAABkAAAAAP8AAGQAAAAAAAAAAABAAgAAAAAHAAAA
+///vAAAAAAD///////8SAAAAAAEAAAAFAAAgASABAAAAAAAFAABAAkACAAAAAAAFAABgA2ADAAAA
+AAAFAACABIAEAAAAAA8ACwT8CwAADwAA8PQLAAAAAAbwkAoAAARABQBRAQAADwAAAAMAAAAAAAAA
+BwAAAAAAAAAEAAAAAAAAAAQAAAAAAAAACwAAAAAAAAAEAAAAAAAAAHMAAAAAAAAABAAAAAAAAAA7
+AAAAAAAAAAQAAAAAAAAABAAAAAAAAAAFAAAAAAAAAEkAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQA
+AAAAAAAABAAAAAAAAAAoAAAAAAAAAAYAAAAAAAAABAAAAAAAAAAHAAAAAAAAAAoAAAAAAAAABAAA
+AAAAAABEAAAAAAAAAD4AAAAAAAAABwAAAAAAAAAFAAAAAAAAAAYAAAAAAAAABQAAAAAAAAAEAAAA
+AAAAAE0AAAAAAAAABgAAAAAAAAAGAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAIYAAAAA
+AAAABgAAAAAAAAAEAAAAAAAAACkAAAAlAAAACAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAANAAAAAAA
+AAAcAAAAAAAAABwAAAAAAAAABQAAAAAAAAAcAAAAAAAAAAQAAAAAAAAAWwAAAAAAAAAFAAAAAAAA
+AAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAeAAAAAAAAABsAAAAAAAAA
+wwAAAAAAAAAOAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAs
+AAAAAAAAACsAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAKAAAAAAAAAEQA
+AAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAADQAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAA
+AAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAABwAAAAAAAAAEAAAA
+AAAAAAUAAAAAAAAABQAAAAAAAABAAAAAAAAAAAQAAAAAAAAACQAAAAAAAABkAAAAAAAAANkAAAAA
+AAAABQAAAAAAAAAGAAAAAAAAAAkAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABQAAAAAA
+AAAFAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAFAAAAAAAA
+AAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAA
+BAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAYAAAAAAAAABAAAAAAAAAAF
+AAAAAAAAAAQAAAAAAAAABQAAAAAAAAAFAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQA
+AAAAAAAABAAAAAAAAAAdAAAAAAAAAAQAAAAAAAAABAAAAAAAAADOAAAAAAAAAMIAAAAAAAAABAAA
+AAAAAAAGAAAAAAAAAAQAAAAAAAAASQAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABQAAAAAAAAAJAAAA
+AAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAcAAAAAAAAABgAAAAAAAAASAAAAAAAAACcAAAAA
+AAAAHAAAAAAAAABDAAAAAAAAAMwAAAAAAAAAswAAAAAAAAB5AAAAAAAAAAQAAAAAAAAAMwAAAAAA
+AABOAAAAAAAAALkBAAAAAAAADQAAAAAAAAAXAAAAAAAAAAYAAAAAAAAAFQAAAAAAAAAEAAAAAAAA
+AAQAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAA
+BAAAAAAAAADgAAAAAAAAAJUBAAAAAAAAC//////////////////////////////////////7y8////
+/////7z//9ad/6+ewv///////////7z/////////kpL//////////7z/////////vP//////////
+/7z/////////vP//////////////////////vP//////////////////////////////////////
+//////////////////////////////////////////////////////+8//////////////+1wf+1
+nv////////////////////////+S////////////////////////////////////////////////
+/////////7z/////////////////////////////////////////////////////////////////
+/////////////////////////7z/////////vP//vLz///+8////vP//1p3djZ7e////vP//////
+vP+8//////+Skv//////////vP////////+8////////////////////vP+8//////+8////vP//
+/7z///+8////vP//////////////////////////////////////////////////////////////
+/////////////////////////7z//////////////7WY3Y2e/7z//////////////////////7z/
+/////////////////////7z/////////vP//////////////////////vP//////////vP//////
+////////////////////////////////////////////////////////////////////////////
+//////////+8vP////////+8///cl91Kwv////////////+8/////////5KS//////////+8////
+/////7z///////////+8/////////7z//////////////////////7z/////////////////////
+////////////////////////////////////////////////////////////////////////vP//
+////////////3bu1c///////////////////////////vP//////////////////////////////
+//+8//////////////////////+8////////////////////////////////////////////////
+/////////////////////////////////////7z/////////vP///////7y8/////////7z//92d
+1nL/vP///////////7z//////7z/kpL/////vP///7z///+8////vP///7z/////////vP//////
+vP///////////7z/////////vP////////+8////////////////////////////////////////
+////////////////////////////////////////vP+8///////////////dnbXB//+8////////
+/////////////7yS/////////////////////////////////7z//////////////////////7z/
+/////////7y8////////////////////////////////////////////////////////////////
+////////////////////////kry8vLz/vP+8/7z/vP+83XK7cv+8vLz/vP+8/7z/vP+8/7z/vP+S
+krz/vP+8/7z/vP+8/7z/vP+8/7z/vP+8/7y8vP+8/7z/vP+8/7z/vP+8/7y8vP+8/7z/vLyS////
+////////////////////////////////////////////////////////////////////////////
+/////////7y8/7z//////////////9eSmJn//7z/////////////////////vJL/////////////
+////////////////////vP//////////////////////vP//////////vP//////////////////
+////////////////////////////////////////////////////////////vP////////////+8
+vP////////+8///dbZ50/7z///////////+8/////////5KS//////////+8/////////7z/////
+/////////////////7z///////////+8/////////7z///+8////////////////////////////
+/////////////////////////////////////////////////5L/////////vP//////////////
+3ZGdmv//vP////////////////////+8kv//////////////////////vP////////+8////////
+//////////////+8//////////+8////////////////////////////////////////////////
+/////////////////////////////////7xtbbz//////7y8/////////7z//91ynZn/////////
+/////7z/////////kpL//////////7z/////////vP///////////7z/////////vP//////////
+////////////vP//////////////////////////////////////////////////////////////
+////////////////////km2S//////+8///////////////dkni9////////////////////////
+/7yS/////////////////////////////////7z//////////////////////7z/////////////
+////////////////////////////////////////////////////////////////////////vP//
+//////+SvP//////vLz/////////vP//3Up4k/+8////////////vP//////vP+Skv////+8////
+vP///7z///+8////vP////////+8//////+8////////////vP////////+8/////////7z/////
+////////////////////////////////////////////////////////////////////////////
+/7z//////////////9duV73//7z/////////////////////vJL//////////////////////7z/
+////////vP//////////////////////vP//////////vLz/////////////////////////////
+////////////////////////////////////////////////////km2S//////+8vP////////+8
+///dbXiT//////////////+8/////////5KS//////////+8/////////7z///////////+8////
+/////7z//////////////////////7z/////////////////////////////////////////////
+/////////////////////////////////////5KSvP//////vP//////////////3pFPvf//////
+//////////////////+8kv//////////////////////////////////////////////////////
+//+8////////////////////////////////////////////////////////////////////////
+//////////////////+8/7xtkrz//////7y8/////////7z///+uVr3/vP///////////7z/////
+////vLz//////////7z/////////vP//////////////////////vP///////////7z/////////
+vP///7z///////////////////////////////////////AAAAAAAAAAXAAAAAAAAAHsAAAAAAAAAewAAAAAAAAB8
+AQAAAAAAANEAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAGAAAAAAAAAAYA
+AAAAAAAABgAAAAAAAADTAAAAAAAAAKECAAAAAAAALQAAAAAAAAAGAAAAAAAAAC0AAAAAAAAABwAA
+AAAAAAAlAAAAAAAAACMAAAAAAAAALAAAAAAAAAAVAAAAAAAAAAQAAAAAAAAAKwAAAAAAAAAtAAAA
+AAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAD9AAAAAAAAABEAAAAA
+AAAABAAAAAAAAADRAAAAAAAAAAcAAAAAAAAABAAAAAAAAAAVAAAAAAAAAPsAAAAAAAAA7wAAAAAA
+AABrAAAAAAAAABcAAAAAAAAADQAAAAAAAADcAAAAAAAAAFgAAAAAAAAACwAAAAAAAAAHAAAAAAAA
+ALwAAAAAAAAAdAAAAAAAAAAEAAAAAAAAALwAAAAAAAAAVgAAAAAAAAAJAAAAAAAAAHIAAAAAAAAA
+BwAAAAAAAAByAAAAAAAAAA4AAAAAAAAAdAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAACgAAAAAAAABY
+AAAAAAAAAAsAAAAAAAAABwAAAAAAAAC8AAAAAAAAAHQAAAAAAAAAvAAAAAAAAABWAAAAAAAAAAkA
+AAAAAAAAcgAAAAAAAAAHAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAJAAAAAAAAAABAAA
+AAAAAAAEAAAAAAAAAAQAAAAAAAAALwAAAAAAAAAoAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAA
+AAAAAAQAAAAAAAAABAAAAAAAAAB9AAAAAAAAANIAAAAAAAAABQAAAAAAAABPAAAAAAAAAAwAAAAA
+AAAABAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAA
+AADBAAAAAAAAABwAAAAAAAAACwAAAAAAAAAEAAAAAAAAACsAAAAAAAAAQQAAAAAAAAAEAAAAAAAA
+AAoAAAAAAAAAXgAAAAAAAAAKAAAAAAAAABwAAAAAAAAACwAAAAAAAAC2AAAAAAAAAKUAAAAAAAAA
+uQAAAAAAAAAjAAAAAAAAACwAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAF
+AAAAAAAAAAMAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAGAAAAAAAAAAQA
+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
+/wA+PlwA////AGBZewBmZv8Amcz/AP//mQBgAPAHIAAAAFI+JgD///8ALSAVAN/AjQCMe3AAj18v
+AMy0AACMnqAAAACjDz4AAAABAP/9PwAAACIgAABkAAAAAP8AAGQAAAAAAAAAAABAAgAAAAAHAAAA
+///vAAEAAAD///////8YAApAof4AABAAow+UAAAABQD//T8ADwCnAAEAggAAM8z+AABkABQAAACU
+AAAAQAIAAAAABwAAAP//7wAAAAAA////////FAAAAAABAAD4//////////////////////////////
+////////vP//////vP+8///////////////dtS////+8/////////////////////7yS////////
+//////////////+8/////////7z//////////////////////7z//////////7z/////////////
+/////////////////////////////////////////////////////////////////////7xtkv//
+kry8vLz/vP+8/7z/vP+83a+Nk/+8vLz/vP+8/7z/vP+8/7z/vP+Skrz/vP+8/7z/vP+8/7z/vP+8
+vLz/vP+8/7y8vP+8/7z/vP+8vLz/vP+8/7y8vP+8/7z/vLyS////////////////////////////
+//////////////////////////////////////////////////////+8kpL///+8/7z/////////
+/////93Wjf//////////////////////////vJL/////////////////////////////////////
+////////////////////vP//////////////////////////////////////////////////////
+//////////////////////////////+8////////km2S//////+8vP////////+8////r429/7z/
+////////vP+8//////+8/7yS/////7z///+8////vP///7z///+8/////////7z//////7z/vP//
+//////+8/////////7z/////////vP//////////////////////////////////////////////
+/////////////////////////7ySkv//////vP//////////////3daC////vP//////////////
+//////+8kv////////////////////////////////+8//////////////////////+8////////
+//+8vP//////////////////////////////////////////////////////////////////////
+//////////+SQ7z//////7y8/////////7z///+pjrz//////////////7z/////////vLz/////
+/////7z/////////vP///////////7z/////////vP//////////////////////vP//////////
+////////////////////////////////////////////////////////////////////////vJK8
+//////+8///////////////dr4L///+8/////////////////////7z4////////////////////
+/////////////7z//////////////////////7z/////////////////////////////////////
+/////////////////////////////////////////////////////7z//5KSvP//vP//vLz///+8
+////vP///4yCvf+8////vP//////vP+8//////+8vP//////////vP////////+8////////////
+////////vP+8//////+8////vP///7z///+8////vP//////////////////////////////////
+//////////////////////////////////////////+SkpL//////7z//////////////+Kpgv//
+/7z/////////////////////vJL//////////////////////7z/////////vP//////////////
+////////vP//////////vP//////////////////////////////////////////////////////
+////////////////////////////vJK8//////+8vP////////+8////jIi9//////////////+8
+/////////7y8//////////+8/////////7z///////////+8/////////7z/////////////////
+/////7z/////////////////////////////////////////////////////////////////////
+////////////////////////vP///////////////9CC//////////////////////////+8bf//
+//////////////////////////////+8//////////////////////+8////////////////////
+/////////////////////////////////////////////////////////////////7z/////////
+/////7z//7y8/////////7z////Pgr3/vP///////////7z/////////vLz//////////7z/////
+////vP//////////////////////vP///////////7z/////////vP////////+8////////////
+//////////////////////////////////////////////////////////////////+8kv+8/7z/
+//+8/7z/vP/dr4L///+8////vP///7z///+8/////5Jt/7y8vLy8vLy8vP+8vLz/vLy8/7y8vP+8
+vLy8vLy8vLy8vLy8vLz/vLy8/7y8vP+8vLz/vLy8////////////////////////////////////
+////////////////////////////////////////////////////kry8vLz/vP+8/7z/vP+8/8+C
+vP+8/7z/vP+8/7z/vP+8/7z/vP+8vLz/kv+8/7z/vP+8/7z/vP+8/7z/vP+8/7z/vP+8/7z/vP+8
+/7z/vP+8/7z/vP+8/7z/vP+8////////////////////////////////////////////////////
+//////////////////////////////////////+8/7z////////////////Qr///////////////
+////////////vG3//7z/////////////vLy8/7y8krwHvLy8kryS/7y8vLz/vLy8vLz//7y8kryS
+vJK8vLy8////////////////////////////////////////////////////////////////////
+////////////vP////////////+8vP///7z///+8////qK/D/7z///+8//////+8/7z//////7y8
+//+8/8LCwsK8wsLCwry8vLy8vLySB7y8vLySvLy8vLy8/5K8vJK8/5K8vLy8vJK8kryS/7z///+8
+////////////////////////////////////////////////////////////////////////////
+////////////vP///////////////6+N////vP////////////////////+8bf//vP//////////
+////////vP//////////////////////vP+8//////////////////+8vP//////////////////
+/////////////////////////////////////////////////////////////////////////7y8
+/////////7z////Pr8P//////////////7z/////////vLz//7z//////////////7z///+8/7z/
+vP+8/7z///+8/7z/vLy8/7z///+8/7z/vP+8/7z/vP//////////////////////////////////
+//////////////////////////////////////////////////////////+8////////////////
+0I3//////////////////////////5Jt//+8/////////////7y8vP+8vJK8krySvJK8kv+SvJK8
+/7y8vLy8/7y8vJK8kpKSvLy8vP///////////////////////////////////BQAABwATIAAAZAD/AAD+agHcAAAA
+AgASAKIFAAAFACIgAIAA/kACtAEAAAIAEACkBQAAAQATIAAAAP8WA4oCAAACAA4AgAUAALsA9ANg
+AwAAAgAMACAAow9uAAAABQD//T8AAAAiIAAAZAAAAAD/AABkAB4AAAAAAAAAQAIAAAAABwAAAP//
+7wAAAAAA////////DAAAAAABAAAABQAAIAEgAQAAAAAABQAAQAJAAgAAAAAABQAAYANgAwAAAAAA
+BQAAgASABAAAAABQAKMPUgAAAAUAAAABCQAADgABAAAAAAAAAAEAAQkAAAYAAQDcAAAAAAACAAEJ
+AAAEAAEAtAEAAAAAAwABCQAAAAABAIoCAAAAAAQAAQkAAAAAAQBgAwAAAABgAKMPDAAAAAEAAAAA
+AAAAAAAAAHAAow8+AAAABQAAAAAAAAAAAAIAEgABAAAAAAAAAAIAEAACAAAAAAAAAAIADgADAAAA
+AAAAAAIADAAEAAAAAAAAAAIACgCAAKMPPgAAAAUAAAAAAAAAAAACABAAAQAAAAAAAAACAA4AAgAA
+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
+AAAAAwAAAAYC/AQPAA3wngAAAAAAnw8EAAAAAgAAAAAAqA9SAAAAQ2xpY2sgdG8gZWRpdCBNYXN0
+ZXIgdGV4dCBzdHlsZXMNU2Vjb25kIGxldmVsDVRoaXJkIGxldmVsDUZvdXJ0aCBsZXZlbA1GaWZ0
+aCBsZXZlbAAAog8eAAAAIQAAAAAADQAAAAEADAAAAAIADQAAAAMADAAAAAQAAACqDwoAAABTAAAA
+AQAAAAAADwAE8M4AAAASAArwCAAAAAagAAAACgAAkwAL8DYAAAB/AAEABQCAAIil/ASHAAIAAACB
+AQQAAAiDAQAAAAi/AQEAEQDAAQEAAAj/AQEACQABAgIAAAgAABDwCAAAAKsVAAB2B88WDwAR8BAA
+AAAAAMMLCAAAAAQAAAAJAvwEDwAN8FAAAAAAAJ8PBAAAAAQAAAAAAKAPAgAAACoAAAChDxQAAAAC
+AAAAAAAAAAAAAgAAAAAAAgAMAAAA+g8EAAAAAAAAAAAAqg8KAAAAAgAAAAEAAAAAAA8ABPDQAAAA
+EgAK8AgAAAAHoAAAAAoAAJMAC/A2AAAAfwABAAUAgADMpPwEhwACAAAAgQEEAAAIgwEAAAAIvwEB
+ABEAwAEBAAAI/wEBAAkAAQICAAAIAAAQ8AgAAACrFcEJNxHPFg8AEfAQAAAAAADDCwgAAAAFAAAA
+CAL8BA8ADfBSAAAAAACfDwQAAAAEAAAAAACgDwIAAAAqAAAAoQ8WAAAAAgAAAAAAAAgAAAIAAgAA
+AAAAAgAMAAAA2A8EAAAAAAAAAAAAqg8KAAAAAgAAAAEAAAAAAA8ABPBIAAAAEgAK8AgAAAABoAAA
+AAwAAIMAC/AwAAAAgQEAAAAIgwEFAAAIkwGS32oAlAGmj40AvwESABIA/wEAAAgABAMJAAAAPwMB
+AAEAEADwByAAAAD///8AAAAAAICAgAAAAAAAu+DjADMzmQAAmZkAmcwAAA8AiBM4AAAADwCKEzAA
+AAAAALoPEAAAAF8AXwBfAFAAUABUADEAMAAAAIsTEAAAAAAA6y4IAAAAeGHFAXB///////////////
+////////////////////////vP////////+8////////vLz/////////vP///8+N//+8////////
+/7z/vP//////vP+8vP//vP+83d3d3d3d3by8kry8vLy8vLy8vLy8vP+8vLy8vP+SvJK8vP+SvLy8
+vLwH/7y8vP+8/////////7z/////////////////////////////////////////////////////
+/////////////////////////////7z////////////////Qgv///7z/////////////////////
+vG3//7z/////////////////////////////////////////////////////////////////vLz/
+////////////////////////////////////////////////////////////////////////////
+//////////////+8vP////////+8////z7b///////////////+8/////////7y8//+8////////
+/////7y8/7y8vP+8/7y8vP+8/7z/vP+8vLy8vP+8/7z/vLy8/7y8vP///7z/////////////////
+////////////////////////////////////////////////////////////////////////////
+vP///////////////9Cv////vP////////////////////+8bf//vP//vf+9/73/vf+S/7y8kryS
+vLySkpKSvLy8kry8vLz/vLz/vLy8krySkrySkryS////////////////////////////////////
+//////////////////////////////////////////////+8/////////7y8vLy8/////////7z/
+///Ptf//vP///////////7z/////////vLz//7z/vb29/7z/vf+8vLy8vP+8/7z/vP+8vLz/vLy8
+/7y8vLyS/7y8vP+8/5L/vP+8vP//vP///7z/////////////////////////////////////////
+//////////////////////////////////////////+8kv+8vLz/vP+8/7y8vP/D1rX/vP+8/7z/
+vP+8/7z/vP+8/7z/vJJt/7y8////////////////////////////////////////////////////
+/////////////7y8////////////////////////////////////////////////////////////
+////////////////////////////vLy8vLz/vP///7z/vP+8/9bdvP+8/7z///+8////vP///7z/
+//+8vP//vP//////////////vLz//7y8vP+8/7y8vLz//7z/vLy8vLz/vP+8vLy8vP+8vLz/vP+8
+////////////////////////////////////////////////////////////////////////////
+/////////////////7z////////////////d1v//////////////////////////vJL//7z/wp7C
+nsKewp7/vP+8/7y8krySvJK8kryS/5K8vLy8/7y8/7y8vJK8kpK8kpK8kv//////////////////
+//////////////////////////////////////////////////////////+8/////////7z/////
+//+8vP////////+8////1t3//7z///////////+8//////+8/7y8//+8/7zCwsLCwsLCvLy8vLy8
+vP+8/7z/vP+8/7z/vP+8vLy8kv+8vLz/vP+S/7z/vP///7z/////////vP//////////////////
+////////////////////////////////////////////////////////////////vP//////////
+/////9bW////vP////////////////////+8bf//vP//////////////////////////////////
+//////////////////////////////+8vP//////////////////////////////////////////
+/////////////////////////////////////////////////7y8/////////7z////W3f//////
+/////////7z/////////vLz//7z/3f/d////3f///7y8//+8vLz/vLy8vLy8/7yS/7y8vLy8/7z/
+vLy8vLy8kry8vP//vP//////////////////////////////////////////////////////////
+//////////////////////////////////+8////////////////3d3///+8////////////////
+/////7yS//+8/93W3dbd1t3W/7y8vP+8vJK8krySvJK8kv+SvLy8krySkrwHvLySvJKSvJKSvJL/
+////////////////////////////////////////////////////////////////////////////
+/////7z/////////vP//vLz///+8////vP///8P///+8////vP//////vP+8//////+8vP//vP/d
+/93/vP/d/928vLy8vLz/vP+8/7z/vP//////vLy8vJL/vLy8////vP///7z///+8////vP//////
+////////////////////////////////////////////////////////////////////////////
+/////7z//////////////////////7z/////////////////////vJL//7z/////////////////
+////////////////////////////////////////////////vLz/////////////////////////
+//////////////////////////////////////////////////////////////////+8vP//////
+//+8//////////////////////+8/////////7y8//+8/73/vf+9/73/vby8/7ySkrySvJK8kry8
+/5K8vLy8vJK8vLy8kpK8krySkge8vP///7z/////////////////////////////////////////
+////////////////////////////////////////////////////vP//////////////////////
+//////////////////////+8kv//vP+9lL2UvZS9lP+S/7y8B7y8vLy8vLy8/7y8vP+S/7y8vP+S
+/7y8vLyS/7y8vP//////////////////////////////////////////////////////////////
+/////////////////7z/////////vP///5K8vLy8/7z/vP+8/5L/vP+8/7z/vLy8/7z/vP+8vLz/
+vP+8/7z/kpK8vLz/4v////////+8vLy8vP////////+8//////+8vLy8vLy8vLz///+8//////+8
+////vP////////+8////////////////////////////////////////////////////////////
+//////////////////+8kry8vLy8vLy8/7y8vLy8vLz/vLy8vLy8vP+8vLy8vLy8/7y8vP+8vLy8
+vLy8vLy8vP+8vLz/vLy8/7y8vLy8vLz/vLy8/7y8vP+8vLz/vLy8/7y8vLy8vLz/vLz/////////
+////////////////////////////////////////////////////////////////////////////
+////vLy8//////////////////////////////////////////////////////+8/7z///+8/7z/
+vP///7z/vP+8////vP+8/7z///+8/7z/vP///7z/vP+8////vP//////////////////////////KShQPAO4D9QIA
+AAIA7wMYAAAAAQAAAA0OAAAAAAAACwAAgAAAAAAHAAwwDwAMBGUCAAAPAALwXQIAANAPCPAIAAAA
+BAAAAAXQBAAPAAPw9QEAAA8ABPAoAAAAAQAJ8BAAAAAAAAAAAAAAAAAAAAAAAAAAAgAK8AgAAAAA
+0AQABQAAAA8ABPB4AAAAEgAK8AgAAAAC0AQAIAIAAGMAC/AkAAAABAAAAAAAfwAAAAQAgABUNvwE
+vwEAAAEA/wEAAAEAAQMCCAUAAAAQ8AgAAADwACABYBVAAg8AEfAQAAAAAADDCwgAAAAAAAAADQD8
+BA8ADfAMAAAAAACeDwQAAAAAAAAADwAE8HYAAACyBArwCAAAAATQBAAACgAAQwAL8E4AAAB/AIAA
+gAAEQQUAAAAFwTYAAAAGAQEAAABFADIARQBfAGYAZQBlAGQAYgBhAGMAawBfAGEAdgBlAHIAYQBn
+AGUAXwBkAGUAbABhAHkAAAAAABDwCAAAAJADAAMgE6gPDwAE8L8AAAASAArwCAAAAAXQBAAACgAA
+gwAL8DAAAAB/AAAABQCAACg4/ASBAQQAAAiDAQAAAAi/AQAAEQDAAQEAAAj/AQAACQABAgIAAAgA
+ABDwCAAAADADUAFgFfsDDwAN8F8AAAAAAJ8PBAAAAAEAAAAAAKgPKQAAAERpc3RyaWJ1dGlvbiBv
+ZiBBdmVyYWdlIEUyRSBJIEZyYW1lIERlbGF5AAChDxoAAAAqAAAAAAABGAAADgABAFAAKgAAAAAA
+AgAOAA8ABPBIAAAAEgAK8AgAAAAB0AQAAAwAAIMAC/AwAAAAgQEAAAAIgwEFAAAIkwGOn4sAlAHe
+vWgAvwESABIA/wEAAAgABAMJAAAAPwMBAAEAEADwByAAAAD///8AAAAAAICAgAAAAAAAu+DjADMz
+mQAAmZkAmcwAAA8AiBM4AAAADwCKEzAAAAAAALoPEAAAAF8AXwBfAFAAUABUADEAMAAAAIsTEAAA
+AAAA6y4IAAAAFT/GAeBTjCMAAHIXIAAAAAEAEAAAAAAAIgAQADoZAABeARAAPB8AAGIBEADMEAAA
+AAD1DxwAAAANAQAA2RgAAwAAAAA5IgAAAQAAAGUBAAABAMUxAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAP7/AAAFAQIAAAAAAAAAAAAAAAAAAAAAAAEAAADghZ/y+U9oEKuRCAAr
+J7PZMAAAAPBUAAAMAAAAAQAAAGgAAAACAAAAcAAAAAQAAACwAAAABwAAAMAAAAAIAAAAzAAAAAkA
+AADkAAAAEgAAAPAAAAAKAAAAFAEAAAwAAAAgAQAADQAAACwBAAAPAAAAOAEAABEAAABAAQAAAgAA
+AOQEAAAeAAAAOAAAAFRva2VuIEJ1Y2tldCBCYXNlZCBSYXRlIEluZXJ0aWEgZm9yICBWVCBvbiBS
+ZWxlYXNlIDAAAAAAHgAAAAgAAABWaWtyYW1nAB4AAAAEAAAAAAAAAB4AAAAQAAAATmlrb2xhaSBM
+ZXVuZwAAAB4AAAAEAAAAOTUyAB4AAAAcAAAATWljcm9zb2Z0IE9mZmljZSBQb3dlclBvaW50AEAA
+AACgfbGDOwgAAEAAAACQqbf8BF/FAUAAAABw8w2EtEfGAQMAAAAOAAAARwAAAKhTAAD/////AwAA
+AAgAiRBnDAAAAQAJAAADzCkAAAEAoScAAAAABAAAAAMBCAAFAAAACwIAAAAABQAAAAwC0QLBAwkC
+AAD3AAADAgEAAAAAgAAAAACAAACAgAAAAACAAIAAgAAAgIAAwMDAAMDcwACmyvAABAQEAAgICAAM
+DAwAERERABYWFgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkA/3yAAP9QUADWAJMAzOz/AO/W
+xgDn59YAramQADMAAABmAAAAmQAAAMwAAAAAMwAAMzMAAGYzAACZMwAAzDMAAP8zAAAAZgAAM2YA
+AGZmAACZZgAAzGYAAP9mAAAAmQAAM5kAAGaZAACZmQAAzJkAAP+ZAAAAzAAAM8wAAGbMAACZzAAA
+zMwAAP/MAABm/wAAmf8AAMz/AAAAADMAMwAzAGYAMwCZADMAzAAzAP8AMwAAMzMAMzMzAGYzMwCZ
+MzMAzDMzAP8zMwAAZjMAM2YzAGZmMwCZZjMAzGYzAP9mMwAAmTMAM5kzAGaZMwCZmTMAzJkzAP+Z
+MwAAzDMAM8wzAGbMMwCZzDMAzMwzAP/MMwAz/zMAZv8zAJn/MwDM/zMA//8zAAAAZgAzAGYAZgBm
+AJkAZgDMAGYA/wBmAAAzZgAzM2YAZjNmAJkzZgDMM2YA/zNmAABmZgAzZmYAZmZmAJlmZgDMZmYA
+AJlmADOZZgBmmWYAmZlmAMyZZgD/mWYAAMxmADPMZgCZzGYAzMxmAP/MZgAA/2YAM/9mAJn/ZgDM
+/2YA/wDMAMwA/wAAmZkAmTOZAJkAmQDMAJkAAACZADMzmQBmAJkAzDOZAP8AmQAAZpkAM2aZAGYz
+mQCZZpkAzGaZAP8zmQAzmZkAZpmZAJmZmQDMmZkA/5mZAADMmQAzzJkAZsxmAJnMmQDMzJkA/8yZ
+AAD/mQAz/5kAZsyZAJn/mQDM/5kA//+ZAAAAzAAzAJkAZgDMAJkAzADMAMwAADOZADMzzABmM8wA
+mTPMAMwzzAD/M8wAAGbMADNmzABmZpkAmWbMAMxmzAD/ZpkAAJnMADOZzABmmcwAmZnMAMyZzAD/
+mcwAAMzMADPMzABmzMwAmczMAMzMzAD/zMwAAP/MADP/zABm/5kAmf/MAMz/zAD//8wAMwDMAGYA
+/wCZAP8AADPMADMz/wBmM/8AmTP/AMwz/wD/M/8AAGb/ADNm/wBmZswAmWb/AMxm/wD/ZswAAJn/
+ADOZ/wBmmf8AmZn/AMyZ/wD/mf8AAMz/ADPM/wBmzP8Amcz/AMzM/wD/zP8AM///AGb/zACZ//8A
+zP//AP9mZgBm/2YA//9mAGZm/wD/Zv8AZv//AKUAIQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX
+19cA3d3dAOPj4wDq6uoA8fHxAPj4+AD/+/AAoKCkAICAgAD/AAAAAP8AAP//AAAAAP8A/wD/AP//
+/wAAAAAA/wD/ARgEFQAEAAAANAIAAAQAAAAHAQMAoScAAEELIADMAHgAoAAAAAAA0ALAAwAAAAAo
+AAAAoAAAAHgAAAABAAgAAAAAAABLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+AACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABEREQAWFhYAHBwcACIiIgApKSkAVVVV
+AE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCprQAAADMAAABmAAAAmQAAAMwA
+ADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAA
+mWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/mQAA/8wAMwAAADMA
+M
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////vP////////+8/////////7z/////////vP//
+//////+8/////////7z/////////vP////////+8/////////7z/////////vP////////+8////
+/////7z/////////vP////////+8////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////wD/////
+//////////////////////////////8A////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////AAAAAP8AAAAAAAAAAAAAAP8AAAD/AAD/AP8AAP8AAP//AP8A/wD//wD/AP8A
+/wAA/wD//wAA/wAAAP//////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/wAAAAD/AP8A////AAAA////AP8A/////wD//wD/AAD//wD/AP8A//8A/wD/AP////8A//8AAP8A
+AP//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////6b/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////6b/pqb/pqb//6ampv//pv+m/6b//6ampv///6b///+m/6am
+//+m/6ampqb//6ampv+mpqam/6b//6b/pqb//6b//6b//6b/pv+mpqb/pv+m//+m//+mpqb/pv//
+/6b/pv//pv+m//+m//+m/6am/6am//+mpqam////////////////////////////////////////
+////////////////pqam/6ampqam/6b//6am////pv+m/6ampv///6b/pv+m/6b/pv+mpv//pv+m
+/6b/pv+mpv+m//+m/6b/pv+mpv+mpqam/6b/pv+m/6b/pv//pqampv//////pv+mpv///6b/pqam
+pqampv+mpv+m/6b/pv//pqb///////////////////////////////////////////////////+m
+/6am/6am/6b//6b///+m/////6b/pqb/pv///6am//+mpv+m/6am/6am/6b/pqam//+m/6am////
+pqb//6b//6b//6b//6am//+m//+mpv///6b/pqb/////pqb/pv////+mpv+m//+m//+mpqam//+m
+//+m/6b/pv////wAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNmMwAzZmYAM2aZ
+ADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPMzAAzzP8A
+M/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYzZgBm
+M5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbM
+AABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDM
+AJkAAACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkA
+mZnMAJmZ/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDM
+AAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxm
+mQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/
+AMz/AADM/zMAmf9mAMz/mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA
+/zP/AP9mAAD/ZjMAzGZmAP9mmQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/
+zDMA/8xmAP/MmQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//
+ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/
+AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AP//////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////vP////////////////////////+8////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////7z//////7z/kpK8
+////vP+8/7z///+8/7z/vP+8kv//vP+8/7y8vP//////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////7z/
+////////vP////////+8/////////7z/////////vP///0OSbZJDkpJtbZJtbW3/bZK8kpKSkv+S
+kpJtbZJDkm28vJKSkm1tkpL/////vP////////+8/////////7z/////////vP//////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////+SbbySkpKSkpKSkm2S/5KSvJKSbbz/krySbZKSkm28vP+S
+km2SbbyS////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////7z/vP///7z///+Skry8kpKS/5KSvP+8vP///////7z///+8////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////pv//pv//pv//////
+////pqam//////////////+m/////6b/////////////////pv///////////6b/////////////
+////pv////////////+mpv+mpv///6b//6ampv///6b//////////6am//////////+m////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////wMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v8AAAUBAgAAAAAAAAAAAAAAAAAAAAAAAgAA
+AALVzdWcLhsQk5cIACss+a5EAAAABdXN1ZwuGxCTlwgAKyz5rjgCAAD0AQAAEAAAAAEAAACIAAAA
+AwAAAJAAAAAPAAAAqAAAAAQAAADIAAAABgAAANAAAAAHAAAA2AAAAAgAAADgAAAACQAAAOgAAAAK
+AAAA8AAAABcAAAD4AAAACwAAAAABAAAQAAAACAEAABMAAAAQAQAAFgAAABgBAAANAAAAIAEAAAwA
+AACSAQAAAgAAAOQEAAAeAAAAEAAAAE9uLXNjcmVlbiBTaG93AAAeAAAAGAAAAFF1YWxjb21tLCBJ
+bmNvcnBvcmF0ZWQAAAMAAAAGTgAAAwAAAAIAAAADAAAAAQAAAAMAAAAAAAAAAwAAAAAAAAADAAAA
+AAAAAAMAAADYGAsACwAAAAAAAAALAAAAAAAAAAsAAAAAAAAACwAAAAAAAAAeEAAABQAAAAYAAABB
+cmlhbAAKAAAAV2luZ2RpbmdzABAAAABUaW1lcyBOZXcgUm9tYW4ACQAAAGZvcm1hbC0xAC0AAABW
+aWRlbyBSYXRlIEFkYXB0YXRpb24gYmFzZWQgb24gUERBUiBmZWVkYmFjawAMEAAABgAAAB4AAAAL
+AAAARm9udHMgVXNlZAADAAAAAwAAAB4AAAAQAAAARGVzaWduIFRlbXBsYXRlAAMAAAABAAAAHgAA
+AA0AAABTbGlkZSBUaXRsZXMAAwAAAAEAAAAAAFAAAAADAAAAAAAAACAAAAABAAAAPAAAAAIAAABE
+AAAAAQAAAAIAAAAQAAAAX05ld1Jldmlld0N5Y2xlAAIAAADkBAAAHgAAAAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////7z/////////vP//////vLy8//////+8vJK8vP////+8krySvP////+8kpK8vP///7yS
+kryS////vP+SvJK8vP+8/7y8kryS//////+8vJK8vP///7ySkryS/////7ySvJK8/////7y8kryS
+vP////+8////////////////////////////////////////////////////////////////////
+//////////////+8/////////7a8kv//////vLySvLz/////3pK8kt7/////krySvLz/////vLy8
+kv//////krySvP//////vLy8vP/////ekrySvP////+8vLyTvP////+8vLySvLz/////////////
+/////////////////////////////////////////////////////////////////////////7y8
+vLz/vP/i/7zivLy8/97/vL28vLz///+9/7z/vMLD/8L///+8wrz/3v///7y8vMLC/8L/vMK8wrz/
+wv/C4rzCvOLC/8L/wuK8vbz/3v/e/7y8vP+8/8P/vN28/7z/////////////////////////////
+//////////////////////////////////////////////////////////+8vLW7tbu0u7vcu9y1
+tZ19mLyRu5iYcZKdmJe6rs+tjZC0nZNWnZCelp2utHyd5H14nZHCnp6ewp7CnsKen3jCnsJMeZ6f
+5J9MdJSYrtCCtY21z7W0mJG1s6+0wf//////////////////////////////////////////////
+////////////////////////////////vP////////+8vLy8vP///7z/3f+8/46LkK2nrYqtbIKn
+roaorkpLkY2MxK8+RYWnhq9si2WLi4FmZ22NmJ6XwrzC//+9/5TeglFMaW9qRpaM40udi51QkXee
+l5i23cLCtd2Ywrz///+8////////////////////////////////////////////////////////
+////////////////////////////////vP////////////+9S9bW1dbJjINGaYy7jVJ0////lL3j
+lOaCjLGO5t2Zgv+8tnhShqeXW3j///+94+O3r5FJb4bVz7RsrouucMH/wuT////C//////////+8
+////////////////////////////////////////////////////////////////////////////
+/////////////////7y8/////////7z/vUvC/9a9aWpvUXiUTJRGvbz/////////kq7//93/////
+/7z/vb2OrlV44/+9vZPQ1nNWunCdlpCQtbvVtNbd////////////////////vP//////////////
+////////////////////////////////////////////////////////////////////////////
+//+8//////////////9uw+P/47G05Fqe/729lL3///////////+8/////////////////6/mz5SU
+lI7WnZaXwsLC////wuL//////////////7z/////////////////////////////////////////
+////////////////////////////////////////////vP////////+8////////vLz/////////
+vP//45PjlOOomJ7Cwv///5T/vP//////vP+Skv////+8////vP//////tNWMR72OtX1awv//////
+//////+8////////////vP////////+8/////////7z/////////////////////////////////
+/////////////////////////////////////////////////7z//////////////5Lj4+Np1p7/
+/////////////////////7z//////////////////93ckZT/1t3kWsL/vP//////////////////
+////vP//////////vLz/////////////////////////////////////////////////////////
+//////////////////////////////////+8vP////////+8//+7b71vqJjC//////////+8////
+/////5Jt//////////+8/////////63Wu9aewsL///+8/////////7z/////////////////////
+/7z/////////////////////////////////////////////////////////////////////////
+////////////////////vP//////////////u5m93Y3CvP//////////////////////vP//////
+///////////////BtJa8nsL///+8//////////////////////+8////////////////////////
+//////////////////////////////////////////////////////////////////+8////////
+/7z//7y8////vP///7z//7uY/9aTeML//7z//////7z/vP//////km3//////////7z/////////
+l62Qd+T//////////////7z/vP//////vP///7z///+8////vP///7z/////////////////////
+//////////////////////////////////////////////////////////////////+8////////
+//////+7wv/djp68//////////////////////+8/////////////////////8KQzsD//////7z/
+/////////////////////7z//////////7z/////////////////////////////////////////
+/////////////////////////////////////////////////7y8vLz/vP+8/7z/vP+8u5j/r46d
+wrz/vP+8/7z/vP+8/7z/vP+Skrz/vP+8/7z/vP+8/7z/vP+YkLT/vf+8/7y8vP+8/7z/vP+8/7z/
+vP+8/7y8vP+8/7z/vP+S////////////////////////////////////////////////////////
+//////////////////////////////////+S/7z/////////vP///7vC/7Zzwrz/////////////
+////////vAf/////////vP///////////57/////////vP///////////7z/////////vP//////
+//+8B///////////////////////////////////////////////////////////////////////
+//+8/////////7z//////7y8vP////////+8///Wnf/Wnrz///////////+8/////////5Jt////
+//////+8/////////7z//////////////////////7z///////////+8/////////7z/////////
+vP//////////////////////////////////////////////////////////////////////////
+////////vP//////////////tZ7/3Z7/vP//////////////////////vP//////////////////
+//////////////+8//////////////////////+8//////////+8vP//////////////////////
+///////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////////////////////////7y8////
+/////7z//9ad/6+ewv///////////7z/////////kpL//////////7z/////////vP//////////
+/7z/////////vP//////////////////////vP//////////////////////////////////////
+//////////////////////////////////////////////////////+8//////////////+1wf+1
+nv////////////////////////+S////////////////////////////////////////////////
+/////////7z/////////////////////////////////////////////////////////////////
+/////////////////////////7z/////////vP//vLz///+8////vP//1p3djZ7e////vP//////
+vP+8//////+Skv//////////vP////////+8////////////////////vP+8//////+8////vP//
+/7z///+8////vP//////////////////////////////////////////////////////////////
+/////////////////////////7z//////////////7WY3Y2e/7z//////////////////////7z/
+/////////////////////7z/////////vP//////////////////////vP//////////vP//////
+////////////////////////////////////////////////////////////////////////////
+//////////+8vP////////+8///cl91Kwv////////////+8/////////5KS//////////+8////
+/////7z///////////+8/////////7z//////////////////////7z/////////////////////
+////////////////////////////////////////////////////////////////////////vP//
+////////////3bu1c///////////////////////////vP//////////////////////////////
+//+8//////////////////////+8////////////////////////////////////////////////
+/////////////////////////////////////7z/////////vP///////7y8/////////7z//92d
+1nL/vP///////////7z//////7z/kpL/////vP///7z///+8////vP///7z/////////vP//////
+vP///////////7z/////////vP////////+8////////////////////////////////////////
+////////////////////////////////////////vP+8///////////////dnbXB//+8////////
+/////////////7yS/////////////////////////////////7z//////////////////////7z/
+/////////7y8////////////////////////////////////////////////////////////////
+////////////////////////kry8vLz/vP+8/7z/vP+83XK7cv+8vLz/vP+8/7z/vP+8/7z/vP+S
+krz/vP+8/7z/vP+8/7z/vP+8/7z/vP+8/7y8vP+8/7z/vP+8/7z/vP+8/7y8vP+8/7z/vLyS////
+////////////////////////////////////////////////////////////////////////////
+/////////7y8/7z//////////////9eSmJn//7z/////////////////////vJL/////////////
+////////////////////vP//////////////////////vP//////////vP//////////////////
+////////////////////////////////////////////////////////////vP////////////+8
+vP////////+8///dbZ50/7z///////////+8/////////5KS//////////+8/////////7z/////
+/////////////////7z///////////+8/////////7z///+8////////////////////////////
+/////////////////////////////////////////////////5L/////////vP//////////////
+3ZGdmv//vP////////////////////+8kv//////////////////////vP////////+8////////
+//////////////+8//////////+8////////////////////////////////////////////////
+/////////////////////////////////7xtbbz//////7y8/////////7z//91ynZn/////////
+/////7z/////////kpL//////////7z/////////vP///////////7z/////////vP//////////
+////////////vP//////////////////////////////////////////////////////////////
+////////////////////km2S//////+8///////////////dkni9////////////////////////
+/7yS/////////////////////////////////7z//////////////////////7z/////////////
+////////////////////////////////////////////////////////////////////////vP//
+//////+SvP//////vLz/////////vP//3Up4k/+8////////////vP//////vP+Skv////+8////
+vP///7z///+8////vP////////+8//////+8////////////vP////////+8/////////7z/////
+////////////////////////////////////////////////////////////////////////////
+/7z//////////////9duV73//7z/////////////////////vJL//////////////////////7z/
+////////vP//////////////////////vP//////////vLz/////////////////////////////
+////////////////////////////////////////////////////km2S//////+8vP////////+8
+///dbXiT//////////////+8/////////5KS//////////+8/////////7z///////////+8////
+/////7z//////////////////////7z/////////////////////////////////////////////
+/////////////////////////////////////5KSvP//////vP//////////////3pFPvf//////
+//////////////////+8kv//////////////////////////////////////////////////////
+//+8////////////////////////////////////////////////////////////////////////
+//////////////////+8/7xtkrz//////7y8/////////7z///+uVr3/vP///////////7z/////
+////vLz//////////7z/////////vP//////////////////////vP///////////7z/////////
+vP///7z///////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9g8lAAAAFAAAAF/AkeNhIgAADQD0AwMAAABOaWtvbGFp
+IExldW5nCAAAAE4AaQBrAG8AbABhAGkAIABMAGUAdQBuAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////////////////
+////////vP//////vP+8///////////////dtS////+8/////////////////////7yS////////
+//////////////+8/////////7z//////////////////////7z//////////7z/////////////
+/////////////////////////////////////////////////////////////////////7xtkv//
+kry8vLz/vP+8/7z/vP+83a+Nk/+8vLz/vP+8/7z/vP+8/7z/vP+Skrz/vP+8/7z/vP+8/7z/vP+8
+vLz/vP+8/7y8vP+8/7z/vP+8vLz/vP+8/7y8vP+8/7z/vLyS////////////////////////////
+//////////////////////////////////////////////////////+8kpL///+8/7z/////////
+/////93Wjf//////////////////////////vJL/////////////////////////////////////
+////////////////////vP//////////////////////////////////////////////////////
+//////////////////////////////+8////////km2S//////+8vP////////+8////r429/7z/
+////////vP+8//////+8/7yS/////7z///+8////vP///7z///+8/////////7z//////7z/vP//
+//////+8/////////7z/////////vP//////////////////////////////////////////////
+/////////////////////////7ySkv//////vP//////////////3daC////vP//////////////
+//////+8kv////////////////////////////////+8//////////////////////+8////////
+//+8vP//////////////////////////////////////////////////////////////////////
+//////////+SQ7z//////7y8/////////7z///+pjrz//////////////7z/////////vLz/////
+/////7z/////////vP///////////7z/////////vP//////////////////////vP//////////
+////////////////////////////////////////////////////////////////////////vJK8
+//////+8///////////////dr4L///+8/////////////////////7z4////////////////////
+/////////////7z//////////////////////7z/////////////////////////////////////
+/////////////////////////////////////////////////////7z//5KSvP//vP//vLz///+8
+////vP///4yCvf+8////vP//////vP+8//////+8vP//////////vP////////+8////////////
+////////vP+8//////+8////vP///7z///+8////vP//////////////////////////////////
+//////////////////////////////////////////+SkpL//////7z//////////////+Kpgv//
+/7z/////////////////////vJL//////////////////////7z/////////vP//////////////
+////////vP//////////vP//////////////////////////////////////////////////////
+////////////////////////////vJK8//////+8vP////////+8////jIi9//////////////+8
+/////////7y8//////////+8/////////7z///////////+8/////////7z/////////////////
+/////7z/////////////////////////////////////////////////////////////////////
+////////////////////////vP///////////////9CC//////////////////////////+8bf//
+//////////////////////////////+8//////////////////////+8////////////////////
+/////////////////////////////////////////////////////////////////7z/////////
+/////7z//7y8/////////7z////Pgr3/vP///////////7z/////////vLz//////////7z/////
+////vP//////////////////////vP///////////7z/////////vP////////+8////////////
+//////////////////////////////////////////////////////////////////+8kv+8/7z/
+//+8/7z/vP/dr4L///+8////vP///7z///+8/////5Jt/7y8vLy8vLy8vP+8vLz/vLy8/7y8vP+8
+vLy8vLy8vLy8vLy8vLz/vLy8/7y8vP+8vLz/vLy8////////////////////////////////////
+////////////////////////////////////////////////////kry8vLz/vP+8/7z/vP+8/8+C
+vP+8/7z/vP+8/7z/vP+8/7z/vP+8vLz/kv+8/7z/vP+8/7z/vP+8/7z/vP+8/7z/vP+8/7z/vP+8
+/7z/vP+8/7z/vP+8/7z/vP+8////////////////////////////////////////////////////
+//////////////////////////////////////+8/7z////////////////Qr///////////////
+////////////vG3//7z/////////////vLy8/7y8krwHvLy8kryS/7y8vLz/vLy8vLz//7y8kryS
+vJK8vLy8////////////////////////////////////////////////////////////////////
+////////////vP////////////+8vP///7z///+8////qK/D/7z///+8//////+8/7z//////7y8
+//+8/8LCwsK8wsLCwry8vLy8vLySB7y8vLySvLy8vLy8/5K8vJK8/5K8vLy8vJK8kryS/7z///+8
+////////////////////////////////////////////////////////////////////////////
+////////////vP///////////////6+N////vP////////////////////+8bf//vP//////////
+////////vP//////////////////////vP+8//////////////////+8vP//////////////////
+/////////////////////////////////////////////////////////////////////////7y8
+/////////7z////Pr8P//////////////7z/////////vLz//7z//////////////7z///+8/7z/
+vP+8/7z///+8/7z/vLy8/7z///+8/7z/vP+8/7z/vP//////////////////////////////////
+//////////////////////////////////////////////////////////+8////////////////
+0I3//////////////////////////5Jt//+8/////////////7y8vP+8vJK8krySvJK8kv+SvJK8
+/7y8vLy8/7y8vJK8kpKSvLy8vP///////////////////////////////////AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAgAAAAMAAAAEAAAABQAAAAYAAAAHAAAACAAAAAkAAAAKAAAACwAA
+AAwAAAANAAAADgAAAA8AAAAQAAAAEQAAABIAAAATAAAAFAAAABUAAAD+////FwAAABgAAAAZAAAA
+GgAAABsAAAAcAAAAHQAAAB4AAAAfAAAAIAAAACEAAAAiAAAAIwAAACQAAAAlAAAAJgAAACcAAAD+
+////KQAAACoAAAArAAAALAAAAC0AAAAuAAAALwAAADAAAAAxAAAAMgAAADMAAAA0AAAANQAAADYA
+AAA3AAAAOAAAADkAAAA6AAAAOwAAADwAAAA9AAAAPgAAAD8AAABAAAAAQQAAAEIAAABDAAAARAAA
+AEUAAABGAAAARwAAAEgAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABPAAAAUAAAAFEAAABSAAAA
+/v///1QAAABVAAAAVgAAAFcAAABYAAAAWQAAAFoAAAD+////XAAAAF0AAABeAAAAXwAAAGAAAABh
+AAAAYgAAAP7////9////ZQAAAP7/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////1IAbwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAWAAUB//////////8DAAAAEI2BZJtPzxGG6gCqALkp6AAAAAAA
+AAAAAAAAAAAAAAAAAAAA/v///wAAAAAAAAAAUABpAGMAdAB1AHIAZQBzAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAgH///////////////8AAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgSsAAAAAAABDAHUAcgByAGUAbgB0ACAA
+VQBzAGUAcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgACAQEAAAD/
+/////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFsAAAAAEAAAAAAAAAUA
+UwB1AG0AbQBhAHIAeQBJAG4AZgBvAHIAbQBhAHQAaQBvAG4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAoAAIBAgAAAAUAAAD/////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+KAAAACBVAAAAAAAAUABvAHcAZQByAFAAbwBpAG4AdAAgAEQAbwBjAHUAbQBlAG4AdAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAACgAAgH///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAWAAAAhSIAAAAAAAAFAEQAbwBjAHUAbQBlAG4AdABTAHUAbQBtAGEAcgB5
+AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAAOAACAQQAAAD//////////wAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFMAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAA=
+--=====================_7160526==_
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Audio/Video Transport Working Group
+avt@ietf.org
+https://www1.ietf.org/mailman/listinfo/avt
+
+--=====================_7160526==_--
+
+
+
+
+
+
+
+///////////////
+////////////////////////vP////////+8////////vLz/////////vP///8+N//+8////////
+/7z/vP//////vP+8vP//vP+83d3d3d3d3by8kry8vLy8vLy8vLy8vP+8vLy8vP+SvJK8vP+SvLy8
+vLwH/7y8vP+8/////////7z/////////////////////////////////////////////////////
+/////////////////////////////7z////////////////Qgv///7z/////////////////////
+vG3//7z/////////////////////////////////////////////////////////////////vLz/
+////////////////////////////////////////////////////////////////////////////
+//////////////+8vP////////+8////z7b///////////////+8/////////7y8//+8////////
+/////7y8/7y8vP+8/7y8vP+8/7z/vP+8vLy8vP+8/7z/vLy8/7y8vP///7z/////////////////
+////////////////////////////////////////////////////////////////////////////
+vP///////////////9Cv////vP////////////////////+8bf//vP//vf+9/73/vf+S/7y8kryS
+vLySkpKSvLy8kry8vLz/vLz/vLy8krySkrySkryS////////////////////////////////////
+//////////////////////////////////////////////+8/////////7y8vLy8/////////7z/
+///Ptf//vP///////////7z/////////vLz//7z/vb29/7z/vf+8vLy8vP+8/7z/vP+8vLz/vLy8
+/7y8vLyS/7y8vP+8/5L/vP+8vP//vP///7z/////////////////////////////////////////
+//////////////////////////////////////////+8kv+8vLz/vP+8/7y8vP/D1rX/vP+8/7z/
+vP+8/7z/vP+8/7z/vJJt/7y8////////////////////////////////////////////////////
+/////////////7y8////////////////////////////////////////////////////////////
+////////////////////////////vLy8vLz/vP///7z/vP+8/9bdvP+8/7z///+8////vP///7z/
+//+8vP//vP//////////////vLz//7y8vP+8/7y8vLz//7z/vLy8vLz/vP+8vLy8vP+8vLz/vP+8
+////////////////////////////////////////////////////////////////////////////
+/////////////////7z////////////////d1v//////////////////////////vJL//7z/wp7C
+nsKewp7/vP+8/7y8krySvJK8kryS/5K8vLy8/7y8/7y8vJK8kpK8kpK8kv//////////////////
+//////////////////////////////////////////////////////////+8/////////7z/////
+//+8vP////////+8////1t3//7z///////////+8//////+8/7y8//+8/7zCwsLCwsLCvLy8vLy8
+vP+8/7z/vP+8/7z/vP+8vLy8kv+8vLz/vP+S/7z/vP///7z/////////vP//////////////////
+////////////////////////////////////////////////////////////////vP//////////
+/////9bW////vP////////////////////+8bf//vP//////////////////////////////////
+//////////////////////////////+8vP//////////////////////////////////////////
+/////////////////////////////////////////////////7y8/////////7z////W3f//////
+/////////7z/////////vLz//7z/3f/d////3f///7y8//+8vLz/vLy8vLy8/7yS/7y8vLy8/7z/
+vLy8vLy8kry8vP//vP//////////////////////////////////////////////////////////
+//////////////////////////////////+8////////////////3d3///+8////////////////
+/////7yS//+8/93W3dbd1t3W/7y8vP+8vJK8krySvJK8kv+SvLy8krySkrwHvLySvJKSvJKSvJL/
+////////////////////////////////////////////////////////////////////////////
+/////7z/////////vP//vLz///+8////vP///8P///+8////vP//////vP+8//////+8vP//vP/d
+/93/vP/d/928vLy8vLz/vP+8/7z/vP//////vLy8vJL/vLy8////vP///7z///+8////vP//////
+////////////////////////////////////////////////////////////////////////////
+/////7z//////////////////////7z/////////////////////vJL//7z/////////////////
+////////////////////////////////////////////////vLz/////////////////////////
+//////////////////////////////////////////////////////////////////+8vP//////
+//+8//////////////////////+8/////////7y8//+8/73/vf+9/73/vby8/7ySkrySvJK8kry8
+/5K8vLy8vJK8vLy8kpK8krySkge8vP///7z/////////////////////////////////////////
+////////////////////////////////////////////////////vP//////////////////////
+//////////////////////+8kv//vP+9lL2UvZS9lP+S/7y8B7y8vLy8vLy8/7y8vP+S/7y8vP+S
+/7y8vLyS/7y8vP//////////////////////////////////////////////////////////////
+/////////////////7z/////////vP///5K8vLy8/7z/vP+8/5L/vP+8/7z/vLy8/7z/vP+8vLz/
+vP+8/7z/kpK8vLz/4v////////+8vLy8vP////////+8//////+8vLy8vLy8vLz///+8//////+8
+////vP////////+8////////////////////////////////////////////////////////////
+//////////////////+8kry8vLy8vLy8/7y8vLy8vLz/vLy8vLy8vP+8vLy8vLy8/7y8vP+8vLy8
+vLy8vLy8vP+8vLz/vLy8/7y8vLy8vLz/vLy8/7y8vP+8vLz/vLy8/7y8vLy8vLz/vLz/////////
+////////////////////////////////////////////////////////////////////////////
+////vLy8//////////////////////////////////////////////////////+8/7z///+8/7z/
+vP///7z/vP+8////vP+8/7z///+8/7z/vP///7z/vP+8////vP//////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////vP////////+8/////////7z/////////vP//
+//////+8/////////7z/////////vP////////+8/////////7z/////////vP////////+8////
+/////7z/////////vP////////+8////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////wD/////
+//////////////////////////////8A////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////AAAAAP8AAAAAAAAAAAAAAP8AAAD/AAD/AP8AAP8AAP//AP8A/wD//wD/AP8A
+/wAA/wD//wAA/wAAAP//////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/wAAAAD/AP8A////AAAA////AP8A/////wD//wD/AAD//wD/AP8A//8A/wD/AP////8A//8AAP8A
+AP//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////6b/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////6b/pqb/pqb//6ampv//pv+m/6b//6ampv///6b///+m/6am
+//+m/6ampqb//6ampv+mpqam/6b//6b/pqb//6b//6b//6b/pv+mpqb/pv+m//+m//+mpqb/pv//
+/6b/pv//pv+m//+m//+m/6am/6am//+mpqam////////////////////////////////////////
+////////////////pqam/6ampqam/6b//6am////pv+m/6ampv///6b/pv+m/6b/pv+mpv//pv+m
+/6b/pv+mpv+m//+m/6b/pv+mpv+mpqam/6b/pv+m/6b/pv//pqampv//////pv+mpv///6b/pqam
+pqampv+mpv+m/6b/pv//pqb///////////////////////////////////////////////////+m
+/6am/6am/6b//6b///+m/////6b/pqb/pv///6am//+mpv+m/6am/6am/6b/pqam//+m/6am////
+pqb//6b//6b//6b//6am//+m//+mpv///6b/pqb/////pqb/pv////+mpv+m//+m//+mpqam//+m
+//+m/6b/pv//////////////////////////////////////////////////pv//pv//pv//////
+////pqam//////////////+m/////6b/////////////////pv///////////6b/////////////
+////pv////////////+mpv+mpv///6b//6ampv///6b//////////6am//////////+m////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////wMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v8AAAUBAgAAAAAAAAAAAAAAAAAAAAAAAgAA
+AALVzdWcLhsQk5cIACss+a5EAAAABdXN1ZwuGxCTlwgAKyz5rjgCAAD0AQAAEAAAAAEAAACIAAAA
+AwAAAJAAAAAPAAAAqAAAAAQAAADIAAAABgAAANAAAAAHAAAA2AAAAAgAAADgAAAACQAAAOgAAAAK
+AAAA8AAAABcAAAD4AAAACwAAAAABAAAQAAAACAEAABMAAAAQAQAAFgAAABgBAAANAAAAIAEAAAwA
+AACSAQAAAgAAAOQEAAAeAAAAEAAAAE9uLXNjcmVlbiBTaG93AAAeAAAAGAAAAFF1YWxjb21tLCBJ
+bmNvcnBvcmF0ZWQAAAMAAAAGTgAAAwAAAAIAAAADAAAAAQAAAAMAAAAAAAAAAwAAAAAAAAADAAAA
+AAAAAAMAAADYGAsACwAAAAAAAAALAAAAAAAAAAsAAAAAAAAACwAAAAAAAAAeEAAABQAAAAYAAABB
+cmlhbAAKAAAAV2luZ2RpbmdzABAAAABUaW1lcyBOZXcgUm9tYW4ACQAAAGZvcm1hbC0xAC0AAABW
+aWRlbyBSYXRlIEFkYXB0YXRpb24gYmFzZWQgb24gUERBUiBmZWVkYmFjawAMEAAABgAAAB4AAAAL
+AAAARm9udHMgVXNlZAADAAAAAwAAAB4AAAAQAAAARGVzaWduIFRlbXBsYXRlAAMAAAABAAAAHgAA
+AA0AAABTbGlkZSBUaXRsZXMAAwAAAAEAAAAAAFAAAAADAAAAAAAAACAAAAABAAAAPAAAAAIAAABE
+AAAAAQAAAAIAAAAQAAAAX05ld1Jldmlld0N5Y2xlAAIAAADkBAAAHgAAAAQAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9g8lAAAAFAAAAF/AkeNhIgAADQD0AwMAAABOaWtvbGFp
+IExldW5nCAAAAE4AaQBrAG8AbABhAGkAIABMAGUAdQBuAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAgAAAAMAAAAEAAAABQAAAAYAAAAHAAAACAAAAAkAAAAKAAAACwAA
+AAwAAAANAAAADgAAAA8AAAAQAAAAEQAAABIAAAATAAAAFAAAABUAAAD+////FwAAABgAAAAZAAAA
+GgAAABsAAAAcAAAAHQAAAB4AAAAfAAAAIAAAACEAAAAiAAAAIwAAACQAAAAlAAAAJgAAACcAAAD+
+////KQAAACoAAAArAAAALAAAAC0AAAAuAAAALwAAADAAAAAxAAAAMgAAADMAAAA0AAAANQAAADYA
+AAA3AAAAOAAAADkAAAA6AAAAOwAAADwAAAA9AAAAPgAAAD8AAABAAAAAQQAAAEIAAABDAAAARAAA
+AEUAAABGAAAARwAAAEgAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABPAAAAUAAAAFEAAABSAAAA
+/v///1QAAABVAAAAVgAAAFcAAABYAAAAWQAAAFoAAAD+////XAAAAF0AAABeAAAAXwAAAGAAAABh
+AAAAYgAAAP7////9////ZQAAAP7/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////1IAbwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAWAAUB//////////8DAAAAEI2BZJtPzxGG6gCqALkp6AAAAAAA
+AAAAAAAAAAAAAAAAAAAA/v///wAAAAAAAAAAUABpAGMAdAB1AHIAZQBzAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAgH///////////////8AAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgSsAAAAAAABDAHUAcgByAGUAbgB0ACAA
+VQBzAGUAcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgACAQEAAAD/
+/////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFsAAAAAEAAAAAAAAAUA
+UwB1AG0AbQBhAHIAeQBJAG4AZgBvAHIAbQBhAHQAaQBvAG4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAoAAIBAgAAAAUAAAD/////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+KAAAACBVAAAAAAAAUABvAHcAZQByAFAAbwBpAG4AdAAgAEQAbwBjAHUAbQBlAG4AdAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAACgAAgH///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAWAAAAhSIAAAAAAAAFAEQAbwBjAHUAbQBlAG4AdABTAHUAbQBtAGEAcgB5
+AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAAOAACAQQAAAD//////////wAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFMAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAA=
+--=====================_7160526==_
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Audio/Video Transport Working Group
+avt@ietf.org
+https://www1.ietf.org/mailman/listinfo/avt
+
+--=====================_7160526==_--
+
+
+
+
+
+

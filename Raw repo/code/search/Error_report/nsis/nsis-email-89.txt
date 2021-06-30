@@ -1,0 +1,104 @@
+Date : ['2002-05-10T11:54:23Z']
+Timezone : (CEST)
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : rsvp@isi.edu
+To-name : Null
+To-address : [' rsvp@isi.edu']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Announcement of RSVP implementation']
+Mailing-list : nsis
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nsis/2002-05.mailcl']
+id : 97516ce4-4eb0-4b99-be1b-b282baff67ad
+_version_ : 1675129164633473024
+
+Content : 
+
+I would like to announce, to any interested party, the release version 3.0
+of the KOM RSVP implementation. Below is a brief overview about news in this
+version. Please consult the web site at
+
+http://www.kom.e-technik.tu-darmstadt.de/rsvp/
+
+for further information and download instructions. Any feedback is welcome.
+
+Best Regards,
+Martin Karsten
+
+
+MPLS
+----
+Limited support for MPLS signalling and forwarding has been added, according
+to [1]. The daemon can interact with two open-source MPLS data planes for
+Linux, available from:
+http://www.cl.cam.ac.uk/Research/SRG/netos/netx/index.html
+http://sourceforge.net/projects/mpls-linux
+The mechanisms supported are label distribution and explicit routing.
+
+Refresh Reduction
+-----------------
+Limited support for RSVP Refresh Reduction has been added, according to [2].
+The mechanisms supported are summary refresh and nack messages.
+
+Remote API
+----------
+As an experimental extension to RSVP, a daemon can communicate via a remote
+API mechanism with clients. See [3] for details.
+
+One-pass Signalling
+-------------------
+As an experimental extension to RSVP, it is possible to setup
+sender-oriented one-pass and duplex reservations. See [3] for details.
+
+ns2 Version
+-----------
+The protocol engine has been ported to ns2. See README.ns2 for details.
+
+Traffic Generator
+-----------------
+An RSVP-capable traffic generator has been added. See README.tg_config for
+details. This release also includes a kernel time stamping module, which can
+be used from the traffic generator. See altq/README for details.
+
+Java API
+--------
+The Client API is accessible through a rudimentary Java Native Interface.
+
+Other
+-----
+There have been many bugfixes and internal improvements.
+
+References
+----------
+[1] D. Awduche et al. RSVP-TE: Extensions to RSVP for LSP Tunnels. IETF RFC 
+3209. December 2001
+[2] L. Berger et al. RSVP Refresh Overhead Reduction Extensions. IETF RFC
+2961. April 2001
+[3] Martin Karsten. Experimental Extensions to RSVP - Remote Client and 
+One-Pass Signalling. In Proceedings of the Ninth IEEE/IFIP International
+Workshop on Quality of Service (IWQoS'01), Karlsruhe, Germany, pages
+269-274. Springer LNCS 2092, June 2001.
+
+----- End of forwarded message (env-from mkarsten) -----
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+

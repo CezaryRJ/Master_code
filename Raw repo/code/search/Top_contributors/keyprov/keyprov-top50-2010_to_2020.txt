@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    keyprov
+anders.rundgren@telia.com 67
+turners@ieca.com 29
+phoyer@actividentity.com 28
+andrea.doherty@rsa.com 23
+rfc-editor@rfc-editor.org 18
+Internet-Drafts@ietf.org 15
+hallam@gmail.com 14
+iesg-secretary@ietf.org 10
+Hannes.Tschofenig@gmx.net 9
+mpei@verisign.com 8
+simon@josefsson.org 8
+stpeter@stpeter.im 7
+hannes.tschofenig@gmx.net 6
+SBajaj@verisign.com 4
+hannes.tschofenig@nsn.com 3
+mnystrom@microsoft.com 2
+Ron.Williams@us.ibm.com 1
+SMachani@DIVERSINET.COM 1
+duerst@it.aoyama.ac.jp 1
+gautamarvind@gmail.com 1
+jherzog@ll.mit.edu 1
+johnsonhammond1@hushmail.com 1
+matt.ball@ieee.org 1
+simon@yubico.com 1

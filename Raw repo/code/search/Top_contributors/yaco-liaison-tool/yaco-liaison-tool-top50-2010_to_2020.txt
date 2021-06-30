@@ -1,0 +1,15 @@
+2010 TO 2020
+-------#####------->    yaco-liaison-tool
+esanchez@yaco.es 25
+henrik@levkowetz.com 24
+amorris@amsl.com 8
+smccammon@amsl.com 8
+paf@cisco.com 7
+glen@amsl.com 3
+pfaltstr@cisco.com 3
+housley@vigilsec.com 2
+lear@cisco.com 2
+Gonzalo.Camarillo@ericsson.com 1
+adrian@olddog.co.uk 1
+iesg-secretary@ietf.org 1
+leslie@thinkingcat.com 1

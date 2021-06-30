@@ -1,0 +1,33 @@
+I had a conversation with two more colleagues about this, whom I'm including in cc: Safiqul and Carsten.
+The idea was to see if we can maybe get something that's more than just "fun" from these queries already - can we perhaps use them to really learn something about the IETF?  How efficient it is, or how it has evolved over time?  We developed the following two ideas together today, about interesting things to find out:
+
+1) Per Working Group: considering the top X (X = maybe 10 or 20) posters (people who wrote emails), how many of them are also authors of RFCs from that Working Group? How has that developed over time?
+Here, the point is to understand: is the IETF just a forum where the authors discuss among themselves and do what they want, or is there more collaboration going on?
+(and was this better / worse in the past?)
+
+
+2) How many groups do people usually participate in? How has that developed over time?   Here, the point is to understand: is there cross-fertilization in the IETF, or are people working in silos, ignoring everything but their own work?  (and was this better / worse in the past?)
+
+
+3) How deep are threads containing "WGLC" or "last call" in the subject line? How many people participated in these threads, and how long (from date - to date) do they last? How has that developed over time?
+Here, the point is to understand: does the IETF procedure, where there is a "last call" during which people can make last-minute comments before a document is published, work - do people comment at all, or do things get delayed forever?  (and was this better / worse in the past?)
+
+
+For all topics above, we have a notion of "people". This could be just the "name" in your queries (of course, multiple people could have the same name, but we could assume it's not super common). As output, we probably want the email addresses that these people used, so we could use them for further analysis (e.g. RFCs contain the affiliations of all authors).
+
+For topic 1 above, the query that we need is then just the top X (maybe 20) people, ordered per Working Group, and clustered per decade (for "how has that developed over time").
+
+For "authors of RFCs from that Working Group", we could write a simple script file - seeing author names is not hard, there is even a .bib file for all RFCs, and finding RFC-per-Working-Group is at least doable by querying the draft name on top of the HTML page, see for example:
+https://tools.ietf.org/html/rfc8511
+which contains, in the first line: "draft-ietf-tcpm..." and the URL that this text points at has the full draft name.
+I'm not saying that you should do this (yet ;-) )!    At least for now, it's just about the query.
+
+For topic 2 above, we'd need the names of the Working Groups per person for the top 1000 posters (people) in the IETF, let's say also per decade.
+=> not just the number of Working Groups, also their names, because then, we could e.g. analyze "areas" (each WG belongs to an "area"), or IRTF vs. IETF groups.
+
+For topic 3 above, we'd need the thread depth (number of messages), the number of people participating, and the duration (from date - to date) in WGLC emails per Working Group, per decade.
+
+Does that sound reasonable?  Any thoughts?
+
+Cheers,
+Michael

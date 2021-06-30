@@ -1,0 +1,207 @@
+
+From wwwrun@core3.amsl.com  Fri Oct  8 08:29:04 2010
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 76E2B3A68F6; Fri,  8 Oct 2010 08:29:04 -0700 (PDT)
+X-idtracker: yes
+From: The IESG <iesg-secretary@ietf.org>
+To: IETF-Announce <ietf-announce@ietf.org>
+Message-Id: <20101008152904.76E2B3A68F6@core3.amsl.com>
+Date: Fri,  8 Oct 2010 08:29:04 -0700 (PDT)
+Cc: sip mailing list <sip@ietf.org>, sip chair <sip-chairs@tools.ietf.org>, Internet Architecture Board <iab@iab.org>, RFC Editor <rfc-editor@rfc-editor.org>
+Subject: [Sip] Protocol Action: 'Certificate Management Service for The Session Initiation Protocol (SIP)' to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Oct 2010 15:29:04 -0000
+
+The IESG has approved the following document:
+- 'Certificate Management Service for The Session Initiation Protocol
+   (SIP)'
+  <draft-ietf-sip-certs-15.txt> as a Proposed Standard
+
+This document is the product of the Session Initiation Protocol Working
+Group.
+
+The IESG contact persons are Robert Sparks and Gonzalo Camarillo.
+
+A URL of this Internet Draft is:
+https://datatracker.ietf.org/doc/draft-ietf-sip-certs/
+
+Technical Summary
+
+This draft defines a Credential Service that allows Session Initiation
+Protocol (SIP) User Agents (UAs) to use a SIP event package to discover
+the certificates of other users.  This mechanism allows user agents that
+want to contact a given Address-of-Record (AOR) to retrieve that AOR's
+certificate by subscribing to the Credential Service, which returns an
+authenticated response containing that certificate.  The Credential
+Service also allows users to store and retrieve their own certificates and
+private keys. Several operational modes are defined, wherein the
+credential service may act only as a distributor of the public key, may
+also act as a distributor of the encrypted private key, or as the
+repository and distributor of both the public and private key.
+
+
+Working Group Summary
+
+The working group process for this draft was unusually long, spanning
+several years.
+
+
+Document Quality
+ 
+We are currently not aware of any publicly announced implementations of
+this specification, although one can be built relatively trivially on top
+of general purpose SIP Events servers, and we are aware of at least one
+internal prototype implemented in this manner.
+
+MIME type review was non-controversial and was initiated on March 12,
+2007. Björn Höhrmann raised several points, which were resolved in the -04
+version of this specification.
+
+SIP Events review was performed by Adam Roach, with several issues being
+noted and resolved in -03 of this specification.
+
+
+Personnel
+
+   Dean Willis is Proto Document Shepherd for this document. Robert
+Sparks is the shepherding AD. Jon Peterson was the previous shepherding
+AD.
+
+
+From sammanengineer@gmail.com  Fri Oct 22 01:12:25 2010
+Return-Path: <sammanengineer@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 086A93A67E3; Fri, 22 Oct 2010 01:12:25 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.902
+X-Spam-Level: 
+X-Spam-Status: No, score=0.902 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, CHARSET_FARAWAY_HEADER=3.2, HTML_MESSAGE=0.001, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wRcDDEh8FV5T; Fri, 22 Oct 2010 01:12:24 -0700 (PDT)
+Received: from mail-yw0-f44.google.com (mail-yw0-f44.google.com [209.85.213.44]) by core3.amsl.com (Postfix) with ESMTP id BB3293A6782; Fri, 22 Oct 2010 01:12:23 -0700 (PDT)
+Received: by ywo32 with SMTP id 32so471278ywo.31 for <multiple recipients>; Fri, 22 Oct 2010 01:14:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:received:date:message-id :subject:from:to:content-type; bh=agXMCEWn4/DxDlxFbi67xw65Tn0lDWbggEwX/KiSiKk=; b=M30qExH69TvHNTZtKnfYIYWO5yZN0TX4u4qkdrUFA+9UFddSGFYmqMZbkNEogfgpmv Rhi7WL9YBfijzVcRB9PQWOAshOgojBIu/se5ErX3+6OV8oRBtcR4K6rHgNnQ+qjwlAgg MI+ADs6j00LESoQqdqoWBz1cigqaxCkiD1vEw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=DmQPzrLzTog+u8WHl2han3FQI6TOUGPD2YBqip6qy+cq9Hl2TRCO1iTnxQ1xFk17hE vo1oKl8MEMQiSZquc928sYz9qqXhwnaGfRyQNROYnngGqiM9yinkDqdQQoYecD1Lyajp /QUqDU37KIzZv89i8sZZ7Pvpbar8SXr6H6bzc=
+MIME-Version: 1.0
+Received: by 10.42.191.210 with SMTP id dn18mr1678029icb.288.1287735240710; Fri, 22 Oct 2010 01:14:00 -0700 (PDT)
+Received: by 10.220.87.3 with HTTP; Fri, 22 Oct 2010 01:14:00 -0700 (PDT)
+Date: Fri, 22 Oct 2010 16:14:00 +0800
+Message-ID: <AANLkTinz0EvmD6xVCjNa=wwD1db+_gcbLNQVds=0wTbU@mail.gmail.com>
+From: =?GB2312?B?y+/TwLni?= <sammanengineer@gmail.com>
+To: IETF Sipping List <sipping@ietf.org>, sip-implementors@lists.cs.columbia.edu, sip@ietf.org
+Content-Type: multipart/alternative; boundary=20cf301d4060965c4f04933039b4
+Subject: [Sip] call feature code
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 22 Oct 2010 08:12:25 -0000
+
+--20cf301d4060965c4f04933039b4
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear ALL
+
+  can you tell me which RFC or draft explain the call feature code , eg.
+call forwarding all *72
+
+Thanks
+
+
+-- 
+msn:yongguangsun@hotmail.com <msn%3Ayongguangsun@hotmail.com>
+
+--20cf301d4060965c4f04933039b4
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear ALL<div><br></div><div>=A0=A0can you tell me which RFC or draft explai=
+n the call feature code , eg. call forwarding all *72</div><div><br></div><=
+div>Thanks</div><div><br clear=3D"all"><br>-- <br><a href=3D"mailto:msn%3Ay=
+ongguangsun@hotmail.com">msn:yongguangsun@hotmail.com</a><br>
+<br>
+</div>
+
+--20cf301d4060965c4f04933039b4--
+
+From root@core3.amsl.com  Mon Oct 25 04:15:03 2010
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 1D02C3A698D; Mon, 25 Oct 2010 04:15:02 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20101025111503.1D02C3A698D@core3.amsl.com>
+Date: Mon, 25 Oct 2010 04:15:02 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-saml-08.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 25 Oct 2010 11:15:03 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : SIP SAML Profile and Binding
+	Author(s)       : H. Tschofenig, et al.
+	Filename        : draft-ietf-sip-saml-08.txt
+	Pages           : 45
+	Date            : 2010-10-25
+
+This document specifies a Session Initiation Protocol (SIP) profile
+of Security Assertion Markup Language (SAML) as well as a SAML SIP
+binding.  The defined SIP SAML Profile composes with the mechanisms
+defined in the SIP Identity specification and satisfy requirements
+presented in "Trait-based Authorization Requirements for the Session
+Initiation Protocol (SIP)".
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-saml-08.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-saml-08.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2010-10-25040958.I-D@ietf.org>
+
+
+--NextPart--

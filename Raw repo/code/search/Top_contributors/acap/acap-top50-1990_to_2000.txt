@@ -1,0 +1,13 @@
+1990 TO 2000
+-------#####------->    acap
+Internet-Drafts@ns.ietf.org 5
+lyndon@esys.ca 2
+wall@cyrusoft.com 2
+Internet-Drafts@ietf.org 1
+aidan@panix.com 1
+daboo@cyrusoft.com 1
+earhart+@CMU.EDU 1
+iesg-secretary@ns.ietf.org 1
+j6j644f@sprint.com 1
+markd@mira.net 1
+roy@mchip00.med.nyu.edu 1

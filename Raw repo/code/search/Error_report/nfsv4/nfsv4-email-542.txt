@@ -1,0 +1,97 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : IETF-Announce: ;
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['46th IETF-WASHINGTON, DC: MEETING LOGISTICS']
+Mailing-list : nfsv4
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nfsv4/1999-09.mailcl']
+id : 86195221-8403-4224-8017-f4861550c264
+_version_ : 1675132281121931266
+
+Content : 
+
+46th INTERNET ENGINEERING TASK FORCE        
+
+MEETING DATES: November 7-12, 1999                 
+
+TERMINAL ROOM HOSTED BY:  Nortel Networks Inc.
+
+HOTEL/MEETING SITE:
+  Omni Shoreham Hotel 
+  2500 Calvert Street, NW
+  Washington, DC 20008 USA
+  Phone: 202-756-5125 
+         800-843-6664 
+  Fax: 202-756-5145
+  Check-in: 1500; Check-out: 1200
+  Block of rooms held until Tuesday, October 5, 1999
+    Single: $140.00*      Triple: $190.00* 
+    Double: $165.00*      Quad: $215.00*
+      *These rates do not include state and local tax on guest rooms which
+      is currently 14.5%.
+  Specify: Internet Engineering Task Force (IETF)
+  Parking Service: registered guest rate is $14.00 per day flat rate which
+    includes in/our privileges.
+
+ADDITIONAL ACCOMMODATIONS:
+  Marriott Wardman Park Washington
+  2600 Woodley Road at Connecticut Avenue, NW
+  Washington, DC 20008 USA
+  Tel: 202-328-2900 or 800-228-9290
+  Check-in: 1500; Check-out 1200
+  You must call the hotel directly.
+  Specify: IETF-Internet Enginering Task Force
+  Single/Double: $190.00*
+    *This rate does not include state and local tax on guest rooms which
+    is currently 14.5%.
+  This hotel is located about one block from the Omni Shoreham Hotel.
+
+AIRLINES:
+  We are please to announce that we have been able to secure a special 
+  discount agreement with United Airlines unavailable to the general public.
+
+  A 5% discount off the lowest applicable fare will be offered ONLY when you 
+  or your travel agent call United's toll-free number 1-800-521-4041 and 
+  refer to the Meeting ID Number 573YO.  A 10% discount off the unrestricted 
+  mid week coach fare is available when purchased 7 days in advance.  An 
+  additional 5% discount will apply when you purchase your tickets at least 
+  60 days in advance of your travel date.  Discounts apply on United, Shuttle 
+  by United and United Express scheduled service in the United States, Canada 
+  and Puerto Rico.  Dedicated reservations are on duty 7 days a week, 7:00 AM 
+  to 12:00 midnight EST.  Book early to take advantage of promotional fares 
+  that give you the greatest discount.  Mileage Plus members receive full 
+  creit for all miles flowin to this meeting.
+
+AIRPORTS:
+  Washington National Airport
+    Located approximately 6 miles/9 km from the Omni Shoreham Hotel
+  Washington Dulles International Airport
+    Located approximately 30 miles/48 km from the Omni Shoreham Hotel
+  Baltimore-Washington International Airport
+    Located approximately 35 miles/56 km from from the Omni Shoreham Hotel
+
+
+
+----- End Included Message -----
+
+
+----- Begin Included Message -----

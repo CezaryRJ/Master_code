@@ -1,0 +1,198 @@
+Date : ['2006-09-08T11:09:37Z']
+Timezone : -0700
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<45011880.4837@xyzzy.claranet.de>']
+In-Reply-To-name : Null
+In-Reply-To-address :  45011880.4837@xyzzy.claranet.de
+Message-ID : <70C6EFCDFC8AAD418EF7063CD132D06401E044A6@WIN-MSG-21.wingroup.windeploy.ntdev.microsoft.com>
+References : <44FD8C09.2000603@cisco.com><44FE8DA8.A7D@xyzzy.claranet.de><44FE9B67.50300@zurich.ibm.com><44FEB28C.7AA5@xyzzy.claranet.de><8B3BA030F1E4B14A9D58E224@p3.JCK.COM><7.0.1.0.0.20060907140722.03a5f450@OpenLDAP.org><0C7EB4D54C5EE90D50845600@p3.JCK.COM><7.0.1.0.0.20060907164410.03a56878@OpenLDAP.org><70C6EFCDFC8AAD418EF7063CD132D06401E0419E@WIN-MSG-21.wingroup.windeploy.ntdev.microsoft.com><4500DA27.18@xyzzy.claranet.de><70C6EFCDFC8AAD418EF7063CD132D06401E04248@WIN-MSG-21.wingroup.windeploy.ntdev.microsoft.com>
+	<45011880.4837@ve to such requests. I note that, if
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2006-09.mailcl']
+id : e71bbe29-4d6d-4a68-bc48-b2cee7ef5bf2
+_version_ : 1675130203973615616
+
+Content : 
+
+there was any attempt to get a new format, or requirements to
+comply with a prospective new format design effort, into the RFC
+Editor RFP, it somehow seems to have missed me.
+
+> I would be all for draft but not recommended if we got to a
+> point where the users of our documents would understand what
+> that meant.
+
+Your belief that they do not (I'd suggest that there is little
+evidence that most users of our documents understand the real
+difference between Proposed and Draft either) is not, I believe,
+justification for nullifying the provisions of RFC 2026 and,
+instead, substituting your (or the IESG's) judgment for them.
+
+> I'm all for experiments--even ISD-like
+> experiments--in organizing our metadata and descriptions of
+> standards so people could get these points.  I don't have time
+> to work on those experiments myself and so until they succeed
+> my preference is to be conservative.
+
+Our interpretation of "conservative" differs a bit in this case.
+Given the identified problems with reliance on clear-text
+challenge-response techniques, my version of "conservative"
+would involve publishing a document that recognizes the wide
+deployment and use of protocols of this sort but that carefully
+explains (perhaps partially by reference, rather than inclusion
+of everything in-line) the risks and limitations associated with
+relying on them in unprotected environments.   If one does not
+believe in recommendation levels, then it becomes an interesting
+question about what maturity level should be assigned to such a
+document, but I do not believe we have a model for Informational
+documents superceding ("Obsoletes") a standards-track document.
+
+>     John> It is not consistent with our published policies as
+> I read     John> them to refuse to promote it to Draft simply
+> because there     John> is general feeling that security
+> technology has passed it     John> by.  But that is, I think,
+> exactly what would happen today     John> if the protocol were
+> proposed for advancement.
+> 
+> OK.  I read RFC 2026 as giving the IESG the latitude to make a
+> judgment of the technical quality of a protocol (and the TS)
+> when advancing along the standards track.  I'd always assumed
+> that the IESG should include factors like security in that
+> determination--not just interoperability.  Heck, I even
+> assumed it was reasonable to have a higher bar for spec
+> clarity at DS than PS.
+
+I think both of those (spec quality and factors like security)
+are useful and important.  But 2026 seems very clear on this
+subject:
+
+> 4.1.2  Draft Standard
+> 
+>    A specification from which at least two independent and
+>    interoperable implementations from different code bases
+>    have been developed, and for which sufficient successful
+>    operational experience has been obtained, may be elevated
+>    to the "Draft Standard" level.  For the purposes of this
+>    section, "interoperable" means to be functionally
+>    equivalent or interchangeable components of the system or
+>    process in which they are used.  
+>    [...] Elevation to
+>    Draft Standard is a major advance in status, indicating a
+>    strong belief that the specification is mature and will be
+>    useful.
+
+This specification is about as mature as it is going to get.  As
+Frank has pointed out, the critical strings are actually
+well-specified with regard to encoding, etc. and the others are
+opaque and a server-only or client-only problem.  One can warn
+against its use (and I think should do so), but the deployment
+of the protocol gives all of the proof needed about utility.
+
+Note that full Standards are different: the requirement there
+(but only there) includes "provides significant benefit to the
+Internet
+community" and one could sensibly claim that a protocol,
+especially one that was intended to enhance security, that posed
+serious security risks if deployed carelessly does not, on
+balance, provide such benefits.
+
+I believe that, if there is a difference of opinion here, it is
+that I believe that a widely-deployed, useful (in the opinions
+of those who haxyzzy.claranet.de>
+From: Christian Huitema <huitema@windows.microsoft.com>
+To: Frank Ellermann <nobody@xyzzy.claranet.de>, <ietf@ietf.org>
+X-OriginalArrivalTime: 08 Sep 2006 18:09:42.0111 (UTC)
+	FILETIME=[F4F526F0:01C6D371]
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 856eb5f76e7a34990d1d457d8e8e5b7f
+Cc: 
+Subject: RE: RFC 2195 (Was: what happened to newtrk?)
+X-BeenThere: ietf@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: IETF-Discussion <ietf.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:ietf@ietf.org>
+List-Help: <mailto:ietf-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ietf>,
+	<mailto:ietf-request@ietf.org?subject=subscribe>
+Errors-To: ietf-bounces@ietf.org
+
+> Next slide, yes, CRAM-MD5 is *not* designed for that attack.
+
+That is my point. We should not, in 2006, standardize "security" methods
+that are not robust against a fairly well known attack.
+
+> Adding a prose version of your slides 3..6 and 13 to the
+> security considerations of a 2195bis could improve it.  Do I
+> miss a clue, or has DIGEST-MD5 essentially the same issue ?
+
+DIGEST-MD5 is somewhat more robust than CRAM-MD5 because it incorporates
+protection against "chosen plaintext" attacks. If an attacker can fake a
+server and send a chosen challenge, then the dictionary attack can be
+accelerated with a pre-computed catalog. However, current dictionary
+attacks do not need to rely on pre-computation, since a modern PC can
+compute more than a million MD5 hashes per second. So, yes, DIGEST-MD5
+has essentially the same issue.
+
+-- Christian Huitema
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf
+
+
+
+
+
+ve deployed and used it) protocol for which
+multiple independent implementations exist (and have been
+deployed) should be documented and put/left on the standards
+track as a specification of how things should be done if one
+chooses to do those things.   I also believe that such a
+document may reasonably contain any qualifying language -- and
+even warnings and/or threats-- the community considers
+appropriate and note that 2026 explicitly provides for AS
+information to be folded into what would otherwise be a TS RFC.
+So my view of what should be done with the standards-track RFCs
+that are based on CRAM-MD5 is that the RFCs should be reissued,
+with tightened definitions as needed, extensive security
+considerations sections, and a strong recommendation to not use
+the things except under specific and controlled circumstances.
+If the documents meet the published requirements for Draft, then
+they should be published at Draft.
+
+The recent practice in the IESG appears to have been closer to
+"if we don't like it or would not recommend it, it should not be
+published at all, especially on the standards track no matter
+how widely interoperable implementations are deployed".  I can
+find little support for that position in RFC 2026 or elsewhere.
+And, again, I don't recall hearing a proposal --to Newtrk or
+elsewhere-- to change it.
+
+    john
+
+
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf

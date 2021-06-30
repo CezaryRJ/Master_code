@@ -1,0 +1,19 @@
+2010 TO 2020
+-------#####------->    oauth-ext-review
+Michael.Jones@microsoft.com 14
+eve.maler@forgerock.com 13
+bcampbell@pingidentity.com 12
+MiguelAngel.ReinaOrtega@etsi.org 6
+hannes.tschofenig@gmx.net 6
+jricher@mit.edu 6
+torsten@lodderstedt.net 5
+Hannes.Tschofenig@arm.com 2
+Hannes.Tschofenig@gmx.net 2
+James.H.Manger@team.telstra.com 1
+drafts-expert-review@iana.org 1
+herve.robache@stet.eu 1
+ietf-secretariat@ietf.org 1
+judy.bromley@ebiquityinsights.com 1
+marilia.hirano@iana.org 1
+nat@sakimura.org 1
+wdenniss@google.com 1

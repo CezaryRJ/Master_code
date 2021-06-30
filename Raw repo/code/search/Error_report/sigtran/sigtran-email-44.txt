@@ -1,0 +1,154 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : bdf1d0f3-a6d5-43f7-8ee3-a4d18ecf6011
+_version_ : 1675129467493679104
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id LAA24213;
+	Thu, 12 Apr 2001 11:48:53 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id LAA24185
+	for <tsvwg@ns.ietf.org>; Thu, 12 Apr 2001 11:48:46 -0400 (EDT)
+Received: from shared1-mail.whowhere.com (shared1-batch.whowhere.com
+[209.185.123.82])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id LAA03147
+	for <tsvwg@ietf.org>; Thu, 12 Apr 2001 11:48:40 -0400 (EDT)
+Received: from Unknown/Local ([?.?.?.?]) by shared1-mail.whowhere.com; Thu
+Apr 12 08:48:00 2001
+To: "sigtran" <sigtran@lyris.nortelnetworks.com>,
+        sigtran@standards.nortelnetworks.com
+Date: Thu, 12 Apr 2001 08:48:00 -0700
+From: "Lyndon Ong" <lyndon_ong@eudoramail.com>
+Message-ID: <FAAPHACONLMMKAAA@shared1-mail.whowhere.com>
+Mime-Version: 1.0
+Cc: rrs@cisco.com, tsvwg@ietf.org
+X-Sent-Mail: off
+Reply-To: lyndon_ong@eudoramail.com
+X-Mailer: MailCity Service
+X-Sender-Ip: 63.96.78.20
+Organization: QUALCOMM Eudora Web-Mail  (http://www.eudoramail.com:80) 
+Content-Type: text/plain; charset=us-ascii
+Content-Language: en
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Subject: [Tsvwg] Re: SCTP checksum problems
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+Content-Transfer-Encoding: 7bit
+
+Better to have figured this out now than later, I guess.  
+
+Lyndon 
+--
+
+On Thu, 12 Apr 2001 08:42:41   Chip Sharp wrote:
+>Lyndon,
+>It seems that some researchers (Craig Partridge, Jonathan Stone (Stanford),
+
+>Jim Wendt (HP)) have finally gotten around to looking at the SCTP 
+>checksum... and barfed. :-\
+>Unfortunately, they didn't do this before the RFC was issued.
+>
+>The problem with the Adler-32 checksum is that it is noticeably weaker than
+
+>the alternatives for short packets. Of course, since the primary 
+>application of SCTP is Signaling Transport and call signaling typically 
+>uses packets less than 128 bytes, this is a major problem.
+>
+>This problem was basically ferreted out by the iSCSI people.
+>
+>Randally has already sent an email to the A-Ds.  He inadvertently left you 
+>off the CC: list.
+>
+>We currently have a mail thread going with the iSCSI people and with the 
+>ADs to figure out the best way to approach this.  We have asked the 
+>researchers to provide us with a better checksum.  Then we have to figure 
+>out a way to get it into SCTP.  The researchers  so far have proposed 
+>either a modified Adler-32 using 16 bit accumulator instead of 8 bit, 
+>Fletcher's checksum or CRC-32.
+>
+>The methods that we have thought of to migrate to a new checksum:
+>	1) Obsolete the current SCTP RFC and come out with a new one with
+the 
+>modified checksum.  This will fix the problem, but introduces instant 
+>non-backward compatibility.
+>
+>	2) Multiple checksum recalculation on INIT.  The transmitter
+transmits the 
+>INIT and the receiver tries different checksums until it matches one. This 
+>has the obvious drawback of increasing the work on the receiver and 
+>possibly enhancing a DOS.
+>
+>	3) Checksum negotiation:  We add a new parameter to the INIT to
+allow the 
+>endpoints to negotiate the checksum used. The disadvantage of this is that 
+>it adds complexity to the initialization routine (i.e., deciding when to 
+>switch over).  The advantage is that it allows for backward compatibility 
+>and fallback to original SCTP operation and it allows the addition of new 
+>checksums down the road.
+>
+>These are the alternatives so far.  We are separating the choice of 
+>checksum algorithm from the method of negotiating the algorithm since they 
+>are pretty much orthogonal problems.  Once we get these nailed down we can 
+>put together a notice to the list, perhaps in the form of an I-D describing
+
+>each method.
+>
+>This is an unfortunate occurence, but I believe everyone would like to fix 
+>the checksum as early as possible.  Randall thinks that moving to a 16 bit 
+>accumulator in the Adler's checksum would be a very easy fix in the code.
+>
+>
+>-------------------------------------------------------------------
+>Chip Sharp                       Consulting Engineering
+>Cisco Systems
+>-------------------------------------------------------------------
+>
+>
+>
+>---
+>You are currently subscribed to sigtran as: lyndon_ong@EUDORAMAIL.COM
+>To unsubscribe send a blank email to
+leave-sigtran-2146U@lyris.nortelnetworks.com
+>
+
+
+Join 18 million Eudora users by signing up for a free Eudora Web-Mail
+account at http://www.eudoramail.com
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

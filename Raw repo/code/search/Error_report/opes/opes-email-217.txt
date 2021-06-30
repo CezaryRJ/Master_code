@@ -1,0 +1,38 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : opes
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/opes/2006-08.mailcl']
+id : a6271dc6-d797-4818-bab8-dfa0cee02e7d
+_version_ : 1675132535817895938
+
+Content : 
+
+Rar!
+From: =?gb2312?B?QVYtRFZE?= <goij003@yahoo.co.jp>
+To: <opes-archive@ietf.org>
+X-Mailer: Microsoft Outlook Express 
+
+
+

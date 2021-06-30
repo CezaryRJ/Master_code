@@ -1,0 +1,1630 @@
+
+From wwwrun@rfc-editor.org  Mon Apr  5 10:32:07 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E36E03A688F for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:32:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.314
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.314 tagged_above=-999 required=5 tests=[AWL=0.286,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id q98dFJXbdJ6C for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:32:07 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 1979B3A679C for <sip@ietf.org>; Mon,  5 Apr 2010 10:32:07 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id B34E0E07A4; Mon,  5 Apr 2010 10:32:05 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100405173205.B34E0E07A4@rfc-editor.org>
+Date: Mon,  5 Apr 2010 10:32:05 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5479 (2120)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 05 Apr 2010 17:32:08 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2120
+
+--------------------------------------
+Type: Editorial
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: 4.4,3rd para
+
+Original Text
+-------------
+|  A typical case of using media security where two entities are having
+   a Voice over IP (VoIP) conversation over IP-capable networks.
+   [...]
+
+Corrected Text
+--------------
+|  A typical case of using media security is where two entities are
+   having a Voice over IP (VoIP) conversation over IP-capable networks.
+   [...]
+
+Notes
+-----
+Rationale: missing verb.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Mon Apr  5 10:51:18 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 7BF5B3A67EF for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:51:18 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.334
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.334 tagged_above=-999 required=5 tests=[AWL=0.266,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id rs7QrDNoIxNj for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:51:17 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id C57FF3A67C2 for <sip@ietf.org>; Mon,  5 Apr 2010 10:51:14 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 6C5A2E07A3; Mon,  5 Apr 2010 10:51:13 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100405175113.6C5A2E07A3@rfc-editor.org>
+Date: Mon,  5 Apr 2010 10:51:13 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5479 (2121)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 05 Apr 2010 17:51:18 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2121
+
+--------------------------------------
+Type: Editorial
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: 5.1 - 5.3
+
+Original Text
+-------------
+
+
+Corrected Text
+--------------
+
+
+Notes
+-----
+Sections 5.1 through 5.3 use unexpected irregular, non-uniform
+indentation in hanging lists; this is accompanied by dangling
+hyphens in 5.2 ( s/third- party/third-party/ and 
+s/crypto- agility/crypto-agility/ !).
+
+(Keep for update!)
+third- party
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Mon Apr  5 10:54:41 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 1D31F3A67C2 for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:54:41 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.352
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.352 tagged_above=-999 required=5 tests=[AWL=0.248,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id xhBx3wqXebfd for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:54:40 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 700613A679C for <sip@ietf.org>; Mon,  5 Apr 2010 10:54:40 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 17348E07A3; Mon,  5 Apr 2010 10:54:39 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100405175439.17348E07A3@rfc-editor.org>
+Date: Mon,  5 Apr 2010 10:54:39 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5479 (2122)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 05 Apr 2010 17:54:41 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2122
+
+--------------------------------------
+Type: Editorial
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: App. A
+
+Original Text
+-------------
+[[ second-to-last paragraph, on mid-page 24: ]]
+
+   Related to SRTP's characteristics is a goal that any SRTP keying
+|  mechanism to also be efficient and not cause additional call setup
+   delay.
+
+Corrected Text
+--------------
+   Related to SRTP's characteristics is a goal that any SRTP keying
+|  mechanism also be efficient and not cause additional call setup
+   delay.
+
+Notes
+-----
+Rationale: language/grammar improvement -- keep for update!
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Mon Apr  5 10:56:57 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 568273A679C for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:56:57 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.368
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.368 tagged_above=-999 required=5 tests=[AWL=0.232,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kymVRRmrpTha for <sip@core3.amsl.com>; Mon,  5 Apr 2010 10:56:56 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id A0DA73A6910 for <sip@ietf.org>; Mon,  5 Apr 2010 10:56:56 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 3E951E07A3; Mon,  5 Apr 2010 10:56:55 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100405175655.3E951E07A3@rfc-editor.org>
+Date: Mon,  5 Apr 2010 10:56:55 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5479 (2123)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 05 Apr 2010 17:56:57 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2123
+
+--------------------------------------
+Type: Editorial
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: A.1.7
+
+Original Text
+-------------
+[[ second paragraph: ]]
+
+   With this proposal, the ECDSA signature, MIKEY-ECIES, and MIKEY-ECMQV
+|  function exactly like MIKEY-RSA, and the new DH-Group code function
+   exactly like MIKEY-DHSIGN.  Therefore, these ECC mechanisms are not
+   discussed separately in this document.
+
+
+Corrected Text
+--------------
+   With this proposal, the ECDSA signature, MIKEY-ECIES, and MIKEY-ECMQV
+|  function exactly like MIKEY-RSA, and the new DH-Group code functions
+   exactly like MIKEY-DHSIGN.  Therefore, these ECC mechanisms are not
+   discussed separately in this document.
+
+
+Notes
+-----
+Rationale: singular/plural mismatch -- keep for update!
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Mon Apr  5 11:00:51 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 9148B3A6853 for <sip@core3.amsl.com>; Mon,  5 Apr 2010 11:00:51 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.381
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.381 tagged_above=-999 required=5 tests=[AWL=0.219,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id khtx3LJcCduq for <sip@core3.amsl.com>; Mon,  5 Apr 2010 11:00:50 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id BDD6E3A659A for <sip@ietf.org>; Mon,  5 Apr 2010 11:00:50 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 5DF1FE07A3; Mon,  5 Apr 2010 11:00:49 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100405180049.5DF1FE07A3@rfc-editor.org>
+Date: Mon,  5 Apr 2010 11:00:49 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5479 (2124)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 05 Apr 2010 18:00:51 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2124
+
+--------------------------------------
+Type: Editorial
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: A.1.11
+
+Original Text
+-------------
+   MIKEYv2 [MIKEYv2] adds mode negotiation to MIKEYv1 and removes the
+   time synchronization requirement.  It therefore now takes 2 round
+   trips to complete.  In the first round trip, the communicating
+   parties learn each other's identities, agree on a MIKEY mode, crypto
+|  algorithm, SRTP policy, and exchanges nonces for replay protection.
+   In the second round trip, they negotiate unicast and/or group SRTP
+   context for SRTP and/or SRTCP.
+
+
+Corrected Text
+--------------
+   MIKEYv2 [MIKEYv2] adds mode negotiation to MIKEYv1 and removes the
+   time synchronization requirement.  It therefore now takes 2 round
+   trips to complete.  In the first round trip, the communicating
+   parties learn each other's identities, agree on a MIKEY mode, crypto
+|  algorithm, SRTP policy, and exchange nonces for replay protection.
+   In the second round trip, they negotiate unicast and/or group SRTP
+   context for SRTP and/or SRTCP.
+
+
+Notes
+-----
+Rationale: singular/plural mismatch -- keep for update!
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Mon Apr  5 11:04:22 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 06CC53A6888 for <sip@core3.amsl.com>; Mon,  5 Apr 2010 11:04:22 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.393
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.393 tagged_above=-999 required=5 tests=[AWL=0.207,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bviYskDuXui7 for <sip@core3.amsl.com>; Mon,  5 Apr 2010 11:04:21 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 3AB153A659A for <sip@ietf.org>; Mon,  5 Apr 2010 11:04:21 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id D9DD3E07A3; Mon,  5 Apr 2010 11:04:19 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100405180419.D9DD3E07A3@rfc-editor.org>
+Date: Mon,  5 Apr 2010 11:04:19 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5479 (2125)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 05 Apr 2010 18:04:22 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2125
+
+--------------------------------------
+Type: Editorial
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: A.4.3
+
+Original Text
+-------------
+|  In SRTP, a cryptographic context is defined as the SSRC, destination
+|  network address, and destination transport port number.  Whereas RTP,
+|  a flow is defined as the destination network address and destination
+   transport port number.  This results in a problem -- how to
+   communicate the SSRC so that the SSRC can be used for the
+   cryptographic context.
+
+
+Corrected Text
+--------------
+|  In SRTP, a cryptographic context is defined by the SSRC, destination
+|  network address, and destination transport port number, whereas in RTP,
+|  a flow is defined by the destination network address and destination
+   transport port number.  This results in a problem -- how to
+   communicate the SSRC so that the SSRC can be used for the
+   cryptographic context.
+
+
+Notes
+-----
+Rationale: clarification/language improvement -- keep for update!
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Mon Apr  5 11:06:25 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 86BE33A68F9 for <sip@core3.amsl.com>; Mon,  5 Apr 2010 11:06:25 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.404
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.404 tagged_above=-999 required=5 tests=[AWL=0.196,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id opVnF4qLdGNL for <sip@core3.amsl.com>; Mon,  5 Apr 2010 11:06:24 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id C351F3A68DD for <sip@ietf.org>; Mon,  5 Apr 2010 11:06:24 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 676C7E07A3; Mon,  5 Apr 2010 11:06:23 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100405180623.676C7E07A3@rfc-editor.org>
+Date: Mon,  5 Apr 2010 11:06:23 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC5479 (2126)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 05 Apr 2010 18:06:25 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2126
+
+--------------------------------------
+Type: Editorial
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: A.5.3
+
+Original Text
+-------------
+[[ 4th paragraph: ]]
+
+   Currently, several techniques are commonly considered as candidates
+|  to provide opportunistic encryption:
+
+
+Corrected Text
+--------------
+   Currently, several techniques are commonly considered as candidates
+|  to provide best effort encryption:
+
+
+Notes
+-----
+Rationales: consistency with section headline.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Fri Apr 23 06:27:02 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id F1CAA3A68AE for <sip@core3.amsl.com>; Fri, 23 Apr 2010 06:27:01 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.627
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.627 tagged_above=-999 required=5 tests=[AWL=-0.516, BAYES_05=-1.11, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id CKNRgWetlIZN for <sip@core3.amsl.com>; Fri, 23 Apr 2010 06:27:01 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 31E953A68A2 for <sip@ietf.org>; Fri, 23 Apr 2010 06:25:10 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 4BF9EE07CC; Fri, 23 Apr 2010 06:25:00 -0700 (PDT)
+To: jari.arkko@ericsson.com, vesa.torvinen@ericsson.fi, Gonzalo.Camarillo@ericsson.com, aki.niemi@nokia.com, tao.haukka@nokia.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100423132500.4BF9EE07CC@rfc-editor.org>
+Date: Fri, 23 Apr 2010 06:25:00 -0700 (PDT)
+Cc: sip@ietf.org, peter.dawes@vodafone.com, rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC3329 (2169)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Apr 2010 13:27:02 -0000
+
+The following errata report has been submitted for RFC3329,
+"Security Mechanism Agreement for the Session Initiation Protocol (SIP)".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=3329&eid=2169
+
+--------------------------------------
+Type: Technical
+Reported by: Peter Dawes <peter.dawes@vodafone.com>
+
+Section: 4.1
+
+Original Text
+-------------
+The 200 OK response (6) for the INVITE and the ACK (7) are also sent
+   over the TLS connection.  The ACK will contain the same Security-
+   Verify header field as the INVITE (3).
+
+Corrected Text
+--------------
+The 200 OK response (6) for the INVITE and the ACK (7) are also sent
+   over the TLS connection.
+
+Notes
+-----
+RFC3329 Section 2.6, Table 1: Summary of Header Usage. indicates that Security-Client, Security-Server, Security-Verify are "Not applicable" to the SIP ACK request.
+
+RFC 3261 says (section 20) "Not applicable" means that the header
+   field MUST NOT be present in a request.  If one is placed in a
+   request by mistake, it MUST be ignored by the UAS receiving the
+   request.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC3329 (draft-ietf-sip-sec-agree-05)
+--------------------------------------
+Title               : Security Mechanism Agreement for the Session Initiation Protocol (SIP)
+Publication Date    : January 2003
+Author(s)           : J. Arkko, V. Torvinen, G. Camarillo, A. Niemi, T. Haukka
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Fri Apr 23 06:28:43 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3F3CC3A67D7 for <sip@core3.amsl.com>; Fri, 23 Apr 2010 06:28:43 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.362
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.362 tagged_above=-999 required=5 tests=[AWL=0.238,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vxI8VzLCcDyB for <sip@core3.amsl.com>; Fri, 23 Apr 2010 06:28:42 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 72F9E3A6827 for <sip@ietf.org>; Fri, 23 Apr 2010 06:28:04 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 91575E07CC; Fri, 23 Apr 2010 06:27:54 -0700 (PDT)
+To: jari.arkko@ericsson.com, vesa.torvinen@ericsson.fi, Gonzalo.Camarillo@ericsson.com, aki.niemi@nokia.com, tao.haukka@nokia.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100423132754.91575E07CC@rfc-editor.org>
+Date: Fri, 23 Apr 2010 06:27:54 -0700 (PDT)
+Cc: sip@ietf.org, peter.dawes@vodafone.com, rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC3329 (2170)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Apr 2010 13:28:43 -0000
+
+The following errata report has been submitted for RFC3329,
+"Security Mechanism Agreement for the Session Initiation Protocol (SIP)".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=3329&eid=2170
+
+--------------------------------------
+Type: Technical
+Reported by: Peter Dawes <peter.dawes@vodafone.com>
+
+Section: 4.2
+
+Original Text
+-------------
+The second INVITE (4) and the ACK (8) contain a Security-Verify
+   header field that mirrors the Security-Server header field received
+   in the 421.
+
+Corrected Text
+--------------
+The second INVITE (4) contains a Security-Verify
+   header field that mirrors the Security-Server header field received
+   in the 421.
+
+Notes
+-----
+RFC 3329 Section 2.6, Table 1: Summary of Header Usage. indicates that Security-Client, Security-Server, Security-Verify are "Not applicable" to the SIP ACK request.
+
+RFC 3261 says "Not applicable" means that the header field MUST NOT be present in a request.  If one is placed in a request by mistake, it MUST be ignored by the UAS receiving the request."
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC3329 (draft-ietf-sip-sec-agree-05)
+--------------------------------------
+Title               : Security Mechanism Agreement for the Session Initiation Protocol (SIP)
+Publication Date    : January 2003
+Author(s)           : J. Arkko, V. Torvinen, G. Camarillo, A. Niemi, T. Haukka
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From dean.willis@softarmor.com  Fri Apr 23 09:13:33 2010
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 429403A6A88 for <sip@core3.amsl.com>; Fri, 23 Apr 2010 09:13:33 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.385
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.385 tagged_above=-999 required=5 tests=[AWL=0.214,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id getZ3k8ls-mn for <sip@core3.amsl.com>; Fri, 23 Apr 2010 09:13:31 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 3C7153A6A67 for <sip@ietf.org>; Fri, 23 Apr 2010 09:13:30 -0700 (PDT)
+Received: from [192.168.2.115] (cpe-66-25-30-183.tx.res.rr.com [66.25.30.183]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id o3NGD9ce024012 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT); Fri, 23 Apr 2010 11:13:11 -0500
+Message-Id: <D9EE2DA4-F7BD-4D42-BA7A-295FE8590B4B@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: RFC Errata System <rfc-editor@rfc-editor.org>
+In-Reply-To: <20100423132754.91575E07CC@rfc-editor.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Fri, 23 Apr 2010 11:13:04 -0500
+References: <20100423132754.91575E07CC@rfc-editor.org>
+X-Mailer: Apple Mail (2.936)
+Cc: jari.arkko@ericsson.com, sip@ietf.org, peter.dawes@vodafone.com, drage@alcatel-lucent.com, Gonzalo.Camarillo@ericsson.com, vesa.torvinen@ericsson.fi, aki.niemi@nokia.com, tao.haukka@nokia.com
+Subject: Re: [Sip] [Technical Errata Reported] RFC3329 (2170)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Apr 2010 16:13:33 -0000
+
+These reports should probably be going to DISPATCH rather than SIP, I  
+think. Or is it SIPCORE?
+
+On Apr 23, 2010, at 8:27 AM, RFC Errata System wrote:
+
+>
+> The following errata report has been submitted for RFC3329,
+> "Security Mechanism Agreement for the Session Initiation Protocol  
+> (SIP)".
+>
+> --------------------------------------
+> You may review the report below and at:
+> http://www.rfc-editor.org/errata_search.php?rfc=3329&eid=2170
+>
+> --------------------------------------
+> Type: Technical
+> Reported by: Peter Dawes <peter.dawes@vodafone.com>
+>
+> Section: 4.2
+>
+> Original Text
+> -------------
+> The second INVITE (4) and the ACK (8) contain a Security-Verify
+>   header field that mirrors the Security-Server header field received
+>   in the 421.
+>
+> Corrected Text
+> --------------
+> The second INVITE (4) contains a Security-Verify
+>   header field that mirrors the Security-Server header field received
+>   in the 421.
+>
+> Notes
+> -----
+> RFC 3329 Section 2.6, Table 1: Summary of Header Usage. indicates  
+> that Security-Client, Security-Server, Security-Verify are "Not  
+> applicable" to the SIP ACK request.
+>
+> RFC 3261 says "Not applicable" means that the header field MUST NOT  
+> be present in a request.  If one is placed in a request by mistake,  
+> it MUST be ignored by the UAS receiving the request."
+>
+> Instructions:
+> -------------
+> This errata is currently posted as "Reported". If necessary, please
+> use "Reply All" to discuss whether it should be verified or
+> rejected. When a decision is reached, the verifying party (IESG)
+> can log in to change the status and edit the report, if necessary.
+>
+> --------------------------------------
+> RFC3329 (draft-ietf-sip-sec-agree-05)
+> --------------------------------------
+> Title               : Security Mechanism Agreement for the Session  
+> Initiation Protocol (SIP)
+> Publication Date    : January 2003
+> Author(s)           : J. Arkko, V. Torvinen, G. Camarillo, A. Niemi,  
+> T. Haukka
+> Category            : PROPOSED STANDARD
+> Source              : Session Initiation Protocol
+> Area                : Real-time Applications and Infrastructure
+> Stream              : IETF
+> Verifying Party     : IESG
+>
+
+
+From vkg@bell-labs.com  Mon Apr 26 15:02:14 2010
+Return-Path: <vkg@bell-labs.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 4784D3A67E6 for <sip@core3.amsl.com>; Mon, 26 Apr 2010 15:02:14 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.92
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.92 tagged_above=-999 required=5 tests=[AWL=-0.921,  BAYES_50=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id byVVQ8tCh4mi for <sip@core3.amsl.com>; Mon, 26 Apr 2010 15:02:14 -0700 (PDT)
+Received: from ihemail1.lucent.com (ihemail1.lucent.com [135.245.0.33]) by core3.amsl.com (Postfix) with ESMTP id 146F83A67D2 for <sip@ietf.org>; Mon, 26 Apr 2010 15:02:14 -0700 (PDT)
+Received: from umail.lucent.com (h135-3-40-63.lucent.com [135.3.40.63]) by ihemail1.lucent.com (8.13.8/IER-o) with ESMTP id o3QM1caR017043 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Mon, 26 Apr 2010 17:01:38 -0500 (CDT)
+Received: from shoonya.ih.lucent.com (Knoppix-135185238233.ih.lucent.com [135.185.238.233]) by umail.lucent.com (8.13.8/TPES) with ESMTP id o3QM1bm7021096; Mon, 26 Apr 2010 17:01:37 -0500 (CDT)
+Message-ID: <4BD60D89.3070902@bell-labs.com>
+Date: Mon, 26 Apr 2010 17:02:49 -0500
+From: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Organization: Bell Laboratories, Alcatel-Lucent
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100330 Fedora/3.0.4-1.fc12 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Paul Kyzivat <pkyzivat@cisco.com>
+References: <20100305233033.8662628C400@core3.amsl.com> <4B919F23.7030502@cisco.com>
+In-Reply-To: <4B919F23.7030502@cisco.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.33
+Cc: SIP IETF <sip@ietf.org>
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 26 Apr 2010 22:02:14 -0000
+
+Attending to pending email ... sorry for the delayed response.
+
+On 03/05/2010 06:17 PM, Paul Kyzivat wrote:
+> I see this is very close to done.
+> I'm sorry to only be looking at it now.
+> While I don't see a problem with what is in this,
+> I do see a logical omission:
+>
+> This calls out that comparison of the binary forms of the ip address,
+> and this fixes a problem with ipv4 as well as ipv6.
+>
+> A similar problem exists for the port number:
+> are <sip:foo@bar:1234> and <sip:foo@bar:01234> the same???
+>
+> ISTM that binary comparison should also be used for port numbers.
+>
+> But is it worth pulling this back to fix that???
+
+Paul: <sip:foo@bar:01234> could also be interpreted as the digits
+comprising the port "1234" to be in base 8 (leading 0 signifies
+an octal base.)
+
+Writing leading zeroes for IPv4 address is not prevalent; by the
+same token, representing ports in octal base is not prevalent either.
+So I am inclined to let sleeping dogs lie.
+
+However, if the sponsoring AD or anyone monitoring this list feels
+strongly, I don't mind adding a sentence or two to this effect in
+the draft.
+
+Thanks,
+
+- vijay
+
+From pkyzivat@cisco.com  Mon Apr 26 16:03:01 2010
+Return-Path: <pkyzivat@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id DED4F3A67C2 for <sip@core3.amsl.com>; Mon, 26 Apr 2010 16:03:01 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -9.423
+X-Spam-Level: 
+X-Spam-Status: No, score=-9.423 tagged_above=-999 required=5 tests=[AWL=-0.683, BAYES_20=-0.74, RCVD_IN_DNSWL_HI=-8]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UoigRNFcptsg for <sip@core3.amsl.com>; Mon, 26 Apr 2010 16:02:56 -0700 (PDT)
+Received: from sj-iport-2.cisco.com (sj-iport-2.cisco.com [171.71.176.71]) by core3.amsl.com (Postfix) with ESMTP id 1A7703A6BE5 for <sip@ietf.org>; Mon, 26 Apr 2010 16:02:53 -0700 (PDT)
+Authentication-Results: sj-iport-2.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAJO31UurRN+J/2dsb2JhbACcQHGnZIkckHWFCwQ
+X-IronPort-AV: E=Sophos;i="4.52,276,1270425600"; d="scan'208";a="252597769"
+Received: from sj-core-3.cisco.com ([171.68.223.137]) by sj-iport-2.cisco.com with ESMTP; 26 Apr 2010 23:02:41 +0000
+Received: from [161.44.174.156] (dhcp-161-44-174-156.cisco.com [161.44.174.156]) by sj-core-3.cisco.com (8.13.8/8.14.3) with ESMTP id o3QN2eYM001670; Mon, 26 Apr 2010 23:02:41 GMT
+Message-ID: <4BD61B92.8080708@cisco.com>
+Date: Mon, 26 Apr 2010 19:02:42 -0400
+From: Paul Kyzivat <pkyzivat@cisco.com>
+User-Agent: Thunderbird 2.0.0.24 (Windows/20100228)
+MIME-Version: 1.0
+To: "Vijay K. Gurbani" <vkg@bell-labs.com>
+References: <20100305233033.8662628C400@core3.amsl.com> <4B919F23.7030502@cisco.com> <4BD60D89.3070902@bell-labs.com>
+In-Reply-To: <4BD60D89.3070902@bell-labs.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Cc: SIP IETF <sip@ietf.org>
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 26 Apr 2010 23:03:02 -0000
+
+inline
+
+Vijay K. Gurbani wrote:
+> Attending to pending email ... sorry for the delayed response.
+> 
+> On 03/05/2010 06:17 PM, Paul Kyzivat wrote:
+>> I see this is very close to done.
+>> I'm sorry to only be looking at it now.
+>> While I don't see a problem with what is in this,
+>> I do see a logical omission:
+>>
+>> This calls out that comparison of the binary forms of the ip address,
+>> and this fixes a problem with ipv4 as well as ipv6.
+>>
+>> A similar problem exists for the port number:
+>> are <sip:foo@bar:1234> and <sip:foo@bar:01234> the same???
+>>
+>> ISTM that binary comparison should also be used for port numbers.
+>>
+>> But is it worth pulling this back to fix that???
+> 
+> Paul: <sip:foo@bar:01234> could also be interpreted as the digits
+> comprising the port "1234" to be in base 8 (leading 0 signifies
+> an octal base.)
+
+Well, it *could* mean that. (I was never a fan of that notation even 
+from day one in C.) There certainly is nothing in 3261 that would 
+suggest that the octal convention applies to hostport in sip URIs. The 
+ABNF currently is:
+
+port =  1*DIGIT
+
+If the octal notation was intended to apply, then I would expect that 
+the ABNF would be:
+
+OCT-DIG =  %x30-37
+NON-OCT-DIG =  %x31-39
+
+port =  (NON-OCT-DIG *DIGIT) | "0" *OCT-DIG
+
+If there is any question that some might believe the octal notation 
+applies, then that is more reason to say something.
+
+> Writing leading zeroes for IPv4 address is not prevalent; by the
+> same token, representing ports in octal base is not prevalent either.
+> So I am inclined to let sleeping dogs lie.
+> 
+> However, if the sponsoring AD or anyone monitoring this list feels
+> strongly, I don't mind adding a sentence or two to this effect in
+> the draft.
+
+I don't feel strongly about it. But now that you mention it, I think I 
+remember some question about octal ports coming up on one of the mailing 
+lists some time in the past.
+
+I also don't feel *strongly* about it. Lets see if anybody else has 
+something to say about it.
+
+	Thanks,
+	Paul
+
+From vkg@bell-labs.com  Tue Apr 27 06:24:06 2010
+Return-Path: <vkg@bell-labs.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3270F3A69DF for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:24:06 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.219
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.219 tagged_above=-999 required=5 tests=[AWL=-0.479, BAYES_20=-0.74]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id RBAKM+0zG5b5 for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:24:05 -0700 (PDT)
+Received: from ihemail3.lucent.com (ihemail3.lucent.com [135.245.0.37]) by core3.amsl.com (Postfix) with ESMTP id 2CF1E3A6AE4 for <sip@ietf.org>; Tue, 27 Apr 2010 06:21:58 -0700 (PDT)
+Received: from umail.lucent.com (h135-3-40-63.lucent.com [135.3.40.63]) by ihemail3.lucent.com (8.13.8/IER-o) with ESMTP id o3RDLhrs016939 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Tue, 27 Apr 2010 08:21:44 -0500 (CDT)
+Received: from shoonya.ih.lucent.com (Knoppix-135185238233.ih.lucent.com [135.185.238.233]) by umail.lucent.com (8.13.8/TPES) with ESMTP id o3RDLhfg014125; Tue, 27 Apr 2010 08:21:43 -0500 (CDT)
+Message-ID: <4BD6E52E.4030903@bell-labs.com>
+Date: Tue, 27 Apr 2010 08:22:54 -0500
+From: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Organization: Bell Laboratories, Alcatel-Lucent
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100330 Fedora/3.0.4-1.fc12 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Paul Kyzivat <pkyzivat@cisco.com>
+References: <20100305233033.8662628C400@core3.amsl.com> <4B919F23.7030502@cisco.com> <4BD60D89.3070902@bell-labs.com> <4BD61B92.8080708@cisco.com>
+In-Reply-To: <4BD61B92.8080708@cisco.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.37
+Cc: SIP IETF <sip@ietf.org>
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 27 Apr 2010 13:24:06 -0000
+
+On 04/26/2010 06:02 PM, Paul Kyzivat wrote:
+> I also don't feel *strongly* about it. Lets see if anybody else has
+> something to say about it.
+
+OK.  Thanks.
+
+For other folks still monitoring the sip list, if you think that
+draft-ietf-sip-ipv6-abnf-fix should explicitly spell out that
+port number comparison should be done on binary equivalency and
+not textual equivalency, please let me know.
+
+IESG last call is over on the draft, and I am trying to
+wrap it up.  So please get back to me at your earliest
+convenience.  I will revise and resubmit a new version next
+week.
+
+Thank you,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From adam@nostrum.com  Tue Apr 27 06:34:15 2010
+Return-Path: <adam@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5F4583A6880 for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:34:15 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.775
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.775 tagged_above=-999 required=5 tests=[AWL=-0.665, BAYES_05=-1.11, SPF_PASS=-0.001, WEIRD_PORT=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id XzG3u7LrhBAj for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:34:14 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id C728B3A6A60 for <sip@ietf.org>; Tue, 27 Apr 2010 06:33:31 -0700 (PDT)
+Received: from hydra-3.local (ppp-70-249-147-216.dsl.rcsntx.swbell.net [70.249.147.216]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id o3RDXGGo045061 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Tue, 27 Apr 2010 08:33:16 -0500 (CDT) (envelope-from adam@nostrum.com)
+Message-ID: <4BD6E79C.4040907@nostrum.com>
+Date: Tue, 27 Apr 2010 08:33:16 -0500
+From: Adam Roach <adam@nostrum.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Paul Kyzivat <pkyzivat@cisco.com>
+References: <20100305233033.8662628C400@core3.amsl.com>	<4B919F23.7030502@cisco.com> <4BD60D89.3070902@bell-labs.com> <4BD61B92.8080708@cisco.com>
+In-Reply-To: <4BD61B92.8080708@cisco.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Received-SPF: pass (nostrum.com: 70.249.147.216 is authenticated by a trusted mechanism)
+Cc: SIP IETF <sip@ietf.org>
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 27 Apr 2010 13:34:15 -0000
+
+On 4/26/10 18:02, Apr 26, Paul Kyzivat wrote:
+>
+>> Writing leading zeroes for IPv4 address is not prevalent; by the
+>> same token, representing ports in octal base is not prevalent either.
+>> So I am inclined to let sleeping dogs lie.
+>>
+>> However, if the sponsoring AD or anyone monitoring this list feels
+>> strongly, I don't mind adding a sentence or two to this effect in
+>> the draft.
+>
+> I don't feel strongly about it. But now that you mention it, I think I 
+> remember some question about octal ports coming up on one of the 
+> mailing lists some time in the past.
+>
+> I also don't feel *strongly* about it. Lets see if anybody else has 
+> something to say about it.
+
+For what it's worth, typing "http://www.ietf.org:080/" into Firefox, 
+Safari, and MSIE all takes me to the IETF's web page (interpreting "080" 
+as 80, not 64). So, at least for HTTP URLs, there's a de facto 
+interpretation of leading zeros in a port as padding, not an indication 
+of octal.
+
+/a
+
+From kpfleming@digium.com  Tue Apr 27 06:37:41 2010
+Return-Path: <kpfleming@digium.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C88FF3A69F3 for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:37:41 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.994
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.994 tagged_above=-999 required=5 tests=[AWL=-1.288, BAYES_50=0.001, MISSING_HEADERS=1.292, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100, WEIRD_PORT=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yzUexX-CLxK0 for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:37:40 -0700 (PDT)
+Received: from mail.digium.com (mail.digium.com [216.207.245.2]) by core3.amsl.com (Postfix) with ESMTP id ECB9E3A69DF for <sip@ietf.org>; Tue, 27 Apr 2010 06:37:39 -0700 (PDT)
+Received: from zimbra.digium.internal ([10.24.55.203] helo=zimbra.hsv.digium.com) by mail.digium.com with esmtp (Exim 4.69) (envelope-from <kpfleming@digium.com>) id 1O6kyd-0006JF-3P for sip@ietf.org; Tue, 27 Apr 2010 08:37:27 -0500
+Received: from localhost (localhost.localdomain [127.0.0.1]) by zimbra.hsv.digium.com (Postfix) with ESMTP id 0C708D8024 for <sip@ietf.org>; Tue, 27 Apr 2010 08:37:27 -0500 (CDT)
+Received: from zimbra.hsv.digium.com ([127.0.0.1]) by localhost (zimbra.hsv.digium.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id XpZY7EgHOnks for <sip@ietf.org>; Tue, 27 Apr 2010 08:37:26 -0500 (CDT)
+Received: from [10.24.250.46] (unknown [10.24.250.46]) by zimbra.hsv.digium.com (Postfix) with ESMTPSA id 9526FD8023 for <sip@ietf.org>; Tue, 27 Apr 2010 08:37:26 -0500 (CDT)
+Message-ID: <4BD6E896.7070506@digium.com>
+Date: Tue, 27 Apr 2010 08:37:26 -0500
+From: "Kevin P. Fleming" <kpfleming@digium.com>
+Organization: Digium, Inc.
+User-Agent: Thunderbird 2.0.0.24 (X11/20100411)
+MIME-Version: 1.0
+CC: SIP IETF <sip@ietf.org>
+References: <20100305233033.8662628C400@core3.amsl.com>	<4B919F23.7030502@cisco.com>	<4BD60D89.3070902@bell-labs.com> <4BD61B92.8080708@cisco.com> <4BD6E79C.4040907@nostrum.com>
+In-Reply-To: <4BD6E79C.4040907@nostrum.com>
+X-Enigmail-Version: 0.95.7
+OpenPGP: id=05FB8DB2
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 27 Apr 2010 13:37:42 -0000
+
+Adam Roach wrote:
+
+> For what it's worth, typing "http://www.ietf.org:080/" into Firefox,
+> Safari, and MSIE all takes me to the IETF's web page (interpreting "080"
+> as 80, not 64). So, at least for HTTP URLs, there's a de facto
+> interpretation of leading zeros in a port as padding, not an indication
+> of octal.
+
+But that still implies a binary comparison instead of a textual one,
+unless the textual comparison is going to understand the zero-padding
+and remove it first.
+
+-- 
+Kevin P. Fleming
+Digium, Inc. | Director of Software Technologies
+445 Jan Davis Drive NW - Huntsville, AL 35806 - USA
+skype: kpfleming | jabber: kfleming@digium.com
+Check us out at www.digium.com & www.asterisk.org
+
+From adam@nostrum.com  Tue Apr 27 06:44:43 2010
+Return-Path: <adam@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 70E1A3A6AFB for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:44:43 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.486
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.486 tagged_above=-999 required=5 tests=[AWL=0.113,  BAYES_00=-2.599, SPF_PASS=-0.001, WEIRD_PORT=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Obf8SZevf9MC for <sip@core3.amsl.com>; Tue, 27 Apr 2010 06:44:42 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 350DD28C0F2 for <sip@ietf.org>; Tue, 27 Apr 2010 06:43:55 -0700 (PDT)
+Received: from hydra-3.local (ppp-70-249-147-216.dsl.rcsntx.swbell.net [70.249.147.216]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id o3RDheln045833 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Tue, 27 Apr 2010 08:43:40 -0500 (CDT) (envelope-from adam@nostrum.com)
+Message-ID: <4BD6EA0C.6030601@nostrum.com>
+Date: Tue, 27 Apr 2010 08:43:40 -0500
+From: Adam Roach <adam@nostrum.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: "Kevin P. Fleming" <kpfleming@digium.com>
+References: <20100305233033.8662628C400@core3.amsl.com>	<4B919F23.7030502@cisco.com>	<4BD60D89.3070902@bell-labs.com>	<4BD61B92.8080708@cisco.com> <4BD6E79C.4040907@nostrum.com> <4BD6E896.7070506@digium.com>
+In-Reply-To: <4BD6E896.7070506@digium.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Received-SPF: pass (nostrum.com: 70.249.147.216 is authenticated by a trusted mechanism)
+Cc: SIP IETF <sip@ietf.org>
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 27 Apr 2010 13:44:43 -0000
+
+On 4/27/10 08:37, Apr 27, Kevin P. Fleming wrote:
+> Adam Roach wrote:
+>
+>    
+>> For what it's worth, typing "http://www.ietf.org:080/" into Firefox,
+>> Safari, and MSIE all takes me to the IETF's web page (interpreting "080"
+>> as 80, not 64). So, at least for HTTP URLs, there's a de facto
+>> interpretation of leading zeros in a port as padding, not an indication
+>> of octal.
+>>      
+> But that still implies a binary comparison instead of a textual one,
+> unless the textual comparison is going to understand the zero-padding
+> and remove it first.
+>
+>    
+
+Yes, it does. The question is whether that belongs in the v6 document, 
+or if we need to do a similar rev for port numbers. Seeing as how the 
+issue applies equally to v4 and v6, I'd say that putting it in the v6 
+document would be an expansion of scope that is inappropriate at the 
+current state of the document's development.
+
+We probably should log it in the bug tracker (bugs.sipit.org), and not 
+address it in the document at hand.
+
+/a
+
+From pkyzivat@cisco.com  Tue Apr 27 07:13:05 2010
+Return-Path: <pkyzivat@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 772533A6A93 for <sip@core3.amsl.com>; Tue, 27 Apr 2010 07:13:05 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -10.35
+X-Spam-Level: 
+X-Spam-Status: No, score=-10.35 tagged_above=-999 required=5 tests=[AWL=0.249,  BAYES_00=-2.599, RCVD_IN_DNSWL_HI=-8]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id S-EHUhre-rxb for <sip@core3.amsl.com>; Tue, 27 Apr 2010 07:13:04 -0700 (PDT)
+Received: from rtp-iport-2.cisco.com (rtp-iport-2.cisco.com [64.102.122.149]) by core3.amsl.com (Postfix) with ESMTP id AB5843A6B5C for <sip@ietf.org>; Tue, 27 Apr 2010 07:09:46 -0700 (PDT)
+Authentication-Results: rtp-iport-2.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvsEAFON1ktAZnwM/2dsb2JhbACcTXGmRokekQCFDgQ
+X-IronPort-AV: E=Sophos;i="4.52,280,1270425600"; d="scan'208";a="105662380"
+Received: from rtp-core-1.cisco.com ([64.102.124.12]) by rtp-iport-2.cisco.com with ESMTP; 27 Apr 2010 14:09:33 +0000
+Received: from [161.44.174.156] (dhcp-161-44-174-156.cisco.com [161.44.174.156]) by rtp-core-1.cisco.com (8.13.8/8.14.3) with ESMTP id o3RE9XMB029619; Tue, 27 Apr 2010 14:09:33 GMT
+Message-ID: <4BD6F01A.90709@cisco.com>
+Date: Tue, 27 Apr 2010 10:09:30 -0400
+From: Paul Kyzivat <pkyzivat@cisco.com>
+User-Agent: Thunderbird 2.0.0.24 (Windows/20100228)
+MIME-Version: 1.0
+To: Adam Roach <adam@nostrum.com>
+References: <20100305233033.8662628C400@core3.amsl.com>	<4B919F23.7030502@cisco.com>	<4BD60D89.3070902@bell-labs.com>	<4BD61B92.8080708@cisco.com>	<4BD6E79C.4040907@nostrum.com> <4BD6E896.7070506@digium.com> <4BD6EA0C.6030601@nostrum.com>
+In-Reply-To: <4BD6EA0C.6030601@nostrum.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Cc: SIP IETF <sip@ietf.org>
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 27 Apr 2010 14:13:05 -0000
+
+Adam Roach wrote:
+
+> Yes, it does. The question is whether that belongs in the v6 document, 
+> or if we need to do a similar rev for port numbers. Seeing as how the 
+> issue applies equally to v4 and v6, I'd say that putting it in the v6 
+> document would be an expansion of scope that is inappropriate at the 
+> current state of the document's development.
+> 
+> We probably should log it in the bug tracker (bugs.sipit.org), and not 
+> address it in the document at hand.
+
+That works for me.
+
+	Thanks,
+	Paul
+
+From adam@nostrum.com  Tue Apr 27 16:11:58 2010
+Return-Path: <adam@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id BF2B03A677E for <sip@core3.amsl.com>; Tue, 27 Apr 2010 16:11:58 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.445
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.445 tagged_above=-999 required=5 tests=[AWL=0.155,  BAYES_00=-2.599, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id nUPm8W0ANGGZ for <sip@core3.amsl.com>; Tue, 27 Apr 2010 16:11:57 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 5E6AB3A6898 for <sip@ietf.org>; Tue, 27 Apr 2010 16:11:57 -0700 (PDT)
+Received: from hydra-3.local (ppp-70-249-147-216.dsl.rcsntx.swbell.net [70.249.147.216]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id o3RNBfmg028617 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Tue, 27 Apr 2010 18:11:41 -0500 (CDT) (envelope-from adam@nostrum.com)
+Message-ID: <4BD76F2D.8020003@nostrum.com>
+Date: Tue, 27 Apr 2010 18:11:41 -0500
+From: Adam Roach <adam@nostrum.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Paul Kyzivat <pkyzivat@cisco.com>
+References: <20100305233033.8662628C400@core3.amsl.com>	<4B919F23.7030502@cisco.com>	<4BD60D89.3070902@bell-labs.com>	<4BD61B92.8080708@cisco.com>	<4BD6E79C.4040907@nostrum.com> <4BD6E896.7070506@digium.com> <4BD6EA0C.6030601@nostrum.com> <4BD6F01A.90709@cisco.com>
+In-Reply-To: <4BD6F01A.90709@cisco.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Received-SPF: pass (nostrum.com: 70.249.147.216 is authenticated by a trusted mechanism)
+Cc: SIP IETF <sip@ietf.org>
+Subject: Re: [Sip] Last Call: draft-ietf-sip-ipv6-abnf-fix (Essential correction for IPv6 ABNF and URI comparison in RFC3261) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 27 Apr 2010 23:11:58 -0000
+
+On 4/27/10 09:09, Apr 27, Paul Kyzivat wrote:
+>
+>
+> Adam Roach wrote:
+>
+>> Yes, it does. The question is whether that belongs in the v6 
+>> document, or if we need to do a similar rev for port numbers. Seeing 
+>> as how the issue applies equally to v4 and v6, I'd say that putting 
+>> it in the v6 document would be an expansion of scope that is 
+>> inappropriate at the current state of the document's development.
+>>
+>> We probably should log it in the bug tracker (bugs.sipit.org), and 
+>> not address it in the document at hand.
+>
+> That works for me.
+
+It is now logged as http://bugs.sipit.net/show_bug.cgi?id=777
+
+/a
+
+From wwwrun@rfc-editor.org  Thu Apr 29 16:36:41 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 9B6ED3A6CB1; Thu, 29 Apr 2010 16:36:41 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.654
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.654 tagged_above=-999 required=5 tests=[AWL=0.334,  BAYES_00=-2.599, HELO_MISMATCH_ORG=0.611]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id rUXtZPLQJM7y; Thu, 29 Apr 2010 16:36:40 -0700 (PDT)
+Received: from rfc-editor.org (rfcpa [64.170.98.47]) by core3.amsl.com (Postfix) with ESMTP id AA6A13A6C26; Thu, 29 Apr 2010 16:36:40 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id B6E83E07F8; Thu, 29 Apr 2010 16:36:27 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20100429233627.B6E83E07F8@rfc-editor.org>
+Date: Thu, 29 Apr 2010 16:36:27 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5767 on User-Agent-Driven Privacy Mechanism for SIP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 29 Apr 2010 23:36:41 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5767
+
+        Title:      User-Agent-Driven Privacy Mechanism for SIP 
+        Author:     M. Munakata, S. Schubert,
+                    T. Ohba
+        Status:     Informational
+        Stream:     IETF
+        Date:       April 2010
+        Mailbox:    munakata.mayumi@lab.ntt.co.jp, 
+                    shida@ntt-at.com, 
+                    ohba.takumi@lab.ntt.co.jp
+        Pages:      11
+        Characters: 23270
+        Updates/Obsoletes/SeeAlso:   None
+
+        I-D Tag:    draft-ietf-sip-ua-privacy-08.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5767.txt
+
+This document defines a guideline for a User Agent (UA) to generate
+an anonymous Session Initiation Protocol (SIP) message by utilizing
+mechanisms such as Globally Routable User Agent URIs (GRUUs) and
+Traversal Using Relays around NAT (TURN) without the need for a
+privacy service defined in RFC 3323.  This document is not an Internet 
+Standards Track specification; it is published for informational purposes.
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+
+INFORMATIONAL: This memo provides information for the Internet community.
+It does not specify an Internet standard of any kind. Distribution of
+this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+Association Management Solutions, LLC
+
+
+
+From wwwrun@rfc-editor.org  Thu Apr 29 16:36:51 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id A175D3A6CC6; Thu, 29 Apr 2010 16:36:51 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.359
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.359 tagged_above=-999 required=5 tests=[AWL=0.029,  BAYES_00=-2.599, HELO_MISMATCH_ORG=0.611, J_CHICKENPOX_93=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8Z3pSJLUYW+O; Thu, 29 Apr 2010 16:36:50 -0700 (PDT)
+Received: from rfc-editor.org (rfcpa [64.170.98.47]) by core3.amsl.com (Postfix) with ESMTP id 360D23A6CC5; Thu, 29 Apr 2010 16:36:50 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 3A1A7E07FB; Thu, 29 Apr 2010 16:36:37 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20100429233637.3A1A7E07FB@rfc-editor.org>
+Date: Thu, 29 Apr 2010 16:36:37 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5768 on Indicating Support for Interactive Connectivity Establishment (ICE) in the Session Initiation Protocol (SIP)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 29 Apr 2010 23:36:51 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5768
+
+        Title:      Indicating Support for Interactive Connectivity 
+                    Establishment (ICE) in the Session Initiation 
+                    Protocol (SIP) 
+        Author:     J. Rosenberg
+        Status:     Standards Track
+        Stream:     IETF
+        Date:       April 2010
+        Mailbox:    jdrosen@jdrosen.net
+        Pages:      6
+        Characters: 12962
+        Updates/Obsoletes/SeeAlso:   None
+
+        I-D Tag:    draft-ietf-sip-ice-option-tag-02.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5768.txt
+
+This specification defines a media feature tag and an option tag for
+use with the Session Initiation Protocol (SIP).  The media feature
+tag allows a User Agent (UA) to communicate to its registrar that it
+supports ICE.  The option tag allows a UA to require support for ICE
+in order for a call to proceed.  [STANDARDS TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+Association Management Solutions, LLC
+
+
+
+From ibc@aliax.net  Fri Apr 30 15:37:48 2010
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id A291A3A6C70 for <sip@core3.amsl.com>; Fri, 30 Apr 2010 15:37:48 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.216
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.216 tagged_above=-999 required=5 tests=[AWL=-1.139, BAYES_50=0.001, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 7sik3k7VC3bs for <sip@core3.amsl.com>; Fri, 30 Apr 2010 15:37:47 -0700 (PDT)
+Received: from mail-pz0-f182.google.com (mail-pz0-f182.google.com [209.85.222.182]) by core3.amsl.com (Postfix) with ESMTP id CBB833A6A3F for <sip@ietf.org>; Fri, 30 Apr 2010 15:37:43 -0700 (PDT)
+Received: by pzk12 with SMTP id 12so464226pzk.32 for <sip@ietf.org>; Fri, 30 Apr 2010 15:37:27 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.141.88.16 with SMTP id q16mr1409939rvl.156.1272667046875; Fri,  30 Apr 2010 15:37:26 -0700 (PDT)
+Received: by 10.140.252.19 with HTTP; Fri, 30 Apr 2010 15:37:26 -0700 (PDT)
+Date: Sat, 1 May 2010 00:37:26 +0200
+Message-ID: <r2zcc1f582e1004301537w2f5a81b2xcbbd290a7a6f6e02@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: [Sip] Possible improvement in draft-ietf-sipcore-invfix (CANCEL processing)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 30 Apr 2010 22:37:48 -0000
+
+Hi, RFC 3261 clearly states that an INVITE transaction is terminated
+upon receipt of a 200. So let's imagine a proxy between alice and bob:
+
+- alice sends INVITE to the proxy.
+- The proxy relays it to bob.
+- bob replies 200.
+- The proxy relays the 200 to alice and terminates the INVITE transaction.
+- For some reason alice sends now a CANCEL.
+- The proxy doesn't match a transaction for this CANCEL so it would
+relay it statelessly as section 16.10 states:
+
+   If a response context is not found, the element does not have any
+   knowledge of the request to apply the CANCEL to.  It MUST statelessly
+   forward the CANCEL request (it may have statelessly forwarded the
+   associated request previously).
+
+
+This makes sense because such "response context" doesn't exist after
+the 200 was processed by the proxy. However "invfix" draft adds a new
+state "Accepted" so when the proxy relays the 200 the transaction
+remains in "Accepted" state for a while. What should happen then if
+the UAC sends a CANCEL? does the "response context" still exist or
+not?
+
+So I suggest that "invfix" draft also changes the section 16.10 of RFC 3261=
+:
+
+   If no transaction in proceeding state is found, the element does not hav=
+e any
+   knowledge of the request to apply the CANCEL to.  It MUST statelessly
+   forward the CANCEL request (it may have statelessly forwarded the
+   associated request previously).
+
+
+This is, even if the transaction still exists (under "Accepted" state)
+the proxy has nothing to CANCEL so it shouldn't reply 200 to the
+CANCEL. Instead it should forward it statelessly. I think this
+requires some clarification in the original specification of the RFC
+3261.
+
+Best regards.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>

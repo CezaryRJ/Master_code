@@ -1,0 +1,115 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ltru
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ltru/2006-12.mailcl']
+id : b13c4efd-94fe-4214-898e-06d579c3dc4f
+_version_ : 1675132707598761984
+
+Content : 
+
+ReceiveFrom ltru-bounces@ietf.org Mon Dec 11 20:54:46 2006
+Received: from [127.0.0.1] (helo=stiedprmman1.va.neustar.com)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1Gtwqy-00069P-2E; Mon, 11 Dec 2006 20:54:44 -0500
+Received: from [10.91.34.44] (helo=ietf-mx.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43) id 1Gtwqx-00066p-Bp
+	for ltru@ietf.org; Mon, 11 Dec 2006 20:54:43 -0500
+Received: from scmailgw1.scop.aoyama.ac.jp ([133.2.251.194])
+	by ietf-mx.ietf.org with esmtp (Exim 4.43) id 1Gtwqu-00069a-1T
+	for ltru@ietf.org; Mon, 11 Dec 2006 20:54:43 -0500
+Received: from scmse2.scbb.aoyama.ac.jp (scmse2 [133.2.253.17])
+	by scmailgw1.scop.aoyama.ac.jp (secret/secret) with SMTP id
+	kBC1sagH011394
+	for <ltru@ietf.org>; Tue, 12 Dec 2006 10:54:36 +0900 (JST)
+Received: from (133.2.206.133) by scmse2.scbb.aoyama.ac.jp via smtp
+	id 247f_b8acbb72_8983_11db_8652_0014221f2a2d;
+	Tue, 12 Dec 2006 10:54:36 +0900
+Received: from Tanzawa.it.aoyama.ac.jp ([133.2.210.1]:41141)
+	by itmail.it.aoyama.ac.jp with [XMail 1.22 ESMTP Server]
+	id <S60D26> for <ltru@ietf.org> from <duerst@it.aoyama.ac.jp>;
+	Tue, 12 Dec 2006 10:53:57 +0900
+Message-Id: <6.0.0.20.2.20061212101942.05f47d80@localhost>
+X-Sender: duerst@localhost
+X-Mailer: QUALCOMM Windows Eudora Version 6J
+Date: Tue, 12 Dec 2006 10:22:56 +0900
+To: "Doug Ewell" <dewell@adelphia.net>, "LTRU Working Group" <ltru@ietf.org>
+From: Martin Duerst <duerst@it.aoyama.ac.jp>
+Subject: Re: [Ltru] To invert or not to invert?
+In-Reply-To: <00f201c71cf2$0cd1d510$6701a8c0@DGBP7M81>
+References: <20061210063103.GB8875@ccil.org>
+	<000901c71c5c$f1219f70$6500a8c0@chalmers95a69n>
+	<20061210191521.GF8875@ccil.org>
+	<30b660a20612101544q17e18c40g58d9fab494ccd4c8@mail.gmail.com>
+	<00f201c71cf2$0cd1d510$6701a8c0@DGBP7M81>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 9182cfff02fae4f1b6e9349e01d62f32
+Cc: Kent Karlsson <kent.karlsson14@comhem.se>
+X-BeenThere: ltru@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Language Tag Registry Update working group discussion list
+	<ltru.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/ltru>
+List-Post: <mailto:ltru@ietf.org>
+List-Help: <mailto:ltru-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=subscribe>
+Errors-To: ltru-bounces@ietf.org
+
+At 16:00 06/12/11, Doug Ewell wrote:
+
+>If the Registry were converted to XML and accessed using normal XML methods, the multiple Description fields really would be in non-determininstic order, unless one was given a different name (or unless "rank" values were assigned).
+
+No. The order of elements in XML is significant. The only
+place where order isn't significant is attributes, but
+you can't put multiple descriptions into attributes
+without giving them different names, so you again break
+the symmetry. Applications can declare that for some
+cases, element order isn't significant, but generic XML
+tools keep element order. Otherwise, we'd all read Web
+pages in random sequence :-).
+
+Of course, if the tool that converts from record-jar to
+XML uses some random numbers, then the XML file will
+contain the descriptions in random order, but once they
+are in XML, they are fixed.
+
+Regards,     Martin.
+
+
+
+#-#-#  Martin J. Du"rst, Assoc. Professor, Aoyama Gakuin University
+#-#-#  http://www.sw.it.aoyama.ac.jp       mailto:duerst@it.aoyama.ac.jp     
+
+
+_______________________________________________
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru

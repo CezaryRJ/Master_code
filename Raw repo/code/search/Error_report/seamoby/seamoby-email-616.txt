@@ -1,0 +1,102 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['RE: [Seamoby] Concensus Call:Reaching Closure on Paging']
+Mailing-list : seamoby
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/seamoby/2002-01.mailcl']
+id : ba33a2c0-4aa2-44ee-8ed0-187769da861e
+_version_ : 1675133889805287425
+
+Content : 
+
+Decision
+Date: Thu, 17 Jan 2002 18:09:26 -0600
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Seamoby] Concensus Call:Reaching Closure on Paging
+Decision
+Thread-Index: AcGfjB5vADj3orhMSASYBVeaoRZw8wAJu5gQ
+From: "Purnadi Rene (NRC/Dallas)" <rene.purnadi@nokia.com>
+To: "'ext James Kempf'" <kempf@docomolabs-usa.com>, <seamoby@ietf.org>
+Cc: <sob@harvard.edu>, "Allison Mankin" <mankin@isi.edu>
+X-OriginalArrivalTime: 18 Jan 2002 00:09:26.0999 (UTC)
+FILETIME=[645F6E70:01C19FB4]
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by
+newdev.harvard.edu id g0I09TS23621
+
+James,
+
+We vote to re-open the selection phase. By the way, Rene Purnadi is one
+of the author in the draft koodli and his involvement in this vote is
+not based on 'sour grapes' but to seek a valid selection procedure.
+
+Thank you.
+
+Stefano Faccin, Rajeev Koodli, Franck Le, Jari T. Malinen, Rene Purnadi
+and Srinivas Sreemanthula
+Nokia Research Center
+
+-----Original Message-----
+From: ext James Kempf [mailto:kempf@docomolabs-usa.com]
+Sent: Thursday, January 17, 2002 1:18 PM
+To: seamoby@ietf.org
+Cc: sob@harvard.edu; Allison Mankin
+Subject: [Seamoby] Concensus Call:Reaching Closure on Paging Decision
+
+
+All,
+
+Pat and I made a selection for what to start with, not what to end with.
+The WG will determine what the final technology looks like.
+
+1) If you want to support or disagree with the selection of the starting
+ ID, say so now please.
+
+2) If there is not consensus that we should re-open the selection phase,
+then we will move forward based on the selection in the next few days.
+
+Thanx.
+
+            jak
+
+
+
+
+
+_______________________________________________
+Seamoby mailing list
+Seamoby@ietf.org
+https://www1.ietf.org/mailman/listinfo/seamoby
+
+
+_______________________________________________
+Seamoby mailing list
+Seamoby@ietf.org
+https://www1.ietf.org/mailman/listinfo/seamoby
+
+_______________________________________________
+Seamoby mailing list
+Seamoby@ietf.org
+https://www1.ietf.org/mailman/listinfo/seamoby
+

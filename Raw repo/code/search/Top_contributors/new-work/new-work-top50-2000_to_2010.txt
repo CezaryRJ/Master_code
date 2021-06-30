@@ -1,0 +1,17 @@
+2000 TO 2010
+-------#####------->    new-work
+iesg-secretary@ietf.org 83
+Victoria.Gray@forapolis.com 31
+ij@w3.org 17
+paul.congdon@hp.com 11
+Gerry.McAuley@forapolis.com 7
+iesg@ietf.org 5
+dromasca@avaya.com 4
+ph@w3.org 4
+loa@pi.se 3
+danield@w3.org 2
+iesg-secretary-reply@ietf.org 2
+mailman-owner@ietf.org 2
+dthompson@tiaonline.org 1
+ietf-secretariat@ietf.org 1
+ivan@w3.org 1

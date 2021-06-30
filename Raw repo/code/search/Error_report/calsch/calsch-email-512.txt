@@ -1,0 +1,33 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : calsch
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/calsch/2006-06.mailcl']
+id : c04deb87-4d80-4c12-b914-38a563c1af7c
+_version_ : 1675130514117230595
+
+Content : 
+
+
+

@@ -1,0 +1,9 @@
+1990 TO 2000
+-------#####------->    ospf
+Internet-Drafts@ns.ietf.org 24
+Internet-Drafts@ietf.org 16
+iesg-secretary@ns.ietf.org 6
+iesg-secretary@ietf.org 2
+rcoltun@fore.com 2
+farshad@ONEBOX.COM 1
+zinin@PSG.COM 1

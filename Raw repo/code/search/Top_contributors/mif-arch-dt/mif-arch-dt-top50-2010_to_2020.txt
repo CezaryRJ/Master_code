@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    mif-arch-dt
+denghui02@hotmail.com 37
+Dmitry.Anipko@microsoft.com 28
+Ted.Lemon@nominum.com 21
+mrw@lilacglade.org 12
+jouni.nospam@gmail.com 9
+dthaler@microsoft.com 7
+pierrick.seite@orange.com 6
+tjc@ecs.soton.ac.uk 6
+JuanCarlos.Zuniga@InterDigital.com 5
+liudapeng@chinamobile.com 5
+suresh.krishnan@ericsson.com 5
+zehn.cao@gmail.com 5
+lorenzo@google.com 4
+ted.lemon@nominum.com 4
+caozhen@chinamobile.com 3
+margaretw42@gmail.com 3
+alper.yegin@yegin.org 2
+Aaron.Ding@cl.cam.ac.uk 1
+ietf-secretariat@ietf.org 1
+johnsonhammond1@hushmail.com 1
+marc.blanchet@viagenie.ca 1
+messenger@webex.com 1
+yding@cs.helsinki.fi 1

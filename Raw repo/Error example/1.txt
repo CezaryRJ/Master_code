@@ -1,0 +1,59 @@
+From hikita_tenkou_2000@yahoo.fr Fri Feb 02 04:29:03 2007
+Received: from [10.90.34.44] (helo=chiedprmail1.ietf.org)
+	by megatron.ietf.org with esmtp (Exim 4.43)
+	id 1HCuj9-0005UW-Kb
+	for 16NG-ARCHIVE@LISTS.IETF.ORG; Fri, 02 Feb 2007 04:29:03 -0500
+Received: from [59.44.235.166] (helo=so-net.ne.jp)
+	by chiedprmail1.ietf.org with esmtp (Exim 4.43)
+	id 1HCuj2-0000GM-QZ
+	for 16NG-ARCHIVE@LISTS.IETF.ORG; Fri, 02 Feb 2007 04:29:03 -0500
+Received: from nocb7 (unknown [118.71.13.144])
+	by smtp11 (Coremail) with SMTP id 1l74DsihDxZ0AuJO.1
+	for <16ng-archive@lists.ietf.org>; Fri, 02 Feb 2007 17:28:59 +0800 (CST)
+X-Originating-IP: [118.71.13.144]
+X-Spam-Score: 1.6 (+)
+X-Scan-Signature: 39bd8f8cbb76cae18b7e23f7cf6b2b9f
+
+From: 
+To: 
+X-Mailer: Microsoft Outlook Express 6.00.2800.1478
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+メール拒否
+maki_noda21@yahoo.co.uk
+
+
+
+
+
+--------------Report
+From header is missing in file

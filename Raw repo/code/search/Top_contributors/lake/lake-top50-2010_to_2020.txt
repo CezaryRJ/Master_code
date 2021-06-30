@@ -1,0 +1,23 @@
+2010 TO 2020
+-------#####------->    lake
+goran.selander@ericsson.com 10
+stephen.farrell@cs.tcd.ie 10
+kaduk@mit.edu 9
+mcr+ietf@sandelman.ca 7
+rstruik.ext@gmail.com 4
+cabo@tzi.org 3
+pradeepan88@hotmail.com 3
+ynir.ietf@gmail.com 3
+ekr@rtfm.com 2
+phill@hallambaker.com 2
+rsalz@akamai.com 2
+dan.garcia@um.es 1
+danibrown@blackberry.com 1
+dthaler@microsoft.com 1
+francesca.palombini@ericsson.com 1
+ivaylo@ackl.io 1
+malisa.vucinic@inria.fr 1
+marco.tiloca@ri.se 1
+mt@lowentropy.net 1
+sascha@buber.at 1
+skarmeta@um.es 1

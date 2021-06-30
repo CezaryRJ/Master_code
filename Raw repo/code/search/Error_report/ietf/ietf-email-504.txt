@@ -1,0 +1,95 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf/2007-09.mailcl']
+id : 24622119-9459-47ad-b655-0383ed25edf2
+_version_ : 1675130215174504448
+
+Content : 
+
+>>> ietf wanted universality among endpoints -- a single addressing system and
+>>> a single connectivity realm.  that ietf said, you don't really want that, you
+>>> should use the internet as it was intended, and solve the problems you're
+>>> having in some way that preserves universality of endpoints.  the field said,
+>>> you are completely out of your minds, we're going to ignore ietf now.  then
+>>> later on, ietf said, if you're going to do it, then we ought to help you with
+>>> some standards support.
+>>>   
+>>>       
+>> That's not quite how I remember it from my POV.  Some people were very
+>> concerned about ambiguous addressing.  I don't think universal
+>> connectivity was as big a concern - it's not like IETF people expected
+>> everyone to run open networks.   But mostly there was a lot of unease
+>> and uncertainty about NATs.  Very little analysis was done.  And I don't
+>> think that NAPTs were initially seen as the normal case.
+>>     
+>
+> I remember such arguments.  I also remember an argument that NATs were
+> being marketed as security devices, when in fact they did not provide
+> the actual level of security implied.  RFC 3724 bears this out.
+>   
+NAPTs were (misleadingly) marketed as security devices to consumers. 
+But we were concerned about NATs in general, and at the time did not
+make the generalization that all or most NATs were NAPTs.
+>>> which is why i'm proposing a standard of "demonstrable immediate harm" rather
+>>> than the current system of "that's not how you should do it" or "that's not
+>>> how i would do it".
+>>>   
+>>>       
+>> That's the wrong standard, it sets the bar way too low.  IETF shouldn't
+>> endorse anything unless it has justification to believe it is good; IETF
+>> should not discourage anything unless it has justification to believe it
+>> is bad.   And that justification should come from engineering analysis
+>> (or measurement, if it's feasible).  Sadly, a lot of people in IETF do
+>> not have engineering backgrounds and don't understand how to do such
+>> analysis.  This is something we need to change in our culture.
+>>     
+>
+> Based on some recent experiences, this type of analysis is not as
+> valued in the industry as it used to be.  It's much more valued to be
+> a crack programmer; someone who can rapidly deploy something that can
+> be quickly brought to market.
+IETF cannot do its job properly if it is a slave to "the industry" and
+its current idea of market conditions.  The Internet is not a market
+fad.  It's a lot more like a global public works project that will have
+effects lasting for decades (at least) which will affect everyone on the
+planet.  It is absolutely necessary to pay careful attention to the long
+term effects of its design decisions, and this cannot be done by people
+who feel pressure to put something on the market in six months or a year.
+
+At the same time, IETF needs to understand that optimizing for
+deployability first and scalability second often succeeds whereas the
+reverse often fails.  We need to understand how to design protocols that
+can be deployed quickly and yet be upgraded gracefully as the real
+requirements for long-term widespread use of the protocols  become
+apparent. 
+
+Keith
+
+
+_______________________________________________
+Ietf mailing list
+Ietf@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf

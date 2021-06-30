@@ -1,0 +1,3 @@
+id-announce
+
+looks like the system thinks its one big MIME i email, dosnt get the headers

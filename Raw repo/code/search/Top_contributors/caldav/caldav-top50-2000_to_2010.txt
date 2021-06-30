@@ -1,0 +1,13 @@
+2000 TO 2010
+-------#####------->    caldav
+julian.reschke@gmx.de 14
+Arnaud.Quillaud@Sun.COM 9
+bernard.desruisseaux@oracle.com 8
+helge.hess@opengroupware.org 8
+cyrus@daboo.name 5
+Dave.Thewlis@calconnect.org 3
+TimHare@comcast.net 2
+andrew@morphoss.com 2
+douglm@rpi.edu 2
+rick.denatale@gmail.com 1
+rpolli@babel.it 1

@@ -1,0 +1,81 @@
+Date : ['2006-10-19T12:17:51Z']
+Timezone : +0200
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['RE: [IPFIX] Should the IPFIX MIB be writeable?']
+Mailing-list : ipfix
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipfix/2006-10.mailcl']
+id : 93c26978-2284-4959-83a4-04df7fb2273d
+_version_ : 1675131402555752448
+
+Content : 
+
+Message-D7qEqWih9iQiOMFw/0umScF6xHKd+dmF7SbGBxXKKs3Hnj524ARx+1DSjoAp3k
+mv0T9KbZfLH43F8jJgmRgHPQFBveQ6mDJfLmnC8Vyv6mq4oHdYsM3VGEa+T40c53ooEwggM/MIIC
+qKADAgECAgENMA0GCSqGSIb3DQEBBQUAMIHRMQswCQYDVQQGEwJaQTEVMBMGA1UECBMMV2VzdGVy
+biBDYXBlMRIwEAYDVQQHEwlDYXBlIFRvd24xGjAYBgNVBAoTEVRoYXd0ZSBDb25zdWx0aW5nMSgw
+JgYDVQQLEx9DZXJ0aWZpY2F0aW9uIFNlcnZpY2VzIERpdmlzaW9uMSQwIgYDVQQDExtUaGF3dGUg
+UGVyc29uYWwgRnJlZW1haWwgQ0ExKzApBgkqhkiG9w0BCQEWHHBlcnNvbmFsLWZyZWVtYWlsQHRo
+YXd0ZS5jb20wHhcNMDMwNzE3MDAwMDAwWhcNMTMwNzE2MjM1OTU5WjBiMQswCQYDVQQGEwJaQTEl
+MCMGA1UEChMcVGhhd3RlIENvbnN1bHRpbmcgKFB0eSkgTHRkLjEsMCoGA1UEAxMjVGhhd3RlIFBl
+cnNvbmFsIEZyZWVtYWlsIElzc3VpbmcgQ0EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMSm
+PFVzVftOucqZWh5owHUEcJ3f6f+jHuy9zfVb8hp2vX8MOmHyv1HOAdTlUAow1wJjWiyJFXCO3cnw
+K4Vaqj9xVsuvPAsH5/EfkTYkKhPPK9Xzgnc9A74r/rsYPge/QIACZNenprufZdHFKlSFD0gEf6e2
+0TxhBEAeZBlyYLf7AgMBAAGjgZQwgZEwEgYDVR0TAQH/BAgwBgEB/wIBADBDBgNVHR8EPDA6MDig
+NqA0hjJodHRwOi8vY3JsLnRoYXd0ZS5jb20vVGhhd3RlUGVyc29uYWxGcmVlbWFpbENBLmNybDAL
+BgNVHQ8EBAMCAQYwKQYDVR0RBCIwIKQeMBwxGjAYBgNVBAMTEVByaXZhdGVMYWJlbDItMTM4MA0G
+CSqGSIb3DQEBBQUAA4GBAEiM0VCD6gsuzA2jZqxnD3+vrL7CF6FDlpSdf0whuPg2H6otnzYvwPQc
+UCCTcDz9reFhYsPZOhl+hLGZGwDFGguCdJ4lUJRix9sncVcljd2pnDmOjCBPZV+V2vf3h9bGCE6u
+9uo05RAaWzVNd+NWIXiC3CEZNd4ksdMdRv9dX2VPMYIDeTCCA3UCAQEwdjBiMQswCQYDVQQGEwJa
+QTElMCMGA1UEChMcVGhhd3RlIENvbnN1bHRpbmcgKFB0eSkgTHRkLjEsMCoGA1UEAxMjVGhhd3Rl
+IFBlcnNvbmFsIEZyZWVtYWlsIElzc3VpbmcgQ0ECEDNPKBqVVn29xxL8Ep6jwQAwCQYFKw4DAhoF
+AKCCAdgwGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMDYxMDE5MTAy
+MjE2WjAjBgkqhkiG9w0BCQQxFgQUVT8c/aUFZQMKgzfOQ/HQuVSEnUcwZwYJKoZIhvcNAQkPMVow
+WDAKBggqhkiG9w0DBzAOBggqhkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAgcwDQYI
+KoZIhvcNAwICASgwBwYFKw4DAhowCgYIKoZIhvcNAgUwgYUGCSsGAQQBgjcQBDF4MHYwYjELMAkG
+A1UEBhMCWkExJTAjBgNVBAoTHFRoYXd0ZSBDb25zdWx0aW5nIChQdHkpIEx0ZC4xLDAqBgNVBAMT
+I1RoYXd0ZSBQZXJzb25hbCBGcmVlbWFpbCBJc3N1aW5nIENBAhAzTygalVZ9vccS/BKeo8EAMIGH
+BgsqhkiG9w0BCRACCzF4oHYwYjELMAkGA1UEBhMCWkExJTAjBgNVBAoTHFRoYXd0ZSBDb25zdWx0
+aW5nIChQdHkpIEx0ZC4xLDAqBgNVBAMTI1RoYXd0ZSBQZXJzb25hbCBGcmVlbWFpbCBJc3N1aW5n
+IENBAhAzTygalVZ9vccS/BKeo8EAMA0GCSqGSIb3DQEBAQUABIIBAJQV60U4uJE6a6xJu7qs2HSg
+RhiDBF2EIGoiE72mCzzxiYKeqWawJ4IAi9gSzEgPEEYKPnKglYNG6npaIIWUzpE8Lp5I923uP321
+Ib1J8o5SXxmLYfhQyNNcOL4n3h/8kU2B3YFffvshekv3TWhkhSYZTIfml6MaV5yrlm0VZFvEs8Qd
+sfOphbwC6fSaw+X3fp6AvBx8IG9oq8s4W7GDh/vQvJviTVgXti9Aq5ozfnrE1q6B1h04+MRLZn0d
+BuY7iQtHPjca4A3V7uLHxs6QbpF099T1lJUtV9aRBgITRYHP5L7tENolizYxLonKhE5oZfYmM0d8
+1ftri1c5Ncd4Jz8AAAAAAAA=
+
+------=_NextPart_000_0051_01C6F379.3724F880--
+
+
+--===============2143201437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+IPFIX mailing list
+IPFIX@ietf.org
+https://www1.ietf.org/mailman/listinfo/ipfix
+
+--===============2143201437==--
+

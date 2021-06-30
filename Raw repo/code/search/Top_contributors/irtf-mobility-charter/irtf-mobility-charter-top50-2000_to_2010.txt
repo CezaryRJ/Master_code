@@ -1,0 +1,7 @@
+2000 TO 2010
+-------#####------->    irtf-mobility-charter
+rajeev@iprg.nokia.com 4
+alper@docomolabs-usa.com 1
+greg.daley@eng.monash.edu.au 1
+mramalho@cisco.com 1
+petrescu@nal.motlabs.com 1

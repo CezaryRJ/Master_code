@@ -1,0 +1,127 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : edafca4a-ba27-4f16-a29d-4a84cfed393b
+_version_ : 1675129467490533376
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id RAA07088;
+	Mon, 16 Apr 2001 17:44:37 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id RAA07059
+	for <tsvwg@ns.ietf.org>; Mon, 16 Apr 2001 17:44:36 -0400 (EDT)
+Received: from sj-msg-core-4.cisco.com (sj-msg-core-4.cisco.com
+[171.71.163.10])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id RAA14383
+	for <tsvwg@ietf.org>; Mon, 16 Apr 2001 17:44:37 -0400 (EDT)
+Received: from mira-sjc5-2.cisco.com (mira-sjc5-2.cisco.com [171.71.163.16])
+	by sj-msg-core-4.cisco.com (8.9.3/8.9.1) with ESMTP id OAA06710;
+	Mon, 16 Apr 2001 14:44:13 -0700 (PDT)
+Received: from cisco.com (rtp-dial-2-99.cisco.com [10.83.96.99])
+	by mira-sjc5-2.cisco.com (Mirapoint)
+	with ESMTP id ACL10381 (AUTH rrs);
+	Mon, 16 Apr 2001 14:44:06 -0700 (PDT)
+Message-ID: <3ADB679D.F9B73F9@cisco.com>
+Date: Mon, 16 Apr 2001 16:43:57 -0500
+From: Randall Stewart <rrs@cisco.com>
+X-Mailer: Mozilla 4.76 [en] (X11; U; Linux 2.2.12 i386)
+X-Accept-Language: en
+MIME-Version: 1.0
+To: Qiaobing Xie <xieqb@cig.mot.com>
+CC: tsvwg@ietf.org
+Subject: Re: [Tsvwg] [SCTP checksum problems]
+References: <3AD5A6CF.A136BA3D@cisco.com>
+<200104161727.MAA19255@agevole.cig.mot.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+Content-Transfer-Encoding: 7bit
+
+Q:
+
+The only problem with an additional "CRC chunk" is that
+it makes hardware assistance to error correction much
+more difficult. It is better (I think) to just realize
+we made a mistake. Get the opinions of the experts as to
+what checksum to use... i.e.:
+
+- CRC-32
+- Modified Adler-32 (16 bit word sums)
+- Fletcher-32
+- ???
+
+And then go with this as a replacement... Admit we were wrong
+and fix the problem..
+
+This way you have ONE and only ONE checksum algorithm making
+hardware designers life much easier...
+
+R
+
+Qiaobing Xie wrote:
+> 
+> Another solution could be (I think I mentioned this to Randy and a few
+> others at last IETF):
+> 
+> - Define a CRC-32 (or other strong checksum) control chunk and when the
+> sender wishes to use a stronger checksum protection, in addition to the
+> Adler-32 in the common SCTP header it includes this CRC-32 chuck in the
+> outbound packet. When the packet arrives, the receiver will do the
+> Adler-32 first, and then if the receiver supports the CRC-32 and sees
+> the presence of the CRC-32 chunk in the packet it will further verify
+> the CRC-32.
+> 
+> We could also use a bit pattern in the chunk type of the CRC-32 chunk so
+> that if the receiver doesn't understand the CRC-32 chunk it would drop
+> it with a report back to the sender.
+> 
+> -Qiaobing
+> 
+> _______________________________________________
+> tsvwg mailing list
+> tsvwg@ietf.org
+> http://www1.ietf.org/mailman/listinfo/tsvwg
+
+-- 
+Randall R. Stewart
+Systems & Solutions Engineering
+Cisco Systems Inc.
+rrs@cisco.com 815-342-5222 or 815-477-2127
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

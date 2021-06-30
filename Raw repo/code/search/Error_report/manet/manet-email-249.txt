@@ -1,0 +1,114 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : manet
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/manet/2006-05.mailcl']
+id : c51e6755-a241-43f8-a035-f4203eaeac40
+_version_ : 1675131884565168128
+
+Content : 
+
+Valencia (Spain)<BR>G. Min, Univ. of Bradford (UK)<BR>M. Naimi, =
+University of =0A=
+Cergy-Pontoise (France)<BR>S. Nikoletseas, Computer Technology Institute =0A=
+(Greece) <BR>M. S. M. Annoni Notare, Barddal Univ. (Brazil)<BR>S. =
+Olariu, Old =0A=
+Dominion Univ. (USA)<BR>T. Olivares, University of Castilla-La Mancha =0A=
+(Spain)<BR>L. Orozco-Barbosa, University of Castilla-La Mancha =
+(Spain)<BR>A. =0A=
+Passarella, Univ. Of Cambridge (UK)<BR>Y. Pan, Georgia State Univ. =
+(USA)<BR>M. =0A=
+Perez-Malumbres, Miguel Hernandez University (Spain)<BR>F. Quiles, =
+University of =0A=
+Castilla-La Mancha (Spain)<BR>P. Ruiz, University of Murcia =
+(Spain)<BR>J.L. =0A=
+Sanchez, University of Castilla-La Mancha (Spain)<BR>M. S. Squillante, =
+IBM T.J. =0A=
+Watson Research Center (USA) <BR>A. Shahrabi, Glasgow Caledonian =
+University =0A=
+(UK)<BR>T. Miklos, Technical University of Budapest (Hungary)<BR>S. =
+Yoshida, =0A=
+Kyoto University (Japan)<BR>J. Wu, Florida Atlantic University =
+(USA)<BR>A. =0A=
+Zomaya, Univ. of Sydney (Australia)</FONT></DIV>=0A=
+<DIV>&nbsp;</DIV>=0A=
+<DIV><BR><FONT face=3D"Times New Roman">Publicity Chair<BR>M. S.-M. =
+Annoni =0A=
+Notare<BR>Barddal University, Florianopolis, SC =
+<BR>Brazil<BR>&nbsp;&nbsp; =0A=
+<BR>&nbsp;<BR>Paper Submission:<BR>Authors are invited to submit =
+manuscripts =0A=
+reporting original unpublished research and recent developments <BR>in =
+the =0A=
+topics related to the workshop. The length of the papers should not =
+exceed 10 =0A=
+single-spaced pages, <BR>formatted using the ACM style (LaTex2e&nbsp; =
+and MS =0A=
+Word templates can be found at &lt;</FONT><A =0A=
+href=3D"http://www.acm.org/sigs/pubs/proceed/template.html"><FONT =0A=
+face=3D"Times New =
+Roman">http://www.acm.org/sigs/pubs/proceed/template.html</FONT></A><FONT=
+ =0A=
+face=3D"Times New Roman">&gt;).<BR></FONT></DIV>=0A=
+<DIV><FONT face=3D"Times New Roman">Papers should be submitted =
+electronically in =0A=
+PDF format (or postscript) by sending it as an e-mail attachment to =0A=
+<BR></FONT><A href=3D"mailto:mohamed@dcs.gla.ac.uk"><FONT =0A=
+face=3D"Times New Roman">mohamed@dcs.gla.ac.uk</FONT></A><FONT =0A=
+face=3D"Times New Roman"> or </FONT><A =
+href=3D"mailto:blanca@dsi.uclm.es"><FONT =0A=
+face=3D"Times New Roman">blanca@dsi.uclm.es</FONT></A><FONT =0A=
+face=3D"Times New Roman">. All papers will be peer reviewed and the =
+comments will =0A=
+<BR>be provided to the authors.</FONT></DIV>=0A=
+<DIV><FONT face=3D"Times New Roman"></FONT>&nbsp;</DIV>=0A=
+<DIV><FONT face=3D"Times New Roman">Accepted papers will appear in the =
+workshop =0A=
+proceedings and a special issue will be planned in a scholarly =
+</FONT></DIV>=0A=
+<DIV><FONT face=3D"Times New Roman">journal to include selected =
+high-quality =0A=
+papers from the workshop.</FONT></DIV>=0A=
+<DIV><FONT face=3D"Times New Roman"></FONT>&nbsp;</DIV>=0A=
+<DIV><FONT face=3D"Times New Roman">Important Dates:<BR>Submission =
+Deadline: 10 =0A=
+June 2006 <BR>Author Notification: 10 July =0A=
+2006</FONT><BR></FONT></DIV></DIV></DIV></DIV></DIV></DIV></DIV></BODY></=
+HTML>
+------_=_NextPart_001_01C67A53.0FEAFB07--
+
+
+--===============1466680967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+manet mailing list
+manet@ietf.org
+https://www1.ietf.org/mailman/listinfo/manet
+
+--===============1466680967==--
+

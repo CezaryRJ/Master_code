@@ -1,0 +1,14 @@
+2010 TO 2020
+-------#####------->    privsec-discuss
+jari.arkko@piuha.net 3
+paul.hoffman@icann.org 3
+housley@vigilsec.com 2
+info@advrubin.com 2
+aaron.falk@gmail.com 1
+ajs@anvilwalrusden.com 1
+fgont@si6networks.com 1
+ietf@trammell.ch 1
+lear@cisco.com 1
+lee@asgard.org 1
+spencerdawkins.ietf@gmail.com 1
+stephen.farrell@cs.tcd.ie 1

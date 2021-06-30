@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    rsoc
+klensin@jck.com 150
+fred@cisco.com 147
+bob.hinden@gmail.com 88
+rpelletier@isoc.org 81
+olaf@NLnetLabs.nl 65
+ole@cisco.com 56
+jmh@joelhalpern.com 42
+alexey.melnikov@isode.com 37
+housley@vigilsec.com 21
+n.brownlee@auckland.ac.nz 17
+dcrocker@gmail.com 13
+dcrocker@bbiw.net 9
+ebretherick@gmail.com 4
+Fred@cisco.com 3
+bernard.aboba@gmail.com 3
+marshall.eubanks@gmail.com 3
+bernard_aboba@hotmail.com 2
+hlflanagan@gmail.com 2
+dow.street@linquest.com 1
+henrik@levkowetz.com 1
+johnl@iecc.com 1
+kapfer@isoc.org 1
+mailer@doodle.com 1
+skh@ndzh.com 1

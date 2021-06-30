@@ -1,0 +1,320 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : simple
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/simple/2006-06.mailcl']
+id : e8258170-4593-46a7-8d1f-7808bed87081
+_version_ : 1675134015249580032
+
+Content : 
+
+X-Bri to find out what information standard vehicle 
+>> monitoring systems expose.
+>>
+>>
+>>
+>> _______________________________________________
+>> Simple mailing list
+>> Simple@ietf.org
+>> https://www1.ietf.org/mailman/listinfo/simple
+>>
+> 
+> _______________________________________________
+> Simple mailing list
+> Simple@ietf.org
+> https://www1.ietf.org/mailman/listinfo/simple
+> 
+
+-- 
+Jonathan D. Rosenberg, Ph.D.                   600 Lanidex Plaza
+Cisco Fellow                                   Parsippany, NJ 07054-2711
+Cisco Systems
+jdrosen@cisco.com                              FAX:   (973) 952-5050
+http://www.jdrosen.net                         PHONE: (973) 952-5000
+http://www.cisco.com
+
+_______________________________________________
+Simple mailing list
+Simple@ietf.org
+https://www1.ietf.org/mailman/listinfo/simple
+
+
+
+ to find out what information standard vehicle 
+>> monitoring systems expose.
+>>
+>>
+>>
+>> _______________________________________________
+>> Simple mailing list
+>> Simple@ietf.org
+>> https://www1.ietf.org/mailman/listinfo/simple
+>>
+> 
+> _______________________________________________
+> Simple mailing list
+> Simple@ietf.org
+> https://www1.ietf.org/mailman/listinfo/simple
+> 
+
+-- 
+Jonathan D. Rosenberg, Ph.D.                   600 Lanidex Plaza
+Cisco Fellow                                   Parsippany, NJ 07054-2711
+Cisco Systems
+jdrosen@cisco.com                              FAX:   (973) 952-5050
+http://www.jdrosen.net                         PHONE: (973) 952-5000
+http://www.cisco.com
+
+_______________________________________________
+Simple mailing list
+Simple@ietf.org
+https://www1.ietf.org/mailman/listinfo/simple
+
+
+
+ghtmail-Tracker: AAAAAA==
+X-IronPort-AV: i="4.05,221,1146466800"; 
+	d="scan'208"; a="29093070:sNHT25428872"
+Received: from xbh-rtp-201.amer.cisco.com (xbh-rtp-201.cisco.com
+	[64.102.31.12])
+	by rtp-core-2.cisco.com (8.12.10/8.12.6) with ESMTP id k590bVno019626; 
+	Thu, 8 Jun 2006 20:37:31 -0400 (EDT)
+Received: from xfe-rtp-202.amer.cisco.com ([64.102.31.21]) by
+	xbh-rtp-201.amer.cisco.com with Microsoft SMTPSVC(6.0.3790.211);
+	Thu, 8 Jun 2006 20:37:31 -0400
+Received: from [192.168.1.101] ([10.86.241.56]) by xfe-rtp-202.amer.cisco.com
+	with Microsoft SMTPSVC(6.0.3790.211); Thu, 8 Jun 2006 20:37:31 -0400
+Message-ID: <44888928.20609@cisco.com>
+Date: Thu, 08 Jun 2006 16:31:36 -0400
+From: Jonathan Rosenberg <jdrosen@cisco.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US;
+	rv:1.7.8) Gecko/20050511
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: Paul Kyzivat <pkyzivat@cisco.com>
+Subject: Re: [Simple] Question on Presence Data Model draft
+References: <4478E5A7.7050604@cs.columbia.edu>	<953beacc0605311601x17c4fdbav88e4e5b40b286da7@mail.gmail.com>	<4B8E9319-FCD3-42A8-84AB-CC9677790509@cs.columbia.edu>
+	<447F63FC.6010908@cisco.com>
+In-Reply-To: <447F63FC.6010908@cisco.com>
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 09 Jun 2006 00:37:31.0529 (UTC)
+	FILETIME=[E49B8F90:01C68B5C]
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 0cff8c3ec906d056784362c06f5f88c1
+Cc: simple@ietf.org, Henning Schulzrinne <hgs@cs.columbia.edu>
+X-BeenThere: simple@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: SIP for Instant Messaging and Presence Leveraging Extensions
+	<simple.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/simple>,
+	<mailto:simple-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/simple>
+List-Post: <mailto:simple@ietf.org>
+List-Help: <mailto:simple-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/simple>,
+	<mailto:simple-request@ietf.org?subject=subscribe>
+Errors-To: simple-bounces@ietf.org
+
+The model I have in my head from Hennings comments is this:
+
+  Please view in a fixed-width font such as
+                  Courier.
+
+
+
+
+
+
+
+           +---------+         +---------+
+           |         |         |         |
+           |         |SIMPLE   |         |
+           |Watcher  |-------->|Presence |
+           |         |         |Server   |
+           |         |         |         |
+           +---------+         +---------+
+                                    ^
+                                    |
+                                    |  i/f A
+                                    |
+                                    |
+                               +---------+
+                               |         |
+                               |         |
+                               |  Car    |
+                               |         |
+                               |         |
+                               +---------+
+
+The watcher talks to the presence server with SIMPLE. The presence 
+server is receiving information from the car, such as whether the car is 
+on/off, moving, and so on. The presence server uses this information to 
+generate presence information to the watcher. Consequently, I think you 
+need to consider the two interfaces in the diagram separately.
+
+In the interface from the watcher to the presence server, I don't think 
+the documents published from the presence server would say very much at 
+all about the state of the car. Rather, since we're talking about 
+*presence*, which is about human-centric communications, the information 
+from the car would have been used to derive presence states. For 
+example, the <person> element might have an <activities> that indicates
+driving' if the car is moving, and if the car detects that there are no 
+other passengers, might add the <privacy> element.
+
+However, the information from the car to the presence server would be 
+'raw' - that is, it directly conveys the car states, such as ignition 
+status, fuel status, movement status, and so on. I would assert that 
+this is not presence at all, but rather is other type of state that is 
+useful for composing presence. Consequently, I'd suggest defining a new 
+event package to appropriately represent this information.
+
+This concept - of using data from other event packages (or non-SIP 
+sources as the case may be) to derive presence states - is one of the 
+things that needs to be described in presence-processing-model IMHO.
+
+Thanks,
+Jonathan R.
+
+Paul Kyzivat wrote:
+
+> I may be missing how this is supposed to be used.
+> 
+> - Does the car know who (which presentities) are present within, so that 
+> it can report presence status about them?
+> 
+> - or does some independent element associated with a known presentity 
+> query the attributes of the car and then report that as presence status 
+> of the associated presentity? (E.g. when I use the car I dock my cell 
+> phone. It then picks up and reports the car status as part of my presence.)
+> 
+> - or is there a unique presentity associated with the car, regardless of 
+> who is within? (This would seem to be the case with OnStar.)
+> 
+>     Paul
+> 
+> Henning Schulzrinne wrote:
+> 
+>> [Chiming in since Vishal's project is in my lab.]
+>>
+>> On May 31, 2006, at 7:01 PM, Rohan Mahy wrote:
+>>
+>>> Hi Vishal,
+>>>
+>>> I'm assuming that the vehicle is a tuple for a human presentity--that
+>>> the car doesn't have its own resource/presentity name.
+>>>
+>>
+>> Indeed; it's used as an adjunct to a person (in our case repair 
+>> technicians in a truck).
+>>
+>> The basic question is whether this should be treated as:
+>>
+>> - person-associated information (under <person>)
+>> - a <device> (although it is not necessarily a communication device)
+>>
+>> Maybe a combination would be best, depending on the nature of the 
+>> information.
+>>
+>>> I don't think ignition is really orthogonal to movement status.  I
+>>> think you want a rich presence indicator of movement within the tuple
+>>> representing the vehicle.  The lock status might be relevant here as
+>>> well.  What you are probably trying to determine is 1) a state of
+>>> occupancy, and 2) a state of distraction. Keep in mind that many
+>>> hybrids don't require use of an ignition switch.  I think these work
+>>> for automobiles and trucks, but not for other types of vehicles:
+>>>
+>>> - parked locked (vehicle off)
+>>> - parked unlocked (vehicle off)
+>>> - standing (vehicle ready - idling/enabled)
+>>> - stopped (vehicle not moving, but in a driving "gear")
+>>> - under-way (vehicle in motion)
+>>>
+>>> You probably don't want fuel status.  Projected range is probably more
+>>> interesting.  1 liter of fuel in a Prius vs. 1 liter in a Hummer makes
+>>> a big difference in range.
+>>
+>>
+>> It's just a lot harder to estimate this. I think at least for 
+>> published information, having raw information seems more useful, maybe 
+>> along with information about the vehicle type. (I'm actually not quite 
+>> sure what this information might be used for, but maybe it is useful 
+>> for OnStar-style systems if a guy with a gas canister needs to be 
+>> dispatched.)
+>>
+>>>
+>>> The car stereo is often an interesting contributor to presence.  Some
+>>> cars even allow you to turn on the stereo with the ignition off. As a
+>>> student I used to sit in my car while studying, because the stereo was
+>>> better there.  Be aware that many car stereos are easily heard (and
+>>> listened to) outside the vehicle.
+>>
+>>
+>> There are IM/presence systems that display what song you're currently 
+>> listening to.
+>>
+>>>
+>>> Finally, if one or more of the seat belts are on this is probably a
+>>> pretty reliable indicator of the presence of a human.  Unfortunately,
+>>> not having seat belts on is not a reliable indicator that there are
+>>> *not* humans in the car.
+>>
+>>
+>> Most modern cars have weight sensors at least in their front seats, to 
+>> tune the behavior of air bags. While absence of passengers in the 
+>> front seat does not indicate an empty car, it might indicate a 
+>> situation where the occupants are looking for privacy.
+>>
+>> It would be interesting to find out what information standard vehicle 
+>> monitoring systems expose.
+>>
+>>
+>>
+>> _______________________________________________
+>> Simple mailing list
+>> Simple@ietf.org
+>> https://www1.ietf.org/mailman/listinfo/simple
+>>
+> 
+> _______________________________________________
+> Simple mailing list
+> Simple@ietf.org
+> https://www1.ietf.org/mailman/listinfo/simple
+> 
+
+-- 
+Jonathan D. Rosenberg, Ph.D.                   600 Lanidex Plaza
+Cisco Fellow                                   Parsippany, NJ 07054-2711
+Cisco Systems
+jdrosen@cisco.com                              FAX:   (973) 952-5050
+http://www.jdrosen.net                         PHONE: (973) 952-5000
+http://www.cisco.com
+
+_______________________________________________
+Simple mailing list
+Simple@ietf.org
+https://www1.ietf.org/mailman/listinfo/simple
+
+

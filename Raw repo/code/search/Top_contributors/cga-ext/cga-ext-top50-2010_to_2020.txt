@@ -1,0 +1,20 @@
+2010 TO 2020
+-------#####------->    cga-ext
+alberto@it.uc3m.es 15
+marcelo@it.uc3m.es 14
+tony.cheneau@it-sudparis.eu 14
+rogaglia@cisco.com 8
+shengjiang@huawei.com 8
+julienl@qualcomm.com 7
+anchie@fer.hr 5
+ietf@rozanak.com 5
+jeanmichel.combes@gmail.com 4
+roque.ietf@gmail.com 4
+suresh.krishnan@ericsson.com 4
+Ted.Lemon@nominum.com 3
+roque@lacnic.net 3
+jari.arkko@piuha.net 2
+Ahmad.AlSadeh@hpi.uni-potsdam.de 1
+Ana.Kukec@fer.hr 1
+behcetsarikaya@yahoo.com 1
+blourdel@cisco.com 1

@@ -1,0 +1,55 @@
+Date : ['2016-05-05T17:01:30Z']
+Timezone : -0000
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['[lp-wan] (no subject)']
+Mailing-list : lp-wan
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/lp-wan/2016-05.mailcl']
+id : e5e9138a-67ce-4f49-8e8b-07d621a15415
+_version_ : 1675133791673253888
+
+Content : 
+
+This is a reminder, sent out once a month, about your ietf.org mailing
+list memberships.  It includes your subscription info and how to use
+it to change it or unsubscribe from a list.
+
+You can visit the URLs to change your membership status or
+configuration, including unsubscribing, setting digest-style delivery
+or disabling delivery altogether (e.g., for a vacation), and so on.
+
+In addition to the URL interfaces, you can also use email to make such
+changes.  For more info, send a message to the '-request' address of
+the list (for example, entmib-request@ietf.org) containing just the
+word 'help' in the message body, and an email message will be sent to
+you with instructions.
+
+If you have questions, problems, comments, etc, send them to
+mailman-owner@.  Thanks!
+
+Passwords for entmib-archive@lists.ietf.org:
+
+List                                     Password // URL
+----                                     --------  
+entmib@ietf.org                          CNIo      
+https://www1.ietf.org/mailman/options/entmib/entmib-archive%40lists.ietf.org
+

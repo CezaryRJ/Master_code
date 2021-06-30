@@ -1,0 +1,27 @@
+2000 TO 2010
+-------#####------->    ipv6-dir
+kurtis@kurtis.pp.se 17
+sbrim@cisco.com 17
+jonne.soininen@nokia.com 11
+margaret@thingmagic.com 11
+MRW@devicescape.com 9
+jari.arkko@piuha.net 7
+narten@us.ibm.com 7
+john.loughney@nokia.com 6
+brian@innovationslab.net 5
+bob.hinden@nokia.com 4
+brc@zurich.ibm.com 4
+leslie@thinkingcat.com 4
+mailman-owner@ietf.org 4
+mankin@psg.com 4
+Erik.Nordmark@sun.com 3
+sra@hactrn.net 3
+pekkas@netcore.fi 2
+Jacksonwvbwr@tiscalinet.it 1
+Jonne.Soininen@nokia.com 1
+Wongkiqjr@ole.com 1
+david.kessens@nokia.com 1
+hndinvvftbrm@operamail.com 1
+pekka.nikander@nomadiclab.com 1
+rfuyvmdodan@free-online.net 1
+sob@harvard.edu 1

@@ -1,0 +1,76 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <000001c74194$149ac100$0100007f@DDC92F61>
+ From: "Richard" <adam@sbcglobal.net>
+ To: <smime-archive@ietf.org>
+ Subject: Say "I can have sex all night long"!
+ Date: Fri, 26 Jan 2007 15:51:06 +0100
+ MIME-Version: 1.0
+ Content-Type: multipart/alternative;
+ 	boundary="------------ms030903000600060206040301"
+ X-Priority: 3
+ X-MSMail-Priority: Normal
+ X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+ X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+ 
+ This is a multi-part message in MIME format.
+ 
+ --------------ms030903000600060206040301
+ Content-Type: text/html;
+ 	charset="iso-8859-1"
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+ <HTML><HEAD>
+ <META http-equiv=3DContent-Type content=3D"text/html; charset=3Dkoi8-r">
+ <META content=3D"MSHTML 6.00.2900.2995" name=3DGENERATOR>
+ <STYLE></STYLE>
+ </HEAD>
+ <BODY bgColor=3D#ffffff>
+ <DIV><A href=3D"http://lodmji.chalkmarshal.com/?67152620"><FONT color=3D#ff0000><STRONG>Hot sex with Viagra=20
+ pills<BR></STRONG></DIV></FONT></A>
+ <DIV><FONT color=3D#ffffff size=3D1><STRONG>pywis</STRONG></FONT></DIV>
+ <DIV><FONT face=3DArial size=3D2></FONT><BR><STRONG>Do you love sex but =
+ have ed=20
+ problems? </STRONG></DIV>
+ <DIV><FONT color=3D#ffffff size=3D1><STRONG>esqdl</STRONG></FONT></DIV>
+ <DIV><STRONG>Forget about them with Viagra or Cialis =
+ meds!</STRONG></DIV>
+ <DIV>
+ <DIV><FONT color=3D#ffffff =
+ size=3D1><STRONG>pyqww</STRONG></FONT></DIV><STRONG>Save=20
+ your money, buy high-quality meds at low price!</STRONG></DIV>
+ <DIV><STRONG><FONT color=3D#ffffff =
+ size=3D1>tghof</FONT></STRONG></DIV></BODY></HTML>
+ 
+ --------------ms030903000600060206040301--
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : smime
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/smime/2007-01.mailcl']
+id : 091cfca8-791f-4e83-90a4-c147173cccd5
+_version_ : 1675133660613836803
+
+Content : 
+
+
+

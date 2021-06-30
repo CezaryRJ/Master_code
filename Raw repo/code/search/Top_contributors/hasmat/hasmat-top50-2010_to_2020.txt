@@ -1,0 +1,27 @@
+2010 TO 2020
+-------#####------->    hasmat
+Jeff.Hodges@KingsMountain.com 28
+stpeter@stpeter.im 23
+ietf@adambarth.com 16
+tobias.gondrom@gondrom.org 7
+dev.akhawe@gmail.com 6
+julian.reschke@gmx.de 6
+asteingruebl@paypal-inc.com 5
+Hannes.Tschofenig@gmx.net 4
+ietf@hardjono.net 4
+asteingruebl@paypal.com 3
+hannes.tschofenig@nsn.com 3
+marsh@extendedsubset.com 3
+bsterne@mozilla.com 2
+kaie@kuix.de 2
+tlr@w3.org 2
+Martin.Thomson@andrew.com 1
+annevk@opera.com 1
+barryleiba.mailing.lists@gmail.com 1
+dan.winship@gmail.com 1
+gregory.ietf@gmail.com 1
+hannes.tschofenig@gmx.net 1
+iesg-secretary@ietf.org 1
+jeff.hodges@paypal.com 1
+robert@webappsec.org 1
+tony@att.com 1

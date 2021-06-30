@@ -1,0 +1,9 @@
+2000 TO 2010
+-------#####------->    irtf-announce
+falk@ISI.EDU 49
+falk@bbn.com 18
+rfc-editor@rfc-editor.org 4
+mailman-owner@ietf.org 2
+glen@amsl.com 1
+iab-chair@ietf.org 1
+j.schoenwaelder@iu-bremen.de 1

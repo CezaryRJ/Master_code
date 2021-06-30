@@ -1,0 +1,13 @@
+2000 TO 2010
+-------#####------->    multimobsec-api
+miika@iki.fi 30
+shinta@sfc.wide.ad.jp 19
+marcelo@it.uc3m.es 14
+Nicolas.Williams@sun.com 10
+mcr@sandelman.ottawa.on.ca 8
+Kristian.Slavov@ericsson.com 3
+jari.arkko@piuha.net 3
+mailman-owner@ietf.org 2
+pekka.nikander@nomadiclab.com 2
+shinta.sugimoto@ericsson.com 2
+jeff@airvana.com 1

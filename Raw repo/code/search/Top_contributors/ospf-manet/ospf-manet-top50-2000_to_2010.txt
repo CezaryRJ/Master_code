@@ -1,0 +1,23 @@
+2000 TO 2010
+-------#####------->    ospf-manet
+rich.ogier@earthlink.net 127
+philippe.jacquet@inria.fr 48
+thomas.r.henderson@boeing.com 44
+adesai@opnet.com 31
+riw@cisco.com 27
+acee@cisco.com 25
+Emmanuel.Baccelli@inria.fr 24
+sratliff@cisco.com 12
+pratik.bose@lmco.com 8
+joseph.macker@nrl.navy.mil 7
+akr@cisco.com 5
+phillip.a.spagnolo@boeing.com 5
+ppe@cisco.com 5
+John.E.Drake2@boeing.com 3
+aretana@cisco.com 3
+Vincent.Jardin@6wind.com 2
+joel@stevecrocker.com 2
+mailman-owner@ietf.org 2
+Chris.Dearlove@baesystems.com 1
+andreha@unik.no 1
+chris.dearlove@baesystems.com 1

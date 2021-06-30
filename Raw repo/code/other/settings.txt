@@ -1,0 +1,11 @@
+host = localhost
+port = 8983
+core = other
+user = cezaryrj
+password = SolrisNice1995
+filetype = .mailcl
+slash = \
+archive_location = C:\Users\Cezary\Desktop\files
+solr_location = D:\solr
+do_cleaning = no
+download_archive = no

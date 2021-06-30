@@ -1,0 +1,80 @@
+Date : ['2007-10-01T15:32:48Z']
+Timezone : +0100
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <52A0FF47062B0B4C80862F2526E024090491A5C9@enfimail2.datcon.co.uk>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2007-10.mailcl']
+id : 908d0535-fcde-472a-b477-00165e373c96
+_version_ : 1675128726053978112
+
+Content : 
+
+X-MS-TNEF-Correlato create one based on
+   the source IP and Port.  How does the proxy ensure that the same
+sigcomp-id
+   will be used for the next message from Alice?  Will it always use source
+IP
+   and Port as a remote application identifier?
+
+2. Bob registers with example.com. It will carry a valid remote application
+   identifier in sigcomp-id parameter of Via header and SIP URI of Contact
+   header (Created by Bob).  The proxy will use the same identifier. Is this
+   correct?
+
+          --Ravi
+
+--
+Coming Soon: Signature 2.0 (Beta)
+
+------=_Part_19039_20908077.1191346719021
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+<span class="gmail_quote"></span>The draft, draft-ietf-rohc-sigcomp-sip-08.txt does not have call flows<br>(Ofcourse, I know its Standards Track draft) . So I was not able to understand<br>when a UE or Proxy creates the remote application identifier and adds
+<br>sigcomp-id to SIP URI or Via header.<br><br>Can anyone explain if my understanding is correct with respect to the following<br>call flow.<br><br>Both Alice &amp; Bob belong to same proxy <a href="http://example.com">example.com
+</a>. But Alice is not compliant<br>to draft-ietf-rohc-sigcomp-sip (It will not create remote application<br>identifier).<br><br>1. Alice registers with <a href="http://example.com">example.com</a>.&nbsp;&nbsp;Now remote application identifier will
+<br>&nbsp;&nbsp; not be available at <a href="http://example.com">example.com</a>, hence the proxy will create one based on<br>&nbsp;&nbsp; the source IP and Port.&nbsp;&nbsp;How does the proxy ensure that the same sigcomp-id<br>&nbsp;&nbsp; will be used for the next message from Alice?&nbsp;&nbsp;Will it always use source IP
+<br>&nbsp;&nbsp; and Port as a remote application identifier?<br><br>2. Bob registers with <a href="http://example.com">example.com</a>. It will carry a valid remote application<br>&nbsp;&nbsp; identifier in sigcomp-id parameter of Via header and SIP URI of Contact
+<br>&nbsp;&nbsp; header (Created by Bob).&nbsp;&nbsp;The proxy will use the same identifier. Is this<br>&nbsp;&nbsp; correct?<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--Ravi<br><br>--<br>Coming Soon: Signature 2.0 (Beta)<br><br>
+
+------=_Part_19039_20908077.1191346719021--
+
+
+
+
+--===============0291195997==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+--===============0291195997==--
+
+
+

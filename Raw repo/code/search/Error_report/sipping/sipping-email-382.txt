@@ -1,0 +1,110 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-08.mailcl']
+id : 624b3db1-bf9c-422b-936b-3e28730062c3
+_version_ : 1675132980759101440
+
+Content : 
+
+- I would however prefer to change the terminology as follows:
+   * Substitute "Payment Offer" and "Offer" with "Payment Request"
+   * Substitute "Request for Payment" with "Payment Order"
+  To me it would sound as more locical as the Merchant is actually
+  requesting the Customer to pay and the Customer consequently is=20
+  placing a payment order to the Payment Provider.
+
+3. Option tags
+
+- Section 5.1 introduces two option tags but I wonder if the
+  option tag is the correct term for those ? They are at least
+  not SIP option tags in RFC 3261 sense as they are not expected
+  to appear in Supported, Require or Proxy-Require header.
+
+- Section 5.1 introduces an option tag "unable-SAML" and later
+  on refers to it as "Unknown-SAML" option tag. The latter is
+  used also in section 13. Worse more I find the rationale for
+  such a tag totally uncomprehensible. Please either remove this
+  tag or clarify the text and give some clear examples for the
+  briefly mentioned use cases:
+
+   "The Unknown-SAML option tag in a SAML header indicates a UA
+   understands the concept of SAML conveyance, but does not have the
+   desired SAML assertion to provide.  This can save error messages from
+   being generated looking for an answer the UA does not have to give.
+   It can also allow a processing entity the immediate knowledge it
+   needs to act as if the UA will not learn SAML on its own, and perhaps
+   call on another process to address the needs for that message."
+
+4. Customer proxy acting on behalf of the Customer
+
+- Section 6.4.2 introduces a case where the proxy will contact the
+  Payment Provider on behalf of the Customer. The related text lacks
+  an explanation how the proxy can decide whether to accept to pay
+  and if yes, how much to pay. I believe that for this scenario
+  there should be some discussion how the proxy could get the
+  Customer's credentials and the policy with which to do the decisions.
+ =20
+5. Payment Provider Behavior
+
+- Returning any error is described in step 1 after the Provider
+  has checked the customer-id and credentials. I suggest moving
+  this description between steps 4 and 5 where the Provider has
+  performed all the relevant checks.
+
+6. Other
+
+- Definitions for the purpose and semantics of the different XML
+  attributes like merchantBits, merchantId etc. should be given
+  somewhere. Now it takes some trouble to find out (as an educated
+  guess) that e.g. merchantId identifies an account for the Merchant.
+
+- I suggest collecting all the normative text for the UAS (Merchant)
+  into section 6.2:
+
+   - Contents of section 8.5 Verifying the Receipt should probably
+     be merged into section 6.2. UAS Behavior (Merchant)=20
+
+   - Contents of section 6.6 Merchant Fetching Public Key should=20
+     also be moved into section 6.2
+
+- Section 6.4 Transition Scenarios should be pulled out of section 6.
+  Section 6 is expected to contain the normative text for various
+  elements while 6.4 is providing examples for some transition
+  scenarios. If some of the UAS behavior will be done by a proxy
+  in some transition scenario then the section describing the
+  scenario should just make references to the text within section
+  6.2 UAS behavior.
+
+Regards,
+
+Erkki Koivusalo
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

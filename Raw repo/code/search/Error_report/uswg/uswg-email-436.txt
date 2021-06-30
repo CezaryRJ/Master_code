@@ -1,0 +1,50 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : uswg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/uswg/2008-01.mailcl']
+id : 4a1c1121-dd28-4c92-baa9-0c7cd30d9895
+_version_ : 1675132825149374464
+
+Content : 
+
+050708060804040100020203
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Tue, 8 Jan 2008 20:15:04 +0100
+To: uswg-archive@lists.ietf.org
+From: "Dojna finney" <Dojnafinney@Magazine.Com>
+Subject: oleugna
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+
+Now you'll be able to reach DEEPER into her!
+
+http://Donteverbesmall.com/
+
+olraced olotonia okoontua
+ollidab olliloji okeminen
+okiok ok-armed okstaver
+olleygib ollotypy okazakim
+
+

@@ -1,0 +1,2118 @@
+
+From drage@alcatel-lucent.com  Tue Jun  2 07:24:22 2009
+Return-Path: <drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3FE2628C19B for <sip@core3.amsl.com>; Tue,  2 Jun 2009 07:24:22 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.249
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.249 tagged_above=-999 required=5 tests=[AWL=2.000,  BAYES_00=-2.599, HELO_EQ_FR=0.35, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id QCP+aswqdIiX for <sip@core3.amsl.com>; Tue,  2 Jun 2009 07:24:21 -0700 (PDT)
+Received: from smail5.alcatel.fr (smail5.alcatel.fr [64.208.49.27]) by core3.amsl.com (Postfix) with ESMTP id 08B483A6ECB for <sip@ietf.org>; Tue,  2 Jun 2009 07:23:33 -0700 (PDT)
+Received: from FRMRSSXCHHUB03.dc-m.alcatel-lucent.com (FRMRSSXCHHUB03.dc-m.alcatel-lucent.com [135.120.45.63]) by smail5.alcatel.fr (8.13.8/8.13.8/ICT) with ESMTP id n52ENVQ9023359 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT) for <sip@ietf.org>; Tue, 2 Jun 2009 16:23:31 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.47]) by FRMRSSXCHHUB03.dc-m.alcatel-lucent.com ([135.120.45.63]) with mapi; Tue, 2 Jun 2009 16:23:31 +0200
+From: "DRAGE, Keith (Keith)" <drage@alcatel-lucent.com>
+To: "sip@ietf.org" <sip@ietf.org>
+Date: Tue, 2 Jun 2009 16:23:30 +0200
+Thread-Topic: [sip] I-D Action:draft-ietf-sip-outbound-19.txt
+Thread-Index: AcnjjbQBSkIsrQzjSHCP2P8t8HtvYQ==
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE206E79DE8@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.57 on 155.132.188.13
+Subject: [Sip] [sip] I-D Action:draft-ietf-sip-outbound-19.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Jun 2009 14:24:22 -0000
+
+Continuing my attempt to keep these going to the correct list, which is mea=
+nt to be STILL sip.
+
+And a reminder that it is the author's responsibility to update the list wi=
+th the nature of the changes when a new version is issues.
+
+regards
+
+Keith =20
+
+> -----Original Message-----
+> From: dispatch-bounces@ietf.org
+> [mailto:dispatch-bounces@ietf.org] On Behalf Of=20
+> Internet-Drafts@ietf.org
+> Sent: Monday, June 01, 2009 7:00 PM
+> To: i-d-announce@ietf.org
+> Cc: dispatch@ietf.org
+> Subject: [dispatch] I-D Action:draft-ietf-sip-outbound-19.txt
+>=20
+> A New Internet-Draft is available from the on-line Internet-Drafts=20
+> directories.
+> This draft is a work item of the Dispatch Working Group of the IETF.
+>=20
+>=20
+> 	Title           : Managing Client Initiated Connections=20
+> in the Session Initiation Protocol (SIP)
+> 	Author(s)       : C. Jennings
+> 	Filename        : draft-ietf-sip-outbound-19.txt
+> 	Pages           : 49
+> 	Date            : 2009-06-01
+>=20
+> The Session Initiation Protocol (SIP) allows proxy servers to initiate=20
+> TCP connections or to send asynchronous UDP datagrams to User Agents=20
+> in order to deliver requests.
+> However, in a large number of real deployments, many practical=20
+> considerations, such as the existence of firewalls and Network Address=20
+> Translators (NATs) or the use of TLS with server-provided=20
+> certificates, prevent servers from connecting to User Agents in this=20
+> way.  This specification defines behaviors for User Agents, registrars=20
+> and proxy servers that allow requests to be delivered on existing=20
+> connections established by the User Agent.  It also defines keep alive=20
+> behaviors needed to keep NAT bindings open and specifies the usage of=20
+> multiple connections from the User Agent to its Registrar.
+>=20
+> A URL for this Internet-Draft is:
+> http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-19.txt
+>=20
+> Internet-Drafts are also available by anonymous FTP at:
+> ftp://ftp.ietf.org/internet-drafts/
+>=20
+> Below is the data which will enable a MIME compliant mail reader=20
+> implementation to automatically retrieve the ASCII version of the=20
+> Internet-Draft.
+> =
+
+From mary.barnes@nortel.com  Tue Jun  2 07:27:34 2009
+Return-Path: <mary.barnes@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5FE9D3A6B1B for <sip@core3.amsl.com>; Tue,  2 Jun 2009 07:27:34 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OCMmgmer-41M for <sip@core3.amsl.com>; Tue,  2 Jun 2009 07:27:33 -0700 (PDT)
+Received: from zcars04e.nortel.com (zcars04e.nortel.com [47.129.242.56]) by core3.amsl.com (Postfix) with ESMTP id 38DBE3A6946 for <sip@ietf.org>; Tue,  2 Jun 2009 07:27:33 -0700 (PDT)
+Received: from zrc2hxm0.corp.nortel.com (zrc2hxm0.corp.nortel.com [47.103.123.71]) by zcars04e.nortel.com (Switch-2.2.0/Switch-2.2.0) with ESMTP id n52EQF105545 for <sip@ietf.org>; Tue, 2 Jun 2009 14:26:15 GMT
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 2 Jun 2009 09:29:58 -0500
+Message-ID: <1ECE0EB50388174790F9694F77522CCF1E4990EF@zrc2hxm0.corp.nortel.com>
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE206E79DE8@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] [sip] I-D Action:draft-ietf-sip-outbound-19.txt
+Thread-Index: AcnjjbQBSkIsrQzjSHCP2P8t8HtvYQAANGOQ
+References: <EDC0A1AE77C57744B664A310A0B23AE206E79DE8@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+From: "Mary Barnes" <mary.barnes@nortel.com>
+To: "DRAGE, Keith (Keith)" <drage@alcatel-lucent.com>, <sip@ietf.org>
+Subject: Re: [Sip] [sip] I-D Action:draft-ietf-sip-outbound-19.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Jun 2009 14:27:34 -0000
+
+There's one single change per the diff:
+http://tools.ietf.org/wg/dispatch/draft-ietf-sip-outbound/draft-ietf-sip
+-outbound-19-from-18.diff.html
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+DRAGE, Keith (Keith)
+Sent: Tuesday, June 02, 2009 9:24 AM
+To: sip@ietf.org
+Subject: [Sip] [sip] I-D Action:draft-ietf-sip-outbound-19.txt
+
+Continuing my attempt to keep these going to the correct list, which is
+meant to be STILL sip.
+
+And a reminder that it is the author's responsibility to update the list
+with the nature of the changes when a new version is issues.
+
+regards
+
+Keith =20
+
+> -----Original Message-----
+> From: dispatch-bounces@ietf.org
+> [mailto:dispatch-bounces@ietf.org] On Behalf Of=20
+> Internet-Drafts@ietf.org
+> Sent: Monday, June 01, 2009 7:00 PM
+> To: i-d-announce@ietf.org
+> Cc: dispatch@ietf.org
+> Subject: [dispatch] I-D Action:draft-ietf-sip-outbound-19.txt
+>=20
+> A New Internet-Draft is available from the on-line Internet-Drafts=20
+> directories.
+> This draft is a work item of the Dispatch Working Group of the IETF.
+>=20
+>=20
+> 	Title           : Managing Client Initiated Connections=20
+> in the Session Initiation Protocol (SIP)
+> 	Author(s)       : C. Jennings
+> 	Filename        : draft-ietf-sip-outbound-19.txt
+> 	Pages           : 49
+> 	Date            : 2009-06-01
+>=20
+> The Session Initiation Protocol (SIP) allows proxy servers to initiate
+
+> TCP connections or to send asynchronous UDP datagrams to User Agents=20
+> in order to deliver requests.
+> However, in a large number of real deployments, many practical=20
+> considerations, such as the existence of firewalls and Network Address
+
+> Translators (NATs) or the use of TLS with server-provided=20
+> certificates, prevent servers from connecting to User Agents in this=20
+> way.  This specification defines behaviors for User Agents, registrars
+
+> and proxy servers that allow requests to be delivered on existing=20
+> connections established by the User Agent.  It also defines keep alive
+
+> behaviors needed to keep NAT bindings open and specifies the usage of=20
+> multiple connections from the User Agent to its Registrar.
+>=20
+> A URL for this Internet-Draft is:
+> http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-19.txt
+>=20
+> Internet-Drafts are also available by anonymous FTP at:
+> ftp://ftp.ietf.org/internet-drafts/
+>=20
+> Below is the data which will enable a MIME compliant mail reader=20
+> implementation to automatically retrieve the ASCII version of the=20
+> Internet-Draft.
+>=20
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol Use
+sip-implementors@cs.columbia.edu for questions on current sip Use
+sipping@ietf.org for new developments on the application of sip
+
+From SKarnam@verisign.com  Tue Jun  2 08:30:29 2009
+Return-Path: <SKarnam@verisign.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id CC0B73A6C78 for <sip@core3.amsl.com>; Tue,  2 Jun 2009 08:30:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.729
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.729 tagged_above=-999 required=5 tests=[AWL=0.650,  BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-4, TVD_SPACE_RATIO=2.219]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5FJPqoWSj07h for <sip@core3.amsl.com>; Tue,  2 Jun 2009 08:30:29 -0700 (PDT)
+Received: from peregrine.verisign.com (peregrine.verisign.com [216.168.239.74]) by core3.amsl.com (Postfix) with ESMTP id 213C63A6AC9 for <sip@ietf.org>; Tue,  2 Jun 2009 08:30:27 -0700 (PDT)
+Received: from dul1wnexcn01.vcorp.ad.vrsn.com (dul1wnexcn01.vcorp.ad.vrsn.com [10.170.12.138]) by peregrine.verisign.com (8.13.6/8.13.4) with ESMTP id n52FKfIs026866 for <sip@ietf.org>; Tue, 2 Jun 2009 11:20:41 -0400
+Received: from dul1wnexmb01.vcorp.ad.vrsn.com ([10.170.12.134]) by dul1wnexcn01.vcorp.ad.vrsn.com with Microsoft SMTPSVC(6.0.3790.3959); Tue, 2 Jun 2009 11:30:27 -0400
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Date: Tue, 2 Jun 2009 11:30:27 -0400
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; boundary="----=_NextPart_000_0030_01C9E375.86D9F6C0"; micalg=SHA1
+Message-ID: <768BEB5E70C897468D015E23EDCC304E0425A2B8@dul1wnexmb01.vcorp.ad.vrsn.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: unsubscribe
+Thread-Index: Acnjlw3i0VNOwKVSQTqbGApbD3zJdg==
+From: "Karnam, Swamy" <SKarnam@verisign.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 02 Jun 2009 15:30:27.0367 (UTC) FILETIME=[0E256B70:01C9E397]
+Subject: [Sip] unsubscribe
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 02 Jun 2009 15:30:30 -0000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0030_01C9E375.86D9F6C0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0031_01C9E375.86D9F6C0"
+
+
+------=_NextPart_001_0031_01C9E375.86D9F6C0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+unsubscribe skarnam@verisign.com sip
+
+------=_NextPart_001_0031_01C9E375.86D9F6C0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.3527" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV><SPAN class=3D906043015-02062009><FONT face=3DArial =
+size=3D2>unsubscribe <A=20
+href=3D"mailto:skarnam@verisign.com">skarnam@verisign.com</A>=20
+sip</FONT></SPAN></DIV></BODY></HTML>
+
+------=_NextPart_001_0031_01C9E375.86D9F6C0--
+
+------=_NextPart_000_0030_01C9E375.86D9F6C0
+Content-Type: application/x-pkcs7-signature;
+	name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="smime.p7s"
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIOkTCCAwMw
+ggJsAhEAuS9gzIifoXpGCbhbcGyKrzANBgkqhkiG9w0BAQUFADCBwTELMAkGA1UEBhMCVVMxFzAV
+BgNVBAoTDlZlcmlTaWduLCBJbmMuMTwwOgYDVQQLEzNDbGFzcyAyIFB1YmxpYyBQcmltYXJ5IENl
+cnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzIxOjA4BgNVBAsTMShjKSAxOTk4IFZlcmlTaWduLCBJ
+bmMuIC0gRm9yIGF1dGhvcml6ZWQgdXNlIG9ubHkxHzAdBgNVBAsTFlZlcmlTaWduIFRydXN0IE5l
+dHdvcmswHhcNOTgwNTE4MDAwMDAwWhcNMjgwODAxMjM1OTU5WjCBwTELMAkGA1UEBhMCVVMxFzAV
+BgNVBAoTDlZlcmlTaWduLCBJbmMuMTwwOgYDVQQLEzNDbGFzcyAyIFB1YmxpYyBQcmltYXJ5IENl
+cnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzIxOjA4BgNVBAsTMShjKSAxOTk4IFZlcmlTaWduLCBJ
+bmMuIC0gRm9yIGF1dGhvcml6ZWQgdXNlIG9ubHkxHzAdBgNVBAsTFlZlcmlTaWduIFRydXN0IE5l
+dHdvcmswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKeIASF0LOcaA/CY4Zc8DyEI8Zzbl+ma
+/MIEBhO+X1LIzB4sElYsuAFpLMyZH62wlq55BPITOcF7mLoILOjChBMsqmnpCfTHqQKkQsIjT0rY
+8A6i+zFsyeZvmScH9eb0THiebetGhvq5hslU8rLEr9RGHFrJFTD/DWz1LQ5tzn93AgMBAAEwDQYJ
+KoZIhvcNAQEFBQADgYEAci75f9HxcfvEnvbFXlGKQJi4aPibHIPY4p29/+2h5mbqLwn0ytfqpSuV
+9iRghk1ELoOlxC2g0654aW9y2myuCPBjkjfmu8QwF613zEk1qs/Yj9G+txiWR3NqVCI0ZC22FptZ
+W7RRWTqzCxT0Et9noPStMmResUZyJ4wSe8VEtK4wggOmMIIDD6ADAgECAhB91+6/1s2TH7itq7xF
+P3LtMA0GCSqGSIb3DQEBBQUAMIHBMQswCQYDVQQGEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIElu
+Yy4xPDA6BgNVBAsTM0NsYXNzIDIgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3Jp
+dHkgLSBHMjE6MDgGA1UECxMxKGMpIDE5OTggVmVyaVNpZ24sIEluYy4gLSBGb3IgYXV0aG9yaXpl
+ZCB1c2Ugb25seTEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazAeFw05OTAyMjUwMDAw
+MDBaFw0xMDAyMjQyMzU5NTlaMIGtMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMW
+VmVyaVNpZ24gVHJ1c3QgTmV0d29yazFJMEcGA1UECxNAVXNlIGlzIHN1YmplY3QgdG8gdGVybXMg
+YXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYS1rciAoYyk5OTEmMCQGA1UEAxMdVmVyaVNp
+Z24gQ2xhc3MgMiBQZXJzb25uZWwgQ0EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKcEbA+i
+crdKBi741yksNJ2CvEiRSses+en8uVl4sVXAU1ixz28WO8FJ1cv0bszhzMu1xy5OiKo06bbQW3w+
+FVc04Ri8/931r2dZIArlPeqIikDSmokTKam21dunfuHnNyST/ZR0TXrkMm1M6FwWl6/dktlmihRm
+5OpaA6g9X/sLAgMBAAGjgbAwga0wEQYJYIZIAYb4QgEBBAQDAgEGMA8GA1UdEwQIMAYBAf8CAQEw
+CwYDVR0PBAQDAgEGMEQGA1UdIAQ9MDswOQYLYIZIAYb4RQEHFwIwKjAoBggrBgEFBQcCARYcaHR0
+cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYTA0BgNVHR8ELTArMCmgJ6AlhiNodHRwOi8vY3JsLnZl
+cmlzaWduLmNvbS9wY2EyLWcyLmNybDANBgkqhkiG9w0BAQUFAAOBgQCF82pfhtIQIfWQ/J2W5REa
+ZDwYHuvBwZiNeuApiBEYxtivofG9n7ESDvJ133jFabBKmyhUmJm1zZ9UbtzeLbcKpAULCJfisSpU
+ogKEvK94w3ug4oUIptQZlAWdik5Ruci15v42FbGws/9vVnAkfCZG1mm5kUlzV5cFUfeo9X0fjjCC
+A8AwggMpoAMCAQICECTOLrlL1nhSRPJ8u+NVI40wDQYJKoZIhvcNAQEFBQAwga0xFzAVBgNVBAoT
+DlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMUkwRwYDVQQL
+E0BVc2UgaXMgc3ViamVjdCB0byB0ZXJtcyBhdCBodHRwczovL3d3dy52ZXJpc2lnbi5jb20vcnBh
+LWtyIChjKTk5MSYwJAYDVQQDEx1WZXJpU2lnbiBDbGFzcyAyIFBlcnNvbm5lbCBDQTAeFw05OTAy
+MjUwMDAwMDBaFw0xMDAyMjMyMzU5NTlaMIGsMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0G
+A1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazFJMEcGA1UECxNAVXNlIGlzIHN1YmplY3QgdG8g
+dGVybXMgYXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYS1rciAoYyk5OTElMCMGA1UEAxMc
+VmVyaVNpZ24gQ2xhc3MgMiBFbXBsb3llZSBDQTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA
+wIrRh2Gi6jADVWsINvCX+hpUNSQf6H2dyMNz09hG9ZEt2TjtlNewJnMq3pdQTf8iHL1wAJgMWCqx
+pHKPpbn3LXxg47Xf6X1OISFh1fw7VMmkCZy7IvmiunBhT4ZGov0FZOwKP6ZYdle7FnNEfPClDZfA
+bKbxYwglsQQXlaCN/n8CAwEAAaOB3zCB3DApBgNVHREEIjAgpB4wHDEaMBgGA1UEAxMRUHJpdmF0
+ZUxhYmVsMS0xMTgwEQYJYIZIAYb4QgEBBAQDAgEGMA8GA1UdEwQIMAYBAf8CAQAwCwYDVR0PBAQD
+AgEGMEQGA1UdIAQ9MDswOQYLYIZIAYb4RQEHFwIwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cu
+dmVyaXNpZ24uY29tL3JwYTA4BgNVHR8EMTAvMC2gK6AphidodHRwOi8vY3JsLnZlcmlzaWduLmNv
+bS9WU0NsYXNzMkludC5jcmwwDQYJKoZIhvcNAQEFBQADgYEAnkqKrb5GGg91KsrXybo8c7ffBfCU
+oOcXnjIvQprkzVfcQ3QVzrZG9K558M/PW130GCmqIrwtV41C1VCdxVHL9JuM1/MziNmdYRUiPpqw
+PH4myYmiuu/854AgDdhyLq/OLwMCg7+jke3lXCYj+UwsZCmSYbs26cp2IB55DOOGeXIwggQYMIID
+gaADAgECAhA7OO1FOVOGgj8zlL55RFT1MA0GCSqGSIb3DQEBBQUAMIGsMRcwFQYDVQQKEw5WZXJp
+U2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazFJMEcGA1UECxNAVXNl
+IGlzIHN1YmplY3QgdG8gdGVybXMgYXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYS1rciAo
+Yyk5OTElMCMGA1UEAxMcVmVyaVNpZ24gQ2xhc3MgMiBFbXBsb3llZSBDQTAeFw0wODA2MTIwMDAw
+MDBaFw0wOTA2MTIyMzU5NTlaMGsxETAPBgNVBAoTCFZFUklTSUdOMRAwDgYDVQQLEwdWQS1FQVNU
+MRMwEQYDVQQDEwpSZWNpcGllbnRzMS8wLQYDVQQDEyZTS2FybmFtIChLYXJuYW0gU3dhbXksIFZl
+cmlTaWduLCBJbmMuKTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3bBFrJ3IgidIfi7JY8kn
+KPwhLtDClAbswwtFAt0njcuMtINGoVg9z1jGIwFWRwZWe8RGCDelpvUZRUoj0zTrjWfIgivRPnxU
+ooTFSg+EUuBVbATb2Y3yMuIuflCgZ3eQ8/G6KefnLIyOngfDvplEDGQ8GlZu5W6WVb+TKM192PMC
+AwEAAaOCAXkwggF1MAkGA1UdEwQCMAAwWQYDVR0fBFIwUDBOoEygSoZIaHR0cDovL29uc2l0ZWNy
+bC52ZXJpc2lnbi5jb20vVmVyaVNpZ25JbmNFeGNoYW5nZUVtcGxveWVlcy9MYXRlc3RDUkwuY3Js
+MAsGA1UdDwQEAwIFoDAfBgNVHREEGDAWgRRza2FybmFtQHZlcmlzaWduLmNvbTCBrAYDVR0gBIGk
+MIGhMIGeBgtghkgBhvhFAQcBATCBjjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cudmVyaXNpZ24u
+Y29tL0NQUzBiBggrBgEFBQcCAjBWMBUWDlZlcmlTaWduLCBJbmMuMAMCAQEaPVZlcmlTaWduJ3Mg
+Q1BTIGluY29ycC4gYnkgcmVmZXJlbmNlIGxpYWIuIGx0ZC4gKGMpOTcgVmVyaVNpZ24wEQYJYIZI
+AYb4QgEBBAQDAgeAMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQUF
+AAOBgQCUcoMFw+n73t/hy6qgDlMDdH8ir5WWHjmhiVbViQ4XENqaKodkgm0A1F5nf6eUCFEYJjal
+prPWrznP12347wXUAtdueuu2u5Sab9AplcagWPBo2mS+vc6L9gkq/Edct/+vRsJOtVyth64FNRFr
+Tm9fA0+ImyL/7XEcnZBtkh+dFjGCA/IwggPuAgEBMIHBMIGsMRcwFQYDVQQKEw5WZXJpU2lnbiwg
+SW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazFJMEcGA1UECxNAVXNlIGlzIHN1
+YmplY3QgdG8gdGVybXMgYXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYS1rciAoYyk5OTEl
+MCMGA1UEAxMcVmVyaVNpZ24gQ2xhc3MgMiBFbXBsb3llZSBDQQIQOzjtRTlThoI/M5S+eURU9TAJ
+BgUrDgMCGgUAoIIChjAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0w
+OTA2MDIxNTMwMjZaMCMGCSqGSIb3DQEJBDEWBBSGhAs1T3NOHxVlaeFGl8WwEPHcEzB7BgkqhkiG
+9w0BCQ8xbjBsMA4GCCqGSIb3DQMCAgIAgDAHBgUrDgMCBzAKBggqhkiG9w0DBzAHBgUrDgMCGjAK
+BggqhkiG9w0CAjAKBggqhkiG9w0CBDAKBggqhkiG9w0CBTALBgkqhkiG9w0BAQUwCwYJKoZIhvcN
+AQEAMIHSBgkrBgEEAYI3EAQxgcQwgcEwgawxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYD
+VQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMUkwRwYDVQQLE0BVc2UgaXMgc3ViamVjdCB0byB0
+ZXJtcyBhdCBodHRwczovL3d3dy52ZXJpc2lnbi5jb20vcnBhLWtyIChjKTk5MSUwIwYDVQQDExxW
+ZXJpU2lnbiBDbGFzcyAyIEVtcGxveWVlIENBAhA7OO1FOVOGgj8zlL55RFT1MIHUBgsqhkiG9w0B
+CRACCzGBxKCBwTCBrDEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xHzAdBgNVBAsTFlZlcmlTaWdu
+IFRydXN0IE5ldHdvcmsxSTBHBgNVBAsTQFVzZSBpcyBzdWJqZWN0IHRvIHRlcm1zIGF0IGh0dHBz
+Oi8vd3d3LnZlcmlzaWduLmNvbS9ycGEta3IgKGMpOTkxJTAjBgNVBAMTHFZlcmlTaWduIENsYXNz
+IDIgRW1wbG95ZWUgQ0ECEDs47UU5U4aCPzOUvnlEVPUwDQYJKoZIhvcNAQEBBQAEgYAtXoqRShHh
+BbOTZ+mEbXAOYcL9ECOELKrohnxm5XgyhbFXNCGcrHtqtXDUtpCzNLcrfOiDp0zIrac/S3WkEt+H
+3Q9/GMI4ySAt5/NwBlCcWVK5mr9etlB6juh137VYwNfjrLy0Qri5llI+dpLpHfVe47uACwQ0BKhq
+RP0KN03WCwAAAAAAAA==
+
+------=_NextPart_000_0030_01C9E375.86D9F6C0--
+
+From Glenn.Cahall@Level3.com  Thu Jun  4 09:45:39 2009
+Return-Path: <Glenn.Cahall@Level3.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 179003A6BD0 for <sip@core3.amsl.com>; Thu,  4 Jun 2009 09:45:39 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dHh-NDQ+G9l0 for <sip@core3.amsl.com>; Thu,  4 Jun 2009 09:45:34 -0700 (PDT)
+Received: from mail37.messagelabs.com (mail37.messagelabs.com [216.82.241.83]) by core3.amsl.com (Postfix) with SMTP id 5DF0B3A6927 for <sip@ietf.org>; Thu,  4 Jun 2009 09:45:34 -0700 (PDT)
+X-VirusChecked: Checked
+X-Env-Sender: Glenn.Cahall@Level3.com
+X-Msg-Ref: server-6.tower-37.messagelabs.com!1244133933!11036130!8
+X-StarScan-Version: 6.0.0; banners=-,-,-
+X-Originating-IP: [67.72.93.35]
+Received: (qmail 9852 invoked from network); 4 Jun 2009 16:45:36 -0000
+Received: from unknown (HELO f60241-02.adc1.level3.com) (67.72.93.35) by server-6.tower-37.messagelabs.com with SMTP; 4 Jun 2009 16:45:36 -0000
+Received: from idc1embx0003.corp.global.level3.com (idc1embx0003.corp.global.level3.com [10.1.9.78]) (using TLSv1 with cipher RC4-MD5 (128/128 bits)) (No client certificate requested) by f60241-02.adc1.level3.com (Postfix) with ESMTP id B5DBF2818; Thu,  4 Jun 2009 16:45:35 +0000 (GMT)
+Received: from idc1embx0003.corp.global.level3.com ([10.1.9.78]) by idc1embx0003.corp.global.level3.com ([10.1.9.78]) with mapi; Thu, 4 Jun 2009 10:45:34 -0600
+From: "Cahall, Glenn" <Glenn.Cahall@Level3.com>
+To: "chogg@nortelnetworks.com" <chogg@nortelnetworks.com>, "jdrosen@dynamicsoft.com" <jdrosen@dynamicsoft.com>, "zmolek@avaya.com" <zmolek@avaya.com>, "Marie-Noelle.Mathieu@compaq.com" <Marie-Noelle.Mathieu@compaq.com>, "sip@ietf.org" <sip@ietf.org>
+Date: Thu, 4 Jun 2009 10:45:33 -0600
+Thread-Topic: Reuse of Sip Call-Id question...
+Thread-Index: AcnlM+DM0BerdpoHTKqaYdKBHR0lgw==
+Message-ID: <E29E40522A7DEE4AAF590882786809AD15CC655850@idc1embx0003.corp.global.level3.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative; boundary="_000_E29E40522A7DEE4AAF590882786809AD15CC655850idc1embx0003c_"
+MIME-Version: 1.0
+X-Mailman-Approved-At: Fri, 05 Jun 2009 07:43:15 -0700
+Subject: [Sip] Reuse of Sip Call-Id question...
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 04 Jun 2009 16:47:33 -0000
+
+--_000_E29E40522A7DEE4AAF590882786809AD15CC655850idc1embx0003c_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Folks,
+
+I work for a VoIP company, Level3 Communications, and have been doing some =
+research on the internet about
+a specific condition that has arisen here dealing with the Sip protocol.  Y=
+our names came up during my research.
+Was hoping I could get some feedback about the reuse of Sip Call-Id.
+
+We have customer UAs that are reusing the same Sip Call-Id for multiple cal=
+l attempts into our network.
+
+After reviewing the Sip RFC 3261, both myself and my team concluded that th=
+is was a clear violation of the spec.  based
+on the following verbiage...
+
+8.1.1.4 Call-ID
+
+   The Call-ID header field acts as a unique identifier to group
+   together a series of messages.  It MUST be the same for all requests
+   and responses sent by either UA in a dialog.  It SHOULD be the same
+   in each registration from a UA.
+
+   In a new request created by a UAC outside of any dialog, the Call-ID
+   header field MUST be selected by the UAC as a globally unique
+   identifier over space and time unless overridden by method-specific
+   behavior.  All SIP UAs must have a means to guarantee that the Call-
+   ID header fields they produce will not be inadvertently generated by
+   any other UA.  Note that when requests are retried after certain
+
+
+
+However, some voice engineers are stating that the definition of "globally =
+unique over time and space"  means only during the
+context of a given call.  Therefore, once this context is over....Sip Call-=
+Id can in fact be reused in the very next context.
+
+
+What is your take on this?
+
+
+Thanks,
+Glenn E. Cahall
+Sr. Architect
+Level3 Communications
+
+
+
+
+
+
+
+--_000_E29E40522A7DEE4AAF590882786809AD15CC655850idc1embx0003c_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:Arial;
+	color:windowtext;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>Folks,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>I work for a VoIP company, Level3 Communications, and ha=
+ve
+been doing some research on the internet about <o:p></o:p></span></font></p=
+>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>a specific condition that has arisen here dealing with t=
+he
+Sip protocol.&nbsp; Your names came up during my research.<o:p></o:p></span=
+></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>Was hoping I could get some feedback about the reuse of =
+Sip
+Call-Id.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>We have customer UAs that are reusing the same Sip Call-=
+Id
+for multiple call attempts into our network.&nbsp; <o:p></o:p></span></font=
+></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>After reviewing the Sip RFC 3261, both myself and my tea=
+m
+concluded that this was a clear violation of the spec.&nbsp; based <o:p></o=
+:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>on the following verbiage...<o:p></o:p></span></font></p=
+>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>8.1.1.4 Call-ID<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; The Call-ID header field acts as a unique i=
+dentifier to
+group<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; together a series of messages.&nbsp; It MUS=
+T be the same for
+all requests<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; and responses sent by either UA in a dialog=
+.&nbsp; It SHOULD
+be the same<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; in each registration from a UA.<o:p></o:p><=
+/span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; In a new request created by a UAC outside o=
+f any dialog,
+the Call-ID<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; header field MUST be selected by the UAC as=
+ a globally
+unique<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; identifier over space and time unless overr=
+idden by
+method-specific<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; behavior.&nbsp; All SIP UAs must have a mea=
+ns to guarantee
+that the Call-<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; ID header fields they produce will not be i=
+nadvertently
+generated by<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;&nbsp; any other UA.&nbsp; Note that when requests=
+ are retried after
+certain<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>However, some voice engineers are stating that the
+definition of &#8220;globally unique over time and space&#8221;&nbsp; means=
+ only
+during the <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>context of a given call.&nbsp; Therefore, once this cont=
+ext is
+over....Sip Call-Id can in fact be reused in the very next context.<o:p></o=
+:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>What is your take on this?<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>Thanks,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>Glenn E. Cahall<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>Sr. Architect<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>Level3 Communications<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+--_000_E29E40522A7DEE4AAF590882786809AD15CC655850idc1embx0003c_--
+
+From attila.sipos@vegastream.com  Fri Jun  5 08:17:08 2009
+Return-Path: <attila.sipos@vegastream.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3A2A13A6A6C for <sip@core3.amsl.com>; Fri,  5 Jun 2009 08:17:08 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 69FRnM5sh-1f for <sip@core3.amsl.com>; Fri,  5 Jun 2009 08:17:03 -0700 (PDT)
+Received: from cluster-f.mailcontrol.com (cluster-f.mailcontrol.com [85.115.62.190]) by core3.amsl.com (Postfix) with ESMTP id 7A0253A6965 for <sip@ietf.org>; Fri,  5 Jun 2009 08:17:02 -0700 (PDT)
+Received: from rly39f.srv.mailcontrol.com (localhost.localdomain [127.0.0.1]) by rly39f.srv.mailcontrol.com (MailControl) with ESMTP id n55FH1ov015507 for <sip@ietf.org>; Fri, 5 Jun 2009 16:17:03 +0100
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1]) by rly39f.srv.mailcontrol.com (MailControl) id n55FGCRn010758 for <sip@ietf.org>; Fri, 5 Jun 2009 16:16:12 +0100
+Received: from exsmtp02.nasstar-t1.net (exsmtp02.nasstar-t1.net [89.28.233.152]) by rly39f-eth0.srv.mailcontrol.com (envelope-sender <attila.sipos@vegastream.com>) (MIMEDefang) with ESMTP id n55FEG1m000523; Fri, 05 Jun 2009 16:16:12 +0100 (BST)
+Received: from EXVS02.nasstar-t1.net ([10.2.10.104]) by exsmtp02.nasstar-t1.net with Microsoft SMTPSVC(6.0.3790.1830);  Fri, 5 Jun 2009 16:16:15 +0100
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01C9E5F0.914A12DE"
+Date: Fri, 5 Jun 2009 16:15:33 +0100
+Message-ID: <680808427CF931459462C3D78CB5EC6005EAC452@EXVS02.nasstar-t1.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Reuse of Sip Call-Id question...
+Thread-Index: AcnlM+DM0BerdpoHTKqaYdKBHR0lgwAvFQJA
+From: "Attila Sipos" <attila.sipos@vegastream.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 05 Jun 2009 15:16:15.0721 (UTC) FILETIME=[91C3CD90:01C9E5F0]
+X-Scanned-By: MailControl A-09-00-10 (www.mailcontrol.com) on 10.70.1.149
+Cc: chogg@nortelnetworks.com, Marie-Noelle.Mathieu@compaq.com, jdrosen@dynamicsoft.com, zmolek@avaya.com
+Subject: Re: [Sip] Reuse of Sip Call-Id question...
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 05 Jun 2009 15:17:08 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C9E5F0.914A12DE
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+you will get the same response here as on sip-core.
+=20
+SIP call-id should be unique for each call, it cannot be re-used
+=20
+Regards,
+
+Attila
+=20
+
+________________________________
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+Cahall, Glenn
+Sent: 04 June 2009 17:46
+To: chogg@nortelnetworks.com; jdrosen@dynamicsoft.com; zmolek@avaya.com;
+Marie-Noelle.Mathieu@compaq.com; sip@ietf.org
+Subject: [Sip] Reuse of Sip Call-Id question...
+
+
+
+Folks,
+
+I work for a VoIP company, Level3 Communications, and have been doing
+some research on the internet about=20
+
+a specific condition that has arisen here dealing with the Sip protocol.
+Your names came up during my research.
+
+Was hoping I could get some feedback about the reuse of Sip Call-Id.
+
+We have customer UAs that are reusing the same Sip Call-Id for multiple
+call attempts into our network.=20=20
+
+After reviewing the Sip RFC 3261, both myself and my team concluded that
+this was a clear violation of the spec.  based=20
+
+on the following verbiage...
+
+8.1.1.4 Call-ID
+
+   The Call-ID header field acts as a unique identifier to group
+
+   together a series of messages.  It MUST be the same for all requests
+
+   and responses sent by either UA in a dialog.  It SHOULD be the same
+
+   in each registration from a UA.
+
+   In a new request created by a UAC outside of any dialog, the Call-ID
+
+   header field MUST be selected by the UAC as a globally unique
+
+   identifier over space and time unless overridden by method-specific
+
+   behavior.  All SIP UAs must have a means to guarantee that the Call-
+
+   ID header fields they produce will not be inadvertently generated by
+
+   any other UA.  Note that when requests are retried after certain
+
+However, some voice engineers are stating that the definition of
+"globally unique over time and space"  means only during the=20
+
+context of a given call.  Therefore, once this context is over....Sip
+Call-Id can in fact be reused in the very next context.
+
+What is your take on this?
+
+Thanks,
+
+Glenn E. Cahall
+
+Sr. Architect
+
+Level3 Communications
+
+
+------_=_NextPart_001_01C9E5F0.914A12DE
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML defanghtml_xmlns=3D"http://www.w3.org/TR/REC-html40"=20
+defanghtml_xmlns:w=3D"urn:schemas-microsoft-com:office:word"=20
+defanghtml_xmlns:o=3D"urn:schemas-microsoft-com:office:office"><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.5730.13" name=3DGENERATOR>
+<STYLE>@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.25in 1.0in 1.25i=
+n; }
+P.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+LI.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+DIV.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+SPAN.EmailStyle17 {
+	COLOR: windowtext; FONT-FAMILY: Arial; mso-style-type: personal-compose
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+</HEAD>
+<BODY lang=3DEN-US vLink=3Dpurple link=3Dblue>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D822391315-05062009><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>you will get the same response here as on=20
+sip-core.</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D822391315-05062009><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D822391315-05062009><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>SIP call-id should be unique for each call, it can=
+not be=20
+re-used</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D822391315-05062009><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D822391315-05062009><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2>Regards,</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D822391315-05062009><FONT face=3DA=
+rial=20
+color=3D#0000ff size=3D2><BR>Attila</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D822391315-05062009></SPAN><SPAN=
+=20
+class=3D822391315-05062009></SPAN><SPAN class=3D822391315-05062009></SPAN><=
+SPAN=20
+class=3D822391315-05062009><FONT face=3DArial color=3D#0000ff=20
+size=3D2></FONT></SPAN>&nbsp;</DIV><BR>
+<DIV class=3DOutlookMessageHeader lang=3Den-us dir=3Dltr align=3Dleft>
+<HR tabIndex=3D-1>
+<FONT face=3DTahoma size=3D2><B>From:</B> sip-bounces@ietf.org=20
+[mailto:sip-bounces@ietf.org] <B>On Behalf Of </B>Cahall, Glenn<BR><B>Sent:=
+</B>=20
+04 June 2009 17:46<BR><B>To:</B> chogg@nortelnetworks.com;=20
+jdrosen@dynamicsoft.com; zmolek@avaya.com; Marie-Noelle.Mathieu@compaq.com;=
+=20
+sip@ietf.org<BR><B>Subject:</B> [Sip] Reuse of Sip Call-Id=20
+question...<BR></FONT><BR></DIV>
+<DIV></DIV>
+<DIV class=3DSection1>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">Folks,<O:P></O:P></DEFANGHTML=
+_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">I work for a VoIP company, Le=
+vel3=20
+Communications, and have been doing some research on the internet about=20
+<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">a specific condition that has=
+ arisen=20
+here dealing with the Sip protocol.&nbsp; Your names came up during my=20
+research.<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">Was hoping I could get some f=
+eedback=20
+about the reuse of Sip Call-Id.<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">We have customer UAs that are=
+=20
+reusing the same Sip Call-Id for multiple call attempts into our network.&n=
+bsp;=20
+<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">After reviewing the Sip RFC 3=
+261,=20
+both myself and my team concluded that this was a clear violation of the=20
+spec.&nbsp; based <O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">on the following=20
+verbiage...<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">8.1.1.4=20
+Call-ID<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; The Call-ID head=
+er=20
+field acts as a unique identifier to=20
+group<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; together a serie=
+s of=20
+messages.&nbsp; It MUST be the same for all=20
+requests<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; and responses se=
+nt by=20
+either UA in a dialog.&nbsp; It SHOULD be the=20
+same<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; in each registra=
+tion=20
+from a UA.<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; In a new request=
+=20
+created by a UAC outside of any dialog, the=20
+Call-ID<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; header field MUS=
+T be=20
+selected by the UAC as a globally unique<O:P></O:P></DEFANGHTML_SPAN></FONT=
+></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; identifier over =
+space=20
+and time unless overridden by=20
+method-specific<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; behavior.&nbsp; =
+All SIP=20
+UAs must have a means to guarantee that the=20
+Call-<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; ID header fields=
+ they=20
+produce will not be inadvertently generated=20
+by<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;&nbsp; any other UA.&nb=
+sp;=20
+Note that when requests are retried after=20
+certain<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">However, some voice engineers=
+ are=20
+stating that the definition of &#8220;globally unique over time and space&#=
+8221;&nbsp; means=20
+only during the <O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">context of a given call.&nbsp=
+;=20
+Therefore, once this context is over....Sip Call-Id can in fact be reused i=
+n the=20
+very next context.<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">What is your take on=20
+this?<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">Thanks,<O:P></O:P></DEFANGHTM=
+L_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">Glenn E.=20
+Cahall<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">Sr.=20
+Architect<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">Level3=20
+Communications<O:P></O:P></DEFANGHTML_SPAN></FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P>
+<P class=3DMsoNormal><FONT face=3DArial size=3D2><DEFANGHTML_SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial"><O:P></O:P></DEFANGHTML_SPAN>=
+</FONT></P></DIV><br><br>
+<P align=3Dleft><FONT style=3D"BACKGROUND-COLOR: #ffffff">.</FONT></P>
+</body></HTML>
+
+------_=_NextPart_001_01C9E5F0.914A12DE--
+
+From martin@macadamian.com  Fri Jun  5 08:45:38 2009
+Return-Path: <martin@macadamian.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 094403A682D for <sip@core3.amsl.com>; Fri,  5 Jun 2009 08:45:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.976
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.976 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id KJv9lPzmBFV2 for <sip@core3.amsl.com>; Fri,  5 Jun 2009 08:45:37 -0700 (PDT)
+Received: from mail-qy0-f184.google.com (mail-qy0-f184.google.com [209.85.221.184]) by core3.amsl.com (Postfix) with ESMTP id B08D03A69E2 for <sip@ietf.org>; Fri,  5 Jun 2009 08:45:36 -0700 (PDT)
+Received: by qyk14 with SMTP id 14so789571qyk.29 for <sip@ietf.org>; Fri, 05 Jun 2009 08:45:37 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.35.13 with SMTP id n13mr964463ibd.24.1244216736387; Fri,  05 Jun 2009 08:45:36 -0700 (PDT)
+In-Reply-To: <680808427CF931459462C3D78CB5EC6005EAC452@EXVS02.nasstar-t1.net>
+References: <680808427CF931459462C3D78CB5EC6005EAC452@EXVS02.nasstar-t1.net>
+Date: Fri, 5 Jun 2009 11:45:36 -0400
+Message-ID: <65a6f3300906050845nd3c27a7v4c37395851392fdb@mail.gmail.com>
+From: Martin Larochelle <martin@macadamian.com>
+To: Attila Sipos <attila.sipos@vegastream.com>
+Content-Type: multipart/alternative; boundary=0022152d655998b4aa046b9bc8d6
+Cc: sip@ietf.org, chogg@nortelnetworks.com, Marie-Noelle.Mathieu@compaq.com, jdrosen@dynamicsoft.com, zmolek@avaya.com
+Subject: Re: [Sip] Reuse of Sip Call-Id question...
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 05 Jun 2009 15:45:38 -0000
+
+--0022152d655998b4aa046b9bc8d6
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+This is right, although it does not mean that each call attempt must use a
+new call-id.You wrote that "We have customer UAs that are reusing the same
+Sip Call-Id for multiple call attempts into our network.", if by attempt,
+you mean trying to make a call that fails with a error that can be retried
+(as 407, 422) then in that case, it is acceptable to use the same call-id (
+with an incremented C-Seq and empty to-tag)
+
+--=20
+Martin Larochelle
+Software Architect
+
+
+On Fri, Jun 5, 2009 at 11:15 AM, Attila Sipos
+<attila.sipos@vegastream.com>wrote:
+
+>  you will get the same response here as on sip-core.
+>
+> SIP call-id should be unique for each call, it cannot be re-used
+>
+> Regards,
+>
+> Attila
+>
+>
+>  ------------------------------
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf Of =
+*Cahall,
+> Glenn
+> *Sent:* 04 June 2009 17:46
+> *To:* chogg@nortelnetworks.com; jdrosen@dynamicsoft.com; zmolek@avaya.com=
+;
+> Marie-Noelle.Mathieu@compaq.com; sip@ietf.org
+> *Subject:* [Sip] Reuse of Sip Call-Id question...
+>
+>  Folks,
+>
+> I work for a VoIP company, Level3 Communications, and have been doing som=
+e
+> research on the internet about
+>
+> a specific condition that has arisen here dealing with the Sip protocol.
+> Your names came up during my research.
+>
+> Was hoping I could get some feedback about the reuse of Sip Call-Id.
+>
+> We have customer UAs that are reusing the same Sip Call-Id for multiple
+> call attempts into our network.
+>
+> After reviewing the Sip RFC 3261, both myself and my team concluded that
+> this was a clear violation of the spec.  based
+>
+> on the following verbiage...
+>
+> 8.1.1.4 Call-ID
+>
+>    The Call-ID header field acts as a unique identifier to group
+>
+>    together a series of messages.  It MUST be the same for all requests
+>
+>    and responses sent by either UA in a dialog.  It SHOULD be the same
+>
+>    in each registration from a UA.
+>
+>    In a new request created by a UAC outside of any dialog, the Call-ID
+>
+>    header field MUST be selected by the UAC as a globally unique
+>
+>    identifier over space and time unless overridden by method-specific
+>
+>    behavior.  All SIP UAs must have a means to guarantee that the Call-
+>
+>    ID header fields they produce will not be inadvertently generated by
+>
+>    any other UA.  Note that when requests are retried after certain
+>
+>  However, some voice engineers are stating that the definition of
+> =93globally unique over time and space=94  means only during the
+>
+> context of a given call.  Therefore, once this context is over....Sip
+> Call-Id can in fact be reused in the very next context.
+>
+>  What is your take on this?
+>
+>  Thanks,
+>
+> Glenn E. Cahall
+>
+> Sr. Architect
+>
+> Level3 Communications
+>
+>
+>
+> .
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+
+--0022152d655998b4aa046b9bc8d6
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+This is right, although it does not mean that each call attempt must use a =
+new call-id.<div>You wrote that &quot;<span class=3D"Apple-style-span" styl=
+e=3D"border-collapse: collapse; font-family: Arial; ">We have customer UAs =
+that are reusing the same Sip Call-Id for multiple call attempts into our n=
+etwork.<span class=3D"Apple-style-span" style=3D"border-collapse: separate;=
+ font-family: arial; ">&quot;, if by attempt, you mean trying to make a cal=
+l that fails with a error that can be retried (as 407, 422) then in that ca=
+se, it is acceptable to use the same call-id ( with an incremented C-Seq an=
+d empty to-tag)</span></span></div>
+<div><br></div><div>-- <br>Martin Larochelle<br>Software Architect<br>
+<br><br><div class=3D"gmail_quote">On Fri, Jun 5, 2009 at 11:15 AM, Attila =
+Sipos <span dir=3D"ltr">&lt;<a href=3D"mailto:attila.sipos@vegastream.com">=
+attila.sipos@vegastream.com</a>&gt;</span> wrote:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex;">
+
+
+
+
+
+
+<div lang=3D"EN-US" vlink=3D"purple" link=3D"blue">
+<div dir=3D"ltr" align=3D"left"><span><font face=3D"Arial" color=3D"#0000ff=
+" size=3D"2">you will get the same response here as on=20
+sip-core.</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font face=3D"Arial" color=3D"#0000ff=
+" size=3D"2"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font face=3D"Arial" color=3D"#0000ff=
+" size=3D"2">SIP call-id should be unique for each call, it cannot be=20
+re-used</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font face=3D"Arial" color=3D"#0000ff=
+" size=3D"2"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font face=3D"Arial" color=3D"#0000ff=
+" size=3D"2">Regards,</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font face=3D"Arial" color=3D"#0000ff=
+" size=3D"2"><br>Attila</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span></span><span></span><span></span><spa=
+n><font face=3D"Arial" color=3D"#0000ff" size=3D"2"></font></span>=A0</div>=
+<br>
+<div lang=3D"en-us" dir=3D"ltr" align=3D"left">
+<hr>
+<font face=3D"Tahoma" size=3D"2"><b>From:</b> <a href=3D"mailto:sip-bounces=
+@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a>=20
+[mailto:<a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bounc=
+es@ietf.org</a>] <b>On Behalf Of </b>Cahall, Glenn<br><b>Sent:</b>=20
+04 June 2009 17:46<br><b>To:</b> <a href=3D"mailto:chogg@nortelnetworks.com=
+" target=3D"_blank">chogg@nortelnetworks.com</a>;=20
+<a href=3D"mailto:jdrosen@dynamicsoft.com" target=3D"_blank">jdrosen@dynami=
+csoft.com</a>; <a href=3D"mailto:zmolek@avaya.com" target=3D"_blank">zmolek=
+@avaya.com</a>; <a href=3D"mailto:Marie-Noelle.Mathieu@compaq.com" target=
+=3D"_blank">Marie-Noelle.Mathieu@compaq.com</a>;=20
+<a href=3D"mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a><br><b>Su=
+bject:</b> [Sip] Reuse of Sip Call-Id=20
+question...<br></font><br></div><div><div></div><div class=3D"h5">
+<div></div>
+<div>
+<p><font face=3D"Arial" size=3D"2">Folks,</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">I work for a VoIP company, Level3=20
+Communications, and have been doing some research on the internet about=20
+</font></p>
+<p><font face=3D"Arial" size=3D"2">a specific condition that has arisen=20
+here dealing with the Sip protocol.=A0 Your names came up during my=20
+research.</font></p>
+<p><font face=3D"Arial" size=3D"2">Was hoping I could get some feedback=20
+about the reuse of Sip Call-Id.</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">We have customer UAs that are=20
+reusing the same Sip Call-Id for multiple call attempts into our network.=
+=A0=20
+</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">After reviewing the Sip RFC 3261,=20
+both myself and my team concluded that this was a clear violation of the=20
+spec.=A0 based </font></p>
+<p><font face=3D"Arial" size=3D"2">on the following=20
+verbiage...</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">8.1.1.4=20
+Call-ID</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 The Call-ID header=20
+field acts as a unique identifier to=20
+group</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 together a series of=20
+messages.=A0 It MUST be the same for all=20
+requests</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 and responses sent by=20
+either UA in a dialog.=A0 It SHOULD be the=20
+same</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 in each registration=20
+from a UA.</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 In a new request=20
+created by a UAC outside of any dialog, the=20
+Call-ID</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 header field MUST be=20
+selected by the UAC as a globally unique</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 identifier over space=20
+and time unless overridden by=20
+method-specific</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 behavior.=A0 All SIP=20
+UAs must have a means to guarantee that the=20
+Call-</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 ID header fields they=20
+produce will not be inadvertently generated=20
+by</font></p>
+<p><font face=3D"Arial" size=3D"2">=A0=A0 any other UA.=A0=20
+Note that when requests are retried after=20
+certain</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">However, some voice engineers are=20
+stating that the definition of =93globally unique over time and space=94=A0=
+ means=20
+only during the </font></p>
+<p><font face=3D"Arial" size=3D"2">context of a given call.=A0=20
+Therefore, once this context is over....Sip Call-Id can in fact be reused i=
+n the=20
+very next context.</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">What is your take on=20
+this?</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2">Thanks,</font></p>
+<p><font face=3D"Arial" size=3D"2">Glenn E.=20
+Cahall</font></p>
+<p><font face=3D"Arial" size=3D"2">Sr.=20
+Architect</font></p>
+<p><font face=3D"Arial" size=3D"2">Level3=20
+Communications</font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p>
+<p><font face=3D"Arial" size=3D"2"></font></p></div><br><br>
+</div></div><p align=3D"left"><font style=3D"background-color:#ffffff">.</f=
+ont></p>
+</div>
+<br>_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is for NEW development of the core SIP Protocol<br>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on current sip<br>
+Use <a href=3D"mailto:sipping@ietf.org">sipping@ietf.org</a> for new develo=
+pments on the application of sip<br></blockquote></div><br></div>
+
+--0022152d655998b4aa046b9bc8d6--
+
+From wwwrun@core3.amsl.com  Mon Jun  8 11:14:07 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 89C963A67F8; Mon,  8 Jun 2009 11:14:07 -0700 (PDT)
+X-idtracker: yes
+From: The IESG <iesg-secretary@ietf.org>
+To: IETF-Announce <ietf-announce@ietf.org>
+Message-Id: <20090608181407.89C963A67F8@core3.amsl.com>
+Date: Mon,  8 Jun 2009 11:14:07 -0700 (PDT)
+Cc: sip mailing list <sip@ietf.org>, sip chair <sip-chairs@tools.ietf.org>, Internet Architecture Board <iab@iab.org>, RFC Editor <rfc-editor@rfc-editor.org>
+Subject: [Sip] Document Action: 'UA-Driven Privacy Mechanism for SIP' to Informational RFC
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 08 Jun 2009 18:14:07 -0000
+
+The IESG has approved the following document:
+
+- 'UA-Driven Privacy Mechanism for SIP '
+   <draft-ietf-sip-ua-privacy-08.txt> as an Informational RFC
+
+This document is the product of the Session Initiation Protocol Working 
+Group. 
+
+The IESG contact persons are Cullen Jennings and Robert Sparks.
+
+A URL of this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-ua-privacy-08.txt
+
+Technical summary.
+
+This document defines a guideline for a User Agent (UA) to generate an
+anonymous Session Initiation Protocol (SIP) message by utilizing
+mechanisms such as Globally Routable User Agent URIs (GRUU) and Traversal
+Using Relays around NAT (TURN) without the need for a privacy service
+defined in RFC 3323.
+
+Working group summary.
+
+There is consensus in the working group to publish this document. 
+
+Document Quality
+
+There has been no specific indication of implementation.
+
+Personnel
+
+The document shepherd for this document was Keith Drage. The responsible
+Area Director was Cullen Jennings
+
+RFC Editor Note
+
+In Section 5.1.2 
+OLD
+     sip:anonymous@atlanta.com
+NEW
+    sip:anonymous@example.com
+
+
+IRTF Note
+  none
+
+IESG Note
+  none
+
+IANA Note
+  none
+
+
+From rjs@nostrum.com  Tue Jun  9 14:12:52 2009
+Return-Path: <rjs@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id A87283A6ACF for <sip@core3.amsl.com>; Tue,  9 Jun 2009 14:12:52 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.6
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id h6cb8w7Ik7TB for <sip@core3.amsl.com>; Tue,  9 Jun 2009 14:12:52 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 872863A6930 for <sip@ietf.org>; Tue,  9 Jun 2009 14:12:51 -0700 (PDT)
+Received: from dn3-232.estacado.net (vicuna-alt.estacado.net [75.53.54.121]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id n59LCsaw083486 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Tue, 9 Jun 2009 16:12:54 -0500 (CDT) (envelope-from rjs@nostrum.com)
+Message-Id: <9F7C837C-288E-4828-8468-6ACEBE8FE884@nostrum.com>
+From: Robert Sparks <rjs@nostrum.com>
+To: Jari Urpalainen <jari.urpalainen@nokia.com>
+In-Reply-To: <1243418826.19036.42.camel@localhost>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v930.3)
+Date: Tue, 9 Jun 2009 16:12:54 -0500
+References: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com> <1243418826.19036.42.camel@localhost>
+X-Mailer: Apple Mail (2.930.3)
+Received-SPF: pass (nostrum.com: 75.53.54.121 is authenticated by a trusted mechanism)
+Cc: "sip@ietf.org List" <sip@ietf.org>, ext Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 09 Jun 2009 21:12:52 -0000
+
+I'm going through -07 in detail now to figure out the next step, and  
+just went back
+through the email threads to make sure nothing got dropped.
+
+I think we still have a rough edge related to what's below (and I  
+don't understand Jari's response
+now that I've read the draft carefully).
+
+My read is that the default was intended to be the simplest (and  
+required to implement) mode of
+"no-patching" and that we just had a single typo in the first  
+paragraph of section 4.3. The last
+sentence in that first paragraph should say "no-patching" rather than  
+"xcap-patching" and
+the conflict that Dean points to below is resolved.
+
+RjS
+
+On May 27, 2009, at 5:07 AM, Jari Urpalainen wrote:
+
+>> 1)  What's the default notification mode supposed to be? "xml-
+>> patching" is listed as the default and fail-safe in some text, but  
+>> "no-
+>> patching" is also described as the singular "must implement" mode. It
+>> seems to me that if a mode is the default if no mode is specified,
+>> then that mode had better be the default.
+>> This question is a primary source of confusion in Section 4.3, and  
+>> I'd
+>> appreciate some feedback. This whole section got a lot of edits, you
+>> may want to usea difftool.
+>>
+> for implementers this is no big deal, although you MUST know which is
+> the default if the parameter is missing, anyways it can be anyone of
+> those, so i'm fine with this technical change.
+
+
+From Jari.Urpalainen@nokia.com  Wed Jun 10 00:28:30 2009
+Return-Path: <Jari.Urpalainen@nokia.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id DF4DB3A6CFA for <sip@core3.amsl.com>; Wed, 10 Jun 2009 00:28:30 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id J6Q5rXp5gMaf for <sip@core3.amsl.com>; Wed, 10 Jun 2009 00:28:30 -0700 (PDT)
+Received: from mgw-mx03.nokia.com (smtp.nokia.com [192.100.122.230]) by core3.amsl.com (Postfix) with ESMTP id 820D63A6CF0 for <sip@ietf.org>; Wed, 10 Jun 2009 00:28:29 -0700 (PDT)
+Received: from vaebh105.NOE.Nokia.com (vaebh105.europe.nokia.com [10.160.244.31]) by mgw-mx03.nokia.com (Switch-3.2.6/Switch-3.2.6) with ESMTP id n5A7S6n2014141; Wed, 10 Jun 2009 10:28:16 +0300
+Received: from esebh102.NOE.Nokia.com ([172.21.138.183]) by vaebh105.NOE.Nokia.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 10 Jun 2009 10:28:18 +0300
+Received: from mgw-da01.ext.nokia.com ([147.243.128.24]) by esebh102.NOE.Nokia.com over TLS secured channel with Microsoft SMTPSVC(6.0.3790.3959); Wed, 10 Jun 2009 10:28:17 +0300
+Received: from [172.21.37.235] (esdhcp037235.research.nokia.com [172.21.37.235]) by mgw-da01.ext.nokia.com (Switch-3.2.6/Switch-3.2.6) with ESMTP id n5A7SCrl029054; Wed, 10 Jun 2009 10:28:13 +0300
+From: Jari Urpalainen <jari.urpalainen@nokia.com>
+To: ext Robert Sparks <rjs@nostrum.com>
+In-Reply-To: <9F7C837C-288E-4828-8468-6ACEBE8FE884@nostrum.com>
+References: <656509D0-269E-48C4-BA76-0195E1A31B3C@softarmor.com> <1243418826.19036.42.camel@localhost> <9F7C837C-288E-4828-8468-6ACEBE8FE884@nostrum.com>
+Content-Type: text/plain
+Date: Wed, 10 Jun 2009 10:28:13 +0300
+Message-Id: <1244618893.12477.18.camel@localhost>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.26.1 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 10 Jun 2009 07:28:18.0301 (UTC) FILETIME=[066242D0:01C9E99D]
+X-Nokia-AV: Clean
+Cc: "sip@ietf.org List" <sip@ietf.org>, ext Dean Willis <dean.willis@softarmor.com>
+Subject: Re: [Sip] Draft ietf-sip-xcapevent revised, many open questions
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 10 Jun 2009 07:28:31 -0000
+
+On Tue, 2009-06-09 at 23:12 +0200, ext Robert Sparks wrote:
+> I'm going through -07 in detail now to figure out the next step, and  
+> just went back
+> through the email threads to make sure nothing got dropped.
+> 
+> I think we still have a rough edge related to what's below (and I  
+> don't understand Jari's response
+> now that I've read the draft carefully).
+> 
+Sorry, i did not read the text that carefully (rather only Dean's
+question)
+
+My previous comment was about the default mode if client won't give any.
+In 04 it was "xcap-patching" but it can be any of those, and Dean
+proposed "no-patching" which is fine.
+
+> My read is that the default was intended to be the simplest (and  
+> required to implement) mode of
+> "no-patching" and that we just had a single typo in the first  
+> paragraph of section 4.3. The last
+> sentence in that first paragraph should say "no-patching" rather than  
+> "xcap-patching" and
+> the conflict that Dean points to below is resolved.
+> 
+> RjS
+> 
+Right, the last sentence in 4.3 is _wrong_. The subscribers MAY
+implement any of the modes, but it doesn't need to support patching at
+all. The same applies to the notifier with the exception that it MUST
+implement xcap-component subscriptions. The last sentence of the first
+chapter of 4.3 is also wrong since the client could only subscribe to
+xcap component changes, so it'd better to remove the last part ", as all
+subscribers are required to support that mode."
+
+br, jari
+
+
+From wwwrun@core3.amsl.com  Wed Jun 10 14:34:18 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 102BE3A6951; Wed, 10 Jun 2009 14:34:17 -0700 (PDT)
+From: IESG Secretary <iesg-secretary@ietf.org>
+To: IETF Announcement list <ietf-announce@ietf.org>
+Content-Type: text/plain; charset="utf-8"
+Mime-Version: 1.0
+Message-Id: <20090610213418.102BE3A6951@core3.amsl.com>
+Date: Wed, 10 Jun 2009 14:34:18 -0700 (PDT)
+Cc: sip@ietf.org, sip-chairs@tools.ietf.org, iab@iab.org, rfc-editor@rfc-editor.org
+Subject: [Sip] CORRECTED Protocol Action: 'Managing Client Initiated Connections in the Session Initiation Protocol (SIP)' to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 10 Jun 2009 21:34:18 -0000
+
+The IESG has approved the following document:
+
+- 'Managing Client Initiated Connections in the Session Initiation
+Protocol (SIP) '
+<draft-ietf-sip-outbound-20.txt> as a Proposed Standard
+
+This document is the product of the Session Initiation Protocol Working
+Group.
+
+The IESG contact persons are Robert Sparks and Cullen Jennings.
+
+A URL of this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-20.txt
+
+Technical Summary
+
+This document defines an extension to the Session Initiation Protocol
+(SIP) that provides for persistent and reusable connections between
+SIP User Agents and SIP Proxy Servers. In particular, this allows
+proxy servers to initiate TCP connections or to send asynchronous UDP
+datagrams to User Agents in order to deliver requests. However, in a
+large number of real deployments, many practical considerations, such
+as the existence of firewalls and Network Address Translators (NATs)
+or the use of TLS with server-provided certificates, prevent servers
+from connecting to User Agents in this way. This specification
+defines behaviors for User Agents, registrars and proxy servers that
+allow requests to be delivered on existing connections established by
+the User Agent. It also defines keep alive behaviors needed to keep
+NAT bindings open and specifies the usage of multiple connections from
+the User Agent to its Registrar.
+
+Working Group Summary
+
+The working group process on this document was exceptionally long. The
+
+
+first WG version of the draft appeared in the summer of 2005. Working
+group last call initiated in the summer of 2006 and extended until the
+summer of 2008, requiring several iterations of the draft and the
+assignment of Francois Audet as a "process champion" for the draft
+within the working group. Most delays seem to have been related to
+slow cycle time on the part of the authors, but the process was also
+delayed by a number of changes occurring during the review cycle.
+
+Particular sticking points included the keepalive mechanism and a
+requirement for binding to multiple outbound proxies if so
+configured. Both were eventually resolved by a widely-accepted
+compromises. Additional work is being pursued in SIPCORE to allow
+the use of the keepalive mechanism independently of the outbound
+mechanism.
+
+Document Quality
+
+There have been implementations of previous versions of this
+draft testing at SIPit events since 2005.
+
+Personnel
+
+Dean Willis is the document shepherd with significant assistance
+from Francois Audet. Robert Sparks is the responsible area director.
+
+From dean.willis@softarmor.com  Wed Jun 10 20:59:02 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C8FB33A683B for <sip@core3.amsl.com>; Wed, 10 Jun 2009 20:59:02 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id cPs54N72OPpi for <sip@core3.amsl.com>; Wed, 10 Jun 2009 20:59:02 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id EFEC93A6839 for <sip@ietf.org>; Wed, 10 Jun 2009 20:59:01 -0700 (PDT)
+Received: from [192.168.2.2] (cpe-76-182-198-42.tx.res.rr.com [76.182.198.42]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n5B3x669012387 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT) for <sip@ietf.org>; Wed, 10 Jun 2009 22:59:08 -0500
+Message-ID: <4A308105.8050709@softarmor.com>
+Date: Wed, 10 Jun 2009 22:59:01 -0500
+From: Dean Willis <dean.willis@softarmor.com>
+User-Agent: Mozilla-Thunderbird 2.0.0.19 (X11/20090103)
+MIME-Version: 1.0
+To: SIP IETF <sip@ietf.org>
+X-Enigmail-Version: 0.95.0
+Content-Type: multipart/mixed; boundary="------------020908050408050908060500"
+Subject: [Sip] [Fwd: I-D Action:draft-ietf-sip-outbound-20.txt]
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 11 Jun 2009 03:59:02 -0000
+
+This is a multi-part message in MIME format.
+--------------020908050408050908060500
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+Outbound has been approved by the IESG.
+
+-------- Original Message --------
+Subject: I-D Action:draft-ietf-sip-outbound-20.txt
+Date: Wed, 10 Jun 2009 13:15:01 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+Reply-To: internet-drafts@ietf.org
+To: i-d-announce@ietf.org
+CC: dispatch@ietf.org
+
+A New Internet-Draft is available from the on-line Internet-Drafts
+directories.
+This draft is a work item of the Dispatch Working Group of the IETF.
+
+
+	Title           : Managing Client Initiated Connections in the Session
+Initiation Protocol (SIP)
+	Author(s)       : C. Jennings
+	Filename        : draft-ietf-sip-outbound-20.txt
+	Pages           : 49
+	Date            : 2009-06-10
+
+The Session Initiation Protocol (SIP) allows proxy servers to
+initiate TCP connections or to send asynchronous UDP datagrams to
+User Agents in order to deliver requests.  However, in a large number
+of real deployments, many practical considerations, such as the
+existence of firewalls and Network Address Translators (NATs) or the
+use of TLS with server-provided certificates, prevent servers from
+connecting to User Agents in this way.  This specification defines
+behaviors for User Agents, registrars and proxy servers that allow
+requests to be delivered on existing connections established by the
+User Agent.  It also defines keep alive behaviors needed to keep NAT
+bindings open and specifies the usage of multiple connections from
+the User Agent to its Registrar.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-20.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+
+--------------020908050408050908060500
+Content-Type: Message/External-body;
+ name="draft-ietf-sip-outbound-20.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline;
+ filename="draft-ietf-sip-outbound-20.txt"
+
+Content-Type: text/plain
+Content-ID: <2009-06-10131453.I-D@ietf.org>
+
+
+
+--------------020908050408050908060500
+Content-Type: text/plain;
+ name="Attached Message Part"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline;
+ filename="Attached Message Part"
+
+_______________________________________________
+I-D-Announce mailing list
+I-D-Announce@ietf.org
+https://www.ietf.org/mailman/listinfo/i-d-announce
+Internet-Draft directories: http://www.ietf.org/shadow.html
+or ftp://ftp.ietf.org/ietf/1shadow-sites.txt
+
+
+--------------020908050408050908060500--
+
+From dean.willis@softarmor.com  Wed Jun 10 20:59:24 2009
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 076A83A6839 for <sip@core3.amsl.com>; Wed, 10 Jun 2009 20:59:24 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[AWL=0.000,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id PXdiMYg62bNX for <sip@core3.amsl.com>; Wed, 10 Jun 2009 20:59:23 -0700 (PDT)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id EEBF028C0DC for <sip@ietf.org>; Wed, 10 Jun 2009 20:59:22 -0700 (PDT)
+Received: from [192.168.2.2] (cpe-76-182-198-42.tx.res.rr.com [76.182.198.42]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id n5B3xSkX012395 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT) for <sip@ietf.org>; Wed, 10 Jun 2009 22:59:29 -0500
+Message-ID: <4A30811B.9080203@softarmor.com>
+Date: Wed, 10 Jun 2009 22:59:23 -0500
+From: Dean Willis <dean.willis@softarmor.com>
+User-Agent: Mozilla-Thunderbird 2.0.0.19 (X11/20090103)
+MIME-Version: 1.0
+To: SIP IETF <sip@ietf.org>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Subject: [Sip] [Fwd: [dispatch] Protocol Action: 'Managing Client Initiated Connections in the Session Initiation Protocol (SIP)' to Proposed Standard]
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 11 Jun 2009 03:59:24 -0000
+
+-------- Original Message --------
+Subject: [dispatch] Protocol Action: 'Managing Client Initiated
+Connections in the Session Initiation Protocol (SIP)' to Proposed Standard
+Date: Wed, 10 Jun 2009 14:13:37 -0700 (PDT)
+From: The IESG <iesg-secretary@ietf.org>
+To: IETF-Announce <ietf-announce@ietf.org>
+CC: dispatch mailing list <dispatch@ietf.org>,        dispatch chair
+<dispatch-chairs@tools.ietf.org>,        Internet Architecture Board
+<iab@iab.org>,        RFC Editor <rfc-editor@rfc-editor.org>
+
+The IESG has approved the following document:
+
+- 'Managing Client Initiated Connections in the Session Initiation
+   Protocol (SIP) '
+   <draft-ietf-sip-outbound-20.txt> as a Proposed Standard
+
+This document is the product of the Dispatch Working Group.
+
+The IESG contact persons are Robert Sparks and Cullen Jennings.
+
+A URL of this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-outbound-20.txt
+
+Technical Summary
+
+   This document defines an extension to the Session Initiation Protocol
+   (SIP) that provides for persistent and reusable connections between
+   SIP User Agents and SIP Proxy Servers. In particular, this allows
+   proxy servers to initiate TCP connections or to send asynchronous UDP
+   datagrams to User Agents in order to deliver requests.  However, in a
+   large number of real deployments, many practical considerations, such
+   as the existence of firewalls and Network Address Translators (NATs)
+   or the use of TLS with server-provided certificates, prevent servers
+   from connecting to User Agents in this way.  This specification
+   defines behaviors for User Agents, registrars and proxy servers that
+   allow requests to be delivered on existing connections established by
+   the User Agent.  It also defines keep alive behaviors needed to keep
+   NAT bindings open and specifies the usage of multiple connections from
+   the User Agent to its Registrar.
+
+Working Group Summary
+
+   The working group process on this document was exceptionally long. The
+
+
+   first WG version of the draft appeared in the summer of 2005. Working
+   group last call initiated in the summer of 2006 and extended until the
+   summer of 2008, requiring several iterations of the draft and the
+   assignment of Francois Audet as a "process champion" for the draft
+   within the working group. Most delays seem to have been related to
+   slow cycle time on the part of the authors, but the process was also
+   delayed by a number of changes occurring during the review cycle.
+
+   Particular sticking points included the keepalive mechanism and a
+   requirement for binding to multiple outbound proxies if so
+   configured. Both were eventually resolved by a widely-accepted
+   compromises. Additional work is being pursued in SIPCORE to allow
+   the use of the keepalive mechanism independently of the outbound
+   mechanism.
+
+Document Quality
+
+  There have been implementations of previous versions of this
+  draft testing at SIPit events since 2005.
+
+Personnel
+
+   Dean Willis is the document shepherd with significant assistance
+   from Francois Audet. Robert Sparks is the responsible area director.
+
+_______________________________________________
+dispatch mailing list
+dispatch@ietf.org
+https://www.ietf.org/mailman/listinfo/dispatch
+
+
+From wwwrun@core3.amsl.com  Wed Jun 17 09:06:42 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id 494403A6C42; Wed, 17 Jun 2009 09:06:42 -0700 (PDT)
+X-idtracker: yes
+To: IETF-Announce <ietf-announce@ietf.org> 
+From: The IESG <iesg-secretary@ietf.org>
+Message-Id: <20090617160642.494403A6C42@core3.amsl.com>
+Date: Wed, 17 Jun 2009 09:06:42 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] Last Call: draft-ietf-sip-body-handling (Message Body Handling in the Session Initiation Protocol (SIP)) to Proposed Standard
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ietf@ietf.org
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 17 Jun 2009 16:06:42 -0000
+
+The IESG has received a request from the Session Initiation Protocol WG 
+(sip) to consider the following document:
+
+- 'Message Body Handling in the Session Initiation Protocol (SIP) '
+   <draft-ietf-sip-body-handling-06.txt> as a Proposed Standard
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send substantive comments to the
+ietf@ietf.org mailing lists by 2009-07-01. Exceptionally, 
+comments may be sent to iesg@ietf.org instead. In either case, please 
+retain the beginning of the Subject line to allow automated sorting.
+
+The file can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-sip-body-handling-06.txt
+
+
+IESG discussion can be tracked via
+https://datatracker.ietf.org/public/pidtracker.cgi?command=view_id&dTag=16410&rfc_flag=0
+
+
+From rjsparks@nostrum.com  Tue Jun 23 08:59:56 2009
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 8692628C39A for <sip@core3.amsl.com>; Tue, 23 Jun 2009 08:59:56 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.6
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 tagged_above=-999 required=5 tests=[AWL=0.000, BAYES_00=-2.599, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Q8j++9np3Q+W for <sip@core3.amsl.com>; Tue, 23 Jun 2009 08:59:55 -0700 (PDT)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 63C1D28C38C for <sip@ietf.org>; Tue, 23 Jun 2009 08:59:55 -0700 (PDT)
+Received: from dn3-232.estacado.net (vicuna-alt.estacado.net [75.53.54.121]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id n5NG06FF059094 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Tue, 23 Jun 2009 11:00:06 -0500 (CDT) (envelope-from rjsparks@nostrum.com)
+Message-Id: <546774CC-FA48-404A-A3AC-BBBC9CDE1292@nostrum.com>
+From: Robert Sparks <rjsparks@nostrum.com>
+To: thomas froment <tfroment@gmail.com>, draft-ietf-sip-record-route-fix@tools.ietf.org, Nils Ohlmeier <nils@ohlmeier.de>, sip-chairs@tools.ietf.org, "Cullen Jennings (fluffy)" <fluffy@cisco.com>, "sip@ietf.org List" <sip@ietf.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Tue, 23 Jun 2009 11:00:05 -0500
+X-Mailer: Apple Mail (2.935.3)
+Received-SPF: pass (nostrum.com: 75.53.54.121 is authenticated by a trusted mechanism)
+Subject: [Sip] AD review : draft-ietf-sip-record-route-fix
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 23 Jun 2009 15:59:56 -0000
+
+This is ready to go and I've asked it to be IETF LCed.
+
+One thing that we will need to fix: The IPv6 address bearing SIP URIs  
+in the examples are not right - the literals need to be enclosed in  
+'[' ']' symbols
+(as in sip:bob@[2001:db8::9:1]).
+
+There is an outstanding issue being worked on reconciling the SIP (and  
+other scheme's) URI handling of IPv6 literals with the genericURI  
+syntax.
+That should not hold up this document (the impact is only in some  
+examples after all).
+
+Some other early last call comments:
+
+The last paragraph of the introduction (about essential corrections)  
+is a holdover from earlier versions, before we decided to move this  
+forward as a BCP.
+It should probably be removed.
+
+There is a sentence at the end of the quote on page 7 that should be  
+split off into its own paragraph (Starting "It is to notice that").
+
+A reference into RFC3261 to explain spirals (at the third paragraph of  
+section 5) would help readers who aren't already very familiar with  
+SIP proxy behavior.
+
+Consider reinforcing that it is a proxy in proxy 2's situation that  
+you are talking about in the 2nd to last paragraph of section 6.2.
+
+
+RjS
+
+From wwwrun@core3.amsl.com  Tue Jun 23 09:00:52 2009
+Return-Path: <wwwrun@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 30) id F11403A6861; Tue, 23 Jun 2009 09:00:52 -0700 (PDT)
+X-idtracker: yes
+To: IETF-Announce <ietf-announce@ietf.org> 
+From: The IESG <iesg-secretary@ietf.org>
+Message-Id: <20090623160052.F11403A6861@core3.amsl.com>
+Date: Tue, 23 Jun 2009 09:00:52 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] Last Call: draft-ietf-sip-record-route-fix (Addressing Record-Route issues in the Session Initiation Protocol (SIP)) to BCP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ietf@ietf.org
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 23 Jun 2009 16:00:53 -0000
+
+The IESG has received a request from the Session Initiation Protocol WG 
+(sip) to consider the following document:
+
+- 'Addressing Record-Route issues in the Session Initiation Protocol 
+   (SIP) '
+   <draft-ietf-sip-record-route-fix-06.txt> as a BCP
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send substantive comments to the
+ietf@ietf.org mailing lists by 2009-07-07. Exceptionally, 
+comments may be sent to iesg@ietf.org instead. In either case, please 
+retain the beginning of the Subject line to allow automated sorting.
+
+The file can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-sip-record-route-fix-06.txt
+
+
+IESG discussion can be tracked via
+https://datatracker.ietf.org/public/pidtracker.cgi?command=view_id&dTag=16198&rfc_flag=0
+

@@ -1,0 +1,17 @@
+2010 TO 2020
+-------#####------->    mpls-review
+rcallon@juniper.net 10
+medsalim.bouhlel@enis.rnu.tn 3
+skraza@cisco.com 3
+kenji.fujihira.dj@hitachi.com 2
+loa@pi.nu 2
+mach.chen@huawei.com 2
+nsheth@juniper.net 2
+wyaacov@gmail.com 2
+MAILER-DAEMON@ietfa.amsl.com 1
+N.Leymann@telekom.de 1
+lmartini@cisco.com 1
+martin.vigoureux@alcatel-lucent.com 1
+sriganesh.kini@ericsson.com 1
+thomas.morin@orange.com 1
+tnadeau@juniper.net 1

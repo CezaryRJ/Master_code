@@ -1,0 +1,160 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ltru
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ltru/2006-09.mailcl']
+id : 0f420f16-d287-4817-a24b-f4428b00a8b3
+_version_ : 1675132685192790016
+
+Content : 
+
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru
+
+--===============0348758800==--
+
+
+
+
+
+
+
+BC3-SHA (168/168 bits))
+	(No client certificate requested)
+	by outbound2-cpk.bigfish.com (Postfix) with ESMTP id ED574743F02
+	for <ltru@ietf.org>; Fri, 29 Sep 2006 23:16:28 +0000 (UTC)
+Received: from mail24-cpk.bigfish.com (localhost.localdomain [127.0.0.1])
+	by mail24-cpk-R.bigfish.com (Postfix) with ESMTP id D9D35564D65
+	for <ltru@ietf.org>; Fri, 29 Sep 2006 23:16:28 +0000 (UTC)
+X-BigFish: VP
+Received: by mail24-cpk (MessageSwitch) id 1159571788840265_21471;
+	Fri, 29 Sep 2006 23:16:28 +0000 (UCT)
+Received: from USCCIMTA02.spe.sony.com (unknown [64.14.251.196])
+	(using SSLv3 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by mail24-cpk.bigfish.com (Postfix) with ESMTP id C4764564659
+	for <ltru@ietf.org>; Fri, 29 Sep 2006 23:16:28 +0000 (UTC)
+Received: from usmail04.spe.sony.com ([43.130.148.27])
+	by USCCIMTA02.spe.sony.com (Lotus Domino Release 6.5.5)
+	with ESMTP id 2006092916192730-1690604 ;
+	Fri, 29 Sep 2006 16:19:27 -0700 
+In-Reply-To: <20060929213924.GG28837@ccil.org>
+To: ltru@ietf.org
+MIME-Version: 1.0
+X-Mailer: Lotus Notes Release 6.5.5  CCH1 March 07, 2006
+From: Karen_Broome@spe.sony.com
+Message-ID: <OF84655013.36C314FD-ON882571F8.007BC024-882571F8.007FD98D@spe.sony.com>
+Date: Fri, 29 Sep 2006 16:15:17 -0700
+X-MIMETrack: Serialize by Router on USMAIL04/SVR/SPE(Release 6.5.5FP1|April 11,
+	2006) at 09/29/2006 16:15:18,
+	Serialize complete at 09/29/2006 16:15:18,
+	Itemize by SMTP Server on USCCiMTA02/SVR/SPE(Release 6.5.5|November 30,
+	2005) at 09/29/2006 04:19:27 PM,
+	Serialize by Router on USCCiMTA02/SVR/SPE(Release 6.5.5|November 30,
+	2005) at 09/29/2006 04:19:28 PM,
+	Serialize complete at 09/29/2006 04:19:28 PM
+X-Spam-Score: 0.3 (/)
+X-Scan-Signature: 7baded97d9887f7a0c7e8a33c2e3ea1b
+Subject: [Ltru] Serbia and Montenegro in example
+X-BeenThere: ltru@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Language Tag Registry Update working group discussion list
+	<ltru.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/ltru>
+List-Post: <mailto:ltru@ietf.org>
+List-Help: <mailto:ltru-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0348758800=="
+Errors-To: ltru-bounces@ietf.org
+
+This is a multipart message in MIME format.
+--===============0348758800==
+Content-Type: multipart/alternative;
+	boundary="=_alternative 007C06C0882571F8_="
+
+This is a multipart message in MIME format.
+--=_alternative 007C06C0882571F8_=
+Content-Type: text/plain; charset="US-ASCII"
+
+I suspect the examples section will be significantly revised during the 
+revision of the draft, but I just wanted to note that these two private 
+use examples likely need to be changed reflecting the recent change to ISO 
+3166-1:
+
+sr-Latn-QM (Serbian, Latin-script, private region)
+sr-Qaaa-CS (Serbian, private script, for Serbia and Montenegro)
+
+Regards,
+
+Karen Broome
+Metadata Systems Designer
+Sony Pictures Entertainment
+310.244.4384
+
+--=_alternative 007C06C0882571F8_=
+Content-Type: text/html; charset="US-ASCII"
+
+
+<br><font size=2 face="sans-serif">I suspect the examples section will
+be significantly revised during the revision of the draft, but I just wanted
+to note that these two private use examples likely need to be changed reflecting
+the recent change to ISO 3166-1:</font>
+<br>
+<br><tt><font size=3>sr-Latn-QM (Serbian, Latin-script, private region)<br>
+sr-Qaaa-CS (Serbian, private script, for Serbia and Montenegro)</font></tt>
+<br>
+<br><tt><font size=3>Regards,</font></tt>
+<br><tt><font size=3><br>
+</font></tt><font size=2 face="sans-serif">Karen Broome<br>
+Metadata Systems Designer<br>
+Sony Pictures Entertainment<br>
+310.244.4384</font>
+<br>
+--=_alternative 007C06C0882571F8_=--
+
+
+
+--===============0348758800==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru
+
+--===============0348758800==--
+
+
+
+
+
+

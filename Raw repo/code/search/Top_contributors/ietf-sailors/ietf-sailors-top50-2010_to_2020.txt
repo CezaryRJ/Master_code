@@ -1,0 +1,18 @@
+2010 TO 2020
+-------#####------->    ietf-sailors
+lars.eggert@nokia.com 8
+michelle.cotton@icann.org 7
+ben@nostrum.com 6
+bob.hinden@gmail.com 5
+fluffy@cisco.com 5
+magnus.westerlund@ericsson.com 5
+dean.willis@softarmor.com 4
+rdroms.ietf@gmail.com 4
+lars@netapp.com 3
+acmorton@att.com 2
+housley@vigilsec.com 2
+scott.brim@gmail.com 2
+dominique.barthel@orange.com 1
+kivinen@iki.fi 1
+mglt.ietf@gmail.com 1
+olaf@NLnetLabs.nl 1

@@ -1,0 +1,2893 @@
+
+From ibc@aliax.net  Thu Sep 15 05:59:11 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B356F21F8AF5 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 05:59:11 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.65
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.65 tagged_above=-999 required=5 tests=[AWL=0.027,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id rW9QgYXMykfX for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 05:59:11 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 2505121F8ACE for <sip@ietf.org>; Thu, 15 Sep 2011 05:59:11 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so5000023qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 06:01:22 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.166 with SMTP id r38mr832980qci.254.1316091682589; Thu, 15 Sep 2011 06:01:22 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 06:01:22 -0700 (PDT)
+Date: Thu, 15 Sep 2011 15:01:22 +0200
+Message-ID: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: sip@ietf.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Subject: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 12:59:11 -0000
+
+Hi, there is a general confusion about the usage of TLS transport and
+SIPS schema. Even more when the RFC 5630 (which tries to clarify it)
+contains an important bug:
+
+
+RFC 5630 states:
+
+-------------------------------------------------------------------
+3.1.3.  Using TLS with SIP Instead of SIPS
+
+   [...]
+
+   If one wants to use "best-effort TLS" for SIP, one just needs to use
+   a SIP URI, and send the request over TLS.
+
+   Using SIP over TLS is very simple.  A UA opens a TLS connection and
+   uses SIP URIs instead of SIPS URIs for all the header fields in a SIP
+   message (From, To, Request-URI, Contact header field, Route, etc.).
+   When TLS is used, the Via header field indicates TLS.
+-------------------------------------------------------------------
+
+
+So an example of INVITE sent via TLS just for the first hop would be:
+
+
+  INVITE sip:bob@biloxi.com SIP/2.0
+  Via: SIP/2.0/TLS 1.2.3.4
+  From: sip:alice@atlanta.com
+  Contact: sip:alice@1.2.3.4;transport=3Dtcp
+
+
+Note that I've set "sip" schema in the Contact URI (as the spec says)
+so incoming in-dialog request would be received by the caller (alice)
+via TCP rather than TLS !!!
+
+This is wrong, it should be:
+
+
+  INVITE sip:bob@biloxi.com SIP/2.0
+  Via: SIP/2.0/TLS 1.2.3.4
+  From: sip:alice@atlanta.com
+  Contact: sips:alice@1.2.3.4;transport=3Dtcp
+
+
+Now Contact URI has "sips" schema so the proxy (assuming it does
+loose-routing) would route any in-dialog request via TLS-over-TCP to
+reach alice.
+
+The fact that the Contact URI has "sips" schema is not a problem for
+the called (regardless it speaks TLS or not) as in-dialog request to
+be sent from Bob to Alice would contain Route headers, and those Route
+headers could have "sip" schema (in case the latest proxy contacted
+Bob using UDP or TCP). So a BYE from Bob would be sent via UDP/TCP
+based on the top most Route.
+
+
+As a personal comment, I would like to say that nobody understands the
+usage of "sips" schema, just nobody. And the specs do not help.
+
+Best regards.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From oej@edvina.net  Thu Sep 15 06:21:49 2011
+Return-Path: <oej@edvina.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D84A121F84D9 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:21:34 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.158
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.158 tagged_above=-999 required=5 tests=[AWL=-0.209, BAYES_00=-2.599, HELO_EQ_SE=0.35, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yjJeChlsNBXi for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:21:34 -0700 (PDT)
+Received: from smtp7.webway.se (smtp7.webway.se [212.3.14.205]) by ietfa.amsl.com (Postfix) with ESMTP id 7806521F84D1 for <sip@ietf.org>; Thu, 15 Sep 2011 06:21:33 -0700 (PDT)
+Received: from [192.168.20.63] (static-213-115-251-100.sme.bredbandsbolaget.se [213.115.251.100]) by smtp7.webway.se (Postfix) with ESMTPA id 04CDC754BCE4; Thu, 15 Sep 2011 13:23:42 +0000 (UTC)
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+Content-Type: text/plain; charset=iso-8859-1
+From: "Olle E. Johansson" <oej@edvina.net>
+In-Reply-To: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com>
+Date: Thu, 15 Sep 2011 15:23:41 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailer: Apple Mail (2.1244.3)
+Cc: sip@ietf.org
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 13:21:49 -0000
+
+15 sep 2011 kl. 15:01 skrev I=F1aki Baz Castillo:
+
+> Hi, there is a general confusion about the usage of TLS transport and
+> SIPS schema. Even more when the RFC 5630 (which tries to clarify it)
+> contains an important bug:
+>=20
+>=20
+> RFC 5630 states:
+>=20
+> -------------------------------------------------------------------
+> 3.1.3.  Using TLS with SIP Instead of SIPS
+>=20
+>   [...]
+>=20
+>   If one wants to use "best-effort TLS" for SIP, one just needs to use
+>   a SIP URI, and send the request over TLS.
+>=20
+>   Using SIP over TLS is very simple.  A UA opens a TLS connection and
+>   uses SIP URIs instead of SIPS URIs for all the header fields in a =
+SIP
+>   message (From, To, Request-URI, Contact header field, Route, etc.).
+>   When TLS is used, the Via header field indicates TLS.
+> -------------------------------------------------------------------
+>=20
+>=20
+> So an example of INVITE sent via TLS just for the first hop would be:
+>=20
+>=20
+>  INVITE sip:bob@biloxi.com SIP/2.0
+>  Via: SIP/2.0/TLS 1.2.3.4
+>  From: sip:alice@atlanta.com
+>  Contact: sip:alice@1.2.3.4;transport=3Dtcp
+>=20
+>=20
+> Note that I've set "sip" schema in the Contact URI (as the spec says)
+> so incoming in-dialog request would be received by the caller (alice)
+> via TCP rather than TLS !!!
+>=20
+> This is wrong, it should be:
+>=20
+>=20
+>  INVITE sip:bob@biloxi.com SIP/2.0
+>  Via: SIP/2.0/TLS 1.2.3.4
+>  From: sip:alice@atlanta.com
+>  Contact: sips:alice@1.2.3.4;transport=3Dtcp
+>=20
+>=20
+> Now Contact URI has "sips" schema so the proxy (assuming it does
+> loose-routing) would route any in-dialog request via TLS-over-TCP to
+> reach alice.
+>=20
+> The fact that the Contact URI has "sips" schema is not a problem for
+> the called (regardless it speaks TLS or not) as in-dialog request to
+> be sent from Bob to Alice would contain Route headers, and those Route
+> headers could have "sip" schema (in case the latest proxy contacted
+> Bob using UDP or TCP). So a BYE from Bob would be sent via UDP/TCP
+> based on the top most Route.
+>=20
+>=20
+> As a personal comment, I would like to say that nobody understands the
+> usage of "sips" schema, just nobody. And the specs do not help.
+>=20
+With the deprecation of "transport=3Dtls" it becomes even more strange.=20=
+
+We should really spend some time on a "hitch hikers guide to SIP with =
+TLS" and write an RFC to reinstate transtport=3Dtls, which is what we =
+all use.
+
+/O
+
+
+From ibc@aliax.net  Thu Sep 15 06:36:35 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E216821F84E5 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:36:35 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.35
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.35 tagged_above=-999 required=5 tests=[AWL=-0.273,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, J_CHICKENPOX_93=0.6, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 71WqqxbnuXIQ for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:36:35 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 63BF021F84DF for <sip@ietf.org>; Thu, 15 Sep 2011 06:36:35 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so5039237qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 06:38:45 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.166 with SMTP id r38mr869945qci.254.1316093924574; Thu, 15 Sep 2011 06:38:44 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 06:38:44 -0700 (PDT)
+In-Reply-To: <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net>
+Date: Thu, 15 Sep 2011 15:38:44 +0200
+Message-ID: <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Olle E. Johansson" <oej@edvina.net>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 13:36:36 -0000
+
+2011/9/15 Olle E. Johansson <oej@edvina.net>:
+>> As a personal comment, I would like to say that nobody understands the
+>> usage of "sips" schema, just nobody. And the specs do not help.
+>>
+> With the deprecation of "transport=3Dtls" it becomes even more strange.
+
+AFAIK "transport=3Dtls" has never been deprecated. Instead, it has never
+been an standard. Note for example that RFC 3261 says:
+
+      Note that in the SIPS URI scheme, transport is independent of TLS,
+      and thus "sips:alice@atlanta.com;transport=3Dtcp" and
+      "sips:alice@atlanta.com;transport=3Dsctp" are both valid (although
+      note that UDP is not a valid transport for SIPS).  The use of
+      "transport=3Dtls" has consequently been deprecated, partly because
+      it was specific to a single hop of the request.  This is a change
+      since RFC 2543.
+
+"A change since RFC 2543"?? transport=3Dtls has never been defined in
+RFC 2543. Check yourself:
+
+  http://tools.ietf.org/html/rfc2543
+
+
+> We should really spend some time on a "hitch hikers guide to SIP with TLS=
+" and write an RFC to reinstate transtport=3Dtls, which is what we all use.
+
+Or spend some time in a new draft that *correctly* explains how to use
+TLS in the first hop (without requiring security in the whole path).
+This is *very* easy:
+
+As I've explained in my first mail:
+
+  INVITE sip:bob@biloxi.com SIP/2.0
+  Via: SIP/2.0/TLS 1.2.3.4
+  From: sip:alice@atlanta.com
+  Contact: sips:alice@1.2.3.4;transport=3Dtcp
+
+That's all. Just:
+- Set TLS in Via transport.
+- Use "sip" schema in every URI.
+- But use "sips" schema in Contact URI.
+
+And it works.
+
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From oej@edvina.net  Thu Sep 15 06:44:42 2011
+Return-Path: <oej@edvina.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6670221F8B11 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:44:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.837
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.837 tagged_above=-999 required=5 tests=[AWL=-0.488, BAYES_00=-2.599, HELO_EQ_SE=0.35, J_CHICKENPOX_93=0.6, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id W--WTWirDUOx for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:44:42 -0700 (PDT)
+Received: from smtp7.webway.se (smtp7.webway.se [212.3.14.205]) by ietfa.amsl.com (Postfix) with ESMTP id C964421F8B10 for <sip@ietf.org>; Thu, 15 Sep 2011 06:44:41 -0700 (PDT)
+Received: from [192.168.20.63] (static-213-115-251-100.sme.bredbandsbolaget.se [213.115.251.100]) by smtp7.webway.se (Postfix) with ESMTPA id 3F473754BCE5; Thu, 15 Sep 2011 13:46:52 +0000 (UTC)
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+Content-Type: text/plain; charset=iso-8859-1
+From: "Olle E. Johansson" <oej@edvina.net>
+In-Reply-To: <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com>
+Date: Thu, 15 Sep 2011 15:46:52 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailer: Apple Mail (2.1244.3)
+Cc: sip@ietf.org
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 13:44:42 -0000
+
+15 sep 2011 kl. 15:38 skrev I=F1aki Baz Castillo:
+
+> 2011/9/15 Olle E. Johansson <oej@edvina.net>:
+>>> As a personal comment, I would like to say that nobody understands =
+the
+>>> usage of "sips" schema, just nobody. And the specs do not help.
+>>>=20
+>> With the deprecation of "transport=3Dtls" it becomes even more =
+strange.
+>=20
+> AFAIK "transport=3Dtls" has never been deprecated. Instead, it has =
+never
+> been an standard. Note for example that RFC 3261 says:
+>=20
+>      Note that in the SIPS URI scheme, transport is independent of =
+TLS,
+>      and thus "sips:alice@atlanta.com;transport=3Dtcp" and
+>      "sips:alice@atlanta.com;transport=3Dsctp" are both valid =
+(although
+>      note that UDP is not a valid transport for SIPS).  The use of
+>      "transport=3Dtls" has consequently been deprecated, partly =
+because
+>      it was specific to a single hop of the request.  This is a change
+>      since RFC 2543.
+>=20
+> "A change since RFC 2543"?? transport=3Dtls has never been defined in
+> RFC 2543. Check yourself:
+>=20
+>  http://tools.ietf.org/html/rfc2543
+>=20
+>=20
+>> We should really spend some time on a "hitch hikers guide to SIP with =
+TLS" and write an RFC to reinstate transtport=3Dtls, which is what we =
+all use.
+>=20
+> Or spend some time in a new draft that *correctly* explains how to use
+> TLS in the first hop (without requiring security in the whole path).
+> This is *very* easy:
+>=20
+> As I've explained in my first mail:
+>=20
+>  INVITE sip:bob@biloxi.com SIP/2.0
+>  Via: SIP/2.0/TLS 1.2.3.4
+>  From: sip:alice@atlanta.com
+>  Contact: sips:alice@1.2.3.4;transport=3Dtcp
+>=20
+> That's all. Just:
+> - Set TLS in Via transport.
+> - Use "sip" schema in every URI.
+> - But use "sips" schema in Contact URI.
+>=20
+> And it works.
+
+This means thet the request URI of the ACK will be using SIPS, and then =
+section 8.1.1.8 comes into play
+and requires the other side to also use a SIPS uri in their contact.
+
+In this case, both UAs need a TLS certificate.
+
+Interesting.
+
+/O=
+
+From ernst.horvath@siemens-enterprise.com  Thu Sep 15 06:56:52 2011
+Return-Path: <ernst.horvath@siemens-enterprise.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id BCB1B21F8ABE for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:56:52 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.699
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.699 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, J_CHICKENPOX_93=0.6, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5CjRkEV0Cj7M for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 06:56:52 -0700 (PDT)
+Received: from senmx11-mx.siemens-enterprise.com (senmx11-mx.siemens-enterprise.com [62.134.46.9]) by ietfa.amsl.com (Postfix) with ESMTP id F3EC721F8A95 for <sip@ietf.org>; Thu, 15 Sep 2011 06:56:51 -0700 (PDT)
+Received: from MCHP063A.global-ad.net (unknown [172.29.37.61]) by senmx11-mx.siemens-enterprise.com (Server) with ESMTP id ADE251EB8453; Thu, 15 Sep 2011 15:59:00 +0200 (CEST)
+Received: from MCHP058A.global-ad.net ([172.29.37.55]) by MCHP063A.global-ad.net ([172.29.37.61]) with mapi; Thu, 15 Sep 2011 15:59:00 +0200
+From: "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+Date: Thu, 15 Sep 2011 15:58:59 +0200
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: AcxzrM//HBXPsR+UQpu/RVSEpGBoDQAAeXuw
+Message-ID: <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com>
+In-Reply-To: <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com>
+Accept-Language: de-DE, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: de-DE, en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 13:56:52 -0000
+
+Comment at the end...
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On=20
+> Behalf Of I=F1aki Baz Castillo
+> Sent: Donnerstag, 15. September 2011 15:39
+> To: Olle E. Johansson
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+>=20
+> 2011/9/15 Olle E. Johansson <oej@edvina.net>:
+> >> As a personal comment, I would like to say that nobody=20
+> understands the
+> >> usage of "sips" schema, just nobody. And the specs do not help.
+> >>
+> > With the deprecation of "transport=3Dtls" it becomes even=20
+> more strange.
+>=20
+> AFAIK "transport=3Dtls" has never been deprecated. Instead, it has never
+> been an standard. Note for example that RFC 3261 says:
+>=20
+>       Note that in the SIPS URI scheme, transport is=20
+> independent of TLS,
+>       and thus "sips:alice@atlanta.com;transport=3Dtcp" and
+>       "sips:alice@atlanta.com;transport=3Dsctp" are both valid (although
+>       note that UDP is not a valid transport for SIPS).  The use of
+>       "transport=3Dtls" has consequently been deprecated, partly because
+>       it was specific to a single hop of the request.  This=20
+> is a change
+>       since RFC 2543.
+>=20
+> "A change since RFC 2543"?? transport=3Dtls has never been defined in
+> RFC 2543. Check yourself:
+>=20
+>   http://tools.ietf.org/html/rfc2543
+>=20
+>=20
+> > We should really spend some time on a "hitch hikers guide=20
+> to SIP with TLS" and write an RFC to reinstate=20
+> transtport=3Dtls, which is what we all use.
+>=20
+> Or spend some time in a new draft that *correctly* explains how to use
+> TLS in the first hop (without requiring security in the whole path).
+> This is *very* easy:
+>=20
+> As I've explained in my first mail:
+>=20
+>   INVITE sip:bob@biloxi.com SIP/2.0
+>   Via: SIP/2.0/TLS 1.2.3.4
+>   From: sip:alice@atlanta.com
+>   Contact: sips:alice@1.2.3.4;transport=3Dtcp
+>=20
+> That's all. Just:
+> - Set TLS in Via transport.
+> - Use "sip" schema in every URI.
+> - But use "sips" schema in Contact URI.
+>=20
+> And it works.
+>
+It may work for the 1st request. But in a subsequent mid-dialog request in =
+the reverse direction the contact URI becomes the Request-URI, which is now=
+ SIPS, and therefore the Contact in this request must also become SIPS, and=
+ you end up in an all-SIPS case.
+
+Ernst Horvath
+
+>=20
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing=20
+> old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to=20
+> develop a SIP implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the=20
+> core SIP specifications.=
+
+From ibc@aliax.net  Thu Sep 15 07:06:42 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8A49921F8B17 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:06:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id CjN4G-iU3ssx for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:06:42 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id E415721F87F0 for <sip@ietf.org>; Thu, 15 Sep 2011 07:06:41 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so5072720qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 07:08:53 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.62.103 with SMTP id w39mr920927qch.292.1316095733265; Thu, 15 Sep 2011 07:08:53 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 07:08:53 -0700 (PDT)
+In-Reply-To: <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net>
+Date: Thu, 15 Sep 2011 16:08:53 +0200
+Message-ID: <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 14:06:42 -0000
+
+2011/9/15 Horvath, Ernst <ernst.horvath@siemens-enterprise.com>:
+> It may work for the 1st request. But in a subsequent mid-dialog request i=
+n the reverse direction the contact URI becomes the Request-URI, which is n=
+ow SIPS, and therefore the Contact in this request must also become SIPS, a=
+nd you end up in an all-SIPS case.
+
+Not true. Let me explain it in other mail soon.
+
+Regards.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Thu Sep 15 07:23:14 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 53E1E21F8B38 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:23:14 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.349
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.349 tagged_above=-999 required=5 tests=[AWL=-0.272, BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, J_CHICKENPOX_62=0.6, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id NCYx1NZBgRsG for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:23:13 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 44BAE21F8B37 for <sip@ietf.org>; Thu, 15 Sep 2011 07:23:13 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so5090738qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 07:25:25 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.62.103 with SMTP id w39mr938863qch.292.1316096724880; Thu, 15 Sep 2011 07:25:24 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 07:25:24 -0700 (PDT)
+In-Reply-To: <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net>
+Date: Thu, 15 Sep 2011 16:25:24 +0200
+Message-ID: <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Olle E. Johansson" <oej@edvina.net>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 14:23:14 -0000
+
+2011/9/15 Olle E. Johansson <oej@edvina.net>:
+> This means thet the request URI of the ACK will be using SIPS, and then s=
+ection 8.1.1.8 comes into play
+> and requires the other side to also use a SIPS uri in their contact.
+>
+> In this case, both UAs need a TLS certificate.
+
+No, that's incorrect. I show two call flows in which TLS is just used
+by one of the enpoints.
+
+
+
+CASE 1)
+- Alice uses TLS.
+- Bob uses UDP.
+- Proxy/registrar does loose-routing.
+- Alice calls Bob, Bob answers and later Bob hangs up.
+
+
+F1 INVITE Alice -> SIP Proxy (transport TLS)
+
+INVITE sip:bob@atlanta.com SIP/2.0
+Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+From: sip:alice@atlanta.com;tag=3Dasdyka899
+To: sip:bob@atlanta.com
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+Content-Type: application/sdp
+
+
+F2 100 Trying SIP Proxy -> Alice (transport TLS)
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+From: sip:alice@atlanta.com;tag=3Dasdyka899
+To: sip:bob@atlanta.com
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+
+
+F3 INVITE SIP Proxy -> Carol (transport UDP)
+
+INVITE sip:bob@77.123.45.23:5060 SIP/2.0
+Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+Record-Route: <sip:100.100.100.100;transport=3Dudp>,
+  <sips:100.100.100.100;transport=3Dtcp>
+From: sip:alice@atlanta.com;tag=3Dasdyka899
+To: sip:bob@atlanta.com
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 69
+Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+Content-Type: application/sdp
+
+
+F4 200 OK Carol -> SIP Proxy (transport UDP)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+Record-Route: <sip:100.100.100.100;transport=3Dudp>,
+  <sips:100.100.100.100;transport=3Dtcp>
+From: sip:alice@atlanta.com;tag=3Dasdyka899
+To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 69
+Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+Content-Type: application/sdp
+
+
+F5 200 OK SIP Proxy -> Alice (transport TLS)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+Record-Route: <sip:100.100.100.100;transport=3Dudp>,
+  <sips:100.100.100.100;transport=3Dtcp>
+From: sip:alice@atlanta.com;tag=3Dasdyka899
+To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 69
+Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+Content-Type: application/sdp
+
+
+F6 ACK Alice -> SIP Proxy (transport TLS)
+
+ACK sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bKhgqqp090
+Route: <sips:100.100.100.100;transport=3Dtcp>,
+  <sip:100.100.100.100;transport=3Dudp>
+From: sip:alice@atlanta.com;tag=3Dasdyka899
+To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 ACK
+Max-Forwards: 70
+
+
+F7 ACK SIP Proxy -> Carol (transport UDP)
+
+ACK sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKhwpoc80zzx
+Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bKhgqqp090
+From: sip:alice@atlanta.com;tag=3Dasdyka899
+To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 ACK
+Max-Forwards: 69
+
+
+F8 BYE Carol -> SIP Proxy (transport UDP)
+
+BYE sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+Route: <sip:100.100.100.100;transport=3Dudp>,
+  <sips:100.100.100.100;transport=3Dtcp>
+From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+To: sip:alice@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+Max-Forwards: 70
+
+
+F9 BYE SIP Proxy -> Alice (transport TLS)
+
+BYE sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+To: sip:alice@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+Max-Forwards: 69
+
+
+F10 200 OK Alice -> SIP Proxy (transport TLS)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+To: sip:alice@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+
+
+F11 200 OK SIP Proxy -> Carol (transport UDP)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+To: sip:alice@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+
+
+
+
+
+
+
+CASE 2)
+- Alice uses TLS.
+- Bob uses UDP.
+- Proxy/registrar does loose-routing.
+- Bob calls Alice, Alice answers and later Alice hangs up.
+
+
+F1 INVITE Bob -> SIP Proxy (transport UDP)
+
+INVITE sip:alice@atlanta.com SIP/2.0
+Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+From: sip:bob@atlanta.com;tag=3Dasdyka899
+To: sip:alice@atlanta.com
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 70
+Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+Content-Type: application/sdp
+
+
+F2 100 Trying SIP Proxy -> Bob (transport TLS)
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+From: sip:bob@atlanta.com;tag=3Dasdyka899
+To: sip:alice@atlanta.com
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+
+
+F3 INVITE SIP Proxy -> Alice (transport TLS)
+
+INVITE sips:alice@93.12.40.105:20565 SIP/2.0
+Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+Record-Route: <sips:100.100.100.100;transport=3Dtcp>,
+  <sip:100.100.100.100;transport=3Dudp>
+From: sip:bob@atlanta.com;tag=3Dasdyka899
+To: sip:alice@atlanta.com
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 69
+Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+Content-Type: application/sdp
+
+
+F4 200 OK Alice -> SIP Proxy (transport TLS)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+Record-Route: <sips:100.100.100.100;transport=3Dtcp>,
+  <sip:100.100.100.100;transport=3Dudp>
+From: sip:bob@atlanta.com;tag=3Dasdyka899
+To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 69
+Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+Content-Type: application/sdp
+
+
+F5 200 OK SIP Proxy -> Bob (transport UDP)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+Record-Route: <sips:100.100.100.100;transport=3Dtcp>,
+  <sip:100.100.100.100;transport=3Dudp>
+From: sip:bob@atlanta.com;tag=3Dasdyka899
+To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 INVITE
+Max-Forwards: 69
+Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+Content-Type: application/sdp
+
+
+F6 ACK Bob -> SIP Proxy (transport UDP)
+
+ACK sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+Via: SIP/2.0/TLS 77.123.45.23:5060;branch=3Dz9hG4bKhgqqp090
+Route: <sip:100.100.100.100;transport=3Dudp>,
+  <sips:100.100.100.100;transport=3Dtcp>
+From: sip:bob@atlanta.com;tag=3Dasdyka899
+To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 ACK
+Max-Forwards: 70
+
+
+F7 ACK SIP Proxy -> Alice (transport TLS)
+
+ACK sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKhwpoc80zzx
+Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bKhgqqp090
+From: sip:bob@atlanta.com;tag=3Dasdyka899
+To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+Call-ID: asidkj3ss
+CSeq: 1 ACK
+Max-Forwards: 69
+
+
+F8 BYE Alice -> SIP Proxy (transport TLS)
+
+BYE sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+Route: <sips:100.100.100.100;transport=3Dtcp>,
+  <sip:100.100.100.100;transport=3Dudp>
+From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+To: sip:bob@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+Max-Forwards: 70
+
+
+F9 BYE SIP Proxy -> Bob (transport UDP)
+
+BYE sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+To: sip:bob@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+Max-Forwards: 69
+
+
+F10 200 OK Bob -> SIP Proxy (transport UDP)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+To: sip:bob@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+
+
+F11 200 OK SIP Proxy -> Alice (transport TLS)
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+To: sip:bob@atlanta.com;tag=3Dasdyka899
+Call-ID: asidkj3ss
+CSeq: 1201 BYE
+
+
+
+
+These flows are inspired in real scenarios, so both are real and working fl=
+ows.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Thu Sep 15 07:28:43 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A502021F8B4B for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:28:43 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.648
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.648 tagged_above=-999 required=5 tests=[AWL=0.029,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MJsh0BNLpyJN for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:28:43 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 1668021F8B28 for <sip@ietf.org>; Thu, 15 Sep 2011 07:28:43 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so5096944qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 07:30:52 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.105 with SMTP id q41mr932833qci.216.1316097052508; Thu, 15 Sep 2011 07:30:52 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 07:30:52 -0700 (PDT)
+In-Reply-To: <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com>
+Date: Thu, 15 Sep 2011 16:30:52 +0200
+Message-ID: <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 14:28:43 -0000
+
+2011/9/15 I=C3=B1aki Baz Castillo <ibc@aliax.net>:
+>> It may work for the 1st request. But in a subsequent mid-dialog request =
+in the reverse direction the contact URI becomes the Request-URI, which is =
+now SIPS, and therefore the Contact in this request must also become SIPS, =
+and you end up in an all-SIPS case.
+
+This is not true. The in-dialog request will have, indeed, a RURI with
+SIPS schema, but it will also contain a top Route with SIP schema, so
+it takes preference and there is no need at all to set a SIPS Contact
+URI.
+
+RFC 5630:
+
+5.1.2.  UAS Behavior
+
+   When presented with a SIPS URI, a UAS MUST NOT change it to a SIP
+   URI.
+
+   As mandated by [RFC3261], Section 12.1.1:
+
+      If the request that initiated the dialog contained a SIPS URI in
+      the Request-URI or in the top Record-Route header field value, if
+      there was any, or the Contact header field if there was no Record-
+      Route header field, the Contact header field in the response MUST
+      be a SIPS URI.
+
+In our case *there is* a Record-Route in the INVITE arriving to the
+UAS and it does contain a SIP URI, so the Contact in the response from
+the UAS does not need to be a SIPS URI.
+
+
+Anyhow I insist: SIPS and TLS usage is a pain. Nobody understands it
+(it's clear given any mail thread about this topic) and everybody does
+wrong assumptions. I think SIP authors should worry about this reality
+and react.
+
+
+Regards.
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From oej@edvina.net  Thu Sep 15 07:42:08 2011
+Return-Path: <oej@edvina.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3CB9421F8B30 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:42:08 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.092
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.092 tagged_above=-999 required=5 tests=[AWL=-0.143, BAYES_00=-2.599, HELO_EQ_SE=0.35, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 0k8Je6dfLA7B for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 07:42:07 -0700 (PDT)
+Received: from smtp7.webway.se (smtp7.webway.se [212.3.14.205]) by ietfa.amsl.com (Postfix) with ESMTP id A6D7B21F8B2C for <sip@ietf.org>; Thu, 15 Sep 2011 07:42:07 -0700 (PDT)
+Received: from [192.168.20.63] (static-213-115-251-100.sme.bredbandsbolaget.se [213.115.251.100]) by smtp7.webway.se (Postfix) with ESMTPA id 51A97754BCE4; Thu, 15 Sep 2011 14:44:17 +0000 (UTC)
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+Content-Type: text/plain; charset=iso-8859-1
+From: "Olle E. Johansson" <oej@edvina.net>
+In-Reply-To: <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com>
+Date: Thu, 15 Sep 2011 16:44:17 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <CACC907C-8AE9-4FC0-88E9-F5A122476325@edvina.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+X-Mailer: Apple Mail (2.1244.3)
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 14:42:08 -0000
+
+15 sep 2011 kl. 16:30 skrev I=F1aki Baz Castillo:
+
+> Anyhow I insist: SIPS and TLS usage is a pain. Nobody understands it
+> (it's clear given any mail thread about this topic) and everybody does
+> wrong assumptions. I think SIP authors should worry about this reality
+> and react.
+
+Proven by this confusing discussion.
+
+/O=
+
+From HKaplan@acmepacket.com  Thu Sep 15 08:20:20 2011
+Return-Path: <HKaplan@acmepacket.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A234E21F8AAC for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:20:20 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.065
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.065 tagged_above=-999 required=5 tests=[AWL=-0.366, BAYES_00=-2.599, J_CHICKENPOX_62=0.6, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MBiira6t8BaN for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:20:19 -0700 (PDT)
+Received: from etmail.acmepacket.com (etmail.acmepacket.com [216.41.24.6]) by ietfa.amsl.com (Postfix) with ESMTP id 746A621F8AA9 for <sip@ietf.org>; Thu, 15 Sep 2011 08:20:19 -0700 (PDT)
+Received: from MAIL2.acmepacket.com (10.0.0.22) by etmail.acmepacket.com (216.41.24.6) with Microsoft SMTP Server (TLS) id 8.2.254.0; Thu, 15 Sep 2011 11:22:30 -0400
+Received: from MAIL1.acmepacket.com ([169.254.1.150]) by Mail2.acmepacket.com ([169.254.2.157]) with mapi id 14.01.0270.001; Thu, 15 Sep 2011 11:22:29 -0400
+From: Hadriel Kaplan <HKaplan@acmepacket.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: AQHMc6eXae1uSA/v6Uey9VYXn1elkZVOsR2AgAAENQCAAAJFAIAACsQAgAAP84A=
+Date: Thu, 15 Sep 2011 15:22:29 +0000
+Message-ID: <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com>
+In-Reply-To: <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.0.0.30]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-ID: <9F2E2849FE94A547988A2DA66AB8165B@acmepacket.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: AAAAAQAAAWE=
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 15:20:20 -0000
+
+But that's not the only use-case for Contact - the Contact URI of Alice can=
+ be used at any time later for an out-of-dialog request to Alice, and at th=
+at point it suddenly needs a full sips path to Alice.  For example in a REF=
+ER case.
+
+-hadriel
+
+
+On Sep 15, 2011, at 10:25 AM, I=F1aki Baz Castillo wrote:
+
+> 2011/9/15 Olle E. Johansson <oej@edvina.net>:
+>> This means thet the request URI of the ACK will be using SIPS, and then =
+section 8.1.1.8 comes into play
+>> and requires the other side to also use a SIPS uri in their contact.
+>>=20
+>> In this case, both UAs need a TLS certificate.
+>=20
+> No, that's incorrect. I show two call flows in which TLS is just used
+> by one of the enpoints.
+>=20
+>=20
+>=20
+> CASE 1)
+> - Alice uses TLS.
+> - Bob uses UDP.
+> - Proxy/registrar does loose-routing.
+> - Alice calls Bob, Bob answers and later Bob hangs up.
+>=20
+>=20
+> F1 INVITE Alice -> SIP Proxy (transport TLS)
+>=20
+> INVITE sip:bob@atlanta.com SIP/2.0
+> Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+> From: sip:alice@atlanta.com;tag=3Dasdyka899
+> To: sip:bob@atlanta.com
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 70
+> Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F2 100 Trying SIP Proxy -> Alice (transport TLS)
+>=20
+> SIP/2.0 100 Trying
+> Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+> From: sip:alice@atlanta.com;tag=3Dasdyka899
+> To: sip:bob@atlanta.com
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+>=20
+>=20
+> F3 INVITE SIP Proxy -> Carol (transport UDP)
+>=20
+> INVITE sip:bob@77.123.45.23:5060 SIP/2.0
+> Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+> Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+> Record-Route: <sip:100.100.100.100;transport=3Dudp>,
+>  <sips:100.100.100.100;transport=3Dtcp>
+> From: sip:alice@atlanta.com;tag=3Dasdyka899
+> To: sip:bob@atlanta.com
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 69
+> Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F4 200 OK Carol -> SIP Proxy (transport UDP)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+> Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+> Record-Route: <sip:100.100.100.100;transport=3Dudp>,
+>  <sips:100.100.100.100;transport=3Dtcp>
+> From: sip:alice@atlanta.com;tag=3Dasdyka899
+> To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 69
+> Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F5 200 OK SIP Proxy -> Alice (transport TLS)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bK56sdasks
+> Record-Route: <sip:100.100.100.100;transport=3Dudp>,
+>  <sips:100.100.100.100;transport=3Dtcp>
+> From: sip:alice@atlanta.com;tag=3Dasdyka899
+> To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 69
+> Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F6 ACK Alice -> SIP Proxy (transport TLS)
+>=20
+> ACK sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+> Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bKhgqqp090
+> Route: <sips:100.100.100.100;transport=3Dtcp>,
+>  <sip:100.100.100.100;transport=3Dudp>
+> From: sip:alice@atlanta.com;tag=3Dasdyka899
+> To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 ACK
+> Max-Forwards: 70
+>=20
+>=20
+> F7 ACK SIP Proxy -> Carol (transport UDP)
+>=20
+> ACK sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+> Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKhwpoc80zzx
+> Via: SIP/2.0/TLS 93.12.40.105:20565;branch=3Dz9hG4bKhgqqp090
+> From: sip:alice@atlanta.com;tag=3Dasdyka899
+> To: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 ACK
+> Max-Forwards: 69
+>=20
+>=20
+> F8 BYE Carol -> SIP Proxy (transport UDP)
+>=20
+> BYE sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+> Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> Route: <sip:100.100.100.100;transport=3Dudp>,
+>  <sips:100.100.100.100;transport=3Dtcp>
+> From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:alice@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+> Max-Forwards: 70
+>=20
+>=20
+> F9 BYE SIP Proxy -> Alice (transport TLS)
+>=20
+> BYE sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+> Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+> Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:alice@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+> Max-Forwards: 69
+>=20
+>=20
+> F10 200 OK Alice -> SIP Proxy (transport TLS)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+> Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:alice@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+>=20
+>=20
+> F11 200 OK SIP Proxy -> Carol (transport UDP)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/UDP 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> From: sip:bob@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:alice@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+>=20
+>=20
+>=20
+>=20
+>=20
+>=20
+>=20
+> CASE 2)
+> - Alice uses TLS.
+> - Bob uses UDP.
+> - Proxy/registrar does loose-routing.
+> - Bob calls Alice, Alice answers and later Alice hangs up.
+>=20
+>=20
+> F1 INVITE Bob -> SIP Proxy (transport UDP)
+>=20
+> INVITE sip:alice@atlanta.com SIP/2.0
+> Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+> From: sip:bob@atlanta.com;tag=3Dasdyka899
+> To: sip:alice@atlanta.com
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 70
+> Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F2 100 Trying SIP Proxy -> Bob (transport TLS)
+>=20
+> SIP/2.0 100 Trying
+> Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+> From: sip:bob@atlanta.com;tag=3Dasdyka899
+> To: sip:alice@atlanta.com
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+>=20
+>=20
+> F3 INVITE SIP Proxy -> Alice (transport TLS)
+>=20
+> INVITE sips:alice@93.12.40.105:20565 SIP/2.0
+> Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+> Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+> Record-Route: <sips:100.100.100.100;transport=3Dtcp>,
+>  <sip:100.100.100.100;transport=3Dudp>
+> From: sip:bob@atlanta.com;tag=3Dasdyka899
+> To: sip:alice@atlanta.com
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 69
+> Contact: <sip:bob@77.123.45.23:5060;transport=3Dudp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F4 200 OK Alice -> SIP Proxy (transport TLS)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKhjhjqw32c
+> Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+> Record-Route: <sips:100.100.100.100;transport=3Dtcp>,
+>  <sip:100.100.100.100;transport=3Dudp>
+> From: sip:bob@atlanta.com;tag=3Dasdyka899
+> To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 69
+> Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F5 200 OK SIP Proxy -> Bob (transport UDP)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bK56sdasks
+> Record-Route: <sips:100.100.100.100;transport=3Dtcp>,
+>  <sip:100.100.100.100;transport=3Dudp>
+> From: sip:bob@atlanta.com;tag=3Dasdyka899
+> To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 INVITE
+> Max-Forwards: 69
+> Contact: <sips:alice@93.12.40.105:20565;transport=3Dtcp>
+> Content-Type: application/sdp
+>=20
+>=20
+> F6 ACK Bob -> SIP Proxy (transport UDP)
+>=20
+> ACK sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+> Via: SIP/2.0/TLS 77.123.45.23:5060;branch=3Dz9hG4bKhgqqp090
+> Route: <sip:100.100.100.100;transport=3Dudp>,
+>  <sips:100.100.100.100;transport=3Dtcp>
+> From: sip:bob@atlanta.com;tag=3Dasdyka899
+> To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 ACK
+> Max-Forwards: 70
+>=20
+>=20
+> F7 ACK SIP Proxy -> Alice (transport TLS)
+>=20
+> ACK sips:alice@93.12.40.105:20565;transport=3Dtcp SIP/2.0
+> Via: SIP/2.0/TLS 100.100.100.100;branch=3Dz9hG4bKhwpoc80zzx
+> Via: SIP/2.0/UDP 77.123.45.23:5060;branch=3Dz9hG4bKhgqqp090
+> From: sip:bob@atlanta.com;tag=3Dasdyka899
+> To: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> Call-ID: asidkj3ss
+> CSeq: 1 ACK
+> Max-Forwards: 69
+>=20
+>=20
+> F8 BYE Alice -> SIP Proxy (transport TLS)
+>=20
+> BYE sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+> Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> Route: <sips:100.100.100.100;transport=3Dtcp>,
+>  <sip:100.100.100.100;transport=3Dudp>
+> From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:bob@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+> Max-Forwards: 70
+>=20
+>=20
+> F9 BYE SIP Proxy -> Bob (transport UDP)
+>=20
+> BYE sip:bob@77.123.45.23:5060;transport=3Dudp SIP/2.0
+> Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+> Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:bob@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+> Max-Forwards: 69
+>=20
+>=20
+> F10 200 OK Bob -> SIP Proxy (transport UDP)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/UDP 100.100.100.100;branch=3Dz9hG4bKmma01m3r5
+> Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:bob@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+>=20
+>=20
+> F11 200 OK SIP Proxy -> Alice (transport TLS)
+>=20
+> SIP/2.0 200 OK
+> Via: SIP/2.0/TLS 77.123.45.23;branch=3Dz9hG4bKbiuiansd001
+> From: sip:alice@atlanta.com;tag=3Dbmqkjhsd
+> To: sip:bob@atlanta.com;tag=3Dasdyka899
+> Call-ID: asidkj3ss
+> CSeq: 1201 BYE
+>=20
+>=20
+>=20
+>=20
+> These flows are inspired in real scenarios, so both are real and working =
+flows.
+>=20
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP sp=
+ecifications.
+
+
+From ibc@aliax.net  Thu Sep 15 08:25:17 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id F048721F8AA9 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:25:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.648
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.648 tagged_above=-999 required=5 tests=[AWL=0.029,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id lZZCY5uPFb3b for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:25:16 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 6B7DA21F8A7A for <sip@ietf.org>; Thu, 15 Sep 2011 08:25:16 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so5162666qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 08:27:28 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.224.179.211 with SMTP id br19mr1134810qab.228.1316100448037; Thu, 15 Sep 2011 08:27:28 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 08:27:27 -0700 (PDT)
+In-Reply-To: <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com>
+Date: Thu, 15 Sep 2011 17:27:27 +0200
+Message-ID: <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Hadriel Kaplan <HKaplan@acmepacket.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 15:25:17 -0000
+
+2011/9/15 Hadriel Kaplan <HKaplan@acmepacket.com>:
+> But that's not the only use-case for Contact - the Contact URI of Alice c=
+an be used at any time later for an out-of-dialog request to Alice, and at =
+that point it suddenly needs a full sips path to Alice. =C2=A0For example i=
+n a REFER case.
+
+If Alice wants to refer Bob to Carol, Alice would do better by sending
+a REFER with "Refer-To: <sip:carol@domain.org>" rather than using
+SIPS. Not sure if you meant this.
+
+Anyhow, what do you mean then? the section 3.1.3 in RFC 5630 is buggy
+as I told in my first mail, am I wrong? By setting a Contact with SIP
+rather than SIPS, that means that in-dialog requests would be sent to
+the caller using UDP/TCP rather than TLS, so they would fail
+(assumming that the caller is just reachable using TLS, let's imagine
+NAT and so).
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Thu Sep 15 08:31:36 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 933D621F8495 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:31:36 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.648
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.648 tagged_above=-999 required=5 tests=[AWL=0.029,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id s0fWxCkaYgvQ for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:31:36 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id 1129421F848E for <sip@ietf.org>; Thu, 15 Sep 2011 08:31:35 -0700 (PDT)
+Received: by qwb8 with SMTP id 8so1137543qwb.17 for <sip@ietf.org>; Thu, 15 Sep 2011 08:33:44 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.166 with SMTP id r38mr991138qci.254.1316100824503; Thu, 15 Sep 2011 08:33:44 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 08:33:44 -0700 (PDT)
+In-Reply-To: <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com>
+Date: Thu, 15 Sep 2011 17:33:44 +0200
+Message-ID: <CALiegfn+tP-zxJF4tDuN9eHDaybucRu49QfA_MUHZMMyjCtz5g@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Hadriel Kaplan <HKaplan@acmepacket.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 15:31:36 -0000
+
+2011/9/15 I=C3=B1aki Baz Castillo <ibc@aliax.net>:
+>> But that's not the only use-case for Contact - the Contact URI of Alice =
+can be used at any time later for an out-of-dialog request to Alice, and at=
+ that point it suddenly needs a full sips path to Alice. =C2=A0For example =
+in a REFER case.
+>
+> If Alice wants to refer Bob to Carol, Alice would do better by sending
+> a REFER with "Refer-To: <sip:carol@domain.org>" rather than using
+> SIPS. Not sure if you meant this.
+
+Ok, you meant the "attended transfer" case in which Alice sends a
+REFER to Carol containing the Contact URI of Bob (while Alice is still
+in a dialog with Bob).
+
+Interesting case, right. What I think is that all this stuff is
+unclear, confusing, badly designed and error prune.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From HKaplan@acmepacket.com  Thu Sep 15 08:39:31 2011
+Return-Path: <HKaplan@acmepacket.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 9D2F521F8B38 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:39:31 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.359
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.359 tagged_above=-999 required=5 tests=[AWL=-0.060, BAYES_00=-2.599, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dtVnI5cN9YWB for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 08:39:31 -0700 (PDT)
+Received: from etmail.acmepacket.com (etmail.acmepacket.com [216.41.24.6]) by ietfa.amsl.com (Postfix) with ESMTP id 19EDE21F8B34 for <sip@ietf.org>; Thu, 15 Sep 2011 08:39:30 -0700 (PDT)
+Received: from MAIL2.acmepacket.com (10.0.0.22) by etmail.acmepacket.com (216.41.24.6) with Microsoft SMTP Server (TLS) id 8.2.254.0; Thu, 15 Sep 2011 11:41:42 -0400
+Received: from MAIL1.acmepacket.com ([169.254.1.150]) by Mail2.acmepacket.com ([169.254.2.157]) with mapi id 14.01.0270.001; Thu, 15 Sep 2011 11:41:42 -0400
+From: Hadriel Kaplan <HKaplan@acmepacket.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: AQHMc6eXae1uSA/v6Uey9VYXn1elkZVOsR2AgAAENQCAAAJFAIAACsQAgAAP84CAAAFkgP//wOzg
+Date: Thu, 15 Sep 2011 15:41:41 +0000
+Message-ID: <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com>, <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com>
+In-Reply-To: <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: AAAAAQAAAWE=
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 15:39:31 -0000
+
+No I mean if Bob wants to Refer Carol to Alice, or Alice to Carol (since th=
+at Refer can be sent out of dialog to Alice's contact).
+
+I dunno about if it's an error or not - I remember there was a discussion a=
+bout it, but it was a long time ago. :(
+
+-hadriel
+Sent from my iPhone
+
+On Sep 15, 2011, at 11:27 AM, "I=F1aki Baz Castillo" <ibc@aliax.net> wrote:
+
+> 2011/9/15 Hadriel Kaplan <HKaplan@acmepacket.com>:
+>> But that's not the only use-case for Contact - the Contact URI of Alice =
+can be used at any time later for an out-of-dialog request to Alice, and at=
+ that point it suddenly needs a full sips path to Alice.  For example in a =
+REFER case.
+>=20
+> If Alice wants to refer Bob to Carol, Alice would do better by sending
+> a REFER with "Refer-To: <sip:carol@domain.org>" rather than using
+> SIPS. Not sure if you meant this.
+>=20
+> Anyhow, what do you mean then? the section 3.1.3 in RFC 5630 is buggy
+> as I told in my first mail, am I wrong? By setting a Contact with SIP
+> rather than SIPS, that means that in-dialog requests would be sent to
+> the caller using UDP/TCP rather than TLS, so they would fail
+> (assumming that the caller is just reachable using TLS, let's imagine
+> NAT and so).
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+
+From ibc@aliax.net  Thu Sep 15 09:01:20 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C5CD321F8B7A for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 09:01:20 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id IuQHqqFpj3OK for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 09:01:20 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id 48F0221F8B75 for <sip@ietf.org>; Thu, 15 Sep 2011 09:01:20 -0700 (PDT)
+Received: by qwb8 with SMTP id 8so1159680qwb.17 for <sip@ietf.org>; Thu, 15 Sep 2011 09:03:32 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.62.103 with SMTP id w39mr1046132qch.292.1316102612052; Thu, 15 Sep 2011 09:03:32 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 09:03:31 -0700 (PDT)
+In-Reply-To: <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com> <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com>
+Date: Thu, 15 Sep 2011 18:03:31 +0200
+Message-ID: <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Hadriel Kaplan <HKaplan@acmepacket.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 16:01:20 -0000
+
+2011/9/15 Hadriel Kaplan <HKaplan@acmepacket.com>:
+> No I mean if Bob wants to Refer Carol to Alice, or Alice to Carol (since =
+that Refer can be sent out of dialog to Alice's contact).
+
+Initial requests sent to a Contact address rather than being sent to
+an AoR are always problematic. The same occurs in attended trasfer
+when the REFER is sent within the dialog and contains a Refer-To with
+the endpoint Contact URI. Such URI could be no reachable if it's
+between some kind of NAT's (regardless the user used STUN).
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ibc@aliax.net  Thu Sep 15 09:02:42 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E752621F84DD for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 09:02:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6oT8ZshnejDc for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 09:02:42 -0700 (PDT)
+Received: from mail-qy0-f179.google.com (mail-qy0-f179.google.com [209.85.216.179]) by ietfa.amsl.com (Postfix) with ESMTP id 5ED9F21F846C for <sip@ietf.org>; Thu, 15 Sep 2011 09:02:42 -0700 (PDT)
+Received: by qyk33 with SMTP id 33so2936708qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 09:04:52 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.66.144 with SMTP id n16mr649616qci.178.1316102692578; Thu, 15 Sep 2011 09:04:52 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 09:04:52 -0700 (PDT)
+In-Reply-To: <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com> <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com> <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com>
+Date: Thu, 15 Sep 2011 18:04:52 +0200
+Message-ID: <CALiegfnE-pQuxEvnAibZAN-qjaEAr8pn_RKKO9mQKGU6uyRj=w@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Hadriel Kaplan <HKaplan@acmepacket.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 16:02:43 -0000
+
+2011/9/15 I=C3=B1aki Baz Castillo <ibc@aliax.net>:
+> Such URI could be no reachable if it's
+> between some kind of NAT's (regardless the user used STUN).
+
+s/between/behind/
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From HKaplan@acmepacket.com  Thu Sep 15 09:29:14 2011
+Return-Path: <HKaplan@acmepacket.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6338B21F8B92 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 09:29:14 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.059
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.059 tagged_above=-999 required=5 tests=[AWL=-0.360, BAYES_00=-2.599, J_CHICKENPOX_52=0.6, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id gdOHVFTaErDr for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 09:29:12 -0700 (PDT)
+Received: from etmail.acmepacket.com (etmail.acmepacket.com [216.41.24.6]) by ietfa.amsl.com (Postfix) with ESMTP id 6556521F8B9B for <sip@ietf.org>; Thu, 15 Sep 2011 09:29:12 -0700 (PDT)
+Received: from MAIL2.acmepacket.com (10.0.0.22) by etmail.acmepacket.com (216.41.24.6) with Microsoft SMTP Server (TLS) id 8.2.254.0; Thu, 15 Sep 2011 12:31:20 -0400
+Received: from MAIL1.acmepacket.com ([169.254.1.150]) by Mail2.acmepacket.com ([169.254.2.157]) with mapi id 14.01.0270.001; Thu, 15 Sep 2011 12:31:15 -0400
+From: Hadriel Kaplan <HKaplan@acmepacket.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: AQHMc6eXae1uSA/v6Uey9VYXn1elkZVOsR2AgAAENQCAAAJFAIAACsQAgAAP84CAAAFkgP//wOzggABJJ4CAAAe+gA==
+Date: Thu, 15 Sep 2011 16:31:14 +0000
+Message-ID: <2966AE2F-BBED-4E97-A27B-6E55279ED9FF@acmepacket.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com> <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com> <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com>
+In-Reply-To: <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.0.0.30]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-ID: <4D1393D552E1BF4BB009196EE2DE8F47@acmepacket.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: AAAAAQAAAWE=
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 16:29:14 -0000
+
+Oh I'm well aware of that. :)
+I assumed this whole discussion was theoretical.
+In *practice* using sips is tough.  Some systems don't support it and will =
+choke on the scheme, while some systems seem to ignore the extra "s".  And =
+there are real problems with it even if you do everything by the book.  For=
+ example, it's not like Alice's UA will actually have a TLS cert to be able=
+ to be a TLS server/listen-socket, so you can't open a TLS connection to he=
+r UA regardless, ever.  And with TCP in general you have to treat her Regis=
+tered Contact connection as an outbound-style flow (ie, like an alias'ed co=
+nnection-reuse), even if the UAC doesn't indicate RFC 5626 nor 5923.  Once =
+you do that, using "sip" instead of "sips" contact works, or has so far for=
+ us.  YMMV.
+
+-hadriel
+
+
+On Sep 15, 2011, at 12:03 PM, I=F1aki Baz Castillo wrote:
+
+> 2011/9/15 Hadriel Kaplan <HKaplan@acmepacket.com>:
+>> No I mean if Bob wants to Refer Carol to Alice, or Alice to Carol (since=
+ that Refer can be sent out of dialog to Alice's contact).
+>=20
+> Initial requests sent to a Contact address rather than being sent to
+> an AoR are always problematic. The same occurs in attended trasfer
+> when the REFER is sent within the dialog and contains a Refer-To with
+> the endpoint Contact URI. Such URI could be no reachable if it's
+> between some kind of NAT's (regardless the user used STUN).
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+
+
+From keith.drage@alcatel-lucent.com  Thu Sep 15 10:03:48 2011
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8BEC721F8B61 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 10:03:48 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -105.492
+X-Spam-Level: 
+X-Spam-Status: No, score=-105.492 tagged_above=-999 required=5 tests=[AWL=-0.143, BAYES_00=-2.599, HELO_EQ_FR=0.35, J_CHICKENPOX_52=0.6, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id unPZ0UcqY+QU for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 10:03:48 -0700 (PDT)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [62.23.212.57]) by ietfa.amsl.com (Postfix) with ESMTP id AE1AA21F8B47 for <sip@ietf.org>; Thu, 15 Sep 2011 10:03:47 -0700 (PDT)
+Received: from FRMRSSXCHHUB03.dc-m.alcatel-lucent.com (FRMRSSXCHHUB03.dc-m.alcatel-lucent.com [135.120.45.63]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id p8FH5oBs011147 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Thu, 15 Sep 2011 19:05:51 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.45]) by FRMRSSXCHHUB03.dc-m.alcatel-lucent.com ([135.120.45.63]) with mapi; Thu, 15 Sep 2011 19:05:51 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: Hadriel Kaplan <HKaplan@acmepacket.com>, =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+Date: Thu, 15 Sep 2011 19:05:49 +0200
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: AQHMc6eXae1uSA/v6Uey9VYXn1elkZVOsR2AgAAENQCAAAJFAIAACsQAgAAP84CAAAFkgP//wOzggABJJ4CAAAe+gP//wkeA
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE220C0DC0D@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com> <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com> <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com> <2966AE2F-BBED-4E97-A27B-6E55279ED9FF@acmepacket.com>
+In-Reply-To: <2966AE2F-BBED-4E97-A27B-6E55279ED9FF@acmepacket.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.69 on 155.132.188.80
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 17:03:48 -0000
+
+Addressing the thread in general rather than Hadriel in particular.
+
+Please remember that RFC 5630 did not set out to create a complete solution=
+ to secure communication. That was left to separate work and noone at the t=
+ime seemed interested in doing that next step, so it was abandoned.
+
+What RFC 5630 set out to do was to define what occurred if you followed the=
+ RFC 3261 mechanisms, and to correct some of RFC 3261 that was known to be =
+wrong and to attempt to make sure that if SIPS was used in the Request-URI,=
+ then TLS was used end to end. I do not believe there was ever an intent to=
+ try and control what happened hop by hop. If you know that TLS is being us=
+ed on the local hop, but have absolutely no knowledge of whether it is bein=
+g used anywhere else, how useful is that?
+
+While section 5, the normative section appears somewhat long, if you look a=
+t the impact of RFC 5630 in the way it changed RFC 3261 as stated in append=
+ix A, it actually did very little in terms of change to the original RFC 32=
+61 material.
+
+I'm not actually sure that the issue you point out in 3.1.3 actually impact=
+s the above drastically.
+
+Do note however that if you want to perform new work, you probably need to =
+take it to the SIPCORE list.
+
+Keith
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> Hadriel Kaplan
+> Sent: 15 September 2011 17:31
+> To: I=F1aki Baz Castillo
+> Cc: <sip@ietf.org>; Olle E. Johansson
+> Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+>=20
+>=20
+> Oh I'm well aware of that. :)
+> I assumed this whole discussion was theoretical.
+> In *practice* using sips is tough.  Some systems don't support it and wil=
+l
+> choke on the scheme, while some systems seem to ignore the extra "s".  An=
+d
+> there are real problems with it even if you do everything by the book.
+> For example, it's not like Alice's UA will actually have a TLS cert to be
+> able to be a TLS server/listen-socket, so you can't open a TLS connection
+> to her UA regardless, ever.  And with TCP in general you have to treat he=
+r
+> Registered Contact connection as an outbound-style flow (ie, like an
+> alias'ed connection-reuse), even if the UAC doesn't indicate RFC 5626 nor
+> 5923.  Once you do that, using "sip" instead of "sips" contact works, or
+> has so far for us.  YMMV.
+>=20
+> -hadriel
+>=20
+>=20
+> On Sep 15, 2011, at 12:03 PM, I=F1aki Baz Castillo wrote:
+>=20
+> > 2011/9/15 Hadriel Kaplan <HKaplan@acmepacket.com>:
+> >> No I mean if Bob wants to Refer Carol to Alice, or Alice to Carol
+> (since that Refer can be sent out of dialog to Alice's contact).
+> >
+> > Initial requests sent to a Contact address rather than being sent to
+> > an AoR are always problematic. The same occurs in attended trasfer
+> > when the REFER is sent within the dialog and contains a Refer-To with
+> > the endpoint Contact URI. Such URI could be no reachable if it's
+> > between some kind of NAT's (regardless the user used STUN).
+> >
+> > --
+> > I=F1aki Baz Castillo
+> > <ibc@aliax.net>
+>=20
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+
+From ibc@aliax.net  Thu Sep 15 10:48:38 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1157521F8A57 for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 10:48:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Lfnf6ALUr43L for <sip@ietfa.amsl.com>; Thu, 15 Sep 2011 10:48:37 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 709D321F8AF5 for <sip@ietf.org>; Thu, 15 Sep 2011 10:48:37 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so5311141qyk.10 for <sip@ietf.org>; Thu, 15 Sep 2011 10:50:44 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.148 with SMTP id r20mr1200226qci.64.1316109044104; Thu, 15 Sep 2011 10:50:44 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Thu, 15 Sep 2011 10:50:44 -0700 (PDT)
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE220C0DC0D@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <3EBDBBCF-C3F3-4C64-B010-4F275B0A5A96@edvina.net> <CALiegfkKSHiEWF5+Lz5FBEawNc6ST1s3+MLYeBnUJedFjxQoDw@mail.gmail.com> <40FFF683-2CA1-4436-9421-42ACC205A42C@acmepacket.com> <CALiegf=Z3qZey-+0=wqN80BjS6Jn5V8tFU_w2LtS7O5v-jXK+Q@mail.gmail.com> <9825F789-887F-44CD-BD43-C000929E5B17@acmepacket.com> <CALiegfms0=Khcc_kKiGfcO6hUcd8-nDxG16bBN_SxCatuvAejA@mail.gmail.com> <2966AE2F-BBED-4E97-A27B-6E55279ED9FF@acmepacket.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DC0D@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Date: Thu, 15 Sep 2011 19:50:44 +0200
+Message-ID: <CALiegf=b7vB3r5dt_kA1gFa0vKu9eMiLA+JXwN0Htsuv20WSCA@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "<sip@ietf.org>" <sip@ietf.org>, "Olle E. Johansson" <oej@edvina.net>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Sep 2011 17:48:38 -0000
+
+2011/9/15 DRAGE, Keith (Keith) <keith.drage@alcatel-lucent.com>:
+> If you know that TLS is being used on the local hop, but have absolutely =
+no knowledge of whether it is being used anywhere else, how useful is that?
+
+Typical case:
+
+- Clients connected to a proxy using TLS (to secure communication in
+private networks and untrusted Internet access as most ADSL's).
+- The provider proxy uses UDP to contact the PSTN gateways of the
+provider (which don't support TLS), or other SIP carriers in the
+world.
+
+This is the most common SIP scenario AFAIK, and here using SIP over
+TLS between clients and their proxy is a good choice.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From ernst.horvath@siemens-enterprise.com  Fri Sep 16 03:10:48 2011
+Return-Path: <ernst.horvath@siemens-enterprise.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 953EE21F8BA8 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 03:10:48 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[AWL=0.300,  BAYES_00=-2.599, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id k8SSDeYqSvxq for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 03:10:48 -0700 (PDT)
+Received: from senmx11-mx.siemens-enterprise.com (senmx11-mx.siemens-enterprise.com [62.134.46.9]) by ietfa.amsl.com (Postfix) with ESMTP id C7CFE21F8BA0 for <sip@ietf.org>; Fri, 16 Sep 2011 03:10:47 -0700 (PDT)
+Received: from MCHP064A.global-ad.net (unknown [172.29.37.63]) by senmx11-mx.siemens-enterprise.com (Server) with ESMTP id 4F5191EB8404; Fri, 16 Sep 2011 12:12:58 +0200 (CEST)
+Received: from MCHP058A.global-ad.net ([172.29.37.55]) by MCHP064A.global-ad.net ([172.29.37.63]) with mapi; Fri, 16 Sep 2011 12:12:58 +0200
+From: "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>
+Date: Fri, 16 Sep 2011 12:12:57 +0200
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: AcxztBNv2wVVtuLSQfGgNpmR+QHCawAosr8g
+Message-ID: <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com>
+In-Reply-To: <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com>
+Accept-Language: de-DE, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: de-DE, en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 10:10:48 -0000
+
+inline=20
+
+> -----Original Message-----
+> From: I=F1aki Baz Castillo [mailto:ibc@aliax.net]=20
+> Sent: Donnerstag, 15. September 2011 16:31
+> To: Horvath, Ernst
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+>=20
+> 2011/9/15 I=F1aki Baz Castillo <ibc@aliax.net>:
+> >> It may work for the 1st request. But in a subsequent=20
+> mid-dialog request in the reverse direction the contact URI=20
+> becomes the Request-URI, which is now SIPS, and therefore the=20
+> Contact in this request must also become SIPS, and you end up=20
+> in an all-SIPS case.
+>=20
+> This is not true. The in-dialog request will have, indeed, a RURI with
+> SIPS schema, but it will also contain a top Route with SIP schema, so
+> it takes preference and there is no need at all to set a SIPS Contact
+> URI.
+
+Well, I read RFC 3261 differently. 8.1.2 says:
+
+   Otherwise, the procedures are applied to the first Route header field
+   value in the request (if one exists), or to the request's Request-URI
+   if there is no Route header field present.  These procedures yield an
+   ordered set of address, port, and transports to attempt.  Independent
+   of which URI is used as input to the procedures of [4], if the
+   Request-URI specifies a SIPS resource, the UAC MUST follow the
+   procedures of [4] as if the input URI were a SIPS URI.
+
+This behaviour overrides the transport indicated in the Route header if=20
+the Request-URI is SIPS. And it applies to mid-dialog requests as well.
+BTW, RFC 5630 has some text on your original point:
+
+5.1.1.2.  SIPS in a Dialog
+
+   If the Request-URI in a request that initiates a dialog is a SIP URI,
+   then the UAC needs to be careful about what to use in the Contact
+   header field (in case Record-Route is not used for this hop).  If the
+   Contact header field was a SIPS URI, it would mean that the UAS would
+   only accept mid-dialog requests that are sent over secure transport
+   on each hop.  Since the Request-URI in this case is a SIP URI, it is
+   quite possible that the UA sending a request to that URI might not be
+   able to send requests to SIPS URIs.  If the top Route header field
+   does not contain a SIPS URI, the UAC MUST use a SIP URI in the
+   Contact header field, even if the request is sent over a secure
+   transport (e.g., the first hop could be re-using a TLS connection to
+   the proxy as would be the case with [RFC5626]).
+
+Regards,
+Ernst
+
+>=20
+> RFC 5630:
+>=20
+> 5.1.2.  UAS Behavior
+>=20
+>    When presented with a SIPS URI, a UAS MUST NOT change it to a SIP
+>    URI.
+>=20
+>    As mandated by [RFC3261], Section 12.1.1:
+>=20
+>       If the request that initiated the dialog contained a SIPS URI in
+>       the Request-URI or in the top Record-Route header field=20
+> value, if
+>       there was any, or the Contact header field if there was=20
+> no Record-
+>       Route header field, the Contact header field in the=20
+> response MUST
+>       be a SIPS URI.
+>=20
+> In our case *there is* a Record-Route in the INVITE arriving to the
+> UAS and it does contain a SIP URI, so the Contact in the response from
+> the UAS does not need to be a SIPS URI.
+>=20
+>=20
+> Anyhow I insist: SIPS and TLS usage is a pain. Nobody understands it
+> (it's clear given any mail thread about this topic) and everybody does
+> wrong assumptions. I think SIP authors should worry about this reality
+> and react.
+>=20
+>=20
+> Regards.
+>=20
+>=20
+> --=20
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+> =
+
+From ibc@aliax.net  Fri Sep 16 04:05:58 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7CD1B21F8BF9 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 04:05:58 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.648
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.648 tagged_above=-999 required=5 tests=[AWL=0.029,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ZoID1M0v+Ep1 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 04:05:57 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 5093521F8BF7 for <sip@ietf.org>; Fri, 16 Sep 2011 04:05:57 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so336200qyk.10 for <sip@ietf.org>; Fri, 16 Sep 2011 04:08:10 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.166 with SMTP id r38mr1769631qci.254.1316171290772; Fri, 16 Sep 2011 04:08:10 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Fri, 16 Sep 2011 04:08:10 -0700 (PDT)
+In-Reply-To: <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net>
+Date: Fri, 16 Sep 2011 13:08:10 +0200
+Message-ID: <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 11:05:58 -0000
+
+2011/9/16 Horvath, Ernst <ernst.horvath@siemens-enterprise.com>:
+> Well, I read RFC 3261 differently. 8.1.2 says:
+>
+> =C2=A0 Otherwise, the procedures are applied to the first Route header fi=
+eld
+> =C2=A0 value in the request (if one exists), or to the request's Request-=
+URI
+> =C2=A0 if there is no Route header field present. =C2=A0These procedures =
+yield an
+> =C2=A0 ordered set of address, port, and transports to attempt. =C2=A0Ind=
+ependent
+> =C2=A0 of which URI is used as input to the procedures of [4], if the
+> =C2=A0 Request-URI specifies a SIPS resource, the UAC MUST follow the
+> =C2=A0 procedures of [4] as if the input URI were a SIPS URI.
+>
+> This behaviour overrides the transport indicated in the Route header if
+> the Request-URI is SIPS. And it applies to mid-dialog requests as well.
+> BTW, RFC 5630 has some text on your original point:
+>
+> 5.1.1.2. =C2=A0SIPS in a Dialog
+>
+> =C2=A0 If the Request-URI in a request that initiates a dialog is a SIP U=
+RI,
+> =C2=A0 then the UAC needs to be careful about what to use in the Contact
+> =C2=A0 header field (in case Record-Route is not used for this hop). =C2=
+=A0If the
+> =C2=A0 Contact header field was a SIPS URI, it would mean that the UAS wo=
+uld
+> =C2=A0 only accept mid-dialog requests that are sent over secure transpor=
+t
+> =C2=A0 on each hop. =C2=A0Since the Request-URI in this case is a SIP URI=
+, it is
+> =C2=A0 quite possible that the UA sending a request to that URI might not=
+ be
+> =C2=A0 able to send requests to SIPS URIs. =C2=A0If the top Route header =
+field
+> =C2=A0 does not contain a SIPS URI, the UAC MUST use a SIP URI in the
+> =C2=A0 Contact header field, even if the request is sent over a secure
+> =C2=A0 transport (e.g., the first hop could be re-using a TLS connection =
+to
+> =C2=A0 the proxy as would be the case with [RFC5626]).
+
+Hi, this definitely tells me that SIPS and TLS is impossible, but just
+in the case of full TLS in the whole path.
+
+I insist on the bug I've reported for RFC 5630: If the client sets a
+SIP Contact URI and sends the request using TLS, then it would receive
+incoming in-dialog requests via UDP or TCP, but not TLS. This does not
+make sense as the caller could use just SIP over TLS, and in case of
+NAT this would never work as the proxy/server could never send a TCP
+or UDP request to the client.
+
+So IMHO SIPS and TLS is broken and it can only work when the full path
+is secure (which is unfeasible in most of the environments). This
+needs a rework, or maybe Olle is right and we should use
+;transport=3Dtls (with SIP schema), ;transport=3Dtls-sctp and so on.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From keith.drage@alcatel-lucent.com  Fri Sep 16 05:16:40 2011
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3F09521F8669 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 05:16:40 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -105.795
+X-Spam-Level: 
+X-Spam-Status: No, score=-105.795 tagged_above=-999 required=5 tests=[AWL=0.154, BAYES_00=-2.599, HELO_EQ_FR=0.35, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6d3I8avCA-R7 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 05:16:39 -0700 (PDT)
+Received: from smail3.alcatel.fr (smail3.alcatel.fr [62.23.212.56]) by ietfa.amsl.com (Postfix) with ESMTP id 4B39121F85EF for <sip@ietf.org>; Fri, 16 Sep 2011 05:16:38 -0700 (PDT)
+Received: from FRMRSSXCHHUB03.dc-m.alcatel-lucent.com (FRMRSSXCHHUB03.dc-m.alcatel-lucent.com [135.120.45.63]) by smail3.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id p8GCIGMW015919 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Fri, 16 Sep 2011 14:18:50 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.45]) by FRMRSSXCHHUB03.dc-m.alcatel-lucent.com ([135.120.45.63]) with mapi; Fri, 16 Sep 2011 14:18:42 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Date: Fri, 16 Sep 2011 14:18:41 +0200
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: Acx0YPOECDOTc7UWRJ+04b78UnzBzgACQnWg
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com>
+In-Reply-To: <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.69 on 155.132.188.83
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 12:16:40 -0000
+
+> So IMHO SIPS and TLS is broken and it can only work when the full path
+> is secure (which is unfeasible in most of the environments). This
+> needs a rework ...
+
+This conclusion is nothing new - it was essentially the conclusion of those=
+ working on RFC 5630. But it is not RFC 5630 that needs the rework; that do=
+cument is pretty much correct within the constraints we gave it, which is t=
+o define what happens with the existing protocol and make minimum fixes to =
+the existing protocol (indeed the original charter item was only the first =
+half of this).=20
+
+There was a recognition that more could be achieved with a new mechanism (f=
+or example there was a draft from Vijay Gurbani), but that would have been =
+a separate charter item, and noone seemed to have the enthusiasm at the tim=
+e to work on it. That doesn't mean that that situation still persists and I=
+'m sure you understand the process for bringing new work into IETF if you w=
+ant to do something. But that is what it is, new work.
+
+Keith
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> I=F1aki Baz Castillo
+> Sent: 16 September 2011 12:08
+> To: Horvath, Ernst
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+>=20
+> 2011/9/16 Horvath, Ernst <ernst.horvath@siemens-enterprise.com>:
+> > Well, I read RFC 3261 differently. 8.1.2 says:
+> >
+> > =A0 Otherwise, the procedures are applied to the first Route header fie=
+ld
+> > =A0 value in the request (if one exists), or to the request's Request-U=
+RI
+> > =A0 if there is no Route header field present. =A0These procedures yiel=
+d an
+> > =A0 ordered set of address, port, and transports to attempt. =A0Indepen=
+dent
+> > =A0 of which URI is used as input to the procedures of [4], if the
+> > =A0 Request-URI specifies a SIPS resource, the UAC MUST follow the
+> > =A0 procedures of [4] as if the input URI were a SIPS URI.
+> >
+> > This behaviour overrides the transport indicated in the Route header if
+> > the Request-URI is SIPS. And it applies to mid-dialog requests as well.
+> > BTW, RFC 5630 has some text on your original point:
+> >
+> > 5.1.1.2. =A0SIPS in a Dialog
+> >
+> > =A0 If the Request-URI in a request that initiates a dialog is a SIP UR=
+I,
+> > =A0 then the UAC needs to be careful about what to use in the Contact
+> > =A0 header field (in case Record-Route is not used for this hop). =A0If=
+ the
+> > =A0 Contact header field was a SIPS URI, it would mean that the UAS wou=
+ld
+> > =A0 only accept mid-dialog requests that are sent over secure transport
+> > =A0 on each hop. =A0Since the Request-URI in this case is a SIP URI, it=
+ is
+> > =A0 quite possible that the UA sending a request to that URI might not =
+be
+> > =A0 able to send requests to SIPS URIs. =A0If the top Route header fiel=
+d
+> > =A0 does not contain a SIPS URI, the UAC MUST use a SIP URI in the
+> > =A0 Contact header field, even if the request is sent over a secure
+> > =A0 transport (e.g., the first hop could be re-using a TLS connection t=
+o
+> > =A0 the proxy as would be the case with [RFC5626]).
+>=20
+> Hi, this definitely tells me that SIPS and TLS is impossible, but just
+> in the case of full TLS in the whole path.
+>=20
+> I insist on the bug I've reported for RFC 5630: If the client sets a
+> SIP Contact URI and sends the request using TLS, then it would receive
+> incoming in-dialog requests via UDP or TCP, but not TLS. This does not
+> make sense as the caller could use just SIP over TLS, and in case of
+> NAT this would never work as the proxy/server could never send a TCP
+> or UDP request to the client.
+>=20
+> So IMHO SIPS and TLS is broken and it can only work when the full path
+> is secure (which is unfeasible in most of the environments). This
+> needs a rework, or maybe Olle is right and we should use
+> ;transport=3Dtls (with SIP schema), ;transport=3Dtls-sctp and so on.
+>=20
+> --
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+
+From ibc@aliax.net  Fri Sep 16 05:44:02 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7D57221F8B4D for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 05:44:02 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.648
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.648 tagged_above=-999 required=5 tests=[AWL=0.029,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5i2pfwKiIXmZ for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 05:44:02 -0700 (PDT)
+Received: from mail-qy0-f179.google.com (mail-qy0-f179.google.com [209.85.216.179]) by ietfa.amsl.com (Postfix) with ESMTP id DA68F21F869E for <sip@ietf.org>; Fri, 16 Sep 2011 05:44:01 -0700 (PDT)
+Received: by qyk33 with SMTP id 33so3866418qyk.10 for <sip@ietf.org>; Fri, 16 Sep 2011 05:46:16 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.166 with SMTP id r38mr1840589qci.254.1316177176199; Fri, 16 Sep 2011 05:46:16 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Fri, 16 Sep 2011 05:46:16 -0700 (PDT)
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Date: Fri, 16 Sep 2011 14:46:16 +0200
+Message-ID: <CALiegfm5YQmcruJ=0=DQEieT+h41N7ySfcR0-QgPE=avOuphBQ@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 12:44:02 -0000
+
+2011/9/16 DRAGE, Keith (Keith) <keith.drage@alcatel-lucent.com>:
+> This conclusion is nothing new - it was essentially the conclusion of tho=
+se working on RFC 5630. But it is not RFC 5630 that needs the rework; that =
+document is pretty much correct within the constraints we gave it, which is=
+ to define what happens with the existing protocol and make minimum fixes t=
+o the existing protocol (indeed the original charter item was only the firs=
+t half of this).
+>
+> There was a recognition that more could be achieved with a new mechanism =
+(for example there was a draft from Vijay Gurbani), but that would have bee=
+n a separate charter item, and noone seemed to have the enthusiasm at the t=
+ime to work on it. That doesn't mean that that situation still persists and=
+ I'm sure you understand the process for bringing new work into IETF if you=
+ want to do something. But that is what it is, new work.
+
+Thanks, I understand what you mean.
+
+IMHO the main problem is "mixing" the transport for a specific node in
+the path with the requirement of a secure transport for the whole
+path. Given this thread is clear that there are errors in the design
+making it unusable.
+
+Another "error" (IMHO) is the aim of RFC 3261 in considering TLS (over
+TCP) not a transport, but a secure layer over TCP. But that is ironic
+since that just applies to URI ;transport param, but in Via transport
+field we do have "TLS" and "TCP" as separate values.
+
+Things would be much easier as follows (just an initial idea):
+
+- Consider TLS-over-TCP as a real transport (the same for TLS over
+SCTP) so we have ;transport=3Dtls / tls-sctp.
+
+- Completely remove SIPS schema (the real pain here).
+
+- Create any new mechanism for requiring a whole secure path. For
+example, by adding a ;sec param to the Request URI and Contact URI. In
+this way, the UAS MUST also add ;sec to the Contact header in the
+response, so all the in-dialog requests would have ;sec in the Request
+URI.  Proxies should add ;sec to Record-Route headers in this case.
+If an UAC or proxy has to route a request whose top Route (or RURI if
+no Route is present) has ;sec param, then it MUST use a secure
+transport. If such URI contains a ;transport param with values "udp",
+"tcp" or "sctp" then that's an error and the request should be
+rejected.
+And that's all.
+
+Of course this idea must be improved (a lot) :)
+
+Regards.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From vkg@bell-labs.com  Fri Sep 16 06:21:19 2011
+Return-Path: <vkg@bell-labs.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A5AD221F8C0D for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 06:21:19 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -106.584
+X-Spam-Level: 
+X-Spam-Status: No, score=-106.584 tagged_above=-999 required=5 tests=[AWL=0.015, BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Ra0jJC0mRikK for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 06:21:18 -0700 (PDT)
+Received: from ihemail3.lucent.com (ihemail3.lucent.com [135.245.0.37]) by ietfa.amsl.com (Postfix) with ESMTP id 883D521F8BBC for <sip@ietf.org>; Fri, 16 Sep 2011 06:21:18 -0700 (PDT)
+Received: from usnavsmail1.ndc.alcatel-lucent.com (usnavsmail1.ndc.alcatel-lucent.com [135.3.39.9]) by ihemail3.lucent.com (8.13.8/IER-o) with ESMTP id p8GDNVjw029919 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK); Fri, 16 Sep 2011 08:23:31 -0500 (CDT)
+Received: from umail.lucent.com (umail-ce2.ndc.lucent.com [135.3.40.63]) by usnavsmail1.ndc.alcatel-lucent.com (8.14.3/8.14.3/GMO) with ESMTP id p8GDNVTW022016 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT); Fri, 16 Sep 2011 08:23:31 -0500
+Received: from shoonya.ih.lucent.com (shoonya.ih.lucent.com [135.185.238.235]) by umail.lucent.com (8.13.8/TPES) with ESMTP id p8GDNSwd019695; Fri, 16 Sep 2011 08:23:28 -0500 (CDT)
+Message-ID: <4E734E62.1020700@bell-labs.com>
+Date: Fri, 16 Sep 2011 08:25:54 -0500
+From: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Organization: Bell Laboratories, Alcatel-Lucent
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:6.0.2) Gecko/20110906 Thunderbird/6.0.2
+MIME-Version: 1.0
+To: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.37
+X-Scanned-By: MIMEDefang 2.64 on 135.3.39.9
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 13:21:19 -0000
+
+On 09/16/2011 07:18 AM, DRAGE, Keith (Keith) wrote:
+[...]
+> There was a recognition that more could be achieved with a new
+> mechanism (for example there was a draft from Vijay Gurbani), but
+> that would have been a separate charter item, and noone seemed to
+> have the enthusiasm at the time to work on it. That doesn't mean that
+> that situation still persists and I'm sure you understand the process
+> for bringing new work into IETF if you want to do something. But that
+> is what it is, new work.
+
+The draft Keith is referring to here, if you are interested, is:
+"The SIPSEC Uniform Resource Identifier (URI)" [1].
+
+There was a follow-up paper [2] that used the idea in the sipsec URI
+draft to benchmark TLS per-hop and TLS end-to-end, treating the
+intermediary proxies as a blind byte forwarder.  If you are interested
+in the paper, drop me a private message and I can send you the PDF.
+
+[1] http://tools.ietf.org/html/draft-gurbani-sip-sipsec-01
+[2] Gurbani, V.K., Willis, D., and Audet, F., "Cryptographically
+  Transparent Session Initiation Protocol (SIP) Proxies," Proceedings of
+  the 2007 IEEE International Conference on Communications (ICC), pp.
+  1185-1190, June 2007, Glasgow, UK.
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{bell-labs.com,acm.org} / vijay.gurbani@alcatel-lucent.com
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From oej@edvina.net  Fri Sep 16 06:24:17 2011
+Return-Path: <oej@edvina.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 030AB21F8C16 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 06:24:17 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.235
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.235 tagged_above=-999 required=5 tests=[AWL=0.014,  BAYES_00=-2.599, HELO_EQ_SE=0.35]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Lrx-3YCQP-9z for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 06:24:16 -0700 (PDT)
+Received: from smtp7.webway.se (smtp7.webway.se [212.3.14.205]) by ietfa.amsl.com (Postfix) with ESMTP id 730CC21F8B5A for <sip@ietf.org>; Fri, 16 Sep 2011 06:24:16 -0700 (PDT)
+Received: from [192.168.40.44] (ns.webway.se [87.96.134.125]) by smtp7.webway.se (Postfix) with ESMTPA id 23BD5754BCE5; Fri, 16 Sep 2011 13:26:28 +0000 (UTC)
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+Content-Type: text/plain; charset=iso-8859-1
+From: "Olle E. Johansson" <oej@edvina.net>
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Date: Fri, 16 Sep 2011 15:26:26 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <DEDCF32A-9F63-4C07-8A44-0182E946DDA5@edvina.net>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+To: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+X-Mailer: Apple Mail (2.1244.3)
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 13:24:17 -0000
+
+16 sep 2011 kl. 14:18 skrev DRAGE, Keith (Keith):
+
+>> So IMHO SIPS and TLS is broken and it can only work when the full =
+path
+>> is secure (which is unfeasible in most of the environments). This
+>> needs a rework ...
+>=20
+> This conclusion is nothing new - it was essentially the conclusion of =
+those working on RFC 5630. But it is not RFC 5630 that needs the rework; =
+that document is pretty much correct within the constraints we gave it, =
+which is to define what happens with the existing protocol and make =
+minimum fixes to the existing protocol (indeed the original charter item =
+was only the first half of this).=20
+>=20
+> There was a recognition that more could be achieved with a new =
+mechanism (for example there was a draft from Vijay Gurbani), but that =
+would have been a separate charter item, and noone seemed to have the =
+enthusiasm at the time to work on it. That doesn't mean that that =
+situation still persists and I'm sure you understand the process for =
+bringing new work into IETF if you want to do something. But that is =
+what it is, new work.
+
+Thank you very much Keith for this clarification, which gives us the =
+background we need.
+
+Time to allocate resources to be able to work on this then.
+
+/O=
+
+From ibc@aliax.net  Fri Sep 16 07:19:36 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C5E7521F8C1B for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:19:36 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vKqREhZ3JcR7 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:19:36 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 39C0221F8C1A for <sip@ietf.org>; Fri, 16 Sep 2011 07:19:36 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so507898qyk.10 for <sip@ietf.org>; Fri, 16 Sep 2011 07:21:50 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.67.105 with SMTP id q41mr1938385qci.216.1316182910588; Fri, 16 Sep 2011 07:21:50 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Fri, 16 Sep 2011 07:21:50 -0700 (PDT)
+In-Reply-To: <4E734E62.1020700@bell-labs.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com> <4E734E62.1020700@bell-labs.com>
+Date: Fri, 16 Sep 2011 16:21:50 +0200
+Message-ID: <CALiegf=AhrPV3bm9Bk5OBn1c=Ex6RXCcPbtNnSZnz3QSY1Qn-g@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "Vijay K. Gurbani" <vkg@bell-labs.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>, "DRAGE, Keith \(Keith\)" <keith.drage@alcatel-lucent.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 14:19:36 -0000
+
+2011/9/16 Vijay K. Gurbani <vkg@bell-labs.com>:
+> The draft Keith is referring to here, if you are interested, is:
+> "The SIPSEC Uniform Resource Identifier (URI)" [1].
+>
+> There was a follow-up paper [2] that used the idea in the sipsec URI
+> draft to benchmark TLS per-hop and TLS end-to-end, treating the
+> intermediary proxies as a blind byte forwarder. =C2=A0If you are interest=
+ed
+> in the paper, drop me a private message and I can send you the PDF.
+
+Hi Vijay, the PDF is already accesible in the link below :)
+
+> [1] http://tools.ietf.org/html/draft-gurbani-sip-sipsec-01
+
+
+I would like to comment about this draft, is it the appropriate maillist fo=
+r it?
+
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From keith.drage@alcatel-lucent.com  Fri Sep 16 07:21:05 2011
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3261221F8C67 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:21:05 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -105.797
+X-Spam-Level: 
+X-Spam-Status: No, score=-105.797 tagged_above=-999 required=5 tests=[AWL=0.152, BAYES_00=-2.599, HELO_EQ_FR=0.35, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id udS9kxuN0DSI for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:21:04 -0700 (PDT)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by ietfa.amsl.com (Postfix) with ESMTP id 5A53B21F8C68 for <sip@ietf.org>; Fri, 16 Sep 2011 07:21:04 -0700 (PDT)
+Received: from FRMRSSXCHHUB03.dc-m.alcatel-lucent.com (FRMRSSXCHHUB03.dc-m.alcatel-lucent.com [135.120.45.63]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id p8GENCC4024034 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Fri, 16 Sep 2011 16:23:13 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.45]) by FRMRSSXCHHUB03.dc-m.alcatel-lucent.com ([135.120.45.63]) with mapi; Fri, 16 Sep 2011 16:23:12 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>, "Gurbani, Vijay K (Vijay)" <vijay.gurbani@alcatel-lucent.com>
+Date: Fri, 16 Sep 2011 16:23:10 +0200
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: Acx0e/5VejKRKb+mRomGATGss42DjwAAB1IA
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE220C0DD7A@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com> <4E734E62.1020700@bell-labs.com> <CALiegf=AhrPV3bm9Bk5OBn1c=Ex6RXCcPbtNnSZnz3QSY1Qn-g@mail.gmail.com>
+In-Reply-To: <CALiegf=AhrPV3bm9Bk5OBn1c=Ex6RXCcPbtNnSZnz3QSY1Qn-g@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.69 on 155.132.188.80
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 14:21:05 -0000
+
+I would suggest moving the discussion to either SIPCORE or DISPATCH.
+
+Keith
+
+> -----Original Message-----
+> From: I=F1aki Baz Castillo [mailto:ibc@aliax.net]
+> Sent: 16 September 2011 15:22
+> To: Gurbani, Vijay K (Vijay)
+> Cc: DRAGE, Keith (Keith); Horvath, Ernst; sip@ietf.org
+> Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+>=20
+> 2011/9/16 Vijay K. Gurbani <vkg@bell-labs.com>:
+> > The draft Keith is referring to here, if you are interested, is:
+> > "The SIPSEC Uniform Resource Identifier (URI)" [1].
+> >
+> > There was a follow-up paper [2] that used the idea in the sipsec URI
+> > draft to benchmark TLS per-hop and TLS end-to-end, treating the
+> > intermediary proxies as a blind byte forwarder. =A0If you are intereste=
+d
+> > in the paper, drop me a private message and I can send you the PDF.
+>=20
+> Hi Vijay, the PDF is already accesible in the link below :)
+>=20
+> > [1] http://tools.ietf.org/html/draft-gurbani-sip-sipsec-01
+>=20
+>=20
+> I would like to comment about this draft, is it the appropriate maillist
+> for it?
+>=20
+>=20
+> --
+> I=F1aki Baz Castillo
+> <ibc@aliax.net>
+
+From keith.drage@alcatel-lucent.com  Fri Sep 16 07:33:28 2011
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CE4A621F8B7E for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:33:28 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -105.8
+X-Spam-Level: 
+X-Spam-Status: No, score=-105.8 tagged_above=-999 required=5 tests=[AWL=0.149,  BAYES_00=-2.599, HELO_EQ_FR=0.35, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id pRAS817+vQGc for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:33:28 -0700 (PDT)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by ietfa.amsl.com (Postfix) with ESMTP id 89E6221F8B03 for <sip@ietf.org>; Fri, 16 Sep 2011 07:33:21 -0700 (PDT)
+Received: from FRMRSSXCHHUB02.dc-m.alcatel-lucent.com (FRMRSSXCHHUB02.dc-m.alcatel-lucent.com [135.120.45.62]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id p8GEWS4Y027496 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Fri, 16 Sep 2011 16:35:30 +0200
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.45]) by FRMRSSXCHHUB02.dc-m.alcatel-lucent.com ([135.120.45.62]) with mapi; Fri, 16 Sep 2011 16:35:20 +0200
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: =?iso-8859-1?Q?I=F1aki_Baz_Castillo?= <ibc@aliax.net>, "Gurbani, Vijay K (Vijay)" <vijay.gurbani@alcatel-lucent.com>
+Date: Fri, 16 Sep 2011 16:35:19 +0200
+Thread-Topic: [Sip] Using TLS in the first hop - Bug in RFC 5630
+Thread-Index: Acx0e/5VejKRKb+mRomGATGss42DjwAAB1IAAABIPZA=
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE220C0DD87@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com> <4E734E62.1020700@bell-labs.com> <CALiegf=AhrPV3bm9Bk5OBn1c=Ex6RXCcPbtNnSZnz3QSY1Qn-g@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD7A@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE220C0DD7A@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.69 on 155.132.188.80
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 14:33:29 -0000
+
+And just to clarify, the SIP list is addressed at the remaining work that e=
+xisted in the SIP WG at the time it closed. Indeed many SIP experts have le=
+ft this list, or are newcomers and were never on it.
+
+As this is potential new work, it should follow the rules for introducing n=
+ew work into the RAI area. This would ultimately end up in the SIPCORE WG. =
+Whether the SIPCORE chairs would feel it needed to be DISPATCHed first I wi=
+ll leave you to consult on.
+
+Of course what you do with it prior to the request to charter the work is e=
+ntirely up to you as authors and collaborators, but at some point you need =
+to bring other experts up to speed with what you would like IETF to do.
+
+Regards
+
+Keith
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> DRAGE, Keith (Keith)
+> Sent: 16 September 2011 15:23
+> To: I=F1aki Baz Castillo; Gurbani, Vijay K (Vijay)
+> Cc: sip@ietf.org; Horvath, Ernst
+> Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+>=20
+> I would suggest moving the discussion to either SIPCORE or DISPATCH.
+>=20
+> Keith
+>=20
+> > -----Original Message-----
+> > From: I=F1aki Baz Castillo [mailto:ibc@aliax.net]
+> > Sent: 16 September 2011 15:22
+> > To: Gurbani, Vijay K (Vijay)
+> > Cc: DRAGE, Keith (Keith); Horvath, Ernst; sip@ietf.org
+> > Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+> >
+> > 2011/9/16 Vijay K. Gurbani <vkg@bell-labs.com>:
+> > > The draft Keith is referring to here, if you are interested, is:
+> > > "The SIPSEC Uniform Resource Identifier (URI)" [1].
+> > >
+> > > There was a follow-up paper [2] that used the idea in the sipsec URI
+> > > draft to benchmark TLS per-hop and TLS end-to-end, treating the
+> > > intermediary proxies as a blind byte forwarder. =A0If you are interes=
+ted
+> > > in the paper, drop me a private message and I can send you the PDF.
+> >
+> > Hi Vijay, the PDF is already accesible in the link below :)
+> >
+> > > [1] http://tools.ietf.org/html/draft-gurbani-sip-sipsec-01
+> >
+> >
+> > I would like to comment about this draft, is it the appropriate maillis=
+t
+> > for it?
+> >
+> >
+> > --
+> > I=F1aki Baz Castillo
+> > <ibc@aliax.net>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is essentially closed and only used for finishing old business.
+> Use sip-implementors@cs.columbia.edu for questions on how to develop a SI=
+P
+> implementation.
+> Use dispatch@ietf.org for new developments on the application of sip.
+> Use sipcore@ietf.org for issues related to maintenance of the core SIP
+> specifications.
+
+From ibc@aliax.net  Fri Sep 16 07:37:49 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 235B921F8BBF for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:37:49 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.649 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([12.22.58.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8AYRPok-ERl5 for <sip@ietfa.amsl.com>; Fri, 16 Sep 2011 07:37:48 -0700 (PDT)
+Received: from mail-qy0-f172.google.com (mail-qy0-f172.google.com [209.85.216.172]) by ietfa.amsl.com (Postfix) with ESMTP id 7A10221F8B19 for <sip@ietf.org>; Fri, 16 Sep 2011 07:37:48 -0700 (PDT)
+Received: by qyk32 with SMTP id 32so525772qyk.10 for <sip@ietf.org>; Fri, 16 Sep 2011 07:40:03 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.66.144 with SMTP id n16mr1612747qci.178.1316184003099; Fri, 16 Sep 2011 07:40:03 -0700 (PDT)
+Received: by 10.229.79.207 with HTTP; Fri, 16 Sep 2011 07:40:02 -0700 (PDT)
+In-Reply-To: <EDC0A1AE77C57744B664A310A0B23AE220C0DD7A@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <CALiegfkNfJ7McZAA=a5ajYVzYtmAjC_KQdK1P_ez2L1dia5v2g@mail.gmail.com> <CFFC2869-C704-423E-974D-3F4B93145BBB@edvina.net> <CALiegfnh2C3GNddnneepcVsGgtOd1pSDBVC3uH72S1KaVT_jHg@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2E6EF@MCHP058A.global-ad.net> <CALiegfkqnVMHSZuim33XNy8rPdBRmJsB6VRxF3mR1dEXvEdK-Q@mail.gmail.com> <CALiegf=jX6pkdw+xYueuEjgAoo_9XVhYqOgc0Uwx2yt7gqto1Q@mail.gmail.com> <7889A6C3D41A49439DAECC7B4C998F011C07F2EA81@MCHP058A.global-ad.net> <CALiegfnxSo3zvCHAUtFUU=2XODUJN3SNxhRgVZ+oF5tfsQFsFw@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD06@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com> <4E734E62.1020700@bell-labs.com> <CALiegf=AhrPV3bm9Bk5OBn1c=Ex6RXCcPbtNnSZnz3QSY1Qn-g@mail.gmail.com> <EDC0A1AE77C57744B664A310A0B23AE220C0DD7A@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+Date: Fri, 16 Sep 2011 16:40:02 +0200
+Message-ID: <CALiegf=rxYWkh=ONmqOzU20ika-a0KsP2BsrX9TL_Dt1skKddQ@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: "sip@ietf.org" <sip@ietf.org>, "Horvath, Ernst" <ernst.horvath@siemens-enterprise.com>, "Gurbani, Vijay K \(Vijay\)" <vijay.gurbani@alcatel-lucent.com>
+Subject: Re: [Sip] Using TLS in the first hop - Bug in RFC 5630
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 16 Sep 2011 14:37:49 -0000
+
+2011/9/16 DRAGE, Keith (Keith) <keith.drage@alcatel-lucent.com>:
+> I would suggest moving the discussion to either SIPCORE or DISPATCH.
+
+I've started a thread in SIPCORE.
+
+Thanks a lot.
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>

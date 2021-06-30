@@ -1,0 +1,231 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2007-03.mailcl']
+id : af15a5eb-2246-41a7-8e3e-a8e65e39a072
+_version_ : 1675128734660689921
+
+Content : 
+
+1.0px; border-color: #808080 #808080 #808080 #808080; padding: 0.0px =
+4.0px 0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">15</SPAN></FONT></DIV></TD></TR><TR><TD =
+valign=3D"middle" style=3D"width: 137.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">Jae Woo Lee</SPAN></FONT></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><FONT class=3D"Apple-style-span" face=3D"Times" =
+size=3D"4"><SPAN class=3D"Apple-style-span" style=3D"font-size: =
+16px;">Henning Schulzrinne</SPAN></FONT></DIV></TD><TD valign=3D"middle" =
+style=3D"width: 276.0px; margin: 0.0px 1.0px 0.0px 1.0px; border-style: =
+solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 =
+#808080 #808080 #808080; padding: 0.0px 4.0px 0.0px 4.0px"><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><FONT class=3D"Apple-style-span" face=3D"Times" =
+size=3D"4"><SPAN class=3D"Apple-style-span" style=3D"font-size: =
+16px;">SIP URI Service Discovery using =
+DNS-SD</SPAN></FONT></DIV></TD><TD valign=3D"middle" style=3D"width: =
+321.0px; margin: 0.0px 1.0px 0.0px 1.0px; border-style: solid; =
+border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 =
+#808080 #808080; padding: 0.0px 4.0px 0.0px 4.0px"><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><A =
+href=3D"http://www.ietf.org/internet-drafts/draft-lee-sip-dns-sd-uri-00.tx=
+t"><FONT class=3D"Apple-style-span" face=3D"Times" size=3D"4"><SPAN =
+class=3D"Apple-style-span" style=3D"font-size: =
+16px;">draft-lee-sip-dns-sd-uri-00</SPAN></FONT></A></DIV></TD><TD =
+valign=3D"middle" style=3D"width: 65.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">15</SPAN></FONT></DIV></TD></TR><TR><TD =
+valign=3D"middle" style=3D"width: 137.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">Mayumi Munakata</SPAN></FONT></DIV></TD><TD =
+valign=3D"middle" style=3D"width: 276.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">Clarification of =
+Privacy</SPAN></FONT></DIV></TD><TD valign=3D"middle" style=3D"width: =
+321.0px; margin: 0.0px 1.0px 0.0px 1.0px; border-style: solid; =
+border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 =
+#808080 #808080; padding: 0.0px 4.0px 0.0px 4.0px"><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><A =
+href=3D"http://www.ietf.org/internet-drafts/draft-munakata-sip-privacyz
+	for sip@ietf.org; Tue, 06 Mar 2007 15:25:29 -0500
+Received: (qmail 74368 invoked by uid 60001); 6 Mar 2007 20:25:27 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com;
+	h=X-YMail-OSG:Received:Date:From:Subject:To:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID;
+	b=gXaauiHC4Veq6BI89V2QTegFnxs+Xn5J47e7ZYtTTov7+51srmS+2uSU8Hn9EbhydbS+tUZRp8sNGe923sW3DNhTwzFVAFMRfcvLRFInn05rNHWFfqMBdxE9xshUIT0BYcS1D5yIsAztwX6GtaIBxfiArArxLJtsOy5WIHZCFso=;
+X-YMail-OSG: 0_soLvQVM1kz5iDlcOL7FERIIH82hQ1ssJSTNfvzdQdMdme1T7D1jhNCXoJxTuV7GPQDSQebPSGgN3dD.INKj55Y3fYHht4Hmdf6qJizYA9Yq5eV4Tp1sN2pnl2eZ5iqD9m_DbM6svJVGyjOJ5p3JaslIg--
+Received: from [198.152.12.67] by web31506.mail.mud.yahoo.com via HTTP;
+	Tue, 06 Mar 2007 20:25:26 GMT
+Date: Tue, 6 Mar 2007 20:25:26 +0000 (GMT)
+From: Kapil Nayar <kapilnayar@yahoo.com>
+To: sip@ietf.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Message-ID: <84913.73993.qm@web31506.mail.mud.yahoo.com>
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: b19722fc8d3865b147c75ae2495625f2
+Subject: [Sip] Can a UA initiate a late offer (in UPDATE instead of INVITE)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sip>,
+	<mailto:sip-request@ietf.org?subject=subscribe>
+Errors-To: sip-bounces@ietf.org
+
+Consider UA-1 initiating an INVITE without SDP offer
+(with 100Rel in the supported header). UA-1 expects
+the remote end UA-2 to support 100Rel but also at the
+same time doesn't want to offend endpoints which donot
+support the same. Now, if UA-2 did not support 100Rel
+and sends 180-Ringing without offer/ RSeq header. 
+
+Can UA-1 at this point decide to initiate an offer in
+an UPDATE - I didn't find any text in RFC 3261/ 3311
+which specifically restricts this behavior? In
+essence, can an UPDATE be sent with SDP-offer if the
+initial INVITE didnot contain an offer, but at the
+same time the callee didnot send an offer in either
+reliable provisional response or UPDATE or PRACK? This
+seemingly is some sort of "late offer initiation".
+
+Although it seems the RFC doesnot specifically
+restrict this behavior, it should be disallowed to
+prevent any collision between the offer in UPDATE from
+UA-1 and 200-OK/ UPDATE from UA-2.
+
+thanks,
+
+Kapil Nayar
+
+
+
+	
+	
+		
+___________________________________________________________ 
+New Yahoo! Mail is the ultimate force in competitive emailing. Find out more at the Yahoo! Mail Championships. Plus: play games and win prizes. 
+http://uk.rd.yahoo.com/evt=44106/*http://mail.yahoo.net/uk 
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+
+
+
+
+-cla=
+rified-00.txt"><FONT class=3D"Apple-style-span" face=3D"Times" =
+size=3D"4"><SPAN class=3D"Apple-style-span" style=3D"font-size: =
+16px;">draft-munakata-sip-privacy-clarified-00</SPAN></FONT></A></DIV></TD=
+><TD valign=3D"middle" style=3D"width: 65.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">15</SPAN></FONT></DIV></TD></TR><TR><TD =
+valign=3D"middle" style=3D"width: 137.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">Thomas Froment</SPAN></FONT></DIV></TD><TD =
+valign=3D"middle" style=3D"width: 276.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: 16px;">Record route =
+management</SPAN></FONT></DIV></TD><TD valign=3D"middle" style=3D"width: =
+321.0px; margin: 0.0px 1.0px 0.0px 1.0px; border-style: solid; =
+border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 =
+#808080 #808080; padding: 0.0px 4.0px 0.0px 4.0px"><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><A =
+href=3D"http://www.ietf.org/internet-drafts/draft-froment-sip-record-route=
+-fix-00.txt"><FONT class=3D"Apple-style-span" face=3D"Times" =
+size=3D"4"><SPAN class=3D"Apple-style-span" style=3D"font-size: =
+16px;">draft-froment-sip-record-route-fix-00</SPAN></FONT></A></DIV></TD><=
+TD valign=3D"middle" style=3D"width: 65.0px; margin: 0.0px 1.0px 0.0px =
+1.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; =
+border-color: #808080 #808080 #808080 #808080; padding: 0.0px 4.0px =
+0.0px 4.0px"><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><FONT class=3D"Apple-style-span" =
+face=3D"Times" size=3D"4"><SPAN class=3D"Apple-style-span" =
+style=3D"font-size: =
+16px;">10</SPAN></FONT></DIV></TD></TR></TBODY></TABLE><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV></BODY></HTML>=
+
+--Apple-Mail-1--515794571--
+
+
+--===============1282566915==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+--===============1282566915==--
+

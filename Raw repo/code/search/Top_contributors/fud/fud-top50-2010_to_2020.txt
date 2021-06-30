@@ -1,0 +1,25 @@
+2010 TO 2020
+-------#####------->    fud
+hannes.tschofenig@gmx.net 26
+cabo@tzi.org 13
+mcr+ietf@sandelman.ca 10
+Emmanuel.Baccelli@inria.fr 7
+kathleen.moriarty.ietf@gmail.com 7
+housley@vigilsec.com 6
+Brendan.Moran@arm.com 5
+Hannes.Tschofenig@arm.com 4
+session-request@ietf.org 4
+bergmann@tzi.org 3
+david.waltermire@nist.gov 3
+henk.birkholz@sit.fraunhofer.de 3
+thomas@riot-os.org 3
+chris@phosphorus.io 2
+ietf@augustcellars.com 2
+ned.smith@intel.com 2
+spencerdawkins.ietf@gmail.com 2
+a@ackl.io 1
+david.brown@linaro.org 1
+francisco.acosta@inria.fr 1
+nordmark@sonic.net 1
+olshansky@isoc.org 1
+trishank@nyu.edu 1

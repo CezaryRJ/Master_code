@@ -1,0 +1,56 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf-announce
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf-announce/2006-09.mailcl']
+id : 4ca67788-0692-40fb-8a00-58259bbd9acd
+_version_ : 1675130030921875460
+
+Content : 
+
+The IESG has received a request from the Multiprotocol Label Switching 
+WG to consider the following document:
+
+- 'Encapsulation of MPLS over Layer 2 Tunneling Protocol Version 3 '
+   <draft-ietf-mpls-over-l2tpv3-01.txt> as a Proposed Standard
+
+The IESG plans to make a decision in the next few weeks, and solicits
+final comments on this action.  Please send any comments to the
+iesg@ietf.org or ietf@ietf.org mailing lists by 2006-10-04.
+
+The file can be obtained via
+http://www.ietf.org/internet-drafts/draft-ietf-mpls-over-l2tpv3-01.txt
+
+
+_______________________________________________
+mpls mailing list
+mpls@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/mpls
+
+
+
+_______________________________________________
+IETF-Announce mailing list
+IETF-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf-announce

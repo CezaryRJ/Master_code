@@ -1,0 +1,27 @@
+2010 TO 2020
+-------#####------->    manycouches
+york@isoc.org 25
+kathleen.moriarty.ietf@gmail.com 21
+stephen.farrell@cs.tcd.ie 19
+akatlas@gmail.com 8
+moore@network-heretics.com 8
+mcr+ietf@sandelman.ca 6
+melinda.shore@gmail.com 6
+suresh.krishnan@ericsson.com 6
+wjhns1@hardakers.net 6
+spromano@unina.it 5
+alissa@cooperw.in 4
+amorris@amsl.com 4
+sm+ietf@elandsys.com 4
+db3546@att.com 3
+lberger@labn.net 3
+mukom.tamon@gmail.com 3
+mellon@fugue.com 2
+spencerdawkins.ietf@gmail.com 2
+tte@cs.fau.de 2
+wood@isoc.org 2
+cloos@jhcloos.com 1
+lars@netapp.com 1
+mbishop@evequefou.be 1
+rjsparks@nostrum.com 1
+weiler@csail.mit.edu 1

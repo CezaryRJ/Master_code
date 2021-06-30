@@ -1,0 +1,11 @@
+2010 TO 2020
+-------#####------->    rfced-ietf
+sginoza@amsl.com 7
+rfc-ed@rfc-editor.org 4
+housley@vigilsec.com 2
+rpelletier@isoc.org 2
+braden@ISI.EDU 1
+dow.street@linquest.com 1
+ginoza@ISI.EDU 1
+glen@amsl.com 1
+jari.arkko@piuha.net 1

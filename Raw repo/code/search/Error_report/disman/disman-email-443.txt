@@ -1,0 +1,122 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : disman
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/disman/2001-01.mailcl']
+id : 3be7888b-0804-4317-956a-16397585c35f
+_version_ : 1675132645805129729
+
+Content : 
+
+wes@hardakers.net using -f
+To: disman@dorothy.bmc.com
+Subject: event-mib issues/questions:
+From: Wes Hardaker <wes@hardakers.net>
+X-URL: http://dcas.ucdavis.edu/~hardaker
+Organization: Network Associates - NAI Labs
+X-Face:
+#qW^}a%m*T^{A:Cp}$R\"38+d}41-Z}uU8,r%F#c#s:~Nzp0G9](s?,K49KJ]s"*7gvRgA
+ SrAvQc4@/}L7Qc=w{)]ACO\R{LF@S{pXfojjjGg6c;q6{~C}CxC^^&~(F]`1W)%9j/iS/
+ IM",B1M.?{w8ckLTYD'`|kTr\i\cgY)P4
+Date: 29 Jan 2001 17:47:32 -0800
+Message-ID: <sditmx24ln.fsf@wanderer.hardakers.net>
+Lines: 73
+User-Agent: Gnus/5.0808 (Gnus v5.8.8) XEmacs/21.2 (Notus)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+
+Recently, when implementing the event mib, I've run across a few
+questions:
+
+0) For mteTriggerTargetTag values of '' (ie, the local agent) is the
+   context name for the request to be the context name as defined
+   later using mteTriggerContextName or the contextName of the
+   incoming request:
+
+     In this case, access to the objects indicated by
+     mteTriggerValueID is under the security credentials of the
+     requester that set mteTriggerEntryStatus to 'active'.  Those
+     credentials are the input parameters for isAccessAllowed from the
+     Architecture for Describing SNMP Management Frameworks.
+
+   I would think it should be the value of mteTriggerContextName that
+   is used, but the isAccessAllowed ASI has the contextName listed as
+   an argument, so the above text would lead me to question if I
+   should be pulling the context name from the packet that set the row
+   active instead?
+
+1) why don't the tables have a StorageType column?  Specifically, I
+   expect to have some rows that won't be writable via network SETs
+   since they'll be derived from other configuration methods.  It
+   would be nice for that information to be retrievable/usable from
+   the protocol standpoint.
+
+2) The odd combination of mteTriggerEnabled/mteTriggerEntryStatus
+   works, certainly, but seems counter-intuitive compared to other
+   MIBs I've seen.  Why is there a separate column for enabling a row
+   (as opposed to using notInService)?  Why can't a row be put into
+   notInService (the mib states that the only legal value after action
+   is destroy).
+
+3) if an existence test row is turned from Enabled to Disabled to
+   Enabled, is state supposed to be kept such that previously existing
+   rows are remembered to have been in existence?  (I'd say no, simply
+   because it sort of implies starting over and similarly doing
+   thresholding based on delta values would probably trigger an event
+   when it was re-enabled since the delta is quite possibly going to
+   be large if a large time had elapsed).
+
+4) mteTriggerThresholdStartup doesn't properly describe the case where
+   new objects come into play after the row has been active for a
+   while.  What if a newly discovered item exists that previously
+   didn't for a running row?  If it is above the rising threshold,
+   does a rising threshold event get triggered?
+
+4b) If an object is above the threshold and drops below the rising
+    threshold but not below the falling threshold and then winks out
+    of existence for at least one test and finally rises above the
+    rising threshold again, does an event get fired (ie, is state kept
+    for objects winking in/out of existence).
+
+5) If mteTriggerExistenceStartup is "absent" and
+   mteTriggerValueIDWildcard is "true", does an event get triggered
+   when a row becomes active and no sub-tree matches are found?  (I
+   would think yes, but its unclear).
+
+   (I can't help but chuckle that the statement "Each instance of a
+   wildcard is treated as if it were a separate entry" might mean that
+   I should send out an infinite number of traps at startup for all
+   possible OIDs that I didn't receive values for).
+
+Some of these were thought up when I was lucid without a cold
+affecting my thoughts.  Some weren't (sorry).  Unfortunately, all of
+them were written up when I did have said cold.  (I think I've
+forgotten some other items as well).
+
+--
+Wes Hardaker
+NAI Labs
+Network Associates
+

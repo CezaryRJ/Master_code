@@ -1,0 +1,21 @@
+2000 TO 2010
+-------#####------->    ospf-wireless-design
+rich.ogier@earthlink.net 92
+thomas.r.henderson@boeing.com 61
+mchandra@cisco.com 24
+joseph.macker@nrl.navy.mil 22
+acee@cisco.com 21
+acee@redback.com 17
+phillip.a.spagnolo@boeing.com 16
+akr@cisco.com 10
+mailman-owner@ietf.org 9
+Emmanuel.Baccelli@inria.fr 8
+T.Clausen@computer.org 5
+macker@itd.nrl.navy.mil 5
+tlin_mcmaster@yahoo.ca 5
+aretana@cisco.com 2
+ppe@cisco.com 2
+Dave.B.Green@us.army.mil 1
+info@lottery.co.uk 1
+prz@net4u.ch 1
+zinin@psg.com 1

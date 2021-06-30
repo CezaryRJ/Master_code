@@ -1,0 +1,103 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : IETF-Announce: ;
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['46th IETF-WASHINGTON, DC: REGISTRATION INFORMATION']
+Mailing-list : nfsv4
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nfsv4/1999-09.mailcl']
+id : 1165d09f-bf7e-44b3-9b7f-1cff3566532b
+_version_ : 1675132281122979840
+
+Content : 
+
+On-line Registration & On-line Payment Procedure Now Available
+
+To register for the upcoming IETF meeting, please fill out the On-line
+Registration form and click on the Submit button. Following
+receipt at the server, your browser will display your registration ID,
+total amount due and payment options. At this point, you may choose the 
+New On-line Payment Option using CyberCash, available directly from your
+browser on your registration confirmation page.  We accept VISA,
+MasterCard and American Express.  
+
+An e-mail message will also be sent to you confirming your registration
+information and listing other payment options - 1) reply e-mail
+using PGP, 2) print & fax, 3) print & snail-mail.  You may choose
+whichever option is most convenient for you. Please contact IETF Registrar 
+if you have any questions concerning registration, payments, etc.:  
+ietf-registrar@ietf.org
+
+The registration fee is US$325.00 if RECEIVED by the cut-off of Noon ET, 
+FRIDAY, 29 OCTOBER 1999. After this date/time, a fee of US$425.00 must be
+paid on-site whether or not you have pre-registered.
+
+Full-time students with proper ID will receive US$100 off the registration
+fee. Failure to provide proper ID on-site will revoke the US$100 credit.
+
+CD-ROM (US$10) and Hard Copy (US$65) versions of the meeting Proceedings
+will be available approximately 8-10 weeks following the meeting.  If you 
+would like to receive either or both, check YES in the respective boxes  
+on the registration form. The appropriate amount will be added to the 
+total amount due.
+
+Your registration fee includes admission to all working group sessions and
+plenaries, Sunday evening reception (cash bar), continental breakfast and 
+afternoon coffee breaks each day.
+
+CANCELLATION/REFUND POLICY: Refunds are subject to a US$50.00 service 
+charge.  Cancellations and requests for refunds must be received by 
+1700ET, Wednesday, 3 November 1999. Refund requests will not be honored 
+beyond this point. To cancel and request a refund, contact the IETF 
+Registrar: ietf-registrar@ietf.org
+ 
+If you are unable to access our Home Page on the Web, you will find the 
+same registration form in the ftp/ietf directory (ftp.ietf.org).  The 
+name of the file is: 0mtg-rsvp-form.txt. 
+
+If you are also unable to access the registration form via ftp, please 
+send e-mail
+
+	To:  mailserv@ietf.org 
+
+	and in the body of the message request 
+			FILE /ietf/0mtg-rsvp-form.txt
+			PATH your-email-address@domain
+
+The registration form will come to you via e-mail. 
+
+
+You can view the Washington, D.C., USA Meeting home page at:
+
+   http://www.ietf.org/meetings/IETF-46.html
+
+The URL for the on-line registration form is:
+
+   http://www.ietf.org/meetings/reg_form.html
+
+----------------------------------------------------------------------------
+Please report problems or send comments to ietf-web@ietf.org.
+
+
+
+----- End Included Message -----
+
+

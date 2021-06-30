@@ -1,0 +1,35 @@
+Date : ['2002-11-06T13:24:53Z']
+Timezone : 2002
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : <mobile-ip-dist@sunroof.eng.sun.com>
+To-name : Null
+To-address : [' mobile-ip-dist@sunroof.eng.sun.com']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <200211060224.gA62Oqs13958@its-mu-earth.its.rmit.edu.au>
+References : Null
+Comments : ['Null']
+Subject : ['Virus Detected by Network Associates, Inc. Webshield SMTP V4.5 MR1a']
+Mailing-list : mobileip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mobileip/2002-11.mailcl']
+id : 96af01ff-c074-4dec-8053-376f16d3d73f
+_version_ : 1675131548798550019
+
+Content : 
+
+Network Associates WebShield SMTP V4.5 MR1a on itsmwshld2 detected virus
+Exploit-MIME.gen.exe in attachment unknown from <mobile-ip-dist@sunroof.eng.sun.com> and it was
+Cleaned and Quarantined.
+

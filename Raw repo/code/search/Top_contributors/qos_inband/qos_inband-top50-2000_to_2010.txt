@@ -1,0 +1,9 @@
+2000 TO 2010
+-------#####------->    qos_inband
+Jim.Bound@hp.com 2
+john@anagran.com 2
+lars.eggert@nokia.com 2
+magnus.westerlund@ericsson.com 2
+mailman-owner@ietf.org 2
+bmark@gmu.edu 1
+rick.mcgeer@hp.com 1

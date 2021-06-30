@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    eligibility-discuss
+sm+ietf@elandsys.com 18
+john-ietf@jck.com 11
+lear@cisco.com 9
+ekr@rtfm.com 7
+adrian@olddog.co.uk 6
+suresh.krishnan@gmail.com 4
+alissa@cooperw.in 3
+msj@nthpermutation.com 3
+resnick@episteme.net 3
+ajs@anvilwalrusden.com 2
+brian.e.carpenter@gmail.com 2
+elear@cisco.com 2
+jmh@joelhalpern.com 2
+loganaden@gmail.com 2
+mcmanus@ducksong.com 2
+warren@kumari.net 2
+Suresh@kaloom.com 1
+aamelnikov@fastmail.fm 1
+agmalis@gmail.com 1
+barryleiba@computer.org 1
+iyedigoma@gmail.com 1
+klensin@jck.com 1
+rsalz@akamai.com 1
+tytso@mit.edu 1

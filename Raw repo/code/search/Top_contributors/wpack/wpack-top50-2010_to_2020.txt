@@ -1,0 +1,22 @@
+2010 TO 2020
+-------#####------->    wpack
+york@isoc.org 15
+jyasskin@google.com 11
+jyasskin@chromium.org 8
+rsalz@akamai.com 7
+mnot@mnot.net 5
+bkaduk@akamai.com 2
+kenjibaheux@google.com 2
+phill@hallambaker.com 2
+stpeter@mozilla.com 2
+superuser@gmail.com 2
+Chi-Jiun.Su@hughes.com 1
+bemasc@google.com 1
+kenjibaheux@chromium.org 1
+llcooldera2017@gmail.com 1
+martin.thomson@gmail.com 1
+mbishop@evequefou.be 1
+mt@lowentropy.net 1
+ted.ietf@gmail.com 1
+weiler@w3.org 1
+yoav@yoav.ws 1

@@ -1,0 +1,73 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <004301c716c6.14b39e80.646fc0a8@
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : p2prg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/p2prg/2006-12.mailcl']
+id : 72ff2c31-76b2-41ac-acf4-bf294cace1bf
+_version_ : 1675133090702295040
+
+Content : 
+
+>
+Date: Sun, 03 Dec 2006 10:30:41 +0000
+From: roxanna jsandye <pietrekrayner@jeremiahx.com>
+User-Agent: Thunderbird 1.5.0.5 (Windows/20060719)
+MIME-Version: 1.0
+To: celestia erskine <p2prg-archive@lists.ietf.org>
+Subject: Hey, dwayne
+Content-Type: multipart/alternative;
+ boundary="---------0000000C.01C716C6"
+
+This is a multi-part message in MIME format.
+-----------0000000C.01C716C6
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Upcoming holydays brings you headache?
+We have a solution!
+whitevpinkandtwo.com
+pork butcher quasi-living
+can-polishing poke bonnet
+
+-----------0000000C.01C716C6
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta content="text/html;charset=us-ascii" http-equiv="Content-Type">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+Upcoming holydays brings you headache?<br>
+We have a solution!<br>
+<a href="whitevpinkandtwo.com">whitevpinkandtwo.com</a><br>
+pork butcher quasi-living<br>
+can-polishing poke bonnet<br>
+</body>
+</html>
+
+-----------0000000C.01C716C6--
+
+

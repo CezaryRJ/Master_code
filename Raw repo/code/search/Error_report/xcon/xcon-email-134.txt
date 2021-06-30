@@ -1,0 +1,128 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : xcon
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/xcon/2007-01.mailcl']
+id : 67d4bd15-f23b-4b31-b073-fc61617000a9
+_version_ : 1675131684083728384
+
+Content : 
+
+> specific and we just need to provide examples?
+>
+> RE: Just provide examples that will give some guidelines to how to
+> specify users that are defined at conference reservation via XCON and
+> how to give identity to unspecified users who dial the conference and
+> join.
+>
+> 3. Does the definition require that the mapping to the user ids for
+> other protocols be obvious (e.g., visibly derivable or would that be
+> implementation specific?
+>
+> RE: Like question 2, give some guidelines.
+>
+> In general the user identifier is internal to the XCON document; also
+> be
+> aware that the user may be unknown when defining the conference, this
+> is
+> typical for participants who will dial to the conference, their
+> identity
+> will appear in the conference roster based on something like "asserted
+> identity".
+>
+> BTW: What about specifying non-English display names, suggest to add
+> display name field to the URI.
+>
+> Roni Even
+>
+> > -----Original Message-----
+> > From: Mary Barnes [mailto:mary.barnes@nortel.com]
+> > Sent: Thursday, November 30, 2006 7:24 PM
+> > To: xcon@ietf.org
+> > Cc: cboulton@ubiquity.net
+> > Subject: [XCON] Feedback requested: draft-boulton-xcon-userid-00
+> >
+> > Per discussions at IETF-67, here's the reminder that we'd like
+> feedback
+> > on this draft:
+> > http://www.ietf.org/internet-drafts/draft-boulton-xcon-userid-00.txt
+> >
+> > The conference user concept is introduced in the framework to
+> identify
+> > the entity participating in a conference and manipulating
+> > conferencing system related properties.  This document defines a
+> > Conference User Identifier and syntax for identifying a specific
+> > conference user within a conferencing system.  The document also
+> > describes the logical mapping of this conference user identifier to
+> > protocol and signaling interface specific user identifiers.
+> >
+> > The questions are around how prescriptive we need to be in XCON
+> > specifications as to the allocation, distribution and definition of
+> this
+> > identifier or would this all just be purely informational.   This
+> > concept has been part of the framework from day one and it does seem
+> to
+> > be an important concept and something that should be part of the
+> basic
+> > data model, as well.
+> >
+> > Regards,
+> > Mary
+> >
+> > _______________________________________________
+> > XCON mailing list
+> > XCON@ietf.org
+> > https://www1.ietf.org/mailman/listinfo/xcon
+> >
+> >
+> >
+> >
+> >
+> >
+> ***********************************************************************
+> *
+> **
+> > **********
+> > This footnote confirms that this email message has been scanned by
+> > PineApp Mail-SeCure for the presence of malicious code, vandals &
+> computer
+> > viruses.
+> >
+> ***********************************************************************
+> *
+> **
+> > **********
+> >
+> >
+>
+>
+> _______________________________________________
+> XCON mailing list
+> XCON@ietf.org
+> https://www1.ietf.org/mailman/listinfo/xcon
+
+_______________________________________________
+XCON mailing list
+XCON@ietf.org
+https://www1.ietf.org/mailman/listinfo/xcon

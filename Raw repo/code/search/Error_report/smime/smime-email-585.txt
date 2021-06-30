@@ -1,0 +1,33 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <C[20
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : smime
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/smime/2006-08.mailcl']
+id : 5ebc05b8-1b37-4f95-8465-758e8f420f2b
+_version_ : 1675133664403390465
+
+Content : 
+
+
+

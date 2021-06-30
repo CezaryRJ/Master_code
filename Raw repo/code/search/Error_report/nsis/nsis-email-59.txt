@@ -1,0 +1,148 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : nsis
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nsis/2007-03.mailcl']
+id : 6d66e17b-c9a2-434f-8e1e-5746788e02ad
+_version_ : 1675129173725675520
+
+Content : 
+
+MUST be present anyway.
+
+   Martin
+
+>
+> robert h.
+>
+>> -----Original Message-----
+>> From: Hancock, Robert [mailto:robert.hancock@roke.co.uk]
+>> Sent: 14 March 2007 16:02
+>> To: Roland Bless
+>> Cc: nsis@ietf.org
+>> Subject: RE: [NSIS] GIST Q-Mode Encapsulation Magic Number
+>>
+>> hi all,
+>>
+>>> -----Original Message-----
+>>> From: Roland Bless [mailto:bless@tm.uka.de]
+>>> Sent: 14 March 2007 14:13
+>>> To: Hancock, Robert
+>>> Cc: Christian Dickmann; nsis@ietf.org
+>>> Subject: Re: [NSIS] GIST Q-Mode Encapsulation Magic Number
+>>>
+>>> Hi Robert,
+>>>
+>>> Hancock, Robert wrote:
+>>>> i think it is really a conceptual thing: i see the magic
+>> number as
+>>>> part of the encapsulation, just like the RAO and the UDP
+>> header and
+>>>> port number, since that is the purpose it serves (to demultiplex
+>>>> packets, not to carry information). and to put it in
+>> every message
+>>>> would indeed be a waste of bytes, which you could never
+>> go back on
+>>>> (since the magic number comes before any version information).
+>>>>
+>>>> another way of putting it: we want the magic number to be
+>> something
+>>>> that is checked to find out whether something is a GIST
+>>> packet, rather
+>>>> than part of parsing the GIST packet. making it part of
+>> the common
+>>>> header would blur that distinction.
+>>>
+>>> I would agree on that. I see it as part of the encapsulation, too.
+>>>
+>>>> however, it may be that in practice, what you suggest would be
+>>>> simpler. i would be interested to hear what other people
+>>> think about
+>>>> that.
+>>>
+>>> Hmm. I don't like the idea of carrying around that magic number
+>>> always...
+>>>
+>>>> one specific point: we need to ensure that GIST packets
+>> without the
+>>>> magic number go to a different UDP port, else you could not
+>>> know how
+>>>> to receive them properly. that may not be clear enough in
+>>> the spec at
+>>>> the moment.
+>>>
+>>> That seems to be important and the devil lies in the details...
+>>> For example: Our implementation currently uses the
+>> well-known port as
+>>> source port for Q-mode packets since it is listening there anyways.
+>>> However, I assume that responses will not carry a magic number and
+>>> thus we must change the Q-mode source port to something different...
+>>
+>> i think this is one thing where we may need to update the
+>> current specification text. if the confirm goes back in
+>> D-mode, there is no mechanism in the protocol to indicate a
+>> port to send it to other than the GIST port; so, in other
+>> words, we really should say that the magic number is required
+>> for packets to the GIST port. (note that all Q-mode packets
+>> go to the GIST port, but not vice versa.)
+>>
+>> the other point is that you could receive a packet at the
+>> GIST port with the incorrect magic number. At a router, this
+>> would be an indication that this was not a GIST packet (and
+>> it would just get forwarded); but at a host, it is a
+>> malformed packet. do we need an error message for that? or
+>> should we silently discard it?
+>>
+>> robert h.
+>>
+>>>
+>>> Regards,
+>>>  Roland
+>>>
+>>
+>> _______________________________________________
+>> nsis mailing list
+>> nsis@ietf.org
+>> https://www1.ietf.org/mailman/listinfo/nsis
+>>
+>
+> _______________________________________________
+> nsis mailing list
+> nsis@ietf.org
+> https://www1.ietf.org/mailman/listinfo/nsis
+
+
+
+stiemerling@netlab.nec.de
+NEC Europe Limited |
+Registered Office: NEC House, 1 Victoria Road, London W3 6BL |
+Registered in England 2832014
+
+
+
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis

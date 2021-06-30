@@ -1,0 +1,19 @@
+2010 TO 2020
+-------#####------->    tsv-triage
+mls.ietf@gmail.com 56
+spencerdawkins.ietf@gmail.com 48
+ietf@kuehlewind.net 45
+magnus.westerlund@ericsson.com 23
+wes@mti-systems.com 21
+allison.mankin@gmail.com 7
+ben@nostrum.com 5
+david.black@emc.com 1
+ietf@bobbriscoe.net 1
+ietf@trammell.ch 1
+michael.scharf@nokia.com 1
+mirja.kuehlewind@tik.ee.ethz.ch 1
+mstiemerling@gmail.com 1
+olivier.bonaventure@uclouvain.be 1
+touch@isi.edu 1
+touch@strayalpha.com 1
+tpauly@apple.com 1

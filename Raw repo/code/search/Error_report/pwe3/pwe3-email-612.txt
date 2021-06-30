@@ -1,0 +1,29 @@
+Date : ['2004-01-08T10:03:43Z']
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Mailing-list : pwe3
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/pwe3/2004-01.mailcl']
+id : 97bdca6b-5159-4c8f-a4fc-47682010b5b7
+_version_ : 1675134073017729024
+
+Content : 
+
+

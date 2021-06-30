@@ -1,0 +1,14 @@
+2010 TO 2020
+-------#####------->    igmp-mld-bis
+femi@arista.com 23
+mankamis@cisco.com 12
+anish.ietf@gmail.com 9
+tte@cs.fau.de 6
+twinters@iol.unh.edu 6
+asaeda@ieee.org 4
+stig@venaas.com 4
+N.Leymann@telekom.de 2
+mmcbride7@gmail.com 2
+Michael.McBride@huawei.com 1
+aasthana@juniper.net 1
+suneesh@juniper.net 1

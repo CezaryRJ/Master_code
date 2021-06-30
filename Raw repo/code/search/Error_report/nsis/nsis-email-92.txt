@@ -1,0 +1,203 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : nsis
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/nsis/2007-10.mailcl']
+id : 81719cb8-b36c-4230-9eba-14fe4dd28885
+_version_ : 1675129170957434881
+
+Content : 
+
+> on RAO", because only protocols will use this mechanism if
+> they need to _intercept_ packets, like GIST does for discovering
+> signaling nodes along a flow's path.
+
+
+This results in GIST using RAO as a transport, which is simply
+a layering violation.  Again, there's no reason to not allocate a  
+separate
+option for carrying this value.  Please consider the case of
+GISTv2.  What do you?  Allocate more RAO values?  What happens if
+there's some other subsequent protocol that wants hop-by-hop
+visibility.  Do you allocate bits for that protocol from RAO as well?
+Suppose that it needs to co-exist with GIST.  Do you allocate code
+points for the cross product of the two protocol code points?  What
+happens if there's a third protocol?
+
+
+> I don't understand what you mean by "allocate another option on a
+> per-protocol basis". Do you mean an own protocol number or a new IP
+> option or demultiplexing within the protocol itself (which we also  
+> do).
+> Could you explain this a little bit more?
+
+
+I'm suggesting another IP option that has semantics independent
+from RAO that would be wholly used for GIST.
+
+Tony
+
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+
+
+
+
+
+	Wed, 24 Oct 2007 16:39:39 -0700
+Received: from [171.70.246.92] ([171.70.246.92]) by xfe-sjc-211.amer.cisco.com
+	with Microsoft SMTPSVC(6.0.3790.1830); 
+	Wed, 24 Oct 2007 16:39:39 -0700
+In-Reply-To: <471FC70E.4010405@tm.uka.de>
+References: <Pine.LNX.4.64.0710111453460.26919@sbz-31.cs.Helsinki.FI>	<200710111233.l9BCXhrU011347@localhost.localdomain>	<200710241431.l9OEVqIO030663@cichlid.raleigh.ibm.com>	<Pine.LNX.4.64.0710242242440.27265@sbz-31.cs.Helsinki.FI>
+	<67DBA10E-1363-4C73-ABB8-0CF3BF739C1E@cisco.com>
+	<471FC70E.4010405@tm.uka.de>
+Mime-Version: 1.0 (Apple Message framework v752.3)
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <0C9555DB-F6F9-4A3F-A379-31E68F5B585F@cisco.com>
+Content-Transfer-Encoding: 7bit
+From: Tony Li <tli@cisco.com>
+Date: Wed, 24 Oct 2007 16:39:28 -0700
+To: Roland Bless <bless@tm.uka.de>
+X-Mailer: Apple Mail (2.752.3)
+X-OriginalArrivalTime: 24 Oct 2007 23:39:39.0016 (UTC)
+	FILETIME=[249C6080:01C81697]
+DKIM-Signature: v=0.5; a=rsa-sha256; q=dns/txt; l=2944; t=1193269181;
+	x=1194133181; c=relaxed/simple; s=sjdkim1004;
+	h=Content-Type:From:Subject:Content-Transfer-Encoding:MIME-Version;
+	d=cisco.com; i=tli@cisco.com;
+	z=From:=20Tony=20Li=20<tli@cisco.com>
+	|Subject:=20Re=3A=20[Int-area]=20RAO=20for=20IPv4 |Sender:=20;
+	bh=/bt2iEbFlWJvnY0ZBbQJmU4eWIwQVrgqwwvYptSJeSw=;
+	b=SSQwifu0HVzLSm+h9QvQlgr9DVklNH+HgPqYfIcsj0o+MLgXwS3p3aneF+clLzH+6eRsj8bl
+	OC4CdgaENimyXFq9qUiVBfkZF65N39V0tQNZ6WuK2x0SqTgoyv+0mDzE0Wsxwb5QoySTenaPZS
+	IDWKaseW6DV2K9hcNZujfY1Sk=;
+Authentication-Results: sj-dkim-1; header.From=tli@cisco.com; dkim=pass (sig
+	from cisco.com/sjdkim1004 verified; ); 
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 25620135586de10c627e3628c432b04a
+X-Mailman-Approved-At: Wed, 24 Oct 2007 20:07:17 -0400
+Cc: Jukka MJ Manner <jmanner@cs.Helsinki.FI>,
+	NSIS Working Group <nsis@ietf.org>, int-area@lists.ietf.org
+Subject: [NSIS] Re: [Int-area] RAO for IPv4
+X-BeenThere: nsis@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Next Steps in Signaling <nsis.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/nsis>,
+	<mailto:nsis-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:nsis@ietf.org>
+List-Help: <mailto:nsis-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/nsis>,
+	<mailto:nsis-request@ietf.org?subject=subscribe>
+Errors-To: nsis-bounces@ietf.org
+
+
+Hi Roland,
+
+> Thanks for your comments. If you're interested in this topic
+> I'd like to point at Appendix C of the GIST draft that provides
+> more background information:
+> http://tools.ietf.org/html/draft-ietf-nsis-ntlp-14#appendix-C
+
+
+Thanks for the reference.  I'm afraid that I don't agree with all of the
+rationale presented there.
+
+
+> We had already some discussions about this and I'll
+> try to summarize why we choose to use the RAO (maybe other NSIS WG
+> members or Robert can jump in here) approach.
+> It was mainly driven by RSVP experience:
+> 1) better chances of NAT and Firewall traversal, an own protocol
+>    number didn't work too well for RSVP (raw IP with protocol #46)
+> 2) RSVP already used the RAO mechanism, thus lets re-use it.
+
+
+I'm fine with reusing RAO.  That is in fact exactly what it's there  
+for.  However,
+RSVP does not attempt to piggyback any data into RAO.  That's where
+you're diverging from the previous model and exactly where I have an
+issue.
+
+
+> Each NSIS signaling protocol (e.g, QoS NSLP or NAT/FW NSLP)
+> uses a specific RAO value, so a packet can bypass easily
+> if it carries the "wrong" RAO value. This assumes that
+> an implementation can specifically intercept packets
+> depending on the RAO value and let non-matching packets
+> bypass in the fast path.
+
+
+The whole point of RAO is to take the packet out of the fast path,
+regardless of the value.  An NSIS implementation could, if it was
+carefully and specifically constructed to do so, have a fast path
+that did understand the signaling protocol and passed uninteresting
+versions in the fast path.  There's no reason that this could not
+be done with an option independent of RAO.
+
+
+> I don't see the danger that "multiple protocols are piggybacking
+> on RAO", because only protocols will use this mechanism if
+> they need to _intercept_ packets, like GIST does for discovering
+> signaling nodes along a flow's path.
+
+
+This results in GIST using RAO as a transport, which is simply
+a layering violation.  Again, there's no reason to not allocate a  
+separate
+option for carrying this value.  Please consider the case of
+GISTv2.  What do you?  Allocate more RAO values?  What happens if
+there's some other subsequent protocol that wants hop-by-hop
+visibility.  Do you allocate bits for that protocol from RAO as well?
+Suppose that it needs to co-exist with GIST.  Do you allocate code
+points for the cross product of the two protocol code points?  What
+happens if there's a third protocol?
+
+
+> I don't understand what you mean by "allocate another option on a
+> per-protocol basis". Do you mean an own protocol number or a new IP
+> option or demultiplexing within the protocol itself (which we also  
+> do).
+> Could you explain this a little bit more?
+
+
+I'm suggesting another IP option that has semantics independent
+from RAO that would be wholly used for GIST.
+
+Tony
+
+
+_______________________________________________
+nsis mailing list
+nsis@ietf.org
+https://www1.ietf.org/mailman/listinfo/nsis
+
+
+
+

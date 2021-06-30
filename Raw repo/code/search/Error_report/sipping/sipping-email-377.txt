@@ -1,0 +1,113 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-04.mailcl']
+id : 992fbf46-a465-432b-aade-9c97f26b91b6
+_version_ : 1675132957467082752
+
+Content : 
+
+>>>       Gateway Controller, or any other random
+>> network-connected server
+>>>       that the Media Gateway Controller wants. I agree that
+>>> it probably
+>>>       is most sensible to send it to the Media Gateway
+>> Controller, and
+>>>       this is trivial to achieve.
+>>>
+>>>    2. "In the case of PSTN interwork, there is no way to
+>>> guarantee that
+>>>       the ISUP (or other) signaling from the PSTN side lands
+>>> on the same
+>>>       gateway that the client has a BFCP connection to."
+>>>
+>>>       This is true, and it is a relatively difficult
+>> problem to solve
+>>>       (not impossible, though; I proposed several potential
+>>> solutions in
+>>>       San Diego). It is meaningless to raise it in objection to an
+>>>       alternate proposal, since it exists in almost
+>> precisely the same
+>>>       form in draft-poetzl-sipping-call-completion; and any solution
+>>>       that can be applied to one solution can be applied to
+>> the other.
+>>>
+>>>    3. "We don't want to add another protocol."
+>>>
+>>>       I suspect this argument is the one that is receiving the most
+>>>       traction, probably because most of the people involved in the
+>>>       discussion are not familiar with BFCP. The protocol
+>>> itself is very
+>>>       straightforward and extremely easy to implement. In fact,
+>>>       exclusively for the purpose of answering this email (and
+>>>       demonstrating this very point), I threw together a BFCP
+>>>       implementation sufficient for implementation of the Call
+>>>       Completion service described in
+>>> draft-roach-sipping-callcomp-bfcp.
+>>>       It took me two hours, and compiles down to less than 4 kb of
+>>>       object code on an intel processor. It's attached to
+>> this message
+>>>       to help the participants in the conversation
+>> understand just how
+>>>       very little is being added to applications by this
+>> use of BFCP.
+>>>
+>>> So, is that it? The first two objections are simply red
+>>> herrings, and the third is based on a misconception regarding
+>>> the level of effort required to implement BFCP. Are we really
+>>> going to down the path of doing things incorrectly over what
+>>> amount to misunderstandings?
+>>>
+>>> /a
+>>>
+>>>
+>>>
+>>> P.S. In case anyone wants a more full-featured BFCP stack,
+>>> I'll point to
+>>> the confiance project on SourceForge, available under the Academic
+>>> Freedom License, which is compatible with commercial
+>> development. See
+>>> http://confiance.sourceforge.net/
+>>>
+>>
+>> _______________________________________________
+>> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+>> This list is for NEW development of the application of SIP
+>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>> Use sip@ietf.org for new developments of core SIP
+>>
+>
+> _______________________________________________
+> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+> This list is for NEW development of the application of SIP
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sip@ietf.org for new developments of core SIP
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

@@ -1,0 +1,147 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : 2846add7-a9cd-45f9-8ca8-57f6d1e995e8
+_version_ : 1675129467489484801
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id MAA01040;
+	Mon, 16 Apr 2001 12:11:58 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id MAA01011
+	for <tsvwg@ns.ietf.org>; Mon, 16 Apr 2001 12:11:47 -0400 (EDT)
+Received: from c007.snv.cp.net ([209.228.33.221])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id MAA07534
+	for <tsvwg@ietf.org>; Mon, 16 Apr 2001 12:11:47 -0400 (EDT)
+Received: (cpmta 27688 invoked from network); 16 Apr 2001 09:11:14 -0700
+Received: from unknown (HELO ljoy) (64.130.130.105)
+  by smtp.telocity.com (209.228.33.221) with SMTP; 16 Apr 2001 09:11:14
+-0700
+X-Sent: 16 Apr 2001 16:11:14 GMT
+From: "Douglas Otis" <dotis@sanlight.net>
+To: "Mikael Degermark" <micke@CS.Arizona.EDU>, <lyndon_ong@eudoramail.com>
+Cc: "sigtran" <sigtran@lyris.nortelnetworks.com>,
+        <sigtran@standards.nortelnetworks.com>, <tsvwg@ietf.org>
+Subject: RE: [Tsvwg] Re: SCTP checksum problems
+Date: Mon, 16 Apr 2001 09:09:30 -0700
+Message-ID: <NEBBJGDMMLHHCIKHGBEJGEFHCGAA.dotis@sanlight.net>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2911.0)
+In-Reply-To: <200104130013.f3D0Do308954@baskerville.CS.Arizona.EDU>
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Content-Transfer-Encoding: 7bit
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+Content-Transfer-Encoding: 7bit
+
+Lyndon,
+
+It would appear using a 16 bit add rather than an 8 bit add within the
+Adler-32 algorithm has three benefits.  It improves the small packet error
+detection, the burst error detection, and performance.  The Alder algorithm
+was designed for byte length detection, not a requirement for SCTP.  This
+change introduces a blind spot however depending how it is implemented.  A
+value at the modulo becomes lost if the higher order sum addition is done
+after the modulo adjustment.  A 16 bit add with Adler would also have a
+benefit for hardware implementation as it reduces the number of operations
+by two.  To implement algorithms with limited resources, this potential
+change is a move towards that goal.
+
+If there was a means of identifying a CRC data payload where CRC is placed
+at the end of the data chunk, then including CRC as an additional check
+before acknowledging becomes possible for those fixated on burst error
+detection.   For CRC to have similar instruction overhead requires a 128K
+lookup table which seems to exclude it from being a baseline check.  If
+there was also an API flag to indicate if CRC was checked would also allow
+this option to be done either by the transport or the application or
+ignored.
+
+Doug
+
+
+> I've recently exchanged emails with Craig on a related issue, and
+> he then said
+> that if he were to modify UDP or TCP today, regarding the
+> checksum, he would
+> probably go for a 32-bit Internet checksum.
+>
+> Cheers,
+>
+> Mikael Degermark
+>
+> At 09:36 AM 4/12/01 -0700, Lyndon Ong wrote:
+> >Chip,
+> >
+> >To be precise, then, the issue is not that the checksum is
+> "wrong" in the sense that it causes errors, it's that the
+> checksum does not do a great job of error detection, esp. in
+> short messages.
+> >
+> >Probably would be helpful to get any kind of quantitative handle on this.
+> >
+> >Cheers,
+> >
+> >Lyndon
+> >
+> >
+> >
+> >
+> >
+> >
+> >Join 18 million Eudora users by signing up for a free Eudora
+> Web-Mail account at http://www.eudoramail.com
+> >
+> >_______________________________________________
+> >tsvwg mailing list
+> >tsvwg@ietf.org
+> >http://www1.ietf.org/mailman/listinfo/tsvwg
+> >
+>
+> _______________________________________________
+> tsvwg mailing list
+> tsvwg@ietf.org
+> http://www1.ietf.org/mailman/listinfo/tsvwg
+>
+
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

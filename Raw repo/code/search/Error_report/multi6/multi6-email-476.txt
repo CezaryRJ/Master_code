@@ -1,0 +1,47 @@
+Date : ['2001-07-29T20:32:39Z']
+Timezone : ()
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Thomas Narten <narten@raleigh.ibm.com>
+To-name :  Thomas_Narten
+To-address : [' narten@raleigh.ibm.com']
+Cc : ['multi6@ops.ietf.org, Sean Doran <smd@ebone.net>']
+Cc-name :  Sean_Doran
+Cc-address :  multi6@ops.ietf.org smd@ebone.net
+In-Reply-To : ['<200107272042.QAA01929@rotala.raleigh.ibm.com> from Thomas Narten\n at "Jul 27, 2001 04:42:21 pm"']
+In-Reply-To-name : Null
+In-Reply-To-address :  200107272042.QAA01929@rotala.raleigh.ibm.com from
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: WG Docs & Call for Agenda Items']
+Mailing-list : multi6
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/multi6/2001-07.mailcl']
+id : 0ceba8f3-fb1e-400a-a838-81a8b43c4833
+_version_ : 1675130450738151428
+
+Content : 
+
+Thomas and Sean;
+
+> Multi6 has been assigned a 1-hour slot in London, tentatively
+> scheduled for the first Tuesday afternoon slot. If you wish to have
+> some agenda time, please let Sean and I know.
+
+I wish to have some agenda time for discussions on:
+
+	draft-ohta-e2e-multihoming-02.txt
+
+	The Architecture of End to End Multihoming
+
+							Masataka Ohta
+
+
+

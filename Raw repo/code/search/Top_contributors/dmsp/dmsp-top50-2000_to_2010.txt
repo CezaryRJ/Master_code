@@ -1,0 +1,20 @@
+2000 TO 2010
+-------#####------->    dmsp
+xcross@us.ibm.com 52
+Jonathan.Engelsma@motorola.com 18
+EBurger@cantata.com 8
+James.Ferrans@motorola.com 6
+BMarquette@sandcherry.com 2
+mailman-owner@ietf.org 2
+nborenst@us.ibm.com 2
+GK@ninebynine.org 1
+dhc2@dcrocker.net 1
+eburger@cantata.com 1
+fabien.bodin@orange-ft.com 1
+fluffy@cisco.com 1
+gdaggett@us.ibm.com 1
+hardie@qualcomm.com 1
+jax@opera.com 1
+lesw@us.ibm.com 1
+paolo.baggia@loquendo.com 1
+rfz@opera.com 1

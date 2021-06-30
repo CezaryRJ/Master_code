@@ -1,0 +1,117 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : routing-discussion
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/routing-discussion/2006-09.mailcl']
+id : b621c435-8ffd-4471-aaff-2e2ae5f0d3f2
+_version_ : 1675133840406872064
+
+Content : 
+
+> Hi Fan,
+>=20
+> Ideally, SAVA would address all attacks that require the=20
+> attacker to spoof its source address.
+>=20
+>                        Ron
+>=20
+>=20
+> Fan Ye wrote:
+> > Ron,
+> >=20
+> > Thanks for clarifying the problem. Then what kinds of threats SAVA=20
+> > plans to address? Attackers spoofing addresses may control=20
+> end-hosts=20
+> > (which is quite common and I guess SAVA should address),=20
+> sniff traffic=20
+> > at the edge or the core, or control routers at the edge or=20
+> the core.=20
+> > Is SAVA going to address all of them, or just a subset?
+> >=20
+> > Thanks,
+> > Fan
+> >=20
+> > sava-bounces@nrc.tsinghua.edu.cn wrote on 09/14/2006 04:06:30 PM:
+> >=20
+> >=20
+> >>Pekka,
+> >>
+> >>You raise some very fundamental questions about SAVA. I will try to=20
+> >>enumerate and answer them. If I get any of the answers=20
+> wrong, I invite=20
+> >>the SAVA contributors to step up and correct me.
+> >>
+> >>First, you ask what it means for a packet to have a "valid source=20
+> >>address". It means that there is some degree of certainty that the=20
+> >>packet originated at a site to which the address was assigned by a=20
+> >>legitimate numbering authority. This is a much stronger=20
+> statement than=20
+> >>an alternative definition, which claims only that the packet is not=20
+> >>spoofing some well known address (for example, one of your own=20
+> >>backbone addresses).
+> >>
+> >>The degree of certainty that source address filtering and uRPF can=20
+> >>provide is inversely proportional to the number of hops between the=20
+> >>validating and originating devices. So, (although this might be=20
+> >>anticipating solutions), the SAVA architecture will=20
+> probably include a=20
+> >>source address filtering/uRPF component that will be implemented by=20
+> >>upstream routers, and a signature component, by which the upstream=20
+> >>router notifies downstream routers that validation has (or has not)=20
+> >>occurred.
+> >>
+> >>Next, you ask what network resource are protected by SAVA. I think=20
+> >>that the answer is the entire Internet, but especially the routers=20
+> >>that are close to the validating nodes. This is because SAVA can=20
+> >>identify all of the following classes of spoofed packets:
+> >>
+> >>a) spoofed packets that are bound for routers (in the local=20
+> or remote
+> >=20
+> > AS)
+> >=20
+> >>b) spoofed packets that are bound for hosts, but cause router=20
+> >>interfaces to congest.
+> >>
+> >>                                     Ron
+> >>
+> >>
+> >>
+> >>_______________________________________________
+> >>SAVA mailing list
+> >>SAVA@nrc.tsinghua.edu.cn
+> >>http://www.nrc.tsinghua.edu.cn/mailman/listinfo/sava
+> >=20
+> >=20
+>=20
+> _______________________________________________
+> routing-discussion mailing list
+> routing-discussion@ietf.org
+> https://www1.ietf.org/mailman/listinfo/routing-discussion
+>=20
+
+_______________________________________________
+routing-discussion mailing list
+routing-discussion@ietf.org
+https://www1.ietf.org/mailman/listinfo/routing-discussion

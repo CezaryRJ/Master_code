@@ -1,0 +1,121 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2006-10.mailcl']
+id : 8d56286d-7719-4b54-8ce8-506cdee6020e
+_version_ : 1675132949243101186
+
+Content : 
+
+> Section 3.6:
+> - OPEN ISSUE: This is a really good and important question.  My initial
+> reaction is yes, we should be able to define at least some basic default
+> examples to justify and validate why this functionaltiy is even useful
+> or needed.  There used to be a scenarios document and I'm wondering if
+> it wouldn't be useful to revamp that.  Overall, I found this document to
+> be extremely abstract and feel that there's a need for some more
+> concrete examples in this document in general.  
+> 
+Yes, looking at the examples we had in the scenarios draft should be a
+good start for determining which kind of information is needed in such a
+document. I'll see if I can submit a revamped version of the scenarios 
+draft for the next meeting.
+
+In general, I think the general rule should be disclose what you have.
+I.e. a UA should essentially encode what it has in the SDP announcement
+and a few extra fields (e.g. request URI, session ID). I really would
+not want a situation where policy server and UA start to negotiate what
+should be disclosed and what not.
+
+Regarding the more general comment having too few examples, I've added a
+number of examples in various place of the draft. Hope this helps to
+address this concern.
+
+> Section 3.7: 
+> - 3rd paragraph, 1st sentence: "Responding timely..." -> "A timely
+> response..."
+Done.
+
+> - 3rd paragraph, last sentence: break out that parenthetical statement
+> into its own sentence. 
+> 
+Done.
+
+> Section 3.8:
+> - 1st paragraph, last sentence: Here's where a more concrete example
+> would be really useful. 
+
+Added two specific examples.
+
+> - 3rd paragraph, 3rd sentence: How would the determination be made as to
+> whether a notifier would "expect that the session can be admitted at a
+> later point in time"?  
+> 
+I've added an example for that.
+
+> Section 3.9: 
+> - 3rd paragraph, 2nd sentence: Could that SHOULD be a MUST?  If not,
+> there should be a statement about the consequences of the subscriber not
+> applying the new policy decision to this session, or least an example of
+> when a subscriber might not want to. 
+
+It should be a MUST. I've also added some text clarifying this.
+
+> - 3rd paragraph, 3rd sentence: It's not clear to me why a subscriber
+> would ever need to terminate a session based upon an updated policy.
+> Could you add an example here?  
+> 
+Done.
+
+> Section 3.13:
+> - 1st paragraph, last sentence: insert "a" between "on" and "transport".
+> 
+Done.
+
+> - Example Flow.  It would be really informative to show the detailed XML
+> in terms of understanding the changes that might happen between the
+> SUBSCRIBE and NOTIFY. And also, example for the local and remote.  I
+> know it's tedious, but despite not being normative, examples tend to be
+> really useful for developers to really "get it".  You could borrow the
+> example that is given in section 7 of the media policy dataset document
+> and build from there.   
+> 
+Yes, I agree. Since the XML format still needs some work to enable its 
+use in SUBSCRIBE bodies, I probably won't be able to add an example for 
+this revision but will put this on my to do list.
+
+Thanks!
+
+Volker
+
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+

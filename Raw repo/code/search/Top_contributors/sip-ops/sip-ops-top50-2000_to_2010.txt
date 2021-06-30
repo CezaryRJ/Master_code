@@ -1,0 +1,17 @@
+2000 TO 2010
+-------#####------->    sip-ops
+vkg@alcatel-lucent.com 7
+adam@nostrum.com 5
+fluffy@cisco.com 4
+mary.barnes@nortel.com 3
+theo@crazygreek.co.uk 3
+victor.pascual.avila@gmail.com 3
+dean.willis@softarmor.com 2
+dworley@nortel.com 2
+scott.lawrence@nortel.com 2
+simon.perreault@viagenie.ca 2
+HKaplan@acmepacket.com 1
+jiri@iptel.org 1
+john.elwell@siemens-enterprise.com 1
+rjsparks@nostrum.com 1
+tom.taylor@rogers.com 1

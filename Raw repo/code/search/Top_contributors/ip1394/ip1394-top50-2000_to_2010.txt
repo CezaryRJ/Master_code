@@ -1,0 +1,52 @@
+2000 TO 2010
+-------#####------->    ip1394
+ip1394-archive@lists.ietf.org 449
+MAIL-SYSTEM/edu_sb-supt-schools_roy-c-hill_is@MUSHU.SBCSS.K12.CA.US 31
+wipropm@wipro.com 22
+myron.hattig@INTEL.COM 17
+vacation@ISL.RDC.TOSHIBA.CO.JP 11
+PJohansson@ACM.ORG 10
+no-reply@irs.gov 10
+VPOP3@VITANA.COM 9
+content-filtering@THMULTI.COM 7
+fujisawa@SM.SONY.CO.JP 7
+virus-protection@BOSCH.COM 6
+Erik.Nordmark@eng.sun.com 5
+g.nagaraj@wipro.com 5
+narten@RALEIGH.IBM.COM 5
+mike@ZAYANTE.COM 4
+virus-alert@SONY.CO.JP 4
+virus-protection2@BOSCH.COM 4
+BNowicki@OMNEON.COM 3
+Internet-Drafts@ietf.org 3
+hinden@IPRG.NOKIA.COM 3
+lcleeton@EXCHANGE.MICROSOFT.COM 3
+mailsweeper@HITACHI-EU.COM 3
+"<ip1394-archive"@lists.ietf.org 2
+"Dose <ip1394-archive"@lists.ietf.org 2
+Daily@core3.amsl.com 2
+Health@core3.amsl.com 2
+InterScan@mailbag.cps.INTEL.COM 2
+Men's@core3.amsl.com 2
+PJohansson@ACM.org 2
+arvindm@EXCHANGE.MICROSOFT.COM 2
+hunter@TIMEFACTOR.COM 2
+iesg-secretary@ietf.org 2
+messaging@BBC.CO.UK 2
+onoe@SM.SONY.CO.JP 2
+pat57@mail.ru 2
+petr82@BETTERGOLF.NET 2
+res02mg1@gte.net 2
+teener@apple.com 2
+virusadm@SHARP.CO.JP 2
+"Deirdre Bouchard"@core3.amsl.com 1
+"Paul Barajas"@core3.amsl.com 1
+"Site <ip1394-archive"@lists.ietf.org 1
+22ptm@SAFE-MAIL.NET 1
+25mmt@SAFE-MAIL.NET 1
+80mjxa@imapmail.org 1
+Burns@DICC.CO.KR 1
+Christoper@cpmg.org 1
+G_Nagaraj@EnThink.com 1
+HorlanderK@TCE.COM 1
+InterScan@VS4.GW.FUJITSU.CO.JP 1

@@ -1,0 +1,11 @@
+2010 TO 2020
+-------#####------->    smartobject-interest
+fred@cisco.com 4
+koziolek@kit.edu 2
+bob.hinden@gmail.com 1
+byfraser@cisco.com 1
+mehmet.ersue@nsn.com 1
+paduffy@cisco.com 1
+pjthomasset@ieee.org 1
+richard@shockey.us 1
+stevey@amsl.com 1

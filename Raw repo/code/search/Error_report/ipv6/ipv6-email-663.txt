@@ -1,0 +1,56 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Erik.Nordmark@Sun.COM
+To-name : Null
+To-address : [' Erik.Nordmark@Sun.COM']
+Cc : ['ipng@sunroof.eng.sun.com']
+Cc-name : Null
+Cc-address :  ipng@sunroof.eng.sun.com
+In-Reply-To : ['<Roam.SIMC.2.0.6.1059396655.12753.nordmark@bebop.france>']
+In-Reply-To-name : Null
+In-Reply-To-address :  Roam.SIMC.2.0.6.1059396655.12753.nordmark@bebop.france
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Re: state-of-art SLs']
+Mailing-list : ipv6
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipv6/2003-10.mailcl']
+id : 9581ca5d-5d4b-41d7-a45f-7cdd9a45c485
+_version_ : 1675133903687385089
+
+Content : 
+
+
+> The chairs have read all of the messages on the list, and based on your
+> considerable input, we have determined that the IPv6 WG does have rough
+> consensus to deprecate the usage of IPv6 site-local unicast addressing AND
+> to investigate alternative mechanisms for local addressing and local access
+. control.
+
+humm - it is not all that often that we have said that 2/3 is rough
+consensus in the IETF - in my exterience if 1/3 is not in support
+then I would not claim consensus (even 6 grit) - 3/4 would be very
+rough indeed, 5/6 would be the mininum I would say was "rough consensus"
+
+
+just when does "rough consensus" faid out in this model?
+
+Scott
+
+
+--------------------------------------------------------------------
+IETF IPv6 working group mailing list
+ipv6@ietf.org
+Administrative Requests: https://www1.ietf.org/mailman/listinfo/ipv6
+--------------------------------------------------------------------
+
+

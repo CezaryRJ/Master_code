@@ -1,0 +1,4 @@
+2000 TO 2010
+-------#####------->    grip
+mailman-owner@ietf.org 6
+sip-admin@ietf.org 1

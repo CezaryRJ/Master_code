@@ -1,0 +1,141 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sigtran
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sigtran/2001-04.mailcl']
+id : 25cb5b60-1ca2-43aa-abe7-28421a700b13
+_version_ : 1675129467490533377
+
+Content : 
+
+(EDT)
+Received: from optimus.ietf.org (localhost [127.0.0.1])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id TAA08254;
+	Mon, 16 Apr 2001 19:10:55 -0400 (EDT)
+Received: from ietf.org (odin [132.151.1.176])
+	by optimus.ietf.org (8.9.1a/8.9.1) with ESMTP id TAA08223
+	for <tsvwg@ns.ietf.org>; Mon, 16 Apr 2001 19:10:54 -0400 (EDT)
+Received: from patan.sun.com ([192.18.98.43])
+	by ietf.org (8.9.1a/8.9.1a) with SMTP id TAA15119
+	for <tsvwg@ietf.org>; Mon, 16 Apr 2001 19:10:55 -0400 (EDT)
+Received: from heliopolis.eng.sun.com ([152.70.1.39])
+	by patan.sun.com (8.9.3+Sun/8.9.3) with ESMTP id QAA21211;
+	Mon, 16 Apr 2001 16:10:55 -0700 (PDT)
+Received: from srmtv29a (srmtv29a [152.70.1.41])
+	by heliopolis.eng.sun.com (8.9.3+Sun/8.9.3/ENSMAIL,v2.1p1) with SMTP
+id QAA28343;
+	Mon, 16 Apr 2001 16:10:55 -0700 (PDT)
+Message-Id: <200104162310.QAA28343@heliopolis.eng.sun.com>
+Date: Mon, 16 Apr 2001 16:10:55 -0700 (PDT)
+From: Jonathan Wood <Jonathan.Wood@Sun.COM>
+Reply-To: Jonathan Wood <Jonathan.Wood@Sun.COM>
+Subject: Re: [Tsvwg] [SCTP checksum problems]
+To: xieqb@cig.mot.com, rrs@cisco.com
+Cc: tsvwg@ietf.org
+MIME-Version: 1.0
+Content-Type: TEXT/plain; charset=us-ascii
+Content-MD5: bW9Ff6kcpBD+KJIWRlIbNw==
+X-Mailer: dtmail 1.3.0 @(#)CDE Version 1.4.2 SunOS 5.8 sun4u sparc 
+Sender: tsvwg-admin@ietf.org
+Errors-To: tsvwg-admin@ietf.org
+X-Mailman-Version: 1.0
+Precedence: bulk
+List-Id: Transport Area Working Group <tsvwg.ietf.org>
+X-BeenThere: tsvwg@ietf.org
+
+
+As an SCTP implementor and someone who will want to get the hardware folks
+to 
+help with checksumming, I wholeheartedly agree with Randy. Remember that
+SCTP is 
+just a proposed standard, and is as such not all that far along the 
+standardization process. We should still be able to make changes like this
+if 
+necessary.
+
+Jon
+
+>
+>Q:
+>
+>The only problem with an additional "CRC chunk" is that
+>it makes hardware assistance to error correction much
+>more difficult. It is better (I think) to just realize
+>we made a mistake. Get the opinions of the experts as to
+>what checksum to use... i.e.:
+>
+>- CRC-32
+>- Modified Adler-32 (16 bit word sums)
+>- Fletcher-32
+>- ???
+>
+>And then go with this as a replacement... Admit we were wrong
+>and fix the problem..
+>
+>This way you have ONE and only ONE checksum algorithm making
+>hardware designers life much easier...
+>
+>R
+>
+>Qiaobing Xie wrote:
+>> 
+>> Another solution could be (I think I mentioned this to Randy and a few
+>> others at last IETF):
+>> 
+>> - Define a CRC-32 (or other strong checksum) control chunk and when the
+>> sender wishes to use a stronger checksum protection, in addition to the
+>> Adler-32 in the common SCTP header it includes this CRC-32 chuck in the
+>> outbound packet. When the packet arrives, the receiver will do the
+>> Adler-32 first, and then if the receiver supports the CRC-32 and sees
+>> the presence of the CRC-32 chunk in the packet it will further verify
+>> the CRC-32.
+>> 
+>> We could also use a bit pattern in the chunk type of the CRC-32 chunk so
+>> that if the receiver doesn't understand the CRC-32 chunk it would drop
+>> it with a report back to the sender.
+>> 
+>> -Qiaobing
+>> 
+>> _______________________________________________
+>> tsvwg mailing list
+>> tsvwg@ietf.org
+>> http://www1.ietf.org/mailman/listinfo/tsvwg
+>
+>-- 
+>Randall R. Stewart
+>Systems & Solutions Engineering
+>Cisco Systems Inc.
+>rrs@cisco.com 815-342-5222 or 815-477-2127
+>
+>_______________________________________________
+>tsvwg mailing list
+>tsvwg@ietf.org
+>http://www1.ietf.org/mailman/listinfo/tsvwg
+
+
+_______________________________________________
+tsvwg mailing list
+tsvwg@ietf.org
+http://www1.ietf.org/mailman/listinfo/tsvwg
+

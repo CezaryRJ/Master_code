@@ -1,0 +1,23 @@
+2000 TO 2010
+-------#####------->    ietf-message-headers
+nobody@xyzzy.claranet.de 27
+annevk@opera.com 12
+stpeter@stpeter.im 11
+sm@resistor.net 9
+stpeter@jabber.org 9
+blilly@erols.com 6
+fd@w3.org 6
+GK-lists@ninebynine.org 5
+duerst@it.aoyama.ac.jp 4
+bruce.lilly@gmail.com 2
+fluffy@cisco.com 2
+julian.reschke@gmx.de 2
+mailman-owner@ietf.org 2
+GK@ninebynine.org 1
+alexey.melnikov@isode.com 1
+duerst@w3.org 1
+eduardo.casais@areppim.com 1
+hartmans-ietf@mit.edu 1
+hmdmhdfmhdjmzdtjmzdtzktdkztdjz@gmail.com 1
+presnick@qualcomm.com 1
+xyzzy@claranet.de 1

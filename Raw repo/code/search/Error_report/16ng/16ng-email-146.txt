@@ -1,0 +1,95 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : 4a7e0d51-6e22-4346-979f-bdeb1b33a011
+_version_ : 1675131693065830402
+
+Content : 
+
+
+--Boundary_(ID_TAUkdGQwaWA2y/ac4+VWNA)--
+>From jari.arkko@piuha.net Thu May  4 06:01:37 2006
+Received: from p130.piuha.net (p130.piuha.net [193.234.218.130])
+	by eeca16.sogang.ac.kr (8.12.8/8.12.8) with ESMTP id k43L1ZIB029663
+	for <16ng@eeca16.sogang.ac.kr>; Thu, 4 May 2006 06:01:37 +0900
+Received: from p130.piuha.net (localhost [127.0.0.1])
+	by p130.piuha.net (Postfix) with ESMTP id C7199898CF;
+	Wed,  3 May 2006 23:11:05 +0300 (EEST)
+Received: from [127.0.0.1] (p130.piuha.net [193.234.218.130])
+	by p130.piuha.net (Postfix) with ESMTP id D62B1898C8;
+	Wed,  3 May 2006 23:11:04 +0300 (EEST)
+Message-ID: <44590E8F.1040907@piuha.net>
+Date: Wed, 03 May 2006 23:11:59 +0300
+From: Jari Arkko <jari.arkko@piuha.net>
+User-Agent: Mozilla Thunderbird 1.0.7 (X11/20051013)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: 16ng@eeca16.sogang.ac.kr
+References: <E1Fb3D1-0003pn-SL@ietf.org>
+In-Reply-To: <E1Fb3D1-0003pn-SL@ietf.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: ClamAV using ClamSMTP
+cc: IESG <iesg@ietf.org>
+Subject: [16ng] Re: WG Review: IP over IEEE 802.16 Networks (16ng)
+X-BeenThere: 16ng@eeca16.sogang.ac.kr
+X-Mailman-Version: 2.1
+Precedence: list
+List-Id: IP over IEEE 802.16 Networks <16ng.eeca16.sogang.ac.kr>
+List-Unsubscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=unsubscribe>
+List-Archive: <http://eeca16.sogang.ac.kr/pipermail/16ng>
+List-Post: <mailto:16ng@eeca16.sogang.ac.kr>
+List-Help: <mailto:16ng-request@eeca16.sogang.ac.kr?subject=help>
+List-Subscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=subscribe>
+X-List-Received-Date: Wed, 03 May 2006 21:01:38 -0000
+
+Some additional information regarding the proposal to
+charter IP over 802.16 networks (16ng) WG:
+
+In their initial review of the proposal, the IESG and IAB
+were concerned that the charter suggests the standardization
+of multiple different encapsulations for the same 
+functionality. It is understood that this matches 
+the different convergence sublayers defined in 802.16, 
+that the characteristics of the link layers are outside
+the domain of the IETF, and that the decisions about
+these sublayers have already been taken. Nevertheless,
+having multiple ways to provide the same functionality
+is almost always harmful and not in the interests of
+the Internet community or the proponents of the
+technology in question.
+
+I would like to suggest that the interested
+parties use the review period to see if they
+can come to an agreement on which encapsulation
+(Ethernet or "raw IP" based) would be defined
+as a Proposed Standard in 16ng, with the other
+being defined as Informational.
+
+Jari Arkko
+

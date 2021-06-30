@@ -1,0 +1,52 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : capwap
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/capwap/2007-12.mailcl']
+id : 3ca4a3b2-800e-4ca9-b868-48182da63219
+_version_ : 1675132040882683906
+
+Content : 
+
+RSET
+       MAIL FROM: <C7FH9EI@rrnne.net>
+RCPT TO: <c85680804949524fbf902ec492976854@ietf.org>
+RCPT TO: <c8@ietf.org>
+                           MAIL FROM: <PKILTL@rrobertsweb.com>
+RCPT TO: <ca3d03bf35@ietf.org>
+RCPT TO: <ca8e7206c4122b4b9ee8cb15bd19ad8c@ietf.org>
+RCPT TO: <calsch@ietf.org>
+RCPT TO: <camio@ietf.org>
+RCPT TO: <canakh                                         MAIL FROM: <1DTULUCN3@rrhh.net.ar>
+RCPT TO: <cantrellryo@ietf.org>
+RCPT TO: <capl@ietf.org>
+RCPT TO: <capwap-archive@ietf.or                                          Message-ID: <92654555053765.F83DD4FAFE@DAS7EN>
+From: "Estelle Riggs" <UW9GVM@rrj.ru>
+To: <cantrellryo@ietf.org>
+Subject: VSE na pokupku pingvinov
+Date: Sat, 8 Dec 2007 19:09:19 -0500
+MIME-Version: 1.0
+X-Mailer: Mic
+
+

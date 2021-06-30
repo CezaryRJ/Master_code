@@ -1,0 +1,139 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : avt
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/avt/2007-03.mailcl']
+id : 1fcfb0c2-3e5b-4530-a121-0be733b9e925
+_version_ : 1675129327941844992
+
+Content : 
+
+team
+rjesup@wgate.com
+"The fetters imposed on liberty at home have ever been forged out of the
+weapons
+provided for defence against real, pretended, or imaginary dangers from
+abroad."
+		- James Madison, 4th US president (1751-1836)
+
+
+
+
+------------------------------
+
+Message: 3
+Date: Mon, 05 Mar 2007 15:50:03 -0500
+From: Internet-Drafts@ietf.org
+Subject: [AVT] I-D ACTION:draft-ietf-avt-profile-savpf-10.txt=20
+To: i-d-announce@ietf.org
+Cc: avt@ietf.org
+Message-ID: <E1HOK8B-0005gT-Jg@stiedprstage1.ietf.org>
+Content-Type: text/plain; charset=3D"us-ascii"
+
+A New Internet-Draft is available from the on-line Internet-Drafts=20
+directories.
+This draft is a work item of the Audio/Video Transport Working Group of =
+the
+IETF.
+
+	Title		: Extended Secure RTP Profile for RTCP-based
+Feedback (RTP/SAVPF)
+	Author(s)	: J. Ott, E. Carrara
+	Filename	: draft-ietf-avt-profile-savpf-10.txt
+	Pages		: 17
+	Date		: 2007-3-5
+=09
+An RTP profile (SAVP) is defined for secure real-time=20
+   communications, and another profile (AVPF) is specified to provide=20
+   timely feedback from the receivers to a sender.  This memo defines=20
+   the combination of both profiles to enable secure RTP=20
+   communications with feedback.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-avt-profile-savpf-10.txt
+
+To remove yourself from the I-D Announcement list, send a message to=20
+i-d-announce-request@ietf.org with the word unsubscribe in the body of=20
+the message.=20
+You can also visit https://www1.ietf.org/mailman/listinfo/I-D-announce=20
+to change your subscription settings.
+
+Internet-Drafts are also available by anonymous FTP. Login with the=20
+username "anonymous" and a password of your e-mail address. After=20
+logging in, type "cd internet-drafts" and then=20
+"get draft-ietf-avt-profile-savpf-10.txt".
+
+A list of Internet-Drafts directories can be found in
+http://www.ietf.org/shadow.html=20
+or ftp://ftp.ietf.org/ietf/1shadow-sites.txt
+
+Internet-Drafts can also be obtained by e-mail.
+
+Send a message to:
+	mailserv@ietf.org.
+In the body type:
+	"FILE /internet-drafts/draft-ietf-avt-profile-savpf-10.txt".
+=09
+NOTE:	The mail server at ietf.org can return the document in
+	MIME-encoded form by using the "mpack" utility.  To use this
+	feature, insert the command "ENCODING mime" before the "FILE"
+	command.  To decode the response(s), you will need "munpack" or
+	a MIME-compliant mail reader.  Different MIME-compliant mail readers
+	exhibit different behavior, especially when dealing with
+	"multipart" MIME messages (i.e. documents which have been split
+	up into multiple messages), so check your local documentation on
+	how to manipulate these messages.
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+-------------- next part --------------
+Skipped content of type multipart/alternative
+
+------------------------------
+
+_______________________________________________
+Audio/Video Transport Working Group
+avt@ietf.org
+https://www1.ietf.org/mailman/listinfo/avt
+
+
+End of avt Digest, Vol 35, Issue 9
+**********************************
+
+
+
+
+_______________________________________________
+Audio/Video Transport Working Group
+avt@ietf.org
+https://www1.ietf.org/mailman/listinfo/avt
+
+
+
+
+_______________________________________________
+Audio/Video Transport Working Group
+avt@ietf.org
+https://www1.ietf.org/mailman/listinfo/avt

@@ -1,0 +1,2259 @@
+
+From dworley@avaya.com  Wed Feb  3 11:34:30 2010
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 320B33A659B for <sip@core3.amsl.com>; Wed,  3 Feb 2010 11:34:30 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.299 tagged_above=-999 required=5 tests=[AWL=-0.300, BAYES_00=-2.599, J_CHICKENPOX_37=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oBjMSvpMEjMH for <sip@core3.amsl.com>; Wed,  3 Feb 2010 11:34:29 -0800 (PST)
+Received: from p-us1-iereast-outbound-tmp.us1.avaya.com (nj300815-nj-outbound.net.avaya.com [135.11.29.16]) by core3.amsl.com (Postfix) with ESMTP id EC41D28C1A9 for <sip@ietf.org>; Wed,  3 Feb 2010 11:34:15 -0800 (PST)
+X-IronPort-AV: E=Sophos;i="4.49,399,1262581200";  d="scan'208";a="2274010"
+Received: from unknown (HELO co300216-co-erhwest.avaya.com) ([198.152.7.5]) by p-us1-iereast-outbound-tmp.us1.avaya.com with ESMTP; 03 Feb 2010 14:34:57 -0500
+X-IronPort-AV: E=Sophos;i="4.49,399,1262581200"; d="scan'208";a="442227649"
+Received: from unknown (HELO zcars04f.nortel.com) ([47.129.242.57]) by co300216-co-erhwest-out.avaya.com with ESMTP; 03 Feb 2010 14:34:56 -0500
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by zcars04f.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o13JYZb00397; Wed, 3 Feb 2010 19:34:35 GMT
+Received: from zrtphxs1.corp.nortel.com (zrtphxs1.corp.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o13JYV112100; Wed, 3 Feb 2010 19:34:32 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 3 Feb 2010 14:34:30 -0500
+From: "Dale Worley" <dworley@avaya.com>
+To: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+In-Reply-To: <4B6351DC.1070000@alcatel-lucent.com>
+References: <1264783287.4057.9.camel@khone.us.nortel.com> <4B6317F3.6050702@alcatel-lucent.com> <1264787561.4057.16.camel@khone.us.nortel.com> <4B6347D5.5040602@alcatel-lucent.com> <AD886ED2-F1A9-45DE-9A44-2D98AAEDB746@nostrum.com> <747A6506A991724FB09B129B79D5FEB6145FD2C1B7@EXMBXCLUS01.citservers.local> <4B6351DC.1070000@alcatel-lucent.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Wed, 03 Feb 2010 14:34:30 -0500
+Message-Id: <1265225670.4004.39.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 03 Feb 2010 19:34:31.0159 (UTC) FILETIME=[E8254070:01CAA507]
+Cc: "sip@ietf.org" <sip@ietf.org>, Brett Tate <brett@broadsoft.com>
+Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 03 Feb 2010 19:34:30 -0000
+
+On Fri, 2010-01-29 at 15:23 -0600, Vijay K. Gurbani wrote:
+> Brett Tate wrote:
+> > It looks like draft-ietf-sip-ipv6-abnf-fix-04 section 3.1 already
+> > does the syntax adjustment for IPv4address.
+> 
+> Ah, never mind.  In that case, I think we have already
+> addressed Dale's comment then and no more changes are
+> necessary.
+
+That's true, the revised BNF forbids leading zeros in IPv4address, which
+eliminates both sources of potential confusion (some early RFCs and some
+C libraries).
+
+Dale
+
+
+
+From nitinkapoorr@gmail.com  Fri Feb 12 04:31:59 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 59BDF3A72EC for <sip@core3.amsl.com>; Fri, 12 Feb 2010 04:31:59 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.854
+X-Spam-Level: *
+X-Spam-Status: No, score=1.854 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, DEAR_FRIEND=2.699, HTML_MESSAGE=0.001, MIME_BASE64_TEXT=1.753]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id r0HwyRSg07xX for <sip@core3.amsl.com>; Fri, 12 Feb 2010 04:31:58 -0800 (PST)
+Received: from qw-out-2122.google.com (qw-out-2122.google.com [74.125.92.25]) by core3.amsl.com (Postfix) with ESMTP id 67E363A72D9 for <sip@ietf.org>; Fri, 12 Feb 2010 04:31:58 -0800 (PST)
+Received: by qw-out-2122.google.com with SMTP id 5so80141qwi.31 for <sip@ietf.org>; Fri, 12 Feb 2010 04:33:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:date:message-id:subject :from:to:content-type; bh=CfobK++Sk6jXAlOQ0iQvxM6W8N8QispKVghqvH7U/2c=; b=bAW9oijnwUWfFjyx22nsipJ+vPXjXU5DOWlO7QBerQFoQO+qE8TxIOgSOPMvC+W3/N XVrM+BcJOjj78D5q+BOIgis0S6SwiDHSQuuVDWXJ/eczUgFrT8mJv8obV+oXFedDNef+ hSxC+gyrl/dvITT8g6yku6Bi8LJL58MMqkYXk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=lJG1zKvkBHktxPA+1f5/gyQkN5iDyvQznlxm0JAW0atBRwokOvxFlztK3kyynqJ+dr Y8PENJ/qgUkpIe9wP/Z3eIuEO8BvMcTj21+53jzefBcwbww1D+NTZO5itQRco+M5yw7s pplGEkTZTKaipxisJIgbUfxfP5N8sTgX4nuEI=
+MIME-Version: 1.0
+Received: by 10.229.128.165 with SMTP id k37mr559032qcs.53.1265977992913; Fri,  12 Feb 2010 04:33:12 -0800 (PST)
+Date: Fri, 12 Feb 2010 07:33:12 -0500
+Message-ID: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Content-Type: multipart/alternative; boundary=0015175709888fa3be047f667805
+Subject: [Sip] TCP to UDP rtcp media attributes in SDP not passing through nextone
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 12:31:59 -0000
+
+--0015175709888fa3be047f667805
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Dear Friend,
+
+I have some query about UDP & TCP for signaling.
+
+Basically I am using TCP protocol for signaling from my customer to SBC and
+then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC, UDP
+to carrier.  And OCS sends initial 183 with sdp that contains rtcp media
+attribute information and SBC does not forward formation to carrier via UDP=
+.
+
+
+Call Flow is like this.
+
+UAC (Private)                    SBC
+UAS(Public)
+
+|-----------Invite(TCP)---------->
+|                                                       |
+|
+|                                                       |
+|<-------- 100 Trying ------------ |
+                                          |
+|                                        | ----------- Invite
+(UDP)----------------------->|
+|
+|                                                       |
+|                                        |<--------- 100 Trying
+---------------------------|
+|
+|                                                       |
+                                         | <---- 183 SDP Session
+Progress-------|
+|                                        |(183 SDP with RTCP Media
+    |
+|                                        |Attribute).
+                                       |
+|<--------- 183 SDP -------------
+|
+|
+| 183 SDP Session
+progress|                                                       |
+| Without RTCP Media         |
+                                               |
+|Attribute
+|                                                       |
+|
+|                                                       |
+|
+|                                                       |
+|
+|                                                       |
+
+Could anyone please help me out on this scenario. Why it=92s not sending th=
+e
+RTCP attribute to my UAC? Is there anything related to standard.
+
+I can share the Traces, if its required.
+
+Thanks,
+Nitin Kapoor
+
+--0015175709888fa3be047f667805
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: base64
+
+RGVhciBGcmllbmQsPGJyPjxicj5JIGhhdmUgc29tZSBxdWVyeSBhYm91dCBVRFAgJmFtcDsgVENQ
+IGZvciBzaWduYWxpbmcuPGJyPjxicj5CYXNpY2FsbHkgSSBhbSB1c2luZyBUQ1AgcHJvdG9jb2wg
+Zm9yIHNpZ25hbGluZyBmcm9tIG15IGN1c3RvbWVyIHRvIFNCQyBhbmQgdGhlbiBTQkMgdG8gVmVu
+ZG9yIHVzaW5nIFVEUCBmb3Igc2lnbmFsaW5nLiBJIG1lYW4gQ1MgdXNlciBUQ1AgdG8gU0JDLCBV
+RFAgdG8gY2Fycmllci6gIEFuZCBPQ1Mgc2VuZHMgaW5pdGlhbCAxODMgd2l0aCBzZHAgdGhhdCBj
+b250YWlucyBydGNwIG1lZGlhIGF0dHJpYnV0ZSBpbmZvcm1hdGlvbiBhbmQgU0JDIGRvZXMgbm90
+IGZvcndhcmQgZm9ybWF0aW9uIHRvIGNhcnJpZXIgdmlhIFVEUC48YnI+Cjxicj48YnI+Q2FsbCBG
+bG93IGlzIGxpa2UgdGhpcy48YnI+PGJyPlVBQyAoUHJpdmF0ZSmgoKCgoKCgoKCgoKCgoKCgoKCg
+IFNCQ6CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgVUFTKFB1YmxpYyk8YnI+PGJyPnwt
+LS0tLS0tLS0tLUludml0ZShUQ1ApLS0tLS0tLS0tLSZndDugIHygoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxicj4KfKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIHw8YnI+fCZsdDstLS0tLS0tLSAxMDAgVHJ5aW5nIC0t
+LS0tLS0tLS0tLSB8oKCgoKCgoKCgoKCgIKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgIHw8YnI+fKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCCgIKCgoCB8
+IC0tLS0tLS0tLS0tIEludml0ZSAoVURQKS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tJmd0O3w8YnI+
+CnygoCCgIKCgIKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8PGJyPnygoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfCZsdDstLS0tLS0tLS0gMTAwIFRyeWluZyAt
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS18oKCgoKCgoKCgoKCgoKCgoKCgIKA8YnI+CnygoCCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8PGJyPqCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfCAmbHQ7LS0tLSAxODMgU0RQIFNlc3Npb24gUHJvZ3Jl
+c3MtLS0tLS0tfKCgoKCgoCCgPGJyPnygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKAgfCgxODMgU0RQIHdpdGggUlRDUCBNZWRpYSCgIKAgoCCgIKAgoCCgIHwgPGJyPgp8oKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIHxBdHRyaWJ1dGUpLqAgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxicj58Jmx0Oy0tLS0tLS0tLSAxODMg
+U0RQIC0tLS0tLS0tLS0tLS0gfKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoCCgPGJyPgp8IDE4MyBTRFAgU2Vzc2lvbiBwcm9ncmVzc3ygoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxicj58IFdpdGhvdXQgUlRDUCBN
+ZWRpYaCgoKCgoKCgIHwgoKCgIKCgIKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKAgfDxicj58QXR0cmlidXRloKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIHyg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxi
+cj4KfKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIHw8YnI+fKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIHw8YnI+fKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgIHw8YnI+Cjxicj5Db3VsZCBhbnlvbmUgcGxlYXNlIGhlbHAgbWUg
+b3V0IG9uIHRoaXMgc2NlbmFyaW8uIFdoeSBpdJJzIG5vdCBzZW5kaW5nIHRoZSBSVENQIGF0dHJp
+YnV0ZSB0byBteSBVQUM/IElzIHRoZXJlIGFueXRoaW5nIHJlbGF0ZWQgdG8gc3RhbmRhcmQuPGJy
+Pjxicj5JIGNhbiBzaGFyZSB0aGUgVHJhY2VzLCBpZiBpdHMgcmVxdWlyZWQuPGJyPjxicj5UaGFu
+a3MsPGJyPk5pdGluIEthcG9vcjxicj4KPGJyPgo=
+--0015175709888fa3be047f667805--
+
+From nitinkapoorr@gmail.com  Fri Feb 12 04:36:46 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0A0DC3A72F2 for <sip@core3.amsl.com>; Fri, 12 Feb 2010 04:36:46 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.854
+X-Spam-Level: *
+X-Spam-Status: No, score=1.854 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, DEAR_FRIEND=2.699, HTML_MESSAGE=0.001, MIME_BASE64_TEXT=1.753]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id hLjLH5MY+cnB for <sip@core3.amsl.com>; Fri, 12 Feb 2010 04:36:45 -0800 (PST)
+Received: from mail-qy0-f199.google.com (mail-qy0-f199.google.com [209.85.221.199]) by core3.amsl.com (Postfix) with ESMTP id 104EF3A72CD for <sip@ietf.org>; Fri, 12 Feb 2010 04:36:44 -0800 (PST)
+Received: by qyk37 with SMTP id 37so1335337qyk.15 for <sip@ietf.org>; Fri, 12 Feb 2010 04:37:59 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:content-type; bh=ZAseb4zXq/fYUGXoPUnpc4T8SO3OSKsA4nr3BhNYVHA=; b=e10FWgjAX+fO33agJpcwsjWI3DleR2U8OH2YPIu8w5lbzu3Lk/ur/J/Se0QfgO3RfL 1A7gq87V6p3xmdFWRBnipn1N008dBQmslxArFkf+uU037/N6MT2gE99BKCGCKCjZMXeY pTjoPAB1c1dXb6fVAtGXNgXrnMjz1lX4DtGYE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :content-type; b=Ki+rNwso1WczaofSoyAR+K11eTcHHJB2frCgJJC78yGZ7XSgIlDFPqaM3DueE2NQxS UbcnG3incuvNkrzDVoyfb8Ks53GBlxKZK0rxQepoa+uSqsOxcbyz9YLlSinRfI6+pmeu 0chaKZ08EL2whNvgR1QQ1bVrodUJGyLmUBr3w=
+MIME-Version: 1.0
+Received: by 10.229.218.204 with SMTP id hr12mr540504qcb.101.1265978279883;  Fri, 12 Feb 2010 04:37:59 -0800 (PST)
+In-Reply-To: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com>
+References: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com>
+Date: Fri, 12 Feb 2010 07:37:59 -0500
+Message-ID: <c80c92d1002120437l35adde35hd5e865ba1d3b2354@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=00163630e88baa7587047f66899e
+Subject: [Sip] TCP to UDP rtcp media attributes in SDP not passing through nextone
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 12:36:46 -0000
+
+--00163630e88baa7587047f66899e
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Dear Friend,
+
+I have some query about UDP & TCP for signaling.
+
+Basically I am using TCP protocol for signaling from my customer to SBC and
+then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC, UDP
+to carrier.  And OCS sends initial 183 with sdp that contains rtcp media
+attribute information and SBC does not forward formation to carrier via UDP=
+.
+
+
+Call Flow is like this.
+
+UAC (Private)                    SBC
+UAS(Public)
+
+|-----------Invite(TCP)---------->
+|                                                       |
+|
+|                                                       |
+|<-------- 100 Trying ------------ |
+                                          |
+|                                        | ----------- Invite
+(UDP)----------------------->|
+|
+|                                                       |
+|                                        |<--------- 100 Trying
+---------------------------|
+|
+|                                                       |
+                                         | <---- 183 SDP Session
+Progress-------|
+|                                        |(183 SDP with RTCP Media
+    |
+|                                        |Attribute).
+                                       |
+|<--------- 183 SDP -------------
+|
+|
+| 183 SDP Session
+progress|                                                       |
+| Without RTCP Media         |
+                                               |
+|Attribute
+|                                                       |
+|
+|                                                       |
+|
+|                                                       |
+|
+|                                                       |
+
+Could anyone please help me out on this scenario. Why it=92s not sending th=
+e
+RTCP attribute to my UAC? Is there anything related to standard.
+
+I can share the Traces, if its required.
+
+Thanks,
+Nitin Kapoor
+
+--00163630e88baa7587047f66899e
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: base64
+
+PGJyPjxkaXYgY2xhc3M9ImdtYWlsX3F1b3RlIj5EZWFyIEZyaWVuZCw8YnI+PGJyPkkgaGF2ZSBz
+b21lIHF1ZXJ5IGFib3V0IFVEUCAmYW1wOyBUQ1AgZm9yIHNpZ25hbGluZy48YnI+PGJyPkJhc2lj
+YWxseSBJIGFtIHVzaW5nIFRDUCBwcm90b2NvbCBmb3Igc2lnbmFsaW5nIGZyb20gbXkgY3VzdG9t
+ZXIgdG8gU0JDIGFuZCB0aGVuIFNCQyB0byBWZW5kb3IgdXNpbmcgVURQIGZvciBzaWduYWxpbmcu
+IEkgbWVhbiBDUyB1c2VyIFRDUCB0byBTQkMsIFVEUCB0byBjYXJyaWVyLqAgQW5kIE9DUyBzZW5k
+cyBpbml0aWFsIDE4MyB3aXRoIHNkcCB0aGF0IGNvbnRhaW5zIHJ0Y3AgbWVkaWEgYXR0cmlidXRl
+IGluZm9ybWF0aW9uIGFuZCBTQkMgZG9lcyBub3QgZm9yd2FyZCBmb3JtYXRpb24gdG8gY2Fycmll
+ciB2aWEgVURQLjxicj4KCjxicj48YnI+Q2FsbCBGbG93IGlzIGxpa2UgdGhpcy48YnI+PGJyPlVB
+QyAoUHJpdmF0ZSmgoKCgoKCgoKCgoKCgoKCgoKCgIFNCQ6CgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKAgVUFTKFB1YmxpYyk8YnI+PGJyPnwtLS0tLS0tLS0tLUludml0ZShUQ1ApLS0tLS0t
+LS0tLSZndDugIHygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKAgfDxicj4KCnygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAg
+fKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8
+PGJyPnwmbHQ7LS0tLS0tLS0gMTAwIFRyeWluZyAtLS0tLS0tLS0tLS0gfKCgoKCgoKCgoKCgoCCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8PGJyPnygoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgoCCgoKAgfCAtLS0tLS0tLS0tLSBJbnZpdGUgKFVEUCkt
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLSZndDt8PGJyPgoKfKCgIKAgoKAgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgIHw8YnI+fKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoCB8Jmx0Oy0tLS0tLS0tLSAxMDAgVHJ5aW5nIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LXygoKCgoKCgoKCgoKCgoKCgoKAgoDxicj4KCnygoCCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKAgfKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoCB8PGJyPqCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAg
+fCAmbHQ7LS0tLSAxODMgU0RQIFNlc3Npb24gUHJvZ3Jlc3MtLS0tLS0tfKCgoKCgoCCgPGJyPnyg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfCgxODMgU0RQIHdpdGggUlRD
+UCBNZWRpYSCgIKAgoCCgIKAgoCCgIHwgPGJyPgoKfKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoCB8QXR0cmlidXRlKS6gIKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgIHw8YnI+fCZsdDstLS0tLS0tLS0gMTgzIFNEUCAtLS0tLS0tLS0tLS0tIHygoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgoDxicj4KCnwgMTgzIFNEUCBT
+ZXNzaW9uIHByb2dyZXNzfKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoCB8PGJyPnwgV2l0aG91dCBSVENQIE1lZGlhoKCgoKCgoKAgfCCgoKAgoKAg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8PGJyPnxBdHRy
+aWJ1dGWgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8PGJyPgoKfKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgIHw8YnI+fKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoCB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgIHw8YnI+fKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIHw8
+YnI+Cgo8YnI+Q291bGQgYW55b25lIHBsZWFzZSBoZWxwIG1lIG91dCBvbiB0aGlzIHNjZW5hcmlv
+LiBXaHkgaXSScyBub3Qgc2VuZGluZyB0aGUgUlRDUCBhdHRyaWJ1dGUgdG8gbXkgVUFDPyBJcyB0
+aGVyZSBhbnl0aGluZyByZWxhdGVkIHRvIHN0YW5kYXJkLjxicj48YnI+SSBjYW4gc2hhcmUgdGhl
+IFRyYWNlcywgaWYgaXRzIHJlcXVpcmVkLjxicj48YnI+VGhhbmtzLDxicj48Zm9udCBjb2xvcj0i
+Izg4ODg4OCI+Tml0aW4gS2Fwb29yPGJyPgoKPGJyPgo8L2ZvbnQ+PC9kaXY+PGJyPgo=
+--00163630e88baa7587047f66899e--
+
+From abhatnagar192006@gmail.com  Fri Feb 12 05:11:37 2010
+Return-Path: <abhatnagar192006@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 11AA43A768E for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:11:36 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tEOLdHuz8BLQ for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:11:33 -0800 (PST)
+Received: from mail-bw0-f228.google.com (mail-bw0-f228.google.com [209.85.218.228]) by core3.amsl.com (Postfix) with ESMTP id 397333A6D48 for <sip@ietf.org>; Fri, 12 Feb 2010 05:11:33 -0800 (PST)
+Received: by bwz28 with SMTP id 28so1983235bwz.14 for <sip@ietf.org>; Fri, 12 Feb 2010 05:12:48 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type :content-transfer-encoding; bh=q+LfejK5xahFO2//Gt36Tic1HiCL4hvHzRagRvSWRl0=; b=KEqtX6oHOAgqqZERGDBLz9sn09y/xSSGcxZshWcgxW9iXC/K55MkMmLFIr8L/NQhsX c2cWFRGLgbmA9/YKEYF/zKdzHuF+lBjexLjgyu7ZY9qJQcslt5wUa6r98xBszKAOOCE5 ouJruJqVS3lrlSb5n1cRD5BqJ0dJ3A8LIqWjo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type:content-transfer-encoding; b=HAHXUZcCsPAbCrxbqjLdgiJaPclJmYDxwQBX7kHfNCpG0WUzZA81517Drnfi6jkJS1 LV+ZvNvSzX6MczhoAPN2WIB/4gbAFMmBlIPgqwZdO8WrsRVGp1udYCd0K6Ak9j80hMHa MaTJ8swreqcta92Vt4yWbPxIWxsygSkUOU39k=
+MIME-Version: 1.0
+Received: by 10.204.36.199 with SMTP id u7mr750495bkd.212.1265980368118; Fri,  12 Feb 2010 05:12:48 -0800 (PST)
+In-Reply-To: <c80c92d1002120437l35adde35hd5e865ba1d3b2354@mail.gmail.com>
+References: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com> <c80c92d1002120437l35adde35hd5e865ba1d3b2354@mail.gmail.com>
+Date: Fri, 12 Feb 2010 13:42:47 +0030
+Message-ID: <abcc59881002120512l41572f59pd8f3570ebe774c69@mail.gmail.com>
+From: aayush bhatnagar <abhatnagar192006@gmail.com>
+To: Nitin Kapoor <nitinkapoorr@gmail.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] TCP to UDP rtcp media attributes in SDP not passing through nextone
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 13:11:37 -0000
+
+Can you paste wireshark logs for both ends of the SBC?
+
+On 12/02/2010, Nitin Kapoor <nitinkapoorr@gmail.com> wrote:
+> Dear Friend,
+>
+> I have some query about UDP & TCP for signaling.
+>
+> Basically I am using TCP protocol for signaling from my customer to SBC a=
+nd
+> then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC, UD=
+P
+> to carrier.  And OCS sends initial 183 with sdp that contains rtcp media
+> attribute information and SBC does not forward formation to carrier via U=
+DP.
+>
+>
+> Call Flow is like this.
+>
+> UAC (Private)                    SBC
+> UAS(Public)
+>
+> |-----------Invite(TCP)---------->
+> |                                                       |
+> |
+> |                                                       |
+> |<-------- 100 Trying ------------ |
+>                                           |
+> |                                        | ----------- Invite
+> (UDP)----------------------->|
+> |
+> |                                                       |
+> |                                        |<--------- 100 Trying
+> ---------------------------|
+> |
+> |                                                       |
+>                                          | <---- 183 SDP Session
+> Progress-------|
+> |                                        |(183 SDP with RTCP Media
+>     |
+> |                                        |Attribute).
+>                                        |
+> |<--------- 183 SDP -------------
+> |
+> |
+> | 183 SDP Session
+> progress|                                                       |
+> | Without RTCP Media         |
+>                                                |
+> |Attribute
+> |                                                       |
+> |
+> |                                                       |
+> |
+> |                                                       |
+> |
+> |                                                       |
+>
+> Could anyone please help me out on this scenario. Why it=92s not sending =
+the
+> RTCP attribute to my UAC? Is there anything related to standard.
+>
+> I can share the Traces, if its required.
+>
+> Thanks,
+> Nitin Kapoor
+>
+
+
+--=20
+aayush
+http://in.linkedin.com/in/abhatnagar19
+=3D=3D=3D=3D=3D=3D
+
+From nitinkapoorr@gmail.com  Fri Feb 12 05:13:17 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0A9C03A6D48 for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:13:17 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.854
+X-Spam-Level: *
+X-Spam-Status: No, score=1.854 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, DEAR_FRIEND=2.699, HTML_MESSAGE=0.001, MIME_BASE64_TEXT=1.753]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id w0RHf6-wYp6R for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:13:16 -0800 (PST)
+Received: from mail-qy0-f199.google.com (mail-qy0-f199.google.com [209.85.221.199]) by core3.amsl.com (Postfix) with ESMTP id ACDB53A6A2F for <sip@ietf.org>; Fri, 12 Feb 2010 05:13:15 -0800 (PST)
+Received: by qyk37 with SMTP id 37so1349279qyk.15 for <sip@ietf.org>; Fri, 12 Feb 2010 05:14:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:date:message-id:subject :from:to:content-type; bh=69NS0/374/uK2RvCVejRLg96F6mU7R40hNiHC98QMTA=; b=C5kUd71JMI3ZNYfpR9BhGBTzyd1stBa9ALOMk1qwPmx/FhPFFzjgovHOnlliga4hil gszEE8kteQERY8Mtwn5JqmHDBeVErnPLggF/7wTNedi3m1+whIBBAoX8W12Wi2s1F3Iy +BeEPouZC5EBifUMIeu1EP/UkLRStfmYXEHXw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=iNwKNnX2dKydOU0KttooDfLVuY4+i53gUxa/aaKlzvimcVaIjg8S3iiDdlNaVVHHv0 lEErR9793RNb94QbsJcxd1bBS/WaIcBhuQINeikI3av9h+0HBgxByCNqwjiihgJtK4y9 CO0GevqgVOE84yYPoDVPRJow2qb6cRCAL0bOk=
+MIME-Version: 1.0
+Received: by 10.229.128.170 with SMTP id k42mr577605qcs.48.1265980469659; Fri,  12 Feb 2010 05:14:29 -0800 (PST)
+Date: Fri, 12 Feb 2010 08:14:29 -0500
+Message-ID: <c80c92d1002120514v55e7705y733fc97b3e81392f@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=00151757097e2fc81b047f670c34
+Subject: [Sip] TCP to UDP rtcp media attributes in SDP not passing through SBC
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 13:13:17 -0000
+
+--00151757097e2fc81b047f670c34
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Dear Friend,
+
+I have some query about UDP & TCP for signaling.
+
+Basically I am using TCP protocol for signaling from my customer to SBC and
+then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC, UDP
+to carrier.  And OCS sends initial 183 with sdp that contains rtcp media
+attribute information and SBC does not forward formation to carrier via UDP=
+.
+
+
+Call Flow is like this.
+
+UAC (Private)                    SBC
+     UAS(Public)
+
+|-----------Invite(TCP)---------->
+|                                                       |
+|
+|                                                       |
+|<-------- 100 Trying ------------ |
+                                          |
+|                                        | ----------- Invite
+(UDP)----------------------->|
+|
+|                                                       |
+|                                        |<--------- 100 Trying
+---------------------------|
+|
+|                                                       |
+                                         | <---- 183 SDP Session
+Progress-------|
+|                                        |(183 SDP with RTCP Media
+    |
+|                                        |Attribute).
+                                       |
+|<--------- 183 SDP -------------
+|
+|
+| 183 SDP Session
+progress|                                                       |
+| Without RTCP Media         |
+                                               |
+|Attribute
+|                                                       |
+|
+|                                                       |
+|
+|                                                       |
+|
+|                                                       |
+
+Could anyone please help me out on this scenario. Why it=92s not sending th=
+e
+RTCP attribute to my UAC? Is there anything related to standard.
+
+I can share the Traces, if its required.
+
+Thanks,
+Nitin Kapoor
+
+--00151757097e2fc81b047f670c34
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: base64
+
+RGVhciBGcmllbmQsPGJyPjxicj5JIGhhdmUgc29tZSBxdWVyeSBhYm91dCBVRFAgJmFtcDsgVENQ
+IGZvciBzaWduYWxpbmcuPGJyPjxicj5CYXNpY2FsbHkKIEkgYW0gdXNpbmcgVENQIHByb3RvY29s
+IGZvciBzaWduYWxpbmcgZnJvbSBteSBjdXN0b21lciB0byBTQkMgYW5kIHRoZW4gClNCQyB0byBW
+ZW5kb3IgdXNpbmcgVURQIGZvciBzaWduYWxpbmcuIEkgbWVhbiBDUyB1c2VyIFRDUCB0byBTQkMs
+IFVEUCB0bwogY2Fycmllci6gIEFuZCBPQ1Mgc2VuZHMgaW5pdGlhbCAxODMgd2l0aCBzZHAgdGhh
+dCBjb250YWlucyBydGNwIG1lZGlhIAphdHRyaWJ1dGUgaW5mb3JtYXRpb24gYW5kIFNCQyBkb2Vz
+IG5vdCBmb3J3YXJkIGZvcm1hdGlvbiB0byBjYXJyaWVyIHZpYSAKVURQLjxicj4KPGJyPjxicj5D
+YWxsIEZsb3cgaXMgbGlrZSB0aGlzLjxicj48YnI+VUFDIChQcml2YXRlKaCgoKCgoKCgoKCgoKCg
+oKCgoKAgClNCQ6CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoDxkaXYgaWQ9Ijp1cCIgY2xhc3M9
+ImlpIGd0Ij6goKCgIFVBUyhQdWJsaWMpPGJyPjxicj58LS0tLS0tLS0tLS1JbnZpdGUoVENQKS0t
+LS0tLS0tLS0mZ3Q7oAogfKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoCB8PGJyPgp8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgIAp8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgIHw8YnI+fCZsdDstLS0tLS0tLQogMTAwIFRyeWluZyAtLS0tLS0tLS0tLS0gfKCgoKCgoKCg
+oKCgoCCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoAogfDxicj58oKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIKAgoKCgIHwgLS0tLS0tLS0tLS0gSW52aXRl
+CiAoVURQKS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tJmd0O3w8YnI+CnygoCCgIKCgIKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgCnygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxicj58oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgCiB8Jmx0Oy0tLS0tLS0tLSAxMDAgVHJ5aW5nIC0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLXygoKCgoKCgoKCgoKCgoKCgoKAKIKA8YnI+CnygoCCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKAgCnygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxicj6goKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgCiB8ICZsdDstLS0tIDE4MyBTRFAgU2Vzc2lvbiBQcm9ncmVzcy0tLS0tLS18oKCg
+oKCgIKA8YnI+fKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoAogfCgxODMg
+U0RQIHdpdGggUlRDUCBNZWRpYSCgIKAgoCCgIKAgoCCgIHwgPGJyPgp8oKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIHxBdHRyaWJ1dGUpLqAgCqCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgIHw8YnI+fCZsdDstLS0tLS0tLS0gMTgzIFNEUCAKLS0tLS0t
+LS0tLS0tLSB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgCiB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCCgPGJy
+Pgp8IDE4MyBTRFAgU2Vzc2lvbiBwcm9ncmVzc3ygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAKIHw8YnI+fCBXaXRob3V0IFJUQ1AgTWVkaWGgoKCg
+oKCgoCB8IKCgoCCgoCAKoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoCB8PGJyPnxBdHRyaWJ1dGWgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAKIHygoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxicj4KfKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCAKfKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCB8PGJyPnygoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAKIHygoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgfDxicj58oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgCiB8oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgIHw8YnI+Cjxicj5Db3VsZCBhbnlvbmUgcGxlYXNlIGhlbHAgbWUgb3V0
+IG9uIHRoaXMgc2NlbmFyaW8uIFdoeSBpdJJzIG5vdCAKc2VuZGluZyB0aGUgUlRDUCBhdHRyaWJ1
+dGUgdG8gbXkgVUFDPyBJcyB0aGVyZSBhbnl0aGluZyByZWxhdGVkIHRvIApzdGFuZGFyZC48YnI+
+PGJyPkkgY2FuIHNoYXJlIHRoZSBUcmFjZXMsIGlmIGl0cyByZXF1aXJlZC48YnI+PGJyPlRoYW5r
+cyw8YnI+PGZvbnQgY29sb3I9IiM4ODg4ODgiPk5pdGluIEthcG9vcjxicj4KPC9mb250PjwvZGl2
+Pgo=
+--00151757097e2fc81b047f670c34--
+
+From nitinkapoorr@gmail.com  Fri Feb 12 05:15:21 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id AC6EA28C10B for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:15:21 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.372
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.372 tagged_above=-999 required=5 tests=[AWL=2.226,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tfgEPNG+Ung6 for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:15:20 -0800 (PST)
+Received: from mail-qy0-f199.google.com (mail-qy0-f199.google.com [209.85.221.199]) by core3.amsl.com (Postfix) with ESMTP id 6126F3A72D7 for <sip@ietf.org>; Fri, 12 Feb 2010 05:15:20 -0800 (PST)
+Received: by qyk37 with SMTP id 37so1350188qyk.15 for <sip@ietf.org>; Fri, 12 Feb 2010 05:16:38 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=l+HFw00dOeEUFJuphrtKtS/l3Q3Ufldld/OCTsUdudw=; b=he27FtgfJHpKDI0yS5yOV4E034y13Bg90ksIEaxtndPxruiTrgk1T3pgExjotnS8hk x8qd5ASQo46FGkzF7ok1wt7TJPV8wUsH2I9vjLFmJuyJtB6Jxes1aCMORQ2nL3w1UpkN LLVs2TJIQLMo7q4nBir8biHr/tzPBkdFOEXrA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=LZ4G9YGNOFZvj7X+vQw9zB5pbynYsoiGnu7qevP981i1DrDsW7waWc01zLhEQhmgd4 Iv/Rhsb1d8Ddknhczr1lyqjBQC7jxpRR0CRipk/LGaOana3BtnY/b2ptSDZc5/Yp9hgd EBSNbgu5l+MFBjrATkfISjQATEZlQnxXMY+58=
+MIME-Version: 1.0
+Received: by 10.229.62.84 with SMTP id w20mr552122qch.96.1265980598668; Fri,  12 Feb 2010 05:16:38 -0800 (PST)
+In-Reply-To: <abcc59881002120512l41572f59pd8f3570ebe774c69@mail.gmail.com>
+References: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com> <c80c92d1002120437l35adde35hd5e865ba1d3b2354@mail.gmail.com> <abcc59881002120512l41572f59pd8f3570ebe774c69@mail.gmail.com>
+Date: Fri, 12 Feb 2010 08:16:38 -0500
+Message-ID: <c80c92d1002120516l4597a5d5p732b3b2671c8c872@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: aayush bhatnagar <abhatnagar192006@gmail.com>
+Content-Type: multipart/mixed; boundary=00235479075ce04e34047f6713e4
+Cc: sip@ietf.org
+Subject: Re: [Sip] TCP to UDP rtcp media attributes in SDP not passing through nextone
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 13:15:21 -0000
+
+--00235479075ce04e34047f6713e4
+Content-Type: multipart/alternative; boundary=00235479075ce04e2c047f6713e2
+
+--00235479075ce04e2c047f6713e2
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Aayush,
+
+Please find the attached Traces for both legs.
+
+Thanks,
+Nitin Kapoor
+
+On 12 February 2010 08:12, aayush bhatnagar <abhatnagar192006@gmail.com>wro=
+te:
+
+> Can you paste wireshark logs for both ends of the SBC?
+>
+> On 12/02/2010, Nitin Kapoor <nitinkapoorr@gmail.com> wrote:
+> > Dear Friend,
+> >
+> > I have some query about UDP & TCP for signaling.
+> >
+> > Basically I am using TCP protocol for signaling from my customer to SBC
+> and
+> > then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC,
+> UDP
+> > to carrier.  And OCS sends initial 183 with sdp that contains rtcp medi=
+a
+> > attribute information and SBC does not forward formation to carrier via
+> UDP.
+> >
+> >
+> > Call Flow is like this.
+> >
+> > UAC (Private)                    SBC
+> > UAS(Public)
+> >
+> > |-----------Invite(TCP)---------->
+> > |                                                       |
+> > |
+> > |                                                       |
+> > |<-------- 100 Trying ------------ |
+> >                                           |
+> > |                                        | ----------- Invite
+> > (UDP)----------------------->|
+> > |
+> > |                                                       |
+> > |                                        |<--------- 100 Trying
+> > ---------------------------|
+> > |
+> > |                                                       |
+> >                                          | <---- 183 SDP Session
+> > Progress-------|
+> > |                                        |(183 SDP with RTCP Media
+> >     |
+> > |                                        |Attribute).
+> >                                        |
+> > |<--------- 183 SDP -------------
+> > |
+> > |
+> > | 183 SDP Session
+> > progress|                                                       |
+> > | Without RTCP Media         |
+> >                                                |
+> > |Attribute
+> > |                                                       |
+> > |
+> > |                                                       |
+> > |
+> > |                                                       |
+> > |
+> > |                                                       |
+> >
+> > Could anyone please help me out on this scenario. Why it=92s not sendin=
+g
+> the
+> > RTCP attribute to my UAC? Is there anything related to standard.
+> >
+> > I can share the Traces, if its required.
+> >
+> > Thanks,
+> > Nitin Kapoor
+> >
+>
+>
+> --
+> aayush
+> http://in.linkedin.com/in/abhatnagar19
+> =3D=3D=3D=3D=3D=3D
+>
+
+--00235479075ce04e2c047f6713e2
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Aayush,<br><br>Please find the attached Traces for both legs.<br><br>Thanks=
+,<br>Nitin Kapoor<br><br><div class=3D"gmail_quote">On 12 February 2010 08:=
+12, aayush bhatnagar <span dir=3D"ltr">&lt;<a href=3D"mailto:abhatnagar1920=
+06@gmail.com">abhatnagar192006@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Can you paste wir=
+eshark logs for both ends of the SBC?<br>
+<div><div></div><div class=3D"h5"><br>
+On 12/02/2010, Nitin Kapoor &lt;<a href=3D"mailto:nitinkapoorr@gmail.com">n=
+itinkapoorr@gmail.com</a>&gt; wrote:<br>
+&gt; Dear Friend,<br>
+&gt;<br>
+&gt; I have some query about UDP &amp; TCP for signaling.<br>
+&gt;<br>
+&gt; Basically I am using TCP protocol for signaling from my customer to SB=
+C and<br>
+&gt; then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC,=
+ UDP<br>
+&gt; to carrier. =A0And OCS sends initial 183 with sdp that contains rtcp m=
+edia<br>
+&gt; attribute information and SBC does not forward formation to carrier vi=
+a UDP.<br>
+&gt;<br>
+&gt;<br>
+&gt; Call Flow is like this.<br>
+&gt;<br>
+&gt; UAC (Private) =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0SBC<br>
+&gt; UAS(Public)<br>
+&gt;<br>
+&gt; |-----------Invite(TCP)----------&gt;<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |&lt;-------- 100 Trying ------------ |<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0| ----------- Invite<br>
+&gt; (UDP)-----------------------&gt;|<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|&lt;--------- 100 Trying<br>
+&gt; ---------------------------|<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0| &lt;---- 183 SDP Session<br>
+&gt; Progress-------|<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|(183 SDP with RTCP Media<br>
+&gt; =A0 =A0 |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|Attribute).<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|<br>
+&gt; |&lt;--------- 183 SDP -------------<br>
+&gt; |<br>
+&gt; |<br>
+&gt; | 183 SDP Session<br>
+&gt; progress| =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; | Without RTCP Media =A0 =A0 =A0 =A0 |<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0|<br>
+&gt; |Attribute<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt;<br>
+&gt; Could anyone please help me out on this scenario. Why it=92s not sendi=
+ng the<br>
+&gt; RTCP attribute to my UAC? Is there anything related to standard.<br>
+&gt;<br>
+&gt; I can share the Traces, if its required.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt;<br>
+<br>
+<br>
+</div></div><font color=3D"#888888">--<br>
+aayush<br>
+<a href=3D"http://in.linkedin.com/in/abhatnagar19" target=3D"_blank">http:/=
+/in.linkedin.com/in/abhatnagar19</a><br>
+=3D=3D=3D=3D=3D=3D<br>
+</font></blockquote></div><br>
+
+--00235479075ce04e2c047f6713e2--
+--00235479075ce04e34047f6713e4
+Content-Type: application/octet-stream; name="UDP & TCP Traces.pcap"
+Content-Disposition: attachment; filename="UDP & TCP Traces.pcap"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_g5l05ljf0
+
+1MOyoQIABAAAAAAAAAAAAP//AABxAAAAM/5yS8mGCQD2AwAA9gMAAAAAAAEABgAjnBNhAAAACABF
+AAPmAAAAAHgRBfNDEG2E0FW4KhPEE8QD0kPDSU5WSVRFIHNpcDoyMTM0NTU4MzI2QDIwOC44NS4x
+ODQuNDI6NTA2MCBTSVAvMi4wDQpWaWE6IFNJUC8yLjAvVURQIDY3LjE2LjEwOS4xMzI6NTA2MDti
+cmFuY2g9ejloRzRiS3ZybWJqYzIwNGdlMWZsOGtyM28wLjENCkZyb206IDxzaXA6MzEwMzUwMjEx
+OUA2Ny4xNi4xMDkuMTMyO2lzdXAtb2xpPTYxPjt0YWc9U0RzdDNnZjAxLWdLMDg3M2ZhZDINClRv
+OiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mj4NCkNhbGwtSUQ6IFNEc3QzZ2YwMS1kMDk0
+Y2U5OWNiMWU1NDNmMTM0ZDZiOTAzNDE2OTU5NS12MzAwMGkxDQpDU2VxOiA3MDI2IElOVklURQ0K
+TWF4LUZvcndhcmRzOiA2OQ0KQWxsb3c6IElOVklURSxBQ0ssQ0FOQ0VMLEJZRSxSRUdJU1RFUixJ
+TkZPLFNVQlNDUklCRSxOT1RJRlksUFJBQ0ssVVBEQVRFLE9QVElPTlMNCkFjY2VwdDogYXBwbGlj
+YXRpb24vc2RwLCBhcHBsaWNhdGlvbi9pc3VwLCBhcHBsaWNhdGlvbi9kdG1mLCBhcHBsaWNhdGlv
+bi9kdG1mLXJlbGF5LCAgbXVsdGlwYXJ0L21peGVkDQpDb250YWN0OiA8c2lwOjMxMDM1MDIxMTlA
+NjcuMTYuMTA5LjEzMjo1MDYwO3RyYW5zcG9ydD11ZHA+DQpTdXBwb3J0ZWQ6IHRpbWVyDQpTZXNz
+aW9uLUV4cGlyZXM6IDE4MDANCk1pbi1TRTogOTANCkNvbnRlbnQtTGVuZ3RoOiAyMzYNCkNvbnRl
+bnQtRGlzcG9zaXRpb246IHNlc3Npb247IGhhbmRsaW5nPXJlcXVpcmVkDQpDb250ZW50LVR5cGU6
+IGFwcGxpY2F0aW9uL3NkcA0KDQp2PTANCm89U29udXNfVUFDIDg0MDkgNDA3OCBJTiBJUDQgNjcu
+MTYuMTA5LjEzMg0Kcz1TSVAgTWVkaWEgQ2FwYWJpbGl0aWVzDQpjPUlOIElQNCA2Ny4xNi4xMDku
+MTMyDQp0PTAgMA0KbT1hdWRpbyA1MTQ2NiBSVFAvQVZQIDAgMTAwDQphPXJ0cG1hcDowIFBDTVUv
+ODAwMA0KYT1ydHBtYXA6MTAwIHRlbGVwaG9uZS1ldmVudC84MDAwDQphPWZtdHA6MTAwIDAtMTUN
+CmE9c2VuZHJlY3YNCmE9bWF4cHRpbWU6MjANCjP+ckuDiQkAXgEAAF4BAAAABAABAAYAGyECzeAA
+AAgARQABTgAAQABAEQCL0FW4KkMQbYQTxBPEATrxjFNJUC8yLjAgMTAwIFRyeWluZw0KVmlhOiBT
+SVAvMi4wL1VEUCA2Ny4xNi4xMDkuMTMyOjUwNjA7YnJhbmNoPXo5aEc0Ykt2cm1iamMyMDRnZTFm
+bDhrcjNvMC4xDQpGcm9tOiA8c2lwOjMxMDM1MDIxMTlANjcuMTYuMTA5LjEzMjtpc3VwLW9saT02
+MT47dGFnPVNEc3QzZ2YwMS1nSzA4NzNmYWQyDQpUbzogPHNpcDoyMTM0NTU4MzI2QDIwOC44NS4x
+ODQuNDI+DQpDYWxsLUlEOiBTRHN0M2dmMDEtZDA5NGNlOTljYjFlNTQzZjEzNGQ2YjkwMzQxNjk1
+OTUtdjMwMDBpMQ0KQ1NlcTogNzAyNiBJTlZJVEUNCkNvbnRlbnQtTGVuZ3RoOiAwDQoNCjP+cksh
+kwkA5AMAAOQDAAAABAABAAYAGyECzeEAAAgARQAD1EX+QABABnxJwKiHKArPIj2nTxPEYZFLr0s0
+4qKAGCIVcCUAAAEBCAqWyjPPA9ZbuUlOVklURSBzaXA6MTk0OTI1NTcyNDBAMTAuMjA3LjM0LjYx
+OjUwNjA7dHJhbnNwb3J0PXRjcCBTSVAvMi4wDQpNYXgtRm9yd2FyZHM6IDY4DQpTZXNzaW9uLUV4
+cGlyZXM6IDM2MDA7cmVmcmVzaGVyPXVhYw0KU3VwcG9ydGVkOiB0aW1lciwgMTAwcmVsDQpUbzog
+PHNpcDoyMTM0NTU4MzI2QDE5Mi4xNjguMTM1LjQwOjUwNjA+DQpGcm9tOiA8c2lwOjMxMDM1MDIx
+MTlAMTkyLjE2OC4xMzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0KQ2FsbC1JRDogNTM4OTQ1
+NzAtMzQ3NDgxNjE3OS02MjcxMTNAc2cxLWxheC55b3Vydm9pcC5uZXQNCkNTZXE6IDEgSU5WSVRF
+DQpBbGxvdzogSU5WSVRFLCBCWUUsIE9QVElPTlMsIENBTkNFTCwgQUNLLCBSRUdJU1RFUiwgTk9U
+SUZZLCBJTkZPLCBSRUZFUiwgU1VCU0NSSUJFLCBQUkFDSywgVVBEQVRFDQpWaWE6IFNJUC8yLjAv
+VENQIDE5Mi4xNjguMTM1LjQwOjUwNjA7YnJhbmNoPXo5aEc0YktmZDM4ZTVmMmM5NTY0MmZiZjI3
+NGY0ZDU1Mjk1OGY5MQ0KQ29udGFjdDogPHNpcDozMTAzNTAyMTE5QDE5Mi4xNjguMTM1LjQwOjUw
+NjA7dHJhbnNwb3J0PVRDUD4NCkNhbGwtSW5mbzogPHNpcDoxOTIuMTY4LjEzNS40MD47bWV0aG9k
+PSJOT1RJRlk7RXZlbnQ9dGVsZXBob25lLWV2ZW50O0R1cmF0aW9uPTEwMDAiDQpDb250ZW50LVR5
+cGU6IGFwcGxpY2F0aW9uL3NkcA0KQ29udGVudC1MZW5ndGg6IDIyMg0KDQp2PTANCm89c2cxLWxh
+eCA4NDA5IDQwNzggSU4gSVA0IDE5Mi4xNjguMTM1LjQwDQpzPXNpcCBjYWxsDQpjPUlOIElQNCAx
+OTIuMTY4LjEzNS40MQ0KdD0wIDANCm09YXVkaW8gMjA1ODYgUlRQL0FWUCAwIDEwMA0KYT1ydHBt
+YXA6MCBQQ01VLzgwMDANCmE9cnRwbWFwOjEwMCB0ZWxlcGhvbmUtZXZlbnQvODAwMA0KYT1mbXRw
+OjEwMCAwLTE1DQphPXNlbmRyZWN2DQphPW1heHB0aW1lOjIwDQoz/nJLKz0KAHMBAABzAQAAAAAA
+AQAGAFBU/4ISAAAIAEUAAWNw20AAQAZT3QrPIj3AqIcoE8SnT0s04qJhkU9PgBgBAD+EAAABAQgK
+A9Zc1pbKM89TSVAvMi4wIDEwMCBUcnlpbmcNCkZST006IDxzaXA6MzEwMzUwMjExOUAxOTIuMTY4
+LjEzNS40MD47dGFnPTM0NzQ4MTYxNzktNjI3MTIxDQpUTzogPHNpcDoyMTM0NTU4MzI2QDE5Mi4x
+NjguMTM1LjQwOjUwNjA+DQpDU0VROiAxIElOVklURQ0KQ0FMTC1JRDogNTM4OTQ1NzAtMzQ3NDgx
+NjE3OS02MjcxMTNAc2cxLWxheC55b3Vydm9pcC5uZXQNClZJQTogU0lQLzIuMC9UQ1AgMTkyLjE2
+OC4xMzUuNDA6NTA2MDticmFuY2g9ejloRzRiS2ZkMzhlNWYyYzk1NjQyZmJmMjc0ZjRkNTUyOTU4
+ZjkxDQpDT05URU5ULUxFTkdUSDogMA0KDQoz/nJLYNcKAJwFAACcBQAAAAAAAQAGAFBU/4ISAAAI
+AEUABYxw+kAAQAZPlQrPIj3AqIcoE8SnT0s049FhkU9PgBABAOXlAAABAQgKA9Zc2pbKM89TSVAv
+Mi4wIDE4MyBTZXNzaW9uIFByb2dyZXNzDQpGUk9NOiA8c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4x
+MzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0KVE86IDxzaXA6MjEzNDU1ODMyNkAxOTIuMTY4
+LjEzNS40MDo1MDYwPjt0YWc9YjVhYzUzZjYzYjtlcGlkPTFGQjUyNUNERkUNCkNTRVE6IDEgSU5W
+SVRFDQpDQUxMLUlEOiA1Mzg5NDU3MC0zNDc0ODE2MTc5LTYyNzExM0BzZzEtbGF4LnlvdXJ2b2lw
+Lm5ldA0KVklBOiBTSVAvMi4wL1RDUCAxOTIuMTY4LjEzNS40MDo1MDYwO2JyYW5jaD16OWhHNGJL
+ZmQzOGU1ZjJjOTU2NDJmYmYyNzRmNGQ1NTI5NThmOTENCkNPTlRBQ1Q6IDxzaXA6SVJWLU1FRC0w
+MDIuTEFDTFVCUy5DT006NTA2MDt0cmFuc3BvcnQ9VGNwO21hZGRyPTEwLjIwNy4zNC42MT4NCkNP
+TlRFTlQtTEVOR1RIOiAyNTcNCkNPTlRFTlQtVFlQRTogYXBwbGljYXRpb24vc2RwOyBjaGFyc2V0
+PXV0Zi04DQpBTExPVzogVVBEQVRFDQpSRVFVSVJFOiAxMDByZWwNClNFUlZFUjogUlRDQy8zLjUu
+MC4wIE1lZGlhdGlvblNlcnZlcg0KUnNlcTogMQ0KDQp2PTANCm89LSA0NjMxOSAxIElOIElQNCAx
+MC4yMDcuMzQuNjENCnM9c2Vzc2lvbg0KYz1JTiBJUDQgMTAuMjA3LjM0LjYxDQpiPUNUOjEwMDAN
+CnQ9MCAwDQptPWF1ZGlvIDYxMTI0IFJUUC9BVlAgMCAxMDANCmM9SU4gSVA0IDEwLjIwNy4zNC42
+MQ0KYT1ydGNwOjYxMTI1DQphPWxhYmVsOkF1ZGlvDQphPXJ0cG1hcDowIFBDTVUvODAwMA0KYT1y
+dHBtYXA6MTAwIHRlbGVwaG9uZS1ldmVudC84MDAwDQphPWZtdHA6MTAwIDAtMTYNCmE9cHRpbWU6
+MjANClNJUC8yLjAgMTgwIFJpbmdpbmcNCkZST006ICJGRUxJQ0lBIE5FQUxZIjxzaXA6MzE3NzI0
+NjE3MEAxOTIuMTY4LjEzNS40MD47dGFnPTM0NzQ4MTYxNzYtNTAyMDA4DQpUTzogPHNpcDozMTc2
+NDQwNjgzQDE5Mi4xNjguMTM1LjQwOjUwNjA+O3RhZz02NWQ2MDNjOTg7ZXBpZD0xRkI1MjVDREZF
+DQpDU0VROiAxIElOVklURQ0KQ0FMTC1JRDogNTM4OTQ1NTctMzQ3NDgxNjE3Ni01MDIwMDBAc2cx
+LWxheC55b3Vydm9pcC5uZXQNClZJQTogU0lQLzIuMC9UQ1AgMTkyLjE2OC4xMzUuNDA6NTA2MDti
+cmFuY2g9ejloRzRiS2RmZjA4ZjUxZWI2ODM2ZDllMWI4YjY4NmUxNWM2YThmDQpDT05UQUNUOiA8
+c2lwOklSVi1NRUQtMDAyLkxBQ0xVQlMuQ09NOjUwNjA7dHJhbnNwb3J0PVRjcDttYWRkcj0xMC4y
+MDcuMzQuNjE+DQpDT05URU5ULUxFTkdUSDogMA0KQUxMT1c6IFVQREFURQ0KU0VSVkVSOiBSVEND
+LzMuNS4wLjAgTWVkaWF0aW9uU2VydmVyDQoNClNJUC8yLjAgMTgzIFNlc3Npb24gUHJvZ3Jlc3MN
+CkZST006ICJGRUxJQ0lBIE5FQUxZIjxzaXA6MzE3NzI0NjE3MEAxOTIuMTY4LjEzNS40MD4z/nJL
+wtsKAIICAACCAgAAAAQAAQAGABshAs3hAAAIAEUAAnJGBkAAQAZ9o8CohygKzyI9p08TxGGRT09L
+NOrAgBgiFUZqAAABAQgKlso0IwPWXNpQUkFDSyBzaXA6SVJWLU1FRC0wMDIuTEFDTFVCUy5DT006
+NTA2MDt0cmFuc3BvcnQ9VGNwO21hZGRyPTEwLjIwNy4zNC42MSBTSVAvMi4wDQpNYXgtRm9yd2Fy
+ZHM6IDcwDQpSQWNrOiAxIDEgSU5WSVRFDQpUbzogPHNpcDoyMTM0NTU4MzI2QDE5Mi4xNjguMTM1
+LjQwOjUwNjA+O3RhZz1iNWFjNTNmNjNiDQpGcm9tOiA8c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4x
+MzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0KQ2FsbC1JRDogNTM4OTQ1NzAtMzQ3NDgxNjE3
+OS02MjcxMTNAc2cxLWxheC55b3Vydm9pcC5uZXQNCkNTZXE6IDIgUFJBQ0sNCkFsbG93OiBJTlZJ
+VEUsIEJZRSwgT1BUSU9OUywgQ0FOQ0VMLCBBQ0ssIFJFR0lTVEVSLCBOT1RJRlksIElORk8sIFJF
+RkVSLCBTVUJTQ1JJQkUsIFBSQUNLLCBVUERBVEUNClZpYTogU0lQLzIuMC9UQ1AgMTkyLjE2OC4x
+MzUuNDA6NTA2MDticmFuY2g9ejloRzRiSzE4NDVkNmJiMjE1OTE3ODU5NmQxODZmZmE4OGEwZWMx
+DQpDb250YWN0OiA8c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA6NTA2MDt0cmFuc3BvcnQ9
+VENQPg0KQ29udGVudC1MZW5ndGg6IDANCg0KM/5yS57jCgBpAwAAaQMAAAAEAAEABgAbIQLN4AAA
+CABFAANZAABAAEAR/n/QVbgqQxBthBPEE8QDRWh+U0lQLzIuMCAxODMgU2Vzc2lvbiBQcm9ncmVz
+cw0KVmlhOiBTSVAvMi4wL1VEUCA2Ny4xNi4xMDkuMTMyOjUwNjA7YnJhbmNoPXo5aEc0Ykt2cm1i
+amMyMDRnZTFmbDhrcjNvMC4xDQpUbzogPHNpcDoyMTM0NTU4MzI2QDIwOC44NS4xODQuNDI+O3Rh
+Zz0zNDc0ODE2MTc5LTcxMzM0Mg0KRnJvbTogPHNpcDozMTAzNTAyMTE5QDY3LjE2LjEwOS4xMzI7
+aXN1cC1vbGk9NjE+O3RhZz1TRHN0M2dmMDEtZ0swODczZmFkMg0KQ2FsbC1JRDogU0RzdDNnZjAx
+LWQwOTRjZTk5Y2IxZTU0M2YxMzRkNmI5MDM0MTY5NTk1LXYzMDAwaTENCkNTZXE6IDcwMjYgSU5W
+SVRFDQpBbGxvdzogSU5WSVRFLCBCWUUsIE9QVElPTlMsIENBTkNFTCwgQUNLLCBSRUdJU1RFUiwg
+Tk9USUZZLCBJTkZPLCBSRUZFUiwgU1VCU0NSSUJFLCBQUkFDSywgVVBEQVRFDQpDb250YWN0OiA8
+c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mjo1MDYwPg0KQ2FsbC1JbmZvOiA8c2lwOjIwOC44
+NS4xODQuNDI+O21ldGhvZD0iTk9USUZZO0V2ZW50PXRlbGVwaG9uZS1ldmVudDtEdXJhdGlvbj0x
+MDAwIg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9zZHANCkNvbnRlbnQtTGVuZ3RoOiAyMjkN
+Cg0Kdj0wDQpvPXNnMS1sYXggNDYzMTkgMSBJTiBJUDQgMjA4Ljg1LjE4NC40Mg0Kcz1zaXAgY2Fs
+bA0KYz1JTiBJUDQgMjA4Ljg1LjE4NC40MQ0KYj1DVDoxMDAwDQp0PTAgMA0KbT1hdWRpbyAxNjI0
+MCBSVFAvQVZQIDAgMTAwDQphPWxhYmVsOkF1ZGlvDQphPXJ0cG1hcDowIFBDTVUvODAwMA0KYT1y
+dHBtYXA6MTAwIHRlbGVwaG9uZS1ldmVudC84MDAwDQphPWZtdHA6MTAwIDAtMTYNCmE9cHRpbWU6
+MjANCjP+cksLZwwAswEAALMBAAAAAAABAAYAUFT/ghIAAAgARQABo3FiQABABlMWCs8iPcCohygT
+xKdPSzTuiWGRUY2AGAD+JOgAAAEBCAoD1lzllso0I1NJUC8yLjAgMjAwIE9LDQpGUk9NOiA8c2lw
+OjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0KVE86IDxz
+aXA6MjEzNDU1ODMyNkAxOTIuMTY4LjEzNS40MDo1MDYwPjt0YWc9YjVhYzUzZjYzYjtlcGlkPTFG
+QjUyNUNERkUNCkNTRVE6IDIgUFJBQ0sNCkNBTEwtSUQ6IDUzODk0NTcwLTM0NzQ4MTYxNzktNjI3
+MTEzQHNnMS1sYXgueW91cnZvaXAubmV0DQpWSUE6IFNJUC8yLjAvVENQIDE5Mi4xNjguMTM1LjQw
+OjUwNjA7YnJhbmNoPXo5aEc0YksxODQ1ZDZiYjIxNTkxNzg1OTZkMTg2ZmZhODhhMGVjMQ0KQ09O
+VEVOVC1MRU5HVEg6IDANClNFUlZFUjogUlRDQy8zLjUuMC4wIE1lZGlhdGlvblNlcnZlcg0KDQo0
+/nJLUT0AAB8CAAAfAgAAAAAAAQAGAFBU/4ISAAAIAEUAAg9yHEAAQAZR8ArPIj3AqIcoE8SnT0s0
+7/hhkVGNgBgA/i4rAAABAQgKA9Zc+ZbKNNhTSVAvMi4wIDE4MyBTZXNzaW9uIFByb2dyZXNzDQpG
+Uk9NOiA8c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEy
+MQ0KVE86IDxzaXA6MjEzNDU1ODMyNkAxOTIuMTY4LjEzNS40MDo1MDYwPjt0YWc9YjVhYzUzZjYz
+YjtlcGlkPTFGQjUyNUNERkUNCkNTRVE6IDEgSU5WSVRFDQpDQUxMLUlEOiA1Mzg5NDU3MC0zNDc0
+ODE2MTc5LTYyNzExM0BzZzEtbGF4LnlvdXJ2b2lwLm5ldA0KVklBOiBTSVAvMi4wL1RDUCAxOTIu
+MTY4LjEzNS40MDo1MDYwO2JyYW5jaD16OWhHNGJLZmQzOGU1ZjJjOTU2NDJmYmYyNzRmNGQ1NTI5
+NThmOTENCkNPTlRBQ1Q6IDxzaXA6SVJWLU1FRC0wMDIuTEFDTFVCUy5DT006NTA2MDt0cmFuc3Bv
+cnQ9VGNwO21hZGRyPTEwLjIwNy4zNC42MT4NCkNPTlRFTlQtTEVOR1RIOiAwDQpBTExPVzogVVBE
+QVRFDQpTRVJWRVI6IFJUQ0MvMy41LjAuMCBNZWRpYXRpb25TZXJ2ZXINCg0KNP5ySzZBAABjAgAA
+YwIAAAAEAAEABgAbIQLN4AAACABFAAJTAABAAEAR/4XQVbgqQxBthBPEE8QCP4hiU0lQLzIuMCAx
+ODMgU2Vzc2lvbiBQcm9ncmVzcw0KVmlhOiBTSVAvMi4wL1VEUCA2Ny4xNi4xMDkuMTMyOjUwNjA7
+YnJhbmNoPXo5aEc0Ykt2cm1iamMyMDRnZTFmbDhrcjNvMC4xDQpUbzogPHNpcDoyMTM0NTU4MzI2
+QDIwOC44NS4xODQuNDI+O3RhZz0zNDc0ODE2MTc5LTcxMzM0Mg0KRnJvbTogPHNpcDozMTAzNTAy
+MTE5QDY3LjE2LjEwOS4xMzI7aXN1cC1vbGk9NjE+O3RhZz1TRHN0M2dmMDEtZ0swODczZmFkMg0K
+Q2FsbC1JRDogU0RzdDNnZjAxLWQwOTRjZTk5Y2IxZTU0M2YxMzRkNmI5MDM0MTY5NTk1LXYzMDAw
+aTENCkNTZXE6IDcwMjYgSU5WSVRFDQpBbGxvdzogSU5WSVRFLCBCWUUsIE9QVElPTlMsIENBTkNF
+TCwgQUNLLCBSRUdJU1RFUiwgTk9USUZZLCBJTkZPLCBSRUZFUiwgU1VCU0NSSUJFLCBQUkFDSywg
+VVBEQVRFDQpDb250YWN0OiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mjo1MDYwPg0KQ2Fs
+bC1JbmZvOiA8c2lwOjIwOC44NS4xODQuNDI+O21ldGhvZD0iTk9USUZZO0V2ZW50PXRlbGVwaG9u
+ZS1ldmVudDtEdXJhdGlvbj0xMDAwIg0KQ29udGVudC1MZW5ndGg6IDANCg0KNP5yS4otBAAWAgAA
+FgIAAAAAAAEABgBQVP+CEgAACABFAAIGcwJAAEAGURMKzyI9wKiHKBPEp09LNPHTYZFRjYAYAP5m
+HAAAAQEICgPWXRKWyjVTU0lQLzIuMCAxODAgUmluZ2luZw0KRlJPTTogPHNpcDozMTAzNTAyMTE5
+QDE5Mi4xNjguMTM1LjQwPjt0YWc9MzQ3NDgxNjE3OS02MjcxMjENClRPOiA8c2lwOjIxMzQ1NTgz
+MjZAMTkyLjE2OC4xMzUuNDA6NTA2MD47dGFnPWI1YWM1M2Y2M2I7ZXBpZD0xRkI1MjVDREZFDQpD
+U0VROiAxIElOVklURQ0KQ0FMTC1JRDogNTM4OTQ1NzAtMzQ3NDgxNjE3OS02MjcxMTNAc2cxLWxh
+eC55b3Vydm9pcC5uZXQNClZJQTogU0lQLzIuMC9UQ1AgMTkyLjE2OC4xMzUuNDA6NTA2MDticmFu
+Y2g9ejloRzRiS2ZkMzhlNWYyYzk1NjQyZmJmMjc0ZjRkNTUyOTU4ZjkxDQpDT05UQUNUOiA8c2lw
+OklSVi1NRUQtMDAyLkxBQ0xVQlMuQ09NOjUwNjA7dHJhbnNwb3J0PVRjcDttYWRkcj0xMC4yMDcu
+MzQuNjE+DQpDT05URU5ULUxFTkdUSDogMA0KQUxMT1c6IFVQREFURQ0KU0VSVkVSOiBSVENDLzMu
+NS4wLjAgTWVkaWF0aW9uU2VydmVyDQoNCjT+cktmMQQAWgIAAFoCAAAABAABAAYAGyECzeAAAAgA
+RQACSgAAQABAEf+O0FW4KkMQbYQTxBPEAjZsIlNJUC8yLjAgMTgwIFJpbmdpbmcNClZpYTogU0lQ
+LzIuMC9VRFAgNjcuMTYuMTA5LjEzMjo1MDYwO2JyYW5jaD16OWhHNGJLdnJtYmpjMjA0Z2UxZmw4
+a3IzbzAuMQ0KVG86IDxzaXA6MjEzNDU1ODMyNkAyMDguODUuMTg0LjQyPjt0YWc9MzQ3NDgxNjE3
+OS03MTMzNDINCkZyb206IDxzaXA6MzEwMzUwMjExOUA2Ny4xNi4xMDkuMTMyO2lzdXAtb2xpPTYx
+Pjt0YWc9U0RzdDNnZjAxLWdLMDg3M2ZhZDINCkNhbGwtSUQ6IFNEc3QzZ2YwMS1kMDk0Y2U5OWNi
+MWU1NDNmMTM0ZDZiOTAzNDE2OTU5NS12MzAwMGkxDQpDU2VxOiA3MDI2IElOVklURQ0KQWxsb3c6
+IElOVklURSwgQllFLCBPUFRJT05TLCBDQU5DRUwsIEFDSywgUkVHSVNURVIsIE5PVElGWSwgSU5G
+TywgUkVGRVIsIFNVQlNDUklCRSwgUFJBQ0ssIFVQREFURQ0KQ29udGFjdDogPHNpcDoyMTM0NTU4
+MzI2QDIwOC44NS4xODQuNDI6NTA2MD4NCkNhbGwtSW5mbzogPHNpcDoyMDguODUuMTg0LjQyPjtt
+ZXRob2Q9Ik5PVElGWTtFdmVudD10ZWxlcGhvbmUtZXZlbnQ7RHVyYXRpb249MTAwMCINCkNvbnRl
+bnQtTGVuZ3RoOiAwDQoNCjT+cktW2QQAHwIAAB8CAAAAAAABAAYAUFT/ghIAAAgARQACD3M0QABA
+BlDYCs8iPcCohygTxKdPSzTzpWGRUY2AGAD+KOEAAAEBCAoD1l0Ylso2VlNJUC8yLjAgMTgzIFNl
+c3Npb24gUHJvZ3Jlc3MNCkZST006IDxzaXA6MzEwMzUwMjExOUAxOTIuMTY4LjEzNS40MD47dGFn
+PTM0NzQ4MTYxNzktNjI3MTIxDQpUTzogPHNpcDoyMTM0NTU4MzI2QDE5Mi4xNjguMTM1LjQwOjUw
+NjA+O3RhZz1iNWFjNTNmNjNiO2VwaWQ9MUZCNTI1Q0RGRQ0KQ1NFUTogMSBJTlZJVEUNCkNBTEwt
+SUQ6IDUzODk0NTcwLTM0NzQ4MTYxNzktNjI3MTEzQHNnMS1sYXgueW91cnZvaXAubmV0DQpWSUE6
+IFNJUC8yLjAvVENQIDE5Mi4xNjguMTM1LjQwOjUwNjA7YnJhbmNoPXo5aEc0YktmZDM4ZTVmMmM5
+NTY0MmZiZjI3NGY0ZDU1Mjk1OGY5MQ0KQ09OVEFDVDogPHNpcDpJUlYtTUVELTAwMi5MQUNMVUJT
+LkNPTTo1MDYwO3RyYW5zcG9ydD1UY3A7bWFkZHI9MTAuMjA3LjM0LjYxPg0KQ09OVEVOVC1MRU5H
+VEg6IDANCkFMTE9XOiBVUERBVEUNClNFUlZFUjogUlRDQy8zLjUuMC4wIE1lZGlhdGlvblNlcnZl
+cg0KDQo0/nJL+90EAGMCAABjAgAAAAQAAQAGABshAs3gAAAIAEUAAlMAAEAAQBH/hdBVuCpDEG2E
+E8QTxAI/iGJTSVAvMi4wIDE4MyBTZXNzaW9uIFByb2dyZXNzDQpWaWE6IFNJUC8yLjAvVURQIDY3
+LjE2LjEwOS4xMzI6NTA2MDticmFuY2g9ejloRzRiS3ZybWJqYzIwNGdlMWZsOGtyM28wLjENClRv
+OiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mj47dGFnPTM0NzQ4MTYxNzktNzEzMzQyDQpG
+cm9tOiA8c2lwOjMxMDM1MDIxMTlANjcuMTYuMTA5LjEzMjtpc3VwLW9saT02MT47dGFnPVNEc3Qz
+Z2YwMS1nSzA4NzNmYWQyDQpDYWxsLUlEOiBTRHN0M2dmMDEtZDA5NGNlOTljYjFlNTQzZjEzNGQ2
+YjkwMzQxNjk1OTUtdjMwMDBpMQ0KQ1NlcTogNzAyNiBJTlZJVEUNCkFsbG93OiBJTlZJVEUsIEJZ
+RSwgT1BUSU9OUywgQ0FOQ0VMLCBBQ0ssIFJFR0lTVEVSLCBOT1RJRlksIElORk8sIFJFRkVSLCBT
+VUJTQ1JJQkUsIFBSQUNLLCBVUERBVEUNCkNvbnRhY3Q6IDxzaXA6MjEzNDU1ODMyNkAyMDguODUu
+MTg0LjQyOjUwNjA+DQpDYWxsLUluZm86IDxzaXA6MjA4Ljg1LjE4NC40Mj47bWV0aG9kPSJOT1RJ
+Rlk7RXZlbnQ9dGVsZXBob25lLWV2ZW50O0R1cmF0aW9uPTEwMDAiDQpDb250ZW50LUxlbmd0aDog
+MA0KDQo0/nJLqJYFABYCAAAWAgAAAAAAAQAGAFBU/4ISAAAIAEUAAgZzWUAAQAZQvArPIj3AqIco
+E8SnT0s09YBhkVGNgBgA/mE2AAABAQgKA9ZdHJbKNoJTSVAvMi4wIDE4MCBSaW5naW5nDQpGUk9N
+OiA8c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0K
+VE86IDxzaXA6MjEzNDU1ODMyNkAxOTIuMTY4LjEzNS40MDo1MDYwPjt0YWc9YjVhYzUzZjYzYjtl
+cGlkPTFGQjUyNUNERkUNCkNTRVE6IDEgSU5WSVRFDQpDQUxMLUlEOiA1Mzg5NDU3MC0zNDc0ODE2
+MTc5LTYyNzExM0BzZzEtbGF4LnlvdXJ2b2lwLm5ldA0KVklBOiBTSVAvMi4wL1RDUCAxOTIuMTY4
+LjEzNS40MDo1MDYwO2JyYW5jaD16OWhHNGJLZmQzOGU1ZjJjOTU2NDJmYmYyNzRmNGQ1NTI5NThm
+OTENCkNPTlRBQ1Q6IDxzaXA6SVJWLU1FRC0wMDIuTEFDTFVCUy5DT006NTA2MDt0cmFuc3BvcnQ9
+VGNwO21hZGRyPTEwLjIwNy4zNC42MT4NCkNPTlRFTlQtTEVOR1RIOiAwDQpBTExPVzogVVBEQVRF
+DQpTRVJWRVI6IFJUQ0MvMy41LjAuMCBNZWRpYXRpb25TZXJ2ZXINCg0KNP5yS1CbBQBaAgAAWgIA
+AAAEAAEABgAbIQLN4AAACABFAAJKAABAAEAR/47QVbgqQxBthBPEE8QCNmwiU0lQLzIuMCAxODAg
+UmluZ2luZw0KVmlhOiBTSVAvMi4wL1VEUCA2Ny4xNi4xMDkuMTMyOjUwNjA7YnJhbmNoPXo5aEc0
+Ykt2cm1iamMyMDRnZTFmbDhrcjNvMC4xDQpUbzogPHNpcDoyMTM0NTU4MzI2QDIwOC44NS4xODQu
+NDI+O3RhZz0zNDc0ODE2MTc5LTcxMzM0Mg0KRnJvbTogPHNpcDozMTAzNTAyMTE5QDY3LjE2LjEw
+OS4xMzI7aXN1cC1vbGk9NjE+O3RhZz1TRHN0M2dmMDEtZ0swODczZmFkMg0KQ2FsbC1JRDogU0Rz
+dDNnZjAxLWQwOTRjZTk5Y2IxZTU0M2YxMzRkNmI5MDM0MTY5NTk1LXYzMDAwaTENCkNTZXE6IDcw
+MjYgSU5WSVRFDQpBbGxvdzogSU5WSVRFLCBCWUUsIE9QVElPTlMsIENBTkNFTCwgQUNLLCBSRUdJ
+U1RFUiwgTk9USUZZLCBJTkZPLCBSRUZFUiwgU1VCU0NSSUJFLCBQUkFDSywgVVBEQVRFDQpDb250
+YWN0OiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mjo1MDYwPg0KQ2FsbC1JbmZvOiA8c2lw
+OjIwOC44NS4xODQuNDI+O21ldGhvZD0iTk9USUZZO0V2ZW50PXRlbGVwaG9uZS1ldmVudDtEdXJh
+dGlvbj0xMDAwIg0KQ29udGVudC1MZW5ndGg6IDANCg0KNP5ySxtQBgAfAgAAHwIAAAAAAAEABgBQ
+VP+CEgAACABFAAIPc4lAAEAGUIMKzyI9wKiHKBPEp09LNPdSYZFRjYAYAP4k0AAAAQEICgPWXSCW
+yjayU0lQLzIuMCAxODMgU2Vzc2lvbiBQcm9ncmVzcw0KRlJPTTogPHNpcDozMTAzNTAyMTE5QDE5
+Mi4xNjguMTM1LjQwPjt0YWc9MzQ3NDgxNjE3OS02MjcxMjENClRPOiA8c2lwOjIxMzQ1NTgzMjZA
+MTkyLjE2OC4xMzUuNDA6NTA2MD47dGFnPWI1YWM1M2Y2M2I7ZXBpZD0xRkI1MjVDREZFDQpDU0VR
+OiAxIElOVklURQ0KQ0FMTC1JRDogNTM4OTQ1NzAtMzQ3NDgxNjE3OS02MjcxMTNAc2cxLWxheC55
+b3Vydm9pcC5uZXQNClZJQTogU0lQLzIuMC9UQ1AgMTkyLjE2OC4xMzUuNDA6NTA2MDticmFuY2g9
+ejloRzRiS2ZkMzhlNWYyYzk1NjQyZmJmMjc0ZjRkNTUyOTU4ZjkxDQpDT05UQUNUOiA8c2lwOklS
+Vi1NRUQtMDAyLkxBQ0xVQlMuQ09NOjUwNjA7dHJhbnNwb3J0PVRjcDttYWRkcj0xMC4yMDcuMzQu
+NjE+DQpDT05URU5ULUxFTkdUSDogMA0KQUxMT1c6IFVQREFURQ0KU0VSVkVSOiBSVENDLzMuNS4w
+LjAgTWVkaWF0aW9uU2VydmVyDQoNCjT+ckucVQYAYwIAAGMCAAAABAABAAYAGyECzeAAAAgARQAC
+UwAAQABAEf+F0FW4KkMQbYQTxBPEAj+IYlNJUC8yLjAgMTgzIFNlc3Npb24gUHJvZ3Jlc3MNClZp
+YTogU0lQLzIuMC9VRFAgNjcuMTYuMTA5LjEzMjo1MDYwO2JyYW5jaD16OWhHNGJLdnJtYmpjMjA0
+Z2UxZmw4a3IzbzAuMQ0KVG86IDxzaXA6MjEzNDU1ODMyNkAyMDguODUuMTg0LjQyPjt0YWc9MzQ3
+NDgxNjE3OS03MTMzNDINCkZyb206IDxzaXA6MzEwMzUwMjExOUA2Ny4xNi4xMDkuMTMyO2lzdXAt
+b2xpPTYxPjt0YWc9U0RzdDNnZjAxLWdLMDg3M2ZhZDINCkNhbGwtSUQ6IFNEc3QzZ2YwMS1kMDk0
+Y2U5OWNiMWU1NDNmMTM0ZDZiOTAzNDE2OTU5NS12MzAwMGkxDQpDU2VxOiA3MDI2IElOVklURQ0K
+QWxsb3c6IElOVklURSwgQllFLCBPUFRJT05TLCBDQU5DRUwsIEFDSywgUkVHSVNURVIsIE5PVElG
+WSwgSU5GTywgUkVGRVIsIFNVQlNDUklCRSwgUFJBQ0ssIFVQREFURQ0KQ29udGFjdDogPHNpcDoy
+MTM0NTU4MzI2QDIwOC44NS4xODQuNDI6NTA2MD4NCkNhbGwtSW5mbzogPHNpcDoyMDguODUuMTg0
+LjQyPjttZXRob2Q9Ik5PVElGWTtFdmVudD10ZWxlcGhvbmUtZXZlbnQ7RHVyYXRpb249MTAwMCIN
+CkNvbnRlbnQtTGVuZ3RoOiAwDQoNCjT+ckuEDwoAFgIAABYCAAAAAAABAAYAUFT/ghIAAAgARQAC
+BnRoQABABk+tCs8iPcCohygTxKdPSzT5LWGRUY2AGAD+XQ0AAAEBCAoD1l05lso24VNJUC8yLjAg
+MTgwIFJpbmdpbmcNCkZST006IDxzaXA6MzEwMzUwMjExOUAxOTIuMTY4LjEzNS40MD47dGFnPTM0
+NzQ4MTYxNzktNjI3MTIxDQpUTzogPHNpcDoyMTM0NTU4MzI2QDE5Mi4xNjguMTM1LjQwOjUwNjA+
+O3RhZz1iNWFjNTNmNjNiO2VwaWQ9MUZCNTI1Q0RGRQ0KQ1NFUTogMSBJTlZJVEUNCkNBTEwtSUQ6
+IDUzODk0NTcwLTM0NzQ4MTYxNzktNjI3MTEzQHNnMS1sYXgueW91cnZvaXAubmV0DQpWSUE6IFNJ
+UC8yLjAvVENQIDE5Mi4xNjguMTM1LjQwOjUwNjA7YnJhbmNoPXo5aEc0YktmZDM4ZTVmMmM5NTY0
+MmZiZjI3NGY0ZDU1Mjk1OGY5MQ0KQ09OVEFDVDogPHNpcDpJUlYtTUVELTAwMi5MQUNMVUJTLkNP
+TTo1MDYwO3RyYW5zcG9ydD1UY3A7bWFkZHI9MTAuMjA3LjM0LjYxPg0KQ09OVEVOVC1MRU5HVEg6
+IDANCkFMTE9XOiBVUERBVEUNClNFUlZFUjogUlRDQy8zLjUuMC4wIE1lZGlhdGlvblNlcnZlcg0K
+DQo0/nJLDhUKAFoCAABaAgAAAAQAAQAGABshAs3gAAAIAEUAAkoAAEAAQBH/jtBVuCpDEG2EE8QT
+xAI2bCJTSVAvMi4wIDE4MCBSaW5naW5nDQpWaWE6IFNJUC8yLjAvVURQIDY3LjE2LjEwOS4xMzI6
+NTA2MDticmFuY2g9ejloRzRiS3ZybWJqYzIwNGdlMWZsOGtyM28wLjENClRvOiA8c2lwOjIxMzQ1
+NTgzMjZAMjA4Ljg1LjE4NC40Mj47dGFnPTM0NzQ4MTYxNzktNzEzMzQyDQpGcm9tOiA8c2lwOjMx
+MDM1MDIxMTlANjcuMTYuMTA5LjEzMjtpc3VwLW9saT02MT47dGFnPVNEc3QzZ2YwMS1nSzA4NzNm
+YWQyDQpDYWxsLUlEOiBTRHN0M2dmMDEtZDA5NGNlOTljYjFlNTQzZjEzNGQ2YjkwMzQxNjk1OTUt
+djMwMDBpMQ0KQ1NlcTogNzAyNiBJTlZJVEUNCkFsbG93OiBJTlZJVEUsIEJZRSwgT1BUSU9OUywg
+Q0FOQ0VMLCBBQ0ssIFJFR0lTVEVSLCBOT1RJRlksIElORk8sIFJFRkVSLCBTVUJTQ1JJQkUsIFBS
+QUNLLCBVUERBVEUNCkNvbnRhY3Q6IDxzaXA6MjEzNDU1ODMyNkAyMDguODUuMTg0LjQyOjUwNjA+
+DQpDYWxsLUluZm86IDxzaXA6MjA4Ljg1LjE4NC40Mj47bWV0aG9kPSJOT1RJRlk7RXZlbnQ9dGVs
+ZXBob25lLWV2ZW50O0R1cmF0aW9uPTEwMDAiDQpDb250ZW50LUxlbmd0aDogMA0KDQo0/nJLhhAP
+AB8CAAAfAgAAAAAAAQAGAFBU/4ISAAAIAEUAAg91iUAAQAZOgwrPIj3AqIcoE8SnT0s0+v9hkVGN
+gBgA/h/FAAABAQgKA9ZdWZbKN9dTSVAvMi4wIDE4MyBTZXNzaW9uIFByb2dyZXNzDQpGUk9NOiA8
+c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0KVE86
+IDxzaXA6MjEzNDU1ODMyNkAxOTIuMTY4LjEzNS40MDo1MDYwPjt0YWc9YjVhYzUzZjYzYjtlcGlk
+PTFGQjUyNUNERkUNCkNTRVE6IDEgSU5WSVRFDQpDQUxMLUlEOiA1Mzg5NDU3MC0zNDc0ODE2MTc5
+LTYyNzExM0BzZzEtbGF4LnlvdXJ2b2lwLm5ldA0KVklBOiBTSVAvMi4wL1RDUCAxOTIuMTY4LjEz
+NS40MDo1MDYwO2JyYW5jaD16OWhHNGJLZmQzOGU1ZjJjOTU2NDJmYmYyNzRmNGQ1NTI5NThmOTEN
+CkNPTlRBQ1Q6IDxzaXA6SVJWLU1FRC0wMDIuTEFDTFVCUy5DT006NTA2MDt0cmFuc3BvcnQ9VGNw
+O21hZGRyPTEwLjIwNy4zNC42MT4NCkNPTlRFTlQtTEVOR1RIOiAwDQpBTExPVzogVVBEQVRFDQpT
+RVJWRVI6IFJUQ0MvMy41LjAuMCBNZWRpYXRpb25TZXJ2ZXINCg0KNP5ySwYUDwBjAgAAYwIAAAAE
+AAEABgAbIQLN4AAACABFAAJTAABAAEAR/4XQVbgqQxBthBPEE8QCP4hiU0lQLzIuMCAxODMgU2Vz
+c2lvbiBQcm9ncmVzcw0KVmlhOiBTSVAvMi4wL1VEUCA2Ny4xNi4xMDkuMTMyOjUwNjA7YnJhbmNo
+PXo5aEc0Ykt2cm1iamMyMDRnZTFmbDhrcjNvMC4xDQpUbzogPHNpcDoyMTM0NTU4MzI2QDIwOC44
+NS4xODQuNDI+O3RhZz0zNDc0ODE2MTc5LTcxMzM0Mg0KRnJvbTogPHNpcDozMTAzNTAyMTE5QDY3
+LjE2LjEwOS4xMzI7aXN1cC1vbGk9NjE+O3RhZz1TRHN0M2dmMDEtZ0swODczZmFkMg0KQ2FsbC1J
+RDogU0RzdDNnZjAxLWQwOTRjZTk5Y2IxZTU0M2YxMzRkNmI5MDM0MTY5NTk1LXYzMDAwaTENCkNT
+ZXE6IDcwMjYgSU5WSVRFDQpBbGxvdzogSU5WSVRFLCBCWUUsIE9QVElPTlMsIENBTkNFTCwgQUNL
+LCBSRUdJU1RFUiwgTk9USUZZLCBJTkZPLCBSRUZFUiwgU1VCU0NSSUJFLCBQUkFDSywgVVBEQVRF
+DQpDb250YWN0OiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mjo1MDYwPg0KQ2FsbC1JbmZv
+OiA8c2lwOjIwOC44NS4xODQuNDI+O21ldGhvZD0iTk9USUZZO0V2ZW50PXRlbGVwaG9uZS1ldmVu
+dDtEdXJhdGlvbj0xMDAwIg0KQ29udGVudC1MZW5ndGg6IDANCg0KN/5ySzjHAwB1AwAAdQMAAAAA
+AAEABgBQVP+CEgAACABFAANlfQxAAEAGRaoKzyI9wKiHKBPEp09LNQS9YZFXxoAYAP6VbwAAAQEI
+CgPWXjiWyjv9U0lQLzIuMCAyMDAgT0sNCkZST006IDxzaXA6MzEwMzUwMjExOUAxOTIuMTY4LjEz
+NS40MD47dGFnPTM0NzQ4MTYxNzktNjI3MTIxDQpUTzogPHNpcDoyMTM0NTU4MzI2QDE5Mi4xNjgu
+MTM1LjQwOjUwNjA+O3RhZz1iNWFjNTNmNjNiO2VwaWQ9MUZCNTI1Q0RGRQ0KQ1NFUTogMSBJTlZJ
+VEUNCkNBTEwtSUQ6IDUzODk0NTcwLTM0NzQ4MTYxNzktNjI3MTEzQHNnMS1sYXgueW91cnZvaXAu
+bmV0DQpWSUE6IFNJUC8yLjAvVENQIDE5Mi4xNjguMTM1LjQwOjUwNjA7YnJhbmNoPXo5aEc0Yktm
+ZDM4ZTVmMmM5NTY0MmZiZjI3NGY0ZDU1Mjk1OGY5MQ0KQ09OVEFDVDogPHNpcDpJUlYtTUVELTAw
+Mi5MQUNMVUJTLkNPTTo1MDYwO3RyYW5zcG9ydD1UY3A7bWFkZHI9MTAuMjA3LjM0LjYxPg0KQ09O
+VEVOVC1MRU5HVEg6IDI1Nw0KU1VQUE9SVEVEOiAxMDByZWwNCkNPTlRFTlQtVFlQRTogYXBwbGlj
+YXRpb24vc2RwOyBjaGFyc2V0PXV0Zi04DQpBTExPVzogVVBEQVRFDQpTRVJWRVI6IFJUQ0MvMy41
+LjAuMCBNZWRpYXRpb25TZXJ2ZXINCkFMTE9XOiBBY2ssIENhbmNlbCwgQnllLEludml0ZQ0KDQp2
+PTANCm89LSA0NjMxOSAxIElOIElQNCAxMC4yMDcuMzQuNjENCnM9c2Vzc2lvbg0KYz1JTiBJUDQg
+MTAuMjA3LjM0LjYxDQpiPUNUOjEwMDANCnQ9MCAwDQptPWF1ZGlvIDYxMTI0IFJUUC9BVlAgMCAx
+MDANCmM9SU4gSVA0IDEwLjIwNy4zNC42MQ0KYT1ydGNwOjYxMTI1DQphPWxhYmVsOkF1ZGlvDQph
+PXJ0cG1hcDowIFBDTVUvODAwMA0KYT1ydHBtYXA6MTAwIHRlbGVwaG9uZS1ldmVudC84MDAwDQph
+PWZtdHA6MTAwIDAtMTYNCmE9cHRpbWU6MjANCjf+ckvFzAMAkAMAAJADAAAABAABAAYAGyECzeAA
+AAgARQADgAAAQABAEf5Y0FW4KkMQbYQTxBPEA2wcGFNJUC8yLjAgMjAwIE9LDQpTZXNzaW9uLUV4
+cGlyZXM6IDE4MDA7cmVmcmVzaGVyPXVhcw0KUmVxdWlyZTogdGltZXINClZpYTogU0lQLzIuMC9V
+RFAgNjcuMTYuMTA5LjEzMjo1MDYwO2JyYW5jaD16OWhHNGJLdnJtYmpjMjA0Z2UxZmw4a3IzbzAu
+MQ0KVG86IDxzaXA6MjEzNDU1ODMyNkAyMDguODUuMTg0LjQyPjt0YWc9MzQ3NDgxNjE3OS03MTMz
+NDINCkZyb206IDxzaXA6MzEwMzUwMjExOUA2Ny4xNi4xMDkuMTMyO2lzdXAtb2xpPTYxPjt0YWc9
+U0RzdDNnZjAxLWdLMDg3M2ZhZDINCkNhbGwtSUQ6IFNEc3QzZ2YwMS1kMDk0Y2U5OWNiMWU1NDNm
+MTM0ZDZiOTAzNDE2OTU5NS12MzAwMGkxDQpDU2VxOiA3MDI2IElOVklURQ0KQWxsb3c6IElOVklU
+RSwgQllFLCBPUFRJT05TLCBDQU5DRUwsIEFDSywgUkVHSVNURVIsIE5PVElGWSwgSU5GTywgUkVG
+RVIsIFNVQlNDUklCRSwgUFJBQ0ssIFVQREFURQ0KQ29udGFjdDogPHNpcDoyMTM0NTU4MzI2QDIw
+OC44NS4xODQuNDI6NTA2MD4NCkNhbGwtSW5mbzogPHNpcDoyMDguODUuMTg0LjQyPjttZXRob2Q9
+Ik5PVElGWTtFdmVudD10ZWxlcGhvbmUtZXZlbnQ7RHVyYXRpb249MTAwMCINCkNvbnRlbnQtVHlw
+ZTogYXBwbGljYXRpb24vc2RwDQpDb250ZW50LUxlbmd0aDogMjI5DQoNCnY9MA0Kbz1zZzEtbGF4
+IDQ2MzE5IDEgSU4gSVA0IDIwOC44NS4xODQuNDINCnM9c2lwIGNhbGwNCmM9SU4gSVA0IDIwOC44
+NS4xODQuNDENCmI9Q1Q6MTAwMA0KdD0wIDANCm09YXVkaW8gMTYyNDAgUlRQL0FWUCAwIDEwMA0K
+YT1sYWJlbDpBdWRpbw0KYT1ydHBtYXA6MCBQQ01VLzgwMDANCmE9cnRwbWFwOjEwMCB0ZWxlcGhv
+bmUtZXZlbnQvODAwMA0KYT1mbXRwOjEwMCAwLTE2DQphPXB0aW1lOjIwDQo3/nJLuzEEAJ4BAACe
+AQAAAAAAAQAGACOcE2EAAAAIAEUAAY4AAAAAeBEIS0MQbYTQVbgqE8QTxAF6+KtBQ0sgc2lwOjIx
+MzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mjo1MDYwIFNJUC8yLjANClZpYTogU0lQLzIuMC9VRFAgNjcu
+MTYuMTA5LjEzMjo1MDYwO2JyYW5jaD16OWhHNGJLZW1lMzI5MzBlOGNocmxrZDYzazEuMQ0KRnJv
+bTogPHNpcDozMTAzNTAyMTE5QDY3LjE2LjEwOS4xMzI7aXN1cC1vbGk9NjE+O3RhZz1TRHN0M2dm
+MDEtZ0swODczZmFkMg0KVG86IDxzaXA6MjEzNDU1ODMyNkAyMDguODUuMTg0LjQyPjt0YWc9MzQ3
+NDgxNjE3OS03MTMzNDINCkNhbGwtSUQ6IFNEc3QzZ2YwMS1kMDk0Y2U5OWNiMWU1NDNmMTM0ZDZi
+OTAzNDE2OTU5NS12MzAwMGkxDQpDU2VxOiA3MDI2IEFDSw0KTWF4LUZvcndhcmRzOiA2OQ0KQ29u
+dGVudC1MZW5ndGg6IDANCg0KN/5yS202BABsAgAAbAIAAAAEAAEABgAbIQLN4QAACABFAAJcRihA
+AEAGfZfAqIcoCs8iPadPE8RhkVfGSzUH7oAYIhUCnAAAAQEICpbKQhAD1l44QUNLIHNpcDpJUlYt
+TUVELTAwMi5MQUNMVUJTLkNPTTo1MDYwO3RyYW5zcG9ydD1UY3A7bWFkZHI9MTAuMjA3LjM0LjYx
+IFNJUC8yLjANCk1heC1Gb3J3YXJkczogNjgNClRvOiA8c2lwOjIxMzQ1NTgzMjZAMTkyLjE2OC4x
+MzUuNDA6NTA2MD47dGFnPWI1YWM1M2Y2M2INCkZyb206IDxzaXA6MzEwMzUwMjExOUAxOTIuMTY4
+LjEzNS40MD47dGFnPTM0NzQ4MTYxNzktNjI3MTIxDQpDYWxsLUlEOiA1Mzg5NDU3MC0zNDc0ODE2
+MTc5LTYyNzExM0BzZzEtbGF4LnlvdXJ2b2lwLm5ldA0KQ1NlcTogMSBBQ0sNCkFsbG93OiBJTlZJ
+VEUsIEJZRSwgT1BUSU9OUywgQ0FOQ0VMLCBBQ0ssIFJFR0lTVEVSLCBOT1RJRlksIElORk8sIFJF
+RkVSLCBTVUJTQ1JJQkUsIFBSQUNLLCBVUERBVEUNClZpYTogU0lQLzIuMC9UQ1AgMTkyLjE2OC4x
+MzUuNDA6NTA2MDticmFuY2g9ejloRzRiSzc1YjM3MGQ4N2M1ZmUxZThiMWE1NzI4YWQxYjA4ZWY3
+DQpDb250YWN0OiA8c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA6NTA2MDt0cmFuc3BvcnQ9
+VENQPg0KQ29udGVudC1MZW5ndGg6IDANCg0KWP5yS0nvBACaAwAAmgMAAAAAAAEABgBQVP+CEgAA
+CABFAAOKfI9AAEAGRgIKzyI9wKiHKBPEp09LNSa6YZFv6oAYAP6sOQAAAQEICgPWayOWyr1ySU5W
+SVRFIHNpcDozMTAzNTAyMTE5QDE5Mi4xNjguMTM1LjQwOjUwNjA7dHJhbnNwb3J0PVRDUCBTSVAv
+Mi4wDQpGUk9NOiA8c2lwOjIxMzQ1NTgzMjZAMTkyLjE2OC4xMzUuNDA6NTA2MD47ZXBpZD0xRkI1
+MjVDREZFO3RhZz1iNWFjNTNmNjNiDQpUTzogPHNpcDozMTAzNTAyMTE5QDE5Mi4xNjguMTM1LjQw
+Pjt0YWc9MzQ3NDgxNjE3OS02MjcxMjENCkNTRVE6IDEgSU5WSVRFDQpDQUxMLUlEOiA1Mzg5NDU3
+MC0zNDc0ODE2MTc5LTYyNzExM0BzZzEtbGF4LnlvdXJ2b2lwLm5ldA0KTUFYLUZPUldBUkRTOiA3
+MA0KVklBOiBTSVAvMi4wL1RDUCAxMC4yMDcuMzQuNjE6NTA2MDticmFuY2g9ejloRzRiS2Y0OWZk
+Zjg5DQpDT05UQUNUOiA8c2lwOklSVi1NRUQtMDAyLkxBQ0xVQlMuQ09NOjUwNjA7dHJhbnNwb3J0
+PVRjcDttYWRkcj0xMC4yMDcuMzQuNjE7bXMtb3BhcXVlPTYzNDQwMjMyNmUyNDZmMzI+DQpDT05U
+RU5ULUxFTkdUSDogMjY5DQpTVVBQT1JURUQ6IDEwMHJlbA0KVVNFUi1BR0VOVDogUlRDQy8zLjUu
+MC4wIE1lZGlhdGlvblNlcnZlcg0KQ09OVEVOVC1UWVBFOiBhcHBsaWNhdGlvbi9zZHA7IGNoYXJz
+ZXQ9dXRmLTgNCg0Kdj0wDQpvPS0gNDYzMTkgMiBJTiBJUDQgMTAuMjA3LjM0LjYxDQpzPXNlc3Np
+b24NCmM9SU4gSVA0IDEwLjIwNy4zNC42MQ0KYj1DVDoxMDAwDQp0PTAgMA0KbT1hdWRpbyA2MTEy
+NCBSVFAvQVZQIDAgMTAwDQpjPUlOIElQNCAxMC4yMDcuMzQuNjENCmE9cnRjcDo2MTEyNQ0KYT1z
+ZW5kb25seQ0KYT1sYWJlbDpBdWRpbw0KYT1ydHBtYXA6MCBQQ01VLzgwMDANCmE9cnRwbWFwOjEw
+MCB0ZWxlcGhvbmUtZXZlbnQvODAwMA0KYT1mbXRwOjEwMCAwLTE2DQphPXB0aW1lOjIwDQpY/nJL
+y/EEAHgBAAB4AQAAAAQAAQAGABshAs3hAAAIAEUAAWjq9kAAQAbZvMCohygKzyI9pzETxELKnxbe
+G0flgBgFtE9cAAABAQgKlsrDLQPWab1TSVAvMi4wIDEwMCBUcnlpbmcNClZpYTogU0lQLzIuMC9U
+Q1AgMTAuMjA3LjM0LjYxOjUwNjA7YnJhbmNoPXo5aEc0YktmNDlmZGY4OQ0KRnJvbTogPHNpcDoy
+MTM0NTU4MzI2QDE5Mi4xNjguMTM1LjQwOjUwNjA+O3RhZz1iNWFjNTNmNjNiO2VwaWQ9MUZCNTI1
+Q0RGRQ0KVG86IDxzaXA6MzEwMzUwMjExOUAxOTIuMTY4LjEzNS40MD47dGFnPTM0NzQ4MTYxNzkt
+NjI3MTIxDQpDYWxsLUlEOiA1Mzg5NDU3MC0zNDc0ODE2MTc5LTYyNzExM0BzZzEtbGF4LnlvdXJ2
+b2lwLm5ldA0KQ1NlcTogMSBJTlZJVEUNCkNvbnRlbnQtTGVuZ3RoOiAwDQoNClj+ckut9QQA7wMA
+AO8DAAAABAABAAYAGyECzeAAAAgARQAD3wAAQABAEf350FW4KkMQbYQTxBPEA8vmiElOVklURSBz
+aXA6MzEwMzUwMjExOUA2Ny4xNi4xMDkuMTMyOjUwNjA7dHJhbnNwb3J0PXVkcCBTSVAvMi4wDQpN
+YXgtRm9yd2FyZHM6IDY5DQpTZXNzaW9uLUV4cGlyZXM6IDM2MDA7cmVmcmVzaGVyPXVhYw0KU3Vw
+cG9ydGVkOiB0aW1lciwgMTAwcmVsDQpUbzogPHNpcDozMTAzNTAyMTE5QDY3LjE2LjEwOS4xMzI7
+aXN1cC1vbGk9NjE+O3RhZz1TRHN0M2dmMDEtZ0swODczZmFkMg0KRnJvbTogPHNpcDoyMTM0NTU4
+MzI2QDIwOC44NS4xODQuNDI+O3RhZz0zNDc0ODE2MTc5LTcxMzM0Mg0KQ2FsbC1JRDogU0RzdDNn
+ZjAxLWQwOTRjZTk5Y2IxZTU0M2YxMzRkNmI5MDM0MTY5NTk1LXYzMDAwaTENCkNTZXE6IDIgSU5W
+SVRFDQpBbGxvdzogSU5WSVRFLCBCWUUsIE9QVElPTlMsIENBTkNFTCwgQUNLLCBSRUdJU1RFUiwg
+Tk9USUZZLCBJTkZPLCBSRUZFUiwgU1VCU0NSSUJFLCBQUkFDSywgVVBEQVRFDQpWaWE6IFNJUC8y
+LjAvVURQIDIwOC44NS4xODQuNDI6NTA2MDticmFuY2g9ejloRzRiSzA3NDdhMTcyNDRiM2I1YTli
+YTA3YzNkMWY4NTIwYWQ0DQpDb250YWN0OiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mjo1
+MDYwPg0KQ2FsbC1JbmZvOiA8c2lwOjIwOC44NS4xODQuNDI+O21ldGhvZD0iTk9USUZZO0V2ZW50
+PXRlbGVwaG9uZS1ldmVudDtEdXJhdGlvbj0xMDAwIg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlv
+bi9zZHANCkNvbnRlbnQtTGVuZ3RoOiAyNDENCg0Kdj0wDQpvPXNnMS1sYXggNDYzMTkgMiBJTiBJ
+UDQgMjA4Ljg1LjE4NC40Mg0Kcz1zaXAgY2FsbA0KYz1JTiBJUDQgMjA4Ljg1LjE4NC40MQ0KYj1D
+VDoxMDAwDQp0PTAgMA0KbT1hdWRpbyAxNjI0MCBSVFAvQVZQIDAgMTAwDQphPXNlbmRvbmx5DQph
+PWxhYmVsOkF1ZGlvDQphPXJ0cG1hcDowIFBDTVUvODAwMA0KYT1ydHBtYXA6MTAwIHRlbGVwaG9u
+ZS1ldmVudC84MDAwDQphPWZtdHA6MTAwIDAtMTYNCmE9cHRpbWU6MjANClj+ckuBvwYA8QMAAPED
+AAAAAAABAAYAI5wTYQAAAAgARQAD4QAAAAB4EQX4QxBthNBVuCoTxBPEA83CtlNJUC8yLjAgMjAw
+IE9LDQpUbzogPHNpcDozMTAzNTAyMTE5QDY3LjE2LjEwOS4xMzI7aXN1cC1vbGk9NjE+O3RhZz1T
+RHN0M2dmMDEtZ0swODczZmFkMg0KRnJvbTogPHNpcDoyMTM0NTU4MzI2QDIwOC44NS4xODQuNDI+
+O3RhZz0zNDc0ODE2MTc5LTcxMzM0Mg0KQ2FsbC1JRDogU0RzdDNnZjAxLWQwOTRjZTk5Y2IxZTU0
+M2YxMzRkNmI5MDM0MTY5NTk1LXYzMDAwaTENCkNTZXE6IDIgSU5WSVRFDQpWaWE6IFNJUC8yLjAv
+VURQIDIwOC44NS4xODQuNDI6NTA2MDticmFuY2g9ejloRzRiSzA3NDdhMTcyNDRiM2I1YTliYTA3
+YzNkMWY4NTIwYWQ0DQpBY2NlcHQ6IGFwcGxpY2F0aW9uL3NkcCwgYXBwbGljYXRpb24vaXN1cCwg
+YXBwbGljYXRpb24vZHRtZiwgYXBwbGljYXRpb24vZHRtZi1yZWxheSwgIG11bHRpcGFydC9taXhl
+ZA0KQ29udGFjdDogPHNpcDozMTAzNTAyMTE5QDY3LjE2LjEwOS4xMzI6NTA2MDt0cmFuc3BvcnQ9
+dWRwPg0KQWxsb3c6IElOVklURSxBQ0ssQ0FOQ0VMLEJZRSxSRUdJU1RFUixJTkZPLFNVQlNDUklC
+RSxOT1RJRlksUFJBQ0ssVVBEQVRFLE9QVElPTlMNClJlcXVpcmU6IHRpbWVyDQpTdXBwb3J0ZWQ6
+IHRpbWVyDQpTZXNzaW9uLUV4cGlyZXM6IDM2MDA7cmVmcmVzaGVyPXVhYw0KQ29udGVudC1MZW5n
+dGg6IDIzNg0KQ29udGVudC1EaXNwb3NpdGlvbjogc2Vzc2lvbjsgaGFuZGxpbmc9cmVxdWlyZWQN
+CkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vc2RwDQoNCnY9MA0Kbz1Tb251c19VQUMgODQwOSA0
+MDc5IElOIElQNCA2Ny4xNi4xMDkuMTMyDQpzPVNJUCBNZWRpYSBDYXBhYmlsaXRpZXMNCmM9SU4g
+SVA0IDY3LjE2LjEwOS4xMzINCnQ9MCAwDQptPWF1ZGlvIDUxNDY2IFJUUC9BVlAgMCAxMDANCmE9
+cnRwbWFwOjAgUENNVS84MDAwDQphPXJ0cG1hcDoxMDAgdGVsZXBob25lLWV2ZW50LzgwMDANCmE9
+Zm10cDoxMDAgMC0xNQ0KYT1yZWN2b25seQ0KYT1tYXhwdGltZToyMA0KWP5yS+bEBgBYAwAAWAMA
+AAAEAAEABgAbIQLN4QAACABFAANIRlRAAEAGfH/AqIcoCs8iPadPE8RhkW/qSzUqEIAYIhWyzgAA
+AQEICpbKw6UD1msjU0lQLzIuMCAyMDAgT0sNClZpYTogU0lQLzIuMC9UQ1AgMTAuMjA3LjM0LjYx
+OjUwNjA7YnJhbmNoPXo5aEc0YktmNDlmZGY4OQ0KVG86IDxzaXA6MzEwMzUwMjExOUAxOTIuMTY4
+LjEzNS40MD47dGFnPTM0NzQ4MTYxNzktNjI3MTIxDQpGcm9tOiA8c2lwOjIxMzQ1NTgzMjZAMTky
+LjE2OC4xMzUuNDA6NTA2MD47dGFnPWI1YWM1M2Y2M2INCkNhbGwtSUQ6IDUzODk0NTcwLTM0NzQ4
+MTYxNzktNjI3MTEzQHNnMS1sYXgueW91cnZvaXAubmV0DQpDU2VxOiAxIElOVklURQ0KQWxsb3c6
+IElOVklURSwgQllFLCBPUFRJT05TLCBDQU5DRUwsIEFDSywgUkVHSVNURVIsIE5PVElGWSwgSU5G
+TywgUkVGRVIsIFNVQlNDUklCRSwgUFJBQ0ssIFVQREFURQ0KQ29udGFjdDogPHNpcDozMTAzNTAy
+MTE5QDE5Mi4xNjguMTM1LjQwOjUwNjA7dHJhbnNwb3J0PVRDUD4NCkNhbGwtSW5mbzogPHNpcDox
+OTIuMTY4LjEzNS40MD47bWV0aG9kPSJOT1RJRlk7RXZlbnQ9dGVsZXBob25lLWV2ZW50O0R1cmF0
+aW9uPTEwMDAiDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3NkcA0KQ29udGVudC1MZW5ndGg6
+IDIyMg0KDQp2PTANCm89c2cxLWxheCA4NDA5IDQwNzkgSU4gSVA0IDE5Mi4xNjguMTM1LjQwDQpz
+PXNpcCBjYWxsDQpjPUlOIElQNCAxOTIuMTY4LjEzNS40MQ0KdD0wIDANCm09YXVkaW8gMjA1ODYg
+UlRQL0FWUCAwIDEwMA0KYT1yZWN2b25seQ0KYT1ydHBtYXA6MCBQQ01VLzgwMDANCmE9cnRwbWFw
+OjEwMCB0ZWxlcGhvbmUtZXZlbnQvODAwMA0KYT1mbXRwOjEwMCAwLTE1DQphPW1heHB0aW1lOjIw
+DQpY/nJL2KgIANoBAADaAQAAAAAAAQAGAFBU/4ISAAAIAEUAAcp9k0AAQAZGvgrPIj3AqIcoE8Sn
+T0s1KhBhkXL+gBgA+7gWAAABAQgKA9ZrPJbKw6VBQ0sgc2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4x
+MzUuNDA6NTA2MDt0cmFuc3BvcnQ9VENQIFNJUC8yLjANCkZST006IDxzaXA6MjEzNDU1ODMyNkAx
+OTIuMTY4LjEzNS40MDo1MDYwPjtlcGlkPTFGQjUyNUNERkU7dGFnPWI1YWM1M2Y2M2INClRPOiA8
+c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0KQ1NF
+UTogMSBBQ0sNCkNBTEwtSUQ6IDUzODk0NTcwLTM0NzQ4MTYxNzktNjI3MTEzQHNnMS1sYXgueW91
+cnZvaXAubmV0DQpNQVgtRk9SV0FSRFM6IDcwDQpWSUE6IFNJUC8yLjAvVENQIDEwLjIwNy4zNC42
+MTo1MDYwO2JyYW5jaD16OWhHNGJLYWNkODU0MA0KQ09OVEVOVC1MRU5HVEg6IDANClVTRVItQUdF
+TlQ6IFJUQ0MvMy41LjAuMCBNZWRpYXRpb25TZXJ2ZXINCg0KWP5yS0iuCABEAgAARAIAAAAEAAEA
+BgAbIQLN4AAACABFAAI0AABAAEAR/6TQVbgqQxBthBPEE8QCIPuQQUNLIHNpcDozMTAzNTAyMTE5
+QDY3LjE2LjEwOS4xMzI6NTA2MDt0cmFuc3BvcnQ9dWRwIFNJUC8yLjANCk1heC1Gb3J3YXJkczog
+NjkNClRvOiA8c2lwOjMxMDM1MDIxMTlANjcuMTYuMTA5LjEzMjtpc3VwLW9saT02MT47dGFnPVNE
+c3QzZ2YwMS1nSzA4NzNmYWQyDQpGcm9tOiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40Mj47
+dGFnPTM0NzQ4MTYxNzktNzEzMzQyDQpDYWxsLUlEOiBTRHN0M2dmMDEtZDA5NGNlOTljYjFlNTQz
+ZjEzNGQ2YjkwMzQxNjk1OTUtdjMwMDBpMQ0KQ1NlcTogMiBBQ0sNCkFsbG93OiBJTlZJVEUsIEJZ
+RSwgT1BUSU9OUywgQ0FOQ0VMLCBBQ0ssIFJFR0lTVEVSLCBOT1RJRlksIElORk8sIFJFRkVSLCBT
+VUJTQ1JJQkUsIFBSQUNLLCBVUERBVEUNClZpYTogU0lQLzIuMC9VRFAgMjA4Ljg1LjE4NC40Mjo1
+MDYwO2JyYW5jaD16OWhHNGJLMzVjOThkMGVhNzlkNTNiNTkyNDc4MDcwNzZlOGFjZDgNCkNvbnRh
+Y3Q6IDxzaXA6MjEzNDU1ODMyNkAyMDguODUuMTg0LjQyOjUwNjA+DQpDb250ZW50LUxlbmd0aDog
+MA0KDQp2/nJL/zsHANoBAADaAQAAAAAAAQAGAFBU/4ISAAAIAEUAAcp6GkAAQAZKNwrPIj3AqIco
+E8SnT0s1V4thkYajgBgA/nWXAAABAQgKA9Z27JbLHVlCWUUgc2lwOjMxMDM1MDIxMTlAMTkyLjE2
+OC4xMzUuNDA6NTA2MDt0cmFuc3BvcnQ9VENQIFNJUC8yLjANCkZST006IDxzaXA6MjEzNDU1ODMy
+NkAxOTIuMTY4LjEzNS40MDo1MDYwPjtlcGlkPTFGQjUyNUNERkU7dGFnPWI1YWM1M2Y2M2INClRP
+OiA8c2lwOjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA+O3RhZz0zNDc0ODE2MTc5LTYyNzEyMQ0K
+Q1NFUTogMiBCWUUNCkNBTEwtSUQ6IDUzODk0NTcwLTM0NzQ4MTYxNzktNjI3MTEzQHNnMS1sYXgu
+eW91cnZvaXAubmV0DQpNQVgtRk9SV0FSRFM6IDcwDQpWSUE6IFNJUC8yLjAvVENQIDEwLjIwNy4z
+NC42MTo1MDYwO2JyYW5jaD16OWhHNGJLMjU5NDQyMA0KQ09OVEVOVC1MRU5HVEg6IDANClVTRVIt
+QUdFTlQ6IFJUQ0MvMy41LjAuMCBNZWRpYXRpb25TZXJ2ZXINCg0Kdv5yS8hBBwBEAgAARAIAAAAE
+AAEABgAbIQLN4AAACABFAAI0AABAAEAR/6TQVbgqQxBthBPEE8QCIGCkQllFIHNpcDozMTAzNTAy
+MTE5QDY3LjE2LjEwOS4xMzI6NTA2MDt0cmFuc3BvcnQ9dWRwIFNJUC8yLjANCk1heC1Gb3J3YXJk
+czogNjkNClRvOiA8c2lwOjMxMDM1MDIxMTlANjcuMTYuMTA5LjEzMjtpc3VwLW9saT02MT47dGFn
+PVNEc3QzZ2YwMS1nSzA4NzNmYWQyDQpGcm9tOiA8c2lwOjIxMzQ1NTgzMjZAMjA4Ljg1LjE4NC40
+Mj47dGFnPTM0NzQ4MTYxNzktNzEzMzQyDQpDYWxsLUlEOiBTRHN0M2dmMDEtZDA5NGNlOTljYjFl
+NTQzZjEzNGQ2YjkwMzQxNjk1OTUtdjMwMDBpMQ0KQ1NlcTogMyBCWUUNCkFsbG93OiBJTlZJVEUs
+IEJZRSwgT1BUSU9OUywgQ0FOQ0VMLCBBQ0ssIFJFR0lTVEVSLCBOT1RJRlksIElORk8sIFJFRkVS
+LCBTVUJTQ1JJQkUsIFBSQUNLLCBVUERBVEUNClZpYTogU0lQLzIuMC9VRFAgMjA4Ljg1LjE4NC40
+Mjo1MDYwO2JyYW5jaD16OWhHNGJLNTM0ZjUxOTFjNWJiOGE4NjdjN2U1NzRmZDljZmY4NjENCkNv
+bnRhY3Q6IDxzaXA6MjEzNDU1ODMyNkAyMDguODUuMTg0LjQyOjUwNjA+DQpDb250ZW50LUxlbmd0
+aDogMA0KDQp2/nJLc70HAHQBAAB0AQAAAAAAAQAGACOcE2EAAAAIAEUAAWQAAAAAeBEIdUMQbYTQ
+VbgqE8QTxAFQDtNTSVAvMi4wIDIwMCBPSw0KVG86IDxzaXA6MzEwMzUwMjExOUA2Ny4xNi4xMDku
+MTMyO2lzdXAtb2xpPTYxPjt0YWc9U0RzdDNnZjAxLWdLMDg3M2ZhZDINCkZyb206IDxzaXA6MjEz
+NDU1ODMyNkAyMDguODUuMTg0LjQyPjt0YWc9MzQ3NDgxNjE3OS03MTMzNDINCkNhbGwtSUQ6IFNE
+c3QzZ2YwMS1kMDk0Y2U5OWNiMWU1NDNmMTM0ZDZiOTAzNDE2OTU5NS12MzAwMGkxDQpDU2VxOiAz
+IEJZRQ0KVmlhOiBTSVAvMi4wL1VEUCAyMDguODUuMTg0LjQyOjUwNjA7YnJhbmNoPXo5aEc0Yks1
+MzRmNTE5MWM1YmI4YTg2N2M3ZTU3NGZkOWNmZjg2MQ0KQ29udGVudC1MZW5ndGg6IDANCg0Kdv5y
+S0bBBwAAAgAAAAIAAAAEAAEABgAbIQLN4QAACABFAAHwRpJAAEAGfZnAqIcoCs8iPadPE8RhkYaj
+SzVZIYAYIhVJaAAAAQEICpbLORoD1nbsU0lQLzIuMCAyMDAgT0sNClZpYTogU0lQLzIuMC9UQ1Ag
+MTAuMjA3LjM0LjYxOjUwNjA7YnJhbmNoPXo5aEc0YksyNTk0NDIwDQpUbzogPHNpcDozMTAzNTAy
+MTE5QDE5Mi4xNjguMTM1LjQwPjt0YWc9MzQ3NDgxNjE3OS02MjcxMjENCkZyb206IDxzaXA6MjEz
+NDU1ODMyNkAxOTIuMTY4LjEzNS40MDo1MDYwPjt0YWc9YjVhYzUzZjYzYg0KQ2FsbC1JRDogNTM4
+OTQ1NzAtMzQ3NDgxNjE3OS02MjcxMTNAc2cxLWxheC55b3Vydm9pcC5uZXQNCkNTZXE6IDIgQllF
+DQpBbGxvdzogSU5WSVRFLCBCWUUsIE9QVElPTlMsIENBTkNFTCwgQUNLLCBSRUdJU1RFUiwgTk9U
+SUZZLCBJTkZPLCBSRUZFUiwgU1VCU0NSSUJFLCBQUkFDSywgVVBEQVRFDQpDb250YWN0OiA8c2lw
+OjMxMDM1MDIxMTlAMTkyLjE2OC4xMzUuNDA6NTA2MDt0cmFuc3BvcnQ9VENQPg0KQ29udGVudC1M
+ZW5ndGg6IDANCg0K
+--00235479075ce04e34047f6713e4--
+
+From keith.drage@alcatel-lucent.com  Fri Feb 12 05:15:29 2010
+Return-Path: <keith.drage@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id BBD3128C187 for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:15:29 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.126
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.126 tagged_above=-999 required=5 tests=[AWL=-1.877, BAYES_00=-2.599, HELO_EQ_FR=0.35]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6-3s60+sX-B8 for <sip@core3.amsl.com>; Fri, 12 Feb 2010 05:15:29 -0800 (PST)
+Received: from smail2.alcatel.fr (smail2.alcatel.fr [64.208.49.57]) by core3.amsl.com (Postfix) with ESMTP id 961E53A70E2 for <sip@ietf.org>; Fri, 12 Feb 2010 05:15:28 -0800 (PST)
+Received: from FRMRSSXCHHUB01.dc-m.alcatel-lucent.com (FRMRSSXCHHUB01.dc-m.alcatel-lucent.com [135.120.45.61]) by smail2.alcatel.fr (8.14.3/8.14.3/ICT) with ESMTP id o1CDGfJL007384 (version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT); Fri, 12 Feb 2010 14:16:43 +0100
+Received: from FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com ([135.120.45.44]) by FRMRSSXCHHUB01.dc-m.alcatel-lucent.com ([135.120.45.61]) with mapi; Fri, 12 Feb 2010 14:16:22 +0100
+From: "DRAGE, Keith (Keith)" <keith.drage@alcatel-lucent.com>
+To: aayush bhatnagar <abhatnagar192006@gmail.com>, Nitin Kapoor <nitinkapoorr@gmail.com>
+Date: Fri, 12 Feb 2010 14:16:21 +0100
+Thread-Topic: [Sip] TCP to UDP rtcp media attributes in SDP not passing through nextone
+Thread-Index: Acqr5S5Syh2jC/T9T8OitMk1y32ajgAAD2rw
+Message-ID: <EDC0A1AE77C57744B664A310A0B23AE20AFB8C32@FRMRSSXCHMBSC3.dc-m.alcatel-lucent.com>
+References: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com> <c80c92d1002120437l35adde35hd5e865ba1d3b2354@mail.gmail.com> <abcc59881002120512l41572f59pd8f3570ebe774c69@mail.gmail.com>
+In-Reply-To: <abcc59881002120512l41572f59pd8f3570ebe774c69@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 2.64 on 155.132.188.80
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] TCP to UDP rtcp media attributes in SDP not passing	through nextone
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 13:15:29 -0000
+
+If you are going to do this, please respect the size limits on posting. Oth=
+erwise put on a website and send a link, or send directly.
+
+regards
+
+Keith=20
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On=20
+> Behalf Of aayush bhatnagar
+> Sent: Friday, February 12, 2010 1:13 PM
+> To: Nitin Kapoor
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] TCP to UDP rtcp media attributes in SDP=20
+> not passing through nextone
+>=20
+> Can you paste wireshark logs for both ends of the SBC?
+>=20
+> On 12/02/2010, Nitin Kapoor <nitinkapoorr@gmail.com> wrote:
+> > Dear Friend,
+> >
+> > I have some query about UDP & TCP for signaling.
+> >
+> > Basically I am using TCP protocol for signaling from my customer to=20
+> > SBC and then SBC to Vendor using UDP for signaling. I mean=20
+> CS user TCP=20
+> > to SBC, UDP to carrier.  And OCS sends initial 183 with sdp that=20
+> > contains rtcp media attribute information and SBC does not=20
+> forward formation to carrier via UDP.
+> >
+> >
+> > Call Flow is like this.
+> >
+> > UAC (Private)                    SBC
+> > UAS(Public)
+> >
+> > |-----------Invite(TCP)---------->
+> > |                                                       |
+> > |
+> > |                                                       |
+> > |<-------- 100 Trying ------------ |
+> >                                           |
+> > |                                        | ----------- Invite
+> > (UDP)----------------------->|
+> > |
+> > |                                                       |
+> > |                                        |<--------- 100 Trying
+> > ---------------------------|
+> > |
+> > |                                                       |
+> >                                          | <---- 183 SDP Session
+> > Progress-------|
+> > |                                        |(183 SDP with RTCP Media
+> >     |
+> > |                                        |Attribute).
+> >                                        |
+> > |<--------- 183 SDP -------------
+> > |
+> > |
+> > | 183 SDP Session
+> > progress|                                                       |
+> > | Without RTCP Media         |
+> >                                                |
+> > |Attribute
+> > |                                                       |
+> > |
+> > |                                                       |
+> > |
+> > |                                                       |
+> > |
+> > |                                                       |
+> >
+> > Could anyone please help me out on this scenario. Why it=92s=20
+> not sending=20
+> > the RTCP attribute to my UAC? Is there anything related to standard.
+> >
+> > I can share the Traces, if its required.
+> >
+> > Thanks,
+> > Nitin Kapoor
+> >
+>=20
+>=20
+> --
+> aayush
+> http://in.linkedin.com/in/abhatnagar19
+> =3D=3D=3D=3D=3D=3D
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol Use=20
+> sip-implementors@cs.columbia.edu for questions on current sip=20
+> Use sipping@ietf.org for new developments on the application of sip
+> =
+
+From nitinkapoorr@gmail.com  Fri Feb 12 07:21:25 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 95F4C28B23E for <sip@core3.amsl.com>; Fri, 12 Feb 2010 07:21:25 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.114
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.114 tagged_above=-999 required=5 tests=[AWL=1.484,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1Vl-bWXvKdm7 for <sip@core3.amsl.com>; Fri, 12 Feb 2010 07:21:23 -0800 (PST)
+Received: from mail-qy0-f183.google.com (mail-qy0-f183.google.com [209.85.221.183]) by core3.amsl.com (Postfix) with ESMTP id D637F28C153 for <sip@ietf.org>; Fri, 12 Feb 2010 07:21:22 -0800 (PST)
+Received: by qyk13 with SMTP id 13so1363223qyk.31 for <sip@ietf.org>; Fri, 12 Feb 2010 07:22:37 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=OwwZIVPbGxR06e9SNdF4N7CX3FHJVOTiWWvH35GxXng=; b=wNmZS7aOMBvkfgYwRkfQjXVScA6eDQCnFcVy8RhBvQdl/DxWXYBhAbhrEMES8rTInu eheB0mXEA7DC2WUoRYy90EAGEi1OMwOGs4wlUkzdOOXY78FQLMYZRbgAlrcjfoH0vM2f rfEBmRid0XK+e4GWSFdcDq3dS76sheijNvzos=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=T9TFbmrfOxmJ3a0wUFcEvnj2mIX2m1RX3VvWQak5Sbye54yXVydsvFYvLrVf99sHAa GJ3N6LqEXugMTvjaI5TOSMw9yz9noqRdohVkQdo3vc//uhqdZGQCi8uVUR2Ob01afNWE +nhrH8Me/ychmDLacn8R9u3wNz+O9QKS9W/y4=
+MIME-Version: 1.0
+Received: by 10.229.128.219 with SMTP id l27mr646221qcs.26.1265988157252; Fri,  12 Feb 2010 07:22:37 -0800 (PST)
+In-Reply-To: <c80c92d1002120516l4597a5d5p732b3b2671c8c872@mail.gmail.com>
+References: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com> <c80c92d1002120437l35adde35hd5e865ba1d3b2354@mail.gmail.com> <abcc59881002120512l41572f59pd8f3570ebe774c69@mail.gmail.com> <c80c92d1002120516l4597a5d5p732b3b2671c8c872@mail.gmail.com>
+Date: Fri, 12 Feb 2010 10:22:37 -0500
+Message-ID: <c80c92d1002120722v4f93f9e8yeb93ca465ea3ef7f@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=001517577412672601047f68d6d3
+Cc: sip-implementors@lists.cs.columbia.edu
+Subject: Re: [Sip] TCP to UDP rtcp media attributes in SDP not passing through nextone
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 15:21:26 -0000
+
+--001517577412672601047f68d6d3
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Could any please help me out on this.
+
+Thanks,
+Nitin Kapoor
+
+On 12 February 2010 08:16, Nitin Kapoor <nitinkapoorr@gmail.com> wrote:
+
+> Aayush,
+>
+> Please find the attached Traces for both legs.
+>
+> Thanks,
+> Nitin Kapoor
+>
+>
+> On 12 February 2010 08:12, aayush bhatnagar <abhatnagar192006@gmail.com>w=
+rote:
+>
+>> Can you paste wireshark logs for both ends of the SBC?
+>>
+>> On 12/02/2010, Nitin Kapoor <nitinkapoorr@gmail.com> wrote:
+>> > Dear Friend,
+>> >
+>> > I have some query about UDP & TCP for signaling.
+>> >
+>> > Basically I am using TCP protocol for signaling from my customer to SB=
+C
+>> and
+>> > then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC,
+>> UDP
+>> > to carrier.  And OCS sends initial 183 with sdp that contains rtcp med=
+ia
+>> > attribute information and SBC does not forward formation to carrier vi=
+a
+>> UDP.
+>> >
+>> >
+>> > Call Flow is like this.
+>> >
+>> > UAC (Private)                    SBC
+>> > UAS(Public)
+>> >
+>> > |-----------Invite(TCP)---------->
+>> > |                                                       |
+>> > |
+>> > |                                                       |
+>> > |<-------- 100 Trying ------------ |
+>> >                                           |
+>> > |                                        | ----------- Invite
+>> > (UDP)----------------------->|
+>> > |
+>> > |                                                       |
+>> > |                                        |<--------- 100 Trying
+>> > ---------------------------|
+>> > |
+>> > |                                                       |
+>> >                                          | <---- 183 SDP Session
+>> > Progress-------|
+>> > |                                        |(183 SDP with RTCP Media
+>> >     |
+>> > |                                        |Attribute).
+>> >                                        |
+>> > |<--------- 183 SDP -------------
+>> > |
+>> > |
+>> > | 183 SDP Session
+>> > progress|                                                       |
+>> > | Without RTCP Media         |
+>> >                                                |
+>> > |Attribute
+>> > |                                                       |
+>> > |
+>> > |                                                       |
+>> > |
+>> > |                                                       |
+>> > |
+>> > |                                                       |
+>> >
+>> > Could anyone please help me out on this scenario. Why it=92s not sendi=
+ng
+>> the
+>> > RTCP attribute to my UAC? Is there anything related to standard.
+>> >
+>> > I can share the Traces, if its required.
+>> >
+>> > Thanks,
+>> > Nitin Kapoor
+>> >
+>>
+>>
+>> --
+>> aayush
+>> http://in.linkedin.com/in/abhatnagar19
+>> =3D=3D=3D=3D=3D=3D
+>>
+>
+>
+
+--001517577412672601047f68d6d3
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Could any please help me out on this.<br><br>Thanks,<br>Nitin Kapoor<br><br=
+><div class=3D"gmail_quote">On 12 February 2010 08:16, Nitin Kapoor <span d=
+ir=3D"ltr">&lt;<a href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail=
+.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Aayush,<br><br>Pl=
+ease find the attached Traces for both legs.<br><br>Thanks,<br><font color=
+=3D"#888888">Nitin Kapoor</font><div>
+<div></div><div class=3D"h5"><br><br><div class=3D"gmail_quote">On 12 Febru=
+ary 2010 08:12, aayush bhatnagar <span dir=3D"ltr">&lt;<a href=3D"mailto:ab=
+hatnagar192006@gmail.com" target=3D"_blank">abhatnagar192006@gmail.com</a>&=
+gt;</span> wrote:<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; borde=
+r-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Can you paste wir=
+eshark logs for both ends of the SBC?<br>
+<div><div></div><div><br>
+On 12/02/2010, Nitin Kapoor &lt;<a href=3D"mailto:nitinkapoorr@gmail.com" t=
+arget=3D"_blank">nitinkapoorr@gmail.com</a>&gt; wrote:<br>
+&gt; Dear Friend,<br>
+&gt;<br>
+&gt; I have some query about UDP &amp; TCP for signaling.<br>
+&gt;<br>
+&gt; Basically I am using TCP protocol for signaling from my customer to SB=
+C and<br>
+&gt; then SBC to Vendor using UDP for signaling. I mean CS user TCP to SBC,=
+ UDP<br>
+&gt; to carrier. =A0And OCS sends initial 183 with sdp that contains rtcp m=
+edia<br>
+&gt; attribute information and SBC does not forward formation to carrier vi=
+a UDP.<br>
+&gt;<br>
+&gt;<br>
+&gt; Call Flow is like this.<br>
+&gt;<br>
+&gt; UAC (Private) =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0SBC<br>
+&gt; UAS(Public)<br>
+&gt;<br>
+&gt; |-----------Invite(TCP)----------&gt;<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |&lt;-------- 100 Trying ------------ |<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0| ----------- Invite<br>
+&gt; (UDP)-----------------------&gt;|<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|&lt;--------- 100 Trying<br>
+&gt; ---------------------------|<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0| &lt;---- 183 SDP Session<br>
+&gt; Progress-------|<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|(183 SDP with RTCP Media<br>
+&gt; =A0 =A0 |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|Attribute).<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0|<br>
+&gt; |&lt;--------- 183 SDP -------------<br>
+&gt; |<br>
+&gt; |<br>
+&gt; | 183 SDP Session<br>
+&gt; progress| =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; | Without RTCP Media =A0 =A0 =A0 =A0 |<br>
+&gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0|<br>
+&gt; |Attribute<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt; |<br>
+&gt; | =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 |<br>
+&gt;<br>
+&gt; Could anyone please help me out on this scenario. Why it=92s not sendi=
+ng the<br>
+&gt; RTCP attribute to my UAC? Is there anything related to standard.<br>
+&gt;<br>
+&gt; I can share the Traces, if its required.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt;<br>
+<br>
+<br>
+</div></div><font color=3D"#888888">--<br>
+aayush<br>
+<a href=3D"http://in.linkedin.com/in/abhatnagar19" target=3D"_blank">http:/=
+/in.linkedin.com/in/abhatnagar19</a><br>
+=3D=3D=3D=3D=3D=3D<br>
+</font></blockquote></div><br>
+</div></div></blockquote></div><br>
+
+--001517577412672601047f68d6d3--
+
+From adam@nostrum.com  Fri Feb 12 07:53:10 2010
+Return-Path: <adam@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 73D8928C1BC for <sip@core3.amsl.com>; Fri, 12 Feb 2010 07:53:10 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.571
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.571 tagged_above=-999 required=5 tests=[AWL=0.028,  BAYES_00=-2.599, HTML_MESSAGE=0.001, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id YlqzapkVhMIz for <sip@core3.amsl.com>; Fri, 12 Feb 2010 07:53:09 -0800 (PST)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 353693A78CA for <sip@ietf.org>; Fri, 12 Feb 2010 07:53:06 -0800 (PST)
+Received: from hydra-3.local (ppp-70-249-147-216.dsl.rcsntx.swbell.net [70.249.147.216]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id o1CFsKMe012964 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Fri, 12 Feb 2010 09:54:20 -0600 (CST) (envelope-from adam@nostrum.com)
+Message-ID: <4B7579AC.2000706@nostrum.com>
+Date: Fri, 12 Feb 2010 09:54:20 -0600
+From: Adam Roach <adam@nostrum.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.7) Gecko/20100111 Thunderbird/3.0.1
+MIME-Version: 1.0
+To: Nitin Kapoor <nitinkapoorr@gmail.com>
+References: <c80c92d1002120433y102bfa24p6bcd2cd2bee42a87@mail.gmail.com>	<c80c92d1002120437l35adde35hd5e865ba1d3b2354@mail.gmail.com>	<abcc59881002120512l41572f59pd8f3570ebe774c69@mail.gmail.com> <c80c92d1002120516l4597a5d5p732b3b2671c8c872@mail.gmail.com>
+In-Reply-To: <c80c92d1002120516l4597a5d5p732b3b2671c8c872@mail.gmail.com>
+Content-Type: multipart/alternative; boundary="------------010005020407010109000001"
+Received-SPF: pass (nostrum.com: 70.249.147.216 is authenticated by a trusted mechanism)
+Cc: sip@ietf.org
+Subject: Re: [Sip] TCP to UDP rtcp media attributes in SDP not passing	through nextone
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 15:53:10 -0000
+
+This is a multi-part message in MIME format.
+--------------010005020407010109000001
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+
+At the bottom of every mail on this email list -- including the ones 
+that you're sending -- you'll find the following helpful information:
+
+This list is for NEW development of the core SIP Protocol
+Usesip-implementors@cs.columbia.edu  for questions on current sip
+
+
+Please respect the designated purposes of these mailing lists. Thank you.
+
+/a
+
+
+On 2/12/10 07:16, Feb 12, Nitin Kapoor wrote:
+> Aayush,
+>
+> Please find the attached Traces for both legs.
+>
+> Thanks,
+> Nitin Kapoor
+>
+> On 12 February 2010 08:12, aayush bhatnagar 
+> <abhatnagar192006@gmail.com <mailto:abhatnagar192006@gmail.com>> wrote:
+>
+>     Can you paste wireshark logs for both ends of the SBC?
+>
+>     On 12/02/2010, Nitin Kapoor <nitinkapoorr@gmail.com
+>     <mailto:nitinkapoorr@gmail.com>> wrote:
+>     > Dear Friend,
+>     >
+>     > I have some query about UDP & TCP for signaling.
+>     >
+>     > Basically I am using TCP protocol for signaling from my customer
+>     to SBC and
+>     > then SBC to Vendor using UDP for signaling. I mean CS user TCP
+>     to SBC, UDP
+>     > to carrier.  And OCS sends initial 183 with sdp that contains
+>     rtcp media
+>     > attribute information and SBC does not forward formation to
+>     carrier via UDP.
+>     >
+>     >
+>     > Call Flow is like this.
+>     >
+>     > UAC (Private)                    SBC
+>     > UAS(Public)
+>     >
+>     > |-----------Invite(TCP)---------->
+>     > |                                                       |
+>     > |
+>     > |                                                       |
+>     > |<-------- 100 Trying ------------ |
+>     >                                           |
+>     > |                                        | ----------- Invite
+>     > (UDP)----------------------->|
+>     > |
+>     > |                                                       |
+>     > |                                        |<--------- 100 Trying
+>     > ---------------------------|
+>     > |
+>     > |                                                       |
+>     >                                          | <---- 183 SDP Session
+>     > Progress-------|
+>     > |                                        |(183 SDP with RTCP Media
+>     >     |
+>     > |                                        |Attribute).
+>     >                                        |
+>     > |<--------- 183 SDP -------------
+>     > |
+>     > |
+>     > | 183 SDP Session
+>     > progress|                                                       |
+>     > | Without RTCP Media         |
+>     >                                                |
+>     > |Attribute
+>     > |                                                       |
+>     > |
+>     > |                                                       |
+>     > |
+>     > |                                                       |
+>     > |
+>     > |                                                       |
+>     >
+>     > Could anyone please help me out on this scenario. Why it’s not
+>     sending the
+>     > RTCP attribute to my UAC? Is there anything related to standard.
+>     >
+>     > I can share the Traces, if its required.
+>     >
+>     > Thanks,
+>     > Nitin Kapoor
+>     >
+>
+>
+>     --
+>     aayush
+>     http://in.linkedin.com/in/abhatnagar19
+>     ======
+>
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+
+--------------010005020407010109000001
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=windows-1252"
+ http-equiv="Content-Type">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+At the bottom of every mail on this email list -- including the ones
+that you're sending -- you'll find the following helpful information:<br>
+<br>
+<pre wrap="">This list is for NEW development of the core SIP Protocol
+Use <a class="moz-txt-link-abbreviated"
+ href="mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.columbia.edu</a> for questions on current sip
+</pre>
+<br>
+Please respect the designated purposes of these mailing lists. Thank
+you.<br>
+<br>
+/a<br>
+<br>
+<br>
+On 2/12/10 07:16, Feb 12, Nitin Kapoor wrote:
+<blockquote
+ cite="mid:c80c92d1002120516l4597a5d5p732b3b2671c8c872@mail.gmail.com"
+ type="cite">Aayush,<br>
+  <br>
+Please find the attached Traces for both legs.<br>
+  <br>
+Thanks,<br>
+Nitin Kapoor<br>
+  <br>
+  <div class="gmail_quote">On 12 February 2010 08:12, aayush bhatnagar <span
+ dir="ltr">&lt;<a moz-do-not-send="true"
+ href="mailto:abhatnagar192006@gmail.com">abhatnagar192006@gmail.com</a>&gt;</span>
+wrote:<br>
+  <blockquote class="gmail_quote"
+ style="border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">Can
+you paste wireshark logs for both ends of the SBC?<br>
+    <div>
+    <div class="h5"><br>
+On 12/02/2010, Nitin Kapoor &lt;<a moz-do-not-send="true"
+ href="mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail.com</a>&gt;
+wrote:<br>
+&gt; Dear Friend,<br>
+&gt;<br>
+&gt; I have some query about UDP &amp; TCP for signaling.<br>
+&gt;<br>
+&gt; Basically I am using TCP protocol for signaling from my customer
+to SBC and<br>
+&gt; then SBC to Vendor using UDP for signaling. I mean CS user TCP to
+SBC, UDP<br>
+&gt; to carrier.  And OCS sends initial 183 with sdp that contains rtcp
+media<br>
+&gt; attribute information and SBC does not forward formation to
+carrier via UDP.<br>
+&gt;<br>
+&gt;<br>
+&gt; Call Flow is like this.<br>
+&gt;<br>
+&gt; UAC (Private)                    SBC<br>
+&gt; UAS(Public)<br>
+&gt;<br>
+&gt; |-----------Invite(TCP)----------&gt;<br>
+&gt; |                                                       |<br>
+&gt; |<br>
+&gt; |                                                       |<br>
+&gt; |&lt;-------- 100 Trying ------------ |<br>
+&gt;                                           |<br>
+&gt; |                                        | ----------- Invite<br>
+&gt; (UDP)-----------------------&gt;|<br>
+&gt; |<br>
+&gt; |                                                       |<br>
+&gt; |                                        |&lt;--------- 100 Trying<br>
+&gt; ---------------------------|<br>
+&gt; |<br>
+&gt; |                                                       |<br>
+&gt;                                          | &lt;---- 183 SDP Session<br>
+&gt; Progress-------|<br>
+&gt; |                                        |(183 SDP with RTCP Media<br>
+&gt;     |<br>
+&gt; |                                        |Attribute).<br>
+&gt;                                        |<br>
+&gt; |&lt;--------- 183 SDP -------------<br>
+&gt; |<br>
+&gt; |<br>
+&gt; | 183 SDP Session<br>
+&gt; progress|                                                       |<br>
+&gt; | Without RTCP Media         |<br>
+&gt;                                                |<br>
+&gt; |Attribute<br>
+&gt; |                                                       |<br>
+&gt; |<br>
+&gt; |                                                       |<br>
+&gt; |<br>
+&gt; |                                                       |<br>
+&gt; |<br>
+&gt; |                                                       |<br>
+&gt;<br>
+&gt; Could anyone please help me out on this scenario. Why it’s not
+sending the<br>
+&gt; RTCP attribute to my UAC? Is there anything related to standard.<br>
+&gt;<br>
+&gt; I can share the Traces, if its required.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt;<br>
+    <br>
+    <br>
+    </div>
+    </div>
+    <font color="#888888">--<br>
+aayush<br>
+    <a moz-do-not-send="true"
+ href="http://in.linkedin.com/in/abhatnagar19" target="_blank">http://in.linkedin.com/in/abhatnagar19</a><br>
+======<br>
+    </font></blockquote>
+  </div>
+  <br>
+  <pre wrap="">
+<fieldset class="mimeAttachmentHeader"></fieldset>
+_______________________________________________
+Sip mailing list  <a class="moz-txt-link-freetext" href="https://www.ietf.org/mailman/listinfo/sip">https://www.ietf.org/mailman/listinfo/sip</a>
+This list is for NEW development of the core SIP Protocol
+Use <a class="moz-txt-link-abbreviated" href="mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.columbia.edu</a> for questions on current sip
+Use <a class="moz-txt-link-abbreviated" href="mailto:sipping@ietf.org">sipping@ietf.org</a> for new developments on the application of sip</pre>
+</blockquote>
+<br>
+</body>
+</html>
+
+--------------010005020407010109000001--
+
+From dean.willis@softarmor.com  Fri Feb 12 15:49:35 2010
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 1040228C211 for <sip@core3.amsl.com>; Fri, 12 Feb 2010 15:49:35 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.546
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.546 tagged_above=-999 required=5 tests=[AWL=0.053,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8fykOU7+Zb0P for <sip@core3.amsl.com>; Fri, 12 Feb 2010 15:49:34 -0800 (PST)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 4B00328C1C2 for <sip@ietf.org>; Fri, 12 Feb 2010 15:49:34 -0800 (PST)
+Received: from [192.168.2.102] (cpe-66-25-30-183.tx.res.rr.com [66.25.30.183]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id o1CNoq2Q005592 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT) for <sip@ietf.org>; Fri, 12 Feb 2010 17:50:54 -0600
+Message-Id: <6CBA0696-B388-4063-B6E6-C1C23191899B@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Fri, 12 Feb 2010 17:50:47 -0600
+X-Mailer: Apple Mail (2.936)
+Subject: [Sip] Test, revised message footer
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 12 Feb 2010 23:49:35 -0000
+
+Adam asked that I update the default message footer to reflect SIPCORE  
+and DISPATCH. Let's see if it worked.
+
+--
+Dean
+
+From wwwrun@rfc-editor.org  Wed Feb 24 20:30:03 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 282443A8621 for <sip@core3.amsl.com>; Wed, 24 Feb 2010 20:30:03 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.538
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.538 tagged_above=-999 required=5 tests=[AWL=0.062,  BAYES_00=-2.599, NO_RELAYS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tAwkve5-NPSx for <sip@core3.amsl.com>; Wed, 24 Feb 2010 20:30:02 -0800 (PST)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 07DA03A861F for <sip@ietf.org>; Wed, 24 Feb 2010 20:30:02 -0800 (PST)
+Received: by rfc-editor.org (Postfix, from userid 30) id 58BAC130001; Wed, 24 Feb 2010 20:32:11 -0800 (PST)
+To: jdrosen@dynamicsoft.com, schulzrinne@cs.columbia.edu, Gonzalo.Camarillo@ericsson.com, alan.johnston@wcom.com, jon.peterson@neustar.com, rsparks@dynamicsoft.com, mjh@icir.org, schooler@research.att.com, rjsparks@nostrum.com, fluffy@cisco.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100225043211.58BAC130001@rfc-editor.org>
+Date: Wed, 24 Feb 2010 20:32:11 -0800 (PST)
+Cc: fluffy@cisco.com, sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC3261 (2051)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 25 Feb 2010 04:30:03 -0000
+
+The following errata report has been submitted for RFC3261,
+"SIP: Session Initiation Protocol".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=3261&eid=2051
+
+--------------------------------------
+Type: Editorial
+Reported by: Cullen Jennings <fluffy@cisco.com>
+
+Section: 26.3.1
+
+Original Text
+-------------
+   Proxy servers, redirect
+   servers, and registrars SHOULD possess a site certificate whose
+   subject corresponds to their canonical hostname. 
+
+Corrected Text
+--------------
+   Proxy servers, redirect
+   servers, and registrars SHOULD possess a site certificate whose
+   subject corresponds to the DNS name other SIP devices will use to reach them. 
+
+Notes
+-----
+The term hostname seemed to make some people think if you had two sip servers for the domain example.com with hostnames host1 and host2, the the cert should have host1.example.com when in fact the sip signaling always used exmaple.com and the cert should have a example.com as the name.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC3261 (draft-ietf-sip-rfc2543bis-09)
+--------------------------------------
+Title               : SIP: Session Initiation Protocol
+Publication Date    : June 2002
+Author(s)           : J. Rosenberg, H. Schulzrinne, G. Camarillo, A. Johnston, J. Peterson, R. Sparks, M. Handley, E. Schooler
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From root@core3.amsl.com  Thu Feb 25 13:00:02 2010
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 0C28A3A8497; Thu, 25 Feb 2010 13:00:01 -0800 (PST)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20100225210002.0C28A3A8497@core3.amsl.com>
+Date: Thu, 25 Feb 2010 13:00:02 -0800 (PST)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-session-policy-framework-07.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 25 Feb 2010 21:00:02 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : A Framework for Session Initiation Protocol (SIP) Session Policies
+	Author(s)       : V. Hilt, et al.
+	Filename        : draft-ietf-sip-session-policy-framework-07.txt
+	Pages           : 37
+	Date            : 2010-02-25
+
+Proxy servers play a central role as an intermediary in the Session
+Initiation Protocol (SIP) as they define and impact policies on call
+routing, rendezvous, and other call features.  This document
+specifies a framework for SIP session policies that provides a
+standard mechanism by which a proxy can define or influence policies
+on sessions, such as the codecs or media types to be used.  It
+defines a model, an overall architecture and new protocol mechanisms
+for session policies.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-session-policy-framework-07.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-session-policy-framework-07.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2010-02-25125218.I-D@ietf.org>
+
+
+--NextPart--
+
+From elison.niven@matrixtelesol.com  Fri Feb 26 00:55:47 2010
+Return-Path: <elison.niven@matrixtelesol.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2BB5C3A84FD for <sip@core3.amsl.com>; Fri, 26 Feb 2010 00:55:47 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.24
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.24 tagged_above=-999 required=5 tests=[BAYES_50=0.001, HOST_EQ_STATIC=1.172, RCVD_NUMERIC_HELO=2.067]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 3j3MbN2Oiqik for <sip@core3.amsl.com>; Fri, 26 Feb 2010 00:55:46 -0800 (PST)
+Received: from UrlSunMail2.dellwebserver.com (34.27.354a.static.theplanet.com [74.53.39.52]) by core3.amsl.com (Postfix) with ESMTP id 46CF23A7B03 for <sip@ietf.org>; Fri, 26 Feb 2010 00:55:46 -0800 (PST)
+Received: from 115.118.161.162.static-ttsl-hyderabad.vsnl.net.in [115.118.161.162] by UrlSunMail2.dellwebserver.com with SMTP;  Fri, 26 Feb 2010 02:57:46 -0600
+Received: from Internet10 [192.168.50.52] by Proxy+ with ESMTP for <sip@ietf.org>; Fri, 26 Feb 2010 14:20:45 +0530
+From: "Elison Niven" <elison.niven@matrixtelesol.com>
+To: <sip@ietf.org>
+Date: Fri, 26 Feb 2010 14:22:35 +0530
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: Acq2wQpdXdt1KNGqThqAcwL/LnWZFQ==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+X-Cyberoam-Version: 9.5.8.52
+X-Cyberoam-smtpxy-version: 1.0.5.3
+X-Cyberoam-Proto: SMTP
+X-Cyberoam-AV-Policy: None
+X-Cyberoam-AS-Policy: Global Spam Policy
+Message-Id: <20100226085546.46CF23A7B03@core3.amsl.com>
+X-Mailman-Approved-At: Sun, 28 Feb 2010 19:19:01 -0800
+Subject: [Sip] G723.1H and G723.1L SDP negotiation
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 26 Feb 2010 10:04:52 -0000
+
+I apologize for posting to this list as I already posted this on SIP
+implementers list but somehow this seems to be the better place to ask.
+
+Hi List,
+
+I know this has been discussed and asked a lot of times in the past but
+still I find no affirmative solution.
+
+For a UA that supports both G7231-H and G7231-L, SHOULD it specify both the
+codecs in the offer that it sends?
+
+If the UA is willing to specify both the codecs in the offer that it sends
+(because it specifies two different codecs in its user interface), what
+should be the method of specifying the codecs in the SDP body?
+
+I find two possible ways of specifying both the codecs in the offer:
+
+Case 1: Both codecs use different payload types, one of them uses a dynamic
+payload type.
+		
+		m = audio 8000 RTP/AVP 4 97
+            m = rtpmap:4 G723/8000
+            m = fmtpmap:4 bitrate=5.3
+            m = rtpmap:97 G723/8000
+            m = fmtpmap:97 bitrate=6.3
+
+Case 2: Both codecs use the same static payload type.
+
+		m = audio 8000 RTP/AVP 4 4
+            m = rtpmap:4 G723/8000
+            m = fmtpmap:4 bitrate=5.3
+            m = rtpmap:4 G723/8000
+            m = fmtpmap:4 bitrate=6.3
+
+Which of the above SDP offers seems valid?
+
+Suppose I receive an answer from UA2 to the offer in Case 1 as:
+
+		m = audio 8000 RTP/AVP 4
+            m = rtpmap:4 G723/8000
+            m = fmtpmap:4 bitrate=5.3
+
+What should be the payload of the packets that UA2 sends? Should it be 4 or
+97?
+
+Best Regards,
+Elison
+
+
+
+

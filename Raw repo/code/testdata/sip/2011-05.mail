@@ -1,0 +1,523 @@
+
+From shivalk_80@yahoo.co.in  Mon May 30 02:22:16 2011
+Return-Path: <shivalk_80@yahoo.co.in>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 48EBDE0771 for <sip@ietfa.amsl.com>; Mon, 30 May 2011 02:22:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.602
+X-Spam-Level: 
+X-Spam-Status: No, score=0.602 tagged_above=-999 required=5 tests=[BAYES_50=0.001, HTML_MESSAGE=0.001, J_CHICKENPOX_42=0.6]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Ir31sK3W+BTu for <sip@ietfa.amsl.com>; Mon, 30 May 2011 02:22:15 -0700 (PDT)
+Received: from nm1.bullet.mail.in.yahoo.com (nm1.bullet.mail.in.yahoo.com [121.101.151.239]) by ietfa.amsl.com (Postfix) with SMTP id 03DDCE06AE for <sip@ietf.org>; Mon, 30 May 2011 02:22:14 -0700 (PDT)
+Received: from [121.101.151.238] by nm1.bullet.mail.in.yahoo.com with NNFMP; 30 May 2011 09:22:13 -0000
+Received: from [121.101.151.235] by tm3.bullet.mail.in.yahoo.com with NNFMP; 30 May 2011 09:22:59 -0000
+Received: from [127.0.0.1] by omp1004.mail.in.yahoo.com with NNFMP; 30 May 2011 09:22:13 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 851342.98945.bm@omp1004.mail.in.yahoo.com
+Received: (qmail 63077 invoked by uid 60001); 30 May 2011 09:22:13 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.co.in; s=s1024; t=1306747333; bh=MQzGjYAJYUidjVhI7g3C1xJ97d0YynwIxS6fPSZ8E6w=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:MIME-Version:Content-Type; b=1JADpBWY2+FqxD07XYMe3IIeBYt8bpWaoF6EB3FttGdwXX+LF2yzQhSwRjaHoaRXpnTjbJ5UvQzVaKk+e8HIqtZnnpIjlOu5FNwzjpnebFDXX6dqB5mrV9crqkKFFlrzeICmLAZ3wxxOEKah7S9dk9Xu/oUZoaTRLjCSPkJ+WoE=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.co.in; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:MIME-Version:Content-Type; b=W7EK3gK+7RiOy2cqpnQQ+9x4/B3Fl9ldh3rfYxQDLyBey3R6UzgPezMLV2zBH3wkhNAmgf1hIfJKg5yLfL9Sd30rU1cKo8fCmftBuxYPg4NH16Erot8xcB4A+Xf/4DIipjcDsdFTqHBXvJIUhdj1L4RaVmmlQXMiZpnsExHkghw=;
+Message-ID: <677679.62685.qm@web94808.mail.in2.yahoo.com>
+X-YMail-OSG: sFCqBLMVM1nRgJvujRplhOJD5SIaR17ezdUkBgCtqXZYQlE j5cj6jQwKUYkuTdApflikZPvl3iLeLOOwEJ3rTKoVbPouxxc8leZ6HhsvyGf G_hmlFAdjsb7q8K6yRWNR32h9uthX3s7uJi1qjPpl.qI_KeM4Oo.pDBKEQR8 TNI4Wk2eeUN6.3XUiawpaY8zBd9vsYQxN27p.MJRjIy02T01Q7KWGoKrXnvM U.8Jihmt4iQpDF5YHnGo2ZhTU2gWXnll4jDmTwIT5p9_SGInw9syQ1qyr938 jo_ICvbUDUJOCdkQwXlwiADKa.6vXbUJi025UIN5nrSqPE_wSh_fXTK1CPw6 HMSCD530u_NYz0o4DhND4qLEKXIJh
+Received: from [121.241.96.5] by web94808.mail.in2.yahoo.com via HTTP; Mon, 30 May 2011 14:52:13 IST
+X-Mailer: YahooMailClassic/14.0.1 YahooMailWebService/0.8.111.303096
+Date: Mon, 30 May 2011 14:52:13 +0530 (IST)
+From: atul garg <shivalk_80@yahoo.co.in>
+To: sip@ietf.org
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-390324880-1306747333=:62685"
+Subject: [Sip] SIP level bundeling
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 30 May 2011 09:22:16 -0000
+
+--0-390324880-1306747333=:62685
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I was supposed to do some implementation for the SIP message coming over TC=
+P, I ahve few questions in following cases-
+
+1) I read that many SIP messages can be bundelled into one TCP packet, -
+=A0=A0=A0=A0=A0 a) In this case, does all message belong to same SIP call(i=
+e. same call id) - if so then when practiacally it is possible???
+=A0=A0=A0=A0=A0 b) If these sip messages are of different calls, then again=
+ what would be the scenario where IP and TCP level addresses are same but s=
+till messgaes are of different calls.( How UCA and UAS - multiple SIP sessi=
+on at same port ???)
+
+2) In case of SIP fregmanmtion, I guess as TCP does not know the logical in=
+telligence of SIP message, therefore sip message can be fregmented at any l=
+ocation even in between sip header, before call is ..... am i correct ...
+
+TIA
+Atul
+
+--0-390324880-1306747333=:62685
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;">Hello,<br><br>I was supposed to do some imple=
+mentation for the SIP message coming over TCP, I ahve few questions in foll=
+owing cases-<br><br>1) I read that many SIP messages can be bundelled into =
+one TCP packet, -<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) In this case, does a=
+ll message belong to same SIP call(ie. same call id) - if so then when prac=
+tiacally it is possible???<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) If these si=
+p messages are of different calls, then again what would be the scenario wh=
+ere IP and TCP level addresses are same but still messgaes are of different=
+ calls.( How UCA and UAS - multiple SIP session at same port ???)<br><br>2)=
+ In case of SIP fregmanmtion, I guess as TCP does not know the logical inte=
+lligence of SIP message, therefore sip message can be fregmented at any loc=
+ation even in between sip header, before call is ..... am i correct
+ ...<br><br>TIA<br>Atul<br></td></tr></table>
+--0-390324880-1306747333=:62685--
+
+From ibc@aliax.net  Mon May 30 03:35:19 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 79635E0704 for <sip@ietfa.amsl.com>; Mon, 30 May 2011 03:35:19 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.334
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.334 tagged_above=-999 required=5 tests=[AWL=-0.257, BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, J_CHICKENPOX_42=0.6, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id hrwXtjSXIcql for <sip@ietfa.amsl.com>; Mon, 30 May 2011 03:35:18 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by ietfa.amsl.com (Postfix) with ESMTP id BD5F8E0789 for <sip@ietf.org>; Mon, 30 May 2011 03:35:18 -0700 (PDT)
+Received: by qwc23 with SMTP id 23so2281900qwc.31 for <sip@ietf.org>; Mon, 30 May 2011 03:35:18 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.181.142 with SMTP id by14mr3328302qcb.247.1306751717722; Mon, 30 May 2011 03:35:17 -0700 (PDT)
+Received: by 10.229.225.136 with HTTP; Mon, 30 May 2011 03:35:17 -0700 (PDT)
+In-Reply-To: <677679.62685.qm@web94808.mail.in2.yahoo.com>
+References: <677679.62685.qm@web94808.mail.in2.yahoo.com>
+Date: Mon, 30 May 2011 12:35:17 +0200
+Message-ID: <BANLkTinEqXJyLYw_canwOUkKNiUxoRRRTA@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: atul garg <shivalk_80@yahoo.co.in>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] SIP level bundeling
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 30 May 2011 10:35:19 -0000
+
+2011/5/30 atul garg <shivalk_80@yahoo.co.in>
+>
+> Hello,
+>
+> I was supposed to do some implementation for the SIP message coming over =
+TCP, I ahve few questions in following cases-
+
+Hi, please ask this kind of questions in sip-implementors maillist
+rather than here. Anyhow I reply below:
+
+
+> 1) I read that many SIP messages can be bundelled into one TCP packet, -
+> =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 a) In this case, does all message belong t=
+o same SIP call(ie. same call id) - if so then when practiacally it is poss=
+ible???
+
+Like in *any* protocol (or lot of) on top of TCP, multiple protocol
+messages can arrive within same TCP stream. In fact, you could receive
+even just incomplete fragments of a message and then must wait until
+the rest arrives.
+
+So, when a SIP message (request/response) arrives within a TCP stream
+you MUST treat it as separate message and NEVER assume it belongs to
+the same call/dialog as a previous message.
+
+Imagine a TCP connection between two proxies. There can be multiple
+dialogs/transactions over the same TCP connection at the same time.
+
+
+
+> =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 b) If these sip messages are of different =
+calls, then again what would be the scenario where IP and TCP level address=
+es are same but still messgaes are of different calls.( How UCA and UAS - m=
+ultiple SIP session at same port ???)
+
+Proxy A ----> Proxy B  is a good example.
+
+Proxy ----> MediaServer  as well.
+
+But in general you MUST NOT assume that a TCP connection just carries
+a single dialog, that is a big fail.
+
+
+
+> 2) In case of SIP fregmanmtion, I guess as TCP does not know the logical =
+intelligence of SIP message, therefore sip message can be fregmented at any=
+ location even in between sip header, before call is ..... am i correct ...
+
+Of course. TCP is not message boundary so the receiver must buffer the
+received data until it becomes a valid SIP message (it could drop the
+connection if it takes so long as it could be an attack).
+
+
+
+--
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From brett@broadsoft.com  Mon May 30 05:36:03 2011
+Return-Path: <brett@broadsoft.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 787B9E06BB for <sip@ietfa.amsl.com>; Mon, 30 May 2011 05:36:03 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id XsV-ADZDDPvh for <sip@ietfa.amsl.com>; Mon, 30 May 2011 05:36:03 -0700 (PDT)
+Received: from smtpedge.partnerhosted.com (smtpedge.partnerhosted.com [173.225.22.21]) by ietfa.amsl.com (Postfix) with ESMTP id F1984E0651 for <sip@ietf.org>; Mon, 30 May 2011 05:36:02 -0700 (PDT)
+Received: from EXMBXCLUS01.citservers.local ([fe80::a488:d1ec:a706:3a6d]) by CASUMHUB02.citservers.local ([::1]) with mapi; Mon, 30 May 2011 05:36:04 -0700
+From: Brett Tate <brett@broadsoft.com>
+To: atul garg <shivalk_80@yahoo.co.in>, "sip@ietf.org" <sip@ietf.org>
+Date: Mon, 30 May 2011 05:35:57 -0700
+Thread-Topic: [Sip] SIP level bundeling
+Thread-Index: AcwetVharn4Sbo1KRC2gtfEOyhc/lwAD2eUQ
+Message-ID: <7FF1E5E16911C54BB2D57D4C4A2ED35A08CA6CB46D@EXMBXCLUS01.citservers.local>
+References: <677679.62685.qm@web94808.mail.in2.yahoo.com> <BANLkTinEqXJyLYw_canwOUkKNiUxoRRRTA@mail.gmail.com>
+In-Reply-To: <BANLkTinEqXJyLYw_canwOUkKNiUxoRRRTA@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+Subject: Re: [Sip] SIP level bundeling
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 30 May 2011 12:36:03 -0000
+
+PiA+IDIpIEluIGNhc2Ugb2YgU0lQIGZyZWdtYW5tdGlvbiwgSSBndWVzcyBhcyBUQ1AgZG9lcyBu
+b3Qga25vdyB0aGUNCj4gbG9naWNhbCBpbnRlbGxpZ2VuY2Ugb2YgU0lQIG1lc3NhZ2UsIHRoZXJl
+Zm9yZSBzaXAgbWVzc2FnZSBjYW4gYmUNCj4gZnJlZ21lbnRlZCBhdCBhbnkgbG9jYXRpb24gZXZl
+biBpbiBiZXR3ZWVuIHNpcCBoZWFkZXIsIGJlZm9yZSBjYWxsIGlzDQo+IC4uLi4uIGFtIGkgY29y
+cmVjdCAuLi4NCj4gDQo+IE9mIGNvdXJzZS4gVENQIGlzIG5vdCBtZXNzYWdlIGJvdW5kYXJ5IHNv
+IHRoZSByZWNlaXZlciBtdXN0IGJ1ZmZlciB0aGUNCj4gcmVjZWl2ZWQgZGF0YSB1bnRpbCBpdCBi
+ZWNvbWVzIGEgdmFsaWQgU0lQIG1lc3NhZ2UgKGl0IGNvdWxkIGRyb3AgdGhlDQo+IGNvbm5lY3Rp
+b24gaWYgaXQgdGFrZXMgc28gbG9uZyBhcyBpdCBjb3VsZCBiZSBhbiBhdHRhY2spLg0KDQpBZGRp
+dGlvbmFsbHkgY29uY2VybmluZyBzdHJlYW0tb3JpZW50ZWQgdHJhbnNwb3J0cywgdGhlIENvbnRl
+bnQtTGVuZ3RoIGhlYWRlciB2YWx1ZSBpcyB1c2VkIHRvIGxvY2F0ZSB0aGUgZW5kIG9mIHRoZSBT
+SVAgbWVzc2FnZS4gIFNlZSBSRkMgMzI2MSBzZWN0aW9uIDcuNSwgMTguMywgYW5kIDIwLjE0Lg0K
+DQo=
+
+From gupta.kumar.abhishek@gmail.com  Mon May 30 08:46:40 2011
+Return-Path: <gupta.kumar.abhishek@gmail.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E6A69E07F8 for <sip@ietfa.amsl.com>; Mon, 30 May 2011 08:46:40 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1bJomQppMIsi for <sip@ietfa.amsl.com>; Mon, 30 May 2011 08:46:40 -0700 (PDT)
+Received: from mail-bw0-f44.google.com (mail-bw0-f44.google.com [209.85.214.44]) by ietfa.amsl.com (Postfix) with ESMTP id 97F35E07F7 for <sip@ietf.org>; Mon, 30 May 2011 08:46:39 -0700 (PDT)
+Received: by bwz13 with SMTP id 13so3435951bwz.31 for <sip@ietf.org>; Mon, 30 May 2011 08:46:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:date:message-id:subject:from:to :content-type; bh=cLkUmN9e9UIjxgQKTDvaFOh/2B+EAa4SwNd2o7iveNE=; b=GCT+eGhAT7o7WlRepMsnQIrUqdSIuYv3SsE/Rd8CU/zqzYKmZCsUkaD3zagrUd0UYs U/NIHTZpeF/yZyjFxV6Vdelze4F3Fr3KTxR+B2AMshh3Qd8XhL13g0wMf6mqTtomg76t COSCq5BTRw7O4AuTIQMBeSYhu944cilOViIJY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=vUVnzVILGODp/g6z3Jw6th62mj+D5f0J7Ch6xCzJb2CNlpOW9PnNlLmXOCc3KL5Q7X vjTsAM2am5cfKr5NimQ9m5GlG96I5Ib6nW+P62qqEMz+GRBK3Bc5FUG7O4jzDUHVwNn0 vmyZVfHPgSIM5BAHtm5f1aFDn6XnOyyAKqK/M=
+MIME-Version: 1.0
+Received: by 10.204.80.223 with SMTP id u31mr4608884bkk.121.1306770398241; Mon, 30 May 2011 08:46:38 -0700 (PDT)
+Received: by 10.204.122.73 with HTTP; Mon, 30 May 2011 08:46:38 -0700 (PDT)
+Date: Mon, 30 May 2011 21:16:38 +0530
+Message-ID: <BANLkTi=6bU8p5gbHpTe7efhqAdSf_Ci+4g@mail.gmail.com>
+From: Abhishek Gupta <gupta.kumar.abhishek@gmail.com>
+To: discussion@sipforum.org, sip@ietf.org
+Content-Type: multipart/alternative; boundary=0016e6db7bcb63e43d04a48031e6
+Subject: [Sip] Clarification with respect to "To" and "From" headers
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 30 May 2011 15:46:41 -0000
+
+--0016e6db7bcb63e43d04a48031e6
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi Forum,
+
+
+I have a simple scenario as mentioned below -
+
+
+EP1-------------------->SBC-------------------->EP2
+
+
+As we all know that an SBC is a B2BUA device and its main function is
+Topology Hiding that is achieved through header manipulation.
+
+Now, for EP1, SBC acts as a UAS and for EP2 it acts as a UAC.
+
+I have configured two endpoints EP1 with IP1 and EP2 with IP2 that access
+the SBC through AP1 and AP2 respectively (Pls read AP as Access Point).  An
+Access Point is nothing but an IP through which EP1 and EP2 communicate.
+
+Say, EP1 sends INVITE to SBC containing as follows -
+
+
+INVITE sip:5555@AP1 SIP/2.0
+Via: SIP/2.0/UDP IP1;branch=z9hG4bK776asdhds
+Max-Forwards: 70
+To: <sip:5555@AP1>
+From: <sip:1111@IP1>;tag=1928301774
+Call-ID: a84b4c76e66710@IP1
+CSeq: 1 INVITE
+Contact: <sip:1111@IP1>
+Content-Type: application/sdp
+
+(SDP not shown)
+
+
+Upon receiving INVITE, SBC forms a request and forwards to the EP2 as
+follows -
+
+INVITE sip:5555@IP2 SIP/2.0
+Via: SIP/2.0/UDP AP2;branch=z9hG4bKhoiasdb
+Max-Forwards: 69
+To: <sip:5555@AP2>
+From: <sip:1111@AP2>;tag=98765479
+Call-ID: ufs8doi8afjnfd67asdfhu
+CSeq: 1 INVITE
+Contact: <sip:1111@AP2>
+Content-Type: application/sdp
+
+(SDP not shown)
+
+
+
+Although the call was successful after responses from EP2, I would kindly
+like to know from your side how correct is "To" and "From" header values
+with respect to leg2 as highlighted ??  Though there is no impact due of
+this behavior.
+
+If it is correct, no issues !
+If it is incorrect what should be the correct behavior ?
+
+
+
+Thanks & Regards,
+
+Abhishek Kumar Gupta
+
+--0016e6db7bcb63e43d04a48031e6
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<font style=3D"font-family: verdana,sans-serif;" size=3D"2">Hi Forum,<br><b=
+r><br>I have a simple scenario as mentioned below -<br><br><br>EP1---------=
+-----------&gt;SBC--------------------&gt;EP2<br><br><br>As we all know tha=
+t an SBC is a B2BUA device and its main function is Topology Hiding that is=
+ achieved through header manipulation.<br>
+<br>Now, for EP1, SBC acts as a UAS and for EP2 it acts as a UAC.<br><br>I =
+have configured two endpoints EP1 with IP1 and EP2 with IP2 that access the=
+ SBC through AP1 and AP2 respectively (Pls read AP as Access Point).=A0 An =
+Access Point is nothing but an IP through which EP1 and EP2 communicate.<br=
+>
+<br>Say, EP1 sends INVITE to SBC containing as follows -</font><br><br><br>=
+<font size=3D"4"><span style=3D"font-family: courier new,monospace;">INVITE=
+ sip:5555@AP1 SIP/2.0</span><br style=3D"font-family: courier new,monospace=
+;">
+<span style=3D"font-family: courier new,monospace;">Via: SIP/2.0/UDP IP1;br=
+anch=3Dz9hG4bK776asdhds</span><br style=3D"font-family: courier new,monospa=
+ce;"><span style=3D"font-family: courier new,monospace;">Max-Forwards: 70</=
+span><br style=3D"font-family: courier new,monospace;">
+<span style=3D"font-family: courier new,monospace;">To: &lt;sip:5555@AP1&gt=
+;</span><br style=3D"font-family: courier new,monospace;"><span style=3D"fo=
+nt-family: courier new,monospace;">From: &lt;sip:1111@IP1&gt;;tag=3D1928301=
+774</span><br style=3D"font-family: courier new,monospace;">
+<span style=3D"font-family: courier new,monospace;">Call-ID: a84b4c76e66710=
+@IP1</span><br style=3D"font-family: courier new,monospace;"><span style=3D=
+"font-family: courier new,monospace;">CSeq: 1 INVITE</span><br style=3D"fon=
+t-family: courier new,monospace;">
+<span style=3D"font-family: courier new,monospace;">Contact: &lt;sip:1111@I=
+P1&gt;</span><br style=3D"font-family: courier new,monospace;"><span style=
+=3D"font-family: courier new,monospace;">Content-Type: application/sdp</spa=
+n><br style=3D"font-family: courier new,monospace;">
+<br style=3D"font-family: courier new,monospace;"><span style=3D"font-famil=
+y: courier new,monospace;">(SDP not shown)</span></font><br><br><br><font s=
+ize=3D"2"><span style=3D"font-family: verdana,sans-serif;">Upon receiving I=
+NVITE, SBC forms a request and forwards to the EP2 as follows -</span></fon=
+t><br>
+<br><font style=3D"font-family: courier new,monospace;" size=3D"4">INVITE s=
+ip:5555@IP2 SIP/2.0<br>Via: SIP/2.0/UDP AP2;branch=3Dz9hG4bKhoiasdb<br>Max-=
+Forwards: 69<br>To: <span style=3D"background-color: rgb(255, 204, 204);">&=
+lt;sip:5555@AP2&gt;</span><br>
+From: <span style=3D"background-color: rgb(255, 204, 204);">&lt;sip:1111@AP=
+2&gt;</span>;tag=3D98765479<br>Call-ID: ufs8doi8afjnfd67asdfhu<br>CSeq: 1 I=
+NVITE<br>Contact: &lt;sip:1111@AP2&gt;<br>Content-Type: application/sdp<br>
+<br>(SDP not shown)</font><br><br><br><br><font size=3D"2"><span style=3D"f=
+ont-family: verdana,sans-serif;">Although the call was successful after res=
+ponses from EP2, I would kindly like to know from your side how correct is =
+&quot;To&quot; and &quot;From&quot; header values with respect to leg2 as h=
+ighlighted ??=A0 Though there is no impact due of this behavior. </span></f=
+ont><br>
+<br>If it is correct, no issues ! <br>If it is incorrect what should be the=
+ correct behavior ? <br><br><br><br>Thanks &amp; Regards,<br><br>Abhishek K=
+umar Gupta<br>
+
+--0016e6db7bcb63e43d04a48031e6--
+
+From ibc@aliax.net  Mon May 30 09:06:22 2011
+Return-Path: <ibc@aliax.net>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E33E3E0801 for <sip@ietfa.amsl.com>; Mon, 30 May 2011 09:06:22 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.627
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.627 tagged_above=-999 required=5 tests=[AWL=0.050,  BAYES_00=-2.599, FM_FORGED_GMAIL=0.622, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Jl+fpQO1vdrl for <sip@ietfa.amsl.com>; Mon, 30 May 2011 09:06:22 -0700 (PDT)
+Received: from mail-qy0-f179.google.com (mail-qy0-f179.google.com [209.85.216.179]) by ietfa.amsl.com (Postfix) with ESMTP id 01B74E07E0 for <sip@ietf.org>; Mon, 30 May 2011 09:06:21 -0700 (PDT)
+Received: by qyk7 with SMTP id 7so2125455qyk.10 for <sip@ietf.org>; Mon, 30 May 2011 09:06:21 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.182.202 with SMTP id cd10mr3569485qcb.171.1306771581407; Mon, 30 May 2011 09:06:21 -0700 (PDT)
+Received: by 10.229.225.136 with HTTP; Mon, 30 May 2011 09:06:21 -0700 (PDT)
+In-Reply-To: <BANLkTi=6bU8p5gbHpTe7efhqAdSf_Ci+4g@mail.gmail.com>
+References: <BANLkTi=6bU8p5gbHpTe7efhqAdSf_Ci+4g@mail.gmail.com>
+Date: Mon, 30 May 2011 18:06:21 +0200
+Message-ID: <BANLkTik80ZCvjoJAxsHbv300=hrznU=-=A@mail.gmail.com>
+From: =?UTF-8?Q?I=C3=B1aki_Baz_Castillo?= <ibc@aliax.net>
+To: Abhishek Gupta <gupta.kumar.abhishek@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org, discussion@sipforum.org
+Subject: Re: [Sip] Clarification with respect to "To" and "From" headers
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 30 May 2011 16:06:23 -0000
+
+2011/5/30 Abhishek Gupta <gupta.kumar.abhishek@gmail.com>:
+> Although the call was successful after responses from EP2, I would kindly
+> like to know from your side how correct is "To" and "From" header values
+> with respect to leg2 as highlighted ??=C2=A0 Though there is no impact du=
+e of
+> this behavior.
+>
+> If it is correct, no issues !
+> If it is incorrect what should be the correct behavior ?
+
+Hi Abhishek. First of all, I strongly think this kind of questions
+should take place in sip-implementors maillist rather than here (this
+maillist is to discuss about SIP related specifications).
+
+Replying your question (but please, next one ask in sip-implementors)
+a B2BUA can behave as it wants, so if it desires it can change From/To
+or whatever. From the point of view of pure SIP, EP1 just cares about
+signalling with B2BUA (UAS) and EP2 just cares about signalling with
+B2BUA (UAC).
+
+--=20
+I=C3=B1aki Baz Castillo
+<ibc@aliax.net>
+
+From dworley@avaya.com  Tue May 31 08:59:06 2011
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@ietfa.amsl.com
+Delivered-To: sip@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 617CEE06BB for <sip@ietfa.amsl.com>; Tue, 31 May 2011 08:59:06 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -103.474
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.474 tagged_above=-999 required=5 tests=[AWL=0.125, BAYES_00=-2.599, RCVD_IN_DNSWL_LOW=-1, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.30]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Fq02qPJ4eoGV for <sip@ietfa.amsl.com>; Tue, 31 May 2011 08:59:03 -0700 (PDT)
+Received: from co300216-co-outbound.net.avaya.com (co300216-co-outbound.net.avaya.com [198.152.13.100]) by ietfa.amsl.com (Postfix) with ESMTP id 7365CE081B for <sip@ietf.org>; Tue, 31 May 2011 08:59:03 -0700 (PDT)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Av0EAN0N5U2HCzI1/2dsb2JhbABTph13qnwCmxyGHgSVKopb
+X-IronPort-AV: E=Sophos;i="4.65,297,1304308800"; d="scan'208";a="282473102"
+Received: from unknown (HELO p-us1-erheast.us1.avaya.com) ([135.11.50.53]) by co300216-co-outbound.net.avaya.com with ESMTP; 31 May 2011 11:59:02 -0400
+X-IronPort-AV: E=Sophos;i="4.65,297,1304308800"; d="scan'208";a="658013735"
+Received: from dc-us1hcex1.us1.avaya.com (HELO DC-US1HCEX1.global.avaya.com) ([135.11.52.20]) by p-us1-erheast-out.us1.avaya.com with ESMTP; 31 May 2011 11:59:02 -0400
+Received: from DC-US1MBEX4.global.avaya.com ([169.254.1.192]) by DC-US1HCEX1.global.avaya.com ([2002:870b:3414::870b:3414]) with mapi; Tue, 31 May 2011 11:59:01 -0400
+From: "Worley, Dale R (Dale)" <dworley@avaya.com>
+To: atul garg <shivalk_80@yahoo.co.in>, "sip@ietf.org" <sip@ietf.org>
+Date: Tue, 31 May 2011 11:54:19 -0400
+Thread-Topic: [Sip] SIP level bundeling
+Thread-Index: AcweqxnEC3bNFcsSTM2f8yaHLUYKFAA/+bNU
+Message-ID: <CD5674C3CD99574EBA7432465FC13C1B222907E96E@DC-US1MBEX4.global.avaya.com>
+References: <677679.62685.qm@web94808.mail.in2.yahoo.com>
+In-Reply-To: <677679.62685.qm@web94808.mail.in2.yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: Re: [Sip] SIP level bundeling
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 31 May 2011 15:59:06 -0000
+
+The important thing to understand is that TCP provides a *byte-stream* betw=
+een two endpoints.  In practice, the bytes will be grouped into IP packets,=
+ but that grouping is a matter of the TCP implementation -- that grouping i=
+s not visible to the higher layers of the stack and is not allowed to be me=
+aningful.
+
+If the TCP connection is for SIP, then SIP messages follow each other in th=
+e TCP stream.  The messages are not logically connected in any way; each me=
+ssage is processed based on its contents only (except for some special rule=
+s regarding how to route responses).  The first SIP message begins at the f=
+irst byte of the TCP stream.  The message is required to contain a Content-=
+Length header telling the length of the body.  The end of the headers is de=
+termined by the CR-LF-CR-LF sequence (empty line), and following that is th=
+e body whose length is specified by the Content-Length header.  Immediately=
+ after the body of the first message, the second message begins.  Etc.  (IP=
+ packet boundaries may fall at any place in any message, and that is not si=
+gnificant.)
+
+Dale

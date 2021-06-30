@@ -1,0 +1,177 @@
+
+From wwwrun@rfc-editor.org  Thu Nov  4 03:55:16 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 1540B28C0E9 for <sip@core3.amsl.com>; Thu,  4 Nov 2010 03:55:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -101.08
+X-Spam-Level: 
+X-Spam-Status: No, score=-101.08 tagged_above=-999 required=5 tests=[AWL=0.280, BAYES_00=-2.599, NO_RELAYS=-0.001, SARE_LWSHORTT=1.24, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dW7F3QrW6BNS for <sip@core3.amsl.com>; Thu,  4 Nov 2010 03:55:15 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 4AF633A69EE for <sip@ietf.org>; Thu,  4 Nov 2010 03:55:15 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 245F5E06B8; Thu,  4 Nov 2010 03:55:25 -0700 (PDT)
+To: dwing@cisco.com, steffen.fries@siemens.com, Hannes.Tschofenig@nsn.com, audet@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20101104105525.245F5E06B8@rfc-editor.org>
+Date: Thu,  4 Nov 2010 03:55:25 -0700 (PDT)
+Cc: sip@ietf.org, fabio@pietrosanti.it, rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC5479 (2602)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 04 Nov 2010 10:55:16 -0000
+
+The following errata report has been submitted for RFC5479,
+"Requirements and Analysis of Media Security Management Protocols".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5479&eid=2602
+
+--------------------------------------
+Type: Technical
+Reported by: Fabio Pietrosanti <fabio@pietrosanti.it>
+
+Section: A.5.2
+
+Original Text
+-------------
+      SDP Security Descriptions with SIPS
+         Not applicable; SDP Security Descriptions does not have a long-
+         term secret.
+
+Corrected Text
+--------------
+      SDP Security Descriptions with SIPS
+         The PFS feature of SDP Security Description with SIPS rely on TLS and the availability or not of PFS for SRTP calls depends on the negotiated TLS key negotiation algorithm.
+
+         If the selected TLS key negotiation algorithm of SIPS provide PFS feature, then the underlying SRTP encryption will support PFS. 
+         For example TLS_DHE_RSA_WITH_AES_256_CBC_SHA provde PFS feature as described in RFC5246.
+         If the selected TLS key negotiation algorithm of SIPS does not provide PFS feature, then the underlying SRTP encryption will not support PFS. 
+         For example TLS_RSA_WITH_AES_256_CBC_SHA does not provide PFS feature as described in RFC5246.
+
+
+Notes
+-----
+It's not true that SDP Security Descriptions with SIPS have PFS "Not applicable" because the SDES rely on TLS that is part of the security scheme.
+
+Practically if the long terms keys (the x509v3 RSA key of SIPS server) is compromised, the TLS sessions can be decrypted, the SDES key extracted and SRTP calls deciphered.
+
+TLS support key exchange methods that provide PFS trough the use of Ephemeral Diffie Hellman keys.
+
+When SIPS use TLS with DHE key negotiation, then SDES acquire PFS feature because even in case of long-term key compromise (the server x509v3 RSA key), the short term keys (the SDES keys exchanged) will be safe.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5479 (draft-ietf-sip-media-security-requirements-09)
+--------------------------------------
+Title               : Requirements and Analysis of Media Security Management Protocols
+Publication Date    : April 2009
+Author(s)           : D. Wing, Ed., S. Fries, H. Tschofenig, F. Audet
+Category            : INFORMATIONAL
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From wwwrun@rfc-editor.org  Thu Nov  4 10:53:29 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2C4C228C0FA for <sip@core3.amsl.com>; Thu,  4 Nov 2010 10:53:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -101.747
+X-Spam-Level: 
+X-Spam-Status: No, score=-101.747 tagged_above=-999 required=5 tests=[AWL=0.853, BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id J77cMziKCHkG for <sip@core3.amsl.com>; Thu,  4 Nov 2010 10:53:28 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 7EBA23A69C4 for <sip@ietf.org>; Thu,  4 Nov 2010 10:53:24 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 29A19E06E9; Thu,  4 Nov 2010 10:53:35 -0700 (PDT)
+To: mary.barnes@nortel.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20101104175335.29A19E06E9@rfc-editor.org>
+Date: Thu,  4 Nov 2010 10:53:35 -0700 (PDT)
+Cc: sip@ietf.org, hkaplan@acmepacket.com, rfc-editor@rfc-editor.org
+Subject: [Sip] [Editorial Errata Reported] RFC4244 (2608)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 04 Nov 2010 17:53:29 -0000
+
+The following errata report has been submitted for RFC4244,
+"An Extension to the Session Initiation Protocol (SIP) for Request History Information".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=4244&eid=2608
+
+--------------------------------------
+Type: Editorial
+Reported by: Hadriel Kaplan <hkaplan@acmepacket.com>
+
+Section: 4.5
+
+Original Text
+-------------
+                History-Info: <sip:Bob@P1.example.com>;index=1,
+                   <sip:Bob@P2.example.com>; index=1.1,
+                   <sip:User2@UA2.example.com?Reason=SIP;\
+                    cause=408;text="RequestTimeout">;index=1.1.1,
+                   <sip:User3@UA3.example.com?Reason=SIP; \
+                    cause=487;text="Request Terminated">; index=1.1.2,
+                   <sip:User4@UA4.example.com?Reason=SIP;\
+                    cause=603;text="Decline">; index=1.1.3
+
+Corrected Text
+--------------
+                History-Info: <sip:Bob@P1.example.com>;index=1,
+                   <sip:Bob@P2.example.com>; index=1.1,
+                   <sip:User2@UA2.example.com?Reason=SIP%3B\
+                    cause%3D408%3Btext%3D%22RequestTimeout%22>;index=1.1.1,
+                   <sip:User3@UA3.example.com?Reason=SIP%3B\
+                    cause%3D487%3Btext%3D%22Request%20Terminated%22>; index=1.1.2,
+                   <sip:User4@UA4.example.com?Reason=SIP%3B\
+                    cause%3D603%3Btext%3D%22Decline%22>; index=1.1.3
+
+Notes
+-----
+This is one of many incorrect examples in section 4.5, 4.5.1, 4.5.2, etc.  The ";", "=", double-quotes, and space are not legal tokens in URI-embedded headers.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC4244 (draft-ietf-sip-history-info-06)
+--------------------------------------
+Title               : An Extension to the Session Initiation Protocol (SIP) for Request History Information
+Publication Date    : November 2005
+Author(s)           : M. Barnes, Ed.
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG

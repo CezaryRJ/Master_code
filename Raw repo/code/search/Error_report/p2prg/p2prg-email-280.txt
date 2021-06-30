@@ -1,0 +1,74 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : p2prg
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/p2prg/2006-09.mailcl']
+id : 6559f9f7-a7b9-4603-a3b3-1a0a1031fae3
+_version_ : 1675133086463950848
+
+Content : 
+
+From: 
+To: 
+X-Mailer: Microsoft Outlook Express 
+
+yIS\Iz
+
+  dB
+
+@http://www.ps-777.net
+
+@EidOAB
+@EDDdB
+@EN`x[B
+@Ey[B
+@EXPW[ZWI[B
+@E_II
+@Ep`RAp`XDRB
+
+@MC\dB
+  js(j
+
+@ QOfB
+   \OSB@
+
+yIj^[WIz
+
+@EnAB
+@E^A}WB
+@EePAoAvB
+@EZDB
+@ESxB
+@EAeApB
+
+@iijQO@js onjI
+
+@http://www.ps-777.net
+
+=================================================================
+sv
+@ps_grounds@yachoo.co.jp
+
+
+

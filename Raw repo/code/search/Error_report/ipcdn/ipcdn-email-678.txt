@@ -1,0 +1,58 @@
+Date : ['2007-01-26T08:48:08Z']
+Timezone : -0200
+From : ['"/dev/null /service/" <leetbwao@iti.lt>']
+From-name : [' /dev/null_/service/']
+From-address : [' leetbwao@iti.lt']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : ipcdn-archive@lists.ietf.org
+To-name : Null
+To-address : [' ipcdn-archive@lists.ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <A919DE12B8E045E.95FFB92B53@iti.lt>
+References : Null
+Comments : ['Null']
+Subject : ['Rocket Stock Report']
+Mailing-list : ipcdn
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ipcdn/2007-01.mailcl']
+id : 480c6b2c-8a05-42a2-b1b0-ffc194464180
+_version_ : 1675129693019308034
+
+Content : 
+
+Hello,
+
+ We tried contacting you awhile ago about your low interest morta(ge rate.
+
+ You have qualified for the lowest rate in years...
+
+ You could get over $380,000 for as little as $500 a month!
+
+ Ba(d credit? Doesn't matter, low rates are fixed no matter what!
+
+ 
+ To get a free, no obli,gation consultation click below:
+
+ http://www.go-mrt-now.com/sign.asp
+
+
+
+ Best Regards,
+
+ Eloy Donaldson
+ 
+ to be remov(ed:	http://www.go-mrt-now.com/gone.asp
+
+ this process takes one week, so please be patient. we do our 
+ best to take your email/s off but you have to fill out a rem/ove
+ or else you will continue to recieve email/s.
+

@@ -1,0 +1,8 @@
+2000 TO 2010
+-------#####------->    humanresolvers
+pars.mutaf@gmail.com 17
+mvanderv@qualcomm.com 3
+mailman-owner@ietf.org 2
+viren23@gmail.com 2
+alexandru.petrescu@gmail.com 1
+marcin.matuszewski@nokia.com 1

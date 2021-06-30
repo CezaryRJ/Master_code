@@ -1,0 +1,26 @@
+2000 TO 2010
+-------#####------->    tlp-interest
+tme@americafree.tv 16
+simon@josefsson.org 7
+fw@deneb.enyo.de 5
+housley@vigilsec.com 5
+johnl@taugh.com 5
+brian.e.carpenter@gmail.com 4
+jmh@joelhalpern.com 4
+julian.reschke@gmx.de 4
+sm@resistor.net 4
+john-ietf@jck.com 3
+marshall.eubanks@gmail.com 2
+stewe@stewe.org 2
+david.kessens@nsn.com 1
+ginoza@ISI.EDU 1
+henk@ripe.net 1
+mrw@sandstorm.net 1
+narten@us.ibm.com 1
+ned.freed@mrochek.com 1
+olaf@NLnetLabs.nl 1
+peter.sylvester@edelweb.fr 1
+presnick@qualcomm.com 1
+rpelletier@isoc.org 1
+sob@harvard.edu 1
+tme@multicasttech.com 1

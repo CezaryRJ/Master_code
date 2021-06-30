@@ -1,0 +1,21 @@
+2010 TO 2020
+-------#####------->    jwt-reg-review
+bcampbell@pingidentity.com 22
+Michael.Jones@microsoft.com 17
+MiguelAngel.ReinaOrtega@etsi.org 15
+iana-prot-param@iana.org 4
+jbradley@me.com 4
+kaduk@mit.edu 4
+rjsparks@nostrum.com 3
+eburger@standardstrack.com 2
+eve.maler@forgerock.com 2
+sdas@appcomsci.com 2
+bart@genecloud.com 1
+drafts-expert-review@iana.org 1
+iana-prot-param-comment@iana.org 1
+ietf-secretariat@ietf.org 1
+judy.bromley@ebiquityinsights.com 1
+mahoney@nostrum.com 1
+marilia.hirano@iana.org 1
+rdd@cert.org 1
+scott@adligo.com 1

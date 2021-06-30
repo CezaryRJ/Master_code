@@ -1,0 +1,1867 @@
+Date : ['2007-04-04T07:44:08Z']
+Timezone : -0700
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local>']
+In-Reply-To-name : Null
+In-Reply-To-address :  D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local
+Message-ID : <24CCCC428EFEA2469BF046DB3C7A8D223ADF38@namail5.corp.adobe.com>
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-04.mailcl']
+id : d9aa9b5c-86ea-4460-9327-25cbab73994b
+_version_ : 1675132957451354112
+
+Content : 
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Automatic
+updates from the application provider: This is current PC SW state of =
+the art
+and works for both the (1) P2P software in the access device and (2) for =
+the
+application software, such as presence, IM, voice, multimedia, etc. No =
+or
+minimal is staff required.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Last but
+not least, besides SIP enabled communications, the overlay can also =
+serve for many
+other applications for your users: Content distribution, application =
+layer
+multicast for conferences, directory search, IM+A/V chat rooms, name =
+services, etc.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>All of the above can be easily =
+implemented
+by porting well documented open source software into the residential =
+access box
+or in the integrated access device (IAD) for enterprises. Just check out =
+<a
+href=3D"http://opendht.org/">http://opendht.org/</a> and other similar =
+sites.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Please don&#8217;t take my word for =
+it,
+just make for yourself a comparison table for your network. If you =
+can&#8217;t
+share the comparison with the list, can you share it with me in private? =
+</span></font><font
+size=3D2 color=3Dnavy face=3DWingdings><span =
+style=3D'font-size:10.0pt;font-family:
+Wingdings;color:navy'>J</span></font><font size=3D2 color=3Dnavy =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p></o:p></span=
+></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 =
+lfo2'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DWingdings><span =
+style=3D'font-size:10.0pt;font-family:
+Wingdings;color:navy'><span style=3D'mso-list:Ignore'>&Oslash;<font =
+size=3D1
+face=3D"Times New Roman"><span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2><span
+style=3D'font-size:10.0pt'>as an employee of a =
+carrier<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+style=3D'font-size:
+10.0pt'>I worked most of my career for carriers, so that&#82 service assurance (was Simple SIP usage scenario)
+Thread-Index: Acd1fDvzIhowLornTwyehPLXZ9zr5AA/ypd/ABGlquA=
+References: <D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local>
+From: "Henry Sinnreich" <hsinnrei@adobe.com>
+To: <colin.pons@kpn.com>, <pkyzivat@cisco.com>
+X-OriginalArrivalTime: 04 Apr 2007 14:44:54.0268 (UTC)
+	FILETIME=[CEC11BC0:01C776C7]
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 8cc9f19007352bcbade9ec25b8f17862
+X-Mailman-Approved-At: Thu, 05 Apr 2007 08:03:04 -0400
+Cc: sipping@ietf.org, p2prg@ietf.org, oran@cisco.com, p2psip@ietf.org,
+	mhammer@cisco.com
+Subject: [Sipping] P2P SIP service assurance (was Simple SIP usage scenario)
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1723679838=="
+Errors-To: sipping-bounces@ietf.org
+
+This is a multi-part message in MIME format.
+
+--===============1723679838==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C776C7.CE6A1169"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C776C7.CE6A1169
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Colin, Paul,
+
+=20
+
+Thanks for raising the valid issue about service assurance.=20
+
+As engineers, we know the service assurance is more than a piece of
+legal paper and must be based on the following:
+
+=20
+
+-          Adequate bandwidth,
+
+-          Geographic diversity,
+
+-          Simplicity; so things can be managed,
+
+-          Security that can be audited,
+
+-          Safe data retention: Replication and the geographic diversity
+of peer nodes of the overlay,
+
+-          Economy of scale: All peers have software with identical
+behavior,
+
+-          No configuration is required or possible. The customer just
+plugs in the gateway box. This is real service automation.
+
+-          Cost containment: P2P self configuration is unbeatable. Count
+all the savings in CAPEX and OPEX by not having any network based VoIP
+infrastructure. Save all that electricity and real estate in the data
+centers.
+
+-          Flexibility for new applications: The API between SIP and the
+DHT overlay,
+
+-          No lock-in from single source: The applications are in the
+endpoints. Buy them from anywhere.
+
+-          Automatic updates from the application provider: This is
+current PC SW state of the art and works for both the (1) P2P software
+in the access device and (2) for the application software, such as
+presence, IM, voice, multimedia, etc. No or minimal is staff required.
+
+-          Last but not least, besides SIP enabled communications, the
+overlay can also serve for many other applications for your users:
+Content distribution, application layer multicast for conferences,
+directory search, IM+A/V chat rooms, name services, etc.
+
+=20
+
+All of the above can be easily implemented by porting well documented
+open source software into the residential access box or in the
+integrated access device (IAD) for enterprises. Just check out
+http://opendht.org/ and other similar sites.
+
+=20
+
+Please don't take my word for it, just make for yourself a comparison
+table for your network. If you can't share the comparison with the list,
+can you share it with me in private? :-)
+
+=20
+
+*       as an employee of a carrier
+
+=20
+
+I worked most of my career for carriers, so that's what prompted the
+above considerations.
+
+=20
+
+Thanks, Henry
+
+=20
+
+________________________________
+
+From: colin.pons@kpn.com [mailto:colin.pons@kpn.com]=20
+Sent: Wednesday, April 04, 2007 12:38 AM
+To: pkyzivat@cisco.com; Henry Sinnreich
+Cc: p2psip@ietf.org; mhammer@cisco.com; oran@cisco.co service assurance (was Simple SIP usage scenario)
+Thread-Index: Acd1fDvzIhowLornTwyehPLXZ9zr5AA/ypd/ABGlquA=
+References: <D3BA17190818B44CA969FB72EB43418D01832BBB@KKWNLEX181.kpnnl.local>
+From: "Henry Sinnreich" <hsinnrei@adobe.com>
+To: <colin.pons@kpn.com>, <pkyzivat@cisco.com>
+X-OriginalArrivalTime: 04 Apr 2007 14:44:54.0268 (UTC)
+	FILETIME=[CEC11BC0:01C776C7]
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: 8cc9f19007352bcbade9ec25b8f17862
+X-Mailman-Approved-At: Thu, 05 Apr 2007 08:03:04 -0400
+Cc: sipping@ietf.org, p2prg@ietf.org, oran@cisco.com, p2psip@ietf.org,
+	mhammer@cisco.com
+Subject: [Sipping] P2P SIP service assurance (was Simple SIP usage scenario)
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1723679838=="
+Errors-To: sipping-bounces@ietf.org
+
+This is a multi-part message in MIME format.
+
+--===============1723679838==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C776C7.CE6A1169"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C776C7.CE6A1169
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Colin, Paul,
+
+=20
+
+Thanks for raising the valid issue about service assurance.=20
+
+As engineers, we know the service assurance is more than a piece of
+legal paper and must be based on the following:
+
+=20
+
+-          Adequate bandwidth,
+
+-          Geographic diversity,
+
+-          Simplicity; so things can be managed,
+
+-          Security that can be audited,
+
+-          Safe data retention: Replication and the geographic diversity
+of peer nodes of the overlay,
+
+-          Economy of scale: All peers have software with identical
+behavior,
+
+-          No configuration is required or possible. The customer just
+plugs in the gateway box. This is real service automation.
+
+-          Cost containment: P2P self configuration is unbeatable. Count
+all the savings in CAPEX and OPEX by not having any network based VoIP
+infrastructure. Save all that electricity and real estate in the data
+centers.
+
+-          Flexibility for new applications: The API between SIP and the
+DHT overlay,
+
+-          No lock-in from single source: The applications are in the
+endpoints. Buy them from anywhere.
+
+-          Automatic updates from the application provider: This is
+current PC SW state of the art and works for both the (1) P2P software
+in the access device and (2) for the application software, such as
+presence, IM, voice, multimedia, etc. No or minimal is staff required.
+
+-          Last but not least, besides SIP enabled communications, the
+overlay can also serve for many other applications for your users:
+Content distribution, application layer multicast for conferences,
+directory search, IM+A/V chat rooms, name services, etc.
+
+=20
+
+All of the above can be easily implemented by porting well documented
+open source software into the residential access box or in the
+integrated access device (IAD) for enterprises. Just check out
+http://opendht.org/ and other similar sites.
+
+=20
+
+Please don't take my word for it, just make for yourself a comparison
+table for your network. If you can't share the comparison with the list,
+can you share it with me in private? :-)
+
+=20
+
+*       as an employee of a carrier
+
+=20
+
+I worked most of my career for carriers, so that's what prompted the
+above considerations.
+
+=20
+
+Thanks, Henry
+
+=20
+
+________________________________
+
+From: colin.pons@kpn.com [mailto:colin.pons@kpn.com]=20
+Sent: Wednesday, April 04, 2007 12:38 AM
+To: pkyzivat@cisco.com; Henry Sinnreich
+Cc: p2psip@ietf.org; mhammer@cisco.com; oran@cisco.co17;s what =
+prompted
+the above considerations.</span></font><font size=3D2 color=3Dnavy =
+face=3DArial><span
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p></o:p></span=
+></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Thanks, =
+Henry<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><font =
+size=3D2
+face=3DTahoma><span style=3D'font-size:10.0pt;font-family:Tahoma'>
+colin.pons@kpn.com [mailto:colin.pons@kpn.com] <br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Wednesday, April =
+04, 2007
+12:38 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> pkyzivat@cisco.com; =
+Henry
+Sinnreich<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b> =
+p2psip@ietf.o<st1:PersonName
+w:st=3D"on">rg</st1:PersonName>; mhammer@cisco.com; oran@cisco.com; =
+<st1:PersonName
+w:st=3D"on">p2p<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName>@ietf.o<st1:PersonName
+ w:st=3D"on">rg</st1:PersonName></st1:PersonName>; <st1:PersonName =
+w:st=3D"on">sipping@ietf.o<st1:PersonName
+ w:st=3D"on">rg</st1:PersonName></st1:PersonName><br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> RE: [P2PSIP] Re: =
+[P2P<st1:PersonName
+w:st=3D"on">rg</st1:PersonName>] RE: [Sipping] Simple SIP usage =
+scenario</span></font><o:p></o:p></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p><font size=3D2 face=3D"Times New Roman"><span =
+style=3D'font-size:10.0pt'>Henry,<br>
+<br>
+I like your idea of deploying sip peers in edge devices. However, as an
+employee of a carrier I would like to see how a carrier is able to =
+provide
+service asurance to be able to provide compliant handling. Many of our
+customers do not understand how to install these gateways themselves, =
+let alone
+how to troubleshoot.<br>
+<br>
+This is even more important for enterprises, which often&nbsp; insist on =
+SLAs
+which include troubleshoot resolution limits.<br>
+<br>
+-----Original Message-----<br>
+From: &quot;<st1:PersonName w:st=3D"on">Paul =
+Kyzivat</st1:PersonName>&quot;
+&lt;pkyzivat@cisco.com&gt;<br>
+To: &quot;Henry Sinnreich&quot; &lt;hsinnrei@adobe.com&gt;<br>
+Cc: &quot;<st1:PersonName w:st=3D"on">P2PSIP Mailing =
+List</st1:PersonName>&quot;
+&lt;p2psip@ietf.o<st1:PersonName w:st=3D"on">rg</st1:PersonName>&gt;; =
+&quot;<st1:PersonName
+w:st=3D"on">Michael Hammer</st1:PersonName> (mhammer)&quot;
+&lt;mhammer@cisco.com&gt;; &quot;<st1:PersonName w:st=3D"on">David R =
+<st1:City
+ w:st=3D"on"><st1:place =
+w:st=3D"on">Oran</st1:place></st1:City></st1:PersonName>&quot;
+&lt;oran@cisco.com&gt;; &quot;<st1:PersonName =
+w:st=3D"on">p2p<st1:PersonName
+ w:st=3D"on">rg</st1:PersonName>@ietf.o<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName></st1:PersonName>&quot;
+&lt;<st1:PersonName w:st=3D"on">p2p<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName>@ietf.o<st1:PersonName
+ w:st=3D"on">rg</st1:PersonName></st1:PersonName>&gt;; =
+&quot;<st1:PersonName
+w:st=3D"on">sipping@ietf.o<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName></st1:PersonName>&quot;
+&lt;<st1:PersonName w:st=3D"on">sipping@ietf.o<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName></st1:PersonName>&gt;<br>
+Sent: 3-4-07 01:11<br>
+Subject: [P2PSIP] Re: [P2P<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName>] RE:
+[Sipping] Simple SIP usage scenario<br>
+<br>
+<br>
+<br>
+Henry m; p2prg@ietf.org;
+sipping@ietf.org
+Subject: RE: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage
+scenario
+
+=20
+
+Henry,
+
+I like your idea of deploying sip peers in edge devices. However, as an
+employee of a carrier I would like to see how a carrier is able to
+provide service asurance to be able to provide compliant handling. Many
+of our customers do not understand how to install these gateways
+themselves, let alone how to troubleshoot.
+
+This is even more important for enterprises, which often  insist on SLAs
+which include troubleshoot resolution limits.
+
+-----Original Message-----
+From: "Paul Kyzivat" <pkyzivat@cisco.com>
+To: "Henry Sinnreich" <hsinnrei@adobe.com>
+Cc: "P2PSIP Mailing List" <p2psip@ietf.org>; "Michael Hammer (mhammer)"
+<mhammer@cisco.com>; "David R Oran" <oran@cisco.com>; "p2prg@ietf.org"
+<p2prg@ietf.org>; "sipping@ietf.org" <sipping@ietf.org>
+Sent: 3-4-07 01:11
+Subject: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage scenario
+
+
+
+Henry Sinnreich wrote:
+> Paul,
+>
+>> I more or less agree with the final conclusion below.
+>
+> This is good starting point to discuss some usage scenarios.
+>
+> Putting on my former hat as an employee for a carrier, I cannot
+overlook
+> the following:
+>
+> P2P SIP implemented correctly in the residential access box or cable
+> set-top box indeed is a good or better replacement for the entire VoIP
+> network infrastructure (cost, operations, new services, etc).
+> Integrated access devices for the enterprise can probably play a
+similar
+> role, not to mention existing P2P PBX products (please refer to all
+the
+> advantages of P2P that need not repeated here).
+>
+> What do people think of these three usage scenarios for P2P SIP:
+> - SIP peer in the DSL access device,
+> - SIP peer in the cable access device,
+
+These seem quite reasonable, assuming that a device connected at this
+point is able to function properly as a peer. (I haven't been following
+what the assumptions are about required network capabilities of peers.)
+
+> - SIP peer in enterprise network integrated access device (IAD).
+
+I think this depends greatly on what expectations / contractual
+guarantees the enterprise has. Its unclear to me what guarantees can be
+made about a P2PSIP network will be able to make, and its unclear what
+kind of infrastructure would be installed by/for someone willing to make
+guarantees.
+
+        Paul
+
+> Note that these examples imply very low churn for the peers and add
+the
+> data retention resilience of P2P (geographic diversity is native and
+> mobile, etc.). Incidentally, NAT traversal may also not be a problem,
+or
+> at least an easier problem.
+>
+> What do you all think?
+>
+> I have taken the liberty to copy the P2P SIP list, since the low churn
+> scenarios are of interest for the DHT selection. Or just pick the same
+> DHT for all scenarios anyway? I don't think so.
+>
+> Thanks, Henry
+>
+>
+> -----Original Message-----
+> From: Paul Kyzivat [mailto:pkyzivat@cisco.com]
+> Sent: Friday, March 30, 2007 6:31 PM
+> To: Eunsoo Shim
+> Cc: Henry Sinnreich; Michael Hammer (mhammer); David R Oran;
+> p2prg@ietf.org; sipping@ietf.org; zhuxian
+> Subject: Re: [P2Prg] RE: [Sipping] Simple SIP usage scenario
+>
+> I more or less agree with the final conclusion below.
+>
+> My main point here is that P2P and C/S need not be enemies. Nor is a
+> total C/S system necessarily evil. What is most evil is *bundling* of
+> services that prevents freedom of choice.
+>
+> I think I would be quite happy with a SP that provides a
+registrar/proxy
+>
+> and allows me to provide all other features as I see fit - by taking
+> them ala carte from the SP, or subscribing to them from one or more
+> other SPs, or by providing them myself via appliances I own. If that
+> registrar/proxy was replaced by a P2P sip community, the differences,
+if
+>
+> any, would hopefully be more a function of the implementation and the
+> business models of those involved than the architecture.
+>
+> (I gather the general assumption is that a P2P setup will be *free*.
+But
+>
+> I have a hard time believing that. If most of the usage is by mobile
+> devices that can't be peers, thm; p2prg@ietf.org;
+sipping@ietf.org
+Subject: RE: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage
+scenario
+
+=20
+
+Henry,
+
+I like your idea of deploying sip peers in edge devices. However, as an
+employee of a carrier I would like to see how a carrier is able to
+provide service asurance to be able to provide compliant handling. Many
+of our customers do not understand how to install these gateways
+themselves, let alone how to troubleshoot.
+
+This is even more important for enterprises, which often  insist on SLAs
+which include troubleshoot resolution limits.
+
+-----Original Message-----
+From: "Paul Kyzivat" <pkyzivat@cisco.com>
+To: "Henry Sinnreich" <hsinnrei@adobe.com>
+Cc: "P2PSIP Mailing List" <p2psip@ietf.org>; "Michael Hammer (mhammer)"
+<mhammer@cisco.com>; "David R Oran" <oran@cisco.com>; "p2prg@ietf.org"
+<p2prg@ietf.org>; "sipping@ietf.org" <sipping@ietf.org>
+Sent: 3-4-07 01:11
+Subject: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage scenario
+
+
+
+Henry Sinnreich wrote:
+> Paul,
+>
+>> I more or less agree with the final conclusion below.
+>
+> This is good starting point to discuss some usage scenarios.
+>
+> Putting on my former hat as an employee for a carrier, I cannot
+overlook
+> the following:
+>
+> P2P SIP implemented correctly in the residential access box or cable
+> set-top box indeed is a good or better replacement for the entire VoIP
+> network infrastructure (cost, operations, new services, etc).
+> Integrated access devices for the enterprise can probably play a
+similar
+> role, not to mention existing P2P PBX products (please refer to all
+the
+> advantages of P2P that need not repeated here).
+>
+> What do people think of these three usage scenarios for P2P SIP:
+> - SIP peer in the DSL access device,
+> - SIP peer in the cable access device,
+
+These seem quite reasonable, assuming that a device connected at this
+point is able to function properly as a peer. (I haven't been following
+what the assumptions are about required network capabilities of peers.)
+
+> - SIP peer in enterprise network integrated access device (IAD).
+
+I think this depends greatly on what expectations / contractual
+guarantees the enterprise has. Its unclear to me what guarantees can be
+made about a P2PSIP network will be able to make, and its unclear what
+kind of infrastructure would be installed by/for someone willing to make
+guarantees.
+
+        Paul
+
+> Note that these examples imply very low churn for the peers and add
+the
+> data retention resilience of P2P (geographic diversity is native and
+> mobile, etc.). Incidentally, NAT traversal may also not be a problem,
+or
+> at least an easier problem.
+>
+> What do you all think?
+>
+> I have taken the liberty to copy the P2P SIP list, since the low churn
+> scenarios are of interest for the DHT selection. Or just pick the same
+> DHT for all scenarios anyway? I don't think so.
+>
+> Thanks, Henry
+>
+>
+> -----Original Message-----
+> From: Paul Kyzivat [mailto:pkyzivat@cisco.com]
+> Sent: Friday, March 30, 2007 6:31 PM
+> To: Eunsoo Shim
+> Cc: Henry Sinnreich; Michael Hammer (mhammer); David R Oran;
+> p2prg@ietf.org; sipping@ietf.org; zhuxian
+> Subject: Re: [P2Prg] RE: [Sipping] Simple SIP usage scenario
+>
+> I more or less agree with the final conclusion below.
+>
+> My main point here is that P2P and C/S need not be enemies. Nor is a
+> total C/S system necessarily evil. What is most evil is *bundling* of
+> services that prevents freedom of choice.
+>
+> I think I would be quite happy with a SP that provides a
+registrar/proxy
+>
+> and allows me to provide all other features as I see fit - by taking
+> them ala carte from the SP, or subscribing to them from one or more
+> other SPs, or by providing them myself via appliances I own. If that
+> registrar/proxy was replaced by a P2P sip community, the differences,
+if
+>
+> any, would hopefully be more a function of the implementation and the
+> business models of those involved than the architecture.
+>
+> (I gather the general assumption is that a P2P setup will be *free*.
+But
+>
+> I have a hard time believing that. If most of the usage is by mobile
+> devices that can't be peers, thSinnreich wrote:<br>
+&gt; Paul,<br>
+&gt;<br>
+&gt;&gt; I more or less agree with the final conclusion below.<br>
+&gt;<br>
+&gt; This is good starting point to discuss some usage scenarios.<br>
+&gt;<br>
+&gt; Putting on my former hat as an employee for a carrier, I cannot =
+overlook<br>
+&gt; the following:<br>
+&gt;<br>
+&gt; P2P SIP implemented correctly in the residential access box or =
+cable<br>
+&gt; set-top box indeed is a good or better replacement for the entire =
+VoIP<br>
+&gt; network infrastructure (cost, operations, new services, etc).<br>
+&gt; Integrated access devices for the enterprise can probably play a =
+similar<br>
+&gt; role, not to mention existing P2P PBX products (please refer to all =
+the<br>
+&gt; advantages of P2P that need not repeated here).<br>
+&gt;<br>
+&gt; What do people think of these three usage scenarios for P2P =
+SIP:<br>
+&gt; - SIP peer in the DSL access device,<br>
+&gt; - SIP peer in the cable access device,<br>
+<br>
+These seem quite reasonable, assuming that a device connected at =
+this<br>
+point is able to function properly as a peer. (I haven't been =
+following<br>
+what the assumptions are about required network capabilities of =
+peers.)<br>
+<br>
+&gt; - SIP peer in enterprise network integrated access device =
+(IAD).<br>
+<br>
+I think this depends greatly on what expectations / contractual<br>
+guarantees the enterprise has. Its unclear to me what guarantees can =
+be<br>
+made about a P2PSIP network will be able to make, and its unclear =
+what<br>
+kind of infrastructure would be installed by/for someone willing to =
+make<br>
+guarantees.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paul<br>
+<br>
+&gt; Note that these examples imply very low churn for the peers and add =
+the<br>
+&gt; data retention resilience of P2P (geographic diversity is native =
+and<br>
+&gt; mobile, etc.). Incidentally, NAT traversal may also not be a =
+problem, or<br>
+&gt; at least an easier problem.<br>
+&gt;<br>
+&gt; What do you all think?<br>
+&gt;<br>
+&gt; I have taken the liberty to copy the P2P SIP list, since the low =
+churn<br>
+&gt; scenarios are of interest for the DHT selection. Or just pick the =
+same<br>
+&gt; DHT for all scenarios anyway? I don't think so.<br>
+&gt;<br>
+&gt; Thanks, Henry<br>
+&gt;<br>
+&gt;<br>
+&gt; -----Original Message-----<br>
+&gt; From: <st1:PersonName w:st=3D"on">Paul Kyzivat</st1:PersonName> [<a
+href=3D"mailto:pkyzivat@cisco.com">mailto:pkyzivat@cisco.com</a>]<br>
+&gt; Sent: Friday, March 30, 2007 6:31 PM<br>
+&gt; To: <st1:PersonName w:st=3D"on">Eunsoo Shim</st1:PersonName><br>
+&gt; Cc: Henry Sinnreich; <st1:PersonName w:st=3D"on">Michael =
+Hammer</st1:PersonName>
+(mhammer); <st1:PersonName w:st=3D"on">David R =
+Oran</st1:PersonName>;<br>
+&gt; <st1:PersonName w:st=3D"on">p2p<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName>@ietf.o<st1:PersonName
+ w:st=3D"on">rg</st1:PersonName></st1:PersonName>; <st1:PersonName =
+w:st=3D"on">sipping@ietf.o<st1:PersonName
+ w:st=3D"on">rg</st1:PersonName></st1:PersonName>; zhuxian<br>
+&gt; Subject: Re: [P2P<st1:PersonName w:st=3D"on">rg</st1:PersonName>] =
+RE:
+[Sipping] Simple SIP usage scenario<br>
+&gt;<br>
+&gt; I more or less agree with the final conclusion below.<br>
+&gt;<br>
+&gt; My main point here is that P2P and C/S need not be enemies. Nor is =
+a<br>
+&gt; total C/S system necessarily evil. What is most evil is *bundling* =
+of<br>
+&gt; services that prevents freedom of choice.<br>
+&gt;<br>
+&gt; I think I would be quite happy with a SP that provides a =
+registrar/proxy<br>
+&gt;<br>
+&gt; and allows me to provide all other features as I see fit - by =
+taking<br>
+&gt; them ala carte from the SP, or subscribing to them from one or =
+more<br>
+&gt; other SPs, or by providing them myself via appliances I own. If =
+that<br>
+&gt; registrar/proxy was replaced by a P2P sip community, the =
+differences, if<br>
+&gt;<br>
+&gt; any, would hopefully be more a function of the implementation and =
+the<br>
+&gt; business models of those involved than the architecture.<br>
+&gt;<br>
+&gt; (I gather the general assumption is that a P2P setup will be =
+*free*. But<br>
+&gt;<br>
+&en somebody will have to pay for enough
+> peers to support them. If it isn't free, then how is it better than a
+> well engineered C/S system?)
+>
+> So I think the key thing here is that some features will require
+getting
+>
+> some help from another node. There ought to be the option to pick a
+> different source for each helper you require, and an ability for it
+all
+> to play together.
+>
+>       Paul
+>
+> Eunsoo Shim wrote:
+>> Please see my inline comment.
+>>
+>> On 3/30/07, *Paul Kyzivat* <pkyzivat@cisco.com
+>> <mailto:pkyzivat@cisco.com>> wrote:
+>>
+>>
+>>
+>>     Henry Sinnreich wrote:
+>>      > David Oran wrote (with regard to voice mail):
+>>      >
+>>      >> I'm not saying this can't be made to work, only that it isn't
+>>      > immediately >obvious that it has advantages over a classic
+>>     application
+>>      > server >approach.
+>>      >
+>>      > The answer for VM is "it depends":
+>>      >
+>>
+>>
+>> I agree. It really depends. Certainly there are tradeoffs.
+>>
+>>      > There are several commercial P2P IP PBX solutions without any
+>>     server for
+>>      > VM or anything else. No doubt the IT organization appreciates
+> just
+>>      > having to plug in the IP phones and GWY to the PSTN without
+any
+>>      > configuration ever for VM or any other PBX feature.
+>>
+>>     I don't understand. Are you saying they don't have VM, or that
+> they
+>>     don't have a *server* for VM?
+>>
+>>
+>> I guess they don't have a  *server* for  VM.
+>>
+>>      > For public P2P SIP networks there are two more scenarios where
+> VM can
+>>      > reside (and without ever spending one cent on VM servers + IT
+>>     systems):
+>>      >
+>>      > - In Cable and DSL service provider networks: The residential
+>>     router can
+>>      > act as a voice recorder
+>>
+>>     That is simply an example of the user having an appliance of his
+> own
+>>     that provides VM service.
+>>
+>>      > and P2P can cover the not too frequent cases,
+>>      > where the router is not in operation, so the data is backed up
+> in
+>>     other
+>>      > peer residential gateways (encrypted).
+>>
+>>     I guess I just need to have more info about how this would work
+> before I
+>>     will be convinced it is feasible and trustworthy.
+>>
+>>
+>> Well, 'trustworthy' could be  considered in many angles.
+>> If it is about privacy of the message, a public key based encryption
+>> would provide acceptable privacy.
+>> If it is about reliability of the message delivery, well, a P2P based
+>> asynchronous message delivery (like VM) is most likely less reliable
+>> than a well managed server based system.
+>> However, my experience with Skype's asynchronous message delivery was
+>> not bad. Actually I don't see any significant difference between it
+> and
+>> my cellular service provider's VM service. :-)
+>> Reliability is always a challenge for P2P, for sure. But, I believe
+it
+>
+>> is feasible to build a P2P system for VM acceptable for many
+> scenarios.
+>>      > - In mobile networks: The VM can reside in quite stable peers
+>>     inside the
+>>      > wireless base station network. The peers in the base station
+> network
+>>      > need no configuration, etc.
+>>
+>>     I don't understand. I guess that could be true if the peers are
+> willing
+>>     to store an arbitrary amount of VM indefinitely for anybody. Is
+> that
+>>     believable?
+>>
+>>
+>> It depends.
+>> In a very nice environment where all the peers are willing to
+> cooperate
+>> at their best, the peers will store as much as they can. In a tough
+>> environment, the situation will be different.
+>>
+>>     This seems to translate to a model where it is assumed that those
+> nodes
+>>     that are on most of the time will be willing to provide VM
+storage
+> for
+>>     those nodes that aren't on most of the time.
+>>
+>>
+>> This is again related to reliability of P2P systems or topics like
+> free
+>> riders and reputation.
+>> A P2P system is a community or society. To be simple, if many of the
+>> members are bad, the community won't work well. If the majority of
+the
+>
+>> members are good, the community will work well or reasonably.
+>>
+>>      > Aden somebody will have to pay for enough
+> peers to support them. If it isn't free, then how is it better than a
+> well engineered C/S system?)
+>
+> So I think the key thing here is that some features will require
+getting
+>
+> some help from another node. There ought to be the option to pick a
+> different source for each helper you require, and an ability for it
+all
+> to play together.
+>
+>       Paul
+>
+> Eunsoo Shim wrote:
+>> Please see my inline comment.
+>>
+>> On 3/30/07, *Paul Kyzivat* <pkyzivat@cisco.com
+>> <mailto:pkyzivat@cisco.com>> wrote:
+>>
+>>
+>>
+>>     Henry Sinnreich wrote:
+>>      > David Oran wrote (with regard to voice mail):
+>>      >
+>>      >> I'm not saying this can't be made to work, only that it isn't
+>>      > immediately >obvious that it has advantages over a classic
+>>     application
+>>      > server >approach.
+>>      >
+>>      > The answer for VM is "it depends":
+>>      >
+>>
+>>
+>> I agree. It really depends. Certainly there are tradeoffs.
+>>
+>>      > There are several commercial P2P IP PBX solutions without any
+>>     server for
+>>      > VM or anything else. No doubt the IT organization appreciates
+> just
+>>      > having to plug in the IP phones and GWY to the PSTN without
+any
+>>      > configuration ever for VM or any other PBX feature.
+>>
+>>     I don't understand. Are you saying they don't have VM, or that
+> they
+>>     don't have a *server* for VM?
+>>
+>>
+>> I guess they don't have a  *server* for  VM.
+>>
+>>      > For public P2P SIP networks there are two more scenarios where
+> VM can
+>>      > reside (and without ever spending one cent on VM servers + IT
+>>     systems):
+>>      >
+>>      > - In Cable and DSL service provider networks: The residential
+>>     router can
+>>      > act as a voice recorder
+>>
+>>     That is simply an example of the user having an appliance of his
+> own
+>>     that provides VM service.
+>>
+>>      > and P2P can cover the not too frequent cases,
+>>      > where the router is not in operation, so the data is backed up
+> in
+>>     other
+>>      > peer residential gateways (encrypted).
+>>
+>>     I guess I just need to have more info about how this would work
+> before I
+>>     will be convinced it is feasible and trustworthy.
+>>
+>>
+>> Well, 'trustworthy' could be  considered in many angles.
+>> If it is about privacy of the message, a public key based encryption
+>> would provide acceptable privacy.
+>> If it is about reliability of the message delivery, well, a P2P based
+>> asynchronous message delivery (like VM) is most likely less reliable
+>> than a well managed server based system.
+>> However, my experience with Skype's asynchronous message delivery was
+>> not bad. Actually I don't see any significant difference between it
+> and
+>> my cellular service provider's VM service. :-)
+>> Reliability is always a challenge for P2P, for sure. But, I believe
+it
+>
+>> is feasible to build a P2P system for VM acceptable for many
+> scenarios.
+>>      > - In mobile networks: The VM can reside in quite stable peers
+>>     inside the
+>>      > wireless base station network. The peers in the base station
+> network
+>>      > need no configuration, etc.
+>>
+>>     I don't understand. I guess that could be true if the peers are
+> willing
+>>     to store an arbitrary amount of VM indefinitely for anybody. Is
+> that
+>>     believable?
+>>
+>>
+>> It depends.
+>> In a very nice environment where all the peers are willing to
+> cooperate
+>> at their best, the peers will store as much as they can. In a tough
+>> environment, the situation will be different.
+>>
+>>     This seems to translate to a model where it is assumed that those
+> nodes
+>>     that are on most of the time will be willing to provide VM
+storage
+> for
+>>     those nodes that aren't on most of the time.
+>>
+>>
+>> This is again related to reliability of P2P systems or topics like
+> free
+>> riders and reputation.
+>> A P2P system is a community or society. To be simple, if many of the
+>> members are bad, the community won't work well. If the majority of
+the
+>
+>> members are good, the community will work well or reasonably.
+>>
+>>      > Adgt; I have a hard time believing that. If most of the usage is by =
+mobile<br>
+&gt; devices that can't be peers, then somebody will have to pay for =
+enough<br>
+&gt; peers to support them. If it isn't free, then how is it better than =
+a<br>
+&gt; well engineered C/S system?)<br>
+&gt;<br>
+&gt; So I think the key thing here is that some features will require =
+getting<br>
+&gt;<br>
+&gt; some help from another node. There ought to be the option to pick =
+a<br>
+&gt; different source for each helper you require, and an ability for it =
+all<br>
+&gt; to play together.<br>
+&gt;<br>
+&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paul<br>
+&gt;<br>
+&gt; <st1:PersonName w:st=3D"on">Eunsoo Shim</st1:PersonName> wrote:<br>
+&gt;&gt; Please see my inline comment.<br>
+&gt;&gt;<br>
+&gt;&gt; On 3/30/07, *<st1:PersonName w:st=3D"on">Paul =
+Kyzivat</st1:PersonName>*
+&lt;pkyzivat@cisco.com<br>
+&gt;&gt; &lt;<a =
+href=3D"mailto:pkyzivat@cisco.com">mailto:pkyzivat@cisco.com</a>&gt;&gt;
+wrote:<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; Henry Sinnreich wrote:<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; David Oran wrote (with =
+regard to
+voice mail):<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;&gt; I'm not saying this =
+can't be
+made to work, only that it isn't<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; immediately &gt;obvious that =
+it has
+advantages over a classic<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; application<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; server &gt;approach.<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; The answer for VM is =
+&quot;it
+depends&quot;:<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt; I agree. It really depends. Certainly there are tradeoffs.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; There are several commercial =
+P2P IP
+PBX solutions without any<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; server for<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; VM or anything else. No =
+doubt the
+IT o<st1:PersonName w:st=3D"on">rg</st1:PersonName>anization =
+appreciates<br>
+&gt; just<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; having to plug in the IP =
+phones and
+GWY to the PSTN without any<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; configuration ever for VM or =
+any
+other PBX feature.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; I don't understand. Are you saying they =
+don't
+have VM, or that<br>
+&gt; they<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; don't have a *server* for VM?<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt; I guess they don't have a&nbsp; *server* for&nbsp; VM.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; For public P2P SIP networks =
+there
+are two more scenarios where<br>
+&gt; VM can<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; reside (and without ever =
+spending
+one cent on VM servers + IT<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; systems):<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; - In Cable and DSL service =
+provider
+networks: The residential<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; router can<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; act as a voice recorder<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; That is simply an example of the user =
+having
+an appliance of his<br>
+&gt; own<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; that provides VM service.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; and P2P can cover the not =
+too
+frequent cases,<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; where the router is not in
+operation, so the data is backed up<br>
+&gt; in<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; other<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; peer residential gateways
+(encrypted).<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; I guess I just need to have more info =
+about
+how this would work<br>
+&gt; before I<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; will be convinced it is feasible and
+trustworthy.<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt;d to this the conferencing capability coming from p2p
+> application
+>>      > layer multicast, the SIP e2e control capabilities (for such as
+>>      > auto-attendant, agent workstation, etc.) and one has to wonder
+> why IT
+>>      > networks, public VoIP networks and end users should support
+the
+> huge
+>>      > cost of hand engineering, testing, monitoring, maintaining
+> server
+>>     based
+>>      > VoIP networks. P2P self configuration is nothing less that
+> automation
+>>      > applied to VoIP, plus the shifting of computing to the
+> endpoints,
+>>     where
+>>      > there is an abundance of unused CPU, storage, bandwidth and
+>>     electricity.
+>>      >
+>>      > Eric Burger also notes IM changes completely the usage for VM
+> and may
+>>      > make unnecessary to place calls on VM in the first place.
+>>
+>>     I find this more promising.
+>>
+>>         =20
+>>
+>>
+>> In overall, are we discussing if P2P systems based VM can work? I
+> think
+>> it can work.  Just it depends on many things.
+>> If it is not super-reliable, should we disregard it? I would say no.
+>>
+>> On the other hand, do we have to abandon client server based VM and
+>> switch to P2P system based VM? It is upto each of us.
+>> Client server based VM systems are already there.
+>> So why don't we work on P2P based VM now?
+>>=20
+>> Thanks.
+>>
+>> Eunsoo
+>
+
+_______________________________________________
+P2PSIP mailing list
+P2PSIP@ietf.org
+https://www1.ietf.org/mailman/listinfo/p2psip
+
+
+------_=_NextPart_001_01C776C7.CE6A1169
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:st1=3D"urn:schemas-microsoft-com:office:smarttags" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>RE: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage =
+scenario</title>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"City"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"place"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft
+-com:office:smarttags"
+ name=3D"PersonName"/>
+<!--[if !mso]>
+<style>
+st1\:*{behavior:url(#default#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:319894744;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1009410942 -487147662 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:1298990762;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1053834342 -46605914 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@ld to this the conferencing capability coming from p2p
+> application
+>>      > layer multicast, the SIP e2e control capabilities (for such as
+>>      > auto-attendant, agent workstation, etc.) and one has to wonder
+> why IT
+>>      > networks, public VoIP networks and end users should support
+the
+> huge
+>>      > cost of hand engineering, testing, monitoring, maintaining
+> server
+>>     based
+>>      > VoIP networks. P2P self configuration is nothing less that
+> automation
+>>      > applied to VoIP, plus the shifting of computing to the
+> endpoints,
+>>     where
+>>      > there is an abundance of unused CPU, storage, bandwidth and
+>>     electricity.
+>>      >
+>>      > Eric Burger also notes IM changes completely the usage for VM
+> and may
+>>      > make unnecessary to place calls on VM in the first place.
+>>
+>>     I find this more promising.
+>>
+>>         =20
+>>
+>>
+>> In overall, are we discussing if P2P systems based VM can work? I
+> think
+>> it can work.  Just it depends on many things.
+>> If it is not super-reliable, should we disregard it? I would say no.
+>>
+>> On the other hand, do we have to abandon client server based VM and
+>> switch to P2P system based VM? It is upto each of us.
+>> Client server based VM systems are already there.
+>> So why don't we work on P2P based VM now?
+>>=20
+>> Thanks.
+>>
+>> Eunsoo
+>
+
+_______________________________________________
+P2PSIP mailing list
+P2PSIP@ietf.org
+https://www1.ietf.org/mailman/listinfo/p2psip
+
+
+------_=_NextPart_001_01C776C7.CE6A1169
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:st1=3D"urn:schemas-microsoft-com:office:smarttags" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>RE: [P2PSIP] Re: [P2Prg] RE: [Sipping] Simple SIP usage =
+scenario</title>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"City"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"place"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft
+-com:office:smarttags"
+ name=3D"PersonName"/>
+<!--[if !mso]>
+<style>
+st1\:*{behavior:url(#default#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:319894744;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1009410942 -487147662 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:1298990762;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1053834342 -46605914 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@l Well, 'trustworthy' could be&nbsp; considered in many =
+angles.<br>
+&gt;&gt; If it is about privacy of the message, a public key based =
+encryption<br>
+&gt;&gt; would provide acceptable privacy.<br>
+&gt;&gt; If it is about reliability of the message delivery, well, a P2P =
+based<br>
+&gt;&gt; asynchronous message delivery (like VM) is most likely less =
+reliable<br>
+&gt;&gt; than a well managed server based system.<br>
+&gt;&gt; However, my experience with Skype's asynchronous message =
+delivery was<br>
+&gt;&gt; not bad. Actually I don't see any significant difference =
+between it<br>
+&gt; and<br>
+&gt;&gt; my cellular service provider's VM service. :-)<br>
+&gt;&gt; Reliability is always a challenge for P2P, for sure. But, I =
+believe it<br>
+&gt;<br>
+&gt;&gt; is feasible to build a P2P system for VM acceptable for =
+many<br>
+&gt; scenarios.<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; - In mobile networks: The VM =
+can
+reside in quite stable peers<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; inside the<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; wireless base station =
+network. The
+peers in the base station<br>
+&gt; network<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; need no configuration, =
+etc.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; I don't understand. I guess that could =
+be true
+if the peers are<br>
+&gt; willing<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; to store an arbitrary amount of VM
+indefinitely for anybody. Is<br>
+&gt; that<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; believable?<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt; It depends.<br>
+&gt;&gt; In a very nice environment where all the peers are willing =
+to<br>
+&gt; cooperate<br>
+&gt;&gt; at their best, the peers will store as much as they can. In a =
+tough<br>
+&gt;&gt; environment, the situation will be different.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; This seems to translate to a model =
+where it is
+assumed that those<br>
+&gt; nodes<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; that are on most of the time will be =
+willing
+to provide VM storage<br>
+&gt; for<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; those nodes that aren't on most of the =
+time.<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt; This is again related to reliability of P2P systems or topics =
+like<br>
+&gt; free<br>
+&gt;&gt; riders and reputation.<br>
+&gt;&gt; A P2P system is a community or society. To be simple, if many =
+of the<br>
+&gt;&gt; members are bad, the community won't work well. If the majority =
+of the<br>
+&gt;<br>
+&gt;&gt; members are good, the community will work well or =
+reasonably.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; Add to this the conferencing
+capability coming from p2p<br>
+&gt; application<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; layer multicast, the SIP e2e
+control capabilities (for such as<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; auto-attendant, agent =
+workstation,
+etc.) and one has to wonder<br>
+&gt; why IT<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; networks, public VoIP =
+networks and
+end users should support the<br>
+&gt; huge<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; cost of hand engineering, =
+testing,
+monitoring, maintaining<br>
+&gt; server<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; based<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; VoIP networks. P2P self
+configuration is nothing less that<br>
+&gt; automation<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; applied to VoIP, plus the =
+shifting
+of computing to the<br>
+&gt; endpoints,<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; where<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; there is an abundance of =
+unused
+CPU, storage, bandwidth and<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; electricity.<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; Eric Bu<st1:PersonName =
+w:st=3D"on">rg</st1:PersonName>er
+also notes IM changes completely the usage for VM<br>
+&gt; and may<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; make unnecessary to place =
+calls on
+VM in the first place.<br>
+&gt;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp; I find this more promising.<br>
+&gist l1:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Arial;
+	color:navy;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dblue>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Colin, =
+Paul,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Thanks for raising the valid issue =
+about
+service assurance. <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>As engineers, we know the service
+assurance is more than a piece of legal paper and must be based on the
+following:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Adequate
+bandwidth,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Geographic
+diversity,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Simplicity;
+so things can be managed,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Security
+that <u>can be audited</u>,<o:p></o:p></span></font></p>
+
+<p class=3DMsoist l1:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Arial;
+	color:navy;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dblue>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Colin, =
+Paul,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Thanks for raising the valid issue =
+about
+service assurance. <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>As engineers, we know the service
+assurance is more than a piece of legal paper and must be based on the
+following:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Adequate
+bandwidth,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Geographic
+diversity,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Simplicity;
+so things can be managed,<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><font
+size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;
+color:navy'><span style=3D'mso-list:Ignore'>-<font size=3D1 =
+face=3D"Times New Roman"><span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></font></span></span></font><![endif]><font size=3D2 color=3Dnavy
+face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Security
+that <u>can be audited</u>,<o:p></o:p></span></font></p>
+
+<p class=3DMsot;&gt;<br>
+&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&gt;&gt;<br>
+&gt;&gt;<br>
+&gt;&gt; In overall, are we discussing if P2P systems based VM can work? =
+I<br>
+&gt; think<br>
+&gt;&gt; it can work.&nbsp; Just it depends on many things.<br>
+&gt;&gt; If it is not super-reliable, should we disregard it? I would =
+say no.<br>
+&gt;&gt;<br>
+&gt;&gt; On the other hand, do we have to abandon client server based VM =
+and<br>
+&gt;&gt; switch to P2P system based VM? It is upto each of us.<br>
+&gt;&gt; Client server based VM systems are already there.<br>
+&gt;&gt; So why don't we work on P2P based VM now?<br>
+&gt;&gt;&nbsp;<br>
+&gt;&gt; Thanks.<br>
+&gt;&gt;<br>
+&gt;&gt; Eunsoo<br>
+&gt;<br>
+<br>
+_______________________________________________<br>
+P2PSIP mailing list<br>
+P2PSIP@ietf.o<st1:PersonName w:st=3D"on">rg</st1:PersonName><br>
+<a =
+href=3D"https://www1.ietf.org/mailman/listinfo/p2psip">https://www1.ietf.=
+org/mailman/listinfo/p2psip</a></span></font><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01C776C7.CE6A1169--
+
+
+--===============1723679838==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+--===============1723679838==--
+
+

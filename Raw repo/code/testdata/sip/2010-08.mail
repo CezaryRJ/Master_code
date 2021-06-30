@@ -1,0 +1,340 @@
+
+From nitinkapoorr@gmail.com  Sat Aug  7 04:57:28 2010
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 384C43A68C7 for <sip@core3.amsl.com>; Sat,  7 Aug 2010 04:57:28 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zziLBVAVK1ui for <sip@core3.amsl.com>; Sat,  7 Aug 2010 04:57:26 -0700 (PDT)
+Received: from mail-qw0-f44.google.com (mail-qw0-f44.google.com [209.85.216.44]) by core3.amsl.com (Postfix) with ESMTP id D61F13A6853 for <sip@ietf.org>; Sat,  7 Aug 2010 04:57:25 -0700 (PDT)
+Received: by qwe5 with SMTP id 5so6345513qwe.31 for <sip@ietf.org>; Sat, 07 Aug 2010 04:57:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:received:date:message-id :subject:from:to:content-type; bh=uK9SKAhaxFfiLArQ7JGWqHUMjrikxl6MuPiOihqYrC4=; b=E7NcjVaJ1wlR+szlPvCJgdG8QvJqJoVhNnjb2gHX6yvLdSJoY89DuiS4lQw5AoBsz6 w+glgtypVrW3MoaVwz8D6+T/zIut+f0AM1yzDwg+MwNMi4/RYnYgTj8FECcQUiZdjQK3 KbPPcAbr0nF/3fHtAZkxIKduWeImtiJGL6zKo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=EZbzo8ZQWxu/Vz0Ura6Cu/NXpYd/u67Tq2uH7PgyC1mTrNr+KuElkzmGEYabtaSro/ I0Xlgyw82dncq2qaG8I5mQMSrsfgU7QqkR3be/SWmJmaczjukbUPuiFFSwBwDEbTf3GD jdW2mFo76sx7wSH/IJxcl9hEVXYn3FQYBYyPY=
+MIME-Version: 1.0
+Received: by 10.224.110.206 with SMTP id o14mr6887183qap.69.1281182277841;  Sat, 07 Aug 2010 04:57:57 -0700 (PDT)
+Received: by 10.229.72.231 with HTTP; Sat, 7 Aug 2010 04:57:57 -0700 (PDT)
+Date: Sat, 7 Aug 2010 07:57:57 -0400
+Message-ID: <AANLkTi=Wx2Hp7wYMUZ3STQWbwKnZw=V+SqzxY_BGAmjF@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip-implementors@lists.cs.columbia.edu, sip@ietf.org
+Content-Type: multipart/alternative; boundary=00c09f899688903c83048d3a7ec3
+Subject: [Sip] Question
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 07 Aug 2010 11:57:28 -0000
+
+--00c09f899688903c83048d3a7ec3
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+It might be not a correct question or might be the wrong place to ask.
+
+But still if you people allow me to ask, so i would like to ask this.
+
+I would like to know that what will be the future of SIP/SS7 or VoIP, OR if
+any areas where i can do some work.
+
+Currently i am working in Product Support(Nextone Support) & also want to
+know, where i can look forward to my carrier.
+
+Thanks,
+Nitin
+
+--00c09f899688903c83048d3a7ec3
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,<br><br>It might be not a correct question or might be the wrong p=
+lace to ask.<br><br>But still if you people allow me to ask, so i would lik=
+e to ask this.<br><br>I would like to know that what will be the future of =
+SIP/SS7 or VoIP, OR if any areas where i can do some work.<br>
+<br>Currently i am working in Product Support(Nextone Support) &amp; also w=
+ant to know, where i can look forward to my carrier.<br><br>Thanks,<br>Niti=
+n<br><br><br>
+
+--00c09f899688903c83048d3a7ec3--
+
+From wwwrun@rfc-editor.org  Fri Aug 20 11:14:10 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 245E53A6B3E; Fri, 20 Aug 2010 11:14:10 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.056
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.056 tagged_above=-999 required=5 tests=[AWL=-0.056, BAYES_00=-2.599, J_CHICKENPOX_93=0.6, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id RrxiTB5y-kRj; Fri, 20 Aug 2010 11:14:08 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id 7A03D3A6B1A; Fri, 20 Aug 2010 11:14:05 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 84445E06E4; Fri, 20 Aug 2010 11:14:39 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20100820181439.84445E06E4@rfc-editor.org>
+Date: Fri, 20 Aug 2010 11:14:39 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5954 on Essential Correction for IPv6 ABNF and URI Comparison in RFC 3261
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 20 Aug 2010 18:14:10 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5954
+
+        Title:      Essential Correction for IPv6 ABNF 
+                    and URI Comparison in RFC 3261 
+        Author:     V. Gurbani, Ed.,
+                    B. Carpenter, Ed.,
+                    B. Tate, Ed.
+        Status:     Standards Track
+        Stream:     IETF
+        Date:       August 2010
+        Mailbox:    vkg@bell-labs.com, 
+                    brian.e.carpenter@gmail.com, 
+                    brett@broadsoft.com
+        Pages:      7
+        Characters: 13764
+        Updates:    RFC3261
+
+        I-D Tag:    draft-ietf-sip-ipv6-abnf-fix-05.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5954.txt
+
+This document corrects the Augmented Backus-Naur Form (ABNF)
+production rule associated with generating IPv6 literals in RFC 3261.
+It also clarifies the rule for Uniform Resource Identifier (URI)
+comparison when the URIs contain textual representation of IP
+addresses.  [STANDARDS TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+Association Management Solutions, LLC
+
+
+
+From wwwrun@rfc-editor.org  Mon Aug 23 13:53:42 2010
+Return-Path: <wwwrun@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id BDB193A6AE3 for <sip@core3.amsl.com>; Mon, 23 Aug 2010 13:53:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -102.358
+X-Spam-Level: 
+X-Spam-Status: No, score=-102.358 tagged_above=-999 required=5 tests=[AWL=0.242, BAYES_00=-2.599, NO_RELAYS=-0.001, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id n-Dx5rlfi-dY for <sip@core3.amsl.com>; Mon, 23 Aug 2010 13:53:41 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1890:1112:1::2f]) by core3.amsl.com (Postfix) with ESMTP id B65D73A6AEA for <sip@ietf.org>; Mon, 23 Aug 2010 13:53:41 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30) id 7884EE06B5; Mon, 23 Aug 2010 13:54:15 -0700 (PDT)
+To: vkg@bell-labs.com, brian.e.carpenter@gmail.com, brett@broadsoft.com, gonzalo.camarillo@ericsson.com, rjsparks@nostrum.com, dean.willis@softarmor.com, drage@alcatel-lucent.com
+From: RFC Errata System <rfc-editor@rfc-editor.org>
+Message-Id: <20100823205415.7884EE06B5@rfc-editor.org>
+Date: Mon, 23 Aug 2010 13:54:15 -0700 (PDT)
+Cc: sip@ietf.org, ah@TR-Sys.de, rfc-editor@rfc-editor.org
+Subject: [Sip] [Technical Errata Reported] RFC5954 (2502)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 23 Aug 2010 20:53:42 -0000
+
+The following errata report has been submitted for RFC5954,
+"Essential Correction for IPv6 ABNF and URI Comparison in RFC 3261".
+
+--------------------------------------
+You may review the report below and at:
+http://www.rfc-editor.org/errata_search.php?rfc=5954&eid=2502
+
+--------------------------------------
+Type: Technical
+Reported by: Alfred Hoenes <ah@TR-Sys.de>
+
+Section: 4.2, page 5
+
+Original Text
+-------------
+   NEW:
+
+   o  For two URIs to be equal, the user, password, host, and port
+|     components must match.  If the host component contains a textual
+|     representation of IP addresses, then the representation of those
+      IP addresses may vary.  If so, the host components are considered
+      to match if the different textual representations yield the same
+      binary IP address.
+
+
+Corrected Text
+--------------
+   NEW:
+
+   o  For two URIs to be equal, the user, password, host, and port
+|     components must match.  If both host components contain the textual
+|     representation of an IP address, then the representation of those
+      IP addresses may vary.  If so, the host components are considered
+      to match if the different textual representations yield the same
+      binary IP address.
+
+
+Notes
+-----
+Rationale:  Essential clarification of potentilally misleading grammar
+  and semantics including singular/plural mismatches.  Because of the
+  perceived significance, this erratum is designated as Technical.
+
+Instructions:
+-------------
+This errata is currently posted as "Reported". If necessary, please
+use "Reply All" to discuss whether it should be verified or
+rejected. When a decision is reached, the verifying party (IESG)
+can log in to change the status and edit the report, if necessary. 
+
+--------------------------------------
+RFC5954 (draft-ietf-sip-ipv6-abnf-fix-05)
+--------------------------------------
+Title               : Essential Correction for IPv6 ABNF and URI Comparison in RFC 3261
+Publication Date    : August 2010
+Author(s)           : V. Gurbani, Ed., B. Carpenter, Ed., B. Tate, Ed.
+Category            : PROPOSED STANDARD
+Source              : Session Initiation Protocol
+Area                : Real-time Applications and Infrastructure
+Stream              : IETF
+Verifying Party     : IESG
+
+From jmpolk@cisco.com  Wed Aug 25 09:05:41 2010
+Return-Path: <jmpolk@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 051D43A6AD0 for <sip@core3.amsl.com>; Wed, 25 Aug 2010 09:05:41 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -110.484
+X-Spam-Level: 
+X-Spam-Status: No, score=-110.484 tagged_above=-999 required=5 tests=[AWL=0.115, BAYES_00=-2.599, RCVD_IN_DNSWL_HI=-8, USER_IN_WHITELIST=-100]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id jDGAwCAvnn-z for <sip@core3.amsl.com>; Wed, 25 Aug 2010 09:05:39 -0700 (PDT)
+Received: from sj-iport-6.cisco.com (sj-iport-6.cisco.com [171.71.176.117]) by core3.amsl.com (Postfix) with ESMTP id AED1C3A6B3D for <sip@ietf.org>; Wed, 25 Aug 2010 09:05:16 -0700 (PDT)
+Authentication-Results: sj-iport-6.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApIFAM/bdEyrR7Hu/2dsb2JhbACTI40acaBXnBuFNwSEOg
+X-IronPort-AV: E=Sophos;i="4.56,269,1280707200"; d="scan'208";a="578650285"
+Received: from sj-core-5.cisco.com ([171.71.177.238]) by sj-iport-6.cisco.com with ESMTP; 25 Aug 2010 16:05:49 +0000
+Received: from jmpolk-wxp01.cisco.com (rcdn-jmpolk-8715.cisco.com [10.99.80.22]) by sj-core-5.cisco.com (8.13.8/8.14.3) with ESMTP id o7PG5nRq005317; Wed, 25 Aug 2010 16:05:49 GMT
+Message-Id: <201008251605.o7PG5nRq005317@sj-core-5.cisco.com>
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Wed, 25 Aug 2010 11:05:48 -0500
+To: vidyut_gupta@yahoo.com
+From: "James M. Polk" <jmpolk@cisco.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+Cc: sip@ietf.org
+Subject: [Sip] Fwd: I-D ACTION:draft-vidyut-sip-message-body-in-register-00.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 25 Aug 2010 16:05:41 -0000
+
+Vidyut
+
+In the abstract you say "Register never carries any message body", 
+which gives the impression that REGISTER cannot carry a message body. 
+This is not true.
+
+James
+
+
+>From: Internet-Drafts@ietf.org
+>To: i-d-announce@ietf.org
+>Subject: I-D ACTION:draft-vidyut-sip-message-body-in-register-00.txt
+>Date: Tue, 24 Aug 2010 13:45:01 -0700 (PDT)
+>
+>A New Internet-Draft is available from the on-line Internet-Drafts
+>directories.
+>
+>
+>         Title           : SIP Forum - Message Body in SIP REGISTER Message
+>         Author(s)       : V. Gupta
+>         Filename        : draft-vidyut-sip-message-body-in-register-00.txt
+>         Pages           : 13
+>         Date            : 2010-8-24
+>
+>In SIP, Register never carries any message body, but a lot of things 
+>can be simplified by allowing the one. User can configure their call 
+>preferences at any moment by just sending a Register message. In present
+>scenario when users are becoming more and more demanding it's 
+>perfectly logical to allow them to configure their call preferences 
+>dynamically. The present draft present two such call preferences 
+>requested by user - call barging and advertising unavailability. It 
+>can, however, be extended for other scenarios as well.
+>
+>
+>A URL for this Internet-Draft is:
+>http://www.ietf.org/internet-drafts/draft-vidyut-sip-message-body-in-register-00.txt
+>
+>Internet-Drafts are also available by anonymous FTP at:
+>ftp://ftp.ietf.org/internet-drafts/
+>
+>Below is the data which will enable a MIME compliant mail reader
+>implementation to automatically retrieve the ASCII version of the
+>Internet-Draft.
+>
+>
+><ftp://ftp.ietf.org/internet-drafts/draft-vidyut-sip-message-body-in-register-00.txt>
+>_______________________________________________
+>I-D-Announce mailing list
+>I-D-Announce@ietf.org
+>https://www.ietf.org/mailman/listinfo/i-d-announce
+>Internet-Draft directories: http://www.ietf.org/shadow.html
+>or ftp://ftp.ietf.org/ietf/1shadow-sites.txt
+

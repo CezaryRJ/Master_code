@@ -1,0 +1,358 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ltru
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ltru/2006-09.mailcl']
+id : 47631275-5a6e-4d2c-8887-30914a39fb42
+_version_ : 1675132685191741440
+
+Content : 
+
+
+_______________________________________________
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru
+
+
+
+--=_alternative 007BB409882571F8_=
+Content-Type: text/html; charset="US-ASCII"
+
+
+<br><tt><font size=3>Changes to clarify use of script tags and RFC 4646bis
+with spoken language:</font></tt>
+<br>
+<br><tt><font size=3>-Section 1-</font></tt>
+<br>
+<br><tt><font size=3>&nbsp; &quot;In addition, knowledge about the particular
+language used by some<br>
+ &nbsp;piece of information content might be useful or even required by
+some<br>
+ &nbsp;types of processing; for example, spell-checking, computer-<br>
+ &nbsp;synthesized speech, Braille transcription, or high-quality print<br>
+ &nbsp;renderings.&quot;</font></tt>
+<br>
+<br><tt><font size=3>ADD after previous paragraph?</font></tt>
+<br>
+<br><tt><font size=3>It is important to note that the language identification
+needs described above apply not only to written language, but also to spoken
+language such that found in videos, audio files, songs, podcasts, films,
+and written interfaces used to access or classify such content.</font></tt>
+<br>
+<br><tt><font size=3>-Section 2.2.3-</font></tt>
+<br>
+<br><tt><font size=3>Changes:</font></tt>
+<br>
+<br><tt><font size=3>2. &nbsp;&lt;ADD&gt;When applicable,&lt;/ADD&gt; script
+subtags MUST immediately follow the primary language subtag and all extended
+language subtags and MUST occur before any other type of subtag described
+below.</font></tt>
+<br>
+<br><tt><font size=3>ADD:</font></tt>
+<br>
+<br><tt><font size=3>&nbsp; &nbsp;6. &nbsp;Script subtags MUST NOT be used
+to identify language that is spoken or sung. Script &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; tags and Suppress-Script
+fields are not applicable to such content.</font></tt>
+<br>
+<br><tt><font size=3>-Section 4.1-</font></tt>
+<br>
+<br><tt><font size=3>2. &nbsp;...<br>
+<br>
+* &nbsp;For example, the subtag 'Latn' should not be used with the primary
+language 'en' because nearly all English documents are written in the Latin
+script and it adds no distinguishing<br>
+information. &nbsp;However, if a document were written in English mixing
+Latin script with another script such as Braille ('Brai'), then it might
+be appropriate to choose to indicate<br>
+both scripts to aid in content selection, such as the application of a
+style sheet. &lt;ADD&gt; On the other hand, the subtags 'Hant' and 'Hans'
+should not be used to describe an audiovisual asset in Chinese unless the
+language appears in written subtitles or captions.&lt;/ADD&gt;<br>
+</font></tt>
+<br>
+<br><tt><font size=3>I'm still checking to see if there are any other opportunities
+for clarification.</font></tt>
+<br>
+<br><tt><font size=3>Regards,</font></tt>
+<br>
+<br><font size=2 face="sans-serif">Karen Broome<br>
+Metadata Systems Designer<br>
+Sony Pictures Entertainment<br>
+310.244.4384</font>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table width=100%>
+<tr valign=top>
+<td width=40%><font size=1 face="sans-serif"><b>Martin Duerst &lt;duerst@it.aoyama.ac.jp&gt;</b>
+</font>
+<p><font size=1 face="sans-serif">09/27/2006 06:48 PM</font>
+<td width=59%>
+<table width=100%>
+<tr valign=top>
+<td>
+<div align=right><font size=1 face="sans-serif">To</font></div>
+<td><font size=1 face="sans-serif">Karen_Broome@spe.sony.com, &quot;Doug
+Ewell&quot; &lt;dewell@adelphia.net&gt;, &quot;LTRU Working Group&quot;
+&lt;ltru@ietf.org&gt;</font>
+<tr valign=top>
+<td>
+<div align=right><font size=1 face="sans-serif">cc</font></div>
+<td>
+<tr valign=top>
+<td>
+<div align=right><font size=1 face="sans-serif">Subject</font></div>
+<td><font size=1 face="sans-serif">Re: [Ltru] Re: Suppress-Script batch
+1</font></table>
+<br>
+<table>
+<tr valign=top>
+<td>
+<td></table>
+<br></table>
+<br>
+<br>
+<br><tt><font size=2>Hello Karen,<br>
+<br>
+As a technical contributor, I think you raise a very valid<br>
+point that should be documented clearly.<br>
+<br>
+As a co-chair, I'd like to ask you to propose specific wording,<br>
+and a place to put it. This is the fastest way to move this<br>
+issue forward.<br>
+<br>
+Regards, &nbsp; &nbsp;Martin.<br>
+<brBC3-SHA (168/168 bits))
+	(No client certificate requested)
+	by outbound2-cpk.bigfish.com (Postfix) with ESMTP id ED574743F02
+	for <ltru@ietf.org>; Fri, 29 Sep 2006 23:16:28 +0000 (UTC)
+Received: from mail24-cpk.bigfish.com (localhost.localdomain [127.0.0.1])
+	by mail24-cpk-R.bigfish.com (Postfix) with ESMTP id D9D35564D65
+	for <ltru@ietf.org>; Fri, 29 Sep 2006 23:16:28 +0000 (UTC)
+X-BigFish: VP
+Received: by mail24-cpk (MessageSwitch) id 1159571788840265_21471;
+	Fri, 29 Sep 2006 23:16:28 +0000 (UCT)
+Received: from USCCIMTA02.spe.sony.com (unknown [64.14.251.196])
+	(using SSLv3 with cipher RC4-MD5 (128/128 bits))
+	(No client certificate requested)
+	by mail24-cpk.bigfish.com (Postfix) with ESMTP id C4764564659
+	for <ltru@ietf.org>; Fri, 29 Sep 2006 23:16:28 +0000 (UTC)
+Received: from usmail04.spe.sony.com ([43.130.148.27])
+	by USCCIMTA02.spe.sony.com (Lotus Domino Release 6.5.5)
+	with ESMTP id 2006092916192730-1690604 ;
+	Fri, 29 Sep 2006 16:19:27 -0700 
+In-Reply-To: <20060929213924.GG28837@ccil.org>
+To: ltru@ietf.org
+MIME-Version: 1.0
+X-Mailer: Lotus Notes Release 6.5.5  CCH1 March 07, 2006
+From: Karen_Broome@spe.sony.com
+Message-ID: <OF84655013.36C314FD-ON882571F8.007BC024-882571F8.007FD98D@spe.sony.com>
+Date: Fri, 29 Sep 2006 16:15:17 -0700
+X-MIMETrack: Serialize by Router on USMAIL04/SVR/SPE(Release 6.5.5FP1|April 11,
+	2006) at 09/29/2006 16:15:18,
+	Serialize complete at 09/29/2006 16:15:18,
+	Itemize by SMTP Server on USCCiMTA02/SVR/SPE(Release 6.5.5|November 30,
+	2005) at 09/29/2006 04:19:27 PM,
+	Serialize by Router on USCCiMTA02/SVR/SPE(Release 6.5.5|November 30,
+	2005) at 09/29/2006 04:19:28 PM,
+	Serialize complete at 09/29/2006 04:19:28 PM
+X-Spam-Score: 0.3 (/)
+X-Scan-Signature: 7baded97d9887f7a0c7e8a33c2e3ea1b
+Subject: [Ltru] Serbia and Montenegro in example
+X-BeenThere: ltru@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Language Tag Registry Update working group discussion list
+	<ltru.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www1.ietf.org/pipermail/ltru>
+List-Post: <mailto:ltru@ietf.org>
+List-Help: <mailto:ltru-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/ltru>,
+	<mailto:ltru-request@ietf.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0348758800=="
+Errors-To: ltru-bounces@ietf.org
+
+This is a multipart message in MIME format.
+--===============0348758800==
+Content-Type: multipart/alternative;
+	boundary="=_alternative 007C06C0882571F8_="
+
+This is a multipart message in MIME format.
+--=_alternative 007C06C0882571F8_=
+Content-Type: text/plain; charset="US-ASCII"
+
+I suspect the examples section will be significantly revised during the 
+revision of the draft, but I just wanted to note that these two private 
+use examples likely need to be changed reflecting the recent change to ISO 
+3166-1:
+
+sr-Latn-QM (Serbian, Latin-script, private region)
+sr-Qaaa-CS (Serbian, private script, for Serbia and Montenegro)
+
+Regards,
+
+Karen Broome
+Metadata Systems Designer
+Sony Pictures Entertainment
+310.244.4384
+
+--=_alternative 007C06C0882571F8_=
+Content-Type: text/html; charset="US-ASCII"
+
+
+<br><font size=2 face="sans-serif">I suspect the examples section will
+be significantly revised during the revision of the draft, but I just wanted
+to note that these two private use examples likely need to be changed reflecting
+the recent change to ISO 3166-1:</font>
+<br>
+<br><tt><font size=3>sr-Latn-QM (Serbian, Latin-script, private region)<br>
+sr-Qaaa-CS (Serbian, private script, for Serbia and Montenegro)</font></tt>
+<br>
+<br><tt><font size=3>Regards,</font></tt>
+<br><tt><font size=3><br>
+</font></tt><font size=2 face="sans-serif">Karen Broome<br>
+Metadata Systems Designer<br>
+Sony Pictures Entertainment<br>
+310.244.4384</font>
+<br>
+--=_alternative 007C06C0882571F8_=--
+
+
+
+--===============0348758800==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+________________________________>
+At 02:52 06/09/28, Karen_Broome@spe.sony.com wrote:<br>
+<br>
+&gt;I still think the text of RFC 4646 and structure leans strongly toward
+an assumption that all language is written. Increasingly web content features
+animated talking heads or video, and this content may need language tagging
+as well. <br>
+&gt;<br>
+&gt;Motion picture applications -- including television, broadcast, Digital
+Cinema, podcast, phonecast, multilingual electronic program guides, and
+local/national/university archives -- also require language tagging. The
+text of RFC 4646 indicates that the script can be omitted when it can be
+assumed. It doesn't mention that in an increasing number of cases, the
+assignment of a script tag is completely inappropriate. <br>
+&gt;<br>
+&gt;Regards, <br>
+&gt;<br>
+&gt;Karen Broome <br>
+&gt;Metadata Systems Designer <br>
+&gt;Sony Pictures Entertainment <br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;&quot;Doug Ewell&quot; &lt;dewell@adelphia.net&gt; <br>
+&gt;<br>
+&gt;09/27/2006 10:15 AM <br>
+&gt;To<br>
+&gt;&quot;LTRU Working Group&quot; &lt;ltru@ietf.org&gt; <br>
+&gt;cc<br>
+&gt;Subject<br>
+&gt;[Ltru] Re: Suppress-Script batch 1 <br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;John Cowan &lt;cowan at ccil dot org&gt; wrote:<br>
+&gt;<br>
+&gt;&gt; Remember that the criterion for including a Suppress-Script is
+that <br>
+&gt;&gt; the script is always used for the language except in a few highly
+<br>
+&gt;&gt; restricted domains, such as writing for the blind, scholarly <br>
+&gt;&gt; transliteration, transcription for use in another language, and
+when <br>
+&gt;&gt; the standard script is not available.<br>
+&gt;<br>
+&gt;I wish we had that explanation somewhere in RFC 4646. &nbsp;It's better
+than <br>
+&gt;most of the explanations I've seen, certainly better than any I've
+<br>
+&gt;written.<br>
+&gt;<br>
+&gt;--<br>
+&gt;Doug Ewell &nbsp;* &nbsp;Fullerton, California, USA &nbsp;* &nbsp;RFC
+4645 &nbsp;* &nbsp;UTN #14<br>
+&gt;http://users.adelphia.net/~dewell/<br>
+&gt;http://www1.ietf.org/html.charters/ltru-charter.html<br>
+&gt;http://www.alvestrand.no/mailman/listinfo/ietf-languages <br>
+&gt;<br>
+&gt;<br>
+&gt;_______________________________________________<br>
+&gt;Ltru mailing list<br>
+&gt;Ltru@ietf.org<br>
+&gt;https://www1.ietf.org/mailman/listinfo/ltru<br>
+&gt;<br>
+&gt;<br>
+&gt;_______________________________________________<br>
+&gt;Ltru mailing list<br>
+&gt;Ltru@ietf.org<br>
+&gt;https://www1.ietf.org/mailman/listinfo/ltru<br>
+<br>
+<br>
+#-#-# &nbsp;Martin J. Du&quot;rst, Assoc. Professor, Aoyama Gakuin University<br>
+#-#-# &nbsp;http://www.sw.it.aoyama.ac.jp &nbsp; &nbsp; &nbsp; mailto:duerst@it.aoyama.ac.jp
+&nbsp; &nbsp; <br>
+<br>
+<br>
+_______________________________________________<br>
+Ltru mailing list<br>
+Ltru@ietf.org<br>
+https://www1.ietf.org/mailman/listinfo/ltru<br>
+<br>
+</font></tt>
+<br>
+--=_alternative 007BB409882571F8_=--
+
+
+
+--===============1246198640==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru
+
+--===============1246198640==--
+
+

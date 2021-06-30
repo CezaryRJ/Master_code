@@ -1,0 +1,3589 @@
+
+From motamedi24@gmail.com  Tue Jan  5 22:12:01 2010
+Return-Path: <motamedi24@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2772F3A67A4 for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:12:01 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TkchutdHiD-T for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:11:59 -0800 (PST)
+Received: from mail-ew0-f214.google.com (mail-ew0-f214.google.com [209.85.219.214]) by core3.amsl.com (Postfix) with ESMTP id 0EE793A63EB for <sip@ietf.org>; Tue,  5 Jan 2010 22:11:58 -0800 (PST)
+Received: by ewy6 with SMTP id 6so16117805ewy.29 for <sip@ietf.org>; Tue, 05 Jan 2010 22:11:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:content-type; bh=F0VKSY/JY8Y8eVn98NuC9R2QBu8w0KpJSu6d9YGsl5U=; b=CBO2bzdvMKNv4/K+/xpQWCYyDTR6cB6688me/lO+yBpVelMP0PT4JEhSKQyfI/jcut uQzVCPdbIjsUpeptREO+dPbV9tnjvCTOjXPXCXxRDNfZVBPuG3pngFikfdKH0LUVbp7P UtPvpNOL0bA6EfQuZl3gouIwJDcZ98/w6942U=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :content-type; b=u6YeWiueOjrIw+D5UyZcXIRD0ZikcM+0vUXSkoTH4OU4nsHB+YP4fPWKQXqYNiP3uN QI3hFHxkSQ5okxjzfINQ9hR03d1Y3eow8d84tNkDKf1wHF6v+YGpwsrBOTRMDB0k88YV udQrswqdS6RE9meyNulzdo1ECxBkqzDJHZn18=
+MIME-Version: 1.0
+Received: by 10.216.86.148 with SMTP id w20mr3660495wee.138.1262758312300;  Tue, 05 Jan 2010 22:11:52 -0800 (PST)
+In-Reply-To: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com>
+Date: Wed, 6 Jan 2010 06:11:52 +0000
+Message-ID: <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+From: hadi motamedi <motamedi24@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=0016e6d7ef38a4501d047c78d487
+Subject: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 06:15:07 -0000
+
+--0016e6d7ef38a4501d047c78d487
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All
+Can you please do me favor and let me know if it is technically
+feasible to send the sip dialed digits in one-by-one-digit format ? I
+mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+but not as 6659983 in just one package with sip invite .
+Thank you in advance
+
+--0016e6d7ef38a4501d047c78d487
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote">=A0</div>
+<div class=3D"gmail_quote">Dear All<br>Can you please do me favor and let m=
+e know if it is technically<br>feasible to send the sip dialed digits in on=
+e-by-one-digit format ? I<br>mean if the subs dials say 6659983 we try to s=
+end it as 6,6,5,9,9,8,3<br>
+but not as 6659983 in just one package with sip invite .<br>Thank you in ad=
+vance<br><br><br><br></div><br>
+
+--0016e6d7ef38a4501d047c78d487--
+
+From prelango@cisco.com  Tue Jan  5 22:39:36 2010
+Return-Path: <prelango@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 199CB3A67D6 for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:39:36 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -9.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-9.998 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_73=0.6, RCVD_IN_DNSWL_HI=-8]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bu680tYD9av3 for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:39:34 -0800 (PST)
+Received: from sj-iport-4.cisco.com (sj-iport-4.cisco.com [171.68.10.86]) by core3.amsl.com (Postfix) with ESMTP id 99CDB3A672E for <sip@ietf.org>; Tue,  5 Jan 2010 22:39:34 -0800 (PST)
+Authentication-Results: sj-iport-4.cisco.com; dkim=neutral (message not signed) header.i=none
+Received: from syd-iport-1.cisco.com ([64.104.193.196]) by sj-iport-4.cisco.com with ESMTP; 06 Jan 2010 06:39:33 +0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEAIe/Q0tAaHte/2dsb2JhbAC/BpQ/hDAEgn8
+X-IronPort-AV: E=Sophos;i="4.49,227,1262563200"; d="scan'208,217";a="63695865"
+Received: from hkg-core-1.cisco.com ([64.104.123.94]) by syd-iport-1.cisco.com with ESMTP; 06 Jan 2010 06:39:21 +0000
+Received: from xbh-bgl-412.cisco.com (xbh-bgl-412.cisco.com [72.163.129.202]) by hkg-core-1.cisco.com (8.13.8/8.14.3) with ESMTP id o066dIbD017906; Wed, 6 Jan 2010 06:39:19 GMT
+Received: from xmb-bgl-412.cisco.com ([72.163.129.208]) by xbh-bgl-412.cisco.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 6 Jan 2010 12:09:19 +0530
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01CA8E9A.F916F06C"
+Date: Wed, 6 Jan 2010 12:09:17 +0530
+Message-ID: <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>
+In-Reply-To: <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+Thread-Index: AcqOl6uug0dh6+N+QFKE8AfH54atTAAAwUUQ
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+From: "Prasath Elangovan -X (prelango - HCL at Cisco)" <prelango@cisco.com>
+To: "hadi motamedi" <motamedi24@gmail.com>, <sip@ietf.org>
+X-OriginalArrivalTime: 06 Jan 2010 06:39:19.0032 (UTC) FILETIME=[F930E780:01CA8E9A]
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 06:39:36 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CA8E9A.F916F06C
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hey Hadi,
+=20
+You could do this via KPML Subscription package. Send invite with just 6
+and remaining digits throught NOTIFY.=20
+=20
+Thanks, Prasath
+
+________________________________
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+hadi motamedi
+Sent: Wednesday, January 06, 2010 11:42 AM
+To: sip@ietf.org
+Subject: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+format?
+
+
+=20
+Dear All
+Can you please do me favor and let me know if it is technically
+feasible to send the sip dialed digits in one-by-one-digit format ? I
+mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+but not as 6659983 in just one package with sip invite .
+Thank you in advance
+
+
+
+
+
+
+------_=_NextPart_001_01CA8E9A.F916F06C
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.6000.16939" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D574173706-06012010><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2>Hey Hadi,</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D574173706-06012010><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D574173706-06012010><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2>You could do this via KPML Subscription =
+package.=20
+Send&nbsp;invite with just 6 and remaining digits throught NOTIFY.=20
+</FONT></SPAN></DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D574173706-06012010><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=3Dltr align=3Dleft><SPAN class=3D574173706-06012010><FONT =
+face=3DArial=20
+color=3D#0000ff size=3D2>Thanks, Prasath</FONT></SPAN></DIV><BR>
+<DIV class=3DOutlookMessageHeader lang=3Den-us dir=3Dltr align=3Dleft>
+<HR tabIndex=3D-1>
+<FONT face=3DTahoma size=3D2><B>From:</B> sip-bounces@ietf.org=20
+[mailto:sip-bounces@ietf.org] <B>On Behalf Of </B>hadi =
+motamedi<BR><B>Sent:</B>=20
+Wednesday, January 06, 2010 11:42 AM<BR><B>To:</B>=20
+sip@ietf.org<BR><B>Subject:</B> [Sip] Inquiry:SIP sending dialed digits =
+in=20
+one-by-one digit format?<BR></FONT><BR></DIV>
+<DIV></DIV>
+<DIV class=3Dgmail_quote>&nbsp;</DIV>
+<DIV class=3Dgmail_quote>Dear All<BR>Can you please do me favor and let =
+me know if=20
+it is technically<BR>feasible to send the sip dialed digits in =
+one-by-one-digit=20
+format ? I<BR>mean if the subs dials say 6659983 we try to send it as=20
+6,6,5,9,9,8,3<BR>but not as 6659983 in just one package with sip invite=20
+.<BR>Thank you in advance<BR><BR><BR><BR></DIV><BR></BODY></HTML>
+
+------_=_NextPart_001_01CA8E9A.F916F06C--
+
+From motamedi24@gmail.com  Tue Jan  5 22:55:02 2010
+Return-Path: <motamedi24@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 1311F3A6808 for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:55:02 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.298
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.298 tagged_above=-999 required=5 tests=[AWL=-0.300, BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_73=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id PX1DfoDGJrdo for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:55:01 -0800 (PST)
+Received: from mail-ew0-f214.google.com (mail-ew0-f214.google.com [209.85.219.214]) by core3.amsl.com (Postfix) with ESMTP id 0CB683A67D6 for <sip@ietf.org>; Tue,  5 Jan 2010 22:55:00 -0800 (PST)
+Received: by ewy6 with SMTP id 6so16136752ewy.29 for <sip@ietf.org>; Tue, 05 Jan 2010 22:54:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=pPQis+UWcxHl92eK0SyHNzVQta1ZotTckCS4XV7kpCQ=; b=D9u3OjDvVn5rt4SqEbs0ugp9P90szEHGLmHLG3bBk6NoJ/egbu4jOdRrbiyGXWJXqi bv1Ed/eg7vcaGmHnhhJdoXldQZXoKdyZgzFIEkVTerN8u8siy37nJWepSX/C5xeIBAif +BXRw8kPh1/i2VufH7AHIywQCaQ5YebBiZEXo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=L1u1stnHht+N7A0VMF5Jh9S2VIg4skfoz5sEPq1U8vhbsST3olX8Iv+UxYxvy8SWg8 GLTpfMlPnvVo7uEEjNq6CLitGNTUiA4KdceYYou2qJ0J/EFleBC5NMxcOUK3mPlPX949 IpRu2VR2IxAbgoQZNrKXJ5eTuobEHQd0VTw24=
+MIME-Version: 1.0
+Received: by 10.216.89.205 with SMTP id c55mr3095587wef.186.1262760894300;  Tue, 05 Jan 2010 22:54:54 -0800 (PST)
+In-Reply-To: <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com> <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>
+Date: Wed, 6 Jan 2010 06:54:54 +0000
+Message-ID: <74aa57df1001052254w694e8cfja61964bce15cedc6@mail.gmail.com>
+From: hadi motamedi <motamedi24@gmail.com>
+To: "Prasath Elangovan -X (prelango - HCL at Cisco)" <prelango@cisco.com>
+Content-Type: multipart/alternative; boundary=0016e6d566528a844a047c796e95
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 06:55:02 -0000
+
+--0016e6d566528a844a047c796e95
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Wed, Jan 6, 2010 at 6:39 AM, Prasath Elangovan -X (prelango - HCL at
+Cisco) <prelango@cisco.com> wrote:
+
+>  Hey Hadi,
+>
+> You could do this via KPML Subscription package. Send invite with just 6
+> and remaining digits throught NOTIFY.
+>
+> Thanks, Prasath
+>
+>  ------------------------------
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf Of *hadi
+> motamedi
+> *Sent:* Wednesday, January 06, 2010 11:42 AM
+> *To:* sip@ietf.org
+> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+> format?
+>
+>
+> Dear All
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+> Thank you in advance
+>
+>
+>
+>
+>
+
+Sorry . Can you please do me favor and provide me with more details on this
+?
+Thank you
+
+--0016e6d566528a844a047c796e95
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br>
+<div class=3D"gmail_quote">On Wed, Jan 6, 2010 at 6:39 AM, Prasath Elangova=
+n -X (prelango - HCL at Cisco) <span dir=3D"ltr">&lt;<a href=3D"mailto:prel=
+ango@cisco.com">prelango@cisco.com</a>&gt;</span> wrote:<br>
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Hey Hadi,</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">You could do this via KPML Subscription package. Send=A0invite=
+ with just 6 and remaining digits throught NOTIFY. </font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Thanks, Prasath</font></span></div><br>
+<div dir=3D"ltr" lang=3D"en-us" align=3D"left">
+<hr>
+<font size=3D"2" face=3D"Tahoma"><b>From:</b> <a href=3D"mailto:sip-bounces=
+@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a> [mailto:<a href=3D"ma=
+ilto:sip-bounces@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a>] <b>O=
+n Behalf Of </b>hadi motamedi<br>
+<b>Sent:</b> Wednesday, January 06, 2010 11:42 AM<br><b>To:</b> <a href=3D"=
+mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a><br><b>Subject:</b> =
+[Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?<br></fo=
+nt><br>
+</div>
+<div>
+<div></div>
+<div class=3D"h5">
+<div></div>
+<div class=3D"gmail_quote">=A0</div>
+<div class=3D"gmail_quote">Dear All<br>Can you please do me favor and let m=
+e know if it is technically<br>feasible to send the sip dialed digits in on=
+e-by-one-digit format ? I<br>mean if the subs dials say 6659983 we try to s=
+end it as 6,6,5,9,9,8,3<br>
+but not as 6659983 in just one package with sip invite .<br>Thank you in ad=
+vance<br><br><br><br></div><br></div></div></div></blockquote></div>
+<div><br>=A0</div>
+<div>Sorry . Can you please do me favor and provide me with=A0more details =
+on this ?</div>
+<div>Thank you</div>
+<div>=A0</div>
+
+--0016e6d566528a844a047c796e95--
+
+From vijay11tiwari@gmail.com  Tue Jan  5 22:59:08 2010
+Return-Path: <vijay11tiwari@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 0658B3A659A for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:59:08 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_73=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6ruDycFYzTK1 for <sip@core3.amsl.com>; Tue,  5 Jan 2010 22:59:07 -0800 (PST)
+Received: from mail-pw0-f50.google.com (mail-pw0-f50.google.com [209.85.160.50]) by core3.amsl.com (Postfix) with ESMTP id 3657B3A67B5 for <sip@ietf.org>; Tue,  5 Jan 2010 22:59:07 -0800 (PST)
+Received: by pwi20 with SMTP id 20so11690146pwi.29 for <sip@ietf.org>; Tue, 05 Jan 2010 22:59:03 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=hm2gDwBgyNfCKnP/LXr5RGYwmHuQLCK5ShST+K5pvI4=; b=FohI2Y7th/ezQvciTLw56OE+rl/WnhKSdeTDE58lm2wW/1/1oXosza6Fyy/0lOufl1 rd/RD3FSzO2uYtDK4euIAZwTAxNuJFHDNT92ct4r9+k0oRPo1sbPR2CoEcUp+JGgRn88 W8fZQgsB1VwbvG57O+vOcQgxwiDhciVHZ3D/0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=x6pPAHtgsN4CoU8Cu8fKhumoy7xbE5vlA8jfRlAjD4mWe+B+pPKs7Yk7fEt/m7WzPy L52sOgE4VNKOjC6HtxVVQzuU7gp0M69ncgBVEiGGGdDY0wuFotPKxu06xxwqMMxuUIjo iNpdZVUjUFYxrt5cdAN6Ej+Ze3rlDUeCuu5sc=
+MIME-Version: 1.0
+Received: by 10.114.30.1 with SMTP id d1mr6026664wad.75.1262761143316; Tue, 05  Jan 2010 22:59:03 -0800 (PST)
+In-Reply-To: <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com> <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>
+Date: Wed, 6 Jan 2010 12:29:03 +0530
+Message-ID: <484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com>
+From: Vijay Tiwari <vijay11tiwari@gmail.com>
+To: "Prasath Elangovan -X (prelango - HCL at Cisco)" <prelango@cisco.com>
+Content-Type: multipart/alternative; boundary=00504502e169623109047c797d58
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 06:59:08 -0000
+
+--00504502e169623109047c797d58
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello All
+
+this KPML subscription package used for DTMF digits not for invite number in
+request URI.
+
+On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango - HCL at
+Cisco) <prelango@cisco.com> wrote:
+
+>  Hey Hadi,
+>
+> You could do this via KPML Subscription package. Send invite with just 6
+> and remaining digits throught NOTIFY.
+>
+> Thanks, Prasath
+>
+>  ------------------------------
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf Of *hadi
+> motamedi
+> *Sent:* Wednesday, January 06, 2010 11:42 AM
+> *To:* sip@ietf.org
+> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+> format?
+>
+>
+> Dear All
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+> Thank you in advance
+>
+>
+>
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+
+
+
+-- 
+They can because they think they can.
+
+--00504502e169623109047c797d58
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div>Hello All</div>
+<div>=A0</div>
+<div>this KPML subscription package used for DTMF digits not for invite num=
+ber in request URI.<br><br></div>
+<div class=3D"gmail_quote">On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangov=
+an -X (prelango - HCL at Cisco) <span dir=3D"ltr">&lt;<a href=3D"mailto:pre=
+lango@cisco.com">prelango@cisco.com</a>&gt;</span> wrote:<br>
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Hey Hadi,</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">You could do this via KPML Subscription package. Send=A0invite=
+ with just 6 and remaining digits throught NOTIFY. </font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Thanks, Prasath</font></span></div><br>
+<div dir=3D"ltr" lang=3D"en-us" align=3D"left">
+<hr>
+<font size=3D"2" face=3D"Tahoma"><b>From:</b> <a href=3D"mailto:sip-bounces=
+@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a> [mailto:<a href=3D"ma=
+ilto:sip-bounces@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a>] <b>O=
+n Behalf Of </b>hadi motamedi<br>
+<b>Sent:</b> Wednesday, January 06, 2010 11:42 AM<br><b>To:</b> <a href=3D"=
+mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a><br><b>Subject:</b> =
+[Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?<br></fo=
+nt><br>
+</div>
+<div>
+<div></div>
+<div class=3D"h5">
+<div></div>
+<div class=3D"gmail_quote">=A0</div>
+<div class=3D"gmail_quote">Dear All<br>Can you please do me favor and let m=
+e know if it is technically<br>feasible to send the sip dialed digits in on=
+e-by-one-digit format ? I<br>mean if the subs dials say 6659983 we try to s=
+end it as 6,6,5,9,9,8,3<br>
+but not as 6659983 in just one package with sip invite .<br>Thank you in ad=
+vance<br><br><br><br></div><br></div></div></div><br>______________________=
+_________________________<br>Sip mailing list =A0<a href=3D"https://www.iet=
+f.org/mailman/listinfo/sip" target=3D"_blank">https://www.ietf.org/mailman/=
+listinfo/sip</a><br>
+This list is for NEW development of the core SIP Protocol<br>Use <a href=3D=
+"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.columbia.edu<=
+/a> for questions on current sip<br>Use <a href=3D"mailto:sipping@ietf.org"=
+>sipping@ietf.org</a> for new developments on the application of sip<br>
+</blockquote></div><br><br clear=3D"all"><br>-- <br>They can because they t=
+hink they can.<br><br>
+
+--00504502e169623109047c797d58--
+
+From motamedi24@gmail.com  Tue Jan  5 23:08:34 2010
+Return-Path: <motamedi24@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5605D28C11C for <sip@core3.amsl.com>; Tue,  5 Jan 2010 23:08:34 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.148
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.148 tagged_above=-999 required=5 tests=[AWL=-0.150, BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_73=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id H-h5QziV7l9e for <sip@core3.amsl.com>; Tue,  5 Jan 2010 23:08:33 -0800 (PST)
+Received: from mail-ew0-f214.google.com (mail-ew0-f214.google.com [209.85.219.214]) by core3.amsl.com (Postfix) with ESMTP id 1650428C121 for <sip@ietf.org>; Tue,  5 Jan 2010 23:08:32 -0800 (PST)
+Received: by ewy6 with SMTP id 6so16143163ewy.29 for <sip@ietf.org>; Tue, 05 Jan 2010 23:08:28 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=97PBvCMKEwqAW3g9icn7Jg16VPM0oTvbJEmr5mc/KWU=; b=Q2gQDd5MIjQ4P1wWUsqcqUplaPe9oln49UlEw/zLnh+QDD5ZKnBksHi2KPq3G6D0tR 4RZHhdEQxwDaQA8+z2j0f0rg5weMrhGewRhgMBZKI1NQRDxiYf4gMQmGIrlFPaYz9UAP NOa2zpF2X7g+qE/nGkolAthQYIDPpP/S+mkQc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=rBlC5RdAOYL6abTCR1a/hMYOhMzVCPkh3Ro4ttPLowtGVOsTQIAhKis1sh2RsxbnAM CrEbRwn7zevJgB9z3FVbETCkKKtmHHYw6B9CyOsrsxHaueFNue11NEt7/QwAn7DUfwCu dcPSOBtvE/CaCJwcrscD+seBFa3Xk3EKt2xWo=
+MIME-Version: 1.0
+Received: by 10.216.86.201 with SMTP id w51mr4454067wee.8.1262761707738; Tue,  05 Jan 2010 23:08:27 -0800 (PST)
+In-Reply-To: <484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com> <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com> <484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com>
+Date: Wed, 6 Jan 2010 07:08:27 +0000
+Message-ID: <74aa57df1001052308x3b300c61m7bbf91f5579dcf8e@mail.gmail.com>
+From: hadi motamedi <motamedi24@gmail.com>
+To: Vijay Tiwari <vijay11tiwari@gmail.com>
+Content-Type: multipart/alternative; boundary=0016e6d99d050696b5047c799fb0
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 07:08:34 -0000
+
+--0016e6d99d050696b5047c799fb0
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari <vijay11tiwari@gmail.com>wrote:
+
+> Hello All
+>
+> this KPML subscription package used for DTMF digits not for invite number
+> in request URI.
+>
+>   On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango - HCL at
+> Cisco) <prelango@cisco.com> wrote:
+>
+>>   Hey Hadi,
+>>
+>> You could do this via KPML Subscription package. Send invite with just 6
+>> and remaining digits throught NOTIFY.
+>>
+>> Thanks, Prasath
+>>
+>>  ------------------------------
+>> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf Of
+>> *hadi motamedi
+>> *Sent:* Wednesday, January 06, 2010 11:42 AM
+>> *To:* sip@ietf.org
+>> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+>> format?
+>>
+>>
+>> Dear All
+>> Can you please do me favor and let me know if it is technically
+>> feasible to send the sip dialed digits in one-by-one-digit format ? I
+>> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+>> but not as 6659983 in just one package with sip invite .
+>> Thank you in advance
+>>
+>>
+>>
+>>
+>>
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is for NEW development of the core SIP Protocol
+>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>> Use sipping@ietf.org for new developments on the application of sip
+>>
+>
+>
+>
+> --
+> They can because they think they can.
+>
+>
+
+Sorry. You mean KPML cannot implement this scenario ?
+
+--0016e6d99d050696b5047c799fb0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br>
+<div class=3D"gmail_quote">On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:vijay11tiwari@gmail.com">vijay11tiwari=
+@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>Hello All</div>
+<div>=A0</div>
+<div>this KPML subscription package used for DTMF digits not for invite num=
+ber in request URI.<br><br></div>
+<div class=3D"gmail_quote">
+<div>
+<div></div>
+<div class=3D"h5">On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (pr=
+elango - HCL at Cisco) <span dir=3D"ltr">&lt;<a href=3D"mailto:prelango@cis=
+co.com" target=3D"_blank">prelango@cisco.com</a>&gt;</span> wrote:<br></div=
+></div>
+
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>
+<div></div>
+<div class=3D"h5">
+<div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Hey Hadi,</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">You could do this via KPML Subscription package. Send=A0invite=
+ with just 6 and remaining digits throught NOTIFY. </font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Thanks, Prasath</font></span></div><br>
+<div dir=3D"ltr" lang=3D"en-us" align=3D"left">
+<hr>
+<font size=3D"2" face=3D"Tahoma"><b>From:</b> <a href=3D"mailto:sip-bounces=
+@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a> [mailto:<a href=3D"ma=
+ilto:sip-bounces@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a>] <b>O=
+n Behalf Of </b>hadi motamedi<br>
+<b>Sent:</b> Wednesday, January 06, 2010 11:42 AM<br><b>To:</b> <a href=3D"=
+mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a><br><b>Subject:</b> =
+[Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?<br></fo=
+nt><br>
+</div>
+<div>
+<div></div>
+<div>
+<div></div>
+<div class=3D"gmail_quote">=A0</div>
+<div class=3D"gmail_quote">Dear All<br>Can you please do me favor and let m=
+e know if it is technically<br>feasible to send the sip dialed digits in on=
+e-by-one-digit format ? I<br>mean if the subs dials say 6659983 we try to s=
+end it as 6,6,5,9,9,8,3<br>
+but not as 6659983 in just one package with sip invite .<br>Thank you in ad=
+vance<br><br><br><br></div><br></div></div></div><br></div></div>__________=
+_____________________________________<br>Sip mailing list =A0<a href=3D"htt=
+ps://www.ietf.org/mailman/listinfo/sip" target=3D"_blank">https://www.ietf.=
+org/mailman/listinfo/sip</a><br>
+This list is for NEW development of the core SIP Protocol<br>Use <a href=3D=
+"mailto:sip-implementors@cs.columbia.edu" target=3D"_blank">sip-implementor=
+s@cs.columbia.edu</a> for questions on current sip<br>Use <a href=3D"mailto=
+:sipping@ietf.org" target=3D"_blank">sipping@ietf.org</a> for new developme=
+nts on the application of sip<br>
+</blockquote></div><br><br clear=3D"all"><br>-- <br>They can because they t=
+hink they can.<br><br></blockquote></div>
+<div>=A0</div>
+<div>=A0</div>
+<div>Sorry. You mean KPML cannot implement this scenario ?</div>
+<div><br>=A0</div>
+
+--0016e6d99d050696b5047c799fb0--
+
+From vijay11tiwari@gmail.com  Wed Jan  6 02:02:52 2010
+Return-Path: <vijay11tiwari@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id DB0DE3A6811 for <sip@core3.amsl.com>; Wed,  6 Jan 2010 02:02:52 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_73=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Yb0sW-TDJmqp for <sip@core3.amsl.com>; Wed,  6 Jan 2010 02:02:52 -0800 (PST)
+Received: from mail-pw0-f50.google.com (mail-pw0-f50.google.com [209.85.160.50]) by core3.amsl.com (Postfix) with ESMTP id 0542C3A680E for <sip@ietf.org>; Wed,  6 Jan 2010 02:02:51 -0800 (PST)
+Received: by pwi20 with SMTP id 20so11807116pwi.29 for <sip@ietf.org>; Wed, 06 Jan 2010 02:02:48 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=Y78JW7MZaEpwPB3xXBgL2JSuaXPEBls3DkN7U2LUH3E=; b=AIsTA0Zh3+pIBVmCrkBgdNxocLZVDHTqXv/ZtLM0kIBErv1qvmyMQucOuw6ZMJB3+q X3K8R3YJ8KZP3rJ079zS+QKoHrbpcHKoJE9jWH+M1UaHWpAcl1nOoDhAIcBzxDRsbw1b B/UM7Yepc4MkQeACvHyxIH/NHpvh/48+5iwps=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=WF6J9E2PiYmV+ZsGQcWtVsmFA/d1KeifAomPMOhTxY9LJryH6LKDI5O+nf9N4qfn6P aBauWBaCiELuABt6NIQGGYDOncvmCL82vdwV9qdXteowpjbzp30JPvRYOk4ayZMksM/N UI78b2aJLKrcT5X04Z5+V1S/XWik42hQLWKpg=
+MIME-Version: 1.0
+Received: by 10.115.135.23 with SMTP id m23mr16512341wan.136.1262772168137;  Wed, 06 Jan 2010 02:02:48 -0800 (PST)
+In-Reply-To: <74aa57df1001052308x3b300c61m7bbf91f5579dcf8e@mail.gmail.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com> <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com> <484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com> <74aa57df1001052308x3b300c61m7bbf91f5579dcf8e@mail.gmail.com>
+Date: Wed, 6 Jan 2010 15:32:48 +0530
+Message-ID: <484afbd61001060202y10e595c2lcff9f8964ad0fa2d@mail.gmail.com>
+From: Vijay Tiwari <vijay11tiwari@gmail.com>
+To: hadi motamedi <motamedi24@gmail.com>
+Content-Type: multipart/alternative; boundary=0016e64b04fe839d94047c7c0ea9
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 10:02:53 -0000
+
+--0016e64b04fe839d94047c7c0ea9
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello all
+
+yes KPML is not implement into implement this scenario. its only for DTMF
+digits.
+
+Thanks
+Vijay
+On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com> wrote:
+
+>
+>
+> On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari <vijay11tiwari@gmail.com>wrote:
+>
+>> Hello All
+>>
+>> this KPML subscription package used for DTMF digits not for invite number
+>> in request URI.
+>>
+>>   On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango - HCL
+>> at Cisco) <prelango@cisco.com> wrote:
+>>
+>>>   Hey Hadi,
+>>>
+>>> You could do this via KPML Subscription package. Send invite with just 6
+>>> and remaining digits throught NOTIFY.
+>>>
+>>> Thanks, Prasath
+>>>
+>>>  ------------------------------
+>>> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf Of
+>>> *hadi motamedi
+>>> *Sent:* Wednesday, January 06, 2010 11:42 AM
+>>> *To:* sip@ietf.org
+>>> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+>>> format?
+>>>
+>>>
+>>> Dear All
+>>> Can you please do me favor and let me know if it is technically
+>>> feasible to send the sip dialed digits in one-by-one-digit format ? I
+>>> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+>>> but not as 6659983 in just one package with sip invite .
+>>> Thank you in advance
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> _______________________________________________
+>>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>>> This list is for NEW development of the core SIP Protocol
+>>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>>> Use sipping@ietf.org for new developments on the application of sip
+>>>
+>>
+>>
+>>
+>> --
+>> They can because they think they can.
+>>
+>>
+>
+> Sorry. You mean KPML cannot implement this scenario ?
+>
+>
+>
+
+
+
+-- 
+They can because they think they can.
+
+--0016e64b04fe839d94047c7c0ea9
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div>Hello all</div>
+<div>=A0</div>
+<div>yes KPML is not implement into implement this scenario. its only for D=
+TMF digits.</div>
+<div>=A0</div>
+<div>Thanks</div>
+<div>Vijay=A0<br></div>
+<div class=3D"gmail_quote">On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:motamedi24@gmail.com">motamedi24@gma=
+il.com</a>&gt;</span> wrote:<br>
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>
+<div></div>
+<div class=3D"h5"><br><br>
+<div class=3D"gmail_quote">On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:vijay11tiwari@gmail.com" target=3D"_bl=
+ank">vijay11tiwari@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>Hello All</div>
+<div>=A0</div>
+<div>this KPML subscription package used for DTMF digits not for invite num=
+ber in request URI.<br><br></div>
+<div class=3D"gmail_quote">
+<div>
+<div></div>
+<div>On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango - HCL =
+at Cisco) <span dir=3D"ltr">&lt;<a href=3D"mailto:prelango@cisco.com" targe=
+t=3D"_blank">prelango@cisco.com</a>&gt;</span> wrote:<br></div></div>
+<blockquote style=3D"BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0px 0px 0.8ex=
+; PADDING-LEFT: 1ex" class=3D"gmail_quote">
+<div>
+<div></div>
+<div>
+<div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Hey Hadi,</font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">You could do this via KPML Subscription package. Send=A0invite=
+ with just 6 and remaining digits throught NOTIFY. </font></span></div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial"></font></span>=A0</div>
+<div dir=3D"ltr" align=3D"left"><span><font color=3D"#0000ff" size=3D"2" fa=
+ce=3D"Arial">Thanks, Prasath</font></span></div><br>
+<div dir=3D"ltr" lang=3D"en-us" align=3D"left">
+<hr>
+<font size=3D"2" face=3D"Tahoma"><b>From:</b> <a href=3D"mailto:sip-bounces=
+@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a> [mailto:<a href=3D"ma=
+ilto:sip-bounces@ietf.org" target=3D"_blank">sip-bounces@ietf.org</a>] <b>O=
+n Behalf Of </b>hadi motamedi<br>
+<b>Sent:</b> Wednesday, January 06, 2010 11:42 AM<br><b>To:</b> <a href=3D"=
+mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a><br><b>Subject:</b> =
+[Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?<br></fo=
+nt><br>
+</div>
+<div>
+<div></div>
+<div>
+<div></div>
+<div class=3D"gmail_quote">=A0</div>
+<div class=3D"gmail_quote">Dear All<br>Can you please do me favor and let m=
+e know if it is technically<br>feasible to send the sip dialed digits in on=
+e-by-one-digit format ? I<br>mean if the subs dials say 6659983 we try to s=
+end it as 6,6,5,9,9,8,3<br>
+but not as 6659983 in just one package with sip invite .<br>Thank you in ad=
+vance<br><br><br><br></div><br></div></div></div><br></div></div>__________=
+_____________________________________<br>Sip mailing list =A0<a href=3D"htt=
+ps://www.ietf.org/mailman/listinfo/sip" target=3D"_blank">https://www.ietf.=
+org/mailman/listinfo/sip</a><br>
+This list is for NEW development of the core SIP Protocol<br>Use <a href=3D=
+"mailto:sip-implementors@cs.columbia.edu" target=3D"_blank">sip-implementor=
+s@cs.columbia.edu</a> for questions on current sip<br>Use <a href=3D"mailto=
+:sipping@ietf.org" target=3D"_blank">sipping@ietf.org</a> for new developme=
+nts on the application of sip<br>
+</blockquote></div><br><br clear=3D"all"><br>-- <br>They can because they t=
+hink they can.<br><br></blockquote></div>
+<div>=A0</div>
+<div>=A0</div></div></div>
+<div>Sorry. You mean KPML cannot implement this scenario ?</div>
+<div><br>=A0</div></blockquote></div><br><br clear=3D"all"><br>-- <br>They =
+can because they think they can.<br><br>
+
+--0016e64b04fe839d94047c7c0ea9--
+
+From pkyzivat@cisco.com  Wed Jan  6 07:07:07 2010
+Return-Path: <pkyzivat@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 7141E3A659B for <sip@core3.amsl.com>; Wed,  6 Jan 2010 07:07:07 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -10.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-10.299 tagged_above=-999 required=5 tests=[AWL=-0.300, BAYES_00=-2.599, J_CHICKENPOX_73=0.6, RCVD_IN_DNSWL_HI=-8]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tkRbETOKQBun for <sip@core3.amsl.com>; Wed,  6 Jan 2010 07:07:06 -0800 (PST)
+Received: from rtp-iport-1.cisco.com (rtp-iport-1.cisco.com [64.102.122.148]) by core3.amsl.com (Postfix) with ESMTP id 4926C3A63C9 for <sip@ietf.org>; Wed,  6 Jan 2010 07:07:06 -0800 (PST)
+Authentication-Results: rtp-iport-1.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEALY1REutJV2Z/2dsb2JhbAC/EJNbhDAE
+X-IronPort-AV: E=Sophos;i="4.49,229,1262563200"; d="scan'208";a="78542616"
+Received: from rcdn-core-2.cisco.com ([173.37.93.153]) by rtp-iport-1.cisco.com with ESMTP; 06 Jan 2010 15:07:04 +0000
+Received: from xbh-rcd-201.cisco.com (xbh-rcd-201.cisco.com [72.163.62.200]) by rcdn-core-2.cisco.com (8.14.3/8.14.3) with ESMTP id o06F74Gp022799;  Wed, 6 Jan 2010 15:07:04 GMT
+Received: from xfe-rcd-102.cisco.com ([72.163.62.137]) by xbh-rcd-201.cisco.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 6 Jan 2010 09:07:04 -0600
+Received: from [161.44.174.156] ([161.44.174.156]) by xfe-rcd-102.cisco.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 6 Jan 2010 09:07:03 -0600
+Message-ID: <4B44A721.8000004@cisco.com>
+Date: Wed, 06 Jan 2010 10:07:13 -0500
+From: Paul Kyzivat <pkyzivat@cisco.com>
+User-Agent: Thunderbird 2.0.0.23 (Windows/20090812)
+MIME-Version: 1.0
+To: Vijay Tiwari <vijay11tiwari@gmail.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com>	<74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>	<4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>	<484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com>	<74aa57df1001052308x3b300c61m7bbf91f5579dcf8e@mail.gmail.com> <484afbd61001060202y10e595c2lcff9f8964ad0fa2d@mail.gmail.com>
+In-Reply-To: <484afbd61001060202y10e595c2lcff9f8964ad0fa2d@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 06 Jan 2010 15:07:03.0820 (UTC) FILETIME=[E79EA4C0:01CA8EE1]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit	format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 15:07:07 -0000
+
+Vijay Tiwari wrote:
+> Hello all
+>  
+> yes KPML is not implement into implement this scenario. its only for 
+> DTMF digits.
+
+It was not *intended* for this, but that doesn't mean it couldn't be 
+used for this purpose. However there is no standard defined for doing so.
+
+And its extremely unlikely that one would be defined, because it 
+requires a different division of responsibility between components than 
+the sip specs assume. Specifically, to do this, you have to turn the sip 
+phone into a dumb device, akin to MGCP, with a master that does most of 
+the work. You need to do this, because you must establish a session with 
+*something* that will receive the digits, and then eventually decide 
+when a full number has been entered, and then initiate a call.
+
+	Thanks,
+	Paul
+
+> Thanks
+> Vijay 
+> On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com 
+> <mailto:motamedi24@gmail.com>> wrote:
+> 
+> 
+> 
+>     On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+>     <vijay11tiwari@gmail.com <mailto:vijay11tiwari@gmail.com>> wrote:
+> 
+>         Hello All
+>          
+>         this KPML subscription package used for DTMF digits not for
+>         invite number in request URI.
+> 
+>         On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango
+>         - HCL at Cisco) <prelango@cisco.com <mailto:prelango@cisco.com>>
+>         wrote:
+> 
+>             Hey Hadi,
+>              
+>             You could do this via KPML Subscription package. Send invite
+>             with just 6 and remaining digits throught NOTIFY.
+>              
+>             Thanks, Prasath
+> 
+>             ------------------------------------------------------------------------
+>             *From:* sip-bounces@ietf.org <mailto:sip-bounces@ietf.org>
+>             [mailto:sip-bounces@ietf.org <mailto:sip-bounces@ietf.org>]
+>             *On Behalf Of *hadi motamedi
+>             *Sent:* Wednesday, January 06, 2010 11:42 AM
+>             *To:* sip@ietf.org <mailto:sip@ietf.org>
+>             *Subject:* [Sip] Inquiry:SIP sending dialed digits in
+>             one-by-one digit format?
+> 
+>              
+>             Dear All
+>             Can you please do me favor and let me know if it is technically
+>             feasible to send the sip dialed digits in one-by-one-digit
+>             format ? I
+>             mean if the subs dials say 6659983 we try to send it as
+>             6,6,5,9,9,8,3
+>             but not as 6659983 in just one package with sip invite .
+>             Thank you in advance
+> 
+> 
+> 
+> 
+> 
+>             _______________________________________________
+>             Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>             This list is for NEW development of the core SIP Protocol
+>             Use sip-implementors@cs.columbia.edu
+>             <mailto:sip-implementors@cs.columbia.edu> for questions on
+>             current sip
+>             Use sipping@ietf.org <mailto:sipping@ietf.org> for new
+>             developments on the application of sip
+> 
+> 
+> 
+> 
+>         -- 
+>         They can because they think they can.
+> 
+>      
+>      
+>     Sorry. You mean KPML cannot implement this scenario ?
+> 
+>      
+> 
+> 
+> 
+> 
+> -- 
+> They can because they think they can.
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+From sresheno@cisco.com  Thu Jan  7 01:21:08 2010
+Return-Path: <sresheno@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E38B128C0E9 for <sip@core3.amsl.com>; Thu,  7 Jan 2010 01:21:08 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -9.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-9.999 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, J_CHICKENPOX_73=0.6, RCVD_IN_DNSWL_HI=-8]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id nAW48WCylKyj for <sip@core3.amsl.com>; Thu,  7 Jan 2010 01:21:06 -0800 (PST)
+Received: from sj-iport-4.cisco.com (sj-iport-4.cisco.com [171.68.10.86]) by core3.amsl.com (Postfix) with ESMTP id 7DC7128C171 for <sip@ietf.org>; Thu,  7 Jan 2010 01:21:05 -0800 (PST)
+Authentication-Results: sj-iport-4.cisco.com; dkim=neutral (message not signed) header.i=none
+Received: from syd-iport-1.cisco.com ([64.104.193.196]) by sj-iport-4.cisco.com with ESMTP; 07 Jan 2010 09:21:03 +0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEAIc2RUtAaHte/2dsb2JhbAC9RZNAhDAEgn4
+X-IronPort-AV: E=Sophos;i="4.49,234,1262563200"; d="scan'208";a="63755298"
+Received: from hkg-core-1.cisco.com ([64.104.123.94]) by syd-iport-1.cisco.com with ESMTP; 07 Jan 2010 09:21:02 +0000
+Received: from xbh-bgl-411.cisco.com (xbh-bgl-411.cisco.com [72.163.129.201]) by hkg-core-1.cisco.com (8.13.8/8.14.3) with ESMTP id o079Kbl0028325 for <sip@ietf.org>; Thu, 7 Jan 2010 09:21:01 GMT
+Received: from xmb-bgl-41d.cisco.com ([72.163.129.219]) by xbh-bgl-411.cisco.com with Microsoft SMTPSVC(6.0.3790.3959);  Thu, 7 Jan 2010 14:51:00 +0530
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 7 Jan 2010 14:50:59 +0530
+Message-ID: <98041FB94260464FB06D65C8E9E6473B38CB72@XMB-BGL-41D.cisco.com>
+In-Reply-To: <mailman.104.1262808014.14054.sip@ietf.org>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Inquiry:SIP sending dialed digits in one-by-one digit
+Thread-Index: AcqPCysbeXf90F/0SeOVbMfTkIwcjgAbu0uA
+References: <mailman.104.1262808014.14054.sip@ietf.org>
+From: "Sreerekha Shenoy (sresheno)" <sresheno@cisco.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 07 Jan 2010 09:21:00.0940 (UTC) FILETIME=[BA6454C0:01CA8F7A]
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 07 Jan 2010 09:21:09 -0000
+
+Hi Hadi,
+I could see that RFC 3578 has some details of managing ISUP overlap
+signaling with SIP enbloc dialing.
+This RFC is more so for a PSTN-SIP gateway, not really a pure SIP
+endpoint though.
+
+Please let me know if you have got a chance to go through it to see if
+it helps in anyways.
+
+Thanks,
+Best Regards,
+Rekha
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+sip-request@ietf.org
+Sent: Thursday, January 07, 2010 1:30 AM
+To: sip@ietf.org
+Subject: Sip Digest, Vol 65, Issue 1
+
+If you have received this digest without all the individual message
+attachments you will need to update your digest options in your list
+subscription.  To do so, go to=20
+
+https://www.ietf.org/mailman/listinfo/sip
+
+Click the 'Unsubscribe or edit options' button, log in, and set "Get
+MIME or Plain Text Digests?" to MIME.  You can set this option
+globally for all the list digests you receive at this point.
+
+
+
+Send Sip mailing list submissions to
+	sip@ietf.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://www.ietf.org/mailman/listinfo/sip
+or, via email, send a message with subject or body 'help' to
+	sip-request@ietf.org
+
+You can reach the person managing the list at
+	sip-owner@ietf.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of Sip digest..."
+
+
+Today's Topics:
+
+   1. Inquiry:SIP sending dialed digits in one-by-one digit format?
+      (hadi motamedi)
+   2. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (Prasath Elangovan -X (prelango - HCL at Cisco))
+   3. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (hadi motamedi)
+   4. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (Vijay Tiwari)
+   5. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (hadi motamedi)
+   6. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (Vijay Tiwari)
+   7. Re: Inquiry:SIP sending dialed digits in one-by-one	digit
+      format? (Paul Kyzivat)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 6 Jan 2010 06:11:52 +0000
+From: hadi motamedi <motamedi24@gmail.com>
+Subject: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+	format?
+To: sip@ietf.org
+Message-ID:
+	<74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Dear All
+Can you please do me favor and let me know if it is technically
+feasible to send the sip dialed digits in one-by-one-digit format ? I
+mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+but not as 6659983 in just one package with sip invite .
+Thank you in advance
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/013e9e14/
+attachment.htm>
+
+------------------------------
+
+Message: 2
+Date: Wed, 6 Jan 2010 12:09:17 +0530
+From: "Prasath Elangovan -X (prelango - HCL at Cisco)"
+	<prelango@cisco.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: "hadi motamedi" <motamedi24@gmail.com>, <sip@ietf.org>
+Message-ID:
+	<4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>
+Content-Type: text/plain; charset=3D"us-ascii"
+
+Hey Hadi,
+=20
+You could do this via KPML Subscription package. Send invite with just 6
+and remaining digits throught NOTIFY.=20
+=20
+Thanks, Prasath
+
+________________________________
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+hadi motamedi
+Sent: Wednesday, January 06, 2010 11:42 AM
+To: sip@ietf.org
+Subject: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+format?
+
+
+=20
+Dear All
+Can you please do me favor and let me know if it is technically
+feasible to send the sip dialed digits in one-by-one-digit format ? I
+mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+but not as 6659983 in just one package with sip invite .
+Thank you in advance
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/e3f1ce01/
+attachment.htm>
+
+------------------------------
+
+Message: 3
+Date: Wed, 6 Jan 2010 06:54:54 +0000
+From: hadi motamedi <motamedi24@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: "Prasath Elangovan -X (prelango - HCL at Cisco)"
+	<prelango@cisco.com>
+Cc: sip@ietf.org
+Message-ID:
+	<74aa57df1001052254w694e8cfja61964bce15cedc6@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+On Wed, Jan 6, 2010 at 6:39 AM, Prasath Elangovan -X (prelango - HCL at
+Cisco) <prelango@cisco.com> wrote:
+
+>  Hey Hadi,
+>
+> You could do this via KPML Subscription package. Send invite with just
+6
+> and remaining digits throught NOTIFY.
+>
+> Thanks, Prasath
+>
+>  ------------------------------
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf
+Of *hadi
+> motamedi
+> *Sent:* Wednesday, January 06, 2010 11:42 AM
+> *To:* sip@ietf.org
+> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+> format?
+>
+>
+> Dear All
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+> Thank you in advance
+>
+>
+>
+>
+>
+
+Sorry . Can you please do me favor and provide me with more details on
+this
+?
+Thank you
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/4410fa2c/
+attachment.htm>
+
+------------------------------
+
+Message: 4
+Date: Wed, 6 Jan 2010 12:29:03 +0530
+From: Vijay Tiwari <vijay11tiwari@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: "Prasath Elangovan -X (prelango - HCL at Cisco)"
+	<prelango@cisco.com>
+Cc: sip@ietf.org
+Message-ID:
+	<484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Hello All
+
+this KPML subscription package used for DTMF digits not for invite
+number in
+request URI.
+
+On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango - HCL at
+Cisco) <prelango@cisco.com> wrote:
+
+>  Hey Hadi,
+>
+> You could do this via KPML Subscription package. Send invite with just
+6
+> and remaining digits throught NOTIFY.
+>
+> Thanks, Prasath
+>
+>  ------------------------------
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf
+Of *hadi
+> motamedi
+> *Sent:* Wednesday, January 06, 2010 11:42 AM
+> *To:* sip@ietf.org
+> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+> format?
+>
+>
+> Dear All
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+> Thank you in advance
+>
+>
+>
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+
+
+
+--=20
+They can because they think they can.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/dcf06327/
+attachment.htm>
+
+------------------------------
+
+Message: 5
+Date: Wed, 6 Jan 2010 07:08:27 +0000
+From: hadi motamedi <motamedi24@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: Vijay Tiwari <vijay11tiwari@gmail.com>
+Cc: sip@ietf.org
+Message-ID:
+	<74aa57df1001052308x3b300c61m7bbf91f5579dcf8e@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+<vijay11tiwari@gmail.com>wrote:
+
+> Hello All
+>
+> this KPML subscription package used for DTMF digits not for invite
+number
+> in request URI.
+>
+>   On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango -
+HCL at
+> Cisco) <prelango@cisco.com> wrote:
+>
+>>   Hey Hadi,
+>>
+>> You could do this via KPML Subscription package. Send invite with
+just 6
+>> and remaining digits throught NOTIFY.
+>>
+>> Thanks, Prasath
+>>
+>>  ------------------------------
+>> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf
+Of
+>> *hadi motamedi
+>> *Sent:* Wednesday, January 06, 2010 11:42 AM
+>> *To:* sip@ietf.org
+>> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one
+digit
+>> format?
+>>
+>>
+>> Dear All
+>> Can you please do me favor and let me know if it is technically
+>> feasible to send the sip dialed digits in one-by-one-digit format ? I
+>> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+>> but not as 6659983 in just one package with sip invite .
+>> Thank you in advance
+>>
+>>
+>>
+>>
+>>
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is for NEW development of the core SIP Protocol
+>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>> Use sipping@ietf.org for new developments on the application of sip
+>>
+>
+>
+>
+> --
+> They can because they think they can.
+>
+>
+
+Sorry. You mean KPML cannot implement this scenario ?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/b0edfe74/
+attachment.htm>
+
+------------------------------
+
+Message: 6
+Date: Wed, 6 Jan 2010 15:32:48 +0530
+From: Vijay Tiwari <vijay11tiwari@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: hadi motamedi <motamedi24@gmail.com>
+Cc: sip@ietf.org
+Message-ID:
+	<484afbd61001060202y10e595c2lcff9f8964ad0fa2d@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Hello all
+
+yes KPML is not implement into implement this scenario. its only for
+DTMF
+digits.
+
+Thanks
+Vijay
+On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com>
+wrote:
+
+>
+>
+> On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+<vijay11tiwari@gmail.com>wrote:
+>
+>> Hello All
+>>
+>> this KPML subscription package used for DTMF digits not for invite
+number
+>> in request URI.
+>>
+>>   On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango -
+HCL
+>> at Cisco) <prelango@cisco.com> wrote:
+>>
+>>>   Hey Hadi,
+>>>
+>>> You could do this via KPML Subscription package. Send invite with
+just 6
+>>> and remaining digits throught NOTIFY.
+>>>
+>>> Thanks, Prasath
+>>>
+>>>  ------------------------------
+>>> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On
+Behalf Of
+>>> *hadi motamedi
+>>> *Sent:* Wednesday, January 06, 2010 11:42 AM
+>>> *To:* sip@ietf.org
+>>> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one
+digit
+>>> format?
+>>>
+>>>
+>>> Dear All
+>>> Can you please do me favor and let me know if it is technically
+>>> feasible to send the sip dialed digits in one-by-one-digit format ?
+I
+>>> mean if the subs dials say 6659983 we try to send it as
+6,6,5,9,9,8,3
+>>> but not as 6659983 in just one package with sip invite .
+>>> Thank you in advance
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> _______________________________________________
+>>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>>> This list is for NEW development of the core SIP Protocol
+>>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>>> Use sipping@ietf.org for new developments on the application of sip
+>>>
+>>
+>>
+>>
+>> --
+>> They can because they think they can.
+>>
+>>
+>
+> Sorry. You mean KPML cannot implement this scenario ?
+>
+>
+>
+
+
+
+--=20
+They can because they think they can.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/a711f518/
+attachment.htm>
+
+------------------------------
+
+Message: 7
+Date: Wed, 06 Jan 2010 10:07:13 -0500
+From: Paul Kyzivat <pkyzivat@cisco.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: Vijay Tiwari <vijay11tiwari@gmail.com>
+Cc: sip@ietf.org
+Message-ID: <4B44A721.8000004@cisco.com>
+Content-Type: text/plain; charset=3DISO-8859-1; format=3Dflowed
+
+
+
+Vijay Tiwari wrote:
+> Hello all
+> =20
+> yes KPML is not implement into implement this scenario. its only for=20
+> DTMF digits.
+
+It was not *intended* for this, but that doesn't mean it couldn't be=20
+used for this purpose. However there is no standard defined for doing
+so.
+
+And its extremely unlikely that one would be defined, because it=20
+requires a different division of responsibility between components than=20
+the sip specs assume. Specifically, to do this, you have to turn the sip
+
+phone into a dumb device, akin to MGCP, with a master that does most of=20
+the work. You need to do this, because you must establish a session with
+
+*something* that will receive the digits, and then eventually decide=20
+when a full number has been entered, and then initiate a call.
+
+	Thanks,
+	Paul
+
+> Thanks
+> Vijay=20
+> On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com=20
+> <mailto:motamedi24@gmail.com>> wrote:
+>=20
+>=20
+>=20
+>     On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+>     <vijay11tiwari@gmail.com <mailto:vijay11tiwari@gmail.com>> wrote:
+>=20
+>         Hello All
+>         =20
+>         this KPML subscription package used for DTMF digits not for
+>         invite number in request URI.
+>=20
+>         On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X
+(prelango
+>         - HCL at Cisco) <prelango@cisco.com
+<mailto:prelango@cisco.com>>
+>         wrote:
+>=20
+>             Hey Hadi,
+>             =20
+>             You could do this via KPML Subscription package. Send
+invite
+>             with just 6 and remaining digits throught NOTIFY.
+>             =20
+>             Thanks, Prasath
+>=20
+>
+------------------------------------------------------------------------
+>             *From:* sip-bounces@ietf.org <mailto:sip-bounces@ietf.org>
+>             [mailto:sip-bounces@ietf.org
+<mailto:sip-bounces@ietf.org>]
+>             *On Behalf Of *hadi motamedi
+>             *Sent:* Wednesday, January 06, 2010 11:42 AM
+>             *To:* sip@ietf.org <mailto:sip@ietf.org>
+>             *Subject:* [Sip] Inquiry:SIP sending dialed digits in
+>             one-by-one digit format?
+>=20
+>             =20
+>             Dear All
+>             Can you please do me favor and let me know if it is
+technically
+>             feasible to send the sip dialed digits in one-by-one-digit
+>             format ? I
+>             mean if the subs dials say 6659983 we try to send it as
+>             6,6,5,9,9,8,3
+>             but not as 6659983 in just one package with sip invite .
+>             Thank you in advance
+>=20
+>=20
+>=20
+>=20
+>=20
+>             _______________________________________________
+>             Sip mailing list
+https://www.ietf.org/mailman/listinfo/sip
+>             This list is for NEW development of the core SIP Protocol
+>             Use sip-implementors@cs.columbia.edu
+>             <mailto:sip-implementors@cs.columbia.edu> for questions on
+>             current sip
+>             Use sipping@ietf.org <mailto:sipping@ietf.org> for new
+>             developments on the application of sip
+>=20
+>=20
+>=20
+>=20
+>         --=20
+>         They can because they think they can.
+>=20
+>     =20
+>     =20
+>     Sorry. You mean KPML cannot implement this scenario ?
+>=20
+>     =20
+>=20
+>=20
+>=20
+>=20
+> --=20
+> They can because they think they can.
+>=20
+>=20
+>
+------------------------------------------------------------------------
+>=20
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+
+------------------------------
+
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+End of Sip Digest, Vol 65, Issue 1
+**********************************
+
+From christer.holmberg@ericsson.com  Thu Jan  7 01:23:06 2010
+Return-Path: <christer.holmberg@ericsson.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id BA13F28C0E9 for <sip@core3.amsl.com>; Thu,  7 Jan 2010 01:23:06 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.649 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HELO_EQ_SE=0.35, J_CHICKENPOX_73=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ws09QQLv5P5y for <sip@core3.amsl.com>; Thu,  7 Jan 2010 01:23:05 -0800 (PST)
+Received: from mailgw5.ericsson.se (mailgw5.ericsson.se [193.180.251.36]) by core3.amsl.com (Postfix) with ESMTP id 7D37428C0F6 for <sip@ietf.org>; Thu,  7 Jan 2010 01:23:05 -0800 (PST)
+X-AuditID: c1b4fb24-b7bb6ae000001052-3c-4b45a7f51958
+Received: from esessmw0184.eemea.ericsson.se (Unknown_Domain [153.88.253.124]) by mailgw5.ericsson.se (Symantec Mail Security) with SMTP id B0.63.04178.5F7A54B4; Thu,  7 Jan 2010 10:23:02 +0100 (CET)
+Received: from ESESSCMS0354.eemea.ericsson.se ([169.254.1.199]) by esessmw0184.eemea.ericsson.se ([153.88.115.81]) with mapi; Thu, 7 Jan 2010 10:23:01 +0100
+From: Christer Holmberg <christer.holmberg@ericsson.com>
+To: 'Paul Kyzivat' <pkyzivat@cisco.com>, Vijay Tiwari <vijay11tiwari@gmail.com>
+Date: Thu, 7 Jan 2010 10:23:01 +0100
+Thread-Topic: [Sip] Inquiry:SIP sending dialed digits in one-by-one	digit format?
+Thread-Index: AcqO4fMCHe7CmYkwTTybwdYybdkA8AAmAXDA
+Message-ID: <FF84A09F50A6DC48ACB6714F4666CC743C57135F96@ESESSCMS0354.eemea.ericsson.se>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com> <4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com> <484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com> <74aa57df1001052308x3b300c61m7bbf91f5579dcf8e@mail.gmail.com> <484afbd61001060202y10e595c2lcff9f8964ad0fa2d@mail.gmail.com> <4B44A721.8000004@cisco.com>
+In-Reply-To: <4B44A721.8000004@cisco.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: AAAAAA==
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one	digit	format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 07 Jan 2010 09:23:06 -0000
+
+Hi,
+
+Are you referring to overlap dialling?
+
+One way is to send additional digits in subsequent INVITEs, which is descri=
+bed in RFC 3578. Another way is to send the additional digits using INFO, o=
+nce the INVITE has reached the *something* Paul is referring to.
+
+Regards,
+
+Christer
+
+=20
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of Paul =
+Kyzivat
+Sent: 6. tammikuuta 2010 17:07
+To: Vijay Tiwari
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit fo=
+rmat?
+
+
+
+Vijay Tiwari wrote:
+> Hello all
+> =20
+> yes KPML is not implement into implement this scenario. its only for=20
+> DTMF digits.
+
+It was not *intended* for this, but that doesn't mean it couldn't be used f=
+or this purpose. However there is no standard defined for doing so.
+
+And its extremely unlikely that one would be defined, because it requires a=
+ different division of responsibility between components than the sip specs=
+ assume. Specifically, to do this, you have to turn the sip phone into a du=
+mb device, akin to MGCP, with a master that does most of the work. You need=
+ to do this, because you must establish a session with
+*something* that will receive the digits, and then eventually decide when a=
+ full number has been entered, and then initiate a call.
+
+	Thanks,
+	Paul
+
+> Thanks
+> Vijay
+> On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com=20
+> <mailto:motamedi24@gmail.com>> wrote:
+>=20
+>=20
+>=20
+>     On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+>     <vijay11tiwari@gmail.com <mailto:vijay11tiwari@gmail.com>> wrote:
+>=20
+>         Hello All
+>         =20
+>         this KPML subscription package used for DTMF digits not for
+>         invite number in request URI.
+>=20
+>         On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango
+>         - HCL at Cisco) <prelango@cisco.com <mailto:prelango@cisco.com>>
+>         wrote:
+>=20
+>             Hey Hadi,
+>             =20
+>             You could do this via KPML Subscription package. Send invite
+>             with just 6 and remaining digits throught NOTIFY.
+>             =20
+>             Thanks, Prasath
+>=20
+>             -------------------------------------------------------------=
+-----------
+>             *From:* sip-bounces@ietf.org <mailto:sip-bounces@ietf.org>
+>             [mailto:sip-bounces@ietf.org <mailto:sip-bounces@ietf.org>]
+>             *On Behalf Of *hadi motamedi
+>             *Sent:* Wednesday, January 06, 2010 11:42 AM
+>             *To:* sip@ietf.org <mailto:sip@ietf.org>
+>             *Subject:* [Sip] Inquiry:SIP sending dialed digits in
+>             one-by-one digit format?
+>=20
+>             =20
+>             Dear All
+>             Can you please do me favor and let me know if it is technical=
+ly
+>             feasible to send the sip dialed digits in one-by-one-digit
+>             format ? I
+>             mean if the subs dials say 6659983 we try to send it as
+>             6,6,5,9,9,8,3
+>             but not as 6659983 in just one package with sip invite .
+>             Thank you in advance
+>=20
+>=20
+>=20
+>=20
+>=20
+>             _______________________________________________
+>             Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>             This list is for NEW development of the core SIP Protocol
+>             Use sip-implementors@cs.columbia.edu
+>             <mailto:sip-implementors@cs.columbia.edu> for questions on
+>             current sip
+>             Use sipping@ietf.org <mailto:sipping@ietf.org> for new
+>             developments on the application of sip
+>=20
+>=20
+>=20
+>=20
+>         --=20
+>         They can because they think they can.
+>=20
+>     =20
+>     =20
+>     Sorry. You mean KPML cannot implement this scenario ?
+>=20
+>     =20
+>=20
+>=20
+>=20
+>=20
+> --
+> They can because they think they can.
+>=20
+>=20
+> ----------------------------------------------------------------------
+> --
+>=20
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol Use=20
+> sip-implementors@cs.columbia.edu for questions on current sip Use=20
+> sipping@ietf.org for new developments on the application of sip
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol Use sip-implement=
+ors@cs.columbia.edu for questions on current sip Use sipping@ietf.org for n=
+ew developments on the application of sip
+
+From victor.pascual.avila@gmail.com  Fri Jan  8 02:50:07 2010
+Return-Path: <victor.pascual.avila@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 8BCD128C0F3 for <sip@core3.amsl.com>; Fri,  8 Jan 2010 02:50:07 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, J_CHICKENPOX_73=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tJe2nXM5zgeu for <sip@core3.amsl.com>; Fri,  8 Jan 2010 02:50:07 -0800 (PST)
+Received: from mail-bw0-f223.google.com (mail-bw0-f223.google.com [209.85.218.223]) by core3.amsl.com (Postfix) with ESMTP id A964528C0DF for <sip@ietf.org>; Fri,  8 Jan 2010 02:50:06 -0800 (PST)
+Received: by bwz23 with SMTP id 23so12436339bwz.29 for <sip@ietf.org>; Fri, 08 Jan 2010 02:50:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type :content-transfer-encoding; bh=Xae9T3wxoZotn6WTvY83sEYlGzpQ6GdHS/4maulHfFY=; b=p2Gu2Cs3CATQmiG4+Mbc+I8OFRqtIO+YAkNAZriaUIn30ReUwDnsF3bScEQ+H/KMCg VwwT8IOqFuJkkpaM73lvATxRxMFoNKYRFV2at2vmsIni6Nuzasxbs/6f2FBhAefK03fJ R2dAPPSKdfGOJOdjv/r9e+xcLOLuV2XVKIiHw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type:content-transfer-encoding; b=qc5ipsPVE6Cr72xjh8AuK+l7fTKYkCx7cpQamRLMKIQ49UxVeEuHF5hjfEKKNQj4sL 2vHcBOW9K2mtWkJV6bLgaNZeD1W876bzhEQo5LA1/VVLSEzsVHqJrFbLjuaL+lklxwOU 811dZn1nPIEbxM6Fv3/HPSnf3IPZ4I+C8Mj70=
+MIME-Version: 1.0
+Received: by 10.204.175.81 with SMTP id w17mr6984204bkz.125.1262947801810;  Fri, 08 Jan 2010 02:50:01 -0800 (PST)
+In-Reply-To: <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+Date: Fri, 8 Jan 2010 11:50:01 +0100
+Message-ID: <618e24241001080250p5a8ea873jfeb0d58c2d07285a@mail.gmail.com>
+From: Victor Pascual Avila <victor.pascual.avila@gmail.com>
+To: hadi motamedi <motamedi24@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Jan 2010 10:50:07 -0000
+
+Hi,
+
+On Wed, Jan 6, 2010 at 7:11 AM, hadi motamedi <motamedi24@gmail.com> wrote:
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+
+RFC3578 describes the overlap dialing. While some implement the
+"Multiple Invite" method, some others implement the "In Dialog" method
+as depicted by ETSI TS 124 229 V8.7.8 (2009-07). Please check Clause
+4.9 and ANNEX N from that document (Note: it does NOT reference
+RFC3578)
+
+Cheers,
+--=20
+Victor Pascual =C3=81vila
+
+From dworley@avaya.com  Wed Jan  6 10:51:16 2010
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5E2CD3A6936 for <sip@core3.amsl.com>; Wed,  6 Jan 2010 10:51:16 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, J_CHICKENPOX_73=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id n3CehE-wPoAq for <sip@core3.amsl.com>; Wed,  6 Jan 2010 10:51:15 -0800 (PST)
+Received: from de307622-de-outbound.net.avaya.com (de307622-de-outbound.net.avaya.com [198.152.71.100]) by core3.amsl.com (Postfix) with ESMTP id 1E9E23A6932 for <sip@ietf.org>; Wed,  6 Jan 2010 10:51:14 -0800 (PST)
+X-IronPort-AV: E=Sophos;i="4.49,230,1262581200"; d="scan'208";a="170661379"
+Received: from unknown (HELO co300216-co-erhwest.avaya.com) ([198.152.7.5]) by de307622-de-outbound.net.avaya.com with ESMTP; 06 Jan 2010 13:51:01 -0500
+Received: from unknown (HELO zcars04f.nortel.com) ([47.129.242.57]) by co300216-co-erhwest-out.avaya.com with ESMTP; 06 Jan 2010 13:51:00 -0500
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by zcars04f.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o06Iod607432; Wed, 6 Jan 2010 18:50:39 GMT
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o06IobT26714; Wed, 6 Jan 2010 18:50:37 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 6 Jan 2010 13:50:36 -0500
+From: "Dale Worley" <dworley@avaya.com>
+To: hadi motamedi <motamedi24@gmail.com>
+In-Reply-To: <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+References: <ea550427-7c74-4afe-b0e6-b6b8a97db582@u7g2000yqm.googlegroups.com> <74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Wed, 06 Jan 2010 13:50:36 -0500
+Message-Id: <1262803836.3744.23.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 06 Jan 2010 18:50:36.0591 (UTC) FILETIME=[224113F0:01CA8F01]
+X-Mailman-Approved-At: Fri, 08 Jan 2010 11:52:16 -0800
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit	format?
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Jan 2010 18:53:09 -0000
+
+On Wed, 2010-01-06 at 06:11 +0000, hadi motamedi wrote:
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+
+This is called "overlapped dialing", and there is a defined technique
+for doing this.  The phone, when it receives the first digit, sends an
+INVITE:
+
+INVITE sip:6@domain SIP/2.0 -->
+
+The proxy for the domain determines that additional digits are required,
+and gives a 484 Address Incomplete response:
+
+<-- SIP/2.0 484 Address Incomplete
+
+When the user dials the second digit, the phone sends the accumulated
+digits:
+
+INVITE sip:66@domain SIP/2.0 -->
+
+The proxy responds 484 again:
+
+<-- SIP/2.0 484 Address Incomplete
+
+This continues until the user enters a complete dial string.
+
+However, this technique is not commonly used due to the high signaling
+traffic it generates and the general difficulty having the proxy
+determine whether or not the dial string is ended for all possible dial
+strings.
+
+A more common technique is to program the UA with a "dial pattern",
+which is a regular expression that describes all valid dial strings.
+E.g., three-digit extensions could be described "xxx", while "9 followed
+by 7 digits" could be described "9xxxxxxx".  Also, the dial pattern
+language usually allows a way of specifying variable-length strings via
+"a series of digits terminated by a time-out":  "9xT".  This method
+places the entire burden on the UA, but allows a mixture of fixed- and
+variable-length strings in the dial plan.  Of course, the details vary
+from one make of UA to another.
+
+Dale
+
+
+
+From Eric.Pelsemaker@alcatel-lucent.com  Fri Jan  8 02:35:10 2010
+Return-Path: <Eric.Pelsemaker@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 19B2D28C105 for <sip@core3.amsl.com>; Fri,  8 Jan 2010 02:35:10 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.649 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HELO_EQ_FR=0.35, J_CHICKENPOX_73=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id IROZKBBRGbrX for <sip@core3.amsl.com>; Fri,  8 Jan 2010 02:35:06 -0800 (PST)
+Received: from smail3.alcatel.fr (smail3.alcatel.fr [64.208.49.56]) by core3.amsl.com (Postfix) with ESMTP id EB1E428C0F4 for <sip@ietf.org>; Fri,  8 Jan 2010 02:35:05 -0800 (PST)
+Received: from FRVELSBHS06.ad2.ad.alcatel.com (frvelsbhs06.dc-m.alcatel-lucent.com [155.132.6.78]) by smail3.alcatel.fr (8.13.8/8.13.8/ICT) with ESMTP id o08AYYI1017242 for <sip@ietf.org>; Fri, 8 Jan 2010 11:35:01 +0100
+Received: from FRVELSMBS22.ad2.ad.alcatel.com ([155.132.6.52]) by FRVELSBHS06.ad2.ad.alcatel.com with Microsoft SMTPSVC(6.0.3790.3959); Fri, 8 Jan 2010 11:34:45 +0100
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 8 Jan 2010 11:34:44 +0100
+Message-ID: <23D0A79180237641BACFDF311A55E55C04ECF171@FRVELSMBS22.ad2.ad.alcatel.com>
+In-Reply-To: <mailman.107.1262894416.15261.sip@ietf.org>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: RE:Inquiry:SIP sending dialed digits in one-by-one digit format
+Thread-Index: AcqP1EcA54LydS66Q8usHO0rlrWcwgAeBQAQ
+References: <mailman.107.1262894416.15261.sip@ietf.org>
+From: "PELSEMAKER Eric" <Eric.Pelsemaker@alcatel-lucent.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 08 Jan 2010 10:34:45.0878 (UTC) FILETIME=[32460960:01CA904E]
+X-Scanned-By: MIMEDefang 2.57 on 155.132.188.83
+X-Mailman-Approved-At: Fri, 08 Jan 2010 11:52:45 -0800
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit format
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Jan 2010 12:14:59 -0000
+
+Hi all,
+
+In TISPAN TS 183 043 V2.3.1 annex-E, one can find a description of the
+sip based overlap sending procedures that are defined for PES-endpoint
+and PES-access point.
+
+Kr,  Eric Pelsemaker
+
+
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+sip-request@ietf.org
+Sent: donderdag 7 januari 2010 21:00
+To: sip@ietf.org
+Subject: Sip Digest, Vol 65, Issue 2
+
+If you have received this digest without all the individual message
+attachments you will need to update your digest options in your list
+subscription.  To do so, go to=20
+
+https://www.ietf.org/mailman/listinfo/sip
+
+Click the 'Unsubscribe or edit options' button, log in, and set "Get
+MIME or Plain Text Digests?" to MIME.  You can set this option
+globally for all the list digests you receive at this point.
+
+
+
+Send Sip mailing list submissions to
+	sip@ietf.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://www.ietf.org/mailman/listinfo/sip
+or, via email, send a message with subject or body 'help' to
+	sip-request@ietf.org
+
+You can reach the person managing the list at
+	sip-owner@ietf.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of Sip digest..."
+
+
+Today's Topics:
+
+   1. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      (Sreerekha Shenoy (sresheno))
+   2. Re: Inquiry:SIP sending dialed digits in	one-by-one	digit
+      format? (Christer Holmberg)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Thu, 7 Jan 2010 14:50:59 +0530
+From: "Sreerekha Shenoy (sresheno)" <sresheno@cisco.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit
+To: <sip@ietf.org>
+Message-ID:
+	<98041FB94260464FB06D65C8E9E6473B38CB72@XMB-BGL-41D.cisco.com>
+Content-Type: text/plain;	charset=3D"us-ascii"
+
+Hi Hadi,
+I could see that RFC 3578 has some details of managing ISUP overlap
+signaling with SIP enbloc dialing.
+This RFC is more so for a PSTN-SIP gateway, not really a pure SIP
+endpoint though.
+
+Please let me know if you have got a chance to go through it to see if
+it helps in anyways.
+
+Thanks,
+Best Regards,
+Rekha
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+sip-request@ietf.org
+Sent: Thursday, January 07, 2010 1:30 AM
+To: sip@ietf.org
+Subject: Sip Digest, Vol 65, Issue 1
+
+If you have received this digest without all the individual message
+attachments you will need to update your digest options in your list
+subscription.  To do so, go to=20
+
+https://www.ietf.org/mailman/listinfo/sip
+
+Click the 'Unsubscribe or edit options' button, log in, and set "Get
+MIME or Plain Text Digests?" to MIME.  You can set this option
+globally for all the list digests you receive at this point.
+
+
+
+Send Sip mailing list submissions to
+	sip@ietf.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://www.ietf.org/mailman/listinfo/sip
+or, via email, send a message with subject or body 'help' to
+	sip-request@ietf.org
+
+You can reach the person managing the list at
+	sip-owner@ietf.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of Sip digest..."
+
+
+Today's Topics:
+
+   1. Inquiry:SIP sending dialed digits in one-by-one digit format?
+      (hadi motamedi)
+   2. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (Prasath Elangovan -X (prelango - HCL at Cisco))
+   3. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (hadi motamedi)
+   4. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (Vijay Tiwari)
+   5. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (hadi motamedi)
+   6. Re: Inquiry:SIP sending dialed digits in one-by-one digit
+      format? (Vijay Tiwari)
+   7. Re: Inquiry:SIP sending dialed digits in one-by-one	digit
+      format? (Paul Kyzivat)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 6 Jan 2010 06:11:52 +0000
+From: hadi motamedi <motamedi24@gmail.com>
+Subject: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+	format?
+To: sip@ietf.org
+Message-ID:
+	<74aa57df1001052211s1658c619u6d594efc659de9be@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Dear All
+Can you please do me favor and let me know if it is technically
+feasible to send the sip dialed digits in one-by-one-digit format ? I
+mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+but not as 6659983 in just one package with sip invite .
+Thank you in advance
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/013e9e14/
+attachment.htm>
+
+------------------------------
+
+Message: 2
+Date: Wed, 6 Jan 2010 12:09:17 +0530
+From: "Prasath Elangovan -X (prelango - HCL at Cisco)"
+	<prelango@cisco.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: "hadi motamedi" <motamedi24@gmail.com>, <sip@ietf.org>
+Message-ID:
+	<4F5E2C4B86D6BF4587F0966F5FA1480701CA3804@XMB-BGL-412.cisco.com>
+Content-Type: text/plain; charset=3D"us-ascii"
+
+Hey Hadi,
+=20
+You could do this via KPML Subscription package. Send invite with just 6
+and remaining digits throught NOTIFY.=20
+=20
+Thanks, Prasath
+
+________________________________
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+hadi motamedi
+Sent: Wednesday, January 06, 2010 11:42 AM
+To: sip@ietf.org
+Subject: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+format?
+
+
+=20
+Dear All
+Can you please do me favor and let me know if it is technically
+feasible to send the sip dialed digits in one-by-one-digit format ? I
+mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+but not as 6659983 in just one package with sip invite .
+Thank you in advance
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/e3f1ce01/
+attachment.htm>
+
+------------------------------
+
+Message: 3
+Date: Wed, 6 Jan 2010 06:54:54 +0000
+From: hadi motamedi <motamedi24@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: "Prasath Elangovan -X (prelango - HCL at Cisco)"
+	<prelango@cisco.com>
+Cc: sip@ietf.org
+Message-ID:
+	<74aa57df1001052254w694e8cfja61964bce15cedc6@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+On Wed, Jan 6, 2010 at 6:39 AM, Prasath Elangovan -X (prelango - HCL at
+Cisco) <prelango@cisco.com> wrote:
+
+>  Hey Hadi,
+>
+> You could do this via KPML Subscription package. Send invite with just
+6
+> and remaining digits throught NOTIFY.
+>
+> Thanks, Prasath
+>
+>  ------------------------------
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf
+Of *hadi
+> motamedi
+> *Sent:* Wednesday, January 06, 2010 11:42 AM
+> *To:* sip@ietf.org
+> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+> format?
+>
+>
+> Dear All
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+> Thank you in advance
+>
+>
+>
+>
+>
+
+Sorry . Can you please do me favor and provide me with more details on
+this
+?
+Thank you
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/4410fa2c/
+attachment.htm>
+
+------------------------------
+
+Message: 4
+Date: Wed, 6 Jan 2010 12:29:03 +0530
+From: Vijay Tiwari <vijay11tiwari@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: "Prasath Elangovan -X (prelango - HCL at Cisco)"
+	<prelango@cisco.com>
+Cc: sip@ietf.org
+Message-ID:
+	<484afbd61001052259k2fa259e4vb4b9679c9455145c@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Hello All
+
+this KPML subscription package used for DTMF digits not for invite
+number in
+request URI.
+
+On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango - HCL at
+Cisco) <prelango@cisco.com> wrote:
+
+>  Hey Hadi,
+>
+> You could do this via KPML Subscription package. Send invite with just
+6
+> and remaining digits throught NOTIFY.
+>
+> Thanks, Prasath
+>
+>  ------------------------------
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf
+Of *hadi
+> motamedi
+> *Sent:* Wednesday, January 06, 2010 11:42 AM
+> *To:* sip@ietf.org
+> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+> format?
+>
+>
+> Dear All
+> Can you please do me favor and let me know if it is technically
+> feasible to send the sip dialed digits in one-by-one-digit format ? I
+> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+> but not as 6659983 in just one package with sip invite .
+> Thank you in advance
+>
+>
+>
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+
+
+
+--=20
+They can because they think they can.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/dcf06327/
+attachment.htm>
+
+------------------------------
+
+Message: 5
+Date: Wed, 6 Jan 2010 07:08:27 +0000
+From: hadi motamedi <motamedi24@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: Vijay Tiwari <vijay11tiwari@gmail.com>
+Cc: sip@ietf.org
+Message-ID:
+	<74aa57df1001052308x3b300c61m7bbf91f5579dcf8e@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+<vijay11tiwari@gmail.com>wrote:
+
+> Hello All
+>
+> this KPML subscription package used for DTMF digits not for invite
+number
+> in request URI.
+>
+>   On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango -
+HCL at
+> Cisco) <prelango@cisco.com> wrote:
+>
+>>   Hey Hadi,
+>>
+>> You could do this via KPML Subscription package. Send invite with
+just 6
+>> and remaining digits throught NOTIFY.
+>>
+>> Thanks, Prasath
+>>
+>>  ------------------------------
+>> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf
+Of
+>> *hadi motamedi
+>> *Sent:* Wednesday, January 06, 2010 11:42 AM
+>> *To:* sip@ietf.org
+>> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one
+digit
+>> format?
+>>
+>>
+>> Dear All
+>> Can you please do me favor and let me know if it is technically
+>> feasible to send the sip dialed digits in one-by-one-digit format ? I
+>> mean if the subs dials say 6659983 we try to send it as 6,6,5,9,9,8,3
+>> but not as 6659983 in just one package with sip invite .
+>> Thank you in advance
+>>
+>>
+>>
+>>
+>>
+>> _______________________________________________
+>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> This list is for NEW development of the core SIP Protocol
+>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>> Use sipping@ietf.org for new developments on the application of sip
+>>
+>
+>
+>
+> --
+> They can because they think they can.
+>
+>
+
+Sorry. You mean KPML cannot implement this scenario ?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/b0edfe74/
+attachment.htm>
+
+------------------------------
+
+Message: 6
+Date: Wed, 6 Jan 2010 15:32:48 +0530
+From: Vijay Tiwari <vijay11tiwari@gmail.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: hadi motamedi <motamedi24@gmail.com>
+Cc: sip@ietf.org
+Message-ID:
+	<484afbd61001060202y10e595c2lcff9f8964ad0fa2d@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Hello all
+
+yes KPML is not implement into implement this scenario. its only for
+DTMF
+digits.
+
+Thanks
+Vijay
+On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com>
+wrote:
+
+>
+>
+> On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+<vijay11tiwari@gmail.com>wrote:
+>
+>> Hello All
+>>
+>> this KPML subscription package used for DTMF digits not for invite
+number
+>> in request URI.
+>>
+>>   On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X (prelango -
+HCL
+>> at Cisco) <prelango@cisco.com> wrote:
+>>
+>>>   Hey Hadi,
+>>>
+>>> You could do this via KPML Subscription package. Send invite with
+just 6
+>>> and remaining digits throught NOTIFY.
+>>>
+>>> Thanks, Prasath
+>>>
+>>>  ------------------------------
+>>> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On
+Behalf Of
+>>> *hadi motamedi
+>>> *Sent:* Wednesday, January 06, 2010 11:42 AM
+>>> *To:* sip@ietf.org
+>>> *Subject:* [Sip] Inquiry:SIP sending dialed digits in one-by-one
+digit
+>>> format?
+>>>
+>>>
+>>> Dear All
+>>> Can you please do me favor and let me know if it is technically
+>>> feasible to send the sip dialed digits in one-by-one-digit format ?
+I
+>>> mean if the subs dials say 6659983 we try to send it as
+6,6,5,9,9,8,3
+>>> but not as 6659983 in just one package with sip invite .
+>>> Thank you in advance
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> _______________________________________________
+>>> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>>> This list is for NEW development of the core SIP Protocol
+>>> Use sip-implementors@cs.columbia.edu for questions on current sip
+>>> Use sipping@ietf.org for new developments on the application of sip
+>>>
+>>
+>>
+>>
+>> --
+>> They can because they think they can.
+>>
+>>
+>
+> Sorry. You mean KPML cannot implement this scenario ?
+>
+>
+>
+
+
+
+--=20
+They can because they think they can.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20100106/a711f518/
+attachment.htm>
+
+------------------------------
+
+Message: 7
+Date: Wed, 06 Jan 2010 10:07:13 -0500
+From: Paul Kyzivat <pkyzivat@cisco.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one
+	digit	format?
+To: Vijay Tiwari <vijay11tiwari@gmail.com>
+Cc: sip@ietf.org
+Message-ID: <4B44A721.8000004@cisco.com>
+Content-Type: text/plain; charset=3DISO-8859-1; format=3Dflowed
+
+
+
+Vijay Tiwari wrote:
+> Hello all
+> =20
+> yes KPML is not implement into implement this scenario. its only for=20
+> DTMF digits.
+
+It was not *intended* for this, but that doesn't mean it couldn't be=20
+used for this purpose. However there is no standard defined for doing
+so.
+
+And its extremely unlikely that one would be defined, because it=20
+requires a different division of responsibility between components than=20
+the sip specs assume. Specifically, to do this, you have to turn the sip
+
+phone into a dumb device, akin to MGCP, with a master that does most of=20
+the work. You need to do this, because you must establish a session with
+
+*something* that will receive the digits, and then eventually decide=20
+when a full number has been entered, and then initiate a call.
+
+	Thanks,
+	Paul
+
+> Thanks
+> Vijay=20
+> On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com=20
+> <mailto:motamedi24@gmail.com>> wrote:
+>=20
+>=20
+>=20
+>     On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+>     <vijay11tiwari@gmail.com <mailto:vijay11tiwari@gmail.com>> wrote:
+>=20
+>         Hello All
+>         =20
+>         this KPML subscription package used for DTMF digits not for
+>         invite number in request URI.
+>=20
+>         On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X
+(prelango
+>         - HCL at Cisco) <prelango@cisco.com
+<mailto:prelango@cisco.com>>
+>         wrote:
+>=20
+>             Hey Hadi,
+>             =20
+>             You could do this via KPML Subscription package. Send
+invite
+>             with just 6 and remaining digits throught NOTIFY.
+>             =20
+>             Thanks, Prasath
+>=20
+>
+------------------------------------------------------------------------
+>             *From:* sip-bounces@ietf.org <mailto:sip-bounces@ietf.org>
+>             [mailto:sip-bounces@ietf.org
+<mailto:sip-bounces@ietf.org>]
+>             *On Behalf Of *hadi motamedi
+>             *Sent:* Wednesday, January 06, 2010 11:42 AM
+>             *To:* sip@ietf.org <mailto:sip@ietf.org>
+>             *Subject:* [Sip] Inquiry:SIP sending dialed digits in
+>             one-by-one digit format?
+>=20
+>             =20
+>             Dear All
+>             Can you please do me favor and let me know if it is
+technically
+>             feasible to send the sip dialed digits in one-by-one-digit
+>             format ? I
+>             mean if the subs dials say 6659983 we try to send it as
+>             6,6,5,9,9,8,3
+>             but not as 6659983 in just one package with sip invite .
+>             Thank you in advance
+>=20
+>=20
+>=20
+>=20
+>=20
+>             _______________________________________________
+>             Sip mailing list
+https://www.ietf.org/mailman/listinfo/sip
+>             This list is for NEW development of the core SIP Protocol
+>             Use sip-implementors@cs.columbia.edu
+>             <mailto:sip-implementors@cs.columbia.edu> for questions on
+>             current sip
+>             Use sipping@ietf.org <mailto:sipping@ietf.org> for new
+>             developments on the application of sip
+>=20
+>=20
+>=20
+>=20
+>         --=20
+>         They can because they think they can.
+>=20
+>     =20
+>     =20
+>     Sorry. You mean KPML cannot implement this scenario ?
+>=20
+>     =20
+>=20
+>=20
+>=20
+>=20
+> --=20
+> They can because they think they can.
+>=20
+>=20
+>
+------------------------------------------------------------------------
+>=20
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+
+------------------------------
+
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+End of Sip Digest, Vol 65, Issue 1
+**********************************
+
+
+------------------------------
+
+Message: 2
+Date: Thu, 7 Jan 2010 10:23:01 +0100
+From: Christer Holmberg <christer.holmberg@ericsson.com>
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in	one-by-one
+	digit	format?
+To: 'Paul Kyzivat' <pkyzivat@cisco.com>, Vijay Tiwari
+	<vijay11tiwari@gmail.com>
+Cc: "sip@ietf.org" <sip@ietf.org>
+Message-ID:
+=09
+<FF84A09F50A6DC48ACB6714F4666CC743C57135F96@ESESSCMS0354.eemea.ericsson.
+se>
+=09
+Content-Type: text/plain; charset=3D"us-ascii"
+
+
+Hi,
+
+Are you referring to overlap dialling?
+
+One way is to send additional digits in subsequent INVITEs, which is
+described in RFC 3578. Another way is to send the additional digits
+using INFO, once the INVITE has reached the *something* Paul is
+referring to.
+
+Regards,
+
+Christer
+
+=20
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+Paul Kyzivat
+Sent: 6. tammikuuta 2010 17:07
+To: Vijay Tiwari
+Cc: sip@ietf.org
+Subject: Re: [Sip] Inquiry:SIP sending dialed digits in one-by-one digit
+format?
+
+
+
+Vijay Tiwari wrote:
+> Hello all
+> =20
+> yes KPML is not implement into implement this scenario. its only for=20
+> DTMF digits.
+
+It was not *intended* for this, but that doesn't mean it couldn't be
+used for this purpose. However there is no standard defined for doing
+so.
+
+And its extremely unlikely that one would be defined, because it
+requires a different division of responsibility between components than
+the sip specs assume. Specifically, to do this, you have to turn the sip
+phone into a dumb device, akin to MGCP, with a master that does most of
+the work. You need to do this, because you must establish a session with
+*something* that will receive the digits, and then eventually decide
+when a full number has been entered, and then initiate a call.
+
+	Thanks,
+	Paul
+
+> Thanks
+> Vijay
+> On Wed, Jan 6, 2010 at 12:38 PM, hadi motamedi <motamedi24@gmail.com=20
+> <mailto:motamedi24@gmail.com>> wrote:
+>=20
+>=20
+>=20
+>     On Wed, Jan 6, 2010 at 6:59 AM, Vijay Tiwari
+>     <vijay11tiwari@gmail.com <mailto:vijay11tiwari@gmail.com>> wrote:
+>=20
+>         Hello All
+>         =20
+>         this KPML subscription package used for DTMF digits not for
+>         invite number in request URI.
+>=20
+>         On Wed, Jan 6, 2010 at 12:09 PM, Prasath Elangovan -X
+(prelango
+>         - HCL at Cisco) <prelango@cisco.com
+<mailto:prelango@cisco.com>>
+>         wrote:
+>=20
+>             Hey Hadi,
+>             =20
+>             You could do this via KPML Subscription package. Send
+invite
+>             with just 6 and remaining digits throught NOTIFY.
+>             =20
+>             Thanks, Prasath
+>=20
+>
+------------------------------------------------------------------------
+>             *From:* sip-bounces@ietf.org <mailto:sip-bounces@ietf.org>
+>             [mailto:sip-bounces@ietf.org
+<mailto:sip-bounces@ietf.org>]
+>             *On Behalf Of *hadi motamedi
+>             *Sent:* Wednesday, January 06, 2010 11:42 AM
+>             *To:* sip@ietf.org <mailto:sip@ietf.org>
+>             *Subject:* [Sip] Inquiry:SIP sending dialed digits in
+>             one-by-one digit format?
+>=20
+>             =20
+>             Dear All
+>             Can you please do me favor and let me know if it is
+technically
+>             feasible to send the sip dialed digits in one-by-one-digit
+>             format ? I
+>             mean if the subs dials say 6659983 we try to send it as
+>             6,6,5,9,9,8,3
+>             but not as 6659983 in just one package with sip invite .
+>             Thank you in advance
+>=20
+>=20
+>=20
+>=20
+>=20
+>             _______________________________________________
+>             Sip mailing list
+https://www.ietf.org/mailman/listinfo/sip
+>             This list is for NEW development of the core SIP Protocol
+>             Use sip-implementors@cs.columbia.edu
+>             <mailto:sip-implementors@cs.columbia.edu> for questions on
+>             current sip
+>             Use sipping@ietf.org <mailto:sipping@ietf.org> for new
+>             developments on the application of sip
+>=20
+>=20
+>=20
+>=20
+>         --=20
+>         They can because they think they can.
+>=20
+>     =20
+>     =20
+>     Sorry. You mean KPML cannot implement this scenario ?
+>=20
+>     =20
+>=20
+>=20
+>=20
+>=20
+> --
+> They can because they think they can.
+>=20
+>=20
+> ----------------------------------------------------------------------
+> --
+>=20
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol Use=20
+> sip-implementors@cs.columbia.edu for questions on current sip Use=20
+> sipping@ietf.org for new developments on the application of sip
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol Use
+sip-implementors@cs.columbia.edu for questions on current sip Use
+sipping@ietf.org for new developments on the application of sip
+
+
+------------------------------
+
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+End of Sip Digest, Vol 65, Issue 2
+**********************************
+
+From courettabt@gmail.com  Sun Jan 17 01:23:50 2010
+Return-Path: <courettabt@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id DC6863A6834 for <sip@core3.amsl.com>; Sun, 17 Jan 2010 01:23:50 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.955
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.955 tagged_above=-999 required=5 tests=[AWL=-1.644, BAYES_05=-1.11, J_CHICKENPOX_23=0.6, J_CHICKENPOX_32=0.6, J_CHICKENPOX_52=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id JCL3XHm9rdTx for <sip@core3.amsl.com>; Sun, 17 Jan 2010 01:23:50 -0800 (PST)
+Received: from mail-fx0-f213.google.com (mail-fx0-f213.google.com [209.85.220.213]) by core3.amsl.com (Postfix) with ESMTP id ED9443A680A for <Sip@ietf.org>; Sun, 17 Jan 2010 01:23:46 -0800 (PST)
+Received: by fxm5 with SMTP id 5so1399030fxm.29 for <Sip@ietf.org>; Sun, 17 Jan 2010 01:23:38 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:date:message-id:subject :from:to:content-type; bh=xyq6eWYULAw2bb5RC6xOeZ9dj5UxfvF+a7+6mjrm1wI=; b=qnZpQ2VKPdO3MCQcQyGwSuE9Xb50r8yyI5JuvMtzIwAPdLUvGhzgAym9x7yOWPlkLV oAoXMB51E1+1VAr6E/2neHtbTAO91mpMGO4dlqMxggC2nZ8jX+LxLrtawPxXwmRiqjhg kX/vwXAqWP0Z3dLsi2FYDiG04iqhAc+oFEHBI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=RvAb7UhWmOCyGgwtfw2kPczNiQyH3etda7rV/eSxKKbMhcA0LHDj//lzu5oHHbLEQA RrFldK7gsvEG4yLiP/Yta+8c0i2VlAjJD9XpvUdp2sHcnsJ7QluJvtRkpeKxOSnREpJK PWd8Dyu+l/494Vv0/oCaXfi7rT0g4Ur87NhA0=
+MIME-Version: 1.0
+Received: by 10.239.169.145 with SMTP id o17mr521345hbe.50.1263720217615; Sun,  17 Jan 2010 01:23:37 -0800 (PST)
+Date: Sun, 17 Jan 2010 18:23:37 +0900
+Message-ID: <13bdfb281001170123p4883eb2bkb8955d52ceefc525@mail.gmail.com>
+From: Couret Tabt <courettabt@gmail.com>
+To: Sip@ietf.org
+Content-Type: text/plain; charset=ISO-8859-1
+Subject: [Sip] Inquiry: Authentication in Reciever's Domain
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sun, 17 Jan 2010 09:23:51 -0000
+
+Dear folks,
+
+I have a question about SIP Authentication Mechanism below:
+
+In inter-domain (e.g.proxy-proxy) we can use RFC4474(SIP Identity)
+ for user authentication, but, inside domain, how can a receiver
+or a proxy in receiver side authenticate each other?
+
+This means the followings:
+
+CASE 1) Spoofing of Receiver:
+After a Receiver's UA registered, without re-register
+other user use the address that the former user registered.
+(Then the former user is NOT unregistered by the proxy.)
+
+Invite: Alice(in Atlanta) to Bob(in Biloxi)
+
+Alice --->Atlanta--(RFC4474 Authentication)------>Biloxi---->Bob
+
+             *But actually,
+
+   this is spoofing user
+
+               (NOT Bob)
+
+CASE 2)Spoofing of Proxy:
+In attacks like Man-in-the-Middle, barge-in user spoof Receiver side Proxy.
+
+Alice --->Atlanta--(RFC4474 Authentication)------>Biloxi---->Bob
+
+*But actually,
+
+this is spoofing proxy
+
+ (NOT Biloxi)
+
+
+If you know it(how to authenticate), please let me know.
+
+*I have studied about SIP more.
+Is it appreciate that in this mailing list I have any above discussions?
+Please let me know, too.
+
+Thanks,
+Tabt
+
+From dean.willis@softarmor.com  Wed Jan 27 09:07:30 2010
+Return-Path: <dean.willis@softarmor.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 02C2028C128 for <sip@core3.amsl.com>; Wed, 27 Jan 2010 09:07:30 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[AWL=0.000,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kq2A5e0ix25V for <sip@core3.amsl.com>; Wed, 27 Jan 2010 09:07:29 -0800 (PST)
+Received: from nylon.softarmor.com (nylon.softarmor.com [66.135.38.164]) by core3.amsl.com (Postfix) with ESMTP id 2553728C113 for <sip@ietf.org>; Wed, 27 Jan 2010 09:07:29 -0800 (PST)
+Received: from [192.168.2.108] (cpe-66-25-30-183.tx.res.rr.com [66.25.30.183]) (authenticated bits=0) by nylon.softarmor.com (8.14.3/8.14.3/Debian-5) with ESMTP id o0RH7g6t030485 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT) for <sip@ietf.org>; Wed, 27 Jan 2010 11:07:43 -0600
+Message-Id: <F6878D9E-E3E6-4458-ADBB-E2945DECD0BD@softarmor.com>
+From: Dean Willis <dean.willis@softarmor.com>
+To: "sip@ietf.org List" <sip@ietf.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Wed, 27 Jan 2010 11:07:36 -0600
+References: <20100127170525.4839C3A6ABC@core3.amsl.com>
+X-Mailer: Apple Mail (2.936)
+Subject: [Sip] draft-ietf-sipcore-subnot-etags has been approved
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 Jan 2010 17:07:30 -0000
+
+Yay! Another long-passed milestone has been completed. Congratulations  
+are in order, along with a large serving of humility for having taken  
+so long.
+
+--
+Dean
+
+Begin forwarded message:
+
+> From: The IESG <iesg-secretary@ietf.org>
+> Date: January 27, 2010 11:05:25 AM CST
+> To: sipcore-chairs@tools.ietf.org, draft-ietf-sipcore-subnot-etags@tools.ietf.org 
+> , dean.willis@softarmor.com
+> Subject: ID Tracker State Update Notice: draft-ietf-sipcore-subnot- 
+> etags
+> Reply-To: ietf-secretariat-reply@ietf.org
+>
+> IESG has approved and state has been changed to 'Approved- 
+> Announcement sent' by Amy Vezza.
+> ID Tracker URL: https://datatracker.ietf.org/?command=view_id&dTag=18505&rfc_flag=0
+>
+
+
+From root@core3.amsl.com  Thu Jan 28 13:30:01 2010
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 7F59C3A6881; Thu, 28 Jan 2010 13:30:01 -0800 (PST)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20100128213001.7F59C3A6881@core3.amsl.com>
+Date: Thu, 28 Jan 2010 13:30:01 -0800 (PST)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-ipv6-abnf-fix-04.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 28 Jan 2010 21:30:01 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Essential correction for IPv6 ABNF and URI comparison in RFC3261
+	Author(s)       : V. Gurbani, et al.
+	Filename        : draft-ietf-sip-ipv6-abnf-fix-04.txt
+	Pages           : 8
+	Date            : 2010-01-28
+
+This memo corrects the Augmented Backus-Naur Form (ABNF) production
+rule associated with generating IPv6 literals in RFC3261.  It also
+clarifies the rule for Uniform Resource Identifier (URI) comparison
+when the URIs contain textual representation of IP addresses.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-ipv6-abnf-fix-04.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-ipv6-abnf-fix-04.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2010-01-28132942.I-D@ietf.org>
+
+
+--NextPart--
+
+From dworley@avaya.com  Fri Jan 29 08:41:47 2010
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id D32453A6A5B for <sip@core3.amsl.com>; Fri, 29 Jan 2010 08:41:47 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id r0ovlQvdGQmP for <sip@core3.amsl.com>; Fri, 29 Jan 2010 08:41:47 -0800 (PST)
+Received: from p-us1-iereast-outbound-tmp.us1.avaya.com (p-us1-iereast-outbound-tmp.us1.avaya.com [135.11.29.16]) by core3.amsl.com (Postfix) with ESMTP id E1A0D3A6A45 for <sip@ietf.org>; Fri, 29 Jan 2010 08:41:46 -0800 (PST)
+X-IronPort-AV: E=Sophos;i="4.49,369,1262581200";  d="scan'208";a="1839696"
+Received: from unknown (HELO co300216-co-erhwest.avaya.com) ([198.152.7.5]) by p-us1-iereast-outbound-tmp.us1.avaya.com with ESMTP; 29 Jan 2010 11:41:52 -0500
+Received: from unknown (HELO zcars04f.nortel.com) ([47.129.242.57]) by co300216-co-erhwest-out.avaya.com with ESMTP; 29 Jan 2010 11:41:51 -0500
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by zcars04f.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o0TGfUs09471; Fri, 29 Jan 2010 16:41:30 GMT
+Received: from zrtphxs1.corp.nortel.com (zrtphxs1.corp.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o0TGfSM20638; Fri, 29 Jan 2010 16:41:28 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Fri, 29 Jan 2010 11:41:27 -0500
+From: "Dale Worley" <dworley@avaya.com>
+To: sip@ietf.org, vkg@alcatel-lucent.com
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Fri, 29 Jan 2010 11:41:27 -0500
+Message-Id: <1264783287.4057.9.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 29 Jan 2010 16:41:28.0166 (UTC) FILETIME=[E7558060:01CAA101]
+Subject: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jan 2010 16:41:47 -0000
+
+Looking at draft-ietf-sip-ipv6-abnf-fix-04, one thing that is not
+mentioned is that some C libraries do not always interpret IPv4
+"dotted-decimal" addresses in decimal.  In particular, if a component
+starts with "0", it will be interpreted in octal:
+
+        $ ping 047.017.025.061
+        PING 047.017.025.061 (39.15.21.49) 56(84) bytes of data.
+
+There are also some usages of "dotted-octal" in early RFCs.
+
+I think one can safely argue that we've always intended for IPv4
+addresses to be decimal, but I don't think we've ever stated that, and
+the word "decimal" doesn't appear in this draft.
+
+It's possible that there are security aspects of this, too, since an
+IPv4 address might be interpreted differently than one would expect it
+to be.
+
+Dale
+
+
+
+From vkg@alcatel-lucent.com  Fri Jan 29 09:16:15 2010
+Return-Path: <vkg@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C17133A6A40 for <sip@core3.amsl.com>; Fri, 29 Jan 2010 09:16:15 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id XeRn3DktSIsR for <sip@core3.amsl.com>; Fri, 29 Jan 2010 09:16:14 -0800 (PST)
+Received: from ihemail2.lucent.com (ihemail2.lucent.com [135.245.0.35]) by core3.amsl.com (Postfix) with ESMTP id 833A23A6837 for <sip@ietf.org>; Fri, 29 Jan 2010 09:16:14 -0800 (PST)
+Received: from umail.lucent.com (h135-3-40-63.lucent.com [135.3.40.63]) by ihemail2.lucent.com (8.13.8/IER-o) with ESMTP id o0THGZS2003030 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Fri, 29 Jan 2010 11:16:35 -0600 (CST)
+Received: from [135.185.236.17] (il0015vkg1.ih.lucent.com [135.185.236.17]) by umail.lucent.com (8.13.8/TPES) with ESMTP id o0THGZr4024379; Fri, 29 Jan 2010 11:16:35 -0600 (CST)
+Message-ID: <4B6317F3.6050702@alcatel-lucent.com>
+Date: Fri, 29 Jan 2010 11:16:35 -0600
+From: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+Organization: Bell Labs Security Technology Research Group
+User-Agent: Thunderbird 2.0.0.6 (Windows/20070728)
+MIME-Version: 1.0
+To: Dale Worley <dworley@avaya.com>
+References: <1264783287.4057.9.camel@khone.us.nortel.com>
+In-Reply-To: <1264783287.4057.9.camel@khone.us.nortel.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.35
+Cc: sip@ietf.org
+Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jan 2010 17:16:15 -0000
+
+Dale Worley wrote:
+> I think one can safely argue that we've always intended for IPv4
+> addresses to be decimal, but I don't think we've ever stated that, and
+> the word "decimal" doesn't appear in this draft.
+
+Dale: Are you suggesting that we mandate that all IPv4 addresses
+written in dotted-decimal form be really decimal?  Or just that the
+SIP addresses behave so?
+
+I doubt we can do the former through sip-ipv6-abnf-fix; I suspect
+we can do the latter if the WG (which one?  sipcore?) or sponsoring
+AD agrees on it, although this particular draft is limited to
+fixing the IPv6 ABNF.
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From dworley@avaya.com  Fri Jan 29 09:52:45 2010
+Return-Path: <dworley@avaya.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 1A10F3A67D3 for <sip@core3.amsl.com>; Fri, 29 Jan 2010 09:52:45 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[AWL=0.000,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id T0eDk6+NZUzx for <sip@core3.amsl.com>; Fri, 29 Jan 2010 09:52:44 -0800 (PST)
+Received: from p-us1-iereast-outbound-tmp.us1.avaya.com (nj300815-nj-outbound.net.avaya.com [135.11.29.16]) by core3.amsl.com (Postfix) with ESMTP id 2A7DB3A6784 for <sip@ietf.org>; Fri, 29 Jan 2010 09:52:43 -0800 (PST)
+X-IronPort-AV: E=Sophos;i="4.49,369,1262581200";  d="scan'208";a="1843195"
+Received: from unknown (HELO co300216-co-erhwest.avaya.com) ([198.152.7.5]) by p-us1-iereast-outbound-tmp.us1.avaya.com with ESMTP; 29 Jan 2010 12:53:06 -0500
+Received: from unknown (HELO zcars04f.nortel.com) ([47.129.242.57]) by co300216-co-erhwest-out.avaya.com with ESMTP; 29 Jan 2010 12:53:05 -0500
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by zcars04f.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o0THqis01869; Fri, 29 Jan 2010 17:52:44 GMT
+Received: from zrtphxs1.corp.nortel.com (zrtphxs1.corp.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id o0THqgM14031; Fri, 29 Jan 2010 17:52:42 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Fri, 29 Jan 2010 12:52:41 -0500
+From: "Dale Worley" <dworley@avaya.com>
+To: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+In-Reply-To: <4B6317F3.6050702@alcatel-lucent.com>
+References: <1264783287.4057.9.camel@khone.us.nortel.com> <4B6317F3.6050702@alcatel-lucent.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Fri, 29 Jan 2010 12:52:41 -0500
+Message-Id: <1264787561.4057.16.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 29 Jan 2010 17:52:41.0709 (UTC) FILETIME=[DA9069D0:01CAA10B]
+Cc: sip@ietf.org
+Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jan 2010 17:52:45 -0000
+
+On Fri, 2010-01-29 at 11:16 -0600, Vijay K. Gurbani wrote:
+> Are you suggesting that we mandate that all IPv4 addresses
+> written in dotted-decimal form be really decimal?  Or just that the
+> SIP addresses behave so?
+> 
+> I doubt we can do the former through sip-ipv6-abnf-fix; I suspect
+> we can do the latter if the WG (which one?  sipcore?) or sponsoring
+> AD agrees on it, although this particular draft is limited to
+> fixing the IPv6 ABNF.
+
+I'm sure that everybody thinks that dotted-decimal strings in SIP URIs
+are to be interpreted as decimal.  And for that matter, that series of
+HEXDIG's are to be interpreted as hexidecimal.  Whether that is,
+strictly speaking, syntax or not, I don't know.  But it appears that
+neither of these facts has been stated in plain words, and in an
+unpleasantly large number of situations, code may not follow that
+convention.
+
+As long as we're explicating the syntax, it seems reasonable to
+enunciate what "everybody knows" about its interpretation.
+
+Dale
+
+
+
+From vkg@alcatel-lucent.com  Fri Jan 29 12:40:34 2010
+Return-Path: <vkg@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 71A8F3A683C for <sip@core3.amsl.com>; Fri, 29 Jan 2010 12:40:34 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.299 tagged_above=-999 required=5 tests=[AWL=-0.300, BAYES_00=-2.599, J_CHICKENPOX_37=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 433IZCkez8IW for <sip@core3.amsl.com>; Fri, 29 Jan 2010 12:40:33 -0800 (PST)
+Received: from ihemail2.lucent.com (ihemail2.lucent.com [135.245.0.35]) by core3.amsl.com (Postfix) with ESMTP id 541FD3A67DA for <sip@ietf.org>; Fri, 29 Jan 2010 12:40:32 -0800 (PST)
+Received: from umail.lucent.com (h135-3-40-63.lucent.com [135.3.40.63]) by ihemail2.lucent.com (8.13.8/IER-o) with ESMTP id o0TKes4e008051 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Fri, 29 Jan 2010 14:40:54 -0600 (CST)
+Received: from [135.185.236.17] (il0015vkg1.ih.lucent.com [135.185.236.17]) by umail.lucent.com (8.13.8/TPES) with ESMTP id o0TKer7P017045; Fri, 29 Jan 2010 14:40:53 -0600 (CST)
+Message-ID: <4B6347D5.5040602@alcatel-lucent.com>
+Date: Fri, 29 Jan 2010 14:40:53 -0600
+From: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+Organization: Bell Labs Security Technology Research Group
+User-Agent: Thunderbird 2.0.0.6 (Windows/20070728)
+MIME-Version: 1.0
+To: Dale Worley <dworley@avaya.com>, Robert Sparks <rjsparks@nostrum.com>
+References: <1264783287.4057.9.camel@khone.us.nortel.com>	 <4B6317F3.6050702@alcatel-lucent.com> <1264787561.4057.16.camel@khone.us.nortel.com>
+In-Reply-To: <1264787561.4057.16.camel@khone.us.nortel.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.35
+Cc: sip@ietf.org
+Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jan 2010 20:40:34 -0000
+
+Robert: Please see question directed to you at the end of this
+email.
+
+Dale Worley wrote:
+> As long as we're explicating the syntax, it seems reasonable to
+> enunciate what "everybody knows" about its interpretation.
+
+Dale: I am not being an obstructionist here, so please
+do not take the comments as such.
+
+I believe that "everybody knows" that dotted-decimal is
+well, dotted-"decimal" and not dotted-"octal".  The fact
+that some C libraries interpret the leftmost 0 as a
+hint to enter octal mode is unfortunate, but I don't see
+how putting admonitions here will solve that particular
+problem.
+
+That said, one quick observation is that the production rule for
+<IPv4address> literal defined in rfc3986 is more close
+to your intent than the one defined in rfc3261.  More
+specifically, here they are:
+
+rfc3986:
+
+A host identified by an IPv4 literal address is represented in
+dotted-decimal notation (a sequence of four decimal numbers in the
+range 0 to 255, separated by "."), as described in [RFC1123] by
+reference to [RFC0952].  Note that other forms of dotted notation may
+be interpreted on some platforms, as described in Section 7.4, but
+only the dotted-decimal form of four octets is allowed by this
+grammar.
+
+    IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+
+    dec-octet   = DIGIT                 ; 0-9
+                / %x31-39 DIGIT         ; 10-99
+                / "1" 2DIGIT            ; 100-199
+                / "2" %x30-34 DIGIT     ; 200-249
+                / "25" %x30-35          ; 250-255
+
+rfc3261:
+
+IPv4address    =  1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT
+
+So, we could deprecate the existing rfc3261 syntax for IPv4address
+and replace it with the one for rfc3986.
+
+Robert: Is this okay with you?  If so, I can put the above change
+in the draft as well.
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From rjsparks@nostrum.com  Fri Jan 29 12:48:25 2010
+Return-Path: <rjsparks@nostrum.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id DDE103A683C for <sip@core3.amsl.com>; Fri, 29 Jan 2010 12:48:25 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.2
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.2 tagged_above=-999 required=5 tests=[AWL=-0.200,  BAYES_00=-2.599, J_CHICKENPOX_37=0.6, SPF_PASS=-0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id C589YGqo-lWV for <sip@core3.amsl.com>; Fri, 29 Jan 2010 12:48:24 -0800 (PST)
+Received: from nostrum.com (nostrum-pt.tunnel.tserv2.fmt.ipv6.he.net [IPv6:2001:470:1f03:267::2]) by core3.amsl.com (Postfix) with ESMTP id 40ED13A659A for <sip@ietf.org>; Fri, 29 Jan 2010 12:48:23 -0800 (PST)
+Received: from [192.168.2.2] (pool-173-71-49-137.dllstx.fios.verizon.net [173.71.49.137]) (authenticated bits=0) by nostrum.com (8.14.3/8.14.3) with ESMTP id o0TKmiWp008756 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO); Fri, 29 Jan 2010 14:48:44 -0600 (CST) (envelope-from rjsparks@nostrum.com)
+Message-Id: <AD886ED2-F1A9-45DE-9A44-2D98AAEDB746@nostrum.com>
+From: Robert Sparks <rjsparks@nostrum.com>
+To: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+In-Reply-To: <4B6347D5.5040602@alcatel-lucent.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Fri, 29 Jan 2010 14:48:43 -0600
+References: <1264783287.4057.9.camel@khone.us.nortel.com>	 <4B6317F3.6050702@alcatel-lucent.com> <1264787561.4057.16.camel@khone.us.nortel.com> <4B6347D5.5040602@alcatel-lucent.com>
+X-Mailer: Apple Mail (2.936)
+Received-SPF: pass (nostrum.com: 173.71.49.137 is authenticated by a trusted mechanism)
+Cc: sip@ietf.org
+Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jan 2010 20:48:26 -0000
+
+No, I don't think trying to make that syntax change is appropriate for  
+this draft at this point
+in its life-cycle.
+
+RjS
+
+On Jan 29, 2010, at 2:40 PM, Vijay K. Gurbani wrote:
+
+> Robert: Please see question directed to you at the end of this
+> email.
+>
+> Dale Worley wrote:
+>> As long as we're explicating the syntax, it seems reasonable to
+>> enunciate what "everybody knows" about its interpretation.
+>
+> Dale: I am not being an obstructionist here, so please
+> do not take the comments as such.
+>
+> I believe that "everybody knows" that dotted-decimal is
+> well, dotted-"decimal" and not dotted-"octal".  The fact
+> that some C libraries interpret the leftmost 0 as a
+> hint to enter octal mode is unfortunate, but I don't see
+> how putting admonitions here will solve that particular
+> problem.
+>
+> That said, one quick observation is that the production rule for
+> <IPv4address> literal defined in rfc3986 is more close
+> to your intent than the one defined in rfc3261.  More
+> specifically, here they are:
+>
+> rfc3986:
+>
+> A host identified by an IPv4 literal address is represented in
+> dotted-decimal notation (a sequence of four decimal numbers in the
+> range 0 to 255, separated by "."), as described in [RFC1123] by
+> reference to [RFC0952].  Note that other forms of dotted notation may
+> be interpreted on some platforms, as described in Section 7.4, but
+> only the dotted-decimal form of four octets is allowed by this
+> grammar.
+>
+>   IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+>
+>   dec-octet   = DIGIT                 ; 0-9
+>               / %x31-39 DIGIT         ; 10-99
+>               / "1" 2DIGIT            ; 100-199
+>               / "2" %x30-34 DIGIT     ; 200-249
+>               / "25" %x30-35          ; 250-255
+>
+> rfc3261:
+>
+> IPv4address    =  1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT
+>
+> So, we could deprecate the existing rfc3261 syntax for IPv4address
+> and replace it with the one for rfc3986.
+>
+> Robert: Is this okay with you?  If so, I can put the above change
+> in the draft as well.
+>
+> Thanks,
+>
+> - vijay
+> -- 
+> Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+> 1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+> Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+> Web:   http://ect.bell-labs.com/who/vkg/
+
+
+From brett@broadsoft.com  Fri Jan 29 13:18:04 2010
+Return-Path: <brett@broadsoft.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 4B28A3A6A6D for <sip@core3.amsl.com>; Fri, 29 Jan 2010 13:18:04 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, J_CHICKENPOX_37=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kq8LtNXQuiLr for <sip@core3.amsl.com>; Fri, 29 Jan 2010 13:18:03 -0800 (PST)
+Received: from smtp-out01.seaservers.net (smtp-out01.seaservers.net [72.37.232.66]) by core3.amsl.com (Postfix) with ESMTP id 50F143A6A47 for <sip@ietf.org>; Fri, 29 Jan 2010 13:18:03 -0800 (PST)
+Received: from EXMBXCLUS01.citservers.local ([fe80:0000:0000:0000:a488:d1ec:167.6.58.109]) by casumhub01.citservers.local ([172.16.98.57]) with mapi; Fri, 29 Jan 2010 13:18:25 -0800
+From: Brett Tate <brett@broadsoft.com>
+To: Robert Sparks <rjsparks@nostrum.com>, "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+Date: Fri, 29 Jan 2010 13:17:55 -0800
+Thread-Topic: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+Thread-Index: AcqhJHoNhEgrXJ6UQCiBG1H6/oLpHwAAty8g
+Message-ID: <747A6506A991724FB09B129B79D5FEB6145FD2C1B7@EXMBXCLUS01.citservers.local>
+References: <1264783287.4057.9.camel@khone.us.nortel.com> <4B6317F3.6050702@alcatel-lucent.com> <1264787561.4057.16.camel@khone.us.nortel.com> <4B6347D5.5040602@alcatel-lucent.com> <AD886ED2-F1A9-45DE-9A44-2D98AAEDB746@nostrum.com>
+In-Reply-To: <AD886ED2-F1A9-45DE-9A44-2D98AAEDB746@nostrum.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jan 2010 21:18:04 -0000
+
+It looks like draft-ietf-sip-ipv6-abnf-fix-04 section 3.1 already does the =
+syntax adjustment for IPv4address.
+
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> Robert Sparks
+> Sent: Friday, January 29, 2010 3:49 PM
+> To: Vijay K. Gurbani
+> Cc: sip@ietf.org
+> Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+>=20
+> No, I don't think trying to make that syntax change is appropriate for
+> this draft at this point
+> in its life-cycle.
+>=20
+> RjS
+>=20
+> On Jan 29, 2010, at 2:40 PM, Vijay K. Gurbani wrote:
+>=20
+> > Robert: Please see question directed to you at the end of this
+> > email.
+> >
+> > Dale Worley wrote:
+> >> As long as we're explicating the syntax, it seems reasonable to
+> >> enunciate what "everybody knows" about its interpretation.
+> >
+> > Dale: I am not being an obstructionist here, so please
+> > do not take the comments as such.
+> >
+> > I believe that "everybody knows" that dotted-decimal is
+> > well, dotted-"decimal" and not dotted-"octal".  The fact
+> > that some C libraries interpret the leftmost 0 as a
+> > hint to enter octal mode is unfortunate, but I don't see
+> > how putting admonitions here will solve that particular
+> > problem.
+> >
+> > That said, one quick observation is that the production rule for
+> > <IPv4address> literal defined in rfc3986 is more close
+> > to your intent than the one defined in rfc3261.  More
+> > specifically, here they are:
+> >
+> > rfc3986:
+> >
+> > A host identified by an IPv4 literal address is represented in
+> > dotted-decimal notation (a sequence of four decimal numbers in the
+> > range 0 to 255, separated by "."), as described in [RFC1123] by
+> > reference to [RFC0952].  Note that other forms of dotted notation may
+> > be interpreted on some platforms, as described in Section 7.4, but
+> > only the dotted-decimal form of four octets is allowed by this
+> > grammar.
+> >
+> >   IPv4address =3D dec-octet "." dec-octet "." dec-octet "." dec-octet
+> >
+> >   dec-octet   =3D DIGIT                 ; 0-9
+> >               / %x31-39 DIGIT         ; 10-99
+> >               / "1" 2DIGIT            ; 100-199
+> >               / "2" %x30-34 DIGIT     ; 200-249
+> >               / "25" %x30-35          ; 250-255
+> >
+> > rfc3261:
+> >
+> > IPv4address    =3D  1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT
+> >
+> > So, we could deprecate the existing rfc3261 syntax for IPv4address
+> > and replace it with the one for rfc3986.
+> >
+> > Robert: Is this okay with you?  If so, I can put the above change
+> > in the draft as well.
+> >
+> > Thanks,
+> >
+> > - vijay
+
+
+From vkg@alcatel-lucent.com  Fri Jan 29 13:23:27 2010
+Return-Path: <vkg@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 9D6483A68FC for <sip@core3.amsl.com>; Fri, 29 Jan 2010 13:23:27 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.266
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.266 tagged_above=-999 required=5 tests=[AWL=-0.267, BAYES_00=-2.599, J_CHICKENPOX_37=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OaU3EV+LfiAJ for <sip@core3.amsl.com>; Fri, 29 Jan 2010 13:23:26 -0800 (PST)
+Received: from ihemail4.lucent.com (ihemail4.lucent.com [135.245.0.39]) by core3.amsl.com (Postfix) with ESMTP id 927623A6884 for <sip@ietf.org>; Fri, 29 Jan 2010 13:23:25 -0800 (PST)
+Received: from umail.lucent.com (h135-3-40-63.lucent.com [135.3.40.63]) by ihemail4.lucent.com (8.13.8/IER-o) with ESMTP id o0TLNehH008820 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Fri, 29 Jan 2010 15:23:40 -0600 (CST)
+Received: from [135.185.236.17] (il0015vkg1.ih.lucent.com [135.185.236.17]) by umail.lucent.com (8.13.8/TPES) with ESMTP id o0TLNe4N022802; Fri, 29 Jan 2010 15:23:40 -0600 (CST)
+Message-ID: <4B6351DC.1070000@alcatel-lucent.com>
+Date: Fri, 29 Jan 2010 15:23:40 -0600
+From: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+Organization: Bell Labs Security Technology Research Group
+User-Agent: Thunderbird 2.0.0.6 (Windows/20070728)
+MIME-Version: 1.0
+To: Brett Tate <brett@broadsoft.com>
+References: <1264783287.4057.9.camel@khone.us.nortel.com>		<4B6317F3.6050702@alcatel-lucent.com>	<1264787561.4057.16.camel@khone.us.nortel.com>	<4B6347D5.5040602@alcatel-lucent.com> <AD886ED2-F1A9-45DE-9A44-2D98AAEDB746@nostrum.com> <747A6506A991724FB09B129B79D5FEB6145FD2C1B7@EXMBXCLUS01.citservers.local>
+In-Reply-To: <747A6506A991724FB09B129B79D5FEB6145FD2C1B7@EXMBXCLUS01.citservers.local>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.39
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] draft-ietf-sip-ipv6-abnf-fix-04
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jan 2010 21:23:27 -0000
+
+Brett Tate wrote:
+> It looks like draft-ietf-sip-ipv6-abnf-fix-04 section 3.1 already
+> does the syntax adjustment for IPv4address.
+
+Ah, never mind.  In that case, I think we have already
+addressed Dale's comment then and no more changes are
+necessary.
+
+As you can see, I am trying to limit the number of changes
+to this draft since it is a carryover from the now defunct
+SIP WG where it was WGLC'd.
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/

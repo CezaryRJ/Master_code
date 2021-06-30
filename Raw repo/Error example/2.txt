@@ -1,0 +1,47 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : 0b5ade93-a05e-44e3-b7e2-bec8e7a806f0
+_version_ : 1675131693021790210
+
+Content : 
+
+ENCODING mime
+FILE /internet-drafts/draft-shin-ipv6-ieee802.16-00.txt
+
+--OtherAccess
+Content-Type: Message/External-body; name="draft-shin-ipv6-ieee802.16-00.txt";
+	site="ftp.ietf.org"; access-type="anon-ftp";
+	directory="internet-drafts"
+
+
+
+
+
+--------------Report
+
+line 2398 in file starts with from.
+This should have been fixed by the cleanarch cript

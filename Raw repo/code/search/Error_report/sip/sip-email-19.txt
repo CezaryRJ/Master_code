@@ -1,0 +1,128 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2007-04.mailcl']
+id : 9581fcfe-22d8-42da-ab81-20badaa5ce33
+_version_ : 1675128716156469248
+
+Content : 
+
+> e.d.) all seem vastly different from the general case.=20
+> Link that to the observation that a header-based mechanism=20
+> would be much easier to generate (both by UEs and gateways)=20
+> and parse at routing proxies and PSAPs, reducing the chance=20
+> at errors in situations that may cost lives AND speeding up=20
+> implementation rates, I'd say : separate it out?
+>=20
+> Regards,
+> Jeroen
+>=20
+> Henning Schulzrinne wrote:
+> > I mis-spoke. I was actually thinking of a different solution, more=20
+> > appropriate to the SIP header model. After all, for geo, two numbers
+> > (long/lat) in WGS84 datum are all that matters in most=20
+> circumstances,=20
+> > on occasion augmented by a third (some 'measurement accuracy'
+> > indication).
+> >
+> > The XMPP XML model that Juha and you refer to isn't all that much=20
+> > simpler than GEOPRIV civic or GML Point, just different, as=20
+> you note.
+> > (Whether supporting the multitude of geometric shapes in=20
+> the pdif-lo=20
+> > profile spec is truly required and where is another=20
+> discussion which=20
+> > belongs elsewhere.)
+> >
+> > I don't know if by 'security' you refer to the embedded privacy=20
+> > policies; in most cases, restrictive default values would=20
+> do the trick=20
+> > for those. Plus, for emergency calls, few PSAPs are going=20
+> to observe=20
+> > 'do not distribute' or 'do not retain' in any event, simply because=20
+> > the law in many jurisdictions contradicts those desires.
+> >
+> > Henning
+> >
+> > On Apr 29, 2007, at 10:39 AM, Hannes Tschofenig wrote:
+> >
+> >> Hi Henning,
+> >>
+> >> http://www.xmpp.org/extensions/xep-0080.html takes an interesting=20
+> >> approach by largely ignoring previous work on geolocation.=20
+> It is just=20
+> >> too attractive to create your own flavor of civic and geodetic=20
+> >> location information format.
+> >>
+> >> Interestingly enough there is a full-blown solution for XMPP=20
+> >> available as well that builds on the OMA protocols. I have=20
+> to search=20
+> >> for the reference, if someone cares. That one is far more complex=20
+> >> than GEOPRIV.
+> >>
+> >> If you argue for simplicity then you refer to =20
+> http://www.xmpp.org/=20
+> >> extensions/xep-0080.html.
+> >>
+> >> If you argue for functionality, different environments and=20
+> >> interworking with existing systems then you point to the OMA=20
+> >> extension.
+> >>
+> >> It's so easy. Translated to our work in GEOPRIV this would mean the
+> >> following: If we want to convince people to use it then we=20
+> just point=20
+> >> them to the easy WLAN or enterprise case with a simple civic or a=20
+> >> simple point representation.
+> >>
+> >> Ciao
+> >> Hannes
+> >>
+> >> PS: Last November I was at a conference on mobility protocols.
+> >> Someone gave a presentation on a new mobility protocol design. The=20
+> >> author claimed it was very simple. Indeed, it was simple=20
+> -- because=20
+> >> it just didn't care about security.
+> >>
+> >
+> > _______________________________________________
+> > Sip-implementors mailing list
+> > Sip-implementors@cs.columbia.edu
+> > https://lists.cs.columbia.edu/cucslists/listinfo/sip-implementors
+>=20
+>=20
+>=20
+> _______________________________________________
+> Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>=20
+
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip

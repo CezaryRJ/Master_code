@@ -1,0 +1,86 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-05.mailcl']
+id : ecfb7e51-8a2b-4d11-a817-f27f9254f4b3
+_version_ : 1675132964800823296
+
+Content : 
+
+   Now, here is where the actions of the user should be decoupled
+   from the actions at the protocol level.  When the user presses
+   the "Mute" button, the transaction layer generates a re-INV.
+   Now, if the user immediately hangs up, the transaction layer
+   can be smart and *defer* sending the BYE until the re-INV has
+   completed successfully.  In other words, the transaction layer
+   at the sender knows what has just occurred, so by quarantining
+   the BYE until a response to the re-INV has been received, it
+   can save the UAS a fair amount of protocol grief.
+
+   Would it be better to simply provide guidance to quarantine
+   the BYE in such cases until the re-INV transaction has finished?
+   That seems easy enough.
+
+9) In Appendix D, you should point out that a CANCEL request, regard-
+   less of when it is received must always elicit a final response.
+   Long time ago in SIP, we had a mantra: "every transaction completes
+   independent of others" -- and it is worth documenting this mantra
+   here.  Thus, if a CANCEL elicits a 487 (INVITE), the 487 completes
+   the INVITE transaction and the CANCEL itself should be answered by
+   a 200.
+
+10)  I think it is worth adding a test case that documents forking
+   at a proxy, all branches returning a non-2xx, and the proxy
+   aggregating and choosing the best response, but inserting it's
+   own tag in the To header of the non-2xx response.  The UAC will
+   have got multiple 1xx responses with different tags, but when it
+   gets a final response, the tag in the To will not match any of
+   the early dialogs.
+
+   But this is okay.  A UAC must be prepared to deal with this
+   eventuality; rfc3261 only mandates that the 200 OK has the same
+   From-tag that the 1xx response corresponding the 200 OK did.
+   Proxies may want to insert their own To-tag in an aggregated
+   non-2xx response for various reasons, some of which are detailed
+   in the last paragraph of Step 6 in S16.7 of rfc3261.  This is
+   an area where I am sure some implementations may falter and
+   expect a tag in a previous 1xx corresponding to a forked branch.
+   If you like, I can send you a prototypical example.
+
+Thanks,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+2701 Lucent Lane, Rm. 9F-546, Lisle, Illinois 60532 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+WWW:   http://www.alcatel-lucent.com/bell-labs
+
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

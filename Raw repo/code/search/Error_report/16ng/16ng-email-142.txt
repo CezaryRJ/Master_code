@@ -1,0 +1,147 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : 16ng
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/16ng/2006-2005.mailcl']
+id : 5fd9b8df-3916-463d-9438-eb43bb26dcb1
+_version_ : 1675131693060587520
+
+Content : 
+
+
+--OtherAccess--
+
+--NextPart
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+I-D-Announce mailing list
+I-D-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/i-d-announce
+
+--NextPart--
+
+
+--------------070307090201030604060409--
+>From jeonhs@etri.re.kr Thu Mar  9 10:29:38 2006
+Received: from email1.etri.info (email1.etri.re.kr [129.254.16.131])
+	by eeca16.sogang.ac.kr (8.12.8/8.12.8) with ESMTP id k291TbIB023315
+	for <16ng@eeca16.sogang.ac.kr>; Thu, 9 Mar 2006 10:29:38 +0900
+Received: from love ([129.254.12.182]) by email1.etri.info with Microsoft
+	SMTPSVC(6.0.3790.1830);	 Thu, 9 Mar 2006 09:52:32 +0900
+Message-ID: <00ab01c64313$700fa170$b60cfe81@love>
+From: "Hongseok Jeon" <jeonhs@etri.re.kr>
+To: <16ng@eeca16.sogang.ac.kr>
+Subject: [16ng]  [New I-D] draft-jeon-ipv6-ndp-ieee802.16-01.txt
+Date: Thu, 9 Mar 2006 09:50:18 +0900
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_00A8_01C6435E.DFE8F190"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-OriginalArrivalTime: 09 Mar 2006 00:52:32.0136 (UTC)
+	FILETIME=[BF684880:01C64313]
+X-BeenThere: 16ng@eeca16.sogang.ac.kr
+X-Mailman-Version: 2.1
+Precedence: list
+List-Id: IPv6 over IEEE 802.16(e) Networks <16ng.eeca16.sogang.ac.kr>
+List-Unsubscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=unsubscribe>
+List-Archive: <http://eeca16.sogang.ac.kr/pipermail/16ng>
+List-Post: <mailto:16ng@eeca16.sogang.ac.kr>
+List-Help: <mailto:16ng-request@eeca16.sogang.ac.kr?subject=help>
+List-Subscribe: <http://eeca16.sogang.ac.kr/mailman/listinfo/16ng>,
+	<mailto:16ng-request@eeca16.sogang.ac.kr?subject=subscribe>
+X-List-Received-Date: Thu, 09 Mar 2006 01:29:38 -0000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_00A8_01C6435E.DFE8F190
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+RGVhciBhbGwsIA0KDQpXZSBwb3N0ZWQgYW4gdXBkYXRlZCBJLUQgdGhhdCBkZXNjcmliZXMgYSBt
+ZWNoYW5pc20gdG8gDQpzdXBwb3J0IElQdjYgTkRQIG92ZXIgSUVFRSA4MDIuMTYuIA0KV2Ugd291
+bGQgYXBwcmVjaWF0ZSB0byBoZWFyIHlvdXIgY29tbWVudHMuIA0KDQpCZXN0IHJlZ2FyZHMsIA0K
+SG9uZ3Nlb2sNCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLQ0KVGl0bGUgOiBJUHY2IE5EUCBmb3IgQ29tbW9uIFByZWZpeCBBbGxv
+Y2F0aW9uIGluIElFRUUgODAyLjE2DQpBdXRob3IocykgOiBILiBKZW9uLCBKLiBKZWUNCkZpbGVu
+YW1lIDogZHJhZnQtamVvbi1pcHY2LW5kcC1pZWVlODAyLjE2LTAxLnR4dA0KUGFnZXMgOiAxNA0K
+RGF0ZSA6IDIwMDYtMy04DQoNCklQdjYgTmVpZ2hib3IgRGlzY292ZXJ5IFByb3RvY29sIFtSRkMg
+MjQ2MV0gYXNzdW1lcyB0aGF0IHRoZQ0KdW5kZXJseWluZyBsaW5rIGxheWVyIHN1cHBvcnQgbmF0
+aXZlIG11bHRpY2FzdCB3aGlsZSBJRUVFIDgwMi4xNiBpcyBhDQpwb2ludC10by1tdWx0aXBvaW50
+IG5ldHdvcmsgd2l0aG91dCBiaS1kaXJlY3Rpb25hbCBuYXRpdmUgbXVsdGljYXN0DQpzdXBwb3J0
+LiAgU3VjaCBhIGRpc2NvcmRhbmNlIGJldHdlZW4gSVB2NiBOZWlnaGJvciBEaXNjb3ZlcnkgUHJv
+dG9jb2wNCmFuZCBJRUVFIDgwMi4xNiBuZXR3b3JrIHJlc3VsdHMgaW4gdGhlIG9uLWxpbmsgYW5k
+IG11bHRpY2FzdCBpc3N1ZXMuDQpUaGlzIGRvY3VtZW50IGRlZmluZXMgYSBtZWNoYW5pc20sIElQ
+djYgTkRQIFJlbGF5IGFuZCBNdWx0aWNhc3QNCkVtdWxhdGlvbiwgdG8gc29sdmUgdGhlc2UgaXNz
+dWVzLg0KDQpBIFVSTCBmb3IgdGhpcyBJbnRlcm5ldC1EcmFmdCBpczoNCmh0dHA6Ly93d3cuaWV0
+Zi5vcmcvaW50ZXJuZXQtZHJhZnRzL2RyYWZ0LWplb24taXB2Ni1uZHAtaWVlZTgwMi4xNi0wMS50
+eHQ=
+
+------=_NextPart_000_00A8_01C6435E.DFE8F190
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwv
+L0VOIj4NCjxIVE1MPjxIRUFEPg0KPE1FVEEgaHR0cC1lcXVpdj1Db250ZW50LVR5cGUgY29udGVu
+dD0idGV4dC9odG1sOyBjaGFyc2V0PWtzX2NfNTYwMS0xOTg3Ij4NCjxNRVRBIGNvbnRlbnQ9Ik1T
+SFRNTCA2LjAwLjI5MDAuMjgwMiIgbmFtZT1HRU5FUkFUT1I+DQo8U1RZTEU+PC9TVFlMRT4NCjwv
+SEVBRD4NCjxCT0RZIGJnQ29sb3I9I2ZmZmZmZj4NCjxESVY+PEZPTlQgc2l6ZT0yPkRlYXIgYWxs
+LCA8L0ZPTlQ+PC9ESVY+DQo8RElWPjxGT05UIHNpemU9Mj48L0ZPTlQ+Jm5ic3A7PC9ESVY+DQo8
+RElWPjxGT05UIHNpemU9Mj5XZSBwb3N0ZWQgYW4gdXBkYXRlZCBJLUQgdGhhdCBkZXNjcmliZXMg
+YSBtZWNoYW5pc20gdG8gDQo8L0ZPTlQ+PC9ESVY+DQo8RElWPjxGT05UIHNpemU9Mj5zdXBwb3J0
+IElQdjYgTkRQIG92ZXIgSUVFRSA4MDIuMTYuIDwvRk9OVD48L0RJVj4NCjxESVY+PEZPTlQgc2l6
+ZT0yPldlIHdvdWxkIGFwcHJlY2lhdGUgdG8gaGVhciB5b3VyIGNvbW1lbnRzLiA8L0ZPTlQ+PC9E
+SVY+DQo8RElWPjxGT05UIHNpemU9Mj48L0ZPTlQ+Jm5ic3A7PC9ESVY+DQo8RElWPjxGT05UIHNp
+emU9Mj5CZXN0IHJlZ2FyZHMsIDwvRk9OVD48L0RJVj4NCjxESVY+PEZPTlQgc2l6ZT0yPkhvbmdz
+ZW9rPC9GT05UPjwvRElWPg0KPERJVj48Rk9OVCBzaXplPTI+PC9GT05UPiZuYnNwOzwvRElWPg0K
+PERJVj48Rk9OVCANCnNpemU9Mj4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tPC9GT05UPjwvRElWPg0KPERJVj5UaXRsZSA6IElQdjYg
+TkRQIGZvciBDb21tb24gUHJlZml4IEFsbG9jYXRpb24gaW4gSUVFRSA4MDIuMTY8QlI+QXV0aG9y
+KHMpIDogDQpILiBKZW9uLCBKLiBKZWU8QlI+RmlsZW5hbWUgOiBkcmFmdC1qZW9uLWlwdjYtbmRw
+LWllZWU4MDIuMTYtMDEudHh0PEJSPlBhZ2VzIDogDQoxNDxCUj5EYXRlIDogMjAwNi0zLTg8QlI+
+PEJSPklQdjYgTmVpZ2hib3IgRGlzY292ZXJ5IFByb3RvY29sIFtSRkMgMjQ2MV0gYXNzdW1lcyAN
+CnRoYXQgdGhlPEJSPnVuZGVybHlpbmcgbGluayBsYXllciBzdXBwb3J0IG5hdGl2ZSBtdWx0aWNh
+c3Qgd2hpbGUgSUVFRSA4MDIuMTYgaXMgDQphPEJSPnBvaW50LXRvLW11bHRpcG9pbnQgbmV0d29y
+ayB3aXRob3V0IGJpLWRpcmVjdGlvbmFsIG5hdGl2ZSANCm11bHRpY2FzdDxCUj5zdXBwb3J0LiZu
+YnNwOyBTdWNoIGEgZGlzY29yZGFuY2UgYmV0d2VlbiBJUHY2IE5laWdoYm9yIERpc2NvdmVyeSAN
+ClByb3RvY29sPEJSPmFuZCBJRUVFIDgwMi4xNiBuZXR3b3JrIHJlc3VsdHMgaW4gdGhlIG9uLWxp
+bmsgYW5kIG11bHRpY2FzdCANCmlzc3Vlcy48QlI+VGhpcyBkb2N1bWVudCBkZWZpbmVzIGEgbWVj
+aGFuaXNtLCBJUHY2IE5EUCBSZWxheSBhbmQgDQpNdWx0aWNhc3Q8QlI+RW11bGF0aW9uLCB0byBz
+b2x2ZSB0aGVzZSBpc3N1ZXMuPEJSPjxCUj5BIFVSTCBmb3IgdGhpcyANCkludGVybmV0LURyYWZ0
+IGlzOjxCUj48QSANCmhyZWY9Imh0dHA6Ly93d3cuaWV0Zi5vcmcvaW50ZXJuZXQtZHJhZnRzL2Ry
+YWZ0LWplb24taXB2Ni1uZHAtaWVlZTgwMi4xNi0wMS50eHQiPmh0dHA6Ly93d3cuaWV0Zi5vcmcv
+aW50ZXJuZXQtZHJhZnRzL2RyYWZ0LWplb24taXB2Ni1uZHAtaWVlZTgwMi4xNi0wMS50eHQ8L0E+
+PC9ESVY+PC9CT0RZPjwvSFRNTD4NCg==
+
+------=_NextPart_000_00A8_01C6435E.DFE8F190--
+

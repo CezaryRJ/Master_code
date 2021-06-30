@@ -1,0 +1,102 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : <17EB8D95-2380-41C7-B0AF-AA69F0483680@musecurity.com>
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : tools-discuss
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/tools-discuss/2006-03.mailcl']
+id : fd48cd5b-7868-4c0f-9c68-59ce02380bc1
+_version_ : 1675131321322569729
+
+Content : 
+
+class=3D406572216-22032006></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D406572216-22032006>We =
+really do need=20
+some sort of tracking tool to ensure that incoming</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN =
+class=3D406572216-22032006>liasons from other=20
+SDOs get to the proper people </SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D406572216-22032006>(e.g. =
+ADs, WG=20
+chairs, </SPAN></FONT><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006>official liaison to and from that SDO)=20
+</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN =
+class=3D406572216-22032006></SPAN></FONT><FONT=20
+face=3DArial size=3D2><SPAN class=3D406572216-22032006>and are properly =
+handled.=20
+</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN =
+class=3D406572216-22032006>Similarly, it would=20
+be good for outgoing liaisons </SPAN></FONT><FONT face=3DArial =
+size=3D2><SPAN=20
+class=3D406572216-22032006>to be consistently handled, =
+</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D406572216-22032006>and =
+for a tracker to=20
+show when such a liaison </SPAN></FONT><FONT face=3DArial size=3D2><SPAN =
+
+class=3D406572216-22032006>was sent and to whom.</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D406572216-22032006>It =
+goes without=20
+saying that links to the liaison text would be =
+useful.</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN class=3D406572216-22032006>A =
+web-based tool=20
+indexed by&nbsp;liaison statement, </SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN =
+class=3D406572216-22032006>similar to the=20
+</SPAN></FONT><FONT face=3DArial size=3D2><SPAN =
+class=3D406572216-22032006>ID tracker,=20
+would probably do it.</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006>Y(J)S</SPAN></FONT></DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006></SPAN></FONT>&nbsp;</DIV>
+<DIV><FONT face=3DArial size=3D2><SPAN=20
+class=3D406572216-22032006></SPAN></FONT>&nbsp;</DIV></BODY></HTML>
+
+------_=_NextPart_001_01C64DCD.EE27AD7F--
+
+
+--===============1003549964==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Tools-discuss mailing list
+Tools-discuss@ietf.org
+https://www1.ietf.org/mailman/listinfo/tools-discuss
+
+--===============1003549964==--
+

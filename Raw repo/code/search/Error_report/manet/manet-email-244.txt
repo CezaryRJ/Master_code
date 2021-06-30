@@ -1,0 +1,55 @@
+Date : ['2002-10-01T05:07:29Z']
+Timezone : -0400
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['sip-admin@ietf.org']
+Sender-name : Null
+Sender-address :  sip-admin@ietf.org
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : manet-archive@ietf.org
+To-name : Null
+To-address : [' manet-archive@ietf.org']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <20021001090729.2977.1890.Mailman@www1.ietf.org>
+References : Null
+Comments : ['Null']
+Subject : ['ietf.org mailing list memberships reminder']
+Mailing-list : manet
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/manet/2002-10.mailcl']
+id : f9e5c502-3788-4b18-bd80-2b22886d9781
+_version_ : 1675131863491936256
+
+Content : 
+
+This is a reminder, sent out once a month, about your ietf.org mailing
+list memberships.  It includes your subscription info and how to use
+it to change it or unsubscribe from a list.
+
+You can visit the URLs to change your membership status or
+configuration, including unsubscribing, setting digest-style delivery
+or disabling delivery altogether (e.g., for a vacation), and so on.
+
+In addition to the URL interfaces, you can also use email to make such
+changes.  For more info, send a message to the '-request' address of
+the list (for example, manet-request@ietf.org) containing just the
+word 'help' in the message body, and an email message will be sent to
+you with instructions.
+
+If you have questions, problems, comments, etc, send them to
+mailman-owner@.  Thanks!
+
+Passwords for manet-archive@lists.ietf.org:
+
+List                                     Password // URL
+----                                     --------  
+manet@ietf.org                           FtOz      
+https://www1.ietf.org/mailman/options/manet/manet-archive%40lists.ietf.org
+

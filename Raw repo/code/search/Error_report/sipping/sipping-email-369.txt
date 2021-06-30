@@ -1,0 +1,599 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2007-02.mailcl']
+id : 58d70131-cb80-421a-b1df-ff47711e55af
+_version_ : 1675132947875758080
+
+Content : 
+
+>=20
+> The two competing interpretations are:
+>=20
+> 1) once an answer has been transmitted reliably it is committed and
+>     will not be rolled back, even if a reinvite fails.
+>=20
+> 2) an entire sequence of offers and answers (there could be many)
+>     that is initiated by a reinvite, is rolled back if the reinvite
+>     fails.
+>=20
+> Of these, (1) is somewhat easier to implement. It also=20
+> eliminates some race conditions that seem unresolvable,=20
+> though obscure, that can arise with (2). The downside is that=20
+> when multiple offers and answers are used to resolve=20
+> preconditions, and then the reinvite fails, you end up in an=20
+> interim state with unresolved preconditions. The proper=20
+> behavior in that state is not clear.
+>=20
+> With (2) the precondition problem goes away. A few ambiguous=20
+> race conditions have been identified, but they are obscure=20
+> cases that can probably be resolved by just just writing some=20
+> best practices to avoid them. Its not entirely clear to me if=20
+> this approach requires retention of any more state than (1),=20
+> but if so it is only slightly more.
+>=20
+> It would be helpful if people that have opinions on this=20
+> subject identify which approach they advocate and why. I'm=20
+> not expecting to see a new approach different from either of=20
+> the above, but if somebody has one, please spell out how it=20
+> differs from these, and why it is better.
+>=20
+> 	Thanks,
+> 	Paul
+>=20
+> Sanjay Sinha (sanjsinh) wrote:
+> > SDP rollback applies only if previously there has been an=20
+> offer-answer=20
+> > exchange and an early dialog or a confirmed dialog has been=20
+> established.
+> > In that case, if SDP in re-Invite/UPDATE is rejected, then session=20
+> > continues with previously negotiated characteristics. This is=20
+> > mentioned in RFC 3261. And this draft does mention that if offer in=20
+> > Prack or in a sip response is rejected, then answerer has=20
+> to send an=20
+> > updated offer. So I am not sure how is the new proposal=20
+> different than=20
+> > what has been already stated.
+> > =20
+> > Sanjay
+> >=20
+> >    =20
+> --------------------------------------------------------------
+> ----------
+> >     *From:* Siddhartha Bhakta
+> >     [mailto:Siddhartha.Bhakta@newport-networks.com]
+> >     *Sent:* Tuesday, November 14, 2006 12:37 PM
+> >     *To:* tu-sawada@kddi.com; Paul Kyzivat (pkyzivat)
+> >     *Cc:* sipping@ietf.org
+> >     *Subject:* [Sipping] SDP Rollback
+> >     indraft-sawada-sipping-sip-offeranswer-01.txt
+> >=20
+> >     Hi,
+> >=20
+> >     =20
+> >=20
+> >     I am not sure (as I am a very new user to SIPPING
+> >=20
+> >     group) whether SDP rollback has ever been discussed
+> >=20
+> >     regarding this draft or not. I personally feel that
+> >=20
+> >     'SDP rollback' is very relevant topics regarding this
+> >=20
+> >     draft.
+> >=20
+> >     =20
+> >=20
+> >     The sec 1.2 indicates the response(488) to reject any
+> >=20
+> >     SDP offer. But the missing part is that if any SIP
+> >=20
+> >     request carrying SDP offer is rejected by 3xx-6xx then
+> >=20
+> >     SDP offer should be rolled-back. The rollback means,
+> >=20
+> >     applying last session description.
+> >=20
+> >     =20
+> >=20
+> >     Rather than specifying different SIP messages
+> >=20
+> >     separately, it would be better to have some thumb rule
+> >=20
+> >     that shall be quite easy to follow as far as SDP
+> >=20
+> >     rollback is concerned. I am proposing following thumb
+> >=20
+> >     rule. Please indicate whether that makes sense or not.
+> >=20
+> >     =20
+> >=20
+> >     The SDP rollback shall be associated with transaction
+> >=20
+> >     rollback/rejection.
+> >=20
+> >     =20
+> >=20
+> >     [1] If the transaction request (carrying SDP offer) is
+> >=20
+> >     rejected then SDP offer shall be rolled-back. The
+> >=20
+> >     exception is the ACK request. The ACK (of 2xx) can not
+> >=20
+> >     be rejected. (The ACK of 3xx-6xx is not the
+> >=20
+> >     transaction initiating request).
+> >=20
+> >     =20
+> >=20
+> >     [2] If any transaction request carries SDP answer
+> >=20
+> >  .se (Symantec Mail Security) with ESMTP id
+	B0F8821112; Tue, 13 Feb 2007 11:56:48 +0100 (CET)
+X-AuditID: c1b4fb3e-af6d2bb0000007e1-e2-45d199707f96 
+Received: from esealmw128.eemea.ericsson.se (unknown [153.88.254.121])
+	by mailgw4.ericsson.se (Symantec Mail Security) with ESMTP id
+	8E2EF200DC; Tue, 13 Feb 2007 11:56:48 +0100 (CET)
+Received: from esealmw113.eemea.ericsson.se ([153.88.200.4]) by
+	esealmw128.eemea.ericsson.se with Microsoft SMTPSVC(6.0.3790.1830); 
+	Tue, 13 Feb 2007 11:56:48 +0100
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Subject: RE: [Sipping] SDP
+	Rollbackindraft-sawada-sipping-sip-offeranswer-01.txt
+Date: Tue, 13 Feb 2007 11:56:47 +0100
+Message-ID: <7374777208BDC7449D5620EF9423256702047D98@esealmw113.eemea.ericsson.se>
+In-Reply-To: <455E2386.4080900@cisco.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sipping] SDP
+	Rollbackindraft-sawada-sipping-sip-offeranswer-01.txt
+Thread-Index: AccKjG+x9v7fniDTS7miiuo4yK7SERC5gZ2Q
+From: "Christer Holmberg \(JO/LMF\)" <christer.holmberg@ericsson.com>
+To: "Paul Kyzivat" <pkyzivat@cisco.com>,
+	"Sanjay Sinha \(sanjsinh\)" <sanjsinh@cisco.com>
+X-OriginalArrivalTime: 13 Feb 2007 10:56:48.0122 (UTC)
+	FILETIME=[A88575A0:01C74F5D]
+X-Brightmail-Tracker: AAAAAA==
+X-Spam-Score: 0.0 (/)
+X-Scan-Signature: f8ee348dcc4be4a59bc395f7cd6343ad
+Cc: tu-sawada@kddi.com, sipping@ietf.org,
+	Siddhartha Bhakta <Siddhartha.Bhakta@newport-networks.com>
+X-BeenThere: sipping@ietf.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "SIPPING Working Group \(applications of SIP\)" <sipping.ietf.org>
+List-Unsubscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=unsubscribe>
+List-Post: <mailto:sipping@ietf.org>
+List-Help: <mailto:sipping-request@ietf.org?subject=help>
+List-Subscribe: <https://www1.ietf.org/mailman/listinfo/sipping>,
+	<mailto:sipping-request@ietf.org?subject=subscribe>
+Errors-To: sipping-bounces@ietf.org
+
+
+Hi,
+
+One approach would of course be to not allow reliable provisional
+responses for re-INVITEs in the first place.
+
+But, then we MAY have a problem with preconditions - but not
+necessarily.
+
+The SDP answerer could simply choose not to send 200 OK until he has
+reserved the needed resources. Ie he does not send any provisional
+responses.
+
+The SDP offerer would then send a second re-INVITE/UPDATE when he has
+reserved the needed resources (unfortunatly he can't use the ACK to
+indicate it).
+
+Regards,
+
+Christer
+
+=20
+
+> -----Original Message-----
+> From: Paul Kyzivat [mailto:pkyzivat@cisco.com]=20
+> Sent: 17. marraskuuta 2006 23:03
+> To: Sanjay Sinha (sanjsinh)
+> Cc: tu-sawada@kddi.com; sipping@ietf.org; Siddhartha Bhakta
+> Subject: Re: [Sipping] SDP=20
+> Rollbackindraft-sawada-sipping-sip-offeranswer-01.txt
+>=20
+> (To those who haven't been paying attention, this is about=20
+> what to do about SDP when a reINVITE fails. RFC 3261, section=20
+> 14.1, says that if a non-2xx final response is received the=20
+> session parameters must remain unchanged, as if no reINVITE=20
+> had been issued. Herein that is being described as "rollback"=20
+> of the SDP.)
+>=20
+> There are several interesting questions relative to this topic:
+>=20
+> - are the existing RFCs clear about what should be done?
+>    (Do all informed and reasonable people agree what this is?)
+>=20
+> - what do currently deployed implementations do?
+>=20
+> - what is the *most reasonable* thing to do?
+>=20
+> There has been quite a bit of discussion in the past on this,=20
+> though we could probably some more because I think only a few=20
+> people participated.
+>=20
+> IMO the existing RFCs are *not* clear, because we are getting=20
+> multiple interpretations that can be justified to some=20
+> extent. The rollback rule only appears in 3261, and doesn't=20
+> really address the additional issues raised by 3262, 3311, and 3312.
+>=20
+> There are also good arguments for either of two approaches=20
+> being the most reasonable thing   (e.g., ACK or PRACK) then that transaction can not
+> >=20
+> >     rejected as there shall be the confusion over whether
+> >=20
+> >     SDP shall be rolled-back or not. I suppose, SDP answer
+> >=20
+> >     can not be rolled-back. There is no confusion for ACK,
+> >=20
+> >     as it can not rejected but for PRACK the restriction
+> >=20
+> >     should be there that it can not be rejected if it
+> >=20
+> >     carries SDP answer.
+> >=20
+> >     =20
+> >=20
+> >     This draft says that PRACK(irrespective of whether it
+> >=20
+> >     is carrying SDP offer/answer) can not be rejected. I
+> >=20
+> >     can not understand the rationale about this statement.
+> >=20
+> >     Though, I can appreciate why PRACK MUST not be
+> >=20
+> >     rejected if it carries SDP answer.
+> >=20
+> >     =20
+> >=20
+> >     [3] If any SIP response contains SDP offer then that
+> >=20
+> >     SDP can not be rolled-back. If any SIP entity wants to
+> >=20
+> >     rollback the SDP offer carried by SIP response, it
+> >=20
+> >     should initiate a SIP transaction carrying old SDP to
+> >=20
+> >     accomplish it.
+> >=20
+> >     =20
+> >=20
+> >     There is a special case for re-INVITE. If multiple SDP
+> >=20
+> >     offer/answer happens(using PRACK/UPDATE) within
+> >=20
+> >     re-INVITE transaction and re-INVITE is rejected by
+> >=20
+> >     4xx-6xx then whether all the SDP offer/answer happens
+> >=20
+> >     within re-INVITE transaction shall be rolled-back or
+> >=20
+> >     not. My suggestion would be that once SDP offer/answer
+> >=20
+> >     is completed, that can not rolled-back by means of
+> >=20
+> >     transaction rejection. That means, all the completed
+> >=20
+> >     SDP offer/answer shall not be rolled-back due to
+> >=20
+> >     4xx-6xx of re-INVITE. This decision shall save the
+> >=20
+> >     work of SIP UA, SIP SBC, B2BUA etc. that follows SDP
+> >=20
+> >     offer/answer state.
+> >=20
+> >     =20
+> >=20
+> >     Please comment.
+> >=20
+> >     =20
+> >=20
+> >     =20
+> >=20
+> >     Thanks and Regards,
+> >=20
+> >     Siddhartha
+> >=20
+> >     =20
+> >=20
+> >=20
+> >=20
+> >    =20
+> --------------------------------------------------------------
+> ----------
+> >     ---------------
+> >     This e-mail may contain confidential and/or privileged=20
+> information.
+> >     If you are not the intended recipient (or have received=20
+> this e-mail
+> >     in error) please notify the sender immediately and delete this
+> >     e-mail. Any unauthorized copying, disclosure or=20
+> distribution of the
+> >     contents in this e-mail is strictly forbidden.
+> >     ---------------
+>=20
+> _______________________________________________
+> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+> This list is for NEW development of the application of SIP=20
+> Use sip-implementors@cs.columbia.edu for questions on current=20
+> sip Use sip@ietf.org for new developments of core SIP
+>=20
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+
+
+
+
+ to do.
+>=20
+> The two competing interpretations are:
+>=20
+> 1) once an answer has been transmitted reliably it is committed and
+>     will not be rolled back, even if a reinvite fails.
+>=20
+> 2) an entire sequence of offers and answers (there could be many)
+>     that is initiated by a reinvite, is rolled back if the reinvite
+>     fails.
+>=20
+> Of these, (1) is somewhat easier to implement. It also=20
+> eliminates some race conditions that seem unresolvable,=20
+> though obscure, that can arise with (2). The downside is that=20
+> when multiple offers and answers are used to resolve=20
+> preconditions, and then the reinvite fails, you end up in an=20
+> interim state with unresolved preconditions. The proper=20
+> behavior in that state is not clear.
+>=20
+> With (2) the precondition problem goes away. A few ambiguous=20
+> race conditions have been identified, but they are obscure=20
+> cases that can probably be resolved by just just writing some=20
+> best practices to avoid them. Its not entirely clear to me if=20
+> this approach requires retention of any more state than (1),=20
+> but if so it is only slightly more.
+>=20
+> It would be helpful if people that have opinions on this=20
+> subject identify which approach they advocate and why. I'm=20
+> not expecting to see a new approach different from either of=20
+> the above, but if somebody has one, please spell out how it=20
+> differs from these, and why it is better.
+>=20
+> 	Thanks,
+> 	Paul
+>=20
+> Sanjay Sinha (sanjsinh) wrote:
+> > SDP rollback applies only if previously there has been an=20
+> offer-answer=20
+> > exchange and an early dialog or a confirmed dialog has been=20
+> established.
+> > In that case, if SDP in re-Invite/UPDATE is rejected, then session=20
+> > continues with previously negotiated characteristics. This is=20
+> > mentioned in RFC 3261. And this draft does mention that if offer in=20
+> > Prack or in a sip response is rejected, then answerer has=20
+> to send an=20
+> > updated offer. So I am not sure how is the new proposal=20
+> different than=20
+> > what has been already stated.
+> > =20
+> > Sanjay
+> >=20
+> >    =20
+> --------------------------------------------------------------
+> ----------
+> >     *From:* Siddhartha Bhakta
+> >     [mailto:Siddhartha.Bhakta@newport-networks.com]
+> >     *Sent:* Tuesday, November 14, 2006 12:37 PM
+> >     *To:* tu-sawada@kddi.com; Paul Kyzivat (pkyzivat)
+> >     *Cc:* sipping@ietf.org
+> >     *Subject:* [Sipping] SDP Rollback
+> >     indraft-sawada-sipping-sip-offeranswer-01.txt
+> >=20
+> >     Hi,
+> >=20
+> >     =20
+> >=20
+> >     I am not sure (as I am a very new user to SIPPING
+> >=20
+> >     group) whether SDP rollback has ever been discussed
+> >=20
+> >     regarding this draft or not. I personally feel that
+> >=20
+> >     'SDP rollback' is very relevant topics regarding this
+> >=20
+> >     draft.
+> >=20
+> >     =20
+> >=20
+> >     The sec 1.2 indicates the response(488) to reject any
+> >=20
+> >     SDP offer. But the missing part is that if any SIP
+> >=20
+> >     request carrying SDP offer is rejected by 3xx-6xx then
+> >=20
+> >     SDP offer should be rolled-back. The rollback means,
+> >=20
+> >     applying last session description.
+> >=20
+> >     =20
+> >=20
+> >     Rather than specifying different SIP messages
+> >=20
+> >     separately, it would be better to have some thumb rule
+> >=20
+> >     that shall be quite easy to follow as far as SDP
+> >=20
+> >     rollback is concerned. I am proposing following thumb
+> >=20
+> >     rule. Please indicate whether that makes sense or not.
+> >=20
+> >     =20
+> >=20
+> >     The SDP rollback shall be associated with transaction
+> >=20
+> >     rollback/rejection.
+> >=20
+> >     =20
+> >=20
+> >     [1] If the transaction request (carrying SDP offer) is
+> >=20
+> >     rejected then SDP offer shall be rolled-back. The
+> >=20
+> >     exception is the ACK request. The ACK (of 2xx) can not
+> >=20
+> >     be rejected. (The ACK of 3xx-6xx is not the
+> >=20
+> >     transaction initiating request).
+> >=20
+> >     =20
+> >=20
+> >     [2] If any transaction request carries SDP answer
+> >=20
+> >     (e.g., ACK or PRACK) then that transaction can not
+> >=20
+> >     rejected as there shall be the confusion over whether
+> >=20
+> >     SDP shall be rolled-back or not. I suppose, SDP answer
+> >=20
+> >     can not be rolled-back. There is no confusion for ACK,
+> >=20
+> >     as it can not rejected but for PRACK the restriction
+> >=20
+> >     should be there that it can not be rejected if it
+> >=20
+> >     carries SDP answer.
+> >=20
+> >     =20
+> >=20
+> >     This draft says that PRACK(irrespective of whether it
+> >=20
+> >     is carrying SDP offer/answer) can not be rejected. I
+> >=20
+> >     can not understand the rationale about this statement.
+> >=20
+> >     Though, I can appreciate why PRACK MUST not be
+> >=20
+> >     rejected if it carries SDP answer.
+> >=20
+> >     =20
+> >=20
+> >     [3] If any SIP response contains SDP offer then that
+> >=20
+> >     SDP can not be rolled-back. If any SIP entity wants to
+> >=20
+> >     rollback the SDP offer carried by SIP response, it
+> >=20
+> >     should initiate a SIP transaction carrying old SDP to
+> >=20
+> >     accomplish it.
+> >=20
+> >     =20
+> >=20
+> >     There is a special case for re-INVITE. If multiple SDP
+> >=20
+> >     offer/answer happens(using PRACK/UPDATE) within
+> >=20
+> >     re-INVITE transaction and re-INVITE is rejected by
+> >=20
+> >     4xx-6xx then whether all the SDP offer/answer happens
+> >=20
+> >     within re-INVITE transaction shall be rolled-back or
+> >=20
+> >     not. My suggestion would be that once SDP offer/answer
+> >=20
+> >     is completed, that can not rolled-back by means of
+> >=20
+> >     transaction rejection. That means, all the completed
+> >=20
+> >     SDP offer/answer shall not be rolled-back due to
+> >=20
+> >     4xx-6xx of re-INVITE. This decision shall save the
+> >=20
+> >     work of SIP UA, SIP SBC, B2BUA etc. that follows SDP
+> >=20
+> >     offer/answer state.
+> >=20
+> >     =20
+> >=20
+> >     Please comment.
+> >=20
+> >     =20
+> >=20
+> >     =20
+> >=20
+> >     Thanks and Regards,
+> >=20
+> >     Siddhartha
+> >=20
+> >     =20
+> >=20
+> >=20
+> >=20
+> >    =20
+> --------------------------------------------------------------
+> ----------
+> >     ---------------
+> >     This e-mail may contain confidential and/or privileged=20
+> information.
+> >     If you are not the intended recipient (or have received=20
+> this e-mail
+> >     in error) please notify the sender immediately and delete this
+> >     e-mail. Any unauthorized copying, disclosure or=20
+> distribution of the
+> >     contents in this e-mail is strictly forbidden.
+> >     ---------------
+>=20
+> _______________________________________________
+> Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+> This list is for NEW development of the application of SIP=20
+> Use sip-implementors@cs.columbia.edu for questions on current=20
+> sip Use sip@ietf.org for new developments of core SIP
+>=20
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP
+
+
+
+

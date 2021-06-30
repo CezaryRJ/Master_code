@@ -1,0 +1,40 @@
+Date : ['2004-02-22T13:12:17Z']
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['ftp-wg-owner <ftp-wg-owner@hethmon.com>']
+Sender-name :  ftp-wg-owner
+Sender-address :  ftp-wg-owner@hethmon.com
+Reply-to : ['FTPEXT Working Group <ftp-wg@hethmon.com>']
+Reply-to-name :  FTPEXT_Working_Group
+Reply-to-address :  ftp-wg@hethmon.com
+To : ftp-wg-request@hethmon.com
+To-name : Null
+To-address : [' ftp-wg-request@hethmon.com']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : <TYDJLBEBKLFXOMXTQHTVRWGO@yahoo.com>
+References : Null
+Comments : ['Null']
+Subject : ["Ftp-WG: Can't sleep ?...............................................................Mkauffman chi tomlinson habeas upslope mississippi amateurish scala waterfall hangout adroit procrustes armful jilt catalysis flashy disambiguate"]
+Mailing-list : ftpext
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ftpext/2004-02.mailcl']
+id : 7fe3ff36-c11a-4b8e-b619-32f7c257a4b4
+_version_ : 1675133275014692869
+
+Content : 
+
+
+
+
+
+
+
+
+
+
+

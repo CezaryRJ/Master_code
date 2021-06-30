@@ -1,0 +1,14 @@
+2000 TO 2010
+-------#####------->    mib2rdml
+RNATALE@mitre.org 12
+dromasca@avaya.com 12
+ietf@andybierman.com 4
+j.schoenwaelder@jacobs-university.de 3
+Mark@EllisonSoftware.com 2
+ietfdbh@comcast.net 2
+mailman-owner@ietf.org 2
+Don.Ebright@compuware.com 1
+gogwim@unijos.edu.ng 1
+malexand@wu-wien.ac.at 1
+rbonica@juniper.net 1
+xuhui_1004@hotmail.com 1

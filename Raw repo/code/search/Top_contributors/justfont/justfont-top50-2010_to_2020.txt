@@ -1,0 +1,17 @@
+2010 TO 2020
+-------#####------->    justfont
+chris@w3.org 25
+internet-drafts@ietf.org 7
+Vladimir.Levantovsky@monotype.com 5
+wseltzer@w3.org 5
+aamelnikov@fastmail.fm 4
+iesg-secretary@ietf.org 4
+dev+ietf@seantek.com 3
+duerst@it.aoyama.ac.jp 3
+lunde@adobe.com 3
+mnot@mnot.net 3
+session_request_developers@ietf.org 2
+ben@nostrum.com 1
+jari.arkko@piuha.net 1
+rfc-editor@rfc-editor.org 1
+worley@ariadne.com 1

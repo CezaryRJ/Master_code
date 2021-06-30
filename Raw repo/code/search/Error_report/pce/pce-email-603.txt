@@ -1,0 +1,159 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['RE: [Pce] RE: I-D  \n\tACTION:draft-vijay-somen-pce-bgp-interas-te-patp;</span></font></span></p>']
+Mailing-list : pce
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/pce/2007-02.mailcl']
+id : 57e2cf50-a039-410b-b0d1-2667c8c30566
+_version_ : 1675133410708815872
+
+Content : 
+
+</div>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in'><span =
+class=3Dapple-style-span><font
+size=3D3 color=3Dblack face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;
+color:black'>------------------------------------------------------------=
+-----------------------------------------------------------</span></font>=
+</span></p>
+
+</div>
+
+<div style=3D'min-height: 14px'>
+
+<div style=3D'margin-left:.5in'>
+
+<p class=3DMsoNormal><span class=3Dapple-style-span><font size=3D3 =
+color=3Dblack
+face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;color:black'>&nbsp;</span></font></span></p>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in'><span =
+class=3Dapple-style-span><font
+size=3D3 color=3Dblack face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;
+color:black'>_______________________________________________</span></font=
+></span></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in'><span =
+class=3Dapple-style-span><font
+size=3D3 color=3Dblack face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;
+color:black'>Pce mailing list</span></font></span></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in'><font size=3D3 =
+color=3Dblack
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt;color:black'><a
+href=3D"mailto:Pce@lists.ietf.org"><span class=3Dapple-style-span><span
+style=3D'-khtml-text-decorations-in-effect: =
+underline'>Pce@lists.ietf.org</span></span></a></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in'><font size=3D3 =
+color=3Dblack
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt;color:black'><a
+href=3D"https://www1.ietf.org/mailman/listinfo/pce"><span =
+class=3Dapple-style-span><span
+style=3D'-khtml-text-decorations-in-effect: =
+underline'>https://www1.ietf.org/mailman/listinfo/pce</span></span></a></=
+span></font></p>
+
+</div>
+
+</div>
+
+<div style=3D'margin-left:.5in'>
+
+<p class=3DMsoNormal><span class=3Dapple-style-span><font size=3D3 =
+color=3Dblack
+face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt;color:black'>&nbsp;</span></font></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 color=3Dblack face=3DHelvetica><span
+style=3D'font-size:12.0pt;font-family:Helvetica;color:black'><br>
+<br>
+</span></font></p>
+
+</div>
+
+</span>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01C748E7.D3FF557B--
+
+
+--===============1581161213==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Pce mailing list
+Pce@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/pce
+
+--===============1581161213==--
+

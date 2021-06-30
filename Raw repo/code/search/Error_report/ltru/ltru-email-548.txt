@@ -1,0 +1,96 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ltru
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ltru/2006-08.mailcl']
+id : 5fd91b82-326d-438e-b86b-c5750833098d
+_version_ : 1675132695059890177
+
+Content : 
+
+>>> yesterday:
+>>>
+>>> --
+>>> The working group must decide how ISO 639-3 codes are entered into the
+>>> registry, what rules apply to associating a code with the language and/or
+>> =>extlang subtag types, and any additional rules or guidance on their adoption
+>>> and use.
+>>> --
+>> I don't see what's substantially different here from the existing
+>> text:
+>> The working group will prepare an update to the Language Subtag
+>> Registry procedures to allow the use of 3-letter codes from
+>> ISO 639-3 as primary subtags or extended language subtags as
+>> appropriate. 
+>> In short, we have to update the procedures so that we can use
+>> IOS 639-3. I don't think that we need more details here.
+>> How codes are entered, what types they are given, and so on,
+>> should all be covered under Language Subtag Registry
+>> procedures.
+>
+>Yes, but the things I mention are requirements that the Working Group must address. I favor listing requirements explicitly and treating other items as "potentially out of scope". We might, for example, decide that the best thing to do about, say, transliterations is "nothing". But we must decide in this iteration what to do about extlangs.
+
+I don't see any reason why we wouldn't. The things that you mention
+to me are obvious details, not things that need to be called out
+because otherwise there would be major misunderstandings.
+
+>>>> Work on the drafts is planned to start before ISO 639-3 is fully
+>>>> approved and published. However, the WG will not finalize the drafts
+>>>> before ISO 639-3 is fully approved.
+>>> I'm not sure that's correct. It would be more appropriate to say
+>>> "Publication of the draft(s) as an RFC will depend on final approval of ISO
+>>> 639-3." There is ample space in the RFC Editor process for awaiting specific
+>>> external events (as we've already discovered). We might well finalize an
+>>> update to draft-registry quite quickly, but not the actual registry update
+>>> ("draft-initial").
+>> Peter said that he would have the approval by the third week of September.
+>> Do you think we'll be finished with our drafts before that?
+>
+>No, but your text was not correct.
+
+Is it still not correct? If yes, how?
+
+>I'm allergic to artificial dependencies, based on our experience with 3066bis. ISO 639-3 might (unlikely as it probably is) take longer than Peter imagines. Our drafts, meanwhile, might go very quickly [if we can avoid the tar pits surrounding issues I personally would prefer to see remain off-topic].
+
+I understand that you want things to be done as quickly as possible.
+And I agree. However, I don't think it would be appropriate for
+the WG to finalize the new draft and send it to the IESG before
+we know that ISO 639-3 is really approved, because the fact that
+it is not fully approved may mean that there are some more
+changes, in which case we have to go back and make some
+changes, too. As ISO 639-3 is the major reason for our new
+work, I wouldn't call this an "artificial" dependency.
+
+Regards,    Martin.
+
+
+
+#-#-#  Martin J. Du"rst, Assoc. Professor, Aoyama Gakuin University
+#-#-#  http://www.sw.it.aoyama.ac.jp       mailto:duerst@it.aoyama.ac.jp     
+
+
+_______________________________________________
+Ltru mailing list
+Ltru@ietf.org
+https://www1.ietf.org/mailman/listinfo/ltru

@@ -1,0 +1,119 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ietf-announce
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ietf-announce/2006-09.mailcl']
+id : 14a28b8b-f1d5-49f9-b537-adf72d55941a
+_version_ : 1675130030916632579
+
+Content : 
+
+> > > >>> scheme--though it did in HTTP because HTTP doesn't have
+> > > >>> parameters--but it's not clear to me that moving it to
+> > parameters
+> > > >>> would really help.
+> > > >> I think the part some of us are worried about is it will
+> > > inherit the
+> > > >> perception of https: namely that the entire path from the
+> > > caller to
+> > > >> the answerer is secure.  Just because an IETF doc says
+> > > it's not the
+> > > >> same, and says it's not a lock icon, will not overcome the
+> > > >> perception.
+> > > >> Even though an
+> > > >> https connection is only secure to the TLS terminator (the
+> > > server or
+> > > >> an offloader), and the back-end from there is not, the
+> > > assumption is
+> > > >> the owner of the terminator takes on the responsibility
+> > from there
+> > > >> (if there is any responsibility).  And the terminator
+> > > owner wanted to
+> > > >> secure it between the browser and the terminator, and they
+> > > got that.
+> > > >>
+> > > >> But SIP is neither HTTP nor SMTP.  The sips uri may end
+> > at a pstn
+> > > >> gateway, or an h323 IWF, or whatever.  It may become sip
+> > later, as
+> > > >> well.  The owner of the TLS terminator does not
+> > > necessarily equal the
+> > > >> owner of the final UAS, nor the owner of the answerer.
+> > > How can the
+> > > >> owner of the terminator have any responsibility for
+> > something that
+> > > >> may happen somewhere else, unbeknownst to him?  How/why
+> > > would someone
+> > > >> who types in a sips uri for their request not think it's
+> > > like https?
+> > > >>
+> > > >> In some ways the perception problem is exacerbated by the
+> > > uri being
+> > > >> the sips scheme.  If it were a require/proxy-require instead,
+it
+> > > >> would help alleviate that perception problem, IMO.  But
+> > > then you're
+> > > >> left with trying such a request without the foreknowledge
+> > > of success
+> > > >> probability that a business-card sips address would give you.
+> > > >>
+> > > >> -hadriel
+> > > >>
+> > > >>
+> > > >> _______________________________________________
+> > > >> Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+> > > >> This list is for NEW development of the core SIP Protocol Use
+> > > >> sip-implementors@cs.columbia.edu for questions on
+> > current sip Use
+> > > >> sipping@ietf.org for new developments on the application of sip
+> > > >>
+> > > >
+> > > > _______________________________________________
+> > > > Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+> > > > This list is for NEW development of the core SIP Protocol Use
+> > > > sip-implementors@cs.columbia.edu for questions on current sip
+Use
+> > > > sipping@ietf.org for new developments on the application of sip
+> > > >
+> > >
+> > > _______________________________________________
+> > > Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+> > > This list is for NEW development of the core SIP Protocol Use
+> > > sip-implementors@cs.columbia.edu for questions on current sip
+> > > Use sipping@ietf.org for new developments on the application of
+sip
+> > >
+> >
+>=20
+> _______________________________________________
+> Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip

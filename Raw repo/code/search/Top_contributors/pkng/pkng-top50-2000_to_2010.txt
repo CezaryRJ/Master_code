@@ -1,0 +1,13 @@
+2000 TO 2010
+-------#####------->    pkng
+Massimiliano.Pala@Dartmouth.edu 6
+leifj@mnt.se 6
+paul.hoffman@vpnc.org 5
+stephen.farrell@cs.tcd.ie 4
+stpeter@stpeter.im 4
+SChokhani@cygnacom.com 2
+william.polk@nist.gov 2
+david.cooper@nist.gov 1
+falk@bbn.com 1
+leifj@sunet.se 1
+robert@ripe.net 1

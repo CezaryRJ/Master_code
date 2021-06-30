@@ -1,0 +1,6 @@
+2000 TO 2010
+-------#####------->    forces
+forces-archive@ietf.org 28
+exec-director@ietf.org 18
+forces-archive@lists.ietf.org 1
+forces-protocol-bounces@ietf.org 1

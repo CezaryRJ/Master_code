@@ -1,0 +1,17 @@
+2010 TO 2020
+-------#####------->    newprep
+stpeter@stpeter.im 19
+marc.blanchet@viagenie.ca 15
+jefsey@jefsey.com 12
+markl@lindenlab.com 8
+hartmans-ietf@mit.edu 6
+alexey.melnikov@isode.com 5
+yaojk@cnnic.cn 3
+markl@glyphic.com 2
+Kurt.Zeilenga@Isode.com 1
+ajs@shinkuro.com 1
+aland@deployingradius.com 1
+francois@edemay.com 1
+iesg-secretary@ietf.org 1
+phoffman@imc.org 1
+simon@josefsson.org 1

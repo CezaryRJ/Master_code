@@ -1,0 +1,4271 @@
+
+From mahesh.awaradi@globaledgesoft.com  Tue Dec  1 21:14:22 2009
+Return-Path: <mahesh.awaradi@globaledgesoft.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 05BC828C13D for <sip@core3.amsl.com>; Tue,  1 Dec 2009 21:14:22 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.605
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.605 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RELAY_IS_203=0.994]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wZ8R+DNiJLyx for <sip@core3.amsl.com>; Tue,  1 Dec 2009 21:14:21 -0800 (PST)
+Received: from gesmail.globaledgesoft.com (gesmail.globaledgesoft.com [203.76.137.4]) by core3.amsl.com (Postfix) with ESMTP id DA58B28C13B for <sip@ietf.org>; Tue,  1 Dec 2009 21:14:20 -0800 (PST)
+Received: from [127.0.0.1] (mahesh_awaradi.globaledgesoft.com [172.16.7.101]) by gesmail.globaledgesoft.com (Postfix) with ESMTP id DF99117B425 for <sip@ietf.org>; Wed,  2 Dec 2009 10:44:08 +0530 (IST)
+Message-ID: <4B15F7C5.8020505@globaledgesoft.com>
+Date: Wed, 02 Dec 2009 10:44:45 +0530
+From: Mahesh <mahesh.awaradi@globaledgesoft.com>
+User-Agent: Thunderbird 2.0.0.6 (Windows/20070728)
+MIME-Version: 1.0
+To: sip@ietf.org
+References: <mailman.107.1259697615.8693.sip@ietf.org>
+In-Reply-To: <mailman.107.1259697615.8693.sip@ietf.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: [Sip] 182 call queued
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 02 Dec 2009 05:14:22 -0000
+
+Hi All ,
+Can any body tell me  182 call queued packet format.
+
+Regards
+Mahesh
+
+
+
+From abhatnagar192006@gmail.com  Tue Dec  1 23:28:38 2009
+Return-Path: <abhatnagar192006@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id F1BD73A6A32 for <sip@core3.amsl.com>; Tue,  1 Dec 2009 23:28:37 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id AMjgKN2950Wk for <sip@core3.amsl.com>; Tue,  1 Dec 2009 23:28:36 -0800 (PST)
+Received: from mail-bw0-f223.google.com (mail-bw0-f223.google.com [209.85.218.223]) by core3.amsl.com (Postfix) with ESMTP id 3B3D43A69EE for <sip@ietf.org>; Tue,  1 Dec 2009 23:28:36 -0800 (PST)
+Received: by bwz23 with SMTP id 23so4245837bwz.29 for <sip@ietf.org>; Tue, 01 Dec 2009 23:28:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=6zEVvNY1XAESqaHggBCMYr76vLA9ruVeRIPAHcrXdBk=; b=Rqlk6SSeDYjymB/HweXZaHc6Ld0DNd7Hrpejuz1bNgvqmQZSgvXLKftzK4SyjNwrJJ 1mAvuwyNsA7sI0nZ90tg1jsy9t6e6AQ6QPOZlx00bnP5SFZiHXjEpvVrdz4Rg7/tVrii Y3lpN4FBUFcyS/xIuVfb8hdmLWCaFSH1pkUNE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=JeNdfVc/ecf3LFT7UnDSY0eEV9T9d/ZXRxw3rvOl22OSk5EMfgmMN0KaCrb7vLKBDm /WH99QnWYutDAG3q8gAwgF8a3ghYHmod+/mhJlh9J3r/TVZ7pR2M8adUYI9nttRp/eaP pQ6e6mG18gZk/bNohhAeMX6HuYCJRBe8rPsH4=
+MIME-Version: 1.0
+Received: by 10.204.5.75 with SMTP id 11mr7095491bku.20.1259738902046; Tue, 01  Dec 2009 23:28:22 -0800 (PST)
+In-Reply-To: <4B15F7C5.8020505@globaledgesoft.com>
+References: <mailman.107.1259697615.8693.sip@ietf.org> <4B15F7C5.8020505@globaledgesoft.com>
+Date: Wed, 2 Dec 2009 07:58:21 +0030
+Message-ID: <abcc59880912012328v384d8c9ci9ff436ed902c2cc3@mail.gmail.com>
+From: aayush bhatnagar <abhatnagar192006@gmail.com>
+To: Mahesh <mahesh.awaradi@globaledgesoft.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Cc: sip@ietf.org
+Subject: Re: [Sip] 182 call queued
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 02 Dec 2009 07:28:38 -0000
+
+What do you mean when you say 'packet format' ? The message structure ?
+
+On 02/12/2009, Mahesh <mahesh.awaradi@globaledgesoft.com> wrote:
+> Hi All ,
+> Can any body tell me  182 call queued packet format.
+>
+> Regards
+> Mahesh
+>
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+
+
+-- 
+aayush
+http://in.linkedin.com/in/abhatnagar19
+======
+
+From dworley@nortel.com  Wed Dec  2 14:27:27 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 9A8933A699D for <sip@core3.amsl.com>; Wed,  2 Dec 2009 14:27:27 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id iCiN8PK-kk7S for <sip@core3.amsl.com>; Wed,  2 Dec 2009 14:27:27 -0800 (PST)
+Received: from zcars04e.nortel.com (zcars04e.nortel.com [47.129.242.56]) by core3.amsl.com (Postfix) with ESMTP id B1CFA3A6998 for <sip@ietf.org>; Wed,  2 Dec 2009 14:27:23 -0800 (PST)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zcars04e.nortel.com (Switch-2.2.0/Switch-2.2.0) with ESMTP id nB2MRA503493; Wed, 2 Dec 2009 22:27:10 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 2 Dec 2009 17:27:09 -0500
+From: "Dale Worley" <dworley@nortel.com>
+To: Mahesh <mahesh.awaradi@globaledgesoft.com>
+In-Reply-To: <4B15F7C5.8020505@globaledgesoft.com>
+References: <mailman.107.1259697615.8693.sip@ietf.org> <4B15F7C5.8020505@globaledgesoft.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Wed, 02 Dec 2009 17:27:09 -0500
+Message-Id: <1259792829.3845.31.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 02 Dec 2009 22:27:09.0982 (UTC) FILETIME=[9675F3E0:01CA739E]
+Cc: sip@ietf.org
+Subject: Re: [Sip] 182 call queued
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 02 Dec 2009 22:27:27 -0000
+
+On Wed, 2009-12-02 at 10:44 +0530, Mahesh wrote:
+> Can any body tell me  182 call queued packet format.
+
+It is an ordinary SIP provisional response with response code 182.
+There is no special format.
+
+Dale
+
+
+
+From spencer@wonderhamster.org  Tue Dec  8 14:25:52 2009
+Return-Path: <spencer@wonderhamster.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C11293A6942; Tue,  8 Dec 2009 14:25:52 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.88
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.88 tagged_above=-999 required=5 tests=[AWL=0.719,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id BPWkTG8wEdhw; Tue,  8 Dec 2009 14:25:52 -0800 (PST)
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.195]) by core3.amsl.com (Postfix) with ESMTP id E49973A68D4; Tue,  8 Dec 2009 14:25:51 -0800 (PST)
+Received: from S73602b (cpe-76-182-230-135.tx.res.rr.com [76.182.230.135]) by mrelay.perfora.net (node=mrus0) with ESMTP (Nemesis) id 0MV6gv-1Nb4Wa0drB-00YLLu; Tue, 08 Dec 2009 17:25:40 -0500
+Message-ID: <2D674B58536A4E71975022512AF6A411@china.huawei.com>
+From: "Spencer Dawkins" <spencer@wonderhamster.org>
+To: "SIP IETF" <sip@ietf.org>, <sipping@ietf.org>
+Date: Tue, 8 Dec 2009 16:25:29 -0600
+MIME-Version: 1.0
+Content-Type: text/plain; format=flowed; charset="iso-8859-1"; reply-type=response
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5843
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-Provags-ID: V01U2FsdGVkX1/HBMPvVK1k616cbou+x2MAfC7qCXYOiEOCvxN 1O+9vOUGbJm5n1C6o/vCPFQRFikPmvF0Am3lZnmE4pVc0cXjz1 LJ8WjfQ7PooRCgsL0Zc1jDbnJ6uzitRz7JNE2o802Y=
+Cc: techwg@sipforum.org
+Subject: [Sip] Fw: [martini] New Mailing List announcement - MARTINI (was - DREGS)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 08 Dec 2009 22:25:52 -0000
+
+Just so everyone is on the same page, Cullen asked me to announce this 
+mailing list on SIP, SIPPING, and the techwg mailing list...
+
+See you on MARTINI!
+
+Thanks,
+
+Spencer
+
+----- Original Message ----- 
+From: "Spencer Dawkins" <spencer@wonderhamster.org>
+To: <dispatch@ietf.org>; <rai@ietf.org>
+Cc: <martini@ietf.org>
+Sent: Tuesday, December 08, 2009 4:23 PM
+Subject: [martini] New Mailing List announcement - MARTINI (was - DREGS)
+
+
+> Cullen has asked me to announce a new mailing list, called MARTINI 
+> (acronym
+> for "Multiple AoR reachabiliTy InformatioN Indication"), to be used for
+> discussion of what has variously been called "implicit registration",
+> "domain registration", and probably some other terms as well.
+>
+> To be a little more precise, the MARTINI mailing list was created to 
+> discuss
+> means by which an entity that is authoritative for SIP URIs can 
+> dynamically
+> register reachability information for multiple Addresses of Record 
+> ("AORs")
+> with a service provider.
+>
+> The coordinates are in the place you'd expect:
+>
+> General Discussion: martini@ietf.org
+> To Subscribe: martini-request@ietf.org
+> In Body: subscribe
+> Archive: http://www.ietf.org/mail-archive/web/martini/index.html
+>
+> Just to catch people up... DISPATCH recommended that this proposed work go
+> forward in a mini-working group. The IESG approved a proposed charter to 
+> be
+> sent for a two-week review on last Thursday's telechat, so you should see
+> that announcement popping out fairly quickly.
+>
+> That charter also proposes an interim meeting in January 2010, and we'll 
+> be
+> discussing logistics on the MARTINI mailing list in the near future, so
+> please subscribe Real Soon Now if you are interested in the topic.
+>
+> Thanks!
+>
+> Spencer
+> _______________________________________________
+> martini mailing list
+> martini@ietf.org
+> https://www.ietf.org/mailman/listinfo/martini 
+
+
+From nitinkapoorr@gmail.com  Thu Dec 10 05:11:00 2009
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C391E3A685D for <sip@core3.amsl.com>; Thu, 10 Dec 2009 05:11:00 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.317
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.317 tagged_above=-999 required=5 tests=[AWL=0.281,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id F5cT93WTT8Yo for <sip@core3.amsl.com>; Thu, 10 Dec 2009 05:11:00 -0800 (PST)
+Received: from qw-out-2122.google.com (qw-out-2122.google.com [74.125.92.27]) by core3.amsl.com (Postfix) with ESMTP id D80C83A67DB for <sip@ietf.org>; Thu, 10 Dec 2009 05:10:59 -0800 (PST)
+Received: by qw-out-2122.google.com with SMTP id 9so1429593qwb.17 for <sip@ietf.org>; Thu, 10 Dec 2009 05:10:45 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:date:message-id:subject :from:to:content-type; bh=cLzdBFa89F8jriyJS2tmywdM5grqcA8cGP8WJBYVnCo=; b=BLWVHKFSmQaH+P/GDUlt2xw5mVXRcdBPl+BI62y1zpI40wpjbSft+mq+0aB/82+/zL NzPQ4akf6h21g+JWye+wENnbCdY5MlhhvkfF7hk972e0S4MS3GvR+P6KAaZxvWcYLgka GCjlBQKs389mHoJ85lbo3/XtgkOuPfOAx3pVM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=W9ocZ8eYgCtGueOblZBWf65OTN4ZBDrPlDqonUDWAV2leR/nhiRtUr1SOO+h2yhlSh fd+F1HbhAtuhAUMnhBLzLyKWqEu2LMjYmiBOq9c8lVuMVc6AtFWc/bUoOHrSFS/hansI 8nOKRCtgrHHeWTO4HVh/Pw6pQDxONjbd24dK0=
+MIME-Version: 1.0
+Received: by 10.229.69.93 with SMTP id y29mr2218895qci.53.1260450645707; Thu,  10 Dec 2009 05:10:45 -0800 (PST)
+Date: Thu, 10 Dec 2009 08:10:45 -0500
+Message-ID: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=00032557b162fe8d16047a5f8864
+Subject: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Dec 2009 13:11:00 -0000
+
+--00032557b162fe8d16047a5f8864
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello All,
+
+I am facing the issue with one of my customer where he is getting two media
+streams in one call and they are using SBC(Nextone)
+
+I checked the signaling traces and everything looks okay to me as well as
+the RTP traces too.
+
+As per the traces one  RTP packet is going from 64.156.174.71 and the other
+is coming from 8.15.244.11.
+
+Could you please let me know is it possible where i can have the two media
+streams in one call when this is the not the conference call. And if this is
+possible then what is the scenario where its possible.
+
+Please find the attached traces for the same.
+
+Thanks,
+Nitin Kapoor
+General Telecom
+
+--00032557b162fe8d16047a5f8864
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello All,<br>
+<div class=3D"gmail_quote"><br>I am facing the issue with one of my custome=
+r where he is getting two media streams in one call and they are using SBC(=
+Nextone)<br><br>I checked the signaling traces and everything looks okay to=
+ me as well as the RTP traces too.<br>
+
+<br>As per the traces one=A0 RTP packet is going from 64.156.174.71 and the=
+ other is coming from 8.15.244.11. <br><br>Could
+you please let me know is it possible where i can have the two media
+streams in one call when this is the not the conference call. And if
+this is possible then what is the scenario where its possible.<br>
+<br>Please find the attached traces for the same.<br><br>Thanks,<br><font c=
+olor=3D"#888888">Nitin Kapoor<br>General Telecom<br>
+</font></div>
+
+--00032557b162fe8d16047a5f8864--
+
+From ron.even.tlv@gmail.com  Thu Dec 10 05:36:15 2009
+Return-Path: <ron.even.tlv@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 137163A68A5 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 05:36:15 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id u2P8dkslt9cG for <sip@core3.amsl.com>; Thu, 10 Dec 2009 05:36:14 -0800 (PST)
+Received: from mail-fx0-f213.google.com (mail-fx0-f213.google.com [209.85.220.213]) by core3.amsl.com (Postfix) with ESMTP id 9EBB33A68A9 for <sip@ietf.org>; Thu, 10 Dec 2009 05:36:03 -0800 (PST)
+Received: by fxm5 with SMTP id 5so8897598fxm.28 for <sip@ietf.org>; Thu, 10 Dec 2009 05:35:45 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:from:to:references :in-reply-to:subject:date:message-id:mime-version:content-type :x-mailer:thread-index:content-language; bh=ZLIttahOkd6wW/6Pmo7IIvBfUpJPAstiLu/ZJ7ZEPZ8=; b=ZJF0HQNTPCxErLxSDRIMGf/eaTUakzrL7nSc+1gLhku7gdy37hmOH2GKzv1vuGhLQI b6vQev/Yul7QN5dpfcU4MoZrqqTxHmzh1xjIihtXZ5/r1mZpgB44efD2p0vlCJFOwvel Mu6k3X8AA+90yZm7ZaTE6l7b8ltZqUW+Zkzj0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=from:to:references:in-reply-to:subject:date:message-id:mime-version :content-type:x-mailer:thread-index:content-language; b=VwWJ9nGfuEOm4wnr6eK6iRsoWR83olpDf8yKLnupFEKrXwPiwv7Viwwv0fVuuiiM8S 9BTYYYhQmjUVMqHAjuHGeOU+CpMuoU6kHjPb6n8TY351hEIh/n61byvk3c33XfDt752C ow3YWDd0GJ3OUEDfGOFrbRBdpmK8fhfzUbaKE=
+Received: by 10.223.97.132 with SMTP id l4mr1990743fan.100.1260452144451; Thu, 10 Dec 2009 05:35:44 -0800 (PST)
+Received: from windows8d787f9 (bzq-79-176-46-225.red.bezeqint.net [79.176.46.225]) by mx.google.com with ESMTPS id 16sm323218fxm.12.2009.12.10.05.35.41 (version=TLSv1/SSLv3 cipher=RC4-MD5); Thu, 10 Dec 2009 05:35:43 -0800 (PST)
+From: "Roni Even" <ron.even.tlv@gmail.com>
+To: "'Nitin Kapoor'" <nitinkapoorr@gmail.com>, <sip@ietf.org>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com>
+In-Reply-To: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com>
+Date: Thu, 10 Dec 2009 15:32:38 +0200
+Message-ID: <4b20f92f.100db80a.418e.1f67@mx.google.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_004C_01CA79AE.06A07590"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-index: Acp5mj0S3otDG6A0Sf+mAXfgjQhVpQAAr8NA
+Content-language: en-us
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Dec 2009 13:36:15 -0000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_004C_01CA79AE.06A07590
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+To know the answer you need to provide the SDP in the offer and answer.
+
+If the offer/answer SDP defined two media streams, or N media streams this
+is probably OK.
+
+Roni Even
+
+ 
+
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of Nitin
+Kapoor
+Sent: Thursday, December 10, 2009 3:11 PM
+To: sip@ietf.org
+Subject: [Sip] Two Media Stream in One call
+
+ 
+
+Hello All,
+
+
+I am facing the issue with one of my customer where he is getting two media
+streams in one call and they are using SBC(Nextone)
+
+I checked the signaling traces and everything looks okay to me as well as
+the RTP traces too.
+
+As per the traces one  RTP packet is going from 64.156.174.71 and the other
+is coming from 8.15.244.11. 
+
+Could you please let me know is it possible where i can have the two media
+streams in one call when this is the not the conference call. And if this is
+possible then what is the scenario where its possible.
+
+Please find the attached traces for the same.
+
+Thanks,
+Nitin Kapoor
+General Telecom
+
+
+------=_NextPart_000_004C_01CA79AE.06A07590
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'>Hi,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'>To know the answer you need to provide the SDP in the =
+offer and
+answer.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'>If the offer/answer SDP defined two media streams, or N =
+media
+streams this is probably OK.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'>Roni Even<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div style=3D'border:none;border-left:solid blue 1.5pt;padding:0in 0in =
+0in 4.0pt'>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt =
+0in 0in 0in'>
+
+<p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>
+sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] <b>On Behalf Of =
+</b>Nitin
+Kapoor<br>
+<b>Sent:</b> Thursday, December 10, 2009 3:11 PM<br>
+<b>To:</b> sip@ietf.org<br>
+<b>Subject:</b> [Sip] Two Media Stream in One call<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Hello All,<o:p></o:p></p>
+
+<div>
+
+<p class=3DMsoNormal><br>
+I am facing the issue with one of my customer where he is getting two =
+media
+streams in one call and they are using SBC(Nextone)<br>
+<br>
+I checked the signaling traces and everything looks okay to me as well =
+as the
+RTP traces too.<br>
+<br>
+As per the traces one&nbsp; RTP packet is going from 64.156.174.71 and =
+the
+other is coming from 8.15.244.11. <br>
+<br>
+Could you please let me know is it possible where i can have the two =
+media
+streams in one call when this is the not the conference call. And if =
+this is
+possible then what is the scenario where its possible.<br>
+<br>
+Please find the attached traces for the same.<br>
+<br>
+Thanks,<br>
+<span style=3D'color:#888888'>Nitin Kapoor<br>
+General Telecom</span><o:p></o:p></p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_004C_01CA79AE.06A07590--
+
+
+From christer.holmberg@ericsson.com  Thu Dec 10 05:56:25 2009
+Return-Path: <christer.holmberg@ericsson.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 7A1DF3A6972 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 05:56:25 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.235
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.235 tagged_above=-999 required=5 tests=[AWL=0.014,  BAYES_00=-2.599, HELO_EQ_SE=0.35, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5fO7QhNbdjH9 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 05:56:24 -0800 (PST)
+Received: from mailgw3.ericsson.se (mailgw3.ericsson.se [193.180.251.60]) by core3.amsl.com (Postfix) with ESMTP id 6C3793A694D for <sip@ietf.org>; Thu, 10 Dec 2009 05:56:24 -0800 (PST)
+X-AuditID: c1b4fb3c-b7b8dae0000047e9-d9-4b20fdfb59fb
+Received: from esealmw126.eemea.ericsson.se (Unknown_Domain [153.88.253.124]) by mailgw3.ericsson.se (Symantec Mail Security) with SMTP id EF.75.18409.BFDF02B4; Thu, 10 Dec 2009 14:56:11 +0100 (CET)
+Received: from esealmw113.eemea.ericsson.se ([153.88.200.4]) by esealmw126.eemea.ericsson.se with Microsoft SMTPSVC(6.0.3790.3959);  Thu, 10 Dec 2009 14:56:10 +0100
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 10 Dec 2009 14:53:34 +0100
+Message-ID: <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Two Media Stream in One call
+Thread-Index: Acp5mjmgx4jZUJyoShGqR8zBd4PhQgABfCzP
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com>
+From: "Christer Holmberg" <christer.holmberg@ericsson.com>
+To: "Nitin Kapoor" <nitinkapoorr@gmail.com>, <sip@ietf.org>
+X-OriginalArrivalTime: 10 Dec 2009 13:56:10.0955 (UTC) FILETIME=[878FB1B0:01CA79A0]
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Dec 2009 13:56:25 -0000
+
+Hi,
+
+It is possible.
+
+In theory this could be done with a single c- line, because SDP only =
+talks about where media is to be sent - not where it comes from.
+
+In reality, however, I assume this is a case where each m- line has its =
+own c- line, each with a different IP address.
+
+Regards,
+
+Christer
+
+
+-----Original Message-----
+From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+Sent: Thu 12/10/2009 2:10 PM
+To: sip@ietf.org
+Subject: [Sip] Two Media Stream in One call
+=20
+Hello All,
+
+I am facing the issue with one of my customer where he is getting two =
+media
+streams in one call and they are using SBC(Nextone)
+
+I checked the signaling traces and everything looks okay to me as well =
+as
+the RTP traces too.
+
+As per the traces one  RTP packet is going from 64.156.174.71 and the =
+other
+is coming from 8.15.244.11.
+
+Could you please let me know is it possible where i can have the two =
+media
+streams in one call when this is the not the conference call. And if =
+this is
+possible then what is the scenario where its possible.
+
+Please find the attached traces for the same.
+
+Thanks,
+Nitin Kapoor
+General Telecom
+
+
+From nitinkapoorr@gmail.com  Thu Dec 10 07:47:13 2009
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id D3DF53A6AA5 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 07:47:12 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.913
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.913 tagged_above=-999 required=5 tests=[AWL=-1.085, BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_13=0.6, J_CHICKENPOX_15=0.6, J_CHICKENPOX_17=0.6, NORMAL_HTTP_TO_IP=0.001, URI_HEX=0.368, WEIRD_PORT=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UOY+s6Rd3JCA for <sip@core3.amsl.com>; Thu, 10 Dec 2009 07:47:11 -0800 (PST)
+Received: from mail-qy0-f188.google.com (mail-qy0-f188.google.com [209.85.221.188]) by core3.amsl.com (Postfix) with ESMTP id 704A63A6A8A for <sip@ietf.org>; Thu, 10 Dec 2009 07:47:11 -0800 (PST)
+Received: by qyk26 with SMTP id 26so3895993qyk.5 for <sip@ietf.org>; Thu, 10 Dec 2009 07:46:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=0a741lbmD3MSOZ5GmQkGsgA9q9gcMRztpKtkpD7GIO0=; b=Z79mRhkYYlbNp9XNs9dPfXd4IpKcrwEKpU6/F2wDJHLpFMLNshNJBAkHiZeJXZZ5kY iTx7YumJ5Da5ZkQRuC8OVKua8jX7XlH/Siixy46P37pmwgPsWoWKp3Te9W4W4fntLg3k L/EaP93pv0AHgRLmeInKfQkSFMc4M6EPqy4iE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=GXFNX+oaG92565Bmh4Wp/rbD/yJNkBwJO4ztyuvYjMvQoxLmCb23g4976umoguetxK q/+WSxpUTPr/8il7cSsMbtFDN3O8xbZaUDPxEB7A3dS2pgjxFraYfu8q9Qi5Ojn7oRW+ o5IbJtLTjIieMK3T74kkh7HtYBy0OJsb4jUJM=
+MIME-Version: 1.0
+Received: by 10.229.102.165 with SMTP id g37mr24976qco.65.1260460017230; Thu,  10 Dec 2009 07:46:57 -0800 (PST)
+In-Reply-To: <c80c92d0912100730jfbeae43ue7065a7fa6a71e32@mail.gmail.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se> <c80c92d0912100730jfbeae43ue7065a7fa6a71e32@mail.gmail.com>
+Date: Thu, 10 Dec 2009 10:46:56 -0500
+Message-ID: <c80c92d0912100746o24066efetb7e7e96b5d37c1fb@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: Christer Holmberg <christer.holmberg@ericsson.com>
+Content-Type: multipart/alternative; boundary=00235447067494a47e047a61b7ad
+Cc: sip@ietf.org
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Dec 2009 15:47:13 -0000
+
+--00235447067494a47e047a61b7ad
+Content-Type: text/plain; charset=ISO-8859-1
+
+> Hello,
+>
+> Below is the packet in UDP format, Could you please help me on this to
+> understand this scenario. Also attached is the complete traces.
+>
+> INVITE sip:9996214018210532@208.85.248.42<sip%3A9996214018210532@208.85.248.42>SIP/2.0
+>
+> Max-Forwards: 69
+>
+> Session-Expires: 3600;refresher=uac
+>
+> Supported: timer, 100rel
+>
+> To: <sip:9996214018210532@208.85.248.42<sip%3A9996214018210532@208.85.248.42>
+> >
+>
+> From: <sip:8003223223@tmsash1-15-sip>;tag=3468945569-250042
+>
+> Call-ID: 7044988-3468945569-250036@mscasheq01.soundbite.com
+>
+> CSeq: 1 INVITE
+>
+> Allow: INVITE, BYE, OPTIONS, CANCEL, ACK, REGISTER, NOTIFY, INFO, REFER,
+> SUBSCRIBE, PRACK, UPDATE
+>
+> Via: SIP/2.0/UDP 8.15.244.10:5060
+> ;branch=z9hG4bKf5de4d0e3c0860d122139e1e30a2995c
+>
+> Contact: <sip:8003223223@8.15.244.10:5060>
+>
+> Call-Info:
+> <sip:8.15.244.10>;method="NOTIFY;Event=telephone-event;Duration=1000"
+>
+> Content-Type: application/sdp
+>
+> Content-Length: 124
+>
+>
+>
+> v=0
+>
+> o=mscasheq01 547500705 547500705 IN IP4 8.15.244.10
+>
+> s=sip call
+>
+> c=IN IP4 8.15.244.11
+>
+> t=0 0
+>
+> m=audio 19612 RTP/AVP 0
+>
+> SIP/2.0 100 Trying
+>
+> Via: SIP/2.0/UDP 8.15.244.10:5060
+> ;branch=z9hG4bKf5de4d0e3c0860d122139e1e30a2995c
+>
+> From: <sip:8003223223@tmsash1-15-sip>;tag=3468945569-250042
+>
+> To: <sip:9996214018210532@208.85.248.42<sip%3A9996214018210532@208.85.248.42>
+> >
+>
+> Call-ID: 7044988-3468945569-250036@mscasheq01.soundbite.com
+>
+> CSeq: 1 INVITE
+>
+> Server: Sansay VSX 2.1
+>
+> Content-Length: 0
+>
+>
+>
+> SIP/2.0 180 Ringing
+>
+> Via: SIP/2.0/UDP 8.15.244.10:5060
+> ;branch=z9hG4bKf5de4d0e3c0860d122139e1e30a2995c
+>
+> From: <sip:8003223223@tmsash1-15-sip>;tag=3468945569-250042
+>
+> To: <sip:9996214018210532@208.85.248.42<sip%3A9996214018210532@208.85.248.42>
+> >;tag=228209687-tdb1145808424
+>
+> Call-ID: 7044988-3468945569-250036@mscasheq01.soundbite.com
+>
+> CSeq: 1 INVITE
+>
+> Server: Sansay VSX 2.1
+>
+> Content-Length: 0
+>
+>
+>
+> SIP/2.0 200 OK
+>
+> Via: SIP/2.0/UDP 8.15.244.10:5060
+> ;branch=z9hG4bKf5de4d0e3c0860d122139e1e30a2995c
+>
+> From: <sip:8003223223@tmsash1-15-sip>;tag=3468945569-250042
+>
+> To: <sip:9996214018210532@208.85.248.42<sip%3A9996214018210532@208.85.248.42>
+> >;tag=228209687-tdb1145808424
+>
+> Call-ID: 7044988-3468945569-250036@mscasheq01.soundbite.com
+>
+> CSeq: 1 INVITE
+>
+> Server: Sansay VSX 2.1
+>
+> Contact: <sip:9996214018210532@208.85.248.42:5060;transport=udp>
+>
+> Content-Type: application/sdp
+>
+> Content-Length:   158
+>
+>
+>
+> v=0
+>
+> o=sansay-VSX 10 10 IN IP4 64.156.174.71
+>
+> s=session controller
+>
+> c=IN IP4 64.156.174.71
+>
+> t=0 0
+>
+> m=audio 10766 RTP/AVP 0
+>
+> a=rtpmap:0 PCMU/8000
+>
+> a=ptime:20
+>
+> ACK sip:9996214018210532@208.85.248.42:5060;transport=udp SIP/2.0
+>
+> Max-Forwards: 69
+>
+> To: <sip:9996214018210532@208.85.248.42<sip%3A9996214018210532@208.85.248.42>
+> >;tag=228209687-tdb1145808424
+>
+> From: <sip:8003223223@tmsash1-15-sip>;tag=3468945569-250042
+>
+> Call-ID: 7044988-3468945569-250036@mscasheq01.soundbite.com
+>
+> CSeq: 1 ACK
+>
+> Allow: INVITE, BYE, OPTIONS, CANCEL, ACK, REGISTER, NOTIFY, INFO, REFER,
+> SUBSCRIBE, PRACK, UPDATE
+>
+> Via: SIP/2.0/UDP 8.15.244.10:5060
+> ;branch=z9hG4bK7208e1bfdd2962741dc3dee9d2576820
+>
+> Contact: <sip:8003223223@8.15.244.10:5060>
+>
+> Content-Length: 0
+>
+>
+> Thanks,
+> Nitin Kapoor
+>
+> 2009/12/10 Christer Holmberg <christer.holmberg@ericsson.com>
+>
+>
+>> Hi,
+>>
+>> It is possible.
+>>
+>> In theory this could be done with a single c- line, because SDP only talks
+>> about where media is to be sent - not where it comes from.
+>>
+>> In reality, however, I assume this is a case where each m- line has its
+>> own c- line, each with a different IP address.
+>>
+>> Regards,
+>>
+>> Christer
+>>
+>>
+>> -----Original Message-----
+>> From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+>> Sent: Thu 12/10/2009 2:10 PM
+>> To: sip@ietf.org
+>> Subject: [Sip] Two Media Stream in One call
+>>
+>> Hello All,
+>>
+>> I am facing the issue with one of my customer where he is getting two
+>> media
+>> streams in one call and they are using SBC(Nextone)
+>>
+>> I checked the signaling traces and everything looks okay to me as well as
+>> the RTP traces too.
+>>
+>> As per the traces one  RTP packet is going from 64.156.174.71 and the
+>> other
+>> is coming from 8.15.244.11.
+>>
+>> Could you please let me know is it possible where i can have the two media
+>> streams in one call when this is the not the conference call. And if this
+>> is
+>> possible then what is the scenario where its possible.
+>>
+>> Please find the attached traces for the same.
+>>
+>> Thanks,
+>> Nitin Kapoor
+>> General Telecom
+>>
+>>
+>
+
+--00235447067494a47e047a61b7ad
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><blockquote class=3D"gmail_quote" style=3D"b=
+order-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; paddin=
+g-left: 1ex;">Hello,<br><br>Below is the packet in UDP format, Could you pl=
+ease help me on this to understand this scenario. Also attached is the comp=
+lete traces.<br>
+<br>INVITE <a href=3D"mailto:sip%3A9996214018210532@208.85.248.42" target=
+=3D"_blank">sip:9996214018210532@208.85.248.42</a> SIP/2.0<br>
+<br>Max-Forwards: 69<br><br>Session-Expires: 3600;refresher=3Duac<br><br>Su=
+pported: timer, 100rel<br><br>To: &lt;<a href=3D"mailto:sip%3A9996214018210=
+532@208.85.248.42" target=3D"_blank">sip:9996214018210532@208.85.248.42</a>=
+&gt;<br>
+<br>From: &lt;sip:8003223223@tmsash1-15-sip&gt;;tag=3D3468945569-250042<br>
+<br>Call-ID: <a href=3D"mailto:7044988-3468945569-250036@mscasheq01.soundbi=
+te.com" target=3D"_blank">7044988-3468945569-250036@mscasheq01.soundbite.co=
+m</a><br><br>CSeq: 1 INVITE<br><br>Allow: INVITE, BYE, OPTIONS, CANCEL, ACK=
+, REGISTER, NOTIFY, INFO, REFER, SUBSCRIBE, PRACK, UPDATE<br>
+
+<br>Via: SIP/2.0/UDP 8.15.244.10:5060;branch=3Dz9hG4bKf5de4d0e3c0860d122139=
+e1e30a2995c<br><br>Contact: &lt;<a href=3D"http://sip:8003223223@8.15.244.1=
+0:5060" target=3D"_blank">sip:8003223223@8.15.244.10:5060</a>&gt;<br><br>Ca=
+ll-Info: &lt;sip:8.15.244.10&gt;;method=3D&quot;NOTIFY;Event=3Dtelephone-ev=
+ent;Duration=3D1000&quot;<br>
+
+<br>Content-Type: application/sdp<br><br>Content-Length: 124<br><br><br><br=
+>v=3D0<br><br>o=3Dmscasheq01 547500705 547500705 IN IP4 8.15.244.10<br><br>=
+s=3Dsip call<br><br>c=3DIN IP4 8.15.244.11<br><br>t=3D0 0<br><br>m=3Daudio =
+19612 RTP/AVP 0<br>
+
+<br>SIP/2.0 100 Trying<br><br>Via: SIP/2.0/UDP 8.15.244.10:5060;branch=3Dz9=
+hG4bKf5de4d0e3c0860d122139e1e30a2995c<br><br>From: &lt;sip:8003223223@tmsas=
+h1-15-sip&gt;;tag=3D3468945569-250042<br><br>To: &lt;<a href=3D"mailto:sip%=
+3A9996214018210532@208.85.248.42" target=3D"_blank">sip:9996214018210532@20=
+8.85.248.42</a>&gt;<br>
+
+<br>Call-ID: <a href=3D"mailto:7044988-3468945569-250036@mscasheq01.soundbi=
+te.com" target=3D"_blank">7044988-3468945569-250036@mscasheq01.soundbite.co=
+m</a><br><br>CSeq: 1 INVITE<br><br>Server: Sansay VSX 2.1<br><br>Content-Le=
+ngth: 0<br>
+<br><br>
+<br>SIP/2.0 180 Ringing<br><br>Via: SIP/2.0/UDP 8.15.244.10:5060;branch=3Dz=
+9hG4bKf5de4d0e3c0860d122139e1e30a2995c<br><br>From: &lt;sip:8003223223@tmsa=
+sh1-15-sip&gt;;tag=3D3468945569-250042<br><br>To: &lt;<a href=3D"mailto:sip=
+%3A9996214018210532@208.85.248.42" target=3D"_blank">sip:9996214018210532@2=
+08.85.248.42</a>&gt;;tag=3D228209687-tdb1145808424<br>
+
+<br>Call-ID: <a href=3D"mailto:7044988-3468945569-250036@mscasheq01.soundbi=
+te.com" target=3D"_blank">7044988-3468945569-250036@mscasheq01.soundbite.co=
+m</a><br><br>CSeq: 1 INVITE<br><br>Server: Sansay VSX 2.1<br><br>Content-Le=
+ngth: 0<br>
+<br><br>
+<br>SIP/2.0 200 OK<br><br>Via: SIP/2.0/UDP 8.15.244.10:5060;branch=3Dz9hG4b=
+Kf5de4d0e3c0860d122139e1e30a2995c<br><br>From: &lt;sip:8003223223@tmsash1-1=
+5-sip&gt;;tag=3D3468945569-250042<br><br>To: &lt;<a href=3D"mailto:sip%3A99=
+96214018210532@208.85.248.42" target=3D"_blank">sip:9996214018210532@208.85=
+.248.42</a>&gt;;tag=3D228209687-tdb1145808424<br>
+
+<br>Call-ID: <a href=3D"mailto:7044988-3468945569-250036@mscasheq01.soundbi=
+te.com" target=3D"_blank">7044988-3468945569-250036@mscasheq01.soundbite.co=
+m</a><br><br>CSeq: 1 INVITE<br><br>Server: Sansay VSX 2.1<br><br>Contact: &=
+lt;sip:9996214018210532@208.85.248.42:5060;transport=3Dudp&gt;<br>
+
+<br>Content-Type: application/sdp<br><br>Content-Length:=A0=A0 158<br><br><=
+br><br>v=3D0<br><br>o=3Dsansay-VSX 10 10 IN IP4 64.156.174.71<br><br>s=3Dse=
+ssion controller<br><br>c=3DIN IP4 64.156.174.71<br><br>t=3D0 0<br><br>m=3D=
+audio 10766 RTP/AVP 0<br>
+
+<br>a=3Drtpmap:0 PCMU/8000<br><br>a=3Dptime:20<br><br>ACK sip:9996214018210=
+532@208.85.248.42:5060;transport=3Dudp SIP/2.0<br><br>Max-Forwards: 69<br><=
+br>To: &lt;<a href=3D"mailto:sip%3A9996214018210532@208.85.248.42" target=
+=3D"_blank">sip:9996214018210532@208.85.248.42</a>&gt;;tag=3D228209687-tdb1=
+145808424<br>
+
+<br>From: &lt;sip:8003223223@tmsash1-15-sip&gt;;tag=3D3468945569-250042<br>=
+<br>Call-ID: <a href=3D"mailto:7044988-3468945569-250036@mscasheq01.soundbi=
+te.com" target=3D"_blank">7044988-3468945569-250036@mscasheq01.soundbite.co=
+m</a><br>
+<br>CSeq: 1 ACK<br>
+<br>Allow: INVITE, BYE, OPTIONS, CANCEL, ACK, REGISTER, NOTIFY, INFO, REFER=
+, SUBSCRIBE, PRACK, UPDATE<br><br>Via: SIP/2.0/UDP 8.15.244.10:5060;branch=
+=3Dz9hG4bK7208e1bfdd2962741dc3dee9d2576820<br><br>Contact: &lt;<a href=3D"h=
+ttp://sip:8003223223@8.15.244.10:5060" target=3D"_blank">sip:8003223223@8.1=
+5.244.10:5060</a>&gt;<br>
+
+<br>Content-Length: 0<br><br><br>Thanks,<br>Nitin Kapoor<br><br><div class=
+=3D"gmail_quote">2009/12/10 Christer Holmberg <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:christer.holmberg@ericsson.com" target=3D"_blank">christer.holmb=
+erg@ericsson.com</a>&gt;</span><div>
+<div></div><div class=3D"h5"><br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;"><br>
+Hi,<br>
+<br>
+It is possible.<br>
+<br>
+In theory this could be done with a single c- line, because SDP only talks =
+about where media is to be sent - not where it comes from.<br>
+<br>
+In reality, however, I assume this is a case where each m- line has its own=
+ c- line, each with a different IP address.<br>
+<br>
+Regards,<br>
+<font color=3D"#888888"><br>
+Christer<br>
+</font><div><br>
+<br>
+-----Original Message-----<br>
+From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bounces=
+@ietf.org</a> on behalf of Nitin Kapoor<br>
+Sent: Thu 12/10/2009 2:10 PM<br>
+To: <a href=3D"mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a><br>
+Subject: [Sip] Two Media Stream in One call<br>
+<br>
+</div><div><div></div><div>Hello All,<br>
+<br>
+I am facing the issue with one of my customer where he is getting two media=
+<br>
+streams in one call and they are using SBC(Nextone)<br>
+<br>
+I checked the signaling traces and everything looks okay to me as well as<b=
+r>
+the RTP traces too.<br>
+<br>
+As per the traces one =A0RTP packet is going from 64.156.174.71 and the oth=
+er<br>
+is coming from 8.15.244.11.<br>
+<br>
+Could you please let me know is it possible where i can have the two media<=
+br>
+streams in one call when this is the not the conference call. And if this i=
+s<br>
+possible then what is the scenario where its possible.<br>
+<br>
+Please find the attached traces for the same.<br>
+<br>
+Thanks,<br>
+Nitin Kapoor<br>
+General Telecom<br>
+<br>
+</div></div></blockquote></div></div></div><br>
+</blockquote></div><br>
+
+--00235447067494a47e047a61b7ad--
+
+From ron.even.tlv@gmail.com  Thu Dec 10 10:00:57 2009
+Return-Path: <ron.even.tlv@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E883B3A6A12 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 10:00:56 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[AWL=0.001,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id SVSE++uYuM5U for <sip@core3.amsl.com>; Thu, 10 Dec 2009 10:00:56 -0800 (PST)
+Received: from mail-bw0-f223.google.com (mail-bw0-f223.google.com [209.85.218.223]) by core3.amsl.com (Postfix) with ESMTP id 6D2E03A6890 for <sip@ietf.org>; Thu, 10 Dec 2009 10:00:55 -0800 (PST)
+Received: by bwz23 with SMTP id 23so32511bwz.29 for <sip@ietf.org>; Thu, 10 Dec 2009 10:00:39 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:from:to:references :in-reply-to:subject:date:message-id:mime-version:content-type :content-transfer-encoding:x-mailer:thread-index:content-language; bh=VnPK3lXBLk4oFgcHiNnUfsTOAV7cxU5ljV5DZlrgIhg=; b=bTfKEzEnPHqYvTN6V7jb0RB4XlQR3LZvj6Mkg6b+Xu3rLSeGiyuZlbCO+iidGzqQ5H mK324sVIPHhbC9AZ5QPIuI53cPROyRdtQlPfSo/0HStsbGpJGw3nC7vRwAqNdW9mvQ0q nPieFHueaMn4d9gslzNvAIZV6RgmuMmyandjk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=from:to:references:in-reply-to:subject:date:message-id:mime-version :content-type:content-transfer-encoding:x-mailer:thread-index :content-language; b=g/WaKKi/GVhXRbzjuSlREuSrUwM/x2GtukrC/MMR8zVsOdVy5uMtXYchTqhgr3jPik zf9oU5tZrXat2Y6QA5cqsnTcEuJlTeqjuxpmMzZ5TNTmnnVsRRSDjhWjElpMW78cpDm8 hWEHWttGLXF0WHNWeEkIsKkzM6AIh7WtVMwTA=
+Received: by 10.102.214.22 with SMTP id m22mr90094mug.54.1260468037995; Thu, 10 Dec 2009 10:00:37 -0800 (PST)
+Received: from windows8d787f9 (bzq-79-176-46-225.red.bezeqint.net [79.176.46.225]) by mx.google.com with ESMTPS id y6sm2848358mug.31.2009.12.10.10.00.35 (version=TLSv1/SSLv3 cipher=RC4-MD5); Thu, 10 Dec 2009 10:00:36 -0800 (PST)
+From: "Roni Even" <ron.even.tlv@gmail.com>
+To: "'Christer Holmberg'" <christer.holmberg@ericsson.com>, "'Nitin Kapoor'" <nitinkapoorr@gmail.com>, <sip@ietf.org>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se>
+In-Reply-To: <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se>
+Date: Thu, 10 Dec 2009 19:57:35 +0200
+Message-ID: <4b213744.06e2660a.5909.37ce@mx.google.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-index: Acp5mjmgx4jZUJyoShGqR8zBd4PhQgABfCzPAAhxQgA=
+Content-language: en-us
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Dec 2009 18:00:57 -0000
+
+Hi,
+I looked at the SDP you send, you are seeing two RTP streams, one for each
+direction. Since both sides talk than you see one RTP steam from 8.15.244.11
+in one direction to port 10766 and one from 64.156.174.71 going to the other
+direction to port 19612
+
+Roni Even
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> Christer Holmberg
+> Sent: Thursday, December 10, 2009 3:54 PM
+> To: Nitin Kapoor; sip@ietf.org
+> Subject: Re: [Sip] Two Media Stream in One call
+> 
+> 
+> Hi,
+> 
+> It is possible.
+> 
+> In theory this could be done with a single c- line, because SDP only
+> talks about where media is to be sent - not where it comes from.
+> 
+> In reality, however, I assume this is a case where each m- line has its
+> own c- line, each with a different IP address.
+> 
+> Regards,
+> 
+> Christer
+> 
+> 
+> -----Original Message-----
+> From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+> Sent: Thu 12/10/2009 2:10 PM
+> To: sip@ietf.org
+> Subject: [Sip] Two Media Stream in One call
+> 
+> Hello All,
+> 
+> I am facing the issue with one of my customer where he is getting two
+> media
+> streams in one call and they are using SBC(Nextone)
+> 
+> I checked the signaling traces and everything looks okay to me as well
+> as
+> the RTP traces too.
+> 
+> As per the traces one  RTP packet is going from 64.156.174.71 and the
+> other
+> is coming from 8.15.244.11.
+> 
+> Could you please let me know is it possible where i can have the two
+> media
+> streams in one call when this is the not the conference call. And if
+> this is
+> possible then what is the scenario where its possible.
+> 
+> Please find the attached traces for the same.
+> 
+> Thanks,
+> Nitin Kapoor
+> General Telecom
+> 
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+
+From nitinkapoorr@gmail.com  Thu Dec 10 10:03:23 2009
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 96F0B3A6B41 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 10:03:23 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.458
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.458 tagged_above=-999 required=5 tests=[AWL=0.140,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id F4YnFytOA1D9 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 10:03:22 -0800 (PST)
+Received: from qw-out-2122.google.com (qw-out-2122.google.com [74.125.92.24]) by core3.amsl.com (Postfix) with ESMTP id 5254B3A6B0B for <sip@ietf.org>; Thu, 10 Dec 2009 10:03:22 -0800 (PST)
+Received: by qw-out-2122.google.com with SMTP id 9so18507qwb.17 for <sip@ietf.org>; Thu, 10 Dec 2009 10:03:08 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=hAJ1wgvNbMqn/h1IlL+CzefBR2IemTgg3e5C6T1WuCI=; b=GKG3oII3qeuKhuNt3PoKFON4AZnsT11hJT4pHx0JP1JnWNLx86L08xEJL8ButDgiye QGQJyXfBB1/rrSurUyIXm3NE6pRH1B1fjfhoRMckk3UNpSDSJ5W05xOXMzu00CCYR8Jg 3aWgNx6v45dQB0JU+8KWEP0Tca6KmTMLfJwEI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=gvHAFIth/6gVQD0vrkZw8y5ZFJy1O7XzRvPNN7nYwWpMV4C1BZufxkyXVv32x3meTh z2V4wSKwaHOOi1cm86kZzgF+X+DqZsw05wg9boRUzYpeXfqooCT7cSngXTBpg62nJcco UbMrmnEXVyPj+MPjnYcEqs9c5GhvdjaVIMNjk=
+MIME-Version: 1.0
+Received: by 10.229.33.70 with SMTP id g6mr128549qcd.75.1260468188311; Thu, 10  Dec 2009 10:03:08 -0800 (PST)
+In-Reply-To: <4b213744.06e2660a.5909.37ce@mx.google.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se> <4b213744.06e2660a.5909.37ce@mx.google.com>
+Date: Thu, 10 Dec 2009 13:03:07 -0500
+Message-ID: <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: Roni Even <ron.even.tlv@gmail.com>
+Content-Type: multipart/alternative; boundary=0016368342589d700c047a639ece
+Cc: sip@ietf.org, Christer Holmberg <christer.holmberg@ericsson.com>
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Dec 2009 18:03:23 -0000
+
+--0016368342589d700c047a639ece
+Content-Type: text/plain; charset=ISO-8859-1
+
+Roni,
+
+So is that the normal call.. I mean is it possible or you have seen any
+issue into it..
+
+Please help me on this.
+
+Thanks,
+Nitin Kapoor
+
+2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+
+> Hi,
+> I looked at the SDP you send, you are seeing two RTP streams, one for each
+> direction. Since both sides talk than you see one RTP steam from
+> 8.15.244.11
+> in one direction to port 10766 and one from 64.156.174.71 going to the
+> other
+> direction to port 19612
+>
+> Roni Even
+>
+> > -----Original Message-----
+> > From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+> > Christer Holmberg
+> > Sent: Thursday, December 10, 2009 3:54 PM
+> > To: Nitin Kapoor; sip@ietf.org
+> > Subject: Re: [Sip] Two Media Stream in One call
+> >
+> >
+> > Hi,
+> >
+> > It is possible.
+> >
+> > In theory this could be done with a single c- line, because SDP only
+> > talks about where media is to be sent - not where it comes from.
+> >
+> > In reality, however, I assume this is a case where each m- line has its
+> > own c- line, each with a different IP address.
+> >
+> > Regards,
+> >
+> > Christer
+> >
+> >
+> > -----Original Message-----
+> > From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+> > Sent: Thu 12/10/2009 2:10 PM
+> > To: sip@ietf.org
+> > Subject: [Sip] Two Media Stream in One call
+> >
+> > Hello All,
+> >
+> > I am facing the issue with one of my customer where he is getting two
+> > media
+> > streams in one call and they are using SBC(Nextone)
+> >
+> > I checked the signaling traces and everything looks okay to me as well
+> > as
+> > the RTP traces too.
+> >
+> > As per the traces one  RTP packet is going from 64.156.174.71 and the
+> > other
+> > is coming from 8.15.244.11.
+> >
+> > Could you please let me know is it possible where i can have the two
+> > media
+> > streams in one call when this is the not the conference call. And if
+> > this is
+> > possible then what is the scenario where its possible.
+> >
+> > Please find the attached traces for the same.
+> >
+> > Thanks,
+> > Nitin Kapoor
+> > General Telecom
+> >
+> > _______________________________________________
+> > Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> > This list is for NEW development of the core SIP Protocol
+> > Use sip-implementors@cs.columbia.edu for questions on current sip
+> > Use sipping@ietf.org for new developments on the application of sip
+>
+>
+
+--0016368342589d700c047a639ece
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Roni,<br><br>So is that the normal call.. I mean is it possible or you have=
+ seen any issue into it..<br><br>Please help me on this.<br><br>Thanks,<br>=
+Nitin Kapoor<br><br><div class=3D"gmail_quote">2009/12/10 Roni Even <span d=
+ir=3D"ltr">&lt;<a href=3D"mailto:ron.even.tlv@gmail.com">ron.even.tlv@gmail=
+.com</a>&gt;</span><br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">Hi,<br>
+I looked at the SDP you send, you are seeing two RTP streams, one for each<=
+br>
+direction. Since both sides talk than you see one RTP steam from 8.15.244.1=
+1<br>
+in one direction to port 10766 and one from 64.156.174.71 going to the othe=
+r<br>
+direction to port 19612<br>
+<br>
+Roni Even<br>
+<div class=3D"im"><br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>=
+ [mailto:<a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>] =
+On Behalf Of<br>
+</div><div><div></div><div class=3D"h5">&gt; Christer Holmberg<br>
+&gt; Sent: Thursday, December 10, 2009 3:54 PM<br>
+&gt; To: Nitin Kapoor; <a href=3D"mailto:sip@ietf.org">sip@ietf.org</a><br>
+&gt; Subject: Re: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt;<br>
+&gt; Hi,<br>
+&gt;<br>
+&gt; It is possible.<br>
+&gt;<br>
+&gt; In theory this could be done with a single c- line, because SDP only<b=
+r>
+&gt; talks about where media is to be sent - not where it comes from.<br>
+&gt;<br>
+&gt; In reality, however, I assume this is a case where each m- line has it=
+s<br>
+&gt; own c- line, each with a different IP address.<br>
+&gt;<br>
+&gt; Regards,<br>
+&gt;<br>
+&gt; Christer<br>
+&gt;<br>
+&gt;<br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>=
+ on behalf of Nitin Kapoor<br>
+&gt; Sent: Thu 12/10/2009 2:10 PM<br>
+&gt; To: <a href=3D"mailto:sip@ietf.org">sip@ietf.org</a><br>
+&gt; Subject: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt; Hello All,<br>
+&gt;<br>
+&gt; I am facing the issue with one of my customer where he is getting two<=
+br>
+&gt; media<br>
+&gt; streams in one call and they are using SBC(Nextone)<br>
+&gt;<br>
+&gt; I checked the signaling traces and everything looks okay to me as well=
+<br>
+&gt; as<br>
+&gt; the RTP traces too.<br>
+&gt;<br>
+&gt; As per the traces one =A0RTP packet is going from 64.156.174.71 and th=
+e<br>
+&gt; other<br>
+&gt; is coming from 8.15.244.11.<br>
+&gt;<br>
+&gt; Could you please let me know is it possible where i can have the two<b=
+r>
+&gt; media<br>
+&gt; streams in one call when this is the not the conference call. And if<b=
+r>
+&gt; this is<br>
+&gt; possible then what is the scenario where its possible.<br>
+&gt;<br>
+&gt; Please find the attached traces for the same.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt; General Telecom<br>
+&gt;<br>
+</div></div>&gt; _______________________________________________<br>
+&gt; Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/s=
+ip" target=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+&gt; This list is for NEW development of the core SIP Protocol<br>
+&gt; Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implemento=
+rs@cs.columbia.edu</a> for questions on current sip<br>
+&gt; Use <a href=3D"mailto:sipping@ietf.org">sipping@ietf.org</a> for new d=
+evelopments on the application of sip<br>
+<br>
+</blockquote></div><br>
+
+--0016368342589d700c047a639ece--
+
+From ron.even.tlv@gmail.com  Thu Dec 10 10:36:33 2009
+Return-Path: <ron.even.tlv@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C52353A6816 for <sip@core3.amsl.com>; Thu, 10 Dec 2009 10:36:33 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.598 tagged_above=-999 required=5 tests=[AWL=-0.000, BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id f9OVVCPaaPMv for <sip@core3.amsl.com>; Thu, 10 Dec 2009 10:36:32 -0800 (PST)
+Received: from mail-fx0-f213.google.com (mail-fx0-f213.google.com [209.85.220.213]) by core3.amsl.com (Postfix) with ESMTP id 178113A6801 for <sip@ietf.org>; Thu, 10 Dec 2009 10:36:31 -0800 (PST)
+Received: by fxm5 with SMTP id 5so192957fxm.28 for <sip@ietf.org>; Thu, 10 Dec 2009 10:36:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:from:to:cc:references :in-reply-to:subject:date:message-id:mime-version:content-type :x-mailer:thread-index:content-language; bh=ZJN5FJm7OTwCVcdS7gf2Fd8LdBAIGRwUS0LEutShNDQ=; b=SF3WjC1uvdt2sJRgDPXjxNre4HcDRn/L5/Ha810AdBz4NsODWp14R4L/vkJ3KwjQ0y a7wiS17uyPoACuSVFGUrd9aj0Ooao17vuO0N1avCX0pqB1Ny8mWuxQcwdD9cVCIn6nyo YggwJYUeVmVRPbj1zyiToRQ5cY5UiRWtZIxIs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=from:to:cc:references:in-reply-to:subject:date:message-id :mime-version:content-type:x-mailer:thread-index:content-language; b=QPxRCTfiPwx3+D3Y5PY/cEha7JLzZKBMcuGqoQadmhQDS7W7dAxeny7jUJ74Hr7fkc Qiqo74fVTNe5hDtOzbfgrhDEyIsm8vSMTTQt1euyYKkgBt5ANI/aA8fuY6hzlsAkeb1Z uI7QBlwSIcViGoU4cfBYFhkko3ffaL+jmuEkc=
+Received: by 10.223.5.18 with SMTP id 18mr302043fat.58.1260470177488; Thu, 10 Dec 2009 10:36:17 -0800 (PST)
+Received: from windows8d787f9 (bzq-79-176-46-225.red.bezeqint.net [79.176.46.225]) by mx.google.com with ESMTPS id 15sm430394fxm.6.2009.12.10.10.36.09 (version=TLSv1/SSLv3 cipher=RC4-MD5); Thu, 10 Dec 2009 10:36:14 -0800 (PST)
+From: "Roni Even" <ron.even.tlv@gmail.com>
+To: "'Nitin Kapoor'" <nitinkapoorr@gmail.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com>	 <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se>	 <4b213744.06e2660a.5909.37ce@mx.google.com> <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com>
+In-Reply-To: <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com>
+Date: Thu, 10 Dec 2009 20:33:10 +0200
+Message-ID: <4b213f9e.0f0db80a.58b0.2ebc@mx.google.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_0081_01CA79D7.FF2A4410"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-index: Acp5wwc1kgiyJhNPQWKrpKSmdphFGwAA/2Pw
+Content-language: en-us
+Cc: sip@ietf.org, 'Christer Holmberg' <christer.holmberg@ericsson.com>
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 10 Dec 2009 18:36:33 -0000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0081_01CA79D7.FF2A4410
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+This is a normal call, RTP is unidirectional and this is why you see two RTP
+streams one from each side for each media channel.
+
+Roni
+
+ 
+
+From: Nitin Kapoor [mailto:nitinkapoorr@gmail.com] 
+Sent: Thursday, December 10, 2009 8:03 PM
+To: Roni Even
+Cc: Christer Holmberg; sip@ietf.org
+Subject: Re: [Sip] Two Media Stream in One call
+
+ 
+
+Roni,
+
+So is that the normal call.. I mean is it possible or you have seen any
+issue into it..
+
+Please help me on this.
+
+Thanks,
+Nitin Kapoor
+
+2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+
+Hi,
+I looked at the SDP you send, you are seeing two RTP streams, one for each
+direction. Since both sides talk than you see one RTP steam from 8.15.244.11
+in one direction to port 10766 and one from 64.156.174.71 going to the other
+direction to port 19612
+
+Roni Even
+
+
+> -----Original Message-----
+> From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+
+> Christer Holmberg
+> Sent: Thursday, December 10, 2009 3:54 PM
+> To: Nitin Kapoor; sip@ietf.org
+> Subject: Re: [Sip] Two Media Stream in One call
+>
+>
+> Hi,
+>
+> It is possible.
+>
+> In theory this could be done with a single c- line, because SDP only
+> talks about where media is to be sent - not where it comes from.
+>
+> In reality, however, I assume this is a case where each m- line has its
+> own c- line, each with a different IP address.
+>
+> Regards,
+>
+> Christer
+>
+>
+> -----Original Message-----
+> From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+> Sent: Thu 12/10/2009 2:10 PM
+> To: sip@ietf.org
+> Subject: [Sip] Two Media Stream in One call
+>
+> Hello All,
+>
+> I am facing the issue with one of my customer where he is getting two
+> media
+> streams in one call and they are using SBC(Nextone)
+>
+> I checked the signaling traces and everything looks okay to me as well
+> as
+> the RTP traces too.
+>
+> As per the traces one  RTP packet is going from 64.156.174.71 and the
+> other
+> is coming from 8.15.244.11.
+>
+> Could you please let me know is it possible where i can have the two
+> media
+> streams in one call when this is the not the conference call. And if
+> this is
+> possible then what is the scenario where its possible.
+>
+> Please find the attached traces for the same.
+>
+> Thanks,
+> Nitin Kapoor
+> General Telecom
+>
+
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+
+ 
+
+
+------=_NextPart_000_0081_01CA79D7.FF2A4410
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'>This is a normal call, RTP is unidirectional and this is =
+why you
+see two RTP streams one from each side for each media =
+channel.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'>Roni<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div style=3D'border:none;border-left:solid blue 1.5pt;padding:0in 0in =
+0in 4.0pt'>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt =
+0in 0in 0in'>
+
+<p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> Nitin =
+Kapoor
+[mailto:nitinkapoorr@gmail.com] <br>
+<b>Sent:</b> Thursday, December 10, 2009 8:03 PM<br>
+<b>To:</b> Roni Even<br>
+<b>Cc:</b> Christer Holmberg; sip@ietf.org<br>
+<b>Subject:</b> Re: [Sip] Two Media Stream in One =
+call<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'>Roni,<br>
+<br>
+So is that the normal call.. I mean is it possible or you have seen any =
+issue
+into it..<br>
+<br>
+Please help me on this.<br>
+<br>
+Thanks,<br>
+Nitin Kapoor<o:p></o:p></p>
+
+<div>
+
+<p class=3DMsoNormal>2009/12/10 Roni Even &lt;<a
+href=3D"mailto:ron.even.tlv@gmail.com">ron.even.tlv@gmail.com</a>&gt;<o:p=
+></o:p></p>
+
+<p class=3DMsoNormal>Hi,<br>
+I looked at the SDP you send, you are seeing two RTP streams, one for =
+each<br>
+direction. Since both sides talk than you see one RTP steam from =
+8.15.244.11<br>
+in one direction to port 10766 and one from 64.156.174.71 going to the =
+other<br>
+direction to port 19612<br>
+<br>
+Roni Even<o:p></o:p></p>
+
+<div>
+
+<p class=3DMsoNormal><br>
+&gt; -----Original Message-----<br>
+&gt; From: <a =
+href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>
+[mailto:<a =
+href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a>] On
+Behalf Of<o:p></o:p></p>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal>&gt; Christer Holmberg<br>
+&gt; Sent: Thursday, December 10, 2009 3:54 PM<br>
+&gt; To: Nitin Kapoor; <a =
+href=3D"mailto:sip@ietf.org">sip@ietf.org</a><br>
+&gt; Subject: Re: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt;<br>
+&gt; Hi,<br>
+&gt;<br>
+&gt; It is possible.<br>
+&gt;<br>
+&gt; In theory this could be done with a single c- line, because SDP =
+only<br>
+&gt; talks about where media is to be sent - not where it comes =
+from.<br>
+&gt;<br>
+&gt; In reality, however, I assume this is a case where each m- line has =
+its<br>
+&gt; own c- line, each with a different IP address.<br>
+&gt;<br>
+&gt; Regards,<br>
+&gt;<br>
+&gt; Christer<br>
+&gt;<br>
+&gt;<br>
+&gt; -----Original Message-----<br>
+&gt; From: <a =
+href=3D"mailto:sip-bounces@ietf.org">sip-bounces@ietf.org</a> on
+behalf of Nitin Kapoor<br>
+&gt; Sent: Thu 12/10/2009 2:10 PM<br>
+&gt; To: <a href=3D"mailto:sip@ietf.org">sip@ietf.org</a><br>
+&gt; Subject: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt; Hello All,<br>
+&gt;<br>
+&gt; I am facing the issue with one of my customer where he is getting =
+two<br>
+&gt; media<br>
+&gt; streams in one call and they are using SBC(Nextone)<br>
+&gt;<br>
+&gt; I checked the signaling traces and everything looks okay to me as =
+well<br>
+&gt; as<br>
+&gt; the RTP traces too.<br>
+&gt;<br>
+&gt; As per the traces one &nbsp;RTP packet is going from 64.156.174.71 =
+and the<br>
+&gt; other<br>
+&gt; is coming from 8.15.244.11.<br>
+&gt;<br>
+&gt; Could you please let me know is it possible where i can have the =
+two<br>
+&gt; media<br>
+&gt; streams in one call when this is the not the conference call. And =
+if<br>
+&gt; this is<br>
+&gt; possible then what is the scenario where its possible.<br>
+&gt;<br>
+&gt; Please find the attached traces for the same.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt; General Telecom<br>
+&gt;<o:p></o:p></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'>&gt;
+_______________________________________________<br>
+&gt; Sip mailing list &nbsp;<a =
+href=3D"https://www.ietf.org/mailman/listinfo/sip"
+target=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+&gt; This list is for NEW development of the core SIP Protocol<br>
+&gt; Use <a =
+href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs.colu=
+mbia.edu</a>
+for questions on current sip<br>
+&gt; Use <a href=3D"mailto:sipping@ietf.org">sipping@ietf.org</a> for =
+new
+developments on the application of sip<o:p></o:p></p>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0081_01CA79D7.FF2A4410--
+
+
+From nitinkapoorr@gmail.com  Wed Dec 16 14:12:42 2009
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 3A1473A69FB for <sip@core3.amsl.com>; Wed, 16 Dec 2009 14:12:42 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.504
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.504 tagged_above=-999 required=5 tests=[AWL=0.094,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Glx8P8-dp305 for <sip@core3.amsl.com>; Wed, 16 Dec 2009 14:12:40 -0800 (PST)
+Received: from qw-out-2122.google.com (qw-out-2122.google.com [74.125.92.24]) by core3.amsl.com (Postfix) with ESMTP id 808EC3A6A5F for <sip@ietf.org>; Wed, 16 Dec 2009 14:12:40 -0800 (PST)
+Received: by qw-out-2122.google.com with SMTP id 9so311323qwb.31 for <sip@ietf.org>; Wed, 16 Dec 2009 14:12:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=sKJoWv4K6RpUJyiJqLNAQKFRE7+8VlOvhv4y3l/dlyE=; b=azhpx2FEkRQYi88Tg3CxLRnwQvbc/Hi5/tBsI6UUY6RO3JRXLF9d7h3uvEklo3beiI Y7Tr2J9+0AuUc3pC2iEK910g3IVDJh9+yFBM3l9uVmplNfPzeqN4ebSR0hDgRLFS364D 2XrT2bKM3kcQ6MZ2c9+Li/jPeVohe3MkZZAPE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=giNmbKOzjN42NXx64qVh28z1j3X0WCUzRkAr5vcvFR6hPfzIoeJcm2JrQtNjn9XG3j o9LyA1/ap7s6yFfap9sxOuxT5iJyAOR8VIf8/FJMV5lhv6CilE2FQonYxrn+HLCRNqmo 5f9nFRdC+7eaUByUS0lmRSTiVqIOXtX4Ufe6Q=
+MIME-Version: 1.0
+Received: by 10.229.23.83 with SMTP id q19mr961466qcb.37.1261001543148; Wed,  16 Dec 2009 14:12:23 -0800 (PST)
+In-Reply-To: <4b213f9e.0f0db80a.58b0.2ebc@mx.google.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se> <4b213744.06e2660a.5909.37ce@mx.google.com> <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com> <4b213f9e.0f0db80a.58b0.2ebc@mx.google.com>
+Date: Wed, 16 Dec 2009 17:12:23 -0500
+Message-ID: <c80c92d0912161412v4cbabb8gbef30536e36a92c8@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: Roni Even <ron.even.tlv@gmail.com>
+Content-Type: multipart/alternative; boundary=00163641704b0a63e7047adfcdcd
+Cc: sip@ietf.org, Christer Holmberg <christer.holmberg@ericsson.com>
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 16 Dec 2009 22:12:42 -0000
+
+--00163641704b0a63e7047adfcdcd
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello Roni,
+
+I still have the doubt.. the point you have mentioned that the the RTP is
+the unidirectional and because of that it is showing me two RTP streams.
+
+But if we are decoding the RTP packets and whenever i am trying to hear the
+messages then i can see that both have the different conversion..which is
+confusing me lot... because without CONFERENCE call how one call have two
+different conversion or RTP stream  in one dialog...
+
+Please correct me if i am wrong.
+
+Thanks,
+Nitin Kapoor
+
+2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+
+>  This is a normal call, RTP is unidirectional and this is why you see two
+> RTP streams one from each side for each media channel.
+>
+> Roni
+>
+>
+>
+> *From:* Nitin Kapoor [mailto:nitinkapoorr@gmail.com]
+> *Sent:* Thursday, December 10, 2009 8:03 PM
+> *To:* Roni Even
+> *Cc:* Christer Holmberg; sip@ietf.org
+>
+> *Subject:* Re: [Sip] Two Media Stream in One call
+>
+>
+>
+> Roni,
+>
+> So is that the normal call.. I mean is it possible or you have seen any
+> issue into it..
+>
+> Please help me on this.
+>
+> Thanks,
+> Nitin Kapoor
+>
+> 2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+>
+> Hi,
+> I looked at the SDP you send, you are seeing two RTP streams, one for each
+> direction. Since both sides talk than you see one RTP steam from
+> 8.15.244.11
+> in one direction to port 10766 and one from 64.156.174.71 going to the
+> other
+> direction to port 19612
+>
+> Roni Even
+>
+>
+> > -----Original Message-----
+> > From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+>
+> > Christer Holmberg
+> > Sent: Thursday, December 10, 2009 3:54 PM
+> > To: Nitin Kapoor; sip@ietf.org
+> > Subject: Re: [Sip] Two Media Stream in One call
+> >
+> >
+> > Hi,
+> >
+> > It is possible.
+> >
+> > In theory this could be done with a single c- line, because SDP only
+> > talks about where media is to be sent - not where it comes from.
+> >
+> > In reality, however, I assume this is a case where each m- line has its
+> > own c- line, each with a different IP address.
+> >
+> > Regards,
+> >
+> > Christer
+> >
+> >
+> > -----Original Message-----
+> > From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+> > Sent: Thu 12/10/2009 2:10 PM
+> > To: sip@ietf.org
+> > Subject: [Sip] Two Media Stream in One call
+> >
+> > Hello All,
+> >
+> > I am facing the issue with one of my customer where he is getting two
+> > media
+> > streams in one call and they are using SBC(Nextone)
+> >
+> > I checked the signaling traces and everything looks okay to me as well
+> > as
+> > the RTP traces too.
+> >
+> > As per the traces one  RTP packet is going from 64.156.174.71 and the
+> > other
+> > is coming from 8.15.244.11.
+> >
+> > Could you please let me know is it possible where i can have the two
+> > media
+> > streams in one call when this is the not the conference call. And if
+> > this is
+> > possible then what is the scenario where its possible.
+> >
+> > Please find the attached traces for the same.
+> >
+> > Thanks,
+> > Nitin Kapoor
+> > General Telecom
+> >
+>
+> > _______________________________________________
+> > Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> > This list is for NEW development of the core SIP Protocol
+> > Use sip-implementors@cs.columbia.edu for questions on current sip
+> > Use sipping@ietf.org for new developments on the application of sip
+>
+>
+>
+
+--00163641704b0a63e7047adfcdcd
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello Roni,<br><br>I still have the doubt.. the point you have mentioned th=
+at the the RTP is the unidirectional and because of that it is showing me t=
+wo RTP streams. <br><br>But if we are decoding the RTP packets and whenever=
+ i am trying to hear the messages then i can see that both have the differe=
+nt conversion..which is confusing me lot... because without CONFERENCE call=
+ how one call have two different conversion or RTP stream=A0 in one dialog.=
+..<br>
+<br>Please correct me if i am wrong.<br><br>Thanks,<br>Nitin Kapoor<br><br>=
+<div class=3D"gmail_quote">2009/12/10 Roni Even <span dir=3D"ltr">&lt;<a hr=
+ef=3D"mailto:ron.even.tlv@gmail.com">ron.even.tlv@gmail.com</a>&gt;</span><=
+br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+
+
+
+
+
+
+
+
+<div link=3D"blue" vlink=3D"purple" lang=3D"EN-US">
+
+<div>
+
+<p class=3D"MsoNormal"><span style=3D"font-size: 11pt; color: rgb(31, 73, 1=
+25);">This is a normal call, RTP is unidirectional and this is why you
+see two RTP streams one from each side for each media channel.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size: 11pt; color: rgb(31, 73, 1=
+25);">Roni</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size: 11pt; color: rgb(31, 73, 1=
+25);">=A0</span></p>
+
+<div style=3D"border-style: none none none solid; border-color: -moz-use-te=
+xt-color -moz-use-text-color -moz-use-text-color blue; border-width: medium=
+ medium medium 1.5pt; padding: 0in 0in 0in 4pt;">
+
+<div>
+
+<div style=3D"border-style: solid none none; border-color: rgb(181, 196, 22=
+3) -moz-use-text-color -moz-use-text-color; border-width: 1pt medium medium=
+; padding: 3pt 0in 0in;">
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 10pt;">From:</span></b>=
+<span style=3D"font-size: 10pt;"> Nitin Kapoor
+[mailto:<a href=3D"mailto:nitinkapoorr@gmail.com" target=3D"_blank">nitinka=
+poorr@gmail.com</a>] <br>
+<b>Sent:</b> Thursday, December 10, 2009 8:03 PM<br>
+<b>To:</b> Roni Even<br>
+<b>Cc:</b> Christer Holmberg; <a href=3D"mailto:sip@ietf.org" target=3D"_bl=
+ank">sip@ietf.org</a><div><div></div><div class=3D"h5"><br>
+<b>Subject:</b> Re: [Sip] Two Media Stream in One call</div></div></span></=
+p>
+
+</div>
+
+</div><div><div></div><div class=3D"h5">
+
+<p class=3D"MsoNormal">=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;">Roni,<br>
+<br>
+So is that the normal call.. I mean is it possible or you have seen any iss=
+ue
+into it..<br>
+<br>
+Please help me on this.<br>
+<br>
+Thanks,<br>
+Nitin Kapoor</p>
+
+<div>
+
+<p class=3D"MsoNormal">2009/12/10 Roni Even &lt;<a href=3D"mailto:ron.even.=
+tlv@gmail.com" target=3D"_blank">ron.even.tlv@gmail.com</a>&gt;</p>
+
+<p class=3D"MsoNormal">Hi,<br>
+I looked at the SDP you send, you are seeing two RTP streams, one for each<=
+br>
+direction. Since both sides talk than you see one RTP steam from 8.15.244.1=
+1<br>
+in one direction to port 10766 and one from 64.156.174.71 going to the othe=
+r<br>
+direction to port 19612<br>
+<br>
+Roni Even</p>
+
+<div>
+
+<p class=3D"MsoNormal"><br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bo=
+unces@ietf.org</a>
+[mailto:<a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bounc=
+es@ietf.org</a>] On
+Behalf Of</p>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3D"MsoNormal">&gt; Christer Holmberg<br>
+&gt; Sent: Thursday, December 10, 2009 3:54 PM<br>
+&gt; To: Nitin Kapoor; <a href=3D"mailto:sip@ietf.org" target=3D"_blank">si=
+p@ietf.org</a><br>
+&gt; Subject: Re: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt;<br>
+&gt; Hi,<br>
+&gt;<br>
+&gt; It is possible.<br>
+&gt;<br>
+&gt; In theory this could be done with a single c- line, because SDP only<b=
+r>
+&gt; talks about where media is to be sent - not where it comes from.<br>
+&gt;<br>
+&gt; In reality, however, I assume this is a case where each m- line has it=
+s<br>
+&gt; own c- line, each with a different IP address.<br>
+&gt;<br>
+&gt; Regards,<br>
+&gt;<br>
+&gt; Christer<br>
+&gt;<br>
+&gt;<br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bo=
+unces@ietf.org</a> on
+behalf of Nitin Kapoor<br>
+&gt; Sent: Thu 12/10/2009 2:10 PM<br>
+&gt; To: <a href=3D"mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a>=
+<br>
+&gt; Subject: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt; Hello All,<br>
+&gt;<br>
+&gt; I am facing the issue with one of my customer where he is getting two<=
+br>
+&gt; media<br>
+&gt; streams in one call and they are using SBC(Nextone)<br>
+&gt;<br>
+&gt; I checked the signaling traces and everything looks okay to me as well=
+<br>
+&gt; as<br>
+&gt; the RTP traces too.<br>
+&gt;<br>
+&gt; As per the traces one =A0RTP packet is going from 64.156.174.71 and th=
+e<br>
+&gt; other<br>
+&gt; is coming from 8.15.244.11.<br>
+&gt;<br>
+&gt; Could you please let me know is it possible where i can have the two<b=
+r>
+&gt; media<br>
+&gt; streams in one call when this is the not the conference call. And if<b=
+r>
+&gt; this is<br>
+&gt; possible then what is the scenario where its possible.<br>
+&gt;<br>
+&gt; Please find the attached traces for the same.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt; General Telecom<br>
+&gt;</p>
+
+</div>
+
+</div>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;">&gt;
+_______________________________________________<br>
+&gt; Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/s=
+ip" target=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+&gt; This list is for NEW development of the core SIP Protocol<br>
+&gt; Use <a href=3D"mailto:sip-implementors@cs.columbia.edu" target=3D"_bla=
+nk">sip-implementors@cs.columbia.edu</a>
+for questions on current sip<br>
+&gt; Use <a href=3D"mailto:sipping@ietf.org" target=3D"_blank">sipping@ietf=
+.org</a> for new
+developments on the application of sip</p>
+
+</div>
+
+<p class=3D"MsoNormal">=A0</p>
+
+</div></div></div>
+
+</div>
+
+</div>
+
+
+</blockquote></div><br>
+
+--00163641704b0a63e7047adfcdcd--
+
+From shivalk_80@yahoo.co.in  Wed Dec 16 22:35:24 2009
+Return-Path: <shivalk_80@yahoo.co.in>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 38A473A6AA1 for <sip@core3.amsl.com>; Wed, 16 Dec 2009 22:35:24 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 4.495
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.495 tagged_above=-999 required=5 tests=[BAYES_99=3.5, HTML_MESSAGE=0.001, RELAY_IS_203=0.994]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 3QjLoDTeiGH6 for <sip@core3.amsl.com>; Wed, 16 Dec 2009 22:35:23 -0800 (PST)
+Received: from web94801.mail.in2.yahoo.com (web94801.mail.in2.yahoo.com [203.104.17.135]) by core3.amsl.com (Postfix) with SMTP id 0B6C93A6A62 for <sip@ietf.org>; Wed, 16 Dec 2009 22:35:22 -0800 (PST)
+Received: (qmail 21824 invoked by uid 60001); 17 Dec 2009 06:35:03 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.co.in; s=s1024; t=1261031703; bh=adof0ZfCrik/k8WrjAi7iAI5nx8WgUn3XxHz7lmE9F0=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type; b=3dPN6s+EfqKXA/xpR/An17mauzSJ7F5M0lk0qtzQUsr8Xc50EwAos3cJWUEYe2/ZO6VJ9871yrSLrSDAoecjZZ55JrWf7GFaebOKWfCk5Wp22EGswm2bpMPzWsDUHBWQ6Odu94zY6i6UM2Z1sh1my3SvPZIQ0xg9Nk+O2CR3FDw=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.co.in; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type; b=V4+O2CRbsm4iKvXilZQw46/2mwH6bGGdWLxk36cI+/OUNQ1f/AeqgYGUJUtjZGQnv+a/gTq5CcZd6G9m6dhf/pTV3IEMcLu2MVHpxxjWB/7mBrLQYuIBwW8J5iJojfDySu/k6jEkZ1bYHvxD7JtpAyLhxM3XCe+sPwe+rnk0Imw=;
+Message-ID: <633819.21045.qm@web94801.mail.in2.yahoo.com>
+X-YMail-OSG: iE7IvE0VM1mcnFl9e35Bg8LpNs54UJIWMPPyuFmZqqQV6O4fvhwrfixcRE9MGtLob9OwZEMli4NPiw8Jr7sgyqQIqQ_VIyEqmJK6S0LszrzV6EDvYnICEnv8zfl4nMU8HTtMcjKkdssbQM0U9A2jk_K1hIdHYSfPykBBfXPUs88MweiWDeVI.WzAz95m446kdiS..1pl3pDxRkqABQJD1S8ryFL4QeUlVAPuuKx4DW7emuohlYGekjAmRnk1gnFFxc6EvRht1VB4OH_aVEsOEsPEbJlDuNg100Xr0UGej_P0eF6zNeUtfGpUxxCj7134gMwgv54-
+Received: from [203.84.220.46] by web94801.mail.in2.yahoo.com via HTTP; Thu, 17 Dec 2009 12:05:03 IST
+X-Mailer: YahooMailClassic/9.0.19 YahooMailWebService/0.8.100.260964
+Date: Thu, 17 Dec 2009 12:05:03 +0530 (IST)
+From: atul garg <shivalk_80@yahoo.co.in>
+To: sip@ietf.org
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-1088832150-1261031703=:21045"
+Subject: [Sip] SIP over SCTP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 17 Dec 2009 06:35:24 -0000
+
+--0-1088832150-1261031703=:21045
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi All,
+
+Can I ahve some frame of SIP which is coming over SCTP ? Or some pointer fr=
+om where I can have it?/
+
+Regards
+Atul
+=0A=0A=0A      The INTERNET now has a personality. YOURS! See your Yahoo! H=
+omepage. http://in.yahoo.com/
+--0-1088832150-1261031703=:21045
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;">Hi All,<br><br>Can I ahve some frame of SIP w=
+hich is coming over SCTP ? Or some pointer from where I can have it?/<br><b=
+r>Regards<br>Atul<br></td></tr></table><br>=0A=0A=0A=0A      <!--1--><hr si=
+ze=3D1></hr> =0AThe INTERNET now has a personality. YOURS! <a href=3D"http:=
+//in.rd.yahoo.com/tagline_yyi_1/*http://in.yahoo.com/" target=3D"_blank">Se=
+e your Yahoo! Homepage</a>.
+--0-1088832150-1261031703=:21045--
+
+From tfroment@yahoo.com  Thu Dec 17 00:10:56 2009
+Return-Path: <tfroment@yahoo.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id B2EE93A6B2E for <sip@core3.amsl.com>; Thu, 17 Dec 2009 00:10:56 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.002
+X-Spam-Level: 
+X-Spam-Status: No, score=0.002 tagged_above=-999 required=5 tests=[BAYES_50=0.001, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id eygJk2hIYd+8 for <sip@core3.amsl.com>; Thu, 17 Dec 2009 00:10:55 -0800 (PST)
+Received: from web56802.mail.re3.yahoo.com (web56802.mail.re3.yahoo.com [66.196.97.76]) by core3.amsl.com (Postfix) with SMTP id 92B823A67B0 for <sip@ietf.org>; Thu, 17 Dec 2009 00:10:55 -0800 (PST)
+Received: (qmail 97294 invoked by uid 60001); 17 Dec 2009 08:10:37 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1261037437; bh=MQ9csmhP9M3Rl3CPp3LqqJpdfQyMVbJU8OBItBP33/w=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:MIME-Version:Content-Type; b=pKbFs9Dvc0NuC3RCgggkn8WSTHuTzaaLI4knAAgWLYB8S+j7YkZcH2jCSQqfDnb6nrOswOMEkNqMOIm2Mlv04GHSyHxFdzAMbLvt0gKSASVhPVAw6YnAIwKM4+ybV0zsva0cNclqHg3H6XT1KFB7wwqX499SEvKw+5s2quFNZ7o=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:MIME-Version:Content-Type; b=CzAvI2Yzgr6pKrebRYnisxA31P99+jQYmBz2/QtrvGopu1aNXFx85STcqC+nM2yuNJp1qG710kRS004J9NbHaifLaQ2NhsUIRi3hI8Zd7r3tdvg5U7hmDbuAzqKx9EoQ9D9oiuI6Iq/VH2n9J20DgaH5u669/6Wb0WXkTo3rhPw=;
+Message-ID: <724871.95800.qm@web56802.mail.re3.yahoo.com>
+X-YMail-OSG: pw33grsVM1movlm42a.LPSohnRtpSo2V_ITVaVtzXjyqwh_Aba.KoIOUCUdo87cmwjsClIFyT.iKi8AWohvizPDaOqu9ym7.Ws604GRiXG9i4hdqcg8a.BaOiufQTB9iWKOtZ5EU5a_fGy8XP5er_60gJUSgWocUokCWpCjs2sNppPS0nhml0F6ksn84mfJ5QodFlstPAB1jK912u9s2pgdGUR8qw14p4yNf2u6zxZqk.oWmnkb9ZDb0.Qrrn2dyg3yAhc4EK_OOuIPa1YTRZww9XcYBdXfut3lHOPD2Cxh7.OGEa_VnSnN96ZYKowtruBE7ldsHusUDWJfuuuJr_SDBAuDuxnteiFp4J8QpCEAPHi3V7ZFrBwzpyeyIO2egWjN3xjnom9eU8xwgS.wJJLjXm45SKKlrCvq9j0VPRfkzOOiAsMtP1FmOSo7DJE9M9r9iK1Qwg_RfuST595WDImmY5JkVT38wMgh5EdlBCR.2I9kEwtyySF._5J_s.ItIk0_wwvWEAxk-
+Received: from [87.248.121.165] by web56802.mail.re3.yahoo.com via HTTP; Thu, 17 Dec 2009 00:10:37 PST
+X-Mailer: YahooMailWebService/0.8.100.260964
+Date: Thu, 17 Dec 2009 00:10:37 -0800 (PST)
+From: Thomas Froment <tfroment@yahoo.com>
+To: atul garg <shivalk_80@yahoo.co.in>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-53107988-1261037437=:95800"
+Cc: "sip@ietf.org" <sip@ietf.org>
+Subject: Re: [Sip] SIP over SCTP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 17 Dec 2009 08:10:56 -0000
+
+--0-53107988-1261037437=:95800
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi, you have http://tools.ietf.org/html/rfc4168=0ABrds=0A=0AThomas=0A=0ALe =
+17 d=E9c. 2009 =E0 07:35, atul garg <shivalk_80@yahoo.co.in> a =E9crit :=0A=
+=0AHi All,=0A=0ACan I ahve some frame of SIP which is coming over SCTP ? Or=
+ some pointer from where I can have it?/=0A=0ARegards=0AAtul=0A=0AThe INTER=
+NET now has a personality. YOURS! See your Yahoo! Homepage.=0A_____________=
+__________________________________=0ASip mailing list  https://www.ietf.org=
+/mailman/listinfo/sip=0AThis list is for NEW development of the core SIP Pr=
+otocol=0AUse sip-implementors@cs.columbia.edu for questions on current sip=
+=0AUse sipping@ietf.org for new developments on the application of sip=0A=
+=0A=0A=0A      
+--0-53107988-1261037437=:95800
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body bgcolor=3D"#FFFFFF"><div>Hi, you have&nbsp;<a href=3D"http://to=
+ols.ietf.org/html/rfc4168"><a href=3D"http://tools.ietf.org/html/rfc4168">h=
+ttp://tools.ietf.org/html/rfc4168</a></a></div><div>Brds<br><br>Thomas</div=
+><div><br>Le 17 d=E9c. 2009 =E0 07:35, atul garg &lt;<a href=3D"mailto:shiv=
+alk_80@yahoo.co.in">shivalk_80@yahoo.co.in</a>&gt; a =E9crit&nbsp;:<br><br>=
+</div><div></div><blockquote type=3D"cite"><div><table cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0"><tbody><tr><td valign=3D"top" style=3D"font: i=
+nherit;">Hi All,<br><br>Can I ahve some frame of SIP which is coming over S=
+CTP ? Or some pointer from where I can have it?/<br><br>Regards<br>Atul<br>=
+</td></tr></tbody></table><br>=0A=0A=0A=0A      <!--1--><hr size=3D"1"> =0A=
+The INTERNET now has a personality. YOURS! <a href=3D"http://in.rd.yahoo.co=
+m/tagline_yyi_1/*http://in.yahoo.com/" target=3D"_blank">See your Yahoo! Ho=
+mepage</a>.</div></blockquote><blockquote type=3D"cite"><div><span>________=
+_______________________________________</span><br><span>Sip mailing list &n=
+bsp;<a href=3D"https://www.ietf.org/mailman/listinfo/sip"><a href=3D"https:=
+//www.ietf.org/mailman/listinfo/sip">https://www.ietf.org/mailman/listinfo/=
+sip</a></a></span><br><span>This list is for NEW development of the core SI=
+P Protocol</span><br><span>Use <a href=3D"mailto:sip-implementors@cs.columb=
+ia.edu">sip-implementors@cs.columbia.edu</a> for questions on current sip</=
+span><br><span>Use <a href=3D"mailto:sipping@ietf.org">sipping@ietf.org</a>=
+ for new developments on the application of sip</span></div></blockquote><b=
+r>=0A=0A=0A=0A=0A      </body></html>
+--0-53107988-1261037437=:95800--
+
+From victor.pascual.avila@gmail.com  Thu Dec 17 06:30:40 2009
+Return-Path: <victor.pascual.avila@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5C40A28C12E for <sip@core3.amsl.com>; Thu, 17 Dec 2009 06:30:40 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.549
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.549 tagged_above=-999 required=5 tests=[AWL=0.050,  BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id lZsVQLQ+1drB for <sip@core3.amsl.com>; Thu, 17 Dec 2009 06:30:39 -0800 (PST)
+Received: from mail-bw0-f223.google.com (mail-bw0-f223.google.com [209.85.218.223]) by core3.amsl.com (Postfix) with ESMTP id 2E81028C131 for <sip@ietf.org>; Thu, 17 Dec 2009 06:30:39 -0800 (PST)
+Received: by bwz23 with SMTP id 23so1562228bwz.29 for <sip@ietf.org>; Thu, 17 Dec 2009 06:30:21 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type :content-transfer-encoding; bh=+vfFEyUHieXanxyfemAZH6fWkZg0llmPpjVITfYNi3A=; b=po7uu6Lf1T4+wuvkcq0GaIXJv43MI7YUerB8PkKJ5J453wYIh38yLvE/PDB0DBs6zS aEGI6xl4Zvxk2uOZb1RKuWkzu1jz5nnGAcgGpF3StcvFXlL+keARTgWCWBGWWfLwZjId 7UTamgHccWvmrWCa4XiBESW0Pm+fbmsvsWwlk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type:content-transfer-encoding; b=bkZgy1/1TxG5P1jsV53fWWVLU0eP25M5v4L90XyMd9CgxLKxA+HvtDEN/D+b3cyKN1 WEgLIZL6cyodVBTmFX4USoGrNdzTlfDKJQUrn2pL3pAgR46khcA4WyR0vU2Jrh61oEsI Xxw6EV7sVxB7yC3DzdoogbOjdckzHZrixdVyw=
+MIME-Version: 1.0
+Received: by 10.204.154.68 with SMTP id n4mr1469483bkw.54.1261060221474; Thu,  17 Dec 2009 06:30:21 -0800 (PST)
+In-Reply-To: <633819.21045.qm@web94801.mail.in2.yahoo.com>
+References: <633819.21045.qm@web94801.mail.in2.yahoo.com>
+Date: Thu, 17 Dec 2009 15:30:21 +0100
+Message-ID: <618e24240912170630s69901e38n1f6681cf944cb8e@mail.gmail.com>
+From: Victor Pascual Avila <victor.pascual.avila@gmail.com>
+To: atul garg <shivalk_80@yahoo.co.in>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Cc: sip@ietf.org
+Subject: Re: [Sip] SIP over SCTP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 17 Dec 2009 14:30:40 -0000
+
+On Thu, Dec 17, 2009 at 7:35 AM, atul garg <shivalk_80@yahoo.co.in> wrote:
+>
+> Hi All,
+>
+> Can I ahve some frame of SIP which is coming over SCTP ? Or some pointer =
+from where I can have it?/
+
+Yes, basically be ready to receive over any stream, send over stream
+zero and use unordered delivery.
+
+http://tools.ietf.org/html/rfc4168
+
+Cheers,
+--
+Victor Pascual =C3=81vila
+
+From nitinkapoorr@gmail.com  Fri Dec 18 13:55:53 2009
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 621EC3A690E for <sip@core3.amsl.com>; Fri, 18 Dec 2009 13:55:53 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.756
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.756 tagged_above=-999 required=5 tests=[AWL=0.842,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TOvpnnWt+xF5 for <sip@core3.amsl.com>; Fri, 18 Dec 2009 13:55:52 -0800 (PST)
+Received: from mail-qy0-f203.google.com (mail-qy0-f203.google.com [209.85.221.203]) by core3.amsl.com (Postfix) with ESMTP id ECB3C3A68C2 for <sip@ietf.org>; Fri, 18 Dec 2009 13:55:51 -0800 (PST)
+Received: by qyk41 with SMTP id 41so1720445qyk.29 for <sip@ietf.org>; Fri, 18 Dec 2009 13:55:32 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=E3riNvrj2DrS3y8FCkkbNwORjqFlPeBXGBh3HwV20gw=; b=N1Fcc2cbViewQPOIUJgjwVbAAJdaNAo4M4ZMJ6W7cxxKcuKo1WM86TJQtdnUUyWp2F UPKtXEFSASB/Mpu8i7hJSWO6OwCXFvh1foKwzBz+FXCYGso03i86MQJ1hbtE3QE4xZbC T1CB52cQbURYZcw6TbzYxrr0QOgvQ9HU3sIdk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=iy49gH4rUbZJNWQ0nVC0Tn5wwqTBVpuZ0jPk+1hRG8xsn/ILIlqI8ibR5lFV15AJB/ OEFvTqz9BWCGV53lYqjjOvSoPgYjEWas7/xUp8sQGxIlahrUmtFZurFIiZMQmEqM33HS HKWNR6G37ENc3wjTzmn9L+TLHSGzjtmhfobnU=
+MIME-Version: 1.0
+Received: by 10.229.59.226 with SMTP id m34mr2249825qch.101.1261173332074;  Fri, 18 Dec 2009 13:55:32 -0800 (PST)
+In-Reply-To: <c80c92d0912161412v4cbabb8gbef30536e36a92c8@mail.gmail.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se> <4b213744.06e2660a.5909.37ce@mx.google.com> <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com> <4b213f9e.0f0db80a.58b0.2ebc@mx.google.com> <c80c92d0912161412v4cbabb8gbef30536e36a92c8@mail.gmail.com>
+Date: Fri, 18 Dec 2009 16:55:32 -0500
+Message-ID: <c80c92d0912181355s6a6f3c32kfc43dc364e985c95@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=0023545be1b4756261047b07cc81
+Cc: Christer Holmberg <christer.holmberg@ericsson.com>
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Dec 2009 21:55:53 -0000
+
+--0023545be1b4756261047b07cc81
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello,
+
+Can anyone help me out please on this.
+
+Thanks,
+Nitin Kapoor
+
+2009/12/16 Nitin Kapoor <nitinkapoorr@gmail.com>
+
+> Hello Roni,
+>
+> I still have the doubt.. the point you have mentioned that the the RTP is
+> the unidirectional and because of that it is showing me two RTP streams.
+>
+> But if we are decoding the RTP packets and whenever i am trying to hear the
+> messages then i can see that both have the different conversion..which is
+> confusing me lot... because without CONFERENCE call how one call have two
+> different conversion or RTP stream  in one dialog...
+>
+> Please correct me if i am wrong.
+>
+>
+> Thanks,
+> Nitin Kapoor
+>
+> 2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+>
+>>  This is a normal call, RTP is unidirectional and this is why you see two
+>> RTP streams one from each side for each media channel.
+>>
+>> Roni
+>>
+>>
+>>
+>> *From:* Nitin Kapoor [mailto:nitinkapoorr@gmail.com]
+>> *Sent:* Thursday, December 10, 2009 8:03 PM
+>> *To:* Roni Even
+>> *Cc:* Christer Holmberg; sip@ietf.org
+>>
+>> *Subject:* Re: [Sip] Two Media Stream in One call
+>>
+>>
+>>
+>> Roni,
+>>
+>> So is that the normal call.. I mean is it possible or you have seen any
+>> issue into it..
+>>
+>> Please help me on this.
+>>
+>> Thanks,
+>> Nitin Kapoor
+>>
+>> 2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+>>
+>> Hi,
+>> I looked at the SDP you send, you are seeing two RTP streams, one for each
+>> direction. Since both sides talk than you see one RTP steam from
+>> 8.15.244.11
+>> in one direction to port 10766 and one from 64.156.174.71 going to the
+>> other
+>> direction to port 19612
+>>
+>> Roni Even
+>>
+>>
+>> > -----Original Message-----
+>> > From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+>>
+>> > Christer Holmberg
+>> > Sent: Thursday, December 10, 2009 3:54 PM
+>> > To: Nitin Kapoor; sip@ietf.org
+>> > Subject: Re: [Sip] Two Media Stream in One call
+>> >
+>> >
+>> > Hi,
+>> >
+>> > It is possible.
+>> >
+>> > In theory this could be done with a single c- line, because SDP only
+>> > talks about where media is to be sent - not where it comes from.
+>> >
+>> > In reality, however, I assume this is a case where each m- line has its
+>> > own c- line, each with a different IP address.
+>> >
+>> > Regards,
+>> >
+>> > Christer
+>> >
+>> >
+>> > -----Original Message-----
+>> > From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+>> > Sent: Thu 12/10/2009 2:10 PM
+>> > To: sip@ietf.org
+>> > Subject: [Sip] Two Media Stream in One call
+>> >
+>> > Hello All,
+>> >
+>> > I am facing the issue with one of my customer where he is getting two
+>> > media
+>> > streams in one call and they are using SBC(Nextone)
+>> >
+>> > I checked the signaling traces and everything looks okay to me as well
+>> > as
+>> > the RTP traces too.
+>> >
+>> > As per the traces one  RTP packet is going from 64.156.174.71 and the
+>> > other
+>> > is coming from 8.15.244.11.
+>> >
+>> > Could you please let me know is it possible where i can have the two
+>> > media
+>> > streams in one call when this is the not the conference call. And if
+>> > this is
+>> > possible then what is the scenario where its possible.
+>> >
+>> > Please find the attached traces for the same.
+>> >
+>> > Thanks,
+>> > Nitin Kapoor
+>> > General Telecom
+>> >
+>>
+>> > _______________________________________________
+>> > Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+>> > This list is for NEW development of the core SIP Protocol
+>> > Use sip-implementors@cs.columbia.edu for questions on current sip
+>> > Use sipping@ietf.org for new developments on the application of sip
+>>
+>>
+>>
+>
+>
+
+--0023545be1b4756261047b07cc81
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello,<br><br>Can anyone help me out please on this.<br><br>Thanks,<br>Niti=
+n Kapoor<br><br><div class=3D"gmail_quote">2009/12/16 Nitin Kapoor <span di=
+r=3D"ltr">&lt;<a href=3D"mailto:nitinkapoorr@gmail.com">nitinkapoorr@gmail.=
+com</a>&gt;</span><br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">Hello Roni,<br><b=
+r>I still have the doubt.. the point you have mentioned that the the RTP is=
+ the unidirectional and because of that it is showing me two RTP streams. <=
+br>
+<br>But if we are decoding the RTP packets and whenever i am trying to hear=
+ the messages then i can see that both have the different conversion..which=
+ is confusing me lot... because without CONFERENCE call how one call have t=
+wo different conversion or RTP stream=A0 in one dialog...<br>
+
+<br>Please correct me if i am wrong.<div><div></div><div class=3D"h5"><br><=
+br>Thanks,<br>Nitin Kapoor<br><br><div class=3D"gmail_quote">2009/12/10 Ron=
+i Even <span dir=3D"ltr">&lt;<a href=3D"mailto:ron.even.tlv@gmail.com" targ=
+et=3D"_blank">ron.even.tlv@gmail.com</a>&gt;</span><br>
+
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+
+
+
+
+
+
+
+
+<div link=3D"blue" vlink=3D"purple" lang=3D"EN-US">
+
+<div>
+
+<p class=3D"MsoNormal"><span style=3D"font-size: 11pt; color: rgb(31, 73, 1=
+25);">This is a normal call, RTP is unidirectional and this is why you
+see two RTP streams one from each side for each media channel.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size: 11pt; color: rgb(31, 73, 1=
+25);">Roni</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size: 11pt; color: rgb(31, 73, 1=
+25);">=A0</span></p>
+
+<div style=3D"border-style: none none none solid; border-color: -moz-use-te=
+xt-color -moz-use-text-color -moz-use-text-color blue; border-width: medium=
+ medium medium 1.5pt; padding: 0in 0in 0in 4pt;">
+
+<div>
+
+<div style=3D"border-style: solid none none; border-color: rgb(181, 196, 22=
+3) -moz-use-text-color -moz-use-text-color; border-width: 1pt medium medium=
+; padding: 3pt 0in 0in;">
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size: 10pt;">From:</span></b>=
+<span style=3D"font-size: 10pt;"> Nitin Kapoor
+[mailto:<a href=3D"mailto:nitinkapoorr@gmail.com" target=3D"_blank">nitinka=
+poorr@gmail.com</a>] <br>
+<b>Sent:</b> Thursday, December 10, 2009 8:03 PM<br>
+<b>To:</b> Roni Even<br>
+<b>Cc:</b> Christer Holmberg; <a href=3D"mailto:sip@ietf.org" target=3D"_bl=
+ank">sip@ietf.org</a><div><div></div><div><br>
+<b>Subject:</b> Re: [Sip] Two Media Stream in One call</div></div></span></=
+p>
+
+</div>
+
+</div><div><div></div><div>
+
+<p class=3D"MsoNormal">=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;">Roni,<br>
+<br>
+So is that the normal call.. I mean is it possible or you have seen any iss=
+ue
+into it..<br>
+<br>
+Please help me on this.<br>
+<br>
+Thanks,<br>
+Nitin Kapoor</p>
+
+<div>
+
+<p class=3D"MsoNormal">2009/12/10 Roni Even &lt;<a href=3D"mailto:ron.even.=
+tlv@gmail.com" target=3D"_blank">ron.even.tlv@gmail.com</a>&gt;</p>
+
+<p class=3D"MsoNormal">Hi,<br>
+I looked at the SDP you send, you are seeing two RTP streams, one for each<=
+br>
+direction. Since both sides talk than you see one RTP steam from 8.15.244.1=
+1<br>
+in one direction to port 10766 and one from 64.156.174.71 going to the othe=
+r<br>
+direction to port 19612<br>
+<br>
+Roni Even</p>
+
+<div>
+
+<p class=3D"MsoNormal"><br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bo=
+unces@ietf.org</a>
+[mailto:<a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bounc=
+es@ietf.org</a>] On
+Behalf Of</p>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3D"MsoNormal">&gt; Christer Holmberg<br>
+&gt; Sent: Thursday, December 10, 2009 3:54 PM<br>
+&gt; To: Nitin Kapoor; <a href=3D"mailto:sip@ietf.org" target=3D"_blank">si=
+p@ietf.org</a><br>
+&gt; Subject: Re: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt;<br>
+&gt; Hi,<br>
+&gt;<br>
+&gt; It is possible.<br>
+&gt;<br>
+&gt; In theory this could be done with a single c- line, because SDP only<b=
+r>
+&gt; talks about where media is to be sent - not where it comes from.<br>
+&gt;<br>
+&gt; In reality, however, I assume this is a case where each m- line has it=
+s<br>
+&gt; own c- line, each with a different IP address.<br>
+&gt;<br>
+&gt; Regards,<br>
+&gt;<br>
+&gt; Christer<br>
+&gt;<br>
+&gt;<br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bo=
+unces@ietf.org</a> on
+behalf of Nitin Kapoor<br>
+&gt; Sent: Thu 12/10/2009 2:10 PM<br>
+&gt; To: <a href=3D"mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a>=
+<br>
+&gt; Subject: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt; Hello All,<br>
+&gt;<br>
+&gt; I am facing the issue with one of my customer where he is getting two<=
+br>
+&gt; media<br>
+&gt; streams in one call and they are using SBC(Nextone)<br>
+&gt;<br>
+&gt; I checked the signaling traces and everything looks okay to me as well=
+<br>
+&gt; as<br>
+&gt; the RTP traces too.<br>
+&gt;<br>
+&gt; As per the traces one =A0RTP packet is going from 64.156.174.71 and th=
+e<br>
+&gt; other<br>
+&gt; is coming from 8.15.244.11.<br>
+&gt;<br>
+&gt; Could you please let me know is it possible where i can have the two<b=
+r>
+&gt; media<br>
+&gt; streams in one call when this is the not the conference call. And if<b=
+r>
+&gt; this is<br>
+&gt; possible then what is the scenario where its possible.<br>
+&gt;<br>
+&gt; Please find the attached traces for the same.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt; General Telecom<br>
+&gt;</p>
+
+</div>
+
+</div>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;">&gt;
+_______________________________________________<br>
+&gt; Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/s=
+ip" target=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+&gt; This list is for NEW development of the core SIP Protocol<br>
+&gt; Use <a href=3D"mailto:sip-implementors@cs.columbia.edu" target=3D"_bla=
+nk">sip-implementors@cs.columbia.edu</a>
+for questions on current sip<br>
+&gt; Use <a href=3D"mailto:sipping@ietf.org" target=3D"_blank">sipping@ietf=
+.org</a> for new
+developments on the application of sip</p>
+
+</div>
+
+<p class=3D"MsoNormal">=A0</p>
+
+</div></div></div>
+
+</div>
+
+</div>
+
+
+</blockquote></div><br>
+</div></div></blockquote></div><br>
+
+--0023545be1b4756261047b07cc81--
+
+From dworley@nortel.com  Fri Dec 18 14:01:35 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id E41483A67F3 for <sip@core3.amsl.com>; Fri, 18 Dec 2009 14:01:35 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.556
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.556 tagged_above=-999 required=5 tests=[AWL=0.043,  BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id qsJIV0GPI8Xz for <sip@core3.amsl.com>; Fri, 18 Dec 2009 14:01:35 -0800 (PST)
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by core3.amsl.com (Postfix) with ESMTP id 035C03A68FE for <sip@ietf.org>; Fri, 18 Dec 2009 14:01:34 -0800 (PST)
+Received: from zrtphxs1.corp.nortel.com (zrtphxs1.corp.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id nBIM1BV05346; Fri, 18 Dec 2009 22:01:11 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Fri, 18 Dec 2009 17:00:55 -0500
+From: "Dale Worley" <dworley@nortel.com>
+To: Nitin Kapoor <nitinkapoorr@gmail.com>
+In-Reply-To: <c80c92d0912181355s6a6f3c32kfc43dc364e985c95@mail.gmail.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se> <4b213744.06e2660a.5909.37ce@mx.google.com> <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com> <4b213f9e.0f0db80a.58b0.2ebc@mx.google.com> <c80c92d0912161412v4cbabb8gbef30536e36a92c8@mail.gmail.com> <c80c92d0912181355s6a6f3c32kfc43dc364e985c95@mail.gmail.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Fri, 18 Dec 2009 17:00:55 -0500
+Message-Id: <1261173655.3728.22.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 18 Dec 2009 22:00:56.0085 (UTC) FILETIME=[92F45450:01CA802D]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Dec 2009 22:01:36 -0000
+
+On Fri, 2009-12-18 at 16:55 -0500, Nitin Kapoor wrote:
+> Can anyone help me out please on this.
+
+If we are to help, you will have to provide more information than you
+have.  At a minimum, we need to see:
+
+the SDP offer
+the SDP answer
+a description of each RTP stream you see, including its source address
+and its destination address
+
+Dale
+
+
+
+From nitinkapoorr@gmail.com  Fri Dec 18 14:03:20 2009
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 98F3D3A679C for <sip@core3.amsl.com>; Fri, 18 Dec 2009 14:03:20 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.528
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.528 tagged_above=-999 required=5 tests=[AWL=0.070,  BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DMTOH+XyAafQ for <sip@core3.amsl.com>; Fri, 18 Dec 2009 14:03:19 -0800 (PST)
+Received: from qw-out-2122.google.com (qw-out-2122.google.com [74.125.92.26]) by core3.amsl.com (Postfix) with ESMTP id BED6F3A6403 for <sip@ietf.org>; Fri, 18 Dec 2009 14:03:19 -0800 (PST)
+Received: by qw-out-2122.google.com with SMTP id 9so757300qwb.31 for <sip@ietf.org>; Fri, 18 Dec 2009 14:03:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=p7SBupo0Fm1zmJiSnkgpzRBRYTNQKNe0jDW08Lqd4bY=; b=NCIgpePUMi1dukwt5CXqqDrPpd+Z2Q2PW5bDXmMky5nobYjzdDDqSnf0EHg3NERTlI LvnDbVkXIdukFUbi9MaJZvJpZ1aTZWgXNYI2DGbF/EsNe+NKUpIjW4+TLP4cqQbvAG4Q edIs2iDCHR2jeAfv7d3tauyqsBpM0RrQDsC+4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=LDTgwsnNxL6s8JiXHQH0HynUB1hmQNEdOW7JwpPD9oHXCwRTlr3xAM4IUQnnDJ+4qf MiWzbsLZ9G/6ByI+EHXCyJ7xJLALLhfv6nxXi04kEVj2rC83Cccs5ZLcldOBfYTHUoUD 9gLvFbulXhwWjKB0uVPEGSeRc1IPXFUlAB7pQ=
+MIME-Version: 1.0
+Received: by 10.229.118.6 with SMTP id t6mr2300065qcq.39.1261173781953; Fri,  18 Dec 2009 14:03:01 -0800 (PST)
+In-Reply-To: <1261173655.3728.22.camel@khone.us.nortel.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se> <4b213744.06e2660a.5909.37ce@mx.google.com> <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com> <4b213f9e.0f0db80a.58b0.2ebc@mx.google.com> <c80c92d0912161412v4cbabb8gbef30536e36a92c8@mail.gmail.com> <c80c92d0912181355s6a6f3c32kfc43dc364e985c95@mail.gmail.com> <1261173655.3728.22.camel@khone.us.nortel.com>
+Date: Fri, 18 Dec 2009 17:03:01 -0500
+Message-ID: <c80c92d0912181403t31590d89n2c79ef509cbc3fa6@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: Dale Worley <dworley@nortel.com>
+Content-Type: multipart/alternative; boundary=000e0cd5c6ca45fee6047b07e7a8
+Cc: sip@ietf.org
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 18 Dec 2009 22:03:20 -0000
+
+--000e0cd5c6ca45fee6047b07e7a8
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dale,
+
+I have the ethreal traces along with RTP stream... i can provide you
+that..if that can help to debug the issue.
+
+Thanks,
+Nitin Kapoor
+
+2009/12/18 Dale Worley <dworley@nortel.com>
+
+> On Fri, 2009-12-18 at 16:55 -0500, Nitin Kapoor wrote:
+> > Can anyone help me out please on this.
+>
+> If we are to help, you will have to provide more information than you
+> have.  At a minimum, we need to see:
+>
+> the SDP offer
+> the SDP answer
+> a description of each RTP stream you see, including its source address
+> and its destination address
+>
+> Dale
+>
+>
+>
+
+--000e0cd5c6ca45fee6047b07e7a8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dale,<br><br>I have the ethreal traces along with RTP stream... i can provi=
+de you that..if that can help to debug the issue.<br><br>Thanks,<br>Nitin K=
+apoor<br><br><div class=3D"gmail_quote">2009/12/18 Dale Worley <span dir=3D=
+"ltr">&lt;<a href=3D"mailto:dworley@nortel.com">dworley@nortel.com</a>&gt;<=
+/span><br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;"><div class=3D"im"=
+>On Fri, 2009-12-18 at 16:55 -0500, Nitin Kapoor wrote:<br>
+&gt; Can anyone help me out please on this.<br>
+<br>
+</div>If we are to help, you will have to provide more information than you=
+<br>
+have. =A0At a minimum, we need to see:<br>
+<br>
+the SDP offer<br>
+the SDP answer<br>
+a description of each RTP stream you see, including its source address<br>
+and its destination address<br>
+<font color=3D"#888888"><br>
+Dale<br>
+<br>
+<br>
+</font></blockquote></div><br>
+
+--000e0cd5c6ca45fee6047b07e7a8--
+
+From Fred_Stacey@Mitel.com  Sat Dec 19 12:26:12 2009
+Return-Path: <Fred_Stacey@Mitel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 47C493A682C for <sip@core3.amsl.com>; Sat, 19 Dec 2009 12:26:11 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.647
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.647 tagged_above=-999 required=5 tests=[AWL=-0.463, BAYES_40=-0.185]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id KWgW8RoA4W74 for <sip@core3.amsl.com>; Sat, 19 Dec 2009 12:26:08 -0800 (PST)
+Received: from smtp.mitel.com (smtp.mitel.com [216.191.234.102]) by core3.amsl.com (Postfix) with ESMTP id CA2E73A6803 for <sip@ietf.org>; Sat, 19 Dec 2009 12:26:07 -0800 (PST)
+Received: from localhost (smtp.mitel.com [127.0.0.1]) by smtp.mitel.com (Postfix) with ESMTP id 7D2DE2C019 for <sip@ietf.org>; Sat, 19 Dec 2009 15:25:52 -0500 (EST)
+X-Virus-Scanned: by amavisd-new (virusonly) at mitel.com
+Received: from smtp.mitel.com ([127.0.0.1]) by localhost (smtp.mitel.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kIdy3r9zo6Xs for <sip@ietf.org>; Sat, 19 Dec 2009 15:25:52 -0500 (EST)
+Received: from ottlnmta.mitel.com (ottlnmta.mitel.com [10.44.16.150]) by smtp.mitel.com (Postfix) with ESMTP id 5C3C02C014 for <sip@ietf.org>; Sat, 19 Dec 2009 15:25:52 -0500 (EST)
+From: Fred_Stacey@Mitel.com
+To: sip@ietf.org
+Message-ID: <OFED225CBF.FC98C776-ON85257691.007032AA-85257691.007032AA@ottlnmta.mitel.com>
+Date: Sat, 19 Dec 2009 15:25:30 -0500
+X-MIMETrack: Serialize by Router on OTTLNMTA/Mitel(Release 6.5.6FP3|March 27, 2008) at 12/19/2009 03:25:52 PM
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Subject: [Sip] Fred Stacey is out of the office.
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sat, 19 Dec 2009 20:26:12 -0000
+
+I will be out of the office starting  12/19/2009 and will not return until
+01/04/2010.
+
+
+
+For Sun Microsystems related issues, please contact Arnaud Bellens
+For 5560 IPT related issues, please contact Simon Binder
+
+Otherwise, if the matter is of an urgent nature, please contact Stephen
+Bray or Tim Kostyniuk
+
+
+From nitinkapoorr@gmail.com  Mon Dec 21 03:04:46 2009
+Return-Path: <nitinkapoorr@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id DDD253A6933 for <sip@core3.amsl.com>; Mon, 21 Dec 2009 03:04:46 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.335
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.335 tagged_above=-999 required=5 tests=[AWL=-1.151, BAYES_40=-0.185, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id EGTpqKuoaH8C for <sip@core3.amsl.com>; Mon, 21 Dec 2009 03:04:45 -0800 (PST)
+Received: from qw-out-2122.google.com (qw-out-2122.google.com [74.125.92.26]) by core3.amsl.com (Postfix) with ESMTP id A47BD3A691A for <sip@ietf.org>; Mon, 21 Dec 2009 03:04:44 -0800 (PST)
+Received: by qw-out-2122.google.com with SMTP id 9so1123335qwb.31 for <sip@ietf.org>; Mon, 21 Dec 2009 03:04:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=UfXKBpayEHFVxiBcXyyPwJAZY/k6dfAMAbBMNuofJvQ=; b=kTMvw0ztbMS45uJ4sY219zePIciA551PxPaugcyff2vk5ziTtISAsboetgar06xuyH XhFq7jJ553jG3wPgO2MsA7V+vpqGO+JAut298j1fn0FgpumhPiP+Qd4r+9FLSPIrTj/n Q6NdNt2Ie/ZVlExXZ/EIGge1DkDx9MfoxvSkY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=kxfsuLSogQPFv3fljh7D7xZJUvkgxUPA/xv81GpM/orquGHuZsi2IIsJPiuRnx1wdv gWU8Ww9WPpzbQz/fp1vVLMDXAZEXAY+xwuTWy+xbFso8phpY/TGmi47qkZV9n3ZTqb5u 6KD/OX9Or1XF1+fiDX1SGgTnc9YHw60DPKNWU=
+MIME-Version: 1.0
+Received: by 10.229.23.83 with SMTP id q19mr3262794qcb.37.1261393465845; Mon,  21 Dec 2009 03:04:25 -0800 (PST)
+In-Reply-To: <AB351E7453324A12A78E879730C94F1B@cellebrum.com>
+References: <c80c92d0912100510l3933eb4cud5c76c78413499c7@mail.gmail.com> <CA9998CD4A020D418654FCDEF4E707DF083CD445@esealmw113.eemea.ericsson.se> <4b213744.06e2660a.5909.37ce@mx.google.com> <c80c92d0912101003x69aaf584kcef098ba36ef4a46@mail.gmail.com> <4b213f9e.0f0db80a.58b0.2ebc@mx.google.com> <c80c92d0912161412v4cbabb8gbef30536e36a92c8@mail.gmail.com> <c80c92d0912181355s6a6f3c32kfc43dc364e985c95@mail.gmail.com> <62254A3918D44EA8A6742537BD2325F6@cellebrum.com> <c80c92d0912202045h275cbac8i50c3095f5a3ba8ae@mail.gmail.com> <AB351E7453324A12A78E879730C94F1B@cellebrum.com>
+Date: Mon, 21 Dec 2009 06:04:25 -0500
+Message-ID: <c80c92d0912210304y21ad131cvcf9fd20890446835@mail.gmail.com>
+From: Nitin Kapoor <nitinkapoorr@gmail.com>
+To: Amit Vijayvargiya <amit.vijayvargiya@spicedigital.in>
+Content-Type: multipart/alternative; boundary=00163641704b742a85047b3b0d8b
+Cc: sip@ietf.org, Christer Holmberg <christer.holmberg@ericsson.com>
+Subject: Re: [Sip] Two Media Stream in One call
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 21 Dec 2009 11:04:47 -0000
+
+--00163641704b742a85047b3b0d8b
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Hello Amit,
+
+Okay... but whenever i am trying to decode the RTP packets and trying to
+hear the conversation of this.. it seems to be a different conversation...
+and which is confusing me a lot.
+
+Also if you think after hearing the conversation of this call...the call is
+still normal then could you please elaborate some evidence on which behalf
+its look okay to you...
+
+Thanks for your help in advance...
+
+Thanks,
+Nitin Kapoor
+
+2009/12/21 Amit Vijayvargiya <amit.vijayvargiya@spicedigital.in>
+
+>  Dear Nitin,
+>
+>
+>
+> In these traces every thing seems fine & it=92s a normal call. RTP Packet=
+s
+> are bidirectional
+>
+>
+>
+> 64.156.174.71(10766)  =DF--------=E0 8.15.244.11(19612)
+>
+>
+>
+> It should be a single conversation.
+>
+>
+>
+>
+>
+>
+>
+>  *Regards,*
+> *Amit Vijayvargiya *
+>   ------------------------------
+>
+> *From:* Nitin Kapoor [mailto:nitinkapoorr@gmail.com]
+> *Sent:* Monday, December 21, 2009 10:16 AM
+> *To:* Amit Vijayvargiya
+>
+> *Cc:* Christer Holmberg
+> *Subject:* Re: [Sip] Two Media Stream in One call
+>
+>
+>
+> Hello Amit,
+>
+> Please find the attached traces...
+>
+> Thanks,
+> Nitin Kapoor
+>
+> 2009/12/19 Amit Vijayvargiya <amit.vijayvargiya@spicedigital.in>
+>
+> Hi Nitin,
+>
+>
+>
+> Can you share the ethereal trace of RTP packets.
+>
+>
+>
+>
+> *Thanks & Regards,*
+>
+> *Amit Vijayvargiya *
+>   ------------------------------
+>
+> *From:* sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] *On Behalf Of =
+*Nitin
+> Kapoor
+> *Sent:* Saturday, December 19, 2009 3:26 AM
+>
+>
+> *To:* sip@ietf.org
+> *Cc:* Christer Holmberg
+>
+> *Subject:* Re: [Sip] Two Media Stream in One call
+>
+>
+>
+> Hello,
+>
+> Can anyone help me out please on this.
+>
+> Thanks,
+> Nitin Kapoor
+>
+> 2009/12/16 Nitin Kapoor <nitinkapoorr@gmail.com>
+>
+> Hello Roni,
+>
+> I still have the doubt.. the point you have mentioned that the the RTP is
+> the unidirectional and because of that it is showing me two RTP streams.
+>
+> But if we are decoding the RTP packets and whenever i am trying to hear t=
+he
+> messages then i can see that both have the different conversion..which is
+> confusing me lot... because without CONFERENCE call how one call have two
+> different conversion or RTP stream  in one dialog...
+>
+> Please correct me if i am wrong.
+>
+>
+>
+> Thanks,
+> Nitin Kapoor
+>
+> 2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+>
+> This is a normal call, RTP is unidirectional and this is why you see two
+> RTP streams one from each side for each media channel.
+>
+> Roni
+>
+>
+>
+> *From:* Nitin Kapoor [mailto:nitinkapoorr@gmail.com]
+> *Sent:* Thursday, December 10, 2009 8:03 PM
+> *To:* Roni Even
+> *Cc:* Christer Holmberg; sip@ietf.org
+>
+>
+> *Subject:* Re: [Sip] Two Media Stream in One call
+>
+>
+>
+> Roni,
+>
+> So is that the normal call.. I mean is it possible or you have seen any
+> issue into it..
+>
+> Please help me on this.
+>
+> Thanks,
+> Nitin Kapoor
+>
+> 2009/12/10 Roni Even <ron.even.tlv@gmail.com>
+>
+> Hi,
+> I looked at the SDP you send, you are seeing two RTP streams, one for eac=
+h
+> direction. Since both sides talk than you see one RTP steam from
+> 8.15.244.11
+> in one direction to port 10766 and one from 64.156.174.71 going to the
+> other
+> direction to port 19612
+>
+> Roni Even
+>
+>
+> > -----Original Message-----
+> > From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of
+>
+> > Christer Holmberg
+> > Sent: Thursday, December 10, 2009 3:54 PM
+> > To: Nitin Kapoor; sip@ietf.org
+> > Subject: Re: [Sip] Two Media Stream in One call
+> >
+> >
+> > Hi,
+> >
+> > It is possible.
+> >
+> > In theory this could be done with a single c- line, because SDP only
+> > talks about where media is to be sent - not where it comes from.
+> >
+> > In reality, however, I assume this is a case where each m- line has its
+> > own c- line, each with a different IP address.
+> >
+> > Regards,
+> >
+> > Christer
+> >
+> >
+> > -----Original Message-----
+> > From: sip-bounces@ietf.org on behalf of Nitin Kapoor
+> > Sent: Thu 12/10/2009 2:10 PM
+> > To: sip@ietf.org
+> > Subject: [Sip] Two Media Stream in One call
+> >
+> > Hello All,
+> >
+> > I am facing the issue with one of my customer where he is getting two
+> > media
+> > streams in one call and they are using SBC(Nextone)
+> >
+> > I checked the signaling traces and everything looks okay to me as well
+> > as
+> > the RTP traces too.
+> >
+> > As per the traces one  RTP packet is going from 64.156.174.71 and the
+> > other
+> > is coming from 8.15.244.11.
+> >
+> > Could you please let me know is it possible where i can have the two
+> > media
+> > streams in one call when this is the not the conference call. And if
+> > this is
+> > possible then what is the scenario where its possible.
+> >
+> > Please find the attached traces for the same.
+> >
+> > Thanks,
+> > Nitin Kapoor
+> > General Telecom
+> >
+>
+> > _______________________________________________
+> > Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> > This list is for NEW development of the core SIP Protocol
+> > Use sip-implementors@cs.columbia.edu for questions on current sip
+> > Use sipping@ietf.org for new developments on the application of sip
+>
+>
+>
+>
+>
+>
+>
+>
+>  ------------------------------
+>
+> This message and its attachments contain confidential information and may
+> also contain legally privileged information. This message is intended sol=
+ely
+> for the named addressee. If you are not the addressee indicated in this
+> message (or authorized to receive for addressee), you may not copy or
+> deliver any part of this message or its attachments to anyone or use any
+> part of this message or its attachments. Rather, you should permanently
+> delete this message and its attachments (and all copies) from your system
+> and kindly notify the sender by reply E-mail. Any content of this message
+> and its attachments that does not relate to the official business of SPIC=
+E
+> DIGITAL or its affiliates and/or subsidiaries must be taken not to have b=
+een
+> sent or endorsed by any of them. Opinions and information in this E-mail
+> that do not relate to the official business of SPICE DIGITAL., shall be
+> understood as neither given nor endorsed by SPICE DIGITAL.. Any
+> action/proceeding/opportunity upon the contents of this E-mail taken by n=
+ot
+> intended addressee shall attract liabilities both criminal and civil agai=
+nst
+> such addressee.
+>
+> E-mail communications are not private and no warranty is made that e-mail
+> communications are timely, secure or free from computer virus or other
+> defect.
+>
+>
+>
+> ------------------------------
+> This message and its attachments contain confidential information and may
+> also contain legally privileged information. This message is intended sol=
+ely
+> for the named addressee. If you are not the addressee indicated in this
+> message (or authorized to receive for addressee), you may not copy or
+> deliver any part of this message or its attachments to anyone or use any
+> part of this message or its attachments. Rather, you should permanently
+> delete this message and its attachments (and all copies) from your system
+> and kindly notify the sender by reply E-mail. Any content of this message
+> and its attachments that does not relate to the official business of SPIC=
+E
+> DIGITAL or its affiliates and/or subsidiaries must be taken not to have b=
+een
+> sent or endorsed by any of them. Opinions and information in this E-mail
+> that do not relate to the official business of SPICE DIGITAL., shall be
+> understood as neither given nor endorsed by SPICE DIGITAL.. Any
+> action/proceeding/opportunity upon the contents of this E-mail taken by n=
+ot
+> intended addressee shall attract liabilities both criminal and civil agai=
+nst
+> such addressee.
+>
+> E-mail communications are not private and no warranty is made that e-mail
+> communications are timely, secure or free from computer virus or other
+> defect.
+>
+
+--00163641704b742a85047b3b0d8b
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Hello Amit,<br><br>Okay... but whenever i am trying to decode the RTP packe=
+ts and trying to hear the conversation of this.. it seems to be a different=
+ conversation... and which is confusing me a lot.<br><br>Also if you think =
+after hearing the conversation of this call...the call is still normal then=
+ could you please elaborate some evidence on which behalf its look okay to =
+you...<br>
+<br>Thanks for your help in advance...<br><br>Thanks,<br>Nitin Kapoor<br><b=
+r><div class=3D"gmail_quote">2009/12/21 Amit Vijayvargiya <span dir=3D"ltr"=
+>&lt;<a href=3D"mailto:amit.vijayvargiya@spicedigital.in">amit.vijayvargiya=
+@spicedigital.in</a>&gt;</span><br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+
+
+
+
+
+<div link=3D"blue" vlink=3D"blue" lang=3D"EN-US">
+<div>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">Dear Nitin,</s=
+pan></font></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">=A0</span></fo=
+nt></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">In these trace=
+s every thing seems fine &amp; it=92s a normal call. RTP Packets are bidire=
+ctional
+</span></font></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">=A0</span></fo=
+nt></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">64.156.174.71(=
+10766)=A0
+</span></font><font color=3D"navy" face=3D"Wingdings" size=3D"2"><span styl=
+e=3D"font-size: 10pt; font-family: Wingdings; color: navy;">=DF</span></fon=
+t><font color=3D"navy" face=3D"Arial" size=3D"2"><span style=3D"font-size: =
+10pt; font-family: Arial; color: navy;">--------</span></font><font color=
+=3D"navy" face=3D"Wingdings" size=3D"2"><span style=3D"font-size: 10pt; fon=
+t-family: Wingdings; color: navy;">=E0</span></font><font color=3D"navy" fa=
+ce=3D"Arial" size=3D"2"><span style=3D"font-size: 10pt; font-family: Arial;=
+ color: navy;">
+ 8.15.244.11(19612) =A0=A0</span></font></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">=A0</span></fo=
+nt></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">It should be a=
+ single conversation.
+</span></font></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">=A0</span></fo=
+nt></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">=A0</span></fo=
+nt></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><font color=3D"black"=
+ face=3D"Verdana" size=3D"2"><span style=3D"font-size: 10pt; font-family: V=
+erdana; color: black;"><br>
+<br>
+</span></font></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><b><font color=3D"bla=
+ck" face=3D"Verdana" size=3D"2"><span style=3D"font-size: 10pt; font-family=
+: Verdana; color: black; font-weight: bold;">Regards,</span></font></b><fon=
+t color=3D"black" face=3D"Verdana" size=3D"2"><span style=3D"font-size: 10p=
+t; font-family: Verdana; color: black;"><br>
+
+<b><span style=3D"font-weight: bold;">Amit Vijayvargiya </span></b></span><=
+/font></p>
+</div>
+<div>
+<div class=3D"MsoNormal" style=3D"text-align: center;" align=3D"center"><fo=
+nt face=3D"Times New Roman" size=3D"3"><span style=3D"font-size: 12pt;">
+<hr width=3D"100%" align=3D"center" size=3D"2">
+</span></font></div>
+<p class=3D"MsoNormal"><b><font face=3D"Tahoma" size=3D"2"><span style=3D"f=
+ont-size: 10pt; font-family: Tahoma; font-weight: bold;">From:</span></font=
+></b><font face=3D"Tahoma" size=3D"2"><span style=3D"font-size: 10pt; font-=
+family: Tahoma;"> Nitin Kapoor [mailto:<a href=3D"mailto:nitinkapoorr@gmail=
+.com" target=3D"_blank">nitinkapoorr@gmail.com</a>]
+<br>
+<b><span style=3D"font-weight: bold;">Sent:</span></b> Monday, December 21,=
+ 2009 10:16 AM<br>
+<b><span style=3D"font-weight: bold;">To:</span></b> Amit Vijayvargiya<div>=
+<div></div><div class=3D"h5"><br>
+<b><span style=3D"font-weight: bold;">Cc:</span></b> Christer Holmberg<br>
+<b><span style=3D"font-weight: bold;">Subject:</span></b> Re: [Sip] Two Med=
+ia Stream in One call</div></div></span></font></p>
+</div><div><div></div><div class=3D"h5">
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><font face=3D"Times N=
+ew Roman" size=3D"3"><span style=3D"font-size: 12pt;">Hello Amit,<br>
+<br>
+Please find the attached traces...<br>
+<br>
+Thanks,<br>
+Nitin Kapoor</span></font></p>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">2009/12/19 Amit Vijayvargiya &lt;<a href=3D"mailto:a=
+mit.vijayvargiya@spicedigital.in" target=3D"_blank">amit.vijayvargiya@spice=
+digital.in</a>&gt;</span></font></p>
+
+<div link=3D"blue" vlink=3D"blue">
+<div>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">Hi Nitin,</spa=
+n></font></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">=A0</span></fo=
+nt></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">Can you share =
+the ethereal trace of RTP packets.
+</span></font></p>
+<p class=3D"MsoNormal"><font color=3D"navy" face=3D"Arial" size=3D"2"><span=
+ style=3D"font-size: 10pt; font-family: Arial; color: navy;">=A0</span></fo=
+nt></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><font color=3D"black"=
+ face=3D"Verdana" size=3D"2"><span style=3D"font-size: 10pt; font-family: V=
+erdana; color: black;"><br>
+<b><span style=3D"font-weight: bold;">Thanks &amp; Regards,</span></b><br>
+<br>
+<b><span style=3D"font-weight: bold;">Amit Vijayvargiya </span></b></span><=
+/font></p>
+</div>
+<div>
+<div class=3D"MsoNormal" style=3D"text-align: center;" align=3D"center"><fo=
+nt face=3D"Times New Roman" size=3D"3"><span style=3D"font-size: 12pt;">
+<hr width=3D"100%" align=3D"center" size=3D"2">
+</span></font></div>
+<p class=3D"MsoNormal"><b><font face=3D"Tahoma" size=3D"2"><span style=3D"f=
+ont-size: 10pt; font-family: Tahoma; font-weight: bold;">From:</span></font=
+></b><font face=3D"Tahoma" size=3D"2"><span style=3D"font-size: 10pt; font-=
+family: Tahoma;">
+<a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bounces@ietf.=
+org</a> [mailto:<a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">s=
+ip-bounces@ietf.org</a>]
+<b><span style=3D"font-weight: bold;">On Behalf Of </span></b>Nitin Kapoor<=
+br>
+<b><span style=3D"font-weight: bold;">Sent:</span></b> Saturday, December 1=
+9, 2009 3:26 AM</span></font></p>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Tahoma" size=3D"2"><span style=3D"font=
+-size: 10pt; font-family: Tahoma;"><br>
+<b><span style=3D"font-weight: bold;">To:</span></b> <a href=3D"mailto:sip@=
+ietf.org" target=3D"_blank">
+sip@ietf.org</a><br>
+<b><span style=3D"font-weight: bold;">Cc:</span></b> Christer Holmberg</spa=
+n></font></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><font face=3D"Tahoma" size=3D"2"><span style=3D"f=
+ont-size: 10pt; font-family: Tahoma; font-weight: bold;">Subject:</span></f=
+ont></b><font face=3D"Tahoma" size=3D"2"><span style=3D"font-size: 10pt; fo=
+nt-family: Tahoma;"> Re: [Sip] Two Media Stream in
+ One call</span></font></p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><font face=3D"Times N=
+ew Roman" size=3D"3"><span style=3D"font-size: 12pt;">Hello,<br>
+<br>
+Can anyone help me out please on this.<br>
+<br>
+Thanks,<br>
+Nitin Kapoor</span></font></p>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">2009/12/16 Nitin Kapoor &lt;<a href=3D"mailto:nitink=
+apoorr@gmail.com" target=3D"_blank">nitinkapoorr@gmail.com</a>&gt;</span></=
+font></p>
+
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">Hello Roni,<br>
+<br>
+I still have the doubt.. the point you have mentioned that the the RTP is t=
+he unidirectional and because of that it is showing me two RTP streams.
+<br>
+<br>
+But if we are decoding the RTP packets and whenever i am trying to hear the=
+ messages then i can see that both have the different conversion..which is =
+confusing me lot... because without CONFERENCE call how one call have two d=
+ifferent conversion or RTP stream=A0
+ in one dialog...<br>
+<br>
+Please correct me if i am wrong.</span></font></p>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><font face=3D"Times N=
+ew Roman" size=3D"3"><span style=3D"font-size: 12pt;"><br>
+<br>
+Thanks,<br>
+Nitin Kapoor</span></font></p>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">2009/12/10 Roni Even &lt;<a href=3D"mailto:ron.even.=
+tlv@gmail.com" target=3D"_blank">ron.even.tlv@gmail.com</a>&gt;</span></fon=
+t></p>
+<div link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><font color=3D"#1f497d" face=3D"Times New Roman" siz=
+e=3D"2"><span style=3D"font-size: 11pt; color: rgb(31, 73, 125);">This is a=
+ normal call, RTP is unidirectional and this is why you see two RTP
+ streams one from each side for each media channel.</span></font></p>
+<p class=3D"MsoNormal"><font color=3D"#1f497d" face=3D"Times New Roman" siz=
+e=3D"2"><span style=3D"font-size: 11pt; color: rgb(31, 73, 125);">Roni</spa=
+n></font></p>
+<p class=3D"MsoNormal"><font color=3D"#1f497d" face=3D"Times New Roman" siz=
+e=3D"2"><span style=3D"font-size: 11pt; color: rgb(31, 73, 125);">=A0</span=
+></font></p>
+<div style=3D"border-style: none none none solid; border-color: -moz-use-te=
+xt-color -moz-use-text-color -moz-use-text-color blue; border-width: medium=
+ medium medium 1.5pt; padding: 0in 0in 0in 4pt;">
+<div>
+<div style=3D"border-style: solid none none; border-color: -moz-use-text-co=
+lor; border-width: 1pt medium medium; padding: 3pt 0in 0in;">
+<p class=3D"MsoNormal"><b><font face=3D"Times New Roman" size=3D"2"><span s=
+tyle=3D"font-size: 10pt; font-weight: bold;">From:</span></font></b><font s=
+ize=3D"2"><span style=3D"font-size: 10pt;"> Nitin Kapoor [mailto:<a href=3D=
+"mailto:nitinkapoorr@gmail.com" target=3D"_blank">nitinkapoorr@gmail.com</a=
+>]
+<br>
+<b><span style=3D"font-weight: bold;">Sent:</span></b> Thursday, December 1=
+0, 2009 8:03 PM<br>
+<b><span style=3D"font-weight: bold;">To:</span></b> Roni Even<br>
+<b><span style=3D"font-weight: bold;">Cc:</span></b> Christer Holmberg; <a =
+href=3D"mailto:sip@ietf.org" target=3D"_blank">
+sip@ietf.org</a></span></font></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"2"><span styl=
+e=3D"font-size: 10pt;"><br>
+<b><span style=3D"font-weight: bold;">Subject:</span></b> Re: [Sip] Two Med=
+ia Stream in One call</span></font></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><font face=3D"Times N=
+ew Roman" size=3D"3"><span style=3D"font-size: 12pt;">Roni,<br>
+<br>
+So is that the normal call.. I mean is it possible or you have seen any iss=
+ue into it..<br>
+<br>
+Please help me on this.<br>
+<br>
+Thanks,<br>
+Nitin Kapoor</span></font></p>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">2009/12/10 Roni Even &lt;<a href=3D"mailto:ron.even.=
+tlv@gmail.com" target=3D"_blank">ron.even.tlv@gmail.com</a>&gt;</span></fon=
+t></p>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">Hi,<br>
+I looked at the SDP you send, you are seeing two RTP streams, one for each<=
+br>
+direction. Since both sides talk than you see one RTP steam from 8.15.244.1=
+1<br>
+in one direction to port 10766 and one from 64.156.174.71 going to the othe=
+r<br>
+direction to port 19612<br>
+<br>
+Roni Even</span></font></p>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;"><br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bo=
+unces@ietf.org</a> [mailto:<a href=3D"mailto:sip-bounces@ietf.org" target=
+=3D"_blank">sip-bounces@ietf.org</a>] On Behalf Of</span></font></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">&gt; Christer Holmberg<br>
+&gt; Sent: Thursday, December 10, 2009 3:54 PM<br>
+&gt; To: Nitin Kapoor; <a href=3D"mailto:sip@ietf.org" target=3D"_blank">si=
+p@ietf.org</a><br>
+&gt; Subject: Re: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt;<br>
+&gt; Hi,<br>
+&gt;<br>
+&gt; It is possible.<br>
+&gt;<br>
+&gt; In theory this could be done with a single c- line, because SDP only<b=
+r>
+&gt; talks about where media is to be sent - not where it comes from.<br>
+&gt;<br>
+&gt; In reality, however, I assume this is a case where each m- line has it=
+s<br>
+&gt; own c- line, each with a different IP address.<br>
+&gt;<br>
+&gt; Regards,<br>
+&gt;<br>
+&gt; Christer<br>
+&gt;<br>
+&gt;<br>
+&gt; -----Original Message-----<br>
+&gt; From: <a href=3D"mailto:sip-bounces@ietf.org" target=3D"_blank">sip-bo=
+unces@ietf.org</a> on behalf of Nitin Kapoor<br>
+&gt; Sent: Thu 12/10/2009 2:10 PM<br>
+&gt; To: <a href=3D"mailto:sip@ietf.org" target=3D"_blank">sip@ietf.org</a>=
+<br>
+&gt; Subject: [Sip] Two Media Stream in One call<br>
+&gt;<br>
+&gt; Hello All,<br>
+&gt;<br>
+&gt; I am facing the issue with one of my customer where he is getting two<=
+br>
+&gt; media<br>
+&gt; streams in one call and they are using SBC(Nextone)<br>
+&gt;<br>
+&gt; I checked the signaling traces and everything looks okay to me as well=
+<br>
+&gt; as<br>
+&gt; the RTP traces too.<br>
+&gt;<br>
+&gt; As per the traces one =A0RTP packet is going from 64.156.174.71 and th=
+e<br>
+&gt; other<br>
+&gt; is coming from 8.15.244.11.<br>
+&gt;<br>
+&gt; Could you please let me know is it possible where i can have the two<b=
+r>
+&gt; media<br>
+&gt; streams in one call when this is the not the conference call. And if<b=
+r>
+&gt; this is<br>
+&gt; possible then what is the scenario where its possible.<br>
+&gt;<br>
+&gt; Please find the attached traces for the same.<br>
+&gt;<br>
+&gt; Thanks,<br>
+&gt; Nitin Kapoor<br>
+&gt; General Telecom<br>
+&gt;</span></font></p>
+</div>
+</div>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 12pt;"><font face=3D"Times N=
+ew Roman" size=3D"3"><span style=3D"font-size: 12pt;">&gt; ________________=
+_______________________________<br>
+&gt; Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/s=
+ip" target=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+&gt; This list is for NEW development of the core SIP Protocol<br>
+&gt; Use <a href=3D"mailto:sip-implementors@cs.columbia.edu" target=3D"_bla=
+nk">sip-implementors@cs.columbia.edu</a> for questions on current sip<br>
+&gt; Use <a href=3D"mailto:sipping@ietf.org" target=3D"_blank">sipping@ietf=
+.org</a> for new developments on the application of sip</span></font></p>
+</div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+<div class=3D"MsoNormal" style=3D"text-align: center;" align=3D"center"><fo=
+nt face=3D"Times New Roman" size=3D"3"><span style=3D"font-size: 12pt;">
+<hr width=3D"100%" align=3D"center" size=3D"2">
+</span></font></div>
+<p class=3D"MsoNormal"><font color=3D"gray" face=3D"Arial" size=3D"1"><span=
+ style=3D"font-size: 7.5pt; font-family: Arial; color: gray;">This message =
+and its attachments contain confidential information and may also contain l=
+egally privileged information. This message is
+ intended solely for the named addressee. If you are not the addressee indi=
+cated in this message (or authorized to receive for addressee), you may not=
+ copy or deliver any part of this message or its attachments to anyone or u=
+se any part of this message or its
+ attachments. Rather, you should permanently delete this message and its at=
+tachments (and all copies) from your system and kindly notify the sender by=
+ reply E-mail. Any content of this message and its attachments that does no=
+t relate to the official business
+ of SPICE DIGITAL or its affiliates and/or subsidiaries must be taken not t=
+o have been sent or endorsed by any of them. Opinions and information in th=
+is E-mail that do not relate to the official business of SPICE DIGITAL., sh=
+all be understood as neither given
+ nor endorsed by SPICE DIGITAL.. Any action/proceeding/opportunity upon the=
+ contents of this E-mail taken by not intended addressee shall attract liab=
+ilities both criminal and civil against such addressee.<br>
+<br>
+E-mail communications are not private and no warranty is made that e-mail c=
+ommunications are timely, secure or free from computer virus or other defec=
+t.</span></font></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><font face=3D"Times New Roman" size=3D"3"><span styl=
+e=3D"font-size: 12pt;">=A0</span></font></p>
+</div></div></div><div><div></div><div class=3D"h5">
+<br>
+<hr>
+<font color=3D"Gray" face=3D"Arial" size=3D"-2">This message and its attach=
+ments contain confidential information and may also contain legally privile=
+ged information. This message is intended solely for the named addressee. I=
+f you are not the addressee indicated
+ in this message (or authorized to receive for addressee), you may not copy=
+ or deliver any part of this message or its attachments to anyone or use an=
+y part of this message or its attachments. Rather, you should permanently d=
+elete this message and its attachments
+ (and all copies) from your system and kindly notify the sender by reply E-=
+mail. Any content of this message and its attachments that does not relate =
+to the official business of SPICE DIGITAL or its affiliates and/or subsidia=
+ries must be taken not to have been
+ sent or endorsed by any of them. Opinions and information in this E-mail t=
+hat do not relate to the official business of SPICE DIGITAL., shall be unde=
+rstood as neither given nor endorsed by SPICE DIGITAL.. Any action/proceedi=
+ng/opportunity upon the contents
+ of this E-mail taken by not intended addressee shall attract liabilities b=
+oth criminal and civil against such addressee.<br>
+<br>
+E-mail communications are not private and no warranty is made that e-mail c=
+ommunications are timely, secure or free from computer virus or other defec=
+t.<br>
+</font>
+</div></div></div>
+
+</blockquote></div><br>
+
+--00163641704b742a85047b3b0d8b--
+
+From gupta.vineet@gmail.com  Tue Dec 22 03:57:59 2009
+Return-Path: <gupta.vineet@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id B63F43A6AF4 for <sip@core3.amsl.com>; Tue, 22 Dec 2009 03:57:59 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.598 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id s8eWGL3WdZDC for <sip@core3.amsl.com>; Tue, 22 Dec 2009 03:57:58 -0800 (PST)
+Received: from mail-pz0-f176.google.com (mail-pz0-f176.google.com [209.85.222.176]) by core3.amsl.com (Postfix) with ESMTP id E16F13A69F1 for <sip@ietf.org>; Tue, 22 Dec 2009 03:57:58 -0800 (PST)
+Received: by pzk6 with SMTP id 6so4400338pzk.29 for <sip@ietf.org>; Tue, 22 Dec 2009 03:57:40 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:date:message-id:subject :from:to:content-type; bh=zXrS8xSzXB6nwlE+PMnZ3XQjKAVKviwFkEH6TwQKUbU=; b=xw4EKt4rkexPAMmkWOn8bXy0prsdMtDh4DSNEcQYicB/s27mYFV5lyx32jfqjuxbGJ Q5vd7jUbUn/qk3dSnm7yuQp4jCZ7ap3jQL5H5ACtb5Q2HsrhXuQpuTA93BH2Z2bOb3GX 3GfFJZ5Ulr9iHisk8B21UiIBxFoyS+7bEmpTA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:from:to:content-type; b=Gi0MRpHDRhBpUm+fePQ0/C0mT3A2gVZwNiLTfnOevUL0DND+xj3dY34ZJ6HPP53BfT 1TPNeTNAsPIpKcrbARPKHBXqYVw++jw734pkuekwhqVZabOV9ooFoMWvgoXNiy280ilj XWdj60clD+ZZdTendSRK4pLhCoXlZgN+UyRu0=
+MIME-Version: 1.0
+Received: by 10.115.80.18 with SMTP id h18mr3873755wal.53.1261483060186; Tue,  22 Dec 2009 03:57:40 -0800 (PST)
+Date: Tue, 22 Dec 2009 17:27:40 +0530
+Message-ID: <98abe9690912220357t62881642l2230f190cfb64888@mail.gmail.com>
+From: Vineet Gupta <gupta.vineet@gmail.com>
+To: sip@ietf.org
+Content-Type: multipart/alternative; boundary=0016e64d95feb14f8a047b4fe998
+Subject: [Sip] Significance of port in maddr parameter.
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 22 Dec 2009 11:57:59 -0000
+
+--0016e64d95feb14f8a047b4fe998
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi,
+
+Can someone let me know why exactly following statement is present in RFC
+3261:
+
+*"The maddr parameter indicates the server address to be contacted for this
+user, overriding any address derived from the host field.  When an maddr
+parameter is present, the port and transport components of the URI apply to
+the address indicated in the maddr parameter value"*
+
+To be specific:
+a) What exactly can go wrong on using the port in maddr parameter?
+b) In what are situations where port present in Req-URI should be used
+rather than port present in maddr parameter?
+c) And in what situation port in maddr parameter should be used?
+
+Regards,
+Vineet.
+
+--0016e64d95feb14f8a047b4fe998
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,<div><br></div><div>Can someone let me know why exactly following statem=
+ent is present in RFC 3261:</div><div><br></div><div><div><i>&quot;The madd=
+r parameter indicates the server address to be=A0contacted for this user, o=
+verriding any address derived from=A0the host field. =A0<b>When an maddr pa=
+rameter is present, the port=A0and transport components of the URI apply to=
+ the address=A0indicated in the maddr parameter value</b>&quot;</i></div>
+</div><div><br></div><div>To be specific:</div><div>a) What exactly can go =
+wrong on using the port in maddr parameter?</div><div>b) In what are situat=
+ions where port present in Req-URI should be used rather than port present =
+in maddr parameter?=A0</div>
+<div>c) And in what situation port in maddr parameter should be used?</div>=
+<div>=A0</div><div>Regards,</div><div>Vineet.</div>
+
+--0016e64d95feb14f8a047b4fe998--
+
+From sresheno@cisco.com  Tue Dec 22 23:18:56 2009
+Return-Path: <sresheno@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id C376F3A6976 for <sip@core3.amsl.com>; Tue, 22 Dec 2009 23:18:56 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.999 tagged_above=-999 required=5 tests=[AWL=-0.601, BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_37=0.6, J_CHICKENPOX_39=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OcUMsFmItlC2 for <sip@core3.amsl.com>; Tue, 22 Dec 2009 23:18:52 -0800 (PST)
+Received: from sj-iport-4.cisco.com (sj-iport-4.cisco.com [171.68.10.86]) by core3.amsl.com (Postfix) with ESMTP id E19013A65A6 for <sip@ietf.org>; Tue, 22 Dec 2009 23:18:51 -0800 (PST)
+Authentication-Results: sj-iport-4.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEAPtSMUurRN+K/2dsb2JhbADBCZcShDMEgn0
+X-IronPort-AV: E=Sophos;i="4.47,440,1257120000"; d="scan'208,217";a="66681634"
+Received: from sj-core-4.cisco.com ([171.68.223.138]) by sj-iport-4.cisco.com with ESMTP; 23 Dec 2009 07:18:29 +0000
+Received: from xbh-bgl-411.cisco.com (xbh-bgl-411.cisco.com [72.163.129.201]) by sj-core-4.cisco.com (8.13.8/8.14.3) with ESMTP id nBN7HbY9004313 for <sip@ietf.org>; Wed, 23 Dec 2009 07:18:29 GMT
+Received: from xmb-bgl-41d.cisco.com ([72.163.129.219]) by xbh-bgl-411.cisco.com with Microsoft SMTPSVC(6.0.3790.3959);  Wed, 23 Dec 2009 12:48:27 +0530
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01CA83A0.1EF26E6A"
+Date: Wed, 23 Dec 2009 12:48:26 +0530
+Message-ID: <98041FB94260464FB06D65C8E9E6473B2E76A8@XMB-BGL-41D.cisco.com>
+In-Reply-To: <mailman.85.1261512014.14597.sip@ietf.org>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Significance of port in maddr parameter.
+Thread-Index: AcqDQXuBtuvPSvePT7qr/sI2zV1bMQAXgRKQ
+References: <mailman.85.1261512014.14597.sip@ietf.org>
+From: "Sreerekha Shenoy (sresheno)" <sresheno@cisco.com>
+To: <sip@ietf.org>
+X-OriginalArrivalTime: 23 Dec 2009 07:18:27.0437 (UTC) FILETIME=[1F2A91D0:01CA83A0]
+Subject: Re: [Sip] Significance of port in maddr parameter.
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Dec 2009 07:18:57 -0000
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CA83A0.1EF26E6A
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Vineet,
+As per RFC 3261, I don't see a placeholder for port number in the
+maddr-param.
+The ABNF syntax for maddr goes as follows:
+
+maddr-param       =3D  "maddr=3D" host
+host             =3D  hostname / IPv4address / IPv6reference
+
+please explain on what do you mean by 'port in maddr param'
+
+
+
+Thanks,
+Best Regards,
+Rekha
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+Today's Topics:
+
+   1. Significance of port in maddr parameter. (Vineet Gupta)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Tue, 22 Dec 2009 17:27:40 +0530
+From: Vineet Gupta <gupta.vineet@gmail.com>
+Subject: [Sip] Significance of port in maddr parameter.
+To: sip@ietf.org
+Message-ID:
+	<98abe9690912220357t62881642l2230f190cfb64888@mail.gmail.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Hi,
+
+Can someone let me know why exactly following statement is present in
+RFC
+3261:
+
+*"The maddr parameter indicates the server address to be contacted for
+this
+user, overriding any address derived from the host field.  When an maddr
+parameter is present, the port and transport components of the URI apply
+to
+the address indicated in the maddr parameter value"*
+
+To be specific:
+a) What exactly can go wrong on using the port in maddr parameter?
+b) In what are situations where port present in Req-URI should be used
+rather than port present in maddr parameter?
+c) And in what situation port in maddr parameter should be used?
+
+Regards,
+Vineet.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+<http://www.ietf.org/mail-archive/web/sip/attachments/20091222/d7434e03/
+attachment.htm>
+
+------------------------------
+
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+
+End of Sip Digest, Vol 64, Issue 10
+***********************************
+
+------_=_NextPart_001_01CA83A0.1EF26E6A
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<META NAME=3D"Generator" CONTENT=3D"MS Exchange Server version =
+6.5.7654.12">
+<TITLE>RE: [Sip] Significance of port in maddr parameter.</TITLE>
+</HEAD>
+<BODY>
+<!-- Converted from text/rtf format -->
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Hi =
+Vineet,</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">As per RFC =
+3261, I</FONT></SPAN><SPAN LANG=3D"en-us"> <FONT =
+FACE=3D"Consolas">don&#8217;t</FONT></SPAN><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas"> see a placeholder for</FONT></SPAN><SPAN =
+LANG=3D"en-us"> <FONT COLOR=3D"#FF0000" FACE=3D"Consolas">port =
+number</FONT></SPAN><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas"> in the =
+maddr-param.</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">The =
+ABNF</FONT></SPAN><SPAN LANG=3D"en-us"> <FONT =
+FACE=3D"Consolas">syntax</FONT></SPAN><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas"> for maddr goes as follows:</FONT></SPAN><SPAN =
+LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT COLOR=3D"#FF0000" =
+FACE=3D"Consolas">maddr-param&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+=3D&nbsp; &quot;maddr=3D&quot; host</FONT></SPAN><SPAN =
+LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT COLOR=3D"#FF0000" =
+FACE=3D"Consolas">host&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp; =3D&nbsp; hostname / IPv4address / =
+IPv6reference</FONT></SPAN><SPAN LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">please explain =
+on what do you mean by 'port in maddr param'</FONT></SPAN><SPAN =
+LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"></SPAN><SPAN =
+LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"></SPAN><SPAN =
+LANG=3D"en-us"></SPAN><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Calibri">Thanks,</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Calibri">Best =
+Regards,</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Calibri">Rekha</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Calibri">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"></SPAN><SPAN =
+LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Today's =
+Topics:</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">&nbsp;&nbsp; =
+1. Significance of port in maddr parameter. (Vineet =
+Gupta)</FONT></SPAN></P>
+<BR>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">-------------------------------------------------------=
+---------------</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Message: =
+1</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Date: Tue, 22 =
+Dec 2009 17:27:40 +0530</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">From: Vineet =
+Gupta &lt;gupta.vineet@gmail.com&gt;</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Subject: [Sip] =
+Significance of port in maddr parameter.</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">To: =
+sip@ietf.org</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">Message-ID:</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN =
+LANG=3D"en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <FONT =
+FACE=3D"Consolas">&lt;98abe9690912220357t62881642l2230f190cfb64888@mail.g=
+mail.com&gt;</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Content-Type: =
+text/plain; charset=3D&quot;iso-8859-1&quot;</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">Hi,</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Can someone =
+let me know why exactly following statement is present in =
+RFC</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">3261:</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">*&quot;The =
+maddr parameter indicates the server address to be contacted for =
+this</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">user, =
+overriding any address derived from the host field.&nbsp; When an =
+maddr</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">parameter is =
+present, the port and transport components of the URI apply =
+to</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">the address =
+indicated in the maddr parameter value&quot;*</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">To be =
+specific:</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">a) What =
+exactly can go wrong on using the port in maddr =
+parameter?</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">b) In what are =
+situations where port present in Req-URI should be =
+used</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">rather than =
+port present in maddr parameter?</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">c) And in what =
+situation port in maddr parameter should be used?</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">Regards,</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">Vineet.</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">-------------- =
+next part --------------</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">An HTML =
+attachment was scrubbed...</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">URL: &lt;<A =
+HREF=3D"http://www.ietf.org/mail-archive/web/sip/attachments/20091222/d74=
+34e03/attachment.htm">http://www.ietf.org/mail-archive/web/sip/attachment=
+s/20091222/d7434e03/attachment.htm</A>&gt;</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">------------------------------</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">_______________________________________________</FONT><=
+/SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Sip mailing =
+list&nbsp; <A =
+HREF=3D"https://www.ietf.org/mailman/listinfo/sip">https://www.ietf.org/m=
+ailman/listinfo/sip</A></FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">This list is =
+for NEW development of the core SIP Protocol</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Use =
+sip-implementors@cs.columbia.edu for questions on current =
+sip</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">Use =
+sipping@ietf.org for new developments on the application of =
+sip</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT FACE=3D"Consolas">End of Sip =
+Digest, Vol 64, Issue 10</FONT></SPAN></P>
+
+<P DIR=3DLTR><SPAN LANG=3D"en-us"><FONT =
+FACE=3D"Consolas">***********************************</FONT></SPAN></P>
+
+</BODY>
+</HTML>
+------_=_NextPart_001_01CA83A0.1EF26E6A--
+
+From abhatnagar192006@gmail.com  Tue Dec 22 23:55:23 2009
+Return-Path: <abhatnagar192006@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 835943A6919 for <sip@core3.amsl.com>; Tue, 22 Dec 2009 23:55:23 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[AWL=-0.600, BAYES_00=-2.599, J_CHICKENPOX_37=0.6, J_CHICKENPOX_39=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id mHaoLJEEm7iR for <sip@core3.amsl.com>; Tue, 22 Dec 2009 23:55:22 -0800 (PST)
+Received: from mail-bw0-f223.google.com (mail-bw0-f223.google.com [209.85.218.223]) by core3.amsl.com (Postfix) with ESMTP id 5CDC33A65A6 for <sip@ietf.org>; Tue, 22 Dec 2009 23:55:22 -0800 (PST)
+Received: by bwz23 with SMTP id 23so4742557bwz.29 for <sip@ietf.org>; Tue, 22 Dec 2009 23:55:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :date:message-id:subject:from:to:cc:content-type; bh=gGzn+RmluuH4ER7SBLg2WkHFTDMsG3w9s6+oe9c5D5g=; b=wOyanFOoydbNFxT8+sBNLpb8tnxdKCu4HVzUEqEdGcdaUqpmCBv7W5WTH5Sxeq9SaZ XVKTFGc+Oo0xbFzrnmI1/maCagKGSStFD0lpJP/gSN8SscgcPmNJNd/99GFRAV4F0/JN jCDhdRWgRGKeJmd/Mh9JhIi5hicX7ed13RVhg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; b=uu2U+V5OmHv9Qt2Rq850ufIkFIasXu5BmZuUcyXBZ04lrva1C+a5C+TFD3S+rFxS21 QtfigFAYkzNOp5TZdscnN7eeWW8ULkrEXlR8WjOlVPNXSw0VsT3rl1jlt/LCZoSSFAAj H1AD7iJnH4wSgviRl2CfzfQCjp288ud1pSp1U=
+MIME-Version: 1.0
+Received: by 10.204.10.2 with SMTP id n2mr6691127bkn.91.1261554902206; Tue, 22  Dec 2009 23:55:02 -0800 (PST)
+In-Reply-To: <98041FB94260464FB06D65C8E9E6473B2E76A8@XMB-BGL-41D.cisco.com>
+References: <mailman.85.1261512014.14597.sip@ietf.org> <98041FB94260464FB06D65C8E9E6473B2E76A8@XMB-BGL-41D.cisco.com>
+Date: Wed, 23 Dec 2009 08:25:02 +0030
+Message-ID: <abcc59880912222355t4c26822xa275c7101fbf6346@mail.gmail.com>
+From: aayush bhatnagar <abhatnagar192006@gmail.com>
+To: "Sreerekha Shenoy (sresheno)" <sresheno@cisco.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Cc: sip@ietf.org
+Subject: Re: [Sip] Significance of port in maddr parameter.
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Dec 2009 07:55:23 -0000
+
+Vineet,
+
+The maddr parameter can be present in the Via header and in the request URI.
+
+If present in the Via header, it signifies that the client is sending
+the request to a multicast receiver. Refer to section 18.1.1 of 3261
+for this.
+
+It may be present in the Request URI...which means that the entry of
+the request uri is added as the only entry in the target set for the
+request.
+
+As for the port, it is not present in the maddr paramater. It is
+present in the sent-by parameter, or defaults to 5060 in case the
+sent-by parameter is absent.
+
+Hope this helps. For more info of maddr parameter usage, read sections
+16.4, 16.5, 18.1.1, 18.1.2 and 19.1.1 of RFC 3261.
+
+On 23/12/2009, Sreerekha Shenoy (sresheno) <sresheno@cisco.com> wrote:
+> Hi Vineet,
+> As per RFC 3261, I don't see a placeholder for port number in the
+> maddr-param.
+> The ABNF syntax for maddr goes as follows:
+>
+> maddr-param       =  "maddr=" host
+> host             =  hostname / IPv4address / IPv6reference
+>
+> please explain on what do you mean by 'port in maddr param'
+>
+>
+>
+> Thanks,
+> Best Regards,
+> Rekha
+>
+> ========================================================================
+> =========
+>
+>
+> Today's Topics:
+>
+>    1. Significance of port in maddr parameter. (Vineet Gupta)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Tue, 22 Dec 2009 17:27:40 +0530
+> From: Vineet Gupta <gupta.vineet@gmail.com>
+> Subject: [Sip] Significance of port in maddr parameter.
+> To: sip@ietf.org
+> Message-ID:
+> 	<98abe9690912220357t62881642l2230f190cfb64888@mail.gmail.com>
+> Content-Type: text/plain; charset="iso-8859-1"
+>
+> Hi,
+>
+> Can someone let me know why exactly following statement is present in
+> RFC
+> 3261:
+>
+> *"The maddr parameter indicates the server address to be contacted for
+> this
+> user, overriding any address derived from the host field.  When an maddr
+> parameter is present, the port and transport components of the URI apply
+> to
+> the address indicated in the maddr parameter value"*
+>
+> To be specific:
+> a) What exactly can go wrong on using the port in maddr parameter?
+> b) In what are situations where port present in Req-URI should be used
+> rather than port present in maddr parameter?
+> c) And in what situation port in maddr parameter should be used?
+>
+> Regards,
+> Vineet.
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL:
+> <http://www.ietf.org/mail-archive/web/sip/attachments/20091222/d7434e03/
+> attachment.htm>
+>
+> ------------------------------
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+> End of Sip Digest, Vol 64, Issue 10
+> ***********************************
+>
+
+
+-- 
+aayush
+http://in.linkedin.com/in/abhatnagar19
+======

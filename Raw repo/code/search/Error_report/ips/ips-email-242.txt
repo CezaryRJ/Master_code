@@ -1,0 +1,128 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : ips
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/ips/2007-01.mailcl']
+id : 3806ceaa-b267-4c63-b9cd-7803f8fcec3a
+_version_ : 1675132556768444416
+
+Content : 
+
+Working Group Summary
+ 
+   This document was carefully reviewed in the WG primarily for security
+   concerns (protecting sensitive information about what is running) and
+   the possible abuse of this key in a fashion similar to theabuse of
+   the HTTP "Server" and "User-Agent" fields that can damage
+   interoperability.  As a result of this WG attention, the draft
+   contains specific text to address both concerns.
+ 
+Protocol Quality
+ 
+   There are implementations of functionality similar to that provided
+   by this key.
+
+   This draft was reviewed for the IPS WG by David L. Black., who also
+   acted as PROTO Document Shepherd.
+
+   Lars Eggert reviewed this document for the IESG.
+
+Note to RFC Editor
+
+Section 3, paragraph 2
+OLD:
+
+   Nodes implementing this key MAY choose to only transmit the key, only
+   log the key values received from other nodes, or both transmit and
+   log the key values.
+
+NEW:
+
+   Nodes implementing this key MUST choose one of the following
+   implementation options:
+	o only transmit the key
+	o only log the key values received from other nodes or
+	o both transmit and log the key values. 
+
+Section 3, paragraph 3
+OLD:
+
+   Thus, a valid implementation of this key may be that a node is
+   completely silent
+
+NEW:
+
+   Thus, a valid behavior for this key may be that a node is
+   completely silent
+
+ 
+In Section 5 IANA Considerations, insert the following
+text after the first paragraph:
+
+NEW:
+
+      The update to RFC 3720 to allow additional types of RFCs for
+      iSCSI Extension items has the same effect as if the following
+      changes were made to the text of RFC 3720 (RFC text cannot be
+      changed after publication):
+
+      1) In Section 11.1, the requirement that Z# Authentication methods
+         "MUST be described by an informational RFC." is changed to
+         "MUST be described by a standards track RFC, an experimental
+         RFC or an informational RFC."
+
+      2) In Section 12.1, the requirement that Y# Digest algorithms
+         "MUST be described by an informational RFC." is changed to
+         "MUST be described by a standards track RFC, an experimental
+         RFC or an informational RFC."
+
+      3) In Section 12.22, the requirement that X# text keys
+         "MUST be described by an informational RFC." is changed to
+         "MUST be described by a standards track RFC, an experimental
+         RFC or an informational RFC."
+
+      4) In Section 13.3, the description of allowed RFC types for
+         extension items is changed from "The RFC may be informational
+         rather than Standards-Track," to "The RFC MUST be standards
+         track, experimental or informational,"
+
+      5) In Section 13.5.2, the phrase "standards track" is changed to
+         "standards track or experimental" in the last sentence of
+         the first paragraph, so that the sentence reads: "If the
+         specification is a standards track or experimental document,
+         the usual IETF procedures for such documents are followed."
+
+      The registries for iSCSI extension items should be managed as
+      if these changes had been made to the text of RFC 3720.
+
+
+_______________________________________________
+IETF-Announce mailing list
+IETF-Announce@ietf.org
+https://www1.ietf.org/mailman/listinfo/ietf-announce
+
+_______________________________________________
+Ips mailing list
+Ips@ietf.org
+https://www1.ietf.org/mailman/listinfo/ips

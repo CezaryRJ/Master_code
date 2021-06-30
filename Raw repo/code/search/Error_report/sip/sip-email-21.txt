@@ -1,0 +1,126 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2006-10.mailcl']
+id : e860d1f5-9973-4e15-872a-c190b862cc0d
+_version_ : 1675128700715139072
+
+Content : 
+
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2900.2963" name=3DGENERATOR></HEAD>
+<BODY><FONT size=3D2>
+<DIV><FONT face=3DArial>Folks,</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial>The topic of routing mid-dialog requests when =
+using=20
+outbound procedures was documented in </FONT></FONT><A=20
+href=3D"http://tools.ietf.org/html/draft-johns-sip-outbound-middialog-dra=
+ft-00"><U><FONT=20
+color=3D#0000ff size=3D2><FONT=20
+face=3DArial>http://tools.ietf.org/html/draft-johns-sip-outbound-middialo=
+g-draft-00</FONT></U></FONT></A><FONT=20
+face=3DArial size=3D2> and subsequently presented at IETF#65 (see =
+</FONT><A=20
+href=3D"http://www3.ietf.org/proceedings/06jul/slides/sip-4.pdf"><U><FONT=
+=20
+color=3D#0000ff size=3D2><FONT=20
+face=3DArial>http://www3.ietf.org/proceedings/06jul/slides/sip-4.pdf</FON=
+T></U></FONT></A><FONT=20
+size=3D2><FONT face=3DArial> ). Based on the feedback gathered at the =
+meeting and=20
+other offline discussions, an updated Internet Draft was submitted and =
+is now=20
+available at:</FONT></FONT></DIV>
+<DIV><FONT size=3D2><FONT face=3DArial></FONT>&nbsp;</DIV>
+<DIV></FONT><A=20
+href=3D"http://tools.ietf.org/html/draft-johns-sip-outbound-middialog-dra=
+ft-01"><U><FONT=20
+color=3D#0000ff size=3D2><FONT=20
+face=3DArial>http://tools.ietf.org/html/draft-johns-sip-outbound-middialo=
+g-draft-01</FONT></U></FONT></A><FONT=20
+size=3D2> </DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial>The updates are primarily around clarifying the =
+use case=20
+and illustrative call flow, the proposed solution has not =
+changed.</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial>The Abstract is reproduced for the benefit of =
+folks not=20
+involved in earlier discussions:</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial>" This document describes modifications to the =
+procedures=20
+for the</FONT></DIV>
+<DIV><FONT face=3DArial>generation of a flow token as described in the =
+Internet=20
+Draft titled</FONT></DIV>
+<DIV><FONT face=3DArial>Managing Client Initiated Connections in the =
+Session=20
+Initiation</FONT></DIV>
+<DIV><FONT face=3DArial>Protocol. This modification is necessary to =
+support=20
+routing of mid-</FONT></DIV>
+<DIV><FONT face=3DArial>dialog requests while preserving Edge Proxy =
+failover=20
+within an</FONT></DIV>
+<DIV><FONT face=3DArial>outbound-proxy-set."</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial>Would appreciate comments and =
+interest.</FONT></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><FONT face=3DArial>Thanks</FONT></DIV>
+<DIV><FONT face=3DArial>Kevin</FONT></DIV></FONT>
+<DIV><FONT face=3DArial><FONT size=3D2><FONT face=3DArial=20
+size=3D2></FONT></FONT></FONT>&nbsp;</DIV>
+<DIV>&nbsp;</DIV><!-- Converted from text/plain format -->
+<P align=3Dleft><FONT face=3DArial =
+size=3D2>~~~~~~~~~~~~~~~~~~~~~~<BR>Kevin C.=20
+Johns<BR>Project Director - PacketCable Communications=20
+Protocols<BR>CableLabs&reg;<BR>858 Coal Creek Circle<BR>Louisville, CO=20
+80027-9750<BR>Phone:&nbsp; 303.661.9100<BR>Direct: =
+303.661.3303<BR></FONT><A=20
+href=3D"http://www.cablelabs.com/"><FONT face=3DArial=20
+size=3D2>HTTP://www.CableLabs.com</FONT></A><FONT face=3DArial size=3D2> =
+</FONT></P>
+<DIV>&nbsp;</DIV></BODY></HTML>
+
+------_=_NextPart_001_01C6FA1F.59BA7A62--
+
+
+--===============1210970716==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip
+--===============1210970716==--
+

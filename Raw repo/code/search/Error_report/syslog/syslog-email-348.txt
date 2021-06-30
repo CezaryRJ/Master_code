@@ -1,0 +1,100 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : syslog
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/syslog/2007-03.mailcl']
+id : 31e02f69-5d12-4cb9-bf4b-9b4c03515ccc
+_version_ : 1675133300237139968
+
+Content : 
+
+messages and Certificate Block messages have been updated to no longer
+include a value as requirement for APP-NAME, MSGID, and PROCID, per
+discussion on the mailer.  The specification has been updated to
+establish that the differentiating feature (that makes a Signature Block
+message a Signature Block message and a Certificate Block message a
+Certificate Block message) is the presence of Structured Data of the
+respective type (with the respective SD-ID). =20
+
+* Section 4.1, section 5.3.1: Having said that, the specifications of
+the Signature Block and Certificate Block messages now state that
+whichever values an implementation chooses for APP-NAME, MSGID, and
+PROCID, that these values SHOULD be applied consistently. =20
+
+* Section 4.1, section 5.3.1: The requirement for a PRI of 110 for the
+Signature Block and Certificate Block messages has been changed from a
+MUST to a RECOMMENDED, per the same rational that the defining feature
+now is the Structured Data only. =20
+
+* Section 4.2.1: Added a value to the hash algorithm field to allow for
+SHA256 as hash algorithm. =20
+
+* Section 4.2.1: Moved the description of the semantics of the protocol
+version field from the IANA considerations section into this section;
+rephrased the way in which extensibility beyond 9 values for hash
+algorithm and signature scheme can be achieved; clarified that the
+values for hash algorithm and signature scheme are protocol version
+dependent. =20
+
+* Section 4.2.5: Meaning of Message Number is clarified: message number
+is relative to signature group.  Also, Message Number behavior when it
+reaches 9999999999 is clarified (it simply latches; a "latched" number
+can be distinguished from a "non-latched" number by virtue of the Global
+Block Counter). =20
+
+* References to bytes have been changed to octets, as requested per
+Rainer's review. =20
+
+* Section 5.2: The time stamp is now required per syslog protocol, not
+just per RFC 3339. =20
+
+* Section 5.3.2.6: Fragment length can be expressed with one to four
+octets, not one to three.  (Also reflected in table in 5.3.2)
+
+* IANA considerations: removed the mention of APP-NAME, MSGID per bullet
+items above.  Rewrote most of the considerations and requested
+registries as appropriate. =20
+
+* References: removed UDP, RFC 3164, and RFC 3195 references.  Moved RFC
+4648, draft-ietf-syslog-protocol-19.txt,
+draft-ietf-syslog-transport-udp-08.txt, and
+draft-ietf-syslog-transport-tls-06.rxt references to normative
+references. =20
+
+Other comments:
+
+* Rainer had suggested to allow for 999 sig groups in case of SG=3D3,
+instead of 192.  While technically this would be possible, it appears
+that it unnecessarily makes the implementation more complex because the
+restriction (999 vs. 192) would become context dependent, as opposed to
+context independent, with no real tangible benefit. =20
+=20
+
+Best regards
+--- Alex
+
+_______________________________________________
+Syslog mailing list
+Syslog@lists.ietf.org
+https://www1.ietf.org/mailman/listinfo/syslog

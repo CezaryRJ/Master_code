@@ -1,0 +1,16 @@
+The problem with wissing headers is that the email itterator sees the header as its own message
+solve by keenping the last message on hand
+
+
+mails with error
+<E1FUUIr-0004gY-KU@stiedprstage1.ietf.org>
+
+messages arrive out of order
+some arrive several time
+some do both
+
+arrive with no header, no way to track by msg id
+
+no way oknow what part it belongs to
+
+comparing, use external tools or make own ?

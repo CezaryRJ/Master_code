@@ -1,0 +1,11 @@
+2000 TO 2010
+-------#####------->    hiccup
+Hannes.Tschofenig@gmx.net 3
+edward.jankiewicz@sri.com 3
+ksking@mitre.org 2
+mailman-owner@ietf.org 2
+anshul.kantawala@lmco.com 1
+carlberg@g11.org.uk 1
+christou_chris@bah.com 1
+jmpolk@cisco.com 1
+william.d.ivancic@nasa.gov 1

@@ -1,0 +1,1347 @@
+
+From ranjit@motorola.com  Wed Oct  7 02:20:36 2009
+Return-Path: <ranjit@motorola.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id A43503A6A5B; Wed,  7 Oct 2009 02:20:36 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.598
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.598 tagged_above=-999 required=5 tests=[AWL=0.001,  BAYES_00=-2.599, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UkrbeRMaVXfL; Wed,  7 Oct 2009 02:20:36 -0700 (PDT)
+Received: from mail128.messagelabs.com (mail128.messagelabs.com [216.82.250.131]) by core3.amsl.com (Postfix) with ESMTP id DEACA3A6A50; Wed,  7 Oct 2009 02:20:35 -0700 (PDT)
+X-VirusChecked: Checked
+X-Env-Sender: ranjit@motorola.com
+X-Msg-Ref: server-4.tower-128.messagelabs.com!1254907334!29710715!1
+X-StarScan-Version: 6.1.3; banners=-,-,-
+X-Originating-IP: [129.188.136.8]
+Received: (qmail 30383 invoked from network); 7 Oct 2009 09:22:14 -0000
+Received: from motgate8.mot.com (HELO motgate8.mot.com) (129.188.136.8) by server-4.tower-128.messagelabs.com with DHE-RSA-AES256-SHA encrypted SMTP; 7 Oct 2009 09:22:14 -0000
+Received: from il06exr03.mot.com (il06exr03.mot.com [129.188.137.133]) by motgate8.mot.com (8.14.3/8.14.3) with ESMTP id n979MECx025712; Wed, 7 Oct 2009 02:22:14 -0700 (MST)
+Received: from il06vts03.mot.com (il06vts03.mot.com [129.188.137.143]) by il06exr03.mot.com (8.13.1/Vontu) with SMTP id n979MDgl001453; Wed, 7 Oct 2009 04:22:13 -0500 (CDT)
+Received: from ZMY16EXM66.ds.mot.com (zmy16exm66.ap.mot.com [10.179.4.26]) by il06exr03.mot.com (8.13.1/8.13.0) with ESMTP id n979MCcR001440; Wed, 7 Oct 2009 04:22:13 -0500 (CDT)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 7 Oct 2009 17:21:49 +0800
+Message-ID: <750BBC72E178114F9DC4872EBFF29A5B09D0679D@ZMY16EXM66.ds.mot.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: I-D draft-avasarala-dispatch-comm-div-notification 
+Thread-Index: AcpGdWfLon/cabg0SgacWMT5H0hN0QAuRQcA
+From: "Avasarala Ranjit-A20990" <ranjit@motorola.com>
+To: <dispatch@ietf.org>
+X-CFilter-Loop: Reflected
+Cc: sip@ietf.org, sip-implementors@lists.cs.columbia.edu
+Subject: [Sip] I-D draft-avasarala-dispatch-comm-div-notification
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 07 Oct 2009 09:20:36 -0000
+
+Hi All
+
+We submitted an updated version of the I-D
+"draft-avasarala-dispatch-comm-div-notification" addressing the comments
+received in the dispatch and sip maillists.=20
+
+>From the limited comments received, it seems this is moving in the right
+direction, The authors would very much appreciate ideas and comments on
+the document and suggestions on where to go from here.
+
+The URL for the draft is
+http://www.ietf.org/staging/draft-avasarala-dispatch-comm-div-notificati
+on-02.txt
+
+Regards
+Ranjit
+
+
+From s@sidneysm.com  Sun Oct 11 15:33:45 2009
+Return-Path: <s@sidneysm.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 07E6D3A68D3 for <sip@core3.amsl.com>; Sun, 11 Oct 2009 15:33:45 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.301
+X-Spam-Level: 
+X-Spam-Status: No, score=0.301 tagged_above=-999 required=5 tests=[BAYES_50=0.001, MIME_8BIT_HEADER=0.3]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id NukJgWI6gxx7 for <sip@core3.amsl.com>; Sun, 11 Oct 2009 15:33:44 -0700 (PDT)
+Received: from mail-qy0-f188.google.com (mail-qy0-f188.google.com [209.85.221.188]) by core3.amsl.com (Postfix) with ESMTP id 391063A687B for <sip@ietf.org>; Sun, 11 Oct 2009 15:33:44 -0700 (PDT)
+Received: by qyk26 with SMTP id 26so7210999qyk.5 for <sip@ietf.org>; Sun, 11 Oct 2009 15:33:41 -0700 (PDT)
+Received: by 10.224.33.7 with SMTP id f7mr4356999qad.42.1255300421243; Sun, 11 Oct 2009 15:33:41 -0700 (PDT)
+Received: from sidney-mbp.lan (pool-173-70-211-244.nwrknj.fios.verizon.net [173.70.211.244]) by mx.google.com with ESMTPS id 6sm2393366qwk.3.2009.10.11.15.33.40 (version=TLSv1/SSLv3 cipher=RC4-MD5); Sun, 11 Oct 2009 15:33:40 -0700 (PDT)
+From: =?iso-8859-1?Q?Sidney_San_Mart=EDn?= <s@sidneysm.com>
+Content-Type: text/plain; charset=us-ascii; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Date: Sun, 11 Oct 2009 18:33:39 -0400
+Message-Id: <830997F0-CC9F-4116-A23F-2BE11BC94E8B@sidneysm.com>
+To: sip@ietf.org
+Mime-Version: 1.0 (Apple Message framework v1076)
+X-Mailer: Apple Mail (2.1076)
+Subject: [Sip] Thoughts on multiple registrations to an extension
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Sun, 11 Oct 2009 22:33:45 -0000
+
+Disclaimer: I'm not involved in the SIP community and not very  
+familiar with its implementation or history.
+
+Whenever I use an IP phone, I run into a nned to register the same  
+extension on multiple devices, and I always get the recommendation to  
+create more extensions and use hackery on the PBX to make 'em work  
+like they're a single one. That's not good enough. The other protocols  
+we use to communicate (XMPP, POP/IMAP/SMTP, even proprietary ones like  
+AIM and old ones like POTS) are all friendly to multiple connections  
+to the same account. Why's this functionality missing from SIP? There  
+are only a few use cases, but they're huge ones:
+
+- A user has a desk phone but also wants to take and place calls  
+occasionally from a computer or mobile device over cellular data.  
+Usually, the desk phone will be the only device registered.
+- A user wants an extension represented in two or more geographically  
+separate locations, say on a desk phone at home and a desk phone at work
+- A house with extensions in several rooms. Right now, the "IP" part  
+of IP telephony usually evaporates inside the home, where SIP gets  
+bridged to POTS. That's great for retrofits, but as fewer people  
+subscribe to landline service, there will come a time when new homes  
+aren't wired for POTS. At the same time, many new homes ARE being  
+wired with Ethernet.
+
+What do you all think about this problem? (If it's already been  
+discussed to death, feel free to lightly whack me over the head and  
+point me to the right thread :).)
+
+From attila.sipos@vegastream.com  Mon Oct 12 04:38:33 2009
+Return-Path: <attila.sipos@vegastream.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 4961D3A69A7 for <sip@core3.amsl.com>; Mon, 12 Oct 2009 04:38:33 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.885
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.885 tagged_above=-999 required=5 tests=[BAYES_40=-0.185, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_LOW=-1]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id cL-xVsnD2c3q for <sip@core3.amsl.com>; Mon, 12 Oct 2009 04:38:32 -0700 (PDT)
+Received: from cluster-d.mailcontrol.com (cluster-d.mailcontrol.com [85.115.60.190]) by core3.amsl.com (Postfix) with ESMTP id 29C033A69A3 for <sip@ietf.org>; Mon, 12 Oct 2009 04:38:31 -0700 (PDT)
+Received: from rly10d.srv.mailcontrol.com (localhost.localdomain [127.0.0.1]) by rly10d.srv.mailcontrol.com (MailControl) with ESMTP id n9CBcLeQ029951 for <sip@ietf.org>; Mon, 12 Oct 2009 12:38:29 +0100
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1]) by rly10d.srv.mailcontrol.com (MailControl) id n9CBc1N4027496 for <sip@ietf.org>; Mon, 12 Oct 2009 12:38:01 +0100
+Received: from exsmtp02.nasstar-t1.net (exsmtp02.nasstar-t1.net [89.28.233.152]) by rly10d-eth0.srv.mailcontrol.com (envelope-sender <attila.sipos@vegastream.com>) (MIMEDefang) with ESMTP id n9CBaZXF016949; Mon, 12 Oct 2009 12:38:01 +0100 (BST)
+Received: from EXVS02.nasstar-t1.net ([10.2.10.104]) by exsmtp02.nasstar-t1.net with Microsoft SMTPSVC(6.0.3790.1830);  Mon, 12 Oct 2009 12:38:42 +0100
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 12 Oct 2009 12:37:26 +0100
+Message-ID: <680808427CF931459462C3D78CB5EC600771CFFA@EXVS02.nasstar-t1.net>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: [Sip] Thoughts on multiple registrations to an extension
+Thread-Index: AcpKwxyA6vvi9XmKS9GJo2w6VhkwZwAbDBVQ
+From: "Attila Sipos" <attila.sipos@vegastream.com>
+To: =?iso-8859-1?Q?Sidney_San_Mart=EDn?= <s@sidneysm.com>, <sip@ietf.org>
+X-OriginalArrivalTime: 12 Oct 2009 11:38:42.0595 (UTC) FILETIME=[8CC89730:01CA4B30]
+X-Scanned-By: MailControl A-09-22-01 (www.mailcontrol.com) on 10.68.1.120
+Subject: Re: [Sip] Thoughts on multiple registrations to an extension
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 12 Oct 2009 11:38:33 -0000
+
+=20
+
+In SIP, one can register multiple devices to the same extension.
+
+Then the call gets forwarded to each device simultaneously using SIP =
+"forking".
+
+from RFC 3261
+ A proxy server can
+   also send an INVITE to a number of locations at the same time.  This
+   type of parallel search is known as forking.
+
+It's well-understood, well-known and has been around for several years.
+
+(SIP forking is not possible on stateless proxies though)
+
+Regards
+
+Attila
+
+
+
+-----Original Message-----
+From: sip-bounces@ietf.org [mailto:sip-bounces@ietf.org] On Behalf Of =
+Sidney San Mart=EDn
+Sent: 11 October 2009 23:34
+To: sip@ietf.org
+Subject: [Sip] Thoughts on multiple registrations to an extension
+
+Disclaimer: I'm not involved in the SIP community and not very familiar =
+with its implementation or history.
+
+Whenever I use an IP phone, I run into a nned to register the same =
+extension on multiple devices, and I always get the recommendation to =
+create more extensions and use hackery on the PBX to make 'em work like =
+they're a single one. That's not good enough. The other protocols we use =
+to communicate (XMPP, POP/IMAP/SMTP, even proprietary ones like AIM and =
+old ones like POTS) are all friendly to multiple connections to the same =
+account. Why's this functionality missing from SIP? There are only a few =
+use cases, but they're huge ones:
+
+- A user has a desk phone but also wants to take and place calls =
+occasionally from a computer or mobile device over cellular data. =20
+Usually, the desk phone will be the only device registered.
+- A user wants an extension represented in two or more geographically =
+separate locations, say on a desk phone at home and a desk phone at work
+- A house with extensions in several rooms. Right now, the "IP" part of =
+IP telephony usually evaporates inside the home, where SIP gets bridged =
+to POTS. That's great for retrofits, but as fewer people subscribe to =
+landline service, there will come a time when new homes aren't wired for =
+POTS. At the same time, many new homes ARE being wired with Ethernet.
+
+What do you all think about this problem? (If it's already been =
+discussed to death, feel free to lightly whack me over the head and =
+point me to the right thread :).) =
+_______________________________________________
+Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol Use =
+sip-implementors@cs.columbia.edu for questions on current sip Use =
+sipping@ietf.org for new developments on the application of sip
+
+From dworley@nortel.com  Mon Oct 12 07:09:39 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id BE0B23A69C9 for <sip@core3.amsl.com>; Mon, 12 Oct 2009 07:09:39 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.299 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id f+ph6hLNWL0b for <sip@core3.amsl.com>; Mon, 12 Oct 2009 07:09:39 -0700 (PDT)
+Received: from zcars04e.nortel.com (zcars04e.nortel.com [47.129.242.56]) by core3.amsl.com (Postfix) with ESMTP id C42BA3A69B8 for <sip@ietf.org>; Mon, 12 Oct 2009 07:09:38 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (zrtphxs1.corp.nortel.com [47.140.202.46]) by zcars04e.nortel.com (Switch-2.2.0/Switch-2.2.0) with ESMTP id n9CE9XF09126; Mon, 12 Oct 2009 14:09:34 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Mon, 12 Oct 2009 10:09:33 -0400
+From: "Dale Worley" <dworley@nortel.com>
+To: Sidney San =?ISO-8859-1?Q?Mart=EDn?= <s@sidneysm.com>
+In-Reply-To: <830997F0-CC9F-4116-A23F-2BE11BC94E8B@sidneysm.com>
+References: <830997F0-CC9F-4116-A23F-2BE11BC94E8B@sidneysm.com>
+Content-Type: text/plain; charset=utf-8
+Organization: Nortel Networks
+Date: Mon, 12 Oct 2009 10:09:32 -0400
+Message-Id: <1255356572.21215.6.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: quoted-printable
+X-OriginalArrivalTime: 12 Oct 2009 14:09:33.0813 (UTC) FILETIME=[9FBADA50:01CA4B45]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Thoughts on multiple registrations to an extension
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 12 Oct 2009 14:09:39 -0000
+
+On Sun, 2009-10-11 at 18:33 -0400, Sidney San Mart=C3=ADn wrote:
+> Whenever I use an IP phone, I run into a nned to register the same =20
+> extension on multiple devices, and I always get the recommendation to =20
+> create more extensions and use hackery on the PBX to make 'em work =20
+> like they're a single one. That's not good enough. The other protocols =20
+> we use to communicate (XMPP, POP/IMAP/SMTP, even proprietary ones like =20
+> AIM and old ones like POTS) are all friendly to multiple connections =20
+> to the same account. Why's this functionality missing from SIP? There =20
+> are only a few use cases, but they're huge ones:
+
+Multiple registrations is a functionality that was built into SIP from
+the beginning.  Many, many users of sipXecs have been using it for many
+years and we have never seen a fundamental problem with it.  It is not
+clear to me who would recommend to you that multiple registration does
+not work in SIP.  Is it possible that you are confusing SIP with other
+voice-over-IP protocols, some of which do not support multiple
+registrations well?
+
+If you have  tried to use multiple registrations and they have not
+worked, please tell us about your experiences in detail.  I'm sure the
+problem can be corrected.
+
+Dale
+
+
+
+From dworley@nortel.com  Mon Oct 12 08:46:13 2009
+Return-Path: <dworley@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 756A03A690F for <sip@core3.amsl.com>; Mon, 12 Oct 2009 08:46:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.299 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vCwLsgKQHmHA for <sip@core3.amsl.com>; Mon, 12 Oct 2009 08:46:12 -0700 (PDT)
+Received: from zcars04e.nortel.com (zcars04e.nortel.com [47.129.242.56]) by core3.amsl.com (Postfix) with ESMTP id 668373A63C9 for <sip@ietf.org>; Mon, 12 Oct 2009 08:46:12 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zcars04e.nortel.com (Switch-2.2.0/Switch-2.2.0) with ESMTP id n9CFk6C26916; Mon, 12 Oct 2009 15:46:07 GMT
+Received: from [47.16.90.165] ([47.16.90.165]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959);  Mon, 12 Oct 2009 11:44:09 -0400
+From: "Dale Worley" <dworley@nortel.com>
+To: Sidney San =?ISO-8859-1?Q?Mart=EDn?= <s@sidneysm.com>
+In-Reply-To: <1255356572.21215.6.camel@khone.us.nortel.com>
+References: <830997F0-CC9F-4116-A23F-2BE11BC94E8B@sidneysm.com> <1255356572.21215.6.camel@khone.us.nortel.com>
+Content-Type: text/plain
+Organization: Nortel Networks
+Date: Mon, 12 Oct 2009 11:44:08 -0400
+Message-Id: <1255362248.21215.19.camel@khone.us.nortel.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.12.3 (2.12.3-5.fc8) 
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 12 Oct 2009 15:44:09.0458 (UTC) FILETIME=[D6AD8D20:01CA4B52]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Thoughts on multiple registrations to an extension
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 12 Oct 2009 15:46:13 -0000
+
+On Mon, 2009-10-12 at 10:09 -0400, Dale Worley wrote:
+> Multiple registrations is a functionality that was built into SIP from
+> the beginning.  Many, many users of sipXecs have been using it for many
+> years and we have never seen a fundamental problem with it.  It is not
+> clear to me who would recommend to you that multiple registration does
+> not work in SIP.  Is it possible that you are confusing SIP with other
+> voice-over-IP protocols, some of which do not support multiple
+> registrations well?
+
+Sorry about that message, I mistook which mailing list I received it
+via.  However, the above description is valid regarding SIP.
+
+> If you have  tried to use multiple registrations and they have not
+> worked, please tell us about your experiences in detail.  I'm sure the
+> problem can be corrected.
+
+If you have trouble with the sipXecs system, please write to the
+sipx-users mailing list (@list.sipfoundry.org).  If you have trouble
+with other SIP systems, you can write to sip-implementors
+(@lists.cs.columbia.edu).
+
+Dale
+
+
+
+From scott.lawrence@nortel.com  Mon Oct 12 08:51:59 2009
+Return-Path: <scott.lawrence@nortel.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id D326E28C23A for <sip@core3.amsl.com>; Mon, 12 Oct 2009 08:51:59 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.299
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.299 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Da9tWA3el1sr for <sip@core3.amsl.com>; Mon, 12 Oct 2009 08:51:59 -0700 (PDT)
+Received: from zrtps0kp.nortel.com (zrtps0kp.nortel.com [47.140.192.56]) by core3.amsl.com (Postfix) with ESMTP id 0368A28C238 for <sip@ietf.org>; Mon, 12 Oct 2009 08:51:58 -0700 (PDT)
+Received: from zrtphxs1.corp.nortel.com (casmtp.ca.nortel.com [47.140.202.46]) by zrtps0kp.nortel.com (Switch-2.2.6/Switch-2.2.0) with ESMTP id n9CFptm12372; Mon, 12 Oct 2009 15:51:55 GMT
+Received: from [127.0.0.1] ([47.17.25.99]) by zrtphxs1.corp.nortel.com with Microsoft SMTPSVC(6.0.3790.3959); Mon, 12 Oct 2009 11:51:54 -0400
+From: "Scott Lawrence" <scott.lawrence@nortel.com>
+To: Sidney San =?ISO-8859-1?Q?Mart=EDn?= <s@sidneysm.com>
+In-Reply-To: <830997F0-CC9F-4116-A23F-2BE11BC94E8B@sidneysm.com>
+References: <830997F0-CC9F-4116-A23F-2BE11BC94E8B@sidneysm.com>
+Content-Type: text/plain; charset="UTF-8"
+Organization: Nortel Networks
+Date: Mon, 12 Oct 2009 11:51:53 -0400
+Message-Id: <1255362713.3551.43.camel@scott>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.24.5 (2.24.5-2.fc10) 
+Content-Transfer-Encoding: quoted-printable
+X-OriginalArrivalTime: 12 Oct 2009 15:51:54.0752 (UTC) FILETIME=[EC03C800:01CA4B53]
+Cc: sip@ietf.org
+Subject: Re: [Sip] Thoughts on multiple registrations to an extension
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Mon, 12 Oct 2009 15:51:59 -0000
+
+On Sun, 2009-10-11 at 18:33 -0400, Sidney San Mart=C3=ADn wrote:
+> Disclaimer: I'm not involved in the SIP community and not very =20
+> familiar with its implementation or history.
+>=20
+> Whenever I use an IP phone, I run into a nned to register the same =20
+> extension on multiple devices, and I always get the recommendation to =20
+> create more extensions and use hackery on the PBX to make 'em work =20
+> like they're a single one. That's not good enough.
+
+Then you should find other phones and/or other PBXs.  Multiple
+registrations should just work with no hackery required.
+
+
+
+From AVSHALOM@il.ibm.com  Thu Oct 15 08:54:15 2009
+Return-Path: <AVSHALOM@il.ibm.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 07B9328C0FF for <sip@core3.amsl.com>; Thu, 15 Oct 2009 08:54:15 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.998 tagged_above=-999 required=5 tests=[AWL=-1.600, BAYES_50=0.001, HTML_MESSAGE=0.001, J_CHICKENPOX_93=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dL1be1kOqQ13 for <sip@core3.amsl.com>; Thu, 15 Oct 2009 08:54:14 -0700 (PDT)
+Received: from mtagate5.de.ibm.com (mtagate5.de.ibm.com [195.212.17.165]) by core3.amsl.com (Postfix) with ESMTP id 10B9028C0D8 for <sip@ietf.org>; Thu, 15 Oct 2009 08:54:11 -0700 (PDT)
+Received: from d12nrmr1707.megacenter.de.ibm.com (d12nrmr1707.megacenter.de.ibm.com [9.149.167.81]) by mtagate5.de.ibm.com (8.13.1/8.13.1) with ESMTP id n9FFsCWq016146 for <sip@ietf.org>; Thu, 15 Oct 2009 15:54:12 GMT
+Received: from d12av06.megacenter.de.ibm.com (d12av06.megacenter.de.ibm.com [9.149.165.230]) by d12nrmr1707.megacenter.de.ibm.com (8.13.8/8.13.8/NCO v10.0) with ESMTP id n9FFsCaI2474068 for <sip@ietf.org>; Thu, 15 Oct 2009 17:54:12 +0200
+Received: from d12av06.megacenter.de.ibm.com (loopback [127.0.0.1]) by d12av06.megacenter.de.ibm.com (8.14.3/8.13.1/NCO v10.0 AVout) with ESMTP id n9FFsCST011168 for <sip@ietf.org>; Thu, 15 Oct 2009 17:54:12 +0200
+Received: from d12mc102.megacenter.de.ibm.com (d12mc102.megacenter.de.ibm.com [9.149.167.114]) by d12av06.megacenter.de.ibm.com (8.14.3/8.13.1/NCO v10.0 AVin) with ESMTP id n9FFsCPV011165 for <sip@ietf.org>; Thu, 15 Oct 2009 17:54:12 +0200
+To: "SIP@ietf.org List" <sip@ietf.org>
+MIME-Version: 1.0
+X-KeepSent: E3339EE2:06054382-C2257650:00571C18; type=4; name=$KeepSent
+X-Mailer: Lotus Notes Release 8.5 December 05, 2008
+From: Avshalom Houri <AVSHALOM@il.ibm.com>
+Message-ID: <OFE3339EE2.06054382-ONC2257650.00571C18-C2257650.00575BBD@il.ibm.com>
+Date: Thu, 15 Oct 2009 17:54:11 +0200
+X-MIMETrack: Serialize by Router on D12MC102/12/M/IBM(Release 8.5|December 05, 2008) at 15/10/2009 17:54:11, Serialize complete at 15/10/2009 17:54:11
+Content-Type: multipart/alternative; boundary="=_alternative 00575867C2257650_="
+Subject: [Sip] Securing messages with TEL URI over SIP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Oct 2009 15:54:15 -0000
+
+This is a multipart message in MIME format.
+--=_alternative 00575867C2257650_=
+Content-Type: text/plain; charset="US-ASCII"
+
+I have found discussion thread on how to secure e.g. TEL URI over SIP from 
+2007.
+transport=tls is deprecated and it does not mean end to end anyway.
+We still do not have "tels" URI.
+
+Was this discussion concluded and if how it was concluded?
+
+--Avshalom
+
+--=_alternative 00575867C2257650_=
+Content-Type: text/html; charset="US-ASCII"
+
+<font size=2 face="Courier New">I have found discussion thread on how
+to secure e.g. TEL URI over SIP from 2007.</font>
+<br><font size=2 face="Courier New">transport=tls is deprecated and it
+does not mean end to end anyway.</font>
+<br><font size=2 face="Courier New">We still do not have &quot;tels&quot;
+URI.</font>
+<br>
+<br><font size=2 face="Courier New">Was this discussion concluded and if
+how it was concluded?</font>
+<br>
+<br><font size=2 face="Courier New">--Avshalom<br>
+</font>
+--=_alternative 00575867C2257650_=--
+
+From abhatnagar192006@gmail.com  Thu Oct 15 09:42:24 2009
+Return-Path: <abhatnagar192006@gmail.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 2C08E28C0F0 for <sip@core3.amsl.com>; Thu, 15 Oct 2009 09:42:24 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HTML_MESSAGE=0.001, J_CHICKENPOX_93=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id phnkK5hyfnLF for <sip@core3.amsl.com>; Thu, 15 Oct 2009 09:42:23 -0700 (PDT)
+Received: from mail-fx0-f228.google.com (mail-fx0-f228.google.com [209.85.220.228]) by core3.amsl.com (Postfix) with ESMTP id C33B93A6996 for <sip@ietf.org>; Thu, 15 Oct 2009 09:42:22 -0700 (PDT)
+Received: by fxm28 with SMTP id 28so1316306fxm.42 for <sip@ietf.org>; Thu, 15 Oct 2009 09:42:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:in-reply-to:references :from:date:message-id:subject:to:cc:content-type; bh=5/jI0ouz2SGRp9x7Q+a1jsdKLIy8g63eHYhOd/7a5mk=; b=MjS7mxbDohBHHFseqJpaoWOPqOb+MGSlvUJ3o0cBR53HT36H/di5YRGt49pQhgGG3h uQNL89UdyYbayR3XikJ0AAeMKu4rW6xWPEiDcqxVcafsR/OAe5TvuDdXOOghAmGLb85T BahHNpHovOdwMgycZL+mNfuR724ktnEzRLtYg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:in-reply-to:references:from:date:message-id:subject:to :cc:content-type; b=TBSNkjchmvDlqLWzxYcHY9ecf0iNWndqMB4Iruvrv8XNV1lQQb03qP10f8vVc4wOFj /Kt/6a8zvJU15DfWhCc8mcPV9+pb/tNKtEetz5o99I7kCN2rAQTWHoLX7u6VxQ3NjFaU MeccyIhuLP6RaHfTpZgJpqtFDzqIil/VdXcQg=
+MIME-Version: 1.0
+Received: by 10.204.34.83 with SMTP id k19mr194067bkd.96.1255624942168; Thu,  15 Oct 2009 09:42:22 -0700 (PDT)
+In-Reply-To: <OFE3339EE2.06054382-ONC2257650.00571C18-C2257650.00575BBD@il.ibm.com>
+References: <OFE3339EE2.06054382-ONC2257650.00571C18-C2257650.00575BBD@il.ibm.com>
+From: aayush bhatnagar <abhatnagar192006@gmail.com>
+Date: Thu, 15 Oct 2009 22:12:02 +0530
+Message-ID: <abcc59880910150942i7162f03as5b492148a82fae38@mail.gmail.com>
+To: Avshalom Houri <AVSHALOM@il.ibm.com>
+Content-Type: multipart/alternative; boundary=00032555a9a2a62be80475fbf63b
+Cc: "SIP@ietf.org List" <sip@ietf.org>
+Subject: Re: [Sip] Securing messages with TEL URI over SIP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Oct 2009 16:42:24 -0000
+
+--00032555a9a2a62be80475fbf63b
+Content-Type: text/plain; charset=ISO-8859-1
+
+why not use a sips uri that contains a telephone number instead (in the
+sense of section 19.1.6, RFC 3261) ? Eg: sips:+355-554-1234567;postd=
+pp22@foo.com;user=phone
+
+
+On Thu, Oct 15, 2009 at 21:24, Avshalom Houri <AVSHALOM@il.ibm.com> wrote:
+
+> I have found discussion thread on how to secure e.g. TEL URI over SIP from
+> 2007.
+> transport=tls is deprecated and it does not mean end to end anyway.
+> We still do not have "tels" URI.
+>
+> Was this discussion concluded and if how it was concluded?
+>
+> --Avshalom
+>
+> _______________________________________________
+> Sip mailing list  https://www.ietf.org/mailman/listinfo/sip
+> This list is for NEW development of the core SIP Protocol
+> Use sip-implementors@cs.columbia.edu for questions on current sip
+> Use sipping@ietf.org for new developments on the application of sip
+>
+
+
+
+-- 
+aayush
+======
+http://www.linkedin.com/in/abhatnagar19
+
+--00032555a9a2a62be80475fbf63b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+why not use a sips uri that contains a telephone number instead (in the sen=
+se of section 19.1.6, RFC 3261) ?=A0<div><font class=3D"Apple-style-span" f=
+ace=3D"arial, helvetica, sans-serif">Eg:=A0</font><span class=3D"Apple-styl=
+e-span" style=3D"line-height: 26px; white-space: pre; "><font class=3D"Appl=
+e-style-span" face=3D"arial, helvetica, sans-serif">sips:+355-554-1234567;p=
+ostd=3D<a href=3D"mailto:pp22@foo.com">pp22@foo.com</a>;user=3Dphone</font>=
+</span></div>
+
+<div><font class=3D"Apple-style-span" face=3D"monospace" size=3D"4"><span c=
+lass=3D"Apple-style-span" style=3D"font-size: 16px; line-height: 26px; whit=
+e-space: pre;"><br></span></font><br><div class=3D"gmail_quote">On Thu, Oct=
+ 15, 2009 at 21:24, Avshalom Houri <span dir=3D"ltr">&lt;<a href=3D"mailto:=
+AVSHALOM@il.ibm.com">AVSHALOM@il.ibm.com</a>&gt;</span> wrote:<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex;"><font size=3D"2" face=3D"Courier New">I hav=
+e found discussion thread on how
+to secure e.g. TEL URI over SIP from 2007.</font>
+<br><font size=3D"2" face=3D"Courier New">transport=3Dtls is deprecated and=
+ it
+does not mean end to end anyway.</font>
+<br><font size=3D"2" face=3D"Courier New">We still do not have &quot;tels&q=
+uot;
+URI.</font>
+<br>
+<br><font size=3D"2" face=3D"Courier New">Was this discussion concluded and=
+ if
+how it was concluded?</font>
+<br><font color=3D"#888888">
+<br><font size=3D"2" face=3D"Courier New">--Avshalom<br>
+</font></font><br>_______________________________________________<br>
+Sip mailing list =A0<a href=3D"https://www.ietf.org/mailman/listinfo/sip" t=
+arget=3D"_blank">https://www.ietf.org/mailman/listinfo/sip</a><br>
+This list is for NEW development of the core SIP Protocol<br>
+Use <a href=3D"mailto:sip-implementors@cs.columbia.edu">sip-implementors@cs=
+.columbia.edu</a> for questions on current sip<br>
+Use <a href=3D"mailto:sipping@ietf.org">sipping@ietf.org</a> for new develo=
+pments on the application of sip<br></blockquote></div><br><br clear=3D"all=
+"><br>-- <br>aayush<br>=3D=3D=3D=3D=3D=3D<br><a href=3D"http://www.linkedin=
+.com/in/abhatnagar19">http://www.linkedin.com/in/abhatnagar19</a><br>
+
+
+</div>
+
+--00032555a9a2a62be80475fbf63b--
+
+From pkyzivat@cisco.com  Thu Oct 15 09:44:17 2009
+Return-Path: <pkyzivat@cisco.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 4E36028C13C for <sip@core3.amsl.com>; Thu, 15 Oct 2009 09:44:17 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -5.886
+X-Spam-Level: 
+X-Spam-Status: No, score=-5.886 tagged_above=-999 required=5 tests=[AWL=0.113,  BAYES_00=-2.599, J_CHICKENPOX_93=0.6, RCVD_IN_DNSWL_MED=-4]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 83e+Ib0cSvMw for <sip@core3.amsl.com>; Thu, 15 Oct 2009 09:44:16 -0700 (PDT)
+Received: from rtp-iport-2.cisco.com (rtp-iport-2.cisco.com [64.102.122.149]) by core3.amsl.com (Postfix) with ESMTP id 516AB28C13E for <sip@ietf.org>; Thu, 15 Oct 2009 09:44:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=pkyzivat@cisco.com; l=536; q=dns/txt; s=rtpiport02001; t=1255625060; x=1256834660; h=from:sender:reply-to:subject:date:message-id:to:cc: mime-version:content-transfer-encoding:content-id: content-description:resent-date:resent-from:resent-sender: resent-to:resent-cc:resent-message-id:in-reply-to: references:list-id:list-help:list-unsubscribe: list-subscribe:list-post:list-owner:list-archive; z=From:=20Paul=20Kyzivat=20<pkyzivat@cisco.com>|Subject: =20Re:=20[Sip]=20Securing=20messages=20with=20TEL=20URI =20over=20SIP|Date:=20Thu,=2015=20Oct=202009=2012:44:15 =20-0400|Message-ID:=20<4AD7515F.9090704@cisco.com>|To: =20Avshalom=20Houri=20<AVSHALOM@il.ibm.com>|CC:=20"SIP@ie tf.org=20List"=20<sip@ietf.org>|MIME-Version:=201.0 |Content-Transfer-Encoding:=207bit|In-Reply-To:=20<OFE333 9EE2.06054382-ONC2257650.00571C18-C2257650.00575BBD@il.ib m.com>|References:=20<OFE3339EE2.06054382-ONC2257650.0057 1C18-C2257650.00575BBD@il.ibm.com>; bh=I9gypgkEoY0HxNbGz/7stPs3G15JnS8XFv00Rd2MvyA=; b=EdlvuM31raUzFBJLe9LLJouyYCSG5yM6JuMsZYFfoBTYeb6PSxWx+IZq rYsY8EkOsfTdsfD5DypOkOIFjJs7qD/0+4xDicDpe8nt4dxzHGbJ15GSQ kea07XrPfr+WrMYhr/o7s6Q7zcBCzbnLR3c/amCGmB9o055D3igqvZkQE o=;
+Authentication-Results: rtp-iport-2.cisco.com; dkim=neutral (message not signed) header.i=none
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEAKju1kpAZnwN/2dsb2JhbADCAZhLhDAE
+X-IronPort-AV: E=Sophos;i="4.44,567,1249257600"; d="scan'208";a="63289082"
+Received: from rtp-core-2.cisco.com ([64.102.124.13]) by rtp-iport-2.cisco.com with ESMTP; 15 Oct 2009 16:44:18 +0000
+Received: from xbh-rtp-211.amer.cisco.com (xbh-rtp-211.cisco.com [64.102.31.102]) by rtp-core-2.cisco.com (8.13.8/8.14.3) with ESMTP id n9FGiHDK011084; Thu, 15 Oct 2009 16:44:17 GMT
+Received: from xfe-rtp-201.amer.cisco.com ([64.102.31.38]) by xbh-rtp-211.amer.cisco.com with Microsoft SMTPSVC(6.0.3790.3959);  Thu, 15 Oct 2009 12:44:17 -0400
+Received: from [161.44.174.156] ([161.44.174.156]) by xfe-rtp-201.amer.cisco.com with Microsoft SMTPSVC(6.0.3790.3959);  Thu, 15 Oct 2009 12:44:17 -0400
+Message-ID: <4AD7515F.9090704@cisco.com>
+Date: Thu, 15 Oct 2009 12:44:15 -0400
+From: Paul Kyzivat <pkyzivat@cisco.com>
+User-Agent: Thunderbird 2.0.0.23 (Windows/20090812)
+MIME-Version: 1.0
+To: Avshalom Houri <AVSHALOM@il.ibm.com>
+References: <OFE3339EE2.06054382-ONC2257650.00571C18-C2257650.00575BBD@il.ibm.com>
+In-Reply-To: <OFE3339EE2.06054382-ONC2257650.00571C18-C2257650.00575BBD@il.ibm.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 15 Oct 2009 16:44:17.0138 (UTC) FILETIME=[BC431520:01CA4DB6]
+Cc: "SIP@ietf.org List" <sip@ietf.org>
+Subject: Re: [Sip] Securing messages with TEL URI over SIP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Thu, 15 Oct 2009 16:44:17 -0000
+
+Avshalom Houri wrote:
+> I have found discussion thread on how to secure e.g. TEL URI over SIP 
+> from 2007.
+> transport=tls is deprecated and it does not mean end to end anyway.
+> We still do not have "tels" URI.
+> 
+> Was this discussion concluded and if how it was concluded?
+
+AFAIK there was never any resolution of this - nobody knows how to do it.
+
+I think the most fundamental problem is that there is no good answer to 
+who is permitted and able to authenticate the use of a particular TEL URI.
+
+	Thanks,
+	Paul
+
+From root@core3.amsl.com  Tue Oct 20 09:15:01 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 6898E28C0F8; Tue, 20 Oct 2009 09:15:01 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20091020161501.6898E28C0F8@core3.amsl.com>
+Date: Tue, 20 Oct 2009 09:15:01 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-eku-06.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Oct 2009 16:15:01 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Using Extended Key Usage (EKU) for Session Initiation Protocol (SIP) X.509 Certificates
+	Author(s)       : S. Lawrence, V. Gurbani
+	Filename        : draft-ietf-sip-eku-06.txt
+	Pages           : 8
+	Date            : 2009-10-20
+
+This memo documents an extended key usage (EKU) X.509 certificate
+extension for restricting the applicability of a certificate to use
+with a Session Initiation Protocol (SIP) service.  As such, in
+addition to providing rules for SIP implementations, this memo also
+provides guidance to issuers of certificates for use with SIP.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-eku-06.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-eku-06.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-10-20090516.I-D@ietf.org>
+
+
+--NextPart--
+
+From root@core3.amsl.com  Tue Oct 20 09:45:01 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id 84E9F3A69D6; Tue, 20 Oct 2009 09:45:01 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20091020164501.84E9F3A69D6@core3.amsl.com>
+Date: Tue, 20 Oct 2009 09:45:01 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-eku-07.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Oct 2009 16:45:01 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Using Extended Key Usage (EKU) for Session Initiation Protocol (SIP) X.509 Certificates
+	Author(s)       : S. Lawrence, V. Gurbani
+	Filename        : draft-ietf-sip-eku-07.txt
+	Pages           : 8
+	Date            : 2009-10-20
+
+This memo documents an extended key usage (EKU) X.509 certificate
+extension for restricting the applicability of a certificate to use
+with a Session Initiation Protocol (SIP) service.  As such, in
+addition to providing rules for SIP implementations, this memo also
+provides guidance to issuers of certificates for use with SIP.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-eku-07.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-eku-07.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-10-20093941.I-D@ietf.org>
+
+
+--NextPart--
+
+From vkg@alcatel-lucent.com  Tue Oct 20 09:49:58 2009
+Return-Path: <vkg@alcatel-lucent.com>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 74FF43A69A5 for <sip@core3.amsl.com>; Tue, 20 Oct 2009 09:49:58 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.599
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.599 tagged_above=-999 required=5 tests=[BAYES_00=-2.599]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id f8GvFQrz4Vja for <sip@core3.amsl.com>; Tue, 20 Oct 2009 09:49:57 -0700 (PDT)
+Received: from ihemail2.lucent.com (ihemail2.lucent.com [135.245.0.35]) by core3.amsl.com (Postfix) with ESMTP id 88ED13A698A for <sip@ietf.org>; Tue, 20 Oct 2009 09:49:53 -0700 (PDT)
+Received: from umail.lucent.com (h135-3-40-63.lucent.com [135.3.40.63]) by ihemail2.lucent.com (8.13.8/IER-o) with ESMTP id n9KGo1S5000025 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO) for <sip@ietf.org>; Tue, 20 Oct 2009 11:50:01 -0500 (CDT)
+Received: from [135.185.236.17] (il0015vkg1.ih.lucent.com [135.185.236.17]) by umail.lucent.com (8.13.8/TPES) with ESMTP id n9KGo1IJ021311 for <sip@ietf.org>; Tue, 20 Oct 2009 11:50:01 -0500 (CDT)
+Message-ID: <4ADDEA39.9010704@alcatel-lucent.com>
+Date: Tue, 20 Oct 2009 11:50:01 -0500
+From: "Vijay K. Gurbani" <vkg@alcatel-lucent.com>
+Organization: Bell Labs Security Technology Research Group
+User-Agent: Thunderbird 2.0.0.6 (Windows/20070728)
+MIME-Version: 1.0
+To: IETF SIP List <sip@ietf.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Scanned-By: MIMEDefang 2.57 on 135.245.2.35
+Subject: [Sip] A new version of sip-eku has been released
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Oct 2009 16:49:58 -0000
+
+All: Based on IESG review of sip-eku-05, Scott and I have released
+a new version to identify their comments.
+
+The IESG felt that sip-eku should be experimental, so we have
+changed the designation accordingly.  In addition, we have
+removed id-kp-{client,server}Auth values since it was felt that
+they were an odd fit.  A few typos and text clarifications round
+up the set of changes we did.
+
+A diff version between -05 (which was reviewed by the IESG) and
+-07 is at:
+
+http://tools.ietf.org//rfcdiff?url1=http://www.ietf.org/id/draft-ietf-sip-eku-05.txt&url2=http://www.ietf.org/id/draft-ietf-sip-eku-07.txt
+
+Thank you,
+
+- vijay
+-- 
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent
+1960 Lucent Lane, Rm. 9C-533, Naperville, Illinois 60566 (USA)
+Email: vkg@{alcatel-lucent.com,bell-labs.com,acm.org}
+Web:   http://ect.bell-labs.com/who/vkg/
+
+From root@core3.amsl.com  Tue Oct 20 13:15:02 2009
+Return-Path: <root@core3.amsl.com>
+X-Original-To: sip@ietf.org
+Delivered-To: sip@core3.amsl.com
+Received: by core3.amsl.com (Postfix, from userid 0) id F07CC3A67B3; Tue, 20 Oct 2009 13:15:01 -0700 (PDT)
+From: Internet-Drafts@ietf.org
+To: i-d-announce@ietf.org
+Content-Type: Multipart/Mixed; Boundary="NextPart"
+Mime-Version: 1.0
+Message-Id: <20091020201501.F07CC3A67B3@core3.amsl.com>
+Date: Tue, 20 Oct 2009 13:15:01 -0700 (PDT)
+Cc: sip@ietf.org
+Subject: [Sip] I-D Action:draft-ietf-sip-eku-08.txt
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Oct 2009 20:15:02 -0000
+
+--NextPart
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Session Initiation Protocol Working Group of the IETF.
+
+
+	Title           : Using Extended Key Usage (EKU) for Session Initiation Protocol (SIP) X.509 Certificates
+	Author(s)       : S. Lawrence, V. Gurbani
+	Filename        : draft-ietf-sip-eku-08.txt
+	Pages           : 8
+	Date            : 2009-10-20
+
+This memo documents an extended key usage (EKU) X.509 certificate
+extension for restricting the applicability of a certificate to use
+with a Session Initiation Protocol (SIP) service.  As such, in
+addition to providing rules for SIP implementations, this memo also
+provides guidance to issuers of certificates for use with SIP.
+
+A URL for this Internet-Draft is:
+http://www.ietf.org/internet-drafts/draft-ietf-sip-eku-08.txt
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+Below is the data which will enable a MIME compliant mail reader
+implementation to automatically retrieve the ASCII version of the
+Internet-Draft.
+
+--NextPart
+Content-Type: Message/External-body;
+	name="draft-ietf-sip-eku-08.txt";
+	site="ftp.ietf.org";
+	access-type="anon-ftp";
+	directory="internet-drafts"
+
+Content-Type: text/plain
+Content-ID: <2009-10-20130434.I-D@ietf.org>
+
+
+--NextPart--
+
+From oej@edvina.net  Wed Oct 21 06:25:16 2009
+Return-Path: <oej@edvina.net>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 6A5793A6949 for <sip@core3.amsl.com>; Wed, 21 Oct 2009 06:25:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.649
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.649 tagged_above=-999 required=5 tests=[BAYES_00=-2.599, HELO_EQ_SE=0.35, J_CHICKENPOX_93=0.6]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kk6cYg-To5li for <sip@core3.amsl.com>; Wed, 21 Oct 2009 06:25:15 -0700 (PDT)
+Received: from ns.webway.se (ns.webway.se [87.96.134.125]) by core3.amsl.com (Postfix) with ESMTP id 9CD7C3A6811 for <sip@ietf.org>; Wed, 21 Oct 2009 06:25:15 -0700 (PDT)
+Received: from [192.168.40.12] (unknown [192.168.40.12]) by ns.webway.se (Postfix) with ESMTP id 7C5E82843B; Wed, 21 Oct 2009 15:01:29 +0200 (CEST)
+Mime-Version: 1.0 (Apple Message framework v1076)
+Content-Type: text/plain; charset=us-ascii; format=flowed; delsp=yes
+From: "Olle E. Johansson" <oej@edvina.net>
+In-Reply-To: <4AD7515F.9090704@cisco.com>
+Date: Wed, 21 Oct 2009 15:25:22 +0200
+Content-Transfer-Encoding: 7bit
+Message-Id: <0B135F3A-686F-4284-89FB-89BB932D7C74@edvina.net>
+References: <OFE3339EE2.06054382-ONC2257650.00571C18-C2257650.00575BBD@il.ibm.com> <4AD7515F.9090704@cisco.com>
+To: Paul Kyzivat <pkyzivat@cisco.com>
+X-Mailer: Apple Mail (2.1076)
+Cc: "SIP@ietf.org List" <sip@ietf.org>, Avshalom Houri <AVSHALOM@il.ibm.com>
+Subject: Re: [Sip] Securing messages with TEL URI over SIP
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Wed, 21 Oct 2009 13:25:16 -0000
+
+15 okt 2009 kl. 18.44 skrev Paul Kyzivat:
+
+>
+>
+> Avshalom Houri wrote:
+>> I have found discussion thread on how to secure e.g. TEL URI over  
+>> SIP from 2007.
+>> transport=tls is deprecated and it does not mean end to end anyway.
+>> We still do not have "tels" URI.
+>> Was this discussion concluded and if how it was concluded?
+>
+> AFAIK there was never any resolution of this - nobody knows how to  
+> do it.
+>
+> I think the most fundamental problem is that there is no good answer  
+> to who is permitted and able to authenticate the use of a particular  
+> TEL URI.
+
+That's a very interesting issue. The Tel: uri gets routed somehow, by  
+default route in a proxy or outbound proxy setting in a UA.
+This really applies to all NON-sip/sips uri's in SIP.
+
+Food for thought. And something that causes damage for the use of Tel:  
+URI's.
+
+/O
+
+From rfc-editor@rfc-editor.org  Fri Oct 23 16:20:28 2009
+Return-Path: <rfc-editor@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 8A4833A6839; Fri, 23 Oct 2009 16:20:28 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -16.922
+X-Spam-Level: 
+X-Spam-Status: No, score=-16.922 tagged_above=-999 required=5 tests=[AWL=0.077, BAYES_00=-2.599, J_CHICKENPOX_93=0.6, USER_IN_DEF_WHITELIST=-15]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id WVu2DxzcLblc; Fri, 23 Oct 2009 16:20:27 -0700 (PDT)
+Received: from bosco.isi.edu (bosco.isi.edu [128.9.168.207]) by core3.amsl.com (Postfix) with ESMTP id AAF333A67DA; Fri, 23 Oct 2009 16:20:27 -0700 (PDT)
+Received: by bosco.isi.edu (Postfix, from userid 70) id 660243513C8; Fri, 23 Oct 2009 16:17:55 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20091023231755.660243513C8@bosco.isi.edu>
+Date: Fri, 23 Oct 2009 16:17:55 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5626 on Managing Client-Initiated Connections in the Session Initiation Protocol (SIP)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Oct 2009 23:20:28 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5626
+
+        Title:      Managing Client-Initiated Connections in the 
+                    Session Initiation Protocol (SIP) 
+        Author:     C. Jennings, Ed.,
+                    R. Mahy, Ed.,
+                    F. Audet, Ed.
+        Status:     Standards Track
+        Date:       October 2009
+        Mailbox:    fluffy@cisco.com, 
+                    rohan@ekabal.com, 
+                    francois.audet@skypelabs.com
+        Pages:      50
+        Characters: 116344
+        Updates:    RFC3261, RFC3327
+
+        I-D Tag:    draft-ietf-sip-outbound-20.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5626.txt
+
+The Session Initiation Protocol (SIP) allows proxy servers to
+initiate TCP connections or to send asynchronous UDP datagrams to
+User Agents in order to deliver requests.  However, in a large number
+of real deployments, many practical considerations, such as the
+existence of firewalls and Network Address Translators (NATs) or the
+use of TLS with server-provided certificates, prevent servers from
+connecting to User Agents in this way.  This specification defines
+behaviors for User Agents, registrars, and proxy servers that allow
+requests to be delivered on existing connections established by the
+User Agent.  It also defines keep-alive behaviors needed to keep NAT
+bindings open and specifies the usage of multiple connections from
+the User Agent to its registrar.  [STANDARDS TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+USC/Information Sciences Institute
+
+
+
+From rfc-editor@rfc-editor.org  Fri Oct 23 16:20:46 2009
+Return-Path: <rfc-editor@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 5706828C108; Fri, 23 Oct 2009 16:20:46 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -16.924
+X-Spam-Level: 
+X-Spam-Status: No, score=-16.924 tagged_above=-999 required=5 tests=[AWL=0.075, BAYES_00=-2.599, J_CHICKENPOX_93=0.6, USER_IN_DEF_WHITELIST=-15]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 9Gn6eQA48qfu; Fri, 23 Oct 2009 16:20:45 -0700 (PDT)
+Received: from bosco.isi.edu (bosco.isi.edu [128.9.168.207]) by core3.amsl.com (Postfix) with ESMTP id 9F8DD28C0FF; Fri, 23 Oct 2009 16:20:45 -0700 (PDT)
+Received: by bosco.isi.edu (Postfix, from userid 70) id 6AB933513CA; Fri, 23 Oct 2009 16:18:13 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20091023231813.6AB933513CA@bosco.isi.edu>
+Date: Fri, 23 Oct 2009 16:18:13 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5627 on Obtaining and Using Globally Routable User Agent URIs (GRUUs) in the Session Initiation Protocol (SIP)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Oct 2009 23:20:46 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5627
+
+        Title:      Obtaining and Using Globally Routable 
+                    User Agent URIs (GRUUs) in the 
+                    Session Initiation Protocol (SIP) 
+        Author:     J. Rosenberg
+        Status:     Standards Track
+        Date:       October 2009
+        Mailbox:    jdrosen@cisco.com
+        Pages:      40
+        Characters: 94790
+        Updates/Obsoletes/SeeAlso:   None
+
+        I-D Tag:    draft-ietf-sip-gruu-15.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5627.txt
+
+Several applications of the Session Initiation Protocol (SIP) require
+a user agent (UA) to construct and distribute a URI that can be used
+by anyone on the Internet to route a call to that specific UA
+instance.  A URI that routes to a specific UA instance is called a
+Globally Routable UA URI (GRUU).  This document describes an
+extension to SIP for obtaining a GRUU from a registrar and for
+communicating a GRUU to a peer within a dialog.  [STANDARDS TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+USC/Information Sciences Institute
+
+
+
+From rfc-editor@rfc-editor.org  Fri Oct 23 16:21:30 2009
+Return-Path: <rfc-editor@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 64F7F28C15C; Fri, 23 Oct 2009 16:21:30 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -16.93
+X-Spam-Level: 
+X-Spam-Status: No, score=-16.93 tagged_above=-999 required=5 tests=[AWL=0.069,  BAYES_00=-2.599, J_CHICKENPOX_93=0.6, USER_IN_DEF_WHITELIST=-15]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kfXoE6CQCFyp; Fri, 23 Oct 2009 16:21:29 -0700 (PDT)
+Received: from bosco.isi.edu (bosco.isi.edu [128.9.168.207]) by core3.amsl.com (Postfix) with ESMTP id 663A628C15D; Fri, 23 Oct 2009 16:21:29 -0700 (PDT)
+Received: by bosco.isi.edu (Postfix, from userid 70) id 301313513D4; Fri, 23 Oct 2009 16:18:57 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20091023231857.301313513D4@bosco.isi.edu>
+Date: Fri, 23 Oct 2009 16:18:57 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5630 on The Use of the SIPS URI Scheme in the Session Initiation Protocol (SIP)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Oct 2009 23:21:30 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5630
+
+        Title:      The Use of the SIPS 
+                    URI Scheme in the Session Initiation 
+                    Protocol (SIP) 
+        Author:     F. Audet
+        Status:     Standards Track
+        Date:       October 2009
+        Mailbox:    francois.audet@skypelabs.com
+        Pages:      56
+        Characters: 114513
+        Updates:    RFC3261, RFC3608
+
+        I-D Tag:    draft-ietf-sip-sips-09.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5630.txt
+
+This document provides clarifications and guidelines concerning the
+use of the SIPS URI scheme in the Session Initiation Protocol (SIP).
+It also makes normative changes to SIP.  [STANDARDS TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+USC/Information Sciences Institute
+
+
+
+From rfc-editor@rfc-editor.org  Fri Oct 23 16:22:32 2009
+Return-Path: <rfc-editor@rfc-editor.org>
+X-Original-To: sip@core3.amsl.com
+Delivered-To: sip@core3.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by core3.amsl.com (Postfix) with ESMTP id 57C5728C171; Fri, 23 Oct 2009 16:22:32 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -16.943
+X-Spam-Level: 
+X-Spam-Status: No, score=-16.943 tagged_above=-999 required=5 tests=[AWL=0.056, BAYES_00=-2.599, J_CHICKENPOX_93=0.6, USER_IN_DEF_WHITELIST=-15]
+Received: from mail.ietf.org ([64.170.98.32]) by localhost (core3.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bpj98PzfJNKk; Fri, 23 Oct 2009 16:22:31 -0700 (PDT)
+Received: from bosco.isi.edu (bosco.isi.edu [128.9.168.207]) by core3.amsl.com (Postfix) with ESMTP id 8FF2728C15F; Fri, 23 Oct 2009 16:22:31 -0700 (PDT)
+Received: by bosco.isi.edu (Postfix, from userid 70) id 573303513E4; Fri, 23 Oct 2009 16:19:59 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+From: rfc-editor@rfc-editor.org
+Message-Id: <20091023231959.573303513E4@bosco.isi.edu>
+Date: Fri, 23 Oct 2009 16:19:59 -0700 (PDT)
+Cc: sip@ietf.org, rfc-editor@rfc-editor.org
+Subject: [Sip] RFC 5658 on Addressing Record-Route Issues in the Session Initiation Protocol (SIP)
+X-BeenThere: sip@ietf.org
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: Session Initiation Protocol <sip.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=unsubscribe>
+List-Archive: <http://www.ietf.org/mail-archive/web/sip>
+List-Post: <mailto:sip@ietf.org>
+List-Help: <mailto:sip-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/sip>, <mailto:sip-request@ietf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Oct 2009 23:22:32 -0000
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 5658
+
+        Title:      Addressing Record-Route Issues in the 
+                    Session Initiation Protocol (SIP) 
+        Author:     T. Froment, C. Lebel,
+                    B. Bonnaerens
+        Status:     Standards Track
+        Date:       October 2009
+        Mailbox:    thomas.froment@tech-invite.com, 
+                    Christophe.Lebel@alcatel-lucent.fr, 
+                    ben.bonnaerens@alcatel-lucent.be
+        Pages:      18
+        Characters: 39219
+        Updates/Obsoletes/SeeAlso:   None
+
+        I-D Tag:    draft-ietf-sip-record-route-fix-10.txt
+
+        URL:        http://www.rfc-editor.org/rfc/rfc5658.txt
+
+A typical function of a Session Initiation Protocol (SIP) Proxy is to
+insert a Record-Route header into initial, dialog-creating requests in
+order to make subsequent, in-dialog requests pass through it.  This
+header contains a SIP Uniform Resource Identifier (URI) or SIPS
+(secure SIP) URI indicating where and how the
+subsequent requests should be sent to reach the proxy.  These SIP or SIPS
+URIs can contain IPv4 or IPv6 addresses and URI parameters that could
+influence the routing such as the transport parameter (for example,
+transport=tcp), or a compression indication like "comp=sigcomp".  When
+a proxy has to change some of those parameters between its incoming
+and outgoing interfaces (multi-homed proxies, transport protocol
+switching, or IPv4 to IPv6 scenarios, etc.), the question arises on
+what should be put in Record-Route header(s).  It is not possible to
+make one header have the characteristics of both interfaces at the
+same time.  This document aims to clarify these scenarios and fix bugs
+already identified on this topic; it formally recommends the use of
+the double Record-Route technique as an alternative to the current RFC
+3261 text, which describes only a Record-Route rewriting solution.  
+[STANDARDS TRACK]
+
+This document is a product of the Session Initiation Protocol Working Group of the IETF.
+
+This is now a Proposed Standard Protocol.
+
+STANDARDS TRACK: This document specifies an Internet standards track
+protocol for the Internet community,and requests discussion and suggestions
+for improvements.  Please refer to the current edition of the Internet
+Official Protocol Standards (STD 1) for the standardization state and
+status of this protocol.  Distribution of this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  http://www.ietf.org/mailman/listinfo/ietf-announce
+  http://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see http://www.rfc-editor.org/rfcsearch.html.
+For downloading RFCs, see http://www.rfc-editor.org/rfc.html.
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+USC/Information Sciences Institute
+
+

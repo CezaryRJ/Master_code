@@ -1,0 +1,23 @@
+2010 TO 2020
+-------#####------->    rfc-markdown
+henrik@levkowetz.com 72
+cabo@tzi.org 32
+julian.reschke@gmx.de 23
+miek@miek.nl 9
+york@isoc.org 7
+agmalis@gmail.com 6
+rgm@htt-consult.com 5
+tony@att.com 4
+rse@rfc-editor.org 3
+lists@digitaldissidents.org 2
+marc@petit-huguenin.org 2
+mnot@mnot.net 2
+paul.hoffman@vpnc.org 2
+paulej@packetizer.com 2
+rjsparks@nostrum.com 2
+dhruv.ietf@gmail.com 1
+dkg@fifthhorseman.net 1
+fredbaker.ietf@gmail.com 1
+ietf-secretariat@ietf.org 1
+jyasskin@chromium.org 1
+tale@dd.org 1

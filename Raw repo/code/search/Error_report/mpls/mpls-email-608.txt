@@ -1,0 +1,151 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : mpls
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mpls/2006-10.mailcl']
+id : badb52d1-a942-4eed-a041-107e4152198b
+_version_ : 1675133447354449920
+
+Content : 
+
+RCPT TO:<pce-request@lists.ietf.org>
+RCPT TO:<mpls@lists.ietf.org>
+RCPT TO:<mpls-bounces@lists.ietf.org>
+RCPT TO:<mpls-archive@lists.ietf.org>
+RCPT TO:<mailman@lists.ietf.org>
+RCPT TO:<mailman-bounces@lists.ietf.org>
+RCPT TO:<mailer-daemon@lists.ietf.org>
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<mpls@lists.ietf.org>
+RCPT TO:<mpls-bounces@lists.ietf.org>
+RCPT TO:<mpls-archive@lists.ietf.org>
+RCPT TO:<mailman@lists.ietf.org>
+RCPT TO:<mailman-bounces@lists.ietf.org>
+RCPT TO:<mailer-daemon@lists.ietf.org>
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<mpls-bounces@lists.ietf.org>
+RCPT TO:<mpls-archive@lists.ietf.org>
+RCPT TO:<mailman@lists.ietf.org>
+RCPT TO:<mailman-bounces@lists.ietf.org>
+RCPT TO:<mailer-daemon@lists.ietf.org>
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<mpls-archive@lists.ietf.org>
+RCPT TO:<mailman@lists.ietf.org>
+RCPT TO:<mailman-bounces@lists.ietf.org>
+RCPT TO:<mailer-daemon@lists.ietf.org>
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<mailman@lists.ietf.org>
+RCPT TO:<mailman-bounces@lists.ietf.org>
+RCPT TO:<mailer-daemon@lists.ietf.org>
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<mailman-bounces@lists.ietf.org>
+RCPT TO:<mailer-daemon@lists.ietf.org>
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<mailer-daemon@lists.ietf.org>
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<ltru@lists.ietf.org>
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<ltru-request@lists.ietf.org>
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+RCPT TO:<ldapext-archive@lists.ietf.org>
+DATA
+DATA
+From: "Freddy Dickinson" <dbsgbbakbr@mail.ru>
+To: <pce-request@lists.ietf.org>
+Subject: Free home-based vacancies.  
+Date: Tue, 17 Nov 2006 20:30:54 -0060
+MIME-Version: 1.0
+Content-Type: text/plain;
+	format=flowed;
+	charset="windows-1250";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 4.72.3110.3
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.3
+
+Flower land International inc. is looking for qualified candidates.  
+ -----------------------------------------------------------------  
+ The Company:  
+   
+ FlowerLand International is an american trading company.  
+ Our core values are:  
+   
+ -To provide excellent customer service  
+ -To offer top quality products  
+ -To create and innovate  
+   
+ The Vacancy:  
+ The company has an opportunity for talented, highly creative persons. We are looking for    
+ someone who is energetic, ambitious and intelligent. We can employ people from all over the    
+ world.  
+   
+ The successful candidate must possess the following skills and experience:  
+ - Excellent people skills.  
+ - Punctuality.  
+ - Skilfulness.  
+   
+ Main Advantages:  
+   
+ - Really High Wages.  
+ - Ability to work from home.  
+ - No sign up fees, no investment is needed.  
+ - All expenses (such as phone calls, webtraffic, etc) will be fully covered by our company.  
+ - AIDS\Disability Friendly team.  
+   
+   
+ Degree:  
+ No degree required.  
+   
+ How to Apply:  
+ Please send your resume to our personnel manager via email FlowerLandIntl@web2mail.com   
+ It must be maild in a TXT, Microsoft Word or RTF format.
+
+
+

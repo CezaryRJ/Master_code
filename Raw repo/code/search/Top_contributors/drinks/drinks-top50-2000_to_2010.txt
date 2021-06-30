@@ -1,0 +1,26 @@
+2000 TO 2010
+-------#####------->    drinks
+richard@shockey.us 30
+alexander.mayrhofer@nic.at 11
+jf.mule@cablelabs.com 11
+kcartwright@tnsi.com 11
+lendl@nic.at 8
+kcartwright@verisign.com 7
+ppfautz@att.com 5
+trutkowski@netmagic.com 5
+andy@hxr.us 4
+br@brianrosen.net 4
+dguyton@telcordia.com 4
+dschwartz@xconnect.net 4
+john.elwell@siemens-enterprise.com 3
+Ray.Bellis@nominet.org.uk 2
+mmaharishi@tnsi.com 2
+pp3129@att.com 2
+sumanth@cablelabs.com 2
+HKaplan@acmepacket.com 1
+Internet-Drafts@ietf.org 1
+dranalli@netnumber.com 1
+fluffy@cisco.com 1
+jcronin@egh.com 1
+mmaharishi@verisign.com 1
+theo@crazygreek.co.uk 1

@@ -1,0 +1,61 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : kink
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/kink/2007-07.mailcl']
+id : 6a19e399-d6b3-4199-95cf-383930c61b80
+_version_ : 1675132836184588288
+
+Content : 
+
+RSET
+       MAIL FROM: <xbiqmjlp@rrintertrans.com>
+RCPT TO: <kaa00137@ietf.org>
+RCPT TO: <kaa00930@ietf.org>
+RCPT TO: <kaa01130@ietf.org>
+                           MAIL FROM: <mctqetikb@rrnetwork.com.br>
+RCPT TO: <kaa01208@ietf.org>
+RCPT TO: <kaa02                                         MAIL FROM: <trxbxezbw@rrhatx.com>
+RCPT TO: <kaa02831@ietf.org>
+R                                                       MAIL FROM: <ndfddmjfv                                                                     MAIL FROM: <gzujbteyd@rrlawson.com>
+RCPT TO: <kaa12221@ietf.org>
+RCPT TO: <kaa18619@ietf.org>
+RC                                                                                   MAIL FROM: <sizsbfokp@rrexpre                                                                                                                                                                                                   MAIL FROM: <onppzztwou@rrmortg                                                                                                                Message-ID: <74023827167312.8477D913E7@6ZCEGLNU>
+From: "Leta Randle" <xomcddknmhk@rrhough.com>
+To: <kink-archive@ietf.org>
+Subject: SE na pokupku pingvinov
+Date: Sat, 14 Jul 2007 10:54:03 +0800
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Thread-Index: SyJn1CPHcGYmqYGrwgLntSYnSOT8hpdyb0cH
+Content-Type: text/plain;
+	format=flowed;
+	charset="koi8-r";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+
+pingvin
+
+

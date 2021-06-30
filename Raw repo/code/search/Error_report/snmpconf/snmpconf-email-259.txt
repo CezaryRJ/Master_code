@@ -1,0 +1,70 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : snmpconf
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/snmpconf/2007-02.mailcl']
+id : 40484104-fcb4-4931-a9c7-c6fda3dfec8b
+_version_ : 1675131923355140099
+
+Content : 
+
+From: 
+To: 
+X-Mailer: Microsoft Outlook Express 6.00.2800.1478
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$B%a!<%k5qH](B
+maki_noda21@yahoo.co.uk
+
+
+

@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    splices
+rifatyu@avaya.com 44
+pkyzivat@cisco.com 32
+dworley@avaya.com 21
+spromano@unina.it 19
+musgravepj@gmail.com 14
+salvatore.loreto@ericsson.com 12
+Gonzalo.Camarillo@ericsson.com 10
+andrew.hutton@siemens-enterprise.com 6
+peter.musgrave@magorcorp.com 5
+alan.b.johnston@gmail.com 4
+adam@nostrum.com 3
+gao.yang2@zte.com.cn 3
+ietf@meetecho.com 3
+john.elwell@siemens-enterprise.com 3
+partr@cisco.com 3
+R.Jesske@telekom.de 2
+christer.holmberg@ericsson.com 2
+fluffy@cisco.com 1
+iesg-secretary@ietf.org 1
+jlaurens@cisco.com 1
+lorenzo.miniero@unina.it 1
+petithug@acm.org 1
+pkyzivat@alum.mit.edu 1
+rfc-editor@rfc-editor.org 1

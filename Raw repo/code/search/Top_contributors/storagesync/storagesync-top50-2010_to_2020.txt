@@ -1,0 +1,26 @@
+2010 TO 2020
+-------#####------->    storagesync
+fsong@bjtu.edu.cn 60
+lh.sunlinh@gmail.com 44
+mellon@fugue.com 28
+markus@unterwaditzer.net 16
+ietf@hugo.labkode.com 12
+mbdejong@mozilla.com 12
+Jakub.Moscicki@cern.ch 11
+qinxiaowei@cnnic.cn 7
+marc.blanchet@viagenie.ca 4
+cuiyong@tsinghua.edu.cn 3
+fkooman@tuxed.net 3
+gihan@cse.mrt.ac.lk 3
+lizhenhua1983@tsinghua.edu.cn 3
+uestclzq@gmail.com 3
+david.somers-harris@rakuten.com 2
+davenoveck@gmail.com 1
+freitag@owncloud.com 1
+gihan@uom.lk 1
+haibin.song@huawei.com 1
+ietf-secretariat@ietf.org 1
+jari.arkko@piuha.net 1
+lilishan48@126.com 1
+sebastian@kip.pe 1
+session_request_developers@ietf.org 1

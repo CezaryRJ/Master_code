@@ -1,0 +1,10 @@
+2000 TO 2010
+-------#####------->    ietf74-team
+rpelletier@isoc.org 16
+Gregory@juniper.net 11
+rcallon@juniper.net 4
+joel.jaeggli@nokia.com 3
+amorris@amsl.com 2
+smccammon@amsl.com 2
+twalsh@juniper.net 2
+msackett@verilan.com 1

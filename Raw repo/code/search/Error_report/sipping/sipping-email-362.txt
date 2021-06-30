@@ -1,0 +1,92 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : sipping
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sipping/2006-11.mailcl']
+id : 8ce98311-ca2c-4826-8a26-92ba4ed17326
+_version_ : 1675132961763098624
+
+Content : 
+
+the user. Thus, you need a flag that indicates the request is anonymous. 
+We could use the Privacy: id value for this, or use the presence of an 
+anonymous URI in the From as this flag. What I assert we do NOT want is 
+anything more than just a single flag. We don't want specific guidance 
+on whether its allowed to insert header foo vs. header bar. That is too 
+complicated and I think is not useful.
+
+3. Additionally, one might want a solution for UA which, for some 
+reason, cannot construct messages using (1). In that case, the UA will 
+want to invoke a privacy service in the network. I would argue that we 
+DONT want complex features that allow the UA to micro-manage the 
+behavior of that privacy service. As a privacy service, it does a 
+"full-processing" on the request - removing or obfuscating anything that 
+could reveal user identity. Thus, the only thing we need to signal is a 
+way for a UA to invoke that service, thats it. We could use a Privacy 
+value for that, or we could use other techniques we have developed for 
+service invocation. For example a route header field that points to an 
+anonymization service.
+
+
+I will point out that RFC 3323 itself has only seen deployment in the 
+context of RFC 3325. That is, to my knowledge, the only value of the 
+Privacy header ever used is "id".
+
+-Jonathan R.
+
+
+Mayumi Munakata wrote:
+
+> Jonathan,
+> 
+> Thank you for the valuable comments.
+> 
+> To my knowledge, RFC 3323 is widely deployed already, so it is
+> necessary to keep the mechanism and clarify it as much as possible
+> for the already deployed implementations.
+> 
+> Your sip-identity-privacy draft may solve all the privacy problems,
+> but still, we need RFC 3323, even if it is a short-term solution.
+> 
+> If everybody views RFC 3323 in the same way, I can change the text in
+> Section 4.2. (Guidelines on specifying new priv-values) to something
+> like "it is RECOMMENDED to avoid defining a new priv-value in future
+> RFCs".
+> 
+> Thanks, Mayumi
+> 
+
+-- 
+Jonathan D. Rosenberg, Ph.D.                   600 Lanidex Plaza
+Cisco Fellow                                   Parsippany, NJ 07054-2711
+Cisco Systems
+jdrosen@cisco.com                              FAX:   (973) 952-5050
+http://www.jdrosen.net                         PHONE: (973) 952-5000
+http://www.cisco.com
+
+_______________________________________________
+Sipping mailing list  https://www1.ietf.org/mailman/listinfo/sipping
+This list is for NEW development of the application of SIP
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sip@ietf.org for new developments of core SIP

@@ -1,0 +1,123 @@
+Date : ['1900-01-01T01:00:00Z']
+Timezone : -9999
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['Null']
+In-Reply-To-name : Null
+In-Reply-To-address : Null
+Message-ID : Null
+References : Null
+Comments : ['Null']
+Subject : ['Null']
+Mailing-list : mip4
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/mip4/2006-03.mailcl']
+id : 9895554d-73bb-4b1e-b41a-bbb882ec5712
+_version_ : 1675134303667748865
+
+Content : 
+
+impact in these areas.  Therefore, this year, we are extending the scope of
+the symposium to cover all safety and security related aspects of self-*
+systems.  The title of the conference has been changed to reflect this
+expansion.  There will be three tracks: networking, safety and security, and
+self-* properties in static and dynamic systems.
+
+The symposium solicits contributions on all aspects of self-stabilization,
+safety and security, recovery oriented systems and programing, from
+theoretical
+contributions, to reports of the actual experience of applying the principles
+of self-stabilization to static and dynamic systems.
+
+Topics of interest include, but are not limited to:
+
+Stabilization:
+- self-stabilizing systems
+- self-managed, self-assembling, autonomic and adaptive systems
+- self-optimizing and self-protecting systems
+- self-* abstractions for implementing fundamental services in static and
+  dynamic distributed systems
+- impossibility results and lower bounds for self-* systems
+- application of stabilizing algorithms and techniques in dynamic distributed
+  systems
+- data and code stabilization
+- algorithms for self-* error detection/correction
+
+Safety:
+- safety critical systems
+- trust models and specifications
+- semantics of trust, distrust, mistrust, over-trust, cheat, risk and
+  reputation
+- trust-related security and privacy
+- reliable and dependable systems
+- fault-tolerant systems, hardware redundancy, robustness, survivable
+systems,
+  failure recovery
+
+Security:
+- security of network protocols
+- security of sensor and mobile networks protocols
+- secure architectures, frameworks, policy, intrusion detection/awareness
+- proactive security
+- self-* properties and their relation with classical fault-tolerance and
+  security
+- security protocols for self-* systems
+
+Networks and Applications:
+- models of fault-tolerant communication
+- stochastic, physical, and biological models to analyze self-* properties
+- communication complexity
+- data structures for efficient communication
+- self-stabilizing hardware, software, and middleware
+- algorithms for high-speed networks, sensors, wireless and robots networks
+- mobile agents
+- peer-to-peer networks, sensor networks, MANETs, and wireless mesh networks
+- network topologies, overlays, and protocols
+- protocols for secure and reliable data transport and search in wireless
+mesh
+  networks
+- information storage and sharing in wireless mesh networks
+
+
+Contributors are invited to submit a PDF file of their paper.  Submissions
+should be no longer than 4800 words and should not exceed 12 pages on
+letter-size paper using at least 11 point font and reasonable margins (the
+page limit includes all figures, tables, and graphs).  Submissions should
+include a cover page (that does not count towards the 12 page limit) that
+includes paper title, authors and affiliations, contact author's e-mail
+address, an abstract of the work in a few lines, and a few keywords. 
+Submitted
+papers may have appendices beyond the 12 page limit, but reviewers are
+free to
+disregard any material beyond the 12 page limit.  A paper submitted to SSS
+2006
+is expected to be original research not previously published; a submission
+may
+not be concurrently submitted or to any other conference, workshop, or
+journal.
+
+The proceedings of the conference are expected to be published in the
+Springer
+Verlag LNCS series.  Selected papers will appear in a special issue of a high
+quality journal devoted to SSS 2006.
+
+
+
+-- 
+Mip4 mailing list: Mip4@ietf.org
+    Web interface: https://www1.ietf.org/mailman/listinfo/mip4
+     Charter page: http://www.ietf.org/html.charters/mip4-charter.html
+Supplemental site: http://www.mip4.org/
+

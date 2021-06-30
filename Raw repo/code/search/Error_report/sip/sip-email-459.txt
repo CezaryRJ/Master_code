@@ -1,0 +1,48 @@
+Date : ['2007-10-14T17:01:37Z']
+Timezone : +0200
+From : ['Null']
+From-name : ['Null']
+From-address : ['Null']
+Sender : ['Null']
+Sender-name : Null
+Sender-address : Null
+Reply-to : ['Null']
+Reply-to-name : Null
+Reply-to-address : Null
+To : Null
+To-name : Null
+To-address : ['Null']
+Cc : ['Null']
+Cc-name : Null
+Cc-address : Null
+In-Reply-To : ['<0D4E483A0E6E0A46861409E5D6C2011CCF5C86@sea02-mxc01.citel.com>']
+In-Reply-To-name : Null
+In-Reply-To-address :  0D4E483A0E6E0A46861409E5D6C2011CCF5C86@sea02-mxc01.citel.com
+Message-ID : <CA9998CD4A020D418654FCDEF4E707DF027CE870@esealmw113.eemea.ericsson.se>
+References : <6FC4416DDE56C44DA0AEE67BC7CA437116A57D59@zrc2hxm2.corp.nortel.com><C3184CEC.B881%eburger@bea.com><6FC4416DDE56C44DA0AEE67BC7CA437116DFF008@zrc2hxm2.corp.nortel.com><46F7D719.2070004@nostrum.com><0a5401c8005c$a80fad10$800101df@acmepacket.com><46FAA68A.1090408@nostrum.com><0af301c8007c$94d37590$800101df@acmepacket.com><46FAC69C.4070402@nostrum.com><6FC4416DDE56C44DA0AEE67BC7CA437116FF8169@zrc2hxm2.corp.nortel.com><46FAE230.1070807@nostrum.com><6FC4416DDE56C44DA0AEE67BC7CA437116FF8412@zrc2hxm2.corp.nortel.com><46FBAD3D.3090109@nostrum.com><CA9998CD4A020D418654FCDEF4E707DF0237D9B1@esealmw113.eemea.ericsson.se><46FBBA78.7070903@nostrum.com><200709271439.l8REd4LE030665@dragon.ariadne.com><E3F9D87C63E2774390FE67C924EC99BB16E79B0D@zrc2hxm1.corp.nortel.com><46FBD4C0.30601@nostrum.com><6FC4416DDE56C44DA0AEE67BC7CA4371170F0690@zrc2hxm2.corp.nortel.com><F07E7B5E-BD67-4B1B-BFB0-77E8884FA471@softarmor.com><1ECE0EB50388174790F9694F77522CCF12325A94@zrc2hxm0.corp.nortel!!.com>
+	!! ! ! ! < 8F6 5	DB 2 7-41E D-42F
+	3-	97F5-D550C3E72902@softarmor.com><1ECE0EB50388174790F9694F77522CCF1242520C@zrc2hxm0.corp.nortel.com><CA9998CD4A020D418654FCDEF4E707DF026DB106@esealmw113.eemea.ericsson.se><1ECE0EB50388174790F9694F77522CCF1266D01A@zrc2hxm0.corp.nortel.com><CA9998CD4A020D418654FCDEF4E707DFEE081D@esealmw113.eemea.ericsson.se><1ECE0EB50388174790F9694F77522CCF126BD0B2@zrc2hxm0.corp.nortel.com><38CF40C2-19E8-4C83-9B66-DDC2862F1724@softarmor.com><1ECE0EB50388174790F9694F77522CCF127005A1@zrc2hxm0.corp.nortel.com>
+	<80A1B08F-B39F-4CE7-8A15-A187D1A73213@softarmor.com>
+	<0D4E483A0E6E0A46861409E5D6C2011CCF5C86@seHTTP is a transport protocol and is=20
+Comments : ['Null']
+Subject : ["RE: [Sip] Francois' counter to INFO (was Re: What are we arguing\n\taboutwhen we say INFO?)"]
+Mailing-list : sip
+File-location : ['/home/cezaryrj/IETF/ietf.org/mail-archive/text/sip/2007-10.mailcl']
+id : cde52d6f-6319-42b4-9e37-1dc4f156bcd8
+_version_ : 1675128726118989825
+
+Content : 
+
+>protocol-wise completely decoupled from the state of the=20
+>application (see AJAX as an example).
+>=20
+> --
+> Dean
+>=20
+
+
+_______________________________________________
+Sip mailing list  https://www1.ietf.org/mailman/listinfo/sip
+This list is for NEW development of the core SIP Protocol
+Use sip-implementors@cs.columbia.edu for questions on current sip
+Use sipping@ietf.org for new developments on the application of sip

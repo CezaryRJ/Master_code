@@ -1,0 +1,1 @@
+Solr multi valued field des not allow for the same of the same value, aka all values must be distinct
